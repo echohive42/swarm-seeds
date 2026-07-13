@@ -1,0 +1,32 @@
+{
+  "protocol_version": "1.0.0",
+  "frozen_at": "2026-07-13T04:23:58.163Z",
+  "model": "gpt-5.6-luna",
+  "reasoning_arms": [
+    "low",
+    "medium"
+  ],
+  "immutable_files": {
+    "PROTOCOL.md": "eda992c462146a8d31a77f28196fd76c009b5ba3dd2599fd15208c5ee569f9aa",
+    "benchmark/manifest.json": "faa72622d15084d08f139fbf593250c456ac29e3b06328b3381006494a003e71",
+    "scripts/compose_prompt.mjs": "905fc5f82b333a6f289db3ad61ed829e03323717b48a4120aa36a4a8f22bdea3",
+    "scripts/verify_benchmark.mjs": "6d2c72378a5198cffff94b92e31a697701b86db418d4cd718df5f11fa51b8d27",
+    "prompts/COMMON_PREFIX.txt": "11aca7e9c9ae64efcb753cf9f43ac0344301b04ac15c7e3290849def12eafb64",
+    "prompts/CRITIC_EXACTNESS.txt": "90fc5139fe567ca374540017991cf7cf05831dda8d12605fa1064533b922c6f4",
+    "prompts/CRITIC_SIMPLICITY.txt": "680262eb4eadcf483df17a8d5c8ac10998c758f51164df432b6f5c78b2e7d523",
+    "prompts/INDEPENDENT_SOLVER.txt": "0ddf296df1e4de0605f93f9187b27cca480dbb630e51a493ac6e306c08882989",
+    "prompts/JUDGE.txt": "1e1b209ab010f346337dc31dcfcc9cc4e88e0aaae46514464957aaf479fffb70",
+    "prompts/PROPOSER_A.txt": "83ac23e06dca3d51a13a527f882876579de2138be30da9220b687829767fa7e6",
+    "prompts/PROPOSER_B.txt": "4936f7044ecc4fde5317aaf6be551805a0912075dd093d314754910e5476c3ec",
+    "prompts/PROPOSER_C.txt": "c6f0785d0803159f8342af5842907a4abbe9cc28d0fa6b799a5323a477cfab5d",
+    "prompts/PROPOSER_D.txt": "7f9e11b3496a5268a378644f25951bb682134587e067fbaee102c70d2038f9ec",
+    "prompts/PROPOSER_E.txt": "cb904c1ab17b795a544284e54bb2f109ffeb6db581881b04522fdb31e31742cd",
+    "prompts/SCHEMA_CRITIC.txt": "3250f8b4eb157261e61eed91ac6e72e503236f68bd74c72b2bf90c16b396c7dc",
+    "prompts/SCHEMA_JUDGE.txt": "8f3d9c0b5df5169530e471aba1fdb07e8f72d5a55c4b4f71c1bddcc57e82d4b8",
+    "prompts/SCHEMA_SOLVER.txt": "7f760b745af704a71690b515ac764cab81ec2cbb3f9dbea2aedf573768861cfc",
+    "prompts/SCHEMA_VERIFIER.txt": "c79018022ac4c92752b5cdc5fcc97631c0cc73a38aaa1894529e7d58270f3bfe",
+    "prompts/VERIFIER_ARITHMETIC.txt": "a34432406e7dc79edc6b7042a253a497a3a35d9e5b36dbad0605951ec71d3dd7",
+    "prompts/VERIFIER_RULE.txt": "fea6728cb00698ebac1fa8cedbd62f2e1df7822086ae1b74c1996e94572e1865"
+  },
+  "final_thread_count_before_freeze": 0
+}

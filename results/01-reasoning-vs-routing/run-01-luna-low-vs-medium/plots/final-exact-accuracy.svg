@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" role="img" aria-labelledby="title desc">
+  <title id="title">Exact next-three accuracy by reasoning effort and method</title>
+  <desc id="desc">Low reasoning: direct 15.8 percent, ensemble 33.3 percent, collaboration 58.3 percent. Medium reasoning: direct 55.8 percent, ensemble 91.7 percent, collaboration 91.7 percent.</desc>
+  <style>
+    svg { color: CanvasText; background: Canvas; font-family: system-ui, sans-serif; }
+    text { fill: currentColor; }
+    .grid { stroke: currentColor; stroke-opacity: .16; stroke-width: 1; }
+    .tick { opacity: .65; font-size: 14px; text-anchor: end; }
+    .axis-title, .facet, .value { font-weight: 600; }
+    .facet { font-size: 18px; text-anchor: middle; }
+    .value { font-size: 16px; text-anchor: middle; }
+    .method { font-size: 14px; text-anchor: middle; opacity: .75; }
+    .direct { fill: currentColor; fill-opacity: .35; }
+    .ensemble { fill: currentColor; fill-opacity: .65; }
+    .collaboration { fill: currentColor; fill-opacity: .95; }
+  </style>
+  <text class="axis-title" x="26" y="24">Exact next-three accuracy</text>
+  <g aria-hidden="true">
+    <line class="grid" x1="75" y1="390" x2="930" y2="390"/>
+    <line class="grid" x1="75" y1="318" x2="930" y2="318"/>
+    <line class="grid" x1="75" y1="246" x2="930" y2="246"/>
+    <line class="grid" x1="75" y1="174" x2="930" y2="174"/>
+    <line class="grid" x1="75" y1="102" x2="930" y2="102"/>
+    <line class="grid" x1="75" y1="30" x2="930" y2="30"/>
+    <text class="tick" x="65" y="395">0%</text>
+    <text class="tick" x="65" y="323">20%</text>
+    <text class="tick" x="65" y="251">40%</text>
+    <text class="tick" x="65" y="179">60%</text>
+    <text class="tick" x="65" y="107">80%</text>
+    <text class="tick" x="65" y="35">100%</text>
+  </g>
+  <g>
+    <rect class="direct" x="128" y="333.1" width="76" height="56.9" rx="4"/>
+    <rect class="ensemble" x="220" y="270.1" width="76" height="119.9" rx="4"/>
+    <rect class="collaboration" x="312" y="180.1" width="76" height="209.9" rx="4"/>
+    <text class="value" x="166" y="323">15.8%</text>
+    <text class="value" x="258" y="260">33.3%</text>
+    <text class="value" x="350" y="170">58.3%</text>
+    <text class="method" x="166" y="414">Direct</text>
+    <text class="method" x="258" y="414">Ensemble</text>
+    <text class="method" x="350" y="414">Collaboration</text>
+    <text class="facet" x="258" y="452">Low reasoning</text>
+  </g>
+  <g>
+    <rect class="direct" x="580" y="189.1" width="76" height="200.9" rx="4"/>
+    <rect class="ensemble" x="672" y="60.1" width="76" height="329.9" rx="4"/>
+    <rect class="collaboration" x="764" y="60.1" width="76" height="329.9" rx="4"/>
+    <text class="value" x="618" y="179">55.8%</text>
+    <text class="value" x="710" y="50">91.7%</text>
+    <text class="value" x="802" y="50">91.7%</text>
+    <text class="method" x="618" y="414">Direct</text>
+    <text class="method" x="710" y="414">Ensemble</text>
+    <text class="method" x="802" y="414">Collaboration</text>
+    <text class="facet" x="710" y="452">Medium reasoning</text>
+  </g>
+</svg>

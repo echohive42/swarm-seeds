@@ -1,0 +1,461 @@
+{
+  "low": [
+    {
+      "id": "F01",
+      "next_three": [
+        50521,
+        353792,
+        2702765
+      ],
+      "rule": "Bell numbers",
+      "confidence": 99,
+      "votes": 1,
+      "total_valid_votes": 9,
+      "total_calls": 10,
+      "supporting_replicates": [
+        8
+      ]
+    },
+    {
+      "id": "F02",
+      "next_three": [
+        6004,
+        14628,
+        35660
+      ],
+      "rule": "a(n)=2*a(n-1)+a(n-2)",
+      "confidence": 99,
+      "votes": 1,
+      "total_valid_votes": 9,
+      "total_calls": 10,
+      "supporting_replicates": [
+        10
+      ]
+    },
+    {
+      "id": "F03",
+      "next_three": [
+        7385,
+        17909,
+        43203
+      ],
+      "rule": "a(n)=2a(n−1)+a(n−2)",
+      "confidence": 99,
+      "votes": 3,
+      "total_valid_votes": 9,
+      "total_calls": 10,
+      "supporting_replicates": [
+        4,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "F04",
+      "next_three": [
+        2181,
+        5731,
+        15179
+      ],
+      "rule": "a(n)=3a(n-1)-a(n-2)+(-1)^n",
+      "confidence": 35,
+      "votes": 1,
+      "total_valid_votes": 9,
+      "total_calls": 10,
+      "supporting_replicates": [
+        3
+      ]
+    },
+    {
+      "id": "F05",
+      "next_three": [
+        2563110,
+        5327287,
+        11070252
+      ],
+      "rule": "a(n)=2a(n-1)+2^n+(-1)^n n!",
+      "confidence": 18,
+      "votes": 1,
+      "total_valid_votes": 9,
+      "total_calls": 10,
+      "supporting_replicates": [
+        3
+      ]
+    },
+    {
+      "id": "F06",
+      "next_three": [
+        115030868,
+        1380370385,
+        17944815042
+      ],
+      "rule": "a(n)=n·a(n−1)+(-1)^n times the nth prime",
+      "confidence": 96,
+      "votes": 1,
+      "total_valid_votes": 9,
+      "total_calls": 10,
+      "supporting_replicates": [
+        1
+      ]
+    },
+    {
+      "id": "F07",
+      "next_three": [
+        42,
+        729,
+        132
+      ],
+      "rule": "odd positions are Catalan numbers; even positions are powers of 3",
+      "confidence": 99,
+      "votes": 8,
+      "total_valid_votes": 8,
+      "total_calls": 10,
+      "supporting_replicates": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ]
+    },
+    {
+      "id": "F08",
+      "next_three": [
+        259705,
+        779370,
+        2338621
+      ],
+      "rule": "a(n)=3*a(n-1)+2^n-1",
+      "confidence": 98,
+      "votes": 1,
+      "total_valid_votes": 9,
+      "total_calls": 10,
+      "supporting_replicates": [
+        6
+      ]
+    },
+    {
+      "id": "F09",
+      "next_three": [
+        161072,
+        248855,
+        371318
+      ],
+      "rule": "a(n)=n^5+2n-1",
+      "confidence": 99,
+      "votes": 1,
+      "total_valid_votes": 9,
+      "total_calls": 10,
+      "supporting_replicates": [
+        10
+      ]
+    },
+    {
+      "id": "F10",
+      "next_three": [
+        28296,
+        37557,
+        48205
+      ],
+      "rule": "Each difference is the cube of successive composite integers",
+      "confidence": 41.5,
+      "votes": 2,
+      "total_valid_votes": 9,
+      "total_calls": 10,
+      "supporting_replicates": [
+        2,
+        6
+      ]
+    },
+    {
+      "id": "F11",
+      "next_three": [
+        14484,
+        29069,
+        58262
+      ],
+      "rule": "a(n)=2a(n-1)+2^{n-1}+(-1)^n",
+      "confidence": 33,
+      "votes": 1,
+      "total_valid_votes": 9,
+      "total_calls": 10,
+      "supporting_replicates": [
+        3
+      ]
+    },
+    {
+      "id": "F12",
+      "next_three": [
+        2357947691,
+        61917364224,
+        1792160394037
+      ],
+      "rule": "a(n)=n^(n-2)",
+      "confidence": 99.28571428571429,
+      "votes": 7,
+      "total_valid_votes": 9,
+      "total_calls": 10,
+      "supporting_replicates": [
+        3,
+        4,
+        6,
+        1,
+        5,
+        10,
+        2
+      ]
+    }
+  ],
+  "medium": [
+    {
+      "id": "F01",
+      "next_three": [
+        50521,
+        353792,
+        2702765
+      ],
+      "rule": "Euler up/down (zigzag) numbers",
+      "confidence": 86.4,
+      "votes": 5,
+      "total_valid_votes": 10,
+      "total_calls": 10,
+      "supporting_replicates": [
+        6,
+        10,
+        9,
+        8,
+        1
+      ]
+    },
+    {
+      "id": "F02",
+      "next_three": [
+        9496,
+        35696,
+        140152
+      ],
+      "rule": "Involution numbers: a(n)=a(n-1)+(n-1)a(n-2)",
+      "confidence": 99.33333333333333,
+      "votes": 6,
+      "total_valid_votes": 10,
+      "total_calls": 10,
+      "supporting_replicates": [
+        6,
+        10,
+        2,
+        3,
+        5,
+        9
+      ]
+    },
+    {
+      "id": "F03",
+      "next_three": [
+        8491,
+        23259,
+        63499
+      ],
+      "rule": "a(n)=2a(n-1)+2a(n-2)-1",
+      "confidence": 100,
+      "votes": 1,
+      "total_valid_votes": 10,
+      "total_calls": 10,
+      "supporting_replicates": [
+        10
+      ]
+    },
+    {
+      "id": "F04",
+      "next_three": [
+        2188,
+        5798,
+        15511
+      ],
+      "rule": "Motzkin numbers",
+      "confidence": 99.5,
+      "votes": 4,
+      "total_valid_votes": 10,
+      "total_calls": 10,
+      "supporting_replicates": [
+        6,
+        10,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "F05",
+      "next_three": [
+        2170810,
+        4044971,
+        6870732
+      ],
+      "rule": "Start at 16 and add successive prime fourth powers: 3^4,5^4,7^4,...",
+      "confidence": 99,
+      "votes": 5,
+      "total_valid_votes": 10,
+      "total_calls": 10,
+      "supporting_replicates": [
+        1,
+        2,
+        3,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "F06",
+      "next_three": [
+        115030808,
+        1380369733,
+        17944806488
+      ],
+      "rule": "Multiply by n and alternately add/subtract consecutive primes",
+      "confidence": 98.2,
+      "votes": 5,
+      "total_valid_votes": 10,
+      "total_calls": 10,
+      "supporting_replicates": [
+        3,
+        6,
+        9,
+        4,
+        10
+      ]
+    },
+    {
+      "id": "F07",
+      "next_three": [
+        42,
+        729,
+        132
+      ],
+      "rule": "Odd positions are Catalan numbers; even positions are powers of 3",
+      "confidence": 99.33333333333333,
+      "votes": 9,
+      "total_valid_votes": 10,
+      "total_calls": 10,
+      "supporting_replicates": [
+        4,
+        6,
+        7,
+        1,
+        2,
+        3,
+        5,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "F08",
+      "next_three": [
+        261625,
+        788970,
+        2375101
+      ],
+      "rule": "a(n)=3a(n-1)+2^(n+1)-1",
+      "confidence": 99.125,
+      "votes": 8,
+      "total_valid_votes": 10,
+      "total_calls": 10,
+      "supporting_replicates": [
+        6,
+        7,
+        1,
+        3,
+        4,
+        9,
+        10,
+        5
+      ]
+    },
+    {
+      "id": "F09",
+      "next_three": [
+        161082,
+        248869,
+        371334
+      ],
+      "rule": "a(n)=n^5 plus the nth prime",
+      "confidence": 99.42857142857143,
+      "votes": 7,
+      "total_valid_votes": 10,
+      "total_calls": 10,
+      "supporting_replicates": [
+        4,
+        6,
+        7,
+        1,
+        3,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "F10",
+      "next_three": [
+        28296,
+        37557,
+        48205
+      ],
+      "rule": "Start with 4^3, then cumulatively add cubes of successive composite integers",
+      "confidence": 97.125,
+      "votes": 8,
+      "total_valid_votes": 10,
+      "total_calls": 10,
+      "supporting_replicates": [
+        2,
+        6,
+        7,
+        10,
+        9,
+        4,
+        5,
+        1
+      ]
+    },
+    {
+      "id": "F11",
+      "next_three": [
+        14506,
+        29157,
+        58482
+      ],
+      "rule": "a(n)=2a(n-1)+n^2+(-1)^n",
+      "confidence": 96.66666666666667,
+      "votes": 3,
+      "total_valid_votes": 10,
+      "total_calls": 10,
+      "supporting_replicates": [
+        10,
+        3,
+        7
+      ]
+    },
+    {
+      "id": "F12",
+      "next_three": [
+        2357947691,
+        61917364224,
+        1792160394037
+      ],
+      "rule": "a(n)=n^(n-2)",
+      "confidence": 99.5,
+      "votes": 6,
+      "total_valid_votes": 10,
+      "total_calls": 10,
+      "supporting_replicates": [
+        4,
+        6,
+        10,
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

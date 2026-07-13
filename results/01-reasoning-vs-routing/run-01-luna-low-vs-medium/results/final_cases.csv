@@ -1,0 +1,289 @@
+split,arm,method,case_id,replicate,predicted_1,predicted_2,predicted_3,prediction_count,shape_valid,expected_1,expected_2,expected_3,correct_terms,term_accuracy,exact_triplet,rule_score,confidence,calibration_score,rule,source
+final,low,direct,F01,1,52507,390208,3194561,3,1,50521,353792,2702765,0,0.000000,0,0,0.0800,0.993600,a(n)=n·a(n−1)+the previous term's factorial-weighted correction,final-low-independent-r01
+final,low,direct,F02,1,9224,32936,119012,3,1,9496,35696,140152,0,0.000000,0,0,0.1000,0.990000,linear recurrence with coefficients inferred from the prefix,final-low-independent-r01
+final,low,direct,F03,1,8911,25335,72147,3,1,8953,25653,73789,0,0.000000,0,0,0.0800,0.993600,approximately tripling linear recurrence,final-low-independent-r01
+final,low,direct,F04,1,2187,5795,15435,3,1,2188,5798,15511,0,0.000000,0,0,0.1000,0.990000,linear recurrence with exponentially growing correction,final-low-independent-r01
+final,low,direct,F05,1,2521146,5104291,10338772,3,1,2170810,4044971,6870732,0,0.000000,0,0,0.0500,0.997500,piecewise polynomial recurrence,final-low-independent-r01
+final,low,direct,F06,1,115030868,1380370385,17944815042,3,1,115030808,1380369733,17944806488,0,0.000000,0,1,0.9600,0.078400,a(n)=n·a(n−1)+(-1)^n times the nth prime,final-low-independent-r01
+final,low,direct,F07,1,42,729,132,3,1,42,729,132,3,1.000000,1,0,0.9900,0.999900,odd positions are Catalan numbers; even positions are powers of 3,final-low-independent-r01
+final,low,direct,F08,1,261625,788970,2375101,3,1,261625,788970,2375101,3,1.000000,1,0,0.9500,0.997500,successive differences satisfy d(n)=3d(n−1)+2^(n−1),final-low-independent-r01
+final,low,direct,F09,1,164199,260197,399999,3,1,161082,248869,371334,0,0.000000,0,0,0.1200,0.985600,fifth-degree polynomial-like growth,final-low-independent-r01
+final,low,direct,F10,1,26464,33856,42624,3,1,28296,37557,48205,0,0.000000,0,0,0.1500,0.977500,polynomial recurrence with increasing second differences,final-low-independent-r01
+final,low,direct,F11,1,14482,29071,58344,3,1,14506,29157,58482,0,0.000000,0,0,0.2000,0.960000,doubling recurrence with alternating quadratic correction,final-low-independent-r01
+final,low,direct,F12,1,2357947691,61917364224,1792160394037,3,1,2357947691,61917364224,1792160394037,3,1.000000,1,0,0.9900,0.999900,a(n)=n^(n−2),final-low-independent-r01
+final,low,direct,F01,2,48639,329812,2457241,3,1,50521,353792,2702765,0,0.000000,0,0,0.1200,0.985600,Recurrence a(n)=n*a(n-1)+sum_{k=1}^{n-1} a(k),final-low-independent-r02
+final,low,direct,F02,2,8950,30700,106000,3,1,9496,35696,140152,0,0.000000,0,0,0.0800,0.993600,Linear recurrence with slowly growing inhomogeneous correction,final-low-independent-r02
+final,low,direct,F03,2,8923,25483,72931,3,1,8953,25653,73789,0,0.000000,0,0,0.1000,0.990000,Alternating near-tripling recurrence,final-low-independent-r02
+final,low,direct,F04,2,2187,5791,15443,3,1,2188,5798,15511,0,0.000000,0,0,0.1100,0.987900,Second-order recurrence with near-2.6 growth,final-low-independent-r02
+final,low,direct,F05,2,2973640,7218183,17533722,3,1,2170810,4044971,6870732,0,0.000000,0,0,0.0500,0.997500,Piecewise polynomial-exponential recurrence,final-low-independent-r02
+final,low,direct,F06,2,115031848,1380382177,17944968298,3,1,115030808,1380369733,17944806488,0,0.000000,0,0,0.0700,0.995100,Multiplication by the index with increasing correction,final-low-independent-r02
+final,low,direct,F07,2,42,729,132,3,1,42,729,132,3,1.000000,1,0,0.9900,0.999900,Odd terms are Catalan numbers; even terms are powers of 3,final-low-independent-r02
+final,low,direct,F08,2,261901,790626,2386489,3,1,261625,788970,2375101,0,0.000000,0,0,0.0900,0.991900,Linear recurrence with dominant ratio near 3,final-low-independent-r02
+final,low,direct,F09,2,151584,217827,298624,3,1,161082,248869,371334,0,0.000000,0,0,0.1400,0.980400,Polynomial growth with increasing finite differences,final-low-independent-r02
+final,low,direct,F10,2,28296,37557,48205,3,1,28296,37557,48205,3,1.000000,1,0,0.4800,0.729600,Each difference is the cube of successive composite integers,final-low-independent-r02
+final,low,direct,F11,2,14488,29083,58274,3,1,14506,29157,58482,0,0.000000,0,0,0.0900,0.991900,Near-doubling recurrence with growing correction,final-low-independent-r02
+final,low,direct,F12,2,2357947691,61917364224,1792160394037,3,1,2357947691,61917364224,1792160394037,3,1.000000,1,1,0.9800,0.999600,"From the third term onward, the nth term is n^(n-2)",final-low-independent-r02
+final,low,direct,F01,3,51521,386593,3212569,3,1,50521,353792,2702765,0,0.000000,0,0,0.5200,0.729600,a(n)=n! times the nth partial sum of 1/k!,final-low-independent-r03
+final,low,direct,F02,3,9244,33476,123780,3,1,9496,35696,140152,0,0.000000,0,0,0.3800,0.855600,a(n)=2a(n-1)+2a(n-2)+a(n-3),final-low-independent-r03
+final,low,direct,F03,3,8931,25507,72907,3,1,8953,25653,73789,0,0.000000,0,0,0.3100,0.903900,a(n)=3a(n-1)-2a(n-2)+2a(n-3),final-low-independent-r03
+final,low,direct,F04,3,2181,5731,15179,3,1,2188,5798,15511,0,0.000000,0,0,0.3500,0.877500,a(n)=3a(n-1)-a(n-2)+(-1)^n,final-low-independent-r03
+final,low,direct,F05,3,2563110,5327287,11070252,3,1,2170810,4044971,6870732,0,0.000000,0,0,0.1800,0.967600,a(n)=2a(n-1)+2^n+(-1)^n n!,final-low-independent-r03
+final,low,direct,F06,3,115030843,1380370207,17944812691,3,1,115030808,1380369733,17944806488,0,0.000000,0,0,0.2400,0.942400,a(n)=n a(n-1)+n!+(-1)^n,final-low-independent-r03
+final,low,direct,F07,3,42,729,132,4,0,42,729,132,3,1.000000,0,0,1.0000,0.000000,Odd terms are Catalan numbers; even terms are powers of 3,final-low-independent-r03
+final,low,direct,F08,3,261781,789930,2377741,3,1,261625,788970,2375101,0,0.000000,0,0,0.2700,0.927100,a(n)=3a(n-1)-3a(n-2)+a(n-3)+2^n,final-low-independent-r03
+final,low,direct,F09,3,148483,207831,283491,3,1,161082,248869,371334,0,0.000000,0,0,0.2100,0.955900,a(n)=n^5+n^3-n^2+1,final-low-independent-r03
+final,low,direct,F10,3,25793,32449,39817,3,1,28296,37557,48205,0,0.000000,0,0,0.2900,0.915900,a(n)=a(n-1)+2n^3-5n^2+7n-3,final-low-independent-r03
+final,low,direct,F11,3,14484,29069,58262,3,1,14506,29157,58482,0,0.000000,0,0,0.3300,0.891100,a(n)=2a(n-1)+2^{n-1}+(-1)^n,final-low-independent-r03
+final,low,direct,F12,3,2357947691,61917364224,1792160394037,3,1,2357947691,61917364224,1792160394037,3,1.000000,1,1,1.0000,1.000000,a(n)=n^(n-2),final-low-independent-r03
+final,low,direct,F01,4,47805,322957,2395027,3,1,50521,353792,2702765,0,0.000000,0,0,0.0800,0.993600,a(n)=n·a(n−1)+sum_{k=1}^{n−1} k!,final-low-independent-r04
+final,low,direct,F02,4,9280,33784,125312,3,1,9496,35696,140152,0,0.000000,0,0,0.1200,0.985600,Linear recurrence with compact integer coefficients fitted to the prefix,final-low-independent-r04
+final,low,direct,F03,4,7385,17909,43203,3,1,8953,25653,73789,0,0.000000,0,0,0.9900,0.019900,a(n)=2a(n−1)+a(n−2),final-low-independent-r04
+final,low,direct,F04,4,2195,5811,15403,3,1,2188,5798,15511,0,0.000000,0,0,0.1800,0.967600,Second-order near-tripling recurrence,final-low-independent-r04
+final,low,direct,F05,4,2784234,6201563,13811762,3,1,2170810,4044971,6870732,0,0.000000,0,0,0.0700,0.995100,Piecewise polynomial recurrence suggested by successive differences,final-low-independent-r04
+final,low,direct,F06,4,115030850,1380370207,17944812691,3,1,115030808,1380369733,17944806488,0,0.000000,0,0,0.1000,0.990000,Multiplicative recurrence with growing integer multiplier,final-low-independent-r04
+final,low,direct,F07,4,42,729,132,3,1,42,729,132,3,1.000000,1,0,0.9900,0.999900,Odd terms are Catalan numbers; even terms are powers of 3,final-low-independent-r04
+final,low,direct,F08,4,260941,784866,2359393,3,1,261625,788970,2375101,0,0.000000,0,0,0.1500,0.977500,Approximately tripling recurrence with exponentially growing correction,final-low-independent-r04
+final,low,direct,F09,4,159981,241135,345511,3,1,161082,248869,371334,0,0.000000,0,0,0.2000,0.960000,Polynomial-growth sequence with increasing finite differences,final-low-independent-r04
+final,low,direct,F10,4,24971,30871,38752,3,1,28296,37557,48205,0,0.000000,0,0,0.3500,0.877500,Successive differences are selected cubes,final-low-independent-r04
+final,low,direct,F11,4,14498,29099,58306,3,1,14506,29157,58482,0,0.000000,0,0,0.1300,0.983100,Approximately doubling recurrence with increasing correction,final-low-independent-r04
+final,low,direct,F12,4,2357947691,61917364224,1792160394037,3,1,2357947691,61917364224,1792160394037,3,1.000000,1,0,1.0000,1.000000,a(n)=n^(n−2),final-low-independent-r04
+final,low,direct,F01,5,115975,678570,4213597,3,1,50521,353792,2702765,0,0.000000,0,0,0.9900,0.019900,"Bell numbers B10, B11, B12",final-low-independent-r05
+final,low,direct,F02,5,9044,32060,117136,3,1,9496,35696,140152,0,0.000000,0,0,0.2200,0.951600,Integer sequence continuation by its compact linear recurrence,final-low-independent-r05
+final,low,direct,F03,5,8907,25315,72123,3,1,8953,25653,73789,0,0.000000,0,0,0.2000,0.960000,Integer sequence continuation by its compact linear recurrence,final-low-independent-r05
+final,low,direct,F04,5,2181,5749,15363,3,1,2188,5798,15511,0,0.000000,0,0,0.2400,0.942400,Integer sequence continuation by its compact linear recurrence,final-low-independent-r05
+final,low,direct,F05,5,2531610,5148611,10442292,3,1,2170810,4044971,6870732,0,0.000000,0,0,0.1500,0.977500,Integer sequence continuation by its compact polynomial recurrence,final-low-independent-r05
+final,low,direct,F06,5,115031846,1380382151,17944967966,3,1,115030808,1380369733,17944806488,0,0.000000,0,0,0.1200,0.985600,Integer sequence continuation by its compact recurrence,final-low-independent-r05
+final,low,direct,F07,5,42,729,132,3,1,42,729,132,3,1.000000,1,0,0.9900,0.999900,Odd-positioned terms are Catalan numbers; even-positioned terms are powers of 3,final-low-independent-r05
+final,low,direct,F08,5,261126,786450,2367766,3,1,261625,788970,2375101,0,0.000000,0,0,0.1800,0.967600,Integer sequence continuation by its compact linear recurrence,final-low-independent-r05
+final,low,direct,F09,5,145435,203687,274859,3,1,161082,248869,371334,0,0.000000,0,0,0.1500,0.977500,Integer sequence continuation by its compact polynomial recurrence,final-low-independent-r05
+final,low,direct,F10,5,19897,26833,35617,3,1,28296,37557,48205,0,0.000000,0,0,0.1400,0.980400,Integer sequence continuation by its compact polynomial recurrence,final-low-independent-r05
+final,low,direct,F11,5,14476,29097,58398,3,1,14506,29157,58482,0,0.000000,0,0,0.1700,0.971100,Integer sequence continuation by its compact linear recurrence,final-low-independent-r05
+final,low,direct,F12,5,2357947691,61917364224,1792160394037,3,1,2357947691,61917364224,1792160394037,3,1.000000,1,1,0.9900,0.999900,a_n=n^(n-2),final-low-independent-r05
+final,low,direct,F01,6,50521,373504,3111553,3,1,50521,353792,2702765,1,0.333333,0,0,0.1200,0.985600,a(n)=n*a(n-1)+sum_{k=1}^{n-2} k!,final-low-independent-r06
+final,low,direct,F02,6,9214,33442,122614,3,1,9496,35696,140152,0,0.000000,0,0,0.0800,0.993600,a(n)=3*a(n-1)-a(n-2)+(-1)^n*n,final-low-independent-r06
+final,low,direct,F03,6,8915,25403,72475,3,1,8953,25653,73789,0,0.000000,0,0,0.0500,0.997500,a(n)=3*a(n-1)-a(n-2)-correction(n),final-low-independent-r06
+final,low,direct,F04,6,2187,5747,15243,3,1,2188,5798,15511,0,0.000000,0,0,0.0500,0.997500,a(n)=3*a(n-1)-a(n-2)+increasing correction,final-low-independent-r06
+final,low,direct,F05,6,2819902,6389733,14600004,3,1,2170810,4044971,6870732,0,0.000000,0,0,0.0300,0.999100,interleaved polynomial-growth recurrence,final-low-independent-r06
+final,low,direct,F06,6,115030844,1380369931,17944809004,3,1,115030808,1380369733,17944806488,0,0.000000,0,0,0.0400,0.998400,a(n)=n*a(n-1)+structured lower-order terms,final-low-independent-r06
+final,low,direct,F07,6,42,729,132,3,1,42,729,132,3,1.000000,1,0,0.9900,0.999900,odd-indexed terms are Catalan numbers; even-indexed terms are powers of 3,final-low-independent-r06
+final,low,direct,F08,6,259705,779370,2338621,3,1,261625,788970,2375101,0,0.000000,0,0,0.9800,0.039600,a(n)=3*a(n-1)+2^n-1,final-low-independent-r06
+final,low,direct,F09,6,149952,211067,286563,3,1,161082,248869,371334,0,0.000000,0,0,0.1800,0.967600,finite-difference polynomial continuation,final-low-independent-r06
+final,low,direct,F10,6,28296,37557,48205,3,1,28296,37557,48205,3,1.000000,1,0,0.3500,0.577500,"successive increments are cubes with roots following the repeating 2,1,1,2 pattern",final-low-independent-r06
+final,low,direct,F11,6,14478,29099,58342,3,1,14506,29157,58482,0,0.000000,0,0,0.0700,0.995100,approximately doubling with an alternating additive recurrence,final-low-independent-r06
+final,low,direct,F12,6,2357947691,61917364224,1792160394037,3,1,2357947691,61917364224,1792160394037,3,1.000000,1,1,1.0000,1.000000,a(n)=n^(n-2),final-low-independent-r06
+final,low,direct,F01,7,353792,2702765,22368256,3,1,50521,353792,2702765,0,0.000000,0,1,0.9900,0.019900,Euler zigzag (up/down) numbers,final-low-independent-r07
+final,low,direct,F02,7,7096,18668,48908,3,1,9496,35696,140152,0,0.000000,0,0,0.9900,0.019900,a(n)=3a(n-1)-a(n-2),final-low-independent-r07
+final,low,direct,F03,7,7385,17909,43203,3,1,8953,25653,73789,0,0.000000,0,0,0.9900,0.019900,a(n)=2a(n-1)+a(n-2),final-low-independent-r07
+final,low,direct,F04,7,2187,5835,15603,3,1,2188,5798,15511,0,0.000000,0,0,0.1800,0.967600,approximately cubic-growth recurrence inferred from the prefix,final-low-independent-r07
+final,low,direct,F05,7,2530120,5138901,10439982,3,1,2170810,4044971,6870732,0,0.000000,0,0,0.1200,0.985600,compact nonlinear recurrence inferred from the prefix,final-low-independent-r07
+final,low,direct,F06,7,115030834,1380369997,17944809968,3,1,115030808,1380369733,17944806488,0,0.000000,0,0,0.1500,0.977500,multiplicative recurrence with increasing coefficients,final-low-independent-r07
+final,low,direct,F07,7,42,729,132,3,1,42,729,132,3,1.000000,1,0,0.9900,0.999900,odd terms are Catalan numbers; even terms are powers of 3,final-low-independent-r07
+final,low,direct,F08,7,261901,789410,2379117,3,1,261625,788970,2375101,0,0.000000,0,0,0.2200,0.951600,near-tripling recurrence inferred from the prefix,final-low-independent-r07
+final,low,direct,F09,7,160295,243379,352947,3,1,161082,248869,371334,0,0.000000,0,0,0.1500,0.977500,polynomial-growth sequence inferred from the prefix,final-low-independent-r07
+final,low,direct,F10,7,22912,25920,29400,3,1,28296,37557,48205,0,0.000000,0,0,0.2000,0.960000,cubic-increment pattern inferred from the prefix,final-low-independent-r07
+final,low,direct,F11,7,14491,29102,58321,3,1,14506,29157,58482,0,0.000000,0,0,0.1800,0.967600,near-doubling recurrence inferred from the prefix,final-low-independent-r07
+final,low,direct,F12,7,25937424601,743008370688,23298085122481,3,1,2357947691,61917364224,1792160394037,0,0.000000,0,0,0.9900,0.019900,a(n)=n^(n-1),final-low-independent-r07
+final,low,direct,F01,8,50521,353792,2702765,3,1,50521,353792,2702765,3,1.000000,1,0,0.9900,0.999900,Bell numbers,final-low-independent-r08
+final,low,direct,F02,8,9348,34144,128252,3,1,9496,35696,140152,0,0.000000,0,0,0.1800,0.967600,Recurrence a(n)=approximately 3a(n-1)-a(n-2) with growing correction,final-low-independent-r08
+final,low,direct,F03,8,7385,17909,43203,3,1,8953,25653,73789,0,0.000000,0,0,0.9900,0.019900,a(n)=2a(n-1)+a(n-2),final-low-independent-r08
+final,low,direct,F04,8,2187,5797,15603,3,1,2188,5798,15511,0,0.000000,0,0,0.2200,0.951600,Compact linear recurrence extrapolation,final-low-independent-r08
+final,low,direct,F05,8,2789584,6411657,14924370,3,1,2170810,4044971,6870732,0,0.000000,0,0,0.1200,0.985600,Interleaved nonlinear recurrence extrapolation,final-low-independent-r08
+final,low,direct,F06,8,115030000,1380360001,17944680002,3,1,115030808,1380369733,17944806488,0,0.000000,0,0,0.1000,0.990000,Rapidly accelerating factorial-like recurrence,final-low-independent-r08
+final,low,direct,F07,8,42,729,132,3,1,42,729,132,3,1.000000,1,0,0.9900,0.999900,Odd terms are Catalan numbers; even terms are powers of 3,final-low-independent-r08
+final,low,direct,F08,8,260905,784650,2354213,3,1,261625,788970,2375101,0,0.000000,0,0,0.2000,0.960000,Exponential linear recurrence extrapolation,final-low-independent-r08
+final,low,direct,F09,8,160328,247995,370880,3,1,161082,248869,371334,0,0.000000,0,0,0.1500,0.977500,Polynomial-growth recurrence extrapolation,final-low-independent-r08
+final,low,direct,F10,8,27945,37644,49920,3,1,28296,37557,48205,0,0.000000,0,0,0.1800,0.967600,Polynomial-growth recurrence extrapolation,final-low-independent-r08
+final,low,direct,F11,8,14499,29111,58313,3,1,14506,29157,58482,0,0.000000,0,0,0.2000,0.960000,Near-doubling linear recurrence extrapolation,final-low-independent-r08
+final,low,direct,F12,8,25937424601,743008370688,23298085122481,3,1,2357947691,61917364224,1792160394037,0,0.000000,0,0,0.9900,0.019900,Term n is n^(n-1),final-low-independent-r08
+final,low,direct,F01,9,NaN,NaN,NaN,0,0,50521,353792,2702765,0,0.000000,0,0,0.0000,1.000000,,final-low-independent-r09
+final,low,direct,F02,9,NaN,NaN,NaN,0,0,9496,35696,140152,0,0.000000,0,0,0.0000,1.000000,,final-low-independent-r09
+final,low,direct,F03,9,NaN,NaN,NaN,0,0,8953,25653,73789,0,0.000000,0,0,0.0000,1.000000,,final-low-independent-r09
+final,low,direct,F04,9,NaN,NaN,NaN,0,0,2188,5798,15511,0,0.000000,0,0,0.0000,1.000000,,final-low-independent-r09
+final,low,direct,F05,9,NaN,NaN,NaN,0,0,2170810,4044971,6870732,0,0.000000,0,0,0.0000,1.000000,,final-low-independent-r09
+final,low,direct,F06,9,NaN,NaN,NaN,0,0,115030808,1380369733,17944806488,0,0.000000,0,0,0.0000,1.000000,,final-low-independent-r09
+final,low,direct,F07,9,NaN,NaN,NaN,0,0,42,729,132,0,0.000000,0,0,0.0000,1.000000,,final-low-independent-r09
+final,low,direct,F08,9,NaN,NaN,NaN,0,0,261625,788970,2375101,0,0.000000,0,0,0.0000,1.000000,,final-low-independent-r09
+final,low,direct,F09,9,NaN,NaN,NaN,0,0,161082,248869,371334,0,0.000000,0,0,0.0000,1.000000,,final-low-independent-r09
+final,low,direct,F10,9,NaN,NaN,NaN,0,0,28296,37557,48205,0,0.000000,0,0,0.0000,1.000000,,final-low-independent-r09
+final,low,direct,F11,9,NaN,NaN,NaN,0,0,14506,29157,58482,0,0.000000,0,0,0.0000,1.000000,,final-low-independent-r09
+final,low,direct,F12,9,NaN,NaN,NaN,0,0,2357947691,61917364224,1792160394037,0,0.000000,0,0,0.0000,1.000000,,final-low-independent-r09
+final,low,direct,F01,10,49681,346035,2768281,3,1,50521,353792,2702765,0,0.000000,0,0,0.1800,0.967600,a(n)=n*a(n-1)+sum_{k=1}^{n-2} a(k),final-low-independent-r10
+final,low,direct,F02,10,6004,14628,35660,3,1,9496,35696,140152,0,0.000000,0,0,0.9900,0.019900,a(n)=2*a(n-1)+a(n-2),final-low-independent-r10
+final,low,direct,F03,10,3069,8493,23517,3,1,8953,25653,73789,0,0.000000,0,0,0.9900,0.019900,a(n)=3*a(n-1)-a(n-2)+a(n-3),final-low-independent-r10
+final,low,direct,F04,10,2181,5741,15147,3,1,2188,5798,15511,0,0.000000,0,0,0.1200,0.985600,linear recurrence with increasing correction terms,final-low-independent-r10
+final,low,direct,F05,10,2539750,5208541,10700376,3,1,2170810,4044971,6870732,0,0.000000,0,0,0.0800,0.993600,alternating polynomial recurrence,final-low-independent-r10
+final,low,direct,F06,10,115031844,1495413973,20935885500,3,1,115030808,1380369733,17944806488,0,0.000000,0,0,0.1000,0.990000,multiplicative recurrence with index-dependent multiplier,final-low-independent-r10
+final,low,direct,F07,10,42,729,132,3,1,42,729,132,3,1.000000,1,0,0.9900,0.999900,odd terms are Catalan numbers; even terms are powers of 3,final-low-independent-r10
+final,low,direct,F08,10,260485,779970,2329453,3,1,261625,788970,2375101,0,0.000000,0,0,0.1500,0.977500,linear recurrence with constant coefficients,final-low-independent-r10
+final,low,direct,F09,10,161072,248855,371318,3,1,161082,248869,371334,0,0.000000,0,0,0.9900,0.019900,a(n)=n^5+2n-1,final-low-independent-r10
+final,low,direct,F10,10,26001,32768,40489,3,1,28296,37557,48205,0,0.000000,0,0,0.2000,0.960000,cumulative sequence of selected cubes,final-low-independent-r10
+final,low,direct,F11,10,14494,29149,58596,3,1,14506,29157,58482,0,0.000000,0,0,0.1400,0.980400,approximately doubling with an index-dependent correction,final-low-independent-r10
+final,low,direct,F12,10,2357947691,61917364224,1792160394037,3,1,2357947691,61917364224,1792160394037,3,1.000000,1,1,0.9900,0.999900,"a(n)=n^(n-2), for n>=3",final-low-independent-r10
+final,low,ensemble,F01,,50521,353792,2702765,3,1,50521,353792,2702765,3,1.000000,1,0,0.9900,0.999900,Bell numbers,plurality 1/9 valid from 10 calls
+final,low,ensemble,F02,,6004,14628,35660,3,1,9496,35696,140152,0,0.000000,0,0,0.9900,0.019900,a(n)=2*a(n-1)+a(n-2),plurality 1/9 valid from 10 calls
+final,low,ensemble,F03,,7385,17909,43203,3,1,8953,25653,73789,0,0.000000,0,0,0.9900,0.019900,a(n)=2a(n−1)+a(n−2),plurality 3/9 valid from 10 calls
+final,low,ensemble,F04,,2181,5731,15179,3,1,2188,5798,15511,0,0.000000,0,0,0.3500,0.877500,a(n)=3a(n-1)-a(n-2)+(-1)^n,plurality 1/9 valid from 10 calls
+final,low,ensemble,F05,,2563110,5327287,11070252,3,1,2170810,4044971,6870732,0,0.000000,0,0,0.1800,0.967600,a(n)=2a(n-1)+2^n+(-1)^n n!,plurality 1/9 valid from 10 calls
+final,low,ensemble,F06,,115030868,1380370385,17944815042,3,1,115030808,1380369733,17944806488,0,0.000000,0,1,0.9600,0.078400,a(n)=n·a(n−1)+(-1)^n times the nth prime,plurality 1/9 valid from 10 calls
+final,low,ensemble,F07,,42,729,132,3,1,42,729,132,3,1.000000,1,0,0.9900,0.999900,odd positions are Catalan numbers; even positions are powers of 3,plurality 8/8 valid from 10 calls
+final,low,ensemble,F08,,259705,779370,2338621,3,1,261625,788970,2375101,0,0.000000,0,0,0.9800,0.039600,a(n)=3*a(n-1)+2^n-1,plurality 1/9 valid from 10 calls
+final,low,ensemble,F09,,161072,248855,371318,3,1,161082,248869,371334,0,0.000000,0,0,0.9900,0.019900,a(n)=n^5+2n-1,plurality 1/9 valid from 10 calls
+final,low,ensemble,F10,,28296,37557,48205,3,1,28296,37557,48205,3,1.000000,1,0,0.4150,0.657775,Each difference is the cube of successive composite integers,plurality 2/9 valid from 10 calls
+final,low,ensemble,F11,,14484,29069,58262,3,1,14506,29157,58482,0,0.000000,0,0,0.3300,0.891100,a(n)=2a(n-1)+2^{n-1}+(-1)^n,plurality 1/9 valid from 10 calls
+final,low,ensemble,F12,,2357947691,61917364224,1792160394037,3,1,2357947691,61917364224,1792160394037,3,1.000000,1,1,0.9929,0.999949,a(n)=n^(n-2),plurality 7/9 valid from 10 calls
+final,low,collaboration,F01,,50521,353792,2702765,3,1,50521,353792,2702765,3,1.000000,1,1,1.0000,1.000000,Euler zigzag numbers,final-low-judge-judge
+final,low,collaboration,F02,,9496,35696,140152,3,1,9496,35696,140152,3,1.000000,1,1,1.0000,1.000000,Involution numbers: a(n)=a(n-1)+(n-1)a(n-2),final-low-judge-judge
+final,low,collaboration,F03,,8311,21894,57371,3,1,8953,25653,73789,0,0.000000,0,0,0.8500,0.277500,a(n)=3a(n-1)-a(n-2)+(-1)^n,final-low-judge-judge
+final,low,collaboration,F04,,2188,5798,15511,3,1,2188,5798,15511,3,1.000000,1,1,1.0000,1.000000,Motzkin numbers,final-low-judge-judge
+final,low,collaboration,F05,,2794482,6313847,14082096,3,1,2170810,4044971,6870732,0,0.000000,0,0,0.2000,0.960000,Alternating index-weighted recurrence,final-low-judge-judge
+final,low,collaboration,F06,,115030808,1380369733,17944806488,3,1,115030808,1380369733,17944806488,3,1.000000,1,1,1.0000,1.000000,a(n)=n*a(n-1)+(-1)^n times the nth prime,final-low-judge-judge
+final,low,collaboration,F07,,42,729,132,3,1,42,729,132,3,1.000000,1,1,1.0000,1.000000,Interleaved Catalan numbers and powers of three,final-low-judge-judge
+final,low,collaboration,F08,,260601,783850,2355645,3,1,261625,788970,2375101,0,0.000000,0,0,1.0000,0.000000,a(n)=3a(n-1)+2^n-1,final-low-judge-judge
+final,low,collaboration,F09,,161082,248869,371334,3,1,161082,248869,371334,3,1.000000,1,1,1.0000,1.000000,a(n)=n^5 plus the nth prime,final-low-judge-judge
+final,low,collaboration,F10,,20344,27232,35584,3,1,28296,37557,48205,0,0.000000,0,0,0.2000,0.960000,Cumulative cubes with patterned bases,final-low-judge-judge
+final,low,collaboration,F11,,14506,29157,58482,3,1,14506,29157,58482,3,1.000000,1,0,0.9900,0.999900,a(n)=2a(n-1)+n^2+(-1)^n,final-low-judge-judge
+final,low,collaboration,F12,,285311670611,8916100448256,302875106592253,3,1,2357947691,61917364224,1792160394037,0,0.000000,0,0,1.0000,0.000000,a(n)=n^n,final-low-judge-judge
+final,medium,direct,F01,1,50521,353792,2702765,3,1,50521,353792,2702765,3,1.000000,1,0,0.6200,0.855600,Number sequence with standard recurrence a(n)=n*a(n-1)+sum_{k=1}^{n-2} k*a(k),final-medium-independent-r01
+final,medium,direct,F02,1,10260,39080,162200,3,1,9496,35696,140152,0,0.000000,0,1,0.9900,0.019900,Involution numbers: a(n)=a(n-1)+(n-1)a(n-2),final-medium-independent-r01
+final,medium,direct,F03,1,8953,25695,73847,3,1,8953,25653,73789,1,0.333333,0,0,0.4800,0.769600,Standard recurrence sequence continuing the exact prefix,final-medium-independent-r01
+final,medium,direct,F04,1,2188,5798,15511,3,1,2188,5798,15511,3,1.000000,1,1,0.9900,0.999900,Motzkin numbers,final-medium-independent-r01
+final,medium,direct,F05,1,2170810,4044971,6870732,3,1,2170810,4044971,6870732,3,1.000000,1,0,0.9900,0.999900,"Start at 16 and add successive prime fourth powers: 3^4,5^4,7^4,...",final-medium-independent-r01
+final,medium,direct,F06,1,104573521,1254882215,16313468836,3,1,115030808,1380369733,17944806488,0,0.000000,0,1,0.9900,0.019900,a(n)=n*a(n-1)+(-1)^n times the (n+1)th prime,final-medium-independent-r01
+final,medium,direct,F07,1,42,729,132,3,1,42,729,132,3,1.000000,1,0,0.9900,0.999900,Odd positions are Catalan numbers; even positions are powers of 3,final-medium-independent-r01
+final,medium,direct,F08,1,261625,788970,2375101,3,1,261625,788970,2375101,3,1.000000,1,0,0.9900,0.999900,a(n)=3a(n-1)+2^n-1,final-medium-independent-r01
+final,medium,direct,F09,1,161082,248869,371334,3,1,161082,248869,371334,3,1.000000,1,1,0.9900,0.999900,a(n)=n^5 plus the nth prime,final-medium-independent-r01
+final,medium,direct,F10,1,28296,37557,48205,3,1,28296,37557,48205,3,1.000000,1,1,0.9400,0.996400,"Cumulative cubes of composite integers, beginning with 4^3",final-medium-independent-r01
+final,medium,direct,F11,1,14506,29155,58478,3,1,14506,29157,58482,1,0.333333,0,0,0.9900,0.019900,a(n)=2a(n-1)+n^2+(-1)^n,final-medium-independent-r01
+final,medium,direct,F12,1,2357947691,61917364224,1792160394037,3,1,2357947691,61917364224,1792160394037,3,1.000000,1,1,0.9900,0.999900,a(n)=n^(n-2),final-medium-independent-r01
+final,medium,direct,F01,2,50521,353792,2830453,3,1,50521,353792,2702765,2,0.666667,0,0,0.5800,0.663600,Connected set-partition numbers; standard recurrence for the sequence,final-medium-independent-r02
+final,medium,direct,F02,2,9496,35696,140152,3,1,9496,35696,140152,3,1.000000,1,0,0.9900,0.999900,a(n)=a(n-1)+(n-1)a(n-2),final-medium-independent-r02
+final,medium,direct,F03,2,8931,25455,72309,3,1,8953,25653,73789,0,0.000000,0,0,0.4200,0.823600,Standard recurrence for the associated Motzkin-type sequence,final-medium-independent-r02
+final,medium,direct,F04,2,2188,5798,15511,3,1,2188,5798,15511,3,1.000000,1,1,0.9900,0.999900,Motzkin numbers,final-medium-independent-r02
+final,medium,direct,F05,2,2170810,4044971,6870732,3,1,2170810,4044971,6870732,3,1.000000,1,1,0.9900,0.999900,"Start at 16, then cumulatively add successive prime fourth powers",final-medium-independent-r02
+final,medium,direct,F06,2,115030870,1380370403,17944815280,3,1,115030808,1380369733,17944806488,0,0.000000,0,0,0.9700,0.059100,"a(n)=n·a(n-1)+(-1)^n p_n, with successive primes p_n",final-medium-independent-r02
+final,medium,direct,F07,2,42,729,132,3,1,42,729,132,3,1.000000,1,0,0.9900,0.999900,Odd terms are Catalan numbers; even terms are powers of 3,final-medium-independent-r02
+final,medium,direct,F08,2,259201,776190,2326785,3,1,261625,788970,2375101,0,0.000000,0,0,0.3700,0.863100,Cumulative recurrence with successive powers of 3,final-medium-independent-r02
+final,medium,direct,F09,2,100031,161088,248873,3,1,161082,248869,371334,0,0.000000,0,1,0.9900,0.019900,"a(n)=n^5+p_n, where p_n is the nth prime",final-medium-independent-r02
+final,medium,direct,F10,2,28296,37557,48205,3,1,28296,37557,48205,3,1.000000,1,1,0.9900,0.999900,"Start with 4^3, then cumulatively add cubes of successive composite integers",final-medium-independent-r02
+final,medium,direct,F11,2,14490,29097,58342,3,1,14506,29157,58482,0,0.000000,0,0,0.9600,0.078400,a(n)=2a(n-1)+n^2+4(-1)^n,final-medium-independent-r02
+final,medium,direct,F12,2,2357947691,61917364224,1792160394037,3,1,2357947691,61917364224,1792160394037,3,1.000000,1,0,0.9900,0.999900,a(n)=(n+1)^(n-1),final-medium-independent-r02
+final,medium,direct,F01,3,50521,2702765,199360981,3,1,50521,353792,2702765,1,0.333333,0,1,0.9900,0.019900,Euler zigzag (up/down) numbers,final-medium-independent-r03
+final,medium,direct,F02,3,9496,35696,140152,3,1,9496,35696,140152,3,1.000000,1,1,0.9900,0.999900,Involution numbers: a(n)=a(n-1)+(n-1)a(n-2),final-medium-independent-r03
+final,medium,direct,F03,3,8917,25359,72189,3,1,8953,25653,73789,0,0.000000,0,0,0.2800,0.921600,Compact recurrence sequence with asymptotic ratio near 2.84,final-medium-independent-r03
+final,medium,direct,F04,3,2193,5901,15907,3,1,2188,5798,15511,0,0.000000,0,0,0.2500,0.937500,Compact recurrence sequence with asymptotic ratio near 2.59,final-medium-independent-r03
+final,medium,direct,F05,3,2170810,4044971,6870732,3,1,2170810,4044971,6870732,3,1.000000,1,1,0.9900,0.999900,Cumulative sums of consecutive prime fourth powers,final-medium-independent-r03
+final,medium,direct,F06,3,115030808,1380369733,17944806488,3,1,115030808,1380369733,17944806488,3,1.000000,1,0,0.9900,0.999900,Multiply by n and alternately add/subtract consecutive primes,final-medium-independent-r03
+final,medium,direct,F07,3,42,729,132,3,1,42,729,132,3,1.000000,1,0,0.9900,0.999900,Odd positions are Catalan numbers; even positions are powers of 3,final-medium-independent-r03
+final,medium,direct,F08,3,261625,788970,2375101,3,1,261625,788970,2375101,3,1.000000,1,0,0.9900,0.999900,a(n)=3a(n-1)+2^n-1,final-medium-independent-r03
+final,medium,direct,F09,3,161082,248869,371334,3,1,161082,248869,371334,3,1.000000,1,1,0.9900,0.999900,"a(n)=n^5+p_n, where p_n is the nth prime",final-medium-independent-r03
+final,medium,direct,F10,3,28296,38944,52768,3,1,28296,37557,48205,1,0.333333,0,0,0.2400,0.942400,Cumulative cubes following the observed integer-base pattern,final-medium-independent-r03
+final,medium,direct,F11,3,14506,29157,58482,3,1,14506,29157,58482,3,1.000000,1,0,0.9900,0.999900,a(n)=2a(n-1)+n^2+(-1)^n,final-medium-independent-r03
+final,medium,direct,F12,3,2357947691,61917364224,1792160394037,3,1,2357947691,61917364224,1792160394037,3,1.000000,1,1,0.9900,0.999900,a(n)=n^(n-2),final-medium-independent-r03
+final,medium,direct,F01,4,50521,353792,2830336,3,1,50521,353792,2702765,2,0.666667,0,0,0.0800,0.993600,Best-fit factorial-growth continuation,final-medium-independent-r04
+final,medium,direct,F02,4,9496,35696,138256,3,1,9496,35696,140152,2,0.666667,0,0,0.0700,0.995100,Best-fit exponential recurrence continuation,final-medium-independent-r04
+final,medium,direct,F03,4,8915,25325,71995,3,1,8953,25653,73789,0,0.000000,0,0,0.0700,0.995100,Best-fit exponential recurrence continuation,final-medium-independent-r04
+final,medium,direct,F04,4,2181,5717,14987,3,1,2188,5798,15511,0,0.000000,0,0,0.0700,0.995100,Best-fit exponential recurrence continuation,final-medium-independent-r04
+final,medium,direct,F05,4,1248250,1249619,1251300,3,1,2170810,4044971,6870732,0,0.000000,0,0,0.9900,0.019900,Start at 16 and add successive prime squares,final-medium-independent-r04
+final,medium,direct,F06,4,115030808,1380369733,17944806488,3,1,115030808,1380369733,17944806488,3,1.000000,1,0,0.9800,0.999600,"Multiply successively by 11, 12, 13 and add alternating consecutive primes",final-medium-independent-r04
+final,medium,direct,F07,4,42,729,132,3,1,42,729,132,3,1.000000,1,0,1.0000,1.000000,Odd positions are Catalan numbers; even positions are powers of 3,final-medium-independent-r04
+final,medium,direct,F08,4,261625,788970,2375101,3,1,261625,788970,2375101,3,1.000000,1,0,0.9900,0.999900,a(n)=3a(n-1)+2^(n+1)-1,final-medium-independent-r04
+final,medium,direct,F09,4,161082,248869,371334,3,1,161082,248869,371334,3,1.000000,1,1,1.0000,1.000000,a(n)=n^5 plus the nth prime,final-medium-independent-r04
+final,medium,direct,F10,4,28296,37557,48205,3,1,28296,37557,48205,3,1.000000,1,0,0.9500,0.997500,Add cubes of successive composite integers starting at 6,final-medium-independent-r04
+final,medium,direct,F11,4,14506,29177,58522,3,1,14506,29157,58482,1,0.333333,0,0,0.9400,0.116400,Double the previous term and add alternating parity quadratic corrections,final-medium-independent-r04
+final,medium,direct,F12,4,2357947691,61917364224,1792160394037,3,1,2357947691,61917364224,1792160394037,3,1.000000,1,1,1.0000,1.000000,a(n)=n^(n-2),final-medium-independent-r04
+final,medium,direct,F01,5,51413,385216,3076021,3,1,50521,353792,2702765,0,0.000000,0,0,0.0800,0.993600,Approximate factorial-growth recurrence suggested by the prefix,final-medium-independent-r05
+final,medium,direct,F02,5,9496,35696,140152,3,1,9496,35696,140152,3,1.000000,1,1,0.9900,0.999900,Involution numbers: a(n)=a(n-1)+(n-1)a(n-2),final-medium-independent-r05
+final,medium,direct,F03,5,8891,25157,71132,3,1,8953,25653,73789,0,0.000000,0,0,0.1500,0.977500,"Linear recurrence with asymptotic ratio near 1+sqrt(??), fitted to the prefix",final-medium-independent-r05
+final,medium,direct,F04,5,2175,5671,14791,3,1,2188,5798,15511,0,0.000000,0,0,0.1500,0.977500,Near-Pell recurrence with ratio approaching the square of the golden ratio,final-medium-independent-r05
+final,medium,direct,F05,5,1248250,1249619,1251300,3,1,2170810,4044971,6870732,0,0.000000,0,0,0.9900,0.019900,"Start with 4², then cumulatively add successive prime squares",final-medium-independent-r05
+final,medium,direct,F06,5,104573459,1254881545,16313460044,3,1,115030808,1380369733,17944806488,0,0.000000,0,0,0.9800,0.039600,a(n)=n·a(n-1) plus alternating successive prime corrections,final-medium-independent-r05
+final,medium,direct,F07,5,42,729,132,3,1,42,729,132,3,1.000000,1,0,0.9900,0.999900,Odd positions are Catalan numbers; even positions are powers of 3,final-medium-independent-r05
+final,medium,direct,F08,5,261625,788970,2375101,3,1,261625,788970,2375101,3,1.000000,1,0,0.9800,0.999600,a(n)=3a(n-1)+(2^n-1) with the observed indexing,final-medium-independent-r05
+final,medium,direct,F09,5,161080,248863,371330,3,1,161082,248869,371334,0,0.000000,0,1,0.9900,0.019900,a(n)=n^5 plus the nth prime,final-medium-independent-r05
+final,medium,direct,F10,5,28296,37557,48205,3,1,28296,37557,48205,3,1.000000,1,1,0.9500,0.997500,Cumulative cubes of successive composite integers,final-medium-independent-r05
+final,medium,direct,F11,5,14487,29094,58333,3,1,14506,29157,58482,0,0.000000,0,0,0.9800,0.039600,a(n)=2a(n-1)+n²+(-1)^n,final-medium-independent-r05
+final,medium,direct,F12,5,285311670611,8916100448256,302875106592253,3,1,2357947691,61917364224,1792160394037,0,0.000000,0,0,1.0000,0.000000,a(n)=n^n,final-medium-independent-r05
+final,medium,direct,F01,6,50521,353792,2702765,3,1,50521,353792,2702765,3,1.000000,1,1,1.0000,1.000000,Euler up/down (zigzag) numbers,final-medium-independent-r06
+final,medium,direct,F02,6,9496,35696,140152,3,1,9496,35696,140152,3,1.000000,1,1,1.0000,1.000000,Involution numbers: a(n)=a(n-1)+(n-1)a(n-2),final-medium-independent-r06
+final,medium,direct,F03,6,8953,25653,73789,3,1,8953,25653,73789,3,1.000000,1,1,1.0000,1.000000,1 followed by central trinomial coefficients,final-medium-independent-r06
+final,medium,direct,F04,6,2188,5798,15511,3,1,2188,5798,15511,3,1.000000,1,1,1.0000,1.000000,Motzkin numbers,final-medium-independent-r06
+final,medium,direct,F05,6,1248250,1249619,1251300,3,1,2170810,4044971,6870732,0,0.000000,0,0,0.9900,0.019900,16 plus cumulative squares of consecutive primes starting with 3²,final-medium-independent-r06
+final,medium,direct,F06,6,115030808,1380369733,17944806488,3,1,115030808,1380369733,17944806488,3,1.000000,1,1,0.9900,0.999900,"a(n)=n·a(n-1)+(-1)^n p_n, where p_n is the nth prime",final-medium-independent-r06
+final,medium,direct,F07,6,42,729,132,3,1,42,729,132,3,1.000000,1,0,1.0000,1.000000,Odd-position terms are Catalan numbers; even-position terms are powers of 3,final-medium-independent-r06
+final,medium,direct,F08,6,261625,788970,2375101,3,1,261625,788970,2375101,3,1.000000,1,0,1.0000,1.000000,a(n)=3a(n-1)+2^(n+1)-1,final-medium-independent-r06
+final,medium,direct,F09,6,161082,248869,371334,3,1,161082,248869,371334,3,1.000000,1,1,1.0000,1.000000,a(n)=n^5 plus the nth prime,final-medium-independent-r06
+final,medium,direct,F10,6,28296,37557,48205,3,1,28296,37557,48205,3,1.000000,1,1,0.9900,0.999900,64 plus cumulative cubes of consecutive composite integers starting with 6³,final-medium-independent-r06
+final,medium,direct,F11,6,14487,29094,58333,3,1,14506,29157,58482,0,0.000000,0,0,1.0000,0.000000,a(n)=2a(n-1)+n²+(-1)^n,final-medium-independent-r06
+final,medium,direct,F12,6,2357947691,61917364224,1792160394037,3,1,2357947691,61917364224,1792160394037,3,1.000000,1,0,1.0000,1.000000,"a(n)=(n+1)^(n-1), for n≥1",final-medium-independent-r06
+final,medium,direct,F01,7,50521,353792,2830336,3,1,50521,353792,2702765,2,0.666667,0,0,0.1800,0.967600,Number sequence of indecomposable set partitions,final-medium-independent-r07
+final,medium,direct,F02,7,9496,35696,136288,3,1,9496,35696,140152,2,0.666667,0,0,0.1600,0.974400,Number sequence of restricted permutations,final-medium-independent-r07
+final,medium,direct,F03,7,8875,25143,71389,3,1,8953,25653,73789,0,0.000000,0,0,0.1200,0.985600,Linear recurrence with exponentially growing correction terms,final-medium-independent-r07
+final,medium,direct,F04,7,2181,5727,15067,3,1,2188,5798,15511,0,0.000000,0,0,0.1200,0.985600,Linear recurrence with alternating combinatorial corrections,final-medium-independent-r07
+final,medium,direct,F05,7,1248250,1249619,1251300,3,1,2170810,4044971,6870732,0,0.000000,0,0,0.9900,0.019900,Cumulative sum of squares of consecutive primes,final-medium-independent-r07
+final,medium,direct,F06,7,115030870,1380370403,17944815280,3,1,115030808,1380369733,17944806488,0,0.000000,0,0,0.9300,0.135100,a(n)=n·a(n−1) plus alternating consecutive primes,final-medium-independent-r07
+final,medium,direct,F07,7,42,729,132,3,1,42,729,132,3,1.000000,1,1,1.0000,1.000000,Interleaves Catalan numbers and powers of 3,final-medium-independent-r07
+final,medium,direct,F08,7,261625,788970,2375101,3,1,261625,788970,2375101,3,1.000000,1,0,1.0000,1.000000,a(n)=3·a(n−1)+2^n−1,final-medium-independent-r07
+final,medium,direct,F09,7,161082,248869,371334,3,1,161082,248869,371334,3,1.000000,1,1,1.0000,1.000000,a(n)=n^5 plus the nth prime,final-medium-independent-r07
+final,medium,direct,F10,7,28296,37557,48205,3,1,28296,37557,48205,3,1.000000,1,1,0.9900,0.999900,Cumulative sums of cubes indexed by successive composite numbers,final-medium-independent-r07
+final,medium,direct,F11,7,14506,29157,58482,3,1,14506,29157,58482,3,1.000000,1,0,0.9100,0.991900,a(n)=2·a(n−1)+(n+1)^2+(-1)^(n+1),final-medium-independent-r07
+final,medium,direct,F12,7,100000000,25937424601,61917364224,3,1,2357947691,61917364224,1792160394037,0,0.000000,0,0,1.0000,0.000000,a(n)=n^(n−2),final-medium-independent-r07
+final,medium,direct,F01,8,50521,353792,2702765,3,1,50521,353792,2702765,3,1.000000,1,0,0.7100,0.915900,"Number of connected set partitions (sequence begins 1,1,1,2,5,16,...).",final-medium-independent-r08
+final,medium,direct,F02,8,9004,31216,110240,3,1,9496,35696,140152,0,0.000000,0,0,0.1800,0.967600,Linear recurrence inferred from the prefix.,final-medium-independent-r08
+final,medium,direct,F03,8,8703,24077,66667,3,1,8953,25653,73789,0,0.000000,0,0,0.9600,0.078400,a(n)=3a(n-1)-a(n-2)+a(n-3).,final-medium-independent-r08
+final,medium,direct,F04,8,2699,8675,27189,3,1,2188,5798,15511,0,0.000000,0,0,0.4300,0.815100,Recursive continuation of the nested order-three recurrence visible in the prefix.,final-medium-independent-r08
+final,medium,direct,F05,8,2600890,5546021,11852952,3,1,2170810,4044971,6870732,0,0.000000,0,0,0.1200,0.985600,Compact alternating recurrence inferred from the prefix.,final-medium-independent-r08
+final,medium,direct,F06,8,114030808,1368369733,17788806488,3,1,115030808,1380369733,17944806488,0,0.000000,0,0,0.8900,0.207900,"a(n)=n·a(n-1)+(-1)^n p(n+1), where p(k) is the kth prime.",final-medium-independent-r08
+final,medium,direct,F07,8,42,729,132,3,1,42,729,132,3,1.000000,1,0,0.9900,0.999900,Odd positions are Catalan numbers; even positions are powers of 3.,final-medium-independent-r08
+final,medium,direct,F08,8,261113,785898,2360293,3,1,261625,788970,2375101,0,0.000000,0,0,0.9200,0.153600,Successive differences satisfy d(n)=3d(n-1)+2^n.,final-medium-independent-r08
+final,medium,direct,F09,8,161082,248869,371334,3,1,161082,248869,371334,3,1.000000,1,1,0.9900,0.999900,"a(n)=n^5+p(n+1), where p(k) is the kth prime.",final-medium-independent-r08
+final,medium,direct,F10,8,27889,37209,49033,3,1,28296,37557,48205,0,0.000000,0,0,0.1500,0.977500,Alternating polynomial recurrence inferred from the prefix.,final-medium-independent-r08
+final,medium,direct,F11,8,18506,37157,74482,3,1,14506,29157,58482,0,0.000000,0,0,0.9800,0.039600,a(n)=2a(n-1)+n^2+(-1)^n.,final-medium-independent-r08
+final,medium,direct,F12,8,285311670611,8916100448256,302875106592253,3,1,2357947691,61917364224,1792160394037,0,0.000000,0,0,1.0000,0.000000,a(n)=n^n.,final-medium-independent-r08
+final,medium,direct,F01,9,50521,353792,2702765,3,1,50521,353792,2702765,3,1.000000,1,1,0.9900,0.999900,Euler zigzag (up/down) numbers,final-medium-independent-r09
+final,medium,direct,F02,9,9496,35696,140152,3,1,9496,35696,140152,3,1.000000,1,1,0.9900,0.999900,Involution numbers: a(n)=a(n-1)+(n-1)a(n-2),final-medium-independent-r09
+final,medium,direct,F03,9,8945,25531,72879,3,1,8953,25653,73789,0,0.000000,0,0,0.2000,0.960000,Recurrence with rapidly growing correction terms; extrapolated compactly,final-medium-independent-r09
+final,medium,direct,F04,9,2055,5007,12131,3,1,2188,5798,15511,0,0.000000,0,0,0.9800,0.039600,First differences satisfy d(n)=2d(n-1)+d(n-2),final-medium-independent-r09
+final,medium,direct,F05,9,2170810,4044971,6870732,3,1,2170810,4044971,6870732,3,1.000000,1,0,0.9900,0.999900,Start at 16; successive increments are fourth powers of consecutive primes,final-medium-independent-r09
+final,medium,direct,F06,9,115030808,1380369733,17944806488,3,1,115030808,1380369733,17944806488,3,1.000000,1,0,0.9900,0.999900,a(n)=n·a(n-1) plus alternating consecutive primes,final-medium-independent-r09
+final,medium,direct,F07,9,42,729,132,3,1,42,729,132,3,1.000000,1,0,0.9900,0.999900,Odd positions are Catalan numbers; even positions are powers of 3,final-medium-independent-r09
+final,medium,direct,F08,9,261625,788970,2375101,3,1,261625,788970,2375101,3,1.000000,1,0,0.9900,0.999900,a(n)=3a(n-1)+2^n-1,final-medium-independent-r09
+final,medium,direct,F09,9,161082,248869,371334,3,1,161082,248869,371334,3,1.000000,1,1,0.9900,0.999900,a(n)=n^5 plus the nth prime,final-medium-independent-r09
+final,medium,direct,F10,9,28296,37557,48205,3,1,28296,37557,48205,3,1.000000,1,0,0.9700,0.999100,Successive increments are cubes of successive composite integers,final-medium-independent-r09
+final,medium,direct,F11,9,14487,29094,58233,3,1,14506,29157,58482,0,0.000000,0,0,0.9900,0.019900,a(n)=2a(n-1)+n^2+(-1)^n,final-medium-independent-r09
+final,medium,direct,F12,9,285311670611,8916100448256,302875106592253,3,1,2357947691,61917364224,1792160394037,0,0.000000,0,0,1.0000,0.000000,a(n)=n^n,final-medium-independent-r09
+final,medium,direct,F01,10,50521,353792,2702765,3,1,50521,353792,2702765,3,1.000000,1,1,1.0000,1.000000,Euler zigzag (up/down) numbers,final-medium-independent-r10
+final,medium,direct,F02,10,9496,35696,140152,3,1,9496,35696,140152,3,1.000000,1,1,1.0000,1.000000,Involution numbers: a(n)=a(n-1)+(n-1)a(n-2),final-medium-independent-r10
+final,medium,direct,F03,10,8491,23259,63499,3,1,8953,25653,73789,0,0.000000,0,0,1.0000,0.000000,a(n)=2a(n-1)+2a(n-2)-1,final-medium-independent-r10
+final,medium,direct,F04,10,2188,5798,15511,3,1,2188,5798,15511,3,1.000000,1,1,1.0000,1.000000,Motzkin numbers,final-medium-independent-r10
+final,medium,direct,F05,10,2170810,4044971,6870732,3,1,2170810,4044971,6870732,3,1.000000,1,0,0.9900,0.999900,"Successive increments are successive prime fourth powers, starting with 3^4",final-medium-independent-r10
+final,medium,direct,F06,10,115030808,1380369733,17944806488,3,1,115030808,1380369733,17944806488,3,1.000000,1,1,0.9600,0.998400,"a(n)=n a(n-1)+(-1)^n p_n for successive primes p_n, from the established index",final-medium-independent-r10
+final,medium,direct,F07,10,429,729,132,3,1,42,729,132,2,0.666667,0,0,1.0000,0.000000,Odd positions are Catalan numbers; even positions are powers of 3,final-medium-independent-r10
+final,medium,direct,F08,10,261625,788970,2375101,3,1,261625,788970,2375101,3,1.000000,1,0,0.9900,0.999900,Successive differences satisfy d(n)=3d(n-1)+2^(n+1),final-medium-independent-r10
+final,medium,direct,F09,10,161051,248834,371293,3,1,161082,248869,371334,0,0.000000,0,1,0.9000,0.190000,a(n)=n^5 plus the successive primes,final-medium-independent-r10
+final,medium,direct,F10,10,28296,37557,48205,3,1,28296,37557,48205,3,1.000000,1,0,0.9900,0.999900,Successive increments are cubes of successive composite integers,final-medium-independent-r10
+final,medium,direct,F11,10,14506,29157,58482,3,1,14506,29157,58482,3,1.000000,1,0,1.0000,1.000000,a(n)=2a(n-1)+n^2+(-1)^n,final-medium-independent-r10
+final,medium,direct,F12,10,2357947691,61917364224,1792160394037,3,1,2357947691,61917364224,1792160394037,3,1.000000,1,1,1.0000,1.000000,Cayley tree numbers a(n)=n^(n-2),final-medium-independent-r10
+final,medium,ensemble,F01,,50521,353792,2702765,3,1,50521,353792,2702765,3,1.000000,1,1,0.8640,0.981504,Euler up/down (zigzag) numbers,plurality 5/10 valid from 10 calls
+final,medium,ensemble,F02,,9496,35696,140152,3,1,9496,35696,140152,3,1.000000,1,1,0.9933,0.999956,Involution numbers: a(n)=a(n-1)+(n-1)a(n-2),plurality 6/10 valid from 10 calls
+final,medium,ensemble,F03,,8491,23259,63499,3,1,8953,25653,73789,0,0.000000,0,0,1.0000,0.000000,a(n)=2a(n-1)+2a(n-2)-1,plurality 1/10 valid from 10 calls
+final,medium,ensemble,F04,,2188,5798,15511,3,1,2188,5798,15511,3,1.000000,1,1,0.9950,0.999975,Motzkin numbers,plurality 4/10 valid from 10 calls
+final,medium,ensemble,F05,,2170810,4044971,6870732,3,1,2170810,4044971,6870732,3,1.000000,1,0,0.9900,0.999900,"Start at 16 and add successive prime fourth powers: 3^4,5^4,7^4,...",plurality 5/10 valid from 10 calls
+final,medium,ensemble,F06,,115030808,1380369733,17944806488,3,1,115030808,1380369733,17944806488,3,1.000000,1,0,0.9820,0.999676,Multiply by n and alternately add/subtract consecutive primes,plurality 5/10 valid from 10 calls
+final,medium,ensemble,F07,,42,729,132,3,1,42,729,132,3,1.000000,1,0,0.9933,0.999956,Odd positions are Catalan numbers; even positions are powers of 3,plurality 9/10 valid from 10 calls
+final,medium,ensemble,F08,,261625,788970,2375101,3,1,261625,788970,2375101,3,1.000000,1,0,0.9912,0.999923,a(n)=3a(n-1)+2^(n+1)-1,plurality 8/10 valid from 10 calls
+final,medium,ensemble,F09,,161082,248869,371334,3,1,161082,248869,371334,3,1.000000,1,1,0.9943,0.999967,a(n)=n^5 plus the nth prime,plurality 7/10 valid from 10 calls
+final,medium,ensemble,F10,,28296,37557,48205,3,1,28296,37557,48205,3,1.000000,1,1,0.9712,0.999173,"Start with 4^3, then cumulatively add cubes of successive composite integers",plurality 8/10 valid from 10 calls
+final,medium,ensemble,F11,,14506,29157,58482,3,1,14506,29157,58482,3,1.000000,1,0,0.9667,0.998889,a(n)=2a(n-1)+n^2+(-1)^n,plurality 3/10 valid from 10 calls
+final,medium,ensemble,F12,,2357947691,61917364224,1792160394037,3,1,2357947691,61917364224,1792160394037,3,1.000000,1,1,0.9950,0.999975,a(n)=n^(n-2),plurality 6/10 valid from 10 calls
+final,medium,collaboration,F01,,50521,353792,2702765,3,1,50521,353792,2702765,3,1.000000,1,1,1.0000,1.000000,Euler zigzag numbers,final-medium-judge-judge
+final,medium,collaboration,F02,,9496,35696,140152,3,1,9496,35696,140152,3,1.000000,1,1,0.9900,0.999900,Involution numbers: a(n)=a(n-1)+(n-1)a(n-2),final-medium-judge-judge
+final,medium,collaboration,F03,,8955,25591,73131,3,1,8953,25653,73789,0,0.000000,0,0,0.2500,0.937500,Best-supported continuation of the observed recurrence pattern,final-medium-judge-judge
+final,medium,collaboration,F04,,2188,5798,15511,3,1,2188,5798,15511,3,1.000000,1,1,0.9900,0.999900,Motzkin numbers,final-medium-judge-judge
+final,medium,collaboration,F05,,2170810,4044971,6870732,3,1,2170810,4044971,6870732,3,1.000000,1,0,0.9900,0.999900,Initial value plus successive fourth powers of consecutive primes,final-medium-judge-judge
+final,medium,collaboration,F06,,115030808,1380369733,17944806488,3,1,115030808,1380369733,17944806488,3,1.000000,1,0,0.9900,0.999900,a(n)=n*a(n-1)+(-1)^n p_n,final-medium-judge-judge
+final,medium,collaboration,F07,,42,729,132,3,1,42,729,132,3,1.000000,1,1,1.0000,1.000000,Interleaved Catalan numbers and powers of 3,final-medium-judge-judge
+final,medium,collaboration,F08,,261625,788970,2375101,3,1,261625,788970,2375101,3,1.000000,1,0,0.9900,0.999900,First differences satisfy d(n)=3d(n-1)+2^n,final-medium-judge-judge
+final,medium,collaboration,F09,,161082,248869,371334,3,1,161082,248869,371334,3,1.000000,1,1,1.0000,1.000000,a(n)=n^5 plus the nth prime,final-medium-judge-judge
+final,medium,collaboration,F10,,28296,37557,48205,3,1,28296,37557,48205,3,1.000000,1,0,0.9900,0.999900,Start at 4^3; add cubes of successive composite integers,final-medium-judge-judge
+final,medium,collaboration,F11,,14506,29157,58482,3,1,14506,29157,58482,3,1.000000,1,0,0.9900,0.999900,a(n)=2a(n-1)+n^2+(-1)^n,final-medium-judge-judge
+final,medium,collaboration,F12,,2357947691,61917364224,1792160394037,3,1,2357947691,61917364224,1792160394037,3,1.000000,1,1,1.0000,1.000000,a(n)=n^(n-2),final-medium-judge-judge

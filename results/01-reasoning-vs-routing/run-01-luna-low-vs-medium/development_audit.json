@@ -1,0 +1,31 @@
+{
+  "audited_at": "2026-07-13T04:36:35.410Z",
+  "checks": {
+    "freeze_file_count": true,
+    "frozen_hashes_unchanged": true,
+    "subject_records": true,
+    "unique_thread_ids": true,
+    "all_luna": true,
+    "reasoning_matches_arm": true,
+    "all_marked_archived": true,
+    "equal_arm_calls": true,
+    "independent_budget": true,
+    "collaboration_budget": true,
+    "collaboration_structure": true,
+    "malformed_preserved": true,
+    "final_untouched": true,
+    "dev_results_exist": true
+  },
+  "details": {
+    "changed_frozen_files": [],
+    "malformed": [
+      {
+        "arm": "low",
+        "stage": "critic",
+        "role": "simplicity",
+        "thread_id": "dev-low-critic-simplicity"
+      }
+    ]
+  },
+  "all_checks_pass": true
+}

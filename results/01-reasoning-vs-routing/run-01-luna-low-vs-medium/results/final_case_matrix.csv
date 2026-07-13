@@ -1,0 +1,13 @@
+case_id,category,low_direct_mean,low_ensemble,low_collaboration,medium_direct_mean,medium_ensemble,medium_collaboration
+F01,known-combinatorial,0.100,1,1,0.500,1,1
+F02,known-combinatorial,0.000,0,1,0.600,1,1
+F03,known-combinatorial,0.000,0,0,0.100,0,0
+F04,known-combinatorial,0.000,0,1,0.400,1,1
+F05,cumulative-arithmetic,0.000,0,0,0.500,1,1
+F06,indexed-recurrence,0.000,0,1,0.500,1,1
+F07,interleaved,0.800,1,1,0.900,1,1
+F08,known-combinatorial,0.100,0,0,0.800,1,1
+F09,index-plus-prime,0.000,0,1,0.700,1,1
+F10,cumulative-arithmetic,0.200,1,0,0.800,1,1
+F11,indexed-recurrence,0.000,0,1,0.300,1,1
+F12,known-combinatorial,0.700,1,0,0.600,1,1

@@ -1,0 +1,97 @@
+split,arm,method,case_id,replicate,predicted_1,predicted_2,predicted_3,prediction_count,shape_valid,expected_1,expected_2,expected_3,correct_terms,term_accuracy,exact_triplet,rule_score,confidence,calibration_score,rule,source
+development,low,direct,D01,1,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,1.0000,1.000000,Catalan numbers,dev-low-independent-r01
+development,low,direct,D02,1,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,1.0000,1.000000,Start at 4 and successively add the squares of consecutive odd primes,dev-low-independent-r01
+development,low,direct,D03,1,302786759,3936227868,55107190137,3,1,302786759,3936227868,55107190151,2,0.666667,0,1,0.9900,0.019900,"Multiply successively by 12, 13, 14, alternating subtract 1 and add 1",dev-low-independent-r01
+development,low,direct,D04,1,36,720,49,3,1,36,720,49,3,1.000000,1,1,1.0000,1.000000,Interleave successive squares and factorials,dev-low-independent-r01
+development,low,direct,D01,2,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,1.0000,1.000000,Catalan numbers C_n,dev-low-independent-r02
+development,low,direct,D02,2,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9800,0.999600,Each difference is the square of successive odd primes,dev-low-independent-r02
+development,low,direct,D03,2,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,0,0.8200,0.967600,"From the third term onward, a_n=(n+1)a_(n-1)+(-1)^n, with alternating signs",dev-low-independent-r02
+development,low,direct,D04,2,36,720,49,3,1,36,720,49,3,1.000000,1,0,1.0000,1.000000,Odd positions are consecutive squares; even positions are consecutive factorials,dev-low-independent-r02
+development,low,direct,D01,3,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,0.9900,0.999900,Catalan numbers,dev-low-independent-r03
+development,low,direct,D02,3,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9800,0.999600,"Add successive prime squares, starting with 3²",dev-low-independent-r03
+development,low,direct,D03,3,277554531,3330654371,43298506824,3,1,302786759,3936227868,55107190151,0,0.000000,0,0,0.9900,0.019900,"a_n=(n+1)a_{n-1}+(-1)^n, starting with a_1=1",dev-low-independent-r03
+development,low,direct,D04,3,36,720,49,3,1,36,720,49,3,1.000000,1,0,0.9900,0.999900,Odd positions are successive squares; even positions are successive factorials,dev-low-independent-r03
+development,low,direct,D01,4,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,0.9900,0.999900,Catalan numbers,dev-low-independent-r04
+development,low,direct,D02,4,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9500,0.997500,Each difference is the square of consecutive primes,dev-low-independent-r04
+development,low,direct,D03,4,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,1,0.9400,0.996400,"Multiply successively by 12, 13, 14, alternating subtract 1 and add 1",dev-low-independent-r04
+development,low,direct,D04,4,36,720,49,3,1,36,720,49,3,1.000000,1,0,0.9900,0.999900,Odd-position terms are squares; even-position terms are factorials,dev-low-independent-r04
+development,low,direct,D01,5,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,0.9900,0.999900,"Catalan numbers C0,C1,...",dev-low-independent-r05
+development,low,direct,D02,5,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9700,0.999100,Each difference is the square of successive primes,dev-low-independent-r05
+development,low,direct,D03,5,302786759,3936227868,55007190253,3,1,302786759,3936227868,55107190151,2,0.666667,0,1,0.9300,0.135100,"From the second term, multiply successively by 12,13,14,... and alternate subtracting and adding 1",dev-low-independent-r05
+development,low,direct,D04,5,36,720,49,3,1,36,720,49,3,1.000000,1,0,0.9900,0.999900,Odd-positioned terms are consecutive squares; even-positioned terms are consecutive factorials,dev-low-independent-r05
+development,low,direct,D01,6,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,0.9900,0.999900,Catalan numbers,dev-low-independent-r06
+development,low,direct,D02,6,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9300,0.995100,Start at 4; successively add squares of consecutive odd primes,dev-low-independent-r06
+development,low,direct,D03,6,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,1,0.9900,0.999900,"Multiply successively by 12, 13, 14, alternating subtract 1 and add 1",dev-low-independent-r06
+development,low,direct,D04,6,36,720,49,3,1,36,720,49,3,1.000000,1,1,0.9900,0.999900,Interleave consecutive squares and factorials,dev-low-independent-r06
+development,low,direct,D01,7,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,1.0000,1.000000,Catalan numbers,dev-low-independent-r07
+development,low,direct,D02,7,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9800,0.999600,Start at 4 and successively add the squares of consecutive primes,dev-low-independent-r07
+development,low,direct,D03,7,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,1,1.0000,1.000000,"Multiply by successive integers, alternating subtract 1 and add 1",dev-low-independent-r07
+development,low,direct,D04,7,36,720,49,3,1,36,720,49,3,1.000000,1,1,1.0000,1.000000,Interleave consecutive squares and factorials,dev-low-independent-r07
+development,low,direct,D01,8,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,1.0000,1.000000,Catalan numbers,dev-low-independent-r08
+development,low,direct,D02,8,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9800,0.999600,Start at 4 and successively add squares of consecutive primes,dev-low-independent-r08
+development,low,direct,D03,8,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,1,0.9600,0.998400,"Successive terms multiply by 4,4,5,6,... with alternating −1,+1 adjustments",dev-low-independent-r08
+development,low,direct,D04,8,36,720,49,3,1,36,720,49,3,1.000000,1,0,1.0000,1.000000,Odd-positioned terms are consecutive squares; even-positioned terms are consecutive factorials,dev-low-independent-r08
+development,low,direct,D01,9,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,1.0000,1.000000,Catalan numbers C_n,dev-low-independent-r09
+development,low,direct,D02,9,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9800,0.999600,"Each term adds the square of successive primes 3,5,7,...",dev-low-independent-r09
+development,low,direct,D03,9,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,1,0.9900,0.999900,"Multiply successively by 3,4,5,... and alternate adding and subtracting 1",dev-low-independent-r09
+development,low,direct,D04,9,36,720,49,3,1,36,720,49,3,1.000000,1,1,1.0000,1.000000,Interleave consecutive squares and factorials,dev-low-independent-r09
+development,low,direct,D01,10,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,0.9900,0.999900,Catalan numbers,dev-low-independent-r10
+development,low,direct,D02,10,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9000,0.990000,"Each term adds the square of the successive prime: 3², 5², 7², ...",dev-low-independent-r10
+development,low,direct,D03,10,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,0,0.9600,0.998400,"a_n=(n+1)a_{n-1}+(-1)^n for n≥3, with a_2=4a_1",dev-low-independent-r10
+development,low,direct,D04,10,36,720,49,3,1,36,720,49,3,1.000000,1,1,0.9900,0.999900,Interleave successive squares and factorials,dev-low-independent-r10
+development,low,ensemble,D01,,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,0.9950,0.999975,Catalan numbers,plurality 10/10 valid from 10 calls
+development,low,ensemble,D02,,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9650,0.998775,Start at 4 and successively add the squares of consecutive odd primes,plurality 10/10 valid from 10 calls
+development,low,ensemble,D03,,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,1,0.9514,0.997641,"Multiply by successive integers, alternating subtract 1 and add 1",plurality 7/10 valid from 10 calls
+development,low,ensemble,D04,,36,720,49,3,1,36,720,49,3,1.000000,1,1,0.9950,0.999975,Interleave successive squares and factorials,plurality 10/10 valid from 10 calls
+development,low,collaboration,D01,,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,1.0000,1.000000,"Catalan numbers C_n=(2n choose n)/(n+1), continuing from C_0.",dev-low-judge-judge
+development,low,collaboration,D02,,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,1.0000,1.000000,Successive differences are squares of consecutive primes starting with 3^2.,dev-low-judge-judge
+development,low,collaboration,D03,,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,0,1.0000,1.000000,a_1=1 and a_n=(n+1)a_(n-1)+(-1)^n for n>=2.,dev-low-judge-judge
+development,low,collaboration,D04,,36,720,49,3,1,36,720,49,3,1.000000,1,0,1.0000,1.000000,Odd-positioned terms are consecutive squares and even-positioned terms are consecutive factorials.,dev-low-judge-judge
+development,medium,direct,D01,1,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,1.0000,1.000000,Catalan numbers,dev-medium-independent-r01
+development,medium,direct,D02,1,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9400,0.996400,Start at 4 and successively add the squares of consecutive odd primes,dev-medium-independent-r01
+development,medium,direct,D03,1,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,1,0.9900,0.999900,"Multiply by successive integers starting at 3, alternately adding and subtracting 1",dev-medium-independent-r01
+development,medium,direct,D04,1,36,720,49,3,1,36,720,49,3,1.000000,1,1,1.0000,1.000000,"Interleave consecutive squares and factorials: n², n!",dev-medium-independent-r01
+development,medium,direct,D01,2,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,0.9900,0.999900,Catalan numbers,dev-medium-independent-r02
+development,medium,direct,D02,2,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9800,0.999600,Each increment is the square of successive primes,dev-medium-independent-r02
+development,medium,direct,D03,2,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,1,0.9900,0.999900,"Multiply by successive integers, alternating subtract 1 and add 1",dev-medium-independent-r02
+development,medium,direct,D04,2,36,720,49,3,1,36,720,49,3,1.000000,1,1,0.9900,0.999900,Interleave consecutive squares and factorials,dev-medium-independent-r02
+development,medium,direct,D01,3,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,1.0000,1.000000,Catalan numbers,dev-medium-independent-r03
+development,medium,direct,D02,3,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9500,0.997500,"Start at 4; successive differences are squares of consecutive primes 3,5,7,11,...",dev-medium-independent-r03
+development,medium,direct,D03,3,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,0,0.9900,0.999900,"a_n=(n+1)a_{n-1}+(-1)^n, starting a_1=1",dev-medium-independent-r03
+development,medium,direct,D04,3,36,720,49,3,1,36,720,49,3,1.000000,1,1,1.0000,1.000000,Interleave consecutive squares and factorials,dev-medium-independent-r03
+development,medium,direct,D01,4,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,1.0000,1.000000,Catalan numbers,dev-medium-independent-r04
+development,medium,direct,D02,4,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9600,0.998400,Each difference is the square of successive primes,dev-medium-independent-r04
+development,medium,direct,D03,4,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,0,0.9900,0.999900,"a_n=(n+1)a_(n-1)+(-1)^(n+1), starting with a_1=1",dev-medium-independent-r04
+development,medium,direct,D04,4,36,720,49,3,1,36,720,49,3,1.000000,1,0,1.0000,1.000000,Odd-positioned terms are squares; even-positioned terms are factorials,dev-medium-independent-r04
+development,medium,direct,D01,5,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,1.0000,1.000000,Catalan numbers C_n,dev-medium-independent-r05
+development,medium,direct,D02,5,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9500,0.997500,Successive differences are squares of consecutive odd primes starting with 3^2,dev-medium-independent-r05
+development,medium,direct,D03,5,302786759,3936227867,55107190151,3,1,302786759,3936227868,55107190151,2,0.666667,0,1,0.9800,0.039600,"Multiply successively by 3,4,5,... and alternately add 1 and subtract 1",dev-medium-independent-r05
+development,medium,direct,D04,5,36,720,49,3,1,36,720,49,3,1.000000,1,0,1.0000,1.000000,Odd-positioned terms are consecutive squares; even-positioned terms are consecutive factorials,dev-medium-independent-r05
+development,medium,direct,D01,6,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,0.9900,0.999900,Catalan numbers,dev-medium-independent-r06
+development,medium,direct,D02,6,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9600,0.998400,Start at 4 and successively add the squares of consecutive primes starting with 3,dev-medium-independent-r06
+development,medium,direct,D03,6,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,0,0.9800,0.999600,"a_n=(n+1)a_(n-1)+(-1)^n, starting with a_1=1",dev-medium-independent-r06
+development,medium,direct,D04,6,36,720,49,3,1,36,720,49,3,1.000000,1,1,0.9900,0.999900,Interleave consecutive squares and factorials,dev-medium-independent-r06
+development,medium,direct,D01,7,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,0.9900,0.999900,Catalan numbers,dev-medium-independent-r07
+development,medium,direct,D02,7,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9500,0.997500,Each difference is the square of successive primes,dev-medium-independent-r07
+development,medium,direct,D03,7,277554529,3330654349,43298506536,3,1,302786759,3936227868,55107190151,0,0.000000,0,0,0.9800,0.039600,"a_n=(n+1)a_{n-1}+(-1)^{n+1}, starting with a_1=1",dev-medium-independent-r07
+development,medium,direct,D04,7,36,720,49,3,1,36,720,49,3,1.000000,1,0,0.9900,0.999900,Odd-positioned terms are squares; even-positioned terms are factorials,dev-medium-independent-r07
+development,medium,direct,D01,8,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,1.0000,1.000000,Catalan numbers,dev-medium-independent-r08
+development,medium,direct,D02,8,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9800,0.999600,Add successive prime squares,dev-medium-independent-r08
+development,medium,direct,D03,8,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,1,0.9900,0.999900,"Multiply successively by 12, 13, 14, alternating subtract 1 and add 1",dev-medium-independent-r08
+development,medium,direct,D04,8,36,720,49,3,1,36,720,49,3,1.000000,1,1,1.0000,1.000000,Interleave consecutive squares and factorials,dev-medium-independent-r08
+development,medium,direct,D01,9,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,1.0000,1.000000,Catalan numbers,dev-medium-independent-r09
+development,medium,direct,D02,9,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9500,0.997500,"Start at 4 and successively add squares of consecutive primes, beginning with 3²",dev-medium-independent-r09
+development,medium,direct,D03,9,328018991,4592265873,68883988096,3,1,302786759,3936227868,55107190151,0,0.000000,0,1,0.8500,0.277500,"From the second term onward, multiply by successive integers 4,5,6,... and alternately add 1, subtract 1",dev-medium-independent-r09
+development,medium,direct,D04,9,36,720,49,3,1,36,720,49,3,1.000000,1,1,1.0000,1.000000,Interleave consecutive squares and factorials,dev-medium-independent-r09
+development,medium,direct,D01,10,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,1.0000,1.000000,Catalan numbers,dev-medium-independent-r10
+development,medium,direct,D02,10,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9500,0.997500,Start at 4 and successively add squares of consecutive odd primes,dev-medium-independent-r10
+development,medium,direct,D03,10,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,1,0.9900,0.999900,"Multiply successively by 12, 13, 14, alternating subtract 1 and add 1",dev-medium-independent-r10
+development,medium,direct,D04,10,36,720,49,3,1,36,720,49,3,1.000000,1,1,1.0000,1.000000,Interleave consecutive squares and factorials,dev-medium-independent-r10
+development,medium,ensemble,D01,,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,0.9970,0.999991,Catalan numbers,plurality 10/10 valid from 10 calls
+development,medium,ensemble,D02,,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,0.9570,0.998151,Each increment is the square of successive primes,plurality 10/10 valid from 10 calls
+development,medium,ensemble,D03,,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,1,0.9886,0.999869,"Multiply by successive integers starting at 3, alternately adding and subtracting 1",plurality 7/10 valid from 10 calls
+development,medium,ensemble,D04,,36,720,49,3,1,36,720,49,3,1.000000,1,1,0.9970,0.999991,"Interleave consecutive squares and factorials: n², n!",plurality 10/10 valid from 10 calls
+development,medium,collaboration,D01,,16796,58786,208012,3,1,16796,58786,208012,3,1.000000,1,1,1.0000,1.000000,Catalan numbers C_n starting at C_0,dev-medium-judge-judge
+development,medium,collaboration,D02,,3358,4727,6408,3,1,3358,4727,6408,3,1.000000,1,0,1.0000,1.000000,Add successive squares of primes starting with 3^2,dev-medium-judge-judge
+development,medium,collaboration,D03,,302786759,3936227868,55107190151,3,1,302786759,3936227868,55107190151,3,1.000000,1,0,1.0000,1.000000,"a_n=(n+1)a_(n-1)+(-1)^n, with a_1=1",dev-medium-judge-judge
+development,medium,collaboration,D04,,36,720,49,3,1,36,720,49,3,1.000000,1,0,1.0000,1.000000,Odd positions are consecutive squares; even positions are consecutive factorials,dev-medium-judge-judge

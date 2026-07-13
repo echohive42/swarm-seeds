@@ -1,0 +1,12 @@
+comparison,estimate,bootstrap_95_low,bootstrap_95_high,case_wins,case_losses,case_ties
+"low: collaboration - ensemble",0.250000,-0.166667,0.666667,5,2,5
+"low: collaboration - direct",0.425000,0.083333,0.750000,7,3,2
+"low: ensemble - direct",0.175000,0.016667,0.375000,4,1,7
+"medium: collaboration - ensemble",0.000000,0.000000,0.000000,0,0,12
+"medium: collaboration - direct",0.358333,0.233333,0.475000,11,1,0
+"medium: ensemble - direct",0.358333,0.233333,0.475000,11,1,0
+"medium - low: direct",0.400000,0.258333,0.533333,11,1,0
+"medium - low: ensemble",0.583333,0.333333,0.833333,7,0,5
+"medium - low: collaboration",0.333333,0.083333,0.583333,4,0,8
+"sensitivity: low direct excluding malformed call",0.175926,,,,,
+"reported: low direct with malformed call penalized",0.158333,,,,,

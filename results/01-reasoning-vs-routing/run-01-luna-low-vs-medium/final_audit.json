@@ -1,0 +1,91 @@
+{
+  "audited_at": "2026-07-13T06:17:41.621Z",
+  "checks": {
+    "freeze_file_count": true,
+    "frozen_hashes_unchanged": true,
+    "final_was_empty_at_freeze": true,
+    "development_gate_passed": true,
+    "subject_records": true,
+    "unique_successful_thread_ids": true,
+    "all_successful_threads_luna": true,
+    "reasoning_matches_arm": true,
+    "all_successful_threads_archived": true,
+    "equal_arm_calls": true,
+    "independent_budget": true,
+    "collaboration_budget": true,
+    "equal_ensemble_collaboration_budget": true,
+    "collaboration_structure": true,
+    "schema_failures_preserved_and_penalized": true,
+    "same_arm_packet_provenance": true,
+    "packets_anonymized": true,
+    "judge_outputs_complete": true,
+    "stalled_attempt_recorded_restarted_and_archived": true,
+    "all_81_tasks_accounted_for": true,
+    "all_80_successful_tasks_marked_archived": true,
+    "result_artifacts_exist": true,
+    "final_case_count": true,
+    "strict_scoring_summary_present": true
+  },
+  "details": {
+    "changed_frozen_files": [],
+    "solver_schema_problems": [
+      {
+        "arm": "low",
+        "replicate": 3,
+        "thread_id": "final-low-independent-r03",
+        "problem": [
+          "F07:next_three_shape"
+        ]
+      },
+      {
+        "arm": "low",
+        "replicate": 9,
+        "thread_id": "final-low-independent-r09",
+        "problem": "unparseable_or_non_array_response",
+        "parse_error": "Expected ',' or ']' after array element in JSON at position 1213 (line 1 column 1214)"
+      }
+    ],
+    "packet_checks": [
+      {
+        "arm": "low",
+        "proposal_matches_same_arm_raw": true,
+        "critique_matches_same_arm_raw": true,
+        "verification_matches_same_arm_raw": true,
+        "progressive_packet_identity": true,
+        "no_provenance_or_arm_keys": true
+      },
+      {
+        "arm": "medium",
+        "proposal_matches_same_arm_raw": true,
+        "critique_matches_same_arm_raw": true,
+        "verification_matches_same_arm_raw": true,
+        "progressive_packet_identity": true,
+        "no_provenance_or_arm_keys": true
+      }
+    ],
+    "judge_checks": [
+      {
+        "arm": "low",
+        "twelve_unique_expected_ids": true,
+        "strict_triplet_schema": true
+      },
+      {
+        "arm": "medium",
+        "twelve_unique_expected_ids": true,
+        "strict_triplet_schema": true
+      }
+    ],
+    "failed_attempts": [
+      {
+        "arm": "low",
+        "replicate": 8,
+        "thread_id": "final-low-independent-r08-stalled-attempt",
+        "status": "stalled_timeout",
+        "timeout_ms": 360000,
+        "restarted_as": "final-low-independent-r08",
+        "archived": true
+      }
+    ]
+  },
+  "all_checks_pass": true
+}

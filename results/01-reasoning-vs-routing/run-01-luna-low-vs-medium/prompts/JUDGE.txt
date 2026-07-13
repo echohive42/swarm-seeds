@@ -1,0 +1,1 @@
+Adjudicate using exact prefix coverage first, independent verification second, conventional simplicity third, and proposal popularity only as a weak tiebreaker. Return the best-supported next three terms for every case. If all proposals are weak, still give the best answer but lower confidence. Do not average incompatible numeric predictions.

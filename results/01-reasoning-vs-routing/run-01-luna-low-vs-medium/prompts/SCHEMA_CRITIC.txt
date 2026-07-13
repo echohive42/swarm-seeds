@@ -1,0 +1,3 @@
+Return only a JSON array with exactly one object per case in the supplied order:
+[{"id":"CASE_ID","ranking":["A","B","C","D","E"],"best":"A","failures":{"A":"brief audit","B":"brief audit","C":"brief audit","D":"brief audit","E":"brief audit"},"reason":"decisive reason"}]
+Use every supplied case id exactly once and every proposal label A through E exactly once in each ranking.

@@ -1,0 +1,7 @@
+split,arm,method,deployment_calls,experimental_calls,parallel_latency_ms,prompt_chars,output_chars,visible_token_proxy,format_compliance_rate,actual_hidden_reasoning_tokens
+development,low,direct,1,10,20757,1162,502,521,1.000000,unavailable
+development,low,ensemble,10,10,29282,11620,5018,5211,1.000000,unavailable
+development,low,collaboration,10,10,71962,31644,8311,13913,0.900000,unavailable
+development,medium,direct,1,10,20093,1162,494,520,1.000000,unavailable
+development,medium,ensemble,10,10,31372,11620,4936,5198,1.000000,unavailable
+development,medium,collaboration,10,10,81181,37958,8289,15920,1.000000,unavailable

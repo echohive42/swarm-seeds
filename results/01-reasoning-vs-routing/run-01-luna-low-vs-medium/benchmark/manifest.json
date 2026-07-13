@@ -1,0 +1,24 @@
+{
+  "benchmark_version": "1.0.0",
+  "frozen_date": "2026-07-12",
+  "development": [
+    {"id":"D01","prefix":[1,1,2,5,14,42,132,429,1430,4862],"next":[16796,58786,208012],"rule":"Catalan numbers C0 onward.","category":"known-combinatorial"},
+    {"id":"D02","prefix":[4,13,38,87,208,377,666,1027,1556,2397],"next":[3358,4727,6408],"rule":"Cumulative sums of squares of consecutive primes.","category":"cumulative-arithmetic"},
+    {"id":"D03","prefix":[1,4,15,76,455,3186,25487,229384,2293839,25232230],"next":[302786759,3936227868,55107190151],"rule":"a1=1; an=(n+1)a(n-1)+(-1)^n for n>=2.","category":"indexed-recurrence"},
+    {"id":"D04","prefix":[1,1,4,2,9,6,16,24,25,120],"next":[36,720,49],"rule":"Interleave k squared at odd positions with k factorial at even positions.","category":"interleaved"}
+  ],
+  "final": [
+    {"id":"F01","prefix":[1,1,1,2,5,16,61,272,1385,7936],"next":[50521,353792,2702765],"rule":"Euler zigzag or up/down numbers, starting at n=0.","category":"known-combinatorial"},
+    {"id":"F02","prefix":[1,1,2,4,10,26,76,232,764,2620],"next":[9496,35696,140152],"rule":"Numbers of involutions on n elements, starting at n=0.","category":"known-combinatorial"},
+    {"id":"F03","prefix":[1,1,3,7,19,51,141,393,1107,3139],"next":[8953,25653,73789],"rule":"Central trinomial coefficients, starting at n=0.","category":"known-combinatorial"},
+    {"id":"F04","prefix":[1,1,2,4,9,21,51,127,323,835],"next":[2188,5798,15511],"rule":"Motzkin numbers, starting at n=0.","category":"known-combinatorial"},
+    {"id":"F05","prefix":[16,97,722,3123,17764,46325,129846,260167,540008,1247289],"next":[2170810,4044971,6870732],"rule":"Cumulative sums of fourth powers of consecutive primes.","category":"cumulative-arithmetic"},
+    {"id":"F06","prefix":[2,7,16,71,344,2077,14522,116195,1045732,10457349],"next":[115030808,1380369733,17944806488],"rule":"a1=2; an=n*a(n-1)+(-1)^n*p_n, where p_n is the nth prime.","category":"indexed-recurrence"},
+    {"id":"F07","prefix":[1,3,1,9,2,27,5,81,14,243],"next":[42,729,132],"rule":"Interleave Catalan numbers C0,C1,... with powers 3^1,3^2,...","category":"interleaved"},
+    {"id":"F08","prefix":[1,6,25,90,301,966,3025,9330,28501,86526],"next":[261625,788970,2375101],"rule":"Stirling numbers of the second kind S(n,3), starting at n=3.","category":"known-combinatorial"},
+    {"id":"F09","prefix":[3,35,248,1031,3136,7789,16824,32787,59072,100029],"next":[161082,248869,371334],"rule":"an=n^5+p_n, where p_n is the nth prime.","category":"index-plus-prime"},
+    {"id":"F10","prefix":[64,280,792,1521,2521,4249,6993,10368,14464,20296],"next":[28296,37557,48205],"rule":"Cumulative sums of cubes of consecutive composite numbers, beginning with 4.","category":"cumulative-arithmetic"},
+    {"id":"F11","prefix":[3,11,30,77,178,393,834,1733,3546,7193],"next":[14506,29157,58482],"rule":"a1=3; an=2*a(n-1)+n^2+(-1)^n for n>=2.","category":"indexed-recurrence"},
+    {"id":"F12","prefix":[1,1,3,16,125,1296,16807,262144,4782969,100000000],"next":[2357947691,61917364224,1792160394037],"rule":"Cayley labeled-tree counts n^(n-2), with the n=1 convention 1.","category":"known-combinatorial"}
+  ]
+}
