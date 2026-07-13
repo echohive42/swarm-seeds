@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "7207",
+          "10442",
+          "14817",
+          "20702",
+          "28527"
+        ],
+        "case_id": "F025",
+        "check_summary": "Prefix replay partially consistent with a phase-structured polynomial-delta rule; extrapolation uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "Likely PDELTA or GROWBLOCK with phase-specific polynomial increments."
+      },
+      {
+        "answer": [
+          "-19933087",
+          "59799256",
+          "119598507",
+          "-358795516",
+          "1076386543"
+        ],
+        "case_id": "F026",
+        "check_summary": "Alternating affine transitions with a repeating bias pattern reproduce the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic AFFINE recurrence with multipliers -3 and 2 and phase-specific biases."
+      },
+      {
+        "answer": [
+          "-6487",
+          "12969",
+          "-25943",
+          "51881",
+          "-103767"
+        ],
+        "case_id": "F027",
+        "check_summary": "Every transition follows x_next = -2x - 5.",
+        "confidence": 0.99,
+        "rule_summary": "Constant AFFINE recurrence x_next = -2x - 5."
+      },
+      {
+        "answer": [
+          "382",
+          "615",
+          "992",
+          "1602",
+          "2589"
+        ],
+        "case_id": "F028",
+        "check_summary": "Successive increments are Fibonacci numbers.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with Fibonacci-like increment stream."
+      },
+      {
+        "answer": [
+          "-28",
+          "-30",
+          "-35",
+          "-37",
+          "-42"
+        ],
+        "case_id": "F029",
+        "check_summary": "Differences alternate -2 and -5 throughout the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic PDELTA with alternating constant deltas."
+      },
+      {
+        "answer": [
+          "-927",
+          "-1639",
+          "-1827",
+          "-2547",
+          "-2735"
+        ],
+        "case_id": "F030",
+        "check_summary": "Phase-structured oscillatory increments inferred from the prefix; extrapolation uncertain.",
+        "confidence": 0.12,
+        "rule_summary": "Likely INTERLEAVE or periodic PDELTA."
+      },
+      {
+        "answer": [
+          "-2",
+          "37",
+          "11",
+          "55",
+          "28"
+        ],
+        "case_id": "F031",
+        "check_summary": "Odd and even positions form separate quadratic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two polynomial streams."
+      },
+      {
+        "answer": [
+          "60",
+          "38",
+          "96",
+          "31",
+          "139"
+        ],
+        "case_id": "F032",
+        "check_summary": "Phase-separated continuation inferred from the irregular periodic prefix; extrapolation uncertain.",
+        "confidence": 0.16,
+        "rule_summary": "Likely INTERLEAVE or PDELTA."
+      },
+      {
+        "answer": [
+          "-7190",
+          "-11635",
+          "-18805",
+          "-30440",
+          "-49310"
+        ],
+        "case_id": "F033",
+        "check_summary": "Growth pattern is consistent with a phase-structured affine or delta process; continuation uncertain.",
+        "confidence": 0.15,
+        "rule_summary": "Likely periodic AFFINE or PDELTA."
+      },
+      {
+        "answer": [
+          "3903",
+          "5311",
+          "7025",
+          "9074",
+          "11489"
+        ],
+        "case_id": "F034",
+        "check_summary": "Fourth finite differences are constant, confirming an integer-valued quartic polynomial.",
+        "confidence": 0.99,
+        "rule_summary": "POLY of degree four."
+      },
+      {
+        "answer": [
+          "-79982",
+          "-239947",
+          "479890",
+          "1439669",
+          "-2879342"
+        ],
+        "case_id": "F035",
+        "check_summary": "Two interleaved streams follow affine recurrences with multiplier -6 and distinct biases.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-386",
+          "-514",
+          "-666",
+          "-844",
+          "-1050"
+        ],
+        "case_id": "F036",
+        "check_summary": "Second differences decrease by 2, yielding a quartic-like polynomial continuation.",
+        "confidence": 0.97,
+        "rule_summary": "POLY with quadratic second-difference progression."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-FIXED-SWARM10-final-b03-proposer-05",
+  "outcome": "valid_output",
+  "response_sha256": "6357e1e5e66c682b0e4ee5e891134834e717f60cd80c33067bf58739f519d257",
+  "terminal_artifact_relpath": "jobs/final-FIXED-SWARM10-final-b03-proposer-05/attempt-01"
+}

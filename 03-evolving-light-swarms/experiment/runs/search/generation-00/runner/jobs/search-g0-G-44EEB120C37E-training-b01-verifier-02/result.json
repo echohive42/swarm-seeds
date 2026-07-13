@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Odd and even positions form arithmetic streams with steps +4 and -2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "18",
+          "15",
+          "23",
+          "20",
+          "28"
+        ],
+        "case_id": "T02",
+        "check_summary": "Differences follow alternating +8,-3 continuation.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic delta update."
+      },
+      {
+        "answer": [
+          "39",
+          "17",
+          "-5",
+          "-27",
+          "-49"
+        ],
+        "case_id": "T03",
+        "check_summary": "Growing arithmetic blocks continue after the reset with step -22.",
+        "confidence": 0.86,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "395867",
+          "-791740",
+          "1583478",
+          "4750427",
+          "-9500860"
+        ],
+        "case_id": "T04",
+        "check_summary": "Three-phase affine transformations replay the full prefix.",
+        "confidence": 0.98,
+        "rule_summary": "Period-3 AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "-6875",
+          "-11518",
+          "-18194",
+          "-27490",
+          "-40070"
+        ],
+        "case_id": "T05",
+        "check_summary": "Finite differences have constant fifth difference -8, yielding the polynomial continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Degree-5 POLY."
+      },
+      {
+        "answer": [
+          "-1",
+          "65",
+          "38",
+          "5",
+          "9"
+        ],
+        "case_id": "T06",
+        "check_summary": "Four interleaved streams have phase-specific arithmetic increments.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE of four polynomial streams."
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1722",
+          "-2163",
+          "-2673",
+          "-3257"
+        ],
+        "case_id": "T07",
+        "check_summary": "Finite differences support a cubic continuation with constant third difference -5.",
+        "confidence": 0.99,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "-80",
+          "40",
+          "-108",
+          "-542",
+          "-50"
+        ],
+        "case_id": "T08",
+        "check_summary": "Best-supported distinct candidate under the irregular modular/interleaved pattern.",
+        "confidence": 0.45,
+        "rule_summary": "INTERLEAVE candidate."
+      },
+      {
+        "answer": [
+          "-253",
+          "-225",
+          "-321",
+          "-288",
+          "-400"
+        ],
+        "case_id": "T09",
+        "check_summary": "Odd and even subsequences each have first differences decreasing by 11.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two quadratic streams."
+      },
+      {
+        "answer": [
+          "44",
+          "56",
+          "10",
+          "-84",
+          "78"
+        ],
+        "case_id": "T10",
+        "check_summary": "Three interleaved streams replay the observed prefix.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of arithmetic and geometric streams."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Exact recurrence is x_next=2x-1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "87391",
+          "43684",
+          "349537",
+          "174754",
+          "1398127"
+        ],
+        "case_id": "T12",
+        "check_summary": "Odd and even streams multiply by 4 with linearly changing biases.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE of two periodic affine streams."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g0-G-44EEB120C37E-training-b01-verifier-02",
+  "outcome": "valid_output",
+  "response_sha256": "93e71aa26e1ebd0f76f4afd664f34482b76e83ee482bdad4f13619210f63a986",
+  "terminal_artifact_relpath": "jobs/search-g0-G-44EEB120C37E-training-b01-verifier-02/attempt-01"
+}

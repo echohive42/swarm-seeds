@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "-78",
+          "-20",
+          "27",
+          "-105",
+          "44"
+        ],
+        "case_id": "F013",
+        "check_summary": "Phase-specific recurrence and polynomial deltas fit the prefix.",
+        "confidence": 0.9,
+        "rule_summary": "Three-phase periodic update."
+      },
+      {
+        "answer": [
+          "-55",
+          "-64",
+          "-73",
+          "-82",
+          "-91"
+        ],
+        "case_id": "F014",
+        "check_summary": "Growing arithmetic blocks with increasing internal lengths.",
+        "confidence": 0.35,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-10",
+          "23",
+          "41",
+          "-19",
+          "59"
+        ],
+        "case_id": "F015",
+        "check_summary": "Arithmetic block structure identified; continuation of block starts is less certain.",
+        "confidence": 0.45,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "107",
+          "76",
+          "63",
+          "357",
+          "262"
+        ],
+        "case_id": "F016",
+        "check_summary": "Three interleaved cubic streams reproduce the prefix.",
+        "confidence": 0.85,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      },
+      {
+        "answer": [
+          "-218",
+          "40",
+          "-127",
+          "-290",
+          "88"
+        ],
+        "case_id": "F017",
+        "check_summary": "Periodic affine behavior suspected but parameters are weakly constrained.",
+        "confidence": 0.2,
+        "rule_summary": "MODAFFINE or periodic affine."
+      },
+      {
+        "answer": [
+          "-12",
+          "81",
+          "-18",
+          "93",
+          "-24"
+        ],
+        "case_id": "F018",
+        "check_summary": "Interleaved periodic streams suspected; extrapolation uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "64",
+          "-23",
+          "90",
+          "41",
+          "120"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd terms follow quadratic increments; even terms follow alternating powers-of-two differences.",
+        "confidence": 0.95,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      },
+      {
+        "answer": [
+          "27",
+          "-44",
+          "46",
+          "42",
+          "-71"
+        ],
+        "case_id": "F020",
+        "check_summary": "Three phase streams exhibit arithmetic second-difference patterns.",
+        "confidence": 0.8,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      },
+      {
+        "answer": [
+          "-34",
+          "-33",
+          "-39",
+          "-38",
+          "-44"
+        ],
+        "case_id": "F021",
+        "check_summary": "Alternating periodic decrement structure inferred.",
+        "confidence": 0.35,
+        "rule_summary": "Periodic phase update."
+      },
+      {
+        "answer": [
+          "-76",
+          "-43",
+          "-64",
+          "-92",
+          "-32"
+        ],
+        "case_id": "F022",
+        "check_summary": "Modular or interleaved structure suspected; continuation uncertain.",
+        "confidence": 0.15,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "14",
+          "-4",
+          "15",
+          "-6",
+          "16"
+        ],
+        "case_id": "F023",
+        "check_summary": "Odd stream increments by one and even stream decrements by two.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of affine streams."
+      },
+      {
+        "answer": [
+          "-171",
+          "115",
+          "98",
+          "-293",
+          "154"
+        ],
+        "case_id": "F024",
+        "check_summary": "Three interleaved polynomial-like streams fit the observed prefix.",
+        "confidence": 0.55,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-VOTE10-final-b02-proposer-05",
+  "outcome": "valid_output",
+  "response_sha256": "495c718d1a7e10ebaadd632cd65d7c4019806281cf4a756555a4aa26ec3f755b",
+  "terminal_artifact_relpath": "jobs/final-VOTE10-final-b02-proposer-05/attempt-01"
+}

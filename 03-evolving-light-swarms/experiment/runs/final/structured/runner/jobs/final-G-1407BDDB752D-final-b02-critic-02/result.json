@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "27",
+          "-78",
+          "-20",
+          "33",
+          "-105"
+        ],
+        "case_id": "F013",
+        "check_summary": "Three position streams fit exactly: arithmetic +6; second differences -5; alternating doubled differences 4,-8,16,-32,64.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-70",
+          "-57",
+          "-44",
+          "-31",
+          "-18"
+        ],
+        "case_id": "F014",
+        "check_summary": "Growing arithmetic block continues from start -70 with step 13.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "53",
+          "-10",
+          "11",
+          "32",
+          "53"
+        ],
+        "case_id": "F015",
+        "check_summary": "Observed arithmetic blocks have steps 12,15,18; continuation completes the step-18 block at 53, then starts step-21 block at -10.",
+        "confidence": 0.95,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "53",
+          "31",
+          "49",
+          "75",
+          "21"
+        ],
+        "case_id": "F016",
+        "check_summary": "Best-supported anonymous continuation; irregular prefix is consistent with a phase-dependent second-order recurrence.",
+        "confidence": 0.18,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "310",
+          "70",
+          "-133",
+          "-928",
+          "130"
+        ],
+        "case_id": "F017",
+        "check_summary": "Three interleaved streams replay exactly; the geometric-difference stream continues to 310, while the other streams continue to 70 and -133.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "18",
+          "81",
+          "-7",
+          "97",
+          "24"
+        ],
+        "case_id": "F018",
+        "check_summary": "Best-supported candidate modular/periodic continuation; alternatives do not establish a stronger full-prefix fit.",
+        "confidence": 0.16,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "62",
+          "-23",
+          "88",
+          "41",
+          "120"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd stream differences are 2,6,10,14,18,22; even stream differences are 1,-2,4,-8,16,-32,64.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "16",
+          "-44",
+          "46",
+          "27",
+          "-71"
+        ],
+        "case_id": "F020",
+        "check_summary": "Three residue streams fit: phase increments continue -5,-1,3,7,11; -7,-12,-17,-22,-27; and 3,8,13,18,23.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-33",
+          "-38",
+          "-43",
+          "-48",
+          "-32"
+        ],
+        "case_id": "F021",
+        "check_summary": "Differences are mostly -5, with positive corrections at positions 2,5,9,14 of 1,6,11,16.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-46",
+          "29",
+          "-13",
+          "64",
+          "-31"
+        ],
+        "case_id": "F022",
+        "check_summary": "Best-supported modular affine candidate among the supplied evidence.",
+        "confidence": 0.13,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "14",
+          "-6",
+          "15",
+          "-8",
+          "16"
+        ],
+        "case_id": "F023",
+        "check_summary": "Odd-position stream increases by 1; even-position stream decreases by 2.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "111",
+          "-195",
+          "126",
+          "-310",
+          "141"
+        ],
+        "case_id": "F024",
+        "check_summary": "Best-supported candidate continuation for the alternating phase structure; evidence is weak.",
+        "confidence": 0.09,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-G-1407BDDB752D-final-b02-critic-02",
+  "outcome": "valid_output",
+  "response_sha256": "490350a747d5fe8b9df698efc63b1c27bf85e6e201194c081bea44c8c44b3074",
+  "terminal_artifact_relpath": "jobs/final-G-1407BDDB752D-final-b02-critic-02/attempt-01"
+}

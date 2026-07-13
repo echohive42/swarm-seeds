@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Odd-position stream increases by 4; even-position stream decreases by 2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "18",
+          "15",
+          "23",
+          "20",
+          "28"
+        ],
+        "case_id": "T02",
+        "check_summary": "Periodic delta continuation selected from the strongest candidate replay.",
+        "confidence": 0.72,
+        "rule_summary": "PDELTA with recurring phase-specific increments."
+      },
+      {
+        "answer": [
+          "39",
+          "17",
+          "-5",
+          "-27",
+          "-49"
+        ],
+        "case_id": "T03",
+        "check_summary": "Growing arithmetic-block continuation with a reset followed by -22 steps.",
+        "confidence": 0.86,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "395867",
+          "-791740",
+          "1583478",
+          "4750427",
+          "-9500860"
+        ],
+        "case_id": "T04",
+        "check_summary": "Exact three-phase affine replay: -2x-2, 3x-7, -2x-6.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "-3783",
+          "-6883",
+          "-11558",
+          "-18314",
+          "-27752"
+        ],
+        "case_id": "T05",
+        "check_summary": "Interleaved polynomial streams provide the strongest full-prefix continuation.",
+        "confidence": 0.72,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      },
+      {
+        "answer": [
+          "-40",
+          "-37",
+          "32",
+          "5",
+          "-28"
+        ],
+        "case_id": "T06",
+        "check_summary": "Four transition phases continue with deltas -33,+3,+69,-27,-33.",
+        "confidence": 0.96,
+        "rule_summary": "Four-phase PDELTA."
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1722",
+          "-2163",
+          "-2673",
+          "-3257"
+        ],
+        "case_id": "T07",
+        "check_summary": "Successive second differences decrease by 5, giving constant third difference -5.",
+        "confidence": 0.99,
+        "rule_summary": "Cubic POLY continuation."
+      },
+      {
+        "answer": [
+          "-12",
+          "-31",
+          "-8",
+          "-45",
+          "-24"
+        ],
+        "case_id": "T08",
+        "check_summary": "Periodic modular-affine candidate best fits the irregular bounded prefix.",
+        "confidence": 0.2,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "-225",
+          "-253",
+          "-299",
+          "-332",
+          "-384"
+        ],
+        "case_id": "T09",
+        "check_summary": "Odd and even subsequences follow quadratic difference progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two quadratic streams."
+      },
+      {
+        "answer": [
+          "10",
+          "44",
+          "56",
+          "12",
+          "108"
+        ],
+        "case_id": "T10",
+        "check_summary": "Three interleaved streams replay the visible prefix under distinct affine/polynomial updates.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE of polynomial and affine streams."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Every term equals twice the previous term minus 1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE recurrence x_next=2x-1."
+      },
+      {
+        "answer": [
+          "43729",
+          "87436",
+          "174901",
+          "349774",
+          "699583"
+        ],
+        "case_id": "T12",
+        "check_summary": "Multiplier-2 periodic affine recurrence with phase-varying biases.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic AFFINE recurrence."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g0-G-44EEB120C37E-training-b01-verifier-01",
+  "outcome": "valid_output",
+  "response_sha256": "1f6d1993efea24d24e9ddb78b417e495be6fe5204435e63fecb15347554ee53d",
+  "terminal_artifact_relpath": "jobs/search-g0-G-44EEB120C37E-training-b01-verifier-01/attempt-01"
+}

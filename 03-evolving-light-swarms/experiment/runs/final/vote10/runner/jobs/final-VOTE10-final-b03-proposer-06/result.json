@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "3923",
+          "5344",
+          "7084",
+          "9196",
+          "11737"
+        ],
+        "case_id": "F034",
+        "check_summary": "Matches a quartic finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY quartic"
+      },
+      {
+        "answer": [
+          "-386",
+          "-512",
+          "-660",
+          "-832",
+          "-1030"
+        ],
+        "case_id": "F036",
+        "check_summary": "Second differences continue by -2.",
+        "confidence": 0.99,
+        "rule_summary": "POLY quadratic"
+      },
+      {
+        "answer": [
+          "-19933087",
+          "59799266",
+          "-179397793",
+          "538193372",
+          "-1076386749"
+        ],
+        "case_id": "F026",
+        "check_summary": "Repeating affine phase transformations replay the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE periodic"
+      },
+      {
+        "answer": [
+          "-25943",
+          "51881",
+          "-103767",
+          "207529",
+          "-415063"
+        ],
+        "case_id": "F027",
+        "check_summary": "Every transition is x -> -2x - 5.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "382",
+          "615",
+          "992",
+          "1602",
+          "2589"
+        ],
+        "case_id": "F028",
+        "check_summary": "Successive increments follow Fibonacci numbers.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA Fibonacci-periodic"
+      },
+      {
+        "answer": [
+          "-28",
+          "-33",
+          "-35",
+          "-40",
+          "-42"
+        ],
+        "case_id": "F029",
+        "check_summary": "Differences repeat -2,-5.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA periodic"
+      },
+      {
+        "answer": [
+          "-8",
+          "-34",
+          "-34",
+          "-27",
+          "-29"
+        ],
+        "case_id": "F025",
+        "check_summary": "Candidate continuation from a low-complexity periodic-delta fit.",
+        "confidence": 0.22,
+        "rule_summary": "PDELTA periodic polynomial"
+      },
+      {
+        "answer": [
+          "-547",
+          "-359",
+          "173",
+          "1273",
+          "97"
+        ],
+        "case_id": "F030",
+        "check_summary": "Candidate continuation from interleaved stream extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3",
+          "-18",
+          "1",
+          "-17",
+          "9"
+        ],
+        "case_id": "F031",
+        "check_summary": "Candidate continuation from phase-interleaved affine streams.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "88",
+          "116",
+          "151",
+          "195",
+          "251"
+        ],
+        "case_id": "F032",
+        "check_summary": "Candidate continuation from periodic polynomial deltas.",
+        "confidence": 0.19,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-7200",
+          "-11645",
+          "-18845",
+          "-30490",
+          "-49335"
+        ],
+        "case_id": "F033",
+        "check_summary": "Candidate continuation from a linear-recursive growth pattern.",
+        "confidence": 0.2,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-119967",
+          "359896",
+          "1079687",
+          "-3239066",
+          "-9717199"
+        ],
+        "case_id": "F035",
+        "check_summary": "Candidate continuation from a repeating affine phase pattern.",
+        "confidence": 0.2,
+        "rule_summary": "AFFINE periodic"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-VOTE10-final-b03-proposer-06",
+  "outcome": "valid_output",
+  "response_sha256": "1d678953fafca972c084478dfb905464e76f7b9827ddf5a3f8b87fa64a5366fc",
+  "terminal_artifact_relpath": "jobs/final-VOTE10-final-b03-proposer-06/attempt-01"
+}

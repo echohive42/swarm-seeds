@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "7631",
+          "11538",
+          "16807",
+          "23750",
+          "33045"
+        ],
+        "case_id": "F025",
+        "check_summary": "Constant fifth differences.",
+        "confidence": 0.99,
+        "rule_summary": "Degree-5 polynomial."
+      },
+      {
+        "answer": [
+          "-19933087",
+          "59799266",
+          "-179397805",
+          "-358795615",
+          "1076386850"
+        ],
+        "case_id": "F026",
+        "check_summary": "Repeating affine phase cycle verified.",
+        "confidence": 0.99,
+        "rule_summary": "Three-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "-25943",
+          "51881",
+          "-103767",
+          "207529",
+          "-415063"
+        ],
+        "case_id": "F027",
+        "check_summary": "Single affine update verified.",
+        "confidence": 0.99,
+        "rule_summary": "x_next=-2x-5."
+      },
+      {
+        "answer": [
+          "382",
+          "615",
+          "992",
+          "1602",
+          "2589"
+        ],
+        "case_id": "F028",
+        "check_summary": "Fibonacci-valued increments verified.",
+        "confidence": 0.99,
+        "rule_summary": "Running sum with Fibonacci increments."
+      },
+      {
+        "answer": [
+          "-28",
+          "-31",
+          "-36",
+          "-38",
+          "-43"
+        ],
+        "case_id": "F029",
+        "check_summary": "Alternating decrements verified.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase arithmetic update."
+      },
+      {
+        "answer": [
+          "-1451",
+          "-2039",
+          "-3179",
+          "-4727",
+          "-6839"
+        ],
+        "case_id": "F030",
+        "check_summary": "Candidate periodic polynomial extrapolation.",
+        "confidence": 0.32,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-3",
+          "37",
+          "10",
+          "57",
+          "27"
+        ],
+        "case_id": "F031",
+        "check_summary": "Odd and even subsequences fit quadratic streams.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved quadratic streams."
+      },
+      {
+        "answer": [
+          "76",
+          "111",
+          "153",
+          "207",
+          "274"
+        ],
+        "case_id": "F032",
+        "check_summary": "Candidate phase-specific lagged extrapolation.",
+        "confidence": 0.25,
+        "rule_summary": "Lagged polynomial streams."
+      },
+      {
+        "answer": [
+          "-7198",
+          "-11639",
+          "-18835",
+          "-30482",
+          "-49314"
+        ],
+        "case_id": "F033",
+        "check_summary": "Second-order recurrence with repeating biases verified.",
+        "confidence": 0.99,
+        "rule_summary": "Three-phase LIN2 recurrence."
+      },
+      {
+        "answer": [
+          "3923",
+          "5393",
+          "7235",
+          "9506",
+          "12267"
+        ],
+        "case_id": "F034",
+        "check_summary": "Constant fourth differences verified.",
+        "confidence": 0.99,
+        "rule_summary": "Degree-4 polynomial."
+      },
+      {
+        "answer": [
+          "-79982",
+          "-239947",
+          "479890",
+          "1439669",
+          "-2879342"
+        ],
+        "case_id": "F035",
+        "check_summary": "Repeating affine phase verified.",
+        "confidence": 0.99,
+        "rule_summary": "Three-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "-386",
+          "-514",
+          "-666",
+          "-844",
+          "-1050"
+        ],
+        "case_id": "F036",
+        "check_summary": "Second differences decrease by 2.",
+        "confidence": 0.99,
+        "rule_summary": "Cubic polynomial."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "amendment-01-VOTE10-final-b03-proposer-03",
+  "outcome": "valid_output",
+  "response_sha256": "b45d79a61c048e96f37e9f7f0ef3688bee38a42cafdd17355b39776a9a1ddb70",
+  "terminal_artifact_relpath": "jobs/amendment-01-VOTE10-final-b03-proposer-03/attempt-01"
+}

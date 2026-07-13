@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "27",
+          "-78",
+          "-20",
+          "33",
+          "44"
+        ],
+        "case_id": "F013",
+        "check_summary": "Phase-wise arithmetic and alternating-delta continuation.",
+        "confidence": 0.32,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "10",
+          "23",
+          "36",
+          "49",
+          "62"
+        ],
+        "case_id": "F014",
+        "check_summary": "Growing arithmetic block continuation.",
+        "confidence": 0.46,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "53",
+          "74",
+          "95",
+          "116",
+          "137"
+        ],
+        "case_id": "F015",
+        "check_summary": "Increasing-step block continuation.",
+        "confidence": 0.25,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-2",
+          "41",
+          "20",
+          "53",
+          "24"
+        ],
+        "case_id": "F016",
+        "check_summary": "Low-confidence phase recurrence extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-121",
+          "54",
+          "-188",
+          "81",
+          "-257"
+        ],
+        "case_id": "F017",
+        "check_summary": "Low-confidence periodic phase continuation.",
+        "confidence": 0.06,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "18",
+          "77",
+          "-3",
+          "85",
+          "-24"
+        ],
+        "case_id": "F018",
+        "check_summary": "Low-confidence modular phase continuation.",
+        "confidence": 0.05,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "62",
+          "-23",
+          "86",
+          "41",
+          "114"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd subsequence has increments increasing by four; even subsequence doubles signed increments.",
+        "confidence": 0.88,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-8",
+          "34",
+          "-17",
+          "40",
+          "-26"
+        ],
+        "case_id": "F020",
+        "check_summary": "Low-confidence phase recurrence extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-33",
+          "-34",
+          "-38",
+          "-39",
+          "-43"
+        ],
+        "case_id": "F021",
+        "check_summary": "Repeated negative runs with increasing phase jumps.",
+        "confidence": 0.19,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "31",
+          "76",
+          "19",
+          "84",
+          "7"
+        ],
+        "case_id": "F022",
+        "check_summary": "Low-confidence modular continuation.",
+        "confidence": 0.05,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "14",
+          "-6",
+          "15",
+          "-8",
+          "16"
+        ],
+        "case_id": "F023",
+        "check_summary": "Odd terms increase by one and even terms decrease by two.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "113",
+          "-119",
+          "144",
+          "-156",
+          "181"
+        ],
+        "case_id": "F024",
+        "check_summary": "Low-confidence alternating phase continuation.",
+        "confidence": 0.05,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "amendment-01-VOTE10-final-b02-proposer-08",
+  "outcome": "valid_output",
+  "response_sha256": "44f83210a9b7664eb58d445c5ae82e50b492e1ac015c9abe290d0a115452aa71",
+  "terminal_artifact_relpath": "jobs/amendment-01-VOTE10-final-b02-proposer-08/attempt-01"
+}

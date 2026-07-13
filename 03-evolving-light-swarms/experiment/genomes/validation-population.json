@@ -1,0 +1,192 @@
+{
+  "genomes": [
+    {
+      "genes": {
+        "final_policy_id": "evidence_weighted",
+        "role_lenses": [
+          "recurrences",
+          "generalist",
+          "simplicity",
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "diversifier",
+          "audit"
+        ],
+        "topology_id": "consensus_9p_1j"
+      },
+      "genome_id": "G-236ED23A587B",
+      "genome_sha256": "236ed23a587b3d0167cd9234fd131b69ff894b544904bc4c27a07460ece0ea26",
+      "lineage": {
+        "crossover_sources": null,
+        "founder_id": null,
+        "founding_species": [
+          "consensus"
+        ],
+        "generation": 1,
+        "mutation": {
+          "from": "audit",
+          "locus": "role_lenses.0",
+          "to": "recurrences"
+        },
+        "operation": "one_gene_mutation",
+        "parents": [
+          "G-498E470E7808"
+        ]
+      }
+    },
+    {
+      "genes": {
+        "final_policy_id": "evidence_weighted",
+        "role_lenses": [
+          "streams",
+          "modular",
+          "diversifier",
+          "modular",
+          "diversifier",
+          "simplicity",
+          "generalist",
+          "generalist",
+          "simplicity"
+        ],
+        "topology_id": "falsification_7p_2c_1j"
+      },
+      "genome_id": "G-1407BDDB752D",
+      "genome_sha256": "1407bddb752d9eda8abf68b5248d04b8beb2539024d67834474ec15f9cd48d28",
+      "lineage": {
+        "crossover_sources": {
+          "final_policy_id": "G-498E470E7808",
+          "role_lenses": [
+            {
+              "parent": "G-37B2621092D0",
+              "source_slot": "W06"
+            },
+            {
+              "parent": "G-37B2621092D0",
+              "source_slot": "W07"
+            },
+            {
+              "parent": "G-37B2621092D0",
+              "source_slot": "W08"
+            },
+            {
+              "parent": "G-498E470E7808",
+              "source_slot": "W07"
+            },
+            {
+              "parent": "G-498E470E7808",
+              "source_slot": "W08"
+            },
+            {
+              "parent": "G-37B2621092D0",
+              "source_slot": "W02"
+            },
+            {
+              "parent": "G-37B2621092D0",
+              "source_slot": "W03"
+            },
+            {
+              "parent": "G-498E470E7808",
+              "source_slot": "W02"
+            },
+            {
+              "parent": "G-498E470E7808",
+              "source_slot": "W03"
+            }
+          ],
+          "topology_id": "G-37B2621092D0"
+        },
+        "founder_id": null,
+        "founding_species": [
+          "consensus",
+          "falsification"
+        ],
+        "generation": 1,
+        "mutation": null,
+        "operation": "crossover",
+        "parents": [
+          "G-37B2621092D0",
+          "G-498E470E7808"
+        ]
+      }
+    },
+    {
+      "genes": {
+        "final_policy_id": "evidence_weighted",
+        "role_lenses": [
+          "simplicity",
+          "differences",
+          "modular",
+          "diversifier",
+          "modular",
+          "diversifier",
+          "audit",
+          "generalist",
+          "generalist"
+        ],
+        "topology_id": "falsification_7p_2c_1j"
+      },
+      "genome_id": "G-157CA76A3367",
+      "genome_sha256": "157ca76a3367cad722ba113ea5b2358d6426c011478ecdc8e697ad868d5e9663",
+      "lineage": {
+        "crossover_sources": {
+          "final_policy_id": "G-236ED23A587B",
+          "role_lenses": [
+            {
+              "parent": "G-236ED23A587B",
+              "source_slot": "W03"
+            },
+            {
+              "parent": "G-236ED23A587B",
+              "source_slot": "W04"
+            },
+            {
+              "parent": "G-1407BDDB752D",
+              "source_slot": "W02"
+            },
+            {
+              "parent": "G-1407BDDB752D",
+              "source_slot": "W03"
+            },
+            {
+              "parent": "G-236ED23A587B",
+              "source_slot": "W07"
+            },
+            {
+              "parent": "G-1407BDDB752D",
+              "source_slot": "W05"
+            },
+            {
+              "parent": "G-236ED23A587B",
+              "source_slot": "W09"
+            },
+            {
+              "parent": "G-1407BDDB752D",
+              "source_slot": "W07"
+            },
+            {
+              "parent": "G-236ED23A587B",
+              "source_slot": "W02"
+            }
+          ],
+          "topology_id": "G-1407BDDB752D"
+        },
+        "founder_id": null,
+        "founding_species": [
+          "consensus",
+          "falsification"
+        ],
+        "generation": 2,
+        "mutation": null,
+        "operation": "crossover",
+        "parents": [
+          "G-1407BDDB752D",
+          "G-236ED23A587B"
+        ]
+      }
+    }
+  ],
+  "schema_version": "experiment-03-validation-run-v1",
+  "source_selection_sha256": "c8ed6e67195fa3b8b453ac679c971de8209286dfabf773991a4a0e7ce1eebc63"
+}

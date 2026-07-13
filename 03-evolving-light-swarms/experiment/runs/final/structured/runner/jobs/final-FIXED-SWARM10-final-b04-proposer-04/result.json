@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "41",
+          "2",
+          "-7",
+          "54",
+          "2"
+        ],
+        "case_id": "F037",
+        "check_summary": "Three interleaved streams: linear, quadratic, constant.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-27",
+          "-27",
+          "-27",
+          "-35",
+          "-27"
+        ],
+        "case_id": "F038",
+        "check_summary": "Tail behavior suggests separated phase streams with a constant odd stream.",
+        "confidence": 0.22,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "15",
+          "61",
+          "48",
+          "42",
+          "20"
+        ],
+        "case_id": "F039",
+        "check_summary": "Weak phase-stream extrapolation from alternating subsequences.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16",
+          "3",
+          "-18",
+          "2",
+          "-20"
+        ],
+        "case_id": "F040",
+        "check_summary": "Odd terms decrease by 2; even terms decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "18",
+          "31",
+          "24",
+          "20",
+          "42"
+        ],
+        "case_id": "F041",
+        "check_summary": "Weak interleaved-stream extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "146",
+          "179",
+          "212",
+          "245",
+          "278"
+        ],
+        "case_id": "F042",
+        "check_summary": "Final observed run is arithmetic with common difference 33.",
+        "confidence": 0.46,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "27",
+          "24",
+          "17",
+          "41",
+          "38"
+        ],
+        "case_id": "F043",
+        "check_summary": "First two phase streams continue with successive increments; third is uncertain.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "33",
+          "42",
+          "1",
+          "6",
+          "36"
+        ],
+        "case_id": "F044",
+        "check_summary": "Weak three-phase continuation estimate.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "37",
+          "-41",
+          "21",
+          "65",
+          "-55"
+        ],
+        "case_id": "F045",
+        "check_summary": "Three interleaved streams with arithmetic second differences.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-2",
+          "-2",
+          "-3",
+          "-3",
+          "-4"
+        ],
+        "case_id": "F046",
+        "check_summary": "Weak continuation of alternating/local phase trends.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "0",
+          "-3",
+          "6",
+          "5",
+          "17"
+        ],
+        "case_id": "F047",
+        "check_summary": "Weak phase-stream extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-24",
+          "-5",
+          "18",
+          "-32",
+          "-10"
+        ],
+        "case_id": "F048",
+        "check_summary": "Weak alternating-stream extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-FIXED-SWARM10-final-b04-proposer-04",
+  "outcome": "valid_output",
+  "response_sha256": "6c507aeaecfc724b9424a11bfa75b2042826e425dadbb9040b8f7754bc7ffc1f",
+  "terminal_artifact_relpath": "jobs/final-FIXED-SWARM10-final-b04-proposer-04/attempt-01"
+}

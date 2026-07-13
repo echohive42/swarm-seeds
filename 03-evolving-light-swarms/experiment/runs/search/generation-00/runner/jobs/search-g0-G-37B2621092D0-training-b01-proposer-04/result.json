@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Alternating arithmetic streams replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "27",
+          "24",
+          "21",
+          "41",
+          "38"
+        ],
+        "case_id": "T02",
+        "check_summary": "Periodic differences repeat the -3,-3 pattern with rising spikes.",
+        "confidence": 0.92,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "39",
+          "17",
+          "-5",
+          "-27",
+          "-49"
+        ],
+        "case_id": "T03",
+        "check_summary": "Growing negative runs and polynomial positive spikes.",
+        "confidence": 0.75,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-65980",
+          "131958",
+          "395867",
+          "-791740",
+          "1583478"
+        ],
+        "case_id": "T04",
+        "check_summary": "Three-phase affine replay matches all observed cycles.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-5827",
+          "-8599",
+          "-12418",
+          "-17353",
+          "-23827"
+        ],
+        "case_id": "T05",
+        "check_summary": "Phase-structured higher-order differences extrapolated.",
+        "confidence": 0.42,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-4",
+          "65",
+          "38",
+          "5",
+          "11"
+        ],
+        "case_id": "T06",
+        "check_summary": "Four interleaved arithmetic streams with phase-specific increments.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-1560",
+          "-2372",
+          "-3498",
+          "-4938",
+          "-6708"
+        ],
+        "case_id": "T07",
+        "check_summary": "Second differences decrease by 5, yielding a cubic sequence.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-10",
+          "31",
+          "-2",
+          "18",
+          "43"
+        ],
+        "case_id": "T08",
+        "check_summary": "Periodic interleaved streams extrapolated from phase differences.",
+        "confidence": 0.38,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-242",
+          "-214",
+          "-310",
+          "-277",
+          "-389"
+        ],
+        "case_id": "T09",
+        "check_summary": "Two lagged polynomial subsequences replay cleanly.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-13",
+          "54",
+          "20",
+          "-4",
+          "71"
+        ],
+        "case_id": "T10",
+        "check_summary": "Phase-specific interleaved recurrence extrapolation.",
+        "confidence": 0.35,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Exact affine recurrence x_next=2x+1.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "43684",
+          "87391",
+          "174754",
+          "349537",
+          "699102"
+        ],
+        "case_id": "T12",
+        "check_summary": "Alternating affine phases with linearly changing biases.",
+        "confidence": 0.86,
+        "rule_summary": "AFFINE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g0-G-37B2621092D0-training-b01-proposer-04",
+  "outcome": "valid_output",
+  "response_sha256": "64bb1ceae822d23377d78ee18e52d457cc8e011020571c6a12bf3d1a7d14dbed",
+  "terminal_artifact_relpath": "jobs/search-g0-G-37B2621092D0-training-b01-proposer-04/attempt-01"
+}

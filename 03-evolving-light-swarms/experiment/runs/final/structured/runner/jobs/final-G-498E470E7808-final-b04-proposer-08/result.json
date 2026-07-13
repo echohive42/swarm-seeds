@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "41",
+          "2",
+          "-7",
+          "54",
+          "2"
+        ],
+        "case_id": "F037",
+        "check_summary": "Three interleaved streams: first linear, second quadratic, third constant.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-48",
+          "45",
+          "-27",
+          "53",
+          "-36"
+        ],
+        "case_id": "F038",
+        "check_summary": "Prefix supports a phase-dependent affine pattern, but extrapolation is uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "88",
+          "34",
+          "96",
+          "27",
+          "103"
+        ],
+        "case_id": "F039",
+        "check_summary": "Noisy periodic/interleaved structure; continuation is uncertain.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16",
+          "3",
+          "-18",
+          "2",
+          "-20"
+        ],
+        "case_id": "F040",
+        "check_summary": "Odd positions decrease by 2 and even positions decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "25",
+          "31",
+          "44",
+          "20",
+          "42"
+        ],
+        "case_id": "F041",
+        "check_summary": "Periodic interleaving is suggested, but the phase rule is weakly identified.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "146",
+          "179",
+          "212",
+          "245",
+          "278"
+        ],
+        "case_id": "F042",
+        "check_summary": "The final phase is an arithmetic progression with increment 33.",
+        "confidence": 0.76,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "27",
+          "21",
+          "19",
+          "35",
+          "29"
+        ],
+        "case_id": "F043",
+        "check_summary": "Two streams follow quadratic increments; the third stream is extrapolated from its phase pattern.",
+        "confidence": 0.45,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "48",
+          "-8",
+          "57",
+          "54",
+          "-22"
+        ],
+        "case_id": "F044",
+        "check_summary": "Periodic multi-stream continuation inferred with low confidence.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "37",
+          "-57",
+          "21",
+          "61",
+          "-80"
+        ],
+        "case_id": "F045",
+        "check_summary": "Three streams have increments: +5,+4,+3,+2; 0,+7,+14; and -2,-9,-16.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-2",
+          "-2",
+          "-3",
+          "-3",
+          "-4"
+        ],
+        "case_id": "F046",
+        "check_summary": "Tail suggests paired descending arithmetic phases.",
+        "confidence": 0.35,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3",
+          "80",
+          "5",
+          "111",
+          "-3"
+        ],
+        "case_id": "F047",
+        "check_summary": "Odd stream alternates -3,5; even stream has increments 1,6,11,16,21.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "36",
+          "-2",
+          "42",
+          "-1",
+          "48"
+        ],
+        "case_id": "F048",
+        "check_summary": "Periodic affine/interleaved continuation inferred with low confidence.",
+        "confidence": 0.11,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-G-498E470E7808-final-b04-proposer-08",
+  "outcome": "valid_output",
+  "response_sha256": "44a224e971bd81e4c78ca38cbce98eed6fa09e7f4e80aeeb4a7ff2aae13dbed2",
+  "terminal_artifact_relpath": "jobs/final-G-498E470E7808-final-b04-proposer-08/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "-78",
+          "44",
+          "27",
+          "-105",
+          "108"
+        ],
+        "case_id": "F013",
+        "check_summary": "Three-position interleaving; each residue stream follows a consistent continuation.",
+        "confidence": 0.84,
+        "rule_summary": "INTERLEAVE with arithmetic and exponentially growing residue streams."
+      },
+      {
+        "answer": [
+          "-70",
+          "-57",
+          "-44",
+          "-31",
+          "-18"
+        ],
+        "case_id": "F014",
+        "check_summary": "Growing arithmetic blocks replay with starts -1,-16,-39,-70 and steps 1,5,9,13.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK with block length four, quadratic starts, and linearly increasing steps."
+      },
+      {
+        "answer": [
+          "-19",
+          "2",
+          "20",
+          "38",
+          "-4"
+        ],
+        "case_id": "F015",
+        "check_summary": "Continuation estimated from the repeating block-delta structure.",
+        "confidence": 0.31,
+        "rule_summary": "PDELTA with phase-dependent polynomial deltas."
+      },
+      {
+        "answer": [
+          "-20",
+          "46",
+          "-5",
+          "67",
+          "-25"
+        ],
+        "case_id": "F016",
+        "check_summary": "Continuation estimated from a phase-dependent affine/second-order pattern.",
+        "confidence": 0.22,
+        "rule_summary": "LIN2 with periodic bias."
+      },
+      {
+        "answer": [
+          "-187",
+          "58",
+          "-226",
+          "-276",
+          "93"
+        ],
+        "case_id": "F017",
+        "check_summary": "Continuation estimated from the irregular second-order recurrence pattern.",
+        "confidence": 0.16,
+        "rule_summary": "LIN2 with phase-repeating bias."
+      },
+      {
+        "answer": [
+          "-31",
+          "89",
+          "-64",
+          "102",
+          "-12"
+        ],
+        "case_id": "F018",
+        "check_summary": "Continuation estimated from a periodic affine modular pattern.",
+        "confidence": 0.12,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "17",
+          "14",
+          "49",
+          "20",
+          "81"
+        ],
+        "case_id": "F019",
+        "check_summary": "Continuation estimated from interleaved phase streams.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE with polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-14",
+          "34",
+          "-1",
+          "48",
+          "-9"
+        ],
+        "case_id": "F020",
+        "check_summary": "Continuation estimated from periodic phase updates.",
+        "confidence": 0.14,
+        "rule_summary": "PDELTA with phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-23",
+          "-28",
+          "-33",
+          "-38",
+          "-43"
+        ],
+        "case_id": "F021",
+        "check_summary": "Arithmetic blocks continue with step -5 and successive starts -23 onward.",
+        "confidence": 0.87,
+        "rule_summary": "GROWBLOCK with polynomial block starts."
+      },
+      {
+        "answer": [
+          "-46",
+          "29",
+          "-13",
+          "64",
+          "-31"
+        ],
+        "case_id": "F022",
+        "check_summary": "Continuation estimated from a modular periodic affine rule.",
+        "confidence": 0.11,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "14",
+          "-6",
+          "15",
+          "-8",
+          "16"
+        ],
+        "case_id": "F023",
+        "check_summary": "Odd positions increase by one; even positions decrease by two.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "109",
+          "-122",
+          "164",
+          "-158",
+          "231"
+        ],
+        "case_id": "F024",
+        "check_summary": "Continuation estimated from two interleaved polynomial-like streams.",
+        "confidence": 0.13,
+        "rule_summary": "INTERLEAVE with polynomial streams."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-G-1407BDDB752D-final-b02-proposer-07",
+  "outcome": "valid_output",
+  "response_sha256": "c0d8c517f857b0cc557c428723a535fbec2254fa93802b51bec207a028c02436",
+  "terminal_artifact_relpath": "jobs/final-G-1407BDDB752D-final-b02-proposer-07/attempt-01"
+}

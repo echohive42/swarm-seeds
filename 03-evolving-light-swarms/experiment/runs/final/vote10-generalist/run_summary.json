@@ -1,0 +1,20 @@
+{
+  "amendment": "AMENDMENT-01.md",
+  "blocks": [
+    "final-b01",
+    "final-b02",
+    "final-b03",
+    "final-b04"
+  ],
+  "common_prefix_sha256": "66e04b56dbf2cd0bfebe6bfe59df1023630227fdf26da104838e029a14ede7f0",
+  "concurrency": 50,
+  "generalist_lens_sha256": "2a22e6bde6c709a0c786e929bf4e7bb34b631087e49173a01824107c935cfe63",
+  "genomes": [
+    "VOTE10"
+  ],
+  "phase": "final-amendment-01",
+  "planned_calls": 40,
+  "prediction_records_sha256": "2d57b54d2d82eb3433f32871fd20f90fd40a0941a2f8da67a1c45b06dd0e5e8b",
+  "schema_version": "experiment-03-amendment-01-run-v1",
+  "worker_lens": "generalist"
+}

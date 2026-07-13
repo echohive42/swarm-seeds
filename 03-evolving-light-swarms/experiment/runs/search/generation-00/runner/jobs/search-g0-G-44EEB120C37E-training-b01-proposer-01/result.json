@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "-4",
+          "28",
+          "-6",
+          "32",
+          "-8"
+        ],
+        "case_id": "T01",
+        "check_summary": "Alternating arithmetic subsequences.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "7",
+          "4",
+          "21",
+          "18",
+          "15"
+        ],
+        "case_id": "T02",
+        "check_summary": "Periodic differences repeat with positive increments increasing by 3.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "39",
+          "17",
+          "-5",
+          "-27",
+          "-49"
+        ],
+        "case_id": "T03",
+        "check_summary": "Growing-block jump followed by repeated phase decrement.",
+        "confidence": 0.6,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-263918",
+          "-791761",
+          "1583516",
+          "-3167034",
+          "-9501109"
+        ],
+        "case_id": "T04",
+        "check_summary": "Three-phase affine updates replayed.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-8374",
+          "-14105",
+          "-21387",
+          "-30710",
+          "-40033"
+        ],
+        "case_id": "T05",
+        "check_summary": "Finite differences indicate a polynomial sequence.",
+        "confidence": 0.9,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-34",
+          "59",
+          "29",
+          "-4",
+          "-40"
+        ],
+        "case_id": "T06",
+        "check_summary": "Periodic lagged difference pattern extrapolated.",
+        "confidence": 0.45,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1722",
+          "-2163",
+          "-2673",
+          "-3228"
+        ],
+        "case_id": "T07",
+        "check_summary": "Second differences decrease arithmetically.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-80",
+          "40",
+          "-108",
+          "-542",
+          "-50"
+        ],
+        "case_id": "T08",
+        "check_summary": "Interleaved residue streams extrapolated independently.",
+        "confidence": 0.45,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-225",
+          "-253",
+          "-299",
+          "-332",
+          "-384"
+        ],
+        "case_id": "T09",
+        "check_summary": "Two alternating arithmetic difference streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-12",
+          "67",
+          "-43",
+          "-74",
+          "102"
+        ],
+        "case_id": "T10",
+        "check_summary": "Periodic interleaved streams extrapolated.",
+        "confidence": 0.4,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Affine doubling with bias -1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "43614",
+          "87251",
+          "174474",
+          "348977",
+          "697920"
+        ],
+        "case_id": "T12",
+        "check_summary": "Alternating affine corrections around doubling.",
+        "confidence": 0.97,
+        "rule_summary": "AFFINE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g0-G-44EEB120C37E-training-b01-proposer-01",
+  "outcome": "valid_output",
+  "response_sha256": "ac5e10650dd49be93313f9531bc6ccf16ee69b864efd8a524af748b5c7cd0661",
+  "terminal_artifact_relpath": "jobs/search-g0-G-44EEB120C37E-training-b01-proposer-01/attempt-01"
+}

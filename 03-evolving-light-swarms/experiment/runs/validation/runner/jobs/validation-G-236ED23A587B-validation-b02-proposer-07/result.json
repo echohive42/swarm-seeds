@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-16387",
+          "-32771",
+          "-65539",
+          "-131075",
+          "-262147"
+        ],
+        "case_id": "V13",
+        "check_summary": "Consistent with x(n+1)=2x(n)+3.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "413241",
+          "-7438298",
+          "-2479431",
+          "44629798",
+          "14876601"
+        ],
+        "case_id": "V14",
+        "check_summary": "Two interleaved streams with multiplier -6 and phase-specific biases 15 and 10.",
+        "confidence": 0.98,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "660",
+          "-1988",
+          "4028",
+          "-12124",
+          "24252"
+        ],
+        "case_id": "V15",
+        "check_summary": "Periodic signed affine pattern inferred from replay.",
+        "confidence": 0.46,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "669927",
+          "-1339863",
+          "-2679721",
+          "8039163",
+          "-16078321"
+        ],
+        "case_id": "V16",
+        "check_summary": "Repeating transformations -3x, -2x-9, -2x+5.",
+        "confidence": 0.99,
+        "rule_summary": "Phase-periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-370",
+          "740",
+          "-1485",
+          "2970",
+          "-5947"
+        ],
+        "case_id": "V17",
+        "check_summary": "Periodic affine continuation inferred from alternating growth and phase offsets.",
+        "confidence": 0.31,
+        "rule_summary": "Phase-periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-895",
+          "-1097",
+          "-1308",
+          "-1522",
+          "-1732"
+        ],
+        "case_id": "V18",
+        "check_summary": "Finite differences show steadily increasing third differences.",
+        "confidence": 0.97,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "17",
+          "16",
+          "12",
+          "15",
+          "8"
+        ],
+        "case_id": "V19",
+        "check_summary": "Bounded periodic continuation inferred from the observed phase structure.",
+        "confidence": 0.24,
+        "rule_summary": "Periodic affine/modular update."
+      },
+      {
+        "answer": [
+          "52",
+          "445",
+          "73",
+          "893",
+          "98"
+        ],
+        "case_id": "V20",
+        "check_summary": "Odd stream has quadratic increments; even stream follows x(n+1)=2x(n)+3.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved polynomial and affine streams."
+      },
+      {
+        "answer": [
+          "-16",
+          "29",
+          "-18",
+          "32",
+          "-20"
+        ],
+        "case_id": "V21",
+        "check_summary": "Odd and even subsequences are arithmetic progressions.",
+        "confidence": 1.0,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "49",
+          "87",
+          "135",
+          "194",
+          "265"
+        ],
+        "case_id": "V22",
+        "check_summary": "Second differences continue with increments increasing by one.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "564",
+          "641",
+          "725",
+          "811",
+          "904"
+        ],
+        "case_id": "V23",
+        "check_summary": "Differences alternate increments of 7 and 2.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-47",
+          "-52",
+          "-31",
+          "-63",
+          "-64"
+        ],
+        "case_id": "V24",
+        "check_summary": "Periodic block continuation inferred from grouped starts and steps.",
+        "confidence": 0.22,
+        "rule_summary": "Growing arithmetic blocks."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "validation-G-236ED23A587B-validation-b02-proposer-07",
+  "outcome": "valid_output",
+  "response_sha256": "c94324aabadca831023be5f2cacac7e791164e0e7158a0cf3201111fd1c87114",
+  "terminal_artifact_relpath": "jobs/validation-G-236ED23A587B-validation-b02-proposer-07/attempt-01"
+}

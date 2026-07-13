@@ -1,0 +1,17 @@
+{
+  "blocks": [
+    "validation-b01",
+    "validation-b02"
+  ],
+  "concurrency": 50,
+  "genomes": [
+    "G-236ED23A587B",
+    "G-1407BDDB752D",
+    "G-157CA76A3367"
+  ],
+  "phase": "validation",
+  "planned_calls": 60,
+  "population_path": "03-evolving-light-swarms/experiment/genomes/validation-population.json",
+  "population_sha256": "2096ee57fb8db881950ee72493e8334708d19e4f8a45e4d2c740fc56c864f89a",
+  "schema_version": "orchestration-run-v1"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-16387",
+          "-32771",
+          "-65539",
+          "-131075",
+          "-262147"
+        ],
+        "case_id": "V13",
+        "check_summary": "Replay of x' = 2x + 3.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "413241",
+          "1239718",
+          "-2479431",
+          "-7438298",
+          "14876601"
+        ],
+        "case_id": "V14",
+        "check_summary": "Alternating x'=-2x+5 and x'=3x-5 reproduces the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "436",
+          "-1724",
+          "7004",
+          "-27892",
+          "111564"
+        ],
+        "case_id": "V15",
+        "check_summary": "Extrapolated periodic signed affine structure.",
+        "confidence": 0.45,
+        "rule_summary": "Periodic affine/interleaved recurrence."
+      },
+      {
+        "answer": [
+          "669927",
+          "-1339863",
+          "2679731",
+          "-8039193",
+          "16078377"
+        ],
+        "case_id": "V16",
+        "check_summary": "Repeating updates x'=-2x+5, x'=-3x, x'=-2x-9 reproduce the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "Three-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "-11",
+          "-20",
+          "-31",
+          "-44",
+          "-59"
+        ],
+        "case_id": "V17",
+        "check_summary": "Low-confidence extrapolation from apparent phase-structured integer updates.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic affine or modular recurrence."
+      },
+      {
+        "answer": [
+          "-891",
+          "-1102",
+          "-1338",
+          "-1599",
+          "-1885"
+        ],
+        "case_id": "V18",
+        "check_summary": "Extrapolated polynomial-difference continuation.",
+        "confidence": 0.35,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "20",
+          "-1",
+          "16",
+          "-6",
+          "12"
+        ],
+        "case_id": "V19",
+        "check_summary": "Low-confidence extrapolation from apparent modular/phase structure.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic modular-affine sequence."
+      },
+      {
+        "answer": [
+          "52",
+          "445",
+          "73",
+          "893",
+          "98"
+        ],
+        "case_id": "V20",
+        "check_summary": "Odd subsequence has successive differences -3,1,5,9,13,17; even subsequence doubles plus 3.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved polynomial and affine streams."
+      },
+      {
+        "answer": [
+          "-16",
+          "29",
+          "-18",
+          "32",
+          "-20"
+        ],
+        "case_id": "V21",
+        "check_summary": "Odd terms decrease by 2; even terms increase by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "49",
+          "87",
+          "135",
+          "194",
+          "263"
+        ],
+        "case_id": "V22",
+        "check_summary": "Second differences continue as 8,9,10,11.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "559",
+          "636",
+          "715",
+          "801",
+          "889"
+        ],
+        "case_id": "V23",
+        "check_summary": "Differences continue in alternating +7,+2 pattern.",
+        "confidence": 0.98,
+        "rule_summary": "Interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-22",
+          "-52",
+          "-14",
+          "-63",
+          "-5"
+        ],
+        "case_id": "V24",
+        "check_summary": "Low-confidence extrapolation from apparent phase-structured updates.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic affine or modular recurrence."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "validation-G-157CA76A3367-validation-b02-proposer-04",
+  "outcome": "valid_output",
+  "response_sha256": "f77a40fc0db6c29be46bbb68d714dcd8f9cc098b77c2ae89bb0e4df1e2ad3597",
+  "terminal_artifact_relpath": "jobs/validation-G-157CA76A3367-validation-b02-proposer-04/attempt-01"
+}

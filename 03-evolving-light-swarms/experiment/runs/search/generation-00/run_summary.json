@@ -1,0 +1,19 @@
+{
+  "blocks": [
+    "training-b01"
+  ],
+  "concurrency": 50,
+  "genomes": [
+    "G-498E470E7808",
+    "G-A51F73B64C32",
+    "G-37B2621092D0",
+    "G-44EEB120C37E",
+    "G-A13267BCF63C",
+    "G-93B0BFCCF64A"
+  ],
+  "phase": "search-g0",
+  "planned_calls": 60,
+  "population_path": "03-evolving-light-swarms/experiment/genomes/generation-00.json",
+  "population_sha256": "04a01dca0552bcef8d8beb7068552dd1035f5246beb9c4b7cec1f77efd1de853",
+  "schema_version": "orchestration-run-v1"
+}

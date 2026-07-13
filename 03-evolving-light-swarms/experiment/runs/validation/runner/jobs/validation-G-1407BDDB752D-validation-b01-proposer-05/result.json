@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b01",
+    "results": [
+      {
+        "answer": [
+          "56",
+          "42",
+          "21",
+          "56",
+          "42"
+        ],
+        "case_id": "V01",
+        "check_summary": "Three interleaved arithmetic-quadratic streams fit the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "41",
+          "17",
+          "-4",
+          "50",
+          "20"
+        ],
+        "case_id": "V02",
+        "check_summary": "Three interleaved polynomial streams fit the prefix.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "32",
+          "31",
+          "30",
+          "29",
+          "28"
+        ],
+        "case_id": "V03",
+        "check_summary": "Descending blocks with increasing block-start jumps fit the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "512",
+          "24",
+          "-77",
+          "504",
+          "-135"
+        ],
+        "case_id": "V04",
+        "check_summary": "Phase-separated extrapolation of the alternating explosive streams.",
+        "confidence": 0.42,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "1576803",
+          "3806737",
+          "9420271",
+          "22647287",
+          "54714847"
+        ],
+        "case_id": "V05",
+        "check_summary": "Second-order recurrence with repeating biases 8,2,-6 fits exactly.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-16",
+          "76",
+          "53",
+          "-8",
+          "91"
+        ],
+        "case_id": "V06",
+        "check_summary": "Phase-separated recurrence extrapolation.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "2200",
+          "3566",
+          "5744",
+          "9230",
+          "14820"
+        ],
+        "case_id": "V07",
+        "check_summary": "Growth-pattern extrapolation from the observed accelerating increments.",
+        "confidence": 0.24,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "182",
+          "182",
+          "215",
+          "215",
+          "248"
+        ],
+        "case_id": "V08",
+        "check_summary": "Periodic stream extrapolation from the repeated arithmetic subsequences.",
+        "confidence": 0.31,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-67",
+          "-71",
+          "-76",
+          "-80",
+          "-85"
+        ],
+        "case_id": "V09",
+        "check_summary": "Alternating differences -5,-4 repeat throughout the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "44",
+          "31",
+          "66",
+          "49",
+          "81"
+        ],
+        "case_id": "V10",
+        "check_summary": "Phase-periodic affine extrapolation.",
+        "confidence": 0.27,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-8",
+          "-19",
+          "-5",
+          "-28",
+          "-8"
+        ],
+        "case_id": "V11",
+        "check_summary": "Interleaved phase streams with polynomial increments.",
+        "confidence": 0.23,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "43",
+          "16",
+          "-11",
+          "-38",
+          "157"
+        ],
+        "case_id": "V12",
+        "check_summary": "Blockwise periodic-delta extrapolation.",
+        "confidence": 0.35,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "validation-G-1407BDDB752D-validation-b01-proposer-05",
+  "outcome": "valid_output",
+  "response_sha256": "46195a696287c1b7dfb312452a521045ea522528287181fc088423d5ea56c188",
+  "terminal_artifact_relpath": "jobs/validation-G-1407BDDB752D-validation-b01-proposer-05/attempt-01"
+}

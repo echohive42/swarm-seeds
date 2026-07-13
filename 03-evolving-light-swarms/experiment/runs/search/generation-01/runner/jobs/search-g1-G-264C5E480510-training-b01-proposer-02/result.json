@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Alternating arithmetic streams replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Odd positions increase by 4; even positions decrease by 2."
+      },
+      {
+        "answer": [
+          "7",
+          "4",
+          "1",
+          "-2",
+          "-5"
+        ],
+        "case_id": "T02",
+        "check_summary": "Periodic difference structure extrapolated.",
+        "confidence": 0.32,
+        "rule_summary": "Phase-specific interleaved updates, with the observed -3 transitions continued."
+      },
+      {
+        "answer": [
+          "42",
+          "24",
+          "6",
+          "-12",
+          "78"
+        ],
+        "case_id": "T03",
+        "check_summary": "Growing repeated negative phase deltas with increasing positive wrap points.",
+        "confidence": 0.36,
+        "rule_summary": "Blockwise phase pattern extrapolated from repeated -14 and -18 runs."
+      },
+      {
+        "answer": [
+          "-791740",
+          "1583478",
+          "4750427",
+          "-9500860",
+          "19001718"
+        ],
+        "case_id": "T04",
+        "check_summary": "Triple-phase affine block replay is exact.",
+        "confidence": 0.99,
+        "rule_summary": "Block starts follow a'=12a+20; following terms are -2a-2 and 3b-7."
+      },
+      {
+        "answer": [
+          "-6102",
+          "-9414",
+          "-12913",
+          "-16713",
+          "-20748"
+        ],
+        "case_id": "T05",
+        "check_summary": "Polynomial-growth extrapolation from finite differences.",
+        "confidence": 0.25,
+        "rule_summary": "Higher-order growing-block difference pattern extrapolated."
+      },
+      {
+        "answer": [
+          "-14",
+          "-11",
+          "-38",
+          "-45",
+          "-42"
+        ],
+        "case_id": "T06",
+        "check_summary": "Three-phase difference pattern extrapolated.",
+        "confidence": 0.3,
+        "rule_summary": "Phase-specific differences continue the observed recurring trends."
+      },
+      {
+        "answer": [
+          "-1340",
+          "-1707",
+          "-2133",
+          "-2623",
+          "-3182"
+        ],
+        "case_id": "T07",
+        "check_summary": "Constant fourth difference pattern replayed.",
+        "confidence": 0.99,
+        "rule_summary": "Cubic sequence; successive second differences decrease by 5."
+      },
+      {
+        "answer": [
+          "-18",
+          "41",
+          "6",
+          "31",
+          "62"
+        ],
+        "case_id": "T08",
+        "check_summary": "Modular periodic structure extrapolated.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic modular-affine/interleaved behavior inferred from the prefix."
+      },
+      {
+        "answer": [
+          "-225",
+          "-255",
+          "-299",
+          "-323",
+          "-385"
+        ],
+        "case_id": "T09",
+        "check_summary": "Odd and even subsequences have linearly changing increments.",
+        "confidence": 0.98,
+        "rule_summary": "Odd-position decrements change by -11; even-position decrements change by -11."
+      },
+      {
+        "answer": [
+          "10",
+          "-11",
+          "12",
+          "-24",
+          "14"
+        ],
+        "case_id": "T10",
+        "check_summary": "Interleaved affine streams extrapolated.",
+        "confidence": 0.27,
+        "rule_summary": "Phase-specific interleaving inferred from alternating subsequence behavior."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Exact doubling-minus-one recurrence.",
+        "confidence": 0.99,
+        "rule_summary": "Each term is 2 times the previous term minus 1."
+      },
+      {
+        "answer": [
+          "43684",
+          "87391",
+          "174754",
+          "349537",
+          "699040"
+        ],
+        "case_id": "T12",
+        "check_summary": "Alternating affine biases continue linearly by phase.",
+        "confidence": 0.95,
+        "rule_summary": "Multiplier 2; odd-to-even biases decrease by 6 and even-to-odd biases increase by 6."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g1-G-264C5E480510-training-b01-proposer-02",
+  "outcome": "valid_output",
+  "response_sha256": "92c02a7d251a3f67c4df8bef83c77b60417ca6e841c84d0189825a4db9c165ab",
+  "terminal_artifact_relpath": "jobs/search-g1-G-264C5E480510-training-b01-proposer-02/attempt-01"
+}

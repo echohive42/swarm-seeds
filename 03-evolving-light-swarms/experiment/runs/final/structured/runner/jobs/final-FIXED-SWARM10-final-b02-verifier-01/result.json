@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "-78",
+          "-20",
+          "27",
+          "-105",
+          "44"
+        ],
+        "case_id": "F013",
+        "check_summary": "Three residue streams replay the prefix with arithmetic, quadratic-difference, and alternating doubled increments.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-74",
+          "-57",
+          "-40",
+          "-23",
+          "-6"
+        ],
+        "case_id": "F014",
+        "check_summary": "Growing arithmetic blocks have steps -3, 1, 5, 9, then 13, with polynomially changing starts.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-48",
+          "-27",
+          "-6",
+          "15",
+          "36"
+        ],
+        "case_id": "F015",
+        "check_summary": "Observed arithmetic blocks increase their steps through 21 after the next polynomial reset.",
+        "confidence": 0.93,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "21",
+          "41",
+          "20",
+          "26",
+          "49"
+        ],
+        "case_id": "F016",
+        "check_summary": "Best available phase-dependent affine replay among the supplied candidates.",
+        "confidence": 0.31,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "310",
+          "72",
+          "-126",
+          "-618",
+          "166"
+        ],
+        "case_id": "F017",
+        "check_summary": "Three interleaved streams provide the strongest full-prefix replay and continuation.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-12",
+          "89",
+          "-35",
+          "116",
+          "-64"
+        ],
+        "case_id": "F018",
+        "check_summary": "Low-confidence periodic modular-affine continuation; evidence does not decisively distinguish candidates.",
+        "confidence": 0.18,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "62",
+          "-23",
+          "88",
+          "41",
+          "118"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd stream increments are 2, 6, 10, 14, 18, 22; even stream increments alternate signed powers of two.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-44",
+          "46",
+          "27",
+          "-66",
+          "69"
+        ],
+        "case_id": "F020",
+        "check_summary": "Three interleaved phase streams give the strongest supported replay.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-34",
+          "-39",
+          "-28",
+          "-33",
+          "-38"
+        ],
+        "case_id": "F021",
+        "check_summary": "Each lag-5 subsequence has successive decrements increasing from 8 to 9 to 10.",
+        "confidence": 0.95,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-19",
+          "91",
+          "-48",
+          "114",
+          "-79"
+        ],
+        "case_id": "F022",
+        "check_summary": "Low-confidence periodic modular-affine continuation; supplied evidence is underdetermined.",
+        "confidence": 0.16,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "14",
+          "-6",
+          "15",
+          "-8",
+          "16"
+        ],
+        "case_id": "F023",
+        "check_summary": "Odd-position stream increases by 1 and even-position stream decreases by 2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "114",
+          "98",
+          "-171",
+          "151",
+          "169"
+        ],
+        "case_id": "F024",
+        "check_summary": "Three interleaved polynomial residue streams best fit the irregular prefix.",
+        "confidence": 0.85,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-FIXED-SWARM10-final-b02-verifier-01",
+  "outcome": "valid_output",
+  "response_sha256": "114b2d500c59e6d162ec06a73a907621e0fc13da86915c8aec4071048ebcf5fc",
+  "terminal_artifact_relpath": "jobs/final-FIXED-SWARM10-final-b02-verifier-01/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "-1",
+          "-7",
+          "-18",
+          "-30",
+          "-36"
+        ],
+        "case_id": "F025",
+        "check_summary": "Uncertain extrapolation from irregular periodic structure.",
+        "confidence": 0.08,
+        "rule_summary": "Candidate periodic polynomial-delta pattern."
+      },
+      {
+        "answer": [
+          "-19933077",
+          "59799236",
+          "-179397715",
+          "-358795435",
+          "1076386310"
+        ],
+        "case_id": "F026",
+        "check_summary": "Matches the repeating affine phase updates throughout the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Three-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "-25943",
+          "51881",
+          "-103767",
+          "207529",
+          "-415063"
+        ],
+        "case_id": "F027",
+        "check_summary": "Every transition matches x_next=-2x-5.",
+        "confidence": 0.99,
+        "rule_summary": "Constant affine recurrence."
+      },
+      {
+        "answer": [
+          "382",
+          "615",
+          "992",
+          "1602",
+          "2589"
+        ],
+        "case_id": "F028",
+        "check_summary": "Successive differences follow Fibonacci numbers.",
+        "confidence": 0.99,
+        "rule_summary": "Fibonacci-increment polynomial-like sequence."
+      },
+      {
+        "answer": [
+          "-28",
+          "-33",
+          "-35",
+          "-40",
+          "-42"
+        ],
+        "case_id": "F029",
+        "check_summary": "Differences alternate -2 and -5.",
+        "confidence": 0.99,
+        "rule_summary": "Alternating arithmetic increments."
+      },
+      {
+        "answer": [
+          "-1179",
+          "-2935",
+          "-7319",
+          "-18263",
+          "-45599"
+        ],
+        "case_id": "F030",
+        "check_summary": "Low-confidence affine extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "Candidate periodic affine mechanism."
+      },
+      {
+        "answer": [
+          "-30",
+          "-45",
+          "-63",
+          "-84",
+          "-108"
+        ],
+        "case_id": "F031",
+        "check_summary": "Low-confidence interleaved-stream extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "Candidate interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "68",
+          "91",
+          "117",
+          "146",
+          "178"
+        ],
+        "case_id": "F032",
+        "check_summary": "Low-confidence periodic-delta extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "Candidate periodic polynomial-delta mechanism."
+      },
+      {
+        "answer": [
+          "-7192",
+          "-11638",
+          "-18821",
+          "-30462",
+          "-49285"
+        ],
+        "case_id": "F033",
+        "check_summary": "Matches x_n=x_{n-1}+x_{n-2} with repeating biases -9,3,2.",
+        "confidence": 0.99,
+        "rule_summary": "Second-order linear recurrence with three-phase bias."
+      },
+      {
+        "answer": [
+          "3923",
+          "5393",
+          "7235",
+          "9506",
+          "12267"
+        ],
+        "case_id": "F034",
+        "check_summary": "Fourth finite differences are constant 4.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued quartic polynomial."
+      },
+      {
+        "answer": [
+          "-79982",
+          "-239947",
+          "479890",
+          "1439669",
+          "-2879342"
+        ],
+        "case_id": "F035",
+        "check_summary": "Matches alternating updates 3x-1 and -2x-4.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "-386",
+          "-514",
+          "-666",
+          "-844",
+          "-1050"
+        ],
+        "case_id": "F036",
+        "check_summary": "Second differences decrease by 2 each step.",
+        "confidence": 0.99,
+        "rule_summary": "Quartic polynomial sequence."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "amendment-01-VOTE10-final-b03-proposer-01",
+  "outcome": "valid_output",
+  "response_sha256": "b0dfd49d251793158accb45ef2b0fc4c70f3c97f0cb2da54e9df03050d06b0c1",
+  "terminal_artifact_relpath": "jobs/amendment-01-VOTE10-final-b03-proposer-01/attempt-01"
+}

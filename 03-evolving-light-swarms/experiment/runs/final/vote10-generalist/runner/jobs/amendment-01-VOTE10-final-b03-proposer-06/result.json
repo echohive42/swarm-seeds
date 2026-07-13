@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "7282",
+          "11265",
+          "14996",
+          "22319",
+          "27076"
+        ],
+        "case_id": "F025",
+        "check_summary": "Two interleaved quartic streams; replay matches the prefix.",
+        "confidence": 0.94,
+        "rule_summary": "INTERLEAVE with quartic streams."
+      },
+      {
+        "answer": [
+          "-19933087",
+          "59799266",
+          "-179397805",
+          "538193408",
+          "-1614580229"
+        ],
+        "case_id": "F026",
+        "check_summary": "Three-phase affine replay matches all terms.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-3 updates."
+      },
+      {
+        "answer": [
+          "-25943",
+          "51881",
+          "-103767",
+          "207529",
+          "-415063"
+        ],
+        "case_id": "F027",
+        "check_summary": "Constant affine update matches all transitions.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE: x'=-2x-5."
+      },
+      {
+        "answer": [
+          "382",
+          "615",
+          "992",
+          "1602",
+          "2589"
+        ],
+        "case_id": "F028",
+        "check_summary": "Successive differences are Fibonacci numbers.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with Fibonacci-valued increments."
+      },
+      {
+        "answer": [
+          "-28",
+          "-33",
+          "-35",
+          "-40",
+          "-42"
+        ],
+        "case_id": "F029",
+        "check_summary": "Alternating decrements repeat throughout the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with alternating -2 and -5 deltas."
+      },
+      {
+        "answer": [
+          "-52",
+          "-1038",
+          "606",
+          "3126",
+          "519"
+        ],
+        "case_id": "F030",
+        "check_summary": "Period-4 quadratic delta extrapolation.",
+        "confidence": 0.71,
+        "rule_summary": "PDELTA with phase-specific quadratic deltas."
+      },
+      {
+        "answer": [
+          "-3",
+          "37",
+          "10",
+          "57",
+          "27"
+        ],
+        "case_id": "F031",
+        "check_summary": "Odd and even subsequences follow quadratic increments.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of two quadratic streams."
+      },
+      {
+        "answer": [
+          "64",
+          "76",
+          "92",
+          "112",
+          "136"
+        ],
+        "case_id": "F032",
+        "check_summary": "Periodic-delta extrapolation from the observed phase pattern.",
+        "confidence": 0.38,
+        "rule_summary": "PDELTA with periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-7186",
+          "-11630",
+          "-18813",
+          "-30443",
+          "-49251"
+        ],
+        "case_id": "F033",
+        "check_summary": "Near-Fibonacci second-order recurrence with small periodic bias.",
+        "confidence": 0.55,
+        "rule_summary": "LIN2 with periodic bias."
+      },
+      {
+        "answer": [
+          "3923",
+          "5393",
+          "7235",
+          "9506",
+          "12267"
+        ],
+        "case_id": "F034",
+        "check_summary": "Finite differences establish a quartic continuation.",
+        "confidence": 0.97,
+        "rule_summary": "POLY of degree 4."
+      },
+      {
+        "answer": [
+          "-79982",
+          "-239947",
+          "479890",
+          "1439669",
+          "-2879342"
+        ],
+        "case_id": "F035",
+        "check_summary": "Two-phase affine replay matches the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with alternating updates."
+      },
+      {
+        "answer": [
+          "-386",
+          "-514",
+          "-666",
+          "-844",
+          "-1050"
+        ],
+        "case_id": "F036",
+        "check_summary": "Second differences decrease by 2 each step.",
+        "confidence": 0.98,
+        "rule_summary": "POLY with quartic finite-difference structure."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "amendment-01-VOTE10-final-b03-proposer-06",
+  "outcome": "valid_output",
+  "response_sha256": "2d33a2d5f5c46b730fe559e2e5bea88c6f7536d733fe6aed1354eddc184394e6",
+  "terminal_artifact_relpath": "jobs/amendment-01-VOTE10-final-b03-proposer-06/attempt-01"
+}

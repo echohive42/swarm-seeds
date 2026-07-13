@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-16387",
+          "-32771",
+          "-65539",
+          "-131075",
+          "-262147"
+        ],
+        "case_id": "V13",
+        "check_summary": "Alternating affine rule x↦2x+3.",
+        "confidence": 0.99,
+        "rule_summary": "Single affine recurrence."
+      },
+      {
+        "answer": [
+          "413241",
+          "1239718",
+          "-2479431",
+          "-7438298",
+          "14876561"
+        ],
+        "case_id": "V14",
+        "check_summary": "Alternating affine updates x↦-2x+5 and x↦3x-5.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 affine recurrence."
+      },
+      {
+        "answer": [
+          "436",
+          "-204",
+          "-460",
+          "1332",
+          "-1740"
+        ],
+        "case_id": "V15",
+        "check_summary": "Period-4 map from each corresponding term is x↦-4x+4.",
+        "confidence": 0.98,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "669927",
+          "-1339849",
+          "4019547",
+          "-8039089",
+          "24117267"
+        ],
+        "case_id": "V16",
+        "check_summary": "Alternating updates x↦-3x and x↦-2x+5.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 affine recurrence."
+      },
+      {
+        "answer": [
+          "2",
+          "-18",
+          "-375",
+          "7",
+          "-24"
+        ],
+        "case_id": "V17",
+        "check_summary": "Three interleaved streams: quadratic-like doubling-delta stream, arithmetic stream, and step -6 stream.",
+        "confidence": 0.95,
+        "rule_summary": "Three-stream interleave."
+      },
+      {
+        "answer": [
+          "-895",
+          "-1097",
+          "-1308",
+          "-1522",
+          "-1732"
+        ],
+        "case_id": "V18",
+        "check_summary": "Finite differences follow a quartic polynomial pattern.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "26",
+          "2",
+          "8",
+          "7",
+          "-18"
+        ],
+        "case_id": "V19",
+        "check_summary": "Insufficiently distinctive prefix; extrapolation follows a phase-periodic sequence hypothesis.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic phase-specific update."
+      },
+      {
+        "answer": [
+          "52",
+          "445",
+          "71",
+          "893",
+          "88"
+        ],
+        "case_id": "V20",
+        "check_summary": "Odd positions have arithmetic increments increasing by 4; even positions double differences.",
+        "confidence": 0.99,
+        "rule_summary": "Two-stream interleave."
+      },
+      {
+        "answer": [
+          "-16",
+          "29",
+          "-18",
+          "32",
+          "-20"
+        ],
+        "case_id": "V21",
+        "check_summary": "Odd stream decreases by 2; even stream increases by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two affine streams interleaved."
+      },
+      {
+        "answer": [
+          "50",
+          "91",
+          "145",
+          "214",
+          "300"
+        ],
+        "case_id": "V22",
+        "check_summary": "Polynomial finite differences with second differences increasing by 1.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "559",
+          "636",
+          "715",
+          "801",
+          "889"
+        ],
+        "case_id": "V23",
+        "check_summary": "First differences alternate increments of 7 and 2.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta recurrence."
+      },
+      {
+        "answer": [
+          "-1",
+          "-48",
+          "-2",
+          "-51",
+          "-3"
+        ],
+        "case_id": "V24",
+        "check_summary": "Insufficiently distinctive prefix; extrapolation uses a low-order phase-periodic continuation.",
+        "confidence": 0.12,
+        "rule_summary": "Phase-specific polynomial-delta update."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "validation-G-157CA76A3367-validation-b02-proposer-06",
+  "outcome": "valid_output",
+  "response_sha256": "59c7d9f7410d931d653f46cad01373200a2d23e09ed91f9d48262b4d0fb196fe",
+  "terminal_artifact_relpath": "jobs/validation-G-157CA76A3367-validation-b02-proposer-06/attempt-01"
+}

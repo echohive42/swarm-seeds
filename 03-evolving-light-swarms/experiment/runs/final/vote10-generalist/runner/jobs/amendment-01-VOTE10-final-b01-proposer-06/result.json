@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b01",
+    "results": [
+      {
+        "answer": [
+          "8714",
+          "14949",
+          "23534",
+          "35059",
+          "50204"
+        ],
+        "case_id": "F001",
+        "check_summary": "Polynomial finite-difference extrapolation.",
+        "confidence": 0.84,
+        "rule_summary": "Higher-order polynomial sequence."
+      },
+      {
+        "answer": [
+          "29",
+          "32",
+          "14",
+          "43",
+          "38"
+        ],
+        "case_id": "F002",
+        "check_summary": "Interleaved subsequences with alternating structured increments.",
+        "confidence": 0.7,
+        "rule_summary": "Two interleaved polynomial-like streams."
+      },
+      {
+        "answer": [
+          "97",
+          "88",
+          "121",
+          "154",
+          "144"
+        ],
+        "case_id": "F003",
+        "check_summary": "Differences occur in repeating three-term phase blocks.",
+        "confidence": 0.88,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "69586",
+          "-167966",
+          "404320",
+          "-973030",
+          "2335276"
+        ],
+        "case_id": "F004",
+        "check_summary": "Alternating-sign affine recurrence extrapolation.",
+        "confidence": 0.76,
+        "rule_summary": "Phase-dependent affine update."
+      },
+      {
+        "answer": [
+          "1381",
+          "1950",
+          "2675",
+          "3582",
+          "4699"
+        ],
+        "case_id": "F005",
+        "check_summary": "Finite differences follow a polynomial pattern.",
+        "confidence": 0.94,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "23",
+          "-16",
+          "10",
+          "-14",
+          "21"
+        ],
+        "case_id": "F006",
+        "check_summary": "Exact period-seven repetition.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic interleaving."
+      },
+      {
+        "answer": [
+          "-59286",
+          "-118537",
+          "-237107",
+          "-474173",
+          "-948382"
+        ],
+        "case_id": "F007",
+        "check_summary": "Affine multiplier two with repeating phase biases.",
+        "confidence": 0.9,
+        "rule_summary": "Phase-dependent affine update."
+      },
+      {
+        "answer": [
+          "-7652747",
+          "22958239",
+          "68874721",
+          "-206624165",
+          "-619872491"
+        ],
+        "case_id": "F008",
+        "check_summary": "Alternating affine multipliers and biases.",
+        "confidence": 0.98,
+        "rule_summary": "Phase-dependent affine update."
+      },
+      {
+        "answer": [
+          "-37",
+          "-39",
+          "-43",
+          "-45",
+          "-49"
+        ],
+        "case_id": "F009",
+        "check_summary": "Pairs of consecutive odd negative values with step pattern.",
+        "confidence": 0.95,
+        "rule_summary": "Periodic polynomial delta."
+      },
+      {
+        "answer": [
+          "80",
+          "72",
+          "57",
+          "34",
+          "2"
+        ],
+        "case_id": "F010",
+        "check_summary": "First differences descend with linearly changing second differences.",
+        "confidence": 0.95,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "16",
+          "-13",
+          "-4",
+          "12",
+          "-9"
+        ],
+        "case_id": "F011",
+        "check_summary": "Exact period-seven repetition.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic interleaving."
+      },
+      {
+        "answer": [
+          "23209",
+          "-46423",
+          "92841",
+          "-185687",
+          "371369"
+        ],
+        "case_id": "F012",
+        "check_summary": "Exact affine recurrence x_next = -2x - 5.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "amendment-01-VOTE10-final-b01-proposer-06",
+  "outcome": "valid_output",
+  "response_sha256": "853233df2a982a593fde8552443763a72e014f7c99e7db7ed73201493a163dd8",
+  "terminal_artifact_relpath": "jobs/amendment-01-VOTE10-final-b01-proposer-06/attempt-01"
+}

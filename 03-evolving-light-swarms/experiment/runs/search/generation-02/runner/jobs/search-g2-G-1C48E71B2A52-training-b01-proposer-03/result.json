@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Alternating arithmetic streams replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd terms +4, even terms -2."
+      },
+      {
+        "answer": [
+          "7",
+          "4",
+          "1",
+          "18",
+          "15"
+        ],
+        "case_id": "T02",
+        "check_summary": "Periodic -3 deltas with triangular-position positive jumps replay prefix.",
+        "confidence": 0.9,
+        "rule_summary": "PDELTA with positive jumps 5,8,11,14,17 at increasing triangular transitions."
+      },
+      {
+        "answer": [
+          "39",
+          "17",
+          "-5",
+          "-27",
+          "-49"
+        ],
+        "case_id": "T03",
+        "check_summary": "Increasing negative-delta blocks with polynomial positive resets.",
+        "confidence": 0.72,
+        "rule_summary": "GROWBLOCK: negative steps have magnitudes 18 then 22; next reset jump 87."
+      },
+      {
+        "answer": [
+          "-791740",
+          "1583478",
+          "395867",
+          "-9500860",
+          "19001718"
+        ],
+        "case_id": "T04",
+        "check_summary": "Three affine phase streams replay all terms.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: phase streams update as 12x+20, 12x-18, and 12x+23."
+      },
+      {
+        "answer": [
+          "-6883",
+          "-11558",
+          "-18314",
+          "-27752",
+          "-40576"
+        ],
+        "case_id": "T05",
+        "check_summary": "Constant fourth finite difference -8 across prefix.",
+        "confidence": 0.95,
+        "rule_summary": "POLY: quartic integer-valued sequence."
+      },
+      {
+        "answer": [
+          "-25",
+          "-19",
+          "-16",
+          "20",
+          "-7"
+        ],
+        "case_id": "T06",
+        "check_summary": "Phase-interleaved subsequences inferred from short prefix.",
+        "confidence": 0.38,
+        "rule_summary": "INTERLEAVE with three phase-specific polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1722",
+          "-2163",
+          "-2673",
+          "-3257"
+        ],
+        "case_id": "T07",
+        "check_summary": "Constant third finite difference -5.",
+        "confidence": 0.99,
+        "rule_summary": "POLY: cubic sequence."
+      },
+      {
+        "answer": [
+          "-59",
+          "-83",
+          "-122",
+          "-181",
+          "-291"
+        ],
+        "case_id": "T08",
+        "check_summary": "Interleaved phase subsequences extrapolated from prefix.",
+        "confidence": 0.35,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-225",
+          "-253",
+          "-299",
+          "-332",
+          "-384"
+        ],
+        "case_id": "T09",
+        "check_summary": "Odd and even subsequences each have constant second difference -11.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: two quadratic streams."
+      },
+      {
+        "answer": [
+          "44",
+          "56",
+          "10",
+          "-84",
+          "78"
+        ],
+        "case_id": "T10",
+        "check_summary": "Three phase streams show linear/quadratic and doubling-sign behavior.",
+        "confidence": 0.82,
+        "rule_summary": "INTERLEAVE: phase 1 linear, phase 3 quadratic, phase 2 alternating doubling differences."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Exact recurrence x(n+1)=2x(n)-1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE: x_next=2x-1."
+      },
+      {
+        "answer": [
+          "43684",
+          "87391",
+          "174805",
+          "349558",
+          "699121"
+        ],
+        "case_id": "T12",
+        "check_summary": "Doubling recurrence with alternating linear correction inferred from suffix.",
+        "confidence": 0.78,
+        "rule_summary": "AFFINE with periodic phase-dependent bias."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g2-G-1C48E71B2A52-training-b01-proposer-03",
+  "outcome": "valid_output",
+  "response_sha256": "c9bc477df336280886a2b28d905f1895f3ee11edaaf05b51c10f3b0a83f26c16",
+  "terminal_artifact_relpath": "jobs/search-g2-G-1C48E71B2A52-training-b01-proposer-03/attempt-01"
+}

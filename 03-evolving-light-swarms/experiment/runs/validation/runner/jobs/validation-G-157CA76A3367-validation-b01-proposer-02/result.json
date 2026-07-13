@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b01",
+    "results": [
+      {
+        "answer": [
+          "42",
+          "21",
+          "56",
+          "63",
+          "35"
+        ],
+        "case_id": "V01",
+        "check_summary": "Phase-specific differences repeat with linear growth across three phases.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with period 3."
+      },
+      {
+        "answer": [
+          "41",
+          "17",
+          "-16",
+          "50",
+          "22"
+        ],
+        "case_id": "V02",
+        "check_summary": "Three lagged streams show polynomial increment patterns.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "22",
+          "30",
+          "29",
+          "28",
+          "27"
+        ],
+        "case_id": "V03",
+        "check_summary": "Descending runs have starts increasing by 5 and run lengths increasing.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "13",
+          "-57",
+          "-9",
+          "-1",
+          "-726"
+        ],
+        "case_id": "V04",
+        "check_summary": "Alternating phase behavior is consistent with a periodic second-order recurrence.",
+        "confidence": 0.28,
+        "rule_summary": "LIN2 with phase-dependent bias."
+      },
+      {
+        "answer": [
+          "1576545",
+          "3807001",
+          "9192879",
+          "22199797",
+          "53519513"
+        ],
+        "case_id": "V05",
+        "check_summary": "Rapid growth is consistent with a repeating affine recurrence.",
+        "confidence": 0.35,
+        "rule_summary": "AFFINE with periodic bias."
+      },
+      {
+        "answer": [
+          "34",
+          "18",
+          "57",
+          "44",
+          "39"
+        ],
+        "case_id": "V06",
+        "check_summary": "Prefix appears modular and phase-dependent; extrapolation is low-certainty.",
+        "confidence": 0.18,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "6492",
+          "10002",
+          "15373",
+          "23591",
+          "36202"
+        ],
+        "case_id": "V07",
+        "check_summary": "Growth pattern is consistent with a second-order linear recurrence.",
+        "confidence": 0.42,
+        "rule_summary": "LIN2."
+      },
+      {
+        "answer": [
+          "79",
+          "118",
+          "157",
+          "196",
+          "235"
+        ],
+        "case_id": "V08",
+        "check_summary": "Arithmetic blocks have steps increasing by 6; next block continues with step 39.",
+        "confidence": 0.91,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-66",
+          "-70",
+          "-75",
+          "-79",
+          "-84"
+        ],
+        "case_id": "V09",
+        "check_summary": "Differences alternate -5 and -4.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period 2."
+      },
+      {
+        "answer": [
+          "63",
+          "48",
+          "72",
+          "81",
+          "37"
+        ],
+        "case_id": "V10",
+        "check_summary": "Phase-dependent modular behavior inferred from the irregular prefix.",
+        "confidence": 0.16,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "14",
+          "-31",
+          "-5",
+          "18",
+          "-23"
+        ],
+        "case_id": "V11",
+        "check_summary": "Irregular alternating phase sequence suggests modular affine updates.",
+        "confidence": 0.15,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "-62",
+          "-82",
+          "-102",
+          "-145",
+          "-162"
+        ],
+        "case_id": "V12",
+        "check_summary": "Recent repeated differences suggest phase-specific polynomial increments.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "validation-G-157CA76A3367-validation-b01-proposer-02",
+  "outcome": "valid_output",
+  "response_sha256": "50604883aed53a3bfa91c9efec9b672fe290a71e11c0e0c8b15186c5af2ef9fb",
+  "terminal_artifact_relpath": "jobs/validation-G-157CA76A3367-validation-b01-proposer-02/attempt-01"
+}

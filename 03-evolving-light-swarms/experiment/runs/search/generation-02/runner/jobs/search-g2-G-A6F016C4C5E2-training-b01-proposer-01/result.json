@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Alternating arithmetic streams replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved linear streams."
+      },
+      {
+        "answer": [
+          "-33",
+          "24",
+          "21",
+          "-74",
+          "37"
+        ],
+        "case_id": "T02",
+        "check_summary": "Three interleaved polynomial streams fit the prefix.",
+        "confidence": 0.62,
+        "rule_summary": "Three position-class polynomial streams."
+      },
+      {
+        "answer": [
+          "-84",
+          "-22",
+          "-120",
+          "-58",
+          "-156"
+        ],
+        "case_id": "T03",
+        "check_summary": "Late-prefix alternating streams suggest continuing linear phase deltas.",
+        "confidence": 0.28,
+        "rule_summary": "Interleaved phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "263915",
+          "-527900",
+          "1055808",
+          "2111615",
+          "-4223236"
+        ],
+        "case_id": "T04",
+        "check_summary": "Alternating affine growth pattern extrapolated.",
+        "confidence": 0.22,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-6882",
+          "-11372",
+          "-17802",
+          "-26712",
+          "-39042"
+        ],
+        "case_id": "T05",
+        "check_summary": "High-order polynomial trend extrapolated from finite differences.",
+        "confidence": 0.24,
+        "rule_summary": "Polynomial-position sequence."
+      },
+      {
+        "answer": [
+          "-34",
+          "-28",
+          "-54",
+          "-49",
+          "-77"
+        ],
+        "case_id": "T06",
+        "check_summary": "Periodic interleaved trend extrapolated.",
+        "confidence": 0.2,
+        "rule_summary": "Phase-specific polynomial increments."
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1722",
+          "-2163",
+          "-2673",
+          "-3258"
+        ],
+        "case_id": "T07",
+        "check_summary": "Second differences continue with constant decrement.",
+        "confidence": 0.99,
+        "rule_summary": "Cubic polynomial sequence."
+      },
+      {
+        "answer": [
+          "-18",
+          "31",
+          "-5",
+          "8",
+          "-27"
+        ],
+        "case_id": "T08",
+        "check_summary": "Periodic interleaving extrapolated from observed phase behavior.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-253",
+          "-225",
+          "-332",
+          "-299",
+          "-422"
+        ],
+        "case_id": "T09",
+        "check_summary": "Odd and even subsequences have constant second differences.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved quadratic streams."
+      },
+      {
+        "answer": [
+          "-8",
+          "57",
+          "-18",
+          "78",
+          "-32"
+        ],
+        "case_id": "T10",
+        "check_summary": "Phase-specific recurrence extrapolated.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Each term follows x(n+1)=2x(n)-1.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "43703",
+          "87406",
+          "174813",
+          "349626",
+          "699253"
+        ],
+        "case_id": "T12",
+        "check_summary": "Doubling recurrence with periodic bias extrapolated.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic affine recurrence."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g2-G-A6F016C4C5E2-training-b01-proposer-01",
+  "outcome": "valid_output",
+  "response_sha256": "98e784123cf19c6abaca8abcaac4aa3b8a4b63f8fe2cde0830eea2e801f40c9a",
+  "terminal_artifact_relpath": "jobs/search-g2-G-A6F016C4C5E2-training-b01-proposer-01/attempt-01"
+}

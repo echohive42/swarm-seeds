@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "-78",
+          "-20",
+          "27",
+          "-105",
+          "44"
+        ],
+        "case_id": "F013",
+        "check_summary": "Three interleaved phase streams give the continuation.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-74",
+          "-61",
+          "-48",
+          "-35",
+          "-22"
+        ],
+        "case_id": "F014",
+        "check_summary": "Growing arithmetic blocks with increasing steps fit the prefix.",
+        "confidence": 0.72,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "69",
+          "87",
+          "107",
+          "129",
+          "153"
+        ],
+        "case_id": "F015",
+        "check_summary": "Growing blocks show regularly increasing starts and internal steps.",
+        "confidence": 0.38,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-8",
+          "20",
+          "24",
+          "3",
+          "31"
+        ],
+        "case_id": "F016",
+        "check_summary": "Periodic phase recurrence extrapolation.",
+        "confidence": 0.16,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "310",
+          "72",
+          "-133",
+          "-618",
+          "136"
+        ],
+        "case_id": "F017",
+        "check_summary": "Three interleaved streams independently determine the continuation.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-19",
+          "91",
+          "-4",
+          "117",
+          "-31"
+        ],
+        "case_id": "F018",
+        "check_summary": "Periodic modular-affine continuation inferred from phase behavior.",
+        "confidence": 0.16,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "62",
+          "-23",
+          "86",
+          "41",
+          "112"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd and even subsequences follow quadratic and alternating-difference patterns.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "27",
+          "-44",
+          "46",
+          "-66",
+          "64"
+        ],
+        "case_id": "F020",
+        "check_summary": "Three phase streams have arithmetic delta progressions.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-12",
+          "-17",
+          "-22",
+          "-27",
+          "-32"
+        ],
+        "case_id": "F021",
+        "check_summary": "Periodic deltas repeat -5 steps with increasing positive corrections.",
+        "confidence": 0.95,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "42",
+          "-13",
+          "-1",
+          "84",
+          "-30"
+        ],
+        "case_id": "F022",
+        "check_summary": "Phase-specific stream continuation selected from the modular-looking prefix.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "14",
+          "-6",
+          "15",
+          "-8",
+          "16"
+        ],
+        "case_id": "F023",
+        "check_summary": "Odd positions increase by one and even positions decrease by two.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "98",
+          "-171",
+          "114",
+          "169",
+          "-293"
+        ],
+        "case_id": "F024",
+        "check_summary": "Three interleaved phase streams extrapolate their polynomial difference progressions.",
+        "confidence": 0.87,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-G-498E470E7808-final-b02-judge",
+  "outcome": "valid_output",
+  "response_sha256": "6c3309d1c34e8efa3fa8eab790b319b851ab415a00faad4d03c6861a54601a2d",
+  "terminal_artifact_relpath": "jobs/final-G-498E470E7808-final-b02-judge/attempt-01"
+}

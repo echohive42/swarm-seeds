@@ -1,0 +1,244 @@
+{
+  "artifact_sha256": "16fc71955701beaf0f6ac339ea225aab95d763057d96412b34dbe69cf9d7f5cd",
+  "benchmark_manifest_file_sha256": "695b6d0099e1b89f93c5071a2495b822292de94dd4ea81e0d78950cff0155029",
+  "best_founder": {
+    "genome": {
+      "genes": {
+        "final_policy_id": "evidence_weighted",
+        "role_lenses": [
+          "audit",
+          "generalist",
+          "simplicity",
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "diversifier",
+          "audit"
+        ],
+        "topology_id": "consensus_9p_1j"
+      },
+      "genome_id": "G-498E470E7808",
+      "genome_sha256": "498e470e7808ad06c2aaadc1de231023f5fa58b065b604cb49864f983adbe35a",
+      "lineage": {
+        "crossover_sources": null,
+        "founder_id": "F02",
+        "founding_species": [
+          "consensus"
+        ],
+        "generation": 0,
+        "mutation": null,
+        "operation": "founder",
+        "parents": []
+      }
+    },
+    "training_fitness": {
+      "calls": 10,
+      "case_count": 12,
+      "completed_calls": 10,
+      "exact_cases": 8,
+      "fitness_order": [
+        8,
+        0,
+        44,
+        12,
+        "498e470e7808ad06c2aaadc1de231023f5fa58b065b604cb49864f983adbe35a"
+      ],
+      "fitness_scalar": 0.696969696969697,
+      "format_valid": 12,
+      "genome_id": "G-498E470E7808",
+      "genome_sha256": "498e470e7808ad06c2aaadc1de231023f5fa58b065b604cb49864f983adbe35a",
+      "harmful_overrides": 0,
+      "term_correct": 44
+    },
+    "training_rank_overall": 4
+  },
+  "call_budget_per_genome": 10,
+  "catalog_file_sha256": "0f37a0f1e8002a0d2dfdfc6be6a223b59fb7ee17d6d9b445bb320a1e202e79d2",
+  "catalog_semantic_sha256": "242dd7ec1dea8154ac98ba89b3c6f35dd93327fb0a4acdf3edcd0b615b9995a0",
+  "champion": {
+    "genome": {
+      "genes": {
+        "final_policy_id": "evidence_weighted",
+        "role_lenses": [
+          "streams",
+          "modular",
+          "diversifier",
+          "modular",
+          "diversifier",
+          "simplicity",
+          "generalist",
+          "generalist",
+          "simplicity"
+        ],
+        "topology_id": "falsification_7p_2c_1j"
+      },
+      "genome_id": "G-1407BDDB752D",
+      "genome_sha256": "1407bddb752d9eda8abf68b5248d04b8beb2539024d67834474ec15f9cd48d28",
+      "lineage": {
+        "crossover_sources": {
+          "final_policy_id": "G-498E470E7808",
+          "role_lenses": [
+            {
+              "parent": "G-37B2621092D0",
+              "source_slot": "W06"
+            },
+            {
+              "parent": "G-37B2621092D0",
+              "source_slot": "W07"
+            },
+            {
+              "parent": "G-37B2621092D0",
+              "source_slot": "W08"
+            },
+            {
+              "parent": "G-498E470E7808",
+              "source_slot": "W07"
+            },
+            {
+              "parent": "G-498E470E7808",
+              "source_slot": "W08"
+            },
+            {
+              "parent": "G-37B2621092D0",
+              "source_slot": "W02"
+            },
+            {
+              "parent": "G-37B2621092D0",
+              "source_slot": "W03"
+            },
+            {
+              "parent": "G-498E470E7808",
+              "source_slot": "W02"
+            },
+            {
+              "parent": "G-498E470E7808",
+              "source_slot": "W03"
+            }
+          ],
+          "topology_id": "G-37B2621092D0"
+        },
+        "founder_id": null,
+        "founding_species": [
+          "consensus",
+          "falsification"
+        ],
+        "generation": 1,
+        "mutation": null,
+        "operation": "crossover",
+        "parents": [
+          "G-37B2621092D0",
+          "G-498E470E7808"
+        ]
+      }
+    },
+    "validation_fitness": {
+      "calls": 20,
+      "case_count": 24,
+      "completed_calls": 20,
+      "exact_cases": 13,
+      "fitness_order": [
+        13,
+        -1,
+        77,
+        24,
+        "1407bddb752d9eda8abf68b5248d04b8beb2539024d67834474ec15f9cd48d28"
+      ],
+      "fitness_scalar": 0.5833333333333334,
+      "format_valid": 24,
+      "genome_id": "G-1407BDDB752D",
+      "genome_sha256": "1407bddb752d9eda8abf68b5248d04b8beb2539024d67834474ec15f9cd48d28",
+      "harmful_overrides": 1,
+      "term_correct": 77
+    },
+    "validation_rank": 1
+  },
+  "evolution_seed": "swarm-seeds-03-evolution-v1",
+  "experiment_id": "swarm-seeds-03",
+  "freeze_status": "champion_frozen_before_final_answers",
+  "generation_count": 3,
+  "lenses_file_sha256": "e339e0680c177e7bdb6e87ca70f36b6df383b7ce01fcdbbe3f07ba315b1907a7",
+  "population_size": 6,
+  "provider_reasoning_effort": "low",
+  "public_condition_label": "Light reasoning",
+  "schema_version": "experiment-03-champion-freeze-v1",
+  "source_validation_score_file_sha256": "f1edf559bccb3c6029c6fcb394bfd19c79194a5d9caefe916c30fa4422e60ef4",
+  "source_validation_selection_sha256": "c8ed6e67195fa3b8b453ac679c971de8209286dfabf773991a4a0e7ce1eebc63",
+  "training_answers_sha256": "ce5a05b79b9ebfb1eb629df35d6a1e5f4929ae8e98949e418393acb163b05601",
+  "validation_answers_sha256": "644a96ffc6d397b3d72d6bd284ab004427625017fa89766d8b644e7a836990c9",
+  "validation_case_count": 24,
+  "validation_ranking": [
+    {
+      "genome_id": "G-1407BDDB752D",
+      "genome_sha256": "1407bddb752d9eda8abf68b5248d04b8beb2539024d67834474ec15f9cd48d28",
+      "rank": 1,
+      "validation_fitness": {
+        "calls": 20,
+        "case_count": 24,
+        "completed_calls": 20,
+        "exact_cases": 13,
+        "fitness_order": [
+          13,
+          -1,
+          77,
+          24,
+          "1407bddb752d9eda8abf68b5248d04b8beb2539024d67834474ec15f9cd48d28"
+        ],
+        "fitness_scalar": 0.5833333333333334,
+        "format_valid": 24,
+        "genome_id": "G-1407BDDB752D",
+        "genome_sha256": "1407bddb752d9eda8abf68b5248d04b8beb2539024d67834474ec15f9cd48d28",
+        "harmful_overrides": 1,
+        "term_correct": 77
+      }
+    },
+    {
+      "genome_id": "G-157CA76A3367",
+      "genome_sha256": "157ca76a3367cad722ba113ea5b2358d6426c011478ecdc8e697ad868d5e9663",
+      "rank": 2,
+      "validation_fitness": {
+        "calls": 20,
+        "case_count": 24,
+        "completed_calls": 20,
+        "exact_cases": 9,
+        "fitness_order": [
+          9,
+          -1,
+          63,
+          24,
+          "157ca76a3367cad722ba113ea5b2358d6426c011478ecdc8e697ad868d5e9663"
+        ],
+        "fitness_scalar": 0.4393939393939394,
+        "format_valid": 24,
+        "genome_id": "G-157CA76A3367",
+        "genome_sha256": "157ca76a3367cad722ba113ea5b2358d6426c011478ecdc8e697ad868d5e9663",
+        "harmful_overrides": 1,
+        "term_correct": 63
+      }
+    },
+    {
+      "genome_id": "G-236ED23A587B",
+      "genome_sha256": "236ed23a587b3d0167cd9234fd131b69ff894b544904bc4c27a07460ece0ea26",
+      "rank": 3,
+      "validation_fitness": {
+        "calls": 20,
+        "case_count": 24,
+        "completed_calls": 20,
+        "exact_cases": 9,
+        "fitness_order": [
+          9,
+          -3,
+          57,
+          24,
+          "236ed23a587b3d0167cd9234fd131b69ff894b544904bc4c27a07460ece0ea26"
+        ],
+        "fitness_scalar": 0.4090909090909091,
+        "format_valid": 24,
+        "genome_id": "G-236ED23A587B",
+        "genome_sha256": "236ed23a587b3d0167cd9234fd131b69ff894b544904bc4c27a07460ece0ea26",
+        "harmful_overrides": 3,
+        "term_correct": 57
+      }
+    }
+  ]
+}

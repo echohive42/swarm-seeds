@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Two alternating arithmetic streams fit the full prefix.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE with odd-step +4 and even-step -2."
+      },
+      {
+        "answer": [
+          "7",
+          "4",
+          "21",
+          "18",
+          "15"
+        ],
+        "case_id": "T02",
+        "check_summary": "Differences follow repeating -3,-3 with rising positive jumps.",
+        "confidence": 1,
+        "rule_summary": "Periodic phase-specific deltas."
+      },
+      {
+        "answer": [
+          "32",
+          "10",
+          "-12",
+          "-34",
+          "-56"
+        ],
+        "case_id": "T03",
+        "check_summary": "Growing arithmetic blocks continue with next start 32 and step -22.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "395867",
+          "-791740",
+          "1583478",
+          "4750427",
+          "-9500860"
+        ],
+        "case_id": "T04",
+        "check_summary": "Three affine phase updates reproduce the full prefix.",
+        "confidence": 1,
+        "rule_summary": "AFFINE cycle: 3x-7, -2x-6, -2x-2."
+      },
+      {
+        "answer": [
+          "-6875",
+          "-11455",
+          "-17871",
+          "-26479",
+          "-37643"
+        ],
+        "case_id": "T05",
+        "check_summary": "Constant fourth finite difference supports quartic continuation.",
+        "confidence": 1,
+        "rule_summary": "Integer-valued quartic POLY."
+      },
+      {
+        "answer": [
+          "-3",
+          "65",
+          "38",
+          "5",
+          "11"
+        ],
+        "case_id": "T06",
+        "check_summary": "Four phase subsequences have polynomially evolving increments.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE with four phase streams."
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1722",
+          "-2163",
+          "-2673",
+          "-3257"
+        ],
+        "case_id": "T07",
+        "check_summary": "Third finite differences are constant at -5.",
+        "confidence": 1,
+        "rule_summary": "Cubic POLY."
+      },
+      {
+        "answer": [
+          "31",
+          "3",
+          "58",
+          "31",
+          "20"
+        ],
+        "case_id": "T08",
+        "check_summary": "Three phase affine recurrences modulo 71 fit the prefix.",
+        "confidence": 0.9,
+        "rule_summary": "MODAFFINE modulo 71."
+      },
+      {
+        "answer": [
+          "-225",
+          "-253",
+          "-299",
+          "-332",
+          "-384"
+        ],
+        "case_id": "T09",
+        "check_summary": "Odd and even subsequences follow quadratic difference patterns.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE of two quadratic streams."
+      },
+      {
+        "answer": [
+          "44",
+          "56",
+          "10",
+          "-84",
+          "78"
+        ],
+        "case_id": "T10",
+        "check_summary": "Phase subsequences fit: mod-3 phase one rises by 2, phase two alternating powers, phase three quadratic increments.",
+        "confidence": 0.95,
+        "rule_summary": "INTERLEAVE of three phase-specific streams."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Every term follows x_next=2x-1.",
+        "confidence": 1,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "43684",
+          "87391",
+          "174754",
+          "349537",
+          "699040"
+        ],
+        "case_id": "T12",
+        "check_summary": "Alternating affine biases continue as arithmetic sequences.",
+        "confidence": 1,
+        "rule_summary": "Two-phase AFFINE with multiplier 2."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g0-G-37B2621092D0-training-b01-critic-01",
+  "outcome": "valid_output",
+  "response_sha256": "a579266ce27ee91ad61d16cbdf64c4e24f75eac746e3bef869e4a908b4c588be",
+  "terminal_artifact_relpath": "jobs/search-g0-G-37B2621092D0-training-b01-critic-01/attempt-01"
+}

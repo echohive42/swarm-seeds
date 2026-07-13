@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "-6487",
+          "12969",
+          "-25943",
+          "51881",
+          "-103767"
+        ],
+        "case_id": "F027",
+        "check_summary": "Exact first-order affine recurrence x'=-2x-5.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "382",
+          "526",
+          "759",
+          "1136",
+          "1746"
+        ],
+        "case_id": "F028",
+        "check_summary": "Successive differences follow Fibonacci numbers.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-28",
+          "-33",
+          "-35",
+          "-40",
+          "-42"
+        ],
+        "case_id": "F029",
+        "check_summary": "Alternating differences -2,-5.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "3923",
+          "5393",
+          "7235",
+          "9506",
+          "12267"
+        ],
+        "case_id": "F034",
+        "check_summary": "Constant fourth finite difference 4.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-119968",
+          "239940",
+          "-719821",
+          "1439646",
+          "-4318939"
+        ],
+        "case_id": "F035",
+        "check_summary": "Alternating affine multipliers -3 and -2 with periodic biases.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-386",
+          "-514",
+          "-666",
+          "-844",
+          "-1050"
+        ],
+        "case_id": "F036",
+        "check_summary": "Second differences decrease by 2 periodically, yielding quadratic differences.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-19933087",
+          "59799266",
+          "-179397805",
+          "-358795615",
+          "1076386850"
+        ],
+        "case_id": "F026",
+        "check_summary": "Three-phase affine recurrence with multipliers -3, 2, -3 and repeating biases.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-7198",
+          "-11639",
+          "-18835",
+          "-30483",
+          "-49315"
+        ],
+        "case_id": "F033",
+        "check_summary": "Second-order recurrence x_n=x_{n-1}+x_{n-2} with repeating biases -9,3,2.",
+        "confidence": 0.93,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "F025",
+        "check_summary": "No reliable full-prefix mechanism identified from supplied evidence.",
+        "confidence": 0.05,
+        "rule_summary": "UNRESOLVED"
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "F030",
+        "check_summary": "No reliable full-prefix mechanism identified from supplied evidence.",
+        "confidence": 0.05,
+        "rule_summary": "UNRESOLVED"
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "F031",
+        "check_summary": "No reliable full-prefix mechanism identified from supplied evidence.",
+        "confidence": 0.05,
+        "rule_summary": "UNRESOLVED"
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "F032",
+        "check_summary": "No reliable full-prefix mechanism identified from supplied evidence.",
+        "confidence": 0.05,
+        "rule_summary": "UNRESOLVED"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "amendment-01-VOTE10-final-b03-proposer-07",
+  "outcome": "valid_output",
+  "response_sha256": "b25c488d4d1d85ecef82bd1a781c1f792aa20b80477c1b9a6d447797cb0ea2ab",
+  "terminal_artifact_relpath": "jobs/amendment-01-VOTE10-final-b03-proposer-07/attempt-01"
+}

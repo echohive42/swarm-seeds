@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "-7",
+          "41",
+          "2",
+          "-6",
+          "54"
+        ],
+        "case_id": "F037",
+        "check_summary": "Three-way interleave fits the full prefix: linear, quadratic, and constant streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-52",
+          "43",
+          "-73",
+          "-72",
+          "49"
+        ],
+        "case_id": "F038",
+        "check_summary": "No candidate establishes a high-confidence full-prefix continuation; C03 is the best-supported available fit.",
+        "confidence": 0.25,
+        "rule_summary": "Three-phase interleaved polynomial streams"
+      },
+      {
+        "answer": [
+          "150",
+          "155",
+          "-105",
+          "297",
+          "283"
+        ],
+        "case_id": "F039",
+        "check_summary": "Cubic extrapolation on three phase streams is the strongest available candidate, though confidence is limited.",
+        "confidence": 0.38,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16",
+          "3",
+          "-18",
+          "2",
+          "-20"
+        ],
+        "case_id": "F040",
+        "check_summary": "Odd positions decrease by 2 and even positions decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "12",
+          "45",
+          "35",
+          "15",
+          "51"
+        ],
+        "case_id": "F041",
+        "check_summary": "Periodic three-phase continuation is the best-supported candidate.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "146",
+          "179",
+          "212",
+          "245",
+          "278"
+        ],
+        "case_id": "F042",
+        "check_summary": "The visible terminal phase is an arithmetic progression with common difference 33.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "27",
+          "21",
+          "4",
+          "41",
+          "34"
+        ],
+        "case_id": "F043",
+        "check_summary": "The first two residue streams have matching quadratic increments; the third is extrapolated from the structured phase pattern.",
+        "confidence": 0.67,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "20",
+          "66",
+          "78",
+          "-34",
+          "26"
+        ],
+        "case_id": "F044",
+        "check_summary": "Four-phase interleaved polynomial continuation is the strongest available candidate.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "37",
+          "-57",
+          "21",
+          "65",
+          "-87"
+        ],
+        "case_id": "F045",
+        "check_summary": "Three residue streams fit polynomial increments: +5,+4,+3,+2; +0,+7,+14,+21; and -2,-9,-16,-23,-30.",
+        "confidence": 0.95,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-2",
+          "-3",
+          "-4",
+          "-5",
+          "-6"
+        ],
+        "case_id": "F046",
+        "check_summary": "The terminal descending arithmetic run continues with unit decrement.",
+        "confidence": 0.78,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-3",
+          "76",
+          "5",
+          "103",
+          "-3"
+        ],
+        "case_id": "F047",
+        "check_summary": "Odd positions alternate -3 and 5; even-position increments increase by 5.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "42",
+          "-32",
+          "54",
+          "-59",
+          "66"
+        ],
+        "case_id": "F048",
+        "check_summary": "Periodic phase-dependent affine continuation is the strongest available candidate.",
+        "confidence": 0.16,
+        "rule_summary": "AFFINE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-G-1407BDDB752D-final-b04-critic-01",
+  "outcome": "valid_output",
+  "response_sha256": "ca9e911da48a1d59829b69b53f8704190bbfb539b68c5961f8288ed96945b5de",
+  "terminal_artifact_relpath": "jobs/final-G-1407BDDB752D-final-b04-critic-01/attempt-01"
+}

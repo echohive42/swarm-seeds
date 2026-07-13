@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Alternating arithmetic streams: odd terms rise by 4; even terms fall by 2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "24",
+          "18",
+          "21",
+          "29",
+          "26"
+        ],
+        "case_id": "T02",
+        "check_summary": "Three-way interleaving with polynomial-like stream increments.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-66",
+          "-84",
+          "-102",
+          "-120",
+          "-138"
+        ],
+        "case_id": "T03",
+        "check_summary": "Tail exhibits a repeating -18 phase increment after the latest positive jump.",
+        "confidence": 0.3,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "395867",
+          "-791740",
+          "1583482",
+          "3166969",
+          "-6333944"
+        ],
+        "case_id": "T04",
+        "check_summary": "Repeating affine phase multipliers 3, -2, -2 with biases -7, -6, 2.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-6540",
+          "-10380",
+          "-15120",
+          "-21180",
+          "-28980"
+        ],
+        "case_id": "T05",
+        "check_summary": "High-order finite-difference extrapolation from the descending tail.",
+        "confidence": 0.18,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "38",
+          "5",
+          "68",
+          "53",
+          "20"
+        ],
+        "case_id": "T06",
+        "check_summary": "Interleaved phase streams extrapolated from their recent increments.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1722",
+          "-2163",
+          "-2673",
+          "-3257"
+        ],
+        "case_id": "T07",
+        "check_summary": "Third-order polynomial sequence; successive second differences decrease by 5.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "12",
+          "85",
+          "41",
+          "28",
+          "74"
+        ],
+        "case_id": "T08",
+        "check_summary": "Periodic modular/interleaved behavior inferred from the prefix.",
+        "confidence": 0.12,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-225",
+          "-258",
+          "-304",
+          "-342",
+          "-388"
+        ],
+        "case_id": "T09",
+        "check_summary": "Odd-position differences decrease by 6; even-position differences decrease by 5.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "16",
+          "-36",
+          "27",
+          "18",
+          "-52"
+        ],
+        "case_id": "T10",
+        "check_summary": "Interleaved polynomial/affine streams extrapolated from the prefix.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Exact form 1 minus powers of two.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "43684",
+          "349537",
+          "174754",
+          "1398115",
+          "699040"
+        ],
+        "case_id": "T12",
+        "check_summary": "Odd and even subsequences follow phase-specific affine recurrences with linear biases.",
+        "confidence": 0.9,
+        "rule_summary": "AFFINE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g1-G-52E910BC671D-training-b01-proposer-02",
+  "outcome": "valid_output",
+  "response_sha256": "f51ba1f8a6de9258e4d1ea63b5dc0b2fea2605aea4439398360750aa21f6c1f2",
+  "terminal_artifact_relpath": "jobs/search-g1-G-52E910BC671D-training-b01-proposer-02/attempt-01"
+}

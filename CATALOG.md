@@ -31,3 +31,21 @@ Inside the folder:
 - [Technical report](02-hard-sequence-scaling/experiment/REPORT.md)
 - [Raw final attempts](02-hard-sequence-scaling/experiment/raw/final/attempts.jsonl)
 - [Result charts](02-hard-sequence-scaling/plots/)
+
+## 03: Evolving Light Swarms
+
+**Question:** Can a deterministic evolutionary search discover a 10-call GPT-5.6 Luna Light orchestration policy that beats an equal-call independent vote?
+
+**Simple answer:** The evolved champion scored 21/48 and the corrected ten-generalist Vote10 scored 18/48, a promising but inconclusive +6.25-point estimate. The best unevolved founder scored 22/48. An audit found that the original independent pool used mixed lenses; it scored 21/48 and is preserved as a superseded sensitivity result. The run exposes selection noise and the value of implementation audits.
+
+**Open the complete seed:** [03-evolving-light-swarms](03-evolving-light-swarms/README.md)
+
+Inside the folder:
+
+- [Reusable `SKILL.md`](03-evolving-light-swarms/SKILL.md)
+- [Actual experiment](03-evolving-light-swarms/experiment/README.md)
+- [Technical report](03-evolving-light-swarms/experiment/REPORT.md)
+- [Baseline correction and chronology](03-evolving-light-swarms/experiment/AMENDMENT-01.md)
+- [Symbolic genomes and lineage](03-evolving-light-swarms/experiment/genomes/)
+- [Run records and raw last messages](03-evolving-light-swarms/experiment/runs/)
+- [Result charts](03-evolving-light-swarms/images/)

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-16387",
+          "-32771",
+          "-65539",
+          "-131075",
+          "-262147"
+        ],
+        "case_id": "V13",
+        "check_summary": "Matches x_n=2x_(n-1)+3 across the full prefix.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence with constant multiplier and bias."
+      },
+      {
+        "answer": [
+          "413241",
+          "1239723",
+          "-2479441",
+          "-7438328",
+          "14876661"
+        ],
+        "case_id": "V14",
+        "check_summary": "Matches the alternating affine phase rules visible throughout the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic AFFINE update with alternating rules -2x+5 and 3x-5."
+      },
+      {
+        "answer": [
+          "-780",
+          "1204",
+          "-2060",
+          "692",
+          "2804"
+        ],
+        "case_id": "V15",
+        "check_summary": "Matches two interleaved streams with phase-structured polynomial increments.",
+        "confidence": 0.84,
+        "rule_summary": "INTERLEAVE of two lagged polynomial-increment streams."
+      },
+      {
+        "answer": [
+          "446623",
+          "-1339869",
+          "2679729",
+          "-8039187",
+          "16078379"
+        ],
+        "case_id": "V16",
+        "check_summary": "Matches the repeating four-transition affine phase cycle.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic AFFINE recurrence with phase rules -2x+5, -3x, -2x-9, -3x."
+      },
+      {
+        "answer": [
+          "-370",
+          "-12",
+          "-35",
+          "-170",
+          "-2"
+        ],
+        "case_id": "V17",
+        "check_summary": "Prefix does not uniquely expose a simple low-order non-modular continuation; extrapolation is tentative.",
+        "confidence": 0.22,
+        "rule_summary": "Tentative periodic/interleaved affine mechanism."
+      },
+      {
+        "answer": [
+          "-895",
+          "-1097",
+          "-1308",
+          "-1522",
+          "-1732"
+        ],
+        "case_id": "V18",
+        "check_summary": "Finite differences show constant fourth difference 1.",
+        "confidence": 1.0,
+        "rule_summary": "POLY quartic sequence."
+      },
+      {
+        "answer": [
+          "18",
+          "-2",
+          "43",
+          "-9",
+          "93"
+        ],
+        "case_id": "V19",
+        "check_summary": "Tentative continuation of the observed interleaved phase behavior.",
+        "confidence": 0.18,
+        "rule_summary": "Tentative INTERLEAVE mechanism."
+      },
+      {
+        "answer": [
+          "52",
+          "445",
+          "73",
+          "893",
+          "98"
+        ],
+        "case_id": "V20",
+        "check_summary": "Odd stream has arithmetic second differences; even stream follows x_n=2x_(n-1)+3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of a polynomial stream and affine stream."
+      },
+      {
+        "answer": [
+          "-16",
+          "29",
+          "-18",
+          "32",
+          "-20"
+        ],
+        "case_id": "V21",
+        "check_summary": "Alternating arithmetic streams continue directly.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "49",
+          "87",
+          "135",
+          "194",
+          "265"
+        ],
+        "case_id": "V22",
+        "check_summary": "Successive differences and second differences continue with the established polynomial pattern.",
+        "confidence": 0.99,
+        "rule_summary": "POLY sequence with structured finite differences."
+      },
+      {
+        "answer": [
+          "559",
+          "636",
+          "715",
+          "801",
+          "889"
+        ],
+        "case_id": "V23",
+        "check_summary": "Differences alternate increments of +7 and +2 throughout the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE-like alternating polynomial increment pattern."
+      },
+      {
+        "answer": [
+          "-48",
+          "-44",
+          "-43",
+          "-42",
+          "-41"
+        ],
+        "case_id": "V24",
+        "check_summary": "Prefix is irregular and continuation is low-confidence.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative periodic phase mechanism."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "validation-G-1407BDDB752D-validation-b02-proposer-03",
+  "outcome": "valid_output",
+  "response_sha256": "6a71b20ab1f20d61dd4b2453acb2f0c1a11227c847334028a4eecbf24d683227",
+  "terminal_artifact_relpath": "jobs/validation-G-1407BDDB752D-validation-b02-proposer-03/attempt-01"
+}

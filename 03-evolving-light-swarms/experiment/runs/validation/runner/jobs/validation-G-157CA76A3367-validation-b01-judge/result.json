@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b01",
+    "results": [
+      {
+        "answer": [
+          "42",
+          "21",
+          "56",
+          "63",
+          "35"
+        ],
+        "case_id": "V01",
+        "check_summary": "Period-3 phase deltas replay the prefix and agree across strongest candidates.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-3 linear phase deltas."
+      },
+      {
+        "answer": [
+          "41",
+          "17",
+          "-16",
+          "50",
+          "22"
+        ],
+        "case_id": "V02",
+        "check_summary": "Three interleaved streams have consistent polynomial increment patterns.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "22",
+          "21",
+          "20",
+          "30",
+          "29"
+        ],
+        "case_id": "V03",
+        "check_summary": "The current descending block completes before the next higher-start block begins.",
+        "confidence": 0.92,
+        "rule_summary": "GROWBLOCK with increasing descending blocks."
+      },
+      {
+        "answer": [
+          "512",
+          "20",
+          "-70",
+          "-1024",
+          "38"
+        ],
+        "case_id": "V04",
+        "check_summary": "Three interleaved phase streams reproduce the alternating explosive values.",
+        "confidence": 0.93,
+        "rule_summary": "INTERLEAVE of phase-specific streams."
+      },
+      {
+        "answer": [
+          "1576803",
+          "3806737",
+          "9190271",
+          "22187287",
+          "53564847"
+        ],
+        "case_id": "V05",
+        "check_summary": "A period-4-bias second-order recurrence matches the exponential prefix.",
+        "confidence": 0.98,
+        "rule_summary": "LIN2 with period-4 bias."
+      },
+      {
+        "answer": [
+          "54",
+          "37",
+          "64",
+          "48",
+          "72"
+        ],
+        "case_id": "V06",
+        "check_summary": "Weak evidence favors the shared three-phase affine-stream continuation.",
+        "confidence": 0.3,
+        "rule_summary": "Three phase-specific affine streams."
+      },
+      {
+        "answer": [
+          "6952",
+          "9688",
+          "13904",
+          "20856",
+          "30544"
+        ],
+        "case_id": "V07",
+        "check_summary": "The fixed recurrence a(n)=a(n-1)+a(n-3) exactly replays the prefix.",
+        "confidence": 1.0,
+        "rule_summary": "LIN2 with fixed coefficients and zero bias."
+      },
+      {
+        "answer": [
+          "79",
+          "118",
+          "157",
+          "196",
+          "235"
+        ],
+        "case_id": "V08",
+        "check_summary": "The next arithmetic block uses step 39, continuing step increases by six.",
+        "confidence": 0.93,
+        "rule_summary": "GROWBLOCK with increasing block steps."
+      },
+      {
+        "answer": [
+          "-66",
+          "-70",
+          "-75",
+          "-79",
+          "-84"
+        ],
+        "case_id": "V09",
+        "check_summary": "Observed differences alternate -5 and -4; the next difference is -4.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA with period-2 constant deltas."
+      },
+      {
+        "answer": [
+          "44",
+          "62",
+          "7",
+          "48",
+          "29"
+        ],
+        "case_id": "V10",
+        "check_summary": "All evidence is weak; this is the strongest supplied modular-affine continuation.",
+        "confidence": 0.2,
+        "rule_summary": "MODAFFINE with periodic wrapped updates."
+      },
+      {
+        "answer": [
+          "-2",
+          "-5",
+          "-28",
+          "-13",
+          "-30"
+        ],
+        "case_id": "V11",
+        "check_summary": "The strongest available evidence supports interleaved phase streams with changing differences.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE with polynomially changing phase differences."
+      },
+      {
+        "answer": [
+          "-62",
+          "-82",
+          "-102",
+          "-122",
+          "-142"
+        ],
+        "case_id": "V12",
+        "check_summary": "The terminal arithmetic tail continues with repeated -20 differences.",
+        "confidence": 0.7,
+        "rule_summary": "Periodic phase-specific delta continuation."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "validation-G-157CA76A3367-validation-b01-judge",
+  "outcome": "valid_output",
+  "response_sha256": "ee0aad48620bfff3826b88bbdb81ddc80f00105851605a0668678f1f3ea1297a",
+  "terminal_artifact_relpath": "jobs/validation-G-157CA76A3367-validation-b01-judge/attempt-01"
+}

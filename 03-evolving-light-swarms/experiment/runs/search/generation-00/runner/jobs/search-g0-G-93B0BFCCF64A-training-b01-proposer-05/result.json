@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Alternating arithmetic streams replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic progressions."
+      },
+      {
+        "answer": [
+          "18",
+          "15",
+          "12",
+          "7",
+          "4"
+        ],
+        "case_id": "T02",
+        "check_summary": "Periodic three-phase progression extrapolated from terminal block.",
+        "confidence": 0.42,
+        "rule_summary": "Phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-66",
+          "-84",
+          "-102",
+          "-120",
+          "-138"
+        ],
+        "case_id": "T03",
+        "check_summary": "Terminal constant-step growing block continued.",
+        "confidence": 0.55,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "395867",
+          "-791740",
+          "1583478",
+          "-3166940",
+          "6333875"
+        ],
+        "case_id": "T04",
+        "check_summary": "Three phase-specific affine streams with multiplier 12 replay the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-5664",
+          "-8567",
+          "-12832",
+          "-18878",
+          "-24924"
+        ],
+        "case_id": "T05",
+        "check_summary": "Finite-difference continuation.",
+        "confidence": 0.31,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-42",
+          "-44",
+          "-25",
+          "-31",
+          "-4"
+        ],
+        "case_id": "T06",
+        "check_summary": "Periodic phase streams extrapolated from observed phase behavior.",
+        "confidence": 0.22,
+        "rule_summary": "Phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1722",
+          "-2163",
+          "-2673",
+          "-3183"
+        ],
+        "case_id": "T07",
+        "check_summary": "Second differences continue decreasing by 5.",
+        "confidence": 0.97,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "14",
+          "78",
+          "44",
+          "91",
+          "56"
+        ],
+        "case_id": "T08",
+        "check_summary": "Modular periodic affine continuation.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic affine update modulo a prime."
+      },
+      {
+        "answer": [
+          "-225",
+          "-242",
+          "-288",
+          "-299",
+          "-351"
+        ],
+        "case_id": "T09",
+        "check_summary": "Two interleaved quadratic streams replay the prefix.",
+        "confidence": 0.95,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "12",
+          "10",
+          "39",
+          "14",
+          "-28"
+        ],
+        "case_id": "T10",
+        "check_summary": "Interleaved stream continuation.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Each term follows x(n+1)=2x(n)-1.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "43706",
+          "87435",
+          "174842",
+          "349713",
+          "699392"
+        ],
+        "case_id": "T12",
+        "check_summary": "Multiplier-two recurrence with alternating arithmetic biases.",
+        "confidence": 0.96,
+        "rule_summary": "Periodic affine update."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g0-G-93B0BFCCF64A-training-b01-proposer-05",
+  "outcome": "valid_output",
+  "response_sha256": "8df1053fb8605def637b447d3d13f36a4035c52a053a116edeae7277ce38eacd",
+  "terminal_artifact_relpath": "jobs/search-g0-G-93B0BFCCF64A-training-b01-proposer-05/attempt-01"
+}

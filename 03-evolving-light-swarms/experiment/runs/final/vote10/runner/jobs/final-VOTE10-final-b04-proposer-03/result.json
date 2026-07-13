@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "41",
+          "-7",
+          "2",
+          "54",
+          "-6"
+        ],
+        "case_id": "F037",
+        "check_summary": "Three interleaved streams: arithmetic, quadratic, and constant.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-74",
+          "-154",
+          "18",
+          "-78",
+          "-276"
+        ],
+        "case_id": "F038",
+        "check_summary": "Phase subsequences extrapolated polynomially.",
+        "confidence": 0.28,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "0",
+          "40",
+          "-12",
+          "-20",
+          "65"
+        ],
+        "case_id": "F039",
+        "check_summary": "Periodic interleaving inferred from phase subsequences.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16",
+          "3",
+          "-18",
+          "2",
+          "-20"
+        ],
+        "case_id": "F040",
+        "check_summary": "Odd and even positions are arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "27",
+          "15",
+          "44",
+          "36",
+          "30"
+        ],
+        "case_id": "F041",
+        "check_summary": "Periodic phase streams extrapolated from prefix.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "146",
+          "179",
+          "212",
+          "245",
+          "278"
+        ],
+        "case_id": "F042",
+        "check_summary": "Terminal arithmetic progression with common difference 33.",
+        "confidence": 0.72,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "27",
+          "24",
+          "68",
+          "41",
+          "38"
+        ],
+        "case_id": "F043",
+        "check_summary": "Three phase-specific polynomial streams.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "30",
+          "20",
+          "45",
+          "8",
+          "54"
+        ],
+        "case_id": "F044",
+        "check_summary": "Periodic phase extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-25",
+          "7",
+          "-32",
+          "30",
+          "-42"
+        ],
+        "case_id": "F045",
+        "check_summary": "Alternating phase recurrence inferred from observed updates.",
+        "confidence": 0.12,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-2",
+          "-2",
+          "-3",
+          "-3",
+          "-4"
+        ],
+        "case_id": "F046",
+        "check_summary": "Late prefix suggests alternating descending streams.",
+        "confidence": 0.22,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3",
+          "80",
+          "5",
+          "107",
+          "-3"
+        ],
+        "case_id": "F047",
+        "check_summary": "Even-position stream has second differences increasing by 5; odd stream alternates.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-36",
+          "-52",
+          "-15",
+          "-61",
+          "-4"
+        ],
+        "case_id": "F048",
+        "check_summary": "Periodic phase extrapolation from interleaved streams.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-VOTE10-final-b04-proposer-03",
+  "outcome": "valid_output",
+  "response_sha256": "a856334339a1c47d1343add7d7f5297fe27ba80505094388b57f124e7c92b3c5",
+  "terminal_artifact_relpath": "jobs/final-VOTE10-final-b04-proposer-03/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "-7",
+          "41",
+          "-6",
+          "54",
+          "-5"
+        ],
+        "case_id": "F037",
+        "check_summary": "Triple interleave: first stream increments by 1, second has successive odd increments, third is constant 2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of arithmetic, quadratic, and constant streams."
+      },
+      {
+        "answer": [
+          "-32",
+          "41",
+          "-39",
+          "45",
+          "-46"
+        ],
+        "case_id": "F038",
+        "check_summary": "No unique low-complexity continuation established from the prefix.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative periodic affine/modular extrapolation."
+      },
+      {
+        "answer": [
+          "38",
+          "58",
+          "46",
+          "79",
+          "87"
+        ],
+        "case_id": "F039",
+        "check_summary": "No unique low-complexity continuation established from the prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative lagged polynomial extrapolation."
+      },
+      {
+        "answer": [
+          "-16",
+          "3",
+          "-18",
+          "2",
+          "-20"
+        ],
+        "case_id": "F040",
+        "check_summary": "Alternating streams decrease by 2 and decrease by 1 respectively.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "41",
+          "26",
+          "48",
+          "34",
+          "75"
+        ],
+        "case_id": "F041",
+        "check_summary": "No unique low-complexity continuation established from the prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative periodic second-order recurrence."
+      },
+      {
+        "answer": [
+          "146",
+          "179",
+          "212",
+          "245",
+          "278"
+        ],
+        "case_id": "F042",
+        "check_summary": "Final visible run has constant increment 33.",
+        "confidence": 0.95,
+        "rule_summary": "Arithmetic continuation of the established terminal phase."
+      },
+      {
+        "answer": [
+          "27",
+          "24",
+          "21",
+          "18",
+          "15"
+        ],
+        "case_id": "F043",
+        "check_summary": "Descending runs use step -3; run starts increase by 5 and intervening jumps increase by 3.",
+        "confidence": 0.9,
+        "rule_summary": "GROWBLOCK with polynomially advancing block starts and step -3."
+      },
+      {
+        "answer": [
+          "24",
+          "18",
+          "30",
+          "48",
+          "6"
+        ],
+        "case_id": "F044",
+        "check_summary": "No unique low-complexity continuation established from the prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative periodic interleaving."
+      },
+      {
+        "answer": [
+          "-25",
+          "24",
+          "-42",
+          "28",
+          "-50"
+        ],
+        "case_id": "F045",
+        "check_summary": "No unique low-complexity continuation established from the prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative phase-specific affine extrapolation."
+      },
+      {
+        "answer": [
+          "-2",
+          "-3",
+          "-4",
+          "-5",
+          "-6"
+        ],
+        "case_id": "F046",
+        "check_summary": "Terminal phase shows consecutive decrement by 1.",
+        "confidence": 0.45,
+        "rule_summary": "Tentative continuation of the final arithmetic phase."
+      },
+      {
+        "answer": [
+          "5",
+          "75",
+          "-3",
+          "101",
+          "5"
+        ],
+        "case_id": "F047",
+        "check_summary": "No unique low-complexity continuation established from the prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative periodic lagged recurrence."
+      },
+      {
+        "answer": [
+          "36",
+          "-20",
+          "42",
+          "-35",
+          "48"
+        ],
+        "case_id": "F048",
+        "check_summary": "No unique low-complexity continuation established from the prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative periodic affine/modular extrapolation."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-FIXED-SWARM10-final-b04-proposer-02",
+  "outcome": "valid_output",
+  "response_sha256": "bcfcea351ce315a9d7cb23a1dcf39bd48d263d2207802bcf5c8e03f4d2f479d6",
+  "terminal_artifact_relpath": "jobs/final-FIXED-SWARM10-final-b04-proposer-02/attempt-01"
+}

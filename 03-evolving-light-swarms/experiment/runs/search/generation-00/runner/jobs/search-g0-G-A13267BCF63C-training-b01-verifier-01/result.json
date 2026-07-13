@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Two alternating arithmetic streams exactly reproduce the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd terms rise by 4; even terms fall by 2."
+      },
+      {
+        "answer": [
+          "7",
+          "4",
+          "1",
+          "-2",
+          "15"
+        ],
+        "case_id": "T02",
+        "check_summary": "Observed positive jumps occur at triangular transition indices and rise by 3; intervening deltas are -3.",
+        "confidence": 0.93,
+        "rule_summary": "PDELTA with triangularly scheduled positive jumps +5,+8,+11,+14,+17 and intervening -3 steps."
+      },
+      {
+        "answer": [
+          "39",
+          "17",
+          "-5",
+          "-27",
+          "-49"
+        ],
+        "case_id": "T03",
+        "check_summary": "Growing arithmetic blocks with decreasing steps replay the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK: block lengths grow and negative block steps decrease by 4."
+      },
+      {
+        "answer": [
+          "395867",
+          "-791740",
+          "1583478",
+          "4750427",
+          "-9500860"
+        ],
+        "case_id": "T04",
+        "check_summary": "A repeating three-phase affine cycle exactly reproduces the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE phase maps cycle as -2x-2, 3x-7, -2x-6."
+      },
+      {
+        "answer": [
+          "-6883",
+          "-11558",
+          "-18314",
+          "-27752",
+          "-38790"
+        ],
+        "case_id": "T05",
+        "check_summary": "Finite-difference continuation provides the strongest polynomial replay.",
+        "confidence": 0.95,
+        "rule_summary": "POLY continuation from the observed finite-difference table."
+      },
+      {
+        "answer": [
+          "38",
+          "5",
+          "-3",
+          "65",
+          "59"
+        ],
+        "case_id": "T06",
+        "check_summary": "Four phase-separated streams reproduce the observed values and increments.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of four polynomial streams."
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1722",
+          "-2163",
+          "-2673",
+          "-3257"
+        ],
+        "case_id": "T07",
+        "check_summary": "Second differences decrease by 5 consistently across the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "POLY cubic continuation."
+      },
+      {
+        "answer": [
+          "69",
+          "80",
+          "89",
+          "35",
+          "101"
+        ],
+        "case_id": "T08",
+        "check_summary": "Three phase-separated streams provide the strongest available full-prefix fit.",
+        "confidence": 0.55,
+        "rule_summary": "INTERLEAVE of three phase-specific streams."
+      },
+      {
+        "answer": [
+          "-253",
+          "-225",
+          "-332",
+          "-299",
+          "-422"
+        ],
+        "case_id": "T09",
+        "check_summary": "Odd and even subsequences have arithmetic second-difference patterns.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two quadratic streams."
+      },
+      {
+        "answer": [
+          "10",
+          "44",
+          "56",
+          "12",
+          "108"
+        ],
+        "case_id": "T10",
+        "check_summary": "Three position-modulo streams reproduce the visible prefix.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE with independently extrapolated three-phase streams."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Every term equals twice the previous term minus 1.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence x_next=2x-1."
+      },
+      {
+        "answer": [
+          "43684",
+          "87391",
+          "174754",
+          "349537",
+          "699046"
+        ],
+        "case_id": "T12",
+        "check_summary": "Multiplier 2 with alternating phase biases reproduces the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with periodic phase-specific biases."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g0-G-A13267BCF63C-training-b01-verifier-01",
+  "outcome": "valid_output",
+  "response_sha256": "9fc8726fe332bb9b1a7628f7045d43bfcd5a4157a37d01129ed052fbec853998",
+  "terminal_artifact_relpath": "jobs/search-g0-G-A13267BCF63C-training-b01-verifier-01/attempt-01"
+}

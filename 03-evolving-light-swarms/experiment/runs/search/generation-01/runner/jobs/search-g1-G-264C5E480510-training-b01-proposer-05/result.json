@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Odd and even subsequences replay as arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd terms +4, even terms -2."
+      },
+      {
+        "answer": [
+          "21",
+          "18",
+          "26",
+          "23",
+          "31"
+        ],
+        "case_id": "T02",
+        "check_summary": "Candidate periodic increment pattern extrapolated from visible prefix.",
+        "confidence": 0.3,
+        "rule_summary": "PDELTA candidate with recurring negative steps and increasing positive jumps."
+      },
+      {
+        "answer": [
+          "-66",
+          "-84",
+          "-102",
+          "-120",
+          "-138"
+        ],
+        "case_id": "T03",
+        "check_summary": "Candidate phase-specific linear extrapolation from repeated suffix structure.",
+        "confidence": 0.24,
+        "rule_summary": "PDELTA candidate."
+      },
+      {
+        "answer": [
+          "395867",
+          "-791740",
+          "1583478",
+          "4750427",
+          "-9500856"
+        ],
+        "case_id": "T04",
+        "check_summary": "Triple-phase affine block pattern replays exactly through the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE/GROWBLOCK phase cycle: x->3x-7, then x->-2x-6, then x->-2x-2."
+      },
+      {
+        "answer": [
+          "-6666",
+          "-10647",
+          "-15621",
+          "-21600",
+          "-28578"
+        ],
+        "case_id": "T05",
+        "check_summary": "Candidate polynomial-growth continuation from the accelerating suffix.",
+        "confidence": 0.2,
+        "rule_summary": "GROWBLOCK candidate."
+      },
+      {
+        "answer": [
+          "38",
+          "5",
+          "-1",
+          "65",
+          "56"
+        ],
+        "case_id": "T06",
+        "check_summary": "Four interleaved streams have arithmetic phase increments.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE with phase increments continuing by fixed second differences."
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1722",
+          "-2163",
+          "-2673",
+          "-3257"
+        ],
+        "case_id": "T07",
+        "check_summary": "Successive second differences decrease by 5, giving cubic continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY: cubic finite-difference continuation."
+      },
+      {
+        "answer": [
+          "-14",
+          "74",
+          "48",
+          "15",
+          "-19"
+        ],
+        "case_id": "T08",
+        "check_summary": "Candidate periodic affine/modular continuation.",
+        "confidence": 0.18,
+        "rule_summary": "MODAFFINE candidate."
+      },
+      {
+        "answer": [
+          "-208",
+          "-236",
+          "-282",
+          "-315",
+          "-361"
+        ],
+        "case_id": "T09",
+        "check_summary": "Alternating difference streams each continue arithmetically.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd transition differences -4,-10,-16,...; even transition differences 2,-3,-8,... ."
+      },
+      {
+        "answer": [
+          "-12",
+          "57",
+          "16",
+          "75",
+          "24"
+        ],
+        "case_id": "T10",
+        "check_summary": "Candidate phase-interleaved continuation.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE candidate."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Each term satisfies a(n+1)=2a(n)-1.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE: multiplier 2, bias -1."
+      },
+      {
+        "answer": [
+          "43687",
+          "87364",
+          "174735",
+          "349468",
+          "698943"
+        ],
+        "case_id": "T12",
+        "check_summary": "Candidate phase-dependent affine continuation from doubling pattern.",
+        "confidence": 0.22,
+        "rule_summary": "AFFINE/PDELTA candidate."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g1-G-264C5E480510-training-b01-proposer-05",
+  "outcome": "valid_output",
+  "response_sha256": "23f5dd107f195234d7c9ce86796ca3fbcdc1f91b6d12c2760c89119f29b2bfd1",
+  "terminal_artifact_relpath": "jobs/search-g1-G-264C5E480510-training-b01-proposer-05/attempt-01"
+}

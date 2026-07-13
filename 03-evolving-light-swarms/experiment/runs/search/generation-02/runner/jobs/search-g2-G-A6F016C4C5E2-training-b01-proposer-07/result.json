@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Alternating arithmetic streams replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd terms +4, even terms -2."
+      },
+      {
+        "answer": [
+          "18",
+          "15",
+          "7",
+          "23",
+          "20"
+        ],
+        "case_id": "T02",
+        "check_summary": "Three phase streams become arithmetic with increment 5.",
+        "confidence": 0.8,
+        "rule_summary": "PDELTA/INTERLEAVE with phase-specific linear progression."
+      },
+      {
+        "answer": [
+          "-66",
+          "-84",
+          "-102",
+          "-120",
+          "-138"
+        ],
+        "case_id": "T03",
+        "check_summary": "Final repeated decrement phase continues.",
+        "confidence": 0.55,
+        "rule_summary": "GROWBLOCK with repeated -18 decrement block."
+      },
+      {
+        "answer": [
+          "-791780",
+          "1583478",
+          "395867",
+          "-9501380",
+          "19001718"
+        ],
+        "case_id": "T04",
+        "check_summary": "Three phase affine streams replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine updates with multiplier 12 and phase biases -20, -18, +23."
+      },
+      {
+        "answer": [
+          "-6883",
+          "-11558",
+          "-18314",
+          "-27752",
+          "-40576"
+        ],
+        "case_id": "T05",
+        "check_summary": "Constant fifth difference -8 extrapolates the polynomial.",
+        "confidence": 0.99,
+        "rule_summary": "POLY: fifth finite difference is -8."
+      },
+      {
+        "answer": [
+          "38",
+          "17",
+          "-3",
+          "65",
+          "56"
+        ],
+        "case_id": "T06",
+        "check_summary": "Four interleaved streams have arithmetic second differences.",
+        "confidence": 0.95,
+        "rule_summary": "INTERLEAVE: four streams with linearly increasing increments."
+      },
+      {
+        "answer": [
+          "-1610",
+          "-2517",
+          "-3753",
+          "-5323",
+          "-7232"
+        ],
+        "case_id": "T07",
+        "check_summary": "Second differences decrease by 5.",
+        "confidence": 0.99,
+        "rule_summary": "POLY with constant third finite difference -5."
+      },
+      {
+        "answer": [
+          "45",
+          "63",
+          "84",
+          "72",
+          "31"
+        ],
+        "case_id": "T08",
+        "check_summary": "Periodic modular-affine continuation inferred from prefix.",
+        "confidence": 0.35,
+        "rule_summary": "MODAFFINE periodic residue-class updates."
+      },
+      {
+        "answer": [
+          "-185",
+          "-225",
+          "-253",
+          "-299",
+          "-332"
+        ],
+        "case_id": "T09",
+        "check_summary": "Odd and even subsequences have arithmetic second differences.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: two quadratic streams."
+      },
+      {
+        "answer": [
+          "64",
+          "56",
+          "10",
+          "-64",
+          "80"
+        ],
+        "case_id": "T10",
+        "check_summary": "Three residue streams replay their update patterns.",
+        "confidence": 0.75,
+        "rule_summary": "INTERLEAVE with phase-specific affine/polynomial updates."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Each term equals -2 times the previous term minus 1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE: x(n+1)=-2x(n)-1."
+      },
+      {
+        "answer": [
+          "43684",
+          "87391",
+          "174754",
+          "349537",
+          "699040"
+        ],
+        "case_id": "T12",
+        "check_summary": "Multiplier-2 recurrence with alternating linear biases continues.",
+        "confidence": 0.8,
+        "rule_summary": "AFFINE/PDELTA: multiplier 2 with alternating bias sequences."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g2-G-A6F016C4C5E2-training-b01-proposer-07",
+  "outcome": "valid_output",
+  "response_sha256": "9c25df7307ff13e2425faa5d910362e8e35d2669e1cd5190c5b5c0407085aa52",
+  "terminal_artifact_relpath": "jobs/search-g2-G-A6F016C4C5E2-training-b01-proposer-07/attempt-01"
+}

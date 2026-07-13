@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "27",
+          "-20",
+          "33",
+          "-78",
+          "44"
+        ],
+        "case_id": "F013",
+        "check_summary": "Three phase streams; phase increments continue as +6, decreasing by 5, and alternating powers of two.",
+        "confidence": 0.84,
+        "rule_summary": "INTERLEAVE with three polynomial/exponential-looking phase-consistent streams."
+      },
+      {
+        "answer": [
+          "-65",
+          "-52",
+          "-39",
+          "-26",
+          "-13"
+        ],
+        "case_id": "F014",
+        "check_summary": "Arithmetic runs have increasing positive steps separated by increasingly negative block resets.",
+        "confidence": 0.62,
+        "rule_summary": "GROWBLOCK with polynomial block starts and steps."
+      },
+      {
+        "answer": [
+          "-48",
+          "-27",
+          "-6",
+          "15",
+          "36"
+        ],
+        "case_id": "F015",
+        "check_summary": "The final arithmetic block has step 18; continuation uses the next reset and step 21.",
+        "confidence": 0.78,
+        "rule_summary": "GROWBLOCK with increasing arithmetic-block steps."
+      },
+      {
+        "answer": [
+          "-4",
+          "21",
+          "-12",
+          "9",
+          "30"
+        ],
+        "case_id": "F016",
+        "check_summary": "No uniquely verified continuation from the visible prefix; extrapolation follows the apparent mixed periodic structure.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative periodic affine/interleaved extrapolation."
+      },
+      {
+        "answer": [
+          "-41",
+          "-87",
+          "54",
+          "-181",
+          "108"
+        ],
+        "case_id": "F017",
+        "check_summary": "Tentative phase-periodic recurrence extrapolation from the latest alternating irregular values.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative MODAFFINE/LIN2 extrapolation."
+      },
+      {
+        "answer": [
+          "31",
+          "14",
+          "77",
+          "-2",
+          "85"
+        ],
+        "case_id": "F018",
+        "check_summary": "Tentative periodic phase continuation from the two irregular subsequences.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative INTERLEAVE extrapolation."
+      },
+      {
+        "answer": [
+          "62",
+          "-32",
+          "86",
+          "64",
+          "116"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd subsequence increments are 2,6,10,14,18; even increments alternate with doubling magnitude.",
+        "confidence": 0.93,
+        "rule_summary": "INTERLEAVE with polynomial odd stream and alternating even stream."
+      },
+      {
+        "answer": [
+          "-14",
+          "-19",
+          "34",
+          "-42",
+          "52"
+        ],
+        "case_id": "F020",
+        "check_summary": "No uniquely verified continuation from the visible prefix; extrapolation follows a tentative phase pattern.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative periodic affine extrapolation."
+      },
+      {
+        "answer": [
+          "-34",
+          "-39",
+          "-28",
+          "-33",
+          "-38"
+        ],
+        "case_id": "F021",
+        "check_summary": "Each lag-5 subsequence decreases by 8, then 9, so the next lag decrement is 10.",
+        "confidence": 0.95,
+        "rule_summary": "LAGPOLY with five phase-specific quadratic subsequences."
+      },
+      {
+        "answer": [
+          "24",
+          "-1",
+          "18",
+          "-8",
+          "35"
+        ],
+        "case_id": "F022",
+        "check_summary": "No uniquely verified continuation from the visible prefix; extrapolation is low-confidence.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative MODAFFINE extrapolation."
+      },
+      {
+        "answer": [
+          "14",
+          "-6",
+          "15",
+          "-8",
+          "16"
+        ],
+        "case_id": "F023",
+        "check_summary": "Odd terms increase by 1 from 8; even terms decrease by 2 from 6.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-120",
+          "109",
+          "168",
+          "-144",
+          "246"
+        ],
+        "case_id": "F024",
+        "check_summary": "Tentative continuation of the irregular alternating phase streams.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative INTERLEAVE/MODAFFINE extrapolation."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-FIXED-SWARM10-final-b02-proposer-03",
+  "outcome": "valid_output",
+  "response_sha256": "49a48277a3b1d5bf0d9344311e3c763d4e2e44b58f1e4c3ece41445c2278900f",
+  "terminal_artifact_relpath": "jobs/final-FIXED-SWARM10-final-b02-proposer-03/attempt-01"
+}

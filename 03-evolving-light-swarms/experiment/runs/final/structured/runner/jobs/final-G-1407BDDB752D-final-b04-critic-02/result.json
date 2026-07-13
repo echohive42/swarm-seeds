@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "-7",
+          "41",
+          "2",
+          "-6",
+          "54"
+        ],
+        "case_id": "F037",
+        "check_summary": "Three interleaved streams fit the full prefix: arithmetic, quadratic, and constant.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-27",
+          "-43",
+          "-27",
+          "-51",
+          "-27"
+        ],
+        "case_id": "F038",
+        "check_summary": "No candidate has a strong full-prefix arithmetic fit; selected the least elaborate recurring-phase continuation.",
+        "confidence": 0.18,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "150",
+          "155",
+          "-105",
+          "297",
+          "283"
+        ],
+        "case_id": "F039",
+        "check_summary": "Selected the strongest available structured extrapolation from phase-separated cubic streams.",
+        "confidence": 0.38,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16",
+          "3",
+          "-18",
+          "2",
+          "-20"
+        ],
+        "case_id": "F040",
+        "check_summary": "Odd and even positions are independent arithmetic streams with steps -2 and -1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "29",
+          "41",
+          "24",
+          "37",
+          "52"
+        ],
+        "case_id": "F041",
+        "check_summary": "Candidates are weak and inconsistent; selected the most conservative phase-interleaved continuation.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "146",
+          "179",
+          "212",
+          "245",
+          "278"
+        ],
+        "case_id": "F042",
+        "check_summary": "The terminal arithmetic phase advances by a constant difference of 33.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "27",
+          "21",
+          "4",
+          "41",
+          "34"
+        ],
+        "case_id": "F043",
+        "check_summary": "The first two residue streams have matching quadratic increments; the third follows the supported phase rule.",
+        "confidence": 0.67,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "18",
+          "54",
+          "9",
+          "30",
+          "60"
+        ],
+        "case_id": "F044",
+        "check_summary": "Selected the available periodic phase continuation; evidence remains weak.",
+        "confidence": 0.1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "21",
+          "37",
+          "-75",
+          "22",
+          "65"
+        ],
+        "case_id": "F045",
+        "check_summary": "Three residue streams fit polynomial increments: +5,+4,+3,+2,+1; +0,+7,+14,+21; and declining differences by 7.",
+        "confidence": 0.84,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-2",
+          "-3",
+          "-4",
+          "-5",
+          "-6"
+        ],
+        "case_id": "F046",
+        "check_summary": "The established terminal descending unit-step run continues.",
+        "confidence": 0.78,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-3",
+          "80",
+          "5",
+          "111",
+          "-3"
+        ],
+        "case_id": "F047",
+        "check_summary": "Odd positions alternate -3 and 5; even-position increments are 1,6,11,16,21,26,31.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "36",
+          "-286",
+          "42",
+          "-575",
+          "48"
+        ],
+        "case_id": "F048",
+        "check_summary": "One residue stream has doubling negative differences, yielding -286 and -575; remaining phases follow the supported interleave.",
+        "confidence": 0.11,
+        "rule_summary": "MODAFFINE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-G-1407BDDB752D-final-b04-critic-02",
+  "outcome": "valid_output",
+  "response_sha256": "9361426b6001803d0cba3c8cba896c0e9c81ecc3368ace77c2c1b2471e9a21d5",
+  "terminal_artifact_relpath": "jobs/final-G-1407BDDB752D-final-b04-critic-02/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Alternating arithmetic streams: odd terms +4, even terms -2.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE two arithmetic streams."
+      },
+      {
+        "answer": [
+          "13",
+          "10",
+          "7",
+          "18",
+          "15"
+        ],
+        "case_id": "T02",
+        "check_summary": "Three-position blocks advance first two entries by 5 and third by -3.",
+        "confidence": 0.95,
+        "rule_summary": "Periodic phase-specific affine update."
+      },
+      {
+        "answer": [
+          "-66",
+          "-84",
+          "-102",
+          "-120",
+          "-138"
+        ],
+        "case_id": "T03",
+        "check_summary": "The terminal progression is an arithmetic continuation with difference -18.",
+        "confidence": 0.35,
+        "rule_summary": "Candidate polynomial/phase progression."
+      },
+      {
+        "answer": [
+          "395867",
+          "-263920",
+          "527838",
+          "1583507",
+          "-3167010"
+        ],
+        "case_id": "T04",
+        "check_summary": "Observed repeating block relations: second = 3 first - 7, third = -2 first - 4, next first = -2 third - 2.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-5727",
+          "-7671",
+          "-10771",
+          "-15446",
+          "-22202"
+        ],
+        "case_id": "T05",
+        "check_summary": "Finite differences support a degree-5 polynomial continuation with fifth difference -8.",
+        "confidence": 0.85,
+        "rule_summary": "POLY with constant fifth finite difference."
+      },
+      {
+        "answer": [
+          "-14",
+          "-42",
+          "-28",
+          "-35",
+          "-77"
+        ],
+        "case_id": "T06",
+        "check_summary": "Phase-separated lagged patterns were extrapolated from the observed differences.",
+        "confidence": 0.2,
+        "rule_summary": "LAGPOLY candidate."
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1663",
+          "-2040",
+          "-2481",
+          "-2991"
+        ],
+        "case_id": "T07",
+        "check_summary": "Second differences decrease by 5 each step, yielding the continuation.",
+        "confidence": 1.0,
+        "rule_summary": "POLY with cubic finite-difference structure."
+      },
+      {
+        "answer": [
+          "-8",
+          "-17",
+          "-12",
+          "-29",
+          "-22"
+        ],
+        "case_id": "T08",
+        "check_summary": "Periodic affine continuation inferred from the mixed phase pattern.",
+        "confidence": 0.15,
+        "rule_summary": "MODAFFINE candidate."
+      },
+      {
+        "answer": [
+          "-224",
+          "-270",
+          "-303",
+          "-355",
+          "-388"
+        ],
+        "case_id": "T09",
+        "check_summary": "Alternating difference subsequences continue with approximately -6 and -5 decrements.",
+        "confidence": 0.5,
+        "rule_summary": "INTERLEAVE phase-specific arithmetic streams."
+      },
+      {
+        "answer": [
+          "-23",
+          "-54",
+          "-46",
+          "-77",
+          "-69"
+        ],
+        "case_id": "T10",
+        "check_summary": "Phase-separated difference pattern extrapolated from the prefix.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE candidate."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Every term follows x_next = 2x - 1.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "43684",
+          "87391",
+          "174754",
+          "349537",
+          "699040"
+        ],
+        "case_id": "T12",
+        "check_summary": "Alternating affine biases continue as -22,+23,-28,+29,-34.",
+        "confidence": 0.95,
+        "rule_summary": "Periodic AFFINE recurrence."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g2-G-9C253D688BD7-training-b01-proposer-01",
+  "outcome": "valid_output",
+  "response_sha256": "d852c42652c1567d2db16c9ff156234338e28859345b66eda4543b2a37ee4d99",
+  "terminal_artifact_relpath": "jobs/search-g2-G-9C253D688BD7-training-b01-proposer-01/attempt-01"
+}

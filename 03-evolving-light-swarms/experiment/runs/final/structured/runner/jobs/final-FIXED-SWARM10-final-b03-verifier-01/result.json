@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "7634",
+          "11550",
+          "16840",
+          "23825",
+          "32872"
+        ],
+        "case_id": "F025",
+        "check_summary": "Constant fifth finite difference 3 across the full prefix.",
+        "confidence": 1,
+        "rule_summary": "Integer-valued degree-5 polynomial."
+      },
+      {
+        "answer": [
+          "-19933087",
+          "59799266",
+          "-179397805",
+          "-358795615",
+          "1076386850"
+        ],
+        "case_id": "F026",
+        "check_summary": "Repeating three-phase affine updates reproduce every visible transition.",
+        "confidence": 1,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-25943",
+          "51881",
+          "-103767",
+          "207529",
+          "-415063"
+        ],
+        "case_id": "F027",
+        "check_summary": "Every transition follows x_next = -2x - 5.",
+        "confidence": 1,
+        "rule_summary": "Constant affine recurrence."
+      },
+      {
+        "answer": [
+          "382",
+          "615",
+          "992",
+          "1602",
+          "2589"
+        ],
+        "case_id": "F028",
+        "check_summary": "Successive differences continue as Fibonacci-like increments.",
+        "confidence": 1,
+        "rule_summary": "Growing-increment recurrence."
+      },
+      {
+        "answer": [
+          "-28",
+          "-30",
+          "-35",
+          "-37",
+          "-42"
+        ],
+        "case_id": "F029",
+        "check_summary": "Differences alternate -2 and -5 throughout the prefix.",
+        "confidence": 1,
+        "rule_summary": "Periodic delta recurrence."
+      },
+      {
+        "answer": [
+          "-1595",
+          "-2875",
+          "-5171",
+          "-9319",
+          "-16775"
+        ],
+        "case_id": "F030",
+        "check_summary": "Best-supported supplied continuation uses a periodic second-order linear pattern.",
+        "confidence": 0.38,
+        "rule_summary": "Periodic LIN2 recurrence."
+      },
+      {
+        "answer": [
+          "21",
+          "-3",
+          "37",
+          "10",
+          "57"
+        ],
+        "case_id": "F031",
+        "check_summary": "Odd and even positions form separate quadratic streams; continuation gives the stated tuple.",
+        "confidence": 1,
+        "rule_summary": "Interleaved quadratic streams."
+      },
+      {
+        "answer": [
+          "87",
+          "48",
+          "128",
+          "62",
+          "183"
+        ],
+        "case_id": "F032",
+        "check_summary": "Phase-separated lagged/interleaved continuation is the strongest supplied candidate.",
+        "confidence": 0.55,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-7198",
+          "-11639",
+          "-18835",
+          "-30483",
+          "-49315"
+        ],
+        "case_id": "F033",
+        "check_summary": "Second-order additive recurrence with repeating biases -9, 3, and 2 replays the prefix.",
+        "confidence": 1,
+        "rule_summary": "Periodic LIN2 recurrence."
+      },
+      {
+        "answer": [
+          "3923",
+          "5393",
+          "7182",
+          "9343",
+          "11933"
+        ],
+        "case_id": "F034",
+        "check_summary": "Finite differences confirm a degree-4 polynomial continuation.",
+        "confidence": 1,
+        "rule_summary": "Integer-valued quartic polynomial."
+      },
+      {
+        "answer": [
+          "-79982",
+          "-239947",
+          "479890",
+          "1439669",
+          "-2879342"
+        ],
+        "case_id": "F035",
+        "check_summary": "Alternating affine updates 3x-1 and -2x-4 reproduce the prefix.",
+        "confidence": 1,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-386",
+          "-514",
+          "-666",
+          "-844",
+          "-1050"
+        ],
+        "case_id": "F036",
+        "check_summary": "Constant third finite difference -2 confirms the continuation.",
+        "confidence": 1,
+        "rule_summary": "Cubic polynomial sequence."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-FIXED-SWARM10-final-b03-verifier-01",
+  "outcome": "valid_output",
+  "response_sha256": "45f0da70ef09981edcf93e7d19ab4d39b8829c6191271c798b093e076f404ac5",
+  "terminal_artifact_relpath": "jobs/final-FIXED-SWARM10-final-b03-verifier-01/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Alternating arithmetic streams replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic progressions."
+      },
+      {
+        "answer": [
+          "24",
+          "10",
+          "7",
+          "41",
+          "38"
+        ],
+        "case_id": "T02",
+        "check_summary": "Periodic deltas replay with phase-1 increments increasing by 3 and other phases decreasing by 3.",
+        "confidence": 0.88,
+        "rule_summary": "Three-phase polynomial delta update."
+      },
+      {
+        "answer": [
+          "83",
+          "61",
+          "39",
+          "17",
+          "-5"
+        ],
+        "case_id": "T03",
+        "check_summary": "Growing blocks have lengths 1,2,3,4 and extrapolated polynomial starts.",
+        "confidence": 0.65,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "395867",
+          "-791740",
+          "1583478",
+          "4750427",
+          "-9500852"
+        ],
+        "case_id": "T04",
+        "check_summary": "Repeating affine phase transformations replay the prefix.",
+        "confidence": 0.97,
+        "rule_summary": "Three-phase affine update."
+      },
+      {
+        "answer": [
+          "-6606",
+          "-10711",
+          "-16580",
+          "-24782",
+          "-35733"
+        ],
+        "case_id": "T05",
+        "check_summary": "Finite differences support a fifth-degree polynomial continuation.",
+        "confidence": 0.86,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "56",
+          "23",
+          "-4",
+          "77",
+          "47"
+        ],
+        "case_id": "T06",
+        "check_summary": "Periodic structured differences extrapolated by phase.",
+        "confidence": 0.35,
+        "rule_summary": "Phase-specific polynomial delta update."
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1722",
+          "-2163",
+          "-2673",
+          "-3252"
+        ],
+        "case_id": "T07",
+        "check_summary": "Second differences continue decreasing by 5.",
+        "confidence": 0.99,
+        "rule_summary": "Cubic polynomial."
+      },
+      {
+        "answer": [
+          "12",
+          "31",
+          "48",
+          "60",
+          "5"
+        ],
+        "case_id": "T08",
+        "check_summary": "Modular affine continuation inferred from bounded periodic structure.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic modular affine update."
+      },
+      {
+        "answer": [
+          "-225",
+          "-253",
+          "-299",
+          "-332",
+          "-384"
+        ],
+        "case_id": "T09",
+        "check_summary": "Odd and even phase deltas follow separate arithmetic progressions.",
+        "confidence": 0.93,
+        "rule_summary": "Two-phase polynomial delta update."
+      },
+      {
+        "answer": [
+          "10",
+          "44",
+          "56",
+          "12",
+          "-84"
+        ],
+        "case_id": "T10",
+        "check_summary": "Three interleaved streams replay independently.",
+        "confidence": 0.98,
+        "rule_summary": "Three-stream interleave."
+      },
+      {
+        "answer": [
+          "-8191",
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071"
+        ],
+        "case_id": "T11",
+        "check_summary": "Each term equals twice the previous term minus one.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "43683",
+          "87344",
+          "174717",
+          "349406",
+          "698847"
+        ],
+        "case_id": "T12",
+        "check_summary": "Alternating affine offsets continue with arithmetic phase offsets.",
+        "confidence": 0.91,
+        "rule_summary": "Two-phase affine update."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g2-G-1C48E71B2A52-training-b01-proposer-01",
+  "outcome": "valid_output",
+  "response_sha256": "56749b96a76b8226831ac8bc64f815d66bc3a867c7f91fbf20495df49b6858b9",
+  "terminal_artifact_relpath": "jobs/search-g2-G-1C48E71B2A52-training-b01-proposer-01/attempt-01"
+}

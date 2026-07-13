@@ -1,0 +1,217 @@
+{
+  "artifact_sha256": "c824ba593fd134d325ac34131ff0d05933794e93a16b84658a05a40d35b75f7d",
+  "benchmark_manifest_file_sha256": "695b6d0099e1b89f93c5071a2495b822292de94dd4ea81e0d78950cff0155029",
+  "call_budget_per_genome": 10,
+  "catalog_file_sha256": "0f37a0f1e8002a0d2dfdfc6be6a223b59fb7ee17d6d9b445bb320a1e202e79d2",
+  "catalog_semantic_sha256": "242dd7ec1dea8154ac98ba89b3c6f35dd93327fb0a4acdf3edcd0b615b9995a0",
+  "evaluated_archive": [],
+  "evolution_seed": "swarm-seeds-03-evolution-v1",
+  "experiment_id": "swarm-seeds-03",
+  "generation": 0,
+  "generation_count": 3,
+  "genomes": [
+    {
+      "genes": {
+        "final_policy_id": "evidence_weighted",
+        "role_lenses": [
+          "audit",
+          "generalist",
+          "simplicity",
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "diversifier",
+          "audit"
+        ],
+        "topology_id": "consensus_9p_1j"
+      },
+      "genome_id": "G-498E470E7808",
+      "genome_sha256": "498e470e7808ad06c2aaadc1de231023f5fa58b065b604cb49864f983adbe35a",
+      "lineage": {
+        "crossover_sources": null,
+        "founder_id": "F02",
+        "founding_species": [
+          "consensus"
+        ],
+        "generation": 0,
+        "mutation": null,
+        "operation": "founder",
+        "parents": []
+      }
+    },
+    {
+      "genes": {
+        "final_policy_id": "robustness_first",
+        "role_lenses": [
+          "generalist",
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "simplicity",
+          "diversifier",
+          "audit",
+          "diversifier"
+        ],
+        "topology_id": "falsification_7p_2c_1j"
+      },
+      "genome_id": "G-A51F73B64C32",
+      "genome_sha256": "a51f73b64c324763456a93b0b0a90c15b4ea721066fb614e641a8298505ffa65",
+      "lineage": {
+        "crossover_sources": null,
+        "founder_id": "F03",
+        "founding_species": [
+          "falsification"
+        ],
+        "generation": 0,
+        "mutation": null,
+        "operation": "founder",
+        "parents": []
+      }
+    },
+    {
+      "genes": {
+        "final_policy_id": "minority_aware",
+        "role_lenses": [
+          "audit",
+          "simplicity",
+          "generalist",
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "diversifier",
+          "audit"
+        ],
+        "topology_id": "falsification_7p_2c_1j"
+      },
+      "genome_id": "G-37B2621092D0",
+      "genome_sha256": "37b2621092d099949a9e0c582172bf2966f3b59ae710411d97ec7d87fb78334e",
+      "lineage": {
+        "crossover_sources": null,
+        "founder_id": "F04",
+        "founding_species": [
+          "falsification"
+        ],
+        "generation": 0,
+        "mutation": null,
+        "operation": "founder",
+        "parents": []
+      }
+    },
+    {
+      "genes": {
+        "final_policy_id": "evidence_weighted",
+        "role_lenses": [
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "simplicity",
+          "diversifier",
+          "generalist",
+          "audit",
+          "generalist"
+        ],
+        "topology_id": "specialization_7p_2v_1j"
+      },
+      "genome_id": "G-44EEB120C37E",
+      "genome_sha256": "44eeb120c37eb33fa5532a17ba663fdd66f6f98ceb078e756277e02961d5518b",
+      "lineage": {
+        "crossover_sources": null,
+        "founder_id": "F05",
+        "founding_species": [
+          "specialization"
+        ],
+        "generation": 0,
+        "mutation": null,
+        "operation": "founder",
+        "parents": []
+      }
+    },
+    {
+      "genes": {
+        "final_policy_id": "robustness_first",
+        "role_lenses": [
+          "generalist",
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "simplicity",
+          "diversifier",
+          "audit",
+          "generalist"
+        ],
+        "topology_id": "paired_revision_5p_2r_2v_1j"
+      },
+      "genome_id": "G-A13267BCF63C",
+      "genome_sha256": "a13267bcf63ce8a0065888a88b1aa24d305d160abfc2ad36c6787daec53d1349",
+      "lineage": {
+        "crossover_sources": null,
+        "founder_id": "F06",
+        "founding_species": [
+          "paired_revision"
+        ],
+        "generation": 0,
+        "mutation": null,
+        "operation": "founder",
+        "parents": []
+      }
+    },
+    {
+      "genes": {
+        "final_policy_id": "plurality_preserving",
+        "role_lenses": [
+          "generalist",
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "simplicity",
+          "diversifier",
+          "audit",
+          "generalist"
+        ],
+        "topology_id": "consensus_9p_1j"
+      },
+      "genome_id": "G-93B0BFCCF64A",
+      "genome_sha256": "93b0bfccf64aebbf144b41d98149d67de5fc0c91f90b6cff944701c155a21184",
+      "lineage": {
+        "crossover_sources": null,
+        "founder_id": "F01",
+        "founding_species": [
+          "consensus"
+        ],
+        "generation": 0,
+        "mutation": null,
+        "operation": "founder",
+        "parents": []
+      }
+    }
+  ],
+  "history_genome_sha256s": [
+    "37b2621092d099949a9e0c582172bf2966f3b59ae710411d97ec7d87fb78334e",
+    "44eeb120c37eb33fa5532a17ba663fdd66f6f98ceb078e756277e02961d5518b",
+    "498e470e7808ad06c2aaadc1de231023f5fa58b065b604cb49864f983adbe35a",
+    "93b0bfccf64aebbf144b41d98149d67de5fc0c91f90b6cff944701c155a21184",
+    "a13267bcf63ce8a0065888a88b1aa24d305d160abfc2ad36c6787daec53d1349",
+    "a51f73b64c324763456a93b0b0a90c15b4ea721066fb614e641a8298505ffa65"
+  ],
+  "lenses_file_sha256": "e339e0680c177e7bdb6e87ca70f36b6df383b7ce01fcdbbe3f07ba315b1907a7",
+  "parent_selection": [],
+  "population_size": 6,
+  "provider_reasoning_effort": "low",
+  "public_condition_label": "Light reasoning",
+  "reproduction_summary": {
+    "crossovers": 0,
+    "founders": 6,
+    "one_gene_mutations": 0
+  },
+  "schema_version": "experiment-03-population-v1",
+  "source_population_sha256": null,
+  "source_score_file_sha256": null,
+  "training_answers_sha256": "ce5a05b79b9ebfb1eb629df35d6a1e5f4929ae8e98949e418393acb163b05601",
+  "validation_answers_sha256": "644a96ffc6d397b3d72d6bd284ab004427625017fa89766d8b644e7a836990c9"
+}

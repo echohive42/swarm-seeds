@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b01",
+    "results": [
+      {
+        "answer": [
+          "11394",
+          "16667",
+          "23197",
+          "31067",
+          "40367"
+        ],
+        "case_id": "F001",
+        "check_summary": "Polynomial finite differences fit the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial extrapolation."
+      },
+      {
+        "answer": [
+          "62",
+          "58",
+          "61",
+          "43",
+          "77"
+        ],
+        "case_id": "F002",
+        "check_summary": "Four-phase transition sequences extrapolated from the prefix.",
+        "confidence": 0.72,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "97",
+          "88",
+          "118",
+          "145",
+          "175"
+        ],
+        "case_id": "F003",
+        "check_summary": "Phase-structured transition trends extrapolated.",
+        "confidence": 0.58,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "52794",
+          "-93628",
+          "158382",
+          "-263970",
+          "434312"
+        ],
+        "case_id": "F004",
+        "check_summary": "The recurrence x(n)=-2x(n-1)+x(n-3) replays the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Second-order-style lagged linear recurrence."
+      },
+      {
+        "answer": [
+          "1381",
+          "1950",
+          "2675",
+          "3582",
+          "4699"
+        ],
+        "case_id": "F005",
+        "check_summary": "Polynomial finite differences stabilize at constant fourth difference.",
+        "confidence": 0.97,
+        "rule_summary": "Integer-valued polynomial extrapolation."
+      },
+      {
+        "answer": [
+          "21",
+          "-27",
+          "23",
+          "-16",
+          "10"
+        ],
+        "case_id": "F006",
+        "check_summary": "The six-term period repeats exactly.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic affine sequence with zero phase change."
+      },
+      {
+        "answer": [
+          "-59277",
+          "-118593",
+          "-237133",
+          "-474311",
+          "-948664"
+        ],
+        "case_id": "F007",
+        "check_summary": "Extrapolated the observed near-doubling phase pattern.",
+        "confidence": 0.45,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "7652749",
+          "22958251",
+          "-68748755",
+          "-206246261",
+          "618738781"
+        ],
+        "case_id": "F008",
+        "check_summary": "Alternating affine updates with multipliers -3 and 3 fit exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Phase-periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-37",
+          "-39",
+          "-43",
+          "-45",
+          "-49"
+        ],
+        "case_id": "F009",
+        "check_summary": "Odd and even subsequences each decrease by 6.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "80",
+          "73",
+          "60",
+          "40",
+          "12"
+        ],
+        "case_id": "F010",
+        "check_summary": "Finite differences follow the reflected polynomial pattern.",
+        "confidence": 0.9,
+        "rule_summary": "Integer-valued polynomial extrapolation."
+      },
+      {
+        "answer": [
+          "16",
+          "-13",
+          "-4",
+          "12",
+          "-9"
+        ],
+        "case_id": "F011",
+        "check_summary": "The six-term period repeats exactly.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic sequence."
+      },
+      {
+        "answer": [
+          "23209",
+          "-46423",
+          "92841",
+          "-185687",
+          "371369"
+        ],
+        "case_id": "F012",
+        "check_summary": "The affine update x(n)=-2x(n-1)-5 fits the full prefix.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "amendment-01-VOTE10-final-b01-proposer-03",
+  "outcome": "valid_output",
+  "response_sha256": "d6b845ae9e8f004a6bc886a229bb53808d7ca45d5c09c337aae4c3c1bf5fbbb9",
+  "terminal_artifact_relpath": "jobs/amendment-01-VOTE10-final-b01-proposer-03/attempt-01"
+}

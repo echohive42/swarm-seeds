@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "-7",
+          "42",
+          "2",
+          "-6",
+          "56"
+        ],
+        "case_id": "F037",
+        "check_summary": "Three-way interleave: first stream increments by 1, second has successive odd increments, third is constant 2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-27",
+          "-35",
+          "-35",
+          "-37",
+          "-43"
+        ],
+        "case_id": "F038",
+        "check_summary": "Prefix suggests phase-dependent interleaving, but the continuation is weakly identified.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-10",
+          "54",
+          "46",
+          "-1",
+          "76"
+        ],
+        "case_id": "F039",
+        "check_summary": "Phase-separated polynomial/affine streams are plausible; continuation is uncertain.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16",
+          "3",
+          "-18",
+          "2",
+          "-20"
+        ],
+        "case_id": "F040",
+        "check_summary": "Odd positions decrease by 2 and even positions decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-8",
+          "47",
+          "24",
+          "-2",
+          "51"
+        ],
+        "case_id": "F041",
+        "check_summary": "Possible phase-dependent interleaving; continuation is weakly identified.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "113",
+          "146",
+          "179",
+          "212",
+          "245"
+        ],
+        "case_id": "F042",
+        "check_summary": "The terminal run follows a constant increment of 33.",
+        "confidence": 0.86,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "27",
+          "25",
+          "18",
+          "30",
+          "24"
+        ],
+        "case_id": "F043",
+        "check_summary": "Three phase streams show polynomial growth, with the third stream exhibiting modular wrap behavior.",
+        "confidence": 0.7,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-12",
+          "51",
+          "-13",
+          "-24",
+          "60"
+        ],
+        "case_id": "F044",
+        "check_summary": "Phase-separated recurrence is plausible, but the prefix does not uniquely expose the parameters manually.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "21",
+          "23",
+          "-41",
+          "21",
+          "44"
+        ],
+        "case_id": "F045",
+        "check_summary": "Three interleaved streams: increments 5,4,3,2; increments 0,7,14; and decrements 2,9,16.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3",
+          "80",
+          "-3",
+          "111",
+          "5"
+        ],
+        "case_id": "F046",
+        "check_summary": "Alternating phase behavior is apparent, but the next phase parameters are uncertain.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3",
+          "80",
+          "5",
+          "111",
+          "-3"
+        ],
+        "case_id": "F047",
+        "check_summary": "Odd positions alternate -3 and 5; even-position differences increase by 5.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "38",
+          "28",
+          "-295",
+          "46",
+          "61"
+        ],
+        "case_id": "F048",
+        "check_summary": "Three-way interleave: first-stream increments rise by 2, second-stream increments rise by 3, and third-stream differences double.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-VOTE10-final-b04-proposer-05",
+  "outcome": "valid_output",
+  "response_sha256": "93d6da6abecc31c4ab1d1825d7b8e05cf666c5385e5fb6101188fb01c97482c2",
+  "terminal_artifact_relpath": "jobs/final-VOTE10-final-b04-proposer-05/attempt-01"
+}

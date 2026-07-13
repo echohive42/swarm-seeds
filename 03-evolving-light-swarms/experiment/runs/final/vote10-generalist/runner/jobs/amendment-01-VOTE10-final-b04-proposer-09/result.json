@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "-7",
+          "41",
+          "2",
+          "-6",
+          "54"
+        ],
+        "case_id": "F037",
+        "check_summary": "Three interleaved streams: descending integers, quadratic growth, and constant 2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-26",
+          "-25",
+          "-27",
+          "-35",
+          "-28"
+        ],
+        "case_id": "F038",
+        "check_summary": "Irregular phase-interleaved affine/polynomial continuation inferred from alternating subsequences.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "48",
+          "42",
+          "20",
+          "27",
+          "39"
+        ],
+        "case_id": "F039",
+        "check_summary": "No uniquely reliable low-complexity continuation identified.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-16",
+          "3",
+          "-18",
+          "2",
+          "-20"
+        ],
+        "case_id": "F040",
+        "check_summary": "Two interleaved arithmetic streams: -4,-6,-8,... and 9,8,7,...",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "24",
+          "31",
+          "20",
+          "42",
+          "32"
+        ],
+        "case_id": "F041",
+        "check_summary": "Phase-interleaved continuation inferred from the observed periodic structure.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "146",
+          "179",
+          "212",
+          "245",
+          "278"
+        ],
+        "case_id": "F042",
+        "check_summary": "Final visible run has constant increment 33; continuation extends that arithmetic phase.",
+        "confidence": 0.42,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-3",
+          "80",
+          "5",
+          "111",
+          "-3"
+        ],
+        "case_id": "F043",
+        "check_summary": "Odd positions alternate -3,5; even-position differences increase by 5.",
+        "confidence": 0.93,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "3",
+          "21",
+          "25",
+          "2",
+          "16"
+        ],
+        "case_id": "F044",
+        "check_summary": "Phase-interleaved continuation inferred from the finite prefix.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-5",
+          "11",
+          "-5",
+          "-9",
+          "15"
+        ],
+        "case_id": "F045",
+        "check_summary": "Phase-interleaved continuation inferred from alternating subsequences.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "31",
+          "20",
+          "17",
+          "14",
+          "46"
+        ],
+        "case_id": "F046",
+        "check_summary": "Four-phase delta blocks suggest a polynomial phase update; extrapolation is uncertain.",
+        "confidence": 0.3,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-3",
+          "80",
+          "5",
+          "111",
+          "-3"
+        ],
+        "case_id": "F047",
+        "check_summary": "Odd positions alternate -3,5; even positions have successive increments 1,6,11,16,21.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "18",
+          "-27",
+          "-10",
+          "18",
+          "-32"
+        ],
+        "case_id": "F048",
+        "check_summary": "No uniquely reliable low-complexity continuation identified.",
+        "confidence": 0.07,
+        "rule_summary": "MODAFFINE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "amendment-01-VOTE10-final-b04-proposer-09",
+  "outcome": "valid_output",
+  "response_sha256": "cdc51926e515d8ca0ccaff7f996d2893175baefe6ac74164a5482fdcd16b9f81",
+  "terminal_artifact_relpath": "jobs/amendment-01-VOTE10-final-b04-proposer-09/attempt-01"
+}

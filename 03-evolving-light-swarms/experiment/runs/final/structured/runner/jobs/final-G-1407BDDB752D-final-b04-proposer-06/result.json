@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "-7",
+          "41",
+          "2",
+          "-6",
+          "54"
+        ],
+        "case_id": "F037",
+        "check_summary": "Three interleaved streams: two arithmetic/polynomial progressions and a constant stream.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-27",
+          "-43",
+          "-27",
+          "-51",
+          "-27"
+        ],
+        "case_id": "F038",
+        "check_summary": "Continuation estimated from the dominant repeating phase behavior.",
+        "confidence": 0.18,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-31",
+          "20",
+          "54",
+          "-4",
+          "37"
+        ],
+        "case_id": "F039",
+        "check_summary": "Continuation estimated from alternating lagged behavior.",
+        "confidence": 0.14,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-16",
+          "3",
+          "-18",
+          "2",
+          "-20"
+        ],
+        "case_id": "F040",
+        "check_summary": "Odd and even positions are separate arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-13",
+          "45",
+          "-8",
+          "48",
+          "-3"
+        ],
+        "case_id": "F041",
+        "check_summary": "Continuation estimated from periodic phase-specific updates.",
+        "confidence": 0.12,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "146",
+          "179",
+          "212",
+          "245",
+          "278"
+        ],
+        "case_id": "F042",
+        "check_summary": "The terminal run is arithmetic with common difference 33.",
+        "confidence": 0.96,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "27",
+          "24",
+          "19",
+          "41",
+          "35"
+        ],
+        "case_id": "F043",
+        "check_summary": "Two interleaved polynomial streams are clear; the third phase is extrapolated.",
+        "confidence": 0.31,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-8",
+          "24",
+          "51",
+          "-14",
+          "30"
+        ],
+        "case_id": "F044",
+        "check_summary": "Continuation estimated from phase-specific recurrence behavior.",
+        "confidence": 0.11,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-24",
+          "-68",
+          "25",
+          "-102",
+          "30"
+        ],
+        "case_id": "F045",
+        "check_summary": "Continuation estimated from periodic affine phase behavior.",
+        "confidence": 0.12,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-2",
+          "-3",
+          "-4",
+          "-5",
+          "-6"
+        ],
+        "case_id": "F046",
+        "check_summary": "The final phase forms a descending arithmetic run.",
+        "confidence": 0.78,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "72",
+          "7",
+          "89",
+          "9",
+          "108"
+        ],
+        "case_id": "F047",
+        "check_summary": "Continuation estimated from lagged phase-specific growth.",
+        "confidence": 0.13,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-40",
+          "36",
+          "-13",
+          "42",
+          "-21"
+        ],
+        "case_id": "F048",
+        "check_summary": "Continuation estimated from interleaved nonlinear streams.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-G-1407BDDB752D-final-b04-proposer-06",
+  "outcome": "valid_output",
+  "response_sha256": "e093637fbec3815d45e44b059738a7399a42e44c49425bd76fd68ec19656e5ad",
+  "terminal_artifact_relpath": "jobs/final-G-1407BDDB752D-final-b04-proposer-06/attempt-01"
+}

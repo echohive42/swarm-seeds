@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "27",
+          "-78",
+          "-20",
+          "33",
+          "-105"
+        ],
+        "case_id": "F013",
+        "check_summary": "Three residue-class streams replay exactly: arithmetic +6, quadratic negative differences, and alternating doubled differences.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-70",
+          "-57",
+          "-44",
+          "-31",
+          "-18"
+        ],
+        "case_id": "F014",
+        "check_summary": "Block starts are -1, -16, -39, -70 and block steps are 1, 5, 9, 13.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "53",
+          "-10",
+          "11",
+          "32",
+          "53"
+        ],
+        "case_id": "F015",
+        "check_summary": "Visible arithmetic blocks have steps 12, 15, and 18; the next block starts at -10 with step 21.",
+        "confidence": 0.96,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-20",
+          "46",
+          "-5",
+          "67",
+          "-25"
+        ],
+        "case_id": "F016",
+        "check_summary": "Periodic second-order continuation is the strongest supplied mechanism match.",
+        "confidence": 0.22,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "310",
+          "70",
+          "-133",
+          "-928",
+          "130"
+        ],
+        "case_id": "F017",
+        "check_summary": "Three residue streams replay exactly: quadratic, arithmetic, and alternating geometric differences.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "18",
+          "81",
+          "-7",
+          "97",
+          "24"
+        ],
+        "case_id": "F018",
+        "check_summary": "Best-supported periodic modular-affine continuation among the supplied candidates.",
+        "confidence": 0.16,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "62",
+          "-23",
+          "88",
+          "41",
+          "118"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd stream differences continue 2, 6, 10, 14, 18, 22; even stream differences continue alternating doubling.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-44",
+          "46",
+          "27",
+          "-66",
+          "64"
+        ],
+        "case_id": "F020",
+        "check_summary": "Three residue streams continue with next deltas -22, 18, and 11 respectively.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-33",
+          "-38",
+          "-43",
+          "-48",
+          "-32"
+        ],
+        "case_id": "F021",
+        "check_summary": "Differences are mostly -5, with corrections 1, 6, 11, 16 at increasingly spaced positions.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-46",
+          "29",
+          "-13",
+          "64",
+          "-31"
+        ],
+        "case_id": "F022",
+        "check_summary": "Best-supported modular-affine candidate among the supplied evidence.",
+        "confidence": 0.13,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "14",
+          "-6",
+          "15",
+          "-8",
+          "16"
+        ],
+        "case_id": "F023",
+        "check_summary": "Odd positions increase by 1 and even positions decrease by 2.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "109",
+          "-122",
+          "164",
+          "-158",
+          "231"
+        ],
+        "case_id": "F024",
+        "check_summary": "Best available two-stream polynomial interleaving continuation; prefix evidence is weak.",
+        "confidence": 0.13,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-G-1407BDDB752D-final-b02-judge",
+  "outcome": "valid_output",
+  "response_sha256": "3a9984ea93220c5fde182b6764af256aba29ea84aaba13f89ad0d254041159ae",
+  "terminal_artifact_relpath": "jobs/final-G-1407BDDB752D-final-b02-judge/attempt-01"
+}

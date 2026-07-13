@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-16387",
+          "-32771",
+          "-65539",
+          "-131075",
+          "-262147"
+        ],
+        "case_id": "V13",
+        "check_summary": "Exact affine replay: x'=2x+3.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with constant multiplier 2 and bias 3."
+      },
+      {
+        "answer": [
+          "-619859",
+          "1239723",
+          "3719164",
+          "-7438323",
+          "22314964"
+        ],
+        "case_id": "V14",
+        "check_summary": "Exact alternating affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE phases x'=3x-5 and x'=-2x+5."
+      },
+      {
+        "answer": [
+          "436",
+          "-204",
+          "-460",
+          "1332",
+          "-1732"
+        ],
+        "case_id": "V15",
+        "check_summary": "Exact four-way interleaved replay; each stream uses x'=-4x+4.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of four affine streams."
+      },
+      {
+        "answer": [
+          "669927",
+          "-1339863",
+          "2679731",
+          "-8039193",
+          "16078377"
+        ],
+        "case_id": "V16",
+        "check_summary": "Exact three-phase affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE phases x'=-2x+5, x'=-3x, x'=-2x-9."
+      },
+      {
+        "answer": [
+          "2",
+          "-18",
+          "-375",
+          "7",
+          "-24"
+        ],
+        "case_id": "V17",
+        "check_summary": "Three interleaved streams identified from exact visible progressions.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE: arithmetic stream, quadratic-difference stream, and alternating-difference stream."
+      },
+      {
+        "answer": [
+          "-895",
+          "-1097",
+          "-1308",
+          "-1523",
+          "-1736"
+        ],
+        "case_id": "V18",
+        "check_summary": "Fourth finite differences are constant 1.",
+        "confidence": 0.99,
+        "rule_summary": "POLY quartic sequence."
+      },
+      {
+        "answer": [
+          "26",
+          "36",
+          "8",
+          "42",
+          "-10"
+        ],
+        "case_id": "V19",
+        "check_summary": "Periodic interleaved continuation inferred from phase-specific changes.",
+        "confidence": 0.42,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "52",
+          "445",
+          "73",
+          "893",
+          "100"
+        ],
+        "case_id": "V20",
+        "check_summary": "Exact two-stream interleave replay.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd stream has increasing odd increments; even stream x'=2x+3."
+      },
+      {
+        "answer": [
+          "-16",
+          "29",
+          "-18",
+          "32",
+          "-20"
+        ],
+        "case_id": "V21",
+        "check_summary": "Exact alternating arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of x' = x-2 and x'=x+3."
+      },
+      {
+        "answer": [
+          "49",
+          "87",
+          "135",
+          "194",
+          "265"
+        ],
+        "case_id": "V22",
+        "check_summary": "Finite differences follow polynomial progression.",
+        "confidence": 0.98,
+        "rule_summary": "POLY quartic sequence."
+      },
+      {
+        "answer": [
+          "559",
+          "636",
+          "715",
+          "801",
+          "889"
+        ],
+        "case_id": "V23",
+        "check_summary": "Exact alternating difference progression.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of two quadratic streams."
+      },
+      {
+        "answer": [
+          "-44",
+          "-50",
+          "-51",
+          "-55",
+          "-59"
+        ],
+        "case_id": "V24",
+        "check_summary": "Periodic phase continuation inferred from the registered recurrence family.",
+        "confidence": 0.35,
+        "rule_summary": "PDELTA with periodic phase-specific polynomial deltas."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "validation-G-236ED23A587B-validation-b02-proposer-09",
+  "outcome": "valid_output",
+  "response_sha256": "5e78daf6db89f306c2c017531031d7b7200ef6a883ac2f66abdf5fe7b7ffce35",
+  "terminal_artifact_relpath": "jobs/validation-G-236ED23A587B-validation-b02-proposer-09/attempt-01"
+}

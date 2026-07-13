@@ -1,0 +1,15 @@
+{
+  "blocks": [
+    "final-b01",
+    "final-b02",
+    "final-b03",
+    "final-b04"
+  ],
+  "concurrency": 50,
+  "genomes": [
+    "VOTE10"
+  ],
+  "phase": "final",
+  "planned_calls": 40,
+  "schema_version": "orchestration-run-v1"
+}

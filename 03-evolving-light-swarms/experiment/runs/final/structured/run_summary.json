@@ -1,0 +1,19 @@
+{
+  "blocks": [
+    "final-b01",
+    "final-b02",
+    "final-b03",
+    "final-b04"
+  ],
+  "concurrency": 50,
+  "genomes": [
+    "G-1407BDDB752D",
+    "G-498E470E7808",
+    "FIXED-SWARM10"
+  ],
+  "phase": "final",
+  "planned_calls": 120,
+  "population_path": "03-evolving-light-swarms/experiment/genomes/final-population.json",
+  "population_sha256": "513dde5194aca3314f0916300bfefe9b23ada3e241aa377e6b11b9d46da7c4de",
+  "schema_version": "orchestration-run-v1"
+}

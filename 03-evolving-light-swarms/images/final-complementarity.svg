@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Final case complementarity</title>
+<desc id="chart-desc">Overlap and disagreement between the evolved champion and corrected generalist Vote10 on 48 final cases.</desc>
+<metadata>source-digest:79b06ba1cfbd6cdcdcbc1dcf2e44e1c675ff4f35a8aad28c103a6e454a91c314</metadata>
+<style>text{font-family:Inter,Arial,sans-serif;fill:#17212B}.title{font-size:25px;font-weight:700}.subtitle{font-size:13px;fill:#4B5563}.axis{font-size:12px;fill:#374151}.label{font-size:13px;font-weight:600}.value{font-size:12px;font-weight:700}.note{font-size:11px;fill:#59636E}.small{font-size:10px;fill:#59636E}.legend{font-size:12px;font-weight:600}</style>
+<rect width="1100" height="620" fill="#FFFFFF"/>
+<text x="52.00" y="44.00" class="title" text-anchor="start" >Champion and generalist Vote10 complementarity</text>
+<text x="52.00" y="69.00" class="subtitle" text-anchor="start" >Amended paired outcomes on the same 48 hidden final cases</text>
+<text x="52.00" y="602.00" class="note" text-anchor="start" >Source: results/final/comparisons.json</text>
+<text x="208.00" y="155.00" class="label" text-anchor="end" >Both correct</text>
+<rect x="230.00" y="130.00" width="760.00" height="38.00" fill="#F3F6F9" rx="4"/>
+<rect x="230.00" y="130.00" width="253.33" height="38.00" fill="#009E73" rx="4"/>
+<text x="495.33" y="155.00" class="value" text-anchor="start" >16 (33.3%)</text>
+<text x="208.00" y="231.00" class="label" text-anchor="end" >Champion only</text>
+<rect x="230.00" y="206.00" width="760.00" height="38.00" fill="#F3F6F9" rx="4"/>
+<rect x="230.00" y="206.00" width="79.17" height="38.00" fill="#0072B2" rx="4"/>
+<text x="321.17" y="231.00" class="value" text-anchor="start" >5 (10.4%)</text>
+<text x="208.00" y="307.00" class="label" text-anchor="end" >Generalist Vote10 only</text>
+<rect x="230.00" y="282.00" width="760.00" height="38.00" fill="#F3F6F9" rx="4"/>
+<rect x="230.00" y="282.00" width="31.67" height="38.00" fill="#D55E00" rx="4"/>
+<text x="273.67" y="307.00" class="value" text-anchor="start" >2 (4.2%)</text>
+<text x="208.00" y="383.00" class="label" text-anchor="end" >Both wrong</text>
+<rect x="230.00" y="358.00" width="760.00" height="38.00" fill="#F3F6F9" rx="4"/>
+<rect x="230.00" y="358.00" width="395.83" height="38.00" fill="#6B7280" rx="4"/>
+<text x="637.83" y="383.00" class="value" text-anchor="start" >25 (52.1%)</text>
+<text x="550.00" y="470.00" class="label" text-anchor="middle" >Paired exact-accuracy difference: +6.2 pp</text>
+<text x="550.00" y="494.00" class="axis" text-anchor="middle" >95% interval: [-4.2 pp, +16.7 pp]</text>
+<text x="550.00" y="522.00" class="note" text-anchor="middle" >Discordant cases split 5 to 2; superiority was not supported.</text>
+</svg>

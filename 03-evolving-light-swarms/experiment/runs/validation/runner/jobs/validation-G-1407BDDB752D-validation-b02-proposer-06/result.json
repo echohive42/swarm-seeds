@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-16387",
+          "-32771",
+          "-65539",
+          "-131075",
+          "-262147"
+        ],
+        "case_id": "V13",
+        "check_summary": "Alternating differences follow a doubling rule; equivalently a(n+1)=2a(n)+3.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE: constant update a(n+1)=2a(n)+3."
+      },
+      {
+        "answer": [
+          "321",
+          "958",
+          "-1911",
+          "-5738",
+          "11481"
+        ],
+        "case_id": "V14",
+        "check_summary": "The two alternating affine updates replay the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE: alternating updates -2x+5 and 3x-5."
+      },
+      {
+        "answer": [
+          "836",
+          "-1140",
+          "-1684",
+          "5092",
+          "-6628"
+        ],
+        "case_id": "V15",
+        "check_summary": "Fits a periodic signed affine/modular pattern inferred from the prefix.",
+        "confidence": 0.32,
+        "rule_summary": "MODAFFINE/PDELTA candidate with periodic phase updates."
+      },
+      {
+        "answer": [
+          "446623",
+          "-1339869",
+          "2679743",
+          "-8039229",
+          "16078463"
+        ],
+        "case_id": "V16",
+        "check_summary": "Alternating updates reproduce every supplied term.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE: alternate -2x+5 and -3x."
+      },
+      {
+        "answer": [
+          "2",
+          "-18",
+          "-375",
+          "7",
+          "-24"
+        ],
+        "case_id": "V17",
+        "check_summary": "Three interleaved streams are arithmetic/quadratic and affine-geometric.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE: residue streams r1 uses -2x-5, r2 has successive increments 1,2,3..., r3 decrements by 6."
+      },
+      {
+        "answer": [
+          "-895",
+          "-1097",
+          "-1308",
+          "-1522",
+          "-1732"
+        ],
+        "case_id": "V18",
+        "check_summary": "Finite differences extend with third differences increasing by one.",
+        "confidence": 0.96,
+        "rule_summary": "POLY: polynomial finite-difference continuation."
+      },
+      {
+        "answer": [
+          "20",
+          "-1",
+          "14",
+          "-6",
+          "7"
+        ],
+        "case_id": "V19",
+        "check_summary": "Continuation estimated from alternating subsequence structure.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE candidate with phase-specific subsequence rules."
+      },
+      {
+        "answer": [
+          "52",
+          "445",
+          "73",
+          "893",
+          "98"
+        ],
+        "case_id": "V20",
+        "check_summary": "Odd stream differences increase by 4; even stream differences double.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: quadratic odd stream and geometric even stream."
+      },
+      {
+        "answer": [
+          "-16",
+          "29",
+          "-18",
+          "32",
+          "-20"
+        ],
+        "case_id": "V21",
+        "check_summary": "Odd terms decrease by 2 and even terms increase by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: two arithmetic streams."
+      },
+      {
+        "answer": [
+          "49",
+          "87",
+          "135",
+          "194",
+          "264"
+        ],
+        "case_id": "V22",
+        "check_summary": "Second differences continue increasing by one.",
+        "confidence": 0.96,
+        "rule_summary": "POLY: finite-difference continuation."
+      },
+      {
+        "answer": [
+          "564",
+          "641",
+          "725",
+          "811",
+          "904"
+        ],
+        "case_id": "V23",
+        "check_summary": "Successive differences alternate +7 and +2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE/GROWBLOCK: alternating step pattern."
+      },
+      {
+        "answer": [
+          "-49",
+          "-96",
+          "-145",
+          "-195",
+          "-247"
+        ],
+        "case_id": "V24",
+        "check_summary": "Continuation estimated from the late-prefix block progression.",
+        "confidence": 0.18,
+        "rule_summary": "GROWBLOCK candidate with evolving block starts and steps."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "validation-G-1407BDDB752D-validation-b02-proposer-06",
+  "outcome": "valid_output",
+  "response_sha256": "eacda51b2e188ff79290ca944408f5c288ad85b816e893c83bf7e30013b7b4ea",
+  "terminal_artifact_relpath": "jobs/validation-G-1407BDDB752D-validation-b02-proposer-06/attempt-01"
+}

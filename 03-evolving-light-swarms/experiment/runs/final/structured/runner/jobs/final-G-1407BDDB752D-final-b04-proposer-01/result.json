@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "-7",
+          "41",
+          "2",
+          "-6",
+          "54"
+        ],
+        "case_id": "F037",
+        "check_summary": "Three interleaved streams; first linear, second quadratic, third constant.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-42",
+          "-31",
+          "-52",
+          "-27",
+          "-62"
+        ],
+        "case_id": "F038",
+        "check_summary": "No uniquely recoverable simple continuation from visible prefix.",
+        "confidence": 0.12,
+        "rule_summary": "Underdetermined affine-phase candidate"
+      },
+      {
+        "answer": [
+          "34",
+          "36",
+          "18",
+          "72",
+          "43"
+        ],
+        "case_id": "F039",
+        "check_summary": "No uniquely recoverable simple continuation from visible prefix.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE candidate"
+      },
+      {
+        "answer": [
+          "-16",
+          "3",
+          "-18",
+          "2",
+          "-20"
+        ],
+        "case_id": "F040",
+        "check_summary": "Odd positions decrease by 2; even positions decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "35",
+          "27",
+          "45",
+          "36",
+          "57"
+        ],
+        "case_id": "F041",
+        "check_summary": "No uniquely recoverable simple continuation from visible prefix.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE candidate"
+      },
+      {
+        "answer": [
+          "146",
+          "179",
+          "212",
+          "245",
+          "278"
+        ],
+        "case_id": "F042",
+        "check_summary": "Final visible arithmetic run advances by 33.",
+        "confidence": 0.58,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "27",
+          "24",
+          "21",
+          "38",
+          "35"
+        ],
+        "case_id": "F043",
+        "check_summary": "Two visible interleaved streams have quadratic increments; third phase is uncertain.",
+        "confidence": 0.28,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "24",
+          "50",
+          "8",
+          "48",
+          "54"
+        ],
+        "case_id": "F044",
+        "check_summary": "No uniquely recoverable simple continuation from visible prefix.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE candidate"
+      },
+      {
+        "answer": [
+          "-27",
+          "-54",
+          "-36",
+          "-72",
+          "-45"
+        ],
+        "case_id": "F045",
+        "check_summary": "No uniquely recoverable simple continuation from visible prefix.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE candidate"
+      },
+      {
+        "answer": [
+          "-2",
+          "-3",
+          "-4",
+          "-5",
+          "-6"
+        ],
+        "case_id": "F046",
+        "check_summary": "Tail suggests continuation of the descending unit-step run.",
+        "confidence": 0.46,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "5",
+          "75",
+          "5",
+          "96",
+          "5"
+        ],
+        "case_id": "F047",
+        "check_summary": "Alternating continuation inferred from the latest visible streams.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-12",
+          "36",
+          "-8",
+          "42",
+          "-4"
+        ],
+        "case_id": "F048",
+        "check_summary": "No uniquely recoverable simple continuation from visible prefix.",
+        "confidence": 0.07,
+        "rule_summary": "MODAFFINE candidate"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-G-1407BDDB752D-final-b04-proposer-01",
+  "outcome": "valid_output",
+  "response_sha256": "df0210e5d9b3e5756112d77c58ec75d16044e46fd7b76f30d0e8a1591dc3848b",
+  "terminal_artifact_relpath": "jobs/final-G-1407BDDB752D-final-b04-proposer-01/attempt-01"
+}

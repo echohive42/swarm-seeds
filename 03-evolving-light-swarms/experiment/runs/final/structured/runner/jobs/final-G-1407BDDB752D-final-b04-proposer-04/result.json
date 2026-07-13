@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "-7",
+          "41",
+          "2",
+          "-6",
+          "54"
+        ],
+        "case_id": "F037",
+        "check_summary": "Three interleaved streams; first is arithmetic, second has odd-increment quadratic growth, third constant.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-74",
+          "-57",
+          "47",
+          "-154",
+          "-79"
+        ],
+        "case_id": "F038",
+        "check_summary": "Extrapolated residue-class polynomial streams.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "34",
+          "68",
+          "46",
+          "35",
+          "49"
+        ],
+        "case_id": "F039",
+        "check_summary": "Low-confidence periodic modular extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-16",
+          "3",
+          "-18",
+          "2",
+          "-20"
+        ],
+        "case_id": "F040",
+        "check_summary": "Odd positions decrease by 2; even positions decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "29",
+          "41",
+          "24",
+          "37",
+          "52"
+        ],
+        "case_id": "F041",
+        "check_summary": "Low-confidence interleaved-stream extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "146",
+          "179",
+          "212",
+          "245",
+          "278"
+        ],
+        "case_id": "F042",
+        "check_summary": "Final observed arithmetic phase has constant increment 33.",
+        "confidence": 0.91,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "27",
+          "21",
+          "4",
+          "41",
+          "34"
+        ],
+        "case_id": "F043",
+        "check_summary": "Three interleaved streams; first two use matching quadratic increments and third follows modular phase progression.",
+        "confidence": 0.67,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "54",
+          "29",
+          "11",
+          "60",
+          "38"
+        ],
+        "case_id": "F044",
+        "check_summary": "Low-confidence periodic modular extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "21",
+          "-41",
+          "21",
+          "-47",
+          "21"
+        ],
+        "case_id": "F045",
+        "check_summary": "First residue stream shows declining positive increments; remaining streams extrapolated weakly.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-2",
+          "-6",
+          "-3",
+          "-7",
+          "-4"
+        ],
+        "case_id": "F046",
+        "check_summary": "Terminal phase is descending by 1 with interleaved offset behavior.",
+        "confidence": 0.53,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3",
+          "80",
+          "5",
+          "111",
+          "-3"
+        ],
+        "case_id": "F047",
+        "check_summary": "Odd stream alternates -3 and 5; even stream has increments increasing by 5.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-18",
+          "-35",
+          "-29",
+          "-67",
+          "40"
+        ],
+        "case_id": "F048",
+        "check_summary": "Low-confidence periodic modular extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-G-1407BDDB752D-final-b04-proposer-04",
+  "outcome": "valid_output",
+  "response_sha256": "d0033aa19b2e3b28b9a6fc76f887794e8e1cd26ec6a50dbb1c50b9ce3001c85f",
+  "terminal_artifact_relpath": "jobs/final-G-1407BDDB752D-final-b04-proposer-04/attempt-01"
+}

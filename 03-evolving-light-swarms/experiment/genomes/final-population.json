@@ -1,0 +1,129 @@
+{
+  "genomes": [
+    {
+      "genes": {
+        "final_policy_id": "evidence_weighted",
+        "role_lenses": [
+          "streams",
+          "modular",
+          "diversifier",
+          "modular",
+          "diversifier",
+          "simplicity",
+          "generalist",
+          "generalist",
+          "simplicity"
+        ],
+        "topology_id": "falsification_7p_2c_1j"
+      },
+      "genome_id": "G-1407BDDB752D",
+      "genome_sha256": "1407bddb752d9eda8abf68b5248d04b8beb2539024d67834474ec15f9cd48d28",
+      "lineage": {
+        "crossover_sources": {
+          "final_policy_id": "G-498E470E7808",
+          "role_lenses": [
+            {
+              "parent": "G-37B2621092D0",
+              "source_slot": "W06"
+            },
+            {
+              "parent": "G-37B2621092D0",
+              "source_slot": "W07"
+            },
+            {
+              "parent": "G-37B2621092D0",
+              "source_slot": "W08"
+            },
+            {
+              "parent": "G-498E470E7808",
+              "source_slot": "W07"
+            },
+            {
+              "parent": "G-498E470E7808",
+              "source_slot": "W08"
+            },
+            {
+              "parent": "G-37B2621092D0",
+              "source_slot": "W02"
+            },
+            {
+              "parent": "G-37B2621092D0",
+              "source_slot": "W03"
+            },
+            {
+              "parent": "G-498E470E7808",
+              "source_slot": "W02"
+            },
+            {
+              "parent": "G-498E470E7808",
+              "source_slot": "W03"
+            }
+          ],
+          "topology_id": "G-37B2621092D0"
+        },
+        "founder_id": null,
+        "founding_species": [
+          "consensus",
+          "falsification"
+        ],
+        "generation": 1,
+        "mutation": null,
+        "operation": "crossover",
+        "parents": [
+          "G-37B2621092D0",
+          "G-498E470E7808"
+        ]
+      }
+    },
+    {
+      "genes": {
+        "final_policy_id": "evidence_weighted",
+        "role_lenses": [
+          "audit",
+          "generalist",
+          "simplicity",
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "diversifier",
+          "audit"
+        ],
+        "topology_id": "consensus_9p_1j"
+      },
+      "genome_id": "G-498E470E7808",
+      "genome_sha256": "498e470e7808ad06c2aaadc1de231023f5fa58b065b604cb49864f983adbe35a",
+      "lineage": {
+        "crossover_sources": null,
+        "founder_id": "F02",
+        "founding_species": [
+          "consensus"
+        ],
+        "generation": 0,
+        "mutation": null,
+        "operation": "founder",
+        "parents": []
+      }
+    },
+    {
+      "genes": {
+        "final_policy_id": "plurality_preserving",
+        "role_lenses": [
+          "generalist",
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "diversifier",
+          "audit",
+          "audit",
+          "simplicity"
+        ],
+        "topology_id": "fixed_swarm_5p_2c_2v_1j"
+      },
+      "genome_id": "FIXED-SWARM10"
+    }
+  ],
+  "schema_version": "experiment-03-final-run-v1",
+  "source_champion_freeze_sha256": "16fc71955701beaf0f6ac339ea225aab95d763057d96412b34dbe69cf9d7f5cd"
+}

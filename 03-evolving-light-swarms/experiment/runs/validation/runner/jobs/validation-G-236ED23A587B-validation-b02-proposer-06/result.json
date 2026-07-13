@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-16387",
+          "-32771",
+          "-65539",
+          "-131075",
+          "-262147"
+        ],
+        "case_id": "V13",
+        "check_summary": "Matches a_n=2a_{n-1}+3.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "413241",
+          "1239718",
+          "-2479431",
+          "-7438298",
+          "14876601"
+        ],
+        "case_id": "V14",
+        "check_summary": "Matches alternating affine updates -2x+5 and 3x-5.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-354",
+          "516",
+          "1056",
+          "-1116",
+          "1484"
+        ],
+        "case_id": "V15",
+        "check_summary": "Fits three interleaved cubic streams.",
+        "confidence": 0.42,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "446623",
+          "-1339869",
+          "2679729",
+          "-5359453",
+          "16078359"
+        ],
+        "case_id": "V16",
+        "check_summary": "Matches the repeating three-phase affine updates.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "2",
+          "-30",
+          "-375",
+          "6",
+          "-48"
+        ],
+        "case_id": "V17",
+        "check_summary": "Fits three interleaved polynomial subsequences.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-874",
+          "-1037",
+          "-1195",
+          "-1347",
+          "-1492"
+        ],
+        "case_id": "V18",
+        "check_summary": "Finite differences continue with third differences increasing by one.",
+        "confidence": 0.97,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "26",
+          "28",
+          "8",
+          "30",
+          "-15"
+        ],
+        "case_id": "V19",
+        "check_summary": "Tentative periodic/interleaved continuation from residue subsequences.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "52",
+          "445",
+          "73",
+          "893",
+          "100"
+        ],
+        "case_id": "V20",
+        "check_summary": "Two interleaved streams: exponential-affine odd terms and quadratic even terms.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16",
+          "29",
+          "-18",
+          "32",
+          "-20"
+        ],
+        "case_id": "V21",
+        "check_summary": "Even and odd positions are separate arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "49",
+          "87",
+          "135",
+          "194",
+          "253"
+        ],
+        "case_id": "V22",
+        "check_summary": "Finite differences follow a steadily increasing second-difference sequence.",
+        "confidence": 0.96,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "564",
+          "641",
+          "725",
+          "811",
+          "904"
+        ],
+        "case_id": "V23",
+        "check_summary": "Differences continue the alternating +7,+2 pattern.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-42",
+          "-54",
+          "-63",
+          "-75",
+          "-81"
+        ],
+        "case_id": "V24",
+        "check_summary": "Tentative continuation of the observed growing-block pattern.",
+        "confidence": 0.2,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "validation-G-236ED23A587B-validation-b02-proposer-06",
+  "outcome": "valid_output",
+  "response_sha256": "6a61a3505721a9ebed8e704f0c7c58ffe8227fcee12f53cabbb1baa97150f466",
+  "terminal_artifact_relpath": "jobs/validation-G-236ED23A587B-validation-b02-proposer-06/attempt-01"
+}

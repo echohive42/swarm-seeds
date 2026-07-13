@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "41",
+          "2",
+          "-7",
+          "54",
+          "2"
+        ],
+        "case_id": "F037",
+        "check_summary": "Three-phase interleave; first stream decreases by 1 and second has quadratic increments.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-29",
+          "-24",
+          "-27",
+          "-23",
+          "-27"
+        ],
+        "case_id": "F038",
+        "check_summary": "Irregular phase-dependent affine/modular continuation inferred from alternating streams.",
+        "confidence": 0.18,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "35",
+          "-17",
+          "68",
+          "69",
+          "90"
+        ],
+        "case_id": "F039",
+        "check_summary": "Irregular multi-stream continuation inferred from phase-separated polynomial/affine streams.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16",
+          "3",
+          "-18",
+          "2",
+          "-20"
+        ],
+        "case_id": "F040",
+        "check_summary": "Odd positions decrease by 2; even positions decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "30",
+          "11",
+          "45",
+          "26",
+          "57"
+        ],
+        "case_id": "F041",
+        "check_summary": "Phase-separated affine continuation inferred from repeated interleaving.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "146",
+          "179",
+          "212",
+          "245",
+          "278"
+        ],
+        "case_id": "F042",
+        "check_summary": "The visible terminal run is arithmetic with constant increment 33.",
+        "confidence": 0.94,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "27",
+          "24",
+          "35",
+          "32",
+          "29"
+        ],
+        "case_id": "F043",
+        "check_summary": "Periodic descending phases with polynomially increasing reset values.",
+        "confidence": 0.22,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "48",
+          "-2",
+          "54",
+          "-8",
+          "60"
+        ],
+        "case_id": "F044",
+        "check_summary": "Irregular phase-dependent affine/interleaved continuation.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "22",
+          "-48",
+          "24",
+          "-62",
+          "26"
+        ],
+        "case_id": "F045",
+        "check_summary": "Alternating streams show increasing positive stream and increasingly negative companion stream.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-2",
+          "-3",
+          "-4",
+          "-5",
+          "-6"
+        ],
+        "case_id": "F046",
+        "check_summary": "Terminal blocks continue as descending unit-step arithmetic block.",
+        "confidence": 0.55,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "6",
+          "75",
+          "5",
+          "101",
+          "4"
+        ],
+        "case_id": "F047",
+        "check_summary": "Alternating streams: one advances by growing increments and the other follows a quadratic rise.",
+        "confidence": 0.19,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "36",
+          "-104",
+          "42",
+          "-83",
+          "48"
+        ],
+        "case_id": "F048",
+        "check_summary": "Alternating phase-specific affine/modular behavior inferred from the prefix.",
+        "confidence": 0.12,
+        "rule_summary": "MODAFFINE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-G-498E470E7808-final-b04-proposer-07",
+  "outcome": "valid_output",
+  "response_sha256": "0cf1b6f1d9a0f19862752b36f49b3cc0bf4b0e409c596ff3f77f4c04197ee384",
+  "terminal_artifact_relpath": "jobs/final-G-498E470E7808-final-b04-proposer-07/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Alternating arithmetic streams replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: +4 and -2 streams."
+      },
+      {
+        "answer": [
+          "27",
+          "24",
+          "21",
+          "38",
+          "35"
+        ],
+        "case_id": "T02",
+        "check_summary": "Periodic differences replay as -3,-3, then increasing positive jumps by 3.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with period-3 deltas."
+      },
+      {
+        "answer": [
+          "39",
+          "17",
+          "-5",
+          "-27",
+          "-49"
+        ],
+        "case_id": "T03",
+        "check_summary": "Growing negative blocks and quadratic positive jumps replay the prefix.",
+        "confidence": 0.9,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "395867",
+          "-791740",
+          "1583478",
+          "19004027",
+          "-95019800"
+        ],
+        "case_id": "T04",
+        "check_summary": "Three phase streams follow affine updates with multiplier 12.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-3 phases."
+      },
+      {
+        "answer": [
+          "-8374",
+          "-14097",
+          "-21347",
+          "-30598",
+          "-42411"
+        ],
+        "case_id": "T05",
+        "check_summary": "Finite differences have constant fifth difference -8.",
+        "confidence": 0.99,
+        "rule_summary": "POLY of degree 5."
+      },
+      {
+        "answer": [
+          "-7",
+          "62",
+          "35",
+          "38",
+          "107"
+        ],
+        "case_id": "T06",
+        "check_summary": "Phase-specific differences replay four interleaved streams.",
+        "confidence": 0.9,
+        "rule_summary": "PDELTA with period-4 phases."
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1722",
+          "-2163",
+          "-2673",
+          "-3257"
+        ],
+        "case_id": "T07",
+        "check_summary": "Finite differences have constant third difference -5.",
+        "confidence": 0.99,
+        "rule_summary": "POLY of degree 3."
+      },
+      {
+        "answer": [
+          "55",
+          "19",
+          "43",
+          "73",
+          "18"
+        ],
+        "case_id": "T08",
+        "check_summary": "Four phase affine streams modulo 101 fit the prefix.",
+        "confidence": 0.72,
+        "rule_summary": "MODAFFINE modulo 101."
+      },
+      {
+        "answer": [
+          "-225",
+          "-242",
+          "-299",
+          "-310",
+          "-384"
+        ],
+        "case_id": "T09",
+        "check_summary": "Odd and even subsequences have quadratic increments.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two quadratic streams."
+      },
+      {
+        "answer": [
+          "44",
+          "56",
+          "10",
+          "172",
+          "78"
+        ],
+        "case_id": "T10",
+        "check_summary": "Three interleaved streams fit simple arithmetic/quadratic updates.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE with period-3 streams."
+      },
+      {
+        "answer": [
+          "-8191",
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071"
+        ],
+        "case_id": "T11",
+        "check_summary": "Each term follows x_next=2x+1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE."
+      },
+      {
+        "answer": [
+          "43684",
+          "87391",
+          "174754",
+          "349537",
+          "699040"
+        ],
+        "case_id": "T12",
+        "check_summary": "Alternating affine phases have biases changing by 6 in magnitude.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-2 phases."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g2-G-A6F016C4C5E2-training-b01-proposer-02",
+  "outcome": "valid_output",
+  "response_sha256": "7cccb5af0415f58d7077506ece073fd4d03fe1f8d2f1d07551fa43039457b922",
+  "terminal_artifact_relpath": "jobs/search-g2-G-A6F016C4C5E2-training-b01-proposer-02/attempt-01"
+}

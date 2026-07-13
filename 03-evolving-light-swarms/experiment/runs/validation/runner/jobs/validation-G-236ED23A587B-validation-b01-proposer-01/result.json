@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b01",
+    "results": [
+      {
+        "answer": [
+          "42",
+          "21",
+          "49",
+          "56",
+          "28"
+        ],
+        "case_id": "V01",
+        "check_summary": "Periodic three-phase deltas replay the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "Phase deltas follow polynomial sequences."
+      },
+      {
+        "answer": [
+          "17",
+          "-16",
+          "-3",
+          "-24",
+          "-65"
+        ],
+        "case_id": "V02",
+        "check_summary": "Three-phase delta extrapolation.",
+        "confidence": 0.65,
+        "rule_summary": "Periodic polynomial delta updates."
+      },
+      {
+        "answer": [
+          "32",
+          "31",
+          "30",
+          "29",
+          "38"
+        ],
+        "case_id": "V03",
+        "check_summary": "Descending runs with increasing run-start gaps.",
+        "confidence": 0.93,
+        "rule_summary": "Polynomial block structure."
+      },
+      {
+        "answer": [
+          "-18",
+          "-29",
+          "-285",
+          "-277",
+          "-312"
+        ],
+        "case_id": "V04",
+        "check_summary": "Tentative periodic-delta extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic polynomial delta update."
+      },
+      {
+        "answer": [
+          "112061",
+          "270537",
+          "653129",
+          "1577143",
+          "3805503"
+        ],
+        "case_id": "V05",
+        "check_summary": "Tentative affine/second-order extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Linear recurrence with structured bias."
+      },
+      {
+        "answer": [
+          "91",
+          "72",
+          "84",
+          "62",
+          "92"
+        ],
+        "case_id": "V06",
+        "check_summary": "Tentative periodic affine extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Phase-specific affine update."
+      },
+      {
+        "answer": [
+          "6498",
+          "10031",
+          "15388",
+          "23516",
+          "35948"
+        ],
+        "case_id": "V07",
+        "check_summary": "Tentative growing recurrence extrapolation.",
+        "confidence": 0.15,
+        "rule_summary": "Second-order linear recurrence with bias."
+      },
+      {
+        "answer": [
+          "188",
+          "227",
+          "266",
+          "305",
+          "344"
+        ],
+        "case_id": "V08",
+        "check_summary": "Repeated positive phase increments with periodic reset.",
+        "confidence": 0.28,
+        "rule_summary": "Periodic phase-specific deltas."
+      },
+      {
+        "answer": [
+          "-66",
+          "-70",
+          "-75",
+          "-79",
+          "-84"
+        ],
+        "case_id": "V09",
+        "check_summary": "Alternating decrements of five and four.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta sequence."
+      },
+      {
+        "answer": [
+          "48",
+          "73",
+          "46",
+          "81",
+          "102"
+        ],
+        "case_id": "V10",
+        "check_summary": "Tentative interleaved affine extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "19",
+          "-16",
+          "-23",
+          "12",
+          "-12"
+        ],
+        "case_id": "V11",
+        "check_summary": "Tentative three-phase delta extrapolation.",
+        "confidence": 0.24,
+        "rule_summary": "Periodic polynomial delta update."
+      },
+      {
+        "answer": [
+          "31",
+          "4",
+          "-23",
+          "-50",
+          "103"
+        ],
+        "case_id": "V12",
+        "check_summary": "Blocks of one jump followed by three repeated decrements.",
+        "confidence": 0.86,
+        "rule_summary": "Growing block delta structure."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "validation-G-236ED23A587B-validation-b01-proposer-01",
+  "outcome": "valid_output",
+  "response_sha256": "7f38074585285b3a9c4f6c3853a135c9792c9ddb1d7606bac59de215e8667496",
+  "terminal_artifact_relpath": "jobs/validation-G-236ED23A587B-validation-b01-proposer-01/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Two interleaved arithmetic streams fit the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Odd positions increase by 4; even positions decrease by 2."
+      },
+      {
+        "answer": [
+          "16",
+          "13",
+          "21",
+          "18",
+          "26"
+        ],
+        "case_id": "T02",
+        "check_summary": "Phase-structured increments continue the observed weave.",
+        "confidence": 0.42,
+        "rule_summary": "Three interleaved streams with phase-dependent polynomial increments."
+      },
+      {
+        "answer": [
+          "-66",
+          "42",
+          "-84",
+          "60",
+          "-102"
+        ],
+        "case_id": "T03",
+        "check_summary": "Alternating phase behavior extrapolated from the later prefix.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-263960",
+          "527958",
+          "-1055920",
+          "2111840",
+          "-4223682"
+        ],
+        "case_id": "T04",
+        "check_summary": "Alternating affine growth extrapolated from dominant doubling pattern.",
+        "confidence": 0.35,
+        "rule_summary": "Phase-dependent affine recurrence."
+      },
+      {
+        "answer": [
+          "-6390",
+          "-10047",
+          "-14655",
+          "-20493",
+          "-27783"
+        ],
+        "case_id": "T05",
+        "check_summary": "High-order polynomial trend extrapolated from finite differences.",
+        "confidence": 0.25,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "-3",
+          "65",
+          "38",
+          "5",
+          "11"
+        ],
+        "case_id": "T06",
+        "check_summary": "Four-stream block increments show the next block values.",
+        "confidence": 0.91,
+        "rule_summary": "Interleaved streams organized in blocks of four with polynomial block increments."
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1722",
+          "-2163",
+          "-2673",
+          "-3183"
+        ],
+        "case_id": "T07",
+        "check_summary": "Finite differences follow a cubic pattern.",
+        "confidence": 0.99,
+        "rule_summary": "Cubic polynomial sequence."
+      },
+      {
+        "answer": [
+          "-35",
+          "80",
+          "-11",
+          "104",
+          "-57"
+        ],
+        "case_id": "T08",
+        "check_summary": "Periodic interleaving extrapolated from the prefix.",
+        "confidence": 0.25,
+        "rule_summary": "Three-stream interleave with phase-specific affine updates."
+      },
+      {
+        "answer": [
+          "-253",
+          "-214",
+          "-321",
+          "-277",
+          "-351"
+        ],
+        "case_id": "T09",
+        "check_summary": "Odd and even subsequences each have arithmetic second differences.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "44",
+          "56",
+          "10",
+          "108",
+          "73"
+        ],
+        "case_id": "T10",
+        "check_summary": "Three residue classes continue their observed patterns.",
+        "confidence": 0.98,
+        "rule_summary": "Three interleaved streams: constant, doubling-sign, and quadratic increments."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Exact first-order affine recurrence fits every term.",
+        "confidence": 1.0,
+        "rule_summary": "x(n+1)=2x(n)-1."
+      },
+      {
+        "answer": [
+          "43684",
+          "87391",
+          "174754",
+          "349537",
+          "699040"
+        ],
+        "case_id": "T12",
+        "check_summary": "Alternating affine biases continue with linearly changing magnitude.",
+        "confidence": 0.96,
+        "rule_summary": "Multiplier 2 with alternating phase-specific affine biases."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g0-G-93B0BFCCF64A-training-b01-proposer-01",
+  "outcome": "valid_output",
+  "response_sha256": "dec3e7b7db144f4953f3eaca5043e5e9beafd972ee1524153a9aa69db35618f9",
+  "terminal_artifact_relpath": "jobs/search-g0-G-93B0BFCCF64A-training-b01-proposer-01/attempt-01"
+}

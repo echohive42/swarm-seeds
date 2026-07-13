@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+
+# Unscored local preflight artifacts are not part of the experiment release.
+/experiment/runs/preflight/
+/experiment/runs/smoke/
+/experiment/runs/smoke-unsandboxed/
+
+# Keep exact prompts, ledgers, last messages, and parsed results. Exclude only
+# local process diagnostics that contain ephemeral thread IDs or machine paths.
+**/.run.lock
+**/events.jsonl
+**/process.json
+**/stderr.txt
+**/transport_result.json

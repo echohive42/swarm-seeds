@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Evolution and selection trajectory</title>
+<desc id="chart-desc">Best training genomes followed by the selected champion on validation and final cases.</desc>
+<metadata>source-digest:79b06ba1cfbd6cdcdcbc1dcf2e44e1c675ff4f35a8aad28c103a6e454a91c314</metadata>
+<style>text{font-family:Inter,Arial,sans-serif;fill:#17212B}.title{font-size:25px;font-weight:700}.subtitle{font-size:13px;fill:#4B5563}.axis{font-size:12px;fill:#374151}.label{font-size:13px;font-weight:600}.value{font-size:12px;font-weight:700}.note{font-size:11px;fill:#59636E}.small{font-size:10px;fill:#59636E}.legend{font-size:12px;font-weight:600}</style>
+<rect width="1100" height="700" fill="#FFFFFF"/>
+<text x="52.00" y="44.00" class="title" text-anchor="start" >Evolution and selection trajectory</text>
+<text x="52.00" y="69.00" class="subtitle" text-anchor="start" >Best observed training genome per generation, then the frozen validation champion on held-out stages</text>
+<text x="52.00" y="682.00" class="note" text-anchor="start" >Source: search summaries, validation summary, and final summary</text>
+<rect x="110.00" y="145.00" width="558.00" height="390.00" fill="#EAF4FA" opacity="0.34"/>
+<rect x="668.00" y="145.00" width="186.00" height="390.00" fill="#FFF4E5" opacity="0.42"/>
+<rect x="854.00" y="145.00" width="186.00" height="390.00" fill="#E8F5EF" opacity="0.55"/>
+<line x1="110.00" y1="535.00" x2="1040.00" y2="535.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="98.00" y="539.00" class="axis" text-anchor="end" >0.0%</text>
+<line x1="110.00" y1="457.00" x2="1040.00" y2="457.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="98.00" y="461.00" class="axis" text-anchor="end" >20.0%</text>
+<line x1="110.00" y1="379.00" x2="1040.00" y2="379.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="98.00" y="383.00" class="axis" text-anchor="end" >40.0%</text>
+<line x1="110.00" y1="301.00" x2="1040.00" y2="301.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="98.00" y="305.00" class="axis" text-anchor="end" >60.0%</text>
+<line x1="110.00" y1="223.00" x2="1040.00" y2="223.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="98.00" y="227.00" class="axis" text-anchor="end" >80.0%</text>
+<line x1="110.00" y1="145.00" x2="1040.00" y2="145.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="98.00" y="149.00" class="axis" text-anchor="end" >100.0%</text>
+<line x1="110.00" y1="145.00" x2="110.00" y2="535.00" stroke="#17212B" stroke-width="1.2"/>
+<line x1="110.00" y1="535.00" x2="1040.00" y2="535.00" stroke="#17212B" stroke-width="1.2"/>
+<text x="40.00" y="340.00" class="axis" text-anchor="middle" transform="rotate(-90 40.00 340.00)">Exact accuracy</text>
+<polyline points="203.00,275.00 389.00,242.50 575.00,242.50 761.00,323.75 947.00,364.38" fill="none" stroke="#6B7280" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="203.00" y1="177.50" x2="203.00" y2="372.50" stroke="#0072B2" stroke-width="3"/>
+<line x1="192.00" y1="177.50" x2="214.00" y2="177.50" stroke="#0072B2" stroke-width="3"/>
+<line x1="192.00" y1="372.50" x2="214.00" y2="372.50" stroke="#0072B2" stroke-width="3"/>
+<circle cx="203.00" cy="275.00" r="8.00" fill="#0072B2" stroke="#FFFFFF" stroke-width="2"/>
+<text x="203.00" y="261.00" class="value" text-anchor="middle" >66.7%</text>
+<text x="203.00" y="563.00" class="label" text-anchor="middle" >Generation 0</text>
+<text x="203.00" y="582.00" class="small" text-anchor="middle" >G-498E470E7808</text>
+<text x="203.00" y="600.00" class="note" text-anchor="middle" >n=12</text>
+<line x1="389.00" y1="145.00" x2="389.00" y2="340.00" stroke="#0072B2" stroke-width="3"/>
+<line x1="378.00" y1="145.00" x2="400.00" y2="145.00" stroke="#0072B2" stroke-width="3"/>
+<line x1="378.00" y1="340.00" x2="400.00" y2="340.00" stroke="#0072B2" stroke-width="3"/>
+<circle cx="389.00" cy="242.50" r="8.00" fill="#0072B2" stroke="#FFFFFF" stroke-width="2"/>
+<text x="389.00" y="228.50" class="value" text-anchor="middle" >75.0%</text>
+<text x="389.00" y="563.00" class="label" text-anchor="middle" >Generation 1</text>
+<text x="389.00" y="582.00" class="small" text-anchor="middle" >G-236ED23A587B</text>
+<text x="389.00" y="600.00" class="note" text-anchor="middle" >n=12</text>
+<line x1="575.00" y1="145.00" x2="575.00" y2="340.00" stroke="#0072B2" stroke-width="3"/>
+<line x1="564.00" y1="145.00" x2="586.00" y2="145.00" stroke="#0072B2" stroke-width="3"/>
+<line x1="564.00" y1="340.00" x2="586.00" y2="340.00" stroke="#0072B2" stroke-width="3"/>
+<circle cx="575.00" cy="242.50" r="8.00" fill="#0072B2" stroke="#FFFFFF" stroke-width="2"/>
+<text x="575.00" y="228.50" class="value" text-anchor="middle" >75.0%</text>
+<text x="575.00" y="563.00" class="label" text-anchor="middle" >Generation 2</text>
+<text x="575.00" y="582.00" class="small" text-anchor="middle" >G-157CA76A3367</text>
+<text x="575.00" y="600.00" class="note" text-anchor="middle" >n=12</text>
+<line x1="761.00" y1="242.50" x2="761.00" y2="405.00" stroke="#D55E00" stroke-width="3"/>
+<line x1="750.00" y1="242.50" x2="772.00" y2="242.50" stroke="#D55E00" stroke-width="3"/>
+<line x1="750.00" y1="405.00" x2="772.00" y2="405.00" stroke="#D55E00" stroke-width="3"/>
+<circle cx="761.00" cy="323.75" r="8.00" fill="#D55E00" stroke="#FFFFFF" stroke-width="2"/>
+<text x="761.00" y="309.75" class="value" text-anchor="middle" >54.2%</text>
+<text x="761.00" y="563.00" class="label" text-anchor="middle" >Validation</text>
+<text x="761.00" y="582.00" class="small" text-anchor="middle" >G-1407BDDB752D</text>
+<text x="761.00" y="600.00" class="note" text-anchor="middle" >n=24</text>
+<line x1="947.00" y1="315.62" x2="947.00" y2="413.12" stroke="#009E73" stroke-width="3"/>
+<line x1="936.00" y1="315.62" x2="958.00" y2="315.62" stroke="#009E73" stroke-width="3"/>
+<line x1="936.00" y1="413.12" x2="958.00" y2="413.12" stroke="#009E73" stroke-width="3"/>
+<circle cx="947.00" cy="364.38" r="8.00" fill="#009E73" stroke="#FFFFFF" stroke-width="2"/>
+<text x="947.00" y="350.38" class="value" text-anchor="middle" >43.8%</text>
+<text x="947.00" y="563.00" class="label" text-anchor="middle" >Final</text>
+<text x="947.00" y="582.00" class="small" text-anchor="middle" >G-1407BDDB752D</text>
+<text x="947.00" y="600.00" class="note" text-anchor="middle" >n=48</text>
+<text x="389.00" y="125.00" class="legend" text-anchor="middle" >Training search</text>
+<text x="761.00" y="125.00" class="legend" text-anchor="middle" >Validation selection</text>
+<text x="947.00" y="125.00" class="legend" text-anchor="middle" >Frozen final test</text>
+<text x="110.00" y="625.00" class="note" text-anchor="start" >Samples differ across stages; the connected line traces the selection process, not repeated measurement on one sample.</text>
+</svg>

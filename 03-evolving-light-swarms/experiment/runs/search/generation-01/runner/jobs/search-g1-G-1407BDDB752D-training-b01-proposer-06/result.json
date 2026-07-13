@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Alternating arithmetic subsequences: odd terms rise by 4 and even terms fall by 2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: two arithmetic streams."
+      },
+      {
+        "answer": [
+          "24",
+          "21",
+          "18",
+          "35",
+          "32"
+        ],
+        "case_id": "T02",
+        "check_summary": "Differences follow repeating negative steps with positive steps increasing by 3.",
+        "confidence": 0.94,
+        "rule_summary": "PDELTA: period-3 deltas with polynomial phase increment."
+      },
+      {
+        "answer": [
+          "39",
+          "17",
+          "-5",
+          "-27",
+          "-49"
+        ],
+        "case_id": "T03",
+        "check_summary": "Growing negative blocks have magnitudes 6,10,14,18, followed by polynomially growing positive jumps.",
+        "confidence": 0.78,
+        "rule_summary": "GROWBLOCK: polynomial starts and repeated negative steps."
+      },
+      {
+        "answer": [
+          "395867",
+          "-791740",
+          "1583478",
+          "395867",
+          "-791740"
+        ],
+        "case_id": "T04",
+        "check_summary": "The established phase recurrence is not fully resolved from the supplied prefix.",
+        "confidence": 0.2,
+        "rule_summary": "AFFINE: suspected period-3 affine update."
+      },
+      {
+        "answer": [
+          "-6870",
+          "-11220",
+          "-17160",
+          "-25020",
+          "-35490"
+        ],
+        "case_id": "T05",
+        "check_summary": "Nonlinear growth pattern inferred with low certainty.",
+        "confidence": 0.12,
+        "rule_summary": "POLY or PDELTA: unresolved."
+      },
+      {
+        "answer": [
+          "62",
+          "55",
+          "98",
+          "47",
+          "38"
+        ],
+        "case_id": "T06",
+        "check_summary": "Periodic interleaving pattern inferred with low certainty.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE: suspected three streams."
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1722",
+          "-2163",
+          "-2673",
+          "-3242"
+        ],
+        "case_id": "T07",
+        "check_summary": "First differences have constant fifth-order structure, with second differences decreasing by 5.",
+        "confidence": 0.99,
+        "rule_summary": "POLY: cubic integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "17",
+          "42",
+          "81",
+          "112",
+          "159"
+        ],
+        "case_id": "T08",
+        "check_summary": "Modulo-periodic behavior inferred with low certainty.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE: unresolved periodic affine modulo rule."
+      },
+      {
+        "answer": [
+          "-225",
+          "-253",
+          "-299",
+          "-332",
+          "-384"
+        ],
+        "case_id": "T09",
+        "check_summary": "Odd and even first-difference subsequences are arithmetic with common decrement 6 and 5 respectively.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE: two polynomial delta streams."
+      },
+      {
+        "answer": [
+          "-1",
+          "54",
+          "16",
+          "-48",
+          "72"
+        ],
+        "case_id": "T10",
+        "check_summary": "Periodic interleaving pattern inferred with low certainty.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE: unresolved multiple streams."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Each term is twice the previous term minus 1.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE: x(n+1)=2x(n)-1."
+      },
+      {
+        "answer": [
+          "43684",
+          "87391",
+          "174754",
+          "349537",
+          "699046"
+        ],
+        "case_id": "T12",
+        "check_summary": "Alternating affine corrections around doubling are extrapolated from the prefix.",
+        "confidence": 0.62,
+        "rule_summary": "AFFINE: multiplier 2 with phase-varying bias."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g1-G-1407BDDB752D-training-b01-proposer-06",
+  "outcome": "valid_output",
+  "response_sha256": "7a6135763b84e70b78b4103741ba99922f2ec03c1bd8f60b1a2ab0ffd8f5e6f3",
+  "terminal_artifact_relpath": "jobs/search-g1-G-1407BDDB752D-training-b01-proposer-06/attempt-01"
+}

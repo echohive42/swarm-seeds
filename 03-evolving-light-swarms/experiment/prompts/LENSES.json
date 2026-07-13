@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "worker": {
+    "generalist": "Search all eight registered mechanisms and prefer the simplest full-prefix explanation.",
+    "differences": "Pay special attention to finite differences, periodic differences, and lagged polynomial increments.",
+    "recurrences": "Pay special attention to affine and second-order recurrences, including periodic phases.",
+    "streams": "Pay special attention to interleaved streams, lagged subsequences, and growing blocks.",
+    "modular": "Actively test modular affine structure and real wrap points, while rejecting forced modular stories.",
+    "simplicity": "Prefer the shortest allowed complete mechanism and reject clever partial fits.",
+    "diversifier": "Actively seek a materially different allowed mechanism from the current leading explanation.",
+    "audit": "Prioritize exact replay of the visible prefix and reliable arithmetic before extrapolation."
+  },
+  "proposer": {
+    "generalist": "Search all eight registered mechanisms. Prefer the simplest rule that fits every visible term, then verify all five continuations.",
+    "differences": "Prioritize finite differences, periodic differences, and lagged polynomial increments. Still switch mechanisms if the full prefix disproves them.",
+    "recurrences": "Prioritize affine and second-order recurrences, including periodic coefficients or biases. Check every transition exactly.",
+    "streams": "Prioritize interleaved streams, lagged subsequences, and growing blocks. Separate phases before extrapolating.",
+    "modular": "Actively test modular affine structure and wrap points, while rejecting modular stories that do not fit every transition.",
+    "simplicity": "Look for the shortest allowed mechanism that explains the whole prefix. Treat a clever partial fit as a failure.",
+    "diversifier": "Seek a materially different allowed mechanism from the obvious first guess, then compare full-prefix fit and extrapolation.",
+    "audit": "Reconstruct the rule and independently replay the visible prefix before calculating the next five terms. Arithmetic reliability is the priority."
+  },
+  "critic": {
+    "falsify": "Try to break each candidate against the full prefix. Reject any arithmetic error, unsupported phase, or overfit before choosing or repairing an answer.",
+    "alternate": "Search for an allowed mechanism the proposal pool may have missed. Prefer a new answer only when it fits the full prefix more convincingly.",
+    "arithmetic": "Audit the leading candidates transition by transition and recompute their five predicted terms. Focus on silent arithmetic mistakes.",
+    "consensus_skeptic": "Treat popularity as weak evidence. Find whether a minority candidate has a stronger exact mechanism, but do not change answers merely to be different."
+  },
+  "revision": {
+    "repair": "Select the strongest proposal for each case, identify its weakest step, and repair it only when a complete allowed mechanism supports the change.",
+    "reframe": "Re-solve disputed cases from a different representation such as phases, differences, or subsequences. Preserve strong proposals when reframing adds no evidence.",
+    "pairwise": "Compare the two strongest distinct answers directly. Decide which mechanism reproduces every visible term, then return the repaired winner."
+  },
+  "verifier": {
+    "prefix_replay": "Independently replay each candidate mechanism across the complete visible prefix and recommend the answer with the strongest exact fit.",
+    "forward_check": "Recompute the continuation from the inferred mechanism. Prefer stable derivations and penalize unsupported jumps or fragile pattern matching.",
+    "minority_check": "Examine the best minority answer as seriously as the plurality answer, then select only on full-prefix mathematical support.",
+    "robustness": "Choose the answer that survives arithmetic checking and plausible alternative mechanisms. Do not reward confidence by itself."
+  },
+  "judge": {
+    "plurality_preserving": "Use proposal plurality as the default. Override it only when later evidence identifies a concrete full-prefix or arithmetic failure and supports a complete alternative.",
+    "evidence_weighted": "Select the answer backed by the clearest complete mechanism and independent checks. Popularity and confidence are secondary evidence.",
+    "minority_aware": "Compare the plurality with the strongest coherent minority. Change the plurality only when the minority has decisively better full-prefix support.",
+    "robustness_first": "Choose the answer that survives the most independent falsification and verification. Avoid novel alternatives that were not fully reconstructed."
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "bootstrap": {
+    "method": "paired case bootstrap stratified within block; percentile interval",
+    "replicates": 5000,
+    "seed": 20260713
+  },
+  "fitness_definition": "lexicographic max: exact_cases, -harmful_overrides, term_correct, format_valid, then canonical genome hash",
+  "genome_scores": [
+    {
+      "case_count": 12,
+      "exact_cases": 9,
+      "exact_correct": 9,
+      "fitness_key_without_hash": [
+        9,
+        0,
+        45,
+        12
+      ],
+      "format_valid": 12,
+      "genome_id": "G-1407BDDB752D",
+      "harmful_overrides": 0,
+      "term_correct": 45,
+      "term_count": 60
+    },
+    {
+      "case_count": 12,
+      "exact_cases": 9,
+      "exact_correct": 9,
+      "fitness_key_without_hash": [
+        9,
+        0,
+        48,
+        12
+      ],
+      "format_valid": 12,
+      "genome_id": "G-236ED23A587B",
+      "harmful_overrides": 0,
+      "term_correct": 48,
+      "term_count": 60
+    },
+    {
+      "case_count": 12,
+      "exact_cases": 7,
+      "exact_correct": 7,
+      "fitness_key_without_hash": [
+        7,
+        0,
+        38,
+        12
+      ],
+      "format_valid": 12,
+      "genome_id": "G-264C5E480510",
+      "harmful_overrides": 0,
+      "term_correct": 38,
+      "term_count": 60
+    },
+    {
+      "case_count": 12,
+      "exact_cases": 7,
+      "exact_correct": 7,
+      "fitness_key_without_hash": [
+        7,
+        0,
+        39,
+        12
+      ],
+      "format_valid": 12,
+      "genome_id": "G-52E910BC671D",
+      "harmful_overrides": 0,
+      "term_correct": 39,
+      "term_count": 60
+    },
+    {
+      "case_count": 12,
+      "exact_cases": 4,
+      "exact_correct": 4,
+      "fitness_key_without_hash": [
+        4,
+        -2,
+        28,
+        12
+      ],
+      "format_valid": 12,
+      "genome_id": "G-6F23EB184B37",
+      "harmful_overrides": 2,
+      "term_correct": 28,
+      "term_count": 60
+    },
+    {
+      "case_count": 12,
+      "exact_cases": 7,
+      "exact_correct": 7,
+      "fitness_key_without_hash": [
+        7,
+        -1,
+        43,
+        12
+      ],
+      "format_valid": 12,
+      "genome_id": "G-A23A4824383F",
+      "harmful_overrides": 1,
+      "term_correct": 43,
+      "term_count": 60
+    }
+  ],
+  "inputs": {
+    "answers_sha256": "ce5a05b79b9ebfb1eb629df35d6a1e5f4929ae8e98949e418393acb163b05601",
+    "completed_jobs": 720,
+    "predictions_sha256": "bba3042c75e1fc4de55ca61ed2ce58ee53d6f8b5da6de4d23ef6493fa4ee767e"
+  },
+  "methods": {
+    "G-1407BDDB752D": {
+      "calls": 10,
+      "case_count": 12,
+      "completed_calls": 10,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.75,
+      "exact_cases": 9,
+      "exact_ci95": [
+        0.5,
+        1.0
+      ],
+      "fitness_key_without_hash": [
+        9,
+        0,
+        45,
+        12
+      ],
+      "fitness_order": "lexicographic max: exact_cases, -harmful_overrides, term_correct, format_valid; canonical genome hash is the final external tie-break",
+      "format_rate": 1.0,
+      "format_valid": 12,
+      "harmful_overrides": 0,
+      "input_tokens": 135875.0,
+      "latency_ms": 616383.0,
+      "malformed_calls": 0,
+      "n": 12,
+      "output_tokens": 31704.0,
+      "overrides": 4,
+      "term_accuracy": 0.75,
+      "term_ci95": [
+        0.5,
+        1.0
+      ],
+      "term_correct": 45,
+      "term_count": 60,
+      "useful_overrides": 1
+    },
+    "G-236ED23A587B": {
+      "calls": 10,
+      "case_count": 12,
+      "completed_calls": 10,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.75,
+      "exact_cases": 9,
+      "exact_ci95": [
+        0.5,
+        1.0
+      ],
+      "fitness_key_without_hash": [
+        9,
+        0,
+        48,
+        12
+      ],
+      "fitness_order": "lexicographic max: exact_cases, -harmful_overrides, term_correct, format_valid; canonical genome hash is the final external tie-break",
+      "format_rate": 1.0,
+      "format_valid": 12,
+      "harmful_overrides": 0,
+      "input_tokens": 125830.0,
+      "latency_ms": 640563.0,
+      "malformed_calls": 0,
+      "n": 12,
+      "output_tokens": 32057.0,
+      "overrides": 6,
+      "term_accuracy": 0.7999999999999999,
+      "term_ci95": [
+        0.5499999999999999,
+        1.0
+      ],
+      "term_correct": 48,
+      "term_count": 60,
+      "useful_overrides": 3
+    },
+    "G-264C5E480510": {
+      "calls": 10,
+      "case_count": 12,
+      "completed_calls": 10,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.5833333333333334,
+      "exact_cases": 7,
+      "exact_ci95": [
+        0.3333333333333333,
+        0.8333333333333334
+      ],
+      "fitness_key_without_hash": [
+        7,
+        0,
+        38,
+        12
+      ],
+      "fitness_order": "lexicographic max: exact_cases, -harmful_overrides, term_correct, format_valid; canonical genome hash is the final external tie-break",
+      "format_rate": 1.0,
+      "format_valid": 12,
+      "harmful_overrides": 0,
+      "input_tokens": 135502.0,
+      "latency_ms": 571134.0,
+      "malformed_calls": 0,
+      "n": 12,
+      "output_tokens": 28092.0,
+      "overrides": 5,
+      "term_accuracy": 0.6333333333333333,
+      "term_ci95": [
+        0.3833333333333333,
+        0.8833333333333333
+      ],
+      "term_correct": 38,
+      "term_count": 60,
+      "useful_overrides": 3
+    },
+    "G-52E910BC671D": {
+      "calls": 10,
+      "case_count": 12,
+      "completed_calls": 10,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.5833333333333334,
+      "exact_cases": 7,
+      "exact_ci95": [
+        0.3333333333333333,
+        0.8333333333333334
+      ],
+      "fitness_key_without_hash": [
+        7,
+        0,
+        39,
+        12
+      ],
+      "fitness_order": "lexicographic max: exact_cases, -harmful_overrides, term_correct, format_valid; canonical genome hash is the final external tie-break",
+      "format_rate": 1.0,
+      "format_valid": 12,
+      "harmful_overrides": 0,
+      "input_tokens": 141970.0,
+      "latency_ms": 509179.0,
+      "malformed_calls": 0,
+      "n": 12,
+      "output_tokens": 25770.0,
+      "overrides": 3,
+      "term_accuracy": 0.65,
+      "term_ci95": [
+        0.39999999999999997,
+        0.9
+      ],
+      "term_correct": 39,
+      "term_count": 60,
+      "useful_overrides": 2
+    },
+    "G-6F23EB184B37": {
+      "calls": 10,
+      "case_count": 12,
+      "completed_calls": 10,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.3333333333333333,
+      "exact_cases": 4,
+      "exact_ci95": [
+        0.08333333333333333,
+        0.5833333333333334
+      ],
+      "fitness_key_without_hash": [
+        4,
+        -2,
+        28,
+        12
+      ],
+      "fitness_order": "lexicographic max: exact_cases, -harmful_overrides, term_correct, format_valid; canonical genome hash is the final external tie-break",
+      "format_rate": 1.0,
+      "format_valid": 12,
+      "harmful_overrides": 2,
+      "input_tokens": 125809.0,
+      "latency_ms": 635381.0,
+      "malformed_calls": 0,
+      "n": 12,
+      "output_tokens": 32467.0,
+      "overrides": 6,
+      "term_accuracy": 0.4666666666666666,
+      "term_ci95": [
+        0.21666666666666667,
+        0.7166666666666667
+      ],
+      "term_correct": 28,
+      "term_count": 60,
+      "useful_overrides": 1
+    },
+    "G-A23A4824383F": {
+      "calls": 10,
+      "case_count": 12,
+      "completed_calls": 10,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.5833333333333334,
+      "exact_cases": 7,
+      "exact_ci95": [
+        0.3333333333333333,
+        0.8333333333333334
+      ],
+      "fitness_key_without_hash": [
+        7,
+        -1,
+        43,
+        12
+      ],
+      "fitness_order": "lexicographic max: exact_cases, -harmful_overrides, term_correct, format_valid; canonical genome hash is the final external tie-break",
+      "format_rate": 1.0,
+      "format_valid": 12,
+      "harmful_overrides": 1,
+      "input_tokens": 135490.0,
+      "latency_ms": 602372.0,
+      "malformed_calls": 0,
+      "n": 12,
+      "output_tokens": 30587.0,
+      "overrides": 5,
+      "term_accuracy": 0.7166666666666667,
+      "term_ci95": [
+        0.4666666666666666,
+        0.9500000000000001
+      ],
+      "term_correct": 43,
+      "term_count": 60,
+      "useful_overrides": 3
+    }
+  },
+  "n_cases": 12,
+  "schema_version": "experiment-03-score-v1",
+  "scores": [
+    {
+      "case_count": 12,
+      "exact_cases": 9,
+      "exact_correct": 9,
+      "fitness_key_without_hash": [
+        9,
+        0,
+        45,
+        12
+      ],
+      "format_valid": 12,
+      "genome_id": "G-1407BDDB752D",
+      "harmful_overrides": 0,
+      "term_correct": 45,
+      "term_count": 60
+    },
+    {
+      "case_count": 12,
+      "exact_cases": 9,
+      "exact_correct": 9,
+      "fitness_key_without_hash": [
+        9,
+        0,
+        48,
+        12
+      ],
+      "format_valid": 12,
+      "genome_id": "G-236ED23A587B",
+      "harmful_overrides": 0,
+      "term_correct": 48,
+      "term_count": 60
+    },
+    {
+      "case_count": 12,
+      "exact_cases": 7,
+      "exact_correct": 7,
+      "fitness_key_without_hash": [
+        7,
+        0,
+        38,
+        12
+      ],
+      "format_valid": 12,
+      "genome_id": "G-264C5E480510",
+      "harmful_overrides": 0,
+      "term_correct": 38,
+      "term_count": 60
+    },
+    {
+      "case_count": 12,
+      "exact_cases": 7,
+      "exact_correct": 7,
+      "fitness_key_without_hash": [
+        7,
+        0,
+        39,
+        12
+      ],
+      "format_valid": 12,
+      "genome_id": "G-52E910BC671D",
+      "harmful_overrides": 0,
+      "term_correct": 39,
+      "term_count": 60
+    },
+    {
+      "case_count": 12,
+      "exact_cases": 4,
+      "exact_correct": 4,
+      "fitness_key_without_hash": [
+        4,
+        -2,
+        28,
+        12
+      ],
+      "format_valid": 12,
+      "genome_id": "G-6F23EB184B37",
+      "harmful_overrides": 2,
+      "term_correct": 28,
+      "term_count": 60
+    },
+    {
+      "case_count": 12,
+      "exact_cases": 7,
+      "exact_correct": 7,
+      "fitness_key_without_hash": [
+        7,
+        -1,
+        43,
+        12
+      ],
+      "format_valid": 12,
+      "genome_id": "G-A23A4824383F",
+      "harmful_overrides": 1,
+      "term_correct": 43,
+      "term_count": 60
+    }
+  ]
+}

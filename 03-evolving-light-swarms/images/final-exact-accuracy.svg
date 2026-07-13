@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="680" viewBox="0 0 1100 680" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Final exact accuracy with 95% intervals</title>
+<desc id="chart-desc">Four final methods evaluated on the same 48 hidden cases.</desc>
+<metadata>source-digest:79b06ba1cfbd6cdcdcbc1dcf2e44e1c675ff4f35a8aad28c103a6e454a91c314</metadata>
+<style>text{font-family:Inter,Arial,sans-serif;fill:#17212B}.title{font-size:25px;font-weight:700}.subtitle{font-size:13px;fill:#4B5563}.axis{font-size:12px;fill:#374151}.label{font-size:13px;font-weight:600}.value{font-size:12px;font-weight:700}.note{font-size:11px;fill:#59636E}.small{font-size:10px;fill:#59636E}.legend{font-size:12px;font-weight:600}</style>
+<rect width="1100" height="680" fill="#FFFFFF"/>
+<text x="52.00" y="44.00" class="title" text-anchor="start" >Final exact accuracy</text>
+<text x="52.00" y="69.00" class="subtitle" text-anchor="start" >Same 48 hidden final cases; bars show paired-sample accuracy and percentile 95% intervals</text>
+<text x="52.00" y="662.00" class="note" text-anchor="start" >Source: results/final/summary.json</text>
+<line x1="110.00" y1="535.00" x2="1040.00" y2="535.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="98.00" y="539.00" class="axis" text-anchor="end" >0.0%</text>
+<line x1="110.00" y1="453.00" x2="1040.00" y2="453.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="98.00" y="457.00" class="axis" text-anchor="end" >20.0%</text>
+<line x1="110.00" y1="371.00" x2="1040.00" y2="371.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="98.00" y="375.00" class="axis" text-anchor="end" >40.0%</text>
+<line x1="110.00" y1="289.00" x2="1040.00" y2="289.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="98.00" y="293.00" class="axis" text-anchor="end" >60.0%</text>
+<line x1="110.00" y1="207.00" x2="1040.00" y2="207.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="98.00" y="211.00" class="axis" text-anchor="end" >80.0%</text>
+<line x1="110.00" y1="125.00" x2="1040.00" y2="125.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="98.00" y="129.00" class="axis" text-anchor="end" >100.0%</text>
+<line x1="110.00" y1="125.00" x2="110.00" y2="535.00" stroke="#17212B" stroke-width="1.2"/>
+<line x1="110.00" y1="535.00" x2="1040.00" y2="535.00" stroke="#17212B" stroke-width="1.2"/>
+<text x="40.00" y="330.00" class="axis" text-anchor="middle" transform="rotate(-90 40.00 330.00)">Exact accuracy</text>
+<rect x="180.25" y="381.25" width="92.00" height="153.75" fill="#6B7280" rx="4"/>
+<line x1="226.25" y1="330.00" x2="226.25" y2="432.50" stroke="#17212B" stroke-width="2.5"/>
+<line x1="213.25" y1="330.00" x2="239.25" y2="330.00" stroke="#17212B" stroke-width="2.5"/>
+<line x1="213.25" y1="432.50" x2="239.25" y2="432.50" stroke="#17212B" stroke-width="2.5"/>
+<circle cx="226.25" cy="381.25" r="5.00" fill="#17212B"/>
+<text x="226.25" y="319.00" class="value" text-anchor="middle" >37.5%</text>
+<text x="226.25" y="561.00" class="label" text-anchor="middle" >Generalist Vote10</text>
+<text x="226.25" y="580.00" class="small" text-anchor="middle" >Vote10</text>
+<text x="226.25" y="599.00" class="note" text-anchor="middle" >18/48 exact</text>
+<rect x="412.75" y="364.17" width="92.00" height="170.83" fill="#56B4E9" rx="4"/>
+<line x1="458.75" y1="312.92" x2="458.75" y2="415.42" stroke="#17212B" stroke-width="2.5"/>
+<line x1="445.75" y1="312.92" x2="471.75" y2="312.92" stroke="#17212B" stroke-width="2.5"/>
+<line x1="445.75" y1="415.42" x2="471.75" y2="415.42" stroke="#17212B" stroke-width="2.5"/>
+<circle cx="458.75" cy="364.17" r="5.00" fill="#17212B"/>
+<text x="458.75" y="301.92" class="value" text-anchor="middle" >41.7%</text>
+<text x="458.75" y="561.00" class="label" text-anchor="middle" >Fixed Swarm10</text>
+<text x="458.75" y="580.00" class="small" text-anchor="middle" >FIXED-SWARM10</text>
+<text x="458.75" y="599.00" class="note" text-anchor="middle" >20/48 exact</text>
+<rect x="645.25" y="347.08" width="92.00" height="187.92" fill="#E69F00" rx="4"/>
+<line x1="691.25" y1="295.83" x2="691.25" y2="398.33" stroke="#17212B" stroke-width="2.5"/>
+<line x1="678.25" y1="295.83" x2="704.25" y2="295.83" stroke="#17212B" stroke-width="2.5"/>
+<line x1="678.25" y1="398.33" x2="704.25" y2="398.33" stroke="#17212B" stroke-width="2.5"/>
+<circle cx="691.25" cy="347.08" r="5.00" fill="#17212B"/>
+<text x="691.25" y="284.83" class="value" text-anchor="middle" >45.8%</text>
+<text x="691.25" y="561.00" class="label" text-anchor="middle" >Best founder</text>
+<text x="691.25" y="580.00" class="small" text-anchor="middle" >G-498E470E7808</text>
+<text x="691.25" y="599.00" class="note" text-anchor="middle" >22/48 exact</text>
+<rect x="877.75" y="355.62" width="92.00" height="179.38" fill="#009E73" rx="4"/>
+<line x1="923.75" y1="304.38" x2="923.75" y2="406.88" stroke="#17212B" stroke-width="2.5"/>
+<line x1="910.75" y1="304.38" x2="936.75" y2="304.38" stroke="#17212B" stroke-width="2.5"/>
+<line x1="910.75" y1="406.88" x2="936.75" y2="406.88" stroke="#17212B" stroke-width="2.5"/>
+<circle cx="923.75" cy="355.62" r="5.00" fill="#17212B"/>
+<text x="923.75" y="293.38" class="value" text-anchor="middle" >43.8%</text>
+<text x="923.75" y="561.00" class="label" text-anchor="middle" >Evolved champion</text>
+<text x="923.75" y="580.00" class="small" text-anchor="middle" >G-1407BDDB752D</text>
+<text x="923.75" y="599.00" class="note" text-anchor="middle" >21/48 exact</text>
+<text x="1040.00" y="101.00" class="note" text-anchor="end" >Intervals reflect case uncertainty, not independent method samples.</text>
+</svg>

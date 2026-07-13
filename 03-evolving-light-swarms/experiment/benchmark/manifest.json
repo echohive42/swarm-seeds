@@ -1,0 +1,104 @@
+{
+  "ambiguity_policy": "all recognized full-prefix DSL candidates must predict one identical next-five tuple",
+  "benchmark_id": "ruleweave-5-evolution-v1",
+  "checksums": {
+    "README.md": "60ae69f25d2e3f2ecc5be72bf1a0b9559d1f840a666f1354e4893993e0dcbbcd",
+    "hidden/final_answers.jsonl": "c93636e410e5db1ea73537bc4cef430e459dc7da8108c3776d4454b62705c652",
+    "hidden/generation_receipt.json": "7a39ff0094662c882c5ecc56624d5b2501aa1cb9d946f30ed831979d73b34bcf",
+    "hidden/recognizer_audit.json": "518d3c72b0619a20cf4d20e824759de35a0fa3e502a0d6828af88a791665ba2d",
+    "hidden/training_answers.jsonl": "ce5a05b79b9ebfb1eb629df35d6a1e5f4929ae8e98949e418393acb163b05601",
+    "hidden/validation_answers.jsonl": "644a96ffc6d397b3d72d6bd284ab004427625017fa89766d8b644e7a836990c9",
+    "public/final_B01.json": "c5de5033cb3c353c4ef002538760be1ff1684cca3a02be8d6138bfc810b69577",
+    "public/final_B02.json": "1019faa58f5f42d81b416634ef389219ac271bdb44669178872c01f146775d0d",
+    "public/final_B03.json": "ea9061cab33bf18e7162d3271df01a30c96f6c1e204e6ec01ddc80a6085df6f5",
+    "public/final_B04.json": "158b3154ee2acbb4af0eeca688d3789c365752487040adfb2f0b7cd46585a3ec",
+    "public/final_blocks.json": "2d1c30c6b54196e5966e9489ec1bf8fb5608914c6485a88764eafed942fc13be",
+    "public/final_cases.jsonl": "b64e8d796a6fd13e09b6ab1fd4570f3ac39e2dfcf7e6240b9cded8fa175e4f25",
+    "public/training_block.json": "5c8c3b8a491ad99725de1da541cc0b39a526a5ea0ebb4949ff8f2d15457bd3e4",
+    "public/training_cases.jsonl": "848ce55d59f9514f1a518f4f1ff0d277a6657b58a2faac506fca5a0c85680308",
+    "public/validation_B01.json": "2350fa223e1bb0aeb839b26fe383f6dce7ea82028bdba1408f00e39de1f0d7dc",
+    "public/validation_B02.json": "a375199a6286f8e42405023175f3127ccf8a837ba9225bd9ce5643976506f19e",
+    "public/validation_blocks.json": "fc5ae5c7eea49ba9aff0b25aac7275ed7034402c5424344f17cf761867a7689a",
+    "public/validation_cases.jsonl": "35b02425378785da5c444c1112c24a14bfdc2187959bbb9b6a661a3542152bdc"
+  },
+  "families": [
+    "POLY",
+    "PDELTA",
+    "AFFINE",
+    "LIN2",
+    "LAGPOLY",
+    "INTERLEAVE",
+    "GROWBLOCK",
+    "MODAFFINE"
+  ],
+  "final_12_case_block_tier_counts": [
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    }
+  ],
+  "final_cases_per_family_tier_cell": 2,
+  "final_family_counts": {
+    "AFFINE": 6,
+    "GROWBLOCK": 6,
+    "INTERLEAVE": 6,
+    "LAGPOLY": 6,
+    "LIN2": 6,
+    "MODAFFINE": 6,
+    "PDELTA": 6,
+    "POLY": 6
+  },
+  "final_tier_counts": {
+    "hard": 16,
+    "stress": 16,
+    "very-hard": 16
+  },
+  "integer_policy": {
+    "intermediate_max_abs": "1000000000000000",
+    "public_encoding": "signed decimal strings",
+    "reference_arithmetic": "Python arbitrary-precision integers",
+    "target_max_abs": "1000000000000",
+    "visible_max_abs": "1000000000"
+  },
+  "provider_reasoning_setting_for_light": "low",
+  "public_reasoning_labels": [
+    "light"
+  ],
+  "root_seed_sha256": "6d3eb7fd6ed250aa554374e51713c9e92569eba3e95b48524540166c8964febf",
+  "schema_scope": "RuleWeave benchmark manifest only; experiment packets and outputs use schema 3.0",
+  "schema_version": "1.0",
+  "splits": {
+    "final": 48,
+    "training": 12,
+    "validation": 24
+  },
+  "target_terms": 5,
+  "task": "continue each integer sequence with exactly five terms",
+  "tiers": [
+    "hard",
+    "very-hard",
+    "stress"
+  ],
+  "validation_cases_per_family_tier_cell": 1,
+  "visible_terms": {
+    "hard": 12,
+    "stress": 14,
+    "very-hard": 13
+  }
+}

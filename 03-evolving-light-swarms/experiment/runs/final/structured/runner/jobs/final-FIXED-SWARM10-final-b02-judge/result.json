@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "-78",
+          "-20",
+          "27",
+          "-105",
+          "44"
+        ],
+        "case_id": "F013",
+        "check_summary": "Plurality-supported three-stream interleave matches the full prefix and continuation.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-70",
+          "-57",
+          "-44",
+          "-31",
+          "-18"
+        ],
+        "case_id": "F014",
+        "check_summary": "The final growing arithmetic block continues with step 13.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-48",
+          "-27",
+          "-6",
+          "15",
+          "36"
+        ],
+        "case_id": "F015",
+        "check_summary": "The next growing arithmetic block starts at -48 and uses step 21.",
+        "confidence": 0.93,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "21",
+          "41",
+          "20",
+          "26",
+          "49"
+        ],
+        "case_id": "F016",
+        "check_summary": "Plurality-supported phase-dependent affine continuation.",
+        "confidence": 0.31,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "310",
+          "72",
+          "-126",
+          "-618",
+          "166"
+        ],
+        "case_id": "F017",
+        "check_summary": "Three interleaved streams provide the strongest full-prefix fit.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-12",
+          "89",
+          "-35",
+          "116",
+          "-64"
+        ],
+        "case_id": "F018",
+        "check_summary": "Plurality-supported periodic modular-affine continuation; evidence remains low-confidence.",
+        "confidence": 0.18,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "62",
+          "-23",
+          "88",
+          "41",
+          "118"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd stream has increasing even increments; even stream has alternating signed powers-of-two increments.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-44",
+          "46",
+          "27",
+          "-66",
+          "69"
+        ],
+        "case_id": "F020",
+        "check_summary": "Three interleaved phase streams consistently replay the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-34",
+          "-39",
+          "-28",
+          "-33",
+          "-38"
+        ],
+        "case_id": "F021",
+        "check_summary": "Five lagged subsequences continue with the next decrement of 10.",
+        "confidence": 0.95,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-19",
+          "91",
+          "-48",
+          "114",
+          "-79"
+        ],
+        "case_id": "F022",
+        "check_summary": "Plurality-supported periodic modular-affine continuation; evidence is underdetermined.",
+        "confidence": 0.16,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "14",
+          "-6",
+          "15",
+          "-8",
+          "16"
+        ],
+        "case_id": "F023",
+        "check_summary": "Odd-position stream increases by 1 and even-position stream decreases by 2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "114",
+          "98",
+          "-171",
+          "151",
+          "169"
+        ],
+        "case_id": "F024",
+        "check_summary": "Plurality-supported three-stream polynomial interleave matches the irregular prefix.",
+        "confidence": 0.85,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-FIXED-SWARM10-final-b02-judge",
+  "outcome": "valid_output",
+  "response_sha256": "e149b21596a992ffab3d23a1e45fb319b7be85884450098c72b3fdf596cd4809",
+  "terminal_artifact_relpath": "jobs/final-FIXED-SWARM10-final-b02-judge/attempt-01"
+}

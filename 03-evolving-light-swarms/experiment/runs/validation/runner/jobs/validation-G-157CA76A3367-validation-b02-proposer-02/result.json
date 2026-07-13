@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-16387",
+          "-32771",
+          "-65539",
+          "-131075",
+          "-262147"
+        ],
+        "case_id": "V13",
+        "check_summary": "Matches constant affine update x'=2x+3.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "413241",
+          "1239718",
+          "-2479431",
+          "-7438298",
+          "14876561"
+        ],
+        "case_id": "V14",
+        "check_summary": "Matches alternating affine phases.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "302",
+          "68",
+          "-736",
+          "804",
+          "-116"
+        ],
+        "case_id": "V15",
+        "check_summary": "Matches three interleaved cubic streams.",
+        "confidence": 0.58,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "446609",
+          "-893213",
+          "2679639",
+          "-5359287",
+          "10718579"
+        ],
+        "case_id": "V16",
+        "check_summary": "Matches repeating three-phase affine transformations.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-370",
+          "745",
+          "-1496",
+          "2997",
+          "-6000"
+        ],
+        "case_id": "V17",
+        "check_summary": "Consistent with repeating phase affine structure.",
+        "confidence": 0.45,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-895",
+          "-1097",
+          "-1308",
+          "-1522",
+          "-1734"
+        ],
+        "case_id": "V18",
+        "check_summary": "Finite differences follow polynomial third-difference continuation.",
+        "confidence": 0.94,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "52",
+          "-12",
+          "-31",
+          "15",
+          "3"
+        ],
+        "case_id": "V19",
+        "check_summary": "Periodic delta phases extrapolated polynomially.",
+        "confidence": 0.52,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "52",
+          "445",
+          "73",
+          "893",
+          "94"
+        ],
+        "case_id": "V20",
+        "check_summary": "Matches two interleaved streams; odd stream continuation is polynomial.",
+        "confidence": 0.81,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16",
+          "29",
+          "-18",
+          "32",
+          "-20"
+        ],
+        "case_id": "V21",
+        "check_summary": "Even and odd positions are separate arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "49",
+          "87",
+          "135",
+          "194",
+          "264"
+        ],
+        "case_id": "V22",
+        "check_summary": "Second differences increase linearly.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "564",
+          "641",
+          "725",
+          "811",
+          "904"
+        ],
+        "case_id": "V23",
+        "check_summary": "Alternating first-difference increments continue.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-49",
+          "-61",
+          "-64",
+          "-73",
+          "-73"
+        ],
+        "case_id": "V24",
+        "check_summary": "Periodic difference structure continued.",
+        "confidence": 0.35,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "validation-G-157CA76A3367-validation-b02-proposer-02",
+  "outcome": "valid_output",
+  "response_sha256": "03bc29c53329d8ad718c633d8226229fd81d1817435f4cb2502162f6bd48742a",
+  "terminal_artifact_relpath": "jobs/validation-G-157CA76A3367-validation-b02-proposer-02/attempt-01"
+}

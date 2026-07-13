@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "7631",
+          "11538",
+          "16807",
+          "23750",
+          "32722"
+        ],
+        "case_id": "F025",
+        "check_summary": "Replay matches a degree-5 polynomial with constant fifth difference 3.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-19933087",
+          "59799266",
+          "-179397805",
+          "-358795615",
+          "1076386850"
+        ],
+        "case_id": "F026",
+        "check_summary": "Replay matches a period-3 affine update.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-25943",
+          "51881",
+          "-103767",
+          "207529",
+          "-415063"
+        ],
+        "case_id": "F027",
+        "check_summary": "Replay matches x_next=-2x-5.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "382",
+          "615",
+          "992",
+          "1602",
+          "2589"
+        ],
+        "case_id": "F028",
+        "check_summary": "Successive differences are Fibonacci numbers.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-28",
+          "-30",
+          "-35",
+          "-37",
+          "-42"
+        ],
+        "case_id": "F029",
+        "check_summary": "Differences repeat -2,-5.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "2837",
+          "4443",
+          "6231",
+          "8619",
+          "11967"
+        ],
+        "case_id": "F030",
+        "check_summary": "Continuation inferred from the interleaved stream structure.",
+        "confidence": 0.35,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3",
+          "37",
+          "4",
+          "57",
+          "13"
+        ],
+        "case_id": "F031",
+        "check_summary": "Odd and even subsequences each have quadratic structure.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "89",
+          "123",
+          "157",
+          "191",
+          "225"
+        ],
+        "case_id": "F032",
+        "check_summary": "Continuation inferred from periodic lagged increments.",
+        "confidence": 0.3,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-7201",
+          "-11669",
+          "-18909",
+          "-30641",
+          "-49600"
+        ],
+        "case_id": "F033",
+        "check_summary": "Continuation inferred from the dominant lagged growth pattern.",
+        "confidence": 0.25,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "3923",
+          "5074",
+          "6544",
+          "8386",
+          "10657"
+        ],
+        "case_id": "F034",
+        "check_summary": "Replay matches a degree-4 polynomial with constant fourth difference 4.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "79978",
+          "239933",
+          "-479870",
+          "-1439611",
+          "2879218"
+        ],
+        "case_id": "F035",
+        "check_summary": "Replay matches a period-3 affine update.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-386",
+          "-492",
+          "-620",
+          "-772",
+          "-950"
+        ],
+        "case_id": "F036",
+        "check_summary": "Second differences decrease by 2 periodically, yielding quadratic continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-G-1407BDDB752D-final-b03-proposer-01",
+  "outcome": "valid_output",
+  "response_sha256": "8f5f97f875053d3bba97d9821af8f733377d94253e3020a240d032157bac01d1",
+  "terminal_artifact_relpath": "jobs/final-G-1407BDDB752D-final-b03-proposer-01/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "-78",
+          "-20",
+          "27",
+          "-105",
+          "36"
+        ],
+        "case_id": "F013",
+        "check_summary": "Three interleaved streams: +6 arithmetic, quadratic negative differences, and alternating powers-of-two deltas.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "6",
+          "15",
+          "24",
+          "33",
+          "42"
+        ],
+        "case_id": "F014",
+        "check_summary": "Tail is an arithmetic continuation with common difference 9.",
+        "confidence": 0.34,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "53",
+          "71",
+          "-7",
+          "14",
+          "35"
+        ],
+        "case_id": "F015",
+        "check_summary": "Growing blocks have within-block arithmetic steps increasing by 3.",
+        "confidence": 0.58,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "24",
+          "-2",
+          "29",
+          "-11",
+          "34"
+        ],
+        "case_id": "F016",
+        "check_summary": "Estimated phase-interleaved continuation from alternating structured subsequences.",
+        "confidence": 0.22,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-108",
+          "-7",
+          "-42",
+          "-13",
+          "-36"
+        ],
+        "case_id": "F017",
+        "check_summary": "Estimated periodic affine continuation from the irregular prefix.",
+        "confidence": 0.16,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "37",
+          "84",
+          "53",
+          "18",
+          "45"
+        ],
+        "case_id": "F018",
+        "check_summary": "Estimated interleaved continuation from alternating subsequences.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "58",
+          "-23",
+          "78",
+          "41",
+          "100"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd positions increment by 2,6,10,14,18,22; even-position increments double in magnitude with alternating sign.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "27",
+          "-27",
+          "48",
+          "40",
+          "-37"
+        ],
+        "case_id": "F020",
+        "check_summary": "Three phase streams: arithmetic increments 4, quadratic decrements by 5, and quadratic increments by 5.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-33",
+          "-38",
+          "-22",
+          "-27",
+          "-32"
+        ],
+        "case_id": "F021",
+        "check_summary": "Periodic deltas repeat -5,-5,-5 with a phase delta increasing by 5 each block; next positive phase is 16.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "68",
+          "14",
+          "62",
+          "-3",
+          "79"
+        ],
+        "case_id": "F022",
+        "check_summary": "Estimated periodic modular/interleaved continuation.",
+        "confidence": 0.14,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "14",
+          "-6",
+          "15",
+          "-8",
+          "16"
+        ],
+        "case_id": "F023",
+        "check_summary": "Odd positions increase by 1 and even positions decrease by 2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "109",
+          "-110",
+          "121",
+          "-132",
+          "133"
+        ],
+        "case_id": "F024",
+        "check_summary": "Estimated alternating polynomial continuation.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-VOTE10-final-b02-proposer-07",
+  "outcome": "valid_output",
+  "response_sha256": "e06f61aa22bc46a72b12d2ca4e14fdf58dc9b2d3cad33cb20068d079ec631249",
+  "terminal_artifact_relpath": "jobs/final-VOTE10-final-b02-proposer-07/attempt-01"
+}

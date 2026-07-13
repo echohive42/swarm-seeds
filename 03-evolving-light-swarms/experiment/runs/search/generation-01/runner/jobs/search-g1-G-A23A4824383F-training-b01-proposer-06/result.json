@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Odd and even positions are separate arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved linear streams."
+      },
+      {
+        "answer": [
+          "16",
+          "13",
+          "-3",
+          "18",
+          "-1"
+        ],
+        "case_id": "T02",
+        "check_summary": "Periodic delta structure with repeated negative phase changes.",
+        "confidence": 0.45,
+        "rule_summary": "Periodic polynomial-delta update."
+      },
+      {
+        "answer": [
+          "-84",
+          "-84",
+          "-66",
+          "-120",
+          "-30"
+        ],
+        "case_id": "T03",
+        "check_summary": "Phase-separated continuation inferred from lagged polynomial streams.",
+        "confidence": 0.35,
+        "rule_summary": "Lagged/interleaved polynomial mechanism."
+      },
+      {
+        "answer": [
+          "-791740",
+          "1583478",
+          "395867",
+          "-9500860",
+          "19001718"
+        ],
+        "case_id": "T04",
+        "check_summary": "Each three-position phase follows x↦12x plus a fixed phase bias.",
+        "confidence": 0.99,
+        "rule_summary": "Three-phase affine update."
+      },
+      {
+        "answer": [
+          "-7074",
+          "-12177",
+          "-19317",
+          "-25758",
+          "-30342"
+        ],
+        "case_id": "T05",
+        "check_summary": "Higher-order phase-dependent polynomial growth continuation.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic polynomial-delta mechanism."
+      },
+      {
+        "answer": [
+          "-3",
+          "65",
+          "38",
+          "5",
+          "11"
+        ],
+        "case_id": "T06",
+        "check_summary": "Four interleaved streams show arithmetic increments increasing by phase.",
+        "confidence": 0.9,
+        "rule_summary": "Four-stream interleaving."
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1722",
+          "-2163",
+          "-2673",
+          "-3257"
+        ],
+        "case_id": "T07",
+        "check_summary": "Successive differences have second differences decreasing by 5.",
+        "confidence": 0.99,
+        "rule_summary": "Cubic polynomial sequence."
+      },
+      {
+        "answer": [
+          "-31",
+          "77",
+          "41",
+          "84",
+          "8"
+        ],
+        "case_id": "T08",
+        "check_summary": "Periodic modular-affine continuation inferred from the full prefix.",
+        "confidence": 0.25,
+        "rule_summary": "Modular affine update."
+      },
+      {
+        "answer": [
+          "-254",
+          "-214",
+          "-311",
+          "-273",
+          "-380"
+        ],
+        "case_id": "T09",
+        "check_summary": "Odd and even subsequences have arithmetic second-difference progressions.",
+        "confidence": 0.98,
+        "rule_summary": "Two interleaved quadratic streams."
+      },
+      {
+        "answer": [
+          "-14",
+          "17",
+          "-44",
+          "22",
+          "-98"
+        ],
+        "case_id": "T10",
+        "check_summary": "Phase-separated polynomial/affine streams continued from observed increments.",
+        "confidence": 0.3,
+        "rule_summary": "Interleaved phase-specific streams."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Each term is twice the previous term minus 1.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence x↦2x−1."
+      },
+      {
+        "answer": [
+          "43684",
+          "87391",
+          "174754",
+          "349537",
+          "699040"
+        ],
+        "case_id": "T12",
+        "check_summary": "Near-doubling periodic affine recurrence with alternating phase biases.",
+        "confidence": 0.4,
+        "rule_summary": "Periodic affine update."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g1-G-A23A4824383F-training-b01-proposer-06",
+  "outcome": "valid_output",
+  "response_sha256": "41e83e85170ddb0934d1f0742a7026c2fd8e4813cecf82c629ecca84d470b5fe",
+  "terminal_artifact_relpath": "jobs/search-g1-G-A23A4824383F-training-b01-proposer-06/attempt-01"
+}

@@ -1,0 +1,116 @@
+{
+  "bootstrap_replicates": 50000,
+  "bootstrap_seed": 20260713,
+  "comparisons": [
+    {
+      "both_correct": 16,
+      "both_wrong": 22,
+      "ci90": [
+        -0.10416666666666667,
+        0.10416666666666667
+      ],
+      "ci95": [
+        -0.125,
+        0.125
+      ],
+      "contrast": "G-1407BDDB752D minus Vote10",
+      "estimate": 0.0,
+      "left": "G-1407BDDB752D",
+      "left_only_wins": 5,
+      "mcnemar": {
+        "discordant": 10,
+        "left_only": 5,
+        "p_value": 1.0,
+        "right_only": 5,
+        "test": "exact two-sided McNemar"
+      },
+      "n": 48,
+      "right": "Vote10",
+      "right_only_wins": 5,
+      "superiority_supported": false
+    },
+    {
+      "both_correct": 18,
+      "both_wrong": 23,
+      "ci90": [
+        -0.10416666666666667,
+        0.0625
+      ],
+      "ci95": [
+        -0.125,
+        0.08333333333333333
+      ],
+      "contrast": "G-1407BDDB752D minus G-498E470E7808",
+      "estimate": -0.020833333333333332,
+      "left": "G-1407BDDB752D",
+      "left_only_wins": 3,
+      "mcnemar": {
+        "discordant": 7,
+        "left_only": 3,
+        "p_value": 1.0,
+        "right_only": 4,
+        "test": "exact two-sided McNemar"
+      },
+      "n": 48,
+      "right": "G-498E470E7808",
+      "right_only_wins": 4,
+      "superiority_supported": false
+    },
+    {
+      "both_correct": 17,
+      "both_wrong": 24,
+      "ci90": [
+        -0.0625,
+        0.10416666666666667
+      ],
+      "ci95": [
+        -0.08333333333333333,
+        0.125
+      ],
+      "contrast": "G-1407BDDB752D minus FIXED-SWARM10",
+      "estimate": 0.020833333333333332,
+      "left": "G-1407BDDB752D",
+      "left_only_wins": 4,
+      "mcnemar": {
+        "discordant": 7,
+        "left_only": 4,
+        "p_value": 1.0,
+        "right_only": 3,
+        "test": "exact two-sided McNemar"
+      },
+      "n": 48,
+      "right": "FIXED-SWARM10",
+      "right_only_wins": 3,
+      "superiority_supported": false
+    }
+  ],
+  "direction": "positive favors final_genome",
+  "primary": {
+    "both_correct": 16,
+    "both_wrong": 22,
+    "ci90": [
+      -0.10416666666666667,
+      0.10416666666666667
+    ],
+    "ci95": [
+      -0.125,
+      0.125
+    ],
+    "contrast": "G-1407BDDB752D minus Vote10",
+    "estimate": 0.0,
+    "left": "G-1407BDDB752D",
+    "left_only_wins": 5,
+    "mcnemar": {
+      "discordant": 10,
+      "left_only": 5,
+      "p_value": 1.0,
+      "right_only": 5,
+      "test": "exact two-sided McNemar"
+    },
+    "n": 48,
+    "right": "Vote10",
+    "right_only_wins": 5,
+    "superiority_supported": false
+  },
+  "schema_version": "experiment-03-score-v1"
+}

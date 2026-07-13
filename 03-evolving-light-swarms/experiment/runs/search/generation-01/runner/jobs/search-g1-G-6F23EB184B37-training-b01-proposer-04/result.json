@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Alternating arithmetic subsequences with common differences +4 and -2.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "27",
+          "24",
+          "21",
+          "41",
+          "38"
+        ],
+        "case_id": "T02",
+        "check_summary": "First differences follow repeating -3,-3, increasing positive jump pattern.",
+        "confidence": 0.9,
+        "rule_summary": "Periodic polynomial delta sequence."
+      },
+      {
+        "answer": [
+          "57",
+          "35",
+          "13",
+          "-9",
+          "-31"
+        ],
+        "case_id": "T03",
+        "check_summary": "Growing blocks of repeated negative deltas separated by polynomial positive jumps.",
+        "confidence": 0.86,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-791740",
+          "1583478",
+          "395867",
+          "-9500860",
+          "19001718"
+        ],
+        "case_id": "T04",
+        "check_summary": "Each residue-class stream has differences multiplied by 12.",
+        "confidence": 0.99,
+        "rule_summary": "Three interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-5170",
+          "-6874",
+          "-8956",
+          "-11480",
+          "-14513"
+        ],
+        "case_id": "T05",
+        "check_summary": "Finite differences indicate a high-degree polynomial continuation.",
+        "confidence": 0.45,
+        "rule_summary": "POLY via finite-difference extrapolation."
+      },
+      {
+        "answer": [
+          "89",
+          "26",
+          "95",
+          "62",
+          "125"
+        ],
+        "case_id": "T06",
+        "check_summary": "Phase-separated lagged streams show polynomial increment continuation.",
+        "confidence": 0.4,
+        "rule_summary": "LAGPOLY."
+      },
+      {
+        "answer": [
+          "-1341",
+          "-1710",
+          "-2139",
+          "-2633",
+          "-3197"
+        ],
+        "case_id": "T07",
+        "check_summary": "Second differences decrease by 5 each step.",
+        "confidence": 0.99,
+        "rule_summary": "POLY with cubic finite-difference structure."
+      },
+      {
+        "answer": [
+          "-17",
+          "-34",
+          "-1",
+          "-10",
+          "-50"
+        ],
+        "case_id": "T08",
+        "check_summary": "Periodic interleaved streams with polynomial/affine continuation.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-225",
+          "-253",
+          "-299",
+          "-332",
+          "-384"
+        ],
+        "case_id": "T09",
+        "check_summary": "Odd and even first-difference subsequences are arithmetic.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved quadratic streams."
+      },
+      {
+        "answer": [
+          "-12",
+          "-44",
+          "29",
+          "-10",
+          "-72"
+        ],
+        "case_id": "T10",
+        "check_summary": "Phase-specific delta continuation inferred from periodic structure.",
+        "confidence": 0.3,
+        "rule_summary": "PDELTA."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Each term follows t(n)=1-2^(n+1).",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE doubling recurrence."
+      },
+      {
+        "answer": [
+          "43684",
+          "87391",
+          "174754",
+          "349537",
+          "699040"
+        ],
+        "case_id": "T12",
+        "check_summary": "Alternating affine recurrence with phase-specific linear bias.",
+        "confidence": 0.94,
+        "rule_summary": "Periodic AFFINE."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g1-G-6F23EB184B37-training-b01-proposer-04",
+  "outcome": "valid_output",
+  "response_sha256": "0bef229d4a5767677f43b15fcad8af55a484a532d6f327b3f28e803f1d4b0d8c",
+  "terminal_artifact_relpath": "jobs/search-g1-G-6F23EB184B37-training-b01-proposer-04/attempt-01"
+}

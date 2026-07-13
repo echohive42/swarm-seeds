@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b01",
+    "results": [
+      {
+        "answer": [
+          "42",
+          "21",
+          "56",
+          "63",
+          "35"
+        ],
+        "case_id": "V01",
+        "check_summary": "Three interleaved arithmetic-quadratic streams replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE with three polynomial streams."
+      },
+      {
+        "answer": [
+          "41",
+          "17",
+          "-16",
+          "22",
+          "-25"
+        ],
+        "case_id": "V02",
+        "check_summary": "Three interleaved polynomial streams reproduce the prefix.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE with three polynomial streams."
+      },
+      {
+        "answer": [
+          "22",
+          "21",
+          "30",
+          "29",
+          "28"
+        ],
+        "case_id": "V03",
+        "check_summary": "Periodic increment pattern is -1 repeated within rising blocks.",
+        "confidence": 0.95,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "26",
+          "-51",
+          "504",
+          "42",
+          "-91"
+        ],
+        "case_id": "V04",
+        "check_summary": "Three phase streams fit polynomial and alternating-affine updates.",
+        "confidence": 0.88,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "1576795",
+          "3806719",
+          "9165261",
+          "22000645",
+          "52802329"
+        ],
+        "case_id": "V05",
+        "check_summary": "Exponential affine growth with a small lag correction matches the prefix.",
+        "confidence": 0.48,
+        "rule_summary": "LIN2."
+      },
+      {
+        "answer": [
+          "13",
+          "5",
+          "19",
+          "9",
+          "2"
+        ],
+        "case_id": "V06",
+        "check_summary": "Prefix is consistent with a periodic modular affine generator.",
+        "confidence": 0.22,
+        "rule_summary": "MODAFFINE modulo 67."
+      },
+      {
+        "answer": [
+          "6363",
+          "9590",
+          "14395",
+          "21598",
+          "32389"
+        ],
+        "case_id": "V07",
+        "check_summary": "Growth is consistent with a second-order recurrence with slowly varying phase bias.",
+        "confidence": 0.3,
+        "rule_summary": "LIN2."
+      },
+      {
+        "answer": [
+          "182",
+          "215",
+          "248",
+          "281",
+          "314"
+        ],
+        "case_id": "V08",
+        "check_summary": "Final visible block has constant step 33; continuation preserves the block pattern.",
+        "confidence": 0.55,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-66",
+          "-70",
+          "-75",
+          "-79",
+          "-84"
+        ],
+        "case_id": "V09",
+        "check_summary": "Differences alternate -5 and -4 throughout the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period 2."
+      },
+      {
+        "answer": [
+          "44",
+          "31",
+          "11",
+          "48",
+          "27"
+        ],
+        "case_id": "V10",
+        "check_summary": "Prefix is consistent with a periodic modular affine sequence.",
+        "confidence": 0.2,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "-31",
+          "-29",
+          "-35",
+          "-27",
+          "-24"
+        ],
+        "case_id": "V11",
+        "check_summary": "Interleaved phase behavior gives a short affine continuation.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-65",
+          "-91",
+          "-117",
+          "-143",
+          "-169"
+        ],
+        "case_id": "V12",
+        "check_summary": "Late-prefix differences suggest a continuing arithmetic phase stream.",
+        "confidence": 0.16,
+        "rule_summary": "PDELTA."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "validation-G-236ED23A587B-validation-b01-proposer-03",
+  "outcome": "valid_output",
+  "response_sha256": "8769603b33595f9a39af21b99dbe0363de6b23fbcda36dab1ecc02d419f559ec",
+  "terminal_artifact_relpath": "jobs/validation-G-236ED23A587B-validation-b01-proposer-03/attempt-01"
+}

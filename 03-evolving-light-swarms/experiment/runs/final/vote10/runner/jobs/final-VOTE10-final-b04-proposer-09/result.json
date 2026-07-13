@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "-7",
+          "41",
+          "2",
+          "-6",
+          "54"
+        ],
+        "case_id": "F037",
+        "check_summary": "Three interleaved streams: arithmetic, quadratic-step, and constant.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-63",
+          "48",
+          "-99",
+          "61",
+          "-147"
+        ],
+        "case_id": "F038",
+        "check_summary": "Best-fit phase-interleaved polynomial streams.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "18",
+          "75",
+          "24",
+          "87",
+          "30"
+        ],
+        "case_id": "F039",
+        "check_summary": "Best-fit periodic interleaving extrapolation.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16",
+          "3",
+          "-18",
+          "2",
+          "-20"
+        ],
+        "case_id": "F040",
+        "check_summary": "Odd positions decrease by 2; even positions decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "27",
+          "44",
+          "29",
+          "51",
+          "36"
+        ],
+        "case_id": "F041",
+        "check_summary": "Best-fit periodic phase recurrence.",
+        "confidence": 0.17,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "24",
+          "65",
+          "106",
+          "147",
+          "188"
+        ],
+        "case_id": "F042",
+        "check_summary": "Growing arithmetic blocks with step increasing by 8 and polynomial reset.",
+        "confidence": 0.73,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "27",
+          "24",
+          "21",
+          "38",
+          "35"
+        ],
+        "case_id": "F043",
+        "check_summary": "Periodic pattern: increasing jump every third transition, with two -3 steps.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "9",
+          "48",
+          "-6",
+          "12",
+          "54"
+        ],
+        "case_id": "F044",
+        "check_summary": "Best-fit phase-interleaved polynomial streams.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "21",
+          "37",
+          "-57",
+          "22",
+          "65"
+        ],
+        "case_id": "F045",
+        "check_summary": "Three lagged streams with polynomial increments.",
+        "confidence": 0.94,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-2",
+          "-2",
+          "-3",
+          "-3",
+          "-4"
+        ],
+        "case_id": "F046",
+        "check_summary": "Best-fit phase-interleaved continuation.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3",
+          "80",
+          "-3",
+          "111",
+          "-3"
+        ],
+        "case_id": "F047",
+        "check_summary": "Odd stream is constant -3; even stream has increments increasing by 5.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-39",
+          "36",
+          "-263",
+          "42",
+          "-507"
+        ],
+        "case_id": "F048",
+        "check_summary": "Best-fit periodic affine/modular continuation.",
+        "confidence": 0.14,
+        "rule_summary": "MODAFFINE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-VOTE10-final-b04-proposer-09",
+  "outcome": "valid_output",
+  "response_sha256": "28d163a1b04eaac724c25b70f4c7d59556b54b1bda50472432f90da39f5fd7ad",
+  "terminal_artifact_relpath": "jobs/final-VOTE10-final-b04-proposer-09/attempt-01"
+}

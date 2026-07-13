@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Alternating arithmetic subsequences replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: two arithmetic streams."
+      },
+      {
+        "answer": [
+          "18",
+          "15",
+          "23",
+          "20",
+          "28"
+        ],
+        "case_id": "T02",
+        "check_summary": "Alternating differences continue as +8,-3.",
+        "confidence": 0.93,
+        "rule_summary": "Periodic delta sequence."
+      },
+      {
+        "answer": [
+          "39",
+          "17",
+          "-5",
+          "-27",
+          "-49"
+        ],
+        "case_id": "T03",
+        "check_summary": "Growing constant-delta blocks with quadratic separators.",
+        "confidence": 0.88,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "121958",
+          "395867",
+          "-791740",
+          "1573478",
+          "4750427"
+        ],
+        "case_id": "T04",
+        "check_summary": "Three interleaved affine streams replay the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE: three affine streams."
+      },
+      {
+        "answer": [
+          "-5577",
+          "-8265",
+          "-12322",
+          "-18254",
+          "-26662"
+        ],
+        "case_id": "T05",
+        "check_summary": "Fifth-difference extrapolation from the terminal difference table.",
+        "confidence": 0.46,
+        "rule_summary": "POLY: degree-five extrapolation."
+      },
+      {
+        "answer": [
+          "44",
+          "5",
+          "15",
+          "83",
+          "65"
+        ],
+        "case_id": "T06",
+        "check_summary": "Four phase subsequences have steadily increasing increments.",
+        "confidence": 0.94,
+        "rule_summary": "INTERLEAVE: four phase arithmetic-polynomial streams."
+      },
+      {
+        "answer": [
+          "-1717",
+          "-2148",
+          "-2643",
+          "-3209",
+          "-3844"
+        ],
+        "case_id": "T07",
+        "check_summary": "Successive differences follow a quadratic progression.",
+        "confidence": 0.98,
+        "rule_summary": "POLY: cubic sequence."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "T08",
+        "check_summary": "Insufficiently resolved from the supplied prefix; placeholder prediction.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved allowed periodic mechanism."
+      },
+      {
+        "answer": [
+          "-225",
+          "-253",
+          "-299",
+          "-332",
+          "-310"
+        ],
+        "case_id": "T09",
+        "check_summary": "Odd and even subsequences have linearly changing differences.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE: two quadratic streams."
+      },
+      {
+        "answer": [
+          "44",
+          "56",
+          "10",
+          "-84",
+          "78"
+        ],
+        "case_id": "T10",
+        "check_summary": "Three interleaved streams: arithmetic, doubling-sign, and quadratic.",
+        "confidence": 0.82,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Each term is twice the previous term minus one.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE."
+      },
+      {
+        "answer": [
+          "43729",
+          "87436",
+          "174901",
+          "349774",
+          "699577"
+        ],
+        "case_id": "T12",
+        "check_summary": "Alternating affine biases continue with odd linear bias magnitudes.",
+        "confidence": 0.91,
+        "rule_summary": "AFFINE: period-two update."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g2-G-8950DC816BAB-training-b01-proposer-03",
+  "outcome": "valid_output",
+  "response_sha256": "c9baed6b7cd9d73e868e2933feb13b90c0cc56d0d629127731a8e2e7a9df5b21",
+  "terminal_artifact_relpath": "jobs/search-g2-G-8950DC816BAB-training-b01-proposer-03/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b01",
+    "results": [
+      {
+        "answer": [
+          "11401",
+          "16695",
+          "23267",
+          "31207",
+          "40612"
+        ],
+        "case_id": "F001",
+        "check_summary": "Finite differences replay the prefix with a fifth-degree continuation.",
+        "confidence": 0.78,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "29",
+          "32",
+          "14",
+          "43",
+          "38"
+        ],
+        "case_id": "F002",
+        "check_summary": "Odd and even subsequences replay as interleaved patterned streams.",
+        "confidence": 0.74,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "97",
+          "88",
+          "121",
+          "111",
+          "151"
+        ],
+        "case_id": "F003",
+        "check_summary": "Phase-specific first differences replay the visible prefix.",
+        "confidence": 0.58,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-69670",
+          "168454",
+          "-408840",
+          "991322",
+          "-2405160"
+        ],
+        "case_id": "F004",
+        "check_summary": "Alternating exponential continuation inferred from the prefix.",
+        "confidence": 0.31,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "1380",
+          "1949",
+          "2674",
+          "3581",
+          "4698"
+        ],
+        "case_id": "F005",
+        "check_summary": "Finite differences replay the polynomial growth pattern.",
+        "confidence": 0.82,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "21",
+          "-27",
+          "23",
+          "-16",
+          "10"
+        ],
+        "case_id": "F006",
+        "check_summary": "Exact six-term periodic replay.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-59360",
+          "-118682",
+          "-237394",
+          "-474753",
+          "-949539"
+        ],
+        "case_id": "F007",
+        "check_summary": "Exact periodic affine biases with multiplier two.",
+        "confidence": 0.93,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "7652753",
+          "22958261",
+          "-68874781",
+          "206624345",
+          "619873037"
+        ],
+        "case_id": "F008",
+        "check_summary": "Repeating signed triplet growth pattern replayed.",
+        "confidence": 0.76,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-37",
+          "-39",
+          "-43",
+          "-45",
+          "-49"
+        ],
+        "case_id": "F009",
+        "check_summary": "Alternating subsequences each decrease arithmetically by four.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "80",
+          "78",
+          "70",
+          "55",
+          "32"
+        ],
+        "case_id": "F010",
+        "check_summary": "Symmetric polynomial first-difference continuation.",
+        "confidence": 0.67,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-4",
+          "12",
+          "-9",
+          "-8",
+          "16"
+        ],
+        "case_id": "F011",
+        "check_summary": "Exact six-term periodic replay.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "23209",
+          "-46423",
+          "92841",
+          "-185687",
+          "371369"
+        ],
+        "case_id": "F012",
+        "check_summary": "Affine recurrence x(n)=-2x(n-1)-5 exactly replays the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-VOTE10-final-b01-proposer-10",
+  "outcome": "valid_output",
+  "response_sha256": "70c790653e00a0b47e91ac8691cbfdf22cadeb94f07a4c1a202fabe4c0c0701f",
+  "terminal_artifact_relpath": "jobs/final-VOTE10-final-b01-proposer-10/attempt-01"
+}

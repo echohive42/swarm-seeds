@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Odd and even positions are arithmetic streams with steps +4 and -2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: two arithmetic streams."
+      },
+      {
+        "answer": [
+          "27",
+          "24",
+          "21",
+          "41",
+          "38"
+        ],
+        "case_id": "T02",
+        "check_summary": "Repeated -3 updates interspersed with positive updates increasing by 3.",
+        "confidence": 0.9,
+        "rule_summary": "PDELTA with periodic negative phase and increasing positive phase."
+      },
+      {
+        "answer": [
+          "39",
+          "17",
+          "-5",
+          "-27",
+          "-49"
+        ],
+        "case_id": "T03",
+        "check_summary": "Growing negative blocks have lengths 1,2,3,4 and deltas -6,-10,-14,-18; positive block starts follow a quadratic pattern.",
+        "confidence": 0.82,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "263918",
+          "-527840",
+          "1055680",
+          "3167043",
+          "-6334096"
+        ],
+        "case_id": "T04",
+        "check_summary": "Alternating large-magnitude affine-like phase behavior extrapolated from the prefix.",
+        "confidence": 0.28,
+        "rule_summary": "AFFINE with repeating phase structure."
+      },
+      {
+        "answer": [
+          "-5920",
+          "-8745",
+          "-12367",
+          "-16914",
+          "-22520"
+        ],
+        "case_id": "T05",
+        "check_summary": "Nonlinear accelerating sequence extrapolated from its higher-order difference trend.",
+        "confidence": 0.2,
+        "rule_summary": "POLY or GROWBLOCK; exact family ambiguous from manual fit."
+      },
+      {
+        "answer": [
+          "38",
+          "5",
+          "3",
+          "65",
+          "23"
+        ],
+        "case_id": "T06",
+        "check_summary": "Four interleaved streams show arithmetic increments increasing by 3, 3, 4, and 3 respectively.",
+        "confidence": 0.83,
+        "rule_summary": "INTERLEAVE: four apparent streams; continuation follows observed phase increments."
+      },
+      {
+        "answer": [
+          "-1331",
+          "-1680",
+          "-2074",
+          "-2513",
+          "-2997"
+        ],
+        "case_id": "T07",
+        "check_summary": "First differences decrease with successive second-difference decrements of 5.",
+        "confidence": 0.98,
+        "rule_summary": "POLY with cubic-like finite differences."
+      },
+      {
+        "answer": [
+          "-8",
+          "31",
+          "88",
+          "17",
+          "50"
+        ],
+        "case_id": "T08",
+        "check_summary": "Irregular modular-looking prefix extrapolated by phase cycling.",
+        "confidence": 0.12,
+        "rule_summary": "MODAFFINE; parameters not uniquely recovered manually."
+      },
+      {
+        "answer": [
+          "-225",
+          "-253",
+          "-293",
+          "-324",
+          "-364"
+        ],
+        "case_id": "T09",
+        "check_summary": "Two interleaved arithmetic-difference streams: odd transitions decline by 6 and even transitions by 5.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE: two polynomial streams."
+      },
+      {
+        "answer": [
+          "8",
+          "44",
+          "56",
+          "10",
+          "-84"
+        ],
+        "case_id": "T10",
+        "check_summary": "Three interleaved streams: +2 arithmetic, doubling with alternating sign pattern, and increments rising by 5.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE: three streams."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Each term follows x_next = 2x - 1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE."
+      },
+      {
+        "answer": [
+          "21853",
+          "43684",
+          "87391",
+          "174754",
+          "349537"
+        ],
+        "case_id": "T12",
+        "check_summary": "After the initial transient, doubling biases occur in paired sequences with magnitudes increasing by 6.",
+        "confidence": 0.86,
+        "rule_summary": "AFFINE with phase-dependent polynomial bias."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g2-G-9C253D688BD7-training-b01-proposer-03",
+  "outcome": "valid_output",
+  "response_sha256": "1e918afcd176ccf05d41b0cdda0d40ab93245137281729be7866a560d8895130",
+  "terminal_artifact_relpath": "jobs/search-g2-G-9C253D688BD7-training-b01-proposer-03/attempt-01"
+}

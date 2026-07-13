@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-16387",
+          "-32771",
+          "-65539",
+          "-131075",
+          "-262147"
+        ],
+        "case_id": "V13",
+        "check_summary": "Fits x'=2x+3 across the full prefix.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "413241",
+          "1239718",
+          "-2479431",
+          "-7438298",
+          "14876601"
+        ],
+        "case_id": "V14",
+        "check_summary": "Alternating updates -2x+5 and 3x-5 fit every transition.",
+        "confidence": 1,
+        "rule_summary": "Periodic AFFINE"
+      },
+      {
+        "answer": [
+          "436",
+          "-204",
+          "-460",
+          "1332",
+          "-1740"
+        ],
+        "case_id": "V15",
+        "check_summary": "Every fourth term satisfies x[n+4]=-4x[n]+4.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE/periodic affine"
+      },
+      {
+        "answer": [
+          "446623",
+          "-1339869",
+          "2679729",
+          "-5359453",
+          "16078359"
+        ],
+        "case_id": "V16",
+        "check_summary": "Repeating phase transforms -2x+5, -3x, -2x-9 fit the prefix.",
+        "confidence": 1,
+        "rule_summary": "Periodic AFFINE"
+      },
+      {
+        "answer": [
+          "2",
+          "-18",
+          "-375",
+          "7",
+          "-24"
+        ],
+        "case_id": "V17",
+        "check_summary": "Three residue streams fit: geometric, incrementally increasing, and decrementing by 6.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-895",
+          "-1097",
+          "-1308",
+          "-1522",
+          "-1732"
+        ],
+        "case_id": "V18",
+        "check_summary": "Finite differences have constant fourth difference 1.",
+        "confidence": 1,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "17",
+          "31",
+          "16",
+          "33",
+          "15"
+        ],
+        "case_id": "V19",
+        "check_summary": "Best-supported continuation among supplied candidates for the bounded phase-interleaved prefix.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "52",
+          "445",
+          "73",
+          "893",
+          "98"
+        ],
+        "case_id": "V20",
+        "check_summary": "Odd subsequence has quadratic increments; even subsequence follows x'=2x+3.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16",
+          "29",
+          "-18",
+          "32",
+          "-20"
+        ],
+        "case_id": "V21",
+        "check_summary": "Odd and even subsequences are arithmetic progressions.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "49",
+          "87",
+          "135",
+          "194",
+          "265"
+        ],
+        "case_id": "V22",
+        "check_summary": "Second differences increase successively by 1.",
+        "confidence": 1,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "564",
+          "641",
+          "725",
+          "811",
+          "904"
+        ],
+        "case_id": "V23",
+        "check_summary": "First differences continue the alternating +7,+2 increment pattern.",
+        "confidence": 1,
+        "rule_summary": "Periodic polynomial delta"
+      },
+      {
+        "answer": [
+          "-28",
+          "31",
+          "8",
+          "66",
+          "58"
+        ],
+        "case_id": "V24",
+        "check_summary": "Best-supported supplied continuation for the irregular interleaved prefix; confidence remains low.",
+        "confidence": 0.28,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "validation-G-1407BDDB752D-validation-b02-critic-01",
+  "outcome": "valid_output",
+  "response_sha256": "0e88f41216f73b036854460d4b7bf4a91fa225725095de6e263dcfd2f8cbc222",
+  "terminal_artifact_relpath": "jobs/validation-G-1407BDDB752D-validation-b02-critic-01/attempt-01"
+}

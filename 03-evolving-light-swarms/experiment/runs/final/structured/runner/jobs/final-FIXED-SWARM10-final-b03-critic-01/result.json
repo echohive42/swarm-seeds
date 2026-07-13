@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "7634",
+          "11550",
+          "16840",
+          "23825",
+          "32872"
+        ],
+        "case_id": "F025",
+        "check_summary": "Constant fifth finite difference 3 across the full prefix; C03 is arithmetically consistent.",
+        "confidence": 1,
+        "rule_summary": "Degree-5 integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-19933087",
+          "59799266",
+          "-179397805",
+          "-358795615",
+          "1076386850"
+        ],
+        "case_id": "F026",
+        "check_summary": "The repeating three-phase affine updates reproduce every transition and determine C02.",
+        "confidence": 1,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-25943",
+          "51881",
+          "-103767",
+          "207529",
+          "-415063"
+        ],
+        "case_id": "F027",
+        "check_summary": "Every transition is x_next=-2x-5.",
+        "confidence": 1,
+        "rule_summary": "Constant affine recurrence."
+      },
+      {
+        "answer": [
+          "382",
+          "615",
+          "992",
+          "1602",
+          "2589"
+        ],
+        "case_id": "F028",
+        "check_summary": "Successive differences continue as Fibonacci numbers.",
+        "confidence": 1,
+        "rule_summary": "Fibonacci-increment PDELTA."
+      },
+      {
+        "answer": [
+          "-28",
+          "-30",
+          "-35",
+          "-37",
+          "-42"
+        ],
+        "case_id": "F029",
+        "check_summary": "Differences alternate -2 and -5 throughout the prefix.",
+        "confidence": 1,
+        "rule_summary": "Periodic delta recurrence."
+      },
+      {
+        "answer": [
+          "-927",
+          "-1639",
+          "-1827",
+          "-2547",
+          "-2735"
+        ],
+        "case_id": "F030",
+        "check_summary": "No candidate establishes a complete verified rule; C01 is the least unsupported continuation.",
+        "confidence": 0.12,
+        "rule_summary": "Unresolved phase-structured oscillatory recurrence."
+      },
+      {
+        "answer": [
+          "21",
+          "-3",
+          "37",
+          "10",
+          "57"
+        ],
+        "case_id": "F031",
+        "check_summary": "Odd and even subsequences are quadratics; extending both gives 21,-3,37,10,57. Candidate evidence contains an arithmetic error.",
+        "confidence": 1,
+        "rule_summary": "Interleaved quadratic streams."
+      },
+      {
+        "answer": [
+          "87",
+          "48",
+          "128",
+          "62",
+          "183"
+        ],
+        "case_id": "F032",
+        "check_summary": "Irregular prefix supports a phase-specific lagged/interleaved continuation only weakly; C04 is the best available candidate.",
+        "confidence": 0.35,
+        "rule_summary": "Phase-specific lag-polynomial or interleaved recurrence."
+      },
+      {
+        "answer": [
+          "-7198",
+          "-11639",
+          "-18835",
+          "-30483",
+          "-49315"
+        ],
+        "case_id": "F033",
+        "check_summary": "A second-order recurrence with repeating biases -9,3,2 exactly reproduces the prefix and yields C02.",
+        "confidence": 1,
+        "rule_summary": "Periodic LIN2 recurrence."
+      },
+      {
+        "answer": [
+          "3923",
+          "5393",
+          "7182",
+          "9343",
+          "11933"
+        ],
+        "case_id": "F034",
+        "check_summary": "Finite differences confirm the quartic continuation represented by C01.",
+        "confidence": 1,
+        "rule_summary": "Degree-4 integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-79982",
+          "-239947",
+          "479890",
+          "1439669",
+          "-2879342"
+        ],
+        "case_id": "F035",
+        "check_summary": "The alternating affine transitions 3x-1 and -2x-4 reproduce the prefix.",
+        "confidence": 1,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-386",
+          "-514",
+          "-666",
+          "-844",
+          "-1050"
+        ],
+        "case_id": "F036",
+        "check_summary": "Constant third finite difference -2 confirms the continuation.",
+        "confidence": 1,
+        "rule_summary": "Cubic polynomial sequence."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-FIXED-SWARM10-final-b03-critic-01",
+  "outcome": "valid_output",
+  "response_sha256": "43b9fb477ce8db1c3c2bd6518e720f443ea412c405adae6b1fb356565e62c7f9",
+  "terminal_artifact_relpath": "jobs/final-FIXED-SWARM10-final-b03-critic-01/attempt-01"
+}

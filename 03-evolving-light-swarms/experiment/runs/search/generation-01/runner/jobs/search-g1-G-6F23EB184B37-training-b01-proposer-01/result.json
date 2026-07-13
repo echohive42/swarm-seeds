@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Odd and even positions are separate arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd terms increase by 4; even terms decrease by 2."
+      },
+      {
+        "answer": [
+          "30",
+          "27",
+          "51",
+          "48",
+          "75"
+        ],
+        "case_id": "T02",
+        "check_summary": "Alternating increments are -3 and positive jumps increasing by 3.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with alternating phase-specific arithmetic deltas."
+      },
+      {
+        "answer": [
+          "-70",
+          "-92",
+          "-114",
+          "-136",
+          "-158"
+        ],
+        "case_id": "T03",
+        "check_summary": "The latest repeated negative-delta block continues with -22.",
+        "confidence": 0.76,
+        "rule_summary": "GROWBLOCK with negative deltas repeating in blocks of increasing length."
+      },
+      {
+        "answer": [
+          "-791740",
+          "1583478",
+          "395867",
+          "-9500860",
+          "1583478"
+        ],
+        "case_id": "T04",
+        "check_summary": "Three phase streams use multiplier 12 with biases 20, -18, and 23.",
+        "confidence": 0.63,
+        "rule_summary": "AFFINE phase-cycled updates."
+      },
+      {
+        "answer": [
+          "-5830",
+          "-8337",
+          "-11205",
+          "-14529",
+          "-18381"
+        ],
+        "case_id": "T05",
+        "check_summary": "Extrapolated continuation from the observed higher-order difference trend.",
+        "confidence": 0.24,
+        "rule_summary": "POLY-like higher-order integer sequence."
+      },
+      {
+        "answer": [
+          "38",
+          "5",
+          "-1",
+          "65",
+          "56"
+        ],
+        "case_id": "T06",
+        "check_summary": "Four residue classes have polynomial increments; the next increments are 18, 12, 12, and 15.",
+        "confidence": 0.94,
+        "rule_summary": "LAGPOLY with four phase-specific increment sequences."
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1722",
+          "-2163",
+          "-2668",
+          "-3242"
+        ],
+        "case_id": "T07",
+        "check_summary": "Second differences decrease by 5 each step.",
+        "confidence": 0.99,
+        "rule_summary": "POLY with fourth-degree finite-difference structure."
+      },
+      {
+        "answer": [
+          "-12",
+          "37",
+          "91",
+          "-5",
+          "18"
+        ],
+        "case_id": "T08",
+        "check_summary": "Extrapolated from phase-separated irregular streams.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-225",
+          "-253",
+          "-299",
+          "-332",
+          "-384"
+        ],
+        "case_id": "T09",
+        "check_summary": "Odd-position differences decrease by 6; even-position differences decrease by 5.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with alternating linear delta phases."
+      },
+      {
+        "answer": [
+          "8",
+          "-52",
+          "56",
+          "10",
+          "12"
+        ],
+        "case_id": "T10",
+        "check_summary": "Three interleaved streams continue with arithmetic and doubling phase patterns.",
+        "confidence": 0.72,
+        "rule_summary": "INTERLEAVE of three phase-specific streams."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Each term follows a(n+1)=2a(n)-1 recurrence.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE recurrence with multiplier 2 and bias -1."
+      },
+      {
+        "answer": [
+          "43723",
+          "87424",
+          "174871",
+          "349714",
+          "699457"
+        ],
+        "case_id": "T12",
+        "check_summary": "Doubling recurrence has alternating biases: odd-index bias increases by 6, even-index bias decreases by 6.",
+        "confidence": 0.96,
+        "rule_summary": "AFFINE with alternating phase-specific linear biases."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g1-G-6F23EB184B37-training-b01-proposer-01",
+  "outcome": "valid_output",
+  "response_sha256": "296801e29b09a3c489f8ab23c0f7d1bde965b64f2ff67f717d28a927e3accae7",
+  "terminal_artifact_relpath": "jobs/search-g1-G-6F23EB184B37-training-b01-proposer-01/attempt-01"
+}

@@ -52,6 +52,26 @@ Direct links:
 - [Authoritative attempt log](02-hard-sequence-scaling/experiment/raw/final/attempts.jsonl)
 - [Result charts](02-hard-sequence-scaling/plots/)
 
+## 03: Evolving Light Swarms
+
+We held GPT-5.6 Luna at Light reasoning and evolved only the way ten calls were organized. Six symbolic policies ran for three generations across four topology families. A deterministic Python program made mutations and crossovers; no model rewrote its own prompt or genome.
+
+The search improved the best observed training score from 8/12 to 9/12 and found a validation champion at 13/24. On 48 untouched final cases, that champion scored 21/48 while the corrected ten-generalist Vote10 scored 18/48. The +6.25 percentage-point estimate was promising but inconclusive: its paired 95% interval was -4.17 to +16.67 points. The best original founder scored 22/48 and fixed Swarm10 scored 20/48.
+
+The original independent pool accidentally used a mixture of specialized lenses and scored 21/48, tying the champion. A post-unblinding amendment restored the protocol's generalist baseline and preserves both outcomes transparently. The result shows why small evolutionary gains need a large hidden comparison and why implementation audits matter.
+
+[Enter the complete experiment](03-evolving-light-swarms/README.md)
+
+Direct links:
+
+- [Reusable skill seed](03-evolving-light-swarms/SKILL.md)
+- [Full technical report](03-evolving-light-swarms/experiment/REPORT.md)
+- [Baseline correction and chronology](03-evolving-light-swarms/experiment/AMENDMENT-01.md)
+- [Fresh RuleWeave-5 benchmark](03-evolving-light-swarms/experiment/benchmark/README.md)
+- [Symbolic genomes and lineage](03-evolving-light-swarms/experiment/genomes/README.md)
+- [Run records](03-evolving-light-swarms/experiment/runs/)
+- [Result charts](03-evolving-light-swarms/images/)
+
 ## Repository shape
 
 ```text
@@ -81,6 +101,19 @@ Direct links:
     results/
     scripts/
   plots/
+03-evolving-light-swarms/
+  README.md
+  SKILL.md
+  experiment/
+    PROTOCOL.md
+    REPORT.md
+    benchmark/
+    genomes/
+    prompts/
+    runs/
+    results/
+    scripts/
+  images/
 ```
 
 Future seeds will follow the same pattern: one numbered folder, one reusable skill, and the complete evidence used to evaluate it.

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b01",
+    "results": [
+      {
+        "answer": [
+          "8721",
+          "14984",
+          "23639",
+          "35304",
+          "50694"
+        ],
+        "case_id": "F001",
+        "check_summary": "Constant fifth difference of 7.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial extrapolation."
+      },
+      {
+        "answer": [
+          "29",
+          "44",
+          "14",
+          "55",
+          "38"
+        ],
+        "case_id": "F002",
+        "check_summary": "Odd and even subsequences have alternating linear increments.",
+        "confidence": 0.82,
+        "rule_summary": "Two interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "97",
+          "88",
+          "121",
+          "154",
+          "144"
+        ],
+        "case_id": "F003",
+        "check_summary": "Periodic first differences follow three phase-specific linear rules.",
+        "confidence": 0.99,
+        "rule_summary": "Period-3 polynomial delta update."
+      },
+      {
+        "answer": [
+          "115534",
+          "-462168",
+          "1848710",
+          "-7394872",
+          "29579526"
+        ],
+        "case_id": "F004",
+        "check_summary": "Alternating affine updates with multipliers -4 and phase biases 38 and -32.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "1380",
+          "1949",
+          "2674",
+          "3581",
+          "4698"
+        ],
+        "case_id": "F005",
+        "check_summary": "Constant fourth difference of 2 after the initial terms.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial extrapolation."
+      },
+      {
+        "answer": [
+          "21",
+          "-27",
+          "23",
+          "-16",
+          "10"
+        ],
+        "case_id": "F006",
+        "check_summary": "The six-term period repeats exactly.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic sequence."
+      },
+      {
+        "answer": [
+          "-59286",
+          "-118534",
+          "-237088",
+          "-474137",
+          "-948233"
+        ],
+        "case_id": "F007",
+        "check_summary": "Recent terms follow multiplier 2 with recurring phase corrections.",
+        "confidence": 0.55,
+        "rule_summary": "Periodic affine update with phase-dependent corrections."
+      },
+      {
+        "answer": [
+          "7652751",
+          "22958257",
+          "-68874773",
+          "-206624315",
+          "619872943"
+        ],
+        "case_id": "F008",
+        "check_summary": "Alternating affine updates use multiplier -3 with biases -2 and 4.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-37",
+          "-39",
+          "-43",
+          "-45",
+          "-49"
+        ],
+        "case_id": "F009",
+        "check_summary": "Odd/even positions continue alternating decrements of 4 and 2.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "80",
+          "72",
+          "57",
+          "34",
+          "2"
+        ],
+        "case_id": "F010",
+        "check_summary": "Second differences decrease linearly by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "16",
+          "-13",
+          "-4",
+          "12",
+          "-9"
+        ],
+        "case_id": "F011",
+        "check_summary": "The seven-term period repeats exactly.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic sequence."
+      },
+      {
+        "answer": [
+          "23209",
+          "-46423",
+          "92841",
+          "-185687",
+          "371369"
+        ],
+        "case_id": "F012",
+        "check_summary": "Each term equals negative twice the previous term minus 5.",
+        "confidence": 1.0,
+        "rule_summary": "Affine first-order recurrence."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-VOTE10-final-b01-proposer-02",
+  "outcome": "valid_output",
+  "response_sha256": "d1f88905b1990eab6d594085933c11c4adb9c6a2565ea56d4b2e1d83e5b06259",
+  "terminal_artifact_relpath": "jobs/final-VOTE10-final-b01-proposer-02/attempt-01"
+}

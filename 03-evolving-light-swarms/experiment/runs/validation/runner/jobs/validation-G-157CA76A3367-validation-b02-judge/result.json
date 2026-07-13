@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-16387",
+          "-32771",
+          "-65539",
+          "-131075",
+          "-262147"
+        ],
+        "case_id": "V13",
+        "check_summary": "Exact replay of a(n+1)=2a(n)+3 across the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "413241",
+          "1239718",
+          "-2479431",
+          "-7438298",
+          "14876561"
+        ],
+        "case_id": "V14",
+        "check_summary": "Alternating updates -2x+5 and 3x-5 exactly reproduce the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic AFFINE"
+      },
+      {
+        "answer": [
+          "436",
+          "-204",
+          "-460",
+          "1332",
+          "-1740"
+        ],
+        "case_id": "V15",
+        "check_summary": "The lag-4 relation a(n+4)=-4a(n)+4 matches every lagged transition.",
+        "confidence": 0.99,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "669927",
+          "-1339863",
+          "2679731",
+          "-8039193",
+          "16078377"
+        ],
+        "case_id": "V16",
+        "check_summary": "Repeating three-phase affine updates exactly fit all transitions.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic AFFINE"
+      },
+      {
+        "answer": [
+          "2",
+          "-18",
+          "-375",
+          "7",
+          "-24"
+        ],
+        "case_id": "V17",
+        "check_summary": "Three interleaved streams independently replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-895",
+          "-1097",
+          "-1308",
+          "-1522",
+          "-1732"
+        ],
+        "case_id": "V18",
+        "check_summary": "Finite differences support the quartic integer-valued polynomial continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-82",
+          "-4",
+          "40",
+          "-300",
+          "-63"
+        ],
+        "case_id": "V19",
+        "check_summary": "Three residue-class cubic streams fit the observed prefix and continuation.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "52",
+          "445",
+          "73",
+          "893",
+          "98"
+        ],
+        "case_id": "V20",
+        "check_summary": "Odd terms have differences increasing by 4; even terms follow x'=2x+3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16",
+          "29",
+          "-18",
+          "32",
+          "-20"
+        ],
+        "case_id": "V21",
+        "check_summary": "Odd and even positions are separate arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "49",
+          "87",
+          "135",
+          "194",
+          "264"
+        ],
+        "case_id": "V22",
+        "check_summary": "Second differences increase linearly, yielding the continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "564",
+          "641",
+          "725",
+          "811",
+          "904"
+        ],
+        "case_id": "V23",
+        "check_summary": "Alternating first-difference increments continue consistently.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-37",
+          "-28",
+          "46",
+          "-9",
+          "14"
+        ],
+        "case_id": "V24",
+        "check_summary": "Best-supported three-phase polynomial-delta continuation.",
+        "confidence": 0.75,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "validation-G-157CA76A3367-validation-b02-judge",
+  "outcome": "valid_output",
+  "response_sha256": "92b554c9a76f832734455797983f204a6fd6197bd12efa64d64581d0802d9892",
+  "terminal_artifact_relpath": "jobs/validation-G-157CA76A3367-validation-b02-judge/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "-78",
+          "27",
+          "44",
+          "-100",
+          "33"
+        ],
+        "case_id": "F013",
+        "check_summary": "Three interleaved streams; one arithmetic, one quadratic-difference, one phase progression.",
+        "confidence": 0.72,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "10",
+          "23",
+          "36",
+          "49",
+          "62"
+        ],
+        "case_id": "F014",
+        "check_summary": "Growing arithmetic blocks with step increments of four.",
+        "confidence": 0.86,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "53",
+          "71",
+          "-10",
+          "74",
+          "92"
+        ],
+        "case_id": "F015",
+        "check_summary": "Blockwise arithmetic progression with increasing internal step.",
+        "confidence": 0.31,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-4",
+          "22",
+          "-9",
+          "31",
+          "-14"
+        ],
+        "case_id": "F016",
+        "check_summary": "Periodic phase recurrence inferred from alternating irregular differences.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-210",
+          "58",
+          "-264",
+          "91",
+          "-325"
+        ],
+        "case_id": "F017",
+        "check_summary": "Phase-dependent affine recurrence inferred from alternating growth.",
+        "confidence": 0.12,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "14",
+          "83",
+          "-18",
+          "101",
+          "-31"
+        ],
+        "case_id": "F018",
+        "check_summary": "Periodic interleaving pattern inferred across alternating subsequences.",
+        "confidence": 0.11,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "62",
+          "41",
+          "88",
+          "-55",
+          "116"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd subsequence has quadratic increments; even subsequence has alternating powers-of-two increments.",
+        "confidence": 0.84,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "16",
+          "-39",
+          "46",
+          "20",
+          "-61"
+        ],
+        "case_id": "F020",
+        "check_summary": "Three interleaved arithmetic subsequences with linearly changing differences.",
+        "confidence": 0.67,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-12",
+          "-17",
+          "-22",
+          "-27",
+          "-32"
+        ],
+        "case_id": "F021",
+        "check_summary": "Mostly constant negative deltas interrupted by increasing positive phase jumps.",
+        "confidence": 0.61,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "43",
+          "86",
+          "29",
+          "8",
+          "14"
+        ],
+        "case_id": "F022",
+        "check_summary": "Periodic modular-looking sequence; extrapolation based on phase recurrence.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-6",
+          "14",
+          "-8",
+          "15",
+          "-10"
+        ],
+        "case_id": "F023",
+        "check_summary": "Odd terms increase by one and even terms decrease by two.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "109",
+          "-121",
+          "136",
+          "-157",
+          "169"
+        ],
+        "case_id": "F024",
+        "check_summary": "Alternating phase progression with expanding magnitudes.",
+        "confidence": 0.1,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-G-498E470E7808-final-b02-proposer-04",
+  "outcome": "valid_output",
+  "response_sha256": "3f278cd5a6205cd2ec03fa02d35f4cdd6577e7084bea773d53618c90f93337cf",
+  "terminal_artifact_relpath": "jobs/final-G-498E470E7808-final-b02-proposer-04/attempt-01"
+}

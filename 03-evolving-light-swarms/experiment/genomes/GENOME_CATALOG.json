@@ -1,0 +1,164 @@
+{
+  "schema_version": "experiment-03-genome-catalog-v1",
+  "experiment_id": "swarm-seeds-03",
+  "public_condition_label": "Light reasoning",
+  "provider_reasoning_effort": "low",
+  "call_budget_per_genome": 10,
+  "worker_lens_slots": 9,
+  "population_size": 6,
+  "generation_count": 3,
+  "lens_ids": [
+    "generalist",
+    "differences",
+    "recurrences",
+    "streams",
+    "modular",
+    "simplicity",
+    "diversifier",
+    "audit"
+  ],
+  "final_policy_ids": [
+    "plurality_preserving",
+    "evidence_weighted",
+    "minority_aware",
+    "robustness_first"
+  ],
+  "topologies": {
+    "consensus_9p_1j": {
+      "founding_species": "consensus",
+      "stages": [
+        {
+          "stage_index": 0,
+          "role": "proposer",
+          "slots": ["W01", "W02", "W03", "W04", "W05", "W06", "W07", "W08", "W09"]
+        },
+        {
+          "stage_index": 1,
+          "role": "judge",
+          "slots": ["J01"]
+        }
+      ]
+    },
+    "falsification_7p_2c_1j": {
+      "founding_species": "falsification",
+      "stages": [
+        {
+          "stage_index": 0,
+          "role": "proposer",
+          "slots": ["W01", "W02", "W03", "W04", "W05", "W06", "W07"]
+        },
+        {
+          "stage_index": 1,
+          "role": "critic",
+          "slots": ["W08", "W09"]
+        },
+        {
+          "stage_index": 2,
+          "role": "judge",
+          "slots": ["J01"]
+        }
+      ]
+    },
+    "specialization_7p_2v_1j": {
+      "founding_species": "specialization",
+      "stages": [
+        {
+          "stage_index": 0,
+          "role": "proposer",
+          "slots": ["W01", "W02", "W03", "W04", "W05", "W06", "W07"]
+        },
+        {
+          "stage_index": 1,
+          "role": "verifier",
+          "slots": ["W08", "W09"]
+        },
+        {
+          "stage_index": 2,
+          "role": "judge",
+          "slots": ["J01"]
+        }
+      ]
+    },
+    "paired_revision_5p_2r_2v_1j": {
+      "founding_species": "paired_revision",
+      "stages": [
+        {
+          "stage_index": 0,
+          "role": "proposer",
+          "slots": ["W01", "W02", "W03", "W04", "W05"]
+        },
+        {
+          "stage_index": 1,
+          "role": "reviser",
+          "slots": ["W06", "W07"]
+        },
+        {
+          "stage_index": 2,
+          "role": "verifier",
+          "slots": ["W08", "W09"]
+        },
+        {
+          "stage_index": 3,
+          "role": "judge",
+          "slots": ["J01"]
+        }
+      ]
+    }
+  },
+  "founders": [
+    {
+      "founder_id": "F01",
+      "species": "consensus",
+      "genes": {
+        "topology_id": "consensus_9p_1j",
+        "role_lenses": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "diversifier", "audit", "generalist"],
+        "final_policy_id": "plurality_preserving"
+      }
+    },
+    {
+      "founder_id": "F02",
+      "species": "consensus",
+      "genes": {
+        "topology_id": "consensus_9p_1j",
+        "role_lenses": ["audit", "generalist", "simplicity", "differences", "recurrences", "streams", "modular", "diversifier", "audit"],
+        "final_policy_id": "evidence_weighted"
+      }
+    },
+    {
+      "founder_id": "F03",
+      "species": "falsification",
+      "genes": {
+        "topology_id": "falsification_7p_2c_1j",
+        "role_lenses": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "diversifier", "audit", "diversifier"],
+        "final_policy_id": "robustness_first"
+      }
+    },
+    {
+      "founder_id": "F04",
+      "species": "falsification",
+      "genes": {
+        "topology_id": "falsification_7p_2c_1j",
+        "role_lenses": ["audit", "simplicity", "generalist", "differences", "recurrences", "streams", "modular", "diversifier", "audit"],
+        "final_policy_id": "minority_aware"
+      }
+    },
+    {
+      "founder_id": "F05",
+      "species": "specialization",
+      "genes": {
+        "topology_id": "specialization_7p_2v_1j",
+        "role_lenses": ["differences", "recurrences", "streams", "modular", "simplicity", "diversifier", "generalist", "audit", "generalist"],
+        "final_policy_id": "evidence_weighted"
+      }
+    },
+    {
+      "founder_id": "F06",
+      "species": "paired_revision",
+      "genes": {
+        "topology_id": "paired_revision_5p_2r_2v_1j",
+        "role_lenses": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "diversifier", "audit", "generalist"],
+        "final_policy_id": "robustness_first"
+      }
+    }
+  ]
+}

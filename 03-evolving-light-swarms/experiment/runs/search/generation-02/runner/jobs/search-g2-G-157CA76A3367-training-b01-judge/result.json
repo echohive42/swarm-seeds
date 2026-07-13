@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "training-b01",
+    "results": [
+      {
+        "answer": [
+          "28",
+          "-4",
+          "32",
+          "-6",
+          "36"
+        ],
+        "case_id": "T01",
+        "check_summary": "Odd-position terms increase by 4; even-position terms decrease by 2.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE two arithmetic streams."
+      },
+      {
+        "answer": [
+          "7",
+          "4",
+          "1",
+          "18",
+          "15"
+        ],
+        "case_id": "T02",
+        "check_summary": "Spikes occur at triangular transition positions with magnitudes 5, 8, 11, 14, 17; other deltas are -3.",
+        "confidence": 1,
+        "rule_summary": "PDELTA with triangularly positioned rising spikes."
+      },
+      {
+        "answer": [
+          "39",
+          "17",
+          "-5",
+          "-27",
+          "-49"
+        ],
+        "case_id": "T03",
+        "check_summary": "Growing blocks continue with the next positive jump followed by repeated -22 deltas.",
+        "confidence": 1,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-263922",
+          "527842",
+          "1583519",
+          "-3167044",
+          "6334086"
+        ],
+        "case_id": "T04",
+        "check_summary": "Three-term affine block relations replay the full prefix and continue exactly.",
+        "confidence": 1,
+        "rule_summary": "Three-phase affine block recurrence."
+      },
+      {
+        "answer": [
+          "-6883",
+          "-11558",
+          "-18314",
+          "-27752",
+          "-40576"
+        ],
+        "case_id": "T05",
+        "check_summary": "The fifth finite difference is constantly -8.",
+        "confidence": 1,
+        "rule_summary": "Degree-5 POLY continuation."
+      },
+      {
+        "answer": [
+          "-40",
+          "-37",
+          "32",
+          "5",
+          "-22"
+        ],
+        "case_id": "T06",
+        "check_summary": "Four phase-specific delta streams continue with linear phase increments.",
+        "confidence": 1,
+        "rule_summary": "PDELTA with period 4."
+      },
+      {
+        "answer": [
+          "-1345",
+          "-1722",
+          "-2163",
+          "-2673",
+          "-3257"
+        ],
+        "case_id": "T07",
+        "check_summary": "Second differences decrease by 5, so the third difference remains -5.",
+        "confidence": 1,
+        "rule_summary": "Cubic POLY sequence."
+      },
+      {
+        "answer": [
+          "-14",
+          "87",
+          "64",
+          "6",
+          "-42"
+        ],
+        "case_id": "T08",
+        "check_summary": "Bounded irregular values support a periodic modular-affine continuation.",
+        "confidence": 0.35,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "-225",
+          "-253",
+          "-299",
+          "-332",
+          "-384"
+        ],
+        "case_id": "T09",
+        "check_summary": "Alternating deltas continue as arithmetic progressions decreasing by 6 and 5.",
+        "confidence": 1,
+        "rule_summary": "PDELTA with two phase-specific linear deltas."
+      },
+      {
+        "answer": [
+          "44",
+          "56",
+          "10",
+          "-84",
+          "78"
+        ],
+        "case_id": "T10",
+        "check_summary": "Three interleaved streams continue with arithmetic, geometric, and polynomial increments.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE of three polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-16383",
+          "-32767",
+          "-65535",
+          "-131071",
+          "-262143"
+        ],
+        "case_id": "T11",
+        "check_summary": "Every transition follows x_next = 2x - 1.",
+        "confidence": 1,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "43684",
+          "87391",
+          "174754",
+          "349537",
+          "699040"
+        ],
+        "case_id": "T12",
+        "check_summary": "Alternating affine corrections continue as -22, +23, -28, +29, -34.",
+        "confidence": 1,
+        "rule_summary": "Period-2 AFFINE recurrence with linearly changing biases."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "search-g2-G-157CA76A3367-training-b01-judge",
+  "outcome": "valid_output",
+  "response_sha256": "a308a0cdc4b4d0e33f4035b9486d7291f59a68295dce7d3c8dba5211224171d8",
+  "terminal_artifact_relpath": "jobs/search-g2-G-157CA76A3367-training-b01-judge/attempt-01"
+}

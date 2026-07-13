@@ -1,0 +1,1973 @@
+{
+  "amendment_01": {
+    "chronology": {
+      "path": "AMENDMENT-01.md",
+      "required_chronology_markers_present": true,
+      "sha256": "d8facf5806fdae07bdfce60f726f061e5d08151f88b307f62c4294336c5e501b"
+    },
+    "generalist_prompt_contract": {
+      "common_prefix_sha256": "66e04b56dbf2cd0bfebe6bfe59df1023630227fdf26da104838e029a14ede7f0",
+      "declared_generalist_lens_sha256": "2a22e6bde6c709a0c786e929bf4e7bb34b631087e49173a01824107c935cfe63",
+      "frozen_generalist_lens_sha256": "2a22e6bde6c709a0c786e929bf4e7bb34b631087e49173a01824107c935cfe63",
+      "frozen_lens_source": "prompts/LENSES.json worker.generalist",
+      "jobs": 40,
+      "prompt_contract_errors": [],
+      "prompt_files": 40,
+      "prompt_set_mismatch": [],
+      "verified": true
+    },
+    "timeout_deviation": {
+      "all_correction_calls_finished_below_registered_ceiling": true,
+      "correction_calls": 40,
+      "correction_max_attempt_duration_ms": 82308,
+      "correction_request_identities_verified": true,
+      "correction_timed_out_attempts": [],
+      "correction_timeout_seconds": 600,
+      "registered_calls": 400,
+      "registered_request_identities_verified": true,
+      "registered_timeout_seconds": 300,
+      "required_disclosure_markers_present": true,
+      "verified": true
+    }
+  },
+  "checks": [
+    {
+      "detail": {
+        "files_checked": 27,
+        "mismatches": []
+      },
+      "name": "freeze.file_hashes",
+      "passed": true
+    },
+    {
+      "detail": {
+        "computed": "d2afc385e94d2c0d33d82a875a89701477fa4dadb629e87e49de829092863ffa",
+        "declared": "d2afc385e94d2c0d33d82a875a89701477fa4dadb629e87e49de829092863ffa"
+      },
+      "name": "freeze.self_hash",
+      "passed": true
+    },
+    {
+      "detail": {
+        "mismatches": {}
+      },
+      "name": "freeze.protocol_fields",
+      "passed": true
+    },
+    {
+      "detail": {
+        "attempt_statuses": {
+          "valid_output": 60
+        },
+        "attempts": 60,
+        "block_counts": {
+          "training-b01": 60
+        },
+        "concurrency_errors": [],
+        "concurrency_source": "half-open overlap sweep of attempt started_at/finished_at timestamps",
+        "execution_contract": {
+          "artifact_or_command_errors": [],
+          "disabled_features": [
+            "apps",
+            "browser_use",
+            "browser_use_external",
+            "browser_use_full_cdp_access",
+            "computer_use",
+            "enable_mcp_apps",
+            "goals",
+            "hooks",
+            "image_generation",
+            "in_app_browser",
+            "multi_agent",
+            "multi_agent_v2",
+            "plugin_sharing",
+            "plugins",
+            "remote_plugin",
+            "shell_tool",
+            "skill_mcp_dependency_install",
+            "standalone_web_search",
+            "tool_suggest",
+            "unified_exec",
+            "workspace_dependencies"
+          ],
+          "duration_errors": [],
+          "expected_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "expected_ephemeral": true,
+          "expected_model": "gpt-5.6-luna",
+          "expected_reasoning_effort": "low",
+          "expected_sandbox": "read-only",
+          "expected_timeout_seconds": 300,
+          "last_message_sha256_errors": [],
+          "max_attempt_duration_ms": 83629,
+          "observed_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "preflight_errors": [],
+          "request_sha256_errors": [],
+          "timed_out_attempts": [],
+          "verified_jobs": 60
+        },
+        "infrastructure_failures": 0,
+        "invalid_results": [],
+        "job_identity_sha256": "c7392bbdb8073097251c49fa84280426b141723650bad4606816ba07117f51e4",
+        "ledger_identity_mismatch": [],
+        "manifest_jobs": 60,
+        "max_observed_concurrency": 44,
+        "method_block_counts": {
+          "G-37B2621092D0 / training-b01": 10,
+          "G-44EEB120C37E / training-b01": 10,
+          "G-498E470E7808 / training-b01": 10,
+          "G-93B0BFCCF64A / training-b01": 10,
+          "G-A13267BCF63C / training-b01": 10,
+          "G-A51F73B64C32 / training-b01": 10
+        },
+        "method_counts": {
+          "G-37B2621092D0": 10,
+          "G-44EEB120C37E": 10,
+          "G-498E470E7808": 10,
+          "G-93B0BFCCF64A": 10,
+          "G-A13267BCF63C": 10,
+          "G-A51F73B64C32": 10
+        },
+        "missing_results": [],
+        "operational_summary_max_active_processes": 6,
+        "phase_counts": {
+          "search-g0": 60
+        },
+        "planned_jobs": 60,
+        "planned_methods": [
+          "G-37B2621092D0",
+          "G-44EEB120C37E",
+          "G-498E470E7808",
+          "G-93B0BFCCF64A",
+          "G-A13267BCF63C",
+          "G-A51F73B64C32"
+        ],
+        "prediction_identity_mismatch": [],
+        "prediction_record_identity_errors": [],
+        "prediction_records": 720,
+        "prediction_records_sha256": "9d70a70a0f8a1830bf7097cd233b15a9abb47245c9b4087faa859e69261ab038",
+        "protocol_violations": 0,
+        "request_hash_changed_on_retry": [],
+        "retry_jobs": [],
+        "role_counts": {
+          "critic": 4,
+          "judge": 6,
+          "proposer": 44,
+          "revision": 2,
+          "verifier": 4
+        },
+        "schema_invalid_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 60
+        },
+        "terminal_results": 60,
+        "unique_jobs": 60
+      },
+      "name": "run.generation-00",
+      "passed": true
+    },
+    {
+      "detail": {
+        "attempt_statuses": {
+          "valid_output": 60
+        },
+        "attempts": 60,
+        "block_counts": {
+          "training-b01": 60
+        },
+        "concurrency_errors": [],
+        "concurrency_source": "half-open overlap sweep of attempt started_at/finished_at timestamps",
+        "execution_contract": {
+          "artifact_or_command_errors": [],
+          "disabled_features": [
+            "apps",
+            "browser_use",
+            "browser_use_external",
+            "browser_use_full_cdp_access",
+            "computer_use",
+            "enable_mcp_apps",
+            "goals",
+            "hooks",
+            "image_generation",
+            "in_app_browser",
+            "multi_agent",
+            "multi_agent_v2",
+            "plugin_sharing",
+            "plugins",
+            "remote_plugin",
+            "shell_tool",
+            "skill_mcp_dependency_install",
+            "standalone_web_search",
+            "tool_suggest",
+            "unified_exec",
+            "workspace_dependencies"
+          ],
+          "duration_errors": [],
+          "expected_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "expected_ephemeral": true,
+          "expected_model": "gpt-5.6-luna",
+          "expected_reasoning_effort": "low",
+          "expected_sandbox": "read-only",
+          "expected_timeout_seconds": 300,
+          "last_message_sha256_errors": [],
+          "max_attempt_duration_ms": 82165,
+          "observed_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "preflight_errors": [],
+          "request_sha256_errors": [],
+          "timed_out_attempts": [],
+          "verified_jobs": 60
+        },
+        "infrastructure_failures": 0,
+        "invalid_results": [],
+        "job_identity_sha256": "dfb49fa6b9a4678362d7085eb1ce85b16909fb23374a90c6efba339c31ca3355",
+        "ledger_identity_mismatch": [],
+        "manifest_jobs": 60,
+        "max_observed_concurrency": 44,
+        "method_block_counts": {
+          "G-1407BDDB752D / training-b01": 10,
+          "G-236ED23A587B / training-b01": 10,
+          "G-264C5E480510 / training-b01": 10,
+          "G-52E910BC671D / training-b01": 10,
+          "G-6F23EB184B37 / training-b01": 10,
+          "G-A23A4824383F / training-b01": 10
+        },
+        "method_counts": {
+          "G-1407BDDB752D": 10,
+          "G-236ED23A587B": 10,
+          "G-264C5E480510": 10,
+          "G-52E910BC671D": 10,
+          "G-6F23EB184B37": 10,
+          "G-A23A4824383F": 10
+        },
+        "missing_results": [],
+        "operational_summary_max_active_processes": 6,
+        "phase_counts": {
+          "search-g1": 60
+        },
+        "planned_jobs": 60,
+        "planned_methods": [
+          "G-1407BDDB752D",
+          "G-236ED23A587B",
+          "G-264C5E480510",
+          "G-52E910BC671D",
+          "G-6F23EB184B37",
+          "G-A23A4824383F"
+        ],
+        "prediction_identity_mismatch": [],
+        "prediction_record_identity_errors": [],
+        "prediction_records": 720,
+        "prediction_records_sha256": "f60aa457612b9bc0d7edaa4711c5fafc44cc10ace340add9a8bc3c9290d46f4e",
+        "protocol_violations": 0,
+        "request_hash_changed_on_retry": [],
+        "retry_jobs": [],
+        "role_counts": {
+          "critic": 6,
+          "judge": 6,
+          "proposer": 44,
+          "revision": 2,
+          "verifier": 2
+        },
+        "schema_invalid_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 60
+        },
+        "terminal_results": 60,
+        "unique_jobs": 60
+      },
+      "name": "run.generation-01",
+      "passed": true
+    },
+    {
+      "detail": {
+        "attempt_statuses": {
+          "valid_output": 60
+        },
+        "attempts": 60,
+        "block_counts": {
+          "training-b01": 60
+        },
+        "concurrency_errors": [],
+        "concurrency_source": "half-open overlap sweep of attempt started_at/finished_at timestamps",
+        "execution_contract": {
+          "artifact_or_command_errors": [],
+          "disabled_features": [
+            "apps",
+            "browser_use",
+            "browser_use_external",
+            "browser_use_full_cdp_access",
+            "computer_use",
+            "enable_mcp_apps",
+            "goals",
+            "hooks",
+            "image_generation",
+            "in_app_browser",
+            "multi_agent",
+            "multi_agent_v2",
+            "plugin_sharing",
+            "plugins",
+            "remote_plugin",
+            "shell_tool",
+            "skill_mcp_dependency_install",
+            "standalone_web_search",
+            "tool_suggest",
+            "unified_exec",
+            "workspace_dependencies"
+          ],
+          "duration_errors": [],
+          "expected_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "expected_ephemeral": true,
+          "expected_model": "gpt-5.6-luna",
+          "expected_reasoning_effort": "low",
+          "expected_sandbox": "read-only",
+          "expected_timeout_seconds": 300,
+          "last_message_sha256_errors": [],
+          "max_attempt_duration_ms": 90289,
+          "observed_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "preflight_errors": [],
+          "request_sha256_errors": [],
+          "timed_out_attempts": [],
+          "verified_jobs": 60
+        },
+        "infrastructure_failures": 0,
+        "invalid_results": [],
+        "job_identity_sha256": "dd17be86ac337d88d42a61b8743dcc707e9b2ff4e55c9958bb46e8a050e78551",
+        "ledger_identity_mismatch": [],
+        "manifest_jobs": 60,
+        "max_observed_concurrency": 48,
+        "method_block_counts": {
+          "G-157CA76A3367 / training-b01": 10,
+          "G-1C48E71B2A52 / training-b01": 10,
+          "G-6892249EEC1C / training-b01": 10,
+          "G-8950DC816BAB / training-b01": 10,
+          "G-9C253D688BD7 / training-b01": 10,
+          "G-A6F016C4C5E2 / training-b01": 10
+        },
+        "method_counts": {
+          "G-157CA76A3367": 10,
+          "G-1C48E71B2A52": 10,
+          "G-6892249EEC1C": 10,
+          "G-8950DC816BAB": 10,
+          "G-9C253D688BD7": 10,
+          "G-A6F016C4C5E2": 10
+        },
+        "missing_results": [],
+        "operational_summary_max_active_processes": 6,
+        "phase_counts": {
+          "search-g2": 60
+        },
+        "planned_jobs": 60,
+        "planned_methods": [
+          "G-157CA76A3367",
+          "G-1C48E71B2A52",
+          "G-6892249EEC1C",
+          "G-8950DC816BAB",
+          "G-9C253D688BD7",
+          "G-A6F016C4C5E2"
+        ],
+        "prediction_identity_mismatch": [],
+        "prediction_record_identity_errors": [],
+        "prediction_records": 720,
+        "prediction_records_sha256": "42b0fe2e04f67f4abfc86ca69406d48a7da2c969f839ca5b187e534f7a4bff06",
+        "protocol_violations": 0,
+        "request_hash_changed_on_retry": [],
+        "retry_jobs": [],
+        "role_counts": {
+          "critic": 4,
+          "judge": 6,
+          "proposer": 48,
+          "verifier": 2
+        },
+        "schema_invalid_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 60
+        },
+        "terminal_results": 60,
+        "unique_jobs": 60
+      },
+      "name": "run.generation-02",
+      "passed": true
+    },
+    {
+      "detail": {
+        "attempt_statuses": {
+          "valid_output": 60
+        },
+        "attempts": 60,
+        "block_counts": {
+          "validation-b01": 30,
+          "validation-b02": 30
+        },
+        "concurrency_errors": [],
+        "concurrency_source": "half-open overlap sweep of attempt started_at/finished_at timestamps",
+        "execution_contract": {
+          "artifact_or_command_errors": [],
+          "disabled_features": [
+            "apps",
+            "browser_use",
+            "browser_use_external",
+            "browser_use_full_cdp_access",
+            "computer_use",
+            "enable_mcp_apps",
+            "goals",
+            "hooks",
+            "image_generation",
+            "in_app_browser",
+            "multi_agent",
+            "multi_agent_v2",
+            "plugin_sharing",
+            "plugins",
+            "remote_plugin",
+            "shell_tool",
+            "skill_mcp_dependency_install",
+            "standalone_web_search",
+            "tool_suggest",
+            "unified_exec",
+            "workspace_dependencies"
+          ],
+          "duration_errors": [],
+          "expected_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "expected_ephemeral": true,
+          "expected_model": "gpt-5.6-luna",
+          "expected_reasoning_effort": "low",
+          "expected_sandbox": "read-only",
+          "expected_timeout_seconds": 300,
+          "last_message_sha256_errors": [],
+          "max_attempt_duration_ms": 83929,
+          "observed_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "preflight_errors": [],
+          "request_sha256_errors": [],
+          "timed_out_attempts": [],
+          "verified_jobs": 60
+        },
+        "infrastructure_failures": 0,
+        "invalid_results": [],
+        "job_identity_sha256": "60155026f47e08cbbc8917b0851dd10b6f266f6b08b4f3bd5053a1c6abb123fe",
+        "ledger_identity_mismatch": [],
+        "manifest_jobs": 60,
+        "max_observed_concurrency": 46,
+        "method_block_counts": {
+          "G-1407BDDB752D / validation-b01": 10,
+          "G-1407BDDB752D / validation-b02": 10,
+          "G-157CA76A3367 / validation-b01": 10,
+          "G-157CA76A3367 / validation-b02": 10,
+          "G-236ED23A587B / validation-b01": 10,
+          "G-236ED23A587B / validation-b02": 10
+        },
+        "method_counts": {
+          "G-1407BDDB752D": 20,
+          "G-157CA76A3367": 20,
+          "G-236ED23A587B": 20
+        },
+        "missing_results": [],
+        "operational_summary_max_active_processes": 6,
+        "phase_counts": {
+          "validation": 60
+        },
+        "planned_jobs": 60,
+        "planned_methods": [
+          "G-1407BDDB752D",
+          "G-157CA76A3367",
+          "G-236ED23A587B"
+        ],
+        "prediction_identity_mismatch": [],
+        "prediction_record_identity_errors": [],
+        "prediction_records": 720,
+        "prediction_records_sha256": "a9644c2798b8e647c61a5467295577753ca4bba327ec0846586441f537cf572b",
+        "protocol_violations": 0,
+        "request_hash_changed_on_retry": [],
+        "retry_jobs": [],
+        "role_counts": {
+          "critic": 8,
+          "judge": 6,
+          "proposer": 46
+        },
+        "schema_invalid_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 60
+        },
+        "terminal_results": 60,
+        "unique_jobs": 60
+      },
+      "name": "run.validation",
+      "passed": true
+    },
+    {
+      "detail": {
+        "attempt_statuses": {
+          "valid_output": 120
+        },
+        "attempts": 120,
+        "block_counts": {
+          "final-b01": 30,
+          "final-b02": 30,
+          "final-b03": 30,
+          "final-b04": 30
+        },
+        "concurrency_errors": [],
+        "concurrency_source": "half-open overlap sweep of attempt started_at/finished_at timestamps",
+        "execution_contract": {
+          "artifact_or_command_errors": [],
+          "disabled_features": [
+            "apps",
+            "browser_use",
+            "browser_use_external",
+            "browser_use_full_cdp_access",
+            "computer_use",
+            "enable_mcp_apps",
+            "goals",
+            "hooks",
+            "image_generation",
+            "in_app_browser",
+            "multi_agent",
+            "multi_agent_v2",
+            "plugin_sharing",
+            "plugins",
+            "remote_plugin",
+            "shell_tool",
+            "skill_mcp_dependency_install",
+            "standalone_web_search",
+            "tool_suggest",
+            "unified_exec",
+            "workspace_dependencies"
+          ],
+          "duration_errors": [],
+          "expected_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "expected_ephemeral": true,
+          "expected_model": "gpt-5.6-luna",
+          "expected_reasoning_effort": "low",
+          "expected_sandbox": "read-only",
+          "expected_timeout_seconds": 300,
+          "last_message_sha256_errors": [],
+          "max_attempt_duration_ms": 84241,
+          "observed_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "preflight_errors": [],
+          "request_sha256_errors": [],
+          "timed_out_attempts": [],
+          "verified_jobs": 120
+        },
+        "infrastructure_failures": 0,
+        "invalid_results": [],
+        "job_identity_sha256": "505bcfd0ffcb15a5c804d017ae94446377da699b3eea2d18dc9f3db193d5dba0",
+        "ledger_identity_mismatch": [],
+        "manifest_jobs": 120,
+        "max_observed_concurrency": 50,
+        "method_block_counts": {
+          "FIXED-SWARM10 / final-b01": 10,
+          "FIXED-SWARM10 / final-b02": 10,
+          "FIXED-SWARM10 / final-b03": 10,
+          "FIXED-SWARM10 / final-b04": 10,
+          "G-1407BDDB752D / final-b01": 10,
+          "G-1407BDDB752D / final-b02": 10,
+          "G-1407BDDB752D / final-b03": 10,
+          "G-1407BDDB752D / final-b04": 10,
+          "G-498E470E7808 / final-b01": 10,
+          "G-498E470E7808 / final-b02": 10,
+          "G-498E470E7808 / final-b03": 10,
+          "G-498E470E7808 / final-b04": 10
+        },
+        "method_counts": {
+          "FIXED-SWARM10": 40,
+          "G-1407BDDB752D": 40,
+          "G-498E470E7808": 40
+        },
+        "missing_results": [],
+        "operational_summary_max_active_processes": 12,
+        "phase_counts": {
+          "final": 120
+        },
+        "planned_jobs": 120,
+        "planned_methods": [
+          "FIXED-SWARM10",
+          "G-1407BDDB752D",
+          "G-498E470E7808"
+        ],
+        "prediction_identity_mismatch": [],
+        "prediction_record_identity_errors": [],
+        "prediction_records": 1440,
+        "prediction_records_sha256": "d6635b06d90dc1fa189a1d4e24afa44448606005eafd96e10345173aa7829775",
+        "protocol_violations": 0,
+        "request_hash_changed_on_retry": [],
+        "retry_jobs": [],
+        "role_counts": {
+          "critic": 16,
+          "judge": 12,
+          "proposer": 84,
+          "verifier": 8
+        },
+        "schema_invalid_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 120
+        },
+        "terminal_results": 120,
+        "unique_jobs": 120
+      },
+      "name": "run.final-structured",
+      "passed": true
+    },
+    {
+      "detail": {
+        "attempt_statuses": {
+          "valid_output": 40
+        },
+        "attempts": 40,
+        "block_counts": {
+          "final-b01": 10,
+          "final-b02": 10,
+          "final-b03": 10,
+          "final-b04": 10
+        },
+        "concurrency_errors": [],
+        "concurrency_source": "half-open overlap sweep of attempt started_at/finished_at timestamps",
+        "execution_contract": {
+          "artifact_or_command_errors": [],
+          "disabled_features": [
+            "apps",
+            "browser_use",
+            "browser_use_external",
+            "browser_use_full_cdp_access",
+            "computer_use",
+            "enable_mcp_apps",
+            "goals",
+            "hooks",
+            "image_generation",
+            "in_app_browser",
+            "multi_agent",
+            "multi_agent_v2",
+            "plugin_sharing",
+            "plugins",
+            "remote_plugin",
+            "shell_tool",
+            "skill_mcp_dependency_install",
+            "standalone_web_search",
+            "tool_suggest",
+            "unified_exec",
+            "workspace_dependencies"
+          ],
+          "duration_errors": [],
+          "expected_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "expected_ephemeral": true,
+          "expected_model": "gpt-5.6-luna",
+          "expected_reasoning_effort": "low",
+          "expected_sandbox": "read-only",
+          "expected_timeout_seconds": 300,
+          "last_message_sha256_errors": [],
+          "max_attempt_duration_ms": 77589,
+          "observed_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "preflight_errors": [],
+          "request_sha256_errors": [],
+          "timed_out_attempts": [],
+          "verified_jobs": 40
+        },
+        "infrastructure_failures": 0,
+        "invalid_results": [],
+        "job_identity_sha256": "79a2fed4aee8fecbf53e9fb3f28b8f9fadd279e8b8d8eb20e93609a2bec20f53",
+        "ledger_identity_mismatch": [],
+        "manifest_jobs": 40,
+        "max_observed_concurrency": 40,
+        "method_block_counts": {
+          "Vote10 / final-b01": 10,
+          "Vote10 / final-b02": 10,
+          "Vote10 / final-b03": 10,
+          "Vote10 / final-b04": 10
+        },
+        "method_counts": {
+          "Vote10": 40
+        },
+        "missing_results": [],
+        "operational_summary_max_active_processes": 40,
+        "phase_counts": {
+          "final": 40
+        },
+        "planned_jobs": 40,
+        "planned_methods": [
+          "Vote10"
+        ],
+        "prediction_identity_mismatch": [],
+        "prediction_record_identity_errors": [],
+        "prediction_records": 480,
+        "prediction_records_sha256": "6acc8ca5df0f8ad0e2d287f2582d06081f1f0d4228ddeb49113cb18dceb3b0c2",
+        "protocol_violations": 0,
+        "request_hash_changed_on_retry": [],
+        "retry_jobs": [],
+        "role_counts": {
+          "proposer": 40
+        },
+        "schema_invalid_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 40
+        },
+        "terminal_results": 40,
+        "unique_jobs": 40
+      },
+      "name": "run.final-vote10",
+      "passed": true
+    },
+    {
+      "detail": {
+        "attempt_statuses": {
+          "valid_output": 40
+        },
+        "attempts": 40,
+        "block_counts": {
+          "final-b01": 10,
+          "final-b02": 10,
+          "final-b03": 10,
+          "final-b04": 10
+        },
+        "concurrency_errors": [],
+        "concurrency_source": "half-open overlap sweep of attempt started_at/finished_at timestamps",
+        "execution_contract": {
+          "artifact_or_command_errors": [],
+          "disabled_features": [
+            "apps",
+            "browser_use",
+            "browser_use_external",
+            "browser_use_full_cdp_access",
+            "computer_use",
+            "enable_mcp_apps",
+            "goals",
+            "hooks",
+            "image_generation",
+            "in_app_browser",
+            "multi_agent",
+            "multi_agent_v2",
+            "plugin_sharing",
+            "plugins",
+            "remote_plugin",
+            "shell_tool",
+            "skill_mcp_dependency_install",
+            "standalone_web_search",
+            "tool_suggest",
+            "unified_exec",
+            "workspace_dependencies"
+          ],
+          "duration_errors": [],
+          "expected_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "expected_ephemeral": true,
+          "expected_model": "gpt-5.6-luna",
+          "expected_reasoning_effort": "low",
+          "expected_sandbox": "read-only",
+          "expected_timeout_seconds": 600,
+          "last_message_sha256_errors": [],
+          "max_attempt_duration_ms": 82308,
+          "observed_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "preflight_errors": [],
+          "request_sha256_errors": [],
+          "timed_out_attempts": [],
+          "verified_jobs": 40
+        },
+        "infrastructure_failures": 0,
+        "invalid_results": [],
+        "job_identity_sha256": "02864c4268cd9aefeb0928941e3666078028f491194ec27d12e758ae6945dfc1",
+        "ledger_identity_mismatch": [],
+        "manifest_jobs": 40,
+        "max_observed_concurrency": 40,
+        "method_block_counts": {
+          "Vote10 / final-b01": 10,
+          "Vote10 / final-b02": 10,
+          "Vote10 / final-b03": 10,
+          "Vote10 / final-b04": 10
+        },
+        "method_counts": {
+          "Vote10": 40
+        },
+        "missing_results": [],
+        "operational_summary_max_active_processes": 40,
+        "phase_counts": {
+          "final-amendment-01": 40
+        },
+        "planned_jobs": 40,
+        "planned_methods": [
+          "Vote10"
+        ],
+        "prediction_identity_mismatch": [],
+        "prediction_record_identity_errors": [],
+        "prediction_records": 480,
+        "prediction_records_sha256": "2d57b54d2d82eb3433f32871fd20f90fd40a0941a2f8da67a1c45b06dd0e5e8b",
+        "protocol_violations": 0,
+        "request_hash_changed_on_retry": [],
+        "retry_jobs": [],
+        "role_counts": {
+          "proposer": 40
+        },
+        "schema_invalid_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 40
+        },
+        "terminal_results": 40,
+        "unique_jobs": 40
+      },
+      "name": "run.final-vote10-generalist",
+      "passed": true
+    },
+    {
+      "detail": {
+        "amendment_01_correction_jobs": 40,
+        "amendment_01_timeout_deviation": "disclosed and separately audited",
+        "amendment_01_timeout_seconds": 600,
+        "disabled_features": [
+          "apps",
+          "browser_use",
+          "browser_use_external",
+          "browser_use_full_cdp_access",
+          "computer_use",
+          "enable_mcp_apps",
+          "goals",
+          "hooks",
+          "image_generation",
+          "in_app_browser",
+          "multi_agent",
+          "multi_agent_v2",
+          "plugin_sharing",
+          "plugins",
+          "remote_plugin",
+          "shell_tool",
+          "skill_mcp_dependency_install",
+          "standalone_web_search",
+          "tool_suggest",
+          "unified_exec",
+          "workspace_dependencies"
+        ],
+        "ephemeral": true,
+        "expected_jobs": 440,
+        "model": "gpt-5.6-luna",
+        "reasoning_effort": "low",
+        "registered_jobs": 400,
+        "registered_timeout_seconds": 300,
+        "response_integrity": "SHA-256(last_message.txt) equals attempt ledger response_sha256",
+        "sandbox": "read-only",
+        "verified_jobs": 440,
+        "violations": {}
+      },
+      "name": "execution.contract",
+      "passed": true
+    },
+    {
+      "detail": {
+        "amendment_01_correction": {
+          "total": 40,
+          "vote10_generalist": 40
+        },
+        "attempts": 440,
+        "correction_jobs": 40,
+        "infrastructure_failures": 0,
+        "job_identity_sha256": "9147edf576eca63f4866e8ada70ece6d1dadb786808f90d7870717f8b6256152",
+        "jobs": 440,
+        "max_observed_concurrency": 50,
+        "prediction_records": 5280,
+        "protocol_violations": 0,
+        "registered_jobs": 400,
+        "registered_observed": {
+          "evolution": 180,
+          "final": 160,
+          "final_structured": 120,
+          "final_vote10": 40,
+          "total": 400,
+          "validation": 60
+        },
+        "registered_plan": {
+          "evolution": 180,
+          "final": 160,
+          "final_structured": 120,
+          "final_vote10": 40,
+          "total": 400,
+          "validation": 60
+        },
+        "retries": 0,
+        "schema_invalid_attempts": 0,
+        "terminal_valid_jobs": 440,
+        "total_recorded_calls": 440,
+        "unique_jobs": 440
+      },
+      "name": "plan.aggregate",
+      "passed": true
+    },
+    {
+      "detail": {
+        "path": "AMENDMENT-01.md",
+        "required_chronology_markers_present": true,
+        "sha256": "d8facf5806fdae07bdfce60f726f061e5d08151f88b307f62c4294336c5e501b"
+      },
+      "name": "amendment.chronology",
+      "passed": true
+    },
+    {
+      "detail": {
+        "all_correction_calls_finished_below_registered_ceiling": true,
+        "correction_calls": 40,
+        "correction_max_attempt_duration_ms": 82308,
+        "correction_request_identities_verified": true,
+        "correction_timed_out_attempts": [],
+        "correction_timeout_seconds": 600,
+        "registered_calls": 400,
+        "registered_request_identities_verified": true,
+        "registered_timeout_seconds": 300,
+        "required_disclosure_markers_present": true,
+        "verified": true
+      },
+      "name": "amendment.timeout_deviation",
+      "passed": true
+    },
+    {
+      "detail": {
+        "common_prefix_sha256": "66e04b56dbf2cd0bfebe6bfe59df1023630227fdf26da104838e029a14ede7f0",
+        "declared_generalist_lens_sha256": "2a22e6bde6c709a0c786e929bf4e7bb34b631087e49173a01824107c935cfe63",
+        "frozen_generalist_lens_sha256": "2a22e6bde6c709a0c786e929bf4e7bb34b631087e49173a01824107c935cfe63",
+        "frozen_lens_source": "prompts/LENSES.json worker.generalist",
+        "jobs": 40,
+        "prompt_contract_errors": [],
+        "prompt_files": 40,
+        "prompt_set_mismatch": [],
+        "verified": true
+      },
+      "name": "amendment.generalist_prompt_contract",
+      "passed": true
+    },
+    {
+      "detail": {
+        "case_count": 12,
+        "malformed_calls": 0,
+        "method_calls": {
+          "G-37B2621092D0": 10,
+          "G-44EEB120C37E": 10,
+          "G-498E470E7808": 10,
+          "G-93B0BFCCF64A": 10,
+          "G-A13267BCF63C": 10,
+          "G-A51F73B64C32": 10
+        },
+        "prediction_file_sha256": "ad20f4e80293cadd3ddae59926a3a4c8b1074517eeda2c1aa06b6973b9b68b1e",
+        "prediction_records": 720,
+        "verified": true
+      },
+      "name": "score.generation-00",
+      "passed": true
+    },
+    {
+      "detail": {
+        "case_count": 12,
+        "malformed_calls": 0,
+        "method_calls": {
+          "G-1407BDDB752D": 10,
+          "G-236ED23A587B": 10,
+          "G-264C5E480510": 10,
+          "G-52E910BC671D": 10,
+          "G-6F23EB184B37": 10,
+          "G-A23A4824383F": 10
+        },
+        "prediction_file_sha256": "bba3042c75e1fc4de55ca61ed2ce58ee53d6f8b5da6de4d23ef6493fa4ee767e",
+        "prediction_records": 720,
+        "verified": true
+      },
+      "name": "score.generation-01",
+      "passed": true
+    },
+    {
+      "detail": {
+        "case_count": 12,
+        "malformed_calls": 0,
+        "method_calls": {
+          "G-157CA76A3367": 10,
+          "G-1C48E71B2A52": 10,
+          "G-6892249EEC1C": 10,
+          "G-8950DC816BAB": 10,
+          "G-9C253D688BD7": 10,
+          "G-A6F016C4C5E2": 10
+        },
+        "prediction_file_sha256": "c6e2c5c613e22915ae6ffd53b0b5c7cc08cf7a17b8acba9eaa5f5fe446d62918",
+        "prediction_records": 720,
+        "verified": true
+      },
+      "name": "score.generation-02",
+      "passed": true
+    },
+    {
+      "detail": {
+        "case_count": 24,
+        "malformed_calls": 0,
+        "method_calls": {
+          "G-1407BDDB752D": 20,
+          "G-157CA76A3367": 20,
+          "G-236ED23A587B": 20
+        },
+        "prediction_file_sha256": "4d09b68bcb4f536af3bf002d609040ef9f18e4bf1f86b2e3597015681d835eff",
+        "prediction_records": 720,
+        "verified": true
+      },
+      "name": "score.validation",
+      "passed": true
+    },
+    {
+      "detail": {
+        "case_count": 48,
+        "malformed_calls": 0,
+        "method_calls": {
+          "FIXED-SWARM10": 40,
+          "G-1407BDDB752D": 40,
+          "G-498E470E7808": 40,
+          "Vote10": 40
+        },
+        "prediction_file_sha256": "9e33e717910a96e3fcc6c992c18bcff369146d4c397a13038c7cdf4b1aeda402",
+        "prediction_records": 1920,
+        "verified": true
+      },
+      "name": "score.final",
+      "passed": true
+    },
+    {
+      "detail": {
+        "case_count": 48,
+        "malformed_calls": 0,
+        "method_calls": {
+          "FIXED-SWARM10": 40,
+          "G-1407BDDB752D": 40,
+          "G-498E470E7808": 40,
+          "Vote10": 40
+        },
+        "prediction_file_sha256": "2e08174d831ad370f086f86beddca31c9011274ade06a786cd89083fe66f1c21",
+        "prediction_records": 1920,
+        "verified": true
+      },
+      "name": "score.final-diversified-vote",
+      "passed": true
+    },
+    {
+      "detail": {
+        "expected_sources": [
+          "runs/final/structured/predictions.json",
+          "runs/final/vote10-generalist/predictions.json"
+        ],
+        "merged_file": "runs/final/predictions.json",
+        "record_count": 1920,
+        "source_errors": [],
+        "source_record_counts": [
+          1440,
+          480
+        ],
+        "verified": true
+      },
+      "name": "score.final-primary.merge",
+      "passed": true
+    },
+    {
+      "detail": {
+        "expected_sources": [
+          "runs/final/structured/predictions.json",
+          "runs/final/vote10/predictions.json"
+        ],
+        "merged_file": "runs/final/predictions-diversified-vote.json",
+        "record_count": 1920,
+        "source_errors": [],
+        "source_record_counts": [
+          1440,
+          480
+        ],
+        "verified": true
+      },
+      "name": "score.final-diversified-vote.merge",
+      "passed": true
+    },
+    {
+      "detail": {
+        "files_scanned": 2334,
+        "findings": [],
+        "missing_git_visible_files": [],
+        "passed": true,
+        "scope": "exact Git-visible release set under the experiment root, enumerated by git ls-files --cached --others --exclude-standard"
+      },
+      "name": "privacy.git_visible_release_set",
+      "passed": true
+    }
+  ],
+  "collection": {
+    "aggregate": {
+      "amendment_01_correction": {
+        "total": 40,
+        "vote10_generalist": 40
+      },
+      "attempts": 440,
+      "correction_jobs": 40,
+      "infrastructure_failures": 0,
+      "job_identity_sha256": "9147edf576eca63f4866e8ada70ece6d1dadb786808f90d7870717f8b6256152",
+      "jobs": 440,
+      "max_observed_concurrency": 50,
+      "prediction_records": 5280,
+      "protocol_violations": 0,
+      "registered_jobs": 400,
+      "registered_observed": {
+        "evolution": 180,
+        "final": 160,
+        "final_structured": 120,
+        "final_vote10": 40,
+        "total": 400,
+        "validation": 60
+      },
+      "registered_plan": {
+        "evolution": 180,
+        "final": 160,
+        "final_structured": 120,
+        "final_vote10": 40,
+        "total": 400,
+        "validation": 60
+      },
+      "retries": 0,
+      "schema_invalid_attempts": 0,
+      "terminal_valid_jobs": 440,
+      "total_recorded_calls": 440,
+      "unique_jobs": 440
+    },
+    "runs": {
+      "final-structured": {
+        "attempt_statuses": {
+          "valid_output": 120
+        },
+        "attempts": 120,
+        "block_counts": {
+          "final-b01": 30,
+          "final-b02": 30,
+          "final-b03": 30,
+          "final-b04": 30
+        },
+        "concurrency_errors": [],
+        "concurrency_source": "half-open overlap sweep of attempt started_at/finished_at timestamps",
+        "execution_contract": {
+          "artifact_or_command_errors": [],
+          "disabled_features": [
+            "apps",
+            "browser_use",
+            "browser_use_external",
+            "browser_use_full_cdp_access",
+            "computer_use",
+            "enable_mcp_apps",
+            "goals",
+            "hooks",
+            "image_generation",
+            "in_app_browser",
+            "multi_agent",
+            "multi_agent_v2",
+            "plugin_sharing",
+            "plugins",
+            "remote_plugin",
+            "shell_tool",
+            "skill_mcp_dependency_install",
+            "standalone_web_search",
+            "tool_suggest",
+            "unified_exec",
+            "workspace_dependencies"
+          ],
+          "duration_errors": [],
+          "expected_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "expected_ephemeral": true,
+          "expected_model": "gpt-5.6-luna",
+          "expected_reasoning_effort": "low",
+          "expected_sandbox": "read-only",
+          "expected_timeout_seconds": 300,
+          "last_message_sha256_errors": [],
+          "max_attempt_duration_ms": 84241,
+          "observed_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "preflight_errors": [],
+          "request_sha256_errors": [],
+          "timed_out_attempts": [],
+          "verified_jobs": 120
+        },
+        "infrastructure_failures": 0,
+        "invalid_results": [],
+        "job_identity_sha256": "505bcfd0ffcb15a5c804d017ae94446377da699b3eea2d18dc9f3db193d5dba0",
+        "ledger_identity_mismatch": [],
+        "manifest_jobs": 120,
+        "max_observed_concurrency": 50,
+        "method_block_counts": {
+          "FIXED-SWARM10 / final-b01": 10,
+          "FIXED-SWARM10 / final-b02": 10,
+          "FIXED-SWARM10 / final-b03": 10,
+          "FIXED-SWARM10 / final-b04": 10,
+          "G-1407BDDB752D / final-b01": 10,
+          "G-1407BDDB752D / final-b02": 10,
+          "G-1407BDDB752D / final-b03": 10,
+          "G-1407BDDB752D / final-b04": 10,
+          "G-498E470E7808 / final-b01": 10,
+          "G-498E470E7808 / final-b02": 10,
+          "G-498E470E7808 / final-b03": 10,
+          "G-498E470E7808 / final-b04": 10
+        },
+        "method_counts": {
+          "FIXED-SWARM10": 40,
+          "G-1407BDDB752D": 40,
+          "G-498E470E7808": 40
+        },
+        "missing_results": [],
+        "operational_summary_max_active_processes": 12,
+        "phase_counts": {
+          "final": 120
+        },
+        "planned_jobs": 120,
+        "planned_methods": [
+          "FIXED-SWARM10",
+          "G-1407BDDB752D",
+          "G-498E470E7808"
+        ],
+        "prediction_identity_mismatch": [],
+        "prediction_record_identity_errors": [],
+        "prediction_records": 1440,
+        "prediction_records_sha256": "d6635b06d90dc1fa189a1d4e24afa44448606005eafd96e10345173aa7829775",
+        "protocol_violations": 0,
+        "request_hash_changed_on_retry": [],
+        "retry_jobs": [],
+        "role_counts": {
+          "critic": 16,
+          "judge": 12,
+          "proposer": 84,
+          "verifier": 8
+        },
+        "schema_invalid_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 120
+        },
+        "terminal_results": 120,
+        "unique_jobs": 120
+      },
+      "final-vote10": {
+        "attempt_statuses": {
+          "valid_output": 40
+        },
+        "attempts": 40,
+        "block_counts": {
+          "final-b01": 10,
+          "final-b02": 10,
+          "final-b03": 10,
+          "final-b04": 10
+        },
+        "concurrency_errors": [],
+        "concurrency_source": "half-open overlap sweep of attempt started_at/finished_at timestamps",
+        "execution_contract": {
+          "artifact_or_command_errors": [],
+          "disabled_features": [
+            "apps",
+            "browser_use",
+            "browser_use_external",
+            "browser_use_full_cdp_access",
+            "computer_use",
+            "enable_mcp_apps",
+            "goals",
+            "hooks",
+            "image_generation",
+            "in_app_browser",
+            "multi_agent",
+            "multi_agent_v2",
+            "plugin_sharing",
+            "plugins",
+            "remote_plugin",
+            "shell_tool",
+            "skill_mcp_dependency_install",
+            "standalone_web_search",
+            "tool_suggest",
+            "unified_exec",
+            "workspace_dependencies"
+          ],
+          "duration_errors": [],
+          "expected_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "expected_ephemeral": true,
+          "expected_model": "gpt-5.6-luna",
+          "expected_reasoning_effort": "low",
+          "expected_sandbox": "read-only",
+          "expected_timeout_seconds": 300,
+          "last_message_sha256_errors": [],
+          "max_attempt_duration_ms": 77589,
+          "observed_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "preflight_errors": [],
+          "request_sha256_errors": [],
+          "timed_out_attempts": [],
+          "verified_jobs": 40
+        },
+        "infrastructure_failures": 0,
+        "invalid_results": [],
+        "job_identity_sha256": "79a2fed4aee8fecbf53e9fb3f28b8f9fadd279e8b8d8eb20e93609a2bec20f53",
+        "ledger_identity_mismatch": [],
+        "manifest_jobs": 40,
+        "max_observed_concurrency": 40,
+        "method_block_counts": {
+          "Vote10 / final-b01": 10,
+          "Vote10 / final-b02": 10,
+          "Vote10 / final-b03": 10,
+          "Vote10 / final-b04": 10
+        },
+        "method_counts": {
+          "Vote10": 40
+        },
+        "missing_results": [],
+        "operational_summary_max_active_processes": 40,
+        "phase_counts": {
+          "final": 40
+        },
+        "planned_jobs": 40,
+        "planned_methods": [
+          "Vote10"
+        ],
+        "prediction_identity_mismatch": [],
+        "prediction_record_identity_errors": [],
+        "prediction_records": 480,
+        "prediction_records_sha256": "6acc8ca5df0f8ad0e2d287f2582d06081f1f0d4228ddeb49113cb18dceb3b0c2",
+        "protocol_violations": 0,
+        "request_hash_changed_on_retry": [],
+        "retry_jobs": [],
+        "role_counts": {
+          "proposer": 40
+        },
+        "schema_invalid_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 40
+        },
+        "terminal_results": 40,
+        "unique_jobs": 40
+      },
+      "final-vote10-generalist": {
+        "attempt_statuses": {
+          "valid_output": 40
+        },
+        "attempts": 40,
+        "block_counts": {
+          "final-b01": 10,
+          "final-b02": 10,
+          "final-b03": 10,
+          "final-b04": 10
+        },
+        "concurrency_errors": [],
+        "concurrency_source": "half-open overlap sweep of attempt started_at/finished_at timestamps",
+        "execution_contract": {
+          "artifact_or_command_errors": [],
+          "disabled_features": [
+            "apps",
+            "browser_use",
+            "browser_use_external",
+            "browser_use_full_cdp_access",
+            "computer_use",
+            "enable_mcp_apps",
+            "goals",
+            "hooks",
+            "image_generation",
+            "in_app_browser",
+            "multi_agent",
+            "multi_agent_v2",
+            "plugin_sharing",
+            "plugins",
+            "remote_plugin",
+            "shell_tool",
+            "skill_mcp_dependency_install",
+            "standalone_web_search",
+            "tool_suggest",
+            "unified_exec",
+            "workspace_dependencies"
+          ],
+          "duration_errors": [],
+          "expected_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "expected_ephemeral": true,
+          "expected_model": "gpt-5.6-luna",
+          "expected_reasoning_effort": "low",
+          "expected_sandbox": "read-only",
+          "expected_timeout_seconds": 600,
+          "last_message_sha256_errors": [],
+          "max_attempt_duration_ms": 82308,
+          "observed_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "preflight_errors": [],
+          "request_sha256_errors": [],
+          "timed_out_attempts": [],
+          "verified_jobs": 40
+        },
+        "infrastructure_failures": 0,
+        "invalid_results": [],
+        "job_identity_sha256": "02864c4268cd9aefeb0928941e3666078028f491194ec27d12e758ae6945dfc1",
+        "ledger_identity_mismatch": [],
+        "manifest_jobs": 40,
+        "max_observed_concurrency": 40,
+        "method_block_counts": {
+          "Vote10 / final-b01": 10,
+          "Vote10 / final-b02": 10,
+          "Vote10 / final-b03": 10,
+          "Vote10 / final-b04": 10
+        },
+        "method_counts": {
+          "Vote10": 40
+        },
+        "missing_results": [],
+        "operational_summary_max_active_processes": 40,
+        "phase_counts": {
+          "final-amendment-01": 40
+        },
+        "planned_jobs": 40,
+        "planned_methods": [
+          "Vote10"
+        ],
+        "prediction_identity_mismatch": [],
+        "prediction_record_identity_errors": [],
+        "prediction_records": 480,
+        "prediction_records_sha256": "2d57b54d2d82eb3433f32871fd20f90fd40a0941a2f8da67a1c45b06dd0e5e8b",
+        "protocol_violations": 0,
+        "request_hash_changed_on_retry": [],
+        "retry_jobs": [],
+        "role_counts": {
+          "proposer": 40
+        },
+        "schema_invalid_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 40
+        },
+        "terminal_results": 40,
+        "unique_jobs": 40
+      },
+      "generation-00": {
+        "attempt_statuses": {
+          "valid_output": 60
+        },
+        "attempts": 60,
+        "block_counts": {
+          "training-b01": 60
+        },
+        "concurrency_errors": [],
+        "concurrency_source": "half-open overlap sweep of attempt started_at/finished_at timestamps",
+        "execution_contract": {
+          "artifact_or_command_errors": [],
+          "disabled_features": [
+            "apps",
+            "browser_use",
+            "browser_use_external",
+            "browser_use_full_cdp_access",
+            "computer_use",
+            "enable_mcp_apps",
+            "goals",
+            "hooks",
+            "image_generation",
+            "in_app_browser",
+            "multi_agent",
+            "multi_agent_v2",
+            "plugin_sharing",
+            "plugins",
+            "remote_plugin",
+            "shell_tool",
+            "skill_mcp_dependency_install",
+            "standalone_web_search",
+            "tool_suggest",
+            "unified_exec",
+            "workspace_dependencies"
+          ],
+          "duration_errors": [],
+          "expected_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "expected_ephemeral": true,
+          "expected_model": "gpt-5.6-luna",
+          "expected_reasoning_effort": "low",
+          "expected_sandbox": "read-only",
+          "expected_timeout_seconds": 300,
+          "last_message_sha256_errors": [],
+          "max_attempt_duration_ms": 83629,
+          "observed_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "preflight_errors": [],
+          "request_sha256_errors": [],
+          "timed_out_attempts": [],
+          "verified_jobs": 60
+        },
+        "infrastructure_failures": 0,
+        "invalid_results": [],
+        "job_identity_sha256": "c7392bbdb8073097251c49fa84280426b141723650bad4606816ba07117f51e4",
+        "ledger_identity_mismatch": [],
+        "manifest_jobs": 60,
+        "max_observed_concurrency": 44,
+        "method_block_counts": {
+          "G-37B2621092D0 / training-b01": 10,
+          "G-44EEB120C37E / training-b01": 10,
+          "G-498E470E7808 / training-b01": 10,
+          "G-93B0BFCCF64A / training-b01": 10,
+          "G-A13267BCF63C / training-b01": 10,
+          "G-A51F73B64C32 / training-b01": 10
+        },
+        "method_counts": {
+          "G-37B2621092D0": 10,
+          "G-44EEB120C37E": 10,
+          "G-498E470E7808": 10,
+          "G-93B0BFCCF64A": 10,
+          "G-A13267BCF63C": 10,
+          "G-A51F73B64C32": 10
+        },
+        "missing_results": [],
+        "operational_summary_max_active_processes": 6,
+        "phase_counts": {
+          "search-g0": 60
+        },
+        "planned_jobs": 60,
+        "planned_methods": [
+          "G-37B2621092D0",
+          "G-44EEB120C37E",
+          "G-498E470E7808",
+          "G-93B0BFCCF64A",
+          "G-A13267BCF63C",
+          "G-A51F73B64C32"
+        ],
+        "prediction_identity_mismatch": [],
+        "prediction_record_identity_errors": [],
+        "prediction_records": 720,
+        "prediction_records_sha256": "9d70a70a0f8a1830bf7097cd233b15a9abb47245c9b4087faa859e69261ab038",
+        "protocol_violations": 0,
+        "request_hash_changed_on_retry": [],
+        "retry_jobs": [],
+        "role_counts": {
+          "critic": 4,
+          "judge": 6,
+          "proposer": 44,
+          "revision": 2,
+          "verifier": 4
+        },
+        "schema_invalid_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 60
+        },
+        "terminal_results": 60,
+        "unique_jobs": 60
+      },
+      "generation-01": {
+        "attempt_statuses": {
+          "valid_output": 60
+        },
+        "attempts": 60,
+        "block_counts": {
+          "training-b01": 60
+        },
+        "concurrency_errors": [],
+        "concurrency_source": "half-open overlap sweep of attempt started_at/finished_at timestamps",
+        "execution_contract": {
+          "artifact_or_command_errors": [],
+          "disabled_features": [
+            "apps",
+            "browser_use",
+            "browser_use_external",
+            "browser_use_full_cdp_access",
+            "computer_use",
+            "enable_mcp_apps",
+            "goals",
+            "hooks",
+            "image_generation",
+            "in_app_browser",
+            "multi_agent",
+            "multi_agent_v2",
+            "plugin_sharing",
+            "plugins",
+            "remote_plugin",
+            "shell_tool",
+            "skill_mcp_dependency_install",
+            "standalone_web_search",
+            "tool_suggest",
+            "unified_exec",
+            "workspace_dependencies"
+          ],
+          "duration_errors": [],
+          "expected_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "expected_ephemeral": true,
+          "expected_model": "gpt-5.6-luna",
+          "expected_reasoning_effort": "low",
+          "expected_sandbox": "read-only",
+          "expected_timeout_seconds": 300,
+          "last_message_sha256_errors": [],
+          "max_attempt_duration_ms": 82165,
+          "observed_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "preflight_errors": [],
+          "request_sha256_errors": [],
+          "timed_out_attempts": [],
+          "verified_jobs": 60
+        },
+        "infrastructure_failures": 0,
+        "invalid_results": [],
+        "job_identity_sha256": "dfb49fa6b9a4678362d7085eb1ce85b16909fb23374a90c6efba339c31ca3355",
+        "ledger_identity_mismatch": [],
+        "manifest_jobs": 60,
+        "max_observed_concurrency": 44,
+        "method_block_counts": {
+          "G-1407BDDB752D / training-b01": 10,
+          "G-236ED23A587B / training-b01": 10,
+          "G-264C5E480510 / training-b01": 10,
+          "G-52E910BC671D / training-b01": 10,
+          "G-6F23EB184B37 / training-b01": 10,
+          "G-A23A4824383F / training-b01": 10
+        },
+        "method_counts": {
+          "G-1407BDDB752D": 10,
+          "G-236ED23A587B": 10,
+          "G-264C5E480510": 10,
+          "G-52E910BC671D": 10,
+          "G-6F23EB184B37": 10,
+          "G-A23A4824383F": 10
+        },
+        "missing_results": [],
+        "operational_summary_max_active_processes": 6,
+        "phase_counts": {
+          "search-g1": 60
+        },
+        "planned_jobs": 60,
+        "planned_methods": [
+          "G-1407BDDB752D",
+          "G-236ED23A587B",
+          "G-264C5E480510",
+          "G-52E910BC671D",
+          "G-6F23EB184B37",
+          "G-A23A4824383F"
+        ],
+        "prediction_identity_mismatch": [],
+        "prediction_record_identity_errors": [],
+        "prediction_records": 720,
+        "prediction_records_sha256": "f60aa457612b9bc0d7edaa4711c5fafc44cc10ace340add9a8bc3c9290d46f4e",
+        "protocol_violations": 0,
+        "request_hash_changed_on_retry": [],
+        "retry_jobs": [],
+        "role_counts": {
+          "critic": 6,
+          "judge": 6,
+          "proposer": 44,
+          "revision": 2,
+          "verifier": 2
+        },
+        "schema_invalid_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 60
+        },
+        "terminal_results": 60,
+        "unique_jobs": 60
+      },
+      "generation-02": {
+        "attempt_statuses": {
+          "valid_output": 60
+        },
+        "attempts": 60,
+        "block_counts": {
+          "training-b01": 60
+        },
+        "concurrency_errors": [],
+        "concurrency_source": "half-open overlap sweep of attempt started_at/finished_at timestamps",
+        "execution_contract": {
+          "artifact_or_command_errors": [],
+          "disabled_features": [
+            "apps",
+            "browser_use",
+            "browser_use_external",
+            "browser_use_full_cdp_access",
+            "computer_use",
+            "enable_mcp_apps",
+            "goals",
+            "hooks",
+            "image_generation",
+            "in_app_browser",
+            "multi_agent",
+            "multi_agent_v2",
+            "plugin_sharing",
+            "plugins",
+            "remote_plugin",
+            "shell_tool",
+            "skill_mcp_dependency_install",
+            "standalone_web_search",
+            "tool_suggest",
+            "unified_exec",
+            "workspace_dependencies"
+          ],
+          "duration_errors": [],
+          "expected_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "expected_ephemeral": true,
+          "expected_model": "gpt-5.6-luna",
+          "expected_reasoning_effort": "low",
+          "expected_sandbox": "read-only",
+          "expected_timeout_seconds": 300,
+          "last_message_sha256_errors": [],
+          "max_attempt_duration_ms": 90289,
+          "observed_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "preflight_errors": [],
+          "request_sha256_errors": [],
+          "timed_out_attempts": [],
+          "verified_jobs": 60
+        },
+        "infrastructure_failures": 0,
+        "invalid_results": [],
+        "job_identity_sha256": "dd17be86ac337d88d42a61b8743dcc707e9b2ff4e55c9958bb46e8a050e78551",
+        "ledger_identity_mismatch": [],
+        "manifest_jobs": 60,
+        "max_observed_concurrency": 48,
+        "method_block_counts": {
+          "G-157CA76A3367 / training-b01": 10,
+          "G-1C48E71B2A52 / training-b01": 10,
+          "G-6892249EEC1C / training-b01": 10,
+          "G-8950DC816BAB / training-b01": 10,
+          "G-9C253D688BD7 / training-b01": 10,
+          "G-A6F016C4C5E2 / training-b01": 10
+        },
+        "method_counts": {
+          "G-157CA76A3367": 10,
+          "G-1C48E71B2A52": 10,
+          "G-6892249EEC1C": 10,
+          "G-8950DC816BAB": 10,
+          "G-9C253D688BD7": 10,
+          "G-A6F016C4C5E2": 10
+        },
+        "missing_results": [],
+        "operational_summary_max_active_processes": 6,
+        "phase_counts": {
+          "search-g2": 60
+        },
+        "planned_jobs": 60,
+        "planned_methods": [
+          "G-157CA76A3367",
+          "G-1C48E71B2A52",
+          "G-6892249EEC1C",
+          "G-8950DC816BAB",
+          "G-9C253D688BD7",
+          "G-A6F016C4C5E2"
+        ],
+        "prediction_identity_mismatch": [],
+        "prediction_record_identity_errors": [],
+        "prediction_records": 720,
+        "prediction_records_sha256": "42b0fe2e04f67f4abfc86ca69406d48a7da2c969f839ca5b187e534f7a4bff06",
+        "protocol_violations": 0,
+        "request_hash_changed_on_retry": [],
+        "retry_jobs": [],
+        "role_counts": {
+          "critic": 4,
+          "judge": 6,
+          "proposer": 48,
+          "verifier": 2
+        },
+        "schema_invalid_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 60
+        },
+        "terminal_results": 60,
+        "unique_jobs": 60
+      },
+      "validation": {
+        "attempt_statuses": {
+          "valid_output": 60
+        },
+        "attempts": 60,
+        "block_counts": {
+          "validation-b01": 30,
+          "validation-b02": 30
+        },
+        "concurrency_errors": [],
+        "concurrency_source": "half-open overlap sweep of attempt started_at/finished_at timestamps",
+        "execution_contract": {
+          "artifact_or_command_errors": [],
+          "disabled_features": [
+            "apps",
+            "browser_use",
+            "browser_use_external",
+            "browser_use_full_cdp_access",
+            "computer_use",
+            "enable_mcp_apps",
+            "goals",
+            "hooks",
+            "image_generation",
+            "in_app_browser",
+            "multi_agent",
+            "multi_agent_v2",
+            "plugin_sharing",
+            "plugins",
+            "remote_plugin",
+            "shell_tool",
+            "skill_mcp_dependency_install",
+            "standalone_web_search",
+            "tool_suggest",
+            "unified_exec",
+            "workspace_dependencies"
+          ],
+          "duration_errors": [],
+          "expected_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "expected_ephemeral": true,
+          "expected_model": "gpt-5.6-luna",
+          "expected_reasoning_effort": "low",
+          "expected_sandbox": "read-only",
+          "expected_timeout_seconds": 300,
+          "last_message_sha256_errors": [],
+          "max_attempt_duration_ms": 83929,
+          "observed_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "preflight_errors": [],
+          "request_sha256_errors": [],
+          "timed_out_attempts": [],
+          "verified_jobs": 60
+        },
+        "infrastructure_failures": 0,
+        "invalid_results": [],
+        "job_identity_sha256": "60155026f47e08cbbc8917b0851dd10b6f266f6b08b4f3bd5053a1c6abb123fe",
+        "ledger_identity_mismatch": [],
+        "manifest_jobs": 60,
+        "max_observed_concurrency": 46,
+        "method_block_counts": {
+          "G-1407BDDB752D / validation-b01": 10,
+          "G-1407BDDB752D / validation-b02": 10,
+          "G-157CA76A3367 / validation-b01": 10,
+          "G-157CA76A3367 / validation-b02": 10,
+          "G-236ED23A587B / validation-b01": 10,
+          "G-236ED23A587B / validation-b02": 10
+        },
+        "method_counts": {
+          "G-1407BDDB752D": 20,
+          "G-157CA76A3367": 20,
+          "G-236ED23A587B": 20
+        },
+        "missing_results": [],
+        "operational_summary_max_active_processes": 6,
+        "phase_counts": {
+          "validation": 60
+        },
+        "planned_jobs": 60,
+        "planned_methods": [
+          "G-1407BDDB752D",
+          "G-157CA76A3367",
+          "G-236ED23A587B"
+        ],
+        "prediction_identity_mismatch": [],
+        "prediction_record_identity_errors": [],
+        "prediction_records": 720,
+        "prediction_records_sha256": "a9644c2798b8e647c61a5467295577753ca4bba327ec0846586441f537cf572b",
+        "protocol_violations": 0,
+        "request_hash_changed_on_retry": [],
+        "retry_jobs": [],
+        "role_counts": {
+          "critic": 8,
+          "judge": 6,
+          "proposer": 46
+        },
+        "schema_invalid_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 60
+        },
+        "terminal_results": 60,
+        "unique_jobs": 60
+      }
+    }
+  },
+  "freeze": {
+    "field_mismatches": {},
+    "file_mismatches": [],
+    "files_checked": 27,
+    "freeze_sha256": "d2afc385e94d2c0d33d82a875a89701477fa4dadb629e87e49de829092863ffa",
+    "verified": true
+  },
+  "generated_at": "2026-07-13T12:53:22.994627Z",
+  "privacy": {
+    "files_scanned": 2334,
+    "findings": [],
+    "missing_git_visible_files": [],
+    "passed": true,
+    "scope": "exact Git-visible release set under the experiment root, enumerated by git ls-files --cached --others --exclude-standard"
+  },
+  "release_exclusions": [
+    "runs/smoke/, runs/smoke-unsandboxed/, and runs/preflight/ (development/preflight activity outside the 400-call plan)",
+    "runs/**/runner/jobs/**/{events.jsonl,process.json,stderr.txt,transport_result.json} (local process/session diagnostics excluded by .gitignore)",
+    "runs/**/runner/.run.lock, __pycache__/, and *.py[cod] (ephemeral local state excluded by .gitignore)",
+    "Sanitized command.json is Git-visible and may remain in the release."
+  ],
+  "schema_version": "experiment-03-release-audit-v1",
+  "scores": {
+    "final": {
+      "case_count": 48,
+      "malformed_calls": 0,
+      "method_calls": {
+        "FIXED-SWARM10": 40,
+        "G-1407BDDB752D": 40,
+        "G-498E470E7808": 40,
+        "Vote10": 40
+      },
+      "prediction_file_sha256": "9e33e717910a96e3fcc6c992c18bcff369146d4c397a13038c7cdf4b1aeda402",
+      "prediction_records": 1920,
+      "verified": true
+    },
+    "final-diversified-vote": {
+      "case_count": 48,
+      "malformed_calls": 0,
+      "method_calls": {
+        "FIXED-SWARM10": 40,
+        "G-1407BDDB752D": 40,
+        "G-498E470E7808": 40,
+        "Vote10": 40
+      },
+      "prediction_file_sha256": "2e08174d831ad370f086f86beddca31c9011274ade06a786cd89083fe66f1c21",
+      "prediction_records": 1920,
+      "verified": true
+    },
+    "final-diversified-vote_merge": {
+      "expected_sources": [
+        "runs/final/structured/predictions.json",
+        "runs/final/vote10/predictions.json"
+      ],
+      "merged_file": "runs/final/predictions-diversified-vote.json",
+      "record_count": 1920,
+      "source_errors": [],
+      "source_record_counts": [
+        1440,
+        480
+      ],
+      "verified": true
+    },
+    "final-primary_merge": {
+      "expected_sources": [
+        "runs/final/structured/predictions.json",
+        "runs/final/vote10-generalist/predictions.json"
+      ],
+      "merged_file": "runs/final/predictions.json",
+      "record_count": 1920,
+      "source_errors": [],
+      "source_record_counts": [
+        1440,
+        480
+      ],
+      "verified": true
+    },
+    "generation-00": {
+      "case_count": 12,
+      "malformed_calls": 0,
+      "method_calls": {
+        "G-37B2621092D0": 10,
+        "G-44EEB120C37E": 10,
+        "G-498E470E7808": 10,
+        "G-93B0BFCCF64A": 10,
+        "G-A13267BCF63C": 10,
+        "G-A51F73B64C32": 10
+      },
+      "prediction_file_sha256": "ad20f4e80293cadd3ddae59926a3a4c8b1074517eeda2c1aa06b6973b9b68b1e",
+      "prediction_records": 720,
+      "verified": true
+    },
+    "generation-01": {
+      "case_count": 12,
+      "malformed_calls": 0,
+      "method_calls": {
+        "G-1407BDDB752D": 10,
+        "G-236ED23A587B": 10,
+        "G-264C5E480510": 10,
+        "G-52E910BC671D": 10,
+        "G-6F23EB184B37": 10,
+        "G-A23A4824383F": 10
+      },
+      "prediction_file_sha256": "bba3042c75e1fc4de55ca61ed2ce58ee53d6f8b5da6de4d23ef6493fa4ee767e",
+      "prediction_records": 720,
+      "verified": true
+    },
+    "generation-02": {
+      "case_count": 12,
+      "malformed_calls": 0,
+      "method_calls": {
+        "G-157CA76A3367": 10,
+        "G-1C48E71B2A52": 10,
+        "G-6892249EEC1C": 10,
+        "G-8950DC816BAB": 10,
+        "G-9C253D688BD7": 10,
+        "G-A6F016C4C5E2": 10
+      },
+      "prediction_file_sha256": "c6e2c5c613e22915ae6ffd53b0b5c7cc08cf7a17b8acba9eaa5f5fe446d62918",
+      "prediction_records": 720,
+      "verified": true
+    },
+    "validation": {
+      "case_count": 24,
+      "malformed_calls": 0,
+      "method_calls": {
+        "G-1407BDDB752D": 20,
+        "G-157CA76A3367": 20,
+        "G-236ED23A587B": 20
+      },
+      "prediction_file_sha256": "4d09b68bcb4f536af3bf002d609040ef9f18e4bf1f86b2e3597015681d835eff",
+      "prediction_records": 720,
+      "verified": true
+    }
+  },
+  "status": "passed"
+}

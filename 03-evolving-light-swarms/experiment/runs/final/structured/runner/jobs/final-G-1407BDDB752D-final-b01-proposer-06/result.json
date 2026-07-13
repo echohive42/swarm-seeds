@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b01",
+    "results": [
+      {
+        "answer": [
+          "8430",
+          "14550",
+          "23820",
+          "37170",
+          "55650"
+        ],
+        "case_id": "F001",
+        "check_summary": "Fit inferred from accelerating polynomial-like differences; extrapolation uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "POLY-like integer sequence."
+      },
+      {
+        "answer": [
+          "29",
+          "32",
+          "14",
+          "43",
+          "38"
+        ],
+        "case_id": "F002",
+        "check_summary": "Interleaved subsequences with alternating increment patterns.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "68",
+          "89",
+          "96",
+          "135",
+          "130"
+        ],
+        "case_id": "F003",
+        "check_summary": "Phase/interleaved extrapolation from alternating difference structure.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE or phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "57714",
+          "-115440",
+          "230838",
+          "-461668",
+          "923310"
+        ],
+        "case_id": "F004",
+        "check_summary": "Replayed multiplier -2 with six-phase biases.",
+        "confidence": 0.92,
+        "rule_summary": "AFFINE with periodic phase bias."
+      },
+      {
+        "answer": [
+          "1380",
+          "1949",
+          "2674",
+          "3581",
+          "4698"
+        ],
+        "case_id": "F005",
+        "check_summary": "Second differences continue with successive even increments.",
+        "confidence": 0.84,
+        "rule_summary": "POLY/PDELTA."
+      },
+      {
+        "answer": [
+          "-27",
+          "23",
+          "-16",
+          "10",
+          "-14"
+        ],
+        "case_id": "F006",
+        "check_summary": "Exact seven-term period is visible throughout the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PERIODIC affine/constant phase sequence."
+      },
+      {
+        "answer": [
+          "-59284",
+          "-118523",
+          "-237006",
+          "-474015",
+          "-948050"
+        ],
+        "case_id": "F007",
+        "check_summary": "Approximate multiplier-two continuation with alternating small offsets.",
+        "confidence": 0.28,
+        "rule_summary": "AFFINE with periodic phase bias."
+      },
+      {
+        "answer": [
+          "7652753",
+          "-22958263",
+          "68874805",
+          "-206624423",
+          "619873285"
+        ],
+        "case_id": "F008",
+        "check_summary": "Extrapolated dominant alternating multiplier pattern.",
+        "confidence": 0.22,
+        "rule_summary": "MODAFFINE/AFFINE-like."
+      },
+      {
+        "answer": [
+          "-37",
+          "-39",
+          "-43",
+          "-45",
+          "-49"
+        ],
+        "case_id": "F009",
+        "check_summary": "Odd and even subsequences each decrease by six.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "80",
+          "78",
+          "70",
+          "58",
+          "43"
+        ],
+        "case_id": "F010",
+        "check_summary": "Symmetric finite-difference pattern continued.",
+        "confidence": 0.82,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "-4",
+          "12",
+          "-9",
+          "-8",
+          "16"
+        ],
+        "case_id": "F011",
+        "check_summary": "Exact six-term period is visible.",
+        "confidence": 0.99,
+        "rule_summary": "PERIODIC sequence."
+      },
+      {
+        "answer": [
+          "23209",
+          "-46423",
+          "92841",
+          "-185687",
+          "371369"
+        ],
+        "case_id": "F012",
+        "check_summary": "Exact recurrence a(n)=-2a(n-1)-5 replays the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-G-1407BDDB752D-final-b01-proposer-06",
+  "outcome": "valid_output",
+  "response_sha256": "56292212d9ad8091c4a3830de2621b496a0349e1157b7e10f6e872fe95d6cc35",
+  "terminal_artifact_relpath": "jobs/final-G-1407BDDB752D-final-b01-proposer-06/attempt-01"
+}

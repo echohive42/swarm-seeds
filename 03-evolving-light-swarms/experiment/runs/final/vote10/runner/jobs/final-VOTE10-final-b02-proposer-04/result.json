@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "27",
+          "-78",
+          "-20",
+          "33",
+          "-105"
+        ],
+        "case_id": "F013",
+        "check_summary": "Three interleaved streams: first arithmetic, second with arithmetic step changes, third alternating power-of-two differences.",
+        "confidence": 0.94,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-70",
+          "-57",
+          "-44",
+          "-31",
+          "-18"
+        ],
+        "case_id": "F014",
+        "check_summary": "Growing arithmetic blocks with polynomially changing starts and steps.",
+        "confidence": 0.8,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-10",
+          "11",
+          "32",
+          "53",
+          "74"
+        ],
+        "case_id": "F015",
+        "check_summary": "Arithmetic blocks with increasing block steps and polynomially changing starts.",
+        "confidence": 0.34,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-1",
+          "39",
+          "21",
+          "-4",
+          "48"
+        ],
+        "case_id": "F016",
+        "check_summary": "Tentative phase-interleaved recurrence extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-54",
+          "-132",
+          "84",
+          "-210",
+          "165"
+        ],
+        "case_id": "F017",
+        "check_summary": "Tentative periodic affine extrapolation of paired streams.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "18",
+          "-17",
+          "83",
+          "-29",
+          "27"
+        ],
+        "case_id": "F018",
+        "check_summary": "Tentative interleaved-stream extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "62",
+          "-23",
+          "88",
+          "-55",
+          "116"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd stream has successive differences increasing by four; even stream differences double with alternating sign.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-11",
+          "44",
+          "-5",
+          "60",
+          "-3"
+        ],
+        "case_id": "F020",
+        "check_summary": "Tentative phase-interleaved recurrence extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-33",
+          "-38",
+          "-43",
+          "-48",
+          "-53"
+        ],
+        "case_id": "F021",
+        "check_summary": "Tentative periodic arithmetic-block continuation.",
+        "confidence": 0.11,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-1",
+          "92",
+          "-4",
+          "113",
+          "-7"
+        ],
+        "case_id": "F022",
+        "check_summary": "Tentative interleaved polynomial-stream extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "14",
+          "-6",
+          "15",
+          "-8",
+          "16"
+        ],
+        "case_id": "F023",
+        "check_summary": "Odd positions increase by one and even positions decrease by two.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-151",
+          "111",
+          "-228",
+          "145",
+          "-316"
+        ],
+        "case_id": "F024",
+        "check_summary": "Tentative three-stream polynomial extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-VOTE10-final-b02-proposer-04",
+  "outcome": "valid_output",
+  "response_sha256": "96a9185e0f4adb1c2f90b356cae79ad359c24ee7ac673bfbaeff1aad2e3d01f6",
+  "terminal_artifact_relpath": "jobs/final-VOTE10-final-b02-proposer-04/attempt-01"
+}

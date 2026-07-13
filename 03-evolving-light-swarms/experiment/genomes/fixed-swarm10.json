@@ -1,0 +1,23 @@
+{
+  "schema_version": "experiment-03-baseline-v1",
+  "genomes": [
+    {
+      "genome_id": "FIXED-SWARM10",
+      "genes": {
+        "topology_id": "fixed_swarm_5p_2c_2v_1j",
+        "role_lenses": [
+          "generalist",
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "diversifier",
+          "audit",
+          "audit",
+          "simplicity"
+        ],
+        "final_policy_id": "plurality_preserving"
+      }
+    }
+  ]
+}

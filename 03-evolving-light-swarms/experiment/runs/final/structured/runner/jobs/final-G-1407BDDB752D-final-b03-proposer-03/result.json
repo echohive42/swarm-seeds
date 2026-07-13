@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "-1",
+          "-7",
+          "-18",
+          "-30",
+          "-36"
+        ],
+        "case_id": "F025",
+        "check_summary": "Insufficiently identified from prefix; provisional continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Candidate higher-order periodic polynomial-delta behavior."
+      },
+      {
+        "answer": [
+          "-19933077",
+          "59799236",
+          "-179397715",
+          "-358795435",
+          "1076386310"
+        ],
+        "case_id": "F026",
+        "check_summary": "Replays a 3-phase affine update cycle.",
+        "confidence": 0.99,
+        "rule_summary": "Phase updates 2x-5, -3x+5, -3x-7."
+      },
+      {
+        "answer": [
+          "-25943",
+          "51881",
+          "-103767",
+          "207529",
+          "-415063"
+        ],
+        "case_id": "F027",
+        "check_summary": "Every transition follows x -> -2x-5.",
+        "confidence": 0.99,
+        "rule_summary": "Constant affine recurrence."
+      },
+      {
+        "answer": [
+          "327",
+          "471",
+          "704",
+          "1081",
+          "1691"
+        ],
+        "case_id": "F028",
+        "check_summary": "Successive increments continue the Fibonacci sequence.",
+        "confidence": 0.99,
+        "rule_summary": "Running value with Fibonacci-number deltas."
+      },
+      {
+        "answer": [
+          "-28",
+          "-33",
+          "-35",
+          "-40",
+          "-42"
+        ],
+        "case_id": "F029",
+        "check_summary": "Differences alternate -2 and -5.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta recurrence."
+      },
+      {
+        "answer": [
+          "-359",
+          "-547",
+          "173",
+          "1273",
+          "-359"
+        ],
+        "case_id": "F030",
+        "check_summary": "Provisional continuation from suspected periodic interleaving.",
+        "confidence": 0.05,
+        "rule_summary": "Candidate phase-specific affine/interleaved behavior."
+      },
+      {
+        "answer": [
+          "37",
+          "-6",
+          "57",
+          "5",
+          "85"
+        ],
+        "case_id": "F031",
+        "check_summary": "Odd and even subsequences have arithmetic-progressive differences.",
+        "confidence": 0.98,
+        "rule_summary": "Two interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "48",
+          "72",
+          "57",
+          "93",
+          "74"
+        ],
+        "case_id": "F032",
+        "check_summary": "Provisional continuation from suspected interleaved streams.",
+        "confidence": 0.08,
+        "rule_summary": "Candidate interleaved polynomial behavior."
+      },
+      {
+        "answer": [
+          "-7198",
+          "-11639",
+          "-18835",
+          "-30483",
+          "-49315"
+        ],
+        "case_id": "F033",
+        "check_summary": "Late terms fit a Fibonacci-like recurrence with repeating offsets -9, 3, 2.",
+        "confidence": 0.93,
+        "rule_summary": "Second-order recurrence with periodic bias."
+      },
+      {
+        "answer": [
+          "3919",
+          "5377",
+          "7195",
+          "9426",
+          "12199"
+        ],
+        "case_id": "F034",
+        "check_summary": "Late finite differences fit a quartic continuation.",
+        "confidence": 0.91,
+        "rule_summary": "Polynomial sequence with constant fourth difference."
+      },
+      {
+        "answer": [
+          "119966",
+          "-239936",
+          "-719809",
+          "1439614",
+          "4318841"
+        ],
+        "case_id": "F035",
+        "check_summary": "Alternating affine cycle replays exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Phase updates 3x-1 and -2x-4."
+      },
+      {
+        "answer": [
+          "-386",
+          "-514",
+          "-666",
+          "-844",
+          "-1050"
+        ],
+        "case_id": "F036",
+        "check_summary": "First differences continue with second differences decreasing by 2.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial delta sequence."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-G-1407BDDB752D-final-b03-proposer-03",
+  "outcome": "valid_output",
+  "response_sha256": "b7bc0ce72ba877cc93476c60d9b6d9bfa8a9f0595a0b17b0612f4efc4ba96c6a",
+  "terminal_artifact_relpath": "jobs/final-G-1407BDDB752D-final-b03-proposer-03/attempt-01"
+}

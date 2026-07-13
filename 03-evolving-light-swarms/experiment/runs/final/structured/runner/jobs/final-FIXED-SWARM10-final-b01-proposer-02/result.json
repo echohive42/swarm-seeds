@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b01",
+    "results": [
+      {
+        "answer": [
+          "11701",
+          "17964",
+          "26619",
+          "38284",
+          "53674"
+        ],
+        "case_id": "F001",
+        "check_summary": "Finite-difference extrapolation with fourth differences increasing by 7.",
+        "confidence": 0.82,
+        "rule_summary": "Polynomial-like finite-difference continuation."
+      },
+      {
+        "answer": [
+          "29",
+          "32",
+          "14",
+          "43",
+          "38"
+        ],
+        "case_id": "F002",
+        "check_summary": "Odd/even lagged subsequences show alternating increment patterns.",
+        "confidence": 0.58,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "86",
+          "93",
+          "111",
+          "132",
+          "164"
+        ],
+        "case_id": "F003",
+        "check_summary": "Lagged subsequences and periodic increments continued.",
+        "confidence": 0.28,
+        "rule_summary": "Periodic lagged polynomial mechanism."
+      },
+      {
+        "answer": [
+          "-69626",
+          "168056",
+          "-405426",
+          "977800",
+          "-2360586"
+        ],
+        "case_id": "F004",
+        "check_summary": "Alternating rapidly growing recurrence continuation.",
+        "confidence": 0.31,
+        "rule_summary": "Phase-dependent affine or second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "1381",
+          "1950",
+          "2675",
+          "3582",
+          "4699"
+        ],
+        "case_id": "F005",
+        "check_summary": "Third differences increase by 2, yielding continued polynomial differences.",
+        "confidence": 0.96,
+        "rule_summary": "Integer-valued polynomial continuation."
+      },
+      {
+        "answer": [
+          "21",
+          "-27",
+          "23",
+          "-16",
+          "10"
+        ],
+        "case_id": "F006",
+        "check_summary": "Prefix repeats exactly with period 6.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic affine sequence."
+      },
+      {
+        "answer": [
+          "-59329",
+          "-118741",
+          "-237523",
+          "-475089",
+          "-950221"
+        ],
+        "case_id": "F007",
+        "check_summary": "Exponential-scale continuation using phase-dependent affine updates.",
+        "confidence": 0.25,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "7652755",
+          "-22958267",
+          "68874805",
+          "-206624417",
+          "619873255"
+        ],
+        "case_id": "F008",
+        "check_summary": "Multiplier -3 with alternating biases -2 and +4.",
+        "confidence": 1.0,
+        "rule_summary": "Phase-dependent affine recurrence."
+      },
+      {
+        "answer": [
+          "-37",
+          "-39",
+          "-43",
+          "-45",
+          "-49"
+        ],
+        "case_id": "F009",
+        "check_summary": "Odd and even subsequences each decrease by 6.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "80",
+          "78",
+          "70",
+          "55",
+          "32"
+        ],
+        "case_id": "F010",
+        "check_summary": "Finite differences continue with second differences decreasing by 1.",
+        "confidence": 0.94,
+        "rule_summary": "Polynomial continuation."
+      },
+      {
+        "answer": [
+          "16",
+          "-13",
+          "-4",
+          "12",
+          "-9"
+        ],
+        "case_id": "F011",
+        "check_summary": "Prefix repeats exactly with period 6.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic sequence."
+      },
+      {
+        "answer": [
+          "23209",
+          "-46423",
+          "92841",
+          "-185687",
+          "371369"
+        ],
+        "case_id": "F012",
+        "check_summary": "Each term follows x_next = -2x - 5.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-FIXED-SWARM10-final-b01-proposer-02",
+  "outcome": "valid_output",
+  "response_sha256": "e3cc0a15ed5a163a576fa10e875d1cc113afd222778f4209d9da9b4d186993fd",
+  "terminal_artifact_relpath": "jobs/final-FIXED-SWARM10-final-b01-proposer-02/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "39",
+          "2",
+          "-7",
+          "50",
+          "2"
+        ],
+        "case_id": "F037",
+        "check_summary": "Repeating three-position structure; first stream increases by 1, second by successive odd increments, third remains 2.",
+        "confidence": 0.99,
+        "rule_summary": "Three-way interleaving of polynomial streams."
+      },
+      {
+        "answer": [
+          "-27",
+          "-35",
+          "-47",
+          "-51",
+          "-75"
+        ],
+        "case_id": "F038",
+        "check_summary": "Best-fit phase-specific polynomial continuation across the observed periodic phases.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-5",
+          "74",
+          "-18",
+          "86",
+          "-31"
+        ],
+        "case_id": "F039",
+        "check_summary": "Best-fit two-stream continuation from alternating subsequences.",
+        "confidence": 0.16,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-16",
+          "3",
+          "-18",
+          "2",
+          "-20"
+        ],
+        "case_id": "F040",
+        "check_summary": "Odd positions decrease by 2; even positions decrease by 1.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "31",
+          "27",
+          "44",
+          "36",
+          "50"
+        ],
+        "case_id": "F041",
+        "check_summary": "Best-fit periodic affine continuation from phase-separated subsequences.",
+        "confidence": 0.15,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "146",
+          "179",
+          "212",
+          "245",
+          "278"
+        ],
+        "case_id": "F042",
+        "check_summary": "Final run is arithmetic with constant increment 33.",
+        "confidence": 0.96,
+        "rule_summary": "Affine recurrence with phase-specific behavior."
+      },
+      {
+        "answer": [
+          "27",
+          "24",
+          "49",
+          "41",
+          "58"
+        ],
+        "case_id": "F043",
+        "check_summary": "Three interleaved streams; first two have successive odd increments, third follows cubic finite differences.",
+        "confidence": 0.72,
+        "rule_summary": "Three-way interleaving of polynomial streams."
+      },
+      {
+        "answer": [
+          "-9",
+          "28",
+          "57",
+          "-12",
+          "74"
+        ],
+        "case_id": "F044",
+        "check_summary": "Best-fit periodic interleaved continuation.",
+        "confidence": 0.14,
+        "rule_summary": "Interleaved affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "-25",
+          "-41",
+          "27",
+          "-53",
+          "34"
+        ],
+        "case_id": "F045",
+        "check_summary": "Best-fit alternating phase continuation.",
+        "confidence": 0.13,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-2",
+          "-2",
+          "-3",
+          "-4",
+          "-4"
+        ],
+        "case_id": "F046",
+        "check_summary": "Best-fit continuation of the observed paired descending subsequences.",
+        "confidence": 0.16,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-3",
+          "80",
+          "5",
+          "107",
+          "-3"
+        ],
+        "case_id": "F047",
+        "check_summary": "Odd positions alternate -3 and 5; even-position differences increase by 5.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-36",
+          "-37",
+          "42",
+          "-39",
+          "-44"
+        ],
+        "case_id": "F048",
+        "check_summary": "Best-fit periodic phase continuation.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine update modulo a prime."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "amendment-01-VOTE10-final-b04-proposer-08",
+  "outcome": "valid_output",
+  "response_sha256": "9e87c6592bcc7cf87e7d419f3d24e303752fdb53e66d6a6f433cb034a98e2c33",
+  "terminal_artifact_relpath": "jobs/amendment-01-VOTE10-final-b04-proposer-08/attempt-01"
+}

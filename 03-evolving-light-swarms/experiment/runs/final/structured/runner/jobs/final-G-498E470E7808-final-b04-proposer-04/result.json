@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "-7",
+          "41",
+          "2",
+          "-6",
+          "54"
+        ],
+        "case_id": "F037",
+        "check_summary": "Three interleaved streams: first linear, second with odd increasing increments, third constant.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-49",
+          "42",
+          "-72",
+          "47",
+          "-101"
+        ],
+        "case_id": "F038",
+        "check_summary": "Prefix is consistent with phase-separated nonlinear subsequences; continuation extrapolated by phase differences.",
+        "confidence": 0.22,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-16",
+          "75",
+          "-8",
+          "91",
+          "-4"
+        ],
+        "case_id": "F039",
+        "check_summary": "Mixed interleaved phase structure; continuation extrapolated from recent phase behavior.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16",
+          "3",
+          "-18",
+          "2",
+          "-20"
+        ],
+        "case_id": "F040",
+        "check_summary": "Odd positions decrease by 2; even positions decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "32",
+          "25",
+          "47",
+          "31",
+          "20"
+        ],
+        "case_id": "F041",
+        "check_summary": "Phase-separated recurrence inferred from the irregular prefix.",
+        "confidence": 0.16,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "146",
+          "179",
+          "212",
+          "245",
+          "278"
+        ],
+        "case_id": "F042",
+        "check_summary": "Final visible run is arithmetic with common difference 33.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "7",
+          "24",
+          "21",
+          "18",
+          "15"
+        ],
+        "case_id": "F043",
+        "check_summary": "Repeated -3 steps with positive jumps increasing by 3; next jump is 17.",
+        "confidence": 0.92,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "28",
+          "30",
+          "-8",
+          "7",
+          "54"
+        ],
+        "case_id": "F044",
+        "check_summary": "Interleaved phase streams extrapolated from their observed recent increments.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-12",
+          "-55",
+          "24",
+          "-8",
+          "28"
+        ],
+        "case_id": "F045",
+        "check_summary": "Irregular phase-specific affine behavior extrapolated from the prefix.",
+        "confidence": 0.15,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-2",
+          "-3",
+          "-4",
+          "-5",
+          "-6"
+        ],
+        "case_id": "F046",
+        "check_summary": "Tail forms a descending arithmetic run after the phase transition.",
+        "confidence": 0.86,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3",
+          "80",
+          "5",
+          "111",
+          "-3"
+        ],
+        "case_id": "F047",
+        "check_summary": "Even subsequence increments by successive multiples of 5; odd subsequence alternates -3 and 5.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-48",
+          "37",
+          "-231",
+          "44",
+          "-18"
+        ],
+        "case_id": "F048",
+        "check_summary": "Mixed phase-dependent recurrence extrapolated from the irregular prefix.",
+        "confidence": 0.12,
+        "rule_summary": "MODAFFINE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "final-G-498E470E7808-final-b04-proposer-04",
+  "outcome": "valid_output",
+  "response_sha256": "fa6b0951cd430806651962748c98c89a808def6b97e85f5a130fcd9110ebea54",
+  "terminal_artifact_relpath": "jobs/final-G-498E470E7808-final-b04-proposer-04/attempt-01"
+}

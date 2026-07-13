@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "41",
+          "2",
+          "-7",
+          "54",
+          "2"
+        ],
+        "case_id": "F037",
+        "check_summary": "Three-phase interleave: first stream rises by 1; second has odd increasing increments; third is constant 2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-42",
+          "40",
+          "-43",
+          "45",
+          "-44"
+        ],
+        "case_id": "F038",
+        "check_summary": "Prefix suggests a phase-dependent interleaved affine/polynomial mechanism; continuation is uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-8",
+          "76",
+          "34",
+          "87",
+          "40"
+        ],
+        "case_id": "F039",
+        "check_summary": "No unique simple continuation identified from the visible prefix.",
+        "confidence": 0.08,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-16",
+          "3",
+          "-18",
+          "2",
+          "-20"
+        ],
+        "case_id": "F040",
+        "check_summary": "Alternating arithmetic streams: negative stream decreases by 2 and positive stream decreases by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "27",
+          "24",
+          "21",
+          "38",
+          "15"
+        ],
+        "case_id": "F041",
+        "check_summary": "Likely periodic interleaving, but the phase streams are not uniquely resolved.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "146",
+          "179",
+          "212",
+          "245",
+          "278"
+        ],
+        "case_id": "F042",
+        "check_summary": "The final visible run is an arithmetic progression with common difference 33.",
+        "confidence": 0.72,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "27",
+          "24",
+          "-2",
+          "41",
+          "38"
+        ],
+        "case_id": "F043",
+        "check_summary": "Two interleaved streams have increments increasing by 3; the third phase is less certain.",
+        "confidence": 0.35,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "48",
+          "-2",
+          "30",
+          "54",
+          "6"
+        ],
+        "case_id": "F044",
+        "check_summary": "No unique simple continuation identified from the visible prefix.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "30",
+          "-41",
+          "21",
+          "51",
+          "-55"
+        ],
+        "case_id": "F045",
+        "check_summary": "Three interleaved streams: first has decreasing increments 5,4,3,2; second increments 0,7,14; third decrements by successive 7.",
+        "confidence": 0.94,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-2",
+          "-3",
+          "14",
+          "11",
+          "-4"
+        ],
+        "case_id": "F046",
+        "check_summary": "Late prefix contains several arithmetic phase runs, but the complete periodic rule is uncertain.",
+        "confidence": 0.17,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "70",
+          "7",
+          "85",
+          "88",
+          "9"
+        ],
+        "case_id": "F047",
+        "check_summary": "Likely phase-specific recurrence; continuation is weakly constrained by the prefix.",
+        "confidence": 0.1,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-36",
+          "-83",
+          "42",
+          "-264",
+          "54"
+        ],
+        "case_id": "F048",
+        "check_summary": "No unique simple continuation identified from the visible prefix.",
+        "confidence": 0.06,
+        "rule_summary": "MODAFFINE"
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "amendment-01-VOTE10-final-b04-proposer-01",
+  "outcome": "valid_output",
+  "response_sha256": "55538c7d7b60a791d515af7a9bd848e4cc5c35a4c7918c61e479ec3d9f3409bd",
+  "terminal_artifact_relpath": "jobs/amendment-01-VOTE10-final-b04-proposer-01/attempt-01"
+}

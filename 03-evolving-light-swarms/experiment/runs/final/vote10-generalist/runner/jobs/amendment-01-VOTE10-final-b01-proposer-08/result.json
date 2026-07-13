@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b01",
+    "results": [
+      {
+        "answer": [
+          "11721",
+          "17977",
+          "26611",
+          "38234",
+          "53554"
+        ],
+        "case_id": "F001",
+        "check_summary": "Constant fifth finite difference 7.",
+        "confidence": 0.99,
+        "rule_summary": "Degree-5 integer-valued polynomial extrapolation."
+      },
+      {
+        "answer": [
+          "29",
+          "32",
+          "14",
+          "43",
+          "38"
+        ],
+        "case_id": "F002",
+        "check_summary": "Odd and even subsequences follow separate alternating-difference rules.",
+        "confidence": 0.96,
+        "rule_summary": "Two interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "97",
+          "88",
+          "121",
+          "154",
+          "144"
+        ],
+        "case_id": "F003",
+        "check_summary": "Transition deltas repeat in three phases: +6, descending negatives, +7.",
+        "confidence": 0.94,
+        "rule_summary": "Three-phase polynomial delta update."
+      },
+      {
+        "answer": [
+          "69708",
+          "-144370",
+          "290792",
+          "-581232",
+          "1162318"
+        ],
+        "case_id": "F004",
+        "check_summary": "Recurrence a(n)=-2a(n-1)+a(n-3).",
+        "confidence": 0.99,
+        "rule_summary": "Lagged affine recurrence."
+      },
+      {
+        "answer": [
+          "1380",
+          "1949",
+          "2674",
+          "3581",
+          "4698"
+        ],
+        "case_id": "F005",
+        "check_summary": "Fourth finite difference is constant 2.",
+        "confidence": 0.99,
+        "rule_summary": "Degree-4 polynomial extrapolation."
+      },
+      {
+        "answer": [
+          "21",
+          "-27",
+          "23",
+          "-16",
+          "10"
+        ],
+        "case_id": "F006",
+        "check_summary": "Exact period-6 repetition.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic affine/update sequence."
+      },
+      {
+        "answer": [
+          "-59286",
+          "-118632",
+          "-237229",
+          "-474491",
+          "-948941"
+        ],
+        "case_id": "F007",
+        "check_summary": "Multiplier 2 with repeating six-phase biases.",
+        "confidence": 0.91,
+        "rule_summary": "Phase-specific affine update."
+      },
+      {
+        "answer": [
+          "7652755",
+          "-22958267",
+          "68874805",
+          "-206624417",
+          "619873255"
+        ],
+        "case_id": "F008",
+        "check_summary": "Multiplier -3 with alternating biases +4 and -2.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-37",
+          "-39",
+          "-43",
+          "-45",
+          "-49"
+        ],
+        "case_id": "F009",
+        "check_summary": "Odd and even positions each decrease by 6.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "80",
+          "72",
+          "57",
+          "34",
+          "2"
+        ],
+        "case_id": "F010",
+        "check_summary": "First differences continue with second differences decreasing by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "-8",
+          "16",
+          "-13",
+          "-4",
+          "12"
+        ],
+        "case_id": "F011",
+        "check_summary": "Exact period-6 repetition.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic sequence."
+      },
+      {
+        "answer": [
+          "23209",
+          "-46423",
+          "92841",
+          "-185687",
+          "371369"
+        ],
+        "case_id": "F012",
+        "check_summary": "Recurrence a(n)=-2a(n-1)-5.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence."
+      }
+    ],
+    "schema_version": "3.0"
+  },
+  "job_id": "amendment-01-VOTE10-final-b01-proposer-08",
+  "outcome": "valid_output",
+  "response_sha256": "68ea4061e3e95e2a391f0d0e6c51a748c28223f5e7068917531f7830631e7eb6",
+  "terminal_artifact_relpath": "jobs/amendment-01-VOTE10-final-b01-proposer-08/attempt-01"
+}
