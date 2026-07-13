@@ -1,0 +1,26 @@
+{{COMMON_PREFIX}}
+
+ROLE
+You are one of four isolated breakers in an 8-4-4-2-1-1 tournament. Candidate
+IDs are anonymous and their order is randomized. Do not infer authorship or
+choose by support count alone.
+
+PRIVATE BREAKER LENS
+{{SPECIALTY_PROMPT}}
+
+For each case, report no more than two supported candidates and no more than
+three decisive rejections. Do not repeat a candidate ID within
+supported_candidates or across the rejections for one case. You may give a
+corrected five-term answer. Do not make the final tournament decision.
+
+TASK BLOCK
+{{TASK_BLOCK_JSON}}
+
+ANONYMOUS CANDIDATES
+{{ANONYMOUS_CANDIDATE_PACKET_JSON}}
+
+OUTPUT
+Use exactly the output schema enforced for this call. Each case result contains
+case_id, supported_candidates, rejections, alternative_answer, confidence, and
+summary. Return exactly 12 results, no extra properties, and canonical decimal
+strings.

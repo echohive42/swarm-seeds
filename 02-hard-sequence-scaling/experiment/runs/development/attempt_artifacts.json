@@ -1,0 +1,800 @@
+{
+  "artifact_count": 198,
+  "artifact_set_sha256": "8f53d364896679c4774ddadf608ae462e3c7361bad5739ebe020214922bf959e",
+  "artifacts": {
+    "calls/development-development-b01-light-independent-s01/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "d09700a27bba942c31f95d70de0f6a37e2da9aa3e5b1ba484e9e93a4f9fc8bc4"
+    },
+    "calls/development-development-b01-light-independent-s01/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/development-development-b01-light-independent-s01/attempt-01/events.jsonl": {
+      "bytes": 3696,
+      "sha256": "ef27fea90dca035261846de115f909a4e96bf2d50ef5390c7dbd476b8fa46df8"
+    },
+    "calls/development-development-b01-light-independent-s01/attempt-01/last_message.txt": {
+      "bytes": 3058,
+      "sha256": "2e088fa674215d7b85e25bb83f834cf257571d4bebd0913c92d530f2872c3dc5"
+    },
+    "calls/development-development-b01-light-independent-s01/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "ffe59b6a3fbf9c5b7b1ee56760db551f8befc4aac47cc9552abe786fc3e97cae"
+    },
+    "calls/development-development-b01-light-independent-s01/attempt-01/prompt.txt": {
+      "bytes": 4382,
+      "sha256": "45ac005bdb8cff267faadd83222c74188d7e8ede70af98aabfd7c4c6efc7f674"
+    },
+    "calls/development-development-b01-light-independent-s01/attempt-01/stderr.txt": {
+      "bytes": 11181,
+      "sha256": "b682b05849bdb5ad285156eb817cbb6424d78b02c603058a16bdb9c20f711062"
+    },
+    "calls/development-development-b01-light-independent-s01/attempt-01/transport_result.json": {
+      "bytes": 19395,
+      "sha256": "762bd9b8d43375f1d81655d6a052707c1c1f5bfcfd7ef45df76e59910607c9e1"
+    },
+    "calls/development-development-b01-light-independent-s01/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-independent-s01/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "feef0bb5dffe920ca5bda6109de500223ade80e74cdaa9015345cb7d77df2aed"
+    },
+    "calls/development-development-b01-medium-independent-s01/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-independent-s01/attempt-01/events.jsonl": {
+      "bytes": 3437,
+      "sha256": "489ff0a86e66c2b44e4477320b055fb6042c19276b9b021e22494fa910f9b8fb"
+    },
+    "calls/development-development-b01-medium-independent-s01/attempt-01/last_message.txt": {
+      "bytes": 2795,
+      "sha256": "df80ee25debc5a8a85b49ef02ff0557d2431700df28dba35ffbbcb049347733a"
+    },
+    "calls/development-development-b01-medium-independent-s01/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "87898a858686ee7bafb5dbd277a29b8106a610883d2525ce17e6f4411c7f915c"
+    },
+    "calls/development-development-b01-medium-independent-s01/attempt-01/prompt.txt": {
+      "bytes": 4382,
+      "sha256": "45ac005bdb8cff267faadd83222c74188d7e8ede70af98aabfd7c4c6efc7f674"
+    },
+    "calls/development-development-b01-medium-independent-s01/attempt-01/stderr.txt": {
+      "bytes": 11126,
+      "sha256": "3e72c9b7e4cf01a71c482dde3ab7046399a95b12c87833179c2a0f0e02360f9e"
+    },
+    "calls/development-development-b01-medium-independent-s01/attempt-01/transport_result.json": {
+      "bytes": 18823,
+      "sha256": "d163b0ef0626a4f1fa6747a682d7e2d96aef62520ecaf331392bcc2338839928"
+    },
+    "calls/development-development-b01-medium-independent-s01/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-b01/attempt-01/claim.json": {
+      "bytes": 210,
+      "sha256": "1329de488ed60dd741de86155eba9e125ddd4c126fb2f1731137dfeb18a581df"
+    },
+    "calls/development-development-b01-medium-tournament20-b01/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-b01/attempt-01/events.jsonl": {
+      "bytes": 7620,
+      "sha256": "b19e31b76f38f89a53ab2ae0291b781c3e7ebc6513d6d954fcfbbff641a6d058"
+    },
+    "calls/development-development-b01-medium-tournament20-b01/attempt-01/last_message.txt": {
+      "bytes": 6734,
+      "sha256": "c56bfbe379b901ca978592e83cc850b87ae28bc761c59da0aafa55b66514dc7a"
+    },
+    "calls/development-development-b01-medium-tournament20-b01/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "eeadc3a1cf8ab283f72a11a218b3581e970b2d8eedaae0e87f36455c9b7fb0de"
+    },
+    "calls/development-development-b01-medium-tournament20-b01/attempt-01/prompt.txt": {
+      "bytes": 31525,
+      "sha256": "fcc1163a69c3290cc557fbf4444fa726ffbbc7b9f5e3cba69344296dd9ef12dc"
+    },
+    "calls/development-development-b01-medium-tournament20-b01/attempt-01/stderr.txt": {
+      "bytes": 10595,
+      "sha256": "5e097d8d749b76dd575e20215e6842e2c2927522d955a98c9c4cbcb6ae0b2b55"
+    },
+    "calls/development-development-b01-medium-tournament20-b01/attempt-01/transport_result.json": {
+      "bytes": 26657,
+      "sha256": "afdce053b062fa1226e1f72979d66caf4a18aedda7d83568555957219588b490"
+    },
+    "calls/development-development-b01-medium-tournament20-b01/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-b02/attempt-01/claim.json": {
+      "bytes": 210,
+      "sha256": "7efdb7ab34dc6eb14f8f9bd8ed22ef0c39e0eeaa5bdb6ac188918ed9d7575549"
+    },
+    "calls/development-development-b01-medium-tournament20-b02/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-b02/attempt-01/events.jsonl": {
+      "bytes": 4737,
+      "sha256": "291e96daf3dfa106dda1c594a635722edbf94407854de7cf646eee16278ca9bd"
+    },
+    "calls/development-development-b01-medium-tournament20-b02/attempt-01/last_message.txt": {
+      "bytes": 4051,
+      "sha256": "ef0e637d5f51938be6cdf2b8053ebf5197966da08b2e8a9cea4720730d4f7dd5"
+    },
+    "calls/development-development-b01-medium-tournament20-b02/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "ae202f8054dbc742c3173349cafe986ae870ffafcd5598dfc50d6926e8be4825"
+    },
+    "calls/development-development-b01-medium-tournament20-b02/attempt-01/prompt.txt": {
+      "bytes": 31535,
+      "sha256": "682d2e90e72a1a6aeef72102abd57df1e5fa302c3a10cd9636302c1f958eea06"
+    },
+    "calls/development-development-b01-medium-tournament20-b02/attempt-01/stderr.txt": {
+      "bytes": 11307,
+      "sha256": "bf768c076cb684c696f030da12300aad8e5ca9dc89423074e1250b60da82ea23"
+    },
+    "calls/development-development-b01-medium-tournament20-b02/attempt-01/transport_result.json": {
+      "bytes": 21604,
+      "sha256": "23cb3c9e58265a5e9c3d5632faf898479e69a994c2d83601340aa90c3dc16895"
+    },
+    "calls/development-development-b01-medium-tournament20-b02/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-b03/attempt-01/claim.json": {
+      "bytes": 210,
+      "sha256": "fe8f9fc5d03808994184aeb64126110e87715aebfef4c1293d2edbee510cc95e"
+    },
+    "calls/development-development-b01-medium-tournament20-b03/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-b03/attempt-01/events.jsonl": {
+      "bytes": 8147,
+      "sha256": "457de64d7881d8a72e953f8c1392b474c7371c426e1cab0d742b63ec5d5326d7"
+    },
+    "calls/development-development-b01-medium-tournament20-b03/attempt-01/last_message.txt": {
+      "bytes": 7197,
+      "sha256": "7e8f66e102b38ba7363d5d7678d34bfbebf042d58322877c4172549fbda37096"
+    },
+    "calls/development-development-b01-medium-tournament20-b03/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "05aa6b5f50a992b82a0647a848bd5954376d1f431c0c2e5c8d3da453f19e6be3"
+    },
+    "calls/development-development-b01-medium-tournament20-b03/attempt-01/prompt.txt": {
+      "bytes": 31533,
+      "sha256": "f292c664ce8eb66613107ca9929d9101cc2bda0b312e496b5ec77f16372d084e"
+    },
+    "calls/development-development-b01-medium-tournament20-b03/attempt-01/stderr.txt": {
+      "bytes": 10733,
+      "sha256": "817b476d1963a1e23548a870524eb0abb7314ce99ffe96d84273af2370c6d9e1"
+    },
+    "calls/development-development-b01-medium-tournament20-b03/attempt-01/transport_result.json": {
+      "bytes": 27848,
+      "sha256": "fe03bfcbc8c436c131cb08fd091ccf90e723bb3603246312b5aebfe5908a314b"
+    },
+    "calls/development-development-b01-medium-tournament20-b03/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-b04/attempt-01/claim.json": {
+      "bytes": 210,
+      "sha256": "423fa34c33db18c4a805ab0dbccc33eee0a072e9e11eb451ccc8312e980b89b7"
+    },
+    "calls/development-development-b01-medium-tournament20-b04/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-b04/attempt-01/events.jsonl": {
+      "bytes": 6739,
+      "sha256": "c9fc2dea440d90a25af08863f020b7f6b2040294f0f950ef94728f602ea553d9"
+    },
+    "calls/development-development-b01-medium-tournament20-b04/attempt-01/last_message.txt": {
+      "bytes": 5897,
+      "sha256": "6e8b66a2a0ee1b5e427980f174b43dc17388ba33b8fcbaa5f3001fc884b3b479"
+    },
+    "calls/development-development-b01-medium-tournament20-b04/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "598a81e16fa314154682c62ed6aeb181b18f418e31f73d0af3ac3caf77ec9905"
+    },
+    "calls/development-development-b01-medium-tournament20-b04/attempt-01/prompt.txt": {
+      "bytes": 31557,
+      "sha256": "5750ccae3429404a5fd0cd6dfb887ea40dbdc5f1bf14ddef53bb12f05aab3efd"
+    },
+    "calls/development-development-b01-medium-tournament20-b04/attempt-01/stderr.txt": {
+      "bytes": 10733,
+      "sha256": "dcd506a1303edeb00fba211cdedfe55a059c5d028b237828f489fccdb17f835c"
+    },
+    "calls/development-development-b01-medium-tournament20-b04/attempt-01/transport_result.json": {
+      "bytes": 25032,
+      "sha256": "feb4b9e08d663e074c986ad9420bf58b7deddc91f90b8a3b263d8bcc95a2526f"
+    },
+    "calls/development-development-b01-medium-tournament20-b04/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-e01/attempt-01/claim.json": {
+      "bytes": 210,
+      "sha256": "fadae38a993709e3f769a05fb9f4c646b6fa96f69051611068f85b3998295618"
+    },
+    "calls/development-development-b01-medium-tournament20-e01/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-e01/attempt-01/events.jsonl": {
+      "bytes": 3748,
+      "sha256": "f383c00f87264330c964817a0a8e8bb1e86dc53db0d580c1033f629c36c41b3c"
+    },
+    "calls/development-development-b01-medium-tournament20-e01/attempt-01/last_message.txt": {
+      "bytes": 3107,
+      "sha256": "a1a8121d2ea427055c2e2c89e1785c4bf05993a2b91959685ce07ac1c717bc47"
+    },
+    "calls/development-development-b01-medium-tournament20-e01/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "461c9a0088ecce08d70c7e515784ebbbb8b4ac331b3632ff97e00c9a16c90b26"
+    },
+    "calls/development-development-b01-medium-tournament20-e01/attempt-01/prompt.txt": {
+      "bytes": 4508,
+      "sha256": "a372247dc924bb49d73f26282e0e88f00e3412910a1bf860d37f00142b239577"
+    },
+    "calls/development-development-b01-medium-tournament20-e01/attempt-01/stderr.txt": {
+      "bytes": 10997,
+      "sha256": "07d8bd53753429a103ac022bf09825933ba9467eecdf1c225668575dacbe54f2"
+    },
+    "calls/development-development-b01-medium-tournament20-e01/attempt-01/transport_result.json": {
+      "bytes": 19315,
+      "sha256": "8fbfe0d74244b69df868f4cfbaa8b629b8b307d25f55aa22106d2b4cab18ddf9"
+    },
+    "calls/development-development-b01-medium-tournament20-e01/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-e02/attempt-01/claim.json": {
+      "bytes": 210,
+      "sha256": "309c3f9cbd0a68dd5d1baab3164dffc791f8a451c9f458c08c4953c1cc1fa880"
+    },
+    "calls/development-development-b01-medium-tournament20-e02/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-e02/attempt-01/events.jsonl": {
+      "bytes": 3721,
+      "sha256": "ced4597c091221f241e6f774fbdc8b417e13faf369add860322cd43e2d90d23f"
+    },
+    "calls/development-development-b01-medium-tournament20-e02/attempt-01/last_message.txt": {
+      "bytes": 3083,
+      "sha256": "8947edbc2b7fcba0c20f0b0f58471f45099b2e29db843694e93fe405e5f497fa"
+    },
+    "calls/development-development-b01-medium-tournament20-e02/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "fef0c4fcc210ea36b61dbc5902bea71897c7274a1ea745c2a91ea4f96c8279de"
+    },
+    "calls/development-development-b01-medium-tournament20-e02/attempt-01/prompt.txt": {
+      "bytes": 4492,
+      "sha256": "499ae930ac00c31905e49bfa55424ad99e93e8525fcaac72223476aeddacbdd6"
+    },
+    "calls/development-development-b01-medium-tournament20-e02/attempt-01/stderr.txt": {
+      "bytes": 10997,
+      "sha256": "c894c18d7116ec3a73bc441ff4c1372b6ff247df160a91f23dd93ac359adb678"
+    },
+    "calls/development-development-b01-medium-tournament20-e02/attempt-01/transport_result.json": {
+      "bytes": 19261,
+      "sha256": "9dff117193a3e9cb96c166f04b18fc6c4e12ec638c903b4d5d97b08452da6e73"
+    },
+    "calls/development-development-b01-medium-tournament20-e02/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-e03/attempt-01/claim.json": {
+      "bytes": 210,
+      "sha256": "c2505993ec6137bc2342d47ff0f985cdc417741fd51ca328d6246911772bd10d"
+    },
+    "calls/development-development-b01-medium-tournament20-e03/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-e03/attempt-01/events.jsonl": {
+      "bytes": 3432,
+      "sha256": "7cc3f4f68d493f0010427fb062a88721083e6bbc4edebed4c160f18dfbadb5d5"
+    },
+    "calls/development-development-b01-medium-tournament20-e03/attempt-01/last_message.txt": {
+      "bytes": 2794,
+      "sha256": "58df846fa6fa549d9733e0a2f106504148dad8668a11d91a51d42b00b7a66dc9"
+    },
+    "calls/development-development-b01-medium-tournament20-e03/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "9a05c349c9ab0d3e651484d9b49ea43122b7ae5159786e69195e696dcb1ed1a2"
+    },
+    "calls/development-development-b01-medium-tournament20-e03/attempt-01/prompt.txt": {
+      "bytes": 4493,
+      "sha256": "ba22bbfcf6a43d58af8792ef17fb9fd5590d47256ddc9c5ead3ceb8c8e816962"
+    },
+    "calls/development-development-b01-medium-tournament20-e03/attempt-01/stderr.txt": {
+      "bytes": 11140,
+      "sha256": "4de6fcfde63a28e8be90433a161b60578a72142049d22ef6be0a82f24d0dcb06"
+    },
+    "calls/development-development-b01-medium-tournament20-e03/attempt-01/transport_result.json": {
+      "bytes": 18827,
+      "sha256": "688e602e6ed9c3f391e05d4ff9bebfae15606f627ef142d470e42d31050804bb"
+    },
+    "calls/development-development-b01-medium-tournament20-e03/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-e04/attempt-01/claim.json": {
+      "bytes": 210,
+      "sha256": "3ceaa19dd8f6e18ab4cf459ce1790779d82afc4fd61ba84726e7cc40923c23cd"
+    },
+    "calls/development-development-b01-medium-tournament20-e04/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-e04/attempt-01/events.jsonl": {
+      "bytes": 3792,
+      "sha256": "2cb3ec595d5b6cef8a28b61a552dd5ff78e39bf780d599e9c8f9cc7dcebc01a0"
+    },
+    "calls/development-development-b01-medium-tournament20-e04/attempt-01/last_message.txt": {
+      "bytes": 3151,
+      "sha256": "da779e520435ca234f6ea2fbf8f736feccfe7dd9125d44e94e441052d60a0be5"
+    },
+    "calls/development-development-b01-medium-tournament20-e04/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "bf82b5fbf7173402edd9926640ef459d9242e58474ce5f848de1802d9e48da59"
+    },
+    "calls/development-development-b01-medium-tournament20-e04/attempt-01/prompt.txt": {
+      "bytes": 4505,
+      "sha256": "97b9244197a647063709480d089fb7aa3f6edad49e82ba604c35a96cb5e681ad"
+    },
+    "calls/development-development-b01-medium-tournament20-e04/attempt-01/stderr.txt": {
+      "bytes": 10724,
+      "sha256": "f88a7c798b482a7b23c90c6a613cd1e32c4066b36d956bfb23fad449546ef437"
+    },
+    "calls/development-development-b01-medium-tournament20-e04/attempt-01/transport_result.json": {
+      "bytes": 19132,
+      "sha256": "d511df391b033d2bd9ea61e27188eee20b8d5ae44fa2eda5525a12ac23f7880c"
+    },
+    "calls/development-development-b01-medium-tournament20-e04/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-e05/attempt-01/claim.json": {
+      "bytes": 210,
+      "sha256": "6876097269b490f23a4c55d066367c96ea2c1679430aa53f531f129bdd6508e1"
+    },
+    "calls/development-development-b01-medium-tournament20-e05/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-e05/attempt-01/events.jsonl": {
+      "bytes": 3509,
+      "sha256": "b76033706928346db11717a5a93af96c2c81d59c4ae8404aed47646d202b5ac2"
+    },
+    "calls/development-development-b01-medium-tournament20-e05/attempt-01/last_message.txt": {
+      "bytes": 2871,
+      "sha256": "ed61bea9a6e59905777f509449c9ff6e8fabbf0337db8187e33a35d3a7825fe5"
+    },
+    "calls/development-development-b01-medium-tournament20-e05/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "a0e2c4e9a9086faa551d8becf7fd336fa77118e6235edf9b7f6f379e9f91aad6"
+    },
+    "calls/development-development-b01-medium-tournament20-e05/attempt-01/prompt.txt": {
+      "bytes": 4500,
+      "sha256": "9e23e8a364e48c7d48bee6d5fe6a49764e9b7e5ba32a86cf24670cd041cc9544"
+    },
+    "calls/development-development-b01-medium-tournament20-e05/attempt-01/stderr.txt": {
+      "bytes": 10997,
+      "sha256": "58bec55471cc3f36607ecd64dfa02b65b0c8f7abfeb057a75907481cd6799d13"
+    },
+    "calls/development-development-b01-medium-tournament20-e05/attempt-01/transport_result.json": {
+      "bytes": 18837,
+      "sha256": "eb82d13e5270b46d36794a0d80e7b19cc0fa1ac7929a9c84fb9559e1f4f3c2c6"
+    },
+    "calls/development-development-b01-medium-tournament20-e05/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-e06/attempt-01/claim.json": {
+      "bytes": 210,
+      "sha256": "767f871ddeb55e20dbe710e2e60e549dd2b22cfd7d6308253d67717799d537d9"
+    },
+    "calls/development-development-b01-medium-tournament20-e06/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-e06/attempt-01/events.jsonl": {
+      "bytes": 3627,
+      "sha256": "7f968e0f9f17ce8bea6532c273efbd479fe8c5d30e1a8dc6658a8a3ec04534a8"
+    },
+    "calls/development-development-b01-medium-tournament20-e06/attempt-01/last_message.txt": {
+      "bytes": 2989,
+      "sha256": "5cc3cd316f6fb57ccf0002a74a64aabf85bf35fac16d4acb014b3a9adf9cf3d0"
+    },
+    "calls/development-development-b01-medium-tournament20-e06/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "d97d47412fae54910cc0c3a0cdbae875d6aba3a92fa10f5de253632861f5f120"
+    },
+    "calls/development-development-b01-medium-tournament20-e06/attempt-01/prompt.txt": {
+      "bytes": 4508,
+      "sha256": "1143dc14e564d863ecc9e67025d41cb4119055823d2bc164ed21c24d7adf8cdf"
+    },
+    "calls/development-development-b01-medium-tournament20-e06/attempt-01/stderr.txt": {
+      "bytes": 10733,
+      "sha256": "05c099b1615cbecbed66aec7a852626dc95dbc53a616279354c95e469ef622c4"
+    },
+    "calls/development-development-b01-medium-tournament20-e06/attempt-01/transport_result.json": {
+      "bytes": 18809,
+      "sha256": "548354b69a7a1dec4ab04b603a285b32a8dd935862b617fb8574991b30c3451e"
+    },
+    "calls/development-development-b01-medium-tournament20-e06/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-e07/attempt-01/claim.json": {
+      "bytes": 210,
+      "sha256": "c324007913a90f98088e5b8dca4a86b5420dd4cec7a8cbc4041c9c6d10eef87b"
+    },
+    "calls/development-development-b01-medium-tournament20-e07/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-e07/attempt-01/events.jsonl": {
+      "bytes": 3720,
+      "sha256": "79474f09fcfed97dc37fab1ed4aded49f655d8dc9c270af69205e9b0a6e96ae1"
+    },
+    "calls/development-development-b01-medium-tournament20-e07/attempt-01/last_message.txt": {
+      "bytes": 3079,
+      "sha256": "5b7a7db7e93e64451a8d1dc60109751b813d543cf91856f21a2a10ce4719a800"
+    },
+    "calls/development-development-b01-medium-tournament20-e07/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "83e78cb0f31496c45edefc03cdfaf608fd9615aec84cb4859395c106f0373b84"
+    },
+    "calls/development-development-b01-medium-tournament20-e07/attempt-01/prompt.txt": {
+      "bytes": 4508,
+      "sha256": "a1e0a74d84ecdfd25b5dad33589c4e5a5f5783c3a785c6f98ffb427a649b9dfa"
+    },
+    "calls/development-development-b01-medium-tournament20-e07/attempt-01/stderr.txt": {
+      "bytes": 11181,
+      "sha256": "d16cd7e33143130a672b9b1a45c7faa3afa2bb2221f5d8641f7f45f51f1d81ad"
+    },
+    "calls/development-development-b01-medium-tournament20-e07/attempt-01/transport_result.json": {
+      "bytes": 19444,
+      "sha256": "bc366cab66c2ff6b7aa43ca6dec7bfa112591e052975161b90f7de1f993a88fb"
+    },
+    "calls/development-development-b01-medium-tournament20-e07/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-e08/attempt-01/claim.json": {
+      "bytes": 210,
+      "sha256": "ac902bec63d3a1baec4fd921040f343bf02d87036ccc51fe127241d43d497f64"
+    },
+    "calls/development-development-b01-medium-tournament20-e08/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-e08/attempt-01/events.jsonl": {
+      "bytes": 3796,
+      "sha256": "8286afc5492d103c4a886fb9194d355d8fd21f9d1ec5f348a16c91760ec445ba"
+    },
+    "calls/development-development-b01-medium-tournament20-e08/attempt-01/last_message.txt": {
+      "bytes": 3158,
+      "sha256": "10fba872713b7f33a74a89cd6a3c1ff89205e5c5814c6439981283a6f7fe6c87"
+    },
+    "calls/development-development-b01-medium-tournament20-e08/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "86894ee49facf56b2556e58fb35d1994ee8ead63d2fd61982d35169c30e61350"
+    },
+    "calls/development-development-b01-medium-tournament20-e08/attempt-01/prompt.txt": {
+      "bytes": 4508,
+      "sha256": "5b82502ffff59a1070d59b0749f27fcb4a3686708028582a53934bc188a9340a"
+    },
+    "calls/development-development-b01-medium-tournament20-e08/attempt-01/stderr.txt": {
+      "bytes": 10997,
+      "sha256": "899f532395484e992eae3b3496462ea5eaf4322cf470a65353684c3d7e015d25"
+    },
+    "calls/development-development-b01-medium-tournament20-e08/attempt-01/transport_result.json": {
+      "bytes": 19411,
+      "sha256": "674ad8b3a67e68d7de70b5f88a5990087ec9269464aa2549c842cbb60505abdd"
+    },
+    "calls/development-development-b01-medium-tournament20-e08/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-j01/attempt-01/claim.json": {
+      "bytes": 210,
+      "sha256": "4569893d86b76be27faaaad0b9008cbf06bb0db13a7d038333f0604174dc87ee"
+    },
+    "calls/development-development-b01-medium-tournament20-j01/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-j01/attempt-01/events.jsonl": {
+      "bytes": 3562,
+      "sha256": "669c4f4ee4f02fda48200b78125cadc4498397589dddf18bea2ed0b79f0435d4"
+    },
+    "calls/development-development-b01-medium-tournament20-j01/attempt-01/last_message.txt": {
+      "bytes": 2927,
+      "sha256": "1162e1e6ad027889db01e1f7d13d253739ebc6f39b783eceae034112c9dd39b5"
+    },
+    "calls/development-development-b01-medium-tournament20-j01/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "12119c5a7e6ebb1018b25b79a79fa8836f6047476e94b231ff427c1321b5003d"
+    },
+    "calls/development-development-b01-medium-tournament20-j01/attempt-01/prompt.txt": {
+      "bytes": 61169,
+      "sha256": "a32bb9ecf882b48d52dc43d66e6f0a026f5731a19cd95613f939b29ee7b96135"
+    },
+    "calls/development-development-b01-medium-tournament20-j01/attempt-01/stderr.txt": {
+      "bytes": 10452,
+      "sha256": "271e97ced915f7ce01cfc1d0350d1276295616c2bf2291c40ada15702a89aed0"
+    },
+    "calls/development-development-b01-medium-tournament20-j01/attempt-01/transport_result.json": {
+      "bytes": 18397,
+      "sha256": "1447cce1b9f2f8204aed585385d346c56ba8b6040796f6f49fd6156a5bf8ac57"
+    },
+    "calls/development-development-b01-medium-tournament20-j01/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-rt01/attempt-01/claim.json": {
+      "bytes": 211,
+      "sha256": "b8da84d557e3e64da264b051ec8ece3e1e0ad392a81fac9fa865c7ea5b2620d5"
+    },
+    "calls/development-development-b01-medium-tournament20-rt01/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-rt01/attempt-01/events.jsonl": {
+      "bytes": 7063,
+      "sha256": "0efec44548702497642f69698780df57f9ae5d7b715fe7cbcf4beafedd7ef454"
+    },
+    "calls/development-development-b01-medium-tournament20-rt01/attempt-01/last_message.txt": {
+      "bytes": 6261,
+      "sha256": "5f95020a867b34d63b58bf146994e8da41b6bf55e03831f3d9951755c252164d"
+    },
+    "calls/development-development-b01-medium-tournament20-rt01/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "699bd1398f6f5c353f906a6ff3d04a19b657c9ad6b1815767e22648696ff9cf4"
+    },
+    "calls/development-development-b01-medium-tournament20-rt01/attempt-01/prompt.txt": {
+      "bytes": 58472,
+      "sha256": "4e494800e0744f7f4ccc1ffec0e44bf5f3df89b53204557048ca61c2e0da0e59"
+    },
+    "calls/development-development-b01-medium-tournament20-rt01/attempt-01/stderr.txt": {
+      "bytes": 10452,
+      "sha256": "9b0ac990ce0bcc471f31525617a083797358ceaf657cadb549c37339b5428d86"
+    },
+    "calls/development-development-b01-medium-tournament20-rt01/attempt-01/transport_result.json": {
+      "bytes": 25399,
+      "sha256": "d033967a49b026c95c88196ed1e0620665023e4ca5897cb596f05513c9e975d7"
+    },
+    "calls/development-development-b01-medium-tournament20-rt01/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-sy01/attempt-01/claim.json": {
+      "bytes": 211,
+      "sha256": "235c3d68f72c8550eb9d5b72e06ea48a6b57e7f5789c5c747b6f7e15aec3875c"
+    },
+    "calls/development-development-b01-medium-tournament20-sy01/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-sy01/attempt-01/events.jsonl": {
+      "bytes": 5481,
+      "sha256": "933fd1f2944e33b5de496b21478b4d6c37601e69f428de55fae7e7cd72534973"
+    },
+    "calls/development-development-b01-medium-tournament20-sy01/attempt-01/last_message.txt": {
+      "bytes": 4604,
+      "sha256": "0c692eee471b31b8663326e010f880523c249381d25a7860b474bdf8a9c95500"
+    },
+    "calls/development-development-b01-medium-tournament20-sy01/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "537b00fdf77ccd8bf9e8116cbc7f7ac3e2bfff29858e75de0c987be45d6fe299"
+    },
+    "calls/development-development-b01-medium-tournament20-sy01/attempt-01/prompt.txt": {
+      "bytes": 52010,
+      "sha256": "1089cb6d8f7ca912b20ea5c9662e575514be21cd2bc03d8db13eef961b33f871"
+    },
+    "calls/development-development-b01-medium-tournament20-sy01/attempt-01/stderr.txt": {
+      "bytes": 10779,
+      "sha256": "8539f28c5e7788b66b7aaef7f1bfd29a2fa308ecd41772b3ec97327b699c2a56"
+    },
+    "calls/development-development-b01-medium-tournament20-sy01/attempt-01/transport_result.json": {
+      "bytes": 22564,
+      "sha256": "bada71cd72f876d2a1e4d387e7ae8410e08ba2b2292f6d0f58718cd0bb9c8e48"
+    },
+    "calls/development-development-b01-medium-tournament20-sy01/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-sy02/attempt-01/claim.json": {
+      "bytes": 211,
+      "sha256": "d69adedb9c728ef55648ab6d5696f7ff3c6dfa67e50e2bf4ef4ed087d0706b93"
+    },
+    "calls/development-development-b01-medium-tournament20-sy02/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-sy02/attempt-01/events.jsonl": {
+      "bytes": 4808,
+      "sha256": "8de858ab07f93dfa953603902981ee8df2aaa77143b206b00bb02c78a91ba899"
+    },
+    "calls/development-development-b01-medium-tournament20-sy02/attempt-01/last_message.txt": {
+      "bytes": 3931,
+      "sha256": "a70c3e15bc45ede4accaad063c8ab2b3f1fa2d179c33f81db2612a372c9c5f7c"
+    },
+    "calls/development-development-b01-medium-tournament20-sy02/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "48da40682dff8321862231760fd38ae72eccd2ef53a9c46f319f81e9a09449e8"
+    },
+    "calls/development-development-b01-medium-tournament20-sy02/attempt-01/prompt.txt": {
+      "bytes": 52053,
+      "sha256": "ef0afc28000641bdb54aab8485b1c03fe254c074d21710d4758307e4fd301689"
+    },
+    "calls/development-development-b01-medium-tournament20-sy02/attempt-01/stderr.txt": {
+      "bytes": 10733,
+      "sha256": "a2f4f8f81cdc554d66193bc992320741ee7f730c2b1cadfe4bff44fa217e3339"
+    },
+    "calls/development-development-b01-medium-tournament20-sy02/attempt-01/transport_result.json": {
+      "bytes": 21170,
+      "sha256": "05e088aefe8a66eb1c014ac8a8d70c4531bb47562db095d8ae6dd0539fed2358"
+    },
+    "calls/development-development-b01-medium-tournament20-sy02/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-v01/attempt-01/claim.json": {
+      "bytes": 210,
+      "sha256": "bc3117936b86159ffe762e9a6dcaf60d3c9b718f8fd996457ea8dbe940b357d7"
+    },
+    "calls/development-development-b01-medium-tournament20-v01/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-v01/attempt-01/events.jsonl": {
+      "bytes": 7638,
+      "sha256": "c4a47e40361c414f674812fdbaa051a621eb19fdc45be779ee2a1200dddb272a"
+    },
+    "calls/development-development-b01-medium-tournament20-v01/attempt-01/last_message.txt": {
+      "bytes": 6374,
+      "sha256": "e291f7f553f5e8f6f7519b1a39ba8804f356d2c827edc27ebf8360c1a4cb7e24"
+    },
+    "calls/development-development-b01-medium-tournament20-v01/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "80229aa858d8733eeed810b4068015db7ec6096d5c1757e73422216bd308116b"
+    },
+    "calls/development-development-b01-medium-tournament20-v01/attempt-01/prompt.txt": {
+      "bytes": 51223,
+      "sha256": "de93a77e315b60af45ea943f5eeab87f5b590a9bbeac04c6226e1f12b80a5f1f"
+    },
+    "calls/development-development-b01-medium-tournament20-v01/attempt-01/stderr.txt": {
+      "bytes": 10733,
+      "sha256": "7b5f0d6fef20c799b37d6b3faf14a3a685125f5f1d2d7602f33bd7f1ad5c8ab9"
+    },
+    "calls/development-development-b01-medium-tournament20-v01/attempt-01/transport_result.json": {
+      "bytes": 26830,
+      "sha256": "8147867797779e9d2a87fa20db5375bbef4f62da2f66ee30c9191b868592816b"
+    },
+    "calls/development-development-b01-medium-tournament20-v01/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-v02/attempt-01/claim.json": {
+      "bytes": 210,
+      "sha256": "db54fe9fa4984c0bdd2596b59f35efe104ae8d5833138f864a8f0dee051fe072"
+    },
+    "calls/development-development-b01-medium-tournament20-v02/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-v02/attempt-01/events.jsonl": {
+      "bytes": 5194,
+      "sha256": "9a1b9edb8f355ad255fb4fa06b9dde71b685047a5b9b80c1425cd9083d472579"
+    },
+    "calls/development-development-b01-medium-tournament20-v02/attempt-01/last_message.txt": {
+      "bytes": 4268,
+      "sha256": "79be7d335f548da66a54bc24cc7c18acd60b8888af201231243d1f060eabbe10"
+    },
+    "calls/development-development-b01-medium-tournament20-v02/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "b3ee71d11b29b5eb738ae8de8c3027ddf0ae2f6cccf1442a2d447db8a89ba7dd"
+    },
+    "calls/development-development-b01-medium-tournament20-v02/attempt-01/prompt.txt": {
+      "bytes": 51230,
+      "sha256": "a998a30ce0f9237af5298858853438a29dd9b19fe141b9a4373d2ed69ac8b31c"
+    },
+    "calls/development-development-b01-medium-tournament20-v02/attempt-01/stderr.txt": {
+      "bytes": 10733,
+      "sha256": "c3c8c265ad3b5caeedc08b89898f3b8781ae51f38e7b98dc209fd584fa378421"
+    },
+    "calls/development-development-b01-medium-tournament20-v02/attempt-01/transport_result.json": {
+      "bytes": 21942,
+      "sha256": "a1a889b4e03c3f82ca19f5650300ced29ad5c79da4cb4bc94132b4994801431e"
+    },
+    "calls/development-development-b01-medium-tournament20-v02/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-v03/attempt-01/claim.json": {
+      "bytes": 210,
+      "sha256": "503dc5c1ac18cc884851c46f61a58a338534714087b34a5eced2fcf38ac93e01"
+    },
+    "calls/development-development-b01-medium-tournament20-v03/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-v03/attempt-01/events.jsonl": {
+      "bytes": 7649,
+      "sha256": "ce6834169c1322b8b9ad6509cbf4273766a5366f5d19bf2406c3e3d87378dd06"
+    },
+    "calls/development-development-b01-medium-tournament20-v03/attempt-01/last_message.txt": {
+      "bytes": 6412,
+      "sha256": "1c3dec4c982a439e358f58f9cf4de65bd303d9fab3ab6e5df9449e369c3d28d7"
+    },
+    "calls/development-development-b01-medium-tournament20-v03/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "95adf0c623ebd7caa6ea1bef8828817501193734add0bc4aac94f336396b0f5b"
+    },
+    "calls/development-development-b01-medium-tournament20-v03/attempt-01/prompt.txt": {
+      "bytes": 51257,
+      "sha256": "0ec86a22c8af36541cfe559c8061fed19e81c4c13fa12c75e483fe700c3fc557"
+    },
+    "calls/development-development-b01-medium-tournament20-v03/attempt-01/stderr.txt": {
+      "bytes": 10595,
+      "sha256": "b9329b1f474f834ae7d53a1a620e2bdec859710e19b8b68c02b518b930d650ac"
+    },
+    "calls/development-development-b01-medium-tournament20-v03/attempt-01/transport_result.json": {
+      "bytes": 26715,
+      "sha256": "3faf341ed20e9c474f389d6df0f797d77c29e4dec3c80787335e90d6d8a09d23"
+    },
+    "calls/development-development-b01-medium-tournament20-v03/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/development-development-b01-medium-tournament20-v04/attempt-01/claim.json": {
+      "bytes": 210,
+      "sha256": "18c5c52f95e5c02b0962150d1ff43fc776573b3681ec6515569fa62a69d37fb8"
+    },
+    "calls/development-development-b01-medium-tournament20-v04/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/development-development-b01-medium-tournament20-v04/attempt-01/events.jsonl": {
+      "bytes": 7789,
+      "sha256": "d5db0ea46b40bb7d31b964fb04fd74eb9e6297fa221fdfc34389c901685bd3d2"
+    },
+    "calls/development-development-b01-medium-tournament20-v04/attempt-01/last_message.txt": {
+      "bytes": 6525,
+      "sha256": "72830aae85cfbc54908547294a151b47efa687fcbb16f7f0cbb84b472cd5df08"
+    },
+    "calls/development-development-b01-medium-tournament20-v04/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "15615ce187aeabdef86a3cae5b85fbc2ea5a09c53954b06f43d60f3864c23fa9"
+    },
+    "calls/development-development-b01-medium-tournament20-v04/attempt-01/prompt.txt": {
+      "bytes": 51254,
+      "sha256": "eb58e95b27842a5a823fa07ebfb5c51a723a2933e5be8d91bc8157d66272aa49"
+    },
+    "calls/development-development-b01-medium-tournament20-v04/attempt-01/stderr.txt": {
+      "bytes": 11123,
+      "sha256": "7e6097c22fd81656041cb3bc7453ec529ad2ad8b7ce2bf7788c128ef0a9c4e8b"
+    },
+    "calls/development-development-b01-medium-tournament20-v04/attempt-01/transport_result.json": {
+      "bytes": 27523,
+      "sha256": "e8368addf7371487733749eefc432d2fb86188bfd850cf96cd86722c8eaf6ea0"
+    },
+    "calls/development-development-b01-medium-tournament20-v04/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    }
+  },
+  "generated_at": "2026-07-13T08:50:05.430Z",
+  "schema_version": "attempt-artifacts-v1"
+}

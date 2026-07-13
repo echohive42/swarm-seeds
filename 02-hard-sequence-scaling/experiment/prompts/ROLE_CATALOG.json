@@ -1,0 +1,147 @@
+{
+  "schema_version": "2.0",
+  "swarm10": {
+    "proposers": [
+      {
+        "role_id": "P01",
+        "specialty_prompt": "Test POLY and PDELTA programs first. Use exact finite differences and phase-specific delta checks across the full prefix."
+      },
+      {
+        "role_id": "P02",
+        "specialty_prompt": "Test AFFINE and MODAFFINE programs first. Check repeating phases, multipliers, biases, modulus behavior, and every transition."
+      },
+      {
+        "role_id": "P03",
+        "specialty_prompt": "Test LIN2 and LAGPOLY programs first. Reconstruct lagged updates and phase-specific increments from the complete prefix."
+      },
+      {
+        "role_id": "P04",
+        "specialty_prompt": "Test INTERLEAVE programs first. Split positions into two or three streams and require every stream to fit exactly."
+      },
+      {
+        "role_id": "P05",
+        "specialty_prompt": "Test GROWBLOCK programs first, then act as a skeptical alternative-rule finder across all eight allowed families."
+      }
+    ],
+    "critics": [
+      {
+        "role_id": "C01",
+        "specialty_prompt": "Test arithmetic, recurrence, and complete prefix reproduction. Identify the earliest concrete failure."
+      },
+      {
+        "role_id": "C02",
+        "specialty_prompt": "Search for overfit, arbitrary exceptions, shared mistakes, and simpler competing rules."
+      }
+    ],
+    "verifiers": [
+      {
+        "role_id": "V01",
+        "specialty_prompt": "Recompute the full prefix and all five requested terms. Exact arithmetic is the priority."
+      },
+      {
+        "role_id": "V02",
+        "specialty_prompt": "Compare surviving explanations for simplicity, prefix fit, and five-step extrapolation stability."
+      }
+    ],
+    "judge": [
+      {
+        "role_id": "J01",
+        "template": "SWARM10_JUDGE.txt"
+      }
+    ]
+  },
+  "tournament20": {
+    "explorers": [
+      {
+        "role_id": "E01",
+        "specialty_prompt": "Specialize in POLY. Use exact finite differences or an integer-valued position polynomial and verify every term."
+      },
+      {
+        "role_id": "E02",
+        "specialty_prompt": "Specialize in PDELTA. Recover periodic phase-specific polynomial deltas and verify every update."
+      },
+      {
+        "role_id": "E03",
+        "specialty_prompt": "Specialize in AFFINE. Recover repeating phase multipliers and biases and replay every transition."
+      },
+      {
+        "role_id": "E04",
+        "specialty_prompt": "Specialize in LIN2. Recover the second-order recurrence and any repeating phase bias, then replay it exactly."
+      },
+      {
+        "role_id": "E05",
+        "specialty_prompt": "Specialize in LAGPOLY. Split lagged subsequences and recover their phase-specific polynomial increments."
+      },
+      {
+        "role_id": "E06",
+        "specialty_prompt": "Specialize in INTERLEAVE. Split positions into two or three polynomial or affine streams and verify each stream."
+      },
+      {
+        "role_id": "E07",
+        "specialty_prompt": "Specialize in GROWBLOCK. Recover block lengths, starts, and within-block steps and check every visible boundary."
+      },
+      {
+        "role_id": "E08",
+        "specialty_prompt": "Specialize in MODAFFINE. Recover the prime modulus and repeating affine phases and replay every residue exactly."
+      }
+    ],
+    "breakers": [
+      {
+        "role_id": "B01",
+        "specialty_prompt": "Test exact arithmetic and complete prefix reproduction."
+      },
+      {
+        "role_id": "B02",
+        "specialty_prompt": "Reject unnecessary complexity, overfit, and arbitrary exceptions."
+      },
+      {
+        "role_id": "B03",
+        "specialty_prompt": "Generate strong competing rules and identify genuine ambiguity."
+      },
+      {
+        "role_id": "B04",
+        "specialty_prompt": "Assume the largest answer cluster may share one mistake and find its strongest failure."
+      }
+    ],
+    "verifiers": [
+      {
+        "role_id": "V01",
+        "specialty_prompt": "Replay every transition and recompute all five next terms exactly."
+      },
+      {
+        "role_id": "V02",
+        "specialty_prompt": "Verify constants, indexes, phases, and five-step extrapolation stability."
+      },
+      {
+        "role_id": "V03",
+        "specialty_prompt": "Compare the strongest competing answers and locate the earliest property that separates their rules."
+      },
+      {
+        "role_id": "V04",
+        "specialty_prompt": "Reconstruct independently, then compare with the evidence. Do not default to the largest cluster."
+      }
+    ],
+    "synthesizers": [
+      {
+        "role_id": "SY01",
+        "specialty_prompt": "Select the simplest exact generator that reproduces the complete prefix."
+      },
+      {
+        "role_id": "SY02",
+        "specialty_prompt": "Select the answer most robust to breaker and verifier challenges. Prioritize reliable extrapolation over frequency."
+      }
+    ],
+    "red_team": [
+      {
+        "role_id": "RT01",
+        "template": "TOURNAMENT20_RED_TEAM.txt"
+      }
+    ],
+    "final_judge": [
+      {
+        "role_id": "J01",
+        "template": "TOURNAMENT20_FINAL_JUDGE.txt"
+      }
+    ]
+  }
+}

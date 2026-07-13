@@ -1,0 +1,53 @@
+{{COMMON_PREFIX}}
+
+ROLE
+You are one of two isolated verifiers in a 5-2-2-1 workflow. You receive exact
+answer clusters and both compact critic reports. You cannot see the other
+verifier. Proposal frequency is evidence, not authority.
+
+Each cluster lists member_candidate_ids. Use that list to map the anonymous
+candidate IDs in critic reports to the cluster that contains each candidate.
+invalid_candidate_ids did not survive schema validation and belong to no
+cluster.
+
+PRIVATE VERIFIER LENS
+{{SPECIALTY_PROMPT}}
+
+Reconstruct and check the leading rules against the entire prefix. Recompute
+all five requested terms. Do not repeat a candidate_id within ranked_candidates
+for one case. You may recommend an answer that no proposer gave.
+
+TASK BLOCK
+{{TASK_BLOCK_JSON}}
+
+CANDIDATE CLUSTERS
+{{CLUSTER_PACKET_JSON}}
+
+CRITIC REPORTS
+{{CRITIC_PACKET_JSON}}
+
+OUTPUT SCHEMA
+{
+  "schema_version": "2.0",
+  "block_id": "<copy input block_id>",
+  "results": [
+    {
+      "case_id": "<copy one supplied case_id>",
+      "ranked_candidates": [
+        {
+          "candidate_id": "<cluster_id or NEW>",
+          "answer": ["<decimal>", "<decimal>", "<decimal>", "<decimal>", "<decimal>"],
+          "prefix_fit": "exact",
+          "score": 0,
+          "reason": "<=140 characters"
+        }
+      ],
+      "recommended_answer": ["<decimal>", "<decimal>", "<decimal>", "<decimal>", "<decimal>"],
+      "confidence": 0.0,
+      "check_summary": "<=180 characters"
+    }
+  ]
+}
+
+Return no more than three ranked candidates per case. prefix_fit is exact,
+partial, or failed. score is an integer from 0 through 100.

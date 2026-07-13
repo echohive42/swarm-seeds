@@ -1,0 +1,30 @@
+{{COMMON_PREFIX}}
+
+ROLE
+You are one of five isolated proposers in a 5-2-2-1 workflow. You cannot see
+the other proposers. Apply the private search lens below as a way to explore,
+not as an assumption. Reject the lens when it does not fit every supplied term.
+
+PRIVATE SEARCH LENS
+{{SPECIALTY_PROMPT}}
+
+INPUT
+{{TASK_BLOCK_JSON}}
+
+OUTPUT SCHEMA
+{
+  "schema_version": "2.0",
+  "block_id": "<copy input block_id>",
+  "results": [
+    {
+      "case_id": "<copy one supplied case_id>",
+      "answer": ["<decimal>", "<decimal>", "<decimal>", "<decimal>", "<decimal>"],
+      "confidence": 0.0,
+      "rule_summary": "<=180 characters",
+      "check_summary": "<=120 characters"
+    }
+  ]
+}
+
+Return exactly 12 result objects and exactly five canonical decimal strings per
+answer. Your private role label will not be shown to later stages.

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="590" viewBox="0 0 1040 590" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Primary paired outcomes</title>
+<desc id="chart-desc">Wins, losses, ties, and the preregistered 95% interval.</desc>
+<style>text{font-family:Inter,Arial,sans-serif;fill:#17212B}.title{font-size:24px;font-weight:700}.subtitle{font-size:13px;fill:#4B5563}.axis{font-size:12px;fill:#374151}.label{font-size:12px}.value{font-size:11px;font-weight:600}.note{font-size:11px;fill:#59636E}.legend{font-size:12px;font-weight:600}</style>
+<rect width="1040" height="590" fill="#FFFFFF"/>
+<text x="48.00" y="42.00" class="title" text-anchor="start" >Primary paired comparison</text>
+<text x="48.00" y="66.00" class="subtitle" text-anchor="start" >Medium reasoning Tournament20 vs Medium reasoning Vote20</text>
+<text x="48.00" y="572.00" class="note" text-anchor="start" >Source: Experiment 02 final analysis output</text>
+<text x="137.00" y="155.00" class="legend" text-anchor="end" >Wins</text>
+<rect x="155.00" y="130.00" width="760.00" height="36.00" fill="#EEF2F6" rx="4"/>
+<rect x="155.00" y="130.00" width="70.70" height="36.00" fill="#009E73" rx="4"/>
+<text x="235.70" y="155.00" class="value" text-anchor="start" >4</text>
+<text x="137.00" y="227.00" class="legend" text-anchor="end" >Losses</text>
+<rect x="155.00" y="202.00" width="760.00" height="36.00" fill="#EEF2F6" rx="4"/>
+<rect x="155.00" y="202.00" width="17.67" height="36.00" fill="#D55E00" rx="4"/>
+<text x="182.67" y="227.00" class="value" text-anchor="start" >1</text>
+<text x="137.00" y="299.00" class="legend" text-anchor="end" >Ties</text>
+<rect x="155.00" y="274.00" width="760.00" height="36.00" fill="#EEF2F6" rx="4"/>
+<rect x="155.00" y="274.00" width="760.00" height="36.00" fill="#6B7280" rx="4"/>
+<text x="925.00" y="299.00" class="value" text-anchor="start" >43</text>
+<text x="48.00" y="355.00" class="legend" text-anchor="start" >Preregistered effect interval</text>
+<line x1="250.00" y1="420.00" x2="790.00" y2="420.00" stroke="#17212B" stroke-width="1.2"/>
+<line x1="520.00" y1="388.00" x2="520.00" y2="452.00" stroke="#6B7280" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="487.86" y1="420.00" x2="745.00" y2="420.00" stroke="#CC79A7" stroke-width="7"/>
+<line x1="487.86" y1="410.00" x2="487.86" y2="430.00" stroke="#CC79A7" stroke-width="2"/>
+<line x1="745.00" y1="410.00" x2="745.00" y2="430.00" stroke="#CC79A7" stroke-width="2"/>
+<circle cx="616.43" cy="420.00" r="8.00" fill="#CC79A7" stroke="#FFFFFF" stroke-width="2"/>
+<text x="250.00" y="455.00" class="axis" text-anchor="middle" >-17.5 pp</text>
+<text x="520.00" y="455.00" class="axis" text-anchor="middle" >0</text>
+<text x="790.00" y="455.00" class="axis" text-anchor="middle" >+17.5 pp</text>
+<text x="520.00" y="485.00" class="value" text-anchor="middle" >Estimate +6.2 pp; 95% interval [-2.1, +14.6] pp</text>
+</svg>

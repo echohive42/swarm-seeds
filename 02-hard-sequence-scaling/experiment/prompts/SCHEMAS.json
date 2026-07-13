@@ -1,0 +1,287 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/echohive42/swarm-seeds/02-hard-sequence-scaling/schemas-v2.json",
+  "title": "Swarm Seeds 02 frozen next-five decimal-string schemas",
+  "schema_version": "2.0",
+  "frozen": true,
+  "$defs": {
+    "decimal_string": {
+      "type": "string",
+      "pattern": "^(0|-?[1-9][0-9]*)$"
+    },
+    "answer": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": { "$ref": "#/$defs/decimal_string" }
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "candidate_choice": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["candidate_id", "answer"],
+      "properties": {
+        "candidate_id": { "type": "string", "minLength": 1, "maxLength": 40 },
+        "answer": { "$ref": "#/$defs/answer" }
+      }
+    }
+  },
+  "schemas": {
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "experiment_id", "block_id", "cases"],
+      "properties": {
+        "schema_version": { "type": "string", "const": "2.0" },
+        "experiment_id": { "type": "string", "const": "swarm-seeds-02" },
+        "block_id": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "cases": {
+          "type": "array",
+          "minItems": 12,
+          "maxItems": 12,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["case_id", "prefix"],
+            "properties": {
+              "case_id": { "type": "string", "minLength": 1, "maxLength": 80 },
+              "prefix": {
+                "type": "array",
+                "minItems": 12,
+                "maxItems": 14,
+                "items": { "$ref": "#/$defs/decimal_string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "solver": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "block_id", "results"],
+      "properties": {
+        "schema_version": { "type": "string", "const": "2.0" },
+        "block_id": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "results": {
+          "type": "array",
+          "minItems": 12,
+          "maxItems": 12,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["case_id", "answer", "confidence", "rule_summary", "check_summary"],
+            "properties": {
+              "case_id": { "type": "string", "minLength": 1, "maxLength": 80 },
+              "answer": { "$ref": "#/$defs/answer" },
+              "confidence": { "$ref": "#/$defs/confidence" },
+              "rule_summary": { "type": "string", "maxLength": 180 },
+              "check_summary": { "type": "string", "maxLength": 120 }
+            }
+          }
+        }
+      }
+    },
+    "critic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "block_id", "results"],
+      "properties": {
+        "schema_version": { "type": "string", "const": "2.0" },
+        "block_id": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "results": {
+          "type": "array",
+          "minItems": 12,
+          "maxItems": 12,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["case_id", "supported_candidates", "rejections", "alternative_answer", "confidence", "summary"],
+            "properties": {
+              "case_id": { "type": "string", "minLength": 1, "maxLength": 80 },
+              "supported_candidates": {
+                "type": "array",
+                "maxItems": 2,
+                "items": { "type": "string", "minLength": 1, "maxLength": 40 }
+              },
+              "rejections": {
+                "type": "array",
+                "maxItems": 3,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["candidate_id", "issue_code", "issue"],
+                  "properties": {
+                    "candidate_id": { "type": "string", "minLength": 1, "maxLength": 40 },
+                    "issue_code": {
+                      "type": "string",
+                      "enum": ["prefix_mismatch", "arithmetic_error", "overfit", "weaker_rule", "unsupported_jump", "other"]
+                    },
+                    "issue": { "type": "string", "maxLength": 140 }
+                  }
+                }
+              },
+              "alternative_answer": {
+                "anyOf": [
+                  { "type": "null" },
+                  { "$ref": "#/$defs/answer" }
+                ]
+              },
+              "confidence": { "$ref": "#/$defs/confidence" },
+              "summary": { "type": "string", "maxLength": 180 }
+            }
+          }
+        }
+      }
+    },
+    "breaker": {
+      "$ref": "#/schemas/critic"
+    },
+    "verifier": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "block_id", "results"],
+      "properties": {
+        "schema_version": { "type": "string", "const": "2.0" },
+        "block_id": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "results": {
+          "type": "array",
+          "minItems": 12,
+          "maxItems": 12,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["case_id", "ranked_candidates", "recommended_answer", "confidence", "check_summary"],
+            "properties": {
+              "case_id": { "type": "string", "minLength": 1, "maxLength": 80 },
+              "ranked_candidates": {
+                "type": "array",
+                "maxItems": 3,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["candidate_id", "answer", "prefix_fit", "score", "reason"],
+                  "properties": {
+                    "candidate_id": { "type": "string", "minLength": 1, "maxLength": 40 },
+                    "answer": { "$ref": "#/$defs/answer" },
+                    "prefix_fit": { "type": "string", "enum": ["exact", "partial", "failed"] },
+                    "score": { "type": "integer", "minimum": 0, "maximum": 100 },
+                    "reason": { "type": "string", "maxLength": 140 }
+                  }
+                }
+              },
+              "recommended_answer": { "$ref": "#/$defs/answer" },
+              "confidence": { "$ref": "#/$defs/confidence" },
+              "check_summary": { "type": "string", "maxLength": 180 }
+            }
+          }
+        }
+      }
+    },
+    "synthesizer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "block_id", "results"],
+      "properties": {
+        "schema_version": { "type": "string", "const": "2.0" },
+        "block_id": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "results": {
+          "type": "array",
+          "minItems": 12,
+          "maxItems": 12,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["case_id", "champion", "runner_up", "confidence", "decision_basis"],
+            "properties": {
+              "case_id": { "type": "string", "minLength": 1, "maxLength": 80 },
+              "champion": { "$ref": "#/$defs/candidate_choice" },
+              "runner_up": { "$ref": "#/$defs/candidate_choice" },
+              "confidence": { "$ref": "#/$defs/confidence" },
+              "decision_basis": { "type": "string", "maxLength": 180 }
+            }
+          }
+        }
+      }
+    },
+    "red_team": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "block_id", "results"],
+      "properties": {
+        "schema_version": { "type": "string", "const": "2.0" },
+        "block_id": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "results": {
+          "type": "array",
+          "minItems": 12,
+          "maxItems": 12,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["case_id", "attacks", "alternative_answer", "confidence", "summary"],
+            "properties": {
+              "case_id": { "type": "string", "minLength": 1, "maxLength": 80 },
+              "attacks": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["synthesizer_id", "verdict", "issue"],
+                  "properties": {
+                    "synthesizer_id": { "type": "string", "enum": ["SY1", "SY2"] },
+                    "verdict": { "type": "string", "enum": ["survives", "uncertain", "fails"] },
+                    "issue": { "type": "string", "maxLength": 140 }
+                  }
+                }
+              },
+              "alternative_answer": {
+                "anyOf": [
+                  { "type": "null" },
+                  { "$ref": "#/$defs/answer" }
+                ]
+              },
+              "confidence": { "$ref": "#/$defs/confidence" },
+              "summary": { "type": "string", "maxLength": 180 }
+            }
+          }
+        }
+      }
+    },
+    "judge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "block_id", "results"],
+      "properties": {
+        "schema_version": { "type": "string", "const": "2.0" },
+        "block_id": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "results": {
+          "type": "array",
+          "minItems": 12,
+          "maxItems": 12,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["case_id", "answer", "confidence", "selected_candidate_id", "decision_basis"],
+            "properties": {
+              "case_id": { "type": "string", "minLength": 1, "maxLength": 80 },
+              "answer": { "$ref": "#/$defs/answer" },
+              "confidence": { "$ref": "#/$defs/confidence" },
+              "selected_candidate_id": {
+                "type": ["string", "null"],
+                "minLength": 1,
+                "maxLength": 40
+              },
+              "decision_basis": { "type": "string", "maxLength": 180 }
+            }
+          }
+        }
+      }
+    }
+  }
+}

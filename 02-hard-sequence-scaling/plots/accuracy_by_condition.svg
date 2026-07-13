@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="610" viewBox="0 0 1040 610" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Luna Light vs Luna Medium exact accuracy</title>
+<desc id="chart-desc">Grouped bars compare exact accuracy by reasoning tier and inference method.</desc>
+<style>text{font-family:Inter,Arial,sans-serif;fill:#17212B}.title{font-size:24px;font-weight:700}.subtitle{font-size:13px;fill:#4B5563}.axis{font-size:12px;fill:#374151}.label{font-size:12px}.value{font-size:11px;font-weight:600}.note{font-size:11px;fill:#59636E}.legend{font-size:12px;font-weight:600}</style>
+<rect width="1040" height="610" fill="#FFFFFF"/>
+<text x="48.00" y="42.00" class="title" text-anchor="start" >Exact accuracy by method</text>
+<text x="48.00" y="66.00" class="subtitle" text-anchor="start" >Luna Light and Luna Medium reasoning across the five preregistered conditions</text>
+<text x="48.00" y="592.00" class="note" text-anchor="start" >Source: Experiment 02 final analysis output</text>
+<rect x="600.00" y="41.00" width="13.00" height="13.00" fill="#0072B2" rx="2"/>
+<text x="619.00" y="52.00" class="legend" text-anchor="start" >Luna Light reasoning</text>
+<rect x="776.00" y="41.00" width="13.00" height="13.00" fill="#D55E00" rx="2"/>
+<text x="795.00" y="52.00" class="legend" text-anchor="start" >Luna Medium reasoning</text>
+<line x1="88.00" y1="510.00" x2="988.00" y2="510.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="78.00" y="514.00" class="axis" text-anchor="end" >0.0%</text>
+<line x1="88.00" y1="429.00" x2="988.00" y2="429.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="78.00" y="433.00" class="axis" text-anchor="end" >20.0%</text>
+<line x1="88.00" y1="348.00" x2="988.00" y2="348.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="78.00" y="352.00" class="axis" text-anchor="end" >40.0%</text>
+<line x1="88.00" y1="267.00" x2="988.00" y2="267.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="78.00" y="271.00" class="axis" text-anchor="end" >60.0%</text>
+<line x1="88.00" y1="186.00" x2="988.00" y2="186.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="78.00" y="190.00" class="axis" text-anchor="end" >80.0%</text>
+<line x1="88.00" y1="105.00" x2="988.00" y2="105.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="78.00" y="109.00" class="axis" text-anchor="end" >100.0%</text>
+<line x1="88.00" y1="105.00" x2="88.00" y2="510.00" stroke="#17212B" stroke-width="1.2"/>
+<line x1="88.00" y1="510.00" x2="988.00" y2="510.00" stroke="#17212B" stroke-width="1.2"/>
+<text x="26.00" y="307.50" class="axis" text-anchor="middle" transform="rotate(-90 26.00 307.50)">Exact accuracy</text>
+<rect x="127.00" y="396.94" width="48.00" height="113.06" fill="#0072B2" rx="3"/>
+<text x="151.00" y="389.94" class="value" text-anchor="middle" >27.9%</text>
+<rect x="181.00" y="314.25" width="48.00" height="195.75" fill="#D55E00" rx="3"/>
+<text x="205.00" y="307.25" class="value" text-anchor="middle" >48.3%</text>
+<text x="178.00" y="534.00" class="axis" text-anchor="middle" >Direct</text>
+<rect x="307.00" y="273.75" width="48.00" height="236.25" fill="#0072B2" rx="3"/>
+<text x="331.00" y="266.75" class="value" text-anchor="middle" >58.3%</text>
+<rect x="361.00" y="223.12" width="48.00" height="286.88" fill="#D55E00" rx="3"/>
+<text x="385.00" y="216.12" class="value" text-anchor="middle" >70.8%</text>
+<text x="358.00" y="534.00" class="axis" text-anchor="middle" >Vote10</text>
+<rect x="487.00" y="324.38" width="48.00" height="185.62" fill="#0072B2" rx="3"/>
+<text x="511.00" y="317.38" class="value" text-anchor="middle" >45.8%</text>
+<rect x="541.00" y="155.62" width="48.00" height="354.38" fill="#D55E00" rx="3"/>
+<text x="565.00" y="148.62" class="value" text-anchor="middle" >87.5%</text>
+<text x="538.00" y="534.00" class="axis" text-anchor="middle" >Swarm10</text>
+<rect x="667.00" y="307.50" width="48.00" height="202.50" fill="#0072B2" rx="3"/>
+<text x="691.00" y="300.50" class="value" text-anchor="middle" >50.0%</text>
+<rect x="721.00" y="164.06" width="48.00" height="345.94" fill="#D55E00" rx="3"/>
+<text x="745.00" y="157.06" class="value" text-anchor="middle" >85.4%</text>
+<text x="718.00" y="534.00" class="axis" text-anchor="middle" >Vote20</text>
+<rect x="847.00" y="332.81" width="48.00" height="177.19" fill="#0072B2" rx="3"/>
+<text x="871.00" y="325.81" class="value" text-anchor="middle" >43.8%</text>
+<rect x="901.00" y="138.75" width="48.00" height="371.25" fill="#D55E00" rx="3"/>
+<text x="925.00" y="131.75" class="value" text-anchor="middle" >91.7%</text>
+<text x="898.00" y="534.00" class="axis" text-anchor="middle" >Tournament20</text>
+</svg>

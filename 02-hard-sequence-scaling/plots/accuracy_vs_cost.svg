@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="620" viewBox="0 0 1040 620" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Accuracy vs cost frontier</title>
+<desc id="chart-desc">Scatter plot of exact accuracy against mean total tokens.</desc>
+<style>text{font-family:Inter,Arial,sans-serif;fill:#17212B}.title{font-size:24px;font-weight:700}.subtitle{font-size:13px;fill:#4B5563}.axis{font-size:12px;fill:#374151}.label{font-size:12px}.value{font-size:11px;font-weight:600}.note{font-size:11px;fill:#59636E}.legend{font-size:12px;font-weight:600}</style>
+<rect width="1040" height="620" fill="#FFFFFF"/>
+<text x="48.00" y="42.00" class="title" text-anchor="start" >Accuracy vs cost frontier</text>
+<text x="48.00" y="66.00" class="subtitle" text-anchor="start" >Farther right uses more resources; higher accuracy is better</text>
+<text x="48.00" y="602.00" class="note" text-anchor="start" >Source: Experiment 02 final analysis output</text>
+<rect x="600.00" y="41.00" width="13.00" height="13.00" fill="#0072B2" rx="2"/>
+<text x="619.00" y="52.00" class="legend" text-anchor="start" >Luna Light reasoning</text>
+<rect x="776.00" y="41.00" width="13.00" height="13.00" fill="#D55E00" rx="2"/>
+<text x="795.00" y="52.00" class="legend" text-anchor="start" >Luna Medium reasoning</text>
+<line x1="90.00" y1="500.00" x2="980.00" y2="500.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="80.00" y="504.00" class="axis" text-anchor="end" >0.0%</text>
+<line x1="90.00" y1="422.00" x2="980.00" y2="422.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="80.00" y="426.00" class="axis" text-anchor="end" >20.0%</text>
+<line x1="90.00" y1="344.00" x2="980.00" y2="344.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="80.00" y="348.00" class="axis" text-anchor="end" >40.0%</text>
+<line x1="90.00" y1="266.00" x2="980.00" y2="266.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="80.00" y="270.00" class="axis" text-anchor="end" >60.0%</text>
+<line x1="90.00" y1="188.00" x2="980.00" y2="188.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="80.00" y="192.00" class="axis" text-anchor="end" >80.0%</text>
+<line x1="90.00" y1="110.00" x2="980.00" y2="110.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="80.00" y="114.00" class="axis" text-anchor="end" >100.0%</text>
+<line x1="90.00" y1="110.00" x2="90.00" y2="500.00" stroke="#17212B" stroke-width="1.2"/>
+<line x1="90.00" y1="500.00" x2="980.00" y2="500.00" stroke="#17212B" stroke-width="1.2"/>
+<text x="28.00" y="305.00" class="axis" text-anchor="middle" transform="rotate(-90 28.00 305.00)">Exact accuracy</text>
+<text x="90.00" y="522.00" class="axis" text-anchor="middle" >0.00</text>
+<text x="268.00" y="522.00" class="axis" text-anchor="middle" >104745.47</text>
+<text x="446.00" y="522.00" class="axis" text-anchor="middle" >209490.95</text>
+<text x="624.00" y="522.00" class="axis" text-anchor="middle" >314236.42</text>
+<text x="802.00" y="522.00" class="axis" text-anchor="middle" >418981.90</text>
+<text x="980.00" y="522.00" class="axis" text-anchor="middle" >523727.37</text>
+<text x="535.00" y="546.00" class="axis" text-anchor="middle" >Mean total tokens</text>
+<polyline points="115.62,391.12 123.57,311.50 345.95,272.50 422.99,223.75 460.05,158.75 914.07,142.50" fill="none" stroke="#009E73" stroke-width="2.5" stroke-dasharray="6 4"/>
+<circle cx="115.62" cy="391.12" r="7.00" fill="#0072B2" stroke="#FFFFFF" stroke-width="2"/>
+<text x="115.62" y="380.12" class="value" text-anchor="middle" >Direct</text>
+<circle cx="123.57" cy="311.50" r="7.00" fill="#D55E00" stroke="#FFFFFF" stroke-width="2"/>
+<text x="123.57" y="300.50" class="value" text-anchor="middle" >Direct</text>
+<circle cx="345.95" cy="272.50" r="7.00" fill="#0072B2" stroke="#FFFFFF" stroke-width="2"/>
+<text x="345.95" y="261.50" class="value" text-anchor="middle" >Vote10</text>
+<circle cx="403.79" cy="321.25" r="7.00" fill="#0072B2" stroke="#FFFFFF" stroke-width="2"/>
+<text x="403.79" y="310.25" class="value" text-anchor="middle" >Swarm10</text>
+<circle cx="422.99" cy="223.75" r="7.00" fill="#D55E00" stroke="#FFFFFF" stroke-width="2"/>
+<text x="422.99" y="212.75" class="value" text-anchor="middle" >Vote10</text>
+<circle cx="460.05" cy="158.75" r="7.00" fill="#D55E00" stroke="#FFFFFF" stroke-width="2"/>
+<text x="460.05" y="147.75" class="value" text-anchor="middle" >Swarm10</text>
+<circle cx="602.41" cy="305.00" r="7.00" fill="#0072B2" stroke="#FFFFFF" stroke-width="2"/>
+<text x="602.41" y="325.00" class="value" text-anchor="middle" >Vote20</text>
+<circle cx="761.39" cy="166.88" r="7.00" fill="#D55E00" stroke="#FFFFFF" stroke-width="2"/>
+<text x="761.39" y="186.88" class="value" text-anchor="middle" >Vote20</text>
+<circle cx="833.02" cy="329.38" r="7.00" fill="#0072B2" stroke="#FFFFFF" stroke-width="2"/>
+<text x="833.02" y="349.38" class="value" text-anchor="middle" >Tournament20</text>
+<circle cx="914.07" cy="142.50" r="7.00" fill="#D55E00" stroke="#FFFFFF" stroke-width="2"/>
+<text x="914.07" y="162.50" class="value" text-anchor="middle" >Tournament20</text>
+<text x="980.00" y="96.00" class="note" text-anchor="end" >Dashed line: nondominated observed points</text>
+</svg>

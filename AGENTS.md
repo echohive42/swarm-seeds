@@ -30,6 +30,15 @@ Keep Swarm Seeds a clear, public collection of reusable AI-agent orchestration p
 - Preserve malformed responses, failed attempts, scoring penalties, and uncertainty.
 - Add new experimental runs instead of rewriting old evidence.
 
+## Lean execution default
+
+- Prefer one standard-library Python runner and append-only JSONL logs.
+- Freeze questions, scoring, routing, packet limits, and retry rules before final collection.
+- Preflight the largest downstream packet.
+- Retry real infrastructure failures with the identical prompt and preserve every attempt.
+- For future experiments, predefine one identical-prompt retry for schema-invalid completed output. Preserve both attempts and follow the frozen scoring rule.
+- Do not add orchestration machinery unless it protects blinding, repeatability, or evidence.
+
 ## Public-release safety
 
 - Never publish credentials, private account data, local absolute paths, internal task UUIDs, or source-task identifiers.

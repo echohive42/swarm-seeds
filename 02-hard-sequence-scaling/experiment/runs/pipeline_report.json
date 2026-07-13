@@ -1,0 +1,26 @@
+{
+  "clean_room_replay_identical": true,
+  "command_contract_all_calls": true,
+  "generated_at": "2026-07-13T08:50:20Z",
+  "malformed_fixture_rejected": true,
+  "no_answer_key_used_for_pipeline_checks": true,
+  "no_packet_over_input_limit": true,
+  "no_silent_response_truncation": true,
+  "packet_manifest_reproducible": true,
+  "passed": true,
+  "planned_calls": 22,
+  "raw_jsonl_reproduces_agent_messages": true,
+  "reasoning_isolation_valid": true,
+  "retry_identity_preserved": true,
+  "routing_graph_valid": true,
+  "schema_version": "experiment-02-pipeline-audit-v1",
+  "source_hashes": {
+    "attempts": "b7f6a8347b4152cad417ed3973c9156590d8700ae6567aa50a95e48f33bc938d",
+    "manifest": "a5d1c5bdf472f08eaad80e5daab3c6b2a03f419d33a95ea0eceb759519b11981",
+    "runner": "fd02670ee7ae464355a30f91a321500d40200834709a20fd8a7f885db6659080",
+    "tasks": "6f2abfa8262058e03fbc18649a1ff78690b8574b5f0dd692a0f707a9f7941218"
+  },
+  "stderr_exit_joinable": true,
+  "swarm10_fixture_passed": true,
+  "terminal_calls": 22
+}

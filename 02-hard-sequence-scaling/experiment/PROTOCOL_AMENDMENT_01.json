@@ -1,0 +1,38 @@
+{
+  "schema_version": "protocol-amendment-v1",
+  "amendment_id": "PA-01-packet-ceiling",
+  "recorded_at": "2026-07-13T10:03:59Z",
+  "correctness_unopened_at_decision": true,
+  "closed_calls_at_decision": 395,
+  "remaining_call_ids": [
+    "final-b02-light-tournament20-j01",
+    "final-b01-light-tournament20-j01",
+    "final-b03-medium-tournament20-j01",
+    "final-b04-light-tournament20-j01",
+    "final-b03-light-tournament20-j01"
+  ],
+  "remaining_packet_characters_after_compaction": {
+    "final-b02-light-tournament20-j01": 61255,
+    "final-b01-light-tournament20-j01": 55717,
+    "final-b03-medium-tournament20-j01": 57201,
+    "final-b04-light-tournament20-j01": 62622,
+    "final-b03-light-tournament20-j01": 56994
+  },
+  "decision": {
+    "original_packet_limit": 60000,
+    "amended_packet_limit": 65000,
+    "compaction_algorithm_changed": false,
+    "model_visible_fields_changed": false,
+    "scoring_or_analysis_changed": false
+  },
+  "bindings": {
+    "pre_amendment_attempt_log_bytes": 2375976,
+    "pre_amendment_attempt_log_sha256": "328753328a20c6ca4abe62ed0f85d79fe98171e74428820b6d66426e5ad3fa91",
+    "freeze_manifest_sha256": "426218bb93d5c48eb41d55993e6b57c7847efd6120b415a36252f1f91ddcace8",
+    "run_manifest_sha256": "83be1c0e8d84c0719253a5848dbf1a1bea3154bc5d5935a201a4f9fa0bae3fd1",
+    "frozen_runner_sha256": "fd02670ee7ae464355a30f91a321500d40200834709a20fd8a7f885db6659080",
+    "packet_builder_sha256": "9e91b8b7b45edc52d97afa4a806250d03b3315302e54e35c85565902280db4f6",
+    "recovery_runner_sha256": "c28cd5c43aac70d9f6e53f1bbeb05964cea808fbc16f373fadfb15b5e055a5b9",
+    "codex_binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3"
+  }
+}

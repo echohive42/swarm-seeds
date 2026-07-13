@@ -27,6 +27,22 @@ Direct links:
 - [Raw agent outputs](01-reasoning-vs-routing/experiment/raw/)
 - [Result images](01-reasoning-vs-routing/images/)
 
+## 02: Hard Sequence Scaling
+
+We made the benchmark harder, increased the hidden final set to 48 RuleWeave-5 cases, and compared 1, 10, and 20-call methods using GPT-5.6 Luna at Light and Medium reasoning.
+
+The best point estimate was 91.67% from a 20-call Medium tournament. A 20-call Medium vote reached 85.42%, but the paired difference was inconclusive. The stronger result was that moving from Light to Medium reasoning added 34.38 percentage points on average, while structured routing added only 1.04 points over equal-call voting.
+
+[Enter the complete experiment](02-hard-sequence-scaling/README.md)
+
+Direct links:
+
+- [Reusable skill seed](02-hard-sequence-scaling/SKILL.md)
+- [Full technical report](02-hard-sequence-scaling/experiment/REPORT.md)
+- [RuleWeave-5 benchmark](02-hard-sequence-scaling/experiment/benchmark/README.md)
+- [Authoritative attempt log](02-hard-sequence-scaling/experiment/raw/final/attempts.jsonl)
+- [Result charts](02-hard-sequence-scaling/plots/)
+
 ## Repository shape
 
 ```text
@@ -44,6 +60,18 @@ Direct links:
     scripts/
     plots/
   images/
+02-hard-sequence-scaling/
+  README.md
+  SKILL.md
+  experiment/
+    PROTOCOL.md
+    REPORT.md
+    benchmark/
+    prompts/
+    raw/
+    results/
+    scripts/
+  plots/
 ```
 
 Future seeds will follow the same pattern: one numbered folder, one reusable skill, and the complete evidence used to evaluate it.

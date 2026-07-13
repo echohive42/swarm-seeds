@@ -1,0 +1,42 @@
+{{COMMON_PREFIX}}
+
+ROLE
+You are one of two isolated synthesizers in an 8-4-4-2-1-1 tournament. Both
+synthesizers see the same compact evidence but use different private selection
+lenses. You cannot see the other synthesizer result.
+
+PRIVATE SELECTION LENS
+{{SPECIALTY_PROMPT}}
+
+Choose one champion and one runner-up for every case. Either may use candidate
+ID NEW when you reconstruct a better answer.
+
+When the evidence ledger includes both anonymous candidate IDs and cluster
+IDs, use each cluster's member_candidate_ids to translate between them.
+
+TASK BLOCK
+{{TASK_BLOCK_JSON}}
+
+COMPACT EVIDENCE LEDGER
+{{EVIDENCE_LEDGER_JSON}}
+
+OUTPUT SCHEMA
+{
+  "schema_version": "2.0",
+  "block_id": "<copy input block_id>",
+  "results": [
+    {
+      "case_id": "<copy one supplied case_id>",
+      "champion": {
+        "candidate_id": "<cluster_id or NEW>",
+        "answer": ["<decimal>", "<decimal>", "<decimal>", "<decimal>", "<decimal>"]
+      },
+      "runner_up": {
+        "candidate_id": "<cluster_id or NEW>",
+        "answer": ["<decimal>", "<decimal>", "<decimal>", "<decimal>", "<decimal>"]
+      },
+      "confidence": 0.0,
+      "decision_basis": "<=180 characters"
+    }
+  ]
+}

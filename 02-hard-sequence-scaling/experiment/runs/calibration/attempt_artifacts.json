@@ -1,0 +1,1448 @@
+{
+  "artifact_count": 360,
+  "artifact_set_sha256": "50ab2eaf8b654b4ccdb1ac8028dcd140bf179ec5e1b2830ef183020964a5a935",
+  "artifacts": {
+    "calls/calibration-calibration-b01-light-independent-s01/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "3f30be6bb378c7a390fa5f29fe7bc965fe5ade451dd1f11715d7531dcc71f845"
+    },
+    "calls/calibration-calibration-b01-light-independent-s01/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s01/attempt-01/events.jsonl": {
+      "bytes": 3590,
+      "sha256": "aaab3d2abd6056f938f01fab20f61a5074a61e0a2c50ebfb6836826e96819483"
+    },
+    "calls/calibration-calibration-b01-light-independent-s01/attempt-01/last_message.txt": {
+      "bytes": 2949,
+      "sha256": "5bccc4920f24de899d1ac67a67915fdd0c409131987a192ebe4339a1b0d5f3e0"
+    },
+    "calls/calibration-calibration-b01-light-independent-s01/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "5d7ed49d4ba4c27758b3fc8025c8a5f111749f6cf58629a678911d62e14f0e90"
+    },
+    "calls/calibration-calibration-b01-light-independent-s01/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s01/attempt-01/stderr.txt": {
+      "bytes": 11973,
+      "sha256": "696f22fb8d389cf035f1836bb2be6c2a821557f3f7a3960a5ee79c8206e27afd"
+    },
+    "calls/calibration-calibration-b01-light-independent-s01/attempt-01/transport_result.json": {
+      "bytes": 19975,
+      "sha256": "f3f4fc7e2b86374254aaca6f7e6506c06246844a0611289173484b5b7b888058"
+    },
+    "calls/calibration-calibration-b01-light-independent-s01/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s02/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "b1868a20e21700dccfcb8a8f3d26a39b11a910b2d31db745cd7fe9750d1a736e"
+    },
+    "calls/calibration-calibration-b01-light-independent-s02/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s02/attempt-01/events.jsonl": {
+      "bytes": 3419,
+      "sha256": "8527b6c2da2074e6b7c8396a0ec40f365bb75fbc4c1a25cd02ec0b24309dfaee"
+    },
+    "calls/calibration-calibration-b01-light-independent-s02/attempt-01/last_message.txt": {
+      "bytes": 2778,
+      "sha256": "e27d0cfd6e1fc2b292c9ba5d71c663ca815febbcadec8fb968a62d5d75e71d5d"
+    },
+    "calls/calibration-calibration-b01-light-independent-s02/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "d58d7d3220ddeb7f10cec8367d2a9b5a9134480c8e65b29dc862a42305b3d49e"
+    },
+    "calls/calibration-calibration-b01-light-independent-s02/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s02/attempt-01/stderr.txt": {
+      "bytes": 11789,
+      "sha256": "527fd114b5131a72ffc8f8e9e9f7aca100b85d588daea751055766f4b8f48077"
+    },
+    "calls/calibration-calibration-b01-light-independent-s02/attempt-01/transport_result.json": {
+      "bytes": 19448,
+      "sha256": "c03448c7b08872732b4658563047d23f1845c355dac982f6dc4a16fe34961e0a"
+    },
+    "calls/calibration-calibration-b01-light-independent-s02/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s03/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "fe569c866e6b04c8738e38800fa88a1ecc95356007fa14d25bfce08082a84f38"
+    },
+    "calls/calibration-calibration-b01-light-independent-s03/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s03/attempt-01/events.jsonl": {
+      "bytes": 3600,
+      "sha256": "dbcb488f5445da6b586418f89180bc92aa16d62c319c227297861c063b5a4f25"
+    },
+    "calls/calibration-calibration-b01-light-independent-s03/attempt-01/last_message.txt": {
+      "bytes": 2962,
+      "sha256": "1df18a0402249b007155f8cf9cda51b46e7fc5bde4ed117f7e00a169d29ab3b0"
+    },
+    "calls/calibration-calibration-b01-light-independent-s03/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "9b62b174e4bd4f718a1a816e686037e433dde1dc5ac0ec7e9c74e487b8a2c16b"
+    },
+    "calls/calibration-calibration-b01-light-independent-s03/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s03/attempt-01/stderr.txt": {
+      "bytes": 10917,
+      "sha256": "9071122d30bff0237fe7ad00ea9e757c5e1e2f42ea97f43614f1e062aaed7e97"
+    },
+    "calls/calibration-calibration-b01-light-independent-s03/attempt-01/transport_result.json": {
+      "bytes": 18939,
+      "sha256": "35d2ab2b97b92f5986d86f14f9df10e44076cd212de16312ebd863abfdc670bb"
+    },
+    "calls/calibration-calibration-b01-light-independent-s03/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s04/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "e804703882f78ce9b44bb3c0dd913577c5d9d24c0fe7fca5d04ecd7508bce938"
+    },
+    "calls/calibration-calibration-b01-light-independent-s04/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s04/attempt-01/events.jsonl": {
+      "bytes": 3352,
+      "sha256": "91f86406aff0a80c9de36ec8a54cc3ec95f740fa7aeb7fed9b45e84c6b31f8bb"
+    },
+    "calls/calibration-calibration-b01-light-independent-s04/attempt-01/last_message.txt": {
+      "bytes": 2714,
+      "sha256": "6ca2a9388f108bd628f3e7a59598081a1211e4b09770709d99b0243584a1cdfd"
+    },
+    "calls/calibration-calibration-b01-light-independent-s04/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "de9f087e0b2f0d6d1212601c52662d2ad4f4bd4aec17abbb9274310f4af71ba2"
+    },
+    "calls/calibration-calibration-b01-light-independent-s04/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s04/attempt-01/stderr.txt": {
+      "bytes": 10733,
+      "sha256": "c2f7003ec410fe59c9e4cc4c9d9feaeb1a665441d0d04e9181755b1015b37c07"
+    },
+    "calls/calibration-calibration-b01-light-independent-s04/attempt-01/transport_result.json": {
+      "bytes": 18258,
+      "sha256": "ab858c1e78242db619a9695a4e183b3fffe87181cf7342ecb195c79a0c79563c"
+    },
+    "calls/calibration-calibration-b01-light-independent-s04/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s05/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "c1bb998f85922c462111e06beb32b98c35a7ec381715fa4dfba6d8c455eac419"
+    },
+    "calls/calibration-calibration-b01-light-independent-s05/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s05/attempt-01/events.jsonl": {
+      "bytes": 3757,
+      "sha256": "62463d183cd862a8aba59951c4cb808d68449106c94e66e36236a3756c5b16a3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s05/attempt-01/last_message.txt": {
+      "bytes": 3116,
+      "sha256": "ec4151b7a7d531f028fe28e869fb03c1a2222b1d0cdf3dd96956912b24fffab2"
+    },
+    "calls/calibration-calibration-b01-light-independent-s05/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "c775926a3f96f3efabce5a8c57ca4c91973fcd99085223da388af1a652dcd615"
+    },
+    "calls/calibration-calibration-b01-light-independent-s05/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s05/attempt-01/stderr.txt": {
+      "bytes": 11789,
+      "sha256": "5e318e63ddfbc586d779e487926bdf0a1093fe562a4770956db023f40dce337a"
+    },
+    "calls/calibration-calibration-b01-light-independent-s05/attempt-01/transport_result.json": {
+      "bytes": 20124,
+      "sha256": "89021da2ada3e8f54f56cbfc550364611081b381b024172ce98c05e2d585b855"
+    },
+    "calls/calibration-calibration-b01-light-independent-s05/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s06/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "39adfffaf60055c832395ad165c5b4215421d577e83c5f9f2f0f8570455880a7"
+    },
+    "calls/calibration-calibration-b01-light-independent-s06/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s06/attempt-01/events.jsonl": {
+      "bytes": 3656,
+      "sha256": "cff9359cec1b918f99a821188cc550e40b8615ce90ecf2dbdd69caa50d94ec39"
+    },
+    "calls/calibration-calibration-b01-light-independent-s06/attempt-01/last_message.txt": {
+      "bytes": 3018,
+      "sha256": "d646a395c2f40cc876a62cb27195664dc6dd248616993c55f03c1e287f03ff1d"
+    },
+    "calls/calibration-calibration-b01-light-independent-s06/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "0e83deec75cbf807345002249ec45c58bd45cbda184bb6adf04f12d52d4fdb27"
+    },
+    "calls/calibration-calibration-b01-light-independent-s06/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s06/attempt-01/stderr.txt": {
+      "bytes": 11789,
+      "sha256": "f65427245f3dcda4429e6b0ad86981bc5a6ec01382e8e8fb2ff0159c38ad8645"
+    },
+    "calls/calibration-calibration-b01-light-independent-s06/attempt-01/transport_result.json": {
+      "bytes": 19922,
+      "sha256": "cbd55765985a1c14d9b9ece94d0fb490e8eec5b41f386ab99a431cf1aafe8649"
+    },
+    "calls/calibration-calibration-b01-light-independent-s06/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s07/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "b39106c1f58b326dccd3ff7bac3350113572851b518b5e69eb5bddc1df2abe57"
+    },
+    "calls/calibration-calibration-b01-light-independent-s07/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s07/attempt-01/events.jsonl": {
+      "bytes": 3269,
+      "sha256": "8f8cbda4c3838fb930c4f60a5abf8ee8d8327f6e45dbafca0968b28162d953e5"
+    },
+    "calls/calibration-calibration-b01-light-independent-s07/attempt-01/last_message.txt": {
+      "bytes": 2631,
+      "sha256": "b1534c9b46d3598d997d4c6353d7cde42389d33b3d9c1b3aa4645689817cc3ca"
+    },
+    "calls/calibration-calibration-b01-light-independent-s07/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "ac7d2c91f3b413fa6874fbe878c53d4269d0321938697991494321f7e4db30ad"
+    },
+    "calls/calibration-calibration-b01-light-independent-s07/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s07/attempt-01/stderr.txt": {
+      "bytes": 10733,
+      "sha256": "bed14027e20f2485bbe9213603230934182c66b58a81832f6e844ff3480f536e"
+    },
+    "calls/calibration-calibration-b01-light-independent-s07/attempt-01/transport_result.json": {
+      "bytes": 18092,
+      "sha256": "a3c3961eaa068467df441600ed275c423ee6d03dd78c2cc82f38758c1aaa8e39"
+    },
+    "calls/calibration-calibration-b01-light-independent-s07/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s08/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "07449de1dbbcc48479d06ecccbf301ee0842932f4d737fed7c10282119a4a963"
+    },
+    "calls/calibration-calibration-b01-light-independent-s08/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s08/attempt-01/events.jsonl": {
+      "bytes": 3565,
+      "sha256": "145036116d4896283a3e5819061706234edf001019cd575c4780b1d026cc0ded"
+    },
+    "calls/calibration-calibration-b01-light-independent-s08/attempt-01/last_message.txt": {
+      "bytes": 2924,
+      "sha256": "dcda7ff2bd4e92d9cbd75c05c51543df0c98be0a94766e7b3dcbaf648c8287ba"
+    },
+    "calls/calibration-calibration-b01-light-independent-s08/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "5cdf07fe957028156a08202a94dd8448d41b089f904dc985b74107e4abefcc6d"
+    },
+    "calls/calibration-calibration-b01-light-independent-s08/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s08/attempt-01/stderr.txt": {
+      "bytes": 11446,
+      "sha256": "507829a14585c91717720f5ddba4da253fb9a87c36a4a0ad95f76bbc8b4a367a"
+    },
+    "calls/calibration-calibration-b01-light-independent-s08/attempt-01/transport_result.json": {
+      "bytes": 19398,
+      "sha256": "85a5c6d6a53d7a266f59437b71e4012d2d1639a8645962d1fcc97917aa96302b"
+    },
+    "calls/calibration-calibration-b01-light-independent-s08/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s09/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "9fed9932386d36b1ca3348701da5bae02183f73728528ffbee77cab074bb0728"
+    },
+    "calls/calibration-calibration-b01-light-independent-s09/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s09/attempt-01/events.jsonl": {
+      "bytes": 3358,
+      "sha256": "b0b3b4f2fa56531a961b990c93b9e94ac560de1bc2e696568c01395bf21a3cf1"
+    },
+    "calls/calibration-calibration-b01-light-independent-s09/attempt-01/last_message.txt": {
+      "bytes": 2717,
+      "sha256": "7501d71174d0f1af6d96af29758557158e3a946ba3e8b03d117a89c7c249f70f"
+    },
+    "calls/calibration-calibration-b01-light-independent-s09/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "27a756830d498a6b1c77dc2559f05b94c38ebcb3e33009f767989ea5e6fa6aa1"
+    },
+    "calls/calibration-calibration-b01-light-independent-s09/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s09/attempt-01/stderr.txt": {
+      "bytes": 11789,
+      "sha256": "2db201364e4dadb3feef10c10b4e16397acd1bbcce072dca7010ccdaa25d747b"
+    },
+    "calls/calibration-calibration-b01-light-independent-s09/attempt-01/transport_result.json": {
+      "bytes": 19326,
+      "sha256": "4a92d97a374bd3d2c06e75768f92865ff82dbe5b92683e5e51267b98fbc2a334"
+    },
+    "calls/calibration-calibration-b01-light-independent-s09/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s10/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "7c04d7032288abae8f157fc81fed30b2fb4c7d8d0950c5e54639d5b7e83a2cfe"
+    },
+    "calls/calibration-calibration-b01-light-independent-s10/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s10/attempt-01/events.jsonl": {
+      "bytes": 3539,
+      "sha256": "50472a95d69732d8ba64883dd2ac4649f9e9e2e22193457c167ce6642149f5f5"
+    },
+    "calls/calibration-calibration-b01-light-independent-s10/attempt-01/last_message.txt": {
+      "bytes": 2898,
+      "sha256": "ed386def406fb9decf5e0c3cf95717c533aaa309303be05e6c0656c7de1ceef4"
+    },
+    "calls/calibration-calibration-b01-light-independent-s10/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "aa81726247f3cbe2457a8a586db557a07bf5935014f0da40cad661719a99f968"
+    },
+    "calls/calibration-calibration-b01-light-independent-s10/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s10/attempt-01/stderr.txt": {
+      "bytes": 11261,
+      "sha256": "d5c6f4572fc4fb0ce9adf045ad61cba5a11504cd60894c96a378d9a7204938c1"
+    },
+    "calls/calibration-calibration-b01-light-independent-s10/attempt-01/transport_result.json": {
+      "bytes": 19160,
+      "sha256": "ef87b7a907a4949f6c10a78f354cd72e37503e85b8904b78d51f9d5518d05c2b"
+    },
+    "calls/calibration-calibration-b01-light-independent-s10/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s11/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "874132d11e635b58bf84a51ab7b79279097e6ae4bc2bc1a905a60ad71370bd31"
+    },
+    "calls/calibration-calibration-b01-light-independent-s11/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s11/attempt-01/events.jsonl": {
+      "bytes": 3677,
+      "sha256": "b10837c5d8a6c584927f69b1f67da25b97a0b459feb2c28006aa168d77e3f470"
+    },
+    "calls/calibration-calibration-b01-light-independent-s11/attempt-01/last_message.txt": {
+      "bytes": 3036,
+      "sha256": "5309a845d0e48ea1ac5bd6e34c3fa749f383a8ca514d38bc26f6b5c36d1ee2ce"
+    },
+    "calls/calibration-calibration-b01-light-independent-s11/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "e7509f670c7a3d103166dc50f889d3b32d7968402e0c84e11115bf80cc01f889"
+    },
+    "calls/calibration-calibration-b01-light-independent-s11/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s11/attempt-01/stderr.txt": {
+      "bytes": 11973,
+      "sha256": "7696ce032b754073cfbc6794fa67d0f1339bbb0b4d17db80fc4531c65f183178"
+    },
+    "calls/calibration-calibration-b01-light-independent-s11/attempt-01/transport_result.json": {
+      "bytes": 20149,
+      "sha256": "9f4f27f86be74052bfe032d52f30ff10ba03a7f9808c95181537f1948cb42f5c"
+    },
+    "calls/calibration-calibration-b01-light-independent-s11/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s12/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "020fc002cb97fb6db2c41399e0b902769047bf5ad4de08f6fd8da779245147e4"
+    },
+    "calls/calibration-calibration-b01-light-independent-s12/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s12/attempt-01/events.jsonl": {
+      "bytes": 3523,
+      "sha256": "d1b0447c28f0c42002aa7cdd30eaee39e39ec4659695b8136736d77baecbe633"
+    },
+    "calls/calibration-calibration-b01-light-independent-s12/attempt-01/last_message.txt": {
+      "bytes": 2885,
+      "sha256": "7a123e560d336ad12f3a1206feaa57bc5bdd3f80ba206b16e53b29f7eb4f46b1"
+    },
+    "calls/calibration-calibration-b01-light-independent-s12/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "68c47a9dc2738eb663a192825f6091fd106d2a43f68e8dad16e3f65f6fdc5616"
+    },
+    "calls/calibration-calibration-b01-light-independent-s12/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s12/attempt-01/stderr.txt": {
+      "bytes": 11526,
+      "sha256": "b4c84e2c075ac7bb753bad8b16676e0b5598bf78a2593f111e762738e996372c"
+    },
+    "calls/calibration-calibration-b01-light-independent-s12/attempt-01/transport_result.json": {
+      "bytes": 19393,
+      "sha256": "23a1c093d9f0da81fb9ad2c1b7bc6b649cde6a041cd818690abe418de9cd91d8"
+    },
+    "calls/calibration-calibration-b01-light-independent-s12/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s13/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "48ed038ec92efd326014e2a886c121edfbec464142bcbb35d6b3204df151ac2e"
+    },
+    "calls/calibration-calibration-b01-light-independent-s13/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s13/attempt-01/events.jsonl": {
+      "bytes": 3268,
+      "sha256": "4f8cea1d1ac51af1bb5eea61849c46dd10d42628aa8cfdb3c7567bb738ac24b0"
+    },
+    "calls/calibration-calibration-b01-light-independent-s13/attempt-01/last_message.txt": {
+      "bytes": 2627,
+      "sha256": "31a22a795fb3f5ffb2cd3a6381229a42916ad1d8be27391aadc5c7918d76fb9b"
+    },
+    "calls/calibration-calibration-b01-light-independent-s13/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "a69e59b1e81bb5f914c07eeeb766575f171398aec208d73e7bd360971ee10a39"
+    },
+    "calls/calibration-calibration-b01-light-independent-s13/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s13/attempt-01/stderr.txt": {
+      "bytes": 11789,
+      "sha256": "bb1e97f54fe806ecc5bed710ca8e15e25dfb4046a7614b97137903b5910f8d55"
+    },
+    "calls/calibration-calibration-b01-light-independent-s13/attempt-01/transport_result.json": {
+      "bytes": 19146,
+      "sha256": "dfca7c1d147acceac5b48bc2b3a57d15adfbbfec5af7ebe8a0ceddab2572290d"
+    },
+    "calls/calibration-calibration-b01-light-independent-s13/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s14/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "5e60fcec2157c8fb094263354c46249511879f1117a517605b3676b59ada3f6e"
+    },
+    "calls/calibration-calibration-b01-light-independent-s14/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s14/attempt-01/events.jsonl": {
+      "bytes": 3433,
+      "sha256": "7f3a3ae740e4290f344aae0ace83d655b12151d0e9d8225e8d07d3b1664c451c"
+    },
+    "calls/calibration-calibration-b01-light-independent-s14/attempt-01/last_message.txt": {
+      "bytes": 2795,
+      "sha256": "ad90280c39ba470ae18aab19b6e12da5ccf1f0d93ce731e9380eb0438376d25b"
+    },
+    "calls/calibration-calibration-b01-light-independent-s14/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "634bfce9f9f818dc7e2f2b870af3e4204e08d8310b4941e3aeee8380e43c4921"
+    },
+    "calls/calibration-calibration-b01-light-independent-s14/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s14/attempt-01/stderr.txt": {
+      "bytes": 11668,
+      "sha256": "93ec7cca632f90bee80e275bdc68486db124a1f0484b8b6e8423cb95738416ca"
+    },
+    "calls/calibration-calibration-b01-light-independent-s14/attempt-01/transport_result.json": {
+      "bytes": 19356,
+      "sha256": "7f5148a0b242dff4127fedb3e23768758ede7305b20af34f7ab2def255ebd4b4"
+    },
+    "calls/calibration-calibration-b01-light-independent-s14/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s15/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "39e38fb49fc8ed45f347a17e3b800055ccb23a37ff0f5cb3c008714883bf495d"
+    },
+    "calls/calibration-calibration-b01-light-independent-s15/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s15/attempt-01/events.jsonl": {
+      "bytes": 3459,
+      "sha256": "b3434a2fe4c2c22397e311f1d57006a5d8ca8bc8880993c76c18199511ef68ec"
+    },
+    "calls/calibration-calibration-b01-light-independent-s15/attempt-01/last_message.txt": {
+      "bytes": 2818,
+      "sha256": "009dcb2fda29a16013cb91241a1fdb16e573620d05f0d457a3f6f22ab0a3b8c5"
+    },
+    "calls/calibration-calibration-b01-light-independent-s15/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "3ae7c0ab0225a362d026cf511dbfd95b70a6d58004a0b37d8c956bb67e681850"
+    },
+    "calls/calibration-calibration-b01-light-independent-s15/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s15/attempt-01/stderr.txt": {
+      "bytes": 10595,
+      "sha256": "25c05be197e73561a3e2b4db0cdfe6585212142a87b2e5cc3937cd0cf79c71e6"
+    },
+    "calls/calibration-calibration-b01-light-independent-s15/attempt-01/transport_result.json": {
+      "bytes": 18335,
+      "sha256": "de38128bbe8e0be3204bae01bb1da51f6d5e88873045341133e691d7d4963eb9"
+    },
+    "calls/calibration-calibration-b01-light-independent-s15/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s16/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "4ad29e2ced6292d0a8ee88060e5d851ffd5eb49e817acba7f5d1a949b88bf7f7"
+    },
+    "calls/calibration-calibration-b01-light-independent-s16/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s16/attempt-01/events.jsonl": {
+      "bytes": 3759,
+      "sha256": "36abf5a9376cea55106bd5a7cee7e9932c1541f7dbe9fb499780135580f4822b"
+    },
+    "calls/calibration-calibration-b01-light-independent-s16/attempt-01/last_message.txt": {
+      "bytes": 3118,
+      "sha256": "22c589fc4e6f0b9897f34e5d03706841d779826223edc115bfdb5f1d9769abd4"
+    },
+    "calls/calibration-calibration-b01-light-independent-s16/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "071f9974d2a1c85ebd9fc74c421836c6f6834e66694c7c6561234cc74860b860"
+    },
+    "calls/calibration-calibration-b01-light-independent-s16/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s16/attempt-01/stderr.txt": {
+      "bytes": 11789,
+      "sha256": "13c50aea75925f9422aab593a72883404723282a855709e10d6e1793d1a92598"
+    },
+    "calls/calibration-calibration-b01-light-independent-s16/attempt-01/transport_result.json": {
+      "bytes": 20128,
+      "sha256": "456f74de8ae0d4b33cf4e8d1309d215b37abbbb7e327efb58429f6ab62d998d1"
+    },
+    "calls/calibration-calibration-b01-light-independent-s16/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s17/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "4bfd62c2504b5f3f63c8086968815663aee5f51cb9e7e0ead3fa0fe4bfc8c59f"
+    },
+    "calls/calibration-calibration-b01-light-independent-s17/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s17/attempt-01/events.jsonl": {
+      "bytes": 3472,
+      "sha256": "820de8fc75cf12dae6b88887b97a45efc1e5b3831ebb99ee5b9e6508c1beaf92"
+    },
+    "calls/calibration-calibration-b01-light-independent-s17/attempt-01/last_message.txt": {
+      "bytes": 2834,
+      "sha256": "0149f49fd8b119a8271cccd7f5a0a573b2dd02e38e94c95523089f8522af57db"
+    },
+    "calls/calibration-calibration-b01-light-independent-s17/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "87162fecb7cf5a61a02286e8415c9239bb4646d3d0b0c02d05c1601342c09e47"
+    },
+    "calls/calibration-calibration-b01-light-independent-s17/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s17/attempt-01/stderr.txt": {
+      "bytes": 10733,
+      "sha256": "b984b19dc9554988574508690f700c3a61a8c77030567d9f17549105b0fab0fa"
+    },
+    "calls/calibration-calibration-b01-light-independent-s17/attempt-01/transport_result.json": {
+      "bytes": 18498,
+      "sha256": "01c6d8bfafed3a15ff90d419d8820009d4d5192f27be085cecaa20f69ea0bc56"
+    },
+    "calls/calibration-calibration-b01-light-independent-s17/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s18/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "6140c82aed34331ab969a7f08ca5a7ba08c5a53550a7cead8709973c33f50d95"
+    },
+    "calls/calibration-calibration-b01-light-independent-s18/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s18/attempt-01/events.jsonl": {
+      "bytes": 3586,
+      "sha256": "b5aa4ff1ccf51c4a82463d52d090dd108524480e09406d5d8948f83817cf289d"
+    },
+    "calls/calibration-calibration-b01-light-independent-s18/attempt-01/last_message.txt": {
+      "bytes": 2945,
+      "sha256": "fdf0b776d46bc0027e0fe8dff75490c6f1835ada48f136960ba00671da3ca2de"
+    },
+    "calls/calibration-calibration-b01-light-independent-s18/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "3f717436053eb2195c90ad07b737154980287d5dd094418c653e30b05e7ba182"
+    },
+    "calls/calibration-calibration-b01-light-independent-s18/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s18/attempt-01/stderr.txt": {
+      "bytes": 11789,
+      "sha256": "6e7331bc81701239cfe451760cf316b464f6303b1213ee356bd2a9efdb02056f"
+    },
+    "calls/calibration-calibration-b01-light-independent-s18/attempt-01/transport_result.json": {
+      "bytes": 19782,
+      "sha256": "2469b0472e26f4b79e392bd0826bcedd0b0366855ed50f73bef9000729615a10"
+    },
+    "calls/calibration-calibration-b01-light-independent-s18/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s19/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "873b9b62806c05248cb44c12127889bad01367eaf4f3b542ccdfeceb76b6354d"
+    },
+    "calls/calibration-calibration-b01-light-independent-s19/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s19/attempt-01/events.jsonl": {
+      "bytes": 3438,
+      "sha256": "d22c3473615180dd39241e51d38bcd7b5ceac27c8e659dc79641a8926f3a0c0c"
+    },
+    "calls/calibration-calibration-b01-light-independent-s19/attempt-01/last_message.txt": {
+      "bytes": 2800,
+      "sha256": "bceca8429454286cf88b5379d17447a6dc32e0b5d258e3fc645949395405e8ae"
+    },
+    "calls/calibration-calibration-b01-light-independent-s19/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "f7e1e3e0a153e641115f992dac30d29cbca154884ff3cd7c2aa1107398a30f62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s19/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s19/attempt-01/stderr.txt": {
+      "bytes": 11789,
+      "sha256": "fbf6b2ee3f5c3baa9529238d96ab919af4fa80740432928ef89e6a4cfb4b4c1b"
+    },
+    "calls/calibration-calibration-b01-light-independent-s19/attempt-01/transport_result.json": {
+      "bytes": 19486,
+      "sha256": "0d4d2c4d310ad5a9c8b65add6176d54fa82020ec5d28cf8826c810fe4007b728"
+    },
+    "calls/calibration-calibration-b01-light-independent-s19/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-light-independent-s20/attempt-01/claim.json": {
+      "bytes": 208,
+      "sha256": "a164e4ebd0925484855899b6201c386178d713bc715e23de8def230afec14e36"
+    },
+    "calls/calibration-calibration-b01-light-independent-s20/attempt-01/command.json": {
+      "bytes": 1330,
+      "sha256": "cc4968386b59ef1c103a348058b7a40fe35c2ea4d59e5eb7a29c93d4a0275e62"
+    },
+    "calls/calibration-calibration-b01-light-independent-s20/attempt-01/events.jsonl": {
+      "bytes": 3475,
+      "sha256": "be95e868885ca385ab150e6bf39796f16b919d24c4ea77c2d2e93a92e200fd08"
+    },
+    "calls/calibration-calibration-b01-light-independent-s20/attempt-01/last_message.txt": {
+      "bytes": 2837,
+      "sha256": "824ceb79b26c01af66c2be8861b6034e15b1e29812504c592bdb90ff9df4a3ec"
+    },
+    "calls/calibration-calibration-b01-light-independent-s20/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "7b824d7e2f8b9a04562128f8dcc30929c909abd028564fb6c6ffba47544a07d4"
+    },
+    "calls/calibration-calibration-b01-light-independent-s20/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-light-independent-s20/attempt-01/stderr.txt": {
+      "bytes": 12116,
+      "sha256": "adb8a5f72d7d61517dbe6b63b630ac18230207de916a8682bef8ed89c671e21c"
+    },
+    "calls/calibration-calibration-b01-light-independent-s20/attempt-01/transport_result.json": {
+      "bytes": 19889,
+      "sha256": "4191ba0bda5f659c38b15cb300aed6870bd23bc1ba57e761fe2eee7cd5ead502"
+    },
+    "calls/calibration-calibration-b01-light-independent-s20/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s01/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "6c73d536c9363b3326f280f3a4b85275d928bc56644dbfb24b6412ac76574eba"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s01/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s01/attempt-01/events.jsonl": {
+      "bytes": 3725,
+      "sha256": "c98e547ca6623d59637b7c30ac5ca7a2ebb3daf986d5e353eb9a4ab1ab19cc04"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s01/attempt-01/last_message.txt": {
+      "bytes": 3087,
+      "sha256": "90f4736569782173adc2192226f3621da7c84846af940d708fe5bb9fd4ccaa77"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s01/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "7811472646c8c05f3d30ee94d8d72da61507d75f4e6ec213c14c9c903c7aad14"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s01/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s01/attempt-01/stderr.txt": {
+      "bytes": 11932,
+      "sha256": "cad5a25c086d5fce45203b69d7c7b92ac00db21ec1cec7d6e63efe51a30298c9"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s01/attempt-01/transport_result.json": {
+      "bytes": 20205,
+      "sha256": "d24e0124af97148d502028ba7b37a3955ad161a3ed5616301ca6a79c9114a5d2"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s01/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s02/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "aef4cf42da430db43b41a581eec768381143131c9b0cda72aa862fe790c225e6"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s02/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s02/attempt-01/events.jsonl": {
+      "bytes": 3447,
+      "sha256": "5423419831e13769a745fc982d65d676419a45b618d2fbf8717b7edc2575968e"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s02/attempt-01/last_message.txt": {
+      "bytes": 2806,
+      "sha256": "d617e63cd05689cd61d449ec8d179397cfd4eab355c076fcb4cda003058756ad"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s02/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "306e877c51294b97893286eea392da68d8219bdc6c59ddeca09e07a4a945d04e"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s02/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s02/attempt-01/stderr.txt": {
+      "bytes": 12581,
+      "sha256": "3e5a28dd3712d39703077260cc5aac4a1f5b0939bf67c84ad06e31c0bb87fe6b"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s02/attempt-01/transport_result.json": {
+      "bytes": 20297,
+      "sha256": "e33e1013a93a30f926c1d08a40cd18a98882b8dd7b9d0ea0fb8fd32eaf5c7597"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s02/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s03/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "88baad97d9d56bd4fc90cf19074588ea42dd609095b5595232b7d4023a8157ab"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s03/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s03/attempt-01/events.jsonl": {
+      "bytes": 3718,
+      "sha256": "5b3ae333ffb8c03bc7445cdd4f5e1d985b1e6cd92deff41091ce594dfbb944e3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s03/attempt-01/last_message.txt": {
+      "bytes": 3080,
+      "sha256": "def720479920531fb924ee132d6091511ef3ae8f42d216dc1a7283d74d7917fe"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s03/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "0fe409db9123a96cababae5be8663e7a56a49a2a3d13db220c6d3ac876c00104"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s03/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s03/attempt-01/stderr.txt": {
+      "bytes": 10733,
+      "sha256": "07dac66048ea4f7cbf352f6becaa51e3f67fceb25d6e8bdfd6b4ed73fafe6987"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s03/attempt-01/transport_result.json": {
+      "bytes": 18991,
+      "sha256": "d17a67a2466eaf92c139a98fcc25335b3381a34d13b9935ec32c2ba2c03b2bb8"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s03/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s04/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "ed1d915974a04d0494b95e15e2e42d39d87e6a793f322d74022fc4e1a14bac48"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s04/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s04/attempt-01/events.jsonl": {
+      "bytes": 3866,
+      "sha256": "8a0314bccb1bb54807bc21105957b9792ffdb06d37e146f86f4c271bf6b7bc5d"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s04/attempt-01/last_message.txt": {
+      "bytes": 3228,
+      "sha256": "6c15f719edd9ebad7be87eb3cb2e869cbc232c35613b1be2e80aaa08bf83c9c3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s04/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "0fde1cf915b61e060dd5602e019505de5fe46892251767c6d2e3c7a8f0a20333"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s04/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s04/attempt-01/stderr.txt": {
+      "bytes": 11525,
+      "sha256": "37754ce0f9503b9dca9ad08d5021d4349ecd8acbcafc2b19e29499b9f63028a7"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s04/attempt-01/transport_result.json": {
+      "bytes": 20079,
+      "sha256": "b87ad9463d42c75c1ffd92a2701a1236325b056a01b3e2a01fb5e223afe26143"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s04/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s05/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "2e914e52841df7630531047348399285f32009d3ed197dc74d6d112900e2f8fb"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s05/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s05/attempt-01/events.jsonl": {
+      "bytes": 3765,
+      "sha256": "80083dcecd0a1104bf1ff4c8694a074b67f98e6a780fbf5e5b82c73d37cf3a26"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s05/attempt-01/last_message.txt": {
+      "bytes": 3124,
+      "sha256": "39c6de56c07683914670d4f314d7a6b6a79e8b960bd3623c651d054752163950"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s05/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "0f2937933f5cc8fdb0b29ab6aa18ae09596cd6c2bd6b3f217dc0e2135e9ed962"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s05/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s05/attempt-01/stderr.txt": {
+      "bytes": 12707,
+      "sha256": "11ec5b6100ce76576b3adf4e12ca737499f3b1a5ab4e9ec8a284aec9ab78c355"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s05/attempt-01/transport_result.json": {
+      "bytes": 21060,
+      "sha256": "b9085d92aa9e227e445132e6261b3a2812bac3414d801b9c2087dcd16ef8d3e9"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s05/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s06/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "904d2c6435e2689989b7a5b953988b5faff215f53e43cdd5a01ee4ef71bd4231"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s06/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s06/attempt-01/events.jsonl": {
+      "bytes": 3707,
+      "sha256": "836f34e89059bc9b5df7a86a25bb64d6f94f1712cc933b215d642ca6c2a9b8d9"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s06/attempt-01/last_message.txt": {
+      "bytes": 3066,
+      "sha256": "56de9e88fa04a4cfb90d64a837dc254d58b81ba250db45b3abce8e830d99a334"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s06/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "931087966c259df6192f7b1aaca9e9f435c5eff5f9c78dcdfe4746abc7ece065"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s06/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s06/attempt-01/stderr.txt": {
+      "bytes": 11525,
+      "sha256": "2ed6b330b9a50f8efe0f177e798fed921db3d53ad5db09dc0a392e9614aa0775"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s06/attempt-01/transport_result.json": {
+      "bytes": 19761,
+      "sha256": "a41ebfc432b5f477263d4e61c6db9489fc4314a006f2c2ee5a37e1081f0c6bfe"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s06/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s07/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "c57f86d3d9d3f763f831ebbe9d5f3c211502c49692af17b944115b8bbb62efc0"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s07/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s07/attempt-01/events.jsonl": {
+      "bytes": 3725,
+      "sha256": "e7dc86958e0ecfa703bff076563d358f4daa14b800465de0d04882a5aa458ce4"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s07/attempt-01/last_message.txt": {
+      "bytes": 3087,
+      "sha256": "7acdaa9f557c2c9db248906a0a13393339ed3c9a18e3f63bd1adaf501d2658d8"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s07/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "2e610d67bf0d2db60934625f67b167e876ae9b59024420eec15da5b467a44042"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s07/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s07/attempt-01/stderr.txt": {
+      "bytes": 10733,
+      "sha256": "d062fb40eac22dc9d1f1ccefac740c1ef9d017877a477607f09d95a624927018"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s07/attempt-01/transport_result.json": {
+      "bytes": 19005,
+      "sha256": "8333418d8a31eac5123a084271a2f6efba578c3e2f5584ee58fed03a68a52634"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s07/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s08/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "982827dac7f9e85eb3d20c5b033871596cf649eecd0c5c90813b380c737b2a0e"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s08/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s08/attempt-01/events.jsonl": {
+      "bytes": 3920,
+      "sha256": "eed1f28a7fc01ab65d63ff770728c43117fd694b9da357034621d055d6bcc903"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s08/attempt-01/last_message.txt": {
+      "bytes": 3282,
+      "sha256": "b56cc4e34a86901a844438d1e28407f3ecb71d7c0717551430b3a8e70e490f70"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s08/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "04721c062e773172ed7d4ee82636a81554b6add90a7659de76ed9ebaacec9bcb"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s08/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s08/attempt-01/stderr.txt": {
+      "bytes": 10733,
+      "sha256": "22c68dec4b740b0cbe903b6f16b168d13e0b104ad4672da1c333a8b6fef9a4f5"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s08/attempt-01/transport_result.json": {
+      "bytes": 19395,
+      "sha256": "34a949d4998d34928c8feae9f93fd3872544b4e3e74cd93a7afef7f36ae131ab"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s08/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s09/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "e0b886acb841e2ab6a4a6938b8b33f534053cd81d3d5e4bb5f0fc76414ae888f"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s09/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s09/attempt-01/events.jsonl": {
+      "bytes": 4018,
+      "sha256": "6073b5d509e213cfea7d80add61d3f18848b247ba8ad8dbea43a0fe10c4c6261"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s09/attempt-01/last_message.txt": {
+      "bytes": 3377,
+      "sha256": "748594818cc160b6a2383d2af9d58479d9b3ab6bd2dd3a965eaf281379aa76db"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s09/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "5080e4edcff6fa010ae4c5aa073f76753bc8a72418e0c46ada3a112364b8a36b"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s09/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s09/attempt-01/stderr.txt": {
+      "bytes": 12054,
+      "sha256": "5de0be328ef7b5dfb8c225213ac8a1ac86c94f6cdaeef84802ba3f898023c310"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s09/attempt-01/transport_result.json": {
+      "bytes": 20912,
+      "sha256": "e52c30f117787d8a616fa44e88a2ed73c281871bb71f37f2886ae6a8736535a4"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s09/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s10/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "aa4773ca4bedcef4fb019669734900c7a774382085c11a2e5381e818a42888e3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s10/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s10/attempt-01/events.jsonl": {
+      "bytes": 3839,
+      "sha256": "8869867f651a316782620fdbb85a3de66cbda2c05b771f7ff5522b9b41367168"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s10/attempt-01/last_message.txt": {
+      "bytes": 3198,
+      "sha256": "6c8b551335413e793721f1b9af46516de074565631bbbcf5c40f7d845d5569a4"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s10/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "faaf28898643a074be29787beefa646e3a0f10310281934b6dfe3e625f482708"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s10/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s10/attempt-01/stderr.txt": {
+      "bytes": 11789,
+      "sha256": "409427709f839a379cc5afed7a5b22fe7132ac207875f8ad23533a915b0ff534"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s10/attempt-01/transport_result.json": {
+      "bytes": 20289,
+      "sha256": "37d425d77508d02cdca24b70202d55c37276060630b5c0bc541fa407a202470e"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s10/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s11/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "f0f9d9a536112c49840ed9fef405d898d081501b301270d24be02d89f4f70242"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s11/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s11/attempt-01/events.jsonl": {
+      "bytes": 3823,
+      "sha256": "bfd69b99378c911e8583703480365878ca14643de6fbd964e9afb94acd88b7fc"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s11/attempt-01/last_message.txt": {
+      "bytes": 3185,
+      "sha256": "e9712dcc22bee5bd95cb2534699e92d9a94f2fa6d9a4d115c0d2d87b862c778a"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s11/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "9bcccd653ea9d41401bd49cff8552d40b1f142f7fc03df97c8e59c27cc6dfff6"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s11/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s11/attempt-01/stderr.txt": {
+      "bytes": 13518,
+      "sha256": "848e7f43d01209aaef0737e4225e28e0e21f91e54eb473792400ef8e0dfb9a83"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s11/attempt-01/transport_result.json": {
+      "bytes": 21987,
+      "sha256": "fa149bbc995b41f8a942ea60d2d0ab183f10b9c03576eed36f4d6b9d1d6a5138"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s11/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s12/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "2bcf31b8ccdcdbd270a9f330836c4100d3297f7a83f4e22f35dc3628fd599fe2"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s12/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s12/attempt-01/events.jsonl": {
+      "bytes": 3864,
+      "sha256": "ea6d2f91cc02fdfaa92f8951981ff35668524d6922a2379c054d45d904aba959"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s12/attempt-01/last_message.txt": {
+      "bytes": 3223,
+      "sha256": "24a6e7a1cdb0a2ba41845b8d8d872373b3ade6fc3d42b0ab88acc42497b6bb83"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s12/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "81982a291b6d032234435e3475c228840c1841bbbf5f74bdda442a604ce174e0"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s12/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s12/attempt-01/stderr.txt": {
+      "bytes": 11261,
+      "sha256": "de7412110d91e246d1d3531faa5e24c6d20946c3a10ee3dbb26bd455774c97aa"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s12/attempt-01/transport_result.json": {
+      "bytes": 19811,
+      "sha256": "2ee3a2db8a2c46cfb1032d3e413010b1d147cb42e5bba27c205a4da777c02612"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s12/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s13/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "f4eaa83479fb7cd1d9218835c0fdbdc4999da9337bc4a88a130f2e11badd43dd"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s13/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s13/attempt-01/events.jsonl": {
+      "bytes": 3938,
+      "sha256": "99d969e54e0db3dcc20e2ccbbb138dfa9622c8dfac688e6575c270968e1c92ac"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s13/attempt-01/last_message.txt": {
+      "bytes": 3297,
+      "sha256": "d032338428d0393f28e71a586c3cab74392f48f5f06ee13fc09b00e28dd16b62"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s13/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "fd4599a01444712aed8f3dd2ca0128a5d4bb5912e3cbfe58ed761c3819b4ba92"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s13/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s13/attempt-01/stderr.txt": {
+      "bytes": 12891,
+      "sha256": "3992927689f6defe427eb1ffee26b7ec19dba1895459612546fe7b293f89f2ae"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s13/attempt-01/transport_result.json": {
+      "bytes": 21591,
+      "sha256": "45f83330d3c4e9e4e327053ea2463689b17b0865e1e8923c96f530f59a9ca555"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s13/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s14/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "1abfc4dfc1f4ae926b95349c6c5e3c36d19db69a2e4e75d782f3cb266c8099d2"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s14/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s14/attempt-01/events.jsonl": {
+      "bytes": 3525,
+      "sha256": "5882b652d1c84a44e90eaa324a9f29903c4c1ae0aab1fd967202c52a4ccfab0e"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s14/attempt-01/last_message.txt": {
+      "bytes": 2887,
+      "sha256": "aa0bdb8d4458ecb22d074bbbf4566be7fef21b65e0286d6048aa6da67b9c37c0"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s14/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "f5d52305307ae5d3e12888eca2c39c2640f1082aae3eaaa036634cbcf54f6fad"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s14/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s14/attempt-01/stderr.txt": {
+      "bytes": 11789,
+      "sha256": "f7d7d1c3d0b73b94730dc0051e7fd3a110805d057c3bf1ab6fc03b5e208aa091"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s14/attempt-01/transport_result.json": {
+      "bytes": 19661,
+      "sha256": "385bb7046b3aa98d5cdf0695e87b1fecccd15754082f6ba07e5939f42e52bffc"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s14/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s15/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "5ae46494d950177fb6d73b135faa9170e28398f7788e6dbf27603f425521de19"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s15/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s15/attempt-01/events.jsonl": {
+      "bytes": 3595,
+      "sha256": "32fff2d68be4f750e5b197f06fbbc132d7237d46de4e0b3772dab32a8f5c5c1f"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s15/attempt-01/last_message.txt": {
+      "bytes": 2954,
+      "sha256": "438c2020076f97a5462c5286d126a386664d1ffb7a2d8069c453c667c89a83c5"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s15/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "f85baa8fc76a298bef76f696df9c5bf0ef3c98e6be2033c6a8ca398929a3f984"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s15/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s15/attempt-01/stderr.txt": {
+      "bytes": 10595,
+      "sha256": "d7770dd6e5fc370f2f87aa6e8bfe5a3ea0ce99a9dcdf10cf2a9f1da5994b50ef"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s15/attempt-01/transport_result.json": {
+      "bytes": 18608,
+      "sha256": "4b61f7e65fa3a8be2599e0abd96c5af613e8553df577a7ad58d7b53ecba1b00b"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s15/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s16/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "8ee3331a3826eecf37a2a19eb012f9e4e2b5c36a40fb4d7717e255e398cbe86f"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s16/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s16/attempt-01/events.jsonl": {
+      "bytes": 3742,
+      "sha256": "f3e4479237ccf47b7443495d3632503618bfaf3e046fa6bb315a0ce6e3a5029b"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s16/attempt-01/last_message.txt": {
+      "bytes": 3101,
+      "sha256": "02330ab2f2f643818fbe1cb5a35b8769ecf4ec320bca77e14df608fadfaa9bac"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s16/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "ff103ad781532c72bcd5933a97cd179f661307612210b68256c519281d5bade0"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s16/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s16/attempt-01/stderr.txt": {
+      "bytes": 12319,
+      "sha256": "2023eb309d4cd3de26869d6e81e1e66b5a0f6015bcd048f98a9330b7c79b4eff"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s16/attempt-01/transport_result.json": {
+      "bytes": 20625,
+      "sha256": "3cfbd1dbaf901ac9a655ba0e3c602b0b43a28134e167fc19e65e2e7921e527d7"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s16/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s17/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "006d41664b39e92189afcdedd21e5bf942058756c9b3261b74af8f297fca3ef9"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s17/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s17/attempt-01/events.jsonl": {
+      "bytes": 3541,
+      "sha256": "c0e804dc3c585c5b56d7601f9e1f586c55d709f768e0d271f64e55cd32504e73"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s17/attempt-01/last_message.txt": {
+      "bytes": 2903,
+      "sha256": "b6d517120fa915f90438bc50b8e495c1a9ec710367ea46081ced96410ceb246b"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s17/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "e974d945b7a6a1e5360707fa259839742a8f518fd3127d6fbb4c5f30ae2175ae"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s17/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s17/attempt-01/stderr.txt": {
+      "bytes": 11789,
+      "sha256": "d8f7d3a42cec4f23798a23857e9705dc329d077f0fcb5b0e0ec1dd602b17dd97"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s17/attempt-01/transport_result.json": {
+      "bytes": 19693,
+      "sha256": "79cba557bc4190631e2f6d200df5e4d94dbe5da8e1cdf3b9cc1665e6b1c03f31"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s17/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s18/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "ccca25b0faacca476539fa645345798f6da86b5691180947f31c2551a7e32303"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s18/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s18/attempt-01/events.jsonl": {
+      "bytes": 3903,
+      "sha256": "b5c87fd500285578ad4b68652a24134bde37c9a587d797347a3fcb1e097d0604"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s18/attempt-01/last_message.txt": {
+      "bytes": 3265,
+      "sha256": "6d0e3e974f3c7197839d8eb5544609cccb32d209f6b0fa34166bbb2899578909"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s18/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "5f78ed5e282bc9025e884bdc1718d1070eee81ca28cc9890e04fbfa803f9cca8"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s18/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s18/attempt-01/stderr.txt": {
+      "bytes": 10733,
+      "sha256": "68dc1b2fac45cdcc7c1780e7296c7362ebd9ba734a6cc89dca1e4fec2afed304"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s18/attempt-01/transport_result.json": {
+      "bytes": 19361,
+      "sha256": "aead53beacc7c6046b5ae4890753d181e662945305cef535277a0f6bbf876efd"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s18/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s19/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "6e6c5be10a4963fcd3f4248c1b876803bf8c95045a863ab335c563ccacea52d4"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s19/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s19/attempt-01/events.jsonl": {
+      "bytes": 3634,
+      "sha256": "ac7aaa6042fd0b338d87c82f7db05863bb46ef159ec61a22f7aab6a1afa041fa"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s19/attempt-01/last_message.txt": {
+      "bytes": 2993,
+      "sha256": "17205d43e70b68c254a306fcada60172b77ce413ae6a6f3b686a4930da5f8786"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s19/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "4c9e0489eb3d0f02784844ac09539e01c41e6894043118b13c83b5761c2dd45d"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s19/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s19/attempt-01/stderr.txt": {
+      "bytes": 11789,
+      "sha256": "3657e08c792ed7786be24a4e5bae10aa78a40bc234d9dec2b23e79c54e42c29c"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s19/attempt-01/transport_result.json": {
+      "bytes": 19879,
+      "sha256": "c353ee3bd77219fbbfc322a7a8ea9f556be18bad905b458bd9a299dbfaca3494"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s19/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s20/attempt-01/claim.json": {
+      "bytes": 209,
+      "sha256": "0371652cdfefbfb27e16b748e20ce19c11eba3b7d9422be42ce1b152309f3d1b"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s20/attempt-01/command.json": {
+      "bytes": 1333,
+      "sha256": "c0e0609a2a309b12dbfcc93f3637c9c88b76fc119cd85dda82f4afb41fb24669"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s20/attempt-01/events.jsonl": {
+      "bytes": 3590,
+      "sha256": "32b5c12b97cb23a2eb83ad5afed1af486567578ef05076ade087abc37fb50634"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s20/attempt-01/last_message.txt": {
+      "bytes": 2952,
+      "sha256": "01d4484c290c59b63e5b50f62c3fd7d9ee369e92b11d3a7975d6ab23ba225249"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s20/attempt-01/process.json": {
+      "bytes": 90,
+      "sha256": "297333a4298996375eea9b564a2b50a6d0bbf20f459ea5481b48d93aaaac8241"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s20/attempt-01/prompt.txt": {
+      "bytes": 4336,
+      "sha256": "27fa2155907771083053675862eac50ebfa4f48d532fca38ea8737a4c2f67fe3"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s20/attempt-01/stderr.txt": {
+      "bytes": 12054,
+      "sha256": "ba3f95e67899c7bcdf95f9b271d5460e8676eb805e2e3196a4a3e90f54054eb9"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s20/attempt-01/transport_result.json": {
+      "bytes": 20056,
+      "sha256": "2de3466fa7955aded3257e242c5933a01dae364b31a3ec31099357449269357e"
+    },
+    "calls/calibration-calibration-b01-medium-independent-s20/attempt-01/validation.json": {
+      "bytes": 53,
+      "sha256": "66980106efb8f4a811b50a1ab19e55b67096e5a76d03dd32eae23851eed178ea"
+    }
+  },
+  "generated_at": "2026-07-13T08:55:07.145Z",
+  "schema_version": "attempt-artifacts-v1"
+}

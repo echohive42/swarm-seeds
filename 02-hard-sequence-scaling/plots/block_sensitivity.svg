@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="640" viewBox="0 0 1040 640" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Block sensitivity</title>
+<desc id="chart-desc">Exact accuracy by collection block and condition.</desc>
+<style>text{font-family:Inter,Arial,sans-serif;fill:#17212B}.title{font-size:24px;font-weight:700}.subtitle{font-size:13px;fill:#4B5563}.axis{font-size:12px;fill:#374151}.label{font-size:12px}.value{font-size:11px;font-weight:600}.note{font-size:11px;fill:#59636E}.legend{font-size:12px;font-weight:600}</style>
+<rect width="1040" height="640" fill="#FFFFFF"/>
+<text x="48.00" y="42.00" class="title" text-anchor="start" >Block sensitivity</text>
+<text x="48.00" y="66.00" class="subtitle" text-anchor="start" >Variation across the frozen final collection blocks</text>
+<text x="48.00" y="622.00" class="note" text-anchor="start" >Source: Experiment 02 final analysis output</text>
+<line x1="90.00" y1="505.00" x2="960.00" y2="505.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="80.00" y="509.00" class="axis" text-anchor="end" >0.0%</text>
+<line x1="90.00" y1="427.00" x2="960.00" y2="427.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="80.00" y="431.00" class="axis" text-anchor="end" >20.0%</text>
+<line x1="90.00" y1="349.00" x2="960.00" y2="349.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="80.00" y="353.00" class="axis" text-anchor="end" >40.0%</text>
+<line x1="90.00" y1="271.00" x2="960.00" y2="271.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="80.00" y="275.00" class="axis" text-anchor="end" >60.0%</text>
+<line x1="90.00" y1="193.00" x2="960.00" y2="193.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="80.00" y="197.00" class="axis" text-anchor="end" >80.0%</text>
+<line x1="90.00" y1="115.00" x2="960.00" y2="115.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="80.00" y="119.00" class="axis" text-anchor="end" >100.0%</text>
+<line x1="90.00" y1="115.00" x2="90.00" y2="505.00" stroke="#17212B" stroke-width="1.2"/>
+<line x1="90.00" y1="505.00" x2="960.00" y2="505.00" stroke="#17212B" stroke-width="1.2"/>
+<text x="28.00" y="310.00" class="axis" text-anchor="middle" transform="rotate(-90 28.00 310.00)">Exact accuracy</text>
+<circle cx="90.00" cy="389.62" r="5.00" fill="#0072B2" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="380.00" cy="423.75" r="5.00" fill="#0072B2" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="670.00" cy="324.62" r="5.00" fill="#0072B2" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="960.00" cy="446.50" r="5.00" fill="#0072B2" stroke="#FFFFFF" stroke-width="1.5"/>
+<polyline points="90.00,389.62 380.00,423.75 670.00,324.62 960.00,446.50" fill="none" stroke="#0072B2" stroke-width="2"/>
+<line x1="75.00" y1="536.00" x2="93.00" y2="536.00" stroke="#0072B2" stroke-width="3"/>
+<text x="100.00" y="540.00" class="axis" text-anchor="start" >Direct: Luna Light reasoning</text>
+<circle cx="90.00" cy="329.50" r="5.00" fill="#D55E00" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="380.00" cy="347.38" r="5.00" fill="#D55E00" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="670.00" cy="215.75" r="5.00" fill="#D55E00" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="960.00" cy="373.38" r="5.00" fill="#D55E00" stroke="#FFFFFF" stroke-width="1.5"/>
+<polyline points="90.00,329.50 380.00,347.38 670.00,215.75 960.00,373.38" fill="none" stroke="#D55E00" stroke-width="2"/>
+<line x1="395.00" y1="536.00" x2="413.00" y2="536.00" stroke="#D55E00" stroke-width="3"/>
+<text x="420.00" y="540.00" class="axis" text-anchor="start" >Direct: Luna Medium reasoning</text>
+<circle cx="90.00" cy="277.50" r="5.00" fill="#009E73" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="380.00" cy="277.50" r="5.00" fill="#009E73" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="670.00" cy="180.00" r="5.00" fill="#009E73" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="960.00" cy="375.00" r="5.00" fill="#009E73" stroke="#FFFFFF" stroke-width="1.5"/>
+<polyline points="90.00,277.50 380.00,277.50 670.00,180.00 960.00,375.00" fill="none" stroke="#009E73" stroke-width="2"/>
+<line x1="715.00" y1="536.00" x2="733.00" y2="536.00" stroke="#009E73" stroke-width="3"/>
+<text x="740.00" y="540.00" class="axis" text-anchor="start" >Vote10: Luna Light reasoning</text>
+<circle cx="90.00" cy="277.50" r="5.00" fill="#E69F00" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="380.00" cy="245.00" r="5.00" fill="#E69F00" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="670.00" cy="147.50" r="5.00" fill="#E69F00" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="960.00" cy="245.00" r="5.00" fill="#E69F00" stroke="#FFFFFF" stroke-width="1.5"/>
+<polyline points="90.00,277.50 380.00,245.00 670.00,147.50 960.00,245.00" fill="none" stroke="#E69F00" stroke-width="2"/>
+<line x1="75.00" y1="558.00" x2="93.00" y2="558.00" stroke="#E69F00" stroke-width="3"/>
+<text x="100.00" y="562.00" class="axis" text-anchor="start" >Vote10: Luna Medium reasoning</text>
+<circle cx="90.00" cy="245.00" r="5.00" fill="#CC79A7" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="380.00" cy="407.50" r="5.00" fill="#CC79A7" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="670.00" cy="212.50" r="5.00" fill="#CC79A7" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="960.00" cy="440.00" r="5.00" fill="#CC79A7" stroke="#FFFFFF" stroke-width="1.5"/>
+<polyline points="90.00,245.00 380.00,407.50 670.00,212.50 960.00,440.00" fill="none" stroke="#CC79A7" stroke-width="2"/>
+<line x1="395.00" y1="558.00" x2="413.00" y2="558.00" stroke="#CC79A7" stroke-width="3"/>
+<text x="420.00" y="562.00" class="axis" text-anchor="start" >Swarm10: Luna Light reasoning</text>
+<circle cx="90.00" cy="147.50" r="5.00" fill="#56B4E9" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="380.00" cy="180.00" r="5.00" fill="#56B4E9" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="670.00" cy="115.00" r="5.00" fill="#56B4E9" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="960.00" cy="212.50" r="5.00" fill="#56B4E9" stroke="#FFFFFF" stroke-width="1.5"/>
+<polyline points="90.00,147.50 380.00,180.00 670.00,115.00 960.00,212.50" fill="none" stroke="#56B4E9" stroke-width="2"/>
+<line x1="715.00" y1="558.00" x2="733.00" y2="558.00" stroke="#56B4E9" stroke-width="3"/>
+<text x="740.00" y="562.00" class="axis" text-anchor="start" >Swarm10: Luna Medium reasoning</text>
+<circle cx="90.00" cy="277.50" r="5.00" fill="#6B7280" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="380.00" cy="342.50" r="5.00" fill="#6B7280" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="670.00" cy="212.50" r="5.00" fill="#6B7280" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="960.00" cy="407.50" r="5.00" fill="#6B7280" stroke="#FFFFFF" stroke-width="1.5"/>
+<polyline points="90.00,277.50 380.00,342.50 670.00,212.50 960.00,407.50" fill="none" stroke="#6B7280" stroke-width="2"/>
+<line x1="75.00" y1="580.00" x2="93.00" y2="580.00" stroke="#6B7280" stroke-width="3"/>
+<text x="100.00" y="584.00" class="axis" text-anchor="start" >Vote20: Luna Light reasoning</text>
+<circle cx="90.00" cy="212.50" r="5.00" fill="#0072B2" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="380.00" cy="147.50" r="5.00" fill="#0072B2" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="670.00" cy="147.50" r="5.00" fill="#0072B2" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="960.00" cy="180.00" r="5.00" fill="#0072B2" stroke="#FFFFFF" stroke-width="1.5"/>
+<polyline points="90.00,212.50 380.00,147.50 670.00,147.50 960.00,180.00" fill="none" stroke="#0072B2" stroke-width="2"/>
+<line x1="395.00" y1="580.00" x2="413.00" y2="580.00" stroke="#0072B2" stroke-width="3"/>
+<text x="420.00" y="584.00" class="axis" text-anchor="start" >Vote20: Luna Medium reasoning</text>
+<circle cx="90.00" cy="375.00" r="5.00" fill="#D55E00" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="380.00" cy="342.50" r="5.00" fill="#D55E00" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="670.00" cy="212.50" r="5.00" fill="#D55E00" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="960.00" cy="407.50" r="5.00" fill="#D55E00" stroke="#FFFFFF" stroke-width="1.5"/>
+<polyline points="90.00,375.00 380.00,342.50 670.00,212.50 960.00,407.50" fill="none" stroke="#D55E00" stroke-width="2"/>
+<line x1="715.00" y1="580.00" x2="733.00" y2="580.00" stroke="#D55E00" stroke-width="3"/>
+<text x="740.00" y="584.00" class="axis" text-anchor="start" >Tournament20: Luna Light reasoning</text>
+<circle cx="90.00" cy="180.00" r="5.00" fill="#009E73" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="380.00" cy="115.00" r="5.00" fill="#009E73" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="670.00" cy="147.50" r="5.00" fill="#009E73" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="960.00" cy="147.50" r="5.00" fill="#009E73" stroke="#FFFFFF" stroke-width="1.5"/>
+<polyline points="90.00,180.00 380.00,115.00 670.00,147.50 960.00,147.50" fill="none" stroke="#009E73" stroke-width="2"/>
+<line x1="75.00" y1="602.00" x2="93.00" y2="602.00" stroke="#009E73" stroke-width="3"/>
+<text x="100.00" y="606.00" class="axis" text-anchor="start" >Tournament20: Luna Medium reasoning</text>
+<text x="90.00" y="529.00" class="axis" text-anchor="middle" >B01</text>
+<text x="380.00" y="529.00" class="axis" text-anchor="middle" >B02</text>
+<text x="670.00" y="529.00" class="axis" text-anchor="middle" >B03</text>
+<text x="960.00" y="529.00" class="axis" text-anchor="middle" >B04</text>
+<text x="525.00" y="553.00" class="axis" text-anchor="middle" >Collection block</text>
+</svg>

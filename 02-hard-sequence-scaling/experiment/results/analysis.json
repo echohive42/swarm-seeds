@@ -1,0 +1,5496 @@
+{
+  "blocks": [
+    {
+      "block": "B01",
+      "methods": {
+        "Direct expected": {
+          "exact_accuracy": 0.29583333333333334,
+          "format_rate": 1.0,
+          "term_accuracy": 0.35833333333333334
+        },
+        "Swarm10": {
+          "exact_accuracy": 0.6666666666666666,
+          "format_rate": 1.0,
+          "term_accuracy": 0.6666666666666666
+        },
+        "Tournament20": {
+          "exact_accuracy": 0.3333333333333333,
+          "format_rate": 1.0,
+          "term_accuracy": 0.45
+        },
+        "Vote10": {
+          "exact_accuracy": 0.5833333333333334,
+          "format_rate": 1.0,
+          "term_accuracy": 0.5833333333333334
+        },
+        "Vote20": {
+          "exact_accuracy": 0.5833333333333334,
+          "format_rate": 1.0,
+          "term_accuracy": 0.5833333333333334
+        }
+      },
+      "n_cases": 12,
+      "reasoning": "Light reasoning"
+    },
+    {
+      "block": "B02",
+      "methods": {
+        "Direct expected": {
+          "exact_accuracy": 0.20833333333333334,
+          "format_rate": 1.0,
+          "term_accuracy": 0.2783333333333333
+        },
+        "Swarm10": {
+          "exact_accuracy": 0.25,
+          "format_rate": 1.0,
+          "term_accuracy": 0.31666666666666665
+        },
+        "Tournament20": {
+          "exact_accuracy": 0.4166666666666667,
+          "format_rate": 1.0,
+          "term_accuracy": 0.4166666666666667
+        },
+        "Vote10": {
+          "exact_accuracy": 0.5833333333333334,
+          "format_rate": 1.0,
+          "term_accuracy": 0.6333333333333333
+        },
+        "Vote20": {
+          "exact_accuracy": 0.4166666666666667,
+          "format_rate": 1.0,
+          "term_accuracy": 0.48333333333333334
+        }
+      },
+      "n_cases": 12,
+      "reasoning": "Light reasoning"
+    },
+    {
+      "block": "B03",
+      "methods": {
+        "Direct expected": {
+          "exact_accuracy": 0.46249999999999997,
+          "format_rate": 1.0,
+          "term_accuracy": 0.5750000000000001
+        },
+        "Swarm10": {
+          "exact_accuracy": 0.75,
+          "format_rate": 1.0,
+          "term_accuracy": 0.8166666666666668
+        },
+        "Tournament20": {
+          "exact_accuracy": 0.75,
+          "format_rate": 1.0,
+          "term_accuracy": 0.7999999999999999
+        },
+        "Vote10": {
+          "exact_accuracy": 0.8333333333333334,
+          "format_rate": 1.0,
+          "term_accuracy": 0.9
+        },
+        "Vote20": {
+          "exact_accuracy": 0.75,
+          "format_rate": 1.0,
+          "term_accuracy": 0.7999999999999999
+        }
+      },
+      "n_cases": 12,
+      "reasoning": "Light reasoning"
+    },
+    {
+      "block": "B04",
+      "methods": {
+        "Direct expected": {
+          "exact_accuracy": 0.15,
+          "format_rate": 1.0,
+          "term_accuracy": 0.24750000000000003
+        },
+        "Swarm10": {
+          "exact_accuracy": 0.16666666666666666,
+          "format_rate": 1.0,
+          "term_accuracy": 0.19999999999999998
+        },
+        "Tournament20": {
+          "exact_accuracy": 0.25,
+          "format_rate": 1.0,
+          "term_accuracy": 0.31666666666666665
+        },
+        "Vote10": {
+          "exact_accuracy": 0.3333333333333333,
+          "format_rate": 1.0,
+          "term_accuracy": 0.45
+        },
+        "Vote20": {
+          "exact_accuracy": 0.25,
+          "format_rate": 1.0,
+          "term_accuracy": 0.4166666666666667
+        }
+      },
+      "n_cases": 12,
+      "reasoning": "Light reasoning"
+    },
+    {
+      "block": "B01",
+      "methods": {
+        "Direct expected": {
+          "exact_accuracy": 0.45,
+          "format_rate": 1.0,
+          "term_accuracy": 0.5425
+        },
+        "Swarm10": {
+          "exact_accuracy": 0.9166666666666666,
+          "format_rate": 1.0,
+          "term_accuracy": 0.9166666666666666
+        },
+        "Tournament20": {
+          "exact_accuracy": 0.8333333333333334,
+          "format_rate": 1.0,
+          "term_accuracy": 0.8333333333333334
+        },
+        "Vote10": {
+          "exact_accuracy": 0.5833333333333334,
+          "format_rate": 1.0,
+          "term_accuracy": 0.7666666666666666
+        },
+        "Vote20": {
+          "exact_accuracy": 0.75,
+          "format_rate": 1.0,
+          "term_accuracy": 0.75
+        }
+      },
+      "n_cases": 12,
+      "reasoning": "Medium reasoning"
+    },
+    {
+      "block": "B02",
+      "methods": {
+        "Direct expected": {
+          "exact_accuracy": 0.4041666666666666,
+          "format_rate": 1.0,
+          "term_accuracy": 0.505
+        },
+        "Swarm10": {
+          "exact_accuracy": 0.8333333333333334,
+          "format_rate": 1.0,
+          "term_accuracy": 0.8666666666666667
+        },
+        "Tournament20": {
+          "exact_accuracy": 1.0,
+          "format_rate": 1.0,
+          "term_accuracy": 1.0
+        },
+        "Vote10": {
+          "exact_accuracy": 0.6666666666666666,
+          "format_rate": 1.0,
+          "term_accuracy": 0.6833333333333332
+        },
+        "Vote20": {
+          "exact_accuracy": 0.9166666666666666,
+          "format_rate": 1.0,
+          "term_accuracy": 0.9166666666666666
+        }
+      },
+      "n_cases": 12,
+      "reasoning": "Medium reasoning"
+    },
+    {
+      "block": "B03",
+      "methods": {
+        "Direct expected": {
+          "exact_accuracy": 0.7416666666666667,
+          "format_rate": 1.0,
+          "term_accuracy": 0.8175
+        },
+        "Swarm10": {
+          "exact_accuracy": 1.0,
+          "format_rate": 1.0,
+          "term_accuracy": 1.0
+        },
+        "Tournament20": {
+          "exact_accuracy": 0.9166666666666666,
+          "format_rate": 1.0,
+          "term_accuracy": 0.9500000000000001
+        },
+        "Vote10": {
+          "exact_accuracy": 0.9166666666666666,
+          "format_rate": 1.0,
+          "term_accuracy": 0.9500000000000001
+        },
+        "Vote20": {
+          "exact_accuracy": 0.9166666666666666,
+          "format_rate": 1.0,
+          "term_accuracy": 0.9500000000000001
+        }
+      },
+      "n_cases": 12,
+      "reasoning": "Medium reasoning"
+    },
+    {
+      "block": "B04",
+      "methods": {
+        "Direct expected": {
+          "exact_accuracy": 0.33749999999999997,
+          "format_rate": 1.0,
+          "term_accuracy": 0.45249999999999996
+        },
+        "Swarm10": {
+          "exact_accuracy": 0.75,
+          "format_rate": 1.0,
+          "term_accuracy": 0.7666666666666666
+        },
+        "Tournament20": {
+          "exact_accuracy": 0.9166666666666666,
+          "format_rate": 1.0,
+          "term_accuracy": 0.9500000000000001
+        },
+        "Vote10": {
+          "exact_accuracy": 0.6666666666666666,
+          "format_rate": 1.0,
+          "term_accuracy": 0.7000000000000001
+        },
+        "Vote20": {
+          "exact_accuracy": 0.8333333333333334,
+          "format_rate": 1.0,
+          "term_accuracy": 0.9166666666666666
+        }
+      },
+      "n_cases": 12,
+      "reasoning": "Medium reasoning"
+    }
+  ],
+  "bootstrap": {
+    "ci_method": "percentile",
+    "derived_seeds": {
+      "confirmatory_secondary": {
+        "S01": 20268713,
+        "S02": 20268714,
+        "S03": 20268715,
+        "S04": 20268716,
+        "S05": 20268717,
+        "S06": 20268718,
+        "S07": 20268719,
+        "S08": 20268720,
+        "S09": 20268721,
+        "S10": 20268722,
+        "S11": 20268723
+      },
+      "method_summaries_by_reasoning": {
+        "Light reasoning": 20260713,
+        "Medium reasoning": 21260716
+      },
+      "primary": 20267714,
+      "sign_flip": {
+        "S01": 20269713,
+        "S11": 20269723
+      },
+      "unstratified_and_whole_block_sensitivity": 20270714
+    },
+    "method": "case bootstrap stratified by the four frozen blocks",
+    "quantile_probabilities": {
+      "ci90": [
+        0.05,
+        0.95
+      ],
+      "ci95": [
+        0.025,
+        0.975
+      ]
+    },
+    "replicates": 50000,
+    "seed": 20260713
+  },
+  "comparisons": [
+    {
+      "ci90": [
+        0.22187500000000004,
+        0.3864583333333334
+      ],
+      "ci95": [
+        0.20729166666666665,
+        0.40208333333333335
+      ],
+      "difference": 0.30416666666666664,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Direct expected",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote10"
+    },
+    {
+      "ci90": [
+        0.20937500000000003,
+        0.34604166666666664
+      ],
+      "ci95": [
+        0.1966666666666667,
+        0.359375
+      ],
+      "difference": 0.276875,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Direct expected",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote10"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Direct expected",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote10"
+    },
+    {
+      "ci90": [
+        496552.6625,
+        496552.6625
+      ],
+      "ci95": [
+        496552.6625,
+        496552.6625
+      ],
+      "difference": 496552.66250000003,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.269320677001598,
+      "log_cost_ratio_ci95": [
+        2.269320677001598,
+        2.269320677001598
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote10"
+    },
+    {
+      "ci90": [
+        109524.15,
+        109524.15
+      ],
+      "ci95": [
+        109524.15,
+        109524.15
+      ],
+      "difference": 109524.15000000001,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.30254811568373,
+      "log_cost_ratio_ci95": [
+        2.30254811568373,
+        2.30254811568373
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote10"
+    },
+    {
+      "ci90": [
+        511.05016249999994,
+        511.05016249999994
+      ],
+      "ci95": [
+        511.05016249999994,
+        511.05016249999994
+      ],
+      "difference": 511.0501625,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.2951618160587035,
+      "log_cost_ratio_ci95": [
+        2.2951618160587035,
+        2.2951618160587035
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote10"
+    },
+    {
+      "ci90": [
+        26015.625,
+        26015.625
+      ],
+      "ci95": [
+        26015.625,
+        26015.625
+      ],
+      "difference": 26015.625,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.2976185808064638,
+      "log_cost_ratio_ci95": [
+        2.2976185808064638,
+        2.2976185808064638
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote10"
+    },
+    {
+      "ci90": [
+        135539.775,
+        135539.775
+      ],
+      "ci95": [
+        135539.775,
+        135539.775
+      ],
+      "difference": 135539.775,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.3015996293316525,
+      "log_cost_ratio_ci95": [
+        2.3015996293316525,
+        2.3015996293316525
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote10"
+    },
+    {
+      "ci90": [
+        0.10208333333333336,
+        0.2572916666666667
+      ],
+      "ci95": [
+        0.08750000000000002,
+        0.27291666666666664
+      ],
+      "difference": 0.17916666666666667,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Direct expected",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        0.0675,
+        0.2039583333333334
+      ],
+      "ci95": [
+        0.05458333333333337,
+        0.21729166666666666
+      ],
+      "difference": 0.13520833333333335,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Direct expected",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Direct expected",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        463365.1625,
+        463365.1625
+      ],
+      "ci95": [
+        463365.1625,
+        463365.1625
+      ],
+      "difference": 463365.16250000003,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.207523817489268,
+      "log_cost_ratio_ci95": [
+        2.207523817489268,
+        2.207523817489268
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        147062.65,
+        147062.65
+      ],
+      "ci95": [
+        147062.65,
+        147062.65
+      ],
+      "difference": 147062.65,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.5714038167708484,
+      "log_cost_ratio_ci95": [
+        2.5714038167708484,
+        2.5714038167708484
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        463.3651625,
+        463.3651625
+      ],
+      "ci95": [
+        463.3651625,
+        463.3651625
+      ],
+      "difference": 463.3651625,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.207523817489268,
+      "log_cost_ratio_ci95": [
+        2.207523817489268,
+        2.207523817489268
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        22515.375,
+        22515.375
+      ],
+      "ci95": [
+        22515.375,
+        22515.375
+      ],
+      "difference": 22515.375,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.168622326584829,
+      "log_cost_ratio_ci95": [
+        2.168622326584829,
+        2.168622326584829
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        169578.025,
+        169578.025
+      ],
+      "ci95": [
+        169578.025,
+        169578.025
+      ],
+      "difference": 169578.025,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.5053509294925664,
+      "log_cost_ratio_ci95": [
+        2.5053509294925664,
+        2.5053509294925664
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        0.14583333333333331,
+        0.29895833333333327
+      ],
+      "ci95": [
+        0.13229166666666664,
+        0.31354166666666666
+      ],
+      "difference": 0.22083333333333333,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Direct expected",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        0.14229166666666676,
+        0.27229166666666665
+      ],
+      "ci95": [
+        0.130625,
+        0.285625
+      ],
+      "difference": 0.20604166666666668,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Direct expected",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Direct expected",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        975640.4125000001,
+        975640.4125
+      ],
+      "ci95": [
+        975640.4125,
+        975640.4125
+      ],
+      "difference": 975640.4125000001,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.8926254213908913,
+      "log_cost_ratio_ci95": [
+        2.8926254213908913,
+        2.8926254213908913
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        231227.15,
+        231227.15000000002
+      ],
+      "ci95": [
+        231227.15,
+        231227.15
+      ],
+      "difference": 231227.15,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.995732273553991,
+      "log_cost_ratio_ci95": [
+        2.995732273553991,
+        2.995732273553991
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        1087.8229125,
+        1087.8229125
+      ],
+      "ci95": [
+        1087.8229125,
+        1087.8229125
+      ],
+      "difference": 1087.8229125,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.995732273553991,
+      "log_cost_ratio_ci95": [
+        2.995732273553991,
+        2.995732273553991
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        55225.875,
+        55225.875
+      ],
+      "ci95": [
+        55225.875,
+        55225.875
+      ],
+      "difference": 55225.875,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.995732273553991,
+      "log_cost_ratio_ci95": [
+        2.995732273553991,
+        2.995732273553991
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        286453.025,
+        286453.025
+      ],
+      "ci95": [
+        286453.025,
+        286453.025
+      ],
+      "difference": 286453.02499999997,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.995732273553991,
+      "log_cost_ratio_ci95": [
+        2.995732273553991,
+        2.995732273553991
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        0.08645833333333333,
+        0.23437499999999997
+      ],
+      "ci95": [
+        0.07395833333333335,
+        0.24895833333333334
+      ],
+      "difference": 0.15833333333333333,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Direct expected",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        0.06645833333333334,
+        0.19812500000000005
+      ],
+      "ci95": [
+        0.05416666666666664,
+        0.21166666666666667
+      ],
+      "difference": 0.13104166666666667,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Direct expected",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Direct expected",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        901587.9124999999,
+        901587.9125
+      ],
+      "ci95": [
+        901587.9125,
+        901587.9125
+      ],
+      "difference": 901587.9125,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.81823137486998,
+      "log_cost_ratio_ci95": [
+        2.81823137486998,
+        2.81823137486998
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        376365.65,
+        376365.65
+      ],
+      "ci95": [
+        376365.65,
+        376365.65
+      ],
+      "difference": 376365.64999999997,
+      "left": "Direct expected",
+      "log_cost_ratio": 3.4634229611912737,
+      "log_cost_ratio_ci95": [
+        3.4634229611912737,
+        3.4634229611912737
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        950.4356624999999,
+        950.4356624999999
+      ],
+      "ci95": [
+        950.4356624999999,
+        950.4356624999999
+      ],
+      "difference": 950.4356625,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.867920694708696,
+      "log_cost_ratio_ci95": [
+        2.867920694708696,
+        2.867920694708696
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        45795.125,
+        45795.125
+      ],
+      "ci95": [
+        45795.125,
+        45795.125
+      ],
+      "difference": 45795.125,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.818722349446856,
+      "log_cost_ratio_ci95": [
+        2.818722349446856,
+        2.818722349446856
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        422160.775,
+        422160.775
+      ],
+      "ci95": [
+        422160.775,
+        422160.775
+      ],
+      "difference": 422160.77499999997,
+      "left": "Direct expected",
+      "log_cost_ratio": 3.3673403720142434,
+      "log_cost_ratio_ci95": [
+        3.3673403720142434,
+        3.3673403720142434
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        -0.20833333333333337,
+        -0.04166666666666663
+      ],
+      "ci95": [
+        -0.22916666666666669,
+        -0.02083333333333337
+      ],
+      "difference": -0.125,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Vote10",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        -0.22083333333333333,
+        -0.06666666666666665
+      ],
+      "ci95": [
+        -0.23749999999999993,
+        -0.050000000000000044
+      ],
+      "difference": -0.14166666666666666,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Vote10",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Vote10",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        -33187.5,
+        -33187.5
+      ],
+      "ci95": [
+        -33187.5,
+        -33187.5
+      ],
+      "difference": -33187.5,
+      "left": "Vote10",
+      "log_cost_ratio": -0.06179685951232989,
+      "log_cost_ratio_ci95": [
+        -0.06179685951232989,
+        -0.06179685951232989
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        37538.5,
+        37538.5
+      ],
+      "ci95": [
+        37538.5,
+        37538.5
+      ],
+      "difference": 37538.5,
+      "left": "Vote10",
+      "log_cost_ratio": 0.2688557010871186,
+      "log_cost_ratio_ci95": [
+        0.2688557010871186,
+        0.2688557010871186
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        -47.684999999999945,
+        -47.684999999999945
+      ],
+      "ci95": [
+        -47.684999999999945,
+        -47.684999999999945
+      ],
+      "difference": -47.685000000000024,
+      "left": "Vote10",
+      "log_cost_ratio": -0.08763799856943544,
+      "log_cost_ratio_ci95": [
+        -0.08763799856943544,
+        -0.08763799856943544
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        -3500.25,
+        -3500.25
+      ],
+      "ci95": [
+        -3500.25,
+        -3500.25
+      ],
+      "difference": -3500.25,
+      "left": "Vote10",
+      "log_cost_ratio": -0.12899625422163463,
+      "log_cost_ratio_ci95": [
+        -0.12899625422163463,
+        -0.12899625422163463
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        34038.25,
+        34038.25
+      ],
+      "ci95": [
+        34038.25,
+        34038.25
+      ],
+      "difference": 34038.25,
+      "left": "Vote10",
+      "log_cost_ratio": 0.20375130016091406,
+      "log_cost_ratio_ci95": [
+        0.20375130016091406,
+        0.20375130016091406
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        -0.14583333333333337,
+        -0.02083333333333337
+      ],
+      "ci95": [
+        -0.16666666666666669,
+        -0.02083333333333326
+      ],
+      "difference": -0.08333333333333333,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Vote10",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        -0.12916666666666665,
+        -0.02083333333333337
+      ],
+      "ci95": [
+        -0.1416666666666666,
+        -0.016666666666666607
+      ],
+      "difference": -0.07083333333333333,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Vote10",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Vote10",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        479087.75,
+        479087.75
+      ],
+      "ci95": [
+        479087.75,
+        479087.75
+      ],
+      "difference": 479087.75,
+      "left": "Vote10",
+      "log_cost_ratio": 0.6233047443892937,
+      "log_cost_ratio_ci95": [
+        0.6233047443892937,
+        0.6233047443892937
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        121703.0,
+        121703.0
+      ],
+      "ci95": [
+        121703.0,
+        121703.0
+      ],
+      "difference": 121703.0,
+      "left": "Vote10",
+      "log_cost_ratio": 0.693184157870261,
+      "log_cost_ratio_ci95": [
+        0.693184157870261,
+        0.693184157870261
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        576.77275,
+        576.77275
+      ],
+      "ci95": [
+        576.77275,
+        576.77275
+      ],
+      "difference": 576.77275,
+      "left": "Vote10",
+      "log_cost_ratio": 0.7005704574952875,
+      "log_cost_ratio_ci95": [
+        0.7005704574952875,
+        0.7005704574952875
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        29210.25,
+        29210.25
+      ],
+      "ci95": [
+        29210.25,
+        29210.25
+      ],
+      "difference": 29210.25,
+      "left": "Vote10",
+      "log_cost_ratio": 0.6981136927475273,
+      "log_cost_ratio_ci95": [
+        0.6981136927475273,
+        0.6981136927475273
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        150913.25,
+        150913.25
+      ],
+      "ci95": [
+        150913.25,
+        150913.25
+      ],
+      "difference": 150913.25,
+      "left": "Vote10",
+      "log_cost_ratio": 0.6941326442223383,
+      "log_cost_ratio_ci95": [
+        0.6941326442223383,
+        0.6941326442223383
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        -0.24999999999999994,
+        -0.062499999999999944
+      ],
+      "ci95": [
+        -0.2708333333333333,
+        -0.04166666666666663
+      ],
+      "difference": -0.14583333333333334,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Vote10",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        -0.22500000000000003,
+        -0.07083333333333336
+      ],
+      "ci95": [
+        -0.2416666666666667,
+        -0.05833333333333335
+      ],
+      "difference": -0.14583333333333334,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Vote10",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Vote10",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        405035.25,
+        405035.25
+      ],
+      "ci95": [
+        405035.25,
+        405035.25
+      ],
+      "difference": 405035.25,
+      "left": "Vote10",
+      "log_cost_ratio": 0.548910697868382,
+      "log_cost_ratio_ci95": [
+        0.548910697868382,
+        0.548910697868382
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        266841.5,
+        266841.5
+      ],
+      "ci95": [
+        266841.5,
+        266841.5
+      ],
+      "difference": 266841.5,
+      "left": "Vote10",
+      "log_cost_ratio": 1.1608748455075437,
+      "log_cost_ratio_ci95": [
+        1.1608748455075437,
+        1.1608748455075437
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        439.3855,
+        439.3855
+      ],
+      "ci95": [
+        439.3855,
+        439.3855
+      ],
+      "difference": 439.38550000000004,
+      "left": "Vote10",
+      "log_cost_ratio": 0.5727588786499926,
+      "log_cost_ratio_ci95": [
+        0.5727588786499926,
+        0.5727588786499926
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        19779.5,
+        19779.5
+      ],
+      "ci95": [
+        19779.5,
+        19779.5
+      ],
+      "difference": 19779.5,
+      "left": "Vote10",
+      "log_cost_ratio": 0.5211037686403922,
+      "log_cost_ratio_ci95": [
+        0.5211037686403922,
+        0.5211037686403922
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        286621.0,
+        286621.0
+      ],
+      "ci95": [
+        286621.0,
+        286621.0
+      ],
+      "difference": 286621.0,
+      "left": "Vote10",
+      "log_cost_ratio": 1.0657407426825907,
+      "log_cost_ratio_ci95": [
+        1.0657407426825907,
+        1.0657407426825907
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        -0.04166666666666674,
+        0.12500000000000006
+      ],
+      "ci95": [
+        -0.0625,
+        0.14583333333333337
+      ],
+      "difference": 0.041666666666666664,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Swarm10",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        -0.02083333333333326,
+        0.16249999999999998
+      ],
+      "ci95": [
+        -0.03749999999999998,
+        0.1791666666666667
+      ],
+      "difference": 0.07083333333333333,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Swarm10",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Swarm10",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        512275.25,
+        512275.25
+      ],
+      "ci95": [
+        512275.25,
+        512275.25
+      ],
+      "difference": 512275.25,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.6851016039016237,
+      "log_cost_ratio_ci95": [
+        0.6851016039016237,
+        0.6851016039016237
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        84164.5,
+        84164.5
+      ],
+      "ci95": [
+        84164.5,
+        84164.5
+      ],
+      "difference": 84164.5,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.42432845678314246,
+      "log_cost_ratio_ci95": [
+        0.42432845678314246,
+        0.42432845678314246
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        624.4577499999999,
+        624.4577499999999
+      ],
+      "ci95": [
+        624.4577499999999,
+        624.4577499999999
+      ],
+      "difference": 624.45775,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.7882084560647231,
+      "log_cost_ratio_ci95": [
+        0.7882084560647231,
+        0.7882084560647231
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        32710.5,
+        32710.5
+      ],
+      "ci95": [
+        32710.5,
+        32710.5
+      ],
+      "difference": 32710.5,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.827109946969162,
+      "log_cost_ratio_ci95": [
+        0.827109946969162,
+        0.827109946969162
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        116875.0,
+        116875.0
+      ],
+      "ci95": [
+        116875.0,
+        116875.0
+      ],
+      "difference": 116875.0,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.49038134406142425,
+      "log_cost_ratio_ci95": [
+        0.49038134406142425,
+        0.49038134406142425
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        -0.125,
+        0.08333333333333331
+      ],
+      "ci95": [
+        -0.14583333333333331,
+        0.10416666666666669
+      ],
+      "difference": -0.020833333333333332,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Swarm10",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        -0.10416666666666669,
+        0.09583333333333333
+      ],
+      "ci95": [
+        -0.125,
+        0.11666666666666659
+      ],
+      "difference": -0.004166666666666663,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Swarm10",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Swarm10",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        438222.75,
+        438222.75
+      ],
+      "ci95": [
+        438222.75,
+        438222.75
+      ],
+      "difference": 438222.75,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.6107075573807119,
+      "log_cost_ratio_ci95": [
+        0.6107075573807119,
+        0.6107075573807119
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        229303.0,
+        229303.0
+      ],
+      "ci95": [
+        229303.0,
+        229303.0
+      ],
+      "difference": 229303.0,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.892019144420425,
+      "log_cost_ratio_ci95": [
+        0.892019144420425,
+        0.892019144420425
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        487.0704999999999,
+        487.0704999999999
+      ],
+      "ci95": [
+        487.0704999999999,
+        487.0704999999999
+      ],
+      "difference": 487.0705,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.6603968772194281,
+      "log_cost_ratio_ci95": [
+        0.6603968772194281,
+        0.6603968772194281
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        23279.75,
+        23279.75
+      ],
+      "ci95": [
+        23279.75,
+        23279.75
+      ],
+      "difference": 23279.75,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.6501000228620268,
+      "log_cost_ratio_ci95": [
+        0.6501000228620268,
+        0.6501000228620268
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        252582.75,
+        252582.75
+      ],
+      "ci95": [
+        252582.75,
+        252582.75
+      ],
+      "difference": 252582.75,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.8619894425216765,
+      "log_cost_ratio_ci95": [
+        0.8619894425216765,
+        0.8619894425216765
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        -0.14583333333333337,
+        0.02083333333333337
+      ],
+      "ci95": [
+        -0.16666666666666669,
+        0.041666666666666685
+      ],
+      "difference": -0.0625,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Vote20",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        -0.14583333333333326,
+        -0.008333333333333304
+      ],
+      "ci95": [
+        -0.15833333333333327,
+        0.004166666666666652
+      ],
+      "difference": -0.075,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Vote20",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Vote20",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        -74052.5,
+        -74052.5
+      ],
+      "ci95": [
+        -74052.5,
+        -74052.5
+      ],
+      "difference": -74052.5,
+      "left": "Vote20",
+      "log_cost_ratio": -0.07439404652091171,
+      "log_cost_ratio_ci95": [
+        -0.07439404652091171,
+        -0.07439404652091171
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        145138.5,
+        145138.5
+      ],
+      "ci95": [
+        145138.5,
+        145138.5
+      ],
+      "difference": 145138.5,
+      "left": "Vote20",
+      "log_cost_ratio": 0.4676906876372826,
+      "log_cost_ratio_ci95": [
+        0.4676906876372826,
+        0.4676906876372826
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        -137.38725,
+        -137.38725
+      ],
+      "ci95": [
+        -137.38725,
+        -137.38725
+      ],
+      "difference": -137.38725000000002,
+      "left": "Vote20",
+      "log_cost_ratio": -0.12781157884529495,
+      "log_cost_ratio_ci95": [
+        -0.12781157884529495,
+        -0.12781157884529495
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        -9430.75,
+        -9430.75
+      ],
+      "ci95": [
+        -9430.75,
+        -9430.75
+      ],
+      "difference": -9430.75,
+      "left": "Vote20",
+      "log_cost_ratio": -0.1770099241071351,
+      "log_cost_ratio_ci95": [
+        -0.1770099241071351,
+        -0.1770099241071351
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        135707.75,
+        135707.75
+      ],
+      "ci95": [
+        135707.75,
+        135707.75
+      ],
+      "difference": 135707.75,
+      "left": "Vote20",
+      "log_cost_ratio": 0.3716080984602522,
+      "log_cost_ratio_ci95": [
+        0.3716080984602522,
+        0.3716080984602522
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Light reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        0.14895833333333336,
+        0.3
+      ],
+      "ci95": [
+        0.13541666666666663,
+        0.3145833333333333
+      ],
+      "difference": 0.225,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Direct expected",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote10"
+    },
+    {
+      "ci90": [
+        0.13270833333333332,
+        0.2589583333333332
+      ],
+      "ci95": [
+        0.12041666666666673,
+        0.27083333333333326
+      ],
+      "difference": 0.19562500000000002,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Direct expected",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote10"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Direct expected",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote10"
+    },
+    {
+      "ci90": [
+        1192597.6625,
+        1192597.6625
+      ],
+      "ci95": [
+        1192597.6625,
+        1192597.6625
+      ],
+      "difference": 1192597.6625,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.239298357740238,
+      "log_cost_ratio_ci95": [
+        2.239298357740238,
+        2.239298357740238
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote10"
+    },
+    {
+      "ci90": [
+        109531.875,
+        109531.875
+      ],
+      "ci95": [
+        109531.875,
+        109531.875
+      ],
+      "difference": 109531.875,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.3025912556069112,
+      "log_cost_ratio_ci95": [
+        2.3025912556069112,
+        2.3025912556069112
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote10"
+    },
+    {
+      "ci90": [
+        1252.7819125,
+        1252.7819125
+      ],
+      "ci95": [
+        1252.7819125,
+        1252.7819125
+      ],
+      "difference": 1252.7819125,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.2834000793761327,
+      "log_cost_ratio_ci95": [
+        2.2834000793761327,
+        2.2834000793761327
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote10"
+    },
+    {
+      "ci90": [
+        66662.975,
+        66662.975
+      ],
+      "ci95": [
+        66662.975,
+        66662.975
+      ],
+      "difference": 66662.97499999999,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.28135331146535,
+      "log_cost_ratio_ci95": [
+        2.28135331146535,
+        2.28135331146535
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote10"
+    },
+    {
+      "ci90": [
+        176194.84999999998,
+        176194.85
+      ],
+      "ci95": [
+        176194.85,
+        176194.85
+      ],
+      "difference": 176194.85,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.2944908254340177,
+      "log_cost_ratio_ci95": [
+        2.2944908254340177,
+        2.2944908254340177
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote10"
+    },
+    {
+      "ci90": [
+        0.30520833333333325,
+        0.4770833333333333
+      ],
+      "ci95": [
+        0.28750000000000003,
+        0.49270833333333336
+      ],
+      "difference": 0.39166666666666666,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Direct expected",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        0.2333229166666665,
+        0.3829166666666667
+      ],
+      "ci95": [
+        0.21791666666666665,
+        0.3968750000000001
+      ],
+      "difference": 0.308125,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Direct expected",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Direct expected",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        981053.6625,
+        981053.6625
+      ],
+      "ci95": [
+        981053.6625,
+        981053.6625
+      ],
+      "difference": 981053.6625,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.06674821825492,
+      "log_cost_ratio_ci95": [
+        2.06674821825492,
+        2.06674821825492
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        146319.375,
+        146319.375
+      ],
+      "ci95": [
+        146319.375,
+        146319.375
+      ],
+      "difference": 146319.375,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.5667041669609114,
+      "log_cost_ratio_ci95": [
+        2.5667041669609114,
+        2.5667041669609114
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        981.0536625000001,
+        981.0536625000001
+      ],
+      "ci95": [
+        981.0536625000001,
+        981.0536625000001
+      ],
+      "difference": 981.0536625,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.06674821825492,
+      "log_cost_ratio_ci95": [
+        2.06674821825492,
+        2.06674821825492
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        51682.975,
+        51682.975
+      ],
+      "ci95": [
+        51682.975,
+        51682.975
+      ],
+      "difference": 51682.975,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.056008597332051,
+      "log_cost_ratio_ci95": [
+        2.056008597332051,
+        2.056008597332051
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        198002.35,
+        198002.35
+      ],
+      "ci95": [
+        198002.35,
+        198002.35
+      ],
+      "difference": 198002.35,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.400013870177445,
+      "log_cost_ratio_ci95": [
+        2.400013870177445,
+        2.400013870177445
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        0.3052083333333333,
+        0.4354166666666667
+      ],
+      "ci95": [
+        0.2927083333333334,
+        0.44791666666666663
+      ],
+      "difference": 0.37083333333333335,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Direct expected",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        0.244375,
+        0.3637499999999999
+      ],
+      "ci95": [
+        0.23291666666666663,
+        0.37479166666666663
+      ],
+      "difference": 0.30395833333333333,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Direct expected",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Direct expected",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        2448353.9125,
+        2448353.9125
+      ],
+      "ci95": [
+        2448353.9125,
+        2448353.9125
+      ],
+      "difference": 2448353.9125,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.902390237154626,
+      "log_cost_ratio_ci95": [
+        2.902390237154626,
+        2.902390237154626
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        231232.375,
+        231232.375
+      ],
+      "ci95": [
+        231232.375,
+        231232.375
+      ],
+      "difference": 231232.375,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.995732273553991,
+      "log_cost_ratio_ci95": [
+        2.995732273553991,
+        2.995732273553991
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        2701.8064125,
+        2701.8064125
+      ],
+      "ci95": [
+        2701.8064125,
+        2701.8064125
+      ],
+      "difference": 2701.8064125,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.995732273553991,
+      "log_cost_ratio_ci95": [
+        2.995732273553991,
+        2.995732273553991
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        144096.475,
+        144096.475
+      ],
+      "ci95": [
+        144096.475,
+        144096.475
+      ],
+      "difference": 144096.475,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.995732273553991,
+      "log_cost_ratio_ci95": [
+        2.995732273553991,
+        2.995732273553991
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        375328.85,
+        375328.85
+      ],
+      "ci95": [
+        375328.85,
+        375328.85
+      ],
+      "difference": 375328.85000000003,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.995732273553991,
+      "log_cost_ratio_ci95": [
+        2.995732273553991,
+        2.995732273553991
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        0.3687499999999999,
+        0.49687500000000007
+      ],
+      "ci95": [
+        0.35520833333333335,
+        0.5083333333333333
+      ],
+      "difference": 0.43333333333333335,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Direct expected",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        0.2964583333333335,
+        0.411875
+      ],
+      "ci95": [
+        0.2858333333333334,
+        0.42270833333333335
+      ],
+      "difference": 0.3539583333333333,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Direct expected",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Direct expected",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        1616127.1625,
+        1616127.1625
+      ],
+      "ci95": [
+        1616127.1625,
+        1616127.1625
+      ],
+      "difference": 1616127.1624999999,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.514881461351064,
+      "log_cost_ratio_ci95": [
+        2.514881461351064,
+        2.514881461351064
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        378449.625,
+        378449.625
+      ],
+      "ci95": [
+        378449.625,
+        378449.625
+      ],
+      "difference": 378449.625,
+      "left": "Direct expected",
+      "log_cost_ratio": 3.4687504022950737,
+      "log_cost_ratio_ci95": [
+        3.4687504022950737,
+        3.4687504022950737
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        1709.0974125,
+        1709.0974125
+      ],
+      "ci95": [
+        1709.0974125,
+        1709.0974125
+      ],
+      "difference": 1709.0974125,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.5664052678481686,
+      "log_cost_ratio_ci95": [
+        2.5664052678481686,
+        2.5664052678481686
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        86728.975,
+        86728.975
+      ],
+      "ci95": [
+        86728.975,
+        86728.975
+      ],
+      "difference": 86728.97499999999,
+      "left": "Direct expected",
+      "log_cost_ratio": 2.520574976677413,
+      "log_cost_ratio_ci95": [
+        2.520574976677413,
+        2.520574976677413
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        465178.6,
+        465178.6
+      ],
+      "ci95": [
+        465178.6,
+        465178.6
+      ],
+      "difference": 465178.60000000003,
+      "left": "Direct expected",
+      "log_cost_ratio": 3.2006466256735995,
+      "log_cost_ratio_ci95": [
+        3.2006466256735995,
+        3.2006466256735995
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        0.0625,
+        0.27083333333333326
+      ],
+      "ci95": [
+        0.0625,
+        0.29166666666666663
+      ],
+      "difference": 0.16666666666666666,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Vote10",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        0.03750000000000009,
+        0.19166666666666654
+      ],
+      "ci95": [
+        0.025000000000000022,
+        0.20416666666666683
+      ],
+      "difference": 0.11249999999999999,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Vote10",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Vote10",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        -211544.0,
+        -211544.0
+      ],
+      "ci95": [
+        -211544.0,
+        -211544.0
+      ],
+      "difference": -211544.0,
+      "left": "Vote10",
+      "log_cost_ratio": -0.17255013948531797,
+      "log_cost_ratio_ci95": [
+        -0.17255013948531797,
+        -0.17255013948531797
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        36787.5,
+        36787.5
+      ],
+      "ci95": [
+        36787.5,
+        36787.5
+      ],
+      "difference": 36787.5,
+      "left": "Vote10",
+      "log_cost_ratio": 0.26411291135400017,
+      "log_cost_ratio_ci95": [
+        0.26411291135400017,
+        0.26411291135400017
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        -271.7282499999999,
+        -271.7282499999999
+      ],
+      "ci95": [
+        -271.7282499999999,
+        -271.7282499999999
+      ],
+      "difference": -271.72825000000006,
+      "left": "Vote10",
+      "log_cost_ratio": -0.21665186112121262,
+      "log_cost_ratio_ci95": [
+        -0.21665186112121262,
+        -0.21665186112121262
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        -14980.0,
+        -14980.0
+      ],
+      "ci95": [
+        -14980.0,
+        -14980.0
+      ],
+      "difference": -14980.0,
+      "left": "Vote10",
+      "log_cost_ratio": -0.22534471413329862,
+      "log_cost_ratio_ci95": [
+        -0.22534471413329862,
+        -0.22534471413329862
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        21807.5,
+        21807.5
+      ],
+      "ci95": [
+        21807.5,
+        21807.5
+      ],
+      "difference": 21807.5,
+      "left": "Vote10",
+      "log_cost_ratio": 0.10552304474342736,
+      "log_cost_ratio_ci95": [
+        0.10552304474342736,
+        0.10552304474342736
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Swarm10"
+    },
+    {
+      "ci90": [
+        0.0625,
+        0.22916666666666663
+      ],
+      "ci95": [
+        0.0625,
+        0.25
+      ],
+      "difference": 0.14583333333333334,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Vote10",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        0.04166666666666663,
+        0.1791666666666667
+      ],
+      "ci95": [
+        0.029166666666666785,
+        0.1958333333333333
+      ],
+      "difference": 0.10833333333333334,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Vote10",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Vote10",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        1255756.25,
+        1255756.25
+      ],
+      "ci95": [
+        1255756.25,
+        1255756.25
+      ],
+      "difference": 1255756.25,
+      "left": "Vote10",
+      "log_cost_ratio": 0.6630918794143884,
+      "log_cost_ratio_ci95": [
+        0.6630918794143884,
+        0.6630918794143884
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        121700.5,
+        121700.5
+      ],
+      "ci95": [
+        121700.5,
+        121700.5
+      ],
+      "difference": 121700.5,
+      "left": "Vote10",
+      "log_cost_ratio": 0.6931410179470796,
+      "log_cost_ratio_ci95": [
+        0.6931410179470796,
+        0.6931410179470796
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        1449.0245,
+        1449.0245
+      ],
+      "ci95": [
+        1449.0245,
+        1449.0245
+      ],
+      "difference": 1449.0245000000002,
+      "left": "Vote10",
+      "log_cost_ratio": 0.7123321941778583,
+      "log_cost_ratio_ci95": [
+        0.7123321941778583,
+        0.7123321941778583
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        77433.5,
+        77433.5
+      ],
+      "ci95": [
+        77433.5,
+        77433.5
+      ],
+      "difference": 77433.5,
+      "left": "Vote10",
+      "log_cost_ratio": 0.7143789620886408,
+      "log_cost_ratio_ci95": [
+        0.7143789620886408,
+        0.7143789620886408
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        199134.0,
+        199134.0
+      ],
+      "ci95": [
+        199134.0,
+        199134.0
+      ],
+      "difference": 199134.0,
+      "left": "Vote10",
+      "log_cost_ratio": 0.7012414481199732,
+      "log_cost_ratio_ci95": [
+        0.7012414481199732,
+        0.7012414481199732
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        0.125,
+        0.29166666666666674
+      ],
+      "ci95": [
+        0.10416666666666663,
+        0.3125
+      ],
+      "difference": 0.20833333333333334,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Vote10",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        0.07916666666666661,
+        0.2416666666666667
+      ],
+      "ci95": [
+        0.06666666666666654,
+        0.2583333333333333
+      ],
+      "difference": 0.15833333333333333,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Vote10",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Vote10",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        423529.5,
+        423529.5
+      ],
+      "ci95": [
+        423529.5,
+        423529.5
+      ],
+      "difference": 423529.5,
+      "left": "Vote10",
+      "log_cost_ratio": 0.27558310361082605,
+      "log_cost_ratio_ci95": [
+        0.27558310361082605,
+        0.27558310361082605
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        268917.75,
+        268917.75
+      ],
+      "ci95": [
+        268917.75,
+        268917.75
+      ],
+      "difference": 268917.75,
+      "left": "Vote10",
+      "log_cost_ratio": 1.1661591466881625,
+      "log_cost_ratio_ci95": [
+        1.1661591466881625,
+        1.1661591466881625
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        456.31549999999993,
+        456.31549999999993
+      ],
+      "ci95": [
+        456.31549999999993,
+        456.31549999999993
+      ],
+      "difference": 456.3155,
+      "left": "Vote10",
+      "log_cost_ratio": 0.28300518847203615,
+      "log_cost_ratio_ci95": [
+        0.28300518847203615,
+        0.28300518847203615
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        20066.0,
+        20066.0
+      ],
+      "ci95": [
+        20066.0,
+        20066.0
+      ],
+      "difference": 20066.0,
+      "left": "Vote10",
+      "log_cost_ratio": 0.2392216652120632,
+      "log_cost_ratio_ci95": [
+        0.2392216652120632,
+        0.2392216652120632
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        288983.75,
+        288983.75
+      ],
+      "ci95": [
+        288983.75,
+        288983.75
+      ],
+      "difference": 288983.75,
+      "left": "Vote10",
+      "log_cost_ratio": 0.9061558002395819,
+      "log_cost_ratio_ci95": [
+        0.9061558002395819,
+        0.9061558002395819
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        -0.125,
+        0.08333333333333326
+      ],
+      "ci95": [
+        -0.14583333333333337,
+        0.10416666666666663
+      ],
+      "difference": -0.020833333333333332,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Swarm10",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        -0.08750000000000013,
+        0.07916666666666661
+      ],
+      "ci95": [
+        -0.10416666666666674,
+        0.09583333333333333
+      ],
+      "difference": -0.004166666666666663,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Swarm10",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Swarm10",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        1467300.25,
+        1467300.25
+      ],
+      "ci95": [
+        1467300.25,
+        1467300.25
+      ],
+      "difference": 1467300.25,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.8356420188997066,
+      "log_cost_ratio_ci95": [
+        0.8356420188997066,
+        0.8356420188997066
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        84913.0,
+        84913.0
+      ],
+      "ci95": [
+        84913.0,
+        84913.0
+      ],
+      "difference": 84913.0,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.4290281065930795,
+      "log_cost_ratio_ci95": [
+        0.4290281065930795,
+        0.4290281065930795
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        1720.7527499999999,
+        1720.7527499999999
+      ],
+      "ci95": [
+        1720.7527499999999,
+        1720.7527499999999
+      ],
+      "difference": 1720.7527499999999,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.928984055299071,
+      "log_cost_ratio_ci95": [
+        0.928984055299071,
+        0.928984055299071
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        92413.5,
+        92413.5
+      ],
+      "ci95": [
+        92413.5,
+        92413.5
+      ],
+      "difference": 92413.5,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.9397236762219395,
+      "log_cost_ratio_ci95": [
+        0.9397236762219395,
+        0.9397236762219395
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        177326.5,
+        177326.5
+      ],
+      "ci95": [
+        177326.5,
+        177326.5
+      ],
+      "difference": 177326.5,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.595718403376546,
+      "log_cost_ratio_ci95": [
+        0.595718403376546,
+        0.595718403376546
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Vote20"
+    },
+    {
+      "ci90": [
+        -0.04166666666666674,
+        0.125
+      ],
+      "ci95": [
+        -0.0625,
+        0.14583333333333337
+      ],
+      "difference": 0.041666666666666664,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Swarm10",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        -0.03749999999999998,
+        0.12916666666666654
+      ],
+      "ci95": [
+        -0.050000000000000044,
+        0.14583333333333326
+      ],
+      "difference": 0.04583333333333334,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Swarm10",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Swarm10",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        635073.5,
+        635073.5
+      ],
+      "ci95": [
+        635073.5,
+        635073.5
+      ],
+      "difference": 635073.5,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.44813324309614416,
+      "log_cost_ratio_ci95": [
+        0.44813324309614416,
+        0.44813324309614416
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        232130.25,
+        232130.25
+      ],
+      "ci95": [
+        232130.25,
+        232130.25
+      ],
+      "difference": 232130.25,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.9020462353341623,
+      "log_cost_ratio_ci95": [
+        0.9020462353341623,
+        0.9020462353341623
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        728.0437499999998,
+        728.0437499999998
+      ],
+      "ci95": [
+        728.0437499999998,
+        728.0437499999998
+      ],
+      "difference": 728.0437499999999,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.4996570495932488,
+      "log_cost_ratio_ci95": [
+        0.4996570495932488,
+        0.4996570495932488
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        35046.0,
+        35046.0
+      ],
+      "ci95": [
+        35046.0,
+        35046.0
+      ],
+      "difference": 35046.0,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.4645663793453618,
+      "log_cost_ratio_ci95": [
+        0.4645663793453618,
+        0.4645663793453618
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        267176.25,
+        267176.25
+      ],
+      "ci95": [
+        267176.25,
+        267176.25
+      ],
+      "difference": 267176.25,
+      "left": "Swarm10",
+      "log_cost_ratio": 0.8006327554961546,
+      "log_cost_ratio_ci95": [
+        0.8006327554961546,
+        0.8006327554961546
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.14583333333333326
+      ],
+      "ci95": [
+        -0.02083333333333337,
+        0.14583333333333337
+      ],
+      "difference": 0.0625,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Vote20",
+      "metric": "exact_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        -0.004166666666666652,
+        0.11249999999999993
+      ],
+      "ci95": [
+        -0.012500000000000067,
+        0.125
+      ],
+      "difference": 0.049999999999999996,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": false,
+      "left": "Vote20",
+      "metric": "term_accuracy",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "equivalence_margin": 0.1,
+      "equivalent_10pp": true,
+      "left": "Vote20",
+      "metric": "format_rate",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        -832226.75,
+        -832226.75
+      ],
+      "ci95": [
+        -832226.75,
+        -832226.75
+      ],
+      "difference": -832226.75,
+      "left": "Vote20",
+      "log_cost_ratio": -0.38750877580356247,
+      "log_cost_ratio_ci95": [
+        -0.38750877580356247,
+        -0.38750877580356247
+      ],
+      "metric": "cost.critical_path_latency_ms",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        147217.25,
+        147217.25
+      ],
+      "ci95": [
+        147217.25,
+        147217.25
+      ],
+      "difference": 147217.25,
+      "left": "Vote20",
+      "log_cost_ratio": 0.4730181287410828,
+      "log_cost_ratio_ci95": [
+        0.4730181287410828,
+        0.4730181287410828
+      ],
+      "metric": "cost.input_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        -992.7090000000001,
+        -992.7090000000001
+      ],
+      "ci95": [
+        -992.7090000000001,
+        -992.7090000000001
+      ],
+      "difference": -992.709,
+      "left": "Vote20",
+      "log_cost_ratio": -0.42932700570582216,
+      "log_cost_ratio_ci95": [
+        -0.42932700570582216,
+        -0.42932700570582216
+      ],
+      "metric": "cost.model_seconds",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        -57367.5,
+        -57367.5
+      ],
+      "ci95": [
+        -57367.5,
+        -57367.5
+      ],
+      "difference": -57367.5,
+      "left": "Vote20",
+      "log_cost_ratio": -0.4751572968765778,
+      "log_cost_ratio_ci95": [
+        -0.4751572968765778,
+        -0.4751572968765778
+      ],
+      "metric": "cost.output_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    },
+    {
+      "ci90": [
+        89849.75,
+        89849.75
+      ],
+      "ci95": [
+        89849.75,
+        89849.75
+      ],
+      "difference": 89849.75,
+      "left": "Vote20",
+      "log_cost_ratio": 0.20491435211960865,
+      "log_cost_ratio_ci95": [
+        0.20491435211960865,
+        0.20491435211960865
+      ],
+      "metric": "cost.total_tokens",
+      "n_pairs": 48,
+      "reasoning": "Medium reasoning",
+      "right": "Tournament20"
+    }
+  ],
+  "confirmatory_secondary": [
+    {
+      "ci95": [
+        0.14895833333333333,
+        0.259375
+      ],
+      "difference": 0.2041666666666667,
+      "holm_adjusted_p": 8.999910000899992e-05,
+      "holm_significant_0_05": true,
+      "id": "S01",
+      "left": "Light reasoning Direct expected",
+      "n_pairs": 48,
+      "raw_p": 9.99990000099999e-06,
+      "right": "Medium reasoning Direct expected",
+      "test": {
+        "assignments": 100000,
+        "exact": false,
+        "p_value": 9.99990000099999e-06,
+        "seed": 20269713,
+        "test": "paired sign-flip"
+      }
+    },
+    {
+      "ci95": [
+        0.0,
+        0.25
+      ],
+      "difference": 0.125,
+      "holm_adjusted_p": 0.375,
+      "holm_significant_0_05": false,
+      "id": "S02",
+      "left": "Light reasoning Vote10",
+      "n_pairs": 48,
+      "raw_p": 0.14599609375,
+      "right": "Medium reasoning Vote10",
+      "test": {
+        "discordant": 12,
+        "left_only": 3,
+        "p_value": 0.14599609375,
+        "right_only": 9,
+        "test": "exact two-sided McNemar"
+      }
+    },
+    {
+      "ci95": [
+        0.22916666666666666,
+        0.4791666666666667
+      ],
+      "difference": 0.3541666666666667,
+      "holm_adjusted_p": 0.0001068115234375,
+      "holm_significant_0_05": true,
+      "id": "S03",
+      "left": "Light reasoning Vote20",
+      "n_pairs": 48,
+      "raw_p": 1.52587890625e-05,
+      "right": "Medium reasoning Vote20",
+      "test": {
+        "discordant": 17,
+        "left_only": 0,
+        "p_value": 1.52587890625e-05,
+        "right_only": 17,
+        "test": "exact two-sided McNemar"
+      }
+    },
+    {
+      "ci95": [
+        0.2916666666666667,
+        0.5416666666666666
+      ],
+      "difference": 0.4166666666666667,
+      "holm_adjusted_p": 1.9073486328125e-05,
+      "holm_significant_0_05": true,
+      "id": "S04",
+      "left": "Light reasoning Swarm10",
+      "n_pairs": 48,
+      "raw_p": 1.9073486328125e-06,
+      "right": "Medium reasoning Swarm10",
+      "test": {
+        "discordant": 20,
+        "left_only": 0,
+        "p_value": 1.9073486328125e-06,
+        "right_only": 20,
+        "test": "exact two-sided McNemar"
+      }
+    },
+    {
+      "ci95": [
+        0.3541666666666667,
+        0.6041666666666666
+      ],
+      "difference": 0.4791666666666667,
+      "holm_adjusted_p": 2.6226043701171875e-06,
+      "holm_significant_0_05": true,
+      "id": "S05",
+      "left": "Light reasoning Tournament20",
+      "n_pairs": 48,
+      "raw_p": 2.384185791015625e-07,
+      "right": "Medium reasoning Tournament20",
+      "test": {
+        "discordant": 23,
+        "left_only": 0,
+        "p_value": 2.384185791015625e-07,
+        "right_only": 23,
+        "test": "exact two-sided McNemar"
+      }
+    },
+    {
+      "ci95": [
+        -0.22916666666666666,
+        -0.020833333333333332
+      ],
+      "difference": -0.125,
+      "holm_adjusted_p": 0.28125,
+      "holm_significant_0_05": false,
+      "id": "S06",
+      "left": "Light reasoning Vote10",
+      "n_pairs": 48,
+      "raw_p": 0.0703125,
+      "right": "Light reasoning Swarm10",
+      "test": {
+        "discordant": 8,
+        "left_only": 7,
+        "p_value": 0.0703125,
+        "right_only": 1,
+        "test": "exact two-sided McNemar"
+      }
+    },
+    {
+      "ci95": [
+        0.0625,
+        0.2916666666666667
+      ],
+      "difference": 0.16666666666666666,
+      "holm_adjusted_p": 0.107421875,
+      "holm_significant_0_05": false,
+      "id": "S07",
+      "left": "Medium reasoning Vote10",
+      "n_pairs": 48,
+      "raw_p": 0.021484375,
+      "right": "Medium reasoning Swarm10",
+      "test": {
+        "discordant": 10,
+        "left_only": 1,
+        "p_value": 0.021484375,
+        "right_only": 9,
+        "test": "exact two-sided McNemar"
+      }
+    },
+    {
+      "ci95": [
+        -0.16666666666666666,
+        0.041666666666666664
+      ],
+      "difference": -0.0625,
+      "holm_adjusted_p": 0.453125,
+      "holm_significant_0_05": false,
+      "id": "S08",
+      "left": "Light reasoning Vote20",
+      "n_pairs": 48,
+      "raw_p": 0.453125,
+      "right": "Light reasoning Tournament20",
+      "test": {
+        "discordant": 7,
+        "left_only": 5,
+        "p_value": 0.453125,
+        "right_only": 2,
+        "test": "exact two-sided McNemar"
+      }
+    },
+    {
+      "ci95": [
+        -0.16666666666666666,
+        -0.020833333333333332
+      ],
+      "difference": -0.08333333333333333,
+      "holm_adjusted_p": 0.375,
+      "holm_significant_0_05": false,
+      "id": "S09",
+      "left": "Light reasoning Vote10",
+      "n_pairs": 48,
+      "raw_p": 0.125,
+      "right": "Light reasoning Vote20",
+      "test": {
+        "discordant": 4,
+        "left_only": 4,
+        "p_value": 0.125,
+        "right_only": 0,
+        "test": "exact two-sided McNemar"
+      }
+    },
+    {
+      "ci95": [
+        0.0625,
+        0.25
+      ],
+      "difference": 0.14583333333333334,
+      "holm_adjusted_p": 0.09375,
+      "holm_significant_0_05": false,
+      "id": "S10",
+      "left": "Medium reasoning Vote10",
+      "n_pairs": 48,
+      "raw_p": 0.015625,
+      "right": "Medium reasoning Vote20",
+      "test": {
+        "discordant": 7,
+        "left_only": 0,
+        "p_value": 0.015625,
+        "right_only": 7,
+        "test": "exact two-sided McNemar"
+      }
+    },
+    {
+      "ci95": [
+        0.22916666666666666,
+        0.4479166666666667
+      ],
+      "difference": 0.3333333333333333,
+      "holm_adjusted_p": 8.999910000899992e-05,
+      "holm_significant_0_05": true,
+      "id": "S11",
+      "left": "Routing lift",
+      "n_pairs": 48,
+      "raw_p": 9.99990000099999e-06,
+      "right": "Reasoning lift",
+      "test": {
+        "assignments": 100000,
+        "exact": false,
+        "p_value": 9.99990000099999e-06,
+        "seed": 20269723,
+        "test": "paired sign-flip"
+      }
+    }
+  ],
+  "equivalence": {
+    "confidence_level": 0.9,
+    "margin": 0.1
+  },
+  "leave_one_block_out": [
+    {
+      "comparisons": [
+        {
+          "difference": 0.30972222222222223,
+          "left": "Direct expected",
+          "right": "Vote10"
+        },
+        {
+          "difference": 0.11527777777777778,
+          "left": "Direct expected",
+          "right": "Swarm10"
+        },
+        {
+          "difference": 0.19861111111111113,
+          "left": "Direct expected",
+          "right": "Vote20"
+        },
+        {
+          "difference": 0.19861111111111113,
+          "left": "Direct expected",
+          "right": "Tournament20"
+        },
+        {
+          "difference": -0.19444444444444445,
+          "left": "Vote10",
+          "right": "Swarm10"
+        },
+        {
+          "difference": -0.1111111111111111,
+          "left": "Vote10",
+          "right": "Vote20"
+        },
+        {
+          "difference": -0.1111111111111111,
+          "left": "Vote10",
+          "right": "Tournament20"
+        },
+        {
+          "difference": 0.08333333333333333,
+          "left": "Swarm10",
+          "right": "Vote20"
+        },
+        {
+          "difference": 0.08333333333333333,
+          "left": "Swarm10",
+          "right": "Tournament20"
+        },
+        {
+          "difference": 0.0,
+          "left": "Vote20",
+          "right": "Tournament20"
+        }
+      ],
+      "exact_accuracy": {
+        "Direct expected": 0.2736111111111111,
+        "Swarm10": 0.3888888888888889,
+        "Tournament20": 0.4722222222222222,
+        "Vote10": 0.5833333333333334,
+        "Vote20": 0.4722222222222222
+      },
+      "n_cases": 36,
+      "omitted_block": "B01",
+      "reasoning": "Light reasoning"
+    },
+    {
+      "comparisons": [
+        {
+          "difference": 0.28055555555555556,
+          "left": "Direct expected",
+          "right": "Vote10"
+        },
+        {
+          "difference": 0.22499999999999998,
+          "left": "Direct expected",
+          "right": "Swarm10"
+        },
+        {
+          "difference": 0.22499999999999998,
+          "left": "Direct expected",
+          "right": "Vote20"
+        },
+        {
+          "difference": 0.14166666666666666,
+          "left": "Direct expected",
+          "right": "Tournament20"
+        },
+        {
+          "difference": -0.05555555555555555,
+          "left": "Vote10",
+          "right": "Swarm10"
+        },
+        {
+          "difference": -0.05555555555555555,
+          "left": "Vote10",
+          "right": "Vote20"
+        },
+        {
+          "difference": -0.1388888888888889,
+          "left": "Vote10",
+          "right": "Tournament20"
+        },
+        {
+          "difference": 0.0,
+          "left": "Swarm10",
+          "right": "Vote20"
+        },
+        {
+          "difference": -0.08333333333333333,
+          "left": "Swarm10",
+          "right": "Tournament20"
+        },
+        {
+          "difference": -0.08333333333333333,
+          "left": "Vote20",
+          "right": "Tournament20"
+        }
+      ],
+      "exact_accuracy": {
+        "Direct expected": 0.3027777777777778,
+        "Swarm10": 0.5277777777777778,
+        "Tournament20": 0.4444444444444444,
+        "Vote10": 0.5833333333333334,
+        "Vote20": 0.5277777777777778
+      },
+      "n_cases": 36,
+      "omitted_block": "B02",
+      "reasoning": "Light reasoning"
+    },
+    {
+      "comparisons": [
+        {
+          "difference": 0.28194444444444444,
+          "left": "Direct expected",
+          "right": "Vote10"
+        },
+        {
+          "difference": 0.14305555555555557,
+          "left": "Direct expected",
+          "right": "Swarm10"
+        },
+        {
+          "difference": 0.19861111111111113,
+          "left": "Direct expected",
+          "right": "Vote20"
+        },
+        {
+          "difference": 0.11527777777777778,
+          "left": "Direct expected",
+          "right": "Tournament20"
+        },
+        {
+          "difference": -0.1388888888888889,
+          "left": "Vote10",
+          "right": "Swarm10"
+        },
+        {
+          "difference": -0.08333333333333333,
+          "left": "Vote10",
+          "right": "Vote20"
+        },
+        {
+          "difference": -0.16666666666666666,
+          "left": "Vote10",
+          "right": "Tournament20"
+        },
+        {
+          "difference": 0.05555555555555555,
+          "left": "Swarm10",
+          "right": "Vote20"
+        },
+        {
+          "difference": -0.027777777777777776,
+          "left": "Swarm10",
+          "right": "Tournament20"
+        },
+        {
+          "difference": -0.08333333333333333,
+          "left": "Vote20",
+          "right": "Tournament20"
+        }
+      ],
+      "exact_accuracy": {
+        "Direct expected": 0.21805555555555556,
+        "Swarm10": 0.3611111111111111,
+        "Tournament20": 0.3333333333333333,
+        "Vote10": 0.5,
+        "Vote20": 0.4166666666666667
+      },
+      "n_cases": 36,
+      "omitted_block": "B03",
+      "reasoning": "Light reasoning"
+    },
+    {
+      "comparisons": [
+        {
+          "difference": 0.34444444444444444,
+          "left": "Direct expected",
+          "right": "Vote10"
+        },
+        {
+          "difference": 0.23333333333333334,
+          "left": "Direct expected",
+          "right": "Swarm10"
+        },
+        {
+          "difference": 0.2611111111111111,
+          "left": "Direct expected",
+          "right": "Vote20"
+        },
+        {
+          "difference": 0.17777777777777778,
+          "left": "Direct expected",
+          "right": "Tournament20"
+        },
+        {
+          "difference": -0.1111111111111111,
+          "left": "Vote10",
+          "right": "Swarm10"
+        },
+        {
+          "difference": -0.08333333333333333,
+          "left": "Vote10",
+          "right": "Vote20"
+        },
+        {
+          "difference": -0.16666666666666666,
+          "left": "Vote10",
+          "right": "Tournament20"
+        },
+        {
+          "difference": 0.027777777777777776,
+          "left": "Swarm10",
+          "right": "Vote20"
+        },
+        {
+          "difference": -0.05555555555555555,
+          "left": "Swarm10",
+          "right": "Tournament20"
+        },
+        {
+          "difference": -0.08333333333333333,
+          "left": "Vote20",
+          "right": "Tournament20"
+        }
+      ],
+      "exact_accuracy": {
+        "Direct expected": 0.3222222222222222,
+        "Swarm10": 0.5555555555555556,
+        "Tournament20": 0.5,
+        "Vote10": 0.6666666666666666,
+        "Vote20": 0.5833333333333334
+      },
+      "n_cases": 36,
+      "omitted_block": "B04",
+      "reasoning": "Light reasoning"
+    },
+    {
+      "comparisons": [
+        {
+          "difference": 0.25555555555555554,
+          "left": "Direct expected",
+          "right": "Vote10"
+        },
+        {
+          "difference": 0.36666666666666664,
+          "left": "Direct expected",
+          "right": "Swarm10"
+        },
+        {
+          "difference": 0.39444444444444443,
+          "left": "Direct expected",
+          "right": "Vote20"
+        },
+        {
+          "difference": 0.44999999999999996,
+          "left": "Direct expected",
+          "right": "Tournament20"
+        },
+        {
+          "difference": 0.1111111111111111,
+          "left": "Vote10",
+          "right": "Swarm10"
+        },
+        {
+          "difference": 0.1388888888888889,
+          "left": "Vote10",
+          "right": "Vote20"
+        },
+        {
+          "difference": 0.19444444444444445,
+          "left": "Vote10",
+          "right": "Tournament20"
+        },
+        {
+          "difference": 0.027777777777777776,
+          "left": "Swarm10",
+          "right": "Vote20"
+        },
+        {
+          "difference": 0.08333333333333333,
+          "left": "Swarm10",
+          "right": "Tournament20"
+        },
+        {
+          "difference": 0.05555555555555555,
+          "left": "Vote20",
+          "right": "Tournament20"
+        }
+      ],
+      "exact_accuracy": {
+        "Direct expected": 0.49444444444444446,
+        "Swarm10": 0.8611111111111112,
+        "Tournament20": 0.9444444444444444,
+        "Vote10": 0.75,
+        "Vote20": 0.8888888888888888
+      },
+      "n_cases": 36,
+      "omitted_block": "B01",
+      "reasoning": "Medium reasoning"
+    },
+    {
+      "comparisons": [
+        {
+          "difference": 0.21250000000000002,
+          "left": "Direct expected",
+          "right": "Vote10"
+        },
+        {
+          "difference": 0.37916666666666665,
+          "left": "Direct expected",
+          "right": "Swarm10"
+        },
+        {
+          "difference": 0.3236111111111111,
+          "left": "Direct expected",
+          "right": "Vote20"
+        },
+        {
+          "difference": 0.37916666666666665,
+          "left": "Direct expected",
+          "right": "Tournament20"
+        },
+        {
+          "difference": 0.16666666666666666,
+          "left": "Vote10",
+          "right": "Swarm10"
+        },
+        {
+          "difference": 0.1111111111111111,
+          "left": "Vote10",
+          "right": "Vote20"
+        },
+        {
+          "difference": 0.16666666666666666,
+          "left": "Vote10",
+          "right": "Tournament20"
+        },
+        {
+          "difference": -0.05555555555555555,
+          "left": "Swarm10",
+          "right": "Vote20"
+        },
+        {
+          "difference": 0.0,
+          "left": "Swarm10",
+          "right": "Tournament20"
+        },
+        {
+          "difference": 0.05555555555555555,
+          "left": "Vote20",
+          "right": "Tournament20"
+        }
+      ],
+      "exact_accuracy": {
+        "Direct expected": 0.5097222222222223,
+        "Swarm10": 0.8888888888888888,
+        "Tournament20": 0.8888888888888888,
+        "Vote10": 0.7222222222222222,
+        "Vote20": 0.8333333333333334
+      },
+      "n_cases": 36,
+      "omitted_block": "B02",
+      "reasoning": "Medium reasoning"
+    },
+    {
+      "comparisons": [
+        {
+          "difference": 0.24166666666666664,
+          "left": "Direct expected",
+          "right": "Vote10"
+        },
+        {
+          "difference": 0.4361111111111111,
+          "left": "Direct expected",
+          "right": "Swarm10"
+        },
+        {
+          "difference": 0.4361111111111111,
+          "left": "Direct expected",
+          "right": "Vote20"
+        },
+        {
+          "difference": 0.5194444444444444,
+          "left": "Direct expected",
+          "right": "Tournament20"
+        },
+        {
+          "difference": 0.19444444444444445,
+          "left": "Vote10",
+          "right": "Swarm10"
+        },
+        {
+          "difference": 0.19444444444444445,
+          "left": "Vote10",
+          "right": "Vote20"
+        },
+        {
+          "difference": 0.2777777777777778,
+          "left": "Vote10",
+          "right": "Tournament20"
+        },
+        {
+          "difference": 0.0,
+          "left": "Swarm10",
+          "right": "Vote20"
+        },
+        {
+          "difference": 0.08333333333333333,
+          "left": "Swarm10",
+          "right": "Tournament20"
+        },
+        {
+          "difference": 0.08333333333333333,
+          "left": "Vote20",
+          "right": "Tournament20"
+        }
+      ],
+      "exact_accuracy": {
+        "Direct expected": 0.39722222222222225,
+        "Swarm10": 0.8333333333333334,
+        "Tournament20": 0.9166666666666666,
+        "Vote10": 0.6388888888888888,
+        "Vote20": 0.8333333333333334
+      },
+      "n_cases": 36,
+      "omitted_block": "B03",
+      "reasoning": "Medium reasoning"
+    },
+    {
+      "comparisons": [
+        {
+          "difference": 0.19027777777777777,
+          "left": "Direct expected",
+          "right": "Vote10"
+        },
+        {
+          "difference": 0.3847222222222222,
+          "left": "Direct expected",
+          "right": "Swarm10"
+        },
+        {
+          "difference": 0.32916666666666666,
+          "left": "Direct expected",
+          "right": "Vote20"
+        },
+        {
+          "difference": 0.3847222222222222,
+          "left": "Direct expected",
+          "right": "Tournament20"
+        },
+        {
+          "difference": 0.19444444444444445,
+          "left": "Vote10",
+          "right": "Swarm10"
+        },
+        {
+          "difference": 0.1388888888888889,
+          "left": "Vote10",
+          "right": "Vote20"
+        },
+        {
+          "difference": 0.19444444444444445,
+          "left": "Vote10",
+          "right": "Tournament20"
+        },
+        {
+          "difference": -0.05555555555555555,
+          "left": "Swarm10",
+          "right": "Vote20"
+        },
+        {
+          "difference": 0.0,
+          "left": "Swarm10",
+          "right": "Tournament20"
+        },
+        {
+          "difference": 0.05555555555555555,
+          "left": "Vote20",
+          "right": "Tournament20"
+        }
+      ],
+      "exact_accuracy": {
+        "Direct expected": 0.5319444444444444,
+        "Swarm10": 0.9166666666666666,
+        "Tournament20": 0.9166666666666666,
+        "Vote10": 0.7222222222222222,
+        "Vote20": 0.8611111111111112
+      },
+      "n_cases": 36,
+      "omitted_block": "B04",
+      "reasoning": "Medium reasoning"
+    }
+  ],
+  "methods": [
+    {
+      "calls_per_exact_correct_case": 0.29850746268656714,
+      "cost": {
+        "critical_path_latency_ms": {
+          "ci95": [
+            57253.83750000001,
+            57253.83750000001
+          ],
+          "estimate": 57253.8375
+        },
+        "input_tokens": {
+          "ci95": [
+            12169.85,
+            12169.85
+          ],
+          "estimate": 12169.85
+        },
+        "model_seconds": {
+          "ci95": [
+            57.2538375,
+            57.2538375
+          ],
+          "estimate": 57.2538375
+        },
+        "output_tokens": {
+          "ci95": [
+            2906.625,
+            2906.625
+          ],
+          "estimate": 2906.625
+        },
+        "total_tokens": {
+          "ci95": [
+            15076.475,
+            15076.475
+          ],
+          "estimate": 15076.475
+        }
+      },
+      "deployment_calls": 1,
+      "exact_accuracy": {
+        "ci95": [
+          0.20205729166666775,
+          0.3625
+        ],
+        "estimate": 0.2791666666666667
+      },
+      "format_rate": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "estimate": 1.0
+      },
+      "method": "Direct expected",
+      "n_cases": 48,
+      "per_term_accuracy": [
+        {
+          "ci95": [
+            0.3489583333333333,
+            0.5385416666666667
+          ],
+          "estimate": 0.4427083333333333,
+          "position": 1
+        },
+        {
+          "ci95": [
+            0.28125,
+            0.46875
+          ],
+          "estimate": 0.3729166666666666,
+          "position": 2
+        },
+        {
+          "ci95": [
+            0.27291666666666664,
+            0.45
+          ],
+          "estimate": 0.359375,
+          "position": 3
+        },
+        {
+          "ci95": [
+            0.25416666666666665,
+            0.43958333333333327
+          ],
+          "estimate": 0.34375,
+          "position": 4
+        },
+        {
+          "ci95": [
+            0.225,
+            0.39166666666666666
+          ],
+          "estimate": 0.30520833333333336,
+          "position": 5
+        }
+      ],
+      "reasoning": "Light reasoning",
+      "term_accuracy": {
+        "ci95": [
+          0.27875,
+          0.454375
+        ],
+        "estimate": 0.3647916666666667
+      },
+      "tokens_per_exact_correct_case": 4500.440298507463
+    },
+    {
+      "calls_per_exact_correct_case": 1.4285714285714286,
+      "cost": {
+        "critical_path_latency_ms": {
+          "ci95": [
+            553806.5,
+            553806.5
+          ],
+          "estimate": 553806.5
+        },
+        "input_tokens": {
+          "ci95": [
+            121694.0,
+            121694.0
+          ],
+          "estimate": 121694.0
+        },
+        "model_seconds": {
+          "ci95": [
+            568.304,
+            568.304
+          ],
+          "estimate": 568.304
+        },
+        "output_tokens": {
+          "ci95": [
+            28922.25,
+            28922.25
+          ],
+          "estimate": 28922.25
+        },
+        "total_tokens": {
+          "ci95": [
+            150616.25,
+            150616.25
+          ],
+          "estimate": 150616.25
+        }
+      },
+      "deployment_calls": 10,
+      "exact_accuracy": {
+        "ci95": [
+          0.4583333333333333,
+          0.7083333333333334
+        ],
+        "estimate": 0.5833333333333334
+      },
+      "format_rate": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "estimate": 1.0
+      },
+      "method": "Vote10",
+      "n_cases": 48,
+      "per_term_accuracy": [
+        {
+          "ci95": [
+            0.5625,
+            0.8125
+          ],
+          "estimate": 0.6875,
+          "position": 1
+        },
+        {
+          "ci95": [
+            0.5,
+            0.75
+          ],
+          "estimate": 0.625,
+          "position": 2
+        },
+        {
+          "ci95": [
+            0.5416666666666666,
+            0.7916666666666666
+          ],
+          "estimate": 0.6666666666666666,
+          "position": 3
+        },
+        {
+          "ci95": [
+            0.4791666666666667,
+            0.7291666666666666
+          ],
+          "estimate": 0.6041666666666666,
+          "position": 4
+        },
+        {
+          "ci95": [
+            0.5,
+            0.75
+          ],
+          "estimate": 0.625,
+          "position": 5
+        }
+      ],
+      "reasoning": "Light reasoning",
+      "term_accuracy": {
+        "ci95": [
+          0.5208333333333334,
+          0.7583333333333333
+        ],
+        "estimate": 0.6416666666666667
+      },
+      "tokens_per_exact_correct_case": 21516.60714285714
+    },
+    {
+      "calls_per_exact_correct_case": 1.8181818181818181,
+      "cost": {
+        "critical_path_latency_ms": {
+          "ci95": [
+            520619.0,
+            520619.0
+          ],
+          "estimate": 520619.0
+        },
+        "input_tokens": {
+          "ci95": [
+            159232.5,
+            159232.5
+          ],
+          "estimate": 159232.5
+        },
+        "model_seconds": {
+          "ci95": [
+            520.619,
+            520.619
+          ],
+          "estimate": 520.619
+        },
+        "output_tokens": {
+          "ci95": [
+            25422.0,
+            25422.0
+          ],
+          "estimate": 25422.0
+        },
+        "total_tokens": {
+          "ci95": [
+            184654.5,
+            184654.5
+          ],
+          "estimate": 184654.5
+        }
+      },
+      "deployment_calls": 10,
+      "exact_accuracy": {
+        "ci95": [
+          0.3333333333333333,
+          0.5833333333333334
+        ],
+        "estimate": 0.4583333333333333
+      },
+      "format_rate": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "estimate": 1.0
+      },
+      "method": "Swarm10",
+      "n_cases": 48,
+      "per_term_accuracy": [
+        {
+          "ci95": [
+            0.4166666666666667,
+            0.6666666666666666
+          ],
+          "estimate": 0.5416666666666666,
+          "position": 1
+        },
+        {
+          "ci95": [
+            0.375,
+            0.625
+          ],
+          "estimate": 0.5,
+          "position": 2
+        },
+        {
+          "ci95": [
+            0.375,
+            0.625
+          ],
+          "estimate": 0.5,
+          "position": 3
+        },
+        {
+          "ci95": [
+            0.3333333333333333,
+            0.5833333333333334
+          ],
+          "estimate": 0.4583333333333333,
+          "position": 4
+        },
+        {
+          "ci95": [
+            0.375,
+            0.625
+          ],
+          "estimate": 0.5,
+          "position": 5
+        }
+      ],
+      "reasoning": "Light reasoning",
+      "term_accuracy": {
+        "ci95": [
+          0.3833333333333333,
+          0.6166666666666667
+        ],
+        "estimate": 0.5
+      },
+      "tokens_per_exact_correct_case": 33573.545454545456
+    },
+    {
+      "calls_per_exact_correct_case": 3.3333333333333335,
+      "cost": {
+        "critical_path_latency_ms": {
+          "ci95": [
+            1032894.25,
+            1032894.25
+          ],
+          "estimate": 1032894.25
+        },
+        "input_tokens": {
+          "ci95": [
+            243397.0,
+            243397.0
+          ],
+          "estimate": 243397.0
+        },
+        "model_seconds": {
+          "ci95": [
+            1145.07675,
+            1145.07675
+          ],
+          "estimate": 1145.07675
+        },
+        "output_tokens": {
+          "ci95": [
+            58132.5,
+            58132.5
+          ],
+          "estimate": 58132.5
+        },
+        "total_tokens": {
+          "ci95": [
+            301529.5,
+            301529.5
+          ],
+          "estimate": 301529.5
+        }
+      },
+      "deployment_calls": 20,
+      "exact_accuracy": {
+        "ci95": [
+          0.375,
+          0.625
+        ],
+        "estimate": 0.5
+      },
+      "format_rate": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "estimate": 1.0
+      },
+      "method": "Vote20",
+      "n_cases": 48,
+      "per_term_accuracy": [
+        {
+          "ci95": [
+            0.5,
+            0.75
+          ],
+          "estimate": 0.625,
+          "position": 1
+        },
+        {
+          "ci95": [
+            0.4375,
+            0.7291666666666666
+          ],
+          "estimate": 0.5833333333333334,
+          "position": 2
+        },
+        {
+          "ci95": [
+            0.4791666666666667,
+            0.7291666666666666
+          ],
+          "estimate": 0.6041666666666666,
+          "position": 3
+        },
+        {
+          "ci95": [
+            0.375,
+            0.625
+          ],
+          "estimate": 0.5,
+          "position": 4
+        },
+        {
+          "ci95": [
+            0.4166666666666667,
+            0.6666666666666666
+          ],
+          "estimate": 0.5416666666666666,
+          "position": 5
+        }
+      ],
+      "reasoning": "Light reasoning",
+      "term_accuracy": {
+        "ci95": [
+          0.4458333333333333,
+          0.6916666666666669
+        ],
+        "estimate": 0.5708333333333333
+      },
+      "tokens_per_exact_correct_case": 50254.916666666664
+    },
+    {
+      "calls_per_exact_correct_case": 3.8095238095238093,
+      "cost": {
+        "critical_path_latency_ms": {
+          "ci95": [
+            958841.75,
+            958841.75
+          ],
+          "estimate": 958841.75
+        },
+        "input_tokens": {
+          "ci95": [
+            388535.5,
+            388535.5
+          ],
+          "estimate": 388535.5
+        },
+        "model_seconds": {
+          "ci95": [
+            1007.6895,
+            1007.6895
+          ],
+          "estimate": 1007.6895
+        },
+        "output_tokens": {
+          "ci95": [
+            48701.75,
+            48701.75
+          ],
+          "estimate": 48701.75
+        },
+        "total_tokens": {
+          "ci95": [
+            437237.25,
+            437237.25
+          ],
+          "estimate": 437237.25
+        }
+      },
+      "deployment_calls": 20,
+      "exact_accuracy": {
+        "ci95": [
+          0.3125,
+          0.5625
+        ],
+        "estimate": 0.4375
+      },
+      "format_rate": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "estimate": 1.0
+      },
+      "method": "Tournament20",
+      "n_cases": 48,
+      "per_term_accuracy": [
+        {
+          "ci95": [
+            0.375,
+            0.625
+          ],
+          "estimate": 0.5,
+          "position": 1
+        },
+        {
+          "ci95": [
+            0.3541666666666667,
+            0.6041666666666666
+          ],
+          "estimate": 0.4791666666666667,
+          "position": 2
+        },
+        {
+          "ci95": [
+            0.375,
+            0.625
+          ],
+          "estimate": 0.5,
+          "position": 3
+        },
+        {
+          "ci95": [
+            0.4166666666666667,
+            0.6666666666666666
+          ],
+          "estimate": 0.5416666666666666,
+          "position": 4
+        },
+        {
+          "ci95": [
+            0.3333333333333333,
+            0.5833333333333334
+          ],
+          "estimate": 0.4583333333333333,
+          "position": 5
+        }
+      ],
+      "reasoning": "Light reasoning",
+      "term_accuracy": {
+        "ci95": [
+          0.37083333333333335,
+          0.6208333333333333
+        ],
+        "estimate": 0.49583333333333335
+      },
+      "tokens_per_exact_correct_case": 83283.28571428571
+    },
+    {
+      "calls_per_exact_correct_case": 0.1724137931034483,
+      "cost": {
+        "critical_path_latency_ms": {
+          "ci95": [
+            142200.3375,
+            142200.3375
+          ],
+          "estimate": 142200.3375
+        },
+        "input_tokens": {
+          "ci95": [
+            12170.125,
+            12170.125
+          ],
+          "estimate": 12170.125
+        },
+        "model_seconds": {
+          "ci95": [
+            142.20033750000002,
+            142.20033750000002
+          ],
+          "estimate": 142.20033750000002
+        },
+        "output_tokens": {
+          "ci95": [
+            7584.025000000001,
+            7584.025000000001
+          ],
+          "estimate": 7584.025000000001
+        },
+        "total_tokens": {
+          "ci95": [
+            19754.15,
+            19754.15
+          ],
+          "estimate": 19754.15
+        }
+      },
+      "deployment_calls": 1,
+      "exact_accuracy": {
+        "ci95": [
+          0.409375,
+          0.5572916666666666
+        ],
+        "estimate": 0.48333333333333334
+      },
+      "format_rate": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "estimate": 1.0
+      },
+      "method": "Direct expected",
+      "n_cases": 48,
+      "per_term_accuracy": [
+        {
+          "ci95": [
+            0.5572916666666666,
+            0.6979166666666666
+          ],
+          "estimate": 0.6291666666666667,
+          "position": 1
+        },
+        {
+          "ci95": [
+            0.5302083333333333,
+            0.6791666666666667
+          ],
+          "estimate": 0.6052083333333333,
+          "position": 2
+        },
+        {
+          "ci95": [
+            0.5010416666666667,
+            0.6416666666666667
+          ],
+          "estimate": 0.571875,
+          "position": 3
+        },
+        {
+          "ci95": [
+            0.5,
+            0.6448177083333348
+          ],
+          "estimate": 0.5729166666666666,
+          "position": 4
+        },
+        {
+          "ci95": [
+            0.44895833333333335,
+            0.5875
+          ],
+          "estimate": 0.5177083333333333,
+          "position": 5
+        }
+      ],
+      "reasoning": "Medium reasoning",
+      "term_accuracy": {
+        "ci95": [
+          0.5097916666666666,
+          0.6485416666666667
+        ],
+        "estimate": 0.579375
+      },
+      "tokens_per_exact_correct_case": 3405.8879310344832
+    },
+    {
+      "calls_per_exact_correct_case": 1.1764705882352942,
+      "cost": {
+        "critical_path_latency_ms": {
+          "ci95": [
+            1334798.0,
+            1334798.0
+          ],
+          "estimate": 1334798.0
+        },
+        "input_tokens": {
+          "ci95": [
+            121702.0,
+            121702.0
+          ],
+          "estimate": 121702.0
+        },
+        "model_seconds": {
+          "ci95": [
+            1394.98225,
+            1394.98225
+          ],
+          "estimate": 1394.98225
+        },
+        "output_tokens": {
+          "ci95": [
+            74247.0,
+            74247.0
+          ],
+          "estimate": 74247.0
+        },
+        "total_tokens": {
+          "ci95": [
+            195949.0,
+            195949.0
+          ],
+          "estimate": 195949.0
+        }
+      },
+      "deployment_calls": 10,
+      "exact_accuracy": {
+        "ci95": [
+          0.5833333333333334,
+          0.8333333333333334
+        ],
+        "estimate": 0.7083333333333334
+      },
+      "format_rate": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "estimate": 1.0
+      },
+      "method": "Vote10",
+      "n_cases": 48,
+      "per_term_accuracy": [
+        {
+          "ci95": [
+            0.6666666666666666,
+            0.8958333333333334
+          ],
+          "estimate": 0.7916666666666666,
+          "position": 1
+        },
+        {
+          "ci95": [
+            0.7083333333333334,
+            0.9166666666666666
+          ],
+          "estimate": 0.8125,
+          "position": 2
+        },
+        {
+          "ci95": [
+            0.6458333333333334,
+            0.875
+          ],
+          "estimate": 0.7708333333333334,
+          "position": 3
+        },
+        {
+          "ci95": [
+            0.6875,
+            0.8958333333333334
+          ],
+          "estimate": 0.7916666666666666,
+          "position": 4
+        },
+        {
+          "ci95": [
+            0.5833333333333334,
+            0.8333333333333334
+          ],
+          "estimate": 0.7083333333333334,
+          "position": 5
+        }
+      ],
+      "reasoning": "Medium reasoning",
+      "term_accuracy": {
+        "ci95": [
+          0.6666666666666666,
+          0.875
+        ],
+        "estimate": 0.775
+      },
+      "tokens_per_exact_correct_case": 23052.823529411766
+    },
+    {
+      "calls_per_exact_correct_case": 0.9523809523809523,
+      "cost": {
+        "critical_path_latency_ms": {
+          "ci95": [
+            1123254.0,
+            1123254.0
+          ],
+          "estimate": 1123254.0
+        },
+        "input_tokens": {
+          "ci95": [
+            158489.5,
+            158489.5
+          ],
+          "estimate": 158489.5
+        },
+        "model_seconds": {
+          "ci95": [
+            1123.2540000000001,
+            1123.2540000000001
+          ],
+          "estimate": 1123.2540000000001
+        },
+        "output_tokens": {
+          "ci95": [
+            59267.0,
+            59267.0
+          ],
+          "estimate": 59267.0
+        },
+        "total_tokens": {
+          "ci95": [
+            217756.5,
+            217756.5
+          ],
+          "estimate": 217756.5
+        }
+      },
+      "deployment_calls": 10,
+      "exact_accuracy": {
+        "ci95": [
+          0.7916666666666666,
+          0.9583333333333334
+        ],
+        "estimate": 0.875
+      },
+      "format_rate": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "estimate": 1.0
+      },
+      "method": "Swarm10",
+      "n_cases": 48,
+      "per_term_accuracy": [
+        {
+          "ci95": [
+            0.875,
+            1.0
+          ],
+          "estimate": 0.9375,
+          "position": 1
+        },
+        {
+          "ci95": [
+            0.7916666666666666,
+            0.9583333333333334
+          ],
+          "estimate": 0.875,
+          "position": 2
+        },
+        {
+          "ci95": [
+            0.7916666666666666,
+            0.9583333333333334
+          ],
+          "estimate": 0.875,
+          "position": 3
+        },
+        {
+          "ci95": [
+            0.7916666666666666,
+            0.9583333333333334
+          ],
+          "estimate": 0.875,
+          "position": 4
+        },
+        {
+          "ci95": [
+            0.7916666666666666,
+            0.9583333333333334
+          ],
+          "estimate": 0.875,
+          "position": 5
+        }
+      ],
+      "reasoning": "Medium reasoning",
+      "term_accuracy": {
+        "ci95": [
+          0.8041666666666667,
+          0.9625
+        ],
+        "estimate": 0.8875000000000001
+      },
+      "tokens_per_exact_correct_case": 20738.714285714286
+    },
+    {
+      "calls_per_exact_correct_case": 1.951219512195122,
+      "cost": {
+        "critical_path_latency_ms": {
+          "ci95": [
+            2590554.25,
+            2590554.25
+          ],
+          "estimate": 2590554.25
+        },
+        "input_tokens": {
+          "ci95": [
+            243402.5,
+            243402.5
+          ],
+          "estimate": 243402.5
+        },
+        "model_seconds": {
+          "ci95": [
+            2844.00675,
+            2844.00675
+          ],
+          "estimate": 2844.00675
+        },
+        "output_tokens": {
+          "ci95": [
+            151680.5,
+            151680.5
+          ],
+          "estimate": 151680.5
+        },
+        "total_tokens": {
+          "ci95": [
+            395083.0,
+            395083.0
+          ],
+          "estimate": 395083.0
+        }
+      },
+      "deployment_calls": 20,
+      "exact_accuracy": {
+        "ci95": [
+          0.75,
+          0.9375
+        ],
+        "estimate": 0.8541666666666666
+      },
+      "format_rate": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "estimate": 1.0
+      },
+      "method": "Vote20",
+      "n_cases": 48,
+      "per_term_accuracy": [
+        {
+          "ci95": [
+            0.8125,
+            0.9791666666666666
+          ],
+          "estimate": 0.8958333333333334,
+          "position": 1
+        },
+        {
+          "ci95": [
+            0.8125,
+            0.9791666666666666
+          ],
+          "estimate": 0.8958333333333334,
+          "position": 2
+        },
+        {
+          "ci95": [
+            0.7708333333333334,
+            0.9583333333333334
+          ],
+          "estimate": 0.875,
+          "position": 3
+        },
+        {
+          "ci95": [
+            0.8125,
+            0.9791666666666666
+          ],
+          "estimate": 0.8958333333333334,
+          "position": 4
+        },
+        {
+          "ci95": [
+            0.75,
+            0.9375
+          ],
+          "estimate": 0.8541666666666666,
+          "position": 5
+        }
+      ],
+      "reasoning": "Medium reasoning",
+      "term_accuracy": {
+        "ci95": [
+          0.7958333333333334,
+          0.9583333333333334
+        ],
+        "estimate": 0.8833333333333333
+      },
+      "tokens_per_exact_correct_case": 38544.68292682927
+    },
+    {
+      "calls_per_exact_correct_case": 1.8181818181818181,
+      "cost": {
+        "critical_path_latency_ms": {
+          "ci95": [
+            1758327.5,
+            1758327.5
+          ],
+          "estimate": 1758327.5
+        },
+        "input_tokens": {
+          "ci95": [
+            390619.75,
+            390619.75
+          ],
+          "estimate": 390619.75
+        },
+        "model_seconds": {
+          "ci95": [
+            1851.29775,
+            1851.29775
+          ],
+          "estimate": 1851.29775
+        },
+        "output_tokens": {
+          "ci95": [
+            94313.0,
+            94313.0
+          ],
+          "estimate": 94313.0
+        },
+        "total_tokens": {
+          "ci95": [
+            484932.75,
+            484932.75
+          ],
+          "estimate": 484932.75
+        }
+      },
+      "deployment_calls": 20,
+      "exact_accuracy": {
+        "ci95": [
+          0.8333333333333334,
+          0.9791666666666666
+        ],
+        "estimate": 0.9166666666666666
+      },
+      "format_rate": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "estimate": 1.0
+      },
+      "method": "Tournament20",
+      "n_cases": 48,
+      "per_term_accuracy": [
+        {
+          "ci95": [
+            0.875,
+            1.0
+          ],
+          "estimate": 0.9375,
+          "position": 1
+        },
+        {
+          "ci95": [
+            0.8958333333333334,
+            1.0
+          ],
+          "estimate": 0.9583333333333334,
+          "position": 2
+        },
+        {
+          "ci95": [
+            0.8333333333333334,
+            0.9791666666666666
+          ],
+          "estimate": 0.9166666666666666,
+          "position": 3
+        },
+        {
+          "ci95": [
+            0.875,
+            1.0
+          ],
+          "estimate": 0.9375,
+          "position": 4
+        },
+        {
+          "ci95": [
+            0.8333333333333334,
+            0.9791666666666666
+          ],
+          "estimate": 0.9166666666666666,
+          "position": 5
+        }
+      ],
+      "reasoning": "Medium reasoning",
+      "term_accuracy": {
+        "ci95": [
+          0.8666666666666667,
+          0.9874999999999999
+        ],
+        "estimate": 0.9333333333333332
+      },
+      "tokens_per_exact_correct_case": 44084.795454545456
+    }
+  ],
+  "multiple_testing": {
+    "family": "11 preregistered confirmatory secondary comparisons",
+    "method": "Holm"
+  },
+  "operational_reliability": {
+    "attempt_log_jsonl_present": true,
+    "by_block": {
+      "B01": {
+        "attempts": 100,
+        "infrastructure_failures": 0,
+        "missing_case_records": 0,
+        "resource_warnings": 0,
+        "timeouts": 0
+      },
+      "B02": {
+        "attempts": 100,
+        "infrastructure_failures": 0,
+        "missing_case_records": 0,
+        "resource_warnings": 0,
+        "timeouts": 0
+      },
+      "B03": {
+        "attempts": 100,
+        "infrastructure_failures": 0,
+        "missing_case_records": 0,
+        "resource_warnings": 0,
+        "timeouts": 0
+      },
+      "B04": {
+        "attempts": 100,
+        "infrastructure_failures": 0,
+        "missing_case_records": 0,
+        "resource_warnings": 0,
+        "timeouts": 0
+      }
+    },
+    "by_condition": {
+      "Light reasoning": {
+        "agent_messages": 200,
+        "attempts": 200,
+        "infrastructure_failures": 0,
+        "initial_attempts": 200,
+        "malformed_outputs": 4,
+        "missing_case_records": 0,
+        "retry_attempts": 0,
+        "timeouts": 0,
+        "usage_missing": 0
+      },
+      "Medium reasoning": {
+        "agent_messages": 200,
+        "attempts": 200,
+        "infrastructure_failures": 0,
+        "initial_attempts": 200,
+        "malformed_outputs": 0,
+        "missing_case_records": 0,
+        "retry_attempts": 0,
+        "timeouts": 0,
+        "usage_missing": 0
+      }
+    },
+    "cli_metadata_drift": 0,
+    "codex_cli_version": "codex-cli 0.144.3",
+    "exit_code_counts": {
+      "0": 400
+    },
+    "final_agent_message_present": 400,
+    "frozen_batch_count": 21,
+    "infrastructure_exhausted": 0,
+    "infrastructure_failures": 0,
+    "initial_attempts": 400,
+    "jsonl_parse_failures": 0,
+    "latency_ms": {
+      "maximum": 192703.0,
+      "mean": 84919.4375,
+      "observations": 400,
+      "over_240_seconds": 0
+    },
+    "load_gate_evidence": null,
+    "load_gate_evidence_available": false,
+    "missing_case_records": 0,
+    "model_catalog_verified": null,
+    "model_metadata_drift": 0,
+    "planned_calls": 400,
+    "prompt_identity_drift": 0,
+    "raw_jsonl_captured": 400,
+    "raw_jsonl_missing": 0,
+    "raw_jsonl_present": true,
+    "reasoning_configuration": {
+      "light": {
+        "public_label": "Light reasoning",
+        "reasoning_effort": "low"
+      },
+      "medium": {
+        "public_label": "Medium reasoning",
+        "reasoning_effort": "medium"
+      }
+    },
+    "reasoning_metadata_drift": 0,
+    "requested_model": "gpt-5.6-luna",
+    "resource_warnings": 0,
+    "retry_attempts": 0,
+    "selected_concurrency": 20,
+    "session_resume_count": 0,
+    "substantive_malformed_outputs": 4,
+    "timeouts": 0,
+    "usage_telemetry_missing": 0,
+    "usage_telemetry_present": 400
+  },
+  "primary": {
+    "block_sensitivity": {
+      "block_effect_spread_at_least_30pp": false,
+      "block_effects": {
+        "B01": 0.08333333333333333,
+        "B02": 0.08333333333333333,
+        "B03": 0.0,
+        "B04": 0.08333333333333333
+      },
+      "block_net_wins": {
+        "B01": 1,
+        "B02": 1,
+        "B03": 0,
+        "B04": 1
+      },
+      "block_sensitive": true,
+      "classification_changes_whole_block": true,
+      "direction_changes_leave_one_out": false,
+      "leave_one_block_out": {
+        "B01": 0.05555555555555555,
+        "B02": 0.05555555555555555,
+        "B03": 0.08333333333333333,
+        "B04": 0.05555555555555555
+      },
+      "one_block_at_least_75pct_abs_net": false,
+      "unstratified_ci95": [
+        -0.020833333333333332,
+        0.14583333333333334
+      ],
+      "whole_block_ci90": [
+        0.020833333333333332,
+        0.08333333333333333
+      ],
+      "whole_block_ci95": [
+        0.020833333333333332,
+        0.08333333333333333
+      ],
+      "whole_block_classification": "right superior"
+    },
+    "both_correct": 40,
+    "both_incorrect": 3,
+    "ci90": [
+      0.0,
+      0.14583333333333334
+    ],
+    "ci95": [
+      -0.020833333333333332,
+      0.14583333333333334
+    ],
+    "classification": "inconclusive",
+    "difference": 0.0625,
+    "left": "Medium reasoning Vote20",
+    "mcnemar": {
+      "discordant": 5,
+      "left_only": 1,
+      "p_value": 0.375,
+      "right_only": 4,
+      "test": "exact two-sided McNemar"
+    },
+    "metric": "exact_accuracy",
+    "n_pairs": 48,
+    "right": "Medium reasoning Tournament20",
+    "tournament20_only_wins": 4,
+    "vote20_only_wins": 1
+  },
+  "reasoning_over_routing": {
+    "difference": 0.3333333333333333,
+    "reasoning_lift": 0.34375,
+    "routing_lift": 0.010416666666666666
+  },
+  "schema_version": "experiment-02-analysis-v1",
+  "warnings": []
+}

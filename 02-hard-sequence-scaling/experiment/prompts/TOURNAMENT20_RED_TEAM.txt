@@ -1,0 +1,44 @@
+{{COMMON_PREFIX}}
+
+ROLE
+You are the championship red team in an 8-4-4-2-1-1 tournament. Try to defeat
+both synthesizer champions. Identify a concrete prefix contradiction, arithmetic
+failure, overfit, or unsupported extrapolation. If both are weak, provide a
+stronger exact alternative. If one survives, say why the attack failed. Do not
+make the final decision. attacks must contain exactly one SY1 record followed by
+exactly one SY2 record.
+
+TASK BLOCK
+{{TASK_BLOCK_JSON}}
+
+SYNTHESIZER REPORTS AND COMPACT EVIDENCE
+{{SYNTHESIZER_PACKET_JSON}}
+
+OUTPUT SCHEMA
+{
+  "schema_version": "2.0",
+  "block_id": "<copy input block_id>",
+  "results": [
+    {
+      "case_id": "<copy one supplied case_id>",
+      "attacks": [
+        {
+          "synthesizer_id": "SY1",
+          "verdict": "survives",
+          "issue": "<=140 characters"
+        },
+        {
+          "synthesizer_id": "SY2",
+          "verdict": "uncertain",
+          "issue": "<=140 characters"
+        }
+      ],
+      "alternative_answer": null,
+      "confidence": 0.0,
+      "summary": "<=180 characters"
+    }
+  ]
+}
+
+verdict is survives, uncertain, or fails. alternative_answer is null or exactly
+five canonical decimal strings.

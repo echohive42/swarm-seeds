@@ -1,0 +1,3611 @@
+{
+  "benchmark_id": "ruleweave-5-v1",
+  "cases": [
+    {
+      "bounds": {
+        "max_abs_intermediate": "567980",
+        "max_abs_target": "567980",
+        "max_abs_visible": "17748"
+      },
+      "candidate_count": 6,
+      "candidate_family_counts": {
+        "AFFINE": 3,
+        "LIN2": 3
+      },
+      "case_id": "D01",
+      "distinct_target_predictions": 1,
+      "family": "AFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 6,
+          "candidate_families": [
+            "AFFINE",
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 6,
+          "candidate_families": [
+            "AFFINE",
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 6,
+          "candidate_families": [
+            "AFFINE",
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "23a057a1599bd41a31a49e1596da0c4dac6723f1886e607a2b8bae5b8bf7b831",
+      "semantic_candidate_count": 1,
+      "split": "development",
+      "target_sha256": "91251abe5e747ad68ea29ffbe8bb68c60b0cecc42899f6857e80432f188cf582",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "517",
+        "max_abs_target": "67",
+        "max_abs_visible": "62"
+      },
+      "candidate_count": 2,
+      "candidate_family_counts": {
+        "MODAFFINE": 2
+      },
+      "case_id": "D02",
+      "distinct_target_predictions": 1,
+      "family": "MODAFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "95002bb3b21c94d29eb37149a0d5af3b68c276e302612c4d8daf88e210122daf",
+      "semantic_candidate_count": 1,
+      "split": "development",
+      "target_sha256": "00782ff6cb2a9f0f8ad7b136804c7c7fd94ca18ea9c316ff6ab6e01df80a9d22",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "35",
+        "max_abs_target": "35",
+        "max_abs_visible": "26"
+      },
+      "candidate_count": 5,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1,
+        "LAGPOLY": 3,
+        "PDELTA": 1
+      },
+      "case_id": "D03",
+      "distinct_target_predictions": 1,
+      "family": "LAGPOLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 4,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 4,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 5,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "841c44d1eede65377546ee2a7a9373d9bd7d217447f23ccf5c74115bf9299681",
+      "semantic_candidate_count": 1,
+      "split": "development",
+      "target_sha256": "dc72ad41c78286fc676e663ff40cbdf39e16d9b917061c07c65446c9c7e6e2c8",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "53",
+        "max_abs_target": "53",
+        "max_abs_visible": "15"
+      },
+      "candidate_count": 5,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1,
+        "LAGPOLY": 2,
+        "PDELTA": 2
+      },
+      "case_id": "D04",
+      "distinct_target_predictions": 1,
+      "family": "PDELTA",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 4,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 2,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 4,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 5,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "e3d741feff1ddea0b6e1029d39a952107f493aa2810383ef317c11d1c0826232",
+      "semantic_candidate_count": 1,
+      "split": "development",
+      "target_sha256": "275770ae71d4a971a03ab9065c4ce93a2d2e2ec4ea2b1c4249ff6e4ad61a6ac6",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "30",
+        "max_abs_target": "30",
+        "max_abs_visible": "20"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "LAGPOLY": 1
+      },
+      "case_id": "D05",
+      "distinct_target_predictions": 1,
+      "family": "LAGPOLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 0,
+          "candidate_families": [],
+          "distinct_target_predictions": 0,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "fea7a367e6a37126f59c4450832672313fb6895ab726f6933bda1fc0a86913a9",
+      "semantic_candidate_count": 1,
+      "split": "development",
+      "target_sha256": "25d671a7e95387a57ec89d1ece23dbc1df72056c4d5b8e9f7ae68112cf8cf53f",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "25704",
+        "max_abs_target": "19237",
+        "max_abs_visible": "2554"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "POLY": 1
+      },
+      "case_id": "D06",
+      "distinct_target_predictions": 1,
+      "family": "POLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "3560121b232ac091df56bce7dd6af0579c4d5d7421efaef1275582977dcac99c",
+      "semantic_candidate_count": 1,
+      "split": "development",
+      "target_sha256": "18f6f48e4393a4519bc07e44d2bafcf310e10e36ac351e4621d763f102675460",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "5882",
+        "max_abs_target": "2941",
+        "max_abs_visible": "739"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "LIN2": 1
+      },
+      "case_id": "D07",
+      "distinct_target_predictions": 1,
+      "family": "LIN2",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "36f96ee03364430460a32c3053f00088ee955ede88fc040efadca1ddc71ae4a0",
+      "semantic_candidate_count": 1,
+      "split": "development",
+      "target_sha256": "bad3f107172d91c91c40a9d52bbc7c88273c2f0f7ac8ad463154d5523a9b5694",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "31",
+        "max_abs_target": "31",
+        "max_abs_visible": "22"
+      },
+      "candidate_count": 6,
+      "candidate_family_counts": {
+        "GROWBLOCK": 6
+      },
+      "case_id": "D08",
+      "distinct_target_predictions": 1,
+      "family": "GROWBLOCK",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 8,
+          "candidate_families": [
+            "GROWBLOCK",
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 3,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 6,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 6,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "f3b49ef1a74dd78c2c6d5bf21883344de27b3ab9dfd724d7aa78736677493058",
+      "semantic_candidate_count": 1,
+      "split": "development",
+      "target_sha256": "b4fa719ed4125b46871af2527cfdcce88a141ddfe125ba447c1589c26da4d643",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "70",
+        "max_abs_target": "52",
+        "max_abs_visible": "27"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1
+      },
+      "case_id": "D09",
+      "distinct_target_predictions": 1,
+      "family": "INTERLEAVE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "e3c2053ed95988736ab18f1f05d83ab7dbabb85ce9249a75cb32a7662cd8a7cc",
+      "semantic_candidate_count": 1,
+      "split": "development",
+      "target_sha256": "41b96d5948013559e1ea87058dbd9d38d3127419e504286d918bdc4ada7ab679",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "612220032",
+        "max_abs_target": "612220032",
+        "max_abs_visible": "3779137"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "AFFINE": 1
+      },
+      "case_id": "D10",
+      "distinct_target_predictions": 1,
+      "family": "AFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "0b3011a937cc120ba61ce966b20eeb86e5a0bec57847b0ece458ca819be826c2",
+      "semantic_candidate_count": 1,
+      "split": "development",
+      "target_sha256": "89b87b5a033a066a87c1559edb75cc40e48df320fe5fa20bb173a1358f351e42",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "169",
+        "max_abs_target": "169",
+        "max_abs_visible": "120"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "GROWBLOCK": 1
+      },
+      "case_id": "D11",
+      "distinct_target_predictions": 1,
+      "family": "GROWBLOCK",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "a96ff1fa60b2d80d901bab542972ed048ab5d60e38fc04d24d7098358aae06f6",
+      "semantic_candidate_count": 1,
+      "split": "development",
+      "target_sha256": "7ebaa369295fc99e31a83dfba7e2f898a803dfb541fc538bcf346472208ab57e",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "1232",
+        "max_abs_target": "1232",
+        "max_abs_visible": "492"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "POLY": 1
+      },
+      "case_id": "D12",
+      "distinct_target_predictions": 1,
+      "family": "POLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "1c8404f6e90a0106a0dc21bf0a1ae5ed4d92eccbaf2b97e94c15fd9537e0b7e4",
+      "semantic_candidate_count": 1,
+      "split": "development",
+      "target_sha256": "3244bc55d8e8642d8fc516aa57f9bc3aab4184c934a7f3c479ba9f6f494d456a",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "456307",
+        "max_abs_target": "456307",
+        "max_abs_visible": "14278"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "LIN2": 1
+      },
+      "case_id": "C01",
+      "distinct_target_predictions": 1,
+      "family": "LIN2",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "013f9d23db860dd4274582a7042a105efddfbef2ecf7c25899e9487b57e2bf1e",
+      "semantic_candidate_count": 1,
+      "split": "calibration",
+      "target_sha256": "893a641653ac9f5c95cfa74b7bb6f6dba6e6e677135be44f17e7a5c1e3ead117",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "57",
+        "max_abs_target": "57",
+        "max_abs_visible": "31"
+      },
+      "candidate_count": 3,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1,
+        "LAGPOLY": 2
+      },
+      "case_id": "C02",
+      "distinct_target_predictions": 1,
+      "family": "LAGPOLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "3e0716e434089c8280b0a23f029dbabdea861521393acb7a04f6933fe29090a0",
+      "semantic_candidate_count": 1,
+      "split": "calibration",
+      "target_sha256": "9a0837c799b47a2a24a0783b07050a51917e9908950e40aca76732a94faae814",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "62",
+        "max_abs_target": "62",
+        "max_abs_visible": "39"
+      },
+      "candidate_count": 5,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1,
+        "LIN2": 1,
+        "PDELTA": 3
+      },
+      "case_id": "C03",
+      "distinct_target_predictions": 1,
+      "family": "PDELTA",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 4,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LIN2",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 6,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LIN2",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 2,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 5,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LIN2",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "25d726310929dcb8a71344886dc3159e744041616249c5ccaf727e18cbedd345",
+      "semantic_candidate_count": 1,
+      "split": "calibration",
+      "target_sha256": "4e7f0c30a1d2d2676e041303abb3e72d139cffc46a5ca69ac8cf96335fe99f52",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "3327",
+        "max_abs_target": "1663",
+        "max_abs_visible": "415"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1
+      },
+      "case_id": "C04",
+      "distinct_target_predictions": 1,
+      "family": "INTERLEAVE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "ede2463fe22d0aabbfcdea5a9f0852a9d7ac2179d0dd62e5b78bd4372c20b3a8",
+      "semantic_candidate_count": 1,
+      "split": "calibration",
+      "target_sha256": "f7b41994e99523318e1dccdb02436b1d8d493933607f223e3c8b07fd3e7af70e",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "832",
+        "max_abs_target": "81",
+        "max_abs_visible": "123"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "MODAFFINE": 1
+      },
+      "case_id": "C05",
+      "distinct_target_predictions": 1,
+      "family": "MODAFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "6162f183e82225e80ced2ea8e14786ecab8fe6c1ac6994b6c235e2069729e6fe",
+      "semantic_candidate_count": 1,
+      "split": "calibration",
+      "target_sha256": "6ced22f78390abd2b5571b39cc00eb4b506f6c0ec05b9eecf843211ddadb7658",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "139",
+        "max_abs_target": "139",
+        "max_abs_visible": "57"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "PDELTA": 1
+      },
+      "case_id": "C06",
+      "distinct_target_predictions": 1,
+      "family": "PDELTA",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 0,
+          "candidate_families": [],
+          "distinct_target_predictions": 0,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 0,
+          "candidate_families": [],
+          "distinct_target_predictions": 0,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "2928a7181dbec8bdcafb5db1890d253321c915d824c2ab7b2534e47951d95d12",
+      "semantic_candidate_count": 1,
+      "split": "calibration",
+      "target_sha256": "8bbab02f2b1c780e2aca46e2aaac6e3e7a0b78c3d0d04eff9c598a369f20e1b0",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "105",
+        "max_abs_target": "105",
+        "max_abs_visible": "80"
+      },
+      "candidate_count": 2,
+      "candidate_family_counts": {
+        "GROWBLOCK": 2
+      },
+      "case_id": "C07",
+      "distinct_target_predictions": 1,
+      "family": "GROWBLOCK",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "5afce87af1b57c7799521fa60207e0d4be329ef94380e1ca6dd81025a826092b",
+      "semantic_candidate_count": 1,
+      "split": "calibration",
+      "target_sha256": "f2a1b6bea047f044c875ff69e9cb7117b3c6b2e23a36affb5f80d31ebdd123ba",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "1688",
+        "max_abs_target": "1076",
+        "max_abs_visible": "212"
+      },
+      "candidate_count": 3,
+      "candidate_family_counts": {
+        "LIN2": 3
+      },
+      "case_id": "C08",
+      "distinct_target_predictions": 1,
+      "family": "LIN2",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "44a716e4050706678f2110434022a723bd38131b0d668d0677a116c14ccbdc1b",
+      "semantic_candidate_count": 1,
+      "split": "calibration",
+      "target_sha256": "9842a6771f68bdda0e4afd3f9d883a133aeb97682dbfd54f40564c0de694f7cb",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "80376",
+        "max_abs_target": "80376",
+        "max_abs_visible": "8934"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "AFFINE": 1
+      },
+      "case_id": "C09",
+      "distinct_target_predictions": 1,
+      "family": "AFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "88e3555d004db86baf500e10adb9f41e546ab9a95f9e80e2c1f76195472eae9a",
+      "semantic_candidate_count": 1,
+      "split": "calibration",
+      "target_sha256": "d27c075f20fdeac729af0d266e1e842c8230975d511f6df162e733a4e5604b18",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "325",
+        "max_abs_target": "26",
+        "max_abs_visible": "39"
+      },
+      "candidate_count": 2,
+      "candidate_family_counts": {
+        "MODAFFINE": 2
+      },
+      "case_id": "C10",
+      "distinct_target_predictions": 1,
+      "family": "MODAFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "e297b991d235372fc39f6e6172e641270e08a9b227224dc9fed035d2f1581ea4",
+      "semantic_candidate_count": 1,
+      "split": "calibration",
+      "target_sha256": "70b95fc9e899cd87e6743689181c757f9d1c635966aa7cc21e121c38cd7def16",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "1036",
+        "max_abs_target": "518",
+        "max_abs_visible": "134"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1
+      },
+      "case_id": "C11",
+      "distinct_target_predictions": 1,
+      "family": "INTERLEAVE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "3a1153116d1cdc74ac1383c2e5c41aa4d5474afd40766e7c5f59615969ec442d",
+      "semantic_candidate_count": 1,
+      "split": "calibration",
+      "target_sha256": "076cd210fa5aa3b0ea9a5ab66188108499e99d3aeb08894881e02951efb5e8e1",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "9913",
+        "max_abs_target": "9913",
+        "max_abs_visible": "1943"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "POLY": 1
+      },
+      "case_id": "C12",
+      "distinct_target_predictions": 1,
+      "family": "POLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "5205fa807b2440c61db4cd52999fcb9fb57ce814609e4106c5dbf1c8451c16d4",
+      "semantic_candidate_count": 1,
+      "split": "calibration",
+      "target_sha256": "73083c99a7e476cd5bc4d84767a6170e7fd5ffd2a496f064ec5fde031c47879d",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "200",
+        "max_abs_target": "200",
+        "max_abs_visible": "99"
+      },
+      "candidate_count": 2,
+      "candidate_family_counts": {
+        "PDELTA": 2
+      },
+      "case_id": "F001",
+      "distinct_target_predictions": 1,
+      "family": "PDELTA",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "a5b808045be6441e1f3c202db0fc38289052c6b5edce6fdbdc7dab7fbecbb01f",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "7f8ba000be88bd421f6bcaebc85d8902d0d5de91ce6af158434fda4b1aa02e1e",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "516560651",
+        "max_abs_target": "516560651",
+        "max_abs_visible": "2125763"
+      },
+      "candidate_count": 3,
+      "candidate_family_counts": {
+        "AFFINE": 3
+      },
+      "case_id": "F002",
+      "distinct_target_predictions": 1,
+      "family": "AFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "1993fa8f84f67f0b9b7c8f145a50b86e8790da436230c8b753418db4ac7f1d98",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "63e07c7fa6dd215c6fcb0e4372f87a9556f6431b4a19fc44961bce435a2fce70",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "11900",
+        "max_abs_target": "11414",
+        "max_abs_visible": "2359"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "POLY": 1
+      },
+      "case_id": "F003",
+      "distinct_target_predictions": 1,
+      "family": "POLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "1ac348b316b2efb044e9de013e295c2227a1cddaa3505ff2fe29d71afcbf8aa3",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "4872fe4ac15c3086746cc7e1225078ff4b77a7ede35629b4e48b3ba22c657359",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "564",
+        "max_abs_target": "345",
+        "max_abs_visible": "82"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "LIN2": 1
+      },
+      "case_id": "F004",
+      "distinct_target_predictions": 1,
+      "family": "LIN2",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "0314e20022925a14c6807c7205a1e612ac3b8206ca3e9fb5bc2f86d692dd2ece",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "39be6ff49b8132afbc5ab759b587d64f93effb5b179b033287a982686521b809",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "17136",
+        "max_abs_target": "12669",
+        "max_abs_visible": "937"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "POLY": 1
+      },
+      "case_id": "F005",
+      "distinct_target_predictions": 1,
+      "family": "POLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "ffa179018f8b5b2dbf7abf83e4e4e7ec5b19058aa047eae866a6eb19f1e2fa0c",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "6e34ccc85b63642aa4f5161ae30371a010cc49caa37163fb3c8eaf96b39b333d",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "72559419",
+        "max_abs_target": "72559413",
+        "max_abs_visible": "671849"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "AFFINE": 1
+      },
+      "case_id": "F006",
+      "distinct_target_predictions": 1,
+      "family": "AFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "d14918c4ff7f2058431a76cfd7dc03bfeb72e662fc536f621fb67f0fe1e9b4dd",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "e30068d471f4ddf0a6bc1237b7e64e36e9d200690eb64c18d35dea8cb4d94c3c",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "107",
+        "max_abs_target": "107",
+        "max_abs_visible": "28"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "PDELTA": 1
+      },
+      "case_id": "F007",
+      "distinct_target_predictions": 1,
+      "family": "PDELTA",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 0,
+          "candidate_families": [],
+          "distinct_target_predictions": 0,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 0,
+          "candidate_families": [],
+          "distinct_target_predictions": 0,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "46e85b806bd741810642c8b5c797e86d501a3f401b8b58eacbb7066af652699b",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "58f9d511392ee2a932a0da07c95b8ffd7c662561c7715c1501baf336452f89d3",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "29847806",
+        "max_abs_target": "29847806",
+        "max_abs_visible": "196098"
+      },
+      "candidate_count": 3,
+      "candidate_family_counts": {
+        "LIN2": 3
+      },
+      "case_id": "F008",
+      "distinct_target_predictions": 1,
+      "family": "LIN2",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "36759d7cf5a928321854946e87175012396d93960220f43325fd1641cd3fc3d4",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "eb29861fd186d0c97acc303bcc3a149ee89e3c1073e3288f972bcc13dd1d2170",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "7256683774",
+        "max_abs_target": "7256683774",
+        "max_abs_visible": "29862897"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "AFFINE": 1
+      },
+      "case_id": "F009",
+      "distinct_target_predictions": 1,
+      "family": "AFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "60679673de663fb390e2679af652c558a9c45ec4b4243f9b9b1da73360c45cef",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "54008876be9bdea703af1f99865735f4e6fa12f780db3c346a7cb5db7c46ee90",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "7776",
+        "max_abs_target": "3888",
+        "max_abs_visible": "976"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "LIN2": 1
+      },
+      "case_id": "F010",
+      "distinct_target_predictions": 1,
+      "family": "LIN2",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "3d5d158a26b8054e8a5dcea1212f0061de4347f021a93e373374dcbc2bba2800",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "629991c644086b5ecffd1733982525b3cf5b49522a6c22de86114dd711415c10",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "83",
+        "max_abs_target": "83",
+        "max_abs_visible": "61"
+      },
+      "candidate_count": 5,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1,
+        "LIN2": 1,
+        "PDELTA": 3
+      },
+      "case_id": "F011",
+      "distinct_target_predictions": 1,
+      "family": "PDELTA",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 4,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LIN2",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 6,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LIN2",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 2,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 5,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LIN2",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "5b670882c52998223dffcab3cb2d5dbfebd180aa5aa362f2ef40bcfdb7495410",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "b4f0fd7a55baf3e778bd04607f4bc3362e469530c27a2b24a7e29f78cc839bae",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "1120",
+        "max_abs_target": "570",
+        "max_abs_visible": "90"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "POLY": 1
+      },
+      "case_id": "F012",
+      "distinct_target_predictions": 1,
+      "family": "POLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "aa2e49b261a7d86d8b3489ae5e802702b1dd41affe8ff7a311fe86d36ce1d68e",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "87614c517272139836bc5dafd4579adde4bd3754fcc8e9219b9564a73571cd12",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "89",
+        "max_abs_target": "89",
+        "max_abs_visible": "52"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "GROWBLOCK": 1
+      },
+      "case_id": "F013",
+      "distinct_target_predictions": 1,
+      "family": "GROWBLOCK",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "GROWBLOCK",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 2,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "6255fd1e1a89183f9a3da0b43420f59e7de0b11963824c238293e83999617053",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "0dca8e052db61fe844955e7fcb1eb8d576d9cdb1b38e646ce9067777a2588cc3",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "335",
+        "max_abs_target": "335",
+        "max_abs_visible": "114"
+      },
+      "candidate_count": 2,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1,
+        "LAGPOLY": 1
+      },
+      "case_id": "F014",
+      "distinct_target_predictions": 1,
+      "family": "LAGPOLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "dac383f35634326f3f2cbad7c4abbf1560184a677e747f0f8438c2d3c185f206",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "c96ecc4c44ee7131eb6d2d8cf888789ad6dd5b3786be22ee6abd2d8528629133",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "1100",
+        "max_abs_target": "1094",
+        "max_abs_visible": "278"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1
+      },
+      "case_id": "F015",
+      "distinct_target_predictions": 1,
+      "family": "INTERLEAVE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "f4819ba1f886f58028600961bc9ea7b59005662800a1914849a52fe63751f352",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "cb0ea8b54b313f5e5e8cb2de1f8e0631a2c0d1a3f8ec6948a83eba89cf210e84",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "40",
+        "max_abs_target": "40",
+        "max_abs_visible": "25"
+      },
+      "candidate_count": 3,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1,
+        "LAGPOLY": 2
+      },
+      "case_id": "F016",
+      "distinct_target_predictions": 1,
+      "family": "LAGPOLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "1298763f992b31243ccc6598b29445f09c149e24a46cf4de740e60fa66d3800b",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "9e829c4b246dfea07b254b4d3dc9105fa5cd71d630518aac1ffc2e15a34b2bba",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "20",
+        "max_abs_target": "17",
+        "max_abs_visible": "10"
+      },
+      "candidate_count": 6,
+      "candidate_family_counts": {
+        "GROWBLOCK": 6
+      },
+      "case_id": "F017",
+      "distinct_target_predictions": 1,
+      "family": "GROWBLOCK",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 7,
+          "candidate_families": [
+            "GROWBLOCK",
+            "INTERLEAVE",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 4,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 6,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 6,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "7ee30b19a531fa25053e9cc7059d00b96febffb80be1792a053eef333d5579e7",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "d39ce5d077d3f928a6c2a73318eb477ea6a18908ad7d57758807a19f296a4695",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "24",
+        "max_abs_target": "24",
+        "max_abs_visible": "14"
+      },
+      "candidate_count": 4,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1,
+        "LAGPOLY": 3
+      },
+      "case_id": "F018",
+      "distinct_target_predictions": 1,
+      "family": "LAGPOLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 4,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "209bb80e2da6b5ab9ab8141c9731690bff62e9128f7802eb674c4e7aaffea833",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "e5653584e066ae2a80de1330e7fed688b287a3ba3c188e220b0e32d538b1d652",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "35",
+        "max_abs_target": "27",
+        "max_abs_visible": "19"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1
+      },
+      "case_id": "F019",
+      "distinct_target_predictions": 1,
+      "family": "INTERLEAVE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "107ae3430b73d62b8028df7c1997c19b675f59ee2fa21bbe731d706673595c8c",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "c6d7b35e187ba1dfa2d6ed66b4532694f4284191c33ff70c14b489af823a9b12",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "197",
+        "max_abs_target": "66",
+        "max_abs_visible": "69"
+      },
+      "candidate_count": 2,
+      "candidate_family_counts": {
+        "MODAFFINE": 2
+      },
+      "case_id": "F020",
+      "distinct_target_predictions": 1,
+      "family": "MODAFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "a93ade93e029066e9158588cf5b3b7eae7e2f118a09547d03126de79ed87e59b",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "3f3f47ec1de71a523ae415ce21d05494059b8f5ed5265864c1d5ed1011c76dcc",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "222",
+        "max_abs_target": "40",
+        "max_abs_visible": "38"
+      },
+      "candidate_count": 2,
+      "candidate_family_counts": {
+        "MODAFFINE": 2
+      },
+      "case_id": "F021",
+      "distinct_target_predictions": 1,
+      "family": "MODAFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "310593b686e1b2024a96e597be506b8f9ac03c692e60374c9a94cc973b3f20eb",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "e5266c3c78a959990c9aa577af91b6fcb761d687e1a5f1f84022e6842b835e52",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "66",
+        "max_abs_target": "50",
+        "max_abs_visible": "24"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1
+      },
+      "case_id": "F022",
+      "distinct_target_predictions": 1,
+      "family": "INTERLEAVE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 3,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "e689f220387a20cce6e8d41b6665db7afe719e4aaa52398a0ad8e8b27f1b81dd",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "92f801cbc0fd33bc8d2b3109ff6f07351f8e6655ea52fab23acec4d34bfb892c",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "136",
+        "max_abs_target": "132",
+        "max_abs_visible": "81"
+      },
+      "candidate_count": 2,
+      "candidate_family_counts": {
+        "GROWBLOCK": 2
+      },
+      "case_id": "F023",
+      "distinct_target_predictions": 1,
+      "family": "GROWBLOCK",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "501837fa1334a99faaa0eb1332ff47e133dc0846f2175a707c46c61c34293b0f",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "1611d3d7c62efa6d59e5c1f1ea9838a6521201f03ebb106d9151d06f57b974de",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "644",
+        "max_abs_target": "101",
+        "max_abs_visible": "99"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "MODAFFINE": 1
+      },
+      "case_id": "F024",
+      "distinct_target_predictions": 1,
+      "family": "MODAFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "8bc54df91e4a4a318f2e768e46d4b4e286ddfc48d5b6a74ee1a6d62601fad4f4",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "855e7f550c99f3304b2cb0e2056829d849abbdb74408aa060e3681a9cb053f15",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "87383",
+        "max_abs_target": "87383",
+        "max_abs_visible": "2729"
+      },
+      "candidate_count": 6,
+      "candidate_family_counts": {
+        "AFFINE": 3,
+        "LIN2": 3
+      },
+      "case_id": "F025",
+      "distinct_target_predictions": 1,
+      "family": "AFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 6,
+          "candidate_families": [
+            "AFFINE",
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 6,
+          "candidate_families": [
+            "AFFINE",
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 6,
+          "candidate_families": [
+            "AFFINE",
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "84cab04da0905e37455f3add077a3cdb8e41a7b6fdc44391669affa6a68ab1ad",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "105bff723e881ec1e0941dc346c6c2516e0900bd0e18e55847cbd4043e262d83",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "8734012",
+        "max_abs_target": "8734007",
+        "max_abs_visible": "121310"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "AFFINE": 1
+      },
+      "case_id": "F026",
+      "distinct_target_predictions": 1,
+      "family": "AFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "c5e4dc69804806633239cee3c759b31800258c94b6bbe19d78319b2894e294de",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "f3fc2005d82d581a30883ef5d36f531dabb9531d08355ea729b3b01a73fae74e",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "58",
+        "max_abs_target": "58",
+        "max_abs_visible": "41"
+      },
+      "candidate_count": 5,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1,
+        "LIN2": 1,
+        "PDELTA": 3
+      },
+      "case_id": "F027",
+      "distinct_target_predictions": 1,
+      "family": "PDELTA",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 4,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LIN2",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 6,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LIN2",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 2,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 5,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LIN2",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "b4058cc620a10d9eab863b70079ce67580348b6560493a7cca2ce1fce2619d73",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "45ff50438e5505e71e381dfa8a72c73d036d8c858f7fc97a7a21451a0c800848",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "59976",
+        "max_abs_target": "58553",
+        "max_abs_visible": "9646"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "POLY": 1
+      },
+      "case_id": "F028",
+      "distinct_target_predictions": 1,
+      "family": "POLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "6924d3be65d8ed7c450d5d4a1deaff1eebaac18afb2120cfe2e299ff94b1560c",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "b7ef0828f9d6327b7f7332aaae92e51dfcaa7dbcf0079029b9ff4c938d21bc82",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "2038",
+        "max_abs_target": "1116",
+        "max_abs_visible": "682"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "LIN2": 1
+      },
+      "case_id": "F029",
+      "distinct_target_predictions": 1,
+      "family": "LIN2",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "9d92862f53e85e1d7d5c88ba9c2cc521ae2da77ea4c10313301e7dc2e15b9e02",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "c011c42fc5c5415cd9d8314bd2d1f6e0c5344aa1eab73c90e0d7574a602f506b",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "1256",
+        "max_abs_target": "707",
+        "max_abs_visible": "358"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "LIN2": 1
+      },
+      "case_id": "F030",
+      "distinct_target_predictions": 1,
+      "family": "LIN2",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "4c5e7064d5a05047ac8b6268597c9a07dae142a6e290bb9506847d0fdf155ca8",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "ab7a1bbbeb003ea85070f1b52265bd5a2601ba862c13b232d7788bb23af06a3f",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "158056805",
+        "max_abs_target": "158056805",
+        "max_abs_visible": "975661"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "AFFINE": 1
+      },
+      "case_id": "F031",
+      "distinct_target_predictions": 1,
+      "family": "AFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "AFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "88a2b4ddf3d0196da119bce03aa365db552deb58ea6ef104b14d90e1e25a647c",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "edc32d523fbf4b76081579ea71eb92226245b2fa358f15c9a7124bf00a9dc74a",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "64",
+        "max_abs_target": "64",
+        "max_abs_visible": "29"
+      },
+      "candidate_count": 2,
+      "candidate_family_counts": {
+        "PDELTA": 2
+      },
+      "case_id": "F032",
+      "distinct_target_predictions": 1,
+      "family": "PDELTA",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "b2bea7d981dd66e505a29f2c05604f3feb75703a277f08564e776dee3df18ef6",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "09dcf1715f00c156520606049807a853b0393712132c4b3379cd9779981c3516",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "12183",
+        "max_abs_target": "12183",
+        "max_abs_visible": "3133"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "POLY": 1
+      },
+      "case_id": "F033",
+      "distinct_target_predictions": 1,
+      "family": "POLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "2c3e803149c3e2f8b3007f92d62db2390c3b5372ba9b45f7ac6b674d8e6ddf26",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "7d27393c3fcc32f112c9095c6a73d77dd9ef96a205f077730932ce61e5ecc05f",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "24",
+        "max_abs_target": "16",
+        "max_abs_visible": "24"
+      },
+      "candidate_count": 2,
+      "candidate_family_counts": {
+        "PDELTA": 2
+      },
+      "case_id": "F034",
+      "distinct_target_predictions": 1,
+      "family": "PDELTA",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 2,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "8e9372e1fe5f46d5ef08010fa6ea9c2c87dceb33a75ec99b5884b6ba25cc1138",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "1859868d8a5355cd8519a47df1e367d4b500e59fdd953863aba281ff3ebd5ba4",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "2240",
+        "max_abs_target": "2230",
+        "max_abs_visible": "655"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "POLY": 1
+      },
+      "case_id": "F035",
+      "distinct_target_predictions": 1,
+      "family": "POLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "POLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "3875ce4b809e7c74ba65d095b5139c7675d834febc4409755a60e37aa3f0ba6d",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "e3e20309b8d2b34f35b75c3e0910fd8c039ba0766a58cb11cd6dacbb3477776f",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "3978",
+        "max_abs_target": "3978",
+        "max_abs_visible": "355"
+      },
+      "candidate_count": 3,
+      "candidate_family_counts": {
+        "LIN2": 3
+      },
+      "case_id": "F036",
+      "distinct_target_predictions": 1,
+      "family": "LIN2",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "LIN2"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "73b7d85be747381243a2a5ca178322e888745e1632ef36534636210a85e36b12",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "91a29a9e47c8bdbcb67b35ab278e5322bcb0d854e9c1fd02bd92f4d93649659c",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "2308",
+        "max_abs_target": "1154",
+        "max_abs_visible": "290"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1
+      },
+      "case_id": "F037",
+      "distinct_target_predictions": 1,
+      "family": "INTERLEAVE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 2,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "0fc91e6db08fda08bac51ad71aca4eb74fe1c2e24e37d43f3b72f7158aabaf48",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "d2d2ed84f5818603d196706da572861e5e5110765c82f22348ac9a225aad71a5",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "530",
+        "max_abs_target": "39",
+        "max_abs_visible": "85"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "MODAFFINE": 1
+      },
+      "case_id": "F038",
+      "distinct_target_predictions": 1,
+      "family": "MODAFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "75c93a16485dabf1b6dd397ed62d958e9a901e0ef04a62f275f7e077bb4e08cb",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "9ea9b8d812f727f605306c1c4cf459800320ce7b2de71482ef44e4f1c4ba1df8",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "180",
+        "max_abs_target": "180",
+        "max_abs_visible": "105"
+      },
+      "candidate_count": 2,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1,
+        "LAGPOLY": 1
+      },
+      "case_id": "F039",
+      "distinct_target_predictions": 1,
+      "family": "LAGPOLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "19799c60a3ebbc6dda8dba6215a78a0d59ca35d56e2b2080f36a8be6da466986",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "d9a2b2d1403cc31f6ea273655af443dfc55c2b53d6802a443b23e9ad86e19158",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "718",
+        "max_abs_target": "66",
+        "max_abs_visible": "75"
+      },
+      "candidate_count": 2,
+      "candidate_family_counts": {
+        "MODAFFINE": 2
+      },
+      "case_id": "F040",
+      "distinct_target_predictions": 1,
+      "family": "MODAFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "4f4c1e0cb5544e057142b070a0534d1e3bf78d746c54739838d9bc7667a56be6",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "3ce696fcddf3fde26db085a3a17b9f6b9e00d1559feb77bfc9dca2d2e8c5cc75",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "54",
+        "max_abs_target": "54",
+        "max_abs_visible": "35"
+      },
+      "candidate_count": 3,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1,
+        "LAGPOLY": 2
+      },
+      "case_id": "F041",
+      "distinct_target_predictions": 1,
+      "family": "LAGPOLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 3,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "b31858091a1fc389611b56c026835887e84aff2256f7a7b018725715b8100b7f",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "ee991fe4e69adeaa6a5ffbf93d2ac9471fb70c9c27814db65cb997e33f0f6501",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "196",
+        "max_abs_target": "196",
+        "max_abs_visible": "119"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "GROWBLOCK": 1
+      },
+      "case_id": "F042",
+      "distinct_target_predictions": 1,
+      "family": "GROWBLOCK",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "dab1d7100b53e4b29e49b004d43c732a227b36a2ba283588f3f8b95f0cf87c1f",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "940bf32dfda41024c8615cfd24edc284e3d2aa5c9f839921d8704f6ddd461926",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "39",
+        "max_abs_target": "39",
+        "max_abs_visible": "29"
+      },
+      "candidate_count": 4,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1,
+        "LAGPOLY": 2,
+        "PDELTA": 1
+      },
+      "case_id": "F043",
+      "distinct_target_predictions": 1,
+      "family": "LAGPOLY",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 4,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 4,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 4,
+          "candidate_families": [
+            "INTERLEAVE",
+            "LAGPOLY",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "3aca73a9159f55c7a50f804b8e002b2c38e5e7b3b79a7543a08bc27e9927328c",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "91d497ff6130e2f0e88bf8765510b298144a099ee27c8d1db25fdae23377a43a",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "56",
+        "max_abs_target": "33",
+        "max_abs_visible": "32"
+      },
+      "candidate_count": 2,
+      "candidate_family_counts": {
+        "GROWBLOCK": 2
+      },
+      "case_id": "F044",
+      "distinct_target_predictions": 1,
+      "family": "GROWBLOCK",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 4,
+          "candidate_families": [
+            "GROWBLOCK",
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 2,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "aa8855a9e1113a90850fb5186251f89b6f8b964cbc4de9c0f5654e54425019cc",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "91eef611089db4e7f43960c9bb9b8751500e3a4979c5717df554590930a06ee8",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "25",
+        "max_abs_target": "25",
+        "max_abs_visible": "19"
+      },
+      "candidate_count": 6,
+      "candidate_family_counts": {
+        "GROWBLOCK": 6
+      },
+      "case_id": "F045",
+      "distinct_target_predictions": 1,
+      "family": "GROWBLOCK",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 8,
+          "candidate_families": [
+            "GROWBLOCK",
+            "INTERLEAVE",
+            "LAGPOLY"
+          ],
+          "distinct_target_predictions": 2,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 7,
+          "candidate_families": [
+            "GROWBLOCK",
+            "PDELTA"
+          ],
+          "distinct_target_predictions": 2,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 6,
+          "candidate_families": [
+            "GROWBLOCK"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "bec22e7c6302137e13342a6bc4b1cc262ae3a32cec34df21e8daa3fc0ac4a560",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "97bb3d98ea026df3ee1a18b6f0f31e79492000cec81d6b9ea5f2306fdf5c39a2",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "84",
+        "max_abs_target": "23",
+        "max_abs_visible": "28"
+      },
+      "candidate_count": 2,
+      "candidate_family_counts": {
+        "MODAFFINE": 2
+      },
+      "case_id": "F046",
+      "distinct_target_predictions": 1,
+      "family": "MODAFFINE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 8
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 2,
+          "candidate_families": [
+            "MODAFFINE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        }
+      ],
+      "program_sha256": "35955cfec9083fe1f44dbda4aaf71d22e93228a887f0a996cef9af2aca54e9a0",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "9ce08bf71276db5f8b5bb37152a5c1cfaa32ad388d0d84b71043b1e160870969",
+      "tier": "hard",
+      "unique_next_five": true,
+      "visible_count": 12
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "793",
+        "max_abs_target": "793",
+        "max_abs_visible": "193"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1
+      },
+      "case_id": "F047",
+      "distinct_target_predictions": 1,
+      "family": "INTERLEAVE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 9
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 11
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 13
+        }
+      ],
+      "program_sha256": "84db4f01360c3513e24000d09b60d3aea3f5e0119aa298e80a0aaaa9e07c5f41",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "971d401d8af9bdc9a3c221587e144b5eac4d002c7735d17443087ae6a8c6734f",
+      "tier": "very-hard",
+      "unique_next_five": true,
+      "visible_count": 13
+    },
+    {
+      "bounds": {
+        "max_abs_intermediate": "768",
+        "max_abs_target": "384",
+        "max_abs_visible": "192"
+      },
+      "candidate_count": 1,
+      "candidate_family_counts": {
+        "INTERLEAVE": 1
+      },
+      "case_id": "F048",
+      "distinct_target_predictions": 1,
+      "family": "INTERLEAVE",
+      "intended_semantics_present": true,
+      "lower_tier_candidate_count": 0,
+      "probes": [
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 10
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 12
+        },
+        {
+          "candidate_count": 1,
+          "candidate_families": [
+            "INTERLEAVE"
+          ],
+          "distinct_target_predictions": 1,
+          "prefix_length": 14
+        }
+      ],
+      "program_sha256": "3cd799de5f506d1ad3ad52cffb57cfdfa658a228ccb4be871463213c70b35952",
+      "semantic_candidate_count": 1,
+      "split": "final",
+      "target_sha256": "5439992b1fe8360a06454d09241d40f2914567ef47da0e0c0e616a0d41fb47e3",
+      "tier": "stress",
+      "unique_next_five": true,
+      "visible_count": 14
+    }
+  ],
+  "definition": "All recognized DSL programs matching a complete prefix must predict the same next five terms."
+}

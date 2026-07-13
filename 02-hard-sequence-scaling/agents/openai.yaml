@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hard Sequence Scaling"
+  short_description: "Run lean, auditable agent scaling experiments"
+  default_prompt: "Use $02-hard-sequence-scaling to design and run a reproducible Light-versus-Medium agent orchestration experiment."

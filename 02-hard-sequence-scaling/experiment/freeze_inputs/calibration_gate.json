@@ -1,0 +1,716 @@
+{
+  "calibration": {
+    "call_integrity": {
+      "initial_infrastructure_failure_count": 0,
+      "lineage_error_count": 0,
+      "planned_calls": 40,
+      "retry_attempt_count": 0,
+      "terminal_calls": 40,
+      "unknown_event_count": 0,
+      "unresolved_calls": 0
+    },
+    "checks": [
+      {
+        "check_id": "calibration.manifest_split",
+        "observed": "calibration",
+        "passed": true,
+        "required": "calibration"
+      },
+      {
+        "check_id": "calibration.planned_calls",
+        "observed": 40,
+        "passed": true,
+        "required": 40
+      },
+      {
+        "check_id": "calibration.terminal_calls",
+        "observed": 40,
+        "passed": true,
+        "required": 40
+      },
+      {
+        "check_id": "calibration.retry_lineage",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "calibration.unknown_events",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "calibration.Light reasoning.slots",
+        "observed": 20,
+        "passed": true,
+        "required": 20
+      },
+      {
+        "check_id": "calibration.Light reasoning.schema_valid",
+        "observed": 240,
+        "passed": true,
+        "required": ">=228 of 240"
+      },
+      {
+        "check_id": "calibration.Light reasoning.unmappable_calls",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "calibration.Light reasoning.duplicate_case_ids",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "calibration.Light reasoning.unknown_case_ids",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "calibration.Light reasoning.direct_range",
+        "observed": 0.166667,
+        "passed": true,
+        "required": "0.05 through 0.70 inclusive"
+      },
+      {
+        "check_id": "calibration.Light reasoning.vote10_range",
+        "observed": 4,
+        "passed": true,
+        "required": "1 through 10 of 12"
+      },
+      {
+        "check_id": "calibration.Light reasoning.vote20_range",
+        "observed": 5,
+        "passed": true,
+        "required": "2 through 10 of 12"
+      },
+      {
+        "check_id": "calibration.Medium reasoning.slots",
+        "observed": 20,
+        "passed": true,
+        "required": 20
+      },
+      {
+        "check_id": "calibration.Medium reasoning.schema_valid",
+        "observed": 240,
+        "passed": true,
+        "required": ">=228 of 240"
+      },
+      {
+        "check_id": "calibration.Medium reasoning.unmappable_calls",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "calibration.Medium reasoning.duplicate_case_ids",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "calibration.Medium reasoning.unknown_case_ids",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "calibration.Medium reasoning.direct_range",
+        "observed": 0.266667,
+        "passed": true,
+        "required": "0.05 through 0.70 inclusive"
+      },
+      {
+        "check_id": "calibration.Medium reasoning.vote10_range",
+        "observed": 7,
+        "passed": true,
+        "required": "1 through 10 of 12"
+      },
+      {
+        "check_id": "calibration.Medium reasoning.vote20_range",
+        "observed": 6,
+        "passed": true,
+        "required": "2 through 10 of 12"
+      },
+      {
+        "check_id": "calibration.tier_manifest",
+        "observed": {
+          "hard": 8,
+          "stress": 8,
+          "very-hard": 8
+        },
+        "passed": true,
+        "required": {
+          "hard": 8,
+          "stress": 8,
+          "very-hard": 8
+        }
+      },
+      {
+        "check_id": "calibration.easiest_not_floor",
+        "observed": 5,
+        "passed": true,
+        "required": ">=2 of 8 exact"
+      },
+      {
+        "check_id": "calibration.hardest_not_ceiling",
+        "observed": 6,
+        "passed": true,
+        "required": ">=2 of 8 incorrect"
+      },
+      {
+        "check_id": "calibration.tier_not_inverted",
+        "observed": {
+          "easiest_exact": 5,
+          "hardest_exact": 2
+        },
+        "passed": true,
+        "required": "easiest exact >= hardest exact"
+      }
+    ],
+    "forbidden_selection_metrics_used": [],
+    "passed": true,
+    "reasoning_aggregates": {
+      "Light reasoning": {
+        "direct_accuracy": 0.166667,
+        "direct_exact": 40,
+        "direct_total": 240,
+        "schema_required_records": 240,
+        "schema_valid_records": 240,
+        "vote10_exact": 4,
+        "vote10_total": 12,
+        "vote20_exact": 5,
+        "vote20_total": 12
+      },
+      "Medium reasoning": {
+        "direct_accuracy": 0.266667,
+        "direct_exact": 64,
+        "direct_total": 240,
+        "schema_required_records": 240,
+        "schema_valid_records": 240,
+        "vote10_exact": 7,
+        "vote10_total": 12,
+        "vote20_exact": 6,
+        "vote20_total": 12
+      }
+    },
+    "tier_aggregates": {
+      "hard": {
+        "accuracy": 0.625,
+        "exact": 5,
+        "total": 8
+      },
+      "stress": {
+        "accuracy": 0.25,
+        "exact": 2,
+        "total": 8
+      },
+      "very-hard": {
+        "accuracy": 0.5,
+        "exact": 4,
+        "total": 8
+      }
+    }
+  },
+  "candidate_number": 1,
+  "cli_preflight": {
+    "checks": [
+      {
+        "check_id": "preflight.model_catalog_verified",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "preflight.runner_fixture_passed",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "preflight.prompt_via_stdin",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "preflight.ignore_user_config",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "preflight.ephemeral_sessions",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "preflight.fresh_empty_workdirs",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "preflight.read_only_sandbox",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "preflight.stage_output_schemas",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "preflight.stdout_jsonl_preserved",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "preflight.stderr_preserved",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "preflight.exit_status_preserved",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "preflight.standard_library_only",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "preflight.no_resume_code_path",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "preflight.retry_requires_no_agent_message",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "preflight.requested_model",
+        "observed": "gpt-5.6-luna",
+        "passed": true,
+        "required": "gpt-5.6-luna"
+      },
+      {
+        "check_id": "preflight.timeout_seconds",
+        "observed": 300,
+        "passed": true,
+        "required": 300
+      },
+      {
+        "check_id": "preflight.candidate_concurrency",
+        "observed": 20,
+        "passed": true,
+        "required": 20
+      },
+      {
+        "check_id": "preflight.disabled_features",
+        "observed": 21,
+        "passed": true,
+        "required": 21
+      },
+      {
+        "check_id": "preflight.cli_version_present",
+        "observed": true,
+        "passed": true,
+        "required": true
+      }
+    ],
+    "codex_cli_version": "codex-cli 0.144.3",
+    "passed": true,
+    "requested_model": "gpt-5.6-luna",
+    "usage_telemetry_status": "available or unavailable per provider JSONL"
+  },
+  "correctness_firewall": {
+    "case_level_calibration_values_emitted": false,
+    "final_correctness_inspected": false,
+    "final_inputs_accessed": false,
+    "selection_metrics_used": [
+      "schema reliability",
+      "Direct expected exact accuracy range",
+      "Vote10 exact range",
+      "Vote20 exact range",
+      "pooled Vote20 tier coverage"
+    ]
+  },
+  "decision": "proceed_to_final_freeze",
+  "development_pipeline": {
+    "aggregate_schema": {
+      "final_judge_valid_records": 12,
+      "fully_valid_stage_calls": 22,
+      "mapped_stage_calls": 22,
+      "nonjudge_fully_valid_calls": 21
+    },
+    "call_integrity": {
+      "initial_infrastructure_failure_count": 0,
+      "lineage_error_count": 0,
+      "planned_calls": 22,
+      "retry_attempt_count": 0,
+      "terminal_calls": 22,
+      "unknown_event_count": 0,
+      "unresolved_calls": 0
+    },
+    "checks": [
+      {
+        "check_id": "development.manifest_split",
+        "observed": "development",
+        "passed": true,
+        "required": "development"
+      },
+      {
+        "check_id": "development.planned_calls",
+        "observed": 22,
+        "passed": true,
+        "required": 22
+      },
+      {
+        "check_id": "development.role_graph",
+        "observed": {
+          "matched_roles": 22
+        },
+        "passed": true,
+        "required": {
+          "planned_roles": 22
+        }
+      },
+      {
+        "check_id": "development.terminal_calls",
+        "observed": 22,
+        "passed": true,
+        "required": 22
+      },
+      {
+        "check_id": "development.retry_lineage",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "development.unknown_events",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "development.all_stage_case_ids_survive",
+        "observed": 22,
+        "passed": true,
+        "required": 22
+      },
+      {
+        "check_id": "development.no_unknown_case_ids",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "development.no_duplicate_case_ids",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "development.no_missing_case_ids",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "development.independent_schema",
+        "observed": 2,
+        "passed": true,
+        "required": 2
+      },
+      {
+        "check_id": "development.nonjudge_stages_schema",
+        "observed": 21,
+        "passed": true,
+        "required": "21 of 21"
+      },
+      {
+        "check_id": "development.judge_call_count",
+        "observed": 1,
+        "passed": true,
+        "required": 1
+      },
+      {
+        "check_id": "development.judge_valid_records",
+        "observed": 12,
+        "passed": true,
+        "required": ">=11 of 12"
+      }
+    ],
+    "passed": true
+  },
+  "experiment_id": "swarm-seeds-02",
+  "failed_required_checks": [],
+  "failure_classifications": [],
+  "generated_at": "2026-07-13T08:55:20Z",
+  "inputs": {
+    "benchmark_manifest_sha256": "2277b7cce87eddac461283c3dfaf50c2dd3808f6c988f7712ca3be31475e4637",
+    "calibration_attempts_sha256": "926dd41b385ab6a495c65bf45ea10277aa4ab1a5e1b247c3f12018f5014ec139",
+    "calibration_manifest_sha256": "20ba3476c023fa724fad098ef9e55452bfae8291da06a2bc9b7c7ba837498b16",
+    "calibration_truth_sha256": "f38895fef3270d701aeba4e87d7addb1d918d4f4ee30f17976cc16e34d86aab8",
+    "development_attempts_sha256": "b7f6a8347b4152cad417ed3973c9156590d8700ae6567aa50a95e48f33bc938d",
+    "development_manifest_sha256": "a5d1c5bdf472f08eaad80e5daab3c6b2a03f419d33a95ea0eceb759519b11981",
+    "load_report_sha256": "52ef04d25cd2aaf9860dc00b35974b7be6d8074a13c2efb8508e9fb341744764",
+    "pipeline_report_sha256": "b1352371c1cd13d78fcd8cce61915932234e805e9c2da38712e18d0ed78dcb1d",
+    "preflight_report_sha256": "68c604f79db709b1d07a4f9ab41c16f1832e1c48dde17ff16766ebeb028904f0"
+  },
+  "load_gate": {
+    "checks_at_20": [
+      {
+        "check_id": "load.zero_unresolved",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "load.zero_crashes",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "load.zero_os_kills_or_exhaustion",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "load.zero_corrupted_jsonl",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "load.all_terminal_agent_messages_present",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "load.zero_resumes",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "load.initial_infrastructure_failure_rate",
+        "observed": 0,
+        "passed": true,
+        "required": "<=1 of 20"
+      },
+      {
+        "check_id": "load.slow_or_timeout_calls",
+        "observed": {
+          "crossed_240_seconds": 0,
+          "timed_out": 0
+        },
+        "passed": true,
+        "required": "fewer than 2 each"
+      },
+      {
+        "check_id": "load.zero_deadlock_or_critical_warning_or_start_failure",
+        "observed": {
+          "critical_warnings": 0,
+          "deadlock": false,
+          "unable_to_start": 0
+        },
+        "passed": true,
+        "required": {
+          "critical_warnings": 0,
+          "deadlock": false,
+          "unable_to_start": 0
+        }
+      }
+    ],
+    "evidence_checks": [
+      {
+        "check_id": "load.frozen_pool",
+        "observed": 20,
+        "passed": true,
+        "required": "one frozen 20-call independent pool"
+      },
+      {
+        "check_id": "load.candidate_concurrency",
+        "observed": 20,
+        "passed": true,
+        "required": 20
+      },
+      {
+        "check_id": "load.timeout_seconds",
+        "observed": 300,
+        "passed": true,
+        "required": 300
+      },
+      {
+        "check_id": "load.max_active_processes",
+        "observed": 20,
+        "passed": true,
+        "required": 20
+      },
+      {
+        "check_id": "load.latency_evidence_complete",
+        "observed": 20,
+        "passed": true,
+        "required": 20
+      },
+      {
+        "check_id": "load.raw_operational_evidence_complete",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "load.all_calls_resolved",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "load.no_session_resume",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "check_id": "load.no_lost_evidence",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      }
+    ],
+    "operational_aggregates": {
+      "calls_crossing_240_seconds": 0,
+      "calls_missing_raw_operational_evidence": 0,
+      "corrupted_jsonl_streams": 0,
+      "crash_flags": 0,
+      "critical_resource_warnings": 0,
+      "hard_timeouts": 0,
+      "initial_infrastructure_failures": 0,
+      "latency": {
+        "count": 20,
+        "maximum_ms": 78966,
+        "median_ms": 57854,
+        "minimum_ms": 50001,
+        "p95_ms": 68904
+      },
+      "missing_terminal_agent_messages": 0,
+      "os_kill_or_resource_exhaustion_flags": 0,
+      "session_resumes": 0,
+      "unable_to_start": 0,
+      "unresolved_infrastructure_failures": 0
+    },
+    "passed": true,
+    "selected_final_concurrency": 20,
+    "selection_rule": "20 only if every monitored 20-process condition passes; otherwise 10",
+    "stable_at_20": true
+  },
+  "next_action": "proceed_to_final_freeze",
+  "passed": true,
+  "pipeline_audit": {
+    "checks": [
+      {
+        "check_id": "pipeline.swarm10_fixture_passed",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "pipeline.routing_graph_valid",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "pipeline.reasoning_isolation_valid",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "pipeline.clean_room_replay_identical",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "pipeline.malformed_fixture_rejected",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "pipeline.retry_identity_preserved",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "pipeline.packet_manifest_reproducible",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "pipeline.raw_jsonl_reproduces_agent_messages",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "pipeline.stderr_exit_joinable",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "pipeline.no_packet_over_input_limit",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "pipeline.no_silent_response_truncation",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "pipeline.no_answer_key_used_for_pipeline_checks",
+        "observed": true,
+        "passed": true,
+        "required": true
+      },
+      {
+        "check_id": "pipeline.command_contract_all_calls",
+        "observed": true,
+        "passed": true,
+        "required": true
+      }
+    ],
+    "passed": true
+  },
+  "report_sha256": "3f3ac7e394770b92102ff840b29dd66f0c053526588949af25769b140e6acfb7",
+  "schema_version": "experiment-02-calibration-gate-v1",
+  "selected_final_concurrency": 20
+}

@@ -1,0 +1,12 @@
+# Exact provider transport streams contain ephemeral session identifiers.
+# The public append-only attempts logs preserve every model response and hash
+# the private transport artifacts without publishing those internal IDs.
+experiment/raw/final/calls/
+experiment/raw/final/schemas/
+experiment/raw/final/.runner.lock
+experiment/runs/*/calls/
+experiment/runs/*/schemas/
+experiment/runs/*/.runner.lock
+experiment/runs/archive/
+experiment/scripts/__pycache__/
+**/.DS_Store

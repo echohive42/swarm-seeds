@@ -1,0 +1,27 @@
+{{COMMON_PREFIX}}
+
+ROLE
+Solve the 12 cases independently. No other solver output is available. Prefer
+the simplest exact rule that explains the complete prefix, but examine enough
+alternatives to avoid accepting the first visual pattern automatically.
+
+INPUT
+{{TASK_BLOCK_JSON}}
+
+OUTPUT SCHEMA
+{
+  "schema_version": "2.0",
+  "block_id": "<copy input block_id>",
+  "results": [
+    {
+      "case_id": "<copy one supplied case_id>",
+      "answer": ["<decimal>", "<decimal>", "<decimal>", "<decimal>", "<decimal>"],
+      "confidence": 0.0,
+      "rule_summary": "<=180 characters",
+      "check_summary": "<=120 characters"
+    }
+  ]
+}
+
+Return exactly 12 result objects. answer must contain exactly five canonical
+decimal strings. confidence must be a finite JSON number from 0 through 1.

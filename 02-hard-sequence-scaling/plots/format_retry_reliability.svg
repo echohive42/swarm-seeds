@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="640" viewBox="0 0 1040 640" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Format and retry/failure reliability</title>
+<desc id="chart-desc">Format validity and retry or failure rates by condition.</desc>
+<style>text{font-family:Inter,Arial,sans-serif;fill:#17212B}.title{font-size:24px;font-weight:700}.subtitle{font-size:13px;fill:#4B5563}.axis{font-size:12px;fill:#374151}.label{font-size:12px}.value{font-size:11px;font-weight:600}.note{font-size:11px;fill:#59636E}.legend{font-size:12px;font-weight:600}</style>
+<rect width="1040" height="640" fill="#FFFFFF"/>
+<text x="48.00" y="42.00" class="title" text-anchor="start" >Format and retry/failure reliability</text>
+<text x="48.00" y="66.00" class="subtitle" text-anchor="start" >Operational quality checks; higher format validity and lower retry/failure rate are preferred</text>
+<text x="48.00" y="622.00" class="note" text-anchor="start" >Source: Experiment 02 final analysis output</text>
+<line x1="75.00" y1="480.00" x2="500.00" y2="480.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="65.00" y="484.00" class="axis" text-anchor="end" >0.0%</text>
+<line x1="75.00" y1="409.00" x2="500.00" y2="409.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="65.00" y="413.00" class="axis" text-anchor="end" >20.0%</text>
+<line x1="75.00" y1="338.00" x2="500.00" y2="338.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="65.00" y="342.00" class="axis" text-anchor="end" >40.0%</text>
+<line x1="75.00" y1="267.00" x2="500.00" y2="267.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="65.00" y="271.00" class="axis" text-anchor="end" >60.0%</text>
+<line x1="75.00" y1="196.00" x2="500.00" y2="196.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="65.00" y="200.00" class="axis" text-anchor="end" >80.0%</text>
+<line x1="75.00" y1="125.00" x2="500.00" y2="125.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="65.00" y="129.00" class="axis" text-anchor="end" >100.0%</text>
+<line x1="75.00" y1="125.00" x2="75.00" y2="480.00" stroke="#17212B" stroke-width="1.2"/>
+<line x1="75.00" y1="480.00" x2="500.00" y2="480.00" stroke="#17212B" stroke-width="1.2"/>
+<text x="15.00" y="302.50" class="axis" text-anchor="middle" transform="rotate(-90 15.00 302.50)">Rate</text>
+<text x="287.50" y="105.00" class="legend" text-anchor="middle" >Format-valid rate</text>
+<rect x="83.08" y="125.00" width="26.35" height="355.00" fill="#0072B2" rx="3"/>
+<text x="96.25" y="119.00" class="value" text-anchor="middle" >100.0%</text>
+<text x="96.25" y="500.00" class="axis" text-anchor="middle" >Direct</text>
+<text x="96.25" y="516.00" class="note" text-anchor="middle" >Luna Light</text>
+<rect x="125.58" y="125.00" width="26.35" height="355.00" fill="#0072B2" rx="3"/>
+<text x="138.75" y="119.00" class="value" text-anchor="middle" >100.0%</text>
+<text x="138.75" y="500.00" class="axis" text-anchor="middle" >Direct</text>
+<text x="138.75" y="516.00" class="note" text-anchor="middle" >Luna Medium</text>
+<rect x="168.07" y="125.00" width="26.35" height="355.00" fill="#0072B2" rx="3"/>
+<text x="181.25" y="119.00" class="value" text-anchor="middle" >100.0%</text>
+<text x="181.25" y="500.00" class="axis" text-anchor="middle" >Vote10</text>
+<text x="181.25" y="516.00" class="note" text-anchor="middle" >Luna Light</text>
+<rect x="210.57" y="125.00" width="26.35" height="355.00" fill="#0072B2" rx="3"/>
+<text x="223.75" y="119.00" class="value" text-anchor="middle" >100.0%</text>
+<text x="223.75" y="500.00" class="axis" text-anchor="middle" >Vote10</text>
+<text x="223.75" y="516.00" class="note" text-anchor="middle" >Luna Medium</text>
+<rect x="253.07" y="125.00" width="26.35" height="355.00" fill="#0072B2" rx="3"/>
+<text x="266.25" y="119.00" class="value" text-anchor="middle" >100.0%</text>
+<text x="266.25" y="500.00" class="axis" text-anchor="middle" >Swarm10</text>
+<text x="266.25" y="516.00" class="note" text-anchor="middle" >Luna Light</text>
+<rect x="295.57" y="125.00" width="26.35" height="355.00" fill="#0072B2" rx="3"/>
+<text x="308.75" y="119.00" class="value" text-anchor="middle" >100.0%</text>
+<text x="308.75" y="500.00" class="axis" text-anchor="middle" >Swarm10</text>
+<text x="308.75" y="516.00" class="note" text-anchor="middle" >Luna Medium</text>
+<rect x="338.07" y="125.00" width="26.35" height="355.00" fill="#0072B2" rx="3"/>
+<text x="351.25" y="119.00" class="value" text-anchor="middle" >100.0%</text>
+<text x="351.25" y="500.00" class="axis" text-anchor="middle" >Vote20</text>
+<text x="351.25" y="516.00" class="note" text-anchor="middle" >Luna Light</text>
+<rect x="380.57" y="125.00" width="26.35" height="355.00" fill="#0072B2" rx="3"/>
+<text x="393.75" y="119.00" class="value" text-anchor="middle" >100.0%</text>
+<text x="393.75" y="500.00" class="axis" text-anchor="middle" >Vote20</text>
+<text x="393.75" y="516.00" class="note" text-anchor="middle" >Luna Medium</text>
+<rect x="423.07" y="125.00" width="26.35" height="355.00" fill="#0072B2" rx="3"/>
+<text x="436.25" y="119.00" class="value" text-anchor="middle" >100.0%</text>
+<text x="436.25" y="500.00" class="axis" text-anchor="middle" >Tournament20</text>
+<text x="436.25" y="516.00" class="note" text-anchor="middle" >Luna Light</text>
+<rect x="465.57" y="125.00" width="26.35" height="355.00" fill="#0072B2" rx="3"/>
+<text x="478.75" y="119.00" class="value" text-anchor="middle" >100.0%</text>
+<text x="478.75" y="500.00" class="axis" text-anchor="middle" >Tournament20</text>
+<text x="478.75" y="516.00" class="note" text-anchor="middle" >Luna Medium</text>
+<line x1="570.00" y1="480.00" x2="995.00" y2="480.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="560.00" y="484.00" class="axis" text-anchor="end" >0.0%</text>
+<line x1="570.00" y1="409.00" x2="995.00" y2="409.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="560.00" y="413.00" class="axis" text-anchor="end" >20.0%</text>
+<line x1="570.00" y1="338.00" x2="995.00" y2="338.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="560.00" y="342.00" class="axis" text-anchor="end" >40.0%</text>
+<line x1="570.00" y1="267.00" x2="995.00" y2="267.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="560.00" y="271.00" class="axis" text-anchor="end" >60.0%</text>
+<line x1="570.00" y1="196.00" x2="995.00" y2="196.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="560.00" y="200.00" class="axis" text-anchor="end" >80.0%</text>
+<line x1="570.00" y1="125.00" x2="995.00" y2="125.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="560.00" y="129.00" class="axis" text-anchor="end" >100.0%</text>
+<line x1="570.00" y1="125.00" x2="570.00" y2="480.00" stroke="#17212B" stroke-width="1.2"/>
+<line x1="570.00" y1="480.00" x2="995.00" y2="480.00" stroke="#17212B" stroke-width="1.2"/>
+<text x="508.00" y="302.50" class="axis" text-anchor="middle" transform="rotate(-90 508.00 302.50)">Rate</text>
+<text x="782.50" y="105.00" class="legend" text-anchor="middle" >Retry/failure rate</text>
+<text x="520.00" y="575.00" class="note" text-anchor="middle" >Rates use supplied aggregate denominators; see analysis output for counts.</text>
+</svg>

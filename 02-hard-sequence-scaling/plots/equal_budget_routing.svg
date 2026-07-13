@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="610" viewBox="0 0 1040 610" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Equal-budget routing contrasts</title>
+<desc id="chart-desc">Bars compare routing methods that use the same nominal call budget.</desc>
+<style>text{font-family:Inter,Arial,sans-serif;fill:#17212B}.title{font-size:24px;font-weight:700}.subtitle{font-size:13px;fill:#4B5563}.axis{font-size:12px;fill:#374151}.label{font-size:12px}.value{font-size:11px;font-weight:600}.note{font-size:11px;fill:#59636E}.legend{font-size:12px;font-weight:600}</style>
+<rect width="1040" height="610" fill="#FFFFFF"/>
+<text x="48.00" y="42.00" class="title" text-anchor="start" >Equal-budget routing contrasts</text>
+<text x="48.00" y="66.00" class="subtitle" text-anchor="start" >Accuracy differences isolate routing at matched nominal call counts</text>
+<text x="48.00" y="592.00" class="note" text-anchor="start" >Source: Experiment 02 final analysis output</text>
+<rect x="600.00" y="41.00" width="13.00" height="13.00" fill="#0072B2" rx="2"/>
+<text x="619.00" y="52.00" class="legend" text-anchor="start" >Luna Light reasoning</text>
+<rect x="776.00" y="41.00" width="13.00" height="13.00" fill="#D55E00" rx="2"/>
+<text x="795.00" y="52.00" class="legend" text-anchor="start" >Luna Medium reasoning</text>
+<line x1="88.00" y1="500.00" x2="988.00" y2="500.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="78.00" y="504.00" class="axis" text-anchor="end" >0.0%</text>
+<line x1="88.00" y1="422.00" x2="988.00" y2="422.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="78.00" y="426.00" class="axis" text-anchor="end" >20.0%</text>
+<line x1="88.00" y1="344.00" x2="988.00" y2="344.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="78.00" y="348.00" class="axis" text-anchor="end" >40.0%</text>
+<line x1="88.00" y1="266.00" x2="988.00" y2="266.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="78.00" y="270.00" class="axis" text-anchor="end" >60.0%</text>
+<line x1="88.00" y1="188.00" x2="988.00" y2="188.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="78.00" y="192.00" class="axis" text-anchor="end" >80.0%</text>
+<line x1="88.00" y1="110.00" x2="988.00" y2="110.00" stroke="#D8DEE6" stroke-width="1"/>
+<text x="78.00" y="114.00" class="axis" text-anchor="end" >100.0%</text>
+<line x1="88.00" y1="110.00" x2="88.00" y2="500.00" stroke="#17212B" stroke-width="1.2"/>
+<line x1="88.00" y1="500.00" x2="988.00" y2="500.00" stroke="#17212B" stroke-width="1.2"/>
+<text x="26.00" y="305.00" class="axis" text-anchor="middle" transform="rotate(-90 26.00 305.00)">Exact accuracy</text>
+<rect x="156.50" y="272.50" width="40.00" height="227.50" fill="#0072B2" rx="3"/>
+<text x="176.50" y="265.50" class="value" text-anchor="middle" >58.3%</text>
+<rect x="204.50" y="223.75" width="40.00" height="276.25" fill="#D55E00" rx="3"/>
+<text x="224.50" y="216.75" class="value" text-anchor="middle" >70.8%</text>
+<text x="200.50" y="523.00" class="axis" text-anchor="middle" >Vote10</text>
+<text x="313.00" y="545.00" class="legend" text-anchor="middle" >10-call routing</text>
+<rect x="381.50" y="321.25" width="40.00" height="178.75" fill="#0072B2" rx="3"/>
+<text x="401.50" y="314.25" class="value" text-anchor="middle" >45.8%</text>
+<rect x="429.50" y="158.75" width="40.00" height="341.25" fill="#D55E00" rx="3"/>
+<text x="449.50" y="151.75" class="value" text-anchor="middle" >87.5%</text>
+<text x="425.50" y="523.00" class="axis" text-anchor="middle" >Swarm10</text>
+<rect x="606.50" y="305.00" width="40.00" height="195.00" fill="#0072B2" rx="3"/>
+<text x="626.50" y="298.00" class="value" text-anchor="middle" >50.0%</text>
+<rect x="654.50" y="166.88" width="40.00" height="333.12" fill="#D55E00" rx="3"/>
+<text x="674.50" y="159.88" class="value" text-anchor="middle" >85.4%</text>
+<text x="650.50" y="523.00" class="axis" text-anchor="middle" >Vote20</text>
+<text x="763.00" y="545.00" class="legend" text-anchor="middle" >20-call routing</text>
+<rect x="831.50" y="329.38" width="40.00" height="170.62" fill="#0072B2" rx="3"/>
+<text x="851.50" y="322.38" class="value" text-anchor="middle" >43.8%</text>
+<rect x="879.50" y="142.50" width="40.00" height="357.50" fill="#D55E00" rx="3"/>
+<text x="899.50" y="135.50" class="value" text-anchor="middle" >91.7%</text>
+<text x="875.50" y="523.00" class="axis" text-anchor="middle" >Tournament20</text>
+</svg>

@@ -1,0 +1,1207 @@
+{
+  "schema_version": "2.0",
+  "experiment_id": "swarm-seeds-02",
+  "split": "development",
+  "model": "gpt-5.6-luna",
+  "schedule_seed": "swarm-seeds-02-final-v1",
+  "condition_mapping": {
+    "light": {
+      "public_label": "Light reasoning",
+      "reasoning_effort": "low"
+    },
+    "medium": {
+      "public_label": "Medium reasoning",
+      "reasoning_effort": "medium"
+    }
+  },
+  "case_source_sha256": "6f2abfa8262058e03fbc18649a1ff78690b8574b5f0dd692a0f707a9f7941218",
+  "blocks": [
+    {
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ]
+    }
+  ],
+  "prompt_identities": {
+    "independent.solver": {
+      "template": "prompts/INDEPENDENT_SOLVER.txt",
+      "components": [
+        {
+          "path": "prompts/COMMON_PREFIX.txt",
+          "sha256": "51e256c19f861a24a5ce9410125d296a032264edcb8dfedd41511f70a8c8b82e"
+        },
+        {
+          "path": "prompts/INDEPENDENT_SOLVER.txt",
+          "sha256": "e556b9ee4a155ec128600d4574a6125ed1c30a15e71a5ac24aec05aab48b0781"
+        },
+        {
+          "path": "prompts/ROLE_CATALOG.json",
+          "sha256": "fc54de144085e35d5f502335309643c73faca7504a559fb6c1c0950064aedd25"
+        },
+        {
+          "path": "prompts/SCHEMAS.json",
+          "sha256": "dbabe07257eebb8fee74bfe8c602f9e2c023502fa98e384896938e5cdede948e"
+        }
+      ],
+      "identity_sha256": "b93ecca9f15437daedeca0b5bee0a0bf87c6ff336769c41a93a23c375c481130",
+      "output_schema": "solver"
+    },
+    "swarm10.proposer": {
+      "template": "prompts/SWARM10_PROPOSER.txt",
+      "components": [
+        {
+          "path": "prompts/COMMON_PREFIX.txt",
+          "sha256": "51e256c19f861a24a5ce9410125d296a032264edcb8dfedd41511f70a8c8b82e"
+        },
+        {
+          "path": "prompts/SWARM10_PROPOSER.txt",
+          "sha256": "0b8de3a27e03657294d33a785319e89d42e8d89536929d5067aec7c448f15a67"
+        },
+        {
+          "path": "prompts/ROLE_CATALOG.json",
+          "sha256": "fc54de144085e35d5f502335309643c73faca7504a559fb6c1c0950064aedd25"
+        },
+        {
+          "path": "prompts/SCHEMAS.json",
+          "sha256": "dbabe07257eebb8fee74bfe8c602f9e2c023502fa98e384896938e5cdede948e"
+        }
+      ],
+      "identity_sha256": "d3cf1032d388dcd8d57d40ec34e38c16227470dc39dae1f7888c60ec3715dd62",
+      "output_schema": "solver"
+    },
+    "swarm10.critic": {
+      "template": "prompts/SWARM10_CRITIC.txt",
+      "components": [
+        {
+          "path": "prompts/COMMON_PREFIX.txt",
+          "sha256": "51e256c19f861a24a5ce9410125d296a032264edcb8dfedd41511f70a8c8b82e"
+        },
+        {
+          "path": "prompts/SWARM10_CRITIC.txt",
+          "sha256": "dc21149a89a1315737d83634650c35bb01b0429c776aeb0be70ae6530e62113b"
+        },
+        {
+          "path": "prompts/ROLE_CATALOG.json",
+          "sha256": "fc54de144085e35d5f502335309643c73faca7504a559fb6c1c0950064aedd25"
+        },
+        {
+          "path": "prompts/SCHEMAS.json",
+          "sha256": "dbabe07257eebb8fee74bfe8c602f9e2c023502fa98e384896938e5cdede948e"
+        }
+      ],
+      "identity_sha256": "bbb6e5797bcbca82d51e201e3274d587a4d171009e187c1313a21e212299758c",
+      "output_schema": "critic"
+    },
+    "swarm10.verifier": {
+      "template": "prompts/SWARM10_VERIFIER.txt",
+      "components": [
+        {
+          "path": "prompts/COMMON_PREFIX.txt",
+          "sha256": "51e256c19f861a24a5ce9410125d296a032264edcb8dfedd41511f70a8c8b82e"
+        },
+        {
+          "path": "prompts/SWARM10_VERIFIER.txt",
+          "sha256": "e8c37ab92c42f73d5370a336f2e7eee2c7b73d3af45fa0548192ef2af0a10e92"
+        },
+        {
+          "path": "prompts/ROLE_CATALOG.json",
+          "sha256": "fc54de144085e35d5f502335309643c73faca7504a559fb6c1c0950064aedd25"
+        },
+        {
+          "path": "prompts/SCHEMAS.json",
+          "sha256": "dbabe07257eebb8fee74bfe8c602f9e2c023502fa98e384896938e5cdede948e"
+        }
+      ],
+      "identity_sha256": "32cfea3957ae6dc97bd03690842fc186d1a0eb5b8512078ea9d3ea2897487382",
+      "output_schema": "verifier"
+    },
+    "swarm10.judge": {
+      "template": "prompts/SWARM10_JUDGE.txt",
+      "components": [
+        {
+          "path": "prompts/COMMON_PREFIX.txt",
+          "sha256": "51e256c19f861a24a5ce9410125d296a032264edcb8dfedd41511f70a8c8b82e"
+        },
+        {
+          "path": "prompts/SWARM10_JUDGE.txt",
+          "sha256": "980acd728c72d15e547874f639152994711fc6f289b2f4617ff25e8726e59a82"
+        },
+        {
+          "path": "prompts/ROLE_CATALOG.json",
+          "sha256": "fc54de144085e35d5f502335309643c73faca7504a559fb6c1c0950064aedd25"
+        },
+        {
+          "path": "prompts/SCHEMAS.json",
+          "sha256": "dbabe07257eebb8fee74bfe8c602f9e2c023502fa98e384896938e5cdede948e"
+        }
+      ],
+      "identity_sha256": "da31ae47638cf015e855421f7367d3f6ad328efc8f6dfbb90b9c4215f804132b",
+      "output_schema": "judge"
+    },
+    "tournament20.explorer": {
+      "template": "prompts/TOURNAMENT20_EXPLORER.txt",
+      "components": [
+        {
+          "path": "prompts/COMMON_PREFIX.txt",
+          "sha256": "51e256c19f861a24a5ce9410125d296a032264edcb8dfedd41511f70a8c8b82e"
+        },
+        {
+          "path": "prompts/TOURNAMENT20_EXPLORER.txt",
+          "sha256": "5c834965e9ee57ab5a17dd09ecc51501cdcff44b692df8bcfd19cb0bc0014526"
+        },
+        {
+          "path": "prompts/ROLE_CATALOG.json",
+          "sha256": "fc54de144085e35d5f502335309643c73faca7504a559fb6c1c0950064aedd25"
+        },
+        {
+          "path": "prompts/SCHEMAS.json",
+          "sha256": "dbabe07257eebb8fee74bfe8c602f9e2c023502fa98e384896938e5cdede948e"
+        }
+      ],
+      "identity_sha256": "3181d96ce83e3331fe00eb04cdf9d187d599e840e4c2d4c62b9eb4f2383c6d6c",
+      "output_schema": "solver"
+    },
+    "tournament20.breaker": {
+      "template": "prompts/TOURNAMENT20_BREAKER.txt",
+      "components": [
+        {
+          "path": "prompts/COMMON_PREFIX.txt",
+          "sha256": "51e256c19f861a24a5ce9410125d296a032264edcb8dfedd41511f70a8c8b82e"
+        },
+        {
+          "path": "prompts/TOURNAMENT20_BREAKER.txt",
+          "sha256": "00fd01b8caf10acf7dd9e27ee2903cf6a975787677c91a9223906d880a15d904"
+        },
+        {
+          "path": "prompts/ROLE_CATALOG.json",
+          "sha256": "fc54de144085e35d5f502335309643c73faca7504a559fb6c1c0950064aedd25"
+        },
+        {
+          "path": "prompts/SCHEMAS.json",
+          "sha256": "dbabe07257eebb8fee74bfe8c602f9e2c023502fa98e384896938e5cdede948e"
+        }
+      ],
+      "identity_sha256": "477ec4c6ef1450303d9a0aab75da164f79fe1db8764e381400adb227b5e71c7e",
+      "output_schema": "breaker"
+    },
+    "tournament20.verifier": {
+      "template": "prompts/TOURNAMENT20_VERIFIER.txt",
+      "components": [
+        {
+          "path": "prompts/COMMON_PREFIX.txt",
+          "sha256": "51e256c19f861a24a5ce9410125d296a032264edcb8dfedd41511f70a8c8b82e"
+        },
+        {
+          "path": "prompts/TOURNAMENT20_VERIFIER.txt",
+          "sha256": "c9c4134318edb7b1250ea5ff235b20d32e6fa83c7c47274cdc0ab7f5cb90a1d9"
+        },
+        {
+          "path": "prompts/ROLE_CATALOG.json",
+          "sha256": "fc54de144085e35d5f502335309643c73faca7504a559fb6c1c0950064aedd25"
+        },
+        {
+          "path": "prompts/SCHEMAS.json",
+          "sha256": "dbabe07257eebb8fee74bfe8c602f9e2c023502fa98e384896938e5cdede948e"
+        }
+      ],
+      "identity_sha256": "945d8a8747e35d1f1066949ab586ad1cddd64ecd4c7c9659709d96df84a099cb",
+      "output_schema": "verifier"
+    },
+    "tournament20.synthesizer": {
+      "template": "prompts/TOURNAMENT20_SYNTHESIZER.txt",
+      "components": [
+        {
+          "path": "prompts/COMMON_PREFIX.txt",
+          "sha256": "51e256c19f861a24a5ce9410125d296a032264edcb8dfedd41511f70a8c8b82e"
+        },
+        {
+          "path": "prompts/TOURNAMENT20_SYNTHESIZER.txt",
+          "sha256": "4a5b4c05404183b84d24f46661a1ba3a74cddeb96667af814e7dc0d6348481c8"
+        },
+        {
+          "path": "prompts/ROLE_CATALOG.json",
+          "sha256": "fc54de144085e35d5f502335309643c73faca7504a559fb6c1c0950064aedd25"
+        },
+        {
+          "path": "prompts/SCHEMAS.json",
+          "sha256": "dbabe07257eebb8fee74bfe8c602f9e2c023502fa98e384896938e5cdede948e"
+        }
+      ],
+      "identity_sha256": "ef5eb8b79a75c729134e93f611012157d81162651e38bcba15e3929357945b34",
+      "output_schema": "synthesizer"
+    },
+    "tournament20.red_team": {
+      "template": "prompts/TOURNAMENT20_RED_TEAM.txt",
+      "components": [
+        {
+          "path": "prompts/COMMON_PREFIX.txt",
+          "sha256": "51e256c19f861a24a5ce9410125d296a032264edcb8dfedd41511f70a8c8b82e"
+        },
+        {
+          "path": "prompts/TOURNAMENT20_RED_TEAM.txt",
+          "sha256": "08017ab48a9219b29b323907518171a0c123ea98a4b77550436865fb3398188a"
+        },
+        {
+          "path": "prompts/ROLE_CATALOG.json",
+          "sha256": "fc54de144085e35d5f502335309643c73faca7504a559fb6c1c0950064aedd25"
+        },
+        {
+          "path": "prompts/SCHEMAS.json",
+          "sha256": "dbabe07257eebb8fee74bfe8c602f9e2c023502fa98e384896938e5cdede948e"
+        }
+      ],
+      "identity_sha256": "3db468e95944ceb516bb7e4846fc46d1d29d20ea2457ecbcfd5ab643b12bd043",
+      "output_schema": "red_team"
+    },
+    "tournament20.judge": {
+      "template": "prompts/TOURNAMENT20_FINAL_JUDGE.txt",
+      "components": [
+        {
+          "path": "prompts/COMMON_PREFIX.txt",
+          "sha256": "51e256c19f861a24a5ce9410125d296a032264edcb8dfedd41511f70a8c8b82e"
+        },
+        {
+          "path": "prompts/TOURNAMENT20_FINAL_JUDGE.txt",
+          "sha256": "88bbe1ad25471c3e9f9609c3f9669814f190a7eb9da1f3f6afbb96644bfdc06c"
+        },
+        {
+          "path": "prompts/ROLE_CATALOG.json",
+          "sha256": "fc54de144085e35d5f502335309643c73faca7504a559fb6c1c0950064aedd25"
+        },
+        {
+          "path": "prompts/SCHEMAS.json",
+          "sha256": "dbabe07257eebb8fee74bfe8c602f9e2c023502fa98e384896938e5cdede948e"
+        }
+      ],
+      "identity_sha256": "8b73d186a99eb71894b528a767eba605fae59015ffa25a454514d5c70fd33539",
+      "output_schema": "judge"
+    }
+  },
+  "planned_call_count": 22,
+  "planned_case_response_count": 264,
+  "max_infrastructure_retries": 2,
+  "calls": [
+    {
+      "call_id": "development-development-b01-light-independent-s01",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "light",
+      "public_reasoning_label": "Light reasoning",
+      "reasoning_effort": "low",
+      "model": "gpt-5.6-luna",
+      "architecture": "independent",
+      "role": "solver",
+      "role_index": 1,
+      "slot_id": "S01",
+      "dependency_call_ids": [],
+      "execution_wave": 0,
+      "prompt_identity_id": "independent.solver",
+      "prompt_identity_sha256": "b93ecca9f15437daedeca0b5bee0a0bf87c6ff336769c41a93a23c375c481130",
+      "output_schema": "solver",
+      "expected_case_responses": 12,
+      "schedule_index": 1,
+      "schedule_key_sha256": "4b294506b55319dbb9b9c9084690656c5c64702aa2d825c72b5d5b835adc7d35"
+    },
+    {
+      "call_id": "development-development-b01-medium-independent-s01",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "independent",
+      "role": "solver",
+      "role_index": 1,
+      "slot_id": "S01",
+      "dependency_call_ids": [],
+      "execution_wave": 0,
+      "prompt_identity_id": "independent.solver",
+      "prompt_identity_sha256": "b93ecca9f15437daedeca0b5bee0a0bf87c6ff336769c41a93a23c375c481130",
+      "output_schema": "solver",
+      "expected_case_responses": 12,
+      "schedule_index": 2,
+      "schedule_key_sha256": "efeb6539d898e23ba70c762ff37a51e77a713013ad703c2a257ac81bec7cfd91"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-e04",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "explorer",
+      "role_index": 4,
+      "slot_id": "E04",
+      "dependency_call_ids": [],
+      "execution_wave": 0,
+      "prompt_identity_id": "tournament20.explorer",
+      "prompt_identity_sha256": "3181d96ce83e3331fe00eb04cdf9d187d599e840e4c2d4c62b9eb4f2383c6d6c",
+      "output_schema": "solver",
+      "expected_case_responses": 12,
+      "schedule_index": 3,
+      "schedule_key_sha256": "f1c5d01e5529e2b07bb1ee086af540aa9b4c835e9cb14c5572cd29d427805900"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-e05",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "explorer",
+      "role_index": 5,
+      "slot_id": "E05",
+      "dependency_call_ids": [],
+      "execution_wave": 0,
+      "prompt_identity_id": "tournament20.explorer",
+      "prompt_identity_sha256": "3181d96ce83e3331fe00eb04cdf9d187d599e840e4c2d4c62b9eb4f2383c6d6c",
+      "output_schema": "solver",
+      "expected_case_responses": 12,
+      "schedule_index": 4,
+      "schedule_key_sha256": "39df4456a539caccd221f3274fb93c66669752e2fe60499824e5c97a741f78b6"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-e02",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "explorer",
+      "role_index": 2,
+      "slot_id": "E02",
+      "dependency_call_ids": [],
+      "execution_wave": 0,
+      "prompt_identity_id": "tournament20.explorer",
+      "prompt_identity_sha256": "3181d96ce83e3331fe00eb04cdf9d187d599e840e4c2d4c62b9eb4f2383c6d6c",
+      "output_schema": "solver",
+      "expected_case_responses": 12,
+      "schedule_index": 5,
+      "schedule_key_sha256": "67c25960e5437f7034ded8c28a23cf59af6439db3a6aa1564e8af216156fb676"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-e03",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "explorer",
+      "role_index": 3,
+      "slot_id": "E03",
+      "dependency_call_ids": [],
+      "execution_wave": 0,
+      "prompt_identity_id": "tournament20.explorer",
+      "prompt_identity_sha256": "3181d96ce83e3331fe00eb04cdf9d187d599e840e4c2d4c62b9eb4f2383c6d6c",
+      "output_schema": "solver",
+      "expected_case_responses": 12,
+      "schedule_index": 6,
+      "schedule_key_sha256": "eba76ac9805b8c05709edcad57a0ca6eab86cdf5f49c4fbcc2c5d4115836c8ed"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-e01",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "explorer",
+      "role_index": 1,
+      "slot_id": "E01",
+      "dependency_call_ids": [],
+      "execution_wave": 0,
+      "prompt_identity_id": "tournament20.explorer",
+      "prompt_identity_sha256": "3181d96ce83e3331fe00eb04cdf9d187d599e840e4c2d4c62b9eb4f2383c6d6c",
+      "output_schema": "solver",
+      "expected_case_responses": 12,
+      "schedule_index": 7,
+      "schedule_key_sha256": "37d20df26d2e1b1996f149b8aab1ae32dd5f2c0f850ad1fed0de508ddabfef0f"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-e07",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "explorer",
+      "role_index": 7,
+      "slot_id": "E07",
+      "dependency_call_ids": [],
+      "execution_wave": 0,
+      "prompt_identity_id": "tournament20.explorer",
+      "prompt_identity_sha256": "3181d96ce83e3331fe00eb04cdf9d187d599e840e4c2d4c62b9eb4f2383c6d6c",
+      "output_schema": "solver",
+      "expected_case_responses": 12,
+      "schedule_index": 8,
+      "schedule_key_sha256": "5d796832f1e52955d450cfb125c14f8c3f61b71f4003c02c9fb37a8285c6e6b2"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-e06",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "explorer",
+      "role_index": 6,
+      "slot_id": "E06",
+      "dependency_call_ids": [],
+      "execution_wave": 0,
+      "prompt_identity_id": "tournament20.explorer",
+      "prompt_identity_sha256": "3181d96ce83e3331fe00eb04cdf9d187d599e840e4c2d4c62b9eb4f2383c6d6c",
+      "output_schema": "solver",
+      "expected_case_responses": 12,
+      "schedule_index": 9,
+      "schedule_key_sha256": "6066957b99933bfc2712cd5b8e4f83d7f3cdafbb921e396958fb047b07ec33ed"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-e08",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "explorer",
+      "role_index": 8,
+      "slot_id": "E08",
+      "dependency_call_ids": [],
+      "execution_wave": 0,
+      "prompt_identity_id": "tournament20.explorer",
+      "prompt_identity_sha256": "3181d96ce83e3331fe00eb04cdf9d187d599e840e4c2d4c62b9eb4f2383c6d6c",
+      "output_schema": "solver",
+      "expected_case_responses": 12,
+      "schedule_index": 10,
+      "schedule_key_sha256": "e55eda4033b0f49bbe37ef44fbd6031f57ad37adfbd29531289929fa79af9706"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-b02",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "breaker",
+      "role_index": 2,
+      "slot_id": "B02",
+      "dependency_call_ids": [
+        "development-development-b01-medium-tournament20-e01",
+        "development-development-b01-medium-tournament20-e02",
+        "development-development-b01-medium-tournament20-e03",
+        "development-development-b01-medium-tournament20-e04",
+        "development-development-b01-medium-tournament20-e05",
+        "development-development-b01-medium-tournament20-e06",
+        "development-development-b01-medium-tournament20-e07",
+        "development-development-b01-medium-tournament20-e08"
+      ],
+      "execution_wave": 1,
+      "prompt_identity_id": "tournament20.breaker",
+      "prompt_identity_sha256": "477ec4c6ef1450303d9a0aab75da164f79fe1db8764e381400adb227b5e71c7e",
+      "output_schema": "breaker",
+      "expected_case_responses": 12,
+      "schedule_index": 11,
+      "schedule_key_sha256": "70249a00a157ac6607d7c9e1e65f06b45ce64b3d2fd5ed0286689f071a14a5b7"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-b03",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "breaker",
+      "role_index": 3,
+      "slot_id": "B03",
+      "dependency_call_ids": [
+        "development-development-b01-medium-tournament20-e01",
+        "development-development-b01-medium-tournament20-e02",
+        "development-development-b01-medium-tournament20-e03",
+        "development-development-b01-medium-tournament20-e04",
+        "development-development-b01-medium-tournament20-e05",
+        "development-development-b01-medium-tournament20-e06",
+        "development-development-b01-medium-tournament20-e07",
+        "development-development-b01-medium-tournament20-e08"
+      ],
+      "execution_wave": 1,
+      "prompt_identity_id": "tournament20.breaker",
+      "prompt_identity_sha256": "477ec4c6ef1450303d9a0aab75da164f79fe1db8764e381400adb227b5e71c7e",
+      "output_schema": "breaker",
+      "expected_case_responses": 12,
+      "schedule_index": 12,
+      "schedule_key_sha256": "8fc0ddae5b84f34153916b2ae4b46fa844e73ecc4f9c07707609d005d4238cc0"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-b01",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "breaker",
+      "role_index": 1,
+      "slot_id": "B01",
+      "dependency_call_ids": [
+        "development-development-b01-medium-tournament20-e01",
+        "development-development-b01-medium-tournament20-e02",
+        "development-development-b01-medium-tournament20-e03",
+        "development-development-b01-medium-tournament20-e04",
+        "development-development-b01-medium-tournament20-e05",
+        "development-development-b01-medium-tournament20-e06",
+        "development-development-b01-medium-tournament20-e07",
+        "development-development-b01-medium-tournament20-e08"
+      ],
+      "execution_wave": 1,
+      "prompt_identity_id": "tournament20.breaker",
+      "prompt_identity_sha256": "477ec4c6ef1450303d9a0aab75da164f79fe1db8764e381400adb227b5e71c7e",
+      "output_schema": "breaker",
+      "expected_case_responses": 12,
+      "schedule_index": 13,
+      "schedule_key_sha256": "98864f8c3844b7c5fc03fe10d3fcf0120171e3c56aba71cae1967c922a4e66e7"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-b04",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "breaker",
+      "role_index": 4,
+      "slot_id": "B04",
+      "dependency_call_ids": [
+        "development-development-b01-medium-tournament20-e01",
+        "development-development-b01-medium-tournament20-e02",
+        "development-development-b01-medium-tournament20-e03",
+        "development-development-b01-medium-tournament20-e04",
+        "development-development-b01-medium-tournament20-e05",
+        "development-development-b01-medium-tournament20-e06",
+        "development-development-b01-medium-tournament20-e07",
+        "development-development-b01-medium-tournament20-e08"
+      ],
+      "execution_wave": 1,
+      "prompt_identity_id": "tournament20.breaker",
+      "prompt_identity_sha256": "477ec4c6ef1450303d9a0aab75da164f79fe1db8764e381400adb227b5e71c7e",
+      "output_schema": "breaker",
+      "expected_case_responses": 12,
+      "schedule_index": 14,
+      "schedule_key_sha256": "49189d71077f86a09c352c549738443edc53725b9473e59a398b9256d9c3d4b0"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-v04",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "verifier",
+      "role_index": 4,
+      "slot_id": "V04",
+      "dependency_call_ids": [
+        "development-development-b01-medium-tournament20-e01",
+        "development-development-b01-medium-tournament20-e02",
+        "development-development-b01-medium-tournament20-e03",
+        "development-development-b01-medium-tournament20-e04",
+        "development-development-b01-medium-tournament20-e05",
+        "development-development-b01-medium-tournament20-e06",
+        "development-development-b01-medium-tournament20-e07",
+        "development-development-b01-medium-tournament20-e08",
+        "development-development-b01-medium-tournament20-b01",
+        "development-development-b01-medium-tournament20-b02",
+        "development-development-b01-medium-tournament20-b03",
+        "development-development-b01-medium-tournament20-b04"
+      ],
+      "execution_wave": 2,
+      "prompt_identity_id": "tournament20.verifier",
+      "prompt_identity_sha256": "945d8a8747e35d1f1066949ab586ad1cddd64ecd4c7c9659709d96df84a099cb",
+      "output_schema": "verifier",
+      "expected_case_responses": 12,
+      "schedule_index": 15,
+      "schedule_key_sha256": "80e3f9da6f91978070411cf48262a414b0361f765b7b731bd7766464c48209a7"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-v03",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "verifier",
+      "role_index": 3,
+      "slot_id": "V03",
+      "dependency_call_ids": [
+        "development-development-b01-medium-tournament20-e01",
+        "development-development-b01-medium-tournament20-e02",
+        "development-development-b01-medium-tournament20-e03",
+        "development-development-b01-medium-tournament20-e04",
+        "development-development-b01-medium-tournament20-e05",
+        "development-development-b01-medium-tournament20-e06",
+        "development-development-b01-medium-tournament20-e07",
+        "development-development-b01-medium-tournament20-e08",
+        "development-development-b01-medium-tournament20-b01",
+        "development-development-b01-medium-tournament20-b02",
+        "development-development-b01-medium-tournament20-b03",
+        "development-development-b01-medium-tournament20-b04"
+      ],
+      "execution_wave": 2,
+      "prompt_identity_id": "tournament20.verifier",
+      "prompt_identity_sha256": "945d8a8747e35d1f1066949ab586ad1cddd64ecd4c7c9659709d96df84a099cb",
+      "output_schema": "verifier",
+      "expected_case_responses": 12,
+      "schedule_index": 16,
+      "schedule_key_sha256": "3e35c73b1560d6f12f036fcdd7cb205426b9d13dcc00187b7c8efa9326f1250b"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-v02",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "verifier",
+      "role_index": 2,
+      "slot_id": "V02",
+      "dependency_call_ids": [
+        "development-development-b01-medium-tournament20-e01",
+        "development-development-b01-medium-tournament20-e02",
+        "development-development-b01-medium-tournament20-e03",
+        "development-development-b01-medium-tournament20-e04",
+        "development-development-b01-medium-tournament20-e05",
+        "development-development-b01-medium-tournament20-e06",
+        "development-development-b01-medium-tournament20-e07",
+        "development-development-b01-medium-tournament20-e08",
+        "development-development-b01-medium-tournament20-b01",
+        "development-development-b01-medium-tournament20-b02",
+        "development-development-b01-medium-tournament20-b03",
+        "development-development-b01-medium-tournament20-b04"
+      ],
+      "execution_wave": 2,
+      "prompt_identity_id": "tournament20.verifier",
+      "prompt_identity_sha256": "945d8a8747e35d1f1066949ab586ad1cddd64ecd4c7c9659709d96df84a099cb",
+      "output_schema": "verifier",
+      "expected_case_responses": 12,
+      "schedule_index": 17,
+      "schedule_key_sha256": "e09e943050ec071c1a52e5f48163572d8339fac4e265a4789d78a0108e1f49d3"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-v01",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "verifier",
+      "role_index": 1,
+      "slot_id": "V01",
+      "dependency_call_ids": [
+        "development-development-b01-medium-tournament20-e01",
+        "development-development-b01-medium-tournament20-e02",
+        "development-development-b01-medium-tournament20-e03",
+        "development-development-b01-medium-tournament20-e04",
+        "development-development-b01-medium-tournament20-e05",
+        "development-development-b01-medium-tournament20-e06",
+        "development-development-b01-medium-tournament20-e07",
+        "development-development-b01-medium-tournament20-e08",
+        "development-development-b01-medium-tournament20-b01",
+        "development-development-b01-medium-tournament20-b02",
+        "development-development-b01-medium-tournament20-b03",
+        "development-development-b01-medium-tournament20-b04"
+      ],
+      "execution_wave": 2,
+      "prompt_identity_id": "tournament20.verifier",
+      "prompt_identity_sha256": "945d8a8747e35d1f1066949ab586ad1cddd64ecd4c7c9659709d96df84a099cb",
+      "output_schema": "verifier",
+      "expected_case_responses": 12,
+      "schedule_index": 18,
+      "schedule_key_sha256": "f1e2a4c9a2eeadc11ef47e774e8e8db3776d5c1009371090ec15e3cc613e418f"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-sy01",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "synthesizer",
+      "role_index": 1,
+      "slot_id": "SY01",
+      "dependency_call_ids": [
+        "development-development-b01-medium-tournament20-e01",
+        "development-development-b01-medium-tournament20-e02",
+        "development-development-b01-medium-tournament20-e03",
+        "development-development-b01-medium-tournament20-e04",
+        "development-development-b01-medium-tournament20-e05",
+        "development-development-b01-medium-tournament20-e06",
+        "development-development-b01-medium-tournament20-e07",
+        "development-development-b01-medium-tournament20-e08",
+        "development-development-b01-medium-tournament20-b01",
+        "development-development-b01-medium-tournament20-b02",
+        "development-development-b01-medium-tournament20-b03",
+        "development-development-b01-medium-tournament20-b04",
+        "development-development-b01-medium-tournament20-v01",
+        "development-development-b01-medium-tournament20-v02",
+        "development-development-b01-medium-tournament20-v03",
+        "development-development-b01-medium-tournament20-v04"
+      ],
+      "execution_wave": 3,
+      "prompt_identity_id": "tournament20.synthesizer",
+      "prompt_identity_sha256": "ef5eb8b79a75c729134e93f611012157d81162651e38bcba15e3929357945b34",
+      "output_schema": "synthesizer",
+      "expected_case_responses": 12,
+      "schedule_index": 19,
+      "schedule_key_sha256": "fb44112c054d083edf8af4d0e9c379b4ab5e799fa339510e1b602fb2b6330198"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-sy02",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "synthesizer",
+      "role_index": 2,
+      "slot_id": "SY02",
+      "dependency_call_ids": [
+        "development-development-b01-medium-tournament20-e01",
+        "development-development-b01-medium-tournament20-e02",
+        "development-development-b01-medium-tournament20-e03",
+        "development-development-b01-medium-tournament20-e04",
+        "development-development-b01-medium-tournament20-e05",
+        "development-development-b01-medium-tournament20-e06",
+        "development-development-b01-medium-tournament20-e07",
+        "development-development-b01-medium-tournament20-e08",
+        "development-development-b01-medium-tournament20-b01",
+        "development-development-b01-medium-tournament20-b02",
+        "development-development-b01-medium-tournament20-b03",
+        "development-development-b01-medium-tournament20-b04",
+        "development-development-b01-medium-tournament20-v01",
+        "development-development-b01-medium-tournament20-v02",
+        "development-development-b01-medium-tournament20-v03",
+        "development-development-b01-medium-tournament20-v04"
+      ],
+      "execution_wave": 3,
+      "prompt_identity_id": "tournament20.synthesizer",
+      "prompt_identity_sha256": "ef5eb8b79a75c729134e93f611012157d81162651e38bcba15e3929357945b34",
+      "output_schema": "synthesizer",
+      "expected_case_responses": 12,
+      "schedule_index": 20,
+      "schedule_key_sha256": "20e05e117597b78017a67040aaa49da48eb820f3d7e5e0dcf433ad8d5d41726b"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-rt01",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "red_team",
+      "role_index": 1,
+      "slot_id": "RT01",
+      "dependency_call_ids": [
+        "development-development-b01-medium-tournament20-e01",
+        "development-development-b01-medium-tournament20-e02",
+        "development-development-b01-medium-tournament20-e03",
+        "development-development-b01-medium-tournament20-e04",
+        "development-development-b01-medium-tournament20-e05",
+        "development-development-b01-medium-tournament20-e06",
+        "development-development-b01-medium-tournament20-e07",
+        "development-development-b01-medium-tournament20-e08",
+        "development-development-b01-medium-tournament20-b01",
+        "development-development-b01-medium-tournament20-b02",
+        "development-development-b01-medium-tournament20-b03",
+        "development-development-b01-medium-tournament20-b04",
+        "development-development-b01-medium-tournament20-v01",
+        "development-development-b01-medium-tournament20-v02",
+        "development-development-b01-medium-tournament20-v03",
+        "development-development-b01-medium-tournament20-v04",
+        "development-development-b01-medium-tournament20-sy01",
+        "development-development-b01-medium-tournament20-sy02"
+      ],
+      "execution_wave": 4,
+      "prompt_identity_id": "tournament20.red_team",
+      "prompt_identity_sha256": "3db468e95944ceb516bb7e4846fc46d1d29d20ea2457ecbcfd5ab643b12bd043",
+      "output_schema": "red_team",
+      "expected_case_responses": 12,
+      "schedule_index": 21,
+      "schedule_key_sha256": "fb9719e87756a69ddccfd724aede7f9ea08cdebe32f25323d079ba05788c8ae1"
+    },
+    {
+      "call_id": "development-development-b01-medium-tournament20-j01",
+      "block_id": "development-b01",
+      "case_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "condition_label": "medium",
+      "public_reasoning_label": "Medium reasoning",
+      "reasoning_effort": "medium",
+      "model": "gpt-5.6-luna",
+      "architecture": "tournament20",
+      "role": "judge",
+      "role_index": 1,
+      "slot_id": "J01",
+      "dependency_call_ids": [
+        "development-development-b01-medium-tournament20-e01",
+        "development-development-b01-medium-tournament20-e02",
+        "development-development-b01-medium-tournament20-e03",
+        "development-development-b01-medium-tournament20-e04",
+        "development-development-b01-medium-tournament20-e05",
+        "development-development-b01-medium-tournament20-e06",
+        "development-development-b01-medium-tournament20-e07",
+        "development-development-b01-medium-tournament20-e08",
+        "development-development-b01-medium-tournament20-b01",
+        "development-development-b01-medium-tournament20-b02",
+        "development-development-b01-medium-tournament20-b03",
+        "development-development-b01-medium-tournament20-b04",
+        "development-development-b01-medium-tournament20-v01",
+        "development-development-b01-medium-tournament20-v02",
+        "development-development-b01-medium-tournament20-v03",
+        "development-development-b01-medium-tournament20-v04",
+        "development-development-b01-medium-tournament20-sy01",
+        "development-development-b01-medium-tournament20-sy02",
+        "development-development-b01-medium-tournament20-rt01"
+      ],
+      "execution_wave": 5,
+      "prompt_identity_id": "tournament20.judge",
+      "prompt_identity_sha256": "8b73d186a99eb71894b528a767eba605fae59015ffa25a454514d5c70fd33539",
+      "output_schema": "judge",
+      "expected_case_responses": 12,
+      "schedule_index": 22,
+      "schedule_key_sha256": "dff536ce4977ba1577f3dc1c1d68c07e0d450aacf492d7434b7b70dfa92a8867"
+    }
+  ],
+  "manifest_sha256": "80dc9a6fd8cd2996b84dff3d93de6b324d3e72e9c3ac35ff6f0da52f0812aa44"
+}

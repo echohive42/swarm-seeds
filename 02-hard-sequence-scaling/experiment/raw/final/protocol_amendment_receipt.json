@@ -1,0 +1,17 @@
+{
+  "amended_packet_limit": 65000,
+  "amendment_id": "PA-01-packet-ceiling",
+  "amendment_sha256": "53c09bc44f97235bf6ca4237564173afee3f9905068bf24bcec7f98a140bae5c",
+  "collection_closed_sha256": "a69f260fc000f8bedfd6284c06aa6f477eafc9769a043175b77b80e58978ebc1",
+  "completed_at": "2026-07-13T10:06:50.703Z",
+  "final_attempt_log_sha256": "803d9f3d7745eaeca0fe0737a484ed335d57e6c39b718b6f9aac5b8376deb0e5",
+  "recovered_call_ids": [
+    "final-b02-light-tournament20-j01",
+    "final-b01-light-tournament20-j01",
+    "final-b03-medium-tournament20-j01",
+    "final-b04-light-tournament20-j01",
+    "final-b03-light-tournament20-j01"
+  ],
+  "recovery_runner_sha256": "c28cd5c43aac70d9f6e53f1bbeb05964cea808fbc16f373fadfb15b5e055a5b9",
+  "schema_version": "protocol-amendment-receipt-v1"
+}
