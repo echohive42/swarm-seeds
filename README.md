@@ -4,6 +4,15 @@ Open experiments for learning how AI agents should reason, vote, review, and coo
 
 This repository preserves the actual experiment, not a simplified demo. Each numbered folder contains one reusable `SKILL.md` seed beside the complete run that produced it: protocol, prompts, benchmark, raw agent outputs, failed attempts, scoring, audits, charts, and limitations.
 
+## From Echohive
+
+Swarm Seeds is part of [Echohive](https://www.echohive.ai/), a living laboratory for testing what one person can build with better AI systems and better judgment.
+
+- [Get Amplified](https://www.echohive.ai/get-amplified) is a practical field guide to AI models, agents, harnesses, markets, and methods of mind.
+- [1000x Lab](https://www.echohive.ai/1000x-lab) is the live Sunday session where new models, research, workflows, and experiments are examined together.
+
+The links are here for readers who want to continue. The experiment itself remains fully open in this repository.
+
 ## 01: Reasoning vs Routing
 
 We gave GPT-5.6 Luna the first 10 integers from mathematical sequences and asked it to predict the next 3 exactly.
@@ -75,12 +84,3 @@ Direct links:
 ```
 
 Future seeds will follow the same pattern: one numbered folder, one reusable skill, and the complete evidence used to evaluate it.
-
-## From Echohive
-
-Swarm Seeds is part of [Echohive](https://www.echohive.ai/), a living laboratory for testing what one person can build with better AI systems and better judgment.
-
-- [Get Amplified](https://www.echohive.ai/get-amplified) is a practical field guide to AI models, agents, harnesses, markets, and methods of mind.
-- [1000x Lab](https://www.echohive.ai/1000x-lab) is the live Sunday session where new models, research, workflows, and experiments are examined together.
-
-The links are here for readers who want to continue. The experiment itself remains fully open in this repository.
