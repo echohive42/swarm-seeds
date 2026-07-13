@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "71",
+          "4",
+          "97"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd-position subsequence has successive increments 0,4,8,12,16; even positions alternate -5,4.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved quadratic odd stream and period-2 even stream."
+      },
+      {
+        "answer": [
+          "-13",
+          "34",
+          "-5",
+          "42",
+          "-1"
+        ],
+        "case_id": "S014",
+        "check_summary": "Prefix does not expose a uniquely reliable low-complexity continuation by direct inspection.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative phase-dependent recurrence extrapolation."
+      },
+      {
+        "answer": [
+          "75",
+          "-25",
+          "-11",
+          "86",
+          "-18"
+        ],
+        "case_id": "S015",
+        "check_summary": "Mixed phase behavior suggests an interleaved or phase-dependent mechanism; continuation is tentative.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative interleaved polynomial/affine extrapolation."
+      },
+      {
+        "answer": [
+          "29",
+          "-11",
+          "73",
+          "-3",
+          "95"
+        ],
+        "case_id": "S016",
+        "check_summary": "Irregular phase-separated values prevent a high-confidence direct identification.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative periodic affine extrapolation."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd positions increase by 5; even positions decrease by 4.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-17",
+          "-5",
+          "-31",
+          "-9",
+          "-47"
+        ],
+        "case_id": "S018",
+        "check_summary": "Irregular phase-separated differences make this continuation tentative.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative phase-dependent polynomial-delta extrapolation."
+      },
+      {
+        "answer": [
+          "47",
+          "91",
+          "11",
+          "106",
+          "-4"
+        ],
+        "case_id": "S019",
+        "check_summary": "No uniquely identifiable simple continuation from visible prefix alone.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative periodic recurrence extrapolation."
+      },
+      {
+        "answer": [
+          "-2",
+          "58",
+          "-34",
+          "76",
+          "-44"
+        ],
+        "case_id": "S020",
+        "check_summary": "Values suggest phase-dependent updates but parameters are not securely recoverable manually.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative periodic affine extrapolation."
+      },
+      {
+        "answer": [
+          "-54",
+          "-22",
+          "-70",
+          "-38",
+          "-86"
+        ],
+        "case_id": "S021",
+        "check_summary": "Late prefix contains repeated negative phase deltas, but reset behavior is uncertain.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative growing-block/phase-delta extrapolation."
+      },
+      {
+        "answer": [
+          "-60",
+          "36",
+          "-85",
+          "50",
+          "-112"
+        ],
+        "case_id": "S022",
+        "check_summary": "Irregular differences do not provide a reliable direct rule identification.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative periodic recurrence extrapolation."
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-39",
+          "-37",
+          "-35"
+        ],
+        "case_id": "S023",
+        "check_summary": "Differences are +2 except at triangular-position resets, whose negative magnitudes increase by 2.",
+        "confidence": 0.96,
+        "rule_summary": "Growing-block delta process with triangular reset positions."
+      },
+      {
+        "answer": [
+          "-54",
+          "38",
+          "-250",
+          "-46",
+          "-722"
+        ],
+        "case_id": "S024",
+        "check_summary": "Strongly irregular values suggest a phase-dependent affine or second-order rule; continuation is tentative.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative periodic affine extrapolation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-3CE5CD3B66B3-search-b02-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "b9cd7b710433dfc59fa59591af515ecbbf74ab6f215226f9506e292875b7332e",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-3CE5CD3B66B3-search-b02-proposer-6/attempt-01"
+}

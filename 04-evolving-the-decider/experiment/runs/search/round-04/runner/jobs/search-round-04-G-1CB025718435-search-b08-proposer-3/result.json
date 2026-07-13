@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "14",
+          "17",
+          "20",
+          "10"
+        ],
+        "case_id": "S085",
+        "check_summary": "Periodic delta pattern with polynomially decreasing phase-zero correction.",
+        "confidence": 0.82,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "52",
+          "8",
+          "30",
+          "43",
+          "25"
+        ],
+        "case_id": "S086",
+        "check_summary": "Best-fit periodic modular affine continuation.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-44",
+          "-55",
+          "-67",
+          "-80",
+          "-94"
+        ],
+        "case_id": "S087",
+        "check_summary": "Best-fit phase-specific polynomial-delta continuation.",
+        "confidence": 0.09,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Even positions increase by five; odd positions decrease by one.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-5",
+          "75",
+          "-57",
+          "90",
+          "-112"
+        ],
+        "case_id": "S089",
+        "check_summary": "Best-fit interleaved polynomial continuation.",
+        "confidence": 0.07,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "13",
+          "9",
+          "18",
+          "11",
+          "23"
+        ],
+        "case_id": "S090",
+        "check_summary": "Best-fit periodic affine continuation.",
+        "confidence": 0.08,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-438",
+          "-113",
+          "-288",
+          "-569",
+          "-1002"
+        ],
+        "case_id": "S091",
+        "check_summary": "Best-fit phase-specific second-order recurrence continuation.",
+        "confidence": 0.06,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-3",
+          "10",
+          "-28",
+          "24",
+          "-55"
+        ],
+        "case_id": "S092",
+        "check_summary": "Best-fit periodic delta continuation.",
+        "confidence": 0.07,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-30",
+          "54",
+          "-15",
+          "75",
+          "-2"
+        ],
+        "case_id": "S093",
+        "check_summary": "Best-fit interleaved polynomial continuation.",
+        "confidence": 0.06,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "87",
+          "102",
+          "99",
+          "116",
+          "131"
+        ],
+        "case_id": "S094",
+        "check_summary": "Best-fit periodic affine continuation.",
+        "confidence": 0.06,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-17",
+          "-33",
+          "-49",
+          "-65",
+          "-1"
+        ],
+        "case_id": "S095",
+        "check_summary": "Phase-zero increments follow a quadratic sequence; other phases decrement by successive multiples of four.",
+        "confidence": 0.94,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-38",
+          "162",
+          "-94",
+          "282",
+          "-178"
+        ],
+        "case_id": "S096",
+        "check_summary": "Best-fit second-order periodic recurrence continuation.",
+        "confidence": 0.06,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-1CB025718435-search-b08-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "a0c8c7abd2d5d1f5935259df1db3657b5d6c8fb2cdd2e3c3e8da0e32c0124191",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-1CB025718435-search-b08-proposer-3/attempt-01"
+}

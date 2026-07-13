@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b01",
+    "results": [
+      {
+        "answer": [
+          "30",
+          "10",
+          "5",
+          "25",
+          "-1"
+        ],
+        "case_id": "S001",
+        "check_summary": "Periodic phase deltas replay the prefix.",
+        "confidence": 0.95,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "2713",
+          "3755",
+          "5066",
+          "6688",
+          "8723"
+        ],
+        "case_id": "S002",
+        "check_summary": "Fourth differences are constant after replay.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-218",
+          "234",
+          "-255",
+          "271",
+          "-292"
+        ],
+        "case_id": "S003",
+        "check_summary": "Alternating linear streams with slope magnitude 37.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-127",
+          "-199",
+          "-290",
+          "-400",
+          "-527"
+        ],
+        "case_id": "S004",
+        "check_summary": "Second differences continue decreasing by 2.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "3319238",
+          "1106415",
+          "-19915450",
+          "6638499",
+          "119492698"
+        ],
+        "case_id": "S005",
+        "check_summary": "Two affine interleaved streams replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-125",
+          "-159",
+          "-168",
+          "-202",
+          "-217"
+        ],
+        "case_id": "S006",
+        "check_summary": "Periodic affine phase continuation inferred from prefix.",
+        "confidence": 0.62,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-13374",
+          "-13928",
+          "-30448",
+          "-26488",
+          "-61042"
+        ],
+        "case_id": "S007",
+        "check_summary": "Interleaved polynomial streams with constant fifth differences.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-797169",
+          "-2391510",
+          "-7174533",
+          "-21523596",
+          "-64570785"
+        ],
+        "case_id": "S008",
+        "check_summary": "Affine recurrence x -> 3x - 3.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-1963374",
+          "-5362373",
+          "-14648962",
+          "-40021879",
+          "-109259202"
+        ],
+        "case_id": "S009",
+        "check_summary": "Exponential affine continuation inferred from the integer prefix.",
+        "confidence": 0.55,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "17",
+          "15",
+          "19",
+          "17",
+          "21"
+        ],
+        "case_id": "S010",
+        "check_summary": "Alternating +4 and -2 differences.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "2234042",
+          "-5397389",
+          "13040732",
+          "-31501049",
+          "76066610"
+        ],
+        "case_id": "S011",
+        "check_summary": "Alternating affine recurrence continuation.",
+        "confidence": 0.58,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "113309",
+          "-113304",
+          "37771",
+          "-226650",
+          "1359913"
+        ],
+        "case_id": "S012",
+        "check_summary": "Three interleaved affine streams with multiplier -6.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-0025CFC9EF2E-search-b01-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "a5798812b36c55aeafa4994038ffbba2a1cd2598a297f0f910a05bfb93910b3f",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-0025CFC9EF2E-search-b01-proposer-2/attempt-01"
+}

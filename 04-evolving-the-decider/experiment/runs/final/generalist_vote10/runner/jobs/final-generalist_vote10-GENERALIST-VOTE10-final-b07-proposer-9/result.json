@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b07",
+    "results": [
+      {
+        "answer": [
+          "-6513",
+          "-8888",
+          "-11850",
+          "-15487",
+          "-19894"
+        ],
+        "case_id": "F073",
+        "check_summary": "Cubic finite-difference continuation matches the full prefix after the initial transient.",
+        "confidence": 0.98,
+        "rule_summary": "POLY: integer-valued cubic continuation."
+      },
+      {
+        "answer": [
+          "42324",
+          "-84652",
+          "169300",
+          "-338604",
+          "677204"
+        ],
+        "case_id": "F074",
+        "check_summary": "Every transition satisfies x_next = -2*x - 4.",
+        "confidence": 1,
+        "rule_summary": "AFFINE: x_next = -2*x - 4."
+      },
+      {
+        "answer": [
+          "12554768",
+          "-34342538",
+          "93871328",
+          "-256756586",
+          "701542424"
+        ],
+        "case_id": "F075",
+        "check_summary": "Exponential alternating-sign continuation inferred from the dominant affine pattern.",
+        "confidence": 0.31,
+        "rule_summary": "AFFINE/PDELTA: alternating high-gain affine progression."
+      },
+      {
+        "answer": [
+          "-18947920",
+          "-56843765",
+          "-170531289",
+          "-511593865",
+          "-1534781600"
+        ],
+        "case_id": "F076",
+        "check_summary": "Periodic affine phase offsets repeat with period three.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE: multiplier 3 with repeating offsets 2,-5,6."
+      },
+      {
+        "answer": [
+          "-4870878",
+          "-29225255",
+          "-175351506",
+          "-1052109023",
+          "-6312654090"
+        ],
+        "case_id": "F077",
+        "check_summary": "Odd and even subsequences each follow multiplier 6 with fixed phase-specific bias.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd stream 6x+13, even stream 6x+24."
+      },
+      {
+        "answer": [
+          "-54",
+          "-38",
+          "-70",
+          "-59",
+          "-86"
+        ],
+        "case_id": "F078",
+        "check_summary": "Continuation estimated from the alternating irregular phase pattern.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA: periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-891",
+          "351",
+          "1797",
+          "-3579",
+          "-7191"
+        ],
+        "case_id": "F079",
+        "check_summary": "Continuation estimated from alternating modular/affine behavior.",
+        "confidence": 0.14,
+        "rule_summary": "MODAFFINE: periodic affine update modulo a prime."
+      },
+      {
+        "answer": [
+          "-5184",
+          "-10224",
+          "-18360",
+          "-28656",
+          "-39600"
+        ],
+        "case_id": "F080",
+        "check_summary": "Continuation estimated from the nonlinear polynomial-like trend.",
+        "confidence": 0.16,
+        "rule_summary": "POLY/PDELTA: higher-order polynomial progression."
+      },
+      {
+        "answer": [
+          "-591",
+          "-799",
+          "-1050",
+          "-1348",
+          "-1697"
+        ],
+        "case_id": "F081",
+        "check_summary": "Second differences continue decreasing by four.",
+        "confidence": 0.99,
+        "rule_summary": "POLY: eventual quartic finite-difference continuation."
+      },
+      {
+        "answer": [
+          "-505",
+          "-836",
+          "-1381",
+          "-2286",
+          "-3787"
+        ],
+        "case_id": "F082",
+        "check_summary": "Continuation estimated from the accelerating negative recurrence.",
+        "confidence": 0.12,
+        "rule_summary": "LIN2: second-order recurrence."
+      },
+      {
+        "answer": [
+          "-7",
+          "-25",
+          "-10",
+          "-42",
+          "-13"
+        ],
+        "case_id": "F083",
+        "check_summary": "Continuation estimated from the interleaved irregular streams.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE: two phase-specific streams."
+      },
+      {
+        "answer": [
+          "9",
+          "7",
+          "12",
+          "10",
+          "15"
+        ],
+        "case_id": "F084",
+        "check_summary": "Odd and even positions are separate arithmetic progressions with step three.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE: two affine streams, each increasing by 3."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-generalist_vote10-GENERALIST-VOTE10-final-b07-proposer-9",
+  "outcome": "valid_output",
+  "response_sha256": "b0b75ab729617017df80d758751d38bb573f586f1f02d92a5f919604041cb81d",
+  "terminal_artifact_relpath": "jobs/final-generalist_vote10-GENERALIST-VOTE10-final-b07-proposer-9/attempt-01"
+}

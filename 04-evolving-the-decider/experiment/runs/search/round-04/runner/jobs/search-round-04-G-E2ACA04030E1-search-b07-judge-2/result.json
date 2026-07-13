@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating first differences -4,-3 replay the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-2 constant deltas."
+      },
+      {
+        "answer": [
+          "9329",
+          "-15119",
+          "24488",
+          "-39659",
+          "64201"
+        ],
+        "case_id": "S074",
+        "check_summary": "Strongest coherent continuation among alternating signed recurrence candidates.",
+        "confidence": 0.42,
+        "rule_summary": "Phase-dependent linear recurrence."
+      },
+      {
+        "answer": [
+          "18",
+          "6",
+          "11",
+          "24",
+          "8"
+        ],
+        "case_id": "S075",
+        "check_summary": "Three interleaved polynomial streams provide the strongest full-prefix explanation.",
+        "confidence": 0.99,
+        "rule_summary": "Three-way polynomial interleave."
+      },
+      {
+        "answer": [
+          "-14341",
+          "-21158",
+          "-30384",
+          "-42606",
+          "-58500"
+        ],
+        "case_id": "S076",
+        "check_summary": "Higher finite differences support polynomial extrapolation.",
+        "confidence": 0.91,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-4062",
+          "-9803",
+          "-23663",
+          "-57124",
+          "-137906"
+        ],
+        "case_id": "S077",
+        "check_summary": "Exact recurrence a_n=2a_(n-1)+a_(n-2)+5.",
+        "confidence": 0.99,
+        "rule_summary": "Second-order linear recurrence with constant bias."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Every step satisfies x_next=-3x+5.",
+        "confidence": 1,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "82",
+          "112",
+          "153",
+          "209",
+          "286"
+        ],
+        "case_id": "S079",
+        "check_summary": "Best available continuation of the growing interleaved/block pattern.",
+        "confidence": 0.28,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "408426",
+          "1225270",
+          "-3675812",
+          "3675804",
+          "11027404"
+        ],
+        "case_id": "S080",
+        "check_summary": "Exact three-phase affine cycle replayed across the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Period-3 affine recurrence."
+      },
+      {
+        "answer": [
+          "-152370",
+          "-304742",
+          "609486",
+          "1218970",
+          "-2437938"
+        ],
+        "case_id": "S081",
+        "check_summary": "Exact alternating affine updates replay the full prefix.",
+        "confidence": 1,
+        "rule_summary": "Period-2 affine recurrence."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences continue as negative consecutive squares.",
+        "confidence": 1,
+        "rule_summary": "Polynomial delta rule."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7643",
+          "-10166"
+        ],
+        "case_id": "S083",
+        "check_summary": "Finite differences support the polynomial continuation.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "351054",
+          "-847509",
+          "2046078",
+          "-4939659",
+          "11925402"
+        ],
+        "case_id": "S084",
+        "check_summary": "Strongest candidate from the sign-alternating second-order difference pattern.",
+        "confidence": 0.7,
+        "rule_summary": "Second-order linear recurrence on first differences."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-E2ACA04030E1-search-b07-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "08aaa94d16305457580cd8de50e18f1b3ebe6b7ffd6f07f99d0d02ee6c0679a4",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-E2ACA04030E1-search-b07-judge-2/attempt-01"
+}

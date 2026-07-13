@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "-81",
+          "-103",
+          "-125",
+          "-147",
+          "-169"
+        ],
+        "case_id": "S133",
+        "check_summary": "Tail forms a sustained arithmetic run with step -22.",
+        "confidence": 0.48,
+        "rule_summary": "Likely growing-block or phased-delta continuation."
+      },
+      {
+        "answer": [
+          "-8",
+          "-25",
+          "-22",
+          "-36",
+          "-39"
+        ],
+        "case_id": "S134",
+        "check_summary": "Two residue-class subsequences show recurring negative increments.",
+        "confidence": 0.32,
+        "rule_summary": "Likely phase-interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "35",
+          "-363",
+          "-14",
+          "40",
+          "-731"
+        ],
+        "case_id": "S135",
+        "check_summary": "Three interleaved streams: quadratic, arithmetic, and doubling-difference negative stream.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE with streams 16,14,10,4,...; 15,20,25,...; -18,-41,-87,..."
+      },
+      {
+        "answer": [
+          "-5",
+          "48",
+          "-2",
+          "42",
+          "-11"
+        ],
+        "case_id": "S136",
+        "check_summary": "Extrapolated from the latest phase behavior.",
+        "confidence": 0.12,
+        "rule_summary": "Likely periodic affine or interleaved mechanism."
+      },
+      {
+        "answer": [
+          "-1020",
+          "16",
+          "-2044",
+          "30",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd terms follow x_n=2x_previous-4; even-term increments rise by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of exponential and quadratic/arithmetic phase streams."
+      },
+      {
+        "answer": [
+          "-70",
+          "-5",
+          "-86",
+          "-8",
+          "-102"
+        ],
+        "case_id": "S138",
+        "check_summary": "Continuation inferred from alternating phase tails.",
+        "confidence": 0.14,
+        "rule_summary": "Likely interleaved or periodic affine mechanism."
+      },
+      {
+        "answer": [
+          "-3",
+          "17",
+          "-2",
+          "25",
+          "-5"
+        ],
+        "case_id": "S139",
+        "check_summary": "Latest phase differences suggest a modest oscillating continuation.",
+        "confidence": 0.13,
+        "rule_summary": "Likely interleaved polynomial or periodic-affine streams."
+      },
+      {
+        "answer": [
+          "49",
+          "-45",
+          "71",
+          "-69",
+          "93"
+        ],
+        "case_id": "S140",
+        "check_summary": "Alternating phase extrapolation from the recent tail.",
+        "confidence": 0.15,
+        "rule_summary": "Likely interleaved streams or periodic affine update."
+      },
+      {
+        "answer": [
+          "48",
+          "65",
+          "45",
+          "70",
+          "42"
+        ],
+        "case_id": "S141",
+        "check_summary": "Extrapolated using the recent alternating phase pattern.",
+        "confidence": 0.12,
+        "rule_summary": "Likely periodic interleave or modular affine rule."
+      },
+      {
+        "answer": [
+          "-3",
+          "-7",
+          "-9",
+          "-25",
+          "-15"
+        ],
+        "case_id": "S142",
+        "check_summary": "Alternating residue-class continuation estimated from recent terms.",
+        "confidence": 0.11,
+        "rule_summary": "Likely interleaved or modular-affine mechanism."
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "4",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Odd subsequence decreases by 2; even subsequence decreases by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-50",
+          "-62",
+          "-74",
+          "-86",
+          "-98"
+        ],
+        "case_id": "S144",
+        "check_summary": "Recent tail is an arithmetic run with common difference -12.",
+        "confidence": 0.54,
+        "rule_summary": "Likely phased arithmetic continuation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-E2CB7ED71793-search-b12-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "049d1b134b316813d7e5e4c64cae9cabbfd96e9707930df46704c8cc3e18e80d",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-E2CB7ED71793-search-b12-proposer-4/attempt-01"
+}

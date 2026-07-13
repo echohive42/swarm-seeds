@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b09",
+    "results": [
+      {
+        "answer": [
+          "-126422",
+          "379266",
+          "-1137798",
+          "3413394",
+          "-10240182"
+        ],
+        "case_id": "S097",
+        "check_summary": "Tentative extrapolation from dominant alternating growth pattern.",
+        "confidence": 0.18,
+        "rule_summary": "Likely periodic affine or polynomial-delta growth."
+      },
+      {
+        "answer": [
+          "-169",
+          "-189",
+          "-25",
+          "293",
+          "315"
+        ],
+        "case_id": "S098",
+        "check_summary": "Tentative periodic oscillatory extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Likely phase-specific affine or interleaved structure."
+      },
+      {
+        "answer": [
+          "-709",
+          "-858",
+          "-1024",
+          "-1207",
+          "-1407"
+        ],
+        "case_id": "S099",
+        "check_summary": "Continued increasingly negative differences with smooth curvature.",
+        "confidence": 0.2,
+        "rule_summary": "Likely polynomial or lagged polynomial."
+      },
+      {
+        "answer": [
+          "-4915830",
+          "14747487",
+          "-44242464",
+          "132727389",
+          "-398182170"
+        ],
+        "case_id": "S100",
+        "check_summary": "Verified recurrence x[n]=-3*x[n-1]-3 from the stable suffix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with multiplier -3 and bias -3."
+      },
+      {
+        "answer": [
+          "-7414",
+          "-11144",
+          "-15639",
+          "-20589",
+          "-25964"
+        ],
+        "case_id": "S101",
+        "check_summary": "Tentative continuation of rapidly changing higher-order differences.",
+        "confidence": 0.1,
+        "rule_summary": "Likely polynomial or lagged polynomial."
+      },
+      {
+        "answer": [
+          "1143",
+          "1477",
+          "1871",
+          "2330",
+          "2859"
+        ],
+        "case_id": "S102",
+        "check_summary": "Verified first differences increase by successive multiples of five.",
+        "confidence": 0.99,
+        "rule_summary": "POLY with fifth-order-style finite-difference continuation."
+      },
+      {
+        "answer": [
+          "142",
+          "138",
+          "131",
+          "127",
+          "117"
+        ],
+        "case_id": "S103",
+        "check_summary": "Verified repeating three-phase difference pattern with block decrement six.",
+        "confidence": 0.95,
+        "rule_summary": "PDELTA with period-three affine phase deltas."
+      },
+      {
+        "answer": [
+          "-36",
+          "-39",
+          "-44",
+          "-47",
+          "-52"
+        ],
+        "case_id": "S104",
+        "check_summary": "Verified alternating differences -3,-5.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-two constant deltas."
+      },
+      {
+        "answer": [
+          "-39990",
+          "39995",
+          "79995",
+          "-239986",
+          "-479978"
+        ],
+        "case_id": "S105",
+        "check_summary": "Tentative continuation of repeating three-step affine/sign pattern.",
+        "confidence": 0.28,
+        "rule_summary": "Likely periodic affine update."
+      },
+      {
+        "answer": [
+          "-1050979",
+          "-2864557",
+          "-7800615",
+          "-21263335",
+          "-57978059"
+        ],
+        "case_id": "S106",
+        "check_summary": "Tentative continuation of near-multiplicative exponential growth.",
+        "confidence": 0.15,
+        "rule_summary": "Likely AFFINE or periodic affine."
+      },
+      {
+        "answer": [
+          "14",
+          "20",
+          "24",
+          "33",
+          "38"
+        ],
+        "case_id": "S107",
+        "check_summary": "Tentative continuation from recent irregular difference pattern.",
+        "confidence": 0.1,
+        "rule_summary": "Likely interleaved or phase-specific polynomial."
+      },
+      {
+        "answer": [
+          "23",
+          "45",
+          "47",
+          "51",
+          "55"
+        ],
+        "case_id": "S108",
+        "check_summary": "Tentative oscillatory continuation based on recent phase behavior.",
+        "confidence": 0.08,
+        "rule_summary": "Likely interleaved polynomial or periodic affine."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-EC429DE4D50C-search-b09-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "c2f44ff156fa00e21ade18575312688a44876d853afe7edaf290ecae2aed2291",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-EC429DE4D50C-search-b09-proposer-4/attempt-01"
+}

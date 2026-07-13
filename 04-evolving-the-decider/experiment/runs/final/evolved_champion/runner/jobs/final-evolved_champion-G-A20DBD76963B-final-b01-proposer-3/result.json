@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b01",
+    "results": [
+      {
+        "answer": [
+          "1211",
+          "1535",
+          "1912",
+          "2346",
+          "2841"
+        ],
+        "case_id": "F001",
+        "check_summary": "Fourth differences are constant.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "-176",
+          "-180",
+          "-189",
+          "-191",
+          "-198"
+        ],
+        "case_id": "F002",
+        "check_summary": "Alternating arithmetic difference trends replay exactly.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic phase-specific deltas."
+      },
+      {
+        "answer": [
+          "-853138",
+          "-2559412",
+          "5118830",
+          "15356492",
+          "-30712978"
+        ],
+        "case_id": "F003",
+        "check_summary": "Alternating affine updates replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-8254430",
+          "-24763286",
+          "49526574",
+          "148579714",
+          "445739146"
+        ],
+        "case_id": "F004",
+        "check_summary": "Three-phase affine cycle replays the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-47",
+          "-25",
+          "-52",
+          "-60",
+          "-32"
+        ],
+        "case_id": "F005",
+        "check_summary": "Fits an alternating/interleaved low-order pattern.",
+        "confidence": 0.31,
+        "rule_summary": "Interleaved streams."
+      },
+      {
+        "answer": [
+          "-16",
+          "-19",
+          "-17",
+          "-20",
+          "-18"
+        ],
+        "case_id": "F006",
+        "check_summary": "Odd and even subsequences each decrease by one.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "15",
+          "2",
+          "31",
+          "-6",
+          "30"
+        ],
+        "case_id": "F007",
+        "check_summary": "Extrapolated phase-separated streams.",
+        "confidence": 0.28,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-25548",
+          "-37291",
+          "-52915",
+          "-73278",
+          "-99352"
+        ],
+        "case_id": "F008",
+        "check_summary": "Finite differences show a fifth-degree polynomial pattern.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "773",
+          "1197",
+          "1753",
+          "2464",
+          "3357"
+        ],
+        "case_id": "F009",
+        "check_summary": "Third differences increase by two.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "-515",
+          "573",
+          "2173",
+          "3197",
+          "2045"
+        ],
+        "case_id": "F010",
+        "check_summary": "Four-term difference blocks scale by negative four.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-30037",
+          "60075",
+          "-120149",
+          "240299",
+          "-480597"
+        ],
+        "case_id": "F011",
+        "check_summary": "Every update is x_next = -2x + 1.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "-3500",
+          "-3120",
+          "-2700",
+          "-2240",
+          "-1740"
+        ],
+        "case_id": "F012",
+        "check_summary": "Extrapolated periodic phase behavior.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic affine or polynomial recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-evolved_champion-G-A20DBD76963B-final-b01-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "059ffaf61c1cc8cd9cf3554e71e14bdf104c5cffbd16868081c08fa49d35850b",
+  "terminal_artifact_relpath": "jobs/final-evolved_champion-G-A20DBD76963B-final-b01-proposer-3/attempt-01"
+}

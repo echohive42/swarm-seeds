@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "Matches x(n+1)=-3x(n)+3.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence with constant multiplier and bias."
+      },
+      {
+        "answer": [
+          "-3777",
+          "-5390",
+          "-7477",
+          "-10123",
+          "-13420"
+        ],
+        "case_id": "V026",
+        "check_summary": "Finite differences fit the observed cubic continuation pattern.",
+        "confidence": 0.86,
+        "rule_summary": "Polynomial delta progression."
+      },
+      {
+        "answer": [
+          "-2164",
+          "3537",
+          "-5928",
+          "10041",
+          "-17150"
+        ],
+        "case_id": "V027",
+        "check_summary": "Candidate continuation from a phase-dependent linear recurrence.",
+        "confidence": 0.28,
+        "rule_summary": "Periodic second-order linear mechanism."
+      },
+      {
+        "answer": [
+          "47314",
+          "-94660",
+          "188594",
+          "-754328",
+          "-3017262"
+        ],
+        "case_id": "V028",
+        "check_summary": "Alternating subsequences follow multiplier 4 with incrementing phase biases.",
+        "confidence": 0.98,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "12486",
+          "19645",
+          "28635",
+          "39658",
+          "53604"
+        ],
+        "case_id": "V029",
+        "check_summary": "Candidate continuation from the observed accelerating recurrence.",
+        "confidence": 0.24,
+        "rule_summary": "Polynomial-delta mechanism."
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Odd and even positions each increase by one.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Alternating updates x↦2x+1 and x↦3x+7.",
+        "confidence": 0.99,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "11934102",
+          "-23868198",
+          "71604588",
+          "-143209170",
+          "429627504"
+        ],
+        "case_id": "V032",
+        "check_summary": "Alternating updates x↦-3x-6 and x↦-2x+6.",
+        "confidence": 0.99,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "-987",
+          "1596",
+          "-2640",
+          "4383",
+          "-7275"
+        ],
+        "case_id": "V033",
+        "check_summary": "Candidate continuation from alternating-sign growth pattern.",
+        "confidence": 0.25,
+        "rule_summary": "Phase-specific second-order linear mechanism."
+      },
+      {
+        "answer": [
+          "-9",
+          "-7",
+          "5",
+          "13",
+          "31"
+        ],
+        "case_id": "V034",
+        "check_summary": "Candidate continuation from the observed phase-dependent increments.",
+        "confidence": 0.22,
+        "rule_summary": "Periodic polynomial-delta mechanism."
+      },
+      {
+        "answer": [
+          "57",
+          "80",
+          "46",
+          "46",
+          "74"
+        ],
+        "case_id": "V035",
+        "check_summary": "Odd/even subsequences show alternating polynomial step patterns.",
+        "confidence": 0.83,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "815",
+          "1060",
+          "1351",
+          "1692",
+          "2087"
+        ],
+        "case_id": "V036",
+        "check_summary": "Second differences continue increasing by four.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-A20DBD76963B-validation-b03-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "eb4527f36c2ef833f4a6fa43d4af726700357806314db3ceae9071ec062f70d4",
+  "terminal_artifact_relpath": "jobs/validation-G-A20DBD76963B-validation-b03-proposer-5/attempt-01"
+}

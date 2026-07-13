@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-430",
+          "-484",
+          "-545",
+          "-600",
+          "-663"
+        ],
+        "case_id": "S145",
+        "check_summary": "Three phase-specific difference streams each decrease by 9.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of three quadratic streams."
+      },
+      {
+        "answer": [
+          "93",
+          "123",
+          "129",
+          "125",
+          "178"
+        ],
+        "case_id": "S146",
+        "check_summary": "Three interleaved streams fit quadratic difference progression.",
+        "confidence": 0.85,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      },
+      {
+        "answer": [
+          "-10922",
+          "21846",
+          "-43690",
+          "87382",
+          "-174762"
+        ],
+        "case_id": "S147",
+        "check_summary": "Every term equals negative twice the previous term plus 2.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence a(n)=-2a(n-1)+2."
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "327"
+        ],
+        "case_id": "S148",
+        "check_summary": "Alternating difference phases increase by fixed amounts.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two quadratic streams."
+      },
+      {
+        "answer": [
+          "3560",
+          "4779",
+          "6288",
+          "8130",
+          "10372"
+        ],
+        "case_id": "S149",
+        "check_summary": "Third differences increase by 3, giving quartic continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY quartic sequence."
+      },
+      {
+        "answer": [
+          "-4",
+          "-2",
+          "-6",
+          "-4",
+          "-8"
+        ],
+        "case_id": "S150",
+        "check_summary": "Values alternate between two arithmetic streams decreasing by 6 per cycle.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of affine streams."
+      },
+      {
+        "answer": [
+          "-3914",
+          "-6335",
+          "-10249",
+          "-16584",
+          "-26833"
+        ],
+        "case_id": "S151",
+        "check_summary": "Approximate Fibonacci-like continuation from the dominant linear recurrence.",
+        "confidence": 0.42,
+        "rule_summary": "LIN2 recurrence, inferred from late-prefix growth."
+      },
+      {
+        "answer": [
+          "-15624",
+          "-25168",
+          "-40792",
+          "-65960",
+          "-106752"
+        ],
+        "case_id": "S152",
+        "check_summary": "Approximate Fibonacci-like continuation from the dominant linear recurrence.",
+        "confidence": 0.38,
+        "rule_summary": "LIN2 recurrence, inferred from late-prefix growth."
+      },
+      {
+        "answer": [
+          "-2608",
+          "-4221",
+          "-6829",
+          "-11050",
+          "-17879"
+        ],
+        "case_id": "S153",
+        "check_summary": "Approximate Fibonacci-like continuation from the dominant linear recurrence.",
+        "confidence": 0.45,
+        "rule_summary": "LIN2 recurrence, inferred from late-prefix growth."
+      },
+      {
+        "answer": [
+          "-1239",
+          "-1593",
+          "-2009",
+          "-2492",
+          "-3047"
+        ],
+        "case_id": "S154",
+        "check_summary": "Second differences decrease by 5 each step.",
+        "confidence": 0.99,
+        "rule_summary": "POLY quartic sequence."
+      },
+      {
+        "answer": [
+          "533635",
+          "-1067265",
+          "-2134529",
+          "4269051",
+          "-8538097"
+        ],
+        "case_id": "S155",
+        "check_summary": "Repeating affine phase biases and multipliers match the prefix.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE periodic phase recurrence."
+      },
+      {
+        "answer": [
+          "136533",
+          "273068",
+          "546133",
+          "1092268",
+          "2184533"
+        ],
+        "case_id": "S156",
+        "check_summary": "Successive differences follow a doubling recurrence with phase offsets.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE periodic difference recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-B6D67789C6A8-search-b13-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "09ac9dc593e66e92b417f67edbbfc9cc22a7f8d0ccc4a334eccf644005a60bf9",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-B6D67789C6A8-search-b13-proposer-4/attempt-01"
+}

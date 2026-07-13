@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "16",
+          "-7",
+          "-2",
+          "23",
+          "-4"
+        ],
+        "case_id": "S109",
+        "check_summary": "Inferred periodic interleaving; extrapolation uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved phase streams."
+      },
+      {
+        "answer": [
+          "12",
+          "5",
+          "-12",
+          "-2",
+          "7"
+        ],
+        "case_id": "S110",
+        "check_summary": "Phase-wise block extrapolation.",
+        "confidence": 0.38,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "80",
+          "42",
+          "81",
+          "57",
+          "96"
+        ],
+        "case_id": "S111",
+        "check_summary": "Interleaved trend extrapolation.",
+        "confidence": 0.15,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "29",
+          "-5",
+          "-5",
+          "57",
+          "-6"
+        ],
+        "case_id": "S112",
+        "check_summary": "Phase-interleaved extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic phase-specific deltas."
+      },
+      {
+        "answer": [
+          "-9",
+          "55",
+          "-30",
+          "78",
+          "-16"
+        ],
+        "case_id": "S113",
+        "check_summary": "Interleaved stream extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-25",
+          "28",
+          "-15",
+          "453",
+          "-26"
+        ],
+        "case_id": "S114",
+        "check_summary": "Phase-block extrapolation with explosive phase behavior.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine or polynomial phase updates."
+      },
+      {
+        "answer": [
+          "43",
+          "11",
+          "44",
+          "20",
+          "59"
+        ],
+        "case_id": "S115",
+        "check_summary": "Interleaved trend extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved streams."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Exact alternating affine streams.",
+        "confidence": 0.99,
+        "rule_summary": "Two affine streams interleaved by parity."
+      },
+      {
+        "answer": [
+          "17",
+          "29",
+          "-8",
+          "76",
+          "35"
+        ],
+        "case_id": "S117",
+        "check_summary": "Interleaved stream extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "13",
+          "8",
+          "3",
+          "28",
+          "23"
+        ],
+        "case_id": "S118",
+        "check_summary": "Periodic descending-stream extrapolation.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "82",
+          "25",
+          "4",
+          "76",
+          "88"
+        ],
+        "case_id": "S119",
+        "check_summary": "Growing-block phase extrapolation.",
+        "confidence": 0.2,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "168",
+          "67",
+          "52",
+          "37",
+          "211"
+        ],
+        "case_id": "S120",
+        "check_summary": "Growing-block extrapolation.",
+        "confidence": 0.16,
+        "rule_summary": "Growing arithmetic blocks with polynomial starts and steps."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-26840FECDB83-search-b10-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "cc7d538ad00799340c00480516a326afa55577b1a7c6a3f4c4089ee798c22afd",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-26840FECDB83-search-b10-proposer-6/attempt-01"
+}

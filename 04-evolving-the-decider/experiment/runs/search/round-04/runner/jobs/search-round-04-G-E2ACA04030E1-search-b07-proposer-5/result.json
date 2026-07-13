@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating first differences -4,-3.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic arithmetic delta."
+      },
+      {
+        "answer": [
+          "-9355",
+          "5814",
+          "-9620",
+          "6010",
+          "-9939"
+        ],
+        "case_id": "S074",
+        "check_summary": "Alternating-growth extrapolation from the final magnitude pattern.",
+        "confidence": 0.18,
+        "rule_summary": "Likely phased affine or second-order recurrence."
+      },
+      {
+        "answer": [
+          "8",
+          "1",
+          "4",
+          "6",
+          "2"
+        ],
+        "case_id": "S075",
+        "check_summary": "Cyclic/interleaved pattern extrapolation.",
+        "confidence": 0.2,
+        "rule_summary": "Likely interleaved short-period streams."
+      },
+      {
+        "answer": [
+          "-4940",
+          "-7120",
+          "-10000",
+          "-13800",
+          "-18700"
+        ],
+        "case_id": "S076",
+        "check_summary": "Extrapolated from accelerating negative differences.",
+        "confidence": 0.15,
+        "rule_summary": "Likely phased affine or second-order recurrence."
+      },
+      {
+        "answer": [
+          "-4061",
+          "-9803",
+          "-23639",
+          "-57015",
+          "-137438"
+        ],
+        "case_id": "S077",
+        "check_summary": "Extrapolated from rapidly growing negative recurrence-like differences.",
+        "confidence": 0.16,
+        "rule_summary": "Likely phased affine recurrence."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Each term follows x'=-3x+5.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence x'=-3x+5."
+      },
+      {
+        "answer": [
+          "79",
+          "97",
+          "132",
+          "179",
+          "244"
+        ],
+        "case_id": "S079",
+        "check_summary": "Interleaved irregular polynomial-stream extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "Likely INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-3675812",
+          "1225270",
+          "3675804",
+          "408426",
+          "11027224"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three phase streams: 9x+94, 9x-26, and 9x-30.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of three affine streams."
+      },
+      {
+        "answer": [
+          "-152370",
+          "304738",
+          "609474",
+          "-1218946",
+          "-2437890"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating affine maps with multiplier -2 and biases +2,-2.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences are negative squares.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA with deltas -10^2,-11^2,-12^2,..."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7643",
+          "-10166"
+        ],
+        "case_id": "S083",
+        "check_summary": "Finite differences indicate a quartic polynomial continuation.",
+        "confidence": 0.97,
+        "rule_summary": "POLY, degree four."
+      },
+      {
+        "answer": [
+          "351000",
+          "-842000",
+          "2021000",
+          "-4848000",
+          "11625000"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating exponential extrapolation from recent terms.",
+        "confidence": 0.12,
+        "rule_summary": "Likely phased affine or second-order recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-E2ACA04030E1-search-b07-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "64dc8ed7f8a1436371fc8a72a03f638b875b2fe55380c3f0573a8f1670e946c7",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-E2ACA04030E1-search-b07-proposer-5/attempt-01"
+}

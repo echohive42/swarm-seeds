@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "321",
+          "-319",
+          "-1279",
+          "-1919",
+          "-1279"
+        ],
+        "case_id": "S025",
+        "check_summary": "Plurality supports the coherent four-phase polynomial interleave.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-48",
+          "-55",
+          "-63",
+          "-72",
+          "-82"
+        ],
+        "case_id": "S026",
+        "check_summary": "Selected the leading tied periodic-delta continuation; evidence is weak.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-13",
+          "-24",
+          "-35",
+          "-49",
+          "-63"
+        ],
+        "case_id": "S027",
+        "check_summary": "Paired differences continue with each pair decreasing by three.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-951",
+          "-1533",
+          "-2478",
+          "-4006",
+          "-6477"
+        ],
+        "case_id": "S028",
+        "check_summary": "Strong minority supports the periodic-bias second-order recurrence.",
+        "confidence": 0.94,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "797159",
+          "2391482",
+          "7174451",
+          "21523358",
+          "64570079"
+        ],
+        "case_id": "S029",
+        "check_summary": "Every transition follows x(n+1)=3x(n)+5.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-56",
+          "-60",
+          "-65",
+          "-69",
+          "-74"
+        ],
+        "case_id": "S030",
+        "check_summary": "Differences alternate exactly between -5 and -4.",
+        "confidence": 1,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "1872",
+          "3210",
+          "5323",
+          "8474",
+          "12977"
+        ],
+        "case_id": "S031",
+        "check_summary": "Constant fifth finite difference gives this polynomial continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-140903",
+          "-281802",
+          "563609",
+          "1127222",
+          "-2254439"
+        ],
+        "case_id": "S032",
+        "check_summary": "Alternating affine updates replay the visible prefix.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-205",
+          "-240",
+          "-273",
+          "-313",
+          "-351"
+        ],
+        "case_id": "S033",
+        "check_summary": "Paired phase differences continue with the established decrement pattern.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "99759069",
+          "299277205",
+          "-897831611",
+          "-2693494827",
+          "-8080484483"
+        ],
+        "case_id": "S034",
+        "check_summary": "Three-phase affine updates 3x+6, 3x-2, and -3x+4 replay exactly.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "1112",
+          "1814",
+          "2759",
+          "3994",
+          "5570"
+        ],
+        "case_id": "S035",
+        "check_summary": "Constant fourth finite difference supports the quartic continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1025",
+          "1343",
+          "1720",
+          "2161",
+          "2671"
+        ],
+        "case_id": "S036",
+        "check_summary": "Second differences increase by five each step.",
+        "confidence": 1,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-A246735BF9C3-search-b03-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "1d3e39cd3eebccdf09056750881d17ca7c4802c3e4a946d81a3ddda90a0a4152",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-A246735BF9C3-search-b03-judge-1/attempt-01"
+}

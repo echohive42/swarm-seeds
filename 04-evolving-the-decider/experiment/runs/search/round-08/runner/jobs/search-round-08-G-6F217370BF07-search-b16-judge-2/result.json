@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-197",
+          "-86",
+          "-251",
+          "-42",
+          "-317"
+        ],
+        "case_id": "S181",
+        "check_summary": "Plurality-supported periodic phase-delta continuation.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "29",
+          "57",
+          "30",
+          "68",
+          "35"
+        ],
+        "case_id": "S182",
+        "check_summary": "Plurality-supported interleaved affine continuation.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "0",
+          "-5",
+          "-10",
+          "13",
+          "8"
+        ],
+        "case_id": "S183",
+        "check_summary": "Strong plurality; repeated -5 deltas with triangular positive corrections.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "1027",
+          "-18",
+          "-18",
+          "-2045",
+          "-8"
+        ],
+        "case_id": "S184",
+        "check_summary": "Strongest coherent minority has the best residue-stream support.",
+        "confidence": 0.84,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "68",
+          "3",
+          "91",
+          "-2",
+          "117"
+        ],
+        "case_id": "S185",
+        "check_summary": "Near-unanimous interleaved-stream continuation.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-121",
+          "-79",
+          "-37",
+          "5",
+          "47"
+        ],
+        "case_id": "S186",
+        "check_summary": "Strong plurality-supported periodic polynomial-delta continuation.",
+        "confidence": 0.9,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "30",
+          "28",
+          "-105",
+          "32",
+          "47"
+        ],
+        "case_id": "S187",
+        "check_summary": "Strong residue-class arithmetic and polynomial continuation.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-19",
+          "-36",
+          "-53",
+          "-70",
+          "-87"
+        ],
+        "case_id": "S188",
+        "check_summary": "Strong plurality-supported growing arithmetic block.",
+        "confidence": 0.91,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-26",
+          "-22",
+          "-29",
+          "-26",
+          "-32"
+        ],
+        "case_id": "S189",
+        "check_summary": "Near-unanimous two-stream arithmetic continuation.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-22",
+          "116",
+          "99",
+          "-2",
+          "-83"
+        ],
+        "case_id": "S190",
+        "check_summary": "Plurality-supported residue-class polynomial extrapolation, though uncertain.",
+        "confidence": 0.42,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "38",
+          "58",
+          "42",
+          "64",
+          "31"
+        ],
+        "case_id": "S191",
+        "check_summary": "Plurality-supported weak interleaved continuation.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-37",
+          "19",
+          "220",
+          "-46",
+          "26"
+        ],
+        "case_id": "S192",
+        "check_summary": "Near-unanimous three-residue polynomial continuation.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-6F217370BF07-search-b16-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "905bb5b33099930e735f779f74f6575aa40bb2628717e5e6cfc1942c8d4c472a",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-6F217370BF07-search-b16-judge-2/attempt-01"
+}

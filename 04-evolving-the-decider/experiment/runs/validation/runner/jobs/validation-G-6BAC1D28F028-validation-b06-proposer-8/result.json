@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b06",
+    "results": [
+      {
+        "answer": [
+          "24",
+          "30",
+          "42",
+          "56",
+          "72"
+        ],
+        "case_id": "V061",
+        "check_summary": "Tentative phase-interleaved continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "59",
+          "82",
+          "105",
+          "128",
+          "151"
+        ],
+        "case_id": "V062",
+        "check_summary": "Last observed run has constant increment 23.",
+        "confidence": 0.82,
+        "rule_summary": "Phase-specific affine update."
+      },
+      {
+        "answer": [
+          "-84",
+          "-112",
+          "-144",
+          "-180",
+          "-220"
+        ],
+        "case_id": "V063",
+        "check_summary": "Tentative polynomial-delta continuation.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "20",
+          "-33",
+          "24",
+          "-38",
+          "28"
+        ],
+        "case_id": "V064",
+        "check_summary": "Odd and even subsequences are arithmetic.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "58",
+          "73",
+          "45",
+          "17",
+          "68"
+        ],
+        "case_id": "V065",
+        "check_summary": "Tentative modular phase continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Periodic modular affine update."
+      },
+      {
+        "answer": [
+          "-49",
+          "449",
+          "-60",
+          "897",
+          "-72"
+        ],
+        "case_id": "V066",
+        "check_summary": "Odd subsequence has successive decrements; even subsequence follows x→2x−1.",
+        "confidence": 0.97,
+        "rule_summary": "Two interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "42",
+          "19",
+          "64",
+          "27",
+          "81"
+        ],
+        "case_id": "V067",
+        "check_summary": "Tentative interleaved-stream continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-54",
+          "8",
+          "7",
+          "-74",
+          "8"
+        ],
+        "case_id": "V068",
+        "check_summary": "One lagged subsequence has second differences −3.",
+        "confidence": 0.14,
+        "rule_summary": "Interleaved lagged polynomial streams."
+      },
+      {
+        "answer": [
+          "-49",
+          "-17",
+          "-56",
+          "-29",
+          "-63"
+        ],
+        "case_id": "V069",
+        "check_summary": "Tentative phase-interleaved continuation.",
+        "confidence": 0.07,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "117",
+          "135",
+          "153",
+          "171",
+          "189"
+        ],
+        "case_id": "V070",
+        "check_summary": "Continuation of the visible arithmetic block with step 18.",
+        "confidence": 0.52,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-57",
+          "-2",
+          "-80",
+          "-2",
+          "-107"
+        ],
+        "case_id": "V071",
+        "check_summary": "Tentative interleaved polynomial continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "35",
+          "39",
+          "43",
+          "47",
+          "51"
+        ],
+        "case_id": "V072",
+        "check_summary": "Visible growing blocks use step 4 and starts increasing by 5.",
+        "confidence": 0.78,
+        "rule_summary": "Growing arithmetic blocks."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b06-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "b58e48549ef8eacfd8f102444cbf5098d32428186e679c7aeeb7703b91d61ba8",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b06-proposer-8/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "12",
+          "-7",
+          "6",
+          "9",
+          "14"
+        ],
+        "case_id": "S109",
+        "check_summary": "Used phase-repeating/interleaved extrapolation; confidence low.",
+        "confidence": 0.18,
+        "rule_summary": "Likely periodic phase-specific updates."
+      },
+      {
+        "answer": [
+          "12",
+          "5",
+          "-12",
+          "-2",
+          "7"
+        ],
+        "case_id": "S110",
+        "check_summary": "Phase streams show stable or linearly evolving values.",
+        "confidence": 0.72,
+        "rule_summary": "Period-6 phase-specific polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "81",
+          "96",
+          "111",
+          "126",
+          "141"
+        ],
+        "case_id": "S111",
+        "check_summary": "Extended the apparent arithmetic-growth tail.",
+        "confidence": 0.25,
+        "rule_summary": "Likely growing-block or phase-specific delta process."
+      },
+      {
+        "answer": [
+          "-2",
+          "48",
+          "2",
+          "2",
+          "67"
+        ],
+        "case_id": "S112",
+        "check_summary": "Phase deltas fit exact linear trends for the observed phases.",
+        "confidence": 0.88,
+        "rule_summary": "Period-3 polynomial delta updates."
+      },
+      {
+        "answer": [
+          "61",
+          "85",
+          "81",
+          "107",
+          "94"
+        ],
+        "case_id": "S113",
+        "check_summary": "Used a low-order periodic/interleaved continuation.",
+        "confidence": 0.2,
+        "rule_summary": "Likely phase-specific recurrence or interleaving."
+      },
+      {
+        "answer": [
+          "-25",
+          "181",
+          "-26",
+          "-27",
+          "905"
+        ],
+        "case_id": "S114",
+        "check_summary": "Extrapolated apparent alternating explosive phase behavior.",
+        "confidence": 0.12,
+        "rule_summary": "Likely interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "42",
+          "87",
+          "177",
+          "35",
+          "72"
+        ],
+        "case_id": "S115",
+        "check_summary": "Extended the visible exponential and affine subsequences.",
+        "confidence": 0.16,
+        "rule_summary": "Likely interleaved affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd and even subsequences are exact arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "Two affine streams interleaved by position."
+      },
+      {
+        "answer": [
+          "40",
+          "20",
+          "67",
+          "14",
+          "78"
+        ],
+        "case_id": "S117",
+        "check_summary": "Used phase-wise continuation of the apparent interleaved streams.",
+        "confidence": 0.16,
+        "rule_summary": "Likely periodic interleave."
+      },
+      {
+        "answer": [
+          "23",
+          "18",
+          "13",
+          "36",
+          "31"
+        ],
+        "case_id": "S118",
+        "check_summary": "Deltas at positions 1,4,7,10 increase by 5; remaining deltas are -5.",
+        "confidence": 0.96,
+        "rule_summary": "Period-3 delta pattern with one polynomial phase."
+      },
+      {
+        "answer": [
+          "89",
+          "-6",
+          "-1",
+          "85",
+          "-2"
+        ],
+        "case_id": "S119",
+        "check_summary": "Extended the clearest phase trend and conservative interleaved continuation.",
+        "confidence": 0.15,
+        "rule_summary": "Likely phase-specific polynomial updates."
+      },
+      {
+        "answer": [
+          "207",
+          "190",
+          "173",
+          "156",
+          "335"
+        ],
+        "case_id": "S120",
+        "check_summary": "Tail shows repeated negative steps with growing block jumps.",
+        "confidence": 0.38,
+        "rule_summary": "Growing-block arithmetic process."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-38D833F18B84-search-b10-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "29795612fecea287c048d4faf75001d9d5ade6f7ac6c8e6bd5a80d9f0d55948d",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-38D833F18B84-search-b10-proposer-8/attempt-01"
+}

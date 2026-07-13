@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Verified phase-block recurrence a(n+4)=-4a(n)+5 across the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Four-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Verified alternating increments +4,+5 throughout the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic arithmetic progression."
+      },
+      {
+        "answer": [
+          "-2662",
+          "-4754",
+          "-7686",
+          "-11746",
+          "-17268"
+        ],
+        "case_id": "S171",
+        "check_summary": "Verified finite-difference continuation with linearly changing fourth differences.",
+        "confidence": 0.96,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "1570",
+          "1867",
+          "2174",
+          "2484",
+          "2794"
+        ],
+        "case_id": "S172",
+        "check_summary": "Verified third differences decrease by one, then continued the polynomial differences.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "-109",
+          "-90",
+          "-50",
+          "20",
+          "126"
+        ],
+        "case_id": "S173",
+        "check_summary": "Verified successive differences have second differences increasing by one.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18815",
+          "-30443"
+        ],
+        "case_id": "S174",
+        "check_summary": "Verified second-order recurrence with repeating residuals -2,-2,3.",
+        "confidence": 0.99,
+        "rule_summary": "Phase-biased LIN2 recurrence."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97987621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Verified repeating affine updates ×3+1 and ×(-2)+6.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "55",
+          "66",
+          "71",
+          "50",
+          "51"
+        ],
+        "case_id": "S176",
+        "check_summary": "Verified four interleaved streams with phase increments continuing by constant second differences.",
+        "confidence": 0.93,
+        "rule_summary": "Four-way interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3436997"
+        ],
+        "case_id": "S177",
+        "check_summary": "Verified three phase streams with multiplier -8 and biases 19,-25,-31.",
+        "confidence": 0.99,
+        "rule_summary": "Three-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Verified multiplication by two at every step.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence with multiplier 2."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "Verified exact six-term periodic cycle.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic interleave."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-361",
+          "-416"
+        ],
+        "case_id": "S180",
+        "check_summary": "Verified alternating second-difference pattern continuing as -11,5,-12,6,-13.",
+        "confidence": 0.97,
+        "rule_summary": "Interleaved polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-2F6BAD401B84-search-b15-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "e25442fd5b08e95dd55adc4b7c6cbf41a0290b6b8b6be98fe0757e73c103d00d",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-2F6BAD401B84-search-b15-proposer-6/attempt-01"
+}

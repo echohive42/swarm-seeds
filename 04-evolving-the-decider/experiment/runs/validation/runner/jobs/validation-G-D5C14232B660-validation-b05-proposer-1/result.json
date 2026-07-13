@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b05",
+    "results": [
+      {
+        "answer": [
+          "-183",
+          "-213",
+          "-244",
+          "-288",
+          "-337"
+        ],
+        "case_id": "V049",
+        "check_summary": "Low-confidence extrapolation from irregular phase deltas.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved periodic-delta candidate."
+      },
+      {
+        "answer": [
+          "37000",
+          "-74000",
+          "148000",
+          "-296000",
+          "592000"
+        ],
+        "case_id": "V050",
+        "check_summary": "Low-confidence alternating exponential extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Alternating affine-growth candidate."
+      },
+      {
+        "answer": [
+          "-9700",
+          "-14000",
+          "-19500",
+          "-26000",
+          "-34000"
+        ],
+        "case_id": "V051",
+        "check_summary": "Low-confidence continuation of accelerating negative deltas.",
+        "confidence": 0.06,
+        "rule_summary": "Unresolved growth candidate."
+      },
+      {
+        "answer": [
+          "-14217",
+          "14218",
+          "-42648",
+          "42649",
+          "-127941"
+        ],
+        "case_id": "V052",
+        "check_summary": "Exact replay under alternating affine streams.",
+        "confidence": 0.99,
+        "rule_summary": "Odd stream x'=3x-5; even stream x'=3x+3."
+      },
+      {
+        "answer": [
+          "151",
+          "167",
+          "179",
+          "221",
+          "240"
+        ],
+        "case_id": "V053",
+        "check_summary": "Exact periodic delta phases continue as arithmetic progressions.",
+        "confidence": 0.97,
+        "rule_summary": "Period-3 deltas with phase increments 7,3,3 respectively."
+      },
+      {
+        "answer": [
+          "-49200",
+          "-120600",
+          "-295500",
+          "-724000",
+          "-1774000"
+        ],
+        "case_id": "V054",
+        "check_summary": "Low-confidence affine-growth continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved periodic affine candidate."
+      },
+      {
+        "answer": [
+          "1597",
+          "-2589",
+          "4133",
+          "-6619",
+          "10589"
+        ],
+        "case_id": "V055",
+        "check_summary": "Low-confidence alternating stream extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved interleaved affine candidate."
+      },
+      {
+        "answer": [
+          "-37840",
+          "113525",
+          "227054",
+          "-227056",
+          "681173"
+        ],
+        "case_id": "V056",
+        "check_summary": "Exact replay of repeating three-phase affine updates.",
+        "confidence": 0.99,
+        "rule_summary": "Cycle: x'=2x+4, x'=-x-2, x'=-3x+5."
+      },
+      {
+        "answer": [
+          "-26",
+          "-31",
+          "-29",
+          "-34",
+          "-32"
+        ],
+        "case_id": "V057",
+        "check_summary": "Exact alternating arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "Odd terms decrement by 3; even terms decrement by 3."
+      },
+      {
+        "answer": [
+          "5048689",
+          "15146068",
+          "45438205",
+          "136314616",
+          "408943849"
+        ],
+        "case_id": "V058",
+        "check_summary": "Exact replay of x'=3x+1.",
+        "confidence": 0.99,
+        "rule_summary": "Single affine recurrence."
+      },
+      {
+        "answer": [
+          "292",
+          "399",
+          "528",
+          "681",
+          "860"
+        ],
+        "case_id": "V059",
+        "check_summary": "Exact polynomial-difference continuation.",
+        "confidence": 0.98,
+        "rule_summary": "Fourth differences are constant at 2 after the observed prefix."
+      },
+      {
+        "answer": [
+          "-4467",
+          "-5931",
+          "-7725",
+          "-9895",
+          "-12490"
+        ],
+        "case_id": "V060",
+        "check_summary": "Exact polynomial continuation from constant fourth differences.",
+        "confidence": 0.99,
+        "rule_summary": "Fourth finite difference is constant -3."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b05-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "564dccaff9f8037f0f5fdb066c178d7138cbf942bf9296c08fd669109d2c6a54",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b05-proposer-1/attempt-01"
+}

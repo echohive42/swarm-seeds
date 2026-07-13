@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-186",
+          "-118",
+          "-99",
+          "-194",
+          "-126"
+        ],
+        "case_id": "S037",
+        "check_summary": "Best-fit periodic/interleaved recurrence extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "124",
+          "128",
+          "176",
+          "133",
+          "149"
+        ],
+        "case_id": "S038",
+        "check_summary": "Best-fit phase-dependent recurrence extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine or second-order recurrence."
+      },
+      {
+        "answer": [
+          "35",
+          "31",
+          "45",
+          "52",
+          "58"
+        ],
+        "case_id": "S039",
+        "check_summary": "Best-fit interleaved phase extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "35",
+          "55",
+          "75",
+          "95",
+          "115"
+        ],
+        "case_id": "S040",
+        "check_summary": "Differences show separator sequence -1,-9,-25,-49 and positive blocks of 4,8,12,16,20.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK with polynomial separators and repeated arithmetic steps."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Alternating arithmetic streams are exact.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-18",
+          "-23",
+          "-29",
+          "-34",
+          "-40"
+        ],
+        "case_id": "S042",
+        "check_summary": "Best-fit periodic recurrence extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE or phase-dependent affine update."
+      },
+      {
+        "answer": [
+          "-76",
+          "-18",
+          "-56",
+          "-81",
+          "-23"
+        ],
+        "case_id": "S043",
+        "check_summary": "Best-fit phase-dependent interleaving extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-18",
+          "-31",
+          "-33",
+          "-40",
+          "-51"
+        ],
+        "case_id": "S044",
+        "check_summary": "Phase-1 deltas follow 28,21,14,7,0,-7; other phases extrapolated polynomially.",
+        "confidence": 0.52,
+        "rule_summary": "PDELTA with period-three phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-12",
+          "96",
+          "-84",
+          "-4",
+          "-38"
+        ],
+        "case_id": "S045",
+        "check_summary": "Best-fit interleaved phase extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE of phase-specific polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-7",
+          "-12",
+          "-17",
+          "-22",
+          "1"
+        ],
+        "case_id": "S046",
+        "check_summary": "Differences are -5 except at positions 2,5,8,11,... where positive jumps are 3,8,13,18,23.",
+        "confidence": 0.97,
+        "rule_summary": "GROWBLOCK-like periodic delta pattern."
+      },
+      {
+        "answer": [
+          "63",
+          "109",
+          "155",
+          "201",
+          "247"
+        ],
+        "case_id": "S047",
+        "check_summary": "Positive blocks grow as 22,30,38,46; next negative separator extrapolates to -97.",
+        "confidence": 0.9,
+        "rule_summary": "GROWBLOCK with polynomial starts and repeated arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-11",
+          "12",
+          "-25",
+          "-10",
+          "-42"
+        ],
+        "case_id": "S048",
+        "check_summary": "Four-way interleaving: two constant phases and quadratic phase differences.",
+        "confidence": 0.65,
+        "rule_summary": "INTERLEAVE of polynomial and affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-BF0AD01E8A72-search-b04-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "d13e31c068420d8a46d0b47292460a808e73a61cf9fd6b9f2b67a113b2205eb5",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-BF0AD01E8A72-search-b04-proposer-2/attempt-01"
+}

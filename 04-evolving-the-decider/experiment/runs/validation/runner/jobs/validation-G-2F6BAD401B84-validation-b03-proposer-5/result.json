@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "Affine recurrence x'=-3x+3 matches all terms.",
+        "confidence": 1.0,
+        "rule_summary": "Constant affine update."
+      },
+      {
+        "answer": [
+          "-2885",
+          "-4491",
+          "-6557",
+          "-9161",
+          "-12388"
+        ],
+        "case_id": "V026",
+        "check_summary": "Finite differences support the continuation.",
+        "confidence": 0.82,
+        "rule_summary": "Polynomial finite-difference continuation."
+      },
+      {
+        "answer": [
+          "-1890",
+          "3720",
+          "-7400",
+          "14760",
+          "-29420"
+        ],
+        "case_id": "V027",
+        "check_summary": "Alternating extrapolation from dominant recurrence pattern.",
+        "confidence": 0.35,
+        "rule_summary": "Alternating affine/interleaved recurrence."
+      },
+      {
+        "answer": [
+          "47316",
+          "-94674",
+          "189310",
+          "-378664",
+          "757288"
+        ],
+        "case_id": "V028",
+        "check_summary": "Alternating affine biases continue the observed pattern.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic affine update with multiplier -2."
+      },
+      {
+        "answer": [
+          "12035",
+          "19082",
+          "28289",
+          "39604",
+          "53723"
+        ],
+        "case_id": "V029",
+        "check_summary": "Higher-order finite-difference continuation.",
+        "confidence": 0.35,
+        "rule_summary": "Polynomial-growth recurrence."
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Odd and even subsequences each increase by one.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-559877",
+          "-1679624",
+          "-3359249",
+          "-10077740",
+          "-20155481"
+        ],
+        "case_id": "V031",
+        "check_summary": "Alternating affine updates match the full prefix.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic affine recurrence with multipliers 2 and 3."
+      },
+      {
+        "answer": [
+          "11934102",
+          "-23868198",
+          "71604588",
+          "-143209170",
+          "429627504"
+        ],
+        "case_id": "V032",
+        "check_summary": "Alternating affine updates match the tail and prefix structure.",
+        "confidence": 0.96,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "966",
+          "-1929",
+          "3858",
+          "-7719",
+          "15438"
+        ],
+        "case_id": "V033",
+        "check_summary": "Alternating doubling/sign pattern extrapolated.",
+        "confidence": 0.34,
+        "rule_summary": "Alternating affine recurrence."
+      },
+      {
+        "answer": [
+          "-12",
+          "-15",
+          "-5",
+          "-11",
+          "8"
+        ],
+        "case_id": "V034",
+        "check_summary": "Periodic finite-difference continuation.",
+        "confidence": 0.25,
+        "rule_summary": "Phase-specific polynomial delta."
+      },
+      {
+        "answer": [
+          "45",
+          "54",
+          "49",
+          "52",
+          "70"
+        ],
+        "case_id": "V035",
+        "check_summary": "Interleaved phase continuation inferred from local pattern.",
+        "confidence": 0.22,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "815",
+          "1064",
+          "1363",
+          "1716",
+          "2127"
+        ],
+        "case_id": "V036",
+        "check_summary": "Second differences continue increasing by four.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial finite-difference sequence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b03-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "c6f3ef7dc2a92db721184caa1dbe5246b984232a7e9025eeb70f97142030cf64",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b03-proposer-5/attempt-01"
+}

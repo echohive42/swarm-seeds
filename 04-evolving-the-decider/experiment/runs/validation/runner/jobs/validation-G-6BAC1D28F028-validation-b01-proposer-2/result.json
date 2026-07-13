@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b01",
+    "results": [
+      {
+        "answer": [
+          "-1288815",
+          "-3866444",
+          "-7732889",
+          "15465778",
+          "46397335"
+        ],
+        "case_id": "V001",
+        "check_summary": "Periodic affine pattern inferred from repeated blocks.",
+        "confidence": 0.58,
+        "rule_summary": "Phase-periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "2653",
+          "3868",
+          "5457",
+          "7480",
+          "10001"
+        ],
+        "case_id": "V002",
+        "check_summary": "Tail finite differences extrapolated.",
+        "confidence": 0.78,
+        "rule_summary": "Growing polynomial-difference sequence."
+      },
+      {
+        "answer": [
+          "43",
+          "47",
+          "50",
+          "54",
+          "57"
+        ],
+        "case_id": "V003",
+        "check_summary": "Alternating increments +3,+4 continue.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta sequence."
+      },
+      {
+        "answer": [
+          "-2590778",
+          "7772327",
+          "-23316977",
+          "69950924",
+          "-209852768"
+        ],
+        "case_id": "V004",
+        "check_summary": "Alternating affine updates replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Phase-periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "1727182",
+          "-5181551",
+          "15544648",
+          "-46633949",
+          "139901842"
+        ],
+        "case_id": "V005",
+        "check_summary": "Constant affine update matches all terms.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence x_next=-3x-5."
+      },
+      {
+        "answer": [
+          "-977",
+          "818",
+          "477",
+          "-2510",
+          "3975"
+        ],
+        "case_id": "V006",
+        "check_summary": "Four-phase affine extrapolation from lag-four structure.",
+        "confidence": 0.46,
+        "rule_summary": "Phase-periodic lagged affine recurrence."
+      },
+      {
+        "answer": [
+          "-112",
+          "-103",
+          "-128",
+          "-163",
+          "-151"
+        ],
+        "case_id": "V007",
+        "check_summary": "Three interleaved arithmetic-polynomial streams continue.",
+        "confidence": 0.98,
+        "rule_summary": "Three-way interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-15063",
+          "-21095",
+          "-28990",
+          "-39163",
+          "-52088"
+        ],
+        "case_id": "V008",
+        "check_summary": "Finite differences extrapolated with continuing fifth-difference pattern.",
+        "confidence": 0.94,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "-566237",
+          "1367015",
+          "-3300260",
+          "7967529",
+          "-19226274"
+        ],
+        "case_id": "V009",
+        "check_summary": "Second-order recurrence with alternating biases inferred.",
+        "confidence": 0.93,
+        "rule_summary": "LIN2 recurrence with period-two bias."
+      },
+      {
+        "answer": [
+          "-27",
+          "-34",
+          "-42",
+          "-51",
+          "-61"
+        ],
+        "case_id": "V010",
+        "check_summary": "Weak extrapolation from apparent periodic difference structure.",
+        "confidence": 0.22,
+        "rule_summary": "Phase-periodic polynomial delta."
+      },
+      {
+        "answer": [
+          "101",
+          "-167",
+          "278",
+          "-463",
+          "771"
+        ],
+        "case_id": "V011",
+        "check_summary": "Weak extrapolation from apparent alternating recurrence growth.",
+        "confidence": 0.2,
+        "rule_summary": "Phase-periodic second-order recurrence."
+      },
+      {
+        "answer": [
+          "-805",
+          "-1035",
+          "-1304",
+          "-1615",
+          "-1971"
+        ],
+        "case_id": "V012",
+        "check_summary": "Second differences decrease by 3 each step.",
+        "confidence": 0.99,
+        "rule_summary": "Cubic polynomial sequence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b01-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "1fc29e0d97151f4080eca5f51f594edd7263a570946248ef1109ff9b371bfded",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b01-proposer-2/attempt-01"
+}

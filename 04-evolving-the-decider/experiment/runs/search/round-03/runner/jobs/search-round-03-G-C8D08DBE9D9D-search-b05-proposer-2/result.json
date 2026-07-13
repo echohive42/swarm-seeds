@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b05",
+    "results": [
+      {
+        "answer": [
+          "-1978",
+          "-2703",
+          "-3589",
+          "-4655",
+          "-5901"
+        ],
+        "case_id": "S049",
+        "check_summary": "Third differences follow an arithmetic progression.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial extrapolation."
+      },
+      {
+        "answer": [
+          "48729",
+          "97477",
+          "194932",
+          "389879",
+          "779737"
+        ],
+        "case_id": "S050",
+        "check_summary": "Affine update biases repeat with period six.",
+        "confidence": 0.93,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "10390",
+          "31174",
+          "-31173",
+          "93523",
+          "-93519"
+        ],
+        "case_id": "S051",
+        "check_summary": "Alternating updates x↦-x+1 and x↦3x+4 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "406",
+          "-458",
+          "513",
+          "-571",
+          "632"
+        ],
+        "case_id": "S052",
+        "check_summary": "Alternating differences have steadily increasing magnitudes.",
+        "confidence": 0.96,
+        "rule_summary": "Polynomial phase-specific deltas."
+      },
+      {
+        "answer": [
+          "-20",
+          "-31",
+          "-45",
+          "-61",
+          "-80"
+        ],
+        "case_id": "S053",
+        "check_summary": "Tail extrapolation uses the recurring interleaved local trend.",
+        "confidence": 0.25,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-67",
+          "-78",
+          "-71",
+          "-91",
+          "-102"
+        ],
+        "case_id": "S054",
+        "check_summary": "Interleaved subsequences show recurring affine-phase behavior.",
+        "confidence": 0.25,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-371",
+          "-1111",
+          "-3331",
+          "-9991",
+          "-29971"
+        ],
+        "case_id": "S055",
+        "check_summary": "Every term satisfies x_next=3x+2.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "-9378",
+          "-15521",
+          "-24631",
+          "-37001",
+          "-52990"
+        ],
+        "case_id": "S056",
+        "check_summary": "Accelerating differences indicate a phase-dependent growth rule.",
+        "confidence": 0.22,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "27996",
+          "-27993",
+          "83983",
+          "167964",
+          "-167961"
+        ],
+        "case_id": "S057",
+        "check_summary": "Three-phase maps x↦2x-2, x↦-x+3, x↦-3x+4 replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Three-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "58",
+          "63",
+          "67",
+          "72",
+          "76"
+        ],
+        "case_id": "S058",
+        "check_summary": "Increments alternate +4 and +5.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "53",
+          "121",
+          "208",
+          "316",
+          "447"
+        ],
+        "case_id": "S059",
+        "check_summary": "Successive differences increase by odd increments.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial extrapolation."
+      },
+      {
+        "answer": [
+          "-1594",
+          "-2882",
+          "-4966",
+          "-8338",
+          "-13794"
+        ],
+        "case_id": "S060",
+        "check_summary": "Differences follow d_next=d_previous+d_two_steps_previous.",
+        "confidence": 0.99,
+        "rule_summary": "Second-order linear recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-C8D08DBE9D9D-search-b05-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "6ccdd0925734abc587d38454dc14f2e3f809f2629d9f9a6e42bc6675feedf9ae",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-C8D08DBE9D9D-search-b05-proposer-2/attempt-01"
+}

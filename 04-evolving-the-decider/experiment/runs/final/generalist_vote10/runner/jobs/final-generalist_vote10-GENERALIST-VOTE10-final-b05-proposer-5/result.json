@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b05",
+    "results": [
+      {
+        "answer": [
+          "3454364",
+          "10363097",
+          "31089296",
+          "93267893",
+          "279803684"
+        ],
+        "case_id": "F049",
+        "check_summary": "Matches x'=3x+5 across prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence x'=3x+5."
+      },
+      {
+        "answer": [
+          "21",
+          "19",
+          "24",
+          "22",
+          "27"
+        ],
+        "case_id": "F050",
+        "check_summary": "Two interleaved arithmetic streams with step 3.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved streams 3,6,9,... and 1,4,7,...."
+      },
+      {
+        "answer": [
+          "-5953",
+          "5956",
+          "-17864",
+          "17861",
+          "-17858"
+        ],
+        "case_id": "F051",
+        "check_summary": "Matches repeating three-phase affine updates.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic affine recurrence with phases -x-3, -x+3, and -3x+4."
+      },
+      {
+        "answer": [
+          "-3973",
+          "-5917",
+          "-8508",
+          "-11742",
+          "-15864"
+        ],
+        "case_id": "F052",
+        "check_summary": "Extrapolated from stabilized high-order finite-difference pattern.",
+        "confidence": 0.42,
+        "rule_summary": "Polynomial-like finite-difference continuation."
+      },
+      {
+        "answer": [
+          "516032",
+          "1245813",
+          "3007659",
+          "7261125",
+          "17729908"
+        ],
+        "case_id": "F053",
+        "check_summary": "Matches second-order recurrence with repeating biases -6,-1,1.",
+        "confidence": 0.98,
+        "rule_summary": "LIN2: x_n=2x_{n-1}+x_{n-2}+periodic bias."
+      },
+      {
+        "answer": [
+          "-2132829",
+          "-4265659",
+          "17062651",
+          "34125301",
+          "-136501189"
+        ],
+        "case_id": "F054",
+        "check_summary": "Matches alternating affine updates.",
+        "confidence": 0.99,
+        "rule_summary": "Alternates x'=2x-1 and x'=-4x+15."
+      },
+      {
+        "answer": [
+          "-1135",
+          "1633",
+          "-385",
+          "-2057",
+          "1063"
+        ],
+        "case_id": "F055",
+        "check_summary": "Candidate continuation from periodic interleaved polynomial streams.",
+        "confidence": 0.3,
+        "rule_summary": "Interleaved periodic polynomial streams."
+      },
+      {
+        "answer": [
+          "-129",
+          "-145",
+          "-164",
+          "-181",
+          "-202"
+        ],
+        "case_id": "F056",
+        "check_summary": "Candidate continuation from lagged/interleaved irregular difference structure.",
+        "confidence": 0.25,
+        "rule_summary": "Lagged polynomial or interleaved stream mechanism."
+      },
+      {
+        "answer": [
+          "42",
+          "5",
+          "39",
+          "-4",
+          "36"
+        ],
+        "case_id": "F057",
+        "check_summary": "Even-position differences decrease by 3; odd-position differences decrease by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two quadratic streams interleaved."
+      },
+      {
+        "answer": [
+          "-78",
+          "-91",
+          "-105",
+          "-120",
+          "-136"
+        ],
+        "case_id": "F058",
+        "check_summary": "Successive differences continue -11,-12,-13,-14,-15.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence with second difference -1."
+      },
+      {
+        "answer": [
+          "-880",
+          "-1115",
+          "-1389",
+          "-1705",
+          "-2066"
+        ],
+        "case_id": "F059",
+        "check_summary": "Second differences continue decreasing by successive multiples of 3.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial finite-difference sequence."
+      },
+      {
+        "answer": [
+          "1476",
+          "2207",
+          "3176",
+          "4429",
+          "6016"
+        ],
+        "case_id": "F060",
+        "check_summary": "Third differences increase by 2; extrapolated finite differences.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial sequence with structured higher differences."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-generalist_vote10-GENERALIST-VOTE10-final-b05-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "4481d9ca85615157416f4c36e4fd9f903c8b36f8ecc9cb238b98cdf7dabf5b38",
+  "terminal_artifact_relpath": "jobs/final-generalist_vote10-GENERALIST-VOTE10-final-b05-proposer-5/attempt-01"
+}

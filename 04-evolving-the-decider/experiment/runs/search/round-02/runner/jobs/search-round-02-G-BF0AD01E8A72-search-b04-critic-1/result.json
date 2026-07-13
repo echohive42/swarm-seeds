@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-143",
+          "17",
+          "-209",
+          "19",
+          "-287"
+        ],
+        "case_id": "S037",
+        "check_summary": "Alternating subsequences support signed polynomial growth; E03 is the strongest compatible continuation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      },
+      {
+        "answer": [
+          "126",
+          "128",
+          "133",
+          "135",
+          "142"
+        ],
+        "case_id": "S038",
+        "check_summary": "E06 provides the most coherent low-confidence phase-interleaved continuation.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic interleaved or modular-affine updates."
+      },
+      {
+        "answer": [
+          "160",
+          "5",
+          "176",
+          "395",
+          "-67"
+        ],
+        "case_id": "S039",
+        "check_summary": "Three residue-class streams fit cubic polynomials across the full prefix.",
+        "confidence": 0.86,
+        "rule_summary": "INTERLEAVE of three cubic polynomial streams."
+      },
+      {
+        "answer": [
+          "49",
+          "55",
+          "75",
+          "95",
+          "115"
+        ],
+        "case_id": "S040",
+        "check_summary": "Growing blocks have separators 18,25,36,49 and arithmetic steps 4,8,12,16,20.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Odd-position stream rises by 4 while even-position stream falls by 4.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-17",
+          "-22",
+          "-27",
+          "-32",
+          "-37"
+        ],
+        "case_id": "S042",
+        "check_summary": "Among the proposals, the repeated decrement-by-5 continuation is best supported.",
+        "confidence": 0.14,
+        "rule_summary": "PDELTA."
+      },
+      {
+        "answer": [
+          "-22",
+          "-61",
+          "-10",
+          "-82",
+          "-7"
+        ],
+        "case_id": "S043",
+        "check_summary": "Lagged subsequences show the strongest support for the proposed alternating polynomial increments.",
+        "confidence": 0.15,
+        "rule_summary": "LAGPOLY."
+      },
+      {
+        "answer": [
+          "-18",
+          "-18",
+          "-28",
+          "-22",
+          "-29"
+        ],
+        "case_id": "S044",
+        "check_summary": "Three phase streams provide the best-supported continuation of the visible suffix.",
+        "confidence": 0.83,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-19",
+          "101",
+          "-84",
+          "-6",
+          "135"
+        ],
+        "case_id": "S045",
+        "check_summary": "Irregular phase-local behavior is most consistent with the proposed multi-stream continuation.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-17",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S046",
+        "check_summary": "Growing decrement-by-5 blocks continue through a length-five block before the next reset.",
+        "confidence": 0.96,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "63",
+          "109",
+          "155",
+          "201",
+          "247"
+        ],
+        "case_id": "S047",
+        "check_summary": "Positive arithmetic blocks increase their step by 8; E05 gives the strongest block-based extrapolation.",
+        "confidence": 0.9,
+        "rule_summary": "GROWBLOCK with polynomial starts and repeated arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-11",
+          "12",
+          "-25",
+          "-10",
+          "-42"
+        ],
+        "case_id": "S048",
+        "check_summary": "Four interleaved phase streams, including constant phases and quadratic companions, support E06's continuation.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-BF0AD01E8A72-search-b04-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "b285450415b2c2b230b04d7403815bd363843a2d81b89c6959c902aacb3826ed",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-BF0AD01E8A72-search-b04-critic-1/attempt-01"
+}

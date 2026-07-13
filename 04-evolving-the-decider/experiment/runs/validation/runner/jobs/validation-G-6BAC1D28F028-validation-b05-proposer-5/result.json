@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b05",
+    "results": [
+      {
+        "answer": [
+          "-145",
+          "-199",
+          "-266",
+          "-346",
+          "-441"
+        ],
+        "case_id": "V049",
+        "check_summary": "Fitted a periodic second-order trend to the observed differences.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic LIN2-like recurrence."
+      },
+      {
+        "answer": [
+          "37012",
+          "-74029",
+          "148057",
+          "-296112",
+          "592229"
+        ],
+        "case_id": "V050",
+        "check_summary": "The prefix follows multiplier -2 with phase-specific biases increasing by 10 each cycle.",
+        "confidence": 0.96,
+        "rule_summary": "Three-phase AFFINE recurrence with multiplier -2."
+      },
+      {
+        "answer": [
+          "-10011",
+          "-15316",
+          "-22433",
+          "-31858",
+          "-43920"
+        ],
+        "case_id": "V051",
+        "check_summary": "Exponential-growth trend inferred from the increasingly negative first differences.",
+        "confidence": 0.18,
+        "rule_summary": "Second-order growth recurrence."
+      },
+      {
+        "answer": [
+          "14218",
+          "-14217",
+          "42649",
+          "-42648",
+          "127942"
+        ],
+        "case_id": "V052",
+        "check_summary": "Odd terms obey a(n+1)=3a(n)-5; even terms obey b(n+1)=3b(n)+3.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "145",
+          "173",
+          "207",
+          "245",
+          "289"
+        ],
+        "case_id": "V053",
+        "check_summary": "Alternating polynomial-delta pattern extrapolated from repeated phase behavior.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-49203",
+          "-118565",
+          "-285682",
+          "-688817",
+          "-1660479"
+        ],
+        "case_id": "V054",
+        "check_summary": "Near-constant multiplicative growth extrapolated from the tail.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "1605",
+          "-2611",
+          "4173",
+          "-6787",
+          "10989"
+        ],
+        "case_id": "V055",
+        "check_summary": "Alternating streams extrapolated using their observed signed growth pattern.",
+        "confidence": 0.18,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-37840",
+          "-113515",
+          "-227026",
+          "-227028",
+          "-681079"
+        ],
+        "case_id": "V056",
+        "check_summary": "Verified three-phase rules: second=2*first+4, third=-second-2, next-first=3*third+5.",
+        "confidence": 1.0,
+        "rule_summary": "Three-phase AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "-26",
+          "-24",
+          "-29",
+          "-27",
+          "-32"
+        ],
+        "case_id": "V057",
+        "check_summary": "The sequence alternates decrements of 5 and increments of 2.",
+        "confidence": 1.0,
+        "rule_summary": "Two-phase AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "5048689",
+          "15146068",
+          "45438205",
+          "136314616",
+          "408943849"
+        ],
+        "case_id": "V058",
+        "check_summary": "Every term satisfies next=3*current+1.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "308",
+          "431",
+          "576",
+          "745",
+          "940"
+        ],
+        "case_id": "V059",
+        "check_summary": "Successive differences continue with second differences increasing by 2.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-4458",
+          "-5895",
+          "-7635",
+          "-9715",
+          "-12175"
+        ],
+        "case_id": "V060",
+        "check_summary": "Third differences continue decreasing by 3, yielding the next second differences and terms.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b05-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "8ba498910a93350aa47a34819e6ba1511f0b913868ba972ebf2820d4d60f7503",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b05-proposer-5/attempt-01"
+}

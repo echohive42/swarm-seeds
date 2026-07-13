@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "71",
+          "4",
+          "99"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd and even subsequences replay as quadratic and alternating patterns.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE: quadratic odd-position stream and period-2 even-position stream."
+      },
+      {
+        "answer": [
+          "15",
+          "14",
+          "38",
+          "9",
+          "50"
+        ],
+        "case_id": "S014",
+        "check_summary": "Candidate phase-interleaved affine/polynomial streams fit the prefix.",
+        "confidence": 0.35,
+        "rule_summary": "INTERLEAVE with phase-specific low-degree updates."
+      },
+      {
+        "answer": [
+          "61",
+          "-25",
+          "-16",
+          "62",
+          "-34"
+        ],
+        "case_id": "S015",
+        "check_summary": "Three interleaved streams show matching arithmetic/polynomial continuation.",
+        "confidence": 0.82,
+        "rule_summary": "INTERLEAVE: three phase-specific streams."
+      },
+      {
+        "answer": [
+          "42",
+          "-5",
+          "79",
+          "-2",
+          "96"
+        ],
+        "case_id": "S016",
+        "check_summary": "Phase-separated continuation selected from low-degree periodic updates.",
+        "confidence": 0.28,
+        "rule_summary": "PDELTA with periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5 and even terms decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: two affine streams."
+      },
+      {
+        "answer": [
+          "-20",
+          "-4",
+          "-27",
+          "-7",
+          "-31"
+        ],
+        "case_id": "S018",
+        "check_summary": "Periodic phase decomposition gives the stated continuation.",
+        "confidence": 0.22,
+        "rule_summary": "PDELTA with phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "39",
+          "65",
+          "74",
+          "18",
+          "91"
+        ],
+        "case_id": "S019",
+        "check_summary": "Modular periodic-affine candidate fits the observed prefix.",
+        "confidence": 0.2,
+        "rule_summary": "MODAFFINE modulo a prime."
+      },
+      {
+        "answer": [
+          "-40",
+          "58",
+          "-58",
+          "76",
+          "-76"
+        ],
+        "case_id": "S020",
+        "check_summary": "Phase-specific affine continuation inferred from alternating subsequences.",
+        "confidence": 0.24,
+        "rule_summary": "INTERLEAVE with affine streams."
+      },
+      {
+        "answer": [
+          "-39",
+          "-10",
+          "-56",
+          "-14",
+          "-75"
+        ],
+        "case_id": "S021",
+        "check_summary": "Low-degree phase-separated continuation selected.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE with polynomial streams."
+      },
+      {
+        "answer": [
+          "13",
+          "-54",
+          "-20",
+          "34",
+          "-31"
+        ],
+        "case_id": "S022",
+        "check_summary": "Periodic phase recurrence candidate fits the full prefix.",
+        "confidence": 0.16,
+        "rule_summary": "LIN2 with phase-specific bias."
+      },
+      {
+        "answer": [
+          "-39",
+          "-37",
+          "-48",
+          "-46",
+          "-59"
+        ],
+        "case_id": "S023",
+        "check_summary": "Growing-block continuation inferred from repeated within-block offsets.",
+        "confidence": 0.3,
+        "rule_summary": "GROWBLOCK with polynomial block starts and steps."
+      },
+      {
+        "answer": [
+          "-54",
+          "-8",
+          "-346",
+          "-2",
+          "-1090"
+        ],
+        "case_id": "S024",
+        "check_summary": "Phase-specific affine recurrence yields rapidly diverging continuation.",
+        "confidence": 0.19,
+        "rule_summary": "AFFINE with repeating phase parameters."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-0025CFC9EF2E-search-b02-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "c4e16740aa5abd69dae62879c6d85181886746c6ab8856e501872c845ac32c58",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-0025CFC9EF2E-search-b02-proposer-4/attempt-01"
+}

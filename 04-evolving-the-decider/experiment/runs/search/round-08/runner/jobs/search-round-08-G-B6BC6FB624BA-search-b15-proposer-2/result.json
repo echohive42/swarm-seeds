@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "-364",
+          "1066",
+          "2861",
+          "-685",
+          "3417"
+        ],
+        "case_id": "S169",
+        "check_summary": "Three interleaved cubic streams reproduce the prefix.",
+        "confidence": 0.78,
+        "rule_summary": "INTERLEAVE with three polynomial streams."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments +4,+5 reproduce all terms.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic phase-specific affine increments."
+      },
+      {
+        "answer": [
+          "-1328",
+          "238",
+          "-282",
+          "-3964",
+          "144"
+        ],
+        "case_id": "S171",
+        "check_summary": "Three interleaved cubic extrapolations reproduce the prefix.",
+        "confidence": 0.7,
+        "rule_summary": "INTERLEAVE with three polynomial streams."
+      },
+      {
+        "answer": [
+          "-4440",
+          "-7183",
+          "-11623",
+          "-18806",
+          "-30429"
+        ],
+        "case_id": "S172",
+        "check_summary": "Cubic finite-difference continuation of the increment sequence.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA with polynomial phase increments."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Successive increments increase by -4,-3,...,5.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with quadratic phase increments."
+      },
+      {
+        "answer": [
+          "-4440",
+          "-7183",
+          "-11623",
+          "-18806",
+          "-30429"
+        ],
+        "case_id": "S174",
+        "check_summary": "Extrapolated continuation of the observed accelerating negative differences.",
+        "confidence": 0.42,
+        "rule_summary": "PDELTA with periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97897621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Odd and even subsequences follow affine multiplier -6 with phase biases 4 and 19.",
+        "confidence": 0.99,
+        "rule_summary": "LAGPOLY with two affine lagged streams."
+      },
+      {
+        "answer": [
+          "64",
+          "69",
+          "75",
+          "80",
+          "86"
+        ],
+        "case_id": "S176",
+        "check_summary": "Periodic interleaved streams extrapolated from phase-specific progressions.",
+        "confidence": 0.48,
+        "rule_summary": "INTERLEAVE with three affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "214809",
+          "-53701",
+          "859247",
+          "-1718503",
+          "429627"
+        ],
+        "case_id": "S177",
+        "check_summary": "Three phase streams follow multiplier -8 with fixed phase biases.",
+        "confidence": 0.99,
+        "rule_summary": "LAGPOLY with three affine lagged streams."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with multiplier 2 and zero bias."
+      },
+      {
+        "answer": [
+          "0",
+          "-5",
+          "8",
+          "-3",
+          "-2"
+        ],
+        "case_id": "S179",
+        "check_summary": "The six-term period repeats exactly.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with periodic period-6 values."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd transition increments fall by 7 and even increments by 6.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with phase-specific linear deltas."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-B6BC6FB624BA-search-b15-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "8b86c7a3c78ff135532f3437bc1ea27aa98b55b3981bb51e9a34de558e342742",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-B6BC6FB624BA-search-b15-proposer-2/attempt-01"
+}

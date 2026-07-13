@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-34",
+          "-38",
+          "-41",
+          "-45",
+          "-48"
+        ],
+        "case_id": "S073",
+        "check_summary": "Interleaved arithmetic streams with common decrement -7 across each stream.",
+        "confidence": 0.98,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "9345",
+          "-15127",
+          "24472",
+          "-39599",
+          "64071"
+        ],
+        "case_id": "S074",
+        "check_summary": "Extrapolated from the dominant alternating linear-growth pattern.",
+        "confidence": 0.35,
+        "rule_summary": "Alternating affine/LIN2 recurrence."
+      },
+      {
+        "answer": [
+          "18",
+          "8",
+          "10",
+          "11",
+          "14"
+        ],
+        "case_id": "S075",
+        "check_summary": "Periodic interleaved stream extrapolation.",
+        "confidence": 0.3,
+        "rule_summary": "Three-stream interleave."
+      },
+      {
+        "answer": [
+          "-14223",
+          "-20233",
+          "-28102",
+          "-37675",
+          "-48610"
+        ],
+        "case_id": "S076",
+        "check_summary": "Extrapolated from accelerating negative differences.",
+        "confidence": 0.3,
+        "rule_summary": "Phase-dependent polynomial-delta recurrence."
+      },
+      {
+        "answer": [
+          "-4062",
+          "-9803",
+          "-23663",
+          "-57124",
+          "-137906"
+        ],
+        "case_id": "S077",
+        "check_summary": "Successive differences follow d_n=2d_{n-1}+d_{n-2}.",
+        "confidence": 0.96,
+        "rule_summary": "LIN2 recurrence on first differences."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Every term satisfies x_n=-3x_{n-1}+5.",
+        "confidence": 1.0,
+        "rule_summary": "MOD-free affine recurrence."
+      },
+      {
+        "answer": [
+          "88",
+          "112",
+          "155",
+          "190",
+          "243"
+        ],
+        "case_id": "S079",
+        "check_summary": "Interleaved nonlinear streams extrapolated from observed phase behavior.",
+        "confidence": 0.3,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-408434",
+          "408426",
+          "1225270",
+          "-3675812",
+          "3675804"
+        ],
+        "case_id": "S080",
+        "check_summary": "Continues the observed three-phase affine block transformation.",
+        "confidence": 0.82,
+        "rule_summary": "Three-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "-152370",
+          "-304742",
+          "609486",
+          "1218970",
+          "-2437938"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating updates x->-2x+2 and x->2x-2.",
+        "confidence": 1.0,
+        "rule_summary": "Phase-periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1014"
+        ],
+        "case_id": "S082",
+        "check_summary": "Differences continue as negative consecutive squares.",
+        "confidence": 1.0,
+        "rule_summary": "Polynomial delta sequence."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7643",
+          "-10161"
+        ],
+        "case_id": "S083",
+        "check_summary": "Finite differences continue with linearly decreasing third differences.",
+        "confidence": 0.95,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "392247",
+          "-970731",
+          "2402360",
+          "-5940404",
+          "14691663"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating exponential recurrence extrapolation.",
+        "confidence": 0.3,
+        "rule_summary": "Phase-periodic linear recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-35DDA1DA8010-search-b07-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "e077ebd013fc4d685074304a604d0b88058c8f72ff3287ce13f78c575e835880",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-35DDA1DA8010-search-b07-proposer-1/attempt-01"
+}

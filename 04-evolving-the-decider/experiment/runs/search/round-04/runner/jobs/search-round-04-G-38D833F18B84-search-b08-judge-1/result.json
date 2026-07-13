@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "14",
+          "17",
+          "20",
+          "23"
+        ],
+        "case_id": "S085",
+        "check_summary": "The visible differences replay as three +3 steps followed by phase-specific jumps; next block is exact.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA, period-4 phase deltas"
+      },
+      {
+        "answer": [
+          "7",
+          "46",
+          "29",
+          "45",
+          "26"
+        ],
+        "case_id": "S086",
+        "check_summary": "The alternating affine maps 3x-42 and 3x+25 modulo 67 reproduce the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "33",
+          "22",
+          "11",
+          "0",
+          "-11"
+        ],
+        "case_id": "S087",
+        "check_summary": "Descending blocks use steps -7,-8,-9,-10, then -11; polynomial boundary jumps give the next start 33.",
+        "confidence": 0.78,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd positions rise by 5 and even positions fall by 1 throughout the prefix.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams"
+      },
+      {
+        "answer": [
+          "-48",
+          "45",
+          "88",
+          "-80",
+          "123"
+        ],
+        "case_id": "S089",
+        "check_summary": "Selected the strongest coherent interleaved three-stream continuation among the candidates.",
+        "confidence": 0.54,
+        "rule_summary": "INTERLEAVE with polynomial subsequences"
+      },
+      {
+        "answer": [
+          "2",
+          "6",
+          "18",
+          "16",
+          "10"
+        ],
+        "case_id": "S090",
+        "check_summary": "Multiplication by 3 modulo 19 reproduces every visible transition.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "0",
+          "37",
+          "329",
+          "17",
+          "44"
+        ],
+        "case_id": "S091",
+        "check_summary": "Three lagged subsequences replay the observed phase structure and yield this continuation.",
+        "confidence": 0.93,
+        "rule_summary": "LAGPOLY with three phase-specific subsequences"
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "5",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd terms are constant 5; even terms continue with successive decrements -9 and -10.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of constant and polynomial streams"
+      },
+      {
+        "answer": [
+          "-11",
+          "74",
+          "-18",
+          "111",
+          "-25"
+        ],
+        "case_id": "S093",
+        "check_summary": "Selected the highest-confidence candidate for the underdetermined interleaved prefix.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "74",
+          "92",
+          "77",
+          "98",
+          "80"
+        ],
+        "case_id": "S094",
+        "check_summary": "Selected the strongest available phase-stream continuation for the irregular prefix.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-17",
+          "-33",
+          "-49",
+          "-65",
+          "-35"
+        ],
+        "case_id": "S095",
+        "check_summary": "Phase-1 deltas follow 0,-2,8,30 while the other phases continue by -16.",
+        "confidence": 0.91,
+        "rule_summary": "PDELTA with period-4 polynomial deltas"
+      },
+      {
+        "answer": [
+          "-8",
+          "126",
+          "-2",
+          "148",
+          "-1"
+        ],
+        "case_id": "S096",
+        "check_summary": "Selected the strongest available phase-specific affine continuation for the irregular prefix.",
+        "confidence": 0.13,
+        "rule_summary": "AFFINE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-38D833F18B84-search-b08-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "a52fd5dbaed8596744d2bce66fa37a70d6dd8099f868026f8b211791a88df8ca",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-38D833F18B84-search-b08-judge-1/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "16",
+          "9",
+          "-7",
+          "24",
+          "9"
+        ],
+        "case_id": "S109",
+        "check_summary": "Periodic phase structure identified; extrapolation uncertain for the first phase.",
+        "confidence": 0.28,
+        "rule_summary": "PDELTA with period four."
+      },
+      {
+        "answer": [
+          "12",
+          "7",
+          "-12",
+          "-2",
+          "7"
+        ],
+        "case_id": "S110",
+        "check_summary": "Several phase values repeat, with polynomial phase drift in the remaining phases.",
+        "confidence": 0.25,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "60",
+          "78",
+          "93",
+          "95",
+          "115"
+        ],
+        "case_id": "S111",
+        "check_summary": "Three interleaved phase streams show increasing second differences.",
+        "confidence": 0.63,
+        "rule_summary": "INTERLEAVE of three quadratic-like streams."
+      },
+      {
+        "answer": [
+          "3",
+          "-9",
+          "31",
+          "-3",
+          "-5"
+        ],
+        "case_id": "S112",
+        "check_summary": "Period-four behavior is visible, but two phases require uncertain extrapolation.",
+        "confidence": 0.24,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "52",
+          "27",
+          "45",
+          "-8",
+          "24"
+        ],
+        "case_id": "S113",
+        "check_summary": "No stable non-modular continuation was uniquely established from the prefix.",
+        "confidence": 0.16,
+        "rule_summary": "MODAFFINE candidate."
+      },
+      {
+        "answer": [
+          "-25",
+          "-29",
+          "28",
+          "-15",
+          "-34"
+        ],
+        "case_id": "S114",
+        "check_summary": "Alternating explosive values suggest phase-dependent affine dynamics with wraps.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic AFFINE or MODAFFINE."
+      },
+      {
+        "answer": [
+          "42",
+          "74",
+          "57",
+          "112",
+          "26"
+        ],
+        "case_id": "S115",
+        "check_summary": "Growing block structure is apparent, but the next block boundary is uncertain.",
+        "confidence": 0.22,
+        "rule_summary": "GROWBLOCK candidate."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd and even subsequences are exact arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "17",
+          "29",
+          "44",
+          "-1",
+          "38"
+        ],
+        "case_id": "S117",
+        "check_summary": "Multiple phase streams appear, with no uniquely secure extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE candidate."
+      },
+      {
+        "answer": [
+          "31",
+          "36",
+          "13",
+          "42",
+          "21"
+        ],
+        "case_id": "S118",
+        "check_summary": "Two phases share a clear increasing-difference pattern; one phase is ambiguous.",
+        "confidence": 0.27,
+        "rule_summary": "INTERLEAVE of periodic polynomial streams."
+      },
+      {
+        "answer": [
+          "85",
+          "89",
+          "4",
+          "97",
+          "123"
+        ],
+        "case_id": "S119",
+        "check_summary": "Two residue classes exhibit regular cubic-like increments; the third is uncertain.",
+        "confidence": 0.39,
+        "rule_summary": "INTERLEAVE of lagged polynomial streams."
+      },
+      {
+        "answer": [
+          "136",
+          "115",
+          "103",
+          "91",
+          "79"
+        ],
+        "case_id": "S120",
+        "check_summary": "The final observed phase runs are arithmetic and likely continue directly.",
+        "confidence": 0.31,
+        "rule_summary": "GROWBLOCK with phase-specific arithmetic steps."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-EC429DE4D50C-search-b10-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "0c61561f015f275a3991dcc95ce9b1635c341d9511717812a11158e7c66e49d8",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-EC429DE4D50C-search-b10-proposer-5/attempt-01"
+}

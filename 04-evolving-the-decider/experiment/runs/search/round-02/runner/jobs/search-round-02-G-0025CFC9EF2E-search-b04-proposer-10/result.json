@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-13",
+          "-24",
+          "12",
+          "-35",
+          "-11"
+        ],
+        "case_id": "S037",
+        "check_summary": "Weak periodic/interleaved extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved mixed periodic polynomial candidate."
+      },
+      {
+        "answer": [
+          "139",
+          "159",
+          "179",
+          "199",
+          "219"
+        ],
+        "case_id": "S038",
+        "check_summary": "Weak affine-periodic extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved periodic affine candidate."
+      },
+      {
+        "answer": [
+          "43",
+          "44",
+          "42",
+          "47",
+          "44"
+        ],
+        "case_id": "S039",
+        "check_summary": "Weak interleaved extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "Unresolved multi-stream polynomial candidate."
+      },
+      {
+        "answer": [
+          "100",
+          "120",
+          "140",
+          "160",
+          "180"
+        ],
+        "case_id": "S040",
+        "check_summary": "Matches arithmetic growing-block continuation.",
+        "confidence": 0.86,
+        "rule_summary": "Growing arithmetic block with step 20."
+      },
+      {
+        "answer": [
+          "31",
+          "-24",
+          "35",
+          "-28",
+          "39"
+        ],
+        "case_id": "S041",
+        "check_summary": "Exact alternating arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-2",
+          "-7",
+          "-12",
+          "-17",
+          "-22"
+        ],
+        "case_id": "S042",
+        "check_summary": "Weak periodic extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "Unresolved modular/periodic candidate."
+      },
+      {
+        "answer": [
+          "-78",
+          "-18",
+          "-69",
+          "-137",
+          "-2"
+        ],
+        "case_id": "S043",
+        "check_summary": "Weak phase-polynomial extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "Unresolved periodic delta candidate."
+      },
+      {
+        "answer": [
+          "-21",
+          "-13",
+          "-24",
+          "-10",
+          "-30"
+        ],
+        "case_id": "S044",
+        "check_summary": "Weak interleaved extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "Unresolved multi-stream candidate."
+      },
+      {
+        "answer": [
+          "-77",
+          "-4",
+          "-4",
+          "122",
+          "-104"
+        ],
+        "case_id": "S045",
+        "check_summary": "Weak interleaved polynomial extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "Unresolved multi-stream polynomial candidate."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-17",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S046",
+        "check_summary": "Matches repeated -5 transitions with periodic rising corrections.",
+        "confidence": 0.72,
+        "rule_summary": "Periodic delta sequence with correction increments 3, 8, 13, 18."
+      },
+      {
+        "answer": [
+          "95",
+          "141",
+          "187",
+          "233",
+          "279"
+        ],
+        "case_id": "S047",
+        "check_summary": "Weak growing-block continuation.",
+        "confidence": 0.18,
+        "rule_summary": "Candidate arithmetic blocks with increasing steps."
+      },
+      {
+        "answer": [
+          "-13",
+          "12",
+          "-11",
+          "-10",
+          "-46"
+        ],
+        "case_id": "S048",
+        "check_summary": "Matches phase-wise polynomial/constant continuation.",
+        "confidence": 0.68,
+        "rule_summary": "Four-phase interleaved polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-0025CFC9EF2E-search-b04-proposer-10",
+  "outcome": "valid_output",
+  "response_sha256": "8cf306c1fb77d94a64e5182207f2fb3fd5d4d590c69805743c22ad32271640ae",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-0025CFC9EF2E-search-b04-proposer-10/attempt-01"
+}

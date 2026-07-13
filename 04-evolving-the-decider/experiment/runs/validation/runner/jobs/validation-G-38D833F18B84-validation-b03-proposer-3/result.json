@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "Constant affine update x'=-3x+3 replays the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-2885",
+          "-4498",
+          "-6585",
+          "-9231",
+          "-12528"
+        ],
+        "case_id": "V026",
+        "check_summary": "Finite differences follow the observed polynomial-delta continuation.",
+        "confidence": 0.84,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-1251",
+          "1848",
+          "-3020",
+          "4687",
+          "-7115"
+        ],
+        "case_id": "V027",
+        "check_summary": "Alternating structured subsequences were extrapolated independently.",
+        "confidence": 0.42,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-94678",
+          "47318",
+          "-378684",
+          "189320",
+          "-1514706"
+        ],
+        "case_id": "V028",
+        "check_summary": "Odd and even phases follow affine multiplier 4 with linear phase bias.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "11651",
+          "17182",
+          "24673",
+          "34299",
+          "46766"
+        ],
+        "case_id": "V029",
+        "check_summary": "Observed growing finite-difference structure was continued.",
+        "confidence": 0.39,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Odd and even positions are arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-1679618",
+          "-559875",
+          "-10077698",
+          "-3359235",
+          "-60466178"
+        ],
+        "case_id": "V031",
+        "check_summary": "Odd/even phases use multiplier 6 with constant phase-specific biases.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802339",
+          "71604684",
+          "-214814049",
+          "644442141"
+        ],
+        "case_id": "V032",
+        "check_summary": "Three-step periodic affine transition pattern replays the prefix.",
+        "confidence": 0.97,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "963",
+          "-1566",
+          "2526",
+          "-4095",
+          "6618"
+        ],
+        "case_id": "V033",
+        "check_summary": "Odd/even positive magnitudes have second-order difference recurrences.",
+        "confidence": 0.88,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "8",
+          "8",
+          "15",
+          "17",
+          "28"
+        ],
+        "case_id": "V034",
+        "check_summary": "Phase-separated irregular polynomial streams were continued.",
+        "confidence": 0.31,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "37",
+          "42",
+          "51",
+          "62",
+          "73"
+        ],
+        "case_id": "V035",
+        "check_summary": "Observed phase-separated increments were extrapolated.",
+        "confidence": 0.34,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "819",
+          "1072",
+          "1375",
+          "1732",
+          "2147"
+        ],
+        "case_id": "V036",
+        "check_summary": "Second differences continue increasing by 4 after the initial transient.",
+        "confidence": 0.91,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-38D833F18B84-validation-b03-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "1f96f28c7a17579a278b17d1c89743447df6d99e481d42f80690c0cf661be9fa",
+  "terminal_artifact_relpath": "jobs/validation-G-38D833F18B84-validation-b03-proposer-3/attempt-01"
+}

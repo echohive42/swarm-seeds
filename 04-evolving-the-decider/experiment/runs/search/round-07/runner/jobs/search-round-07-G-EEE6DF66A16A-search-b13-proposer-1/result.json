@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-430",
+          "-484",
+          "-545",
+          "-600",
+          "-663"
+        ],
+        "case_id": "S145",
+        "check_summary": "Second differences repeat with period 3: 6,-8,-7.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic second-difference polynomial."
+      },
+      {
+        "answer": [
+          "101",
+          "108",
+          "120",
+          "132",
+          "137"
+        ],
+        "case_id": "S146",
+        "check_summary": "Candidate phase-pattern extrapolation from visible first differences.",
+        "confidence": 0.28,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-10922",
+          "21846",
+          "-43690",
+          "87382",
+          "-174762"
+        ],
+        "case_id": "S147",
+        "check_summary": "Every term satisfies next = -2*current + 2.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "327"
+        ],
+        "case_id": "S148",
+        "check_summary": "Odd-position differences rise by 6; even-position differences rise by 4.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "969",
+          "1182",
+          "1432",
+          "1722",
+          "2055"
+        ],
+        "case_id": "S149",
+        "check_summary": "Third differences increase by 3; continued finite-difference replay.",
+        "confidence": 1.0,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "-4",
+          "-2",
+          "-6",
+          "-4",
+          "-8"
+        ],
+        "case_id": "S150",
+        "check_summary": "Differences alternate +2,-4.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic delta sequence."
+      },
+      {
+        "answer": [
+          "-3921",
+          "-6348",
+          "-10276",
+          "-16630",
+          "-26913"
+        ],
+        "case_id": "S151",
+        "check_summary": "Second-order recurrence with alternating biases -7,-6.",
+        "confidence": 0.98,
+        "rule_summary": "LIN2 with periodic bias."
+      },
+      {
+        "answer": [
+          "-13008",
+          "-17472",
+          "-23104",
+          "-30272",
+          "-39040"
+        ],
+        "case_id": "S152",
+        "check_summary": "Candidate continuation from accelerating affine/phase pattern.",
+        "confidence": 0.22,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "-2613",
+          "-4231",
+          "-6853",
+          "-11089",
+          "-17947"
+        ],
+        "case_id": "S153",
+        "check_summary": "Second-order recurrence with repeating biases -5,-5,-9 after startup.",
+        "confidence": 0.92,
+        "rule_summary": "LIN2 with periodic bias."
+      },
+      {
+        "answer": [
+          "-1234",
+          "-1578",
+          "-1979",
+          "-2442",
+          "-2972"
+        ],
+        "case_id": "S154",
+        "check_summary": "Second differences decrease by successive 5.",
+        "confidence": 1.0,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "533635",
+          "-1067265",
+          "-2134529",
+          "4269051",
+          "-8538113"
+        ],
+        "case_id": "S155",
+        "check_summary": "Three-phase affine recurrence with multipliers -2,-2,2 and biases -7,5,1.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "136533",
+          "273068",
+          "546133",
+          "1092268",
+          "2184533"
+        ],
+        "case_id": "S156",
+        "check_summary": "Alternating affine updates: 2x-3 and 2x+2.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-EEE6DF66A16A-search-b13-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "69289d808868a214884a58913d68f4b04791aee123a61a527f38d9a74740d74d",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-EEE6DF66A16A-search-b13-proposer-1/attempt-01"
+}

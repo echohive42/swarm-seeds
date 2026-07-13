@@ -1,0 +1,45 @@
+{
+  "artifact_type": "experiment-04-finalist-run-packet",
+  "population": [
+    {
+      "genes": {
+        "decision_system_id": "verified_7p2v1j",
+        "judge_policy_id": "minority_aware",
+        "worker_lens_ids": [
+          "generalist",
+          "recurrences",
+          "recurrences",
+          "modular",
+          "simplicity",
+          "generalist",
+          "generalist",
+          "generalist",
+          "audit",
+          "generalist"
+        ]
+      },
+      "genome_id": "G-A20DBD76963B",
+      "genome_sha256": "a20dbd76963bd8b6f1deb1cd5222b8190ea71f0941b7aa263a63a15bd4622187",
+      "lineage": {
+        "crossover_sources": null,
+        "designated_parent_slot": "S03",
+        "founder_id": null,
+        "mutation": {
+          "attempt": 0,
+          "from": "dual_8p2j",
+          "locus": "decision_system_id",
+          "to": "verified_7p2v1j"
+        },
+        "operation": "one_gene_mutation",
+        "parents": [
+          "G-3373FE74E208"
+        ],
+        "round": 7
+      }
+    }
+  ],
+  "role": "evolved_champion",
+  "schema_version": "4.0",
+  "source_champion_freeze": "champion-freeze.json",
+  "source_champion_freeze_sha256": "6e4fa5b1f59e837ab4b31c494be0465ec160e0a4192370b97de13130459f8233"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "73",
+          "4",
+          "101"
+        ],
+        "case_id": "S013",
+        "check_summary": "Plurality agrees on the interleaved quadratic/alternating continuation.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-10",
+          "32",
+          "-8",
+          "48",
+          "-13"
+        ],
+        "case_id": "S014",
+        "check_summary": "Plurality continuation among low-confidence phase-interleaved proposals.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-12",
+          "61",
+          "-25",
+          "20",
+          "61"
+        ],
+        "case_id": "S015",
+        "check_summary": "Residue-class streams give a checked continuation: phase-1 next 61, phase-2 next -25, phase-3 next -12 then 20.",
+        "confidence": 0.86,
+        "rule_summary": "INTERLEAVE of three polynomial/affine streams"
+      },
+      {
+        "answer": [
+          "-7",
+          "-31",
+          "-3",
+          "-55",
+          "-1"
+        ],
+        "case_id": "S016",
+        "check_summary": "Plurality tie resolved toward the higher-confidence phase-separated continuation.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms rise by 5 and even terms fall by 4 exactly.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams"
+      },
+      {
+        "answer": [
+          "-20",
+          "-4",
+          "-18",
+          "-3",
+          "-46"
+        ],
+        "case_id": "S018",
+        "check_summary": "Three residue-class streams are checked: differences follow 0,-4,-8,-12; +3,-4,-11; and -7,-6,-5.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE of three polynomial streams"
+      },
+      {
+        "answer": [
+          "49",
+          "31",
+          "68",
+          "7",
+          "84"
+        ],
+        "case_id": "S019",
+        "check_summary": "Plurality supports the periodic residue-class continuation.",
+        "confidence": 0.14,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-82",
+          "-56",
+          "-30",
+          "-4",
+          "22"
+        ],
+        "case_id": "S020",
+        "check_summary": "Plurality supports the increasing arithmetic run of phase-specific deltas.",
+        "confidence": 0.23,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-54",
+          "-9",
+          "-70",
+          "-12",
+          "-86"
+        ],
+        "case_id": "S021",
+        "check_summary": "Plurality favors this latest phase-pattern continuation.",
+        "confidence": 0.1,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-26",
+          "38",
+          "-43",
+          "61",
+          "-60"
+        ],
+        "case_id": "S022",
+        "check_summary": "Plurality supports the alternating residue-class continuation.",
+        "confidence": 0.13,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-22",
+          "-35"
+        ],
+        "case_id": "S023",
+        "check_summary": "Checked growing blocks: after a -11 jump, four +2 steps continue, followed by the next -13 jump.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "41",
+          "350",
+          "-33",
+          "68",
+          "-706"
+        ],
+        "case_id": "S024",
+        "check_summary": "Checked three streams: one arithmetic by -7, one with second difference 7, and one with alternating doubled differences.",
+        "confidence": 0.95,
+        "rule_summary": "INTERLEAVE of three polynomial-like streams"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-2B08D2BA7D25-search-b02-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "ed524b0b817d17bc6c28d39353a3f82c027541ec6b9ec2ec6fc33c1659e05f2d",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-2B08D2BA7D25-search-b02-judge-2/attempt-01"
+}

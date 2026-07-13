@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-430",
+          "-484",
+          "-545",
+          "-600",
+          "-663"
+        ],
+        "case_id": "S145",
+        "check_summary": "Three-phase first differences each follow an arithmetic progression.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period 3 and linear phase deltas."
+      },
+      {
+        "answer": [
+          "93",
+          "109",
+          "115",
+          "121",
+          "144"
+        ],
+        "case_id": "S146",
+        "check_summary": "Phase-wise difference extrapolation from recurring polynomial patterns.",
+        "confidence": 0.55,
+        "rule_summary": "PDELTA with periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-10922",
+          "21846",
+          "-43690",
+          "87382",
+          "-174762"
+        ],
+        "case_id": "S147",
+        "check_summary": "Every term satisfies x(n)=-2x(n-1)+2.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence with multiplier -2 and bias 2."
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "327"
+        ],
+        "case_id": "S148",
+        "check_summary": "Odd-position differences increase by 6; even-position differences increase by 4.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA with period 2 and linear phase deltas."
+      },
+      {
+        "answer": [
+          "3560",
+          "4779",
+          "6288",
+          "8130",
+          "10348"
+        ],
+        "case_id": "S149",
+        "check_summary": "Difference third increments increase linearly by 3.",
+        "confidence": 0.99,
+        "rule_summary": "POLY/PDELTA cubic difference structure."
+      },
+      {
+        "answer": [
+          "0",
+          "-4",
+          "-2",
+          "-6",
+          "-4"
+        ],
+        "case_id": "S150",
+        "check_summary": "Alternating differences +2 and -4.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA with period 2 and constant phase deltas."
+      },
+      {
+        "answer": [
+          "-3920",
+          "-6348",
+          "-10274",
+          "-16629",
+          "-26909"
+        ],
+        "case_id": "S151",
+        "check_summary": "First differences follow a second-order recurrence with alternating correction.",
+        "confidence": 0.9,
+        "rule_summary": "LIN2 with periodic bias."
+      },
+      {
+        "answer": [
+          "-15500",
+          "-25000",
+          "-40200",
+          "-64700",
+          "-104000"
+        ],
+        "case_id": "S152",
+        "check_summary": "Exponential second-order trend extrapolated from terminal ratios.",
+        "confidence": 0.2,
+        "rule_summary": "LIN2-like recurrence with periodic bias."
+      },
+      {
+        "answer": [
+          "-2613",
+          "-4231",
+          "-6849",
+          "-11085",
+          "-17939"
+        ],
+        "case_id": "S153",
+        "check_summary": "Every next term is previous two terms minus 5.",
+        "confidence": 1.0,
+        "rule_summary": "LIN2 recurrence x(n)=x(n-1)+x(n-2)-5."
+      },
+      {
+        "answer": [
+          "-1239",
+          "-1593",
+          "-2009",
+          "-2492",
+          "-3047"
+        ],
+        "case_id": "S154",
+        "check_summary": "Second differences decrease by 5 each step.",
+        "confidence": 1.0,
+        "rule_summary": "POLY cubic sequence."
+      },
+      {
+        "answer": [
+          "-533641",
+          "1067275",
+          "-2134545",
+          "-4269089",
+          "8538171"
+        ],
+        "case_id": "S155",
+        "check_summary": "Period-3 affine transitions replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period 3."
+      },
+      {
+        "answer": [
+          "136533",
+          "273068",
+          "546133",
+          "1092268",
+          "2184533"
+        ],
+        "case_id": "S156",
+        "check_summary": "Alternating affine updates with multiplier 2 and biases -3,+2.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE with period 2."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-A20DBD76963B-search-b13-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "1ce20394785bfefbe73ca81989eca8968a3b516945bfb8e6f86842328a84d4b8",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-A20DBD76963B-search-b13-proposer-2/attempt-01"
+}

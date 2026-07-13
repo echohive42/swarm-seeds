@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "-425",
+          "-65",
+          "855",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Odd-position stream has successive decrements 5 through 9; even-position stream follows x↦-2x+5.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "66",
+          "0",
+          "24",
+          "48",
+          "72"
+        ],
+        "case_id": "V038",
+        "check_summary": "Best fit follows the observed growing-block delta structure, including the next negative reset and +24 run.",
+        "confidence": 0.82,
+        "rule_summary": "Growing-block delta pattern."
+      },
+      {
+        "answer": [
+          "83",
+          "-183",
+          "-277",
+          "105",
+          "-276"
+        ],
+        "case_id": "V039",
+        "check_summary": "Three residue streams support distinct polynomial/affine continuations; this proposal has the strongest full-prefix fit.",
+        "confidence": 0.94,
+        "rule_summary": "Three-way interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "22",
+          "26",
+          "22",
+          "34",
+          "26"
+        ],
+        "case_id": "V040",
+        "check_summary": "Phase-separated streams provide the strongest continuation across the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Four-way interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-42",
+          "57",
+          "-7",
+          "31",
+          "-18"
+        ],
+        "case_id": "V041",
+        "check_summary": "Among proposals, the bounded periodic modular-affine continuation is best supported, though evidence is weak.",
+        "confidence": 0.25,
+        "rule_summary": "Periodic modular affine update."
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Odd subsequence increases by 2 and even subsequence decreases by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "30",
+          "98",
+          "-17",
+          "54",
+          "400"
+        ],
+        "case_id": "V043",
+        "check_summary": "Three interleaved residue streams, including accelerating phase increments, support this continuation.",
+        "confidence": 0.78,
+        "rule_summary": "Three-stream interleaved polynomial/affine model."
+      },
+      {
+        "answer": [
+          "71",
+          "43",
+          "15",
+          "-13",
+          "190"
+        ],
+        "case_id": "V044",
+        "check_summary": "Lengthening negative arithmetic runs and polynomially advancing positive block starts support this continuation.",
+        "confidence": 0.91,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-15",
+          "74",
+          "-3",
+          "81",
+          "-18"
+        ],
+        "case_id": "V045",
+        "check_summary": "Best available proposal is a periodic modular-affine continuation; the prefix does not strongly discriminate candidates.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic affine update modulo a prime."
+      },
+      {
+        "answer": [
+          "-48",
+          "27",
+          "-61",
+          "34",
+          "-76"
+        ],
+        "case_id": "V046",
+        "check_summary": "Lagged residue subsequences show the most coherent polynomially changing increments under this proposal.",
+        "confidence": 0.25,
+        "rule_summary": "Lagged polynomial increments."
+      },
+      {
+        "answer": [
+          "22",
+          "24",
+          "18",
+          "38",
+          "10"
+        ],
+        "case_id": "V047",
+        "check_summary": "This proposal gives the strongest phase-specific affine continuation among the weak competing fits.",
+        "confidence": 0.25,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-39",
+          "27",
+          "-40",
+          "32",
+          "-43"
+        ],
+        "case_id": "V048",
+        "check_summary": "Alternating lagged streams provide the most structured continuation among the candidates.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b04-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "530f9685ad9f712c28d4308f2b1fa36bcd911c1e1acfe498902c9a2f65eba6f8",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b04-critic-1/attempt-01"
+}

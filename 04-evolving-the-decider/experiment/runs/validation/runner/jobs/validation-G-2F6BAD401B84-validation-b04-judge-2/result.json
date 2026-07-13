@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "-425",
+          "-65",
+          "855",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Proposal plurality; interleaved odd polynomial and even affine streams agree across seven candidates.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "66",
+          "0",
+          "24",
+          "48",
+          "72"
+        ],
+        "case_id": "V038",
+        "check_summary": "Proposal plurality with three matching candidates; growing-block continuation is supported by positive runs and resets.",
+        "confidence": 0.82,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "83",
+          "-183",
+          "-277",
+          "105",
+          "-276"
+        ],
+        "case_id": "V039",
+        "check_summary": "Proposal plurality; three residue streams have consistent polynomial/affine continuation.",
+        "confidence": 0.94,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "22",
+          "26",
+          "22",
+          "34",
+          "26"
+        ],
+        "case_id": "V040",
+        "check_summary": "Proposal plurality; phase-separated arithmetic streams provide the strongest full-prefix fit.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-42",
+          "57",
+          "-7",
+          "31",
+          "-18"
+        ],
+        "case_id": "V041",
+        "check_summary": "Proposal plurality; bounded periodic modular-affine continuation is the best-supported option.",
+        "confidence": 0.3,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Strong plurality and direct check: odd subsequence rises by 2 and even subsequence falls by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "30",
+          "98",
+          "-17",
+          "54",
+          "400"
+        ],
+        "case_id": "V043",
+        "check_summary": "Proposal plurality; three interleaved streams with linear and accelerating phase behavior support this tuple.",
+        "confidence": 0.78,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "71",
+          "43",
+          "15",
+          "-13",
+          "190"
+        ],
+        "case_id": "V044",
+        "check_summary": "Proposal plurality; lengthening negative arithmetic blocks and advancing starts support this continuation.",
+        "confidence": 0.91,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-15",
+          "74",
+          "-3",
+          "81",
+          "-18"
+        ],
+        "case_id": "V045",
+        "check_summary": "Tie among weak proposals resolved toward the critic-backed periodic modular-affine candidate.",
+        "confidence": 0.2,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-48",
+          "27",
+          "-61",
+          "34",
+          "-76"
+        ],
+        "case_id": "V046",
+        "check_summary": "Proposal plurality; lagged residue subsequences show the most coherent polynomially changing increments.",
+        "confidence": 0.25,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "22",
+          "24",
+          "18",
+          "38",
+          "10"
+        ],
+        "case_id": "V047",
+        "check_summary": "Proposal plurality among weak fits; phase-specific interleaved affine behavior is the supported continuation.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-39",
+          "27",
+          "-40",
+          "32",
+          "-43"
+        ],
+        "case_id": "V048",
+        "check_summary": "Proposal plurality; alternating subsequences exhibit the most structured lagged continuation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b04-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "b17c2865f76d9cf7b864c3ecb062c5c8bafc266ff78b7e2489de8633fd2b5039",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b04-judge-2/attempt-01"
+}

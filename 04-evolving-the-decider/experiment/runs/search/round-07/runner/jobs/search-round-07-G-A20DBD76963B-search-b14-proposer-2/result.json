@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "-20",
+          "-15",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "Matches a growing-block difference pattern with +5 runs and increasingly spaced negative jumps.",
+        "confidence": 0.92,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Even-position stream has successive odd-step increments; odd-position stream doubles with alternating sign.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/geometric-looking streams."
+      },
+      {
+        "answer": [
+          "-61",
+          "-24",
+          "-103",
+          "-16",
+          "-153"
+        ],
+        "case_id": "S159",
+        "check_summary": "Candidate continuation inferred from a phase-dependent second-order recurrence.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd positions increase by 2 and even positions increase by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-14",
+          "12",
+          "-20",
+          "-2",
+          "38"
+        ],
+        "case_id": "S161",
+        "check_summary": "Candidate continuation inferred from alternating phase recurrences.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "13",
+          "15",
+          "4",
+          "20",
+          "10"
+        ],
+        "case_id": "S162",
+        "check_summary": "Candidate continuation inferred from periodic phase-specific deltas.",
+        "confidence": 0.15,
+        "rule_summary": "Periodic delta update."
+      },
+      {
+        "answer": [
+          "5",
+          "-362",
+          "5",
+          "6",
+          "-730"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams: two arithmetic and one doubling-difference stream.",
+        "confidence": 0.98,
+        "rule_summary": "Three interleaved affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "-8",
+          "30",
+          "-4",
+          "37",
+          "-40"
+        ],
+        "case_id": "S164",
+        "check_summary": "Candidate continuation inferred from a phase-dependent recurrence.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic second-order recurrence."
+      },
+      {
+        "answer": [
+          "-35",
+          "-92",
+          "-77",
+          "-123",
+          "-119"
+        ],
+        "case_id": "S165",
+        "check_summary": "Candidate continuation inferred from interleaved phase streams.",
+        "confidence": 0.14,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-21",
+          "147",
+          "25",
+          "19",
+          "-21"
+        ],
+        "case_id": "S166",
+        "check_summary": "Candidate continuation inferred from phase-specific affine behavior.",
+        "confidence": 0.13,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "49",
+          "28",
+          "7",
+          "-14",
+          "108"
+        ],
+        "case_id": "S167",
+        "check_summary": "Growing negative-step blocks are followed by increasing positive jumps.",
+        "confidence": 0.42,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-46",
+          "-14",
+          "18",
+          "50",
+          "82"
+        ],
+        "case_id": "S168",
+        "check_summary": "Arithmetic block steps grow by 8; next block uses step 32 with quadratic start extrapolation.",
+        "confidence": 0.47,
+        "rule_summary": "Growing arithmetic blocks."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-A20DBD76963B-search-b14-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "16b2d965f7674952b2aac0e0b77921334796c2bcd18a1a9dad7b3d56c765a486",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-A20DBD76963B-search-b14-proposer-2/attempt-01"
+}

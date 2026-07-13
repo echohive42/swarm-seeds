@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b05",
+    "results": [
+      {
+        "answer": [
+          "-1989",
+          "-2746",
+          "-3695",
+          "-4865",
+          "-6287"
+        ],
+        "case_id": "S049",
+        "check_summary": "Matches polynomial finite-difference continuation.",
+        "confidence": 0.82,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "97519",
+          "195057",
+          "390092",
+          "780199",
+          "1560377"
+        ],
+        "case_id": "S050",
+        "check_summary": "Matches phase-periodic affine doubling offsets.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-31163",
+          "31164",
+          "93496",
+          "-93495",
+          "-280481"
+        ],
+        "case_id": "S051",
+        "check_summary": "Matches two interleaved affine streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "406",
+          "-458",
+          "-351",
+          "-464",
+          "-345"
+        ],
+        "case_id": "S052",
+        "check_summary": "Matches alternating polynomially changing deltas.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-20",
+          "-29",
+          "-18",
+          "-34",
+          "-17"
+        ],
+        "case_id": "S053",
+        "check_summary": "Tentative periodic phase continuation.",
+        "confidence": 0.24,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-66",
+          "-82",
+          "-77",
+          "-101",
+          "-88"
+        ],
+        "case_id": "S054",
+        "check_summary": "Tentative periodic interleaved continuation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3720088",
+          "-11160262",
+          "-33480784",
+          "-100442350",
+          "-301327048"
+        ],
+        "case_id": "S055",
+        "check_summary": "Matches x_next=3x+2.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-7800",
+          "-10700",
+          "-14600",
+          "-19800",
+          "-26700"
+        ],
+        "case_id": "S056",
+        "check_summary": "Tentative phase-dependent growth continuation.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "28008",
+          "-27993",
+          "503887",
+          "168036",
+          "-167961"
+        ],
+        "case_id": "S057",
+        "check_summary": "Matches three interleaved affine streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "58",
+          "63",
+          "67",
+          "72",
+          "76"
+        ],
+        "case_id": "S058",
+        "check_summary": "Matches alternating +5,+4 increments.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "53",
+          "121",
+          "208",
+          "316",
+          "447"
+        ],
+        "case_id": "S059",
+        "check_summary": "Matches polynomial finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-1290",
+          "-3374",
+          "-8836",
+          "-23124",
+          "-60560"
+        ],
+        "case_id": "S060",
+        "check_summary": "Matches Fibonacci-like absolute-difference growth after initialization.",
+        "confidence": 0.91,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-0025CFC9EF2E-search-b05-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "98e3c0e32d568f67cf9343a41f745fd5177933592eb3adbba13c7199d3446d08",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-0025CFC9EF2E-search-b05-proposer-7/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "73",
+          "4",
+          "101"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd-position quadratic stream and alternating even stream match the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-5",
+          "11",
+          "30",
+          "58",
+          "-6"
+        ],
+        "case_id": "S014",
+        "check_summary": "Four phase subsequences support the period-four quadratic continuation.",
+        "confidence": 0.8,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "61",
+          "-25",
+          "-12",
+          "60",
+          "-34"
+        ],
+        "case_id": "S015",
+        "check_summary": "Three residue-class streams show the strongest consistent polynomial continuation.",
+        "confidence": 0.28,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "87",
+          "-3",
+          "73",
+          "-14",
+          "99"
+        ],
+        "case_id": "S016",
+        "check_summary": "Best available continuation from phase-specific periodic behavior; evidence remains weak.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms rise by 5 and even terms fall by 4.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-8",
+          "-30",
+          "-3",
+          "-26",
+          "-46"
+        ],
+        "case_id": "S018",
+        "check_summary": "Three phase streams provide the strongest supported continuation among proposals.",
+        "confidence": 0.86,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "47",
+          "91",
+          "38",
+          "110",
+          "29"
+        ],
+        "case_id": "S019",
+        "check_summary": "Irregular prefix is most consistent with the proposed periodic modular-affine continuation.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "42",
+          "16",
+          "-2",
+          "40",
+          "-30"
+        ],
+        "case_id": "S020",
+        "check_summary": "Weak phase-periodic extrapolation; no proposal is strongly verified.",
+        "confidence": 0.16,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-54",
+          "-70",
+          "19",
+          "-9",
+          "-74"
+        ],
+        "case_id": "S021",
+        "check_summary": "Repeated within-block steps favor a growing phase-block continuation.",
+        "confidence": 0.2,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "33",
+          "-45",
+          "-19",
+          "-57",
+          "-29"
+        ],
+        "case_id": "S022",
+        "check_summary": "Best available multi-stream interleave fit, though confidence is low.",
+        "confidence": 0.13,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-22",
+          "-37"
+        ],
+        "case_id": "S023",
+        "check_summary": "Growing blocks have starts decreasing by 5, fixed within-block step 2, and lengths increasing.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "41",
+          "-33",
+          "350",
+          "68",
+          "-706"
+        ],
+        "case_id": "S024",
+        "check_summary": "Three interleaved streams match: arithmetic, quadratic-difference, and alternating-growth stream.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-077823BA6DD7-search-b02-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "dc01db1abb929b7a01a52f11f70f92809d604a646c08118ace4044f8d6534a1d",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-077823BA6DD7-search-b02-critic-1/attempt-01"
+}

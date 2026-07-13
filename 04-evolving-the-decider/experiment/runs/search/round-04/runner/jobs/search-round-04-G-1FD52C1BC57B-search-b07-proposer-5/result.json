@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating first differences -4,-3 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic-delta arithmetic sequence."
+      },
+      {
+        "answer": [
+          "9345",
+          "-15127",
+          "24472",
+          "-39603",
+          "64079"
+        ],
+        "case_id": "S074",
+        "check_summary": "Extrapolated alternating Fibonacci-like recurrence.",
+        "confidence": 0.32,
+        "rule_summary": "Phase-dependent second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "8",
+          "6",
+          "10",
+          "8",
+          "16"
+        ],
+        "case_id": "S075",
+        "check_summary": "Interleaved subsequence extrapolation.",
+        "confidence": 0.3,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-14348",
+          "-20762",
+          "-29120",
+          "-39437",
+          "-52400"
+        ],
+        "case_id": "S076",
+        "check_summary": "Extrapolated growing nonlinear difference pattern.",
+        "confidence": 0.18,
+        "rule_summary": "Phase-dependent affine recurrence."
+      },
+      {
+        "answer": [
+          "-4062",
+          "-9801",
+          "-23623",
+          "-56940",
+          "-137219"
+        ],
+        "case_id": "S077",
+        "check_summary": "Extrapolated rapidly growing recurrence.",
+        "confidence": 0.22,
+        "rule_summary": "Phase-dependent affine recurrence."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Each term follows x'=-3x+5.",
+        "confidence": 0.99,
+        "rule_summary": "Constant affine recurrence."
+      },
+      {
+        "answer": [
+          "49",
+          "78",
+          "101",
+          "145",
+          "181"
+        ],
+        "case_id": "S079",
+        "check_summary": "Interleaved stream extrapolation.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "408426",
+          "1225270",
+          "-3675812",
+          "3675804",
+          "11027404"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three-position block rules replay exactly.",
+        "confidence": 0.98,
+        "rule_summary": "Three interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-152370",
+          "-304738",
+          "609478",
+          "-1218954",
+          "-2437906"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating affine updates with multiplier -2.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-814",
+          "-990"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive decrements are squares.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial delta sequence."
+      },
+      {
+        "answer": [
+          "-2562",
+          "-3602",
+          "-5004",
+          "-6831",
+          "-9151"
+        ],
+        "case_id": "S083",
+        "check_summary": "Finite-difference continuation with linearly changing third differences.",
+        "confidence": 0.94,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "351977",
+          "-849541",
+          "2052354",
+          "-4957070",
+          "11974861"
+        ],
+        "case_id": "S084",
+        "check_summary": "Extrapolated alternating exponential recurrence.",
+        "confidence": 0.2,
+        "rule_summary": "Phase-dependent affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-1FD52C1BC57B-search-b07-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "5b76693479853bb6b8788b6d8466290e5f8150dbcac9aeecd3e11aec749de01b",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-1FD52C1BC57B-search-b07-proposer-5/attempt-01"
+}

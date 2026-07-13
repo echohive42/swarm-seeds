@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "24",
+          "9",
+          "36",
+          "-7",
+          "50"
+        ],
+        "case_id": "S109",
+        "check_summary": "Plurality of independent candidates gives the same tuple; odd/even streams replay the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "17",
+          "12",
+          "5",
+          "-12",
+          "-2"
+        ],
+        "case_id": "S110",
+        "check_summary": "This is the plurality tuple, supported by two candidates; competing phase continuations are less consistent.",
+        "confidence": 0.62,
+        "rule_summary": "Periodic phase-specific polynomial updates"
+      },
+      {
+        "answer": [
+          "56",
+          "75",
+          "94",
+          "113",
+          "132"
+        ],
+        "case_id": "S111",
+        "check_summary": "Strong candidate identifies growing arithmetic blocks with regular starts and within-block steps.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "1",
+          "51",
+          "3",
+          "11",
+          "76"
+        ],
+        "case_id": "S112",
+        "check_summary": "Two candidates independently report exact replay through three residue streams with polynomial increments.",
+        "confidence": 0.98,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-10",
+          "122",
+          "-29",
+          "209",
+          "-422"
+        ],
+        "case_id": "S113",
+        "check_summary": "The strongest coherent candidate fits two interleaved high-degree polynomial streams across the full prefix.",
+        "confidence": 0.72,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-25",
+          "28",
+          "-37",
+          "29",
+          "-47"
+        ],
+        "case_id": "S114",
+        "check_summary": "No candidate has strong support; this is the most coherent alternating-phase continuation among the evidence.",
+        "confidence": 0.12,
+        "rule_summary": "Phase-periodic affine candidate"
+      },
+      {
+        "answer": [
+          "42",
+          "82",
+          "74",
+          "58",
+          "67"
+        ],
+        "case_id": "S115",
+        "check_summary": "Highest-confidence candidate extends the observed block/phase structure with doubled phase increments.",
+        "confidence": 0.72,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "All candidates agree; odd terms decrement by one and even terms decrement by four.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams"
+      },
+      {
+        "answer": [
+          "30",
+          "47",
+          "-1",
+          "45",
+          "35"
+        ],
+        "case_id": "S117",
+        "check_summary": "Evidence is diffuse; selected the most coherent phase-interleaved continuation available.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "41",
+          "36",
+          "31",
+          "59",
+          "54"
+        ],
+        "case_id": "S118",
+        "check_summary": "Strong candidate matches alternating positive jumps increasing by five and intervening decrements of five.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-2",
+          "85",
+          "89",
+          "-22",
+          "121"
+        ],
+        "case_id": "S119",
+        "check_summary": "Strongest candidate reports cubic residue-stream extrapolation with increasing second differences.",
+        "confidence": 0.71,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "182",
+          "165",
+          "148",
+          "131",
+          "114"
+        ],
+        "case_id": "S120",
+        "check_summary": "Highest-confidence candidate identifies arithmetic blocks whose steps decrease by five.",
+        "confidence": 0.8,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-3373FE74E208-search-b10-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "bae7f2bf6cf34db9f34b65b95e298b135f37b5c26d56671e8cf6b61ed96db58a",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-3373FE74E208-search-b10-judge-1/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "The full prefix is exactly replayed by x'=-3x+3.",
+        "confidence": 1,
+        "rule_summary": "AFFINE constant update."
+      },
+      {
+        "answer": [
+          "-2885",
+          "-4498",
+          "-6585",
+          "-9231",
+          "-12528"
+        ],
+        "case_id": "V026",
+        "check_summary": "Finite differences continue with the observed eventual constant fourth difference of -7.",
+        "confidence": 0.99,
+        "rule_summary": "POLY finite-difference continuation."
+      },
+      {
+        "answer": [
+          "-1775",
+          "3026",
+          "-5981",
+          "11918",
+          "-23815"
+        ],
+        "case_id": "V027",
+        "check_summary": "Periodic affine extrapolation is the strongest complete-prefix candidate among the evidence.",
+        "confidence": 0.42,
+        "rule_summary": "Periodic AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "47316",
+          "-94674",
+          "189310",
+          "-378664",
+          "757288"
+        ],
+        "case_id": "V028",
+        "check_summary": "The two-phase affine recurrence with multiplier -2 and phase-linear biases replays the prefix.",
+        "confidence": 1,
+        "rule_summary": "Two-phase AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "12850",
+          "20591",
+          "31275",
+          "45509",
+          "63768"
+        ],
+        "case_id": "V029",
+        "check_summary": "Higher-order growth continuation best matches the complete observed difference structure.",
+        "confidence": 0.35,
+        "rule_summary": "POLY continuation."
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Odd and even subsequences each increase by one.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Alternating updates 2x+1 and 3x+7 reproduce the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802339",
+          "71604684",
+          "-214814049",
+          "644442141"
+        ],
+        "case_id": "V032",
+        "check_summary": "The repeating three-phase updates -3x+3, -3x-6, and -2x+6 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Period-three AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "963",
+          "-1569",
+          "2520",
+          "-4095",
+          "6642"
+        ],
+        "case_id": "V033",
+        "check_summary": "Alternating lagged streams provide the strongest complete-prefix continuation.",
+        "confidence": 0.4,
+        "rule_summary": "INTERLEAVE of phase-specific affine streams."
+      },
+      {
+        "answer": [
+          "-10",
+          "13",
+          "-10",
+          "25",
+          "-9"
+        ],
+        "case_id": "V034",
+        "check_summary": "Periodic phase-specific polynomial increments are the strongest supported continuation.",
+        "confidence": 0.32,
+        "rule_summary": "PDELTA with periodic phase structure."
+      },
+      {
+        "answer": [
+          "57",
+          "36",
+          "46",
+          "80",
+          "74"
+        ],
+        "case_id": "V035",
+        "check_summary": "Two interleaved streams with alternating polynomial increments best replay the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      },
+      {
+        "answer": [
+          "815",
+          "1060",
+          "1351",
+          "1692",
+          "2087"
+        ],
+        "case_id": "V036",
+        "check_summary": "Second differences continue increasing by four, yielding the polynomial continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY cubic continuation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-A20DBD76963B-validation-b03-verifier-2",
+  "outcome": "valid_output",
+  "response_sha256": "5cf268d41cab36bfed9c5dfb8126f1b7b670bd94aa84f25f7473f9d2213e8126",
+  "terminal_artifact_relpath": "jobs/validation-G-A20DBD76963B-validation-b03-verifier-2/attempt-01"
+}

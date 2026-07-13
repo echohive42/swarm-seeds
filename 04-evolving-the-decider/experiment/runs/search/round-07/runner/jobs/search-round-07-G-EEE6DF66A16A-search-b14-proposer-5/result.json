@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "-25",
+          "-20",
+          "-15",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "Periodic delta pattern with negative events at triangular positions.",
+        "confidence": 0.93,
+        "rule_summary": "Running value with mostly +5 deltas and phase-specific negative deltas decreasing by 5."
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd-position stream doubles with alternating sign; even-position stream has quadratic increments.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: geometric signed odd stream and quadratic even stream."
+      },
+      {
+        "answer": [
+          "-32",
+          "-8",
+          "-17",
+          "-13",
+          "-4"
+        ],
+        "case_id": "S159",
+        "check_summary": "Best-fit periodic polynomial extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "Likely phase-specific polynomial/interleaved mechanism."
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd terms increase by 2 and even terms increase by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Two affine streams interleaved by parity."
+      },
+      {
+        "answer": [
+          "-6",
+          "-14",
+          "-1",
+          "-2",
+          "-18"
+        ],
+        "case_id": "S161",
+        "check_summary": "Best-fit periodic affine/second-order extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "Likely periodic second-order or interleaved mechanism."
+      },
+      {
+        "answer": [
+          "2",
+          "10",
+          "-8",
+          "18",
+          "4"
+        ],
+        "case_id": "S162",
+        "check_summary": "Best-fit periodic delta extrapolation.",
+        "confidence": 0.15,
+        "rule_summary": "Likely phase-specific polynomial delta process."
+      },
+      {
+        "answer": [
+          "5",
+          "-362",
+          "5",
+          "6",
+          "0"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams are independently polynomial/geometric.",
+        "confidence": 0.99,
+        "rule_summary": "Modulo-3 interleave: decreasing quadratic stream, increasing affine stream, and doubling-difference stream."
+      },
+      {
+        "answer": [
+          "-4",
+          "8",
+          "20",
+          "32",
+          "44"
+        ],
+        "case_id": "S164",
+        "check_summary": "Best-fit periodic/interleaved extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Likely multi-stream polynomial or affine mechanism."
+      },
+      {
+        "answer": [
+          "-32",
+          "44",
+          "-91",
+          "91",
+          "-174"
+        ],
+        "case_id": "S165",
+        "check_summary": "Best-fit phase-specific recurrence extrapolation.",
+        "confidence": 0.11,
+        "rule_summary": "Likely periodic affine or second-order recurrence."
+      },
+      {
+        "answer": [
+          "1",
+          "19",
+          "135",
+          "-38",
+          "-21"
+        ],
+        "case_id": "S166",
+        "check_summary": "Modulo-3 streams include alternating, quadratic, and cubic behavior.",
+        "confidence": 0.98,
+        "rule_summary": "Three interleaved streams; one alternating, one quadratic, and one cubic."
+      },
+      {
+        "answer": [
+          "-45",
+          "31",
+          "-62",
+          "48",
+          "-83"
+        ],
+        "case_id": "S167",
+        "check_summary": "Best-fit interleaved polynomial extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Likely two-stream or periodic polynomial mechanism."
+      },
+      {
+        "answer": [
+          "98",
+          "122",
+          "146",
+          "170",
+          "194"
+        ],
+        "case_id": "S168",
+        "check_summary": "Final growing arithmetic block continues with common step 24.",
+        "confidence": 0.79,
+        "rule_summary": "Growing-block mechanism with the observed terminal arithmetic block."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-EEE6DF66A16A-search-b14-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "8c5b6a82c74de7821e5ce774e57b98f6a990810dce2d676dc764bfd89712d1af",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-EEE6DF66A16A-search-b14-proposer-5/attempt-01"
+}

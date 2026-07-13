@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "-1",
+          "-1",
+          "-1",
+          "-1",
+          "-1"
+        ],
+        "case_id": "S061",
+        "check_summary": "Proposal plurality; no verified alternative replay.",
+        "confidence": 0.03,
+        "rule_summary": "Unresolved periodic/modular continuation."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S062",
+        "check_summary": "Proposal plurality; no verified full-prefix replay.",
+        "confidence": 0.02,
+        "rule_summary": "Unresolved phase-specific mechanism."
+      },
+      {
+        "answer": [
+          "84",
+          "52",
+          "86",
+          "41",
+          "94"
+        ],
+        "case_id": "S063",
+        "check_summary": "Plurality among bounded modular-affine proposals.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative MODAFFINE continuation."
+      },
+      {
+        "answer": [
+          "-2",
+          "-774",
+          "-127",
+          "1110",
+          "-198"
+        ],
+        "case_id": "S064",
+        "check_summary": "Tie among unresolved proposals; selected the phase-recurrence tuple with critic support.",
+        "confidence": 0.03,
+        "rule_summary": "Tentative phase-periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd terms decrease by 4 and even terms increase by 2 throughout the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "7",
+          "224",
+          "48",
+          "12",
+          "448"
+        ],
+        "case_id": "S066",
+        "check_summary": "Three residue classes replay as simple interleaved polynomial/affine streams.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of three streams."
+      },
+      {
+        "answer": [
+          "-175",
+          "-54",
+          "-208",
+          "-85",
+          "-241"
+        ],
+        "case_id": "S067",
+        "check_summary": "Plurality supports the growing-block continuation, though mechanism evidence is partial.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative GROWBLOCK process."
+      },
+      {
+        "answer": [
+          "-29",
+          "-16",
+          "-20",
+          "-24",
+          "-28"
+        ],
+        "case_id": "S068",
+        "check_summary": "Plurality among tentative periodic-delta continuations.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic-delta process."
+      },
+      {
+        "answer": [
+          "16",
+          "-21",
+          "21",
+          "24",
+          "-32"
+        ],
+        "case_id": "S069",
+        "check_summary": "Highest-confidence complete-looking modulo-three quadratic extrapolation.",
+        "confidence": 0.95,
+        "rule_summary": "INTERLEAVE of three quadratic streams."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "0",
+          "-103",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd-position stream alternates -3,0; even-position differences decrease by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of a period-2 stream and a quadratic even-position stream."
+      },
+      {
+        "answer": [
+          "-12",
+          "-5",
+          "-20",
+          "-3",
+          "-29"
+        ],
+        "case_id": "S071",
+        "check_summary": "Plurality tie among weak proposals; selected the critic-supported continuation.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative INTERLEAVE of polynomial streams."
+      },
+      {
+        "answer": [
+          "-29",
+          "-33",
+          "-20",
+          "-24",
+          "-28"
+        ],
+        "case_id": "S072",
+        "check_summary": "Growing arithmetic blocks with lengths 2,3,4,5,... and within-block step -4 match the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK with advancing block starts."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-2B08D2BA7D25-search-b06-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "0a6d1b5e3e2c21453bd94e36f2dd39090db81455253451432da10ab711da9c61",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-2B08D2BA7D25-search-b06-judge-2/attempt-01"
+}

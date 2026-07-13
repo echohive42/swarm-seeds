@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b06",
+    "results": [
+      {
+        "answer": [
+          "-7",
+          "15",
+          "1",
+          "2",
+          "-25"
+        ],
+        "case_id": "V061",
+        "check_summary": "No reliable low-complexity continuation identified.",
+        "confidence": 0.03,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-10",
+          "13",
+          "36",
+          "-47",
+          "-24"
+        ],
+        "case_id": "V062",
+        "check_summary": "No reliable low-complexity continuation identified.",
+        "confidence": 0.03,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-20",
+          "-34",
+          "-81",
+          "-10",
+          "-114"
+        ],
+        "case_id": "V063",
+        "check_summary": "No reliable low-complexity continuation identified.",
+        "confidence": 0.03,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "20",
+          "-33",
+          "24",
+          "-38",
+          "28"
+        ],
+        "case_id": "V064",
+        "check_summary": "Odd and even subsequences are arithmetic with step +4 and -5.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "5",
+          "31",
+          "65",
+          "62",
+          "11"
+        ],
+        "case_id": "V065",
+        "check_summary": "No reliable low-complexity continuation identified.",
+        "confidence": 0.03,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-49",
+          "449",
+          "-60",
+          "897",
+          "-72"
+        ],
+        "case_id": "V066",
+        "check_summary": "Odd subsequence decrements by successive integers; even subsequence doubles after the first step.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of polynomial and affine streams."
+      },
+      {
+        "answer": [
+          "57",
+          "43",
+          "46",
+          "58",
+          "47"
+        ],
+        "case_id": "V067",
+        "check_summary": "No reliable low-complexity continuation identified.",
+        "confidence": 0.03,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-54",
+          "-12",
+          "-74",
+          "3",
+          "-95"
+        ],
+        "case_id": "V068",
+        "check_summary": "No reliable low-complexity continuation identified.",
+        "confidence": 0.03,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-24",
+          "-15",
+          "-20",
+          "-13",
+          "-16"
+        ],
+        "case_id": "V069",
+        "check_summary": "No reliable low-complexity continuation identified.",
+        "confidence": 0.03,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "45",
+          "117",
+          "135",
+          "153",
+          "171"
+        ],
+        "case_id": "V070",
+        "check_summary": "Recent block follows step +18; continuation is extrapolated from that block.",
+        "confidence": 0.18,
+        "rule_summary": "Tentative GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-37",
+          "-2",
+          "-10",
+          "3",
+          "-37"
+        ],
+        "case_id": "V071",
+        "check_summary": "No reliable low-complexity continuation identified.",
+        "confidence": 0.03,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "35",
+          "39",
+          "32",
+          "36",
+          "40"
+        ],
+        "case_id": "V072",
+        "check_summary": "Recent terms suggest alternating +4 runs with a periodic downward reset.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative GROWBLOCK."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-A20DBD76963B-validation-b06-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "0a7393964915e94e2be7c9accc7e6c5c88890b75736daa93c99c1ee4ccdc1b27",
+  "terminal_artifact_relpath": "jobs/validation-G-A20DBD76963B-validation-b06-proposer-6/attempt-01"
+}

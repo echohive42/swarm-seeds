@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "All candidates agree; x_next=-3x+3 fits the full prefix.",
+        "confidence": 1,
+        "rule_summary": "Constant affine recurrence."
+      },
+      {
+        "answer": [
+          "-3777",
+          "-5390",
+          "-7477",
+          "-10123",
+          "-13420"
+        ],
+        "case_id": "V026",
+        "check_summary": "Fourth differences are consistently -7 across the prefix and continue exactly.",
+        "confidence": 1,
+        "rule_summary": "Quartic polynomial."
+      },
+      {
+        "answer": [
+          "-1975",
+          "4426",
+          "-10073",
+          "22910",
+          "-52115"
+        ],
+        "case_id": "V027",
+        "check_summary": "Plurality supports a phase-dependent second-order linear continuation.",
+        "confidence": 0.42,
+        "rule_summary": "Phase-dependent LIN2 recurrence."
+      },
+      {
+        "answer": [
+          "47316",
+          "-94674",
+          "189310",
+          "-378664",
+          "757288"
+        ],
+        "case_id": "V028",
+        "check_summary": "Plurality and critics agree on the alternating affine continuation.",
+        "confidence": 1,
+        "rule_summary": "Periodic affine recurrence with multiplier -2."
+      },
+      {
+        "answer": [
+          "12449",
+          "19339",
+          "28831",
+          "41542",
+          "58159"
+        ],
+        "case_id": "V029",
+        "check_summary": "Plurality supports this continuation from the accelerating terminal difference structure.",
+        "confidence": 0.3,
+        "rule_summary": "Polynomial-delta recurrence."
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Odd and even subsequences are arithmetic streams increasing by one.",
+        "confidence": 1,
+        "rule_summary": "Two-stream interleave."
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Alternating updates 2x+1 and 3x+7 replay the full prefix.",
+        "confidence": 1,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802339",
+          "107407020",
+          "-322221066",
+          "966663201"
+        ],
+        "case_id": "V032",
+        "check_summary": "Alternating updates -3x+3 and -3x-6 fit the full prefix.",
+        "confidence": 1,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "963",
+          "-1566",
+          "2526",
+          "-4095",
+          "6618"
+        ],
+        "case_id": "V033",
+        "check_summary": "Plurality and critics support the signed Fibonacci-like continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "15",
+          "23",
+          "18",
+          "39",
+          "49"
+        ],
+        "case_id": "V034",
+        "check_summary": "Period-three phase deltas continue with the identified linear trends.",
+        "confidence": 1,
+        "rule_summary": "Period-three polynomial-delta recurrence."
+      },
+      {
+        "answer": [
+          "57",
+          "80",
+          "46",
+          "46",
+          "74"
+        ],
+        "case_id": "V035",
+        "check_summary": "Plurality and critics agree on period-four arithmetic phase deltas.",
+        "confidence": 1,
+        "rule_summary": "Period-four polynomial-delta recurrence."
+      },
+      {
+        "answer": [
+          "815",
+          "1060",
+          "1351",
+          "1692",
+          "2087"
+        ],
+        "case_id": "V036",
+        "check_summary": "Finite differences support the shared polynomial continuation.",
+        "confidence": 1,
+        "rule_summary": "Polynomial recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-E2CB7ED71793-validation-b03-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "4b5f1ee62df4aa4ede1ef87dccd1fe3724e30f263e917f4c57d2cdbd290cf9e6",
+  "terminal_artifact_relpath": "jobs/validation-G-E2CB7ED71793-validation-b03-judge-2/attempt-01"
+}

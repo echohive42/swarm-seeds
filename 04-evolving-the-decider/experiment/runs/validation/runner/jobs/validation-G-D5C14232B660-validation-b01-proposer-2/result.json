@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b01",
+    "results": [
+      {
+        "answer": [
+          "-1288823",
+          "-3866468",
+          "-7732937",
+          "-23198822",
+          "-46397645"
+        ],
+        "case_id": "V001",
+        "check_summary": "Periodic affine replay inferred from repeating phase updates.",
+        "confidence": 0.94,
+        "rule_summary": "Three-phase affine update pattern."
+      },
+      {
+        "answer": [
+          "2605",
+          "3716",
+          "5133",
+          "6900",
+          "9061"
+        ],
+        "case_id": "V002",
+        "check_summary": "Finite-difference continuation.",
+        "confidence": 0.7,
+        "rule_summary": "Cubic-like periodic difference growth."
+      },
+      {
+        "answer": [
+          "43",
+          "47",
+          "50",
+          "54",
+          "57"
+        ],
+        "case_id": "V003",
+        "check_summary": "Alternating increments 3 and 4 replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase arithmetic update."
+      },
+      {
+        "answer": [
+          "-2590778",
+          "7772327",
+          "-23316974",
+          "69950917",
+          "-209852753"
+        ],
+        "case_id": "V004",
+        "check_summary": "Alternating affine updates replay exactly.",
+        "confidence": 0.98,
+        "rule_summary": "Multiplier -3 with alternating biases +4 and -7."
+      },
+      {
+        "answer": [
+          "1727182",
+          "-5181551",
+          "15544648",
+          "-46633949",
+          "139901842"
+        ],
+        "case_id": "V005",
+        "check_summary": "Constant affine recurrence replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Update x -> -3x - 5."
+      },
+      {
+        "answer": [
+          "-1035",
+          "818",
+          "437",
+          "-2510",
+          "4149"
+        ],
+        "case_id": "V006",
+        "check_summary": "Four-way interleaved affine streams replay consistently.",
+        "confidence": 0.9,
+        "rule_summary": "Four-position interleave with multiplier -4 and phase biases."
+      },
+      {
+        "answer": [
+          "-112",
+          "-103",
+          "-128",
+          "-163",
+          "-151"
+        ],
+        "case_id": "V007",
+        "check_summary": "Three-phase delta sequences continue arithmetically.",
+        "confidence": 0.86,
+        "rule_summary": "Phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-15065",
+          "-21105",
+          "-29018",
+          "-39221",
+          "-52186"
+        ],
+        "case_id": "V008",
+        "check_summary": "Higher-order finite-difference continuation.",
+        "confidence": 0.72,
+        "rule_summary": "Polynomial-growth difference structure."
+      },
+      {
+        "answer": [
+          "-566237",
+          "1367028",
+          "-3300286",
+          "7967607",
+          "-19235493"
+        ],
+        "case_id": "V009",
+        "check_summary": "Second-order affine continuation estimated from terminal recurrence behavior.",
+        "confidence": 0.42,
+        "rule_summary": "Second-order linear recurrence with small periodic bias."
+      },
+      {
+        "answer": [
+          "-66",
+          "-89",
+          "-120",
+          "-151",
+          "-198"
+        ],
+        "case_id": "V010",
+        "check_summary": "Low-confidence periodic/interleaved continuation.",
+        "confidence": 0.22,
+        "rule_summary": "Inferred phase-dependent affine/interleaved pattern."
+      },
+      {
+        "answer": [
+          "95",
+          "-159",
+          "252",
+          "-413",
+          "663"
+        ],
+        "case_id": "V011",
+        "check_summary": "Difference sequence follows alternating Fibonacci-like recurrence.",
+        "confidence": 0.62,
+        "rule_summary": "Lagged recurrence in first differences."
+      },
+      {
+        "answer": [
+          "-805",
+          "-1035",
+          "-1304",
+          "-1615",
+          "-1971"
+        ],
+        "case_id": "V012",
+        "check_summary": "Second differences decrease by successive multiples of three.",
+        "confidence": 0.98,
+        "rule_summary": "Cubic polynomial continuation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b01-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "6b1778c1364c1e357bb322888f9d76e85d68e4f09abca978c9b032fd57134572",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b01-proposer-2/attempt-01"
+}

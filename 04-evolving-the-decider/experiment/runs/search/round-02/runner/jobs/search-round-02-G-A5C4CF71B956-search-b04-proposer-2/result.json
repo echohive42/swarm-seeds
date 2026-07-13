@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-151",
+          "21",
+          "-219",
+          "26",
+          "-295"
+        ],
+        "case_id": "S037",
+        "check_summary": "Best-fit periodic/lagged difference extrapolation; full replay uncertain.",
+        "confidence": 0.22,
+        "rule_summary": "Lagged polynomial increments."
+      },
+      {
+        "answer": [
+          "126",
+          "130",
+          "-18",
+          "141",
+          "143"
+        ],
+        "case_id": "S038",
+        "check_summary": "Best-fit interleaved-stream extrapolation; ambiguity remains.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-12",
+          "35",
+          "-7",
+          "28",
+          "66"
+        ],
+        "case_id": "S039",
+        "check_summary": "Best-fit lagged-stream extrapolation.",
+        "confidence": 0.16,
+        "rule_summary": "Lagged polynomial increments."
+      },
+      {
+        "answer": [
+          "100",
+          "49",
+          "69",
+          "89",
+          "109"
+        ],
+        "case_id": "S040",
+        "check_summary": "Blocks replay cleanly with arithmetic steps 4,8,12,16, then 20.",
+        "confidence": 0.99,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Odd and even subsequences are arithmetic.",
+        "confidence": 1.0,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-14",
+          "54",
+          "30",
+          "47",
+          "83"
+        ],
+        "case_id": "S042",
+        "check_summary": "Best-fit periodic/interleaved extrapolation.",
+        "confidence": 0.15,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "15",
+          "5",
+          "-76",
+          "-10",
+          "4"
+        ],
+        "case_id": "S043",
+        "check_summary": "Three subsequences replay cleanly: alternating, descending quadratic-difference stream, and descending arithmetic stream.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-21",
+          "-13",
+          "-24",
+          "-11",
+          "-27"
+        ],
+        "case_id": "S044",
+        "check_summary": "Best-fit periodic-difference extrapolation.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-24",
+          "-4",
+          "114",
+          "-50",
+          "-44"
+        ],
+        "case_id": "S045",
+        "check_summary": "Best-fit interleaved-stream extrapolation.",
+        "confidence": 0.15,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-40",
+          "-45",
+          "-50"
+        ],
+        "case_id": "S046",
+        "check_summary": "Growing blocks replay cleanly: starts -9,-11,-13,-15 and step -5.",
+        "confidence": 0.99,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "96",
+          "142",
+          "188",
+          "234",
+          "280"
+        ],
+        "case_id": "S047",
+        "check_summary": "Growing blocks replay cleanly; next block starts 96 with step 46.",
+        "confidence": 0.99,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "22",
+          "12",
+          "12",
+          "-10",
+          "31"
+        ],
+        "case_id": "S048",
+        "check_summary": "Best-fit interleaved-stream extrapolation; phase-1 continuation uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-A5C4CF71B956-search-b04-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "815afc9ce55c08cc27a05e9562521a26dc9f6ce6de8cc0d39c08a85abcc9730d",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-A5C4CF71B956-search-b04-proposer-2/attempt-01"
+}

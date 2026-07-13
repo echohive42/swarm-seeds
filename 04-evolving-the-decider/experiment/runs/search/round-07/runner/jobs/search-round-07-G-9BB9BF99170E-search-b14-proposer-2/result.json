@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-17",
+          "-2",
+          "-19",
+          "-1",
+          "-21"
+        ],
+        "case_id": "S157",
+        "check_summary": "Inferred alternating/interleaved continuation from recurring phase differences.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic interleaved arithmetic-polynomial phases."
+      },
+      {
+        "answer": [
+          "40",
+          "-640",
+          "57",
+          "1280",
+          "78"
+        ],
+        "case_id": "S158",
+        "check_summary": "Even subsequence has second difference 4; odd subsequence doubles with sign reversal.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: quadratic even phase and signed doubling odd phase."
+      },
+      {
+        "answer": [
+          "45",
+          "38",
+          "40",
+          "24",
+          "-3"
+        ],
+        "case_id": "S159",
+        "check_summary": "Continuation estimated from phase-separated subsequence trends.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic interleaved polynomial phases."
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Even terms increase by 2 and odd terms increase by 1.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-11",
+          "39",
+          "7",
+          "-12",
+          "56"
+        ],
+        "case_id": "S161",
+        "check_summary": "Three residue classes have polynomial increments: +2,+3,+4,+5; -5,-4,-3; and increments +5,+8,+11,+14,+17.",
+        "confidence": 0.99,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "12",
+          "5",
+          "10",
+          "15",
+          "7"
+        ],
+        "case_id": "S162",
+        "check_summary": "Estimated continuation from phase-separated local differences.",
+        "confidence": 0.15,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "5",
+          "-362",
+          "5",
+          "6",
+          "-730"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three residue classes: descending arithmetic stream, ascending arithmetic stream, and doubling-difference stream.",
+        "confidence": 0.99,
+        "rule_summary": "Three interleaved affine/exponential-by-phase streams."
+      },
+      {
+        "answer": [
+          "9",
+          "48",
+          "45",
+          "63",
+          "-25"
+        ],
+        "case_id": "S164",
+        "check_summary": "Estimated continuation from phase-specific subsequence behavior.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "18",
+          "-130",
+          "67",
+          "-91",
+          "-40"
+        ],
+        "case_id": "S165",
+        "check_summary": "Estimated continuation from residue-class trends.",
+        "confidence": 0.13,
+        "rule_summary": "Three interleaved phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "135",
+          "1",
+          "19",
+          "177",
+          "-38"
+        ],
+        "case_id": "S166",
+        "check_summary": "Residue classes show alternating phase, quadratic growth, and cubic continuation.",
+        "confidence": 0.78,
+        "rule_summary": "Three interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-52",
+          "-49",
+          "-67",
+          "-94",
+          "-88"
+        ],
+        "case_id": "S167",
+        "check_summary": "Estimated continuation from recurring phase-separated differences.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "98",
+          "122",
+          "146",
+          "170",
+          "194"
+        ],
+        "case_id": "S168",
+        "check_summary": "Final visible phase exhibits a stable increment of 24.",
+        "confidence": 0.25,
+        "rule_summary": "Periodic arithmetic block continuation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-9BB9BF99170E-search-b14-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "71dc19d7855c27728b01379fdf0c71207665104b4beb81c233f15228c430397d",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-9BB9BF99170E-search-b14-proposer-2/attempt-01"
+}

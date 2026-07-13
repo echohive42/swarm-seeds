@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "73",
+          "4",
+          "105"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd-position subsequence has successive increments 0,4,8,12,16; even positions alternate -5,4.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved quadratic odd stream and period-2 constant even stream."
+      },
+      {
+        "answer": [
+          "8",
+          "23",
+          "-7",
+          "30",
+          "-16"
+        ],
+        "case_id": "S014",
+        "check_summary": "Prefix is consistent with a phase-dependent affine/interleaved mechanism; extrapolation uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "Candidate periodic affine/interleaved rule."
+      },
+      {
+        "answer": [
+          "-21",
+          "-8",
+          "-25",
+          "12",
+          "-30"
+        ],
+        "case_id": "S015",
+        "check_summary": "Irregular alternating subsequences suggest modular or phase-dependent recurrence.",
+        "confidence": 0.12,
+        "rule_summary": "Candidate MODAFFINE or phase-dependent recurrence."
+      },
+      {
+        "answer": [
+          "34",
+          "-11",
+          "18",
+          "38",
+          "42"
+        ],
+        "case_id": "S016",
+        "check_summary": "Multiple phase streams are evident but parameters are underdetermined from the prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Candidate interleaved phase-dependent affine rule."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5 and even terms decrease by 4.",
+        "confidence": 1.0,
+        "rule_summary": "Two affine streams interleaved by parity."
+      },
+      {
+        "answer": [
+          "-20",
+          "-4",
+          "-27",
+          "-8",
+          "-38"
+        ],
+        "case_id": "S018",
+        "check_summary": "Alternating subsequences show phase-dependent nonlinear behavior.",
+        "confidence": 0.1,
+        "rule_summary": "Candidate periodic recurrence."
+      },
+      {
+        "answer": [
+          "47",
+          "39",
+          "68",
+          "25",
+          "81"
+        ],
+        "case_id": "S019",
+        "check_summary": "Prefix appears modular and phase-dependent; exact parameters are uncertain.",
+        "confidence": 0.08,
+        "rule_summary": "Candidate MODAFFINE."
+      },
+      {
+        "answer": [
+          "-46",
+          "-20",
+          "-80",
+          "-38",
+          "-130"
+        ],
+        "case_id": "S020",
+        "check_summary": "Alternating streams have nonconstant differences consistent with a higher-order phase rule.",
+        "confidence": 0.09,
+        "rule_summary": "Candidate interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-54",
+          "-25",
+          "-70",
+          "-41",
+          "-86"
+        ],
+        "case_id": "S021",
+        "check_summary": "Difference blocks suggest periodic phase-specific polynomial deltas.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA with period 4."
+      },
+      {
+        "answer": [
+          "-9",
+          "44",
+          "-17",
+          "71",
+          "-25"
+        ],
+        "case_id": "S022",
+        "check_summary": "Irregular sequence likely uses a periodic affine or modular mechanism.",
+        "confidence": 0.08,
+        "rule_summary": "Candidate MODAFFINE."
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-37",
+          "-35"
+        ],
+        "case_id": "S023",
+        "check_summary": "Differences are +2 except at triangular-number indices, where decrements are -5,-7,-9,-11,-13.",
+        "confidence": 0.99,
+        "rule_summary": "Growing-block delta pattern with triangular reset positions."
+      },
+      {
+        "answer": [
+          "-74",
+          "-52",
+          "-250",
+          "-93",
+          "-802"
+        ],
+        "case_id": "S024",
+        "check_summary": "Strongly irregular alternating behavior suggests a modular or phase-dependent recurrence.",
+        "confidence": 0.06,
+        "rule_summary": "Candidate MODAFFINE or interleaved recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-3CE5CD3B66B3-search-b02-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "730fc0b3f74796402ea2e18368c1b8d140ddaf98831db9a835df2cd6e52706ac",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-3CE5CD3B66B3-search-b02-proposer-2/attempt-01"
+}

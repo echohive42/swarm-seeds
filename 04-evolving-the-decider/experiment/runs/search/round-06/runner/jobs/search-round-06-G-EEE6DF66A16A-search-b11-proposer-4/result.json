@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b11",
+    "results": [
+      {
+        "answer": [
+          "3454367",
+          "-10363099",
+          "31089299",
+          "-93267895",
+          "279803687"
+        ],
+        "case_id": "S121",
+        "check_summary": "Fits x[n+1]=-3x[n]+2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE recurrence with constant multiplier and bias."
+      },
+      {
+        "answer": [
+          "37",
+          "39",
+          "43",
+          "45",
+          "49"
+        ],
+        "case_id": "S122",
+        "check_summary": "Odd and even positions each increase by 6.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "146745",
+          "-440244",
+          "-880487",
+          "-1760967",
+          "5282892"
+        ],
+        "case_id": "S123",
+        "check_summary": "Repeating three-phase affine updates replay the prefix.",
+        "confidence": 0.95,
+        "rule_summary": "AFFINE with period-3 phase updates."
+      },
+      {
+        "answer": [
+          "-49151",
+          "-98305",
+          "196609",
+          "393215",
+          "-786431"
+        ],
+        "case_id": "S124",
+        "check_summary": "Alternating updates x→-2x-1 and x→2x-3.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-2 phase updates."
+      },
+      {
+        "answer": [
+          "2003",
+          "2873",
+          "3948",
+          "5258",
+          "6819"
+        ],
+        "case_id": "S125",
+        "check_summary": "Finite differences follow polynomial progression.",
+        "confidence": 0.96,
+        "rule_summary": "POLY integer-valued sequence."
+      },
+      {
+        "answer": [
+          "-18984",
+          "-27353",
+          "-38324",
+          "-52411",
+          "-70188"
+        ],
+        "case_id": "S126",
+        "check_summary": "Higher finite differences follow a polynomial pattern.",
+        "confidence": 0.94,
+        "rule_summary": "POLY integer-valued sequence."
+      },
+      {
+        "answer": [
+          "-136",
+          "-183",
+          "-181",
+          "-235",
+          "-232"
+        ],
+        "case_id": "S127",
+        "check_summary": "Interleaved difference streams continue with odd-stream +1,+2,+3 and even-stream decrements by 7.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE of two polynomial streams."
+      },
+      {
+        "answer": [
+          "-163",
+          "-152",
+          "-142",
+          "-125",
+          "-115"
+        ],
+        "case_id": "S128",
+        "check_summary": "Paired differences advance by 7 in each pair.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "700",
+          "1135",
+          "1839",
+          "2978",
+          "4821"
+        ],
+        "case_id": "S129",
+        "check_summary": "Successive differences follow a Fibonacci-like recurrence.",
+        "confidence": 0.96,
+        "rule_summary": "LIN2 recurrence on differences."
+      },
+      {
+        "answer": [
+          "1047",
+          "1310",
+          "1614",
+          "1962",
+          "2357"
+        ],
+        "case_id": "S130",
+        "check_summary": "Second differences increase by 3 each step.",
+        "confidence": 0.99,
+        "rule_summary": "POLY integer-valued sequence."
+      },
+      {
+        "answer": [
+          "66",
+          "81",
+          "73",
+          "95",
+          "83"
+        ],
+        "case_id": "S131",
+        "check_summary": "Odd and even subsequences follow separate repeating difference patterns.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE of two polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "1698179",
+          "4099766",
+          "9397709",
+          "22195190",
+          "53788091"
+        ],
+        "case_id": "S132",
+        "check_summary": "Second-order recurrence x[n]=2x[n-1]+x[n-2] with repeating biases +6,+2,-2.",
+        "confidence": 0.98,
+        "rule_summary": "LIN2 with period-3 bias."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-EEE6DF66A16A-search-b11-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "fe8b21243380cc3c95b40a5caffcd7751a8d86e81df6fc9d28a7b8aa4d8a0542",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-EEE6DF66A16A-search-b11-proposer-4/attempt-01"
+}

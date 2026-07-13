@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "801",
+          "1041",
+          "1201",
+          "1041",
+          "641"
+        ],
+        "case_id": "S025",
+        "check_summary": "Periodic difference structure inferred; extrapolation uncertain.",
+        "confidence": 0.32,
+        "rule_summary": "PDELTA with phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-44",
+          "-52",
+          "-45",
+          "-60",
+          "-76"
+        ],
+        "case_id": "S026",
+        "check_summary": "Weak periodic-difference extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "Phase-specific lagged polynomial increments."
+      },
+      {
+        "answer": [
+          "-21",
+          "-32",
+          "-43",
+          "-57",
+          "-71"
+        ],
+        "case_id": "S027",
+        "check_summary": "Paired first differences continue by -3 each pair.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-954",
+          "-1536",
+          "-2474",
+          "-3982",
+          "-6405"
+        ],
+        "case_id": "S028",
+        "check_summary": "Lagged subsequence growth extrapolated.",
+        "confidence": 0.3,
+        "rule_summary": "LAGPOLY with phase-specific increments."
+      },
+      {
+        "answer": [
+          "797159",
+          "2391482",
+          "7174451",
+          "21523358",
+          "64570079"
+        ],
+        "case_id": "S029",
+        "check_summary": "Verified recurrence x(n)=3x(n-1)+5.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE first-order recurrence."
+      },
+      {
+        "answer": [
+          "-56",
+          "-60",
+          "-65",
+          "-69",
+          "-74"
+        ],
+        "case_id": "S030",
+        "check_summary": "Alternating differences -5,-4 continue.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "1797",
+          "2949",
+          "4729",
+          "7364",
+          "11132"
+        ],
+        "case_id": "S031",
+        "check_summary": "Finite-difference extrapolation with rising fourth differences.",
+        "confidence": 0.42,
+        "rule_summary": "POLY integer-valued sequence."
+      },
+      {
+        "answer": [
+          "-140903",
+          "281810",
+          "-563615",
+          "1127234",
+          "-2254463"
+        ],
+        "case_id": "S032",
+        "check_summary": "Verified alternating affine updates with biases 5 and 4.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE phase-periodic recurrence."
+      },
+      {
+        "answer": [
+          "-207",
+          "-235",
+          "-270",
+          "-303",
+          "-338"
+        ],
+        "case_id": "S033",
+        "check_summary": "Paired differences continue with each pair reduced by 5.",
+        "confidence": 0.93,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "99759061",
+          "-299277179",
+          "-897831531",
+          "-2693494595",
+          "8080483789"
+        ],
+        "case_id": "S034",
+        "check_summary": "Verified four-phase signed affine cycle.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE phase-periodic recurrence."
+      },
+      {
+        "answer": [
+          "1112",
+          "1814",
+          "2759",
+          "3994",
+          "5229"
+        ],
+        "case_id": "S035",
+        "check_summary": "Finite differences indicate polynomial continuation.",
+        "confidence": 0.81,
+        "rule_summary": "POLY integer-valued sequence."
+      },
+      {
+        "answer": [
+          "1025",
+          "1343",
+          "1720",
+          "2161",
+          "2671"
+        ],
+        "case_id": "S036",
+        "check_summary": "Second differences increase by 5.",
+        "confidence": 1.0,
+        "rule_summary": "POLY integer-valued sequence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-BF0AD01E8A72-search-b03-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "44586733f6a9d291234279dd037dfc5af58e5258076080c379f9a163d29d1aac",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-BF0AD01E8A72-search-b03-proposer-1/attempt-01"
+}

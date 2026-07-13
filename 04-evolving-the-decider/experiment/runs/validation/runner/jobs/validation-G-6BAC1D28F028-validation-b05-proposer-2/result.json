@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b05",
+    "results": [
+      {
+        "answer": [
+          "-151",
+          "-202",
+          "-253",
+          "-304",
+          "-355"
+        ],
+        "case_id": "V049",
+        "check_summary": "A periodic/interleaved continuation was fitted to the full prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Candidate periodic polynomial-delta mechanism."
+      },
+      {
+        "answer": [
+          "37021",
+          "-74053",
+          "148095",
+          "-296141",
+          "592271"
+        ],
+        "case_id": "V050",
+        "check_summary": "Alternating-sign affine growth is consistent with the dominant tail.",
+        "confidence": 0.09,
+        "rule_summary": "Candidate phase-dependent affine recurrence."
+      },
+      {
+        "answer": [
+          "-9679",
+          "-14273",
+          "-20118",
+          "-27523",
+          "-36708"
+        ],
+        "case_id": "V051",
+        "check_summary": "Increasing negative growth was extrapolated from the tail.",
+        "confidence": 0.06,
+        "rule_summary": "Candidate second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "14218",
+          "-14217",
+          "42649",
+          "-42648",
+          "127942"
+        ],
+        "case_id": "V052",
+        "check_summary": "Odd and even subsequences each follow a stable affine rule.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams: odd x↦3x−5, even x↦3x+3."
+      },
+      {
+        "answer": [
+          "149",
+          "170",
+          "205",
+          "242",
+          "291"
+        ],
+        "case_id": "V053",
+        "check_summary": "A periodic/interleaved continuation was fitted to the observed increments.",
+        "confidence": 0.08,
+        "rule_summary": "Candidate phase-specific polynomial-delta mechanism."
+      },
+      {
+        "answer": [
+          "-49180",
+          "-118404",
+          "-284953",
+          "-686025",
+          "-1651059"
+        ],
+        "case_id": "V054",
+        "check_summary": "The exponential negative tail was extrapolated using its apparent affine multiplier.",
+        "confidence": 0.12,
+        "rule_summary": "Candidate phase-dependent affine recurrence."
+      },
+      {
+        "answer": [
+          "1621",
+          "-2623",
+          "4213",
+          "-6791",
+          "10945"
+        ],
+        "case_id": "V055",
+        "check_summary": "Alternating streams were extrapolated from their geometric tail.",
+        "confidence": 0.1,
+        "rule_summary": "Candidate interleaved affine streams."
+      },
+      {
+        "answer": [
+          "113525",
+          "227054",
+          "-37840",
+          "681173",
+          "1362350"
+        ],
+        "case_id": "V056",
+        "check_summary": "Three phase streams obey exact affine updates.",
+        "confidence": 0.99,
+        "rule_summary": "Three interleaved affine streams with multiplier 6 and biases 23, 26, and −16."
+      },
+      {
+        "answer": [
+          "-23",
+          "-31",
+          "-26",
+          "-34",
+          "-29"
+        ],
+        "case_id": "V057",
+        "check_summary": "Odd and even positions form parallel arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams, each decreasing by 3."
+      },
+      {
+        "answer": [
+          "5048689",
+          "15146068",
+          "45438205",
+          "136314616",
+          "408943849"
+        ],
+        "case_id": "V058",
+        "check_summary": "Every term follows the exact update x↦3x+1.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence with multiplier 3 and bias 1."
+      },
+      {
+        "answer": [
+          "308",
+          "431",
+          "576",
+          "745",
+          "940"
+        ],
+        "case_id": "V059",
+        "check_summary": "The finite-difference tail supports continued cubic-style growth.",
+        "confidence": 0.86,
+        "rule_summary": "POLY continuation with steadily increasing second differences."
+      },
+      {
+        "answer": [
+          "-4467",
+          "-5931",
+          "-7725",
+          "-9895",
+          "-12490"
+        ],
+        "case_id": "V060",
+        "check_summary": "Third differences follow a linear progression, yielding the continuation.",
+        "confidence": 0.93,
+        "rule_summary": "POLY continuation from the observed finite-difference structure."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b05-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "6eafa5fe1ba8b200798171d8cfe395b16c49ac2b008f9ec72383becdbd20eea7",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b05-proposer-2/attempt-01"
+}

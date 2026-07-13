@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "-81",
+          "-103",
+          "-125",
+          "-147",
+          "-169"
+        ],
+        "case_id": "S133",
+        "check_summary": "Tail differences are consistently -22; extrapolated the established arithmetic continuation.",
+        "confidence": 0.32,
+        "rule_summary": "Arithmetic tail / periodic-difference continuation."
+      },
+      {
+        "answer": [
+          "-8",
+          "-5",
+          "-22",
+          "-19",
+          "-16"
+        ],
+        "case_id": "S134",
+        "check_summary": "Differences follow +3,+3, then a descending multiple-of-3 jump; next jump is -17.",
+        "confidence": 0.84,
+        "rule_summary": "Periodic phase-specific deltas."
+      },
+      {
+        "answer": [
+          "35",
+          "-358",
+          "-14",
+          "40",
+          "-716"
+        ],
+        "case_id": "S135",
+        "check_summary": "Three interleaved streams: +5, doubling-minus-5, and successive even decrements.",
+        "confidence": 0.92,
+        "rule_summary": "Three-stream interleaving."
+      },
+      {
+        "answer": [
+          "-37",
+          "-75",
+          "-14",
+          "-153",
+          "-181"
+        ],
+        "case_id": "S136",
+        "check_summary": "Extrapolated phase-separated polynomial trends from the interleaved subsequences.",
+        "confidence": 0.27,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-1020",
+          "11",
+          "-2044",
+          "20",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd stream follows x→2x−4; even stream has increments increasing by 3.",
+        "confidence": 0.98,
+        "rule_summary": "Two-stream interleaving with affine and polynomial increments."
+      },
+      {
+        "answer": [
+          "10",
+          "14",
+          "-73",
+          "26",
+          "35"
+        ],
+        "case_id": "S138",
+        "check_summary": "Phase-separated subsequences show polynomial increment patterns; extrapolated each phase.",
+        "confidence": 0.39,
+        "rule_summary": "Lagged/interleaved polynomial increments."
+      },
+      {
+        "answer": [
+          "30",
+          "14",
+          "65",
+          "15",
+          "110"
+        ],
+        "case_id": "S139",
+        "check_summary": "Extrapolated apparent phase-specific subsequence trends.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-5",
+          "-15",
+          "28",
+          "-4",
+          "5"
+        ],
+        "case_id": "S140",
+        "check_summary": "Continuation estimated from alternating phase behavior in the recent prefix.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved phase-specific updates."
+      },
+      {
+        "answer": [
+          "79",
+          "60",
+          "32",
+          "65",
+          "51"
+        ],
+        "case_id": "S141",
+        "check_summary": "Continuation estimated from alternating phase-separated subsequences.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "11",
+          "3",
+          "-18",
+          "53",
+          "11"
+        ],
+        "case_id": "S142",
+        "check_summary": "Recent phase pattern suggests a repeated short cycle; extrapolated conservatively.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine/delta process."
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "4",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Odd positions decrease by 2; even positions decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-50",
+          "-62",
+          "-74",
+          "-86",
+          "-98"
+        ],
+        "case_id": "S144",
+        "check_summary": "The final differences are repeatedly -12, giving a linear continuation.",
+        "confidence": 0.91,
+        "rule_summary": "Arithmetic progression tail."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-EC429DE4D50C-search-b12-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "82845c68c85f7dd59f98a2a50274ee1af343d9f68a6079d7263d20d38313e0f7",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-EC429DE4D50C-search-b12-proposer-2/attempt-01"
+}

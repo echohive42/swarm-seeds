@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b05",
+    "results": [
+      {
+        "answer": [
+          "-55",
+          "-73",
+          "-174",
+          "-87",
+          "-101"
+        ],
+        "case_id": "V049",
+        "check_summary": "Periodic phase differences extrapolated from the full prefix.",
+        "confidence": 0.42,
+        "rule_summary": "PDELTA with phase-specific polynomial difference sequences."
+      },
+      {
+        "answer": [
+          "37014",
+          "-74050",
+          "148092",
+          "-296206",
+          "592414"
+        ],
+        "case_id": "V050",
+        "check_summary": "Alternating affine recurrence with gradually varying phase bias extrapolated.",
+        "confidence": 0.3,
+        "rule_summary": "AFFINE with period-2 multiplier and polynomial phase biases."
+      },
+      {
+        "answer": [
+          "-9759",
+          "-14504",
+          "-20985",
+          "-29643",
+          "-40988"
+        ],
+        "case_id": "V051",
+        "check_summary": "Finite differences stabilize at constant fifth difference -5.",
+        "confidence": 0.98,
+        "rule_summary": "POLY of degree 5."
+      },
+      {
+        "answer": [
+          "-14217",
+          "42610",
+          "-127824",
+          "383431",
+          "-1150287"
+        ],
+        "case_id": "V052",
+        "check_summary": "Verified period-2 affine updates: -3x+6 and -3x-41.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-2 updates."
+      },
+      {
+        "answer": [
+          "151",
+          "167",
+          "179",
+          "221",
+          "240"
+        ],
+        "case_id": "V053",
+        "check_summary": "Three phase difference streams each continue arithmetically.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with period-3 linear phase deltas."
+      },
+      {
+        "answer": [
+          "-49210",
+          "-118800",
+          "-286805",
+          "-692405",
+          "-1098005"
+        ],
+        "case_id": "V054",
+        "check_summary": "Second-order recurrence pattern extrapolated from the rapidly growing tail.",
+        "confidence": 0.34,
+        "rule_summary": "LIN2 with periodic bias."
+      },
+      {
+        "answer": [
+          "1541",
+          "-2467",
+          "3981",
+          "-6389",
+          "10245"
+        ],
+        "case_id": "V055",
+        "check_summary": "Alternating affine pattern extrapolated from phase-specific updates.",
+        "confidence": 0.31,
+        "rule_summary": "AFFINE with period-2 polynomial biases."
+      },
+      {
+        "answer": [
+          "-113514",
+          "-227032",
+          "681095",
+          "1362194",
+          "-1362196"
+        ],
+        "case_id": "V056",
+        "check_summary": "Period-3 affine updates inferred from repeated multiplier structure.",
+        "confidence": 0.93,
+        "rule_summary": "AFFINE with period-3 updates."
+      },
+      {
+        "answer": [
+          "-26",
+          "-31",
+          "-29",
+          "-34",
+          "-32"
+        ],
+        "case_id": "V057",
+        "check_summary": "Odd and even subsequences each decrement by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "5048689",
+          "15146068",
+          "45438205",
+          "136314616",
+          "408943849"
+        ],
+        "case_id": "V058",
+        "check_summary": "Every term satisfies next = 3*current + 1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE."
+      },
+      {
+        "answer": [
+          "292",
+          "399",
+          "528",
+          "681",
+          "856"
+        ],
+        "case_id": "V059",
+        "check_summary": "Third differences continue with constant second increment pattern.",
+        "confidence": 0.97,
+        "rule_summary": "POLY of degree 4."
+      },
+      {
+        "answer": [
+          "-4467",
+          "-5934",
+          "-7738",
+          "-10075",
+          "-13002"
+        ],
+        "case_id": "V060",
+        "check_summary": "Finite-difference extrapolation from the polynomial-looking tail.",
+        "confidence": 0.73,
+        "rule_summary": "POLY with higher-degree finite differences."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-A20DBD76963B-validation-b05-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "4f6c320caed70395d27946ad74b0b210971b7da18b75aecd49959ff6d0c5043e",
+  "terminal_artifact_relpath": "jobs/validation-G-A20DBD76963B-validation-b05-proposer-3/attempt-01"
+}

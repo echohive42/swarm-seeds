@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "321",
+          "-319",
+          "-1279",
+          "-1919",
+          "-1279"
+        ],
+        "case_id": "S025",
+        "check_summary": "Four-phase recurrence candidates agree on this continuation; prefix block replay supports it.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic phase-specific affine/delta recurrence."
+      },
+      {
+        "answer": [
+          "-42",
+          "-50",
+          "-61",
+          "-70",
+          "-82"
+        ],
+        "case_id": "S026",
+        "check_summary": "Weakly supported continuation selected from the strongest available candidate agreement.",
+        "confidence": 0.2,
+        "rule_summary": "Phase-specific lagged polynomial updates."
+      },
+      {
+        "answer": [
+          "-13",
+          "-24",
+          "-35",
+          "-49",
+          "-63"
+        ],
+        "case_id": "S027",
+        "check_summary": "Differences occur in pairs and decrease by three per pair.",
+        "confidence": 0.99,
+        "rule_summary": "Paired arithmetic PDELTA."
+      },
+      {
+        "answer": [
+          "-943",
+          "-1510",
+          "-2409",
+          "-3845",
+          "-6144"
+        ],
+        "case_id": "S028",
+        "check_summary": "Accelerating tail supports the periodic affine continuation.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic affine or lagged growth mechanism."
+      },
+      {
+        "answer": [
+          "797159",
+          "2391482",
+          "7174451",
+          "21523358",
+          "64570079"
+        ],
+        "case_id": "S029",
+        "check_summary": "Every transition satisfies x_next=3x+5.",
+        "confidence": 1.0,
+        "rule_summary": "Constant affine recurrence."
+      },
+      {
+        "answer": [
+          "-55",
+          "-60",
+          "-64",
+          "-69",
+          "-73"
+        ],
+        "case_id": "S030",
+        "check_summary": "Differences alternate -5 and -4 exactly.",
+        "confidence": 1.0,
+        "rule_summary": "Period-two PDELTA."
+      },
+      {
+        "answer": [
+          "1872",
+          "3215",
+          "5348",
+          "8549",
+          "11750"
+        ],
+        "case_id": "S031",
+        "check_summary": "Finite-difference continuation supports the degree-five polynomial candidate.",
+        "confidence": 0.96,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-140903",
+          "281810",
+          "-563615",
+          "1127234",
+          "-2254463"
+        ],
+        "case_id": "S032",
+        "check_summary": "Alternating affine updates with multiplier -2 and phase biases 5 and 4 replay exactly.",
+        "confidence": 1.0,
+        "rule_summary": "Period-two affine recurrence."
+      },
+      {
+        "answer": [
+          "-205",
+          "-240",
+          "-273",
+          "-313",
+          "-351"
+        ],
+        "case_id": "S033",
+        "check_summary": "Paired differences continue as the two interleaved arithmetic streams predict.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "99759069",
+          "299277205",
+          "-897831611",
+          "2693494837",
+          "8080484517"
+        ],
+        "case_id": "S034",
+        "check_summary": "Repeating four-phase affine transitions replay the visible prefix and continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Period-four affine recurrence."
+      },
+      {
+        "answer": [
+          "1112",
+          "1814",
+          "2759",
+          "3994",
+          "5570"
+        ],
+        "case_id": "S035",
+        "check_summary": "The fourth finite difference is constant at four.",
+        "confidence": 1.0,
+        "rule_summary": "Quartic polynomial sequence."
+      },
+      {
+        "answer": [
+          "1025",
+          "1343",
+          "1720",
+          "2161",
+          "2671"
+        ],
+        "case_id": "S036",
+        "check_summary": "Second differences increase by five each step.",
+        "confidence": 1.0,
+        "rule_summary": "Cubic polynomial sequence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-BF0AD01E8A72-search-b03-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "c1ceace2b0e849f20a66ac357ca7eed3cf684523c153f3021c132f3c2985fef0",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-BF0AD01E8A72-search-b03-judge-1/attempt-01"
+}

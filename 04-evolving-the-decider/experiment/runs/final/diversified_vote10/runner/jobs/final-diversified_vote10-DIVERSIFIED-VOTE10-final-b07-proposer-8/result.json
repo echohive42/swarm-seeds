@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b07",
+    "results": [
+      {
+        "answer": [
+          "-6521",
+          "-8920",
+          "-11930",
+          "-15647",
+          "-20174"
+        ],
+        "case_id": "F073",
+        "check_summary": "Replay supports quartic finite-difference continuation.",
+        "confidence": 0.97,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "42324",
+          "-84652",
+          "169300",
+          "-338604",
+          "677204"
+        ],
+        "case_id": "F074",
+        "check_summary": "Exact replay under x(n)=-2x(n-1)-4.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-13733905",
+          "41190700",
+          "-123572101",
+          "370716304",
+          "-1112148893"
+        ],
+        "case_id": "F075",
+        "check_summary": "Alternating affine extrapolation inferred from prefix.",
+        "confidence": 0.45,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-18947927",
+          "-56843775",
+          "-170531323",
+          "-511593974",
+          "-1534781916"
+        ],
+        "case_id": "F076",
+        "check_summary": "Exact multiplier-3 replay with period-3 residuals.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-4870889",
+          "-2435448",
+          "-29225321",
+          "-14612664",
+          "-175351913"
+        ],
+        "case_id": "F077",
+        "check_summary": "Exact two-stream interleaving with affine stream updates.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-38",
+          "-34",
+          "-59",
+          "-53",
+          "-89"
+        ],
+        "case_id": "F078",
+        "check_summary": "Continuation inferred from interleaved low-degree streams.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-387",
+          "765",
+          "-683",
+          "1517",
+          "-1219"
+        ],
+        "case_id": "F079",
+        "check_summary": "Continuation inferred from alternating streams.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-4640",
+          "-8104",
+          "-13150",
+          "-20236",
+          "-29898"
+        ],
+        "case_id": "F080",
+        "check_summary": "Exact finite-difference continuation.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-591",
+          "-767",
+          "-1050",
+          "-1252",
+          "-1697"
+        ],
+        "case_id": "F081",
+        "check_summary": "Two cubic stream continuations interleaved.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-507",
+          "-318",
+          "-839",
+          "-578",
+          "-1395"
+        ],
+        "case_id": "F082",
+        "check_summary": "Continuation inferred from lagged alternating behavior.",
+        "confidence": 0.2,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-7",
+          "-20",
+          "-2",
+          "-29",
+          "3"
+        ],
+        "case_id": "F083",
+        "check_summary": "Continuation inferred from periodic residue behavior.",
+        "confidence": 0.12,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "9",
+          "7",
+          "12",
+          "10",
+          "15"
+        ],
+        "case_id": "F084",
+        "check_summary": "Exact interleaved arithmetic streams, each increasing by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b07-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "13621fefccf460cde3167033d22d9f6d248be68da86d9de7d9f5508fc3e60a50",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b07-proposer-8/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-438",
+          "-499",
+          "-554",
+          "-617",
+          "-687"
+        ],
+        "case_id": "S145",
+        "check_summary": "Alternating phase-specific arithmetic patterns in first differences.",
+        "confidence": 0.72,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "90",
+          "93",
+          "105",
+          "119",
+          "124"
+        ],
+        "case_id": "S146",
+        "check_summary": "Recent first-difference pattern extrapolated periodically.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic phase-specific deltas."
+      },
+      {
+        "answer": [
+          "-10922",
+          "21846",
+          "-43690",
+          "87382",
+          "-174762"
+        ],
+        "case_id": "S147",
+        "check_summary": "Every term follows x(n+1)=-2x(n)+2.",
+        "confidence": 1,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "321"
+        ],
+        "case_id": "S148",
+        "check_summary": "Interleaved streams have first differences increasing by 6 and 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two-stream interleave."
+      },
+      {
+        "answer": [
+          "4433",
+          "5652",
+          "7161",
+          "9003",
+          "11106"
+        ],
+        "case_id": "S149",
+        "check_summary": "Finite differences form a quartic pattern.",
+        "confidence": 0.96,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-6",
+          "-4",
+          "-8",
+          "-6",
+          "-10"
+        ],
+        "case_id": "S150",
+        "check_summary": "Two arithmetic streams interleaved, each decreasing by 2 per cycle.",
+        "confidence": 1,
+        "rule_summary": "Two-stream interleave."
+      },
+      {
+        "answer": [
+          "-2997",
+          "-5429",
+          "-9365",
+          "-15733",
+          "-26037"
+        ],
+        "case_id": "S151",
+        "check_summary": "Fibonacci-like first-difference continuation.",
+        "confidence": 0.48,
+        "rule_summary": "Second-order recurrence with phase bias."
+      },
+      {
+        "answer": [
+          "-15333",
+          "-24586",
+          "-39628",
+          "-63923",
+          "-103260"
+        ],
+        "case_id": "S152",
+        "check_summary": "Exponential-like first-difference continuation.",
+        "confidence": 0.28,
+        "rule_summary": "Phase-specific linear recurrence."
+      },
+      {
+        "answer": [
+          "-2613",
+          "-4231",
+          "-6849",
+          "-11085",
+          "-17934"
+        ],
+        "case_id": "S153",
+        "check_summary": "From the third difference onward, differences follow Fibonacci addition.",
+        "confidence": 0.99,
+        "rule_summary": "Second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "-1239",
+          "-1593",
+          "-2009",
+          "-2492",
+          "-3037"
+        ],
+        "case_id": "S154",
+        "check_summary": "Second differences decrease by 5 each step.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "533647",
+          "1067295",
+          "-2134597",
+          "4269195",
+          "8538391"
+        ],
+        "case_id": "S155",
+        "check_summary": "Three-phase affine recurrence repeats multipliers and biases.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "136533",
+          "273068",
+          "546133",
+          "1092268",
+          "2184533"
+        ],
+        "case_id": "S156",
+        "check_summary": "Alternating affine updates x->2x-3 and x->2x+2.",
+        "confidence": 1,
+        "rule_summary": "Periodic affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-B6D67789C6A8-search-b13-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "53eb4aa50316cefe4c1a9138daf2f10fb2b002d35135ea5ac352ff178520b860",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-B6D67789C6A8-search-b13-proposer-8/attempt-01"
+}

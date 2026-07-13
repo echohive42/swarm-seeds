@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Four-phase affine replay with multiplier -4 and bias 5.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved four phase-specific affine streams."
+      },
+      {
+        "answer": [
+          "60",
+          "65",
+          "69",
+          "74",
+          "78"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments +4,+5 replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine increments."
+      },
+      {
+        "answer": [
+          "-936",
+          "-2298",
+          "-4382",
+          "-7434",
+          "-11454"
+        ],
+        "case_id": "S171",
+        "check_summary": "Finite differences give constant fifth difference -4.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued degree-five polynomial."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Successive differences extend the observed cubic-pattern differences.",
+        "confidence": 0.97,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "-110",
+          "-99",
+          "-81",
+          "-55",
+          "-20"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences increase linearly by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "-4439",
+          "-7186",
+          "-11625",
+          "-18811",
+          "-30436"
+        ],
+        "case_id": "S174",
+        "check_summary": "Extrapolated Fibonacci-like second-order growth with small recurring corrections.",
+        "confidence": 0.45,
+        "rule_summary": "Biased second-order recurrence."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97897621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating affine updates 3x+1 and -2x+6.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "65",
+          "74",
+          "79",
+          "86",
+          "91"
+        ],
+        "case_id": "S176",
+        "check_summary": "Periodic interleaved stream extrapolation.",
+        "confidence": 0.4,
+        "rule_summary": "Phase-specific interleaved affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "-214825",
+          "429641",
+          "859291",
+          "1718575",
+          "-3437159"
+        ],
+        "case_id": "S177",
+        "check_summary": "Three-phase signed affine recurrence replay.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence x_next=2x."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "Six-term period repeats exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic sequence."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-401"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd and even subsequences each have constant second difference -13.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved quadratic streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-6F217370BF07-search-b15-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "c5269df35fa9cb52015a5ebe12cff0a690e06de6216b7cf0ecad6872366b4f71",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-6F217370BF07-search-b15-proposer-6/attempt-01"
+}

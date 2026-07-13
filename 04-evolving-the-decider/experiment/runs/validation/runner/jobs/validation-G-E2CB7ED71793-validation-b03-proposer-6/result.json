@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "Affine recurrence x'=-3x+3 matches all terms.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3777",
+          "-5390",
+          "-7477",
+          "-10123",
+          "-13420"
+        ],
+        "case_id": "V026",
+        "check_summary": "Finite differences are consistent with a quartic polynomial.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-1975",
+          "4426",
+          "-10073",
+          "22910",
+          "-52115"
+        ],
+        "case_id": "V027",
+        "check_summary": "Best fit is a phase-dependent second-order linear recurrence.",
+        "confidence": 0.42,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "47318",
+          "-94668",
+          "189302",
+          "-378636",
+          "757238"
+        ],
+        "case_id": "V028",
+        "check_summary": "Alternating affine updates match the prefix.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "11934",
+          "17113",
+          "23255",
+          "30263",
+          "38089"
+        ],
+        "case_id": "V029",
+        "check_summary": "Extrapolated from the observed polynomial-growth delta pattern.",
+        "confidence": 0.3,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Odd and even positions are separate arithmetic streams.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Alternating affine updates x'=2x+1 and x'=3x+7 match all terms.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802339",
+          "107407020",
+          "-322221066",
+          "966663201"
+        ],
+        "case_id": "V032",
+        "check_summary": "Alternating affine update x'=-3x+3 and x'=-3x-6 matches all terms.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "985",
+          "-1596",
+          "2583",
+          "-4182",
+          "6777"
+        ],
+        "case_id": "V033",
+        "check_summary": "Extrapolated from an alternating signed recurrence pattern.",
+        "confidence": 0.32,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-6",
+          "9",
+          "-7",
+          "18",
+          "-5"
+        ],
+        "case_id": "V034",
+        "check_summary": "Low-confidence extrapolation from phase-dependent delta behavior.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "36",
+          "72",
+          "42",
+          "86",
+          "49"
+        ],
+        "case_id": "V035",
+        "check_summary": "Low-confidence interleaved-stream extrapolation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "815",
+          "1060",
+          "1351",
+          "1692",
+          "2087"
+        ],
+        "case_id": "V036",
+        "check_summary": "Finite differences from the cubic-growth segment provide the continuation.",
+        "confidence": 0.9,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-E2CB7ED71793-validation-b03-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "69d23c8cc6405673814ea71867867df9e3ff469701101a90313b4be8e05c8552",
+  "terminal_artifact_relpath": "jobs/validation-G-E2CB7ED71793-validation-b03-proposer-6/attempt-01"
+}

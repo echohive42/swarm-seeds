@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b06",
+    "results": [
+      {
+        "answer": [
+          "12",
+          "28",
+          "15",
+          "31",
+          "33"
+        ],
+        "case_id": "V061",
+        "check_summary": "Candidate interleaved phase pattern; low-confidence extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved low-degree streams."
+      },
+      {
+        "answer": [
+          "59",
+          "-51",
+          "-21",
+          "9",
+          "39"
+        ],
+        "case_id": "V062",
+        "check_summary": "Fits growing delta blocks with repeated positive phases and increasingly negative separators.",
+        "confidence": 0.82,
+        "rule_summary": "GROWBLOCK over first differences."
+      },
+      {
+        "answer": [
+          "-45",
+          "-75",
+          "-61",
+          "-47",
+          "-33"
+        ],
+        "case_id": "V063",
+        "check_summary": "Candidate periodic/interleaved continuation; low confidence.",
+        "confidence": 0.1,
+        "rule_summary": "Phase-specific interleaving."
+      },
+      {
+        "answer": [
+          "20",
+          "-33",
+          "24",
+          "-38",
+          "28"
+        ],
+        "case_id": "V064",
+        "check_summary": "Odd and even subsequences are arithmetic with increments +4 and -5.",
+        "confidence": 0.99,
+        "rule_summary": "Two arithmetic streams interleaved."
+      },
+      {
+        "answer": [
+          "58",
+          "23",
+          "47",
+          "60",
+          "42"
+        ],
+        "case_id": "V065",
+        "check_summary": "Candidate modular phase recurrence; low confidence.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE candidate."
+      },
+      {
+        "answer": [
+          "-49",
+          "449",
+          "-60",
+          "897",
+          "-72"
+        ],
+        "case_id": "V066",
+        "check_summary": "Odd subsequence has successive decrements -5,-6,...; even subsequence follows doubling increments.",
+        "confidence": 0.99,
+        "rule_summary": "Two phase-specific streams interleaved."
+      },
+      {
+        "answer": [
+          "54",
+          "18",
+          "31",
+          "43",
+          "57"
+        ],
+        "case_id": "V067",
+        "check_summary": "Candidate block/interleaved continuation; low confidence.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-16",
+          "-49",
+          "-9",
+          "-61",
+          "-2"
+        ],
+        "case_id": "V068",
+        "check_summary": "Candidate periodic continuation; low confidence.",
+        "confidence": 0.1,
+        "rule_summary": "Phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "-52",
+          "-16",
+          "-31",
+          "-59",
+          "-3"
+        ],
+        "case_id": "V069",
+        "check_summary": "Candidate modular/interleaved continuation; low confidence.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE candidate."
+      },
+      {
+        "answer": [
+          "27",
+          "54",
+          "81",
+          "108",
+          "135"
+        ],
+        "case_id": "V070",
+        "check_summary": "Candidate growing arithmetic blocks with increasing step size.",
+        "confidence": 0.34,
+        "rule_summary": "GROWBLOCK candidate."
+      },
+      {
+        "answer": [
+          "-8",
+          "-55",
+          "-3",
+          "-73",
+          "-1"
+        ],
+        "case_id": "V071",
+        "check_summary": "Candidate interleaved polynomial continuation; low confidence.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE candidate."
+      },
+      {
+        "answer": [
+          "35",
+          "39",
+          "32",
+          "36",
+          "40"
+        ],
+        "case_id": "V072",
+        "check_summary": "Fits repeated four-term arithmetic blocks with starts increasing by five.",
+        "confidence": 0.76,
+        "rule_summary": "GROWBLOCK with step 4 and block-start increment 5."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b06-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "96e51439924c441d2ee964f5b984b85433a7147a3305ff7e98bcc0ef44f76136",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b06-proposer-4/attempt-01"
+}

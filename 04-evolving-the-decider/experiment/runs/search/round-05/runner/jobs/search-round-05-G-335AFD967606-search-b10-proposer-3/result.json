@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "36",
+          "9",
+          "18",
+          "25",
+          "32"
+        ],
+        "case_id": "S109",
+        "check_summary": "Partial periodic-phase extrapolation; uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "Likely phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "12",
+          "-12",
+          "7",
+          "17",
+          "12"
+        ],
+        "case_id": "S110",
+        "check_summary": "Six-phase streams replay cleanly.",
+        "confidence": 0.97,
+        "rule_summary": "Periodic phase-specific affine updates."
+      },
+      {
+        "answer": [
+          "70",
+          "87",
+          "104",
+          "121",
+          "138"
+        ],
+        "case_id": "S111",
+        "check_summary": "Growing-block interpretation; uncertain.",
+        "confidence": 0.21,
+        "rule_summary": "Likely growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-7",
+          "-5",
+          "45",
+          "-7",
+          "-5"
+        ],
+        "case_id": "S112",
+        "check_summary": "Tentative periodic-stream extrapolation.",
+        "confidence": 0.16,
+        "rule_summary": "Likely phase-specific polynomial or interleaved streams."
+      },
+      {
+        "answer": [
+          "22",
+          "31",
+          "-9",
+          "45",
+          "-3"
+        ],
+        "case_id": "S113",
+        "check_summary": "Tentative interleaved-stream extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "Likely interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "28",
+          "-15",
+          "29",
+          "-24",
+          "893"
+        ],
+        "case_id": "S114",
+        "check_summary": "Three-stream pattern partially identified; final term uncertain.",
+        "confidence": 0.27,
+        "rule_summary": "Likely three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "42",
+          "82",
+          "39",
+          "72",
+          "138"
+        ],
+        "case_id": "S115",
+        "check_summary": "Growing-block continuation inferred.",
+        "confidence": 0.24,
+        "rule_summary": "Likely growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd and even subsequences are exact arithmetic progressions.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "40",
+          "17",
+          "44",
+          "14",
+          "30"
+        ],
+        "case_id": "S117",
+        "check_summary": "Tentative interleaved-stream extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Likely interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "43",
+          "16",
+          "21",
+          "3",
+          "-2"
+        ],
+        "case_id": "S118",
+        "check_summary": "Tentative five-phase extrapolation.",
+        "confidence": 0.15,
+        "rule_summary": "Likely phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "6",
+          "85",
+          "89",
+          "6",
+          "121"
+        ],
+        "case_id": "S119",
+        "check_summary": "Growing three-term block structure inferred.",
+        "confidence": 0.72,
+        "rule_summary": "Growing arithmetic blocks with polynomial starts and steps."
+      },
+      {
+        "answer": [
+          "79",
+          "115",
+          "103",
+          "91",
+          "121"
+        ],
+        "case_id": "S120",
+        "check_summary": "Block continuation partially inferred.",
+        "confidence": 0.42,
+        "rule_summary": "Growing arithmetic blocks with polynomial starts and steps."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-335AFD967606-search-b10-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "bc73993ea21ad187493bdc1fe283c255801ddd940da5c335dc193584e646525c",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-335AFD967606-search-b10-proposer-3/attempt-01"
+}

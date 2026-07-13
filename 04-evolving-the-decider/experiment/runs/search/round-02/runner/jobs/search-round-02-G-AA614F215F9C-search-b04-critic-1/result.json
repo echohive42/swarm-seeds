@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-143",
+          "5",
+          "-211",
+          "-76",
+          "-50"
+        ],
+        "case_id": "S037",
+        "check_summary": "Best available phase-grouped continuation; competing proposals do not establish a complete exact mechanism.",
+        "confidence": 0.28,
+        "rule_summary": "INTERLEAVE with three phase-specific polynomial streams"
+      },
+      {
+        "answer": [
+          "168",
+          "127",
+          "216",
+          "135",
+          "269"
+        ],
+        "case_id": "S038",
+        "check_summary": "Weak periodic-phase extrapolation; no proposal is strongly verified.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine or interleaved mechanism"
+      },
+      {
+        "answer": [
+          "23",
+          "31",
+          "45",
+          "43",
+          "51"
+        ],
+        "case_id": "S039",
+        "check_summary": "Selected the strongest proposed interleaved polynomial continuation.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "51",
+          "71",
+          "91",
+          "111",
+          "131"
+        ],
+        "case_id": "S040",
+        "check_summary": "Blocks have lengths 2, 3, 4, 5 and steps 4, 8, 12, 16; next block starts at 51 with step 20.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Odd positions decrease by 4 and even positions increase by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams"
+      },
+      {
+        "answer": [
+          "-14",
+          "57",
+          "-19",
+          "36",
+          "-1"
+        ],
+        "case_id": "S042",
+        "check_summary": "Selected the best-supported periodic-affine proposal, though confidence remains low.",
+        "confidence": 0.12,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "15",
+          "5",
+          "-76",
+          "-10",
+          "4"
+        ],
+        "case_id": "S043",
+        "check_summary": "Residue classes modulo 3 continue as -76,-104; 15,-10; and 5,4, yielding the interleaving.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE of three affine/polynomial streams"
+      },
+      {
+        "answer": [
+          "-18",
+          "-28",
+          "-22",
+          "-29",
+          "-46"
+        ],
+        "case_id": "S044",
+        "check_summary": "Modulo-3 streams give next values: phase 2 continues -10,-11 and phase 0 continues -28,-46.",
+        "confidence": 0.9,
+        "rule_summary": "LAGPOLY with three phase-specific polynomial streams"
+      },
+      {
+        "answer": [
+          "-24",
+          "114",
+          "-92",
+          "-4",
+          "132"
+        ],
+        "case_id": "S045",
+        "check_summary": "No complete mechanism is established; selected the leading weak periodic continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Periodic affine or second-order recurrence"
+      },
+      {
+        "answer": [
+          "-17",
+          "-22",
+          "-27",
+          "-32",
+          "-37"
+        ],
+        "case_id": "S046",
+        "check_summary": "Growing blocks use step -5, with starts decreasing by 2 and lengths increasing; next block starts -17.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "198",
+          "101",
+          "147",
+          "193",
+          "239"
+        ],
+        "case_id": "S047",
+        "check_summary": "Selected the strongest proposed growing-block continuation.",
+        "confidence": 0.62,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-11",
+          "12",
+          "-25",
+          "-10",
+          "-42"
+        ],
+        "case_id": "S048",
+        "check_summary": "Four interleaved phase streams support constant phases 12 and -10 plus polynomial continuations -11,-25,-42.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-AA614F215F9C-search-b04-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "1bc516325389b6bc27baa89750eba6c6f8ec1f89088a9fdf0ca0886c425c1aa3",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-AA614F215F9C-search-b04-critic-1/attempt-01"
+}

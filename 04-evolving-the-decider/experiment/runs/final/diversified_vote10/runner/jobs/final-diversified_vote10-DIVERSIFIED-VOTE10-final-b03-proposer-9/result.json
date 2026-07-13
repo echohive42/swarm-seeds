@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "-1175078",
+          "1175077",
+          "3525225",
+          "10575673",
+          "31727014"
+        ],
+        "case_id": "F025",
+        "check_summary": "Repeating three-term affine blocks with sign inversion.",
+        "confidence": 0.98,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "-797164",
+          "-2391487",
+          "-7174456",
+          "-21523363",
+          "-64570084"
+        ],
+        "case_id": "F026",
+        "check_summary": "Every term equals three times the previous term plus five.",
+        "confidence": 1.0,
+        "rule_summary": "Constant affine recurrence."
+      },
+      {
+        "answer": [
+          "24316",
+          "-39086",
+          "97338",
+          "-157394",
+          "389754"
+        ],
+        "case_id": "F027",
+        "check_summary": "Alternating interleaved exponentially growing streams.",
+        "confidence": 0.42,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "37325",
+          "74635",
+          "149287",
+          "298557",
+          "597133"
+        ],
+        "case_id": "F028",
+        "check_summary": "Doubling recurrence with alternating odd phase offsets.",
+        "confidence": 0.99,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "5340",
+          "7136",
+          "9265",
+          "11741",
+          "14579"
+        ],
+        "case_id": "F029",
+        "check_summary": "Finite differences show steadily increasing third differences.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "-47",
+          "-11",
+          "-35",
+          "-67",
+          "-25"
+        ],
+        "case_id": "F030",
+        "check_summary": "Three interleaved arithmetic streams with changing phase differences.",
+        "confidence": 0.9,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "464",
+          "494",
+          "498",
+          "467",
+          "391"
+        ],
+        "case_id": "F031",
+        "check_summary": "Finite differences follow a descending linear second-difference pattern.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "668932",
+          "1986724",
+          "5899060",
+          "17491988",
+          "51871012"
+        ],
+        "case_id": "F032",
+        "check_summary": "Exponential growth with a structured phase-dependent correction.",
+        "confidence": 0.35,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "273",
+          "279",
+          "193",
+          "518",
+          "536"
+        ],
+        "case_id": "F033",
+        "check_summary": "Three interleaved polynomial subsequences.",
+        "confidence": 0.97,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "446",
+          "579",
+          "736",
+          "919",
+          "1130"
+        ],
+        "case_id": "F034",
+        "check_summary": "Second differences increase by two each step.",
+        "confidence": 1.0,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-2771363",
+          "-5542730",
+          "-16628195",
+          "-33256394",
+          "-99769187"
+        ],
+        "case_id": "F035",
+        "check_summary": "Alternating multiply-by-three-minus-five and multiply-by-two-minus-four.",
+        "confidence": 1.0,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "27",
+          "28",
+          "33",
+          "34",
+          "39"
+        ],
+        "case_id": "F036",
+        "check_summary": "Alternating increments of one and five.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic affine update."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b03-proposer-9",
+  "outcome": "valid_output",
+  "response_sha256": "830ae667f15b4fa2a4108b84e6ece570cb3d43998b743b3794ae78b00956c906",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b03-proposer-9/attempt-01"
+}

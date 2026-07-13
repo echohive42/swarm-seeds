@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-13",
+          "10",
+          "42",
+          "74",
+          "106"
+        ],
+        "case_id": "S157",
+        "check_summary": "Extrapolated periodic/interleaved integer pattern; confidence low.",
+        "confidence": 0.18,
+        "rule_summary": "Likely phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd stream has differences -5,-1,3,7,11; even stream doubles with sign reversal.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: quadratic odd stream and geometric affine phase stream."
+      },
+      {
+        "answer": [
+          "53",
+          "55",
+          "27",
+          "22",
+          "29"
+        ],
+        "case_id": "S159",
+        "check_summary": "Weak extrapolation from apparent lagged structure.",
+        "confidence": 0.12,
+        "rule_summary": "Likely lagged polynomial or periodic-delta mechanism."
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd terms increase by 2; even terms increase by 1.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-11",
+          "39",
+          "7",
+          "-13",
+          "56"
+        ],
+        "case_id": "S161",
+        "check_summary": "Modulo-3 streams fit polynomial increments: stream 1 differences 2,3,4,5; stream 2 differences -5,-4,-3; stream 3 differences 5,8,11,14.",
+        "confidence": 0.98,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "11",
+          "16",
+          "18",
+          "5",
+          "9"
+        ],
+        "case_id": "S162",
+        "check_summary": "No reliable unique continuation identified; conservative local repetition.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved periodic-delta candidate."
+      },
+      {
+        "answer": [
+          "5",
+          "5",
+          "-362",
+          "0",
+          "6"
+        ],
+        "case_id": "S163",
+        "check_summary": "Modulo-3 streams: first decreases by successive integers, second increases by 1, third doubles its negative differences.",
+        "confidence": 0.99,
+        "rule_summary": "Three interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "34",
+          "56",
+          "30",
+          "32",
+          "44"
+        ],
+        "case_id": "S164",
+        "check_summary": "Weak extrapolation from partial interleaving evidence.",
+        "confidence": 0.1,
+        "rule_summary": "Likely interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "29",
+          "-61",
+          "-15",
+          "21",
+          "13"
+        ],
+        "case_id": "S165",
+        "check_summary": "No reliable unique continuation identified.",
+        "confidence": 0.07,
+        "rule_summary": "Unresolved lagged or periodic mechanism."
+      },
+      {
+        "answer": [
+          "-21",
+          "96",
+          "20",
+          "19",
+          "66"
+        ],
+        "case_id": "S166",
+        "check_summary": "One modulo-3 stream is -21,19,-21,19,-21; another has increments 3,12,21,30,39.",
+        "confidence": 0.35,
+        "rule_summary": "Likely three-phase interleaving with polynomial phase updates."
+      },
+      {
+        "answer": [
+          "-48",
+          "-51",
+          "-14",
+          "-65",
+          "-91"
+        ],
+        "case_id": "S167",
+        "check_summary": "Weak extrapolation from apparent interleaved phase behavior.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved interleaved polynomial candidate."
+      },
+      {
+        "answer": [
+          "-22",
+          "10",
+          "42",
+          "74",
+          "106"
+        ],
+        "case_id": "S168",
+        "check_summary": "Growing blocks have lengths 2,3,4,5 and steps 0,8,16,24; next block uses step 32.",
+        "confidence": 0.72,
+        "rule_summary": "GROWBLOCK with polynomial block starts and linearly growing steps."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-EEE6DF66A16A-search-b14-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "95396722fb4326de90455e0039e93e5e9770300007dd784039fafc66227581c9",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-EEE6DF66A16A-search-b14-proposer-2/attempt-01"
+}

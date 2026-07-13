@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "15",
+          "17",
+          "20",
+          "23"
+        ],
+        "case_id": "S085",
+        "check_summary": "Interleaved polynomial streams fit the prefix.",
+        "confidence": 0.62,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "49",
+          "28",
+          "8",
+          "55",
+          "25"
+        ],
+        "case_id": "S086",
+        "check_summary": "Bounded irregular values suggest periodic modular-affine behavior.",
+        "confidence": 0.12,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-43",
+          "-54",
+          "-65",
+          "-76",
+          "-87"
+        ],
+        "case_id": "S087",
+        "check_summary": "Tail exhibits arithmetic block continuation.",
+        "confidence": 0.18,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd terms rise by five; even terms fall by one.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-47",
+          "-104",
+          "96",
+          "-151",
+          "213"
+        ],
+        "case_id": "S089",
+        "check_summary": "Irregular alternating recurrence extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "11",
+          "2",
+          "17",
+          "-1",
+          "23"
+        ],
+        "case_id": "S090",
+        "check_summary": "Periodic interleaved continuation estimate.",
+        "confidence": 0.11,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-78",
+          "-408",
+          "-1031",
+          "-2478",
+          "-6315"
+        ],
+        "case_id": "S091",
+        "check_summary": "Large-magnitude tail suggests second-order recurrence.",
+        "confidence": 0.1,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "5",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd subsequence is constant; even differences decrease successively.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-34",
+          "21",
+          "-68",
+          "50",
+          "-131"
+        ],
+        "case_id": "S093",
+        "check_summary": "Alternating irregular recurrence continuation estimate.",
+        "confidence": 0.1,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "63",
+          "91",
+          "57",
+          "96",
+          "51"
+        ],
+        "case_id": "S094",
+        "check_summary": "Irregular phase-interleaved continuation estimate.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-63",
+          "-79",
+          "-95",
+          "-111",
+          "-127"
+        ],
+        "case_id": "S095",
+        "check_summary": "Final arithmetic block continues with step minus sixteen.",
+        "confidence": 0.78,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-20",
+          "42",
+          "-58",
+          "86",
+          "-120"
+        ],
+        "case_id": "S096",
+        "check_summary": "Irregular recurrence continuation estimate.",
+        "confidence": 0.1,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-335AFD967606-search-b08-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "adafeb0d617511420d59508d54431b98b5b1c6f3acd0625a3a25856a73586487",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-335AFD967606-search-b08-proposer-7/attempt-01"
+}

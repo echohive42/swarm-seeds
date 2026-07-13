@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "8",
+          "-15",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "Periodic triangular reset pattern replayed.",
+        "confidence": 0.98,
+        "rule_summary": "Running value with +5 increments and increasingly spaced negative resets."
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd and even position streams extrapolated.",
+        "confidence": 0.99,
+        "rule_summary": "Odd stream multiplies by -2; even stream has arithmetic second differences."
+      },
+      {
+        "answer": [
+          "-3",
+          "17",
+          "-2",
+          "19",
+          "-1"
+        ],
+        "case_id": "S159",
+        "check_summary": "Interleaved continuation estimated from terminal stream behavior.",
+        "confidence": 0.28,
+        "rule_summary": "Likely interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Alternating arithmetic streams replayed.",
+        "confidence": 0.99,
+        "rule_summary": "Even positions increase by 2; odd positions increase by 1."
+      },
+      {
+        "answer": [
+          "-11",
+          "39",
+          "7",
+          "-12",
+          "56"
+        ],
+        "case_id": "S161",
+        "check_summary": "Three residue-class streams show polynomial increments.",
+        "confidence": 0.96,
+        "rule_summary": "Three-way interleave with phase-specific increment polynomials."
+      },
+      {
+        "answer": [
+          "-3",
+          "22",
+          "-11",
+          "30",
+          "-19"
+        ],
+        "case_id": "S162",
+        "check_summary": "Periodic phase deltas extrapolated from recent values.",
+        "confidence": 0.22,
+        "rule_summary": "Likely phase-specific running deltas."
+      },
+      {
+        "answer": [
+          "5",
+          "5",
+          "-358",
+          "5",
+          "5"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams replayed.",
+        "confidence": 0.98,
+        "rule_summary": "Two streams rise linearly; third follows affine doubling."
+      },
+      {
+        "answer": [
+          "-25",
+          "68",
+          "67",
+          "81",
+          "72"
+        ],
+        "case_id": "S164",
+        "check_summary": "Interleaved phase behavior estimated.",
+        "confidence": 0.2,
+        "rule_summary": "Likely multi-stream interleave with phase-specific polynomial updates."
+      },
+      {
+        "answer": [
+          "-4",
+          "42",
+          "-106",
+          "55",
+          "-11"
+        ],
+        "case_id": "S165",
+        "check_summary": "Candidate periodic/interleaved continuation estimated.",
+        "confidence": 0.15,
+        "rule_summary": "Likely periodic affine or interleaved mechanism."
+      },
+      {
+        "answer": [
+          "19",
+          "-21",
+          "129",
+          "25",
+          "19"
+        ],
+        "case_id": "S166",
+        "check_summary": "Candidate phase-stream continuation estimated.",
+        "confidence": 0.14,
+        "rule_summary": "Likely periodic affine or multi-stream recurrence."
+      },
+      {
+        "answer": [
+          "-48",
+          "-3",
+          "-14",
+          "-65",
+          "-25"
+        ],
+        "case_id": "S167",
+        "check_summary": "Candidate interleaved continuation estimated.",
+        "confidence": 0.16,
+        "rule_summary": "Likely three-stream interleave with polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-19",
+          "13",
+          "45",
+          "77",
+          "109"
+        ],
+        "case_id": "S168",
+        "check_summary": "Growing block continuation replayed.",
+        "confidence": 0.91,
+        "rule_summary": "Blocks grow by one term, with within-block step increasing by 8."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-1FA44A1EE857-search-b14-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "cf9312f6f657e591542f0a60f45db318da512c5d9b03b70b5b9f3a5d6f6608fc",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-1FA44A1EE857-search-b14-proposer-3/attempt-01"
+}

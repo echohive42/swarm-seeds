@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "-20",
+          "-24",
+          "-9",
+          "-13",
+          "-17"
+        ],
+        "case_id": "F037",
+        "check_summary": "Best-effort periodic/interleaved extrapolation from the full prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Uncertain periodic affine or interleaved rule."
+      },
+      {
+        "answer": [
+          "18",
+          "21",
+          "24",
+          "17",
+          "20"
+        ],
+        "case_id": "F038",
+        "check_summary": "Differences are +3 except every fourth transition, whose values decrease by 3.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic polynomial-delta rule."
+      },
+      {
+        "answer": [
+          "95",
+          "31",
+          "83",
+          "60",
+          "103"
+        ],
+        "case_id": "F039",
+        "check_summary": "Best-effort modular/interleaved extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "Uncertain modular affine rule."
+      },
+      {
+        "answer": [
+          "-23",
+          "-28",
+          "-28",
+          "-32",
+          "-33"
+        ],
+        "case_id": "F040",
+        "check_summary": "Alternating differences continue with negative odd-phase values increasing toward zero and positive even-phase values decreasing.",
+        "confidence": 0.97,
+        "rule_summary": "Periodic polynomial-delta rule."
+      },
+      {
+        "answer": [
+          "39",
+          "-17",
+          "297",
+          "53",
+          "601"
+        ],
+        "case_id": "F041",
+        "check_summary": "Three-stream interleaving inferred; one stream follows doubling increments.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-764",
+          "56",
+          "-1532",
+          "79",
+          "-3068"
+        ],
+        "case_id": "F042",
+        "check_summary": "Odd and even subsequences extrapolate independently; odd terms have doubling negative increments and even terms have increasing increments.",
+        "confidence": 0.99,
+        "rule_summary": "Two-stream interleaving with polynomial subsequence updates."
+      },
+      {
+        "answer": [
+          "-21",
+          "210",
+          "-45",
+          "-45",
+          "360"
+        ],
+        "case_id": "F043",
+        "check_summary": "Best-effort three-stream interleaved extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "Uncertain interleave rule."
+      },
+      {
+        "answer": [
+          "-5",
+          "15",
+          "-64",
+          "-9",
+          "9"
+        ],
+        "case_id": "F044",
+        "check_summary": "Triplet streams show polynomial start, middle, and terminal trends.",
+        "confidence": 0.78,
+        "rule_summary": "Three-stream periodic polynomial rule."
+      },
+      {
+        "answer": [
+          "43",
+          "71",
+          "99",
+          "121",
+          "149"
+        ],
+        "case_id": "F045",
+        "check_summary": "Best-effort block/interleaved continuation from repeated arithmetic increments.",
+        "confidence": 0.12,
+        "rule_summary": "Uncertain growing-block rule."
+      },
+      {
+        "answer": [
+          "-3",
+          "62",
+          "41",
+          "-9",
+          "78"
+        ],
+        "case_id": "F046",
+        "check_summary": "Best-effort interleaved extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "Uncertain interleave rule."
+      },
+      {
+        "answer": [
+          "-88",
+          "-125",
+          "-162",
+          "-199",
+          "-236"
+        ],
+        "case_id": "F047",
+        "check_summary": "Growing arithmetic blocks inferred; next block continues with step -37.",
+        "confidence": 0.42,
+        "rule_summary": "GROWBLOCK with polynomial block starts and steps."
+      },
+      {
+        "answer": [
+          "20",
+          "15",
+          "-5",
+          "-12",
+          "-17"
+        ],
+        "case_id": "F048",
+        "check_summary": "Best-effort periodic/interleaved extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "Uncertain periodic affine rule."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-generalist_vote10-GENERALIST-VOTE10-final-b04-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "7c9bc521a69e15a6b9e399571fca467dc283cad859d3cc0a77fe150dfc46144b",
+  "terminal_artifact_relpath": "jobs/final-generalist_vote10-GENERALIST-VOTE10-final-b04-proposer-6/attempt-01"
+}

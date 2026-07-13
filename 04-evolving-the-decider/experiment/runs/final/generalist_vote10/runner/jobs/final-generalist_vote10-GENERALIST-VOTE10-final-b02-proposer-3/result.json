@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "-20",
+          "4",
+          "-31",
+          "4",
+          "-20"
+        ],
+        "case_id": "F013",
+        "check_summary": "Low-confidence periodic-phase extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic phase model."
+      },
+      {
+        "answer": [
+          "16",
+          "42",
+          "34",
+          "20",
+          "55"
+        ],
+        "case_id": "F014",
+        "check_summary": "Low-confidence interleaved extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative interleaved polynomial model."
+      },
+      {
+        "answer": [
+          "-3",
+          "15",
+          "-4",
+          "16",
+          "-5"
+        ],
+        "case_id": "F015",
+        "check_summary": "Low-confidence phase extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative periodic affine model."
+      },
+      {
+        "answer": [
+          "64",
+          "34",
+          "4",
+          "-26",
+          "-56"
+        ],
+        "case_id": "F016",
+        "check_summary": "Prefix partitions into growing arithmetic blocks; next block starts 64 with step -30.",
+        "confidence": 0.91,
+        "rule_summary": "GROWBLOCK with block lengths 2,3,4,5 and polynomial starts/steps."
+      },
+      {
+        "answer": [
+          "57",
+          "89",
+          "81",
+          "20",
+          "-38"
+        ],
+        "case_id": "F017",
+        "check_summary": "Low-confidence interleaved extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative phase-specific polynomial model."
+      },
+      {
+        "answer": [
+          "-7",
+          "25",
+          "-9",
+          "28",
+          "-11"
+        ],
+        "case_id": "F018",
+        "check_summary": "Odd and even positions are arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of odd stream step -2 and even stream step +3."
+      },
+      {
+        "answer": [
+          "71",
+          "-12",
+          "97",
+          "15",
+          "127"
+        ],
+        "case_id": "F019",
+        "check_summary": "Four phase streams; two constant phases and two quadratic-growth phases.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-26",
+          "136",
+          "-126",
+          "-42",
+          "300"
+        ],
+        "case_id": "F020",
+        "check_summary": "Low-confidence periodic recurrence extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative phase-specific LIN2 model."
+      },
+      {
+        "answer": [
+          "29",
+          "-1",
+          "30",
+          "26",
+          "-1"
+        ],
+        "case_id": "F021",
+        "check_summary": "Low-confidence phase extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative periodic-phase polynomial model."
+      },
+      {
+        "answer": [
+          "-86",
+          "-438",
+          "-30",
+          "-118",
+          "-534"
+        ],
+        "case_id": "F022",
+        "check_summary": "Low-confidence modular recurrence extrapolation.",
+        "confidence": 0.04,
+        "rule_summary": "Tentative MODAFFINE model."
+      },
+      {
+        "answer": [
+          "36",
+          "41",
+          "46",
+          "51",
+          "56"
+        ],
+        "case_id": "F023",
+        "check_summary": "Growing arithmetic blocks continue with step +5.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK with block starts increasing by 5 and lengths increasing by 1."
+      },
+      {
+        "answer": [
+          "27",
+          "54",
+          "81",
+          "108",
+          "135"
+        ],
+        "case_id": "F024",
+        "check_summary": "Next growing block starts at 27 and has step 27.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK with starts incrementing 5,4,3,2,1 and steps increasing by 6."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-generalist_vote10-GENERALIST-VOTE10-final-b02-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "9129a7fcdc9aa1e3e6ee1a5706cb73c47888b54eb4c77864acae63cbaa5c5a4f",
+  "terminal_artifact_relpath": "jobs/final-generalist_vote10-GENERALIST-VOTE10-final-b02-proposer-3/attempt-01"
+}

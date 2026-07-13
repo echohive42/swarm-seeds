@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "5",
+          "-23",
+          "-18",
+          "-13",
+          "-8"
+        ],
+        "case_id": "S157",
+        "check_summary": "Growing-block pattern with +5 runs and starts decreasing by 5.",
+        "confidence": 0.92,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd subsequence has successive odd increments; even subsequence doubles with alternating sign.",
+        "confidence": 0.98,
+        "rule_summary": "Two interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "18",
+          "-93",
+          "-16",
+          "142",
+          "-42"
+        ],
+        "case_id": "S159",
+        "check_summary": "Best-fit periodic modular/interleaved continuation from observed oscillatory differences.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic affine or interleaved structure."
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd terms increase by 2; even terms increase by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-12",
+          "4",
+          "-15",
+          "-2",
+          "8"
+        ],
+        "case_id": "S161",
+        "check_summary": "Estimated phase-dependent recurrence from the irregular prefix.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic second-order or modular affine structure."
+      },
+      {
+        "answer": [
+          "17",
+          "11",
+          "15",
+          "20",
+          "12"
+        ],
+        "case_id": "S162",
+        "check_summary": "Estimated continuation from phase-dependent differences.",
+        "confidence": 0.15,
+        "rule_summary": "Periodic polynomial-delta structure."
+      },
+      {
+        "answer": [
+          "5",
+          "-362",
+          "6",
+          "-730",
+          "5"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams: one descending by successive integers, one ascending by 1, and one with doubling differences.",
+        "confidence": 0.97,
+        "rule_summary": "Three interleaved affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "25",
+          "49",
+          "31",
+          "20",
+          "42"
+        ],
+        "case_id": "S164",
+        "check_summary": "Estimated continuation from interleaved irregular streams.",
+        "confidence": 0.14,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-15",
+          "-91",
+          "-23",
+          "131",
+          "-39"
+        ],
+        "case_id": "S165",
+        "check_summary": "Estimated phase-dependent modular continuation.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine modulo a prime."
+      },
+      {
+        "answer": [
+          "45",
+          "33",
+          "120",
+          "28",
+          "19"
+        ],
+        "case_id": "S166",
+        "check_summary": "Estimated continuation from phase-specific lag behavior.",
+        "confidence": 0.12,
+        "rule_summary": "Lagged polynomial or periodic recurrence."
+      },
+      {
+        "answer": [
+          "-56",
+          "31",
+          "-86",
+          "55",
+          "-121"
+        ],
+        "case_id": "S167",
+        "check_summary": "Estimated continuation from alternating irregular subsequences.",
+        "confidence": 0.12,
+        "rule_summary": "Two interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-31",
+          "-7",
+          "17",
+          "41",
+          "65"
+        ],
+        "case_id": "S168",
+        "check_summary": "Growing arithmetic blocks with step 24 followed by a new block start.",
+        "confidence": 0.31,
+        "rule_summary": "Growing arithmetic blocks."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-38D833F18B84-search-b14-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "d665b287c5643d81d8d70e12232ee722096ba3c0bd77313b938be98599eaf438",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-38D833F18B84-search-b14-proposer-7/attempt-01"
+}

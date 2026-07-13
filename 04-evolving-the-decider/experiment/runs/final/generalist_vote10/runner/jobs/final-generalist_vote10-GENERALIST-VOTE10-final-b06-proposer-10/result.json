@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b06",
+    "results": [
+      {
+        "answer": [
+          "-8",
+          "35",
+          "-11",
+          "39",
+          "-14"
+        ],
+        "case_id": "F061",
+        "check_summary": "Odd subsequence decreases by 3; even subsequence increases by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "14",
+          "30",
+          "18",
+          "42",
+          "22"
+        ],
+        "case_id": "F062",
+        "check_summary": "Best-fit continuation from alternating phase patterns.",
+        "confidence": 0.18,
+        "rule_summary": "Likely periodic/interleaved bounded recurrence."
+      },
+      {
+        "answer": [
+          "-4",
+          "37",
+          "-7",
+          "43",
+          "-10"
+        ],
+        "case_id": "F063",
+        "check_summary": "Best-fit continuation from phase-separated irregular streams.",
+        "confidence": 0.12,
+        "rule_summary": "Likely modular or periodic interleave."
+      },
+      {
+        "answer": [
+          "-9",
+          "-42",
+          "-75",
+          "-108",
+          "-141"
+        ],
+        "case_id": "F064",
+        "check_summary": "Positive block resets follow 1, 15, 34, 58, 87; negative steps progress -13, -18, -23, -28, -33.",
+        "confidence": 0.93,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "91",
+          "27",
+          "96",
+          "42",
+          "101"
+        ],
+        "case_id": "F065",
+        "check_summary": "Best-fit continuation from bounded phase-separated behavior.",
+        "confidence": 0.14,
+        "rule_summary": "Likely modular periodic recurrence."
+      },
+      {
+        "answer": [
+          "-67",
+          "19",
+          "-88",
+          "34",
+          "-109"
+        ],
+        "case_id": "F066",
+        "check_summary": "Every third term from the first phase has successive differences -6, -9, -12, -15.",
+        "confidence": 0.31,
+        "rule_summary": "Likely three-way interleave with polynomial phase streams."
+      },
+      {
+        "answer": [
+          "-85",
+          "-114",
+          "-143",
+          "-172",
+          "-72"
+        ],
+        "case_id": "F067",
+        "check_summary": "Tail shows repeated negative steps with periodic positive resets.",
+        "confidence": 0.42,
+        "rule_summary": "Growing-block or periodic-delta mechanism."
+      },
+      {
+        "answer": [
+          "19",
+          "49",
+          "38",
+          "34",
+          "76"
+        ],
+        "case_id": "F068",
+        "check_summary": "Three phase streams show polynomial increment patterns.",
+        "confidence": 0.86,
+        "rule_summary": "Three-way interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-22",
+          "-24",
+          "-25",
+          "-27",
+          "-29"
+        ],
+        "case_id": "F069",
+        "check_summary": "Continuation follows the dominant approximately -2 periodic decrement pattern.",
+        "confidence": 0.24,
+        "rule_summary": "Likely periodic polynomial-delta sequence."
+      },
+      {
+        "answer": [
+          "-640",
+          "17",
+          "1280",
+          "26",
+          "-2560"
+        ],
+        "case_id": "F070",
+        "check_summary": "Odd terms multiply by -2; even terms follow a quadratic sequence.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-57",
+          "-39",
+          "-65",
+          "-57",
+          "-76"
+        ],
+        "case_id": "F071",
+        "check_summary": "Best-fit continuation from alternating phase differences.",
+        "confidence": 0.15,
+        "rule_summary": "Likely interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "29",
+          "31",
+          "16",
+          "38",
+          "27"
+        ],
+        "case_id": "F072",
+        "check_summary": "Best-fit continuation from bounded periodic phase behavior.",
+        "confidence": 0.16,
+        "rule_summary": "Likely modular or interleaved recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-generalist_vote10-GENERALIST-VOTE10-final-b06-proposer-10",
+  "outcome": "valid_output",
+  "response_sha256": "c51266f4450f9ef8b8fc7f5dec4c82d2cfd3eac9c334ad0b239c889a8e7899c4",
+  "terminal_artifact_relpath": "jobs/final-generalist_vote10-GENERALIST-VOTE10-final-b06-proposer-10/attempt-01"
+}

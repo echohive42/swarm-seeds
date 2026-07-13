@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "8",
+          "18",
+          "27",
+          "31",
+          "10"
+        ],
+        "case_id": "S061",
+        "check_summary": "No stable low-order continuation identified from the supplied prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Candidate periodic modular or interleaved mechanism."
+      },
+      {
+        "answer": [
+          "-25",
+          "-6",
+          "62",
+          "-21",
+          "83"
+        ],
+        "case_id": "S062",
+        "check_summary": "Prefix does not expose a uniquely reliable continuation manually.",
+        "confidence": 0.06,
+        "rule_summary": "Candidate phase-dependent affine or second-order recurrence."
+      },
+      {
+        "answer": [
+          "84",
+          "35",
+          "96",
+          "12",
+          "101"
+        ],
+        "case_id": "S063",
+        "check_summary": "No stable continuation pattern isolated.",
+        "confidence": 0.06,
+        "rule_summary": "Candidate interleaved or growing-block mechanism."
+      },
+      {
+        "answer": [
+          "-156",
+          "-234",
+          "-546",
+          "-702",
+          "-1326"
+        ],
+        "case_id": "S064",
+        "check_summary": "Strong magnitude variation suggests phase-dependent recurrence, but parameters remain uncertain.",
+        "confidence": 0.09,
+        "rule_summary": "Candidate phase-dependent linear recurrence."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd and even positions are separate arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd stream decreases by 4; even stream increases by 2."
+      },
+      {
+        "answer": [
+          "-1",
+          "75",
+          "-2",
+          "150",
+          "-3"
+        ],
+        "case_id": "S066",
+        "check_summary": "No reliable unique continuation isolated.",
+        "confidence": 0.05,
+        "rule_summary": "Candidate phase-dependent affine recurrence."
+      },
+      {
+        "answer": [
+          "-175",
+          "-206",
+          "-237",
+          "-268",
+          "-299"
+        ],
+        "case_id": "S067",
+        "check_summary": "Tail suggests alternating growing-block behavior, but exact block rule is uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "Candidate GROWBLOCK or interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-13",
+          "-44",
+          "-34",
+          "-53",
+          "-55"
+        ],
+        "case_id": "S068",
+        "check_summary": "No stable low-order continuation identified.",
+        "confidence": 0.05,
+        "rule_summary": "Candidate periodic phase-dependent recurrence."
+      },
+      {
+        "answer": [
+          "-4",
+          "-27",
+          "-1",
+          "-44",
+          "2"
+        ],
+        "case_id": "S069",
+        "check_summary": "Possible interleaved streams, but continuation is weakly constrained.",
+        "confidence": 0.07,
+        "rule_summary": "Candidate INTERLEAVE with phase-specific affine updates."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "-3",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd positions are constant; even-position differences decrease by 3 successively.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: constant odd stream and quadratic even stream."
+      },
+      {
+        "answer": [
+          "-18",
+          "58",
+          "-5",
+          "76",
+          "-29"
+        ],
+        "case_id": "S071",
+        "check_summary": "No reliable unique continuation isolated.",
+        "confidence": 0.05,
+        "rule_summary": "Candidate interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-29",
+          "-20",
+          "-37",
+          "-28",
+          "-45"
+        ],
+        "case_id": "S072",
+        "check_summary": "Two streams show a repeating increment pattern with alternating -8 and cycling offsets.",
+        "confidence": 0.92,
+        "rule_summary": "INTERLEAVE: phase-specific periodic increments."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-347400D8BFC6-search-b06-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "329d5c1145e91d61808f83f678ded2c7de387a633680066a21672cff9580f9c6",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-347400D8BFC6-search-b06-proposer-6/attempt-01"
+}

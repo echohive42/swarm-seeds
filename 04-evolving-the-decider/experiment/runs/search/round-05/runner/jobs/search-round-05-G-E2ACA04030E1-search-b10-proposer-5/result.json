@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "-12",
+          "9",
+          "-6",
+          "-7",
+          "-4"
+        ],
+        "case_id": "S109",
+        "check_summary": "No stable low-order continuation identified from the prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic/interleaved extrapolation."
+      },
+      {
+        "answer": [
+          "12",
+          "-3",
+          "-12",
+          "-6",
+          "3"
+        ],
+        "case_id": "S110",
+        "check_summary": "Observed recurring values and phase-like differences, but continuation is uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "78",
+          "93",
+          "108",
+          "123",
+          "138"
+        ],
+        "case_id": "S111",
+        "check_summary": "Phase-separated subsequences show approximately arithmetic growth with changing phase offsets.",
+        "confidence": 0.18,
+        "rule_summary": "Tentative periodic polynomial-delta rule."
+      },
+      {
+        "answer": [
+          "3",
+          "-5",
+          "-5",
+          "52",
+          "4"
+        ],
+        "case_id": "S112",
+        "check_summary": "Several repeated phase values are present, but the phase rule is underdetermined manually.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic delta rule."
+      },
+      {
+        "answer": [
+          "-8",
+          "56",
+          "-24",
+          "35",
+          "-15"
+        ],
+        "case_id": "S113",
+        "check_summary": "Interleaved phase subsequences do not yield a uniquely verified continuation.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative interleaved polynomial rule."
+      },
+      {
+        "answer": [
+          "-25",
+          "-16",
+          "-913",
+          "29",
+          "-26"
+        ],
+        "case_id": "S114",
+        "check_summary": "Large alternating changes suggest a periodic affine or modular mechanism; continuation uncertain.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative periodic affine/modular rule."
+      },
+      {
+        "answer": [
+          "42",
+          "82",
+          "57",
+          "102",
+          "132"
+        ],
+        "case_id": "S115",
+        "check_summary": "Growth is phase-dependent and nonuniform across the prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative interleaved phase rule."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd positions decrease by 1 and even positions decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "40",
+          "16",
+          "-4",
+          "68",
+          "31"
+        ],
+        "case_id": "S117",
+        "check_summary": "Interleaved subsequences show irregular phase-specific changes.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative interleaved recurrence."
+      },
+      {
+        "answer": [
+          "36",
+          "31",
+          "41",
+          "36",
+          "46"
+        ],
+        "case_id": "S118",
+        "check_summary": "Two phase subsequences exhibit quadratic increments; remaining phase continuation is uncertain.",
+        "confidence": 0.17,
+        "rule_summary": "Tentative periodic polynomial-delta rule."
+      },
+      {
+        "answer": [
+          "85",
+          "89",
+          "121",
+          "125",
+          "169"
+        ],
+        "case_id": "S119",
+        "check_summary": "Several phase subsequences show accelerating positive increments, but not all phases are verified.",
+        "confidence": 0.13,
+        "rule_summary": "Tentative interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "128",
+          "115",
+          "160",
+          "139",
+          "192"
+        ],
+        "case_id": "S120",
+        "check_summary": "Pairwise and phase-separated growth patterns are visible but do not uniquely determine all phases.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative periodic affine/polynomial rule."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-E2ACA04030E1-search-b10-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "9a9aa583004f43e47ab82fe3642a5e1635208e56029bb53731a14e007b4fa4b8",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-E2ACA04030E1-search-b10-proposer-5/attempt-01"
+}

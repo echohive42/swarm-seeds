@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-170",
+          "24",
+          "-292",
+          "52",
+          "-498"
+        ],
+        "case_id": "S037",
+        "check_summary": "Low-confidence extrapolation from irregular lagged/block structure.",
+        "confidence": 0.12,
+        "rule_summary": "Irregular lagged polynomial or growing-block pattern."
+      },
+      {
+        "answer": [
+          "129",
+          "76",
+          "141",
+          "130",
+          "151"
+        ],
+        "case_id": "S038",
+        "check_summary": "Low-confidence phase extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "43",
+          "45",
+          "48",
+          "52",
+          "57"
+        ],
+        "case_id": "S039",
+        "check_summary": "Low-confidence extrapolation from bounded irregular recurrence.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine or modular-affine structure."
+      },
+      {
+        "answer": [
+          "64",
+          "49",
+          "48",
+          "79",
+          "62"
+        ],
+        "case_id": "S040",
+        "check_summary": "Three interleaved streams extrapolate consistently.",
+        "confidence": 0.88,
+        "rule_summary": "Three polynomial/affine streams interleaved by position."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Alternating arithmetic streams are exact.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved linear streams."
+      },
+      {
+        "answer": [
+          "-12",
+          "58",
+          "4",
+          "55",
+          "-15"
+        ],
+        "case_id": "S042",
+        "check_summary": "Low-confidence periodic recurrence extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic modular-affine or phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "-10",
+          "-35",
+          "5",
+          "6",
+          "-70"
+        ],
+        "case_id": "S043",
+        "check_summary": "One interleaved stream is linear; remaining phases are uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-19",
+          "-22",
+          "-28",
+          "-22",
+          "-29"
+        ],
+        "case_id": "S044",
+        "check_summary": "Three residue-class streams show clear polynomial differences.",
+        "confidence": 0.84,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-4",
+          "12",
+          "72",
+          "-50",
+          "-4"
+        ],
+        "case_id": "S045",
+        "check_summary": "Low-confidence interleaved-stream extrapolation.",
+        "confidence": 0.11,
+        "rule_summary": "Multiple interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-17",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S046",
+        "check_summary": "Increasingly spaced positive jumps amid repeated negative steps.",
+        "confidence": 0.7,
+        "rule_summary": "Growing-block arithmetic pattern."
+      },
+      {
+        "answer": [
+          "-9",
+          "-24",
+          "-39",
+          "-54",
+          "-69"
+        ],
+        "case_id": "S047",
+        "check_summary": "Low-confidence growing arithmetic-block continuation.",
+        "confidence": 0.18,
+        "rule_summary": "Growing arithmetic blocks with evolving starts and steps."
+      },
+      {
+        "answer": [
+          "-11",
+          "12",
+          "-38",
+          "-10",
+          "-42"
+        ],
+        "case_id": "S048",
+        "check_summary": "Four interleaved streams; constant phases and quadratic phases fit prefix.",
+        "confidence": 0.86,
+        "rule_summary": "Four-position interleaving of polynomial/constant streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-2D699BBC271A-search-b04-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "be089bd7d51de7adf9fb10904882bcfff694afba6b69eb65516f4f75880f9f28",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-2D699BBC271A-search-b04-proposer-4/attempt-01"
+}

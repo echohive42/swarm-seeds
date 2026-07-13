@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b05",
+    "results": [
+      {
+        "answer": [
+          "3454364",
+          "10363097",
+          "31089296",
+          "93267893",
+          "279803684"
+        ],
+        "case_id": "F049",
+        "check_summary": "Matches x_n=3x_{n-1}+5.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "21",
+          "19",
+          "24",
+          "22",
+          "27"
+        ],
+        "case_id": "F050",
+        "check_summary": "Two interleaved arithmetic streams with step 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-17846",
+          "17843",
+          "-17840",
+          "53524",
+          "53521"
+        ],
+        "case_id": "F051",
+        "check_summary": "Matches a 3-phase affine recurrence.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3973",
+          "-5917",
+          "-8508",
+          "-11887",
+          "-16213"
+        ],
+        "case_id": "F052",
+        "check_summary": "Constant fifth finite difference -1.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "516032",
+          "1245813",
+          "3007659",
+          "7541125",
+          "18089908"
+        ],
+        "case_id": "F053",
+        "check_summary": "Matches second-order recurrence with repeating biases -6,-1,1 by phase.",
+        "confidence": 0.97,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "1066421",
+          "-3199269",
+          "-6398539",
+          "19195611",
+          "38391221"
+        ],
+        "case_id": "F054",
+        "check_summary": "Matches alternating affine updates 2x-1 and -3x-6.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-462",
+          "2009",
+          "1140",
+          "-863",
+          "5133"
+        ],
+        "case_id": "F055",
+        "check_summary": "Three interleaved polynomial streams extrapolated from finite differences.",
+        "confidence": 0.82,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-120",
+          "-132",
+          "-147",
+          "-165",
+          "-186"
+        ],
+        "case_id": "F056",
+        "check_summary": "Low-confidence extrapolation from the observed downward delta pattern.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "45",
+          "5",
+          "45",
+          "-2",
+          "45"
+        ],
+        "case_id": "F057",
+        "check_summary": "Two interleaved streams; even stream reaches constant 45 and odd stream has constant third difference -3.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-77",
+          "-89",
+          "-102",
+          "-116",
+          "-131"
+        ],
+        "case_id": "F058",
+        "check_summary": "Successive differences decrease by 1 each step.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-877",
+          "-1106",
+          "-1371",
+          "-1675",
+          "-2021"
+        ],
+        "case_id": "F059",
+        "check_summary": "Second differences continue decreasing by 3.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1476",
+          "2207",
+          "3176",
+          "4429",
+          "6016"
+        ],
+        "case_id": "F060",
+        "check_summary": "Finite differences settle into constant fourth difference 4.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-best_initial_founder-G-0025CFC9EF2E-final-b05-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "1e2256c198ed3c7c7afe6dd293a6721c045f2f1ec9b124c3486b2b32666297a0",
+  "terminal_artifact_relpath": "jobs/final-best_initial_founder-G-0025CFC9EF2E-final-b05-proposer-7/attempt-01"
+}

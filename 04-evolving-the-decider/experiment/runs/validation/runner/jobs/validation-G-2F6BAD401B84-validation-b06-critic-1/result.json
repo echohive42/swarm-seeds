@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b06",
+    "results": [
+      {
+        "answer": [
+          "3",
+          "12",
+          "1",
+          "8",
+          "22"
+        ],
+        "case_id": "V061",
+        "check_summary": "The full prefix matches x'=2x+6 modulo 29, yielding a unique continuation.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-74",
+          "-44",
+          "-14",
+          "16",
+          "-156"
+        ],
+        "case_id": "V062",
+        "check_summary": "Positive delta runs lengthen while negative reset deltas follow a quadratic sequence.",
+        "confidence": 0.94,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-42",
+          "-86",
+          "-154",
+          "-250",
+          "-378"
+        ],
+        "case_id": "V063",
+        "check_summary": "Best-supported anonymous continuation is a lagged polynomial extrapolation, though evidence remains limited.",
+        "confidence": 0.2,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "20",
+          "-33",
+          "24",
+          "-38",
+          "28"
+        ],
+        "case_id": "V064",
+        "check_summary": "Odd and even subsequences are arithmetic with steps -5 and +4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "67",
+          "58",
+          "77",
+          "82",
+          "63"
+        ],
+        "case_id": "V065",
+        "check_summary": "No candidate is strongly validated; this is the least-weak interleaved continuation.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-49",
+          "449",
+          "-60",
+          "897",
+          "-72"
+        ],
+        "case_id": "V066",
+        "check_summary": "Odd terms decrement successively; even terms follow x'=2x-1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "55",
+          "17",
+          "77",
+          "23",
+          "100"
+        ],
+        "case_id": "V067",
+        "check_summary": "The prefix does not strongly distinguish mechanisms; this is the best-supported interleaved proposal.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-54",
+          "33",
+          "6",
+          "-74",
+          "54"
+        ],
+        "case_id": "V068",
+        "check_summary": "Lagged residue streams support the consensus continuation, especially terms 14 and 15.",
+        "confidence": 0.94,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-24",
+          "87",
+          "20",
+          "-27",
+          "-169"
+        ],
+        "case_id": "V069",
+        "check_summary": "Residue streams fit an affine stream, a constant-step stream, and a quadratic stream; continuation follows exactly.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "117",
+          "135",
+          "153",
+          "171",
+          "189"
+        ],
+        "case_id": "V070",
+        "check_summary": "The terminal arithmetic block has step 18 and continues directly.",
+        "confidence": 0.9,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "2",
+          "19",
+          "-89",
+          "-2",
+          "38"
+        ],
+        "case_id": "V071",
+        "check_summary": "Three residue streams support +4,-4 alternation, quadratic growth, and decreasing second differences.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "35",
+          "39",
+          "28",
+          "32",
+          "36"
+        ],
+        "case_id": "V072",
+        "check_summary": "The strongest proposal models repeated positive increments with a decreasing reset phase.",
+        "confidence": 0.95,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b06-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "dbebbee34f96c9c247db42e992c0c911fdcedcf2a5afb855b7665ce1c2a19f8d",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b06-critic-1/attempt-01"
+}

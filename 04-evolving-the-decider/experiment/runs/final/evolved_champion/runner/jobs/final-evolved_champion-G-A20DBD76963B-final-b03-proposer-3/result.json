@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "-1175078",
+          "1175077",
+          "3525225",
+          "10575673",
+          "31727013"
+        ],
+        "case_id": "F025",
+        "check_summary": "Verified repeating three-phase affine updates.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence with phases 3x-6, 3x-2, and -x-1."
+      },
+      {
+        "answer": [
+          "-797164",
+          "-2391487",
+          "-7174456",
+          "-21523363",
+          "-64570084"
+        ],
+        "case_id": "F026",
+        "check_summary": "Verified constant affine update across the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "x(n+1)=3x(n)+5."
+      },
+      {
+        "answer": [
+          "-23742",
+          "46604",
+          "-92300",
+          "183188",
+          "-362076"
+        ],
+        "case_id": "F027",
+        "check_summary": "Extrapolated from alternating rapidly growing subsequences.",
+        "confidence": 0.42,
+        "rule_summary": "Alternating phase-dependent linear structure."
+      },
+      {
+        "answer": [
+          "37323",
+          "74633",
+          "149281",
+          "298547",
+          "597111"
+        ],
+        "case_id": "F028",
+        "check_summary": "Verified alternating affine offsets with successive odd magnitudes.",
+        "confidence": 0.99,
+        "rule_summary": "x(n+1)=2x(n) plus alternating offsets ± successive odd integers."
+      },
+      {
+        "answer": [
+          "5402",
+          "7395",
+          "9941",
+          "13152",
+          "17153"
+        ],
+        "case_id": "F029",
+        "check_summary": "Verified finite-difference continuation through fifth differences.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued quartic polynomial sequence."
+      },
+      {
+        "answer": [
+          "-37",
+          "-67",
+          "-101",
+          "-139",
+          "-181"
+        ],
+        "case_id": "F030",
+        "check_summary": "Low-confidence extrapolation from irregular prefix.",
+        "confidence": 0.2,
+        "rule_summary": "Likely interleaved or phase-dependent polynomial sequence."
+      },
+      {
+        "answer": [
+          "464",
+          "494",
+          "498",
+          "467",
+          "391"
+        ],
+        "case_id": "F031",
+        "check_summary": "Verified finite-difference continuation.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial sequence with linearly declining third differences."
+      },
+      {
+        "answer": [
+          "61628",
+          "167852",
+          "457148",
+          "1245548",
+          "3392724"
+        ],
+        "case_id": "F032",
+        "check_summary": "Low-confidence extrapolation from apparent multiplicative growth.",
+        "confidence": 0.3,
+        "rule_summary": "Likely phase-dependent affine or second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "161",
+          "195",
+          "258",
+          "354",
+          "493"
+        ],
+        "case_id": "F033",
+        "check_summary": "Low-confidence extrapolation from irregular phase structure.",
+        "confidence": 0.18,
+        "rule_summary": "Likely interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "450",
+          "591",
+          "760",
+          "959",
+          "1190"
+        ],
+        "case_id": "F034",
+        "check_summary": "Verified second differences increasing by 2.",
+        "confidence": 0.99,
+        "rule_summary": "Quartic-like polynomial sequence with quadratic second differences."
+      },
+      {
+        "answer": [
+          "-2771363",
+          "-5542730",
+          "-16628195",
+          "-33256394",
+          "-99769187"
+        ],
+        "case_id": "F035",
+        "check_summary": "Verified alternating affine multipliers and biases.",
+        "confidence": 0.99,
+        "rule_summary": "Alternating updates 3x-5 and 2x-4."
+      },
+      {
+        "answer": [
+          "27",
+          "28",
+          "33",
+          "34",
+          "39"
+        ],
+        "case_id": "F036",
+        "check_summary": "Verified two interleaved arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "Even and odd subsequences each increase by 6."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-evolved_champion-G-A20DBD76963B-final-b03-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "f0eeae7571ffa1af30512fe15b8737cb73f0c79986de75e58bc920acb3aeecf6",
+  "terminal_artifact_relpath": "jobs/final-evolved_champion-G-A20DBD76963B-final-b03-proposer-3/attempt-01"
+}

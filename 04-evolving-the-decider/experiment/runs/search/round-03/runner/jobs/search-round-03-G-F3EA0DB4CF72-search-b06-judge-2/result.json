@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "25",
+          "21",
+          "1",
+          "24",
+          "16"
+        ],
+        "case_id": "S061",
+        "check_summary": "Exact period-two affine replay modulo 41 is the strongest full-prefix fit.",
+        "confidence": 0.99,
+        "rule_summary": "Two-step affine recurrence modulo 41."
+      },
+      {
+        "answer": [
+          "29",
+          "-20",
+          "91",
+          "-25",
+          "137"
+        ],
+        "case_id": "S062",
+        "check_summary": "Strongest coherent minority supports a phase-specific affine continuation.",
+        "confidence": 0.12,
+        "rule_summary": "Phase-specific affine update."
+      },
+      {
+        "answer": [
+          "79",
+          "83",
+          "90",
+          "98",
+          "109"
+        ],
+        "case_id": "S063",
+        "check_summary": "Best-supported candidate uses interleaved low-degree streams, though evidence remains weak.",
+        "confidence": 0.14,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-121",
+          "-42",
+          "-129",
+          "-6",
+          "-137"
+        ],
+        "case_id": "S064",
+        "check_summary": "Large alternating increments are most coherently explained by phase-specific polynomial deltas.",
+        "confidence": 0.1,
+        "rule_summary": "PDELTA."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd terms decrease by 4 and even terms increase by 2 exactly.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-15",
+          "-1",
+          "-23",
+          "-1",
+          "-35"
+        ],
+        "case_id": "S066",
+        "check_summary": "Best-supported continuation is an alternating phase-interleaved recurrence, but confidence is limited.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-175",
+          "-206",
+          "-237",
+          "-268",
+          "-299"
+        ],
+        "case_id": "S067",
+        "check_summary": "Growing negative arithmetic progression is the strongest coherent continuation.",
+        "confidence": 0.16,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "26",
+          "2",
+          "-22",
+          "-46",
+          "-70"
+        ],
+        "case_id": "S068",
+        "check_summary": "High-confidence candidate identifies growing blocks with quadratic starts and decreasing steps.",
+        "confidence": 0.96,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "16",
+          "-21",
+          "21",
+          "24",
+          "-32"
+        ],
+        "case_id": "S069",
+        "check_summary": "Three residue-class streams show stable polynomial behavior; this is the strongest full-prefix fit.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "0",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd positions alternate -3 and 0, while even-position differences decrease by successive multiples of 3.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of polynomial residue-class streams."
+      },
+      {
+        "answer": [
+          "24",
+          "44",
+          "-4",
+          "15",
+          "50"
+        ],
+        "case_id": "S071",
+        "check_summary": "Best-supported candidate is a bounded phase-interleaved continuation, though evidence is weak.",
+        "confidence": 0.11,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-20",
+          "-24",
+          "-28",
+          "-32",
+          "-36"
+        ],
+        "case_id": "S072",
+        "check_summary": "Growing arithmetic blocks have starts decreasing by 3, constant within-block step -4, and increasing lengths.",
+        "confidence": 0.97,
+        "rule_summary": "GROWBLOCK."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-F3EA0DB4CF72-search-b06-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "c68f752b1e72fb99bc6128e3017c6f30e9033f89a544280ca58b70cfb1648277",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-F3EA0DB4CF72-search-b06-judge-2/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "The four-step phase recurrence x[n+4]=-4x[n]+5 exactly replays the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence with period 4."
+      },
+      {
+        "answer": [
+          "60",
+          "65",
+          "69",
+          "74",
+          "78"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments +4,+5 continue exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Period-two additive recurrence."
+      },
+      {
+        "answer": [
+          "-936",
+          "-2298",
+          "-4382",
+          "-7434",
+          "-11454"
+        ],
+        "case_id": "S171",
+        "check_summary": "The supplied consensus identifies a degree-five polynomial continuation.",
+        "confidence": 0.98,
+        "rule_summary": "POLY, degree five."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Fourth finite differences remain constant at -1.",
+        "confidence": 0.98,
+        "rule_summary": "POLY, degree four."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences increase by one each step.",
+        "confidence": 0.99,
+        "rule_summary": "POLY, degree three."
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7182",
+          "-11626",
+          "-18810",
+          "-30433"
+        ],
+        "case_id": "S174",
+        "check_summary": "The recurrence x[n]=x[n-1]+x[n-2] has repeating biases -2,-2,+3.",
+        "confidence": 0.97,
+        "rule_summary": "LIN2 with period-three bias."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97897621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating updates x→3x+1 and x→-2x+6 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-two phases."
+      },
+      {
+        "answer": [
+          "77",
+          "80",
+          "59",
+          "64",
+          "73"
+        ],
+        "case_id": "S176",
+        "check_summary": "Period-four phase deltas are extrapolated from the repeated visible tracks.",
+        "confidence": 0.72,
+        "rule_summary": "PDELTA with period-four phase deltas."
+      },
+      {
+        "answer": [
+          "-214809",
+          "-429625",
+          "859241",
+          "1718491",
+          "3436975"
+        ],
+        "case_id": "S177",
+        "check_summary": "Three phase-specific affine updates repeat through the suffix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-three phases."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE doubling recurrence."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "The six-term cycle repeats exactly.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic sequence."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Alternating phase deltas decrease by 7 and 6 respectively.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-two linear deltas."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-6F217370BF07-search-b15-critic-2",
+  "outcome": "valid_output",
+  "response_sha256": "b67b2ad089d3d7646e8ce9bb9d82a70a442a7f2cfc8c3cd3cb76213de0da06dc",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-6F217370BF07-search-b15-critic-2/attempt-01"
+}

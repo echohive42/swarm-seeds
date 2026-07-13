@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating first differences -4,-3 replay the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial delta."
+      },
+      {
+        "answer": [
+          "-9350",
+          "15128",
+          "-24458",
+          "39578",
+          "-64016"
+        ],
+        "case_id": "S074",
+        "check_summary": "Exponential alternating recurrence fit to the visible tail.",
+        "confidence": 0.42,
+        "rule_summary": "Phase-dependent affine recurrence."
+      },
+      {
+        "answer": [
+          "8",
+          "6",
+          "10",
+          "8",
+          "16"
+        ],
+        "case_id": "S075",
+        "check_summary": "Interleaved low-degree streams inferred from alternating positions.",
+        "confidence": 0.38,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-13147",
+          "-17603",
+          "-22872",
+          "-28868",
+          "-35505"
+        ],
+        "case_id": "S076",
+        "check_summary": "Accelerating negative differences suggest phase-dependent affine growth.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-4058",
+          "-9812",
+          "-23691",
+          "-57272",
+          "-138438"
+        ],
+        "case_id": "S077",
+        "check_summary": "Continuation estimated from the rapidly growing negative recurrence.",
+        "confidence": 0.25,
+        "rule_summary": "Second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Exact recurrence x_next=-3x+5 replays the prefix.",
+        "confidence": 1.0,
+        "rule_summary": "Affine update."
+      },
+      {
+        "answer": [
+          "52",
+          "78",
+          "111",
+          "153",
+          "207"
+        ],
+        "case_id": "S079",
+        "check_summary": "Alternating/interleaved growth pattern extrapolated from prefix.",
+        "confidence": 0.3,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "408426",
+          "1225270",
+          "-3675812",
+          "3675804",
+          "11027404"
+        ],
+        "case_id": "S080",
+        "check_summary": "Exact three-phase affine updates replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-152370",
+          "-304742",
+          "609482",
+          "1218962",
+          "-2437922"
+        ],
+        "case_id": "S081",
+        "check_summary": "Exact alternating updates x_next=-2x+2 and x_next=2x-2.",
+        "confidence": 0.99,
+        "rule_summary": "Phase-dependent affine recurrence."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Differences continue as successive negative squares.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial delta."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7643",
+          "-9673"
+        ],
+        "case_id": "S083",
+        "check_summary": "Finite differences show a stable third-difference decrement pattern.",
+        "confidence": 0.85,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "351112",
+          "-843919",
+          "2025408",
+          "-4860983",
+          "11666382"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating multiplicative growth extrapolated from the visible prefix.",
+        "confidence": 0.35,
+        "rule_summary": "Phase-dependent affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-512B4980C514-search-b07-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "8c5117b3aeed0bf716b10df21fe6a9e093c4ecd5e02989222e1ae34c106155ee",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-512B4980C514-search-b07-proposer-1/attempt-01"
+}

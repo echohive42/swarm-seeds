@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b08",
+    "results": [
+      {
+        "answer": [
+          "17",
+          "-24",
+          "18",
+          "-28",
+          "19"
+        ],
+        "case_id": "F085",
+        "check_summary": "Odd and even positions follow separate arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd terms increase by 1; even terms decrease by 4."
+      },
+      {
+        "answer": [
+          "49",
+          "39",
+          "29",
+          "19",
+          "9"
+        ],
+        "case_id": "F086",
+        "check_summary": "Best-fit continuation under a periodic/interleaved integer rule.",
+        "confidence": 0.18,
+        "rule_summary": "Complex periodic affine or interleaved recurrence."
+      },
+      {
+        "answer": [
+          "69",
+          "59",
+          "49",
+          "39",
+          "29"
+        ],
+        "case_id": "F087",
+        "check_summary": "Growing arithmetic blocks have decreasing steps and polynomially growing separators.",
+        "confidence": 0.88,
+        "rule_summary": "GROWBLOCK with block decrements -7,-8,-9,-10 and growing jump boundaries."
+      },
+      {
+        "answer": [
+          "105",
+          "126",
+          "147",
+          "168",
+          "189"
+        ],
+        "case_id": "F088",
+        "check_summary": "Negative separators and positive arithmetic runs increase in length and magnitude.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK: separator -21 followed by six +21 increments."
+      },
+      {
+        "answer": [
+          "11",
+          "46",
+          "-15",
+          "60",
+          "11"
+        ],
+        "case_id": "F089",
+        "check_summary": "Odd stream alternates 11 and -15; even stream has successive even increments.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd terms alternate; even terms increment by 2,4,6,8,10,12."
+      },
+      {
+        "answer": [
+          "-42",
+          "-4",
+          "-42",
+          "-42",
+          "-4"
+        ],
+        "case_id": "F090",
+        "check_summary": "Three lagged streams show polynomial phase-specific increments.",
+        "confidence": 0.79,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "15",
+          "40",
+          "-763",
+          "18",
+          "59"
+        ],
+        "case_id": "F091",
+        "check_summary": "Three streams: linear, quadratic-increment, and doubling-minus-constant.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of three polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-32",
+          "29",
+          "-25",
+          "-71",
+          "-20"
+        ],
+        "case_id": "F092",
+        "check_summary": "Best-fit continuation under a three-phase lagged polynomial rule.",
+        "confidence": 0.16,
+        "rule_summary": "LAGPOLY with phase-specific polynomial increments."
+      },
+      {
+        "answer": [
+          "33",
+          "38",
+          "21",
+          "26",
+          "31"
+        ],
+        "case_id": "F093",
+        "check_summary": "Most differences are +5; every third negative correction decreases by 5.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA with periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "48",
+          "59",
+          "42",
+          "43",
+          "36"
+        ],
+        "case_id": "F094",
+        "check_summary": "Best-fit continuation under a periodic affine/interleaved rule.",
+        "confidence": 0.14,
+        "rule_summary": "Complex periodic recurrence."
+      },
+      {
+        "answer": [
+          "25",
+          "79",
+          "3",
+          "27",
+          "85"
+        ],
+        "case_id": "F095",
+        "check_summary": "Best-fit continuation under a multi-stream polynomial rule.",
+        "confidence": 0.13,
+        "rule_summary": "INTERLEAVE of phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-67",
+          "107",
+          "53",
+          "-123",
+          "159"
+        ],
+        "case_id": "F096",
+        "check_summary": "Three subsequences have polynomially evolving first differences.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of three lagged polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-evolved_champion-G-A20DBD76963B-final-b08-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "5a4feb82752fe139f3ddc3f5e4a3a2d383e077884e698fa5be6b455df7558da9",
+  "terminal_artifact_relpath": "jobs/final-evolved_champion-G-A20DBD76963B-final-b08-proposer-7/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "961",
+          "1921",
+          "3841",
+          "7681",
+          "15361"
+        ],
+        "case_id": "S025",
+        "check_summary": "Pattern inferred from phase-structured growth.",
+        "confidence": 0.28,
+        "rule_summary": "Periodic phase-dependent recurrence."
+      },
+      {
+        "answer": [
+          "-50",
+          "-71",
+          "-73",
+          "-100",
+          "-104"
+        ],
+        "case_id": "S026",
+        "check_summary": "Irregular prefix suggests phase-specific lagged updates.",
+        "confidence": 0.12,
+        "rule_summary": "Lagged phase-polynomial mechanism."
+      },
+      {
+        "answer": [
+          "-13",
+          "-21",
+          "-32",
+          "-43",
+          "-57"
+        ],
+        "case_id": "S027",
+        "check_summary": "Successive differences occur in pairs and decrease by 3.",
+        "confidence": 0.98,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-944",
+          "-1511",
+          "-2417",
+          "-3868",
+          "-6189"
+        ],
+        "case_id": "S028",
+        "check_summary": "Late prefix follows approximately 1.6x growth with negative values.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "797159",
+          "2391482",
+          "7174451",
+          "21523358",
+          "64570079"
+        ],
+        "case_id": "S029",
+        "check_summary": "Each term equals three times the previous term plus five.",
+        "confidence": 1,
+        "rule_summary": "AFFINE: x(n+1)=3x(n)+5."
+      },
+      {
+        "answer": [
+          "-56",
+          "-61",
+          "-65",
+          "-70",
+          "-74"
+        ],
+        "case_id": "S030",
+        "check_summary": "Differences alternate -5 and -4.",
+        "confidence": 1,
+        "rule_summary": "Periodic delta update."
+      },
+      {
+        "answer": [
+          "1872",
+          "3215",
+          "5348",
+          "8549",
+          "13152"
+        ],
+        "case_id": "S031",
+        "check_summary": "Finite differences show constant fifth difference 5.",
+        "confidence": 0.99,
+        "rule_summary": "POLY: degree-five integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-140903",
+          "-281802",
+          "563609",
+          "1127222",
+          "-2254439"
+        ],
+        "case_id": "S032",
+        "check_summary": "Alternating affine updates use multipliers -2 and 2 with biases 5 and 4.",
+        "confidence": 1,
+        "rule_summary": "AFFINE periodic phase recurrence."
+      },
+      {
+        "answer": [
+          "-205",
+          "-240",
+          "-273",
+          "-313",
+          "-351"
+        ],
+        "case_id": "S033",
+        "check_summary": "Odd and even subsequences have linearly changing differences.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE: two quadratic streams."
+      },
+      {
+        "answer": [
+          "-99759059",
+          "-299277165",
+          "-897831497",
+          "2693494495",
+          "8080483491"
+        ],
+        "case_id": "S034",
+        "check_summary": "Three-phase signed multiplier pattern with biases 4, 6, and -2.",
+        "confidence": 1,
+        "rule_summary": "AFFINE periodic phase recurrence."
+      },
+      {
+        "answer": [
+          "1112",
+          "1614",
+          "2316",
+          "3261",
+          "4496"
+        ],
+        "case_id": "S035",
+        "check_summary": "Finite differences indicate a polynomial continuation.",
+        "confidence": 0.94,
+        "rule_summary": "POLY: higher-degree polynomial."
+      },
+      {
+        "answer": [
+          "1025",
+          "1343",
+          "1720",
+          "2161",
+          "2671"
+        ],
+        "case_id": "S036",
+        "check_summary": "Second differences increase by five each step after initialization.",
+        "confidence": 0.99,
+        "rule_summary": "POLY: quartic sequence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-A5C4CF71B956-search-b03-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "31c6c20ff2d79a8cc2d675503d6d62d08eae2bf095dcaf25fb49cabbff16ac0a",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-A5C4CF71B956-search-b03-proposer-4/attempt-01"
+}

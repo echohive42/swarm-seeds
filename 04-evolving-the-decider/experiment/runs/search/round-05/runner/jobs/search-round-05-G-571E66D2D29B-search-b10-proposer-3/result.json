@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "6",
+          "-30",
+          "24",
+          "32",
+          "36"
+        ],
+        "case_id": "S109",
+        "check_summary": "Phase-wise periodic extrapolation from the repeated six-position structure.",
+        "confidence": 0.22,
+        "rule_summary": "Periodic phase updates."
+      },
+      {
+        "answer": [
+          "12",
+          "5",
+          "-12",
+          "-2",
+          "-2"
+        ],
+        "case_id": "S110",
+        "check_summary": "Six-phase recurrence with phase-specific continuation.",
+        "confidence": 0.76,
+        "rule_summary": "Periodic polynomial phase deltas."
+      },
+      {
+        "answer": [
+          "81",
+          "96",
+          "111",
+          "126",
+          "141"
+        ],
+        "case_id": "S111",
+        "check_summary": "Interleaved arithmetic-growth continuation.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "1",
+          "-6",
+          "-7",
+          "59",
+          "-5"
+        ],
+        "case_id": "S112",
+        "check_summary": "Periodic phase recurrence extrapolation.",
+        "confidence": 0.15,
+        "rule_summary": "Phase-specific affine updates."
+      },
+      {
+        "answer": [
+          "18",
+          "-9",
+          "56",
+          "-14",
+          "62"
+        ],
+        "case_id": "S113",
+        "check_summary": "Seven-phase interleaved continuation.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic phase updates."
+      },
+      {
+        "answer": [
+          "-25",
+          "-15",
+          "-26",
+          "-1123",
+          "-27"
+        ],
+        "case_id": "S114",
+        "check_summary": "Alternating phase recurrence extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "42",
+          "82",
+          "29",
+          "9",
+          "19"
+        ],
+        "case_id": "S115",
+        "check_summary": "Growing arithmetic-block continuation.",
+        "confidence": 0.38,
+        "rule_summary": "Growing blocks with polynomial starts and steps."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd and even subsequences are independently arithmetic.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "42",
+          "8",
+          "67",
+          "75",
+          "14"
+        ],
+        "case_id": "S117",
+        "check_summary": "Interleaved stream extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "0",
+          "28",
+          "23",
+          "18",
+          "13"
+        ],
+        "case_id": "S118",
+        "check_summary": "Periodic multi-phase continuation.",
+        "confidence": 0.12,
+        "rule_summary": "Phase-specific affine updates."
+      },
+      {
+        "answer": [
+          "12",
+          "82",
+          "4",
+          "24",
+          "88"
+        ],
+        "case_id": "S119",
+        "check_summary": "Interleaved phase continuation.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic polynomial streams."
+      },
+      {
+        "answer": [
+          "67",
+          "55",
+          "43",
+          "31",
+          "163"
+        ],
+        "case_id": "S120",
+        "check_summary": "Periodic affine phase extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Phase-specific affine updates."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-571E66D2D29B-search-b10-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "79c8c0d720c33a9571f4151d1c9bbb1f7ebeb6b9960085d6f5dedf630ed0d385",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-571E66D2D29B-search-b10-proposer-3/attempt-01"
+}

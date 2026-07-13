@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "24",
+          "9",
+          "36",
+          "-7",
+          "50"
+        ],
+        "case_id": "S109",
+        "check_summary": "Three candidates agree exactly and identify a coherent two-stream continuation.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: quadratic odd-position stream with alternating even-position stream."
+      },
+      {
+        "answer": [
+          "12",
+          "5",
+          "-12",
+          "-2",
+          "7"
+        ],
+        "case_id": "S110",
+        "check_summary": "Two candidates agree and provide the strongest phase-consistent continuation.",
+        "confidence": 0.88,
+        "rule_summary": "Periodic six-phase affine/interleaved update."
+      },
+      {
+        "answer": [
+          "52",
+          "71",
+          "90",
+          "109",
+          "128"
+        ],
+        "case_id": "S111",
+        "check_summary": "Highest-confidence candidate identifies a growing arithmetic-block continuation.",
+        "confidence": 0.68,
+        "rule_summary": "GROWBLOCK with successive arithmetic blocks."
+      },
+      {
+        "answer": [
+          "3",
+          "1",
+          "19",
+          "3",
+          "1"
+        ],
+        "case_id": "S112",
+        "check_summary": "Highest-confidence candidate gives a coherent three-stream continuation.",
+        "confidence": 0.74,
+        "rule_summary": "INTERLEAVE of three phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "60",
+          "-4",
+          "66",
+          "-2",
+          "91"
+        ],
+        "case_id": "S113",
+        "check_summary": "Strongest coherent candidate among otherwise weak and divergent interleaved extrapolations.",
+        "confidence": 0.24,
+        "rule_summary": "INTERLEAVE of multiple polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-24",
+          "-227",
+          "-24",
+          "453",
+          "-26"
+        ],
+        "case_id": "S114",
+        "check_summary": "Highest-confidence candidate follows the observed large alternating phase excursions.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic phase-dependent affine/polynomial recurrence."
+      },
+      {
+        "answer": [
+          "-97",
+          "-44",
+          "41",
+          "121",
+          "-263"
+        ],
+        "case_id": "S115",
+        "check_summary": "Highest-confidence candidate explicitly fits each phase stream with quadratic trends.",
+        "confidence": 0.42,
+        "rule_summary": "Four interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "All candidates agree; odd and even subsequences are exact arithmetic progressions.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-97",
+          "-44",
+          "41",
+          "121",
+          "-263"
+        ],
+        "case_id": "S117",
+        "check_summary": "Highest-confidence candidate provides the only comparatively structured multi-stream extrapolation.",
+        "confidence": 0.35,
+        "rule_summary": "Four interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "13",
+          "36",
+          "31",
+          "26",
+          "21"
+        ],
+        "case_id": "S118",
+        "check_summary": "Strong plurality identifies rising positive jumps interspersed with repeated -5 deltas.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with periodic -5 phases and increasing positive jump phases."
+      },
+      {
+        "answer": [
+          "82",
+          "13",
+          "3",
+          "103",
+          "108"
+        ],
+        "case_id": "S119",
+        "check_summary": "Selected as the strongest coherent phase-stream continuation among divergent low-confidence candidates.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE of three phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "166",
+          "149",
+          "132",
+          "115",
+          "98"
+        ],
+        "case_id": "S120",
+        "check_summary": "Highest-confidence candidate matches the visible block starts and repeated within-block decrement pattern.",
+        "confidence": 0.97,
+        "rule_summary": "GROWBLOCK with polynomial starts and repeated negative steps."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-E2ACA04030E1-search-b10-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "51b059b0902e4b2881c8130d56c4d7ac05701a02a7b9ebaedf83426c4414f774",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-E2ACA04030E1-search-b10-judge-2/attempt-01"
+}

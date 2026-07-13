@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-23",
+          "-15",
+          "-46"
+        ],
+        "case_id": "S061",
+        "check_summary": "Tentative periodic-delta extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-18",
+          "-7",
+          "-8",
+          "38",
+          "-41"
+        ],
+        "case_id": "S062",
+        "check_summary": "Tentative phase-interleaved extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-12",
+          "-6",
+          "-13",
+          "-2",
+          "-21"
+        ],
+        "case_id": "S063",
+        "check_summary": "Tentative periodic affine extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-1000",
+          "-500",
+          "-1800",
+          "-900",
+          "-3000"
+        ],
+        "case_id": "S064",
+        "check_summary": "Tentative growing-block extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd and even positions are independent arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-20",
+          "47",
+          "-28",
+          "68",
+          "-36"
+        ],
+        "case_id": "S066",
+        "check_summary": "Tentative phase-interleaved extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-177",
+          "-206",
+          "-205",
+          "-236",
+          "-255"
+        ],
+        "case_id": "S067",
+        "check_summary": "Tentative growing-block continuation.",
+        "confidence": 0.08,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-36",
+          "-58",
+          "16",
+          "11",
+          "-59"
+        ],
+        "case_id": "S068",
+        "check_summary": "Four phase streams fit short quadratic continuations.",
+        "confidence": 0.28,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "17",
+          "-21",
+          "21",
+          "26",
+          "-32"
+        ],
+        "case_id": "S069",
+        "check_summary": "Three position-modulo-3 quadratic streams.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "0",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd stream alternates -3,0; even stream has arithmetic second differences.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "4",
+          "-22",
+          "70",
+          "-5",
+          "-29"
+        ],
+        "case_id": "S071",
+        "check_summary": "Tentative phase-interleaved extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "3",
+          "-16",
+          "-20",
+          "-24",
+          "-28"
+        ],
+        "case_id": "S072",
+        "check_summary": "Four phase streams show quadratic continuation.",
+        "confidence": 0.72,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-1EB09860ED89-search-b06-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "76a61113a3671dbe07d3cbca656c57a571d7e263262660e9cd7c2028b4869425",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-1EB09860ED89-search-b06-proposer-6/attempt-01"
+}

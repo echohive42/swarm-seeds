@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Four interleaved affine streams with multiplier -4 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: four streams, each next difference is -4 times its prior difference."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments +4,+5 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA: periodic deltas 4,5."
+      },
+      {
+        "answer": [
+          "-1908",
+          "-3894",
+          "-6726",
+          "-10642",
+          "-15926"
+        ],
+        "case_id": "S171",
+        "check_summary": "Finite differences have constant fifth difference -4.",
+        "confidence": 0.99,
+        "rule_summary": "POLY: degree-5 integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2216",
+          "2553",
+          "2905"
+        ],
+        "case_id": "S172",
+        "check_summary": "Third differences descend by one, extending the polynomial difference table.",
+        "confidence": 0.98,
+        "rule_summary": "POLY: finite-difference continuation."
+      },
+      {
+        "answer": [
+          "-109",
+          "-90",
+          "-50",
+          "20",
+          "130"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences increase consecutively from -4 through +5.",
+        "confidence": 0.99,
+        "rule_summary": "POLY: finite-difference continuation."
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18815",
+          "-30443"
+        ],
+        "case_id": "S174",
+        "check_summary": "Each term equals the prior two-term sum plus repeating bias -2,-2,3.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2: x_n=x_{n-1}+x_{n-2}+phase bias."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97904821"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating affine updates replay the observed sign and growth pattern.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE: alternating updates 3x+1 and -2x+6."
+      },
+      {
+        "answer": [
+          "77",
+          "62",
+          "68",
+          "71",
+          "79"
+        ],
+        "case_id": "S176",
+        "check_summary": "Continuation inferred from the interleaved phase streams.",
+        "confidence": 0.42,
+        "rule_summary": "INTERLEAVE: phase-specific low-order streams."
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3436997"
+        ],
+        "case_id": "S177",
+        "check_summary": "Repeating affine phase updates replay all transitions.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE: phase cycle 2x-7, -2x-9, 2x+9."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE: x_n=2x_{n-1}."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "The six-term cycle repeats exactly.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA/periodic sequence: period 6."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd and even transition differences each decrease linearly with separate slopes.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: transition deltas follow odd-position -7 slope and even-position -6 slope."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-B6BC6FB624BA-search-b15-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "ff5c481a247272f723c6734f5c8bfc9b965cc954bcba31d9e7d581078341134c",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-B6BC6FB624BA-search-b15-proposer-5/attempt-01"
+}

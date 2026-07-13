@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b05",
+    "results": [
+      {
+        "answer": [
+          "-125",
+          "-143",
+          "-244",
+          "-163",
+          "-177"
+        ],
+        "case_id": "V049",
+        "check_summary": "Grouped first differences follow quadratic phase patterns.",
+        "confidence": 0.86,
+        "rule_summary": "PDELTA with period-3 polynomial first differences."
+      },
+      {
+        "answer": [
+          "-37011",
+          "74020",
+          "-148051",
+          "296132",
+          "-592275"
+        ],
+        "case_id": "V050",
+        "check_summary": "Alternating affine growth pattern extrapolated.",
+        "confidence": 0.32,
+        "rule_summary": "AFFINE with phase-dependent updates."
+      },
+      {
+        "answer": [
+          "-9498",
+          "-13634",
+          "-18360",
+          "-24041",
+          "-31102"
+        ],
+        "case_id": "V051",
+        "check_summary": "Exponential-like lagged growth extrapolated from terminal trend.",
+        "confidence": 0.18,
+        "rule_summary": "LIN2 or LAGPOLY candidate."
+      },
+      {
+        "answer": [
+          "-14217",
+          "14218",
+          "-42648",
+          "42649",
+          "-127941"
+        ],
+        "case_id": "V052",
+        "check_summary": "Odd terms update by 3x-5; even terms by 3x+3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "151",
+          "167",
+          "179",
+          "221",
+          "240"
+        ],
+        "case_id": "V053",
+        "check_summary": "Differences split into three arithmetic phase streams.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-3 linear deltas."
+      },
+      {
+        "answer": [
+          "-49205",
+          "-118730",
+          "-286437",
+          "-690918",
+          "-1667068"
+        ],
+        "case_id": "V054",
+        "check_summary": "Terminal ratios suggest phase-affine exponential continuation.",
+        "confidence": 0.21,
+        "rule_summary": "AFFINE with phase-dependent multiplier/bias."
+      },
+      {
+        "answer": [
+          "1613",
+          "-2623",
+          "4181",
+          "-6915",
+          "11467"
+        ],
+        "case_id": "V055",
+        "check_summary": "Alternating subsequences extrapolated by observed multiplicative growth.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE of affine streams."
+      },
+      {
+        "answer": [
+          "-37840",
+          "113525",
+          "227054",
+          "-227056",
+          "681173"
+        ],
+        "case_id": "V056",
+        "check_summary": "Three-phase identities b=2a+4, c=-b-2, next a=3(-c)+5.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK/INTERLEAVE with period-3 affine updates."
+      },
+      {
+        "answer": [
+          "-25",
+          "-30",
+          "-28",
+          "-33",
+          "-31"
+        ],
+        "case_id": "V057",
+        "check_summary": "Both alternating phase streams decrement by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "5048689",
+          "15146068",
+          "45438205",
+          "136314616",
+          "408943849"
+        ],
+        "case_id": "V058",
+        "check_summary": "Each term equals three times the previous term plus one.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE update x'=3x+1."
+      },
+      {
+        "answer": [
+          "292",
+          "399",
+          "528",
+          "681",
+          "860"
+        ],
+        "case_id": "V059",
+        "check_summary": "Second differences continue with increments of 2.",
+        "confidence": 0.99,
+        "rule_summary": "POLY with quartic finite-difference structure."
+      },
+      {
+        "answer": [
+          "-4467",
+          "-5931",
+          "-7725",
+          "-11689",
+          "-16078"
+        ],
+        "case_id": "V060",
+        "check_summary": "Third differences continue decreasing by 3.",
+        "confidence": 0.95,
+        "rule_summary": "POLY with finite differences."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-E2CB7ED71793-validation-b05-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "20861c589d585f398025a6ebc55b23151386b58f6b0f706a64b312d0c213dfb0",
+  "terminal_artifact_relpath": "jobs/validation-G-E2CB7ED71793-validation-b05-proposer-2/attempt-01"
+}

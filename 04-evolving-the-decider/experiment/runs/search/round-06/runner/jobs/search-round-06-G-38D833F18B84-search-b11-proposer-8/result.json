@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b11",
+    "results": [
+      {
+        "answer": [
+          "3454367",
+          "-10363101",
+          "31089305",
+          "-93267913",
+          "279803741"
+        ],
+        "case_id": "S121",
+        "check_summary": "Constant affine recurrence x'=-3x+2.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "37",
+          "39",
+          "43",
+          "45",
+          "49"
+        ],
+        "case_id": "S122",
+        "check_summary": "Alternating interleaved arithmetic streams.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "146745",
+          "-440244",
+          "-880487",
+          "-1760967",
+          "5282892"
+        ],
+        "case_id": "S123",
+        "check_summary": "Three-phase affine cycle replayed from the prefix.",
+        "confidence": 0.88,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-49151",
+          "-98305",
+          "196609",
+          "393215",
+          "-786431"
+        ],
+        "case_id": "S124",
+        "check_summary": "Alternating affine updates x'=-2x-1 and x'=2x-3.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "2005",
+          "2879",
+          "3960",
+          "5278",
+          "6865"
+        ],
+        "case_id": "S125",
+        "check_summary": "Polynomial finite differences continue with linear fourth differences.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-19014",
+          "-27503",
+          "-38774",
+          "-53461",
+          "-72288"
+        ],
+        "case_id": "S126",
+        "check_summary": "Finite-difference extrapolation with linear fourth differences.",
+        "confidence": 0.97,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-136",
+          "-183",
+          "-181",
+          "-235",
+          "-232"
+        ],
+        "case_id": "S127",
+        "check_summary": "Interleaved difference streams continue with odd increments and even decrements.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-169",
+          "-160",
+          "-152",
+          "-137",
+          "-123"
+        ],
+        "case_id": "S128",
+        "check_summary": "Paired difference pattern repeats with alternating increments.",
+        "confidence": 0.94,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "593",
+          "858",
+          "1289",
+          "1882",
+          "2740"
+        ],
+        "case_id": "S129",
+        "check_summary": "Lagged recurrence pattern in successive differences.",
+        "confidence": 0.91,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "1029",
+          "1256",
+          "1506",
+          "1782",
+          "2087"
+        ],
+        "case_id": "S130",
+        "check_summary": "Second differences increase arithmetically.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "86",
+          "77",
+          "114",
+          "91",
+          "142"
+        ],
+        "case_id": "S131",
+        "check_summary": "Two interleaved streams extrapolated from their alternating difference patterns.",
+        "confidence": 0.56,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "1698179",
+          "4099766",
+          "9897709",
+          "23995190",
+          "57788091"
+        ],
+        "case_id": "S132",
+        "check_summary": "Periodic-correction second-order linear recurrence extrapolated from the final cycle.",
+        "confidence": 0.83,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-38D833F18B84-search-b11-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "d5fdfdbbdec561dc4b89ddd273784ea139946cc1508d09d678b0ce0a2dddd465",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-38D833F18B84-search-b11-proposer-8/attempt-01"
+}

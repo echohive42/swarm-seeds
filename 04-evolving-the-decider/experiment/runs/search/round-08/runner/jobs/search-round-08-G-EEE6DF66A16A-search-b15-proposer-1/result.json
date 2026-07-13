@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "-351",
+          "-455",
+          "-279",
+          "265",
+          "1081"
+        ],
+        "case_id": "S169",
+        "check_summary": "Exact replay is consistent with a periodic polynomial-delta pattern; extrapolation is lower confidence.",
+        "confidence": 0.34,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments +4,+5 replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-2230",
+          "-3506",
+          "-5402",
+          "-8076",
+          "-11724"
+        ],
+        "case_id": "S171",
+        "check_summary": "Finite-difference replay gives constant fourth-difference progression in the tail.",
+        "confidence": 0.82,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Fourth finite difference is constant -1.",
+        "confidence": 0.99,
+        "rule_summary": "Quartic polynomial."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences continue with successive increments of 1.",
+        "confidence": 0.97,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "-4439",
+          "-7177",
+          "-11616",
+          "-18792",
+          "-30409"
+        ],
+        "case_id": "S174",
+        "check_summary": "Tail follows a recurring affine-growth pattern; extrapolation is uncertain.",
+        "confidence": 0.31,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-1812914",
+          "5438743",
+          "-10877480",
+          "32632441",
+          "-65264876"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating multipliers -2,-3 with biases +6,+1 replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "67",
+          "64",
+          "72",
+          "71",
+          "77"
+        ],
+        "case_id": "S176",
+        "check_summary": "Interleaved low-degree streams inferred from the visible phase structure.",
+        "confidence": 0.35,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "3437007"
+        ],
+        "case_id": "S177",
+        "check_summary": "Repeating affine cycle (-2,-9),(2,+9),(2,-7) replays the tail exactly.",
+        "confidence": 0.98,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "Six-term period repeats exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic phase-specific update."
+      },
+      {
+        "answer": [
+          "-233",
+          "-267",
+          "-310",
+          "-350",
+          "-400"
+        ],
+        "case_id": "S180",
+        "check_summary": "Alternating difference subsequences continue with decrements of 7 and 6.",
+        "confidence": 0.91,
+        "rule_summary": "Interleaved affine/polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-EEE6DF66A16A-search-b15-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "fe82da1a3a6229165c5084fcf3a623d10de7fb8b082253b40100a41e9ca82b49",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-EEE6DF66A16A-search-b15-proposer-1/attempt-01"
+}

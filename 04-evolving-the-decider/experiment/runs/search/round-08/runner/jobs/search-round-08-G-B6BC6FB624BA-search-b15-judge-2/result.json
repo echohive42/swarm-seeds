@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Proposal plurality and critic agreement support the period-four continuation.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-four phase deltas scaled by -4."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "All but one proposal reproduce the alternating +4,+5 increments.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-two increments +4,+5."
+      },
+      {
+        "answer": [
+          "-1908",
+          "-3894",
+          "-6726",
+          "-10642",
+          "-15926"
+        ],
+        "case_id": "S171",
+        "check_summary": "The finite-difference table supports constant fifth difference -4.",
+        "confidence": 0.99,
+        "rule_summary": "POLY degree-five sequence."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Exact finite differences show constant fourth difference -1.",
+        "confidence": 0.99,
+        "rule_summary": "POLY quartic continuation."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "The observed finite-difference progression continues consistently.",
+        "confidence": 0.99,
+        "rule_summary": "POLY with steadily increasing second differences."
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18815",
+          "-30443"
+        ],
+        "case_id": "S174",
+        "check_summary": "The prefix exactly follows a second-order recurrence with repeating biases.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 with period-three biases -2,-2,+3."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97897621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating updates 3x+1 and -2x+6 replay every transition.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-two updates."
+      },
+      {
+        "answer": [
+          "55",
+          "68",
+          "71",
+          "50",
+          "43"
+        ],
+        "case_id": "S176",
+        "check_summary": "Proposal plurality and critic agreement support the inferred interleaved streams.",
+        "confidence": 0.83,
+        "rule_summary": "INTERLEAVE with four phase-specific streams."
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3436997"
+        ],
+        "case_id": "S177",
+        "check_summary": "Multiple high-confidence proposals and critics agree on the period-three affine cycle.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-three phase updates."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Every term doubles the preceding term.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE multiplier 2, zero bias."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "The visible sequence repeats with period six.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic PDELTA sequence with period six."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "High-confidence plurality and critics agree on the two interleaved difference trends.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two quadratic streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-B6BC6FB624BA-search-b15-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "995fbb715d81e23f4db435f613f1fc48ea5d488ae77c7ddbb62dfb519d4fdc1c",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-B6BC6FB624BA-search-b15-judge-2/attempt-01"
+}

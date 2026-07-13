@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b09",
+    "results": [
+      {
+        "answer": [
+          "-253268",
+          "-759824",
+          "2279512",
+          "-15956504",
+          "-125372600"
+        ],
+        "case_id": "S097",
+        "check_summary": "Alternating first differences each multiply by -6; replay matches prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic phase-specific affine deltas."
+      },
+      {
+        "answer": [
+          "-2433",
+          "-5253",
+          "-10869",
+          "-21573",
+          "-40593"
+        ],
+        "case_id": "S098",
+        "check_summary": "Candidate periodic second-order recurrence inferred from alternating subsequences; extrapolation uncertain.",
+        "confidence": 0.22,
+        "rule_summary": "Periodic second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "-703",
+          "-833",
+          "-959",
+          "-1074",
+          "-1170"
+        ],
+        "case_id": "S099",
+        "check_summary": "Higher differences follow a clear polynomial continuation.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-4915830",
+          "14747487",
+          "-44242464",
+          "132727389",
+          "-398182170"
+        ],
+        "case_id": "S100",
+        "check_summary": "Every step satisfies x_next=-3*x-3.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "-6800",
+          "-10165",
+          "-14559",
+          "-19577",
+          "-24763"
+        ],
+        "case_id": "S101",
+        "check_summary": "Polynomial-difference extrapolation is uncertain from the supplied prefix.",
+        "confidence": 0.18,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "1143",
+          "1477",
+          "1812",
+          "2148",
+          "2485"
+        ],
+        "case_id": "S102",
+        "check_summary": "Second differences increase by 5 each step, with continuation by 50,55,...",
+        "confidence": 1.0,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "142",
+          "138",
+          "131",
+          "127",
+          "123"
+        ],
+        "case_id": "S103",
+        "check_summary": "First differences continue in the repeating four-phase pattern.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-36",
+          "-41",
+          "-44",
+          "-49",
+          "-52"
+        ],
+        "case_id": "S104",
+        "check_summary": "Differences repeat -3,-5.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic phase-specific affine deltas."
+      },
+      {
+        "answer": [
+          "-39990",
+          "39995",
+          "79981",
+          "239946",
+          "-239941"
+        ],
+        "case_id": "S105",
+        "check_summary": "Block structure matches alternating affine block transformations.",
+        "confidence": 0.96,
+        "rule_summary": "Growing/block affine recurrence."
+      },
+      {
+        "answer": [
+          "-1051875",
+          "-2874799",
+          "-7853371",
+          "-21451291",
+          "-58626211"
+        ],
+        "case_id": "S106",
+        "check_summary": "Near-tripling affine pattern extrapolated; exact phase rule uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "20",
+          "25",
+          "35",
+          "48",
+          "62"
+        ],
+        "case_id": "S107",
+        "check_summary": "Interleaved subsequence continuation is uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "25",
+          "36",
+          "50",
+          "62",
+          "75"
+        ],
+        "case_id": "S108",
+        "check_summary": "Interleaved/periodic difference continuation is uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-EC429DE4D50C-search-b09-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "386b9921fdb8101e7dc0ecdce361c9e12cbe4e8d720c07acb5471576794409b1",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-EC429DE4D50C-search-b09-proposer-3/attempt-01"
+}

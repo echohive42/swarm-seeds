@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-120",
+          "19",
+          "36",
+          "-145",
+          "49"
+        ],
+        "case_id": "S037",
+        "check_summary": "Tentative phase-interleaved extrapolation from full prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Possible periodic phase-specific polynomial updates."
+      },
+      {
+        "answer": [
+          "128",
+          "140",
+          "14",
+          "116",
+          "137"
+        ],
+        "case_id": "S038",
+        "check_summary": "Tentative interleaved-stream continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Possible phase-interleaved affine or polynomial streams."
+      },
+      {
+        "answer": [
+          "27",
+          "35",
+          "44",
+          "53",
+          "62"
+        ],
+        "case_id": "S039",
+        "check_summary": "Tentative continuation based on local periodic structure.",
+        "confidence": 0.07,
+        "rule_summary": "Possible periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "100",
+          "63",
+          "109",
+          "78",
+          "124"
+        ],
+        "case_id": "S040",
+        "check_summary": "Tentative growing-block continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Possible growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Alternating arithmetic streams replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-17",
+          "55",
+          "30",
+          "73",
+          "-4"
+        ],
+        "case_id": "S042",
+        "check_summary": "Tentative modular or phase-dependent recurrence.",
+        "confidence": 0.06,
+        "rule_summary": "Possible MODAFFINE mechanism."
+      },
+      {
+        "answer": [
+          "-18",
+          "15",
+          "-78",
+          "-10",
+          "7"
+        ],
+        "case_id": "S043",
+        "check_summary": "Tentative phase-specific extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "Possible interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-17",
+          "-20",
+          "-6",
+          "-19",
+          "-22"
+        ],
+        "case_id": "S044",
+        "check_summary": "Tentative periodic phase continuation.",
+        "confidence": 0.07,
+        "rule_summary": "Possible PDELTA with repeating phases."
+      },
+      {
+        "answer": [
+          "-25",
+          "-8",
+          "18",
+          "91",
+          "-92"
+        ],
+        "case_id": "S045",
+        "check_summary": "Tentative modular recurrence continuation.",
+        "confidence": 0.05,
+        "rule_summary": "Possible MODAFFINE mechanism."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-17",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S046",
+        "check_summary": "Growing arithmetic blocks identified.",
+        "confidence": 0.96,
+        "rule_summary": "GROWBLOCK with block lengths increasing by one and step -5."
+      },
+      {
+        "answer": [
+          "198",
+          "239",
+          "285",
+          "331",
+          "377"
+        ],
+        "case_id": "S047",
+        "check_summary": "Tentative continuation of block/interleaved growth.",
+        "confidence": 0.08,
+        "rule_summary": "Possible GROWBLOCK or interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-21",
+          "12",
+          "-25",
+          "-10",
+          "-49"
+        ],
+        "case_id": "S048",
+        "check_summary": "Four-phase streams show polynomial continuation.",
+        "confidence": 0.87,
+        "rule_summary": "INTERLEAVE of phase-specific polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-C8D08DBE9D9D-search-b04-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "b7d305fc32af0e60faf6db25a35ebb3695d2f3d2c04253bc8e92bbccc84f01b8",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-C8D08DBE9D9D-search-b04-proposer-6/attempt-01"
+}

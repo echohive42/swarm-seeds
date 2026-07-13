@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "4",
+          "71",
+          "-5",
+          "97"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd-position stream has successive increments 0,4,8,12,16; even stream alternates -5 and 4.",
+        "confidence": 0.98,
+        "rule_summary": "Two interleaved streams."
+      },
+      {
+        "answer": [
+          "28",
+          "7",
+          "37",
+          "10",
+          "48"
+        ],
+        "case_id": "S014",
+        "check_summary": "Candidate periodic interleaving fit.",
+        "confidence": 0.18,
+        "rule_summary": "Phase-specific polynomial/interleaved recurrence."
+      },
+      {
+        "answer": [
+          "20",
+          "61",
+          "-25",
+          "52",
+          "58"
+        ],
+        "case_id": "S015",
+        "check_summary": "Three phase streams show polynomial increment patterns.",
+        "confidence": 0.72,
+        "rule_summary": "Three-way interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "70",
+          "-1",
+          "79",
+          "-8",
+          "92"
+        ],
+        "case_id": "S016",
+        "check_summary": "Candidate phase-periodic stream extrapolation.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic polynomial-delta update."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5 and even terms decrease by 4.",
+        "confidence": 1,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-20",
+          "-7",
+          "-31",
+          "-13",
+          "-44"
+        ],
+        "case_id": "S018",
+        "check_summary": "Candidate interleaved recurrence extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "Phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "47",
+          "68",
+          "74",
+          "39",
+          "83"
+        ],
+        "case_id": "S019",
+        "check_summary": "Candidate periodic affine/modular extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-42",
+          "-20",
+          "68",
+          "-38",
+          "-66"
+        ],
+        "case_id": "S020",
+        "check_summary": "Candidate phase-periodic affine extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine/interleaved mechanism."
+      },
+      {
+        "answer": [
+          "-54",
+          "-11",
+          "-70",
+          "-27",
+          "-86"
+        ],
+        "case_id": "S021",
+        "check_summary": "Late prefix exhibits repeated phase-specific differences.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic polynomial-delta update."
+      },
+      {
+        "answer": [
+          "-58",
+          "15",
+          "-91",
+          "30",
+          "-128"
+        ],
+        "case_id": "S022",
+        "check_summary": "Candidate phase-periodic recurrence extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "2",
+          "-41",
+          "-39",
+          "42",
+          "-52"
+        ],
+        "case_id": "S023",
+        "check_summary": "Three residue streams show polynomial difference progression.",
+        "confidence": 0.63,
+        "rule_summary": "Three-way interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-52",
+          "-341",
+          "-60",
+          "-622",
+          "-70"
+        ],
+        "case_id": "S024",
+        "check_summary": "Candidate phase-periodic second-order recurrence extrapolation.",
+        "confidence": 0.11,
+        "rule_summary": "Phase-specific linear recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-B339F5D2F343-search-b02-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "755b087a834f5faa88731e73ce9e25803acac1211e52b6b735e993a1f80be209",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-B339F5D2F343-search-b02-proposer-2/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "-81",
+          "-11",
+          "-39",
+          "-67",
+          "-95"
+        ],
+        "case_id": "S133",
+        "check_summary": "Periodic delta pattern with increasingly long negative runs and polynomial jump increments.",
+        "confidence": 0.42,
+        "rule_summary": "PDELTA/GROWBLOCK-style phased differences."
+      },
+      {
+        "answer": [
+          "-28",
+          "-25",
+          "-22",
+          "-42",
+          "-39"
+        ],
+        "case_id": "S134",
+        "check_summary": "Repeated +3 phase increments with reset deltas decreasing by 3.",
+        "confidence": 0.93,
+        "rule_summary": "PDELTA with phase-specific polynomial reset."
+      },
+      {
+        "answer": [
+          "-14",
+          "35",
+          "-363",
+          "-20",
+          "40"
+        ],
+        "case_id": "S135",
+        "check_summary": "Three interleaved streams: arithmetic phase-1, +5 phase-2, and doubling phase-3.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-5",
+          "-9",
+          "-13",
+          "-27",
+          "-17"
+        ],
+        "case_id": "S136",
+        "check_summary": "Phase-interleaved recurrence inferred from short subsequences.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE/POLY candidate."
+      },
+      {
+        "answer": [
+          "-1020",
+          "13",
+          "-2044",
+          "23",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd subsequence doubles with affine correction; even subsequence has arithmetic second differences.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of affine and polynomial streams."
+      },
+      {
+        "answer": [
+          "-18",
+          "-7",
+          "-20",
+          "-12",
+          "-21"
+        ],
+        "case_id": "S138",
+        "check_summary": "Phase-interleaved continuation inferred from recurring lag structure.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE candidate."
+      },
+      {
+        "answer": [
+          "-2",
+          "42",
+          "-5",
+          "51",
+          "-8"
+        ],
+        "case_id": "S139",
+        "check_summary": "Short-prefix phase continuation inferred from interleaved streams.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE candidate."
+      },
+      {
+        "answer": [
+          "-5",
+          "-4",
+          "-21",
+          "27",
+          "21"
+        ],
+        "case_id": "S140",
+        "check_summary": "Modular/phase pattern continuation inferred from prefix.",
+        "confidence": 0.14,
+        "rule_summary": "MODAFFINE candidate."
+      },
+      {
+        "answer": [
+          "57",
+          "73",
+          "84",
+          "91",
+          "105"
+        ],
+        "case_id": "S141",
+        "check_summary": "Phase-interleaved continuation inferred from recurring subsequence behavior.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE candidate."
+      },
+      {
+        "answer": [
+          "128",
+          "5",
+          "20",
+          "-8",
+          "-28"
+        ],
+        "case_id": "S142",
+        "check_summary": "Period-three subsequence polynomial extrapolation with residual phase continuation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE/POLY candidate."
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "4",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Odd terms decrease by 2; even terms decrease by 1.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-50",
+          "-62",
+          "-74",
+          "-86",
+          "-98"
+        ],
+        "case_id": "S144",
+        "check_summary": "Final phase is a constant-difference arithmetic stream with difference -12.",
+        "confidence": 0.97,
+        "rule_summary": "PDELTA/affine phase continuation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-3373FE74E208-search-b12-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "20fc8eba996102d19380997c3a80fa65005322f661b51885c420eaae5b8fc5e9",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-3373FE74E208-search-b12-proposer-6/attempt-01"
+}

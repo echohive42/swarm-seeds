@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-8",
+          "176",
+          "199",
+          "-416",
+          "-423"
+        ],
+        "case_id": "V013",
+        "check_summary": "Candidate periodic/interleaved extrapolation; uncertain.",
+        "confidence": 0.12,
+        "rule_summary": "Possible phase-interleaved polynomial increments."
+      },
+      {
+        "answer": [
+          "-12",
+          "-11",
+          "-14",
+          "-13",
+          "-16"
+        ],
+        "case_id": "V014",
+        "check_summary": "Fits a slowly descending phase pattern.",
+        "confidence": 0.15,
+        "rule_summary": "Possible periodic phase-specific delta process."
+      },
+      {
+        "answer": [
+          "-28",
+          "-14",
+          "-37",
+          "12",
+          "-47"
+        ],
+        "case_id": "V015",
+        "check_summary": "Alternating subsequence extrapolation; uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "Possible two-stream polynomial/affine interleave."
+      },
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V016",
+        "check_summary": "Odd and even subsequences are exact arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams with steps -4 and +4."
+      },
+      {
+        "answer": [
+          "-22",
+          "-101",
+          "-29",
+          "-197",
+          "-37"
+        ],
+        "case_id": "V017",
+        "check_summary": "Odd stream has successive negative increments; even stream doubles its decrement.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: polynomial odd terms and geometric-difference even terms."
+      },
+      {
+        "answer": [
+          "-8",
+          "62",
+          "-12",
+          "83",
+          "-16"
+        ],
+        "case_id": "V018",
+        "check_summary": "Low-confidence phase extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Possible periodic affine or interleaved stream mechanism."
+      },
+      {
+        "answer": [
+          "-1",
+          "23",
+          "-25",
+          "-2",
+          "34"
+        ],
+        "case_id": "V019",
+        "check_summary": "Three residue streams extrapolate consistently.",
+        "confidence": 0.98,
+        "rule_summary": "Three interleaved streams: alternating constant, descending affine, and quadratic."
+      },
+      {
+        "answer": [
+          "-5",
+          "5",
+          "80",
+          "0",
+          "-10"
+        ],
+        "case_id": "V020",
+        "check_summary": "Low-confidence interleaving extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Possible multi-stream affine or modular-affine mechanism."
+      },
+      {
+        "answer": [
+          "-35",
+          "-15",
+          "-22",
+          "-25",
+          "-36"
+        ],
+        "case_id": "V021",
+        "check_summary": "Low-confidence phase extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Possible three-stream or periodic affine mechanism."
+      },
+      {
+        "answer": [
+          "-134",
+          "-35",
+          "-122",
+          "-67",
+          "-178"
+        ],
+        "case_id": "V022",
+        "check_summary": "Low-confidence modular/phase extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "Possible MODAFFINE or multi-stream periodic recurrence."
+      },
+      {
+        "answer": [
+          "-127",
+          "-156",
+          "-185",
+          "-214",
+          "-243"
+        ],
+        "case_id": "V023",
+        "check_summary": "Recent suffix is an exact arithmetic run with step -29.",
+        "confidence": 0.72,
+        "rule_summary": "Growing arithmetic block with continuation of the observed step."
+      },
+      {
+        "answer": [
+          "-12",
+          "-1",
+          "-6",
+          "-13",
+          "-6"
+        ],
+        "case_id": "V024",
+        "check_summary": "Low-confidence three-phase extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "Possible three-stream polynomial or periodic phase mechanism."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b02-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "ebca891cde992ac6f564f579c35041fce7946a759d480b5029691eb37c23204c",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b02-proposer-3/attempt-01"
+}

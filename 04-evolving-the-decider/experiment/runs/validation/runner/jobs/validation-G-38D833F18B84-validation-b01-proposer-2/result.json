@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b01",
+    "results": [
+      {
+        "answer": [
+          "-1288823",
+          "-3866468",
+          "-7732937",
+          "15465865",
+          "46397596"
+        ],
+        "case_id": "V001",
+        "check_summary": "Alternating affine phase replay.",
+        "confidence": 0.94,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "3200",
+          "5643",
+          "9275",
+          "14290",
+          "20886"
+        ],
+        "case_id": "V002",
+        "check_summary": "Finite-difference continuation.",
+        "confidence": 0.78,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "43",
+          "47",
+          "50",
+          "54",
+          "57"
+        ],
+        "case_id": "V003",
+        "check_summary": "Alternating increments +3,+4.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial delta."
+      },
+      {
+        "answer": [
+          "863605",
+          "-2590822",
+          "7772470",
+          "-23317417",
+          "69952255"
+        ],
+        "case_id": "V004",
+        "check_summary": "Alternating affine update replay.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "1727182",
+          "-5181551",
+          "15544648",
+          "-46633949",
+          "139901842"
+        ],
+        "case_id": "V005",
+        "check_summary": "Constant affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "Affine update."
+      },
+      {
+        "answer": [
+          "-1035",
+          "-2510",
+          "437",
+          "10034",
+          "-1739"
+        ],
+        "case_id": "V006",
+        "check_summary": "Two interleaved affine streams.",
+        "confidence": 0.91,
+        "rule_summary": "Interleaved periodic affine streams."
+      },
+      {
+        "answer": [
+          "-101",
+          "-112",
+          "-137",
+          "-151",
+          "-179"
+        ],
+        "case_id": "V007",
+        "check_summary": "Low-confidence continuation from finite differences.",
+        "confidence": 0.22,
+        "rule_summary": "Likely interleaved or periodic polynomial structure."
+      },
+      {
+        "answer": [
+          "-15043",
+          "-20995",
+          "-28690",
+          "-38463",
+          "-50688"
+        ],
+        "case_id": "V008",
+        "check_summary": "Finite differences with linearly changing fourth differences.",
+        "confidence": 0.9,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-567450",
+          "1374310",
+          "-3330340",
+          "8069547",
+          "-19533370"
+        ],
+        "case_id": "V009",
+        "check_summary": "Low-confidence alternating affine-pattern continuation.",
+        "confidence": 0.19,
+        "rule_summary": "Likely periodic affine update."
+      },
+      {
+        "answer": [
+          "-35",
+          "34",
+          "-56",
+          "91",
+          "-101"
+        ],
+        "case_id": "V010",
+        "check_summary": "Low-confidence interleaved continuation.",
+        "confidence": 0.18,
+        "rule_summary": "Likely interleaved streams."
+      },
+      {
+        "answer": [
+          "-19",
+          "-161",
+          "-33",
+          "-260",
+          "-56"
+        ],
+        "case_id": "V011",
+        "check_summary": "Low-confidence interleaved continuation.",
+        "confidence": 0.2,
+        "rule_summary": "Likely interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-805",
+          "-1035",
+          "-1304",
+          "-1615",
+          "-1971"
+        ],
+        "case_id": "V012",
+        "check_summary": "Quadratic finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-38D833F18B84-validation-b01-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "be17806a00fa1b613a2b647b78c5bb22deef44a2d806a5041f12921c6db7a6f5",
+  "terminal_artifact_relpath": "jobs/validation-G-38D833F18B84-validation-b01-proposer-2/attempt-01"
+}

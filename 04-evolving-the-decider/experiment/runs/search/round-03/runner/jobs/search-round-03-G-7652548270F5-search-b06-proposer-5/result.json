@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "-20",
+          "-22",
+          "-24",
+          "-26",
+          "-28"
+        ],
+        "case_id": "S061",
+        "check_summary": "No uniquely identifiable low-complexity continuation from the supplied prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Underdetermined among registered families."
+      },
+      {
+        "answer": [
+          "-15",
+          "88",
+          "-59",
+          "52",
+          "-103"
+        ],
+        "case_id": "S062",
+        "check_summary": "No uniquely identifiable low-complexity continuation from the supplied prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Underdetermined among registered families."
+      },
+      {
+        "answer": [
+          "86",
+          "82",
+          "70",
+          "66",
+          "54"
+        ],
+        "case_id": "S063",
+        "check_summary": "No uniquely identifiable low-complexity continuation from the supplied prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Underdetermined among registered families."
+      },
+      {
+        "answer": [
+          "-145",
+          "-264",
+          "-507",
+          "-1020",
+          "-2049"
+        ],
+        "case_id": "S064",
+        "check_summary": "No uniquely identifiable low-complexity continuation from the supplied prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Underdetermined among registered families."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd and even positions form arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd stream decreases by 4; even stream increases by 2."
+      },
+      {
+        "answer": [
+          "-5",
+          "152",
+          "-7",
+          "347",
+          "-9"
+        ],
+        "case_id": "S066",
+        "check_summary": "No uniquely identifiable low-complexity continuation from the supplied prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Underdetermined among registered families."
+      },
+      {
+        "answer": [
+          "-81",
+          "-120",
+          "-159",
+          "-198",
+          "-237"
+        ],
+        "case_id": "S067",
+        "check_summary": "Growing negative-delta blocks are apparent; the next block begins after a positive jump.",
+        "confidence": 0.75,
+        "rule_summary": "GROWBLOCK: block lengths increase, negative steps decrease by 8, with polynomial block jumps."
+      },
+      {
+        "answer": [
+          "-19",
+          "64",
+          "40",
+          "16",
+          "-8"
+        ],
+        "case_id": "S068",
+        "check_summary": "Growing blocks have repeated negative steps and increasing polynomial jumps.",
+        "confidence": 0.9,
+        "rule_summary": "GROWBLOCK: negative step is -4,-9,-14,-19,... and block lengths grow by one."
+      },
+      {
+        "answer": [
+          "-2",
+          "7",
+          "-15",
+          "5",
+          "3"
+        ],
+        "case_id": "S069",
+        "check_summary": "No uniquely identifiable low-complexity continuation from the supplied prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Underdetermined among registered families."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "-3",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd positions are constant; even-position differences decrease by successive odd increments.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd stream constant at -3; even stream has second differences -3."
+      },
+      {
+        "answer": [
+          "-4",
+          "-8",
+          "-13",
+          "-19",
+          "-26"
+        ],
+        "case_id": "S071",
+        "check_summary": "No uniquely identifiable low-complexity continuation from the supplied prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Underdetermined among registered families."
+      },
+      {
+        "answer": [
+          "-29",
+          "-16",
+          "-20",
+          "-24",
+          "-28"
+        ],
+        "case_id": "S072",
+        "check_summary": "Differences are -4 except for positive jumps of 1,5,9,13 at progressively spaced positions.",
+        "confidence": 0.92,
+        "rule_summary": "PDELTA/GROWBLOCK: positive-jump locations have increasing gaps and jump values; intervening deltas are -4."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-7652548270F5-search-b06-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "c20a99aa58a4627132670fc2f9d7f1307739890553255515305f69551439147e",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-7652548270F5-search-b06-proposer-5/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-15",
+          "-10",
+          "-5",
+          "-18",
+          "-13"
+        ],
+        "case_id": "S157",
+        "check_summary": "Three interleaved streams become arithmetic after the initial terms.",
+        "confidence": 0.94,
+        "rule_summary": "INTERLEAVE with phase-specific arithmetic streams."
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "-1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Even positions follow increasing second differences; odd positions double with alternating sign.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of polynomial and affine streams."
+      },
+      {
+        "answer": [
+          "60",
+          "-3",
+          "85",
+          "-2",
+          "116"
+        ],
+        "case_id": "S159",
+        "check_summary": "No stable low-complexity continuation identified; extrapolated from recent phase structure.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative periodic polynomial continuation."
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Even positions increase by 2 and odd positions increase by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-10",
+          "39",
+          "7",
+          "-11",
+          "56"
+        ],
+        "case_id": "S161",
+        "check_summary": "Three phase streams show arithmetic or quadratic increment patterns.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE of phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "20",
+          "135",
+          "13",
+          "19",
+          "183"
+        ],
+        "case_id": "S162",
+        "check_summary": "Continuation inferred from tentative phase-wise increment patterns.",
+        "confidence": 0.14,
+        "rule_summary": "Tentative PDELTA with periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "5",
+          "5",
+          "-362",
+          "6",
+          "-730"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams: descending triangular values, ascending integers, and a doubling-minus-constant stream.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of polynomial and affine streams."
+      },
+      {
+        "answer": [
+          "42",
+          "67",
+          "72",
+          "83",
+          "96"
+        ],
+        "case_id": "S164",
+        "check_summary": "No stable low-complexity continuation identified; extrapolated from recent values.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative periodic polynomial continuation."
+      },
+      {
+        "answer": [
+          "-23",
+          "10",
+          "29",
+          "-61",
+          "41"
+        ],
+        "case_id": "S165",
+        "check_summary": "Continuation inferred from tentative phase-wise patterns.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative INTERLEAVE/PDELTA continuation."
+      },
+      {
+        "answer": [
+          "19",
+          "135",
+          "13",
+          "19",
+          "183"
+        ],
+        "case_id": "S166",
+        "check_summary": "One phase alternates, one has quadratic increments, and the remaining phase is extrapolated.",
+        "confidence": 0.2,
+        "rule_summary": "Tentative INTERLEAVE of phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-48",
+          "-47",
+          "-68",
+          "-65",
+          "-88"
+        ],
+        "case_id": "S167",
+        "check_summary": "No stable low-complexity continuation identified; extrapolated from recent phase behavior.",
+        "confidence": 0.09,
+        "rule_summary": "Tentative periodic polynomial continuation."
+      },
+      {
+        "answer": [
+          "98",
+          "122",
+          "146",
+          "170",
+          "194"
+        ],
+        "case_id": "S168",
+        "check_summary": "The final observed run is an arithmetic progression with common difference 24.",
+        "confidence": 0.88,
+        "rule_summary": "GROWBLOCK or affine continuation with step 24."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-B6D67789C6A8-search-b14-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "bf13117058ea0a9f20f26c0db807a2ffdffaedf1ea280df05573479e25a50dcf",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-B6D67789C6A8-search-b14-proposer-4/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-26",
+          "-22",
+          "-29",
+          "-26",
+          "-32"
+        ],
+        "case_id": "S181",
+        "check_summary": "No stable low-complexity continuation isolated from the prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative interleaved/periodic continuation."
+      },
+      {
+        "answer": [
+          "-5",
+          "37",
+          "-2",
+          "-8",
+          "49"
+        ],
+        "case_id": "S182",
+        "check_summary": "Prefix admits several competing phase-based fits.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative periodic affine/interleaved continuation."
+      },
+      {
+        "answer": [
+          "0",
+          "-5",
+          "18",
+          "13",
+          "8"
+        ],
+        "case_id": "S183",
+        "check_summary": "Differences show repeated -5 deltas with triangularly spaced positive corrections of 3,8,13,18,23.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with -5 baseline and positive corrections at triangular phase positions."
+      },
+      {
+        "answer": [
+          "-14",
+          "-1003",
+          "-14",
+          "-22",
+          "2027"
+        ],
+        "case_id": "S184",
+        "check_summary": "No unique simple phase recurrence confidently identified.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative periodic affine/LIN2 continuation."
+      },
+      {
+        "answer": [
+          "68",
+          "-2",
+          "91",
+          "-2",
+          "117"
+        ],
+        "case_id": "S185",
+        "check_summary": "Odd subsequence increments are 5,8,11,14,17; even subsequence alternates 3,-2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of a quadratic odd stream and alternating even stream."
+      },
+      {
+        "answer": [
+          "-25",
+          "-80",
+          "7",
+          "-54",
+          "-101"
+        ],
+        "case_id": "S186",
+        "check_summary": "No stable low-complexity continuation isolated from the prefix.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative phase-interleaved continuation."
+      },
+      {
+        "answer": [
+          "-107",
+          "30",
+          "28",
+          "-149",
+          "32"
+        ],
+        "case_id": "S187",
+        "check_summary": "Three phase streams: differences -7,-14,-21,-28; +6,+5,+4; and increments doubling after an initial -5,1,7 pattern.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of polynomial phase streams."
+      },
+      {
+        "answer": [
+          "-19",
+          "-36",
+          "-53",
+          "-70",
+          "-87"
+        ],
+        "case_id": "S188",
+        "check_summary": "Negative delta runs have magnitudes 9,11,13,15 with run lengths 1,2,3,4; next run predicts magnitude 17.",
+        "confidence": 0.91,
+        "rule_summary": "GROWBLOCK/PDELTA with increasing negative runs and periodic positive block starts."
+      },
+      {
+        "answer": [
+          "-26",
+          "-22",
+          "-29",
+          "-26",
+          "-32"
+        ],
+        "case_id": "S189",
+        "check_summary": "Odd terms decrement by 3 and even terms decrement by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-7",
+          "-10",
+          "43",
+          "-39",
+          "-28"
+        ],
+        "case_id": "S190",
+        "check_summary": "Prefix does not expose a unique simple mechanism.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative interleaved continuation."
+      },
+      {
+        "answer": [
+          "-14",
+          "-11",
+          "69",
+          "-25",
+          "-18"
+        ],
+        "case_id": "S191",
+        "check_summary": "No stable low-complexity continuation isolated from the prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative phase-based continuation."
+      },
+      {
+        "answer": [
+          "-37",
+          "19",
+          "220",
+          "-46",
+          "26"
+        ],
+        "case_id": "S192",
+        "check_summary": "Three phase streams: first decrements by successive integers, second increases by 7, third doubles its increments.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of polynomial and exponential-looking phase streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-6F217370BF07-search-b16-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "e9672214185adbbc4588d1440f42a2b8908d29c26fc254909d67568f7a1599ff",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-6F217370BF07-search-b16-proposer-1/attempt-01"
+}

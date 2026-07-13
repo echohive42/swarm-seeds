@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+
+# Local preflight and smoke runs are not scored experiment evidence.
+/experiment/runs/preflight/
+/experiment/runs/smoke/
+/experiment/runs/smoke-unsandboxed/
+
+# Keep prompts, sanitized commands, attempt ledgers, last messages, parsed
+# results, retries, and failures. Exclude only ephemeral process diagnostics.
+**/.run.lock
+**/events.jsonl
+**/process.json
+**/stderr.txt
+**/transport_result.json

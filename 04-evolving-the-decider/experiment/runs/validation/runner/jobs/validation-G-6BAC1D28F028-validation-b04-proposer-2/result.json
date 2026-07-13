@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "-425",
+          "-65",
+          "855",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Odd-position subsequence decreases by successive integers; even-position subsequence follows x↦-2x+5.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: arithmetic quadratic odd stream and affine even stream."
+      },
+      {
+        "answer": [
+          "-17",
+          "7",
+          "31",
+          "55",
+          "79"
+        ],
+        "case_id": "V038",
+        "check_summary": "Observed repeated positive phase increments with increasingly negative reset jumps.",
+        "confidence": 0.72,
+        "rule_summary": "Periodic phase-specific polynomial-delta process."
+      },
+      {
+        "answer": [
+          "-198",
+          "96",
+          "-324",
+          "192",
+          "-450"
+        ],
+        "case_id": "V039",
+        "check_summary": "Alternating multi-phase recurrence inferred from the oscillatory prefix.",
+        "confidence": 0.24,
+        "rule_summary": "Phase-periodic affine/linear recurrence."
+      },
+      {
+        "answer": [
+          "26",
+          "30",
+          "18",
+          "22",
+          "26"
+        ],
+        "case_id": "V040",
+        "check_summary": "Repeated +4 runs with periodic downward corrections.",
+        "confidence": 0.52,
+        "rule_summary": "Periodic phase-specific delta sequence."
+      },
+      {
+        "answer": [
+          "-42",
+          "91",
+          "-93",
+          "99",
+          "-144"
+        ],
+        "case_id": "V041",
+        "check_summary": "Noisy modular phase pattern inferred from the bounded integer prefix.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic affine update modulo a prime."
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Odd positions increase by 2; even positions decrease by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-31",
+          "-70",
+          "-21",
+          "-91",
+          "-26"
+        ],
+        "case_id": "V043",
+        "check_summary": "Irregular interleaved subsequences suggest phase-specific polynomial updates.",
+        "confidence": 0.18,
+        "rule_summary": "Lagged phase-specific polynomial process."
+      },
+      {
+        "answer": [
+          "-72",
+          "-75",
+          "-97",
+          "-101",
+          "-122"
+        ],
+        "case_id": "V044",
+        "check_summary": "Alternating subsequences exhibit nonlinear phase-dependent changes.",
+        "confidence": 0.19,
+        "rule_summary": "Two-stream interleave with polynomial components."
+      },
+      {
+        "answer": [
+          "-18",
+          "31",
+          "-29",
+          "52",
+          "-2"
+        ],
+        "case_id": "V045",
+        "check_summary": "Bounded irregular oscillation indicates a modular or phase-affine mechanism.",
+        "confidence": 0.15,
+        "rule_summary": "Periodic affine update modulo a prime."
+      },
+      {
+        "answer": [
+          "-60",
+          "-18",
+          "34",
+          "-75",
+          "-48"
+        ],
+        "case_id": "V046",
+        "check_summary": "Oscillatory values are consistent with a phase-periodic second-order update.",
+        "confidence": 0.16,
+        "rule_summary": "Second-order linear recurrence with repeating phase bias."
+      },
+      {
+        "answer": [
+          "-3",
+          "28",
+          "-7",
+          "42",
+          "-11"
+        ],
+        "case_id": "V047",
+        "check_summary": "Interleaved subsequences show nonuniform polynomial/affine behavior.",
+        "confidence": 0.15,
+        "rule_summary": "Multi-stream interleave."
+      },
+      {
+        "answer": [
+          "-42",
+          "28",
+          "-52",
+          "35",
+          "-48"
+        ],
+        "case_id": "V048",
+        "check_summary": "Alternating streams exhibit bounded nonlinear phase behavior.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic affine or interleaved modular mechanism."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b04-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "7bee21d125be7465535cde91f97bd229616336ed20fe07c91a65dcbf022d663e",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b04-proposer-2/attempt-01"
+}

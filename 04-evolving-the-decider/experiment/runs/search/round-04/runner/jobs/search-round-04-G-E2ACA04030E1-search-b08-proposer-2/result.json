@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "11",
+          "14",
+          "17",
+          "20",
+          "23"
+        ],
+        "case_id": "S085",
+        "check_summary": "Periodic increment pattern with recurring +3 runs and decreasing reset deltas.",
+        "confidence": 0.93,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "39",
+          "28",
+          "55",
+          "44",
+          "71"
+        ],
+        "case_id": "S086",
+        "check_summary": "Noisy phase-repeating affine/modular continuation inferred from prefix.",
+        "confidence": 0.18,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-44",
+          "-54",
+          "-64",
+          "-74",
+          "-84"
+        ],
+        "case_id": "S087",
+        "check_summary": "Final visible arithmetic block has constant step -10.",
+        "confidence": 0.76,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Two interleaved arithmetic streams: even-position stream +5 and odd-position stream -1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-51",
+          "105",
+          "-87",
+          "150",
+          "-123"
+        ],
+        "case_id": "S089",
+        "check_summary": "Phase-structured interleaved continuation inferred from alternating subsequences.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "13",
+          "11",
+          "17",
+          "9",
+          "18"
+        ],
+        "case_id": "S090",
+        "check_summary": "Short periodic affine continuation inferred from recent phase behavior.",
+        "confidence": 0.16,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-356",
+          "-93",
+          "-755",
+          "-238",
+          "-1590"
+        ],
+        "case_id": "S091",
+        "check_summary": "Phase-repeating second-order continuation inferred from alternating large changes.",
+        "confidence": 0.12,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "0",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Four interleaved lag streams; two constant and two quadratic-difference streams.",
+        "confidence": 0.98,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-10",
+          "-17",
+          "-4",
+          "-31",
+          "-3"
+        ],
+        "case_id": "S093",
+        "check_summary": "Interleaved polynomial/affine streams inferred from position phases.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "88",
+          "74",
+          "93",
+          "79",
+          "98"
+        ],
+        "case_id": "S094",
+        "check_summary": "Phase-specific affine continuation inferred from alternating subsequences.",
+        "confidence": 0.13,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-59",
+          "-71",
+          "-83",
+          "-95",
+          "-107"
+        ],
+        "case_id": "S095",
+        "check_summary": "Final visible block follows constant decrement -12.",
+        "confidence": 0.82,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-2",
+          "34",
+          "-16",
+          "52",
+          "-30"
+        ],
+        "case_id": "S096",
+        "check_summary": "Phase-repeating affine continuation inferred from alternating structure.",
+        "confidence": 0.14,
+        "rule_summary": "AFFINE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-E2ACA04030E1-search-b08-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "59e6c6fd9ac19650a67d38c3d60e016668edf5f85e72811570f1438b09e941aa",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-E2ACA04030E1-search-b08-proposer-2/attempt-01"
+}

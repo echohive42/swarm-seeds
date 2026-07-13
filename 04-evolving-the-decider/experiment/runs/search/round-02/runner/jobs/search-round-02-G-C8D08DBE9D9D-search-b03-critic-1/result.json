@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "-1919",
+          "-1279",
+          "-319",
+          "-1279",
+          "5121"
+        ],
+        "case_id": "S025",
+        "check_summary": "Period-4 phase subsequences each satisfy x'=-4x+5; replay gives the continuation.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE with four-position affine phase streams."
+      },
+      {
+        "answer": [
+          "-61",
+          "-38",
+          "-49",
+          "-76",
+          "-103"
+        ],
+        "case_id": "S026",
+        "check_summary": "Best-supported candidate from the irregular phase-structured delta evidence; exact mechanism remains uncertain.",
+        "confidence": 0.32,
+        "rule_summary": "Periodic phase-specific polynomial-delta update."
+      },
+      {
+        "answer": [
+          "-13",
+          "-21",
+          "-32",
+          "-43",
+          "-57"
+        ],
+        "case_id": "S027",
+        "check_summary": "First differences occur in pairs and decrease by 3 per pair.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with paired linear phase deltas."
+      },
+      {
+        "answer": [
+          "-956",
+          "-1551",
+          "-2511",
+          "-4067",
+          "-6589"
+        ],
+        "case_id": "S028",
+        "check_summary": "Best-supported candidate among weak affine-growth extrapolations; late-prefix growth is ambiguous.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "797159",
+          "2391482",
+          "7174451",
+          "21523358",
+          "64570079"
+        ],
+        "case_id": "S029",
+        "check_summary": "Every transition satisfies next=3*current+5.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "-56",
+          "-60",
+          "-65",
+          "-69",
+          "-74"
+        ],
+        "case_id": "S030",
+        "check_summary": "Differences alternate -5 and -4 throughout the prefix.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA with period-2 constant deltas."
+      },
+      {
+        "answer": [
+          "1872",
+          "3215",
+          "5348",
+          "8549",
+          "13152"
+        ],
+        "case_id": "S031",
+        "check_summary": "Finite differences support an integer-valued polynomial whose fourth differences rise by 5.",
+        "confidence": 0.99,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "-140903",
+          "-281802",
+          "563609",
+          "1127222",
+          "-2254439"
+        ],
+        "case_id": "S032",
+        "check_summary": "Alternating updates are -2x+5 and 2x+4, verified across the prefix.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "-205",
+          "-240",
+          "-273",
+          "-313",
+          "-351"
+        ],
+        "case_id": "S033",
+        "check_summary": "Odd- and even-phase first differences each decrease by 5 per occurrence.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with period-2 linear phase deltas."
+      },
+      {
+        "answer": [
+          "99759069",
+          "299277205",
+          "-897831611",
+          "-2693494827",
+          "-8080484483"
+        ],
+        "case_id": "S034",
+        "check_summary": "The three-phase cycle 3x+6, 3x-2, -3x+4 replays exactly.",
+        "confidence": 1.0,
+        "rule_summary": "Three-phase AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "1112",
+          "1814",
+          "2759",
+          "3994",
+          "5570"
+        ],
+        "case_id": "S035",
+        "check_summary": "Finite differences support polynomial continuation with constant fourth difference.",
+        "confidence": 0.99,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "1025",
+          "1343",
+          "1720",
+          "2161",
+          "2671"
+        ],
+        "case_id": "S036",
+        "check_summary": "Second differences increase by 5, yielding the polynomial continuation.",
+        "confidence": 1.0,
+        "rule_summary": "POLY."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-C8D08DBE9D9D-search-b03-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "896cfe8efe981d9d4a9630222ba95a5433f74146033292568c1c7befbbd166cc",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-C8D08DBE9D9D-search-b03-critic-1/attempt-01"
+}

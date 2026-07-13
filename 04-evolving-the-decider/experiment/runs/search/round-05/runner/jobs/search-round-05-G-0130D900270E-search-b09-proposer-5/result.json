@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b09",
+    "results": [
+      {
+        "answer": [
+          "-379928",
+          "-1139786",
+          "3419350",
+          "10258048",
+          "-30774152"
+        ],
+        "case_id": "S097",
+        "check_summary": "Alternating affine phase recurrence replayed across the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase affine update."
+      },
+      {
+        "answer": [
+          "-1673",
+          "-121",
+          "1633",
+          "-1673",
+          "-121"
+        ],
+        "case_id": "S098",
+        "check_summary": "Candidate periodic second-order pattern inferred from the oscillating prefix.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic linear recurrence."
+      },
+      {
+        "answer": [
+          "-703",
+          "-833",
+          "-959",
+          "-1074",
+          "-1170"
+        ],
+        "case_id": "S099",
+        "check_summary": "Finite-difference continuation with linearly advancing third differences.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial sequence via finite differences."
+      },
+      {
+        "answer": [
+          "-4915830",
+          "14747487",
+          "-44242464",
+          "132727389",
+          "-398182170"
+        ],
+        "case_id": "S100",
+        "check_summary": "Constant affine recurrence exactly matches the prefix.",
+        "confidence": 1.0,
+        "rule_summary": "x(n+1)=-3x(n)-3."
+      },
+      {
+        "answer": [
+          "-8141",
+          "-13491",
+          "-20957",
+          "-30333",
+          "-40861"
+        ],
+        "case_id": "S101",
+        "check_summary": "Continuation estimated from the observed high-order difference trend.",
+        "confidence": 0.16,
+        "rule_summary": "Structured polynomial/interleaved continuation."
+      },
+      {
+        "answer": [
+          "1143",
+          "1477",
+          "1871",
+          "2330",
+          "2859"
+        ],
+        "case_id": "S102",
+        "check_summary": "Second differences continue with constant third difference increments.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial finite-difference sequence."
+      },
+      {
+        "answer": [
+          "136",
+          "132",
+          "131",
+          "124",
+          "114"
+        ],
+        "case_id": "S103",
+        "check_summary": "Grouped difference pattern continues with six-step decrement per block.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic polynomial-delta update."
+      },
+      {
+        "answer": [
+          "-36",
+          "-39",
+          "-42",
+          "-45",
+          "-48"
+        ],
+        "case_id": "S104",
+        "check_summary": "Alternating constant differences exactly continue.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta sequence."
+      },
+      {
+        "answer": [
+          "-26671",
+          "-80010",
+          "80015",
+          "160021",
+          "480066"
+        ],
+        "case_id": "S105",
+        "check_summary": "Three-phase affine transformations replayed from the final phase.",
+        "confidence": 0.99,
+        "rule_summary": "Three-phase affine update: 2x-9, 3x+3, -x+5."
+      },
+      {
+        "answer": [
+          "-10533",
+          "-29011",
+          "-79737",
+          "-219127",
+          "-601225"
+        ],
+        "case_id": "S106",
+        "check_summary": "Approximate multiplicative continuation from the dominant affine growth.",
+        "confidence": 0.14,
+        "rule_summary": "Phase-varying affine recurrence."
+      },
+      {
+        "answer": [
+          "16",
+          "21",
+          "28",
+          "37",
+          "48"
+        ],
+        "case_id": "S107",
+        "check_summary": "Estimated continuation from the recent increasing difference trend.",
+        "confidence": 0.15,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "20",
+          "49",
+          "55",
+          "60",
+          "67"
+        ],
+        "case_id": "S108",
+        "check_summary": "Estimated continuation from the observed interleaved difference structure.",
+        "confidence": 0.14,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-0130D900270E-search-b09-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "3ac1488415ce3cf058d2b8d01c54f24201842cda301abf85fb1d97ddc9acf5e1",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-0130D900270E-search-b09-proposer-5/attempt-01"
+}

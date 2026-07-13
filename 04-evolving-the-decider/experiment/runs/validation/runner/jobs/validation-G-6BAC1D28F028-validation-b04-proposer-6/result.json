@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "-425",
+          "-65",
+          "855",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Odd-position stream has successive decrements -5,-6,-7,-8,-9; even stream follows x'=-2x+5.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: quadratic odd stream and affine even stream."
+      },
+      {
+        "answer": [
+          "66",
+          "-10",
+          "85",
+          "-30",
+          "104"
+        ],
+        "case_id": "V038",
+        "check_summary": "Continuation inferred from repeated phase-specific increments near the suffix.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic phase-specific delta process."
+      },
+      {
+        "answer": [
+          "83",
+          "-101",
+          "105",
+          "-69",
+          "129"
+        ],
+        "case_id": "V039",
+        "check_summary": "Continuation estimated from alternating phase behavior.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved phase-specific streams."
+      },
+      {
+        "answer": [
+          "22",
+          "26",
+          "30",
+          "26",
+          "30"
+        ],
+        "case_id": "V040",
+        "check_summary": "Growing arithmetic blocks with step 4; block starts advance by 4 and block lengths grow.",
+        "confidence": 0.93,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "91",
+          "41",
+          "6",
+          "52",
+          "25"
+        ],
+        "case_id": "V041",
+        "check_summary": "Continuation estimated from periodic modular behavior.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Odd positions are -1,1,3,5,7,9; even positions are 7,4,1,-2,-5,-8.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-17",
+          "-74",
+          "-18",
+          "-99",
+          "-19"
+        ],
+        "case_id": "V043",
+        "check_summary": "Continuation estimated from alternating phase-specific updates.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic delta process."
+      },
+      {
+        "answer": [
+          "-72",
+          "67",
+          "39",
+          "11",
+          "-17"
+        ],
+        "case_id": "V044",
+        "check_summary": "Suffix exhibits repeated negative deltas interrupted by growing positive resets.",
+        "confidence": 0.32,
+        "rule_summary": "Growing-block delta process."
+      },
+      {
+        "answer": [
+          "-15",
+          "-8",
+          "-20",
+          "-4",
+          "-25"
+        ],
+        "case_id": "V045",
+        "check_summary": "Continuation estimated from interleaved irregular streams.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-24",
+          "18",
+          "-54",
+          "-41",
+          "10"
+        ],
+        "case_id": "V046",
+        "check_summary": "Deltas group in triples; phase trends imply next deltas +13,+42,-72.",
+        "confidence": 0.71,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "6",
+          "-2",
+          "24",
+          "-20",
+          "42"
+        ],
+        "case_id": "V047",
+        "check_summary": "Continuation estimated from alternating stream behavior.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-15",
+          "28",
+          "-24",
+          "35",
+          "-13"
+        ],
+        "case_id": "V048",
+        "check_summary": "Continuation estimated from alternating phase-specific updates.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b04-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "a6bef908969e186c5d45b7bc44ceac291608f4a61496388b3c191c7324d587c5",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b04-proposer-6/attempt-01"
+}

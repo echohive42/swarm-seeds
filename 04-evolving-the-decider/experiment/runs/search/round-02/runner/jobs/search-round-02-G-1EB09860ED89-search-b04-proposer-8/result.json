@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-114",
+          "-147",
+          "-189",
+          "-240",
+          "-300"
+        ],
+        "case_id": "S037",
+        "check_summary": "Partial phase pattern inferred; replay confidence limited.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic phase-specific deltas."
+      },
+      {
+        "answer": [
+          "98",
+          "5",
+          "-183",
+          "-491",
+          "-944"
+        ],
+        "case_id": "S038",
+        "check_summary": "Cubic continuation from terminal differences; low confidence.",
+        "confidence": 0.08,
+        "rule_summary": "Polynomial continuation."
+      },
+      {
+        "answer": [
+          "45",
+          "46",
+          "45",
+          "44",
+          "42"
+        ],
+        "case_id": "S039",
+        "check_summary": "Cubic continuation from final four terms.",
+        "confidence": 0.12,
+        "rule_summary": "Integer-valued polynomial continuation."
+      },
+      {
+        "answer": [
+          "100",
+          "51",
+          "71",
+          "91",
+          "111"
+        ],
+        "case_id": "S040",
+        "check_summary": "Exact replay of growing delta blocks.",
+        "confidence": 0.96,
+        "rule_summary": "Growing arithmetic blocks with polynomial starts and steps."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Exact alternating affine streams.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-18",
+          "-3",
+          "-8",
+          "34",
+          "12"
+        ],
+        "case_id": "S042",
+        "check_summary": "Low-confidence phase extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-10",
+          "5",
+          "-76",
+          "15",
+          "4"
+        ],
+        "case_id": "S043",
+        "check_summary": "Exact replay of three phase streams.",
+        "confidence": 0.98,
+        "rule_summary": "Three interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-20",
+          "-16",
+          "-22",
+          "-17",
+          "-24"
+        ],
+        "case_id": "S044",
+        "check_summary": "Low-confidence alternating phase extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Two phase-specific affine streams."
+      },
+      {
+        "answer": [
+          "-17",
+          "-12",
+          "104",
+          "-28",
+          "-8"
+        ],
+        "case_id": "S045",
+        "check_summary": "Low-confidence interleaved-stream extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-40",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S046",
+        "check_summary": "Exact growing-block delta pattern inferred.",
+        "confidence": 0.93,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "198",
+          "236",
+          "274",
+          "312",
+          "350"
+        ],
+        "case_id": "S047",
+        "check_summary": "Terminal arithmetic-block continuation; moderate uncertainty.",
+        "confidence": 0.2,
+        "rule_summary": "Growing arithmetic blocks with phase-specific steps."
+      },
+      {
+        "answer": [
+          "-6",
+          "12",
+          "-11",
+          "-10",
+          "-34"
+        ],
+        "case_id": "S048",
+        "check_summary": "Phase-stream continuation with quadratic increments.",
+        "confidence": 0.35,
+        "rule_summary": "Four interleaved polynomial/constant streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-1EB09860ED89-search-b04-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "fc531f5a9937c4cb7eda158e52096ab3fa2239e4089f549ab8f92a0cf78d86a2",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-1EB09860ED89-search-b04-proposer-8/attempt-01"
+}

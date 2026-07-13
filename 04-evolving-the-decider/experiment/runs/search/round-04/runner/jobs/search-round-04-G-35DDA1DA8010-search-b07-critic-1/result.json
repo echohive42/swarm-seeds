@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Exact period-2 decrements -4,-3 reproduce the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-2 constant deltas."
+      },
+      {
+        "answer": [
+          "9350",
+          "-15139",
+          "24481",
+          "-39615",
+          "64088"
+        ],
+        "case_id": "S074",
+        "check_summary": "Exact period-3 LIN2 offsets 5,-8,-8 reproduce the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Phase-periodic second-order recurrence."
+      },
+      {
+        "answer": [
+          "7",
+          "5",
+          "18",
+          "7",
+          "11"
+        ],
+        "case_id": "S075",
+        "check_summary": "Three interleaved streams with polynomial increments match the prefix.",
+        "confidence": 0.97,
+        "rule_summary": "Three-stream INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-14348",
+          "-21193",
+          "-30489",
+          "-42851",
+          "-58990"
+        ],
+        "case_id": "S076",
+        "check_summary": "First differences have constant fourth difference -7, giving the exact continuation.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with polynomial phase deltas."
+      },
+      {
+        "answer": [
+          "-4062",
+          "-9803",
+          "-23663",
+          "-57124",
+          "-137906"
+        ],
+        "case_id": "S077",
+        "check_summary": "First differences satisfy d_next=2d_prev+d_prevprev.",
+        "confidence": 0.98,
+        "rule_summary": "LIN2 recurrence on first differences."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Every transition is exactly x_next=-3x+5.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "78",
+          "105",
+          "143",
+          "192",
+          "257"
+        ],
+        "case_id": "S079",
+        "check_summary": "Best-supported continuation among interleaved polynomial-stream proposals.",
+        "confidence": 0.34,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      },
+      {
+        "answer": [
+          "408426",
+          "1225270",
+          "-3675812",
+          "3675804",
+          "11027404"
+        ],
+        "case_id": "S080",
+        "check_summary": "Exact three-phase affine cycle reproduces every transition.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic AFFINE updates."
+      },
+      {
+        "answer": [
+          "-152370",
+          "-304742",
+          "609486",
+          "1218970",
+          "-2437938"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating updates x_next=-2x+2 and x_next=2x-2 match exactly.",
+        "confidence": 1.0,
+        "rule_summary": "Period-2 AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences continue as negative consecutive squares.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with quadratic deltas."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7643",
+          "-10166"
+        ],
+        "case_id": "S083",
+        "check_summary": "Third differences decrease by 5, so fourth differences are constantly -5.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued POLY."
+      },
+      {
+        "answer": [
+          "351000",
+          "-846123",
+          "2038098",
+          "-4907067",
+          "11805772"
+        ],
+        "case_id": "S084",
+        "check_summary": "Best-supported continuation among the phase-periodic affine proposals.",
+        "confidence": 0.4,
+        "rule_summary": "Phase-periodic AFFINE recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-35DDA1DA8010-search-b07-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "8b6f97eb70f48a0df8780cc7cdf1014bd7b8fc99a4019a9218682e761e9ddab2",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-35DDA1DA8010-search-b07-critic-1/attempt-01"
+}

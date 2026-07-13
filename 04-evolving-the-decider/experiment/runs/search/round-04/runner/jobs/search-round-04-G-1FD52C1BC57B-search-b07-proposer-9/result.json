@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating first differences -4,-3 across full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-2 constant deltas."
+      },
+      {
+        "answer": [
+          "-9353",
+          "15134",
+          "-24487",
+          "39625",
+          "-64114"
+        ],
+        "case_id": "S074",
+        "check_summary": "Alternating-sign rapidly growing recurrence pattern; continuation extrapolated from late prefix.",
+        "confidence": 0.35,
+        "rule_summary": "LIN2 or phase-affine recurrence."
+      },
+      {
+        "answer": [
+          "6",
+          "11",
+          "18",
+          "6",
+          "16"
+        ],
+        "case_id": "S075",
+        "check_summary": "Three interleaved streams have arithmetic increments increasing by one.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "-14620",
+          "-21961",
+          "-31693",
+          "-43883",
+          "-59044"
+        ],
+        "case_id": "S076",
+        "check_summary": "Accelerating negative sequence; continuation extrapolated from late-prefix growth.",
+        "confidence": 0.25,
+        "rule_summary": "Likely LIN2 or phase-affine recurrence."
+      },
+      {
+        "answer": [
+          "-4059",
+          "-9784",
+          "-23562",
+          "-56750",
+          "-136668"
+        ],
+        "case_id": "S077",
+        "check_summary": "Late terms exhibit approximately constant multiplier near 2.414.",
+        "confidence": 0.3,
+        "rule_summary": "LIN2 recurrence with integer bias."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Every term satisfies x_n=-3x_(n-1)+5.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "48",
+          "79",
+          "91",
+          "130",
+          "158"
+        ],
+        "case_id": "S079",
+        "check_summary": "Interleaved growth pattern extrapolated from alternating subsequences.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE of polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-408434",
+          "3675804",
+          "1225270",
+          "-3675812",
+          "3675804"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three phase streams each follow affine multiplier 9 with fixed phase bias.",
+        "confidence": 0.92,
+        "rule_summary": "INTERLEAVE of three phase-affine streams."
+      },
+      {
+        "answer": [
+          "152370",
+          "-304738",
+          "-609478",
+          "1218958",
+          "2437914"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating affine updates with multipliers +2 and -2 and biases -2 and +2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-2 phases."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences are negative consecutive squares.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA with polynomial phase delta."
+      },
+      {
+        "answer": [
+          "-2738",
+          "-3902",
+          "-5271",
+          "-6841",
+          "-8620"
+        ],
+        "case_id": "S083",
+        "check_summary": "Accelerating negative continuation extrapolated from late second differences.",
+        "confidence": 0.25,
+        "rule_summary": "POLY or GROWBLOCK candidate."
+      },
+      {
+        "answer": [
+          "-349517",
+          "843970",
+          "-2037219",
+          "4916191",
+          "-11864619"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating-sign growth extrapolated from late prefix.",
+        "confidence": 0.25,
+        "rule_summary": "LIN2 or phase-affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-1FD52C1BC57B-search-b07-proposer-9",
+  "outcome": "valid_output",
+  "response_sha256": "8dd43c49794a9dfc4cae519ac7b4e1d9d8b1afde6f0fc062bdc105dd0c6ea4b1",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-1FD52C1BC57B-search-b07-proposer-9/attempt-01"
+}

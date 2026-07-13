@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b11",
+    "results": [
+      {
+        "answer": [
+          "3454367",
+          "-10363099",
+          "31089299",
+          "-93267895",
+          "279803687"
+        ],
+        "case_id": "S121",
+        "check_summary": "Plurality supported by exact recurrence x'=-3x+2; alternatives fail arithmetic replay.",
+        "confidence": 1,
+        "rule_summary": "AFFINE constant multiplier -3 and bias 2."
+      },
+      {
+        "answer": [
+          "37",
+          "39",
+          "43",
+          "45",
+          "49"
+        ],
+        "case_id": "S122",
+        "check_summary": "Plurality and exact alternating increment continuation.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE two arithmetic streams."
+      },
+      {
+        "answer": [
+          "146745",
+          "-440244",
+          "-880487",
+          "-1760967",
+          "5282892"
+        ],
+        "case_id": "S123",
+        "check_summary": "Full-prefix phase replay gives 2x+7, then -3x-9, then 2x+1 cyclically.",
+        "confidence": 1,
+        "rule_summary": "AFFINE period-3 phase updates."
+      },
+      {
+        "answer": [
+          "-49151",
+          "-98305",
+          "196609",
+          "393215",
+          "-786431"
+        ],
+        "case_id": "S124",
+        "check_summary": "Plurality and exact alternating affine replay.",
+        "confidence": 1,
+        "rule_summary": "AFFINE period-2 updates -2x-1 and 2x-3."
+      },
+      {
+        "answer": [
+          "2005",
+          "2879",
+          "3960",
+          "5278",
+          "6865"
+        ],
+        "case_id": "S125",
+        "check_summary": "Finite differences show constant fourth difference 2.",
+        "confidence": 1,
+        "rule_summary": "POLY integer-valued quartic."
+      },
+      {
+        "answer": [
+          "-19014",
+          "-27503",
+          "-38774",
+          "-53461",
+          "-72288"
+        ],
+        "case_id": "S126",
+        "check_summary": "Finite differences support constant fifth difference -6.",
+        "confidence": 1,
+        "rule_summary": "POLY degree 5."
+      },
+      {
+        "answer": [
+          "-136",
+          "-183",
+          "-181",
+          "-235",
+          "-232"
+        ],
+        "case_id": "S127",
+        "check_summary": "Plurality continuation of the two interleaved structured streams.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE two affine streams."
+      },
+      {
+        "answer": [
+          "-169",
+          "-160",
+          "-158",
+          "-149",
+          "-147"
+        ],
+        "case_id": "S128",
+        "check_summary": "Plurality and consistent alternating stream increments.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE two affine streams."
+      },
+      {
+        "answer": [
+          "700",
+          "1135",
+          "1839",
+          "2978",
+          "4821"
+        ],
+        "case_id": "S129",
+        "check_summary": "Exact recurrence x_n=x_{n-1}+x_{n-2}+4 matches the prefix.",
+        "confidence": 1,
+        "rule_summary": "LIN2 with constant bias 4."
+      },
+      {
+        "answer": [
+          "1029",
+          "1256",
+          "1506",
+          "1782",
+          "2087"
+        ],
+        "case_id": "S130",
+        "check_summary": "Exact polynomial continuation with second differences increasing by 3.",
+        "confidence": 1,
+        "rule_summary": "POLY cubic."
+      },
+      {
+        "answer": [
+          "63",
+          "81",
+          "87",
+          "95",
+          "101"
+        ],
+        "case_id": "S131",
+        "check_summary": "Best-supported phase-specific continuation; later evidence identifies periodic polynomial deltas.",
+        "confidence": 0.97,
+        "rule_summary": "PDELTA period-4 phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "1698179",
+          "4099766",
+          "9897709",
+          "23795190",
+          "57568091"
+        ],
+        "case_id": "S132",
+        "check_summary": "Exact LIN2 replay with repeating biases 6,2,-2.",
+        "confidence": 1,
+        "rule_summary": "LIN2: x_n=2x_{n-1}+x_{n-2}+periodic bias."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-59263FEA2B37-search-b11-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "fe93445d8df48ef1ee32e9c39cad399d276e722914ce3cc7ef9783047da027e5",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-59263FEA2B37-search-b11-judge-2/attempt-01"
+}

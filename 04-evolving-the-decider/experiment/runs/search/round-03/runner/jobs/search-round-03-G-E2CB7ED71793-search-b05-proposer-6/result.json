@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b05",
+    "results": [
+      {
+        "answer": [
+          "-589",
+          "-749",
+          "-934",
+          "-1146",
+          "-1387"
+        ],
+        "case_id": "S049",
+        "check_summary": "Polynomial finite-difference continuation.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "97519",
+          "195057",
+          "390092",
+          "780199",
+          "1560377"
+        ],
+        "case_id": "S050",
+        "check_summary": "Six-phase affine replay.",
+        "confidence": 0.94,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "31164",
+          "-31163",
+          "-93495",
+          "93496",
+          "-280488"
+        ],
+        "case_id": "S051",
+        "check_summary": "Two interleaved affine streams replayed.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "403",
+          "-452",
+          "504",
+          "-559",
+          "617"
+        ],
+        "case_id": "S052",
+        "check_summary": "Alternating signs with quadratic magnitude increments.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial magnitude with alternating sign."
+      },
+      {
+        "answer": [
+          "-17",
+          "-17",
+          "-38",
+          "-28",
+          "-32"
+        ],
+        "case_id": "S053",
+        "check_summary": "Periodic phase-delta continuation.",
+        "confidence": 0.42,
+        "rule_summary": "Phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-61",
+          "-45",
+          "-60",
+          "-77",
+          "-49"
+        ],
+        "case_id": "S054",
+        "check_summary": "Periodic phase-delta continuation.",
+        "confidence": 0.38,
+        "rule_summary": "Phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-3720088",
+          "-11160262",
+          "-33480784",
+          "-100442350",
+          "-301327048"
+        ],
+        "case_id": "S055",
+        "check_summary": "Exact affine replay x↦3x+2.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "-1290",
+          "-2086",
+          "-3374",
+          "-5458",
+          "-8830"
+        ],
+        "case_id": "S056",
+        "check_summary": "Difference recurrence continuation.",
+        "confidence": 0.72,
+        "rule_summary": "Lagged linear recurrence."
+      },
+      {
+        "answer": [
+          "-27993",
+          "83983",
+          "27996",
+          "-167961",
+          "503887"
+        ],
+        "case_id": "S057",
+        "check_summary": "Three interleaved affine streams replayed.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "58",
+          "62",
+          "67",
+          "71",
+          "76"
+        ],
+        "case_id": "S058",
+        "check_summary": "Alternating +5,+4 arithmetic increments.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "53",
+          "121",
+          "208",
+          "316",
+          "447"
+        ],
+        "case_id": "S059",
+        "check_summary": "Polynomial finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "-1290",
+          "-2086",
+          "-3374",
+          "-5458",
+          "-8830"
+        ],
+        "case_id": "S060",
+        "check_summary": "Second-order difference recurrence continuation.",
+        "confidence": 0.95,
+        "rule_summary": "Lagged linear recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-E2CB7ED71793-search-b05-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "88f3e50b7ae9b33945ff249f3d5d5c8a50352199b6e13fffc8d76e179c3d3eaf",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-E2CB7ED71793-search-b05-proposer-6/attempt-01"
+}

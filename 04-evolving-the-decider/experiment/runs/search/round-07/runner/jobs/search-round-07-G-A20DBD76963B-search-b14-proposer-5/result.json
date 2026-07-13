@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "8",
+          "-15",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "Triangularly spaced negative jumps with otherwise +5 increments.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic increment pattern with jump positions at triangular indices."
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "59",
+          "1280",
+          "80"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd and even subsequences replay their arithmetic and geometric rules.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved odd stream increasing by successive multiples of 4 and even stream multiplying by -2."
+      },
+      {
+        "answer": [
+          "-8",
+          "15",
+          "-4",
+          "29",
+          "-1"
+        ],
+        "case_id": "S159",
+        "check_summary": "Continuation estimated from phase-separated residue streams.",
+        "confidence": 0.18,
+        "rule_summary": "Likely periodic phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd terms increase by 2 and even terms increase by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-5",
+          "37",
+          "-22",
+          "49",
+          "-35"
+        ],
+        "case_id": "S161",
+        "check_summary": "Continuation estimated from phase-separated streams.",
+        "confidence": 0.15,
+        "rule_summary": "Likely interleaved phase-specific polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "24",
+          "12",
+          "44",
+          "20",
+          "84"
+        ],
+        "case_id": "S162",
+        "check_summary": "Even-position increments double while alternating increments continue geometrically.",
+        "confidence": 0.55,
+        "rule_summary": "Periodic delta process with phase-specific geometric-looking increments."
+      },
+      {
+        "answer": [
+          "5",
+          "-362",
+          "5",
+          "6",
+          "-730"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams: decrementing, incrementing, and affine doubling-minus-six.",
+        "confidence": 0.99,
+        "rule_summary": "Three-stream interleave."
+      },
+      {
+        "answer": [
+          "11",
+          "61",
+          "67",
+          "25",
+          "68"
+        ],
+        "case_id": "S164",
+        "check_summary": "Continuation estimated from phase-separated streams.",
+        "confidence": 0.14,
+        "rule_summary": "Likely interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-12",
+          "41",
+          "-75",
+          "97",
+          "-192"
+        ],
+        "case_id": "S165",
+        "check_summary": "Continuation estimated from phase-separated streams.",
+        "confidence": 0.12,
+        "rule_summary": "Likely periodic affine or lagged-polynomial mechanism."
+      },
+      {
+        "answer": [
+          "-21",
+          "145",
+          "33",
+          "194",
+          "-21"
+        ],
+        "case_id": "S166",
+        "check_summary": "Continuation estimated from phase-separated streams.",
+        "confidence": 0.12,
+        "rule_summary": "Likely periodic phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "-48",
+          "-27",
+          "-2",
+          "-43",
+          "-62"
+        ],
+        "case_id": "S167",
+        "check_summary": "Continuation estimated from interleaved streams.",
+        "confidence": 0.12,
+        "rule_summary": "Likely three-stream interleave."
+      },
+      {
+        "answer": [
+          "42",
+          "74",
+          "106",
+          "138",
+          "170"
+        ],
+        "case_id": "S168",
+        "check_summary": "After the initial transient, blocks use a negative jump followed by repeated positive increments.",
+        "confidence": 0.72,
+        "rule_summary": "Growing block structure with step magnitudes increasing by 8."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-A20DBD76963B-search-b14-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "a60ffe90aeff34c0a621a2ea6b8d935ec738f9694ad00da6c352ff8ac1e5c407",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-A20DBD76963B-search-b14-proposer-5/attempt-01"
+}

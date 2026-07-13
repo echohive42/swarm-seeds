@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "-11",
+          "-39",
+          "-67",
+          "-95",
+          "-123"
+        ],
+        "case_id": "S133",
+        "check_summary": "Growing arithmetic blocks with block steps decreasing by 6.",
+        "confidence": 0.84,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "3",
+          "-17",
+          "6",
+          "-20",
+          "9"
+        ],
+        "case_id": "S134",
+        "check_summary": "Three interleaved arithmetic-polynomial streams; continuation inferred from phase deltas.",
+        "confidence": 0.31,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-14",
+          "35",
+          "-363",
+          "-24",
+          "40"
+        ],
+        "case_id": "S135",
+        "check_summary": "Three interleaved streams: quadratic decrement, constant +5, and doubling differences.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "27",
+          "-19",
+          "61",
+          "-37",
+          "95"
+        ],
+        "case_id": "S136",
+        "check_summary": "Periodic phase-specific affine continuation inferred from the repeated phase structure.",
+        "confidence": 0.25,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-1020",
+          "16",
+          "-2044",
+          "30",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd subsequence doubles then subtracts 4; even subsequence has arithmetic second differences.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-71",
+          "-6",
+          "16",
+          "-2",
+          "-92"
+        ],
+        "case_id": "S138",
+        "check_summary": "Lagged subsequences with polynomial increments; one phase has clear fourth-order differences.",
+        "confidence": 0.29,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-6",
+          "52",
+          "-15",
+          "77",
+          "-24"
+        ],
+        "case_id": "S139",
+        "check_summary": "Interleaved polynomial streams inferred from phase-wise continuation.",
+        "confidence": 0.22,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "39",
+          "45",
+          "-9",
+          "69",
+          "57"
+        ],
+        "case_id": "S140",
+        "check_summary": "Periodic interleaving with phase-specific polynomial updates.",
+        "confidence": 0.21,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "48",
+          "66",
+          "46",
+          "72",
+          "45"
+        ],
+        "case_id": "S141",
+        "check_summary": "Phase-specific affine/polynomial continuation inferred from interleaved subsequences.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-23",
+          "-4",
+          "103",
+          "-20",
+          "-25"
+        ],
+        "case_id": "S142",
+        "check_summary": "Periodic lagged continuation inferred from phase-wise differences.",
+        "confidence": 0.18,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "4",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Two interleaved arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-50",
+          "-62",
+          "-74",
+          "-86",
+          "-98"
+        ],
+        "case_id": "S144",
+        "check_summary": "Tail is a stable arithmetic phase with difference -12.",
+        "confidence": 0.73,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-9EDD732A542F-search-b12-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "3d1a69b649efc102d69541353ef123d4aea1af861d36c7ff6da4ce0afc2886ef",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-9EDD732A542F-search-b12-proposer-6/attempt-01"
+}

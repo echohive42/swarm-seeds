@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "Matches x -> -3x + 3.",
+        "confidence": 0.99,
+        "rule_summary": "Constant affine recurrence."
+      },
+      {
+        "answer": [
+          "-3777",
+          "-5390",
+          "-7477",
+          "-10123",
+          "-13420"
+        ],
+        "case_id": "V026",
+        "check_summary": "Finite-difference continuation with linearly changing third differences.",
+        "confidence": 0.63,
+        "rule_summary": "Polynomial delta progression."
+      },
+      {
+        "answer": [
+          "-2505",
+          "4232",
+          "-6901",
+          "11220",
+          "-18183"
+        ],
+        "case_id": "V027",
+        "check_summary": "Tentative phase-dependent recurrence extrapolation.",
+        "confidence": 0.25,
+        "rule_summary": "Interleaved or phase-specific affine streams."
+      },
+      {
+        "answer": [
+          "47362",
+          "-94764",
+          "189538",
+          "-379076",
+          "758156"
+        ],
+        "case_id": "V028",
+        "check_summary": "Tentative continuation of alternating affine growth.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "12247",
+          "18585",
+          "25989",
+          "34919",
+          "45759"
+        ],
+        "case_id": "V029",
+        "check_summary": "Tentative polynomial-growth continuation.",
+        "confidence": 0.28,
+        "rule_summary": "Polynomial or lagged polynomial progression."
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Alternating streams increment by one every two positions.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Alternates x -> 2x + 1 and x -> 3x + 7.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802339",
+          "71604684",
+          "-214814049",
+          "644442150"
+        ],
+        "case_id": "V032",
+        "check_summary": "Continues the observed three-phase affine cycle.",
+        "confidence": 0.91,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "984",
+          "-1599",
+          "2586",
+          "-4185",
+          "6774"
+        ],
+        "case_id": "V033",
+        "check_summary": "Tentative alternating-stream continuation.",
+        "confidence": 0.24,
+        "rule_summary": "Interleaved affine or polynomial streams."
+      },
+      {
+        "answer": [
+          "-5",
+          "15",
+          "11",
+          "31",
+          "29"
+        ],
+        "case_id": "V034",
+        "check_summary": "Tentative phase-dependent continuation.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "57",
+          "36",
+          "85",
+          "80",
+          "72"
+        ],
+        "case_id": "V035",
+        "check_summary": "Tentative continuation of alternating subsequence increments.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "811",
+          "1048",
+          "1327",
+          "1652",
+          "2027"
+        ],
+        "case_id": "V036",
+        "check_summary": "Second differences continue by increments of four.",
+        "confidence": 0.94,
+        "rule_summary": "Polynomial progression."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b03-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "244030150664b65a30e3583547c1a42eb5eb20e3094ca876dbebfc950d60b596",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b03-proposer-6/attempt-01"
+}

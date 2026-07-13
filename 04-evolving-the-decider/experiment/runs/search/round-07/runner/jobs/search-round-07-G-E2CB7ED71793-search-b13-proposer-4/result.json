@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-430",
+          "-484",
+          "-545",
+          "-600",
+          "-663"
+        ],
+        "case_id": "S145",
+        "check_summary": "Differences repeat with a period of three while decreasing by 9 each cycle.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial first differences."
+      },
+      {
+        "answer": [
+          "101",
+          "111",
+          "125",
+          "140",
+          "158"
+        ],
+        "case_id": "S146",
+        "check_summary": "Forecast based on alternating interleaved low-degree streams.",
+        "confidence": 0.32,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-10922",
+          "21846",
+          "-43690",
+          "87382",
+          "-174762"
+        ],
+        "case_id": "S147",
+        "check_summary": "Each term equals negative twice the prior term plus 2.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence x(n)=-2x(n-1)+2."
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "327"
+        ],
+        "case_id": "S148",
+        "check_summary": "Odd-position differences increase by 6; even-position differences increase by 4.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved arithmetic-polynomial streams."
+      },
+      {
+        "answer": [
+          "3560",
+          "4779",
+          "6288",
+          "8130",
+          "10351"
+        ],
+        "case_id": "S149",
+        "check_summary": "Third differences increase by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "-6",
+          "-4",
+          "-8",
+          "-6",
+          "-10"
+        ],
+        "case_id": "S150",
+        "check_summary": "Differences alternate +2 and -4.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic phase-specific delta update."
+      },
+      {
+        "answer": [
+          "-3921",
+          "-6348",
+          "-10276",
+          "-16630",
+          "-26913"
+        ],
+        "case_id": "S151",
+        "check_summary": "Second-order Fibonacci-like recurrence with alternating biases -7 and -6.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 recurrence with period-two bias."
+      },
+      {
+        "answer": [
+          "-14160",
+          "-20100",
+          "-27580",
+          "-37080",
+          "-48920"
+        ],
+        "case_id": "S152",
+        "check_summary": "Extrapolation from the observed accelerating negative recurrence.",
+        "confidence": 0.25,
+        "rule_summary": "Second-order linear recurrence with periodic bias."
+      },
+      {
+        "answer": [
+          "-2613",
+          "-4231",
+          "-6849",
+          "-11085",
+          "-17939"
+        ],
+        "case_id": "S153",
+        "check_summary": "First differences follow the same Fibonacci recurrence.",
+        "confidence": 1.0,
+        "rule_summary": "Second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "-1239",
+          "-1593",
+          "-2009",
+          "-2492",
+          "-3047"
+        ],
+        "case_id": "S154",
+        "check_summary": "Second differences decrease by 5 each step.",
+        "confidence": 1.0,
+        "rule_summary": "Cubic polynomial sequence."
+      },
+      {
+        "answer": [
+          "533647",
+          "1067295",
+          "-2134597",
+          "4269199",
+          "8538399"
+        ],
+        "case_id": "S155",
+        "check_summary": "Three-phase affine updates repeat with multipliers -2,-2,2 and biases -7,5,1.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "136533",
+          "273068",
+          "546133",
+          "1092264",
+          "2184525"
+        ],
+        "case_id": "S156",
+        "check_summary": "Affine multiplier 2 with alternating biases -3 and +2.",
+        "confidence": 1.0,
+        "rule_summary": "Period-two affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-E2CB7ED71793-search-b13-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "249226d455b547f76725141a8876a9ec5cd1e2a7542ac4496a3b09b2759ada9a",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-E2CB7ED71793-search-b13-proposer-4/attempt-01"
+}

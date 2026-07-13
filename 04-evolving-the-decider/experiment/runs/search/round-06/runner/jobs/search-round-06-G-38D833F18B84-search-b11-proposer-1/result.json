@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b11",
+    "results": [
+      {
+        "answer": [
+          "3454367",
+          "-10363099",
+          "31089299",
+          "-93267895",
+          "279803687"
+        ],
+        "case_id": "S121",
+        "check_summary": "Alternating affine replay: x'=-3x+2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "37",
+          "39",
+          "43",
+          "45",
+          "49"
+        ],
+        "case_id": "S122",
+        "check_summary": "Alternating increments +4,+2 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "146753",
+          "-440276",
+          "-880551",
+          "-1761079",
+          "5283212"
+        ],
+        "case_id": "S123",
+        "check_summary": "Periodic affine phases with replayed sign/multiplier structure.",
+        "confidence": 0.62,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-49151",
+          "-98305",
+          "196609",
+          "393215",
+          "-786431"
+        ],
+        "case_id": "S124",
+        "check_summary": "Alternating affine updates replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "2015",
+          "2913",
+          "4042",
+          "5171",
+          "6429"
+        ],
+        "case_id": "S125",
+        "check_summary": "Finite-difference polynomial extrapolation.",
+        "confidence": 0.78,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-18948",
+          "-21042",
+          "-31893",
+          "-45860",
+          "-63577"
+        ],
+        "case_id": "S126",
+        "check_summary": "Finite differences stabilize at a polynomial fourth-difference pattern.",
+        "confidence": 0.96,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-136",
+          "-183",
+          "-181",
+          "-235",
+          "-232"
+        ],
+        "case_id": "S127",
+        "check_summary": "Interleaved streams have alternating arithmetic-difference patterns.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-169",
+          "-160",
+          "-152",
+          "-137",
+          "-123"
+        ],
+        "case_id": "S128",
+        "check_summary": "Interleaved alternating increment sequences replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "700",
+          "1135",
+          "1839",
+          "2978",
+          "4821"
+        ],
+        "case_id": "S129",
+        "check_summary": "From the stable region, x_n=x_{n-1}+x_{n-2}+4.",
+        "confidence": 0.97,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "1029",
+          "1256",
+          "1506",
+          "1782",
+          "2087"
+        ],
+        "case_id": "S130",
+        "check_summary": "Polynomial second differences increase by 3.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "63",
+          "82",
+          "87",
+          "95",
+          "115"
+        ],
+        "case_id": "S131",
+        "check_summary": "Two interleaved streams with patterned phase increments.",
+        "confidence": 0.71,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "1698175",
+          "4099754",
+          "9897669",
+          "23895094",
+          "57787855"
+        ],
+        "case_id": "S132",
+        "check_summary": "Second-order recurrence with repeating biases 2,2,-2,6.",
+        "confidence": 0.96,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-38D833F18B84-search-b11-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "9cf03f877f8d92dec505a80cb0fbd51477faaff7c1df96fe965883ded252a53e",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-38D833F18B84-search-b11-proposer-1/attempt-01"
+}

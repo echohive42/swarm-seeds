@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Plurality and highest-confidence concrete continuation; four interleaved streams replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "All candidates agree; increments alternate +4,+5.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-2230",
+          "-3506",
+          "-5402",
+          "-8114",
+          "-11880"
+        ],
+        "case_id": "S171",
+        "check_summary": "Plurality agrees on constant fifth finite difference -4.",
+        "confidence": 1.0,
+        "rule_summary": "POLY degree 5"
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Strong plurality; fourth finite differences are constant -1.",
+        "confidence": 1.0,
+        "rule_summary": "POLY degree 4"
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Overwhelming agreement; second differences increase consecutively.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18815",
+          "-30443"
+        ],
+        "case_id": "S174",
+        "check_summary": "Strong agreement on periodic-bias second-order recurrence.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 periodic bias"
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97897621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Strong plurality and exact replay by alternating affine phases.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE periodic"
+      },
+      {
+        "answer": [
+          "71",
+          "50",
+          "55",
+          "66",
+          "68"
+        ],
+        "case_id": "S176",
+        "check_summary": "Plurality and critic agreement support four interleaved arithmetic-increment streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3436997"
+        ],
+        "case_id": "S177",
+        "check_summary": "Strong plurality; periodic affine transformations replay the prefix exactly.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE periodic"
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "All candidates agree on doubling.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "All candidates agree on exact six-term repetition.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA periodic"
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Strong agreement; odd/even interleaved difference streams continue arithmetically.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-E2CB7ED71793-search-b15-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "cc7b08db90999c465f1e783a56cfb73d7e7bd9b0f4df823713197bdac3b1b62a",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-E2CB7ED71793-search-b15-judge-1/attempt-01"
+}

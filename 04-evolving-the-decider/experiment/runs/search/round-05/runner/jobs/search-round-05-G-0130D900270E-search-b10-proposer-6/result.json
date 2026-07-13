@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "-22",
+          "41",
+          "-29",
+          "-6",
+          "-21"
+        ],
+        "case_id": "S109",
+        "check_summary": "Periodic phase-delta extrapolation.",
+        "confidence": 0.28,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-31",
+          "-36",
+          "12",
+          "27",
+          "-2"
+        ],
+        "case_id": "S110",
+        "check_summary": "Phase-wise polynomial extrapolation.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "81",
+          "70",
+          "110",
+          "89",
+          "143"
+        ],
+        "case_id": "S111",
+        "check_summary": "Interleaved arithmetic-pattern extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-122",
+          "-58",
+          "40",
+          "-140",
+          "-411"
+        ],
+        "case_id": "S112",
+        "check_summary": "Period-4 phase-delta quadratic extrapolation.",
+        "confidence": 0.3,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "61",
+          "27",
+          "56",
+          "18",
+          "72"
+        ],
+        "case_id": "S113",
+        "check_summary": "Phase-pattern extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-37",
+          "-907",
+          "31",
+          "-55",
+          "1813"
+        ],
+        "case_id": "S114",
+        "check_summary": "Three-phase recurrence; one phase affine-polynomial and one multiplier -2.",
+        "confidence": 0.86,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "42",
+          "82",
+          "53",
+          "107",
+          "69"
+        ],
+        "case_id": "S115",
+        "check_summary": "Structured delta-run extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Two interleaved arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "40",
+          "17",
+          "48",
+          "29",
+          "-5"
+        ],
+        "case_id": "S117",
+        "check_summary": "Interleaved stream extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "23",
+          "18",
+          "41",
+          "36",
+          "31"
+        ],
+        "case_id": "S118",
+        "check_summary": "Spike-and-constant periodic delta pattern.",
+        "confidence": 0.88,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "75",
+          "82",
+          "6",
+          "91",
+          "100"
+        ],
+        "case_id": "S119",
+        "check_summary": "Three-phase stream extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "67",
+          "55",
+          "43",
+          "79",
+          "63"
+        ],
+        "case_id": "S120",
+        "check_summary": "Periodic affine/block delta extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-0130D900270E-search-b10-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "c5e969d4316408638ed508958f4eebbb6b0480a108f9ef6a72423a7fe2ec1278",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-0130D900270E-search-b10-proposer-6/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-430",
+          "-484",
+          "-545",
+          "-600",
+          "-663"
+        ],
+        "case_id": "S145",
+        "check_summary": "Alternating periodic difference increments replay the prefix.",
+        "confidence": 0.88,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "101",
+          "109",
+          "120",
+          "130",
+          "143"
+        ],
+        "case_id": "S146",
+        "check_summary": "Interleaved phase streams extrapolated from repeated difference structure.",
+        "confidence": 0.32,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-10922",
+          "21846",
+          "-43690",
+          "87382",
+          "-174762"
+        ],
+        "case_id": "S147",
+        "check_summary": "Each term follows a_n=-2a_(n-1)+2.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "327"
+        ],
+        "case_id": "S148",
+        "check_summary": "Odd-position differences rise by 6 and even-position differences by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic phase-specific deltas."
+      },
+      {
+        "answer": [
+          "3560",
+          "4779",
+          "6288",
+          "8130",
+          "10200"
+        ],
+        "case_id": "S149",
+        "check_summary": "Finite differences continue with constant fourth difference 3.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-6",
+          "-4",
+          "-8",
+          "-6",
+          "-10"
+        ],
+        "case_id": "S150",
+        "check_summary": "Two arithmetic streams interleaved by parity.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-3920",
+          "-6348",
+          "-10274",
+          "-16629",
+          "-26984"
+        ],
+        "case_id": "S151",
+        "check_summary": "Difference recurrence with alternating unit bias extrapolated.",
+        "confidence": 0.78,
+        "rule_summary": "Second-order linear recurrence with periodic bias."
+      },
+      {
+        "answer": [
+          "-14540",
+          "-21544",
+          "-31123",
+          "-43943",
+          "-60777"
+        ],
+        "case_id": "S152",
+        "check_summary": "Higher finite-difference continuation from the observed periodic polynomial pattern.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-2613",
+          "-4221",
+          "-6839",
+          "-11065",
+          "-17909"
+        ],
+        "case_id": "S153",
+        "check_summary": "a_n=a_(n-1)+a_(n-2)-5 exactly replays the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Second-order linear recurrence with constant bias."
+      },
+      {
+        "answer": [
+          "-1239",
+          "-1593",
+          "-2009",
+          "-2492",
+          "-3042"
+        ],
+        "case_id": "S154",
+        "check_summary": "Second differences decrease by 5 each phase step.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-533641",
+          "1067275",
+          "-2134545",
+          "-4269089",
+          "8538171"
+        ],
+        "case_id": "S155",
+        "check_summary": "Three-phase affine multipliers repeat as -2,-2,+2 with fixed biases.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "136533",
+          "273068",
+          "546133",
+          "1092268",
+          "2184533"
+        ],
+        "case_id": "S156",
+        "check_summary": "Alternating affine updates use multiplier 2 with biases -3,+2.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-B6D67789C6A8-search-b13-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "9fd5e76d27949fee82f6a0542c1efce8484ca785f72397f803685569a0b79245",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-B6D67789C6A8-search-b13-proposer-6/attempt-01"
+}

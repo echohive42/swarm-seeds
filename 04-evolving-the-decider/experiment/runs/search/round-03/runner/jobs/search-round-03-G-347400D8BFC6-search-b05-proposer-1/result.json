@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b05",
+    "results": [
+      {
+        "answer": [
+          "-1988",
+          "-2743",
+          "-3689",
+          "-4855",
+          "-6272"
+        ],
+        "case_id": "S049",
+        "check_summary": "Finite differences replay the prefix with quadratic second differences.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "97519",
+          "195057",
+          "390129",
+          "780237",
+          "1560492"
+        ],
+        "case_id": "S050",
+        "check_summary": "Periodic affine updates with multiplier 2 replay the prefix.",
+        "confidence": 0.94,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-10389",
+          "-31163",
+          "31164",
+          "93496",
+          "-93495"
+        ],
+        "case_id": "S051",
+        "check_summary": "Alternating affine transformations replay the observed sign and growth pattern.",
+        "confidence": 0.82,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "406",
+          "-458",
+          "513",
+          "-577",
+          "642"
+        ],
+        "case_id": "S052",
+        "check_summary": "Alternating differences have quadratic magnitude progression.",
+        "confidence": 0.97,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-63",
+          "-77",
+          "-55",
+          "-68",
+          "-82"
+        ],
+        "case_id": "S053",
+        "check_summary": "Candidate periodic difference continuation fitted to the supplied prefix.",
+        "confidence": 0.35,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-63",
+          "-77",
+          "-55",
+          "-68",
+          "-82"
+        ],
+        "case_id": "S054",
+        "check_summary": "Three phase-specific arithmetic difference streams replay the prefix.",
+        "confidence": 0.91,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-3720088",
+          "-11160262",
+          "-33480784",
+          "-100442350",
+          "-301327048"
+        ],
+        "case_id": "S055",
+        "check_summary": "The recurrence x[n]=3x[n-1]+2 exactly replays the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-8853",
+          "-14005",
+          "-21310",
+          "-31372",
+          "-44817"
+        ],
+        "case_id": "S056",
+        "check_summary": "Finite-difference extrapolation matches the observed polynomial trend.",
+        "confidence": 0.42,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "13999",
+          "28000",
+          "-27997",
+          "83995",
+          "167992"
+        ],
+        "case_id": "S057",
+        "check_summary": "Repeating affine phase transformations replay the block structure.",
+        "confidence": 0.9,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "58",
+          "62",
+          "67",
+          "71",
+          "76"
+        ],
+        "case_id": "S058",
+        "check_summary": "Alternating increments 5 and 4 exactly replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "53",
+          "121",
+          "208",
+          "316",
+          "447"
+        ],
+        "case_id": "S059",
+        "check_summary": "Successive differences follow a quadratic increment pattern.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-1290",
+          "-2086",
+          "-3374",
+          "-5458",
+          "-8830"
+        ],
+        "case_id": "S060",
+        "check_summary": "Differences continue by summing the preceding two differences.",
+        "confidence": 0.96,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-347400D8BFC6-search-b05-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "2a22da44a429d5a335978216732340fa847dcd112e4439011eccd42cad26ede8",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-347400D8BFC6-search-b05-proposer-1/attempt-01"
+}

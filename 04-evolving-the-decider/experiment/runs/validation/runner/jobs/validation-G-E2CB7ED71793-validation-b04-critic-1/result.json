@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "-425",
+          "-65",
+          "855",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Odd and even residue streams fit the full prefix; even stream follows x↦-2x+5.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "66",
+          "2",
+          "26",
+          "50",
+          "74"
+        ],
+        "case_id": "V038",
+        "check_summary": "Growing arithmetic blocks support the continuation from 47 to 66, then 2, followed by repeated +24 steps.",
+        "confidence": 0.8,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-186",
+          "-277",
+          "83",
+          "-284",
+          "-549"
+        ],
+        "case_id": "V039",
+        "check_summary": "Three residue streams provide the strongest complete interleaved continuation among proposals.",
+        "confidence": 0.78,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "10",
+          "14",
+          "18",
+          "2",
+          "6"
+        ],
+        "case_id": "V040",
+        "check_summary": "Phase-specific deltas repeat with two +4 phases and a descending third phase.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "61",
+          "28",
+          "34",
+          "57",
+          "42"
+        ],
+        "case_id": "V041",
+        "check_summary": "Bounded prefix is most consistent with periodic modular affine behavior; parameter evidence is weak.",
+        "confidence": 0.2,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Odd stream increases by 2 while even stream decreases by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-17",
+          "30",
+          "94",
+          "-18",
+          "54"
+        ],
+        "case_id": "V043",
+        "check_summary": "Modulo-3 streams fit exactly: linear descent, arithmetic-increment growth, and doubling signed differences.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "94",
+          "71",
+          "48",
+          "25",
+          "143"
+        ],
+        "case_id": "V044",
+        "check_summary": "Growing blocks of three equal negative differences are followed by polynomially increasing reset jumps.",
+        "confidence": 0.76,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-8",
+          "72",
+          "-18",
+          "-31",
+          "96"
+        ],
+        "case_id": "V045",
+        "check_summary": "Prefix appears bounded and phase-dependent; modular affine continuation is tentative.",
+        "confidence": 0.14,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-24",
+          "18",
+          "-54",
+          "-41",
+          "1"
+        ],
+        "case_id": "V046",
+        "check_summary": "Three phase-specific difference sequences continue with deltas 13, 42, and -72.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "22",
+          "-2",
+          "18",
+          "-10",
+          "6"
+        ],
+        "case_id": "V047",
+        "check_summary": "Interleaved phase streams provide the strongest available continuation, though alternatives remain plausible.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-27",
+          "24",
+          "-38",
+          "27",
+          "-40"
+        ],
+        "case_id": "V048",
+        "check_summary": "Alternating phase streams yield the best-supported continuation among the anonymous proposals.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-E2CB7ED71793-validation-b04-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "12957742f71c8ba35baa99cd31bbab949e427c2c7bc0f3b057f72113327a250f",
+  "terminal_artifact_relpath": "jobs/validation-G-E2CB7ED71793-validation-b04-critic-1/attempt-01"
+}

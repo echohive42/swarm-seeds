@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "-1175078",
+          "-3525233",
+          "-10575699",
+          "-31727097",
+          "-95181291"
+        ],
+        "case_id": "F025",
+        "check_summary": "Periodic signed affine-growth pattern with recurring three-term sign blocks.",
+        "confidence": 0.76,
+        "rule_summary": "Triplet-phase signed affine recurrence."
+      },
+      {
+        "answer": [
+          "-797",
+          "-2386",
+          "-7153",
+          "-21454",
+          "-64357"
+        ],
+        "case_id": "F026",
+        "check_summary": "Every transition follows x_next=3x+5.",
+        "confidence": 0.99,
+        "rule_summary": "Constant affine recurrence."
+      },
+      {
+        "answer": [
+          "24142",
+          "-48340",
+          "96762",
+          "-193204",
+          "386490"
+        ],
+        "case_id": "F027",
+        "check_summary": "Alternating interleaved affine streams; extrapolation follows observed doubling-sign structure.",
+        "confidence": 0.42,
+        "rule_summary": "Two-stream interleave with alternating affine updates."
+      },
+      {
+        "answer": [
+          "37323",
+          "74633",
+          "149281",
+          "298547",
+          "597111"
+        ],
+        "case_id": "F028",
+        "check_summary": "Alternating corrections around doubling, with odd correction magnitudes.",
+        "confidence": 0.96,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "5402",
+          "7395",
+          "9941",
+          "13152",
+          "17155"
+        ],
+        "case_id": "F029",
+        "check_summary": "Finite-difference continuation using the observed polynomial difference pattern.",
+        "confidence": 0.91,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "-44",
+          "-57",
+          "-79",
+          "-108",
+          "-138"
+        ],
+        "case_id": "F030",
+        "check_summary": "Irregular short prefix; extrapolation based on apparent phase/interleave behavior.",
+        "confidence": 0.25,
+        "rule_summary": "Phase-specific interleaved sequence."
+      },
+      {
+        "answer": [
+          "464",
+          "494",
+          "498",
+          "467",
+          "391"
+        ],
+        "case_id": "F031",
+        "check_summary": "Finite differences show a clear cubic third-difference descent.",
+        "confidence": 0.94,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "617116",
+          "1685020",
+          "4605524",
+          "12587092",
+          "34414532"
+        ],
+        "case_id": "F032",
+        "check_summary": "Exponential-affine growth extrapolated from the dominant recurring multiplier.",
+        "confidence": 0.38,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "168",
+          "181",
+          "215",
+          "266",
+          "334"
+        ],
+        "case_id": "F033",
+        "check_summary": "Continuation inferred from the latest alternating difference structure.",
+        "confidence": 0.29,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "446",
+          "569",
+          "706",
+          "859",
+          "1030"
+        ],
+        "case_id": "F034",
+        "check_summary": "Second differences increase by successive even increments.",
+        "confidence": 0.98,
+        "rule_summary": "Quartic polynomial sequence."
+      },
+      {
+        "answer": [
+          "-2771363",
+          "-5542730",
+          "-16628195",
+          "-33256394",
+          "-99769187"
+        ],
+        "case_id": "F035",
+        "check_summary": "Alternating updates x_next=3x-5 and x_next=2x-4.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "27",
+          "28",
+          "33",
+          "34",
+          "39"
+        ],
+        "case_id": "F036",
+        "check_summary": "Alternating increments +1 and +5.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b03-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "164501a4451df0344ed19feb4c58f1926997a63438e1715aa9cb9441d27f9b59",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b03-proposer-5/attempt-01"
+}

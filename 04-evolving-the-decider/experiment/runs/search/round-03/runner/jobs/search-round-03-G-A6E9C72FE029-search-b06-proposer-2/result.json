@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "-5",
+          "30",
+          "42",
+          "43",
+          "8"
+        ],
+        "case_id": "S061",
+        "check_summary": "Low confidence periodic-phase continuation guess.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved periodic phase model."
+      },
+      {
+        "answer": [
+          "-20",
+          "63",
+          "25",
+          "-42",
+          "-1"
+        ],
+        "case_id": "S062",
+        "check_summary": "Low confidence continuation guess from mixed interleaving patterns.",
+        "confidence": 0.06,
+        "rule_summary": "Unresolved interleaved recurrence."
+      },
+      {
+        "answer": [
+          "-14",
+          "93",
+          "89",
+          "-9",
+          "108"
+        ],
+        "case_id": "S063",
+        "check_summary": "Low confidence continuation guess.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved multi-stream model."
+      },
+      {
+        "answer": [
+          "778",
+          "-141",
+          "80",
+          "-1558",
+          "-225"
+        ],
+        "case_id": "S064",
+        "check_summary": "Residue classes modulo 3 replay consistently.",
+        "confidence": 0.96,
+        "rule_summary": "Three interleaved streams: affine x'=-2x-2; cubic-difference stream; quadratic-difference stream."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd and even subsequences are arithmetic.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams with differences -4 and +2."
+      },
+      {
+        "answer": [
+          "48",
+          "7",
+          "229",
+          "70",
+          "12"
+        ],
+        "case_id": "S066",
+        "check_summary": "Three residue classes show simple polynomial/affine continuations.",
+        "confidence": 0.94,
+        "rule_summary": "Three interleaved streams: +5 arithmetic; doubling increments; quadratic increments."
+      },
+      {
+        "answer": [
+          "-175",
+          "-115",
+          "-154",
+          "-193",
+          "-232"
+        ],
+        "case_id": "S067",
+        "check_summary": "Growing negative blocks and polynomial positive jumps replay the prefix.",
+        "confidence": 0.91,
+        "rule_summary": "GROWBLOCK with negative step blocks of lengths 1,2,3,4,5 and polynomial positive separators."
+      },
+      {
+        "answer": [
+          "-43",
+          "45",
+          "21",
+          "-3",
+          "-27"
+        ],
+        "case_id": "S068",
+        "check_summary": "Growing negative blocks with polynomial positive separators.",
+        "confidence": 0.9,
+        "rule_summary": "GROWBLOCK with negative steps -4,-9,-14,-19,-24 and increasing positive jumps."
+      },
+      {
+        "answer": [
+          "21",
+          "16",
+          "-21",
+          "33",
+          "24"
+        ],
+        "case_id": "S069",
+        "check_summary": "Three residue classes have arithmetic phase increments.",
+        "confidence": 0.88,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "0",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd positions alternate -3,0; even positions have third-difference arithmetic pattern.",
+        "confidence": 0.97,
+        "rule_summary": "Two interleaved streams: alternating constants and quadratic-difference sequence."
+      },
+      {
+        "answer": [
+          "-5",
+          "-8",
+          "-6",
+          "-4",
+          "-9"
+        ],
+        "case_id": "S071",
+        "check_summary": "Low confidence continuation guess.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved multi-stream model."
+      },
+      {
+        "answer": [
+          "-12",
+          "-16",
+          "-20",
+          "-24",
+          "-11"
+        ],
+        "case_id": "S072",
+        "check_summary": "Periodic differences repeat with one phase increasing by 4.",
+        "confidence": 0.97,
+        "rule_summary": "PDELTA with period 4: phase deltas -4, 1+4k, -4, -4."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-A6E9C72FE029-search-b06-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "c584736be3f6dca951b37b71c3ae74192559300c8567d4f09df877a144657ab4",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-A6E9C72FE029-search-b06-proposer-2/attempt-01"
+}

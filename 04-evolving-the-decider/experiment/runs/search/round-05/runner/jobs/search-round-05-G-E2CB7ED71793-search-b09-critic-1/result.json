@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b09",
+    "results": [
+      {
+        "answer": [
+          "-253274",
+          "-759824",
+          "1519654",
+          "4558960",
+          "-9117914"
+        ],
+        "case_id": "S097",
+        "check_summary": "Alternating affine updates x→3x−2 and x→−2x+6 exactly replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 affine recurrence."
+      },
+      {
+        "answer": [
+          "60",
+          "1958",
+          "2114",
+          "-1506",
+          "-2846"
+        ],
+        "case_id": "S098",
+        "check_summary": "Best-supported continuation among the supplied proposals under a four-phase polynomial-delta interpretation.",
+        "confidence": 0.4,
+        "rule_summary": "PDELTA."
+      },
+      {
+        "answer": [
+          "-703",
+          "-833",
+          "-959",
+          "-1074",
+          "-1170"
+        ],
+        "case_id": "S099",
+        "check_summary": "Fourth finite difference is constant 1 throughout the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued quartic polynomial."
+      },
+      {
+        "answer": [
+          "-4915830",
+          "14747487",
+          "-44242464",
+          "132727389",
+          "-398182170"
+        ],
+        "case_id": "S100",
+        "check_summary": "Every transition is x→−3x−3.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE."
+      },
+      {
+        "answer": [
+          "-7110",
+          "-10152",
+          "-14102",
+          "-18848",
+          "-24278"
+        ],
+        "case_id": "S101",
+        "check_summary": "Best-supported supplied continuation for the irregular accelerating prefix.",
+        "confidence": 0.3,
+        "rule_summary": "Polynomial/interleaved extrapolation."
+      },
+      {
+        "answer": [
+          "1143",
+          "1477",
+          "1871",
+          "2330",
+          "2859"
+        ],
+        "case_id": "S102",
+        "check_summary": "Second differences increase by 5 each step.",
+        "confidence": 1.0,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "142",
+          "138",
+          "131",
+          "127",
+          "117"
+        ],
+        "case_id": "S103",
+        "check_summary": "Three-phase deltas repeat with each triple shifted down by 6.",
+        "confidence": 0.98,
+        "rule_summary": "Period-3 polynomial deltas."
+      },
+      {
+        "answer": [
+          "-38",
+          "-41",
+          "-46",
+          "-49",
+          "-54"
+        ],
+        "case_id": "S104",
+        "check_summary": "Alternating differences −3 and −5 continue exactly.",
+        "confidence": 1.0,
+        "rule_summary": "Period-2 delta recurrence."
+      },
+      {
+        "answer": [
+          "-39990",
+          "39995",
+          "79981",
+          "239946",
+          "-239941"
+        ],
+        "case_id": "S105",
+        "check_summary": "Three-phase affine cycle exactly matches the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Three-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "-1050273",
+          "-2864357",
+          "-7811871",
+          "-21305127",
+          "-58110411"
+        ],
+        "case_id": "S106",
+        "check_summary": "Best-supported supplied continuation for the rapidly growing negative affine-like tail.",
+        "confidence": 0.3,
+        "rule_summary": "Phase-varying affine recurrence."
+      },
+      {
+        "answer": [
+          "13",
+          "20",
+          "25",
+          "31",
+          "38"
+        ],
+        "case_id": "S107",
+        "check_summary": "Best-supported interleaved-stream continuation among the supplied proposals.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-3",
+          "50",
+          "34",
+          "55",
+          "43"
+        ],
+        "case_id": "S108",
+        "check_summary": "Best-supported supplied continuation for the oscillatory interleaved prefix.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-E2CB7ED71793-search-b09-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "9cd1b24be69a084e1fa19834011949454873e4cfa626176cc941ec5991ae6857",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-E2CB7ED71793-search-b09-critic-1/attempt-01"
+}

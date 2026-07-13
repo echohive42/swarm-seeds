@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b06",
+    "results": [
+      {
+        "answer": [
+          "20",
+          "-33",
+          "24",
+          "-38",
+          "28"
+        ],
+        "case_id": "V061",
+        "check_summary": "Alternating polynomial-like streams inferred; continuation uncertain.",
+        "confidence": 0.22,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "59",
+          "-51",
+          "-21",
+          "9",
+          "39"
+        ],
+        "case_id": "V062",
+        "check_summary": "Arithmetic blocks with step progression 9,16,23,30 and quadratic block starts.",
+        "confidence": 0.9,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-72",
+          "-88",
+          "-104",
+          "-120",
+          "-136"
+        ],
+        "case_id": "V063",
+        "check_summary": "Continuation inferred as a linear tail; prefix fit is weak.",
+        "confidence": 0.12,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "20",
+          "-33",
+          "24",
+          "-38",
+          "28"
+        ],
+        "case_id": "V064",
+        "check_summary": "Odd and even subsequences are arithmetic with steps +4 and -5.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "69",
+          "88",
+          "84",
+          "102",
+          "99"
+        ],
+        "case_id": "V065",
+        "check_summary": "Interleaved continuation inferred from local affine structure; uncertain.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-49",
+          "449",
+          "-60",
+          "897",
+          "-72"
+        ],
+        "case_id": "V066",
+        "check_summary": "Odd stream decrements by successive integers; even stream has doubling-minus-one updates after the first step.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "40",
+          "42",
+          "18",
+          "45",
+          "44"
+        ],
+        "case_id": "V067",
+        "check_summary": "Periodic/interleaved continuation inferred weakly from prefix.",
+        "confidence": 0.1,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-20",
+          "-48",
+          "32",
+          "-91",
+          "64"
+        ],
+        "case_id": "V068",
+        "check_summary": "Weak interleaved polynomial continuation estimate.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-31",
+          "-54",
+          "15",
+          "-47",
+          "-77"
+        ],
+        "case_id": "V069",
+        "check_summary": "Weak periodic continuation estimate.",
+        "confidence": 0.08,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "117",
+          "135",
+          "153",
+          "171",
+          "189"
+        ],
+        "case_id": "V070",
+        "check_summary": "Arithmetic block continuation inferred from the final visible block.",
+        "confidence": 0.35,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-27",
+          "-52",
+          "-7",
+          "-42",
+          "-17"
+        ],
+        "case_id": "V071",
+        "check_summary": "Weak interleaved continuation estimate.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "35",
+          "39",
+          "34",
+          "38",
+          "42"
+        ],
+        "case_id": "V072",
+        "check_summary": "Recurring +4,+4,negative-delta pattern inferred; negative phase decreases gradually.",
+        "confidence": 0.55,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b06-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "ab2f5b45d30bb7f56e9164958fed62eef22217dfd503fe3bcacc6927fa97a556",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b06-proposer-6/attempt-01"
+}

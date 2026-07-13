@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "641",
+          "961",
+          "641",
+          "-1279",
+          "-3839"
+        ],
+        "case_id": "S025",
+        "check_summary": "Periodic delta structure inferred from repeated phase pattern.",
+        "confidence": 0.28,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-59",
+          "-72",
+          "-88",
+          "-108",
+          "-131"
+        ],
+        "case_id": "S026",
+        "check_summary": "Extrapolated from recurring irregular phase-specific differences.",
+        "confidence": 0.15,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-21",
+          "-35",
+          "-46",
+          "-60",
+          "-74"
+        ],
+        "case_id": "S027",
+        "check_summary": "Differences occur in repeated pairs, decreasing by three.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-952",
+          "-1535",
+          "-2474",
+          "-3985",
+          "-6428"
+        ],
+        "case_id": "S028",
+        "check_summary": "Affine-growth behavior with phase-dependent offsets inferred.",
+        "confidence": 0.3,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "797159",
+          "2391479",
+          "7174442",
+          "21523331",
+          "64569998"
+        ],
+        "case_id": "S029",
+        "check_summary": "Every term follows a[n]=3a[n-1]+5.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-56",
+          "-60",
+          "-65",
+          "-69",
+          "-74"
+        ],
+        "case_id": "S030",
+        "check_summary": "Alternating differences -5 and -4 continue.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "2390",
+          "4204",
+          "6680",
+          "10042",
+          "14556"
+        ],
+        "case_id": "S031",
+        "check_summary": "Extrapolated from the observed interleaved polynomial-like growth.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-140903",
+          "-281802",
+          "563609",
+          "1127222",
+          "-2254439"
+        ],
+        "case_id": "S032",
+        "check_summary": "Alternating affine updates with multipliers -2 and 2 and biases 5 and 4.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-210",
+          "-250",
+          "-295",
+          "-345",
+          "-400"
+        ],
+        "case_id": "S033",
+        "check_summary": "Extrapolated from increasingly negative phase-specific deltas.",
+        "confidence": 0.19,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "99759069",
+          "299277205",
+          "-897831611",
+          "-2693494827",
+          "-8080484483"
+        ],
+        "case_id": "S034",
+        "check_summary": "Three-phase affine recurrence: 3x+6, 3x-2, -3x+4.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "1112",
+          "1814",
+          "2759",
+          "3994",
+          "5570"
+        ],
+        "case_id": "S035",
+        "check_summary": "Finite-difference continuation with third differences increasing by four.",
+        "confidence": 0.92,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1025",
+          "1353",
+          "1750",
+          "2211",
+          "2741"
+        ],
+        "case_id": "S036",
+        "check_summary": "Second differences increase by five each step.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-0025CFC9EF2E-search-b03-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "b69d036fe980823bb5147531a1202a3ed3ec64620779b4acb576813664f73f17",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-0025CFC9EF2E-search-b03-proposer-2/attempt-01"
+}

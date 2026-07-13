@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-124",
+          "34",
+          "-207",
+          "43",
+          "-316"
+        ],
+        "case_id": "S037",
+        "check_summary": "Best-supported among anonymous proposals; exact continuation remains weakly evidenced.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "130",
+          "126",
+          "151",
+          "129",
+          "177"
+        ],
+        "case_id": "S038",
+        "check_summary": "Best-supported phase-separated continuation among proposals.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "226",
+          "-9",
+          "235",
+          "527",
+          "-148"
+        ],
+        "case_id": "S039",
+        "check_summary": "Three residue-class cubic streams provide the strongest exact replay and extrapolation.",
+        "confidence": 0.72,
+        "rule_summary": "INTERLEAVE with three cubic streams."
+      },
+      {
+        "answer": [
+          "49",
+          "69",
+          "89",
+          "109",
+          "129"
+        ],
+        "case_id": "S040",
+        "check_summary": "Growing arithmetic blocks with linearly increasing within-block steps.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Odd and even positions are exact arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-26",
+          "48",
+          "-4",
+          "71",
+          "-12"
+        ],
+        "case_id": "S042",
+        "check_summary": "Best-supported anonymous continuation for the irregular periodic case.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "15",
+          "5",
+          "-76",
+          "15",
+          "4"
+        ],
+        "case_id": "S043",
+        "check_summary": "Period-three phases replay exactly: phase-two alternates, phase-three decreases by one, phase-one decrements by 3, 8, 13, 18, 23.",
+        "confidence": 0.97,
+        "rule_summary": "PDELTA with period 3 and phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-18",
+          "-28",
+          "-22",
+          "-28",
+          "-40"
+        ],
+        "case_id": "S044",
+        "check_summary": "Three residue-class streams have exact polynomial delta continuation.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA with period 3."
+      },
+      {
+        "answer": [
+          "-4",
+          "12",
+          "72",
+          "-50",
+          "-4"
+        ],
+        "case_id": "S045",
+        "check_summary": "Weakly supported interleaved continuation; proposal evidence is inconsistent.",
+        "confidence": 0.11,
+        "rule_summary": "Multiple interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-17",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S046",
+        "check_summary": "Growing blocks have lengths 2, 3, 4, 5 and constant step -5, with starts decreasing by 2.",
+        "confidence": 0.95,
+        "rule_summary": "GROWBLOCK with polynomial starts and constant within-block step."
+      },
+      {
+        "answer": [
+          "206",
+          "244",
+          "282",
+          "320",
+          "358"
+        ],
+        "case_id": "S047",
+        "check_summary": "Best-supported continuation of the latest arithmetic block, step 38.",
+        "confidence": 0.31,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-21",
+          "12",
+          "11",
+          "-10",
+          "-40"
+        ],
+        "case_id": "S048",
+        "check_summary": "Four phase streams replay with constant phases and quadratic continuation in the remaining phases.",
+        "confidence": 0.94,
+        "rule_summary": "PDELTA with period 4 and phase-specific polynomial increments."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-2D699BBC271A-search-b04-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "ea0f96a81489411fedaf642e314c113362ac7d0d7f56a208db3393e1b0fc9870",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-2D699BBC271A-search-b04-critic-1/attempt-01"
+}

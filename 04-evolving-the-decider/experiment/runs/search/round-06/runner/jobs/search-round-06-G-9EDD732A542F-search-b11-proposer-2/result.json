@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b11",
+    "results": [
+      {
+        "answer": [
+          "3454367",
+          "-10363099",
+          "31089302",
+          "-93267904",
+          "279803714"
+        ],
+        "case_id": "S121",
+        "check_summary": "Alternating affine update verified.",
+        "confidence": 0.99,
+        "rule_summary": "x'=-3x+2."
+      },
+      {
+        "answer": [
+          "35",
+          "39",
+          "41",
+          "45",
+          "47"
+        ],
+        "case_id": "S122",
+        "check_summary": "Periodic increments +2,+4 verified.",
+        "confidence": 0.99,
+        "rule_summary": "Alternating arithmetic increments."
+      },
+      {
+        "answer": [
+          "146745",
+          "-440244",
+          "-880487",
+          "-1760967",
+          "5282892"
+        ],
+        "case_id": "S123",
+        "check_summary": "Three-phase affine cycle verified.",
+        "confidence": 0.99,
+        "rule_summary": "Phase updates 2x+1, 2x+7, -3x-9."
+      },
+      {
+        "answer": [
+          "49147",
+          "-98295",
+          "-196593",
+          "393185",
+          "786367"
+        ],
+        "case_id": "S124",
+        "check_summary": "Alternating affine phases verified.",
+        "confidence": 0.99,
+        "rule_summary": "Alternating updates 2x-3 and -2x-1."
+      },
+      {
+        "answer": [
+          "2005",
+          "2879",
+          "3960",
+          "5278",
+          "6865"
+        ],
+        "case_id": "S125",
+        "check_summary": "Finite differences through constant fifth difference verified.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial sequence with constant fifth difference -6."
+      },
+      {
+        "answer": [
+          "-19014",
+          "-27503",
+          "-38774",
+          "-53461",
+          "-72288"
+        ],
+        "case_id": "S126",
+        "check_summary": "Finite-difference continuation verified.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial sequence with constant fifth difference -6."
+      },
+      {
+        "answer": [
+          "-96",
+          "-143",
+          "-141",
+          "-195",
+          "-192"
+        ],
+        "case_id": "S127",
+        "check_summary": "Interleaved difference patterns verified.",
+        "confidence": 0.94,
+        "rule_summary": "Two interleaved streams with arithmetic difference progressions."
+      },
+      {
+        "answer": [
+          "-167",
+          "-163",
+          "-152",
+          "-142",
+          "-125"
+        ],
+        "case_id": "S128",
+        "check_summary": "Paired periodic difference pattern verified.",
+        "confidence": 0.94,
+        "rule_summary": "Two-step repeating difference progression."
+      },
+      {
+        "answer": [
+          "862",
+          "1558",
+          "2685",
+          "4508",
+          "7458"
+        ],
+        "case_id": "S129",
+        "check_summary": "Difference Fibonacci recurrence verified.",
+        "confidence": 0.98,
+        "rule_summary": "Successive differences follow d_n=d_{n-1}+d_{n-2}."
+      },
+      {
+        "answer": [
+          "1039",
+          "1282",
+          "1554",
+          "1856",
+          "2191"
+        ],
+        "case_id": "S130",
+        "check_summary": "Second differences increase by 3 verified.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence with linear second-difference progression."
+      },
+      {
+        "answer": [
+          "63",
+          "82",
+          "67",
+          "96",
+          "74"
+        ],
+        "case_id": "S131",
+        "check_summary": "Interleaved stream continuation inferred.",
+        "confidence": 0.84,
+        "rule_summary": "Two interleaved streams with patterned increments."
+      },
+      {
+        "answer": [
+          "1698179",
+          "4099766",
+          "9997709",
+          "24995190",
+          "59990091"
+        ],
+        "case_id": "S132",
+        "check_summary": "Second-order recurrence with three-phase bias verified.",
+        "confidence": 0.99,
+        "rule_summary": "x_n=2x_{n-1}+x_{n-2}+phase bias 6,2,-2."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-9EDD732A542F-search-b11-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "9af35353df7c7d94fe2b89a60a9b4072046ca0ec220bcaee9f09e7981bca4414",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-9EDD732A542F-search-b11-proposer-2/attempt-01"
+}

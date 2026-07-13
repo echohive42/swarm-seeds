@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b05",
+    "results": [
+      {
+        "answer": [
+          "-143",
+          "-244",
+          "-125",
+          "-157",
+          "-174"
+        ],
+        "case_id": "V049",
+        "check_summary": "Period-3 subsequences have cubic finite differences.",
+        "confidence": 0.97,
+        "rule_summary": "Phase-specific cubic subsequences."
+      },
+      {
+        "answer": [
+          "37015",
+          "-74032",
+          "148060",
+          "-296119",
+          "592237"
+        ],
+        "case_id": "V050",
+        "check_summary": "Alternating affine recurrence with evolving phase bias inferred from tail.",
+        "confidence": 0.42,
+        "rule_summary": "Phase-periodic affine update."
+      },
+      {
+        "answer": [
+          "-10157",
+          "-15433",
+          "-22695",
+          "-32272",
+          "-44963"
+        ],
+        "case_id": "V051",
+        "check_summary": "Accelerating negative growth; extrapolation from higher-order phase structure.",
+        "confidence": 0.25,
+        "rule_summary": "Lagged polynomial recurrence."
+      },
+      {
+        "answer": [
+          "14218",
+          "-14217",
+          "42655",
+          "-42648",
+          "127960"
+        ],
+        "case_id": "V052",
+        "check_summary": "Odd and even subsequences follow affine updates with multiplier 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two phase-specific affine streams."
+      },
+      {
+        "answer": [
+          "172",
+          "197",
+          "218",
+          "253",
+          "365"
+        ],
+        "case_id": "V053",
+        "check_summary": "Four phase-specific increment streams extrapolate consistently.",
+        "confidence": 0.91,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-48905",
+          "-292437",
+          "-1754565",
+          "-10527363",
+          "-63164157"
+        ],
+        "case_id": "V054",
+        "check_summary": "Alternating streams show multiplier-6 affine growth with polynomial phase biases.",
+        "confidence": 0.48,
+        "rule_summary": "Phase-specific affine update."
+      },
+      {
+        "answer": [
+          "1621",
+          "-2599",
+          "4263",
+          "-6823",
+          "10901"
+        ],
+        "case_id": "V055",
+        "check_summary": "Alternating streams exhibit rapidly growing affine-like updates.",
+        "confidence": 0.39,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "113525",
+          "227054",
+          "-37840",
+          "681173",
+          "1362350"
+        ],
+        "case_id": "V056",
+        "check_summary": "Three phase streams follow multiplier-6 affine rules.",
+        "confidence": 0.99,
+        "rule_summary": "Three phase-specific affine streams."
+      },
+      {
+        "answer": [
+          "-23",
+          "-28",
+          "-26",
+          "-31",
+          "-29"
+        ],
+        "case_id": "V057",
+        "check_summary": "Odd and even positions each decrement by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "5048689",
+          "15146068",
+          "45438205",
+          "136314616",
+          "408943849"
+        ],
+        "case_id": "V058",
+        "check_summary": "Each term equals three times the prior term plus one.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence x(n)=3x(n-1)+1."
+      },
+      {
+        "answer": [
+          "308",
+          "431",
+          "576",
+          "745",
+          "940"
+        ],
+        "case_id": "V059",
+        "check_summary": "Finite differences extrapolate as a cubic sequence.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued cubic polynomial."
+      },
+      {
+        "answer": [
+          "-4467",
+          "-5934",
+          "-7737",
+          "-9925",
+          "-12550"
+        ],
+        "case_id": "V060",
+        "check_summary": "Fourth finite differences are constant at -3.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued quartic polynomial."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b05-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "7f3cd1ca81afbe696fcda9e80b51808d7f35977bf757e82fea24c910cc0720ad",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b05-proposer-2/attempt-01"
+}

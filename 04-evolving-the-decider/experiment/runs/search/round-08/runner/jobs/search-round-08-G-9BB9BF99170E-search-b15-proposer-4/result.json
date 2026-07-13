@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "-10",
+          "5",
+          "45",
+          "-15",
+          "-175"
+        ],
+        "case_id": "S169",
+        "check_summary": "Interleaved phase pattern inferred from alternating subsequences.",
+        "confidence": 0.22,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments +4,+5 replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-1360",
+          "-2320",
+          "-3752",
+          "-5736",
+          "-8344"
+        ],
+        "case_id": "S171",
+        "check_summary": "Nonlinear phase structure extrapolated from changing second differences.",
+        "confidence": 0.18,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1335",
+          "1638",
+          "1957",
+          "2286",
+          "2618"
+        ],
+        "case_id": "S172",
+        "check_summary": "Fourth differences are constant at -1.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "First differences have successive second-difference increments.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-4437",
+          "-7180",
+          "-11614",
+          "-18788",
+          "-30396"
+        ],
+        "case_id": "S174",
+        "check_summary": "Late sequence follows a near-Fibonacci lag relation with periodic correction.",
+        "confidence": 0.37,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-2719379",
+          "8158204",
+          "-24474611",
+          "73423834",
+          "-220271429"
+        ],
+        "case_id": "S175",
+        "check_summary": "Affine multiplier -3 with alternating phase biases 1 and 67.",
+        "confidence": 0.97,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "57",
+          "75",
+          "62",
+          "59",
+          "77"
+        ],
+        "case_id": "S176",
+        "check_summary": "Three interleaved streams extrapolated by phase-specific increments.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-214811",
+          "429631",
+          "-859255",
+          "1718517",
+          "-3437039"
+        ],
+        "case_id": "S177",
+        "check_summary": "Blockwise signed doubling with periodic small biases.",
+        "confidence": 0.3,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "Six-term periodic cycle repeats exactly.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd and even transition differences decrease linearly by 7 and 6.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-9BB9BF99170E-search-b15-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "23891950102fcd71bd7f83602eaca60ef8a53453650a9ca59987273afc0413f2",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-9BB9BF99170E-search-b15-proposer-4/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b11",
+    "results": [
+      {
+        "answer": [
+          "3454367",
+          "-10363101",
+          "31089305",
+          "-93267913",
+          "279803741"
+        ],
+        "case_id": "S121",
+        "check_summary": "Alternating affine recurrence x'= -3x+2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "37",
+          "39",
+          "43",
+          "45",
+          "49"
+        ],
+        "case_id": "S122",
+        "check_summary": "Odd and even positions are arithmetic streams with step 6 and 6.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "146743",
+          "-440238",
+          "-880475",
+          "2641416",
+          "5282833"
+        ],
+        "case_id": "S123",
+        "check_summary": "Tail follows alternating affine phases 2x+1 and -3x-9.",
+        "confidence": 0.86,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-49151",
+          "-98305",
+          "196609",
+          "393215",
+          "-786431"
+        ],
+        "case_id": "S124",
+        "check_summary": "Two interleaved affine streams: starts update by -4x-5, paired values by -2x-1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "2545",
+          "3413",
+          "4482",
+          "5780",
+          "7337"
+        ],
+        "case_id": "S125",
+        "check_summary": "Finite differences continue with fourth difference 2.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-18495",
+          "-30899",
+          "-48833",
+          "-73413",
+          "-106303"
+        ],
+        "case_id": "S126",
+        "check_summary": "Higher-order polynomial/interleaved pattern inferred from finite-difference continuation.",
+        "confidence": 0.31,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-136",
+          "-185",
+          "-181",
+          "-231",
+          "-226"
+        ],
+        "case_id": "S127",
+        "check_summary": "Two interleaved quadratic streams with arithmetic first-difference progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-169",
+          "-160",
+          "-152",
+          "-137",
+          "-123"
+        ],
+        "case_id": "S128",
+        "check_summary": "Alternating difference pairs increase by 6.",
+        "confidence": 0.91,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "862",
+          "1558",
+          "2685",
+          "4508",
+          "7458"
+        ],
+        "case_id": "S129",
+        "check_summary": "Successive differences follow Fibonacci-like addition from the tail.",
+        "confidence": 0.94,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "1205",
+          "1784",
+          "2562",
+          "3542",
+          "4727"
+        ],
+        "case_id": "S130",
+        "check_summary": "Second differences increase by 3, giving a cubic polynomial continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "75",
+          "85",
+          "76",
+          "91",
+          "80"
+        ],
+        "case_id": "S131",
+        "check_summary": "Interleaved phase streams inferred from alternating subsequences.",
+        "confidence": 0.28,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "1698179",
+          "4099766",
+          "9897709",
+          "24205184",
+          "58308079"
+        ],
+        "case_id": "S132",
+        "check_summary": "Second-order recurrence x'=2x+previous plus repeating bias cycle 6,2,-2.",
+        "confidence": 0.98,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-621D0989B1DE-search-b11-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "764e8c88a6d070349706350f874781b6811b98b5689c1b247da0639a2b65a452",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-621D0989B1DE-search-b11-proposer-1/attempt-01"
+}

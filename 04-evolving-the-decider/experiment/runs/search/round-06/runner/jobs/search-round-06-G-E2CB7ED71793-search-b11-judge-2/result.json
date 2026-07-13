@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b11",
+    "results": [
+      {
+        "answer": [
+          "3454367",
+          "-10363099",
+          "31089299",
+          "-93267895",
+          "279803687"
+        ],
+        "case_id": "S121",
+        "check_summary": "Exact constant affine recurrence x'=-3x+2.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "37",
+          "39",
+          "43",
+          "45",
+          "49"
+        ],
+        "case_id": "S122",
+        "check_summary": "Odd and even subsequences each increase by 6.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "146745",
+          "-440244",
+          "-880487",
+          "-1760967",
+          "5282892"
+        ],
+        "case_id": "S123",
+        "check_summary": "Exact period-3 affine transforms 2x+1, 2x+7, -3x-9.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-49151",
+          "-98305",
+          "196609",
+          "393215",
+          "-786431"
+        ],
+        "case_id": "S124",
+        "check_summary": "Exact alternating affine updates -2x-1 and 2x-3.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "2547",
+          "3421",
+          "4502",
+          "5820",
+          "7407"
+        ],
+        "case_id": "S125",
+        "check_summary": "Constant fourth finite difference continuation.",
+        "confidence": 1,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-19014",
+          "-27503",
+          "-38774",
+          "-53461",
+          "-72288"
+        ],
+        "case_id": "S126",
+        "check_summary": "Constant fifth finite difference -6.",
+        "confidence": 1,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-136",
+          "-183",
+          "-181",
+          "-235",
+          "-232"
+        ],
+        "case_id": "S127",
+        "check_summary": "Phase-specific transition differences continue arithmetically.",
+        "confidence": 1,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-168",
+          "-159",
+          "-157",
+          "-148",
+          "-146"
+        ],
+        "case_id": "S128",
+        "check_summary": "Transition differences split into two arithmetic streams.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "700",
+          "1135",
+          "1839",
+          "2978",
+          "4821"
+        ],
+        "case_id": "S129",
+        "check_summary": "First differences continue by Fibonacci addition.",
+        "confidence": 1,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "1047",
+          "1310",
+          "1614",
+          "1962",
+          "2357"
+        ],
+        "case_id": "S130",
+        "check_summary": "Second differences increase by 3.",
+        "confidence": 1,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "57",
+          "75",
+          "81",
+          "89",
+          "85"
+        ],
+        "case_id": "S131",
+        "check_summary": "Four phase-specific difference sequences continue arithmetically.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "1698179",
+          "4099766",
+          "9897709",
+          "24005190",
+          "57908091"
+        ],
+        "case_id": "S132",
+        "check_summary": "Exact second-order recurrence with repeating biases +6,+2,-2.",
+        "confidence": 1,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-E2CB7ED71793-search-b11-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "d489a121b6b59289a36d9bb63df434d009dd8e9d028d8f6f13ceca7e25cf56a7",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-E2CB7ED71793-search-b11-judge-2/attempt-01"
+}

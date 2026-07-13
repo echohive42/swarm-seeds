@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "321",
+          "-319",
+          "-1279",
+          "-1919",
+          "-1279"
+        ],
+        "case_id": "S025",
+        "check_summary": "Four phase subsequences satisfy x'=-4x+5.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE of four affine streams."
+      },
+      {
+        "answer": [
+          "-49",
+          "-57",
+          "-66",
+          "-76",
+          "-87"
+        ],
+        "case_id": "S026",
+        "check_summary": "Best-supported continuation among weak, irregular phase-structured proposals.",
+        "confidence": 0.32,
+        "rule_summary": "LAGPOLY/interleaved lagged subsequences."
+      },
+      {
+        "answer": [
+          "-13",
+          "-21",
+          "-32",
+          "-43",
+          "-57"
+        ],
+        "case_id": "S027",
+        "check_summary": "Successive paired differences are 7,4,1,-2,-5,-8,-11.",
+        "confidence": 1,
+        "rule_summary": "Period-2 polynomial delta."
+      },
+      {
+        "answer": [
+          "-956",
+          "-1545",
+          "-2501",
+          "-4046",
+          "-6547"
+        ],
+        "case_id": "S028",
+        "check_summary": "Second-order recurrence x_n=x_{n-1}+x_{n-2}+periodic bias 6,5,7.",
+        "confidence": 1,
+        "rule_summary": "Phase-periodic LIN2."
+      },
+      {
+        "answer": [
+          "797159",
+          "2391482",
+          "7174451",
+          "21523358",
+          "64570079"
+        ],
+        "case_id": "S029",
+        "check_summary": "Every transition is x'=3x+5.",
+        "confidence": 1,
+        "rule_summary": "AFFINE."
+      },
+      {
+        "answer": [
+          "-55",
+          "-60",
+          "-64",
+          "-69",
+          "-73"
+        ],
+        "case_id": "S030",
+        "check_summary": "Differences alternate -4 and -5.",
+        "confidence": 1,
+        "rule_summary": "Period-2 PDELTA."
+      },
+      {
+        "answer": [
+          "1872",
+          "3215",
+          "5348",
+          "8549",
+          "13152"
+        ],
+        "case_id": "S031",
+        "check_summary": "Finite differences have constant fifth difference 5.",
+        "confidence": 1,
+        "rule_summary": "POLY of degree 5."
+      },
+      {
+        "answer": [
+          "-140903",
+          "281810",
+          "-563615",
+          "1127234",
+          "-2254463"
+        ],
+        "case_id": "S032",
+        "check_summary": "Alternating affine updates reproduce the prefix.",
+        "confidence": 1,
+        "rule_summary": "Periodic AFFINE."
+      },
+      {
+        "answer": [
+          "-205",
+          "-240",
+          "-273",
+          "-313",
+          "-351"
+        ],
+        "case_id": "S033",
+        "check_summary": "Paired differences continue with each pair reduced by 5.",
+        "confidence": 1,
+        "rule_summary": "Period-2 PDELTA."
+      },
+      {
+        "answer": [
+          "99759069",
+          "299277205",
+          "-897831611",
+          "-2693494827",
+          "-8080484483"
+        ],
+        "case_id": "S034",
+        "check_summary": "Phase cycle uses +3x+6, +3x-2, -3x+4, then repeats.",
+        "confidence": 1,
+        "rule_summary": "Periodic AFFINE."
+      },
+      {
+        "answer": [
+          "1112",
+          "1814",
+          "2759",
+          "3994",
+          "5570"
+        ],
+        "case_id": "S035",
+        "check_summary": "Finite differences fit a quartic with constant fourth difference 4.",
+        "confidence": 1,
+        "rule_summary": "POLY of degree 4."
+      },
+      {
+        "answer": [
+          "1025",
+          "1343",
+          "1720",
+          "2161",
+          "2671"
+        ],
+        "case_id": "S036",
+        "check_summary": "Finite differences have constant third difference 5.",
+        "confidence": 1,
+        "rule_summary": "POLY of degree 3."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-347400D8BFC6-search-b03-critic-2",
+  "outcome": "valid_output",
+  "response_sha256": "b31b4366d725bbdf02693b89ad008234336f03122be77ac527a382110d4551bd",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-347400D8BFC6-search-b03-critic-2/attempt-01"
+}

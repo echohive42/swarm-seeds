@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "24",
+          "20",
+          "23",
+          "26"
+        ],
+        "case_id": "S085",
+        "check_summary": "Tail follows repeating deltas +3,+3,-4.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic phase-specific delta update."
+      },
+      {
+        "answer": [
+          "30",
+          "24",
+          "29",
+          "19",
+          "45"
+        ],
+        "case_id": "S086",
+        "check_summary": "Values remain consistent with a modular periodic affine candidate.",
+        "confidence": 0.22,
+        "rule_summary": "Periodic modular affine update."
+      },
+      {
+        "answer": [
+          "27",
+          "17",
+          "7",
+          "-3",
+          "-13"
+        ],
+        "case_id": "S087",
+        "check_summary": "Tail has repeated descending arithmetic steps of -10; continuation estimated from block growth.",
+        "confidence": 0.31,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd positions rise by 5 and even positions fall by 1.",
+        "confidence": 1.0,
+        "rule_summary": "Interleaving two affine streams."
+      },
+      {
+        "answer": [
+          "-38",
+          "93",
+          "-83",
+          "126",
+          "-128"
+        ],
+        "case_id": "S089",
+        "check_summary": "Alternating streams show expanding phase-dependent behavior.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic second-order recurrence."
+      },
+      {
+        "answer": [
+          "17",
+          "-1",
+          "11",
+          "-5",
+          "9"
+        ],
+        "case_id": "S090",
+        "check_summary": "Continuation estimated from periodic affine phases.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-252",
+          "-532",
+          "-1047",
+          "-2101",
+          "-4140"
+        ],
+        "case_id": "S091",
+        "check_summary": "Large alternating magnitudes suggest phase-dependent second-order dynamics.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "-3",
+          "-28",
+          "-8",
+          "-38",
+          "-13"
+        ],
+        "case_id": "S092",
+        "check_summary": "Continuation estimated from recurring lagged phase increments.",
+        "confidence": 0.2,
+        "rule_summary": "Lagged polynomial update."
+      },
+      {
+        "answer": [
+          "-21",
+          "51",
+          "-35",
+          "55",
+          "-49"
+        ],
+        "case_id": "S093",
+        "check_summary": "Alternating subsequences suggest phase-specific affine growth.",
+        "confidence": 0.19,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "65",
+          "101",
+          "57",
+          "116",
+          "43"
+        ],
+        "case_id": "S094",
+        "check_summary": "Periodic phase behavior inferred from repeated bounded values.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic modular affine update."
+      },
+      {
+        "answer": [
+          "-63",
+          "-79",
+          "-95",
+          "-77",
+          "-113"
+        ],
+        "case_id": "S095",
+        "check_summary": "Repeated blocks use descending steps -4,-8,-12; next block estimated with step -16.",
+        "confidence": 0.42,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-4",
+          "160",
+          "-16",
+          "236",
+          "-28"
+        ],
+        "case_id": "S096",
+        "check_summary": "Alternating values suggest phase-dependent affine recurrence.",
+        "confidence": 0.17,
+        "rule_summary": "Periodic affine update."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-571E66D2D29B-search-b08-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "a686e5eaba1a246752c4b215058b89fafc0ab81dcb1ec3a4b881d0fb3376dcc8",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-571E66D2D29B-search-b08-proposer-2/attempt-01"
+}

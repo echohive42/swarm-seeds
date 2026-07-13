@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "73",
+          "4",
+          "103"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd-position subsequence has successive increments 0,4,8,12,16; even positions alternate -5,4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: quadratic odd stream and alternating even stream."
+      },
+      {
+        "answer": [
+          "8",
+          "34",
+          "-7",
+          "43",
+          "-20"
+        ],
+        "case_id": "S014",
+        "check_summary": "No uniquely verified continuation from the visible prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic affine/linear continuation."
+      },
+      {
+        "answer": [
+          "61",
+          "-25",
+          "-16",
+          "60",
+          "-34"
+        ],
+        "case_id": "S015",
+        "check_summary": "Three phase streams show polynomial increment patterns, especially the second and third phases.",
+        "confidence": 0.42,
+        "rule_summary": "INTERLEAVE: three phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "44",
+          "-8",
+          "29",
+          "-1",
+          "67"
+        ],
+        "case_id": "S016",
+        "check_summary": "No uniquely verified continuation from the visible prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative interleaved phase continuation."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd positions increase by 5; even positions decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-10",
+          "-3",
+          "-19",
+          "-7",
+          "-32"
+        ],
+        "case_id": "S018",
+        "check_summary": "No uniquely verified continuation from the visible prefix.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative periodic polynomial-delta continuation."
+      },
+      {
+        "answer": [
+          "45",
+          "67",
+          "75",
+          "18",
+          "49"
+        ],
+        "case_id": "S019",
+        "check_summary": "No uniquely verified continuation from the visible prefix.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative phase-specific affine continuation."
+      },
+      {
+        "answer": [
+          "42",
+          "-46",
+          "-2",
+          "-70",
+          "-12"
+        ],
+        "case_id": "S020",
+        "check_summary": "No uniquely verified continuation from the visible prefix.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative interleaved phase continuation."
+      },
+      {
+        "answer": [
+          "-51",
+          "-9",
+          "-70",
+          "-12",
+          "-91"
+        ],
+        "case_id": "S021",
+        "check_summary": "No uniquely verified continuation from the visible prefix.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative second-order periodic continuation."
+      },
+      {
+        "answer": [
+          "27",
+          "-60",
+          "-41",
+          "48",
+          "-77"
+        ],
+        "case_id": "S022",
+        "check_summary": "No uniquely verified continuation from the visible prefix.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative periodic affine continuation."
+      },
+      {
+        "answer": [
+          "-43",
+          "-41",
+          "-39",
+          "-37",
+          "-52"
+        ],
+        "case_id": "S023",
+        "check_summary": "Recent paired streams show increments -7,+4,-9, suggesting next -11,+4.",
+        "confidence": 0.34,
+        "rule_summary": "INTERLEAVE: paired streams with phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-26",
+          "41",
+          "350",
+          "-33",
+          "68"
+        ],
+        "case_id": "S024",
+        "check_summary": "Phase 1 decreases by 7; phase 2 has second differences 7; phase 3 differences double in magnitude with alternating sign.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE: three phase-specific polynomial/affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-C8D08DBE9D9D-search-b02-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "8254e8b190ebe04b6fcaa6ff901ea22117de43270f6aaeed1c1e72141969a857",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-C8D08DBE9D9D-search-b02-proposer-3/attempt-01"
+}

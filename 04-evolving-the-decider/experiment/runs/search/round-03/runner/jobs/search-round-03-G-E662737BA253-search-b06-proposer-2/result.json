@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "41",
+          "58",
+          "90",
+          "138",
+          "202"
+        ],
+        "case_id": "S061",
+        "check_summary": "Low-confidence extrapolation from mixed periodic/interleaved differences.",
+        "confidence": 0.08,
+        "rule_summary": "Possible interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "74",
+          "-18",
+          "96",
+          "-37",
+          "125"
+        ],
+        "case_id": "S062",
+        "check_summary": "Low-confidence extrapolation from irregular alternating differences.",
+        "confidence": 0.06,
+        "rule_summary": "Possible phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "82",
+          "87",
+          "115",
+          "68",
+          "86"
+        ],
+        "case_id": "S063",
+        "check_summary": "Low-confidence extrapolation from irregular interleaving.",
+        "confidence": 0.05,
+        "rule_summary": "Possible interleaved streams."
+      },
+      {
+        "answer": [
+          "-120",
+          "-254",
+          "-534",
+          "-1110",
+          "-2298"
+        ],
+        "case_id": "S064",
+        "check_summary": "Low-confidence extrapolation from rapidly varying phase behavior.",
+        "confidence": 0.04,
+        "rule_summary": "Possible periodic affine or lagged polynomial process."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd positions decrement by 4; even positions increment by 2.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-5",
+          "201",
+          "-12",
+          "321",
+          "-19"
+        ],
+        "case_id": "S066",
+        "check_summary": "Low-confidence extrapolation from irregular alternating behavior.",
+        "confidence": 0.04,
+        "rule_summary": "Possible interleaved or phase-specific affine process."
+      },
+      {
+        "answer": [
+          "-175",
+          "-206",
+          "-237",
+          "-268",
+          "-299"
+        ],
+        "case_id": "S067",
+        "check_summary": "Final observed run is arithmetic with common difference -31.",
+        "confidence": 0.72,
+        "rule_summary": "Likely growing-block arithmetic continuation."
+      },
+      {
+        "answer": [
+          "-43",
+          "-62",
+          "-81",
+          "-100",
+          "-119"
+        ],
+        "case_id": "S068",
+        "check_summary": "Low-confidence continuation of the final repeated decrement phase.",
+        "confidence": 0.18,
+        "rule_summary": "Possible growing-block process."
+      },
+      {
+        "answer": [
+          "-4",
+          "15",
+          "-22",
+          "21",
+          "-40"
+        ],
+        "case_id": "S069",
+        "check_summary": "Low-confidence extrapolation from irregular phase pattern.",
+        "confidence": 0.05,
+        "rule_summary": "Possible periodic affine/interleaved process."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "-3",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd positions remain -3; even subsequence decrements by successive multiples of 3.",
+        "confidence": 0.98,
+        "rule_summary": "Interleaved constant stream and polynomially stepped stream."
+      },
+      {
+        "answer": [
+          "-2",
+          "52",
+          "-5",
+          "58",
+          "-8"
+        ],
+        "case_id": "S071",
+        "check_summary": "Low-confidence extrapolation from irregular interleaving.",
+        "confidence": 0.05,
+        "rule_summary": "Possible interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-29",
+          "-16",
+          "-20",
+          "-24",
+          "-28"
+        ],
+        "case_id": "S072",
+        "check_summary": "Periodic differences: -4 phases, with every fourth positive jump increasing by 4.",
+        "confidence": 0.93,
+        "rule_summary": "Phase-specific polynomial delta process."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-E662737BA253-search-b06-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "b9f9b189058acc9ab9d03c08dd29653d881cf065ca1bfae5d590dff8de41b1e2",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-E662737BA253-search-b06-proposer-2/attempt-01"
+}

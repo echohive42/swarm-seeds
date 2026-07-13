@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Verified phase-4 affine recurrence with multiplier -4 and bias 5.",
+        "confidence": 0.99,
+        "rule_summary": "Four interleaved affine streams: each stream maps x to -4x+5."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments +4,+5 replay the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic arithmetic update with repeating deltas 4,5."
+      },
+      {
+        "answer": [
+          "-2260",
+          "-3630",
+          "-5722",
+          "-8774",
+          "-13066"
+        ],
+        "case_id": "S171",
+        "check_summary": "Continuation obtained from finite-difference extrapolation.",
+        "confidence": 0.38,
+        "rule_summary": "Polynomial-like finite-difference continuation."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Successive differences continue with the observed declining second-difference pattern.",
+        "confidence": 0.92,
+        "rule_summary": "Polynomial-delta continuation."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-15"
+        ],
+        "case_id": "S173",
+        "check_summary": "Difference sequence follows the symmetric quadratic pattern.",
+        "confidence": 0.97,
+        "rule_summary": "Polynomial sequence with successive differences increasing by 1 in second differences."
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18815",
+          "-30443"
+        ],
+        "case_id": "S174",
+        "check_summary": "Difference recurrence continues the observed three-phase correction pattern.",
+        "confidence": 0.78,
+        "rule_summary": "Lagged delta recurrence with Fibonacci-like updates and periodic corrections."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "16316269",
+          "-32632532",
+          "97897597"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating affine maps replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Odd transitions x to 3x+1; even transitions x to -2x+6."
+      },
+      {
+        "answer": [
+          "77",
+          "80",
+          "59",
+          "64",
+          "75"
+        ],
+        "case_id": "S176",
+        "check_summary": "Four-phase delta streams continue with phase trends.",
+        "confidence": 0.84,
+        "rule_summary": "Periodic phase-specific arithmetic deltas."
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3436997"
+        ],
+        "case_id": "S177",
+        "check_summary": "Three-step affine phase cycle continues.",
+        "confidence": 0.96,
+        "rule_summary": "Phase cycle applies x to -2x-9, then 2x+9, then 2x-7."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Every term doubles the prior term.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence x maps to 2x."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "Exact six-term period repeats.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic sequence of period 6."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Paired difference trends continue.",
+        "confidence": 0.91,
+        "rule_summary": "Difference pairs decrease by 7 and 6 respectively."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-A20DBD76963B-search-b15-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "af0e6909daa0abab0a892d0c05232060006d6bf188bd39a579ec733e42c2c36a",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-A20DBD76963B-search-b15-proposer-4/attempt-01"
+}

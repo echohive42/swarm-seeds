@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "855",
+          "-65",
+          "-425",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Odd-position subsequence has successive decrements 5 through 9; even-position differences double with alternating sign.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams."
+      },
+      {
+        "answer": [
+          "66",
+          "85",
+          "104",
+          "123",
+          "142"
+        ],
+        "case_id": "V038",
+        "check_summary": "Continuation inferred from the latest arithmetic block with step 19.",
+        "confidence": 0.28,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "83",
+          "-189",
+          "-117",
+          "-237",
+          "102"
+        ],
+        "case_id": "V039",
+        "check_summary": "Low-confidence extrapolation from apparent interleaved structured streams.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "22",
+          "26",
+          "22",
+          "26",
+          "30"
+        ],
+        "case_id": "V040",
+        "check_summary": "Periodic arithmetic behavior with recurring increments.",
+        "confidence": 0.35,
+        "rule_summary": "Phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "90",
+          "-5",
+          "108",
+          "-19",
+          "126"
+        ],
+        "case_id": "V041",
+        "check_summary": "Low-confidence extrapolation from apparent phase-dependent streams.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved streams."
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Odd subsequence increases by 2; even subsequence decreases by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-27",
+          "-83",
+          "-18",
+          "-116",
+          "-19"
+        ],
+        "case_id": "V043",
+        "check_summary": "Low-confidence extrapolation from phase-dependent subsequences.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved streams."
+      },
+      {
+        "answer": [
+          "-72",
+          "55",
+          "27",
+          "-1",
+          "-29"
+        ],
+        "case_id": "V044",
+        "check_summary": "Current arithmetic block completes with step -23; next block starts 55 with step -28.",
+        "confidence": 0.97,
+        "rule_summary": "Growing arithmetic blocks with polynomial starts and steps."
+      },
+      {
+        "answer": [
+          "31",
+          "29",
+          "80",
+          "-2",
+          "17"
+        ],
+        "case_id": "V045",
+        "check_summary": "Low-confidence extrapolation from apparent interleaving.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved streams."
+      },
+      {
+        "answer": [
+          "-49",
+          "-37",
+          "31",
+          "-62",
+          "-55"
+        ],
+        "case_id": "V046",
+        "check_summary": "Low-confidence extrapolation from apparent phase-dependent recurrence.",
+        "confidence": 0.1,
+        "rule_summary": "Phase-specific affine update."
+      },
+      {
+        "answer": [
+          "-2",
+          "28",
+          "-6",
+          "42",
+          "-10"
+        ],
+        "case_id": "V047",
+        "check_summary": "Low-confidence extrapolation from apparent interleaved streams.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved streams."
+      },
+      {
+        "answer": [
+          "25",
+          "-36",
+          "29",
+          "-22",
+          "33"
+        ],
+        "case_id": "V048",
+        "check_summary": "Low-confidence extrapolation from apparent alternating streams.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b04-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "ebd7a5d57e83d6700d045b4f38c329f8d3b7bbc7b50d31619885e31003f3a6bc",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b04-proposer-8/attempt-01"
+}

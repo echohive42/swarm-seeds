@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "24",
+          "27",
+          "20",
+          "23"
+        ],
+        "case_id": "S085",
+        "check_summary": "Periodic increments are +3,+3,+3 followed by increasingly negative reset corrections; next correction is -7.",
+        "confidence": 0.93,
+        "rule_summary": "PDELTA with phase-specific increments."
+      },
+      {
+        "answer": [
+          "29",
+          "66",
+          "29",
+          "20",
+          "66"
+        ],
+        "case_id": "S086",
+        "check_summary": "Best-supported bounded period-4 modular-affine continuation.",
+        "confidence": 0.72,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "-44",
+          "-54",
+          "-64",
+          "-74",
+          "-84"
+        ],
+        "case_id": "S087",
+        "check_summary": "The established terminal run has constant difference -10 and is the strongest supported continuation.",
+        "confidence": 0.97,
+        "rule_summary": "Affine continuation."
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd-position stream increases by 5 and even-position stream decreases by 1.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-18",
+          "92",
+          "-57",
+          "130",
+          "-102"
+        ],
+        "case_id": "S089",
+        "check_summary": "Best-supported candidate among weakly identified alternating phase continuations.",
+        "confidence": 0.1,
+        "rule_summary": "LIN2 with repeating phase bias."
+      },
+      {
+        "answer": [
+          "13",
+          "3",
+          "11",
+          "1",
+          "9"
+        ],
+        "case_id": "S090",
+        "check_summary": "Most plausible continuation under the inferred alternating periodic update.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic affine/interleaved update."
+      },
+      {
+        "answer": [
+          "-420",
+          "-192",
+          "1180",
+          "-1328",
+          "4090"
+        ],
+        "case_id": "S091",
+        "check_summary": "Highest-confidence proposal for the oscillatory phase-specific recurrence.",
+        "confidence": 0.16,
+        "rule_summary": "LIN2."
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "5",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd subsequence is constant 5; even subsequence differences continue -4,-5,-6,-7,-8.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-14",
+          "51",
+          "-28",
+          "69",
+          "-47"
+        ],
+        "case_id": "S093",
+        "check_summary": "Best-supported alternating polynomial-stream continuation among weak candidates.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "92",
+          "90",
+          "111",
+          "113",
+          "130"
+        ],
+        "case_id": "S094",
+        "check_summary": "Highest-confidence phase-dependent affine continuation available from the prefix.",
+        "confidence": 0.16,
+        "rule_summary": "AFFINE."
+      },
+      {
+        "answer": [
+          "-63",
+          "-79",
+          "-95",
+          "-111",
+          "-127"
+        ],
+        "case_id": "S095",
+        "check_summary": "Terminal arithmetic block has step -12; the next growing block uses step -16.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-22",
+          "82",
+          "-46",
+          "166",
+          "-94"
+        ],
+        "case_id": "S096",
+        "check_summary": "Highest-confidence alternating stream recurrence proposal.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-1CB025718435-search-b08-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "fa9de91fc1fbb0fbd261031b8bb4f282ea683209712534f3af8ee025a828e461",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-1CB025718435-search-b08-critic-1/attempt-01"
+}

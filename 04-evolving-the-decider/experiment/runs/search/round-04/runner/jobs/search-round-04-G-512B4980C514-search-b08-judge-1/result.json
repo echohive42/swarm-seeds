@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "11",
+          "14",
+          "16",
+          "19",
+          "22"
+        ],
+        "case_id": "S085",
+        "check_summary": "Periodic deltas replay with reset delta decreasing by three.",
+        "confidence": 0.9,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "7",
+          "46",
+          "29",
+          "45",
+          "26"
+        ],
+        "case_id": "S086",
+        "check_summary": "Exact replay under x'=3x+25 modulo 67.",
+        "confidence": 1,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "16",
+          "5",
+          "-6",
+          "-17",
+          "-28"
+        ],
+        "case_id": "S087",
+        "check_summary": "Latest descending arithmetic block continues with step -11.",
+        "confidence": 0.91,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd stream increases by five; even stream decreases by one.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-51",
+          "93",
+          "-87",
+          "132",
+          "-123"
+        ],
+        "case_id": "S089",
+        "check_summary": "Selected strongest coherent alternating phase recurrence candidate.",
+        "confidence": 0.16,
+        "rule_summary": "LIN2 with repeating phase bias"
+      },
+      {
+        "answer": [
+          "11",
+          "6",
+          "18",
+          "5",
+          "25"
+        ],
+        "case_id": "S090",
+        "check_summary": "Selected best-supported continuation of phase-interleaved streams.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-347",
+          "69",
+          "-529",
+          "108",
+          "-779"
+        ],
+        "case_id": "S091",
+        "check_summary": "Selected strongest alternating affine recurrence continuation.",
+        "confidence": 0.15,
+        "rule_summary": "Periodic affine update"
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "5",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd subsequence remains constant; even decrements grow successively.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-8",
+          "44",
+          "-19",
+          "81",
+          "-30"
+        ],
+        "case_id": "S093",
+        "check_summary": "Selected strongest coherent interleaved-stream extrapolation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "84",
+          "59",
+          "96",
+          "49",
+          "108"
+        ],
+        "case_id": "S094",
+        "check_summary": "Selected best-supported phase-specific affine continuation.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic affine update"
+      },
+      {
+        "answer": [
+          "-19",
+          "-35",
+          "-51",
+          "-67",
+          "-83"
+        ],
+        "case_id": "S095",
+        "check_summary": "Four-phase deltas continue, with the first phase following quadratic growth.",
+        "confidence": 0.9,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "126",
+          "-14",
+          "158",
+          "-18",
+          "190"
+        ],
+        "case_id": "S096",
+        "check_summary": "Selected strongest coherent interleaved polynomial/affine continuation.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-512B4980C514-search-b08-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "d2852838249d3dcb9553eb60bf03413d2a6e5106a243124e6c40a1250d5aff15",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-512B4980C514-search-b08-judge-1/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-95",
+          "-120",
+          "-145",
+          "-170",
+          "-195"
+        ],
+        "case_id": "S181",
+        "check_summary": "No candidate fully replays the visible prefix with high confidence; selected the strongest simple continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic affine continuation."
+      },
+      {
+        "answer": [
+          "-9",
+          "35",
+          "-4",
+          "24",
+          "-11"
+        ],
+        "case_id": "S182",
+        "check_summary": "Candidate interleaved affine continuation is the best-supported supplied proposal.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE with affine streams."
+      },
+      {
+        "answer": [
+          "0",
+          "-5",
+          "-10",
+          "-15",
+          "-20"
+        ],
+        "case_id": "S183",
+        "check_summary": "Differences show growing positive spikes separated by increasingly long runs of -5.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-18",
+          "1027",
+          "-8",
+          "-10",
+          "-2045"
+        ],
+        "case_id": "S184",
+        "check_summary": "Modulo-3 streams replay the prefix; one stream follows x_next=-2x+9, while the other phase deltas are polynomial.",
+        "confidence": 0.9,
+        "rule_summary": "Phase-interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "68",
+          "3",
+          "91",
+          "-2",
+          "117"
+        ],
+        "case_id": "S185",
+        "check_summary": "Odd-position increments rise by 3; even positions alternate 3 and -2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of polynomial and periodic streams."
+      },
+      {
+        "answer": [
+          "33",
+          "68",
+          "103",
+          "138",
+          "-16"
+        ],
+        "case_id": "S186",
+        "check_summary": "Growing positive runs and quadratic separator behavior support the supplied growing-block continuation.",
+        "confidence": 0.96,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "30",
+          "28",
+          "-107",
+          "32",
+          "47"
+        ],
+        "case_id": "S187",
+        "check_summary": "Modulo-3 subsequences have polynomial differences: -7,-14,-21,-28; +6,+5,+4; and -5,+1,+7.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "-23",
+          "-40",
+          "-57",
+          "-74",
+          "-91"
+        ],
+        "case_id": "S188",
+        "check_summary": "Blocks have lengths 2,3,4,5 with steps -9,-11,-13,-15; the next block uses step -17.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-26",
+          "-22",
+          "-29",
+          "-26",
+          "-32"
+        ],
+        "case_id": "S189",
+        "check_summary": "Odd and even subsequences are arithmetic with steps -3 and -4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-9",
+          "48",
+          "-4",
+          "57",
+          "-1"
+        ],
+        "case_id": "S190",
+        "check_summary": "No candidate provides a reliable exact replay; selected the best-supported supplied continuation.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative interleaved periodic continuation."
+      },
+      {
+        "answer": [
+          "42",
+          "36",
+          "64",
+          "31",
+          "75"
+        ],
+        "case_id": "S191",
+        "check_summary": "No candidate provides a reliable exact replay; selected the best-supported supplied continuation.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative phase-interleaved polynomial continuation."
+      },
+      {
+        "answer": [
+          "19",
+          "220",
+          "-46",
+          "26",
+          "444"
+        ],
+        "case_id": "S192",
+        "check_summary": "Three phase streams show the supplied polynomial increment patterns and support this continuation.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-B6BC6FB624BA-search-b16-critic-2",
+  "outcome": "valid_output",
+  "response_sha256": "79dcba3a1f2054020ea4b68eddfed8dfea4916ad009b22f3bf412f935019dd17",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-B6BC6FB624BA-search-b16-critic-2/attempt-01"
+}

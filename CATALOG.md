@@ -49,3 +49,21 @@ Inside the folder:
 - [Symbolic genomes and lineage](03-evolving-light-swarms/experiment/genomes/)
 - [Run records and raw last messages](03-evolving-light-swarms/experiment/runs/)
 - [Result charts](03-evolving-light-swarms/images/)
+
+## 04: Evolving the Decider
+
+**Question:** Can an eight-generation symbolic search improve how ten calls using the requested GPT-5.6 Luna Light configuration decide together when the decision mechanism itself can evolve?
+
+**Simple answer:** The evolved 7-proposer, 2-verifier, 1-judge champion scored 41/96 versus 37/96 for diversified Vote10, but the paired interval crossed zero. It tied a fresh generalist Vote10 run and trailed an independent run of the same founder configuration. Its strongest signal was narrower: the agreement gate applied 11 overrides, added 3 correct cases, and harmed none in this sample.
+
+**Open the complete seed:** [04-evolving-the-decider](04-evolving-the-decider/README.md)
+
+Inside the folder:
+
+- [Reusable `SKILL.md`](04-evolving-the-decider/SKILL.md)
+- [Actual experiment](04-evolving-the-decider/experiment/README.md)
+- [Technical report](04-evolving-the-decider/experiment/REPORT.md)
+- [Fresh benchmark](04-evolving-the-decider/experiment/benchmark/README.md)
+- [Symbolic genomes and lineage](04-evolving-the-decider/experiment/genomes/)
+- [Run records and attempt ledgers](04-evolving-the-decider/experiment/runs/)
+- [Result charts](04-evolving-the-decider/images/)

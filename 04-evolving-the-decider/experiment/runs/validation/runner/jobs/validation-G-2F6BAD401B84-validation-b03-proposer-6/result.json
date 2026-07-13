@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "Constant affine update x↦-3x+3 matches all transitions.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE: x_n=-3x_{n-1}+3."
+      },
+      {
+        "answer": [
+          "-3777",
+          "-5390",
+          "-7477",
+          "-10123",
+          "-13420"
+        ],
+        "case_id": "V026",
+        "check_summary": "Finite-difference continuation with quadratic second-difference trend.",
+        "confidence": 0.72,
+        "rule_summary": "POLY/PDELTA continuation from observed finite differences."
+      },
+      {
+        "answer": [
+          "-1921",
+          "3834",
+          "-7665",
+          "15322",
+          "-30641"
+        ],
+        "case_id": "V027",
+        "check_summary": "Alternating affine extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE/AFFINE candidate."
+      },
+      {
+        "answer": [
+          "47310",
+          "-94660",
+          "189276",
+          "-378594",
+          "757142"
+        ],
+        "case_id": "V028",
+        "check_summary": "Periodic multiplier -2 with alternating linear bias.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE phase recurrence with multiplier -2 and alternating linear biases."
+      },
+      {
+        "answer": [
+          "10971",
+          "15283",
+          "20704",
+          "27410",
+          "35487"
+        ],
+        "case_id": "V029",
+        "check_summary": "Polynomial-growth continuation from late-prefix increments.",
+        "confidence": 0.16,
+        "rule_summary": "GROWBLOCK/POLY candidate."
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Odd and even subsequences each increase by one.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE: odd stream 12,13,…; even stream 10,11,…"
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Alternating affine updates 2x+1 and 3x+7 match prefix.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE phase recurrence."
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802339",
+          "107407020",
+          "-322221066",
+          "966663201"
+        ],
+        "case_id": "V032",
+        "check_summary": "Alternating updates -3x+3 and -3x-6 after initial transient.",
+        "confidence": 0.94,
+        "rule_summary": "AFFINE phase recurrence."
+      },
+      {
+        "answer": [
+          "-981",
+          "1596",
+          "-2589",
+          "4194",
+          "-6795"
+        ],
+        "case_id": "V033",
+        "check_summary": "Alternating signed recurrence extrapolation.",
+        "confidence": 0.19,
+        "rule_summary": "LIN2/AFFINE phase candidate."
+      },
+      {
+        "answer": [
+          "-10",
+          "-21",
+          "-5",
+          "-31",
+          "7"
+        ],
+        "case_id": "V034",
+        "check_summary": "Periodic difference-pattern extrapolation.",
+        "confidence": 0.17,
+        "rule_summary": "PDELTA periodic polynomial-delta candidate."
+      },
+      {
+        "answer": [
+          "37",
+          "52",
+          "69",
+          "88",
+          "109"
+        ],
+        "case_id": "V035",
+        "check_summary": "Blockwise difference continuation.",
+        "confidence": 0.16,
+        "rule_summary": "GROWBLOCK candidate."
+      },
+      {
+        "answer": [
+          "815",
+          "1060",
+          "1351",
+          "1692",
+          "2089"
+        ],
+        "case_id": "V036",
+        "check_summary": "Second differences continue by increments of four.",
+        "confidence": 0.98,
+        "rule_summary": "POLY finite-difference continuation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b03-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "4842d2b679c83186565876118694b25a92b8fee984883758a93cd9d8dc9b615a",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b03-proposer-6/attempt-01"
+}

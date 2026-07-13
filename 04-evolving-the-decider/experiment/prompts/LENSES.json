@@ -1,0 +1,19 @@
+{
+  "schema_version": "4.0",
+  "worker": {
+    "generalist": "Search all eight registered mechanisms and prefer the simplest full-prefix explanation.",
+    "differences": "Pay special attention to finite differences, periodic differences, and lagged polynomial increments.",
+    "recurrences": "Pay special attention to affine and second-order recurrences, including periodic phases.",
+    "streams": "Pay special attention to interleaved streams, lagged subsequences, and growing blocks.",
+    "modular": "Actively test modular affine structure and real wrap points, while rejecting forced modular stories.",
+    "simplicity": "Prefer the shortest allowed complete mechanism and reject clever partial fits.",
+    "diversifier": "Actively seek a materially different allowed mechanism from the current leading explanation.",
+    "audit": "Prioritize exact replay of the visible prefix and reliable arithmetic before extrapolation."
+  },
+  "judge": {
+    "plurality_preserving": "Use proposal plurality as the default. Override it only when later evidence identifies a concrete full-prefix or arithmetic failure and supports a complete alternative.",
+    "evidence_weighted": "Select the answer backed by the clearest complete mechanism and independent checks. Popularity and confidence are secondary evidence.",
+    "minority_aware": "Compare the plurality with the strongest coherent minority. Change the plurality only when the minority has decisively better full-prefix support.",
+    "robustness_first": "Choose the answer that survives the most independent falsification and verification. Avoid novel alternatives that were not fully reconstructed."
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "561",
+          "705",
+          "849",
+          "993",
+          "1137"
+        ],
+        "case_id": "S169",
+        "check_summary": "Extrapolated from late accelerating difference pattern.",
+        "confidence": 0.18,
+        "rule_summary": "Likely phase-structured polynomial-delta sequence."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Successive increments alternate +4,+5 throughout prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine/interleaved increment pattern."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2219",
+          "2564",
+          "2930"
+        ],
+        "case_id": "S171",
+        "check_summary": "Extended the observed polynomial finite-difference trend.",
+        "confidence": 0.8,
+        "rule_summary": "Polynomial sequence with structured finite differences."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2219",
+          "2564",
+          "2930"
+        ],
+        "case_id": "S172",
+        "check_summary": "Third differences descend linearly, giving next differences 282,303,324,345,366.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences increase by one each step.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "-4423",
+          "-7113",
+          "-11446",
+          "-18399",
+          "-29575"
+        ],
+        "case_id": "S174",
+        "check_summary": "Estimated continuation of the late exponential-like phase pattern.",
+        "confidence": 0.2,
+        "rule_summary": "Phase-specific affine or lagged recurrence."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97897639"
+        ],
+        "case_id": "S175",
+        "check_summary": "Odd and even subsequences each follow multiplier -6 with biases +4 and +19.",
+        "confidence": 0.99,
+        "rule_summary": "Two-stream interleaved affine recurrence."
+      },
+      {
+        "answer": [
+          "74",
+          "78",
+          "84",
+          "91",
+          "101"
+        ],
+        "case_id": "S176",
+        "check_summary": "Extended the apparent seven-phase block progression.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic phase-specific affine or polynomial-delta sequence."
+      },
+      {
+        "answer": [
+          "214833",
+          "429659",
+          "859315",
+          "-1718631",
+          "-3437253"
+        ],
+        "case_id": "S177",
+        "check_summary": "Continued the alternating sign and near-doubling recurrence.",
+        "confidence": 0.22,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 1,
+        "rule_summary": "Affine recurrence x(n+1)=2x(n)."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "Prefix repeats exactly with period six.",
+        "confidence": 1,
+        "rule_summary": "Periodic interleaving."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Paired differences continue with first members decreasing by 7 and second by 6.",
+        "confidence": 0.96,
+        "rule_summary": "Phase-specific polynomial-delta sequence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-B6BC6FB624BA-search-b15-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "1d288b8eb1771867e4d2751e7aa5c9ee27670acfa4b8d4c36392079db210c9ba",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-B6BC6FB624BA-search-b15-proposer-4/attempt-01"
+}

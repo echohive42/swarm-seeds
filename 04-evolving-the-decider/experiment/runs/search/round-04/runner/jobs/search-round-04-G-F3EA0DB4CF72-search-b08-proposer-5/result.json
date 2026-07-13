@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "24",
+          "27",
+          "19",
+          "22"
+        ],
+        "case_id": "S085",
+        "check_summary": "Periodic phase deltas: three +3 steps followed by a phase decrement sequence.",
+        "confidence": 0.87,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "38",
+          "31",
+          "11",
+          "52",
+          "9"
+        ],
+        "case_id": "S086",
+        "check_summary": "Prefix appears modular with repeating affine phases; continuation uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "12",
+          "1",
+          "-10",
+          "-21",
+          "31"
+        ],
+        "case_id": "S087",
+        "check_summary": "Growing blocks of four terms with descending within-block step and polynomial block starts.",
+        "confidence": 0.72,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd positions increase by 5; even positions decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-42",
+          "93",
+          "-51",
+          "126",
+          "-60"
+        ],
+        "case_id": "S089",
+        "check_summary": "Likely phase-dependent second-order or affine recurrence; continuation uncertain.",
+        "confidence": 0.12,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "13",
+          "17",
+          "4",
+          "21",
+          "3"
+        ],
+        "case_id": "S090",
+        "check_summary": "Irregular periodic affine candidate; low-confidence extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "18",
+          "-205",
+          "-12",
+          "403",
+          "-167"
+        ],
+        "case_id": "S091",
+        "check_summary": "Irregular second-order recurrence candidate with large alternating excursions.",
+        "confidence": 0.11,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "5",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd subsequence is constant 5; even subsequence has successive decrements 4,5,6,7,8,9.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-8",
+          "21",
+          "-12",
+          "56",
+          "-16"
+        ],
+        "case_id": "S093",
+        "check_summary": "Likely interleaved polynomial/affine streams; continuation uncertain.",
+        "confidence": 0.11,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "74",
+          "54",
+          "79",
+          "38",
+          "87"
+        ],
+        "case_id": "S094",
+        "check_summary": "Likely modular periodic affine process; continuation uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-59",
+          "-71",
+          "-83",
+          "-95",
+          "-107"
+        ],
+        "case_id": "S095",
+        "check_summary": "Final block has constant decrement -12, consistent with growing arithmetic blocks.",
+        "confidence": 0.91,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-14",
+          "176",
+          "-22",
+          "300",
+          "-30"
+        ],
+        "case_id": "S096",
+        "check_summary": "Likely periodic second-order recurrence; continuation uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-F3EA0DB4CF72-search-b08-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "42cbea992e0fe0c030d9260df58295d5c2d70bc8fe486c888c7a36e53ecefc8d",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-F3EA0DB4CF72-search-b08-proposer-5/attempt-01"
+}

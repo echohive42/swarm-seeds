@@ -72,6 +72,25 @@ Direct links:
 - [Run records](03-evolving-light-swarms/experiment/runs/)
 - [Result charts](03-evolving-light-swarms/images/)
 
+## 04: Evolving the Decider
+
+We requested GPT-5.6 Luna at Light reasoning and let a deterministic evolutionary controller change how ten calls reached one answer. The search could choose among plain voting, judges, critics, verifiers, worker lenses, and decision policies. It ran all eight frozen generations with no early stopping, then selected one champion on 72 fresh validation cases.
+
+The evolved champion used 7 proposers, 2 verifiers, and 1 minority-aware judge. On 96 untouched final cases it scored 41/96, compared with 37/96 for diversified Vote10. The +4.17 percentage-point estimate was encouraging but inconclusive: its paired 95% interval was -2.08 to +10.42 points. The champion tied a fresh generalist Vote10 run at 41/96 and trailed an independent run of the same all-generalist founder configuration at 43/96.
+
+The clearest positive signal was inside the evolved system. Its agreement gate changed 11 plurality answers, improving 3 cases and harming none in this sample. Evolution discovered a promising decider, but this run did not establish that it is generally safer or that it beats simple voting overall.
+
+[Enter the complete experiment](04-evolving-the-decider/README.md)
+
+Direct links:
+
+- [Reusable skill seed](04-evolving-the-decider/SKILL.md)
+- [Full technical report](04-evolving-the-decider/experiment/REPORT.md)
+- [Fresh benchmark](04-evolving-the-decider/experiment/benchmark/README.md)
+- [Symbolic genomes and lineage](04-evolving-the-decider/experiment/genomes/README.md)
+- [Run records](04-evolving-the-decider/experiment/runs/)
+- [Result charts](04-evolving-the-decider/images/)
+
 ## Repository shape
 
 ```text
@@ -109,6 +128,20 @@ Direct links:
     REPORT.md
     benchmark/
     genomes/
+    prompts/
+    runs/
+    results/
+    scripts/
+  images/
+04-evolving-the-decider/
+  README.md
+  SKILL.md
+  experiment/
+    PROTOCOL.md
+    REPORT.md
+    benchmark/
+    genomes/
+    postprocessing/
     prompts/
     runs/
     results/

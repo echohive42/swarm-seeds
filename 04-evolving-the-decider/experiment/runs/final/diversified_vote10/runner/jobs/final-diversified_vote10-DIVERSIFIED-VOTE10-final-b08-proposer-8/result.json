@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b08",
+    "results": [
+      {
+        "answer": [
+          "17",
+          "-24",
+          "18",
+          "-28",
+          "19"
+        ],
+        "case_id": "F085",
+        "check_summary": "Alternating arithmetic streams replay the prefix exactly.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd terms increase by 1; even terms decrease by 4."
+      },
+      {
+        "answer": [
+          "42",
+          "39",
+          "47",
+          "46",
+          "52"
+        ],
+        "case_id": "F086",
+        "check_summary": "Candidate periodic interleaving fit inferred from visible values.",
+        "confidence": 0.28,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-27",
+          "-35",
+          "-43",
+          "-51",
+          "-59"
+        ],
+        "case_id": "F087",
+        "check_summary": "Candidate periodic continuation from phase-wise differences.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "144",
+          "162",
+          "180",
+          "198",
+          "216"
+        ],
+        "case_id": "F088",
+        "check_summary": "Final arithmetic block continues with common difference 18.",
+        "confidence": 0.88,
+        "rule_summary": "GROWBLOCK with the current arithmetic block continuing by 18."
+      },
+      {
+        "answer": [
+          "11",
+          "46",
+          "11",
+          "60",
+          "11"
+        ],
+        "case_id": "F089",
+        "check_summary": "Odd stream is constant; even stream has successive even increments.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd terms 11; even terms follow quadratic growth."
+      },
+      {
+        "answer": [
+          "-27",
+          "-9",
+          "-37",
+          "-41",
+          "-16"
+        ],
+        "case_id": "F090",
+        "check_summary": "Three phase streams continue their observed polynomial differences.",
+        "confidence": 0.82,
+        "rule_summary": "INTERLEAVE of three phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "15",
+          "38",
+          "-763",
+          "18",
+          "61"
+        ],
+        "case_id": "F091",
+        "check_summary": "Three phase streams replay exactly; first phase doubles its successive displacement.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE: one geometric-affine stream and two arithmetic/polynomial streams."
+      },
+      {
+        "answer": [
+          "29",
+          "-13",
+          "-19",
+          "42",
+          "-22"
+        ],
+        "case_id": "F092",
+        "check_summary": "Candidate phase-wise polynomial continuation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "33",
+          "38",
+          "43",
+          "48",
+          "53"
+        ],
+        "case_id": "F093",
+        "check_summary": "Current arithmetic block continues by 5.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK: block starts rise by 3 and each block has step 5."
+      },
+      {
+        "answer": [
+          "45",
+          "80",
+          "62",
+          "87",
+          "68"
+        ],
+        "case_id": "F094",
+        "check_summary": "Candidate periodic continuation inferred from recent phase structure.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "38",
+          "80",
+          "3",
+          "64",
+          "88"
+        ],
+        "case_id": "F095",
+        "check_summary": "Candidate continuation from inferred interleaved polynomial phases.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-67",
+          "107",
+          "53",
+          "-123",
+          "162"
+        ],
+        "case_id": "F096",
+        "check_summary": "Three phase streams have polynomially changing differences.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b08-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "d44d8668f0ed3d8c21621c26777261610523006eb3852091dcfb493e55facb38",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b08-proposer-8/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-430",
+          "-484",
+          "-545",
+          "-600",
+          "-663"
+        ],
+        "case_id": "S145",
+        "check_summary": "Periodic three-phase deltas; each phase decreases linearly by 9.",
+        "confidence": 0.99,
+        "rule_summary": "Three-phase arithmetic delta schedule."
+      },
+      {
+        "answer": [
+          "73",
+          "123",
+          "98",
+          "80",
+          "178"
+        ],
+        "case_id": "S146",
+        "check_summary": "Three interleaved streams fit quadratic increment patterns.",
+        "confidence": 0.9,
+        "rule_summary": "Three quadratic streams interleaved by position."
+      },
+      {
+        "answer": [
+          "10918",
+          "-21834",
+          "43670",
+          "-87338",
+          "174678"
+        ],
+        "case_id": "S147",
+        "check_summary": "Each term follows x_n=-2x_{n-1}+2.",
+        "confidence": 1,
+        "rule_summary": "Affine recurrence with multiplier -2 and bias 2."
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "327"
+        ],
+        "case_id": "S148",
+        "check_summary": "Alternating deltas increase by 6 and 4 respectively.",
+        "confidence": 1,
+        "rule_summary": "Two-phase arithmetic delta schedule."
+      },
+      {
+        "answer": [
+          "10626",
+          "11845",
+          "13354",
+          "15196",
+          "17224"
+        ],
+        "case_id": "S149",
+        "check_summary": "Third differences increase by 3; continued finite-difference extrapolation.",
+        "confidence": 0.98,
+        "rule_summary": "Integer polynomial sequence of degree 4."
+      },
+      {
+        "answer": [
+          "-6",
+          "-4",
+          "-8",
+          "-6",
+          "-10"
+        ],
+        "case_id": "S150",
+        "check_summary": "Both parity subsequences decrease by 2.",
+        "confidence": 1,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-3921",
+          "-6348",
+          "-10276",
+          "-16630",
+          "-26913"
+        ],
+        "case_id": "S151",
+        "check_summary": "Second-order recurrence x_n=x_{n-1}+x_{n-2} with alternating biases -7,-6.",
+        "confidence": 1,
+        "rule_summary": "LIN2 recurrence with two-phase bias."
+      },
+      {
+        "answer": [
+          "-13401",
+          "-19267",
+          "-27712",
+          "-39408",
+          "-55138"
+        ],
+        "case_id": "S152",
+        "check_summary": "Finite differences continue with linearly changing fourth differences.",
+        "confidence": 0.82,
+        "rule_summary": "Polynomial extrapolation from successive differences."
+      },
+      {
+        "answer": [
+          "-3231",
+          "-6467",
+          "-12321",
+          "-22411",
+          "-39355"
+        ],
+        "case_id": "S153",
+        "check_summary": "Lagged differences follow Fibonacci-style continuation after the initial prefix.",
+        "confidence": 0.94,
+        "rule_summary": "Second-order lagged difference recurrence."
+      },
+      {
+        "answer": [
+          "-1239",
+          "-1593",
+          "-2009",
+          "-2492",
+          "-3047"
+        ],
+        "case_id": "S154",
+        "check_summary": "Second differences decrease by 5 each step.",
+        "confidence": 1,
+        "rule_summary": "Integer polynomial sequence of degree 3."
+      },
+      {
+        "answer": [
+          "533635",
+          "-1067265",
+          "2134531",
+          "-4269069",
+          "8538143"
+        ],
+        "case_id": "S155",
+        "check_summary": "Three-phase affine updates with biases -7,5,1 and multiplier -2.",
+        "confidence": 1,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "136538",
+          "273073",
+          "546148",
+          "1092293",
+          "2184588"
+        ],
+        "case_id": "S156",
+        "check_summary": "Multiplier 2 with alternating biases +2,-3.",
+        "confidence": 1,
+        "rule_summary": "Two-phase affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-38D833F18B84-search-b13-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "d1b37b23433e7644ba225f31a8b82ecaeefa115d9f0521e54b11f2e9addad048",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-38D833F18B84-search-b13-proposer-6/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "24",
+          "9",
+          "36",
+          "-7",
+          "50"
+        ],
+        "case_id": "S109",
+        "check_summary": "Odd and even subsequences fit simple polynomial/periodic rules.",
+        "confidence": 0.98,
+        "rule_summary": "Interleaved quadratic odd stream and alternating even stream."
+      },
+      {
+        "answer": [
+          "12",
+          "-3",
+          "-12",
+          "14",
+          "-1"
+        ],
+        "case_id": "S110",
+        "check_summary": "Periodic interleaving inferred from repeated phase behavior.",
+        "confidence": 0.34,
+        "rule_summary": "Phase-interleaved affine/modular streams."
+      },
+      {
+        "answer": [
+          "82",
+          "77",
+          "72",
+          "67",
+          "62"
+        ],
+        "case_id": "S111",
+        "check_summary": "Late-prefix block increments suggest continuation of the final descending phase.",
+        "confidence": 0.22,
+        "rule_summary": "Growing-block construction with phase-specific linear changes."
+      },
+      {
+        "answer": [
+          "-7",
+          "-6",
+          "47",
+          "-14",
+          "-5"
+        ],
+        "case_id": "S112",
+        "check_summary": "Periodic phase structure inferred from recurring subsequences.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-18",
+          "-64",
+          "-31",
+          "-47",
+          "-105"
+        ],
+        "case_id": "S113",
+        "check_summary": "One lag subsequence shows constant second differences; remaining phases extrapolated analogously.",
+        "confidence": 0.16,
+        "rule_summary": "Lagged polynomial interleave."
+      },
+      {
+        "answer": [
+          "28",
+          "-15",
+          "-13",
+          "113",
+          "30"
+        ],
+        "case_id": "S114",
+        "check_summary": "Alternating subsequences exhibit repeating affine/polynomial phase behavior.",
+        "confidence": 0.18,
+        "rule_summary": "Two-stream interleave with phase-specific affine updates."
+      },
+      {
+        "answer": [
+          "44",
+          "52",
+          "60",
+          "68",
+          "76"
+        ],
+        "case_id": "S115",
+        "check_summary": "Final observed increments suggest continued geometric-growth phase.",
+        "confidence": 0.18,
+        "rule_summary": "Growing-block sequence with reset and doubling steps."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd terms descend by one; even terms descend by four.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "32",
+          "10",
+          "39",
+          "13",
+          "46"
+        ],
+        "case_id": "S117",
+        "check_summary": "Periodic interleaving inferred from recurring low-order phase patterns.",
+        "confidence": 0.17,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "13",
+          "8",
+          "31",
+          "26",
+          "21"
+        ],
+        "case_id": "S118",
+        "check_summary": "Negative steps of five recur, with increasing positive reset jumps.",
+        "confidence": 0.78,
+        "rule_summary": "Growing-block arithmetic pattern."
+      },
+      {
+        "answer": [
+          "68",
+          "16",
+          "82",
+          "20",
+          "87"
+        ],
+        "case_id": "S119",
+        "check_summary": "Three-phase difference pattern inferred from the prefix.",
+        "confidence": 0.15,
+        "rule_summary": "Three-way interleaved polynomial increments."
+      },
+      {
+        "answer": [
+          "62",
+          "45",
+          "28",
+          "11",
+          "-6"
+        ],
+        "case_id": "S120",
+        "check_summary": "Continuation of the latest constant negative-delta phase.",
+        "confidence": 0.14,
+        "rule_summary": "Growing-block sequence with periodic affine phases."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-26840FECDB83-search-b10-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "56daae43ec619f576601a55efc245a896bef1f4d5b33175e25bf67e0a6a59ff3",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-26840FECDB83-search-b10-proposer-7/attempt-01"
+}

@@ -1,0 +1,559 @@
+{
+  "artifact_sha256": "a45e17818b6a07cd7aa1a843e5492efc4f35034b59a2013b7688245ff8bafc62",
+  "best_founder_freeze_artifact_sha256": "ebb5c5284917ea5dd1c452d98bceea22deae6dc9a5021ff46203ad3a5afe17e6",
+  "catalog_file_sha256": "7e0f6abb1774aaf904353195b2b24cc5572db50261b5e6329dd11f8e74fcae4a",
+  "comparison_receipts": [
+    {
+      "child_fitness": {
+        "block_exact": {
+          "search-b03": 6,
+          "search-b04": 4
+        },
+        "calls": 20,
+        "case_count": 24,
+        "exact_cases": 10,
+        "fitness_key": [
+          10,
+          4,
+          0,
+          60,
+          24
+        ],
+        "format_valid": 24,
+        "harmful_overrides": 0,
+        "term_correct": 60,
+        "weakest_block_exact": 4
+      },
+      "child_genome_id": "G-69EC56E447B2",
+      "decision": "keep_better_parent",
+      "parent_fitness": {
+        "block_exact": {
+          "search-b03": 8,
+          "search-b04": 4
+        },
+        "calls": 20,
+        "case_count": 24,
+        "exact_cases": 12,
+        "fitness_key": [
+          12,
+          4,
+          0,
+          66,
+          24
+        ],
+        "format_valid": 24,
+        "harmful_overrides": 0,
+        "term_correct": 66,
+        "weakest_block_exact": 4
+      },
+      "parent_genome_id": "G-0025CFC9EF2E",
+      "slot_id": "S01",
+      "survivor_genome_id": "G-0025CFC9EF2E"
+    },
+    {
+      "child_fitness": {
+        "block_exact": {
+          "search-b03": 7,
+          "search-b04": 2
+        },
+        "calls": 20,
+        "case_count": 24,
+        "exact_cases": 9,
+        "fitness_key": [
+          9,
+          2,
+          -1,
+          56,
+          24
+        ],
+        "format_valid": 24,
+        "harmful_overrides": 1,
+        "term_correct": 56,
+        "weakest_block_exact": 2
+      },
+      "child_genome_id": "G-A5C4CF71B956",
+      "decision": "keep_better_parent",
+      "parent_fitness": {
+        "block_exact": {
+          "search-b03": 7,
+          "search-b04": 4
+        },
+        "calls": 20,
+        "case_count": 24,
+        "exact_cases": 11,
+        "fitness_key": [
+          11,
+          4,
+          -2,
+          64,
+          24
+        ],
+        "format_valid": 24,
+        "harmful_overrides": 2,
+        "term_correct": 64,
+        "weakest_block_exact": 4
+      },
+      "parent_genome_id": "G-1EB09860ED89",
+      "slot_id": "S02",
+      "survivor_genome_id": "G-1EB09860ED89"
+    },
+    {
+      "child_fitness": {
+        "block_exact": {
+          "search-b03": 5,
+          "search-b04": 2
+        },
+        "calls": 20,
+        "case_count": 24,
+        "exact_cases": 7,
+        "fitness_key": [
+          7,
+          2,
+          0,
+          51,
+          24
+        ],
+        "format_valid": 24,
+        "harmful_overrides": 0,
+        "term_correct": 51,
+        "weakest_block_exact": 2
+      },
+      "child_genome_id": "G-2D699BBC271A",
+      "decision": "keep_better_parent",
+      "parent_fitness": {
+        "block_exact": {
+          "search-b03": 6,
+          "search-b04": 2
+        },
+        "calls": 20,
+        "case_count": 24,
+        "exact_cases": 8,
+        "fitness_key": [
+          8,
+          2,
+          -1,
+          51,
+          24
+        ],
+        "format_valid": 24,
+        "harmful_overrides": 1,
+        "term_correct": 51,
+        "weakest_block_exact": 2
+      },
+      "parent_genome_id": "G-347400D8BFC6",
+      "slot_id": "S03",
+      "survivor_genome_id": "G-347400D8BFC6"
+    },
+    {
+      "child_fitness": {
+        "block_exact": {
+          "search-b03": 7,
+          "search-b04": 1
+        },
+        "calls": 20,
+        "case_count": 24,
+        "exact_cases": 8,
+        "fitness_key": [
+          8,
+          1,
+          -1,
+          49,
+          24
+        ],
+        "format_valid": 24,
+        "harmful_overrides": 1,
+        "term_correct": 49,
+        "weakest_block_exact": 1
+      },
+      "child_genome_id": "G-A246735BF9C3",
+      "decision": "keep_better_parent",
+      "parent_fitness": {
+        "block_exact": {
+          "search-b03": 7,
+          "search-b04": 3
+        },
+        "calls": 20,
+        "case_count": 24,
+        "exact_cases": 10,
+        "fitness_key": [
+          10,
+          3,
+          0,
+          62,
+          24
+        ],
+        "format_valid": 24,
+        "harmful_overrides": 0,
+        "term_correct": 62,
+        "weakest_block_exact": 3
+      },
+      "parent_genome_id": "G-F3EA0DB4CF72",
+      "slot_id": "S04",
+      "survivor_genome_id": "G-F3EA0DB4CF72"
+    },
+    {
+      "child_fitness": {
+        "block_exact": {
+          "search-b03": 6,
+          "search-b04": 2
+        },
+        "calls": 20,
+        "case_count": 24,
+        "exact_cases": 8,
+        "fitness_key": [
+          8,
+          2,
+          0,
+          51,
+          24
+        ],
+        "format_valid": 24,
+        "harmful_overrides": 0,
+        "term_correct": 51,
+        "weakest_block_exact": 2
+      },
+      "child_genome_id": "G-BF0AD01E8A72",
+      "decision": "keep_better_parent",
+      "parent_fitness": {
+        "block_exact": {
+          "search-b03": 7,
+          "search-b04": 3
+        },
+        "calls": 20,
+        "case_count": 24,
+        "exact_cases": 10,
+        "fitness_key": [
+          10,
+          3,
+          -2,
+          59,
+          24
+        ],
+        "format_valid": 24,
+        "harmful_overrides": 2,
+        "term_correct": 59,
+        "weakest_block_exact": 3
+      },
+      "parent_genome_id": "G-C8D08DBE9D9D",
+      "slot_id": "S05",
+      "survivor_genome_id": "G-C8D08DBE9D9D"
+    },
+    {
+      "child_fitness": {
+        "block_exact": {
+          "search-b03": 7,
+          "search-b04": 4
+        },
+        "calls": 20,
+        "case_count": 24,
+        "exact_cases": 11,
+        "fitness_key": [
+          11,
+          4,
+          0,
+          60,
+          24
+        ],
+        "format_valid": 24,
+        "harmful_overrides": 0,
+        "term_correct": 60,
+        "weakest_block_exact": 4
+      },
+      "child_genome_id": "G-AA614F215F9C",
+      "decision": "keep_better_parent",
+      "parent_fitness": {
+        "block_exact": {
+          "search-b03": 7,
+          "search-b04": 4
+        },
+        "calls": 20,
+        "case_count": 24,
+        "exact_cases": 11,
+        "fitness_key": [
+          11,
+          4,
+          0,
+          63,
+          24
+        ],
+        "format_valid": 24,
+        "harmful_overrides": 0,
+        "term_correct": 63,
+        "weakest_block_exact": 4
+      },
+      "parent_genome_id": "G-2B08D2BA7D25",
+      "slot_id": "S06",
+      "survivor_genome_id": "G-2B08D2BA7D25"
+    }
+  ],
+  "evolution_seed": "swarm-seeds-04-evolution-v1",
+  "experiment_id": "swarm-seeds-04",
+  "history_genome_sha256s": [
+    "0025cfc9ef2ee3d344d081e1e2ce7d21c34336b77eb3d442437a803b0db0e2af",
+    "077823ba6dd79996658e63b440070bf4e60cfc4b87f8f5c48f936a1aa3b3c7f1",
+    "1eb09860ed89a647bb76608128e477b3ced2db7d35cc5f8745c1a2b9fde8e767",
+    "26751cf6a6d404b4be61f88a483cbe08d576a211523d6252c5543252ea93c99a",
+    "2b08d2ba7d252136ff1ef4494a1abd2e29c2337dae2ebead8c3c799ae9d55300",
+    "2d699bbc271a6a12df4f0960bb23d2906542a2ec389c117c4c7a772761280abd",
+    "347400d8bfc642b1adb21d9a3d5a9641078dae8893103d2e2bd4c39d6f6927a3",
+    "3ce5cd3b66b3715755af9be567115f2417332fbb5956db5b85ec618a743d0e6b",
+    "3e12e3a43395d8bc7eab17b14fc69f2de111cdf1d6de81b01f5177e72102bb69",
+    "69ec56e447b22c1a8ca63d03e97acef4719ab9d05341c7777f68d2597960254e",
+    "8488734ff67b73bc0aef2c7af156629af833faf7b9b336ce57e139f623f9ccd7",
+    "a246735bf9c352d1ce88862ff6b05297f0e71b6223fd28a49a45517eeb0c612e",
+    "a5c4cf71b956b2eba0ea66cf245a75b43362102b4dcb63dbc6e27ea6670322c3",
+    "aa614f215f9ca0cc3b5de202d680a3a9439d59850885b876a6ffd5e2fcd6dccd",
+    "b339f5d2f343e2ca822b191e4089abde478414c44dea97d9687a9e1ec62a888b",
+    "bf0ad01e8a726404a149eac477f518dfe13dac1d49e0245c2d407763a8c9fbee",
+    "c8d08dbe9d9d6cab19d8292e95ebd155466c91647c4add244480005c3fc1f1b9",
+    "f3ea0db4cf72fc9c43767f3cf31eda90cfff86929541b23d111304676067bf64"
+  ],
+  "parent_slot_count": 6,
+  "provider_reasoning_effort": "low",
+  "public_condition_label": "Light reasoning",
+  "round_completed": 2,
+  "round_count": 8,
+  "schema_version": "experiment-04-parent-population-v1",
+  "slots": [
+    {
+      "genome": {
+        "genes": {
+          "decision_system_id": "vote_10p",
+          "judge_policy_id": "plurality_preserving",
+          "worker_lens_ids": [
+            "generalist",
+            "generalist",
+            "generalist",
+            "generalist",
+            "generalist",
+            "generalist",
+            "generalist",
+            "generalist",
+            "generalist",
+            "generalist"
+          ]
+        },
+        "genome_id": "G-0025CFC9EF2E",
+        "genome_sha256": "0025cfc9ef2ee3d344d081e1e2ce7d21c34336b77eb3d442437a803b0db0e2af",
+        "lineage": {
+          "crossover_sources": null,
+          "designated_parent_slot": "S01",
+          "founder_id": "F01",
+          "mutation": null,
+          "operation": "founder",
+          "parents": [],
+          "round": 0
+        }
+      },
+      "slot_id": "S01"
+    },
+    {
+      "genome": {
+        "genes": {
+          "decision_system_id": "judge_9p1j",
+          "judge_policy_id": "evidence_weighted",
+          "worker_lens_ids": [
+            "generalist",
+            "differences",
+            "recurrences",
+            "streams",
+            "modular",
+            "simplicity",
+            "diversifier",
+            "audit",
+            "generalist",
+            "audit"
+          ]
+        },
+        "genome_id": "G-1EB09860ED89",
+        "genome_sha256": "1eb09860ed89a647bb76608128e477b3ced2db7d35cc5f8745c1a2b9fde8e767",
+        "lineage": {
+          "crossover_sources": null,
+          "designated_parent_slot": "S02",
+          "founder_id": "F02",
+          "mutation": null,
+          "operation": "founder",
+          "parents": [],
+          "round": 0
+        }
+      },
+      "slot_id": "S02"
+    },
+    {
+      "genome": {
+        "genes": {
+          "decision_system_id": "gated_7p2c1j",
+          "judge_policy_id": "plurality_preserving",
+          "worker_lens_ids": [
+            "differences",
+            "recurrences",
+            "streams",
+            "modular",
+            "simplicity",
+            "diversifier",
+            "generalist",
+            "audit",
+            "simplicity",
+            "generalist"
+          ]
+        },
+        "genome_id": "G-347400D8BFC6",
+        "genome_sha256": "347400d8bfc642b1adb21d9a3d5a9641078dae8893103d2e2bd4c39d6f6927a3",
+        "lineage": {
+          "crossover_sources": null,
+          "designated_parent_slot": "S03",
+          "founder_id": "F03",
+          "mutation": null,
+          "operation": "founder",
+          "parents": [],
+          "round": 0
+        }
+      },
+      "slot_id": "S03"
+    },
+    {
+      "genome": {
+        "genes": {
+          "decision_system_id": "dual_8p2j",
+          "judge_policy_id": "minority_aware",
+          "worker_lens_ids": [
+            "audit",
+            "simplicity",
+            "generalist",
+            "differences",
+            "recurrences",
+            "streams",
+            "modular",
+            "diversifier",
+            "audit",
+            "generalist"
+          ]
+        },
+        "genome_id": "G-F3EA0DB4CF72",
+        "genome_sha256": "f3ea0db4cf72fc9c43767f3cf31eda90cfff86929541b23d111304676067bf64",
+        "lineage": {
+          "crossover_sources": null,
+          "designated_parent_slot": "S04",
+          "founder_id": "F04",
+          "mutation": null,
+          "operation": "founder",
+          "parents": [],
+          "round": 0
+        }
+      },
+      "slot_id": "S04"
+    },
+    {
+      "genome": {
+        "genes": {
+          "decision_system_id": "deliberative_6p2c2j",
+          "judge_policy_id": "robustness_first",
+          "worker_lens_ids": [
+            "differences",
+            "recurrences",
+            "recurrences",
+            "streams",
+            "modular",
+            "diversifier",
+            "diversifier",
+            "audit",
+            "audit",
+            "audit"
+          ]
+        },
+        "genome_id": "G-C8D08DBE9D9D",
+        "genome_sha256": "c8d08dbe9d9d6cab19d8292e95ebd155466c91647c4add244480005c3fc1f1b9",
+        "lineage": {
+          "crossover_sources": {
+            "attempt": 0,
+            "decision_system_id": "G-077823BA6DD7",
+            "judge_policy_id": "G-26751CF6A6D4",
+            "mask": 1209,
+            "mate_slot": "S06",
+            "worker_lens_ids": [
+              "G-26751CF6A6D4",
+              "G-26751CF6A6D4",
+              "G-077823BA6DD7",
+              "G-077823BA6DD7",
+              "G-077823BA6DD7",
+              "G-26751CF6A6D4",
+              "G-077823BA6DD7",
+              "G-26751CF6A6D4",
+              "G-26751CF6A6D4",
+              "G-077823BA6DD7"
+            ]
+          },
+          "designated_parent_slot": "S05",
+          "founder_id": null,
+          "mutation": null,
+          "operation": "crossover",
+          "parents": [
+            "G-26751CF6A6D4",
+            "G-077823BA6DD7"
+          ],
+          "round": 1
+        }
+      },
+      "slot_id": "S05"
+    },
+    {
+      "genome": {
+        "genes": {
+          "decision_system_id": "deliberative_6p2c2j",
+          "judge_policy_id": "plurality_preserving",
+          "worker_lens_ids": [
+            "generalist",
+            "differences",
+            "recurrences",
+            "streams",
+            "modular",
+            "simplicity",
+            "diversifier",
+            "audit",
+            "generalist",
+            "generalist"
+          ]
+        },
+        "genome_id": "G-2B08D2BA7D25",
+        "genome_sha256": "2b08d2ba7d252136ff1ef4494a1abd2e29c2337dae2ebead8c3c799ae9d55300",
+        "lineage": {
+          "crossover_sources": {
+            "attempt": 0,
+            "decision_system_id": "G-077823BA6DD7",
+            "judge_policy_id": "G-0025CFC9EF2E",
+            "mask": 3586,
+            "mate_slot": "S01",
+            "worker_lens_ids": [
+              "G-0025CFC9EF2E",
+              "G-077823BA6DD7",
+              "G-077823BA6DD7",
+              "G-077823BA6DD7",
+              "G-077823BA6DD7",
+              "G-077823BA6DD7",
+              "G-077823BA6DD7",
+              "G-077823BA6DD7",
+              "G-0025CFC9EF2E",
+              "G-0025CFC9EF2E"
+            ]
+          },
+          "designated_parent_slot": "S06",
+          "founder_id": null,
+          "mutation": null,
+          "operation": "crossover",
+          "parents": [
+            "G-077823BA6DD7",
+            "G-0025CFC9EF2E"
+          ],
+          "round": 1
+        }
+      },
+      "slot_id": "S06"
+    }
+  ],
+  "source_answers_file_sha256": "a986fec201b593d7a0447ea06baa4750ee2d60d5ff5f7363fe1a78c05421a1e1",
+  "source_candidates_artifact_sha256": "38d3dbb4ac008155de59964ceabc323783df4a530b77cb37c20d41d3caad7eb7",
+  "source_candidates_file_sha256": "3b27ca4f940dc696f4a2456d6a709f31259b77f8c23e1b8e18b0886c93d72bd7",
+  "source_case_matrix_file_sha256": "b19dbb4fe8f85e80bb23a678b56c29747388a64cef6109dd7291a69a9c402bba",
+  "source_predictions_file_sha256": "2d2cbb321de9c22ba448740bd9bcf1c610ed60a7e7c646f247d49ff9e8ab2601",
+  "source_summary_file_sha256": "b266763c4a329849f30d9a957f12ab24f066ef1e18dfb2e927feebea48ba9495"
+}

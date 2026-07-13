@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b06",
+    "results": [
+      {
+        "answer": [
+          "-8",
+          "35",
+          "-11",
+          "39",
+          "-14"
+        ],
+        "case_id": "F061",
+        "check_summary": "Odd and even positions are arithmetic streams with steps -3 and +4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-7",
+          "18",
+          "10",
+          "-3",
+          "29"
+        ],
+        "case_id": "F062",
+        "check_summary": "Noisy finite-prefix fit; extrapolation is uncertain.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative interleaved polynomial/affine fit."
+      },
+      {
+        "answer": [
+          "-1",
+          "-1",
+          "-1",
+          "-1",
+          "-1"
+        ],
+        "case_id": "F063",
+        "check_summary": "Tentative phase-based continuation from the final repeated behavior.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative PDELTA fit."
+      },
+      {
+        "answer": [
+          "-9",
+          "-42",
+          "-75",
+          "-108",
+          "-141"
+        ],
+        "case_id": "F064",
+        "check_summary": "Positive block increments are 1,15,34,58,87; negative blocks repeat with values -13,-18,-23,-28,-33.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK with polynomial starts and linear block steps."
+      },
+      {
+        "answer": [
+          "-4",
+          "91",
+          "-11",
+          "108",
+          "-18"
+        ],
+        "case_id": "F065",
+        "check_summary": "Noisy finite-prefix fit; extrapolation is uncertain.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative interleaved polynomial fit."
+      },
+      {
+        "answer": [
+          "99",
+          "-15",
+          "-67",
+          "251",
+          "-22"
+        ],
+        "case_id": "F066",
+        "check_summary": "Three lagged streams: one has second differences -3, one has alternating-doubling differences, and one is arithmetic.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of three lagged streams."
+      },
+      {
+        "answer": [
+          "45",
+          "9",
+          "-27",
+          "-63",
+          "-99"
+        ],
+        "case_id": "F067",
+        "check_summary": "Positive block increments continue with +101; the next negative block repeats -36.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK with polynomial starts and linear block steps."
+      },
+      {
+        "answer": [
+          "19",
+          "48",
+          "42",
+          "71",
+          "64"
+        ],
+        "case_id": "F068",
+        "check_summary": "Tentative periodic phase-delta continuation from the final delta cycle.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative PDELTA fit."
+      },
+      {
+        "answer": [
+          "-22",
+          "-24",
+          "-26",
+          "-28",
+          "-30"
+        ],
+        "case_id": "F069",
+        "check_summary": "Tentative continuation of the dominant near-linear decreasing pattern.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative PDELTA/AFFINE fit."
+      },
+      {
+        "answer": [
+          "-640",
+          "17",
+          "1280",
+          "26",
+          "-2560"
+        ],
+        "case_id": "F070",
+        "check_summary": "Odd positions continue multiplication by -2; even positions continue increments 7,9.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE of affine/geometric phase streams."
+      },
+      {
+        "answer": [
+          "-34",
+          "-56",
+          "-47",
+          "-75",
+          "-60"
+        ],
+        "case_id": "F071",
+        "check_summary": "Tentative continuation of alternating odd/even lagged trends.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative INTERLEAVE fit."
+      },
+      {
+        "answer": [
+          "30",
+          "28",
+          "39",
+          "35",
+          "48"
+        ],
+        "case_id": "F072",
+        "check_summary": "Noisy finite-prefix fit; extrapolation is uncertain.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative interleaved polynomial fit."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-generalist_vote10-GENERALIST-VOTE10-final-b06-proposer-9",
+  "outcome": "valid_output",
+  "response_sha256": "814c6289561c7493ac75cfc9bfe932d852002a389f36519ddf5cf1a0b38a451d",
+  "terminal_artifact_relpath": "jobs/final-generalist_vote10-GENERALIST-VOTE10-final-b06-proposer-9/attempt-01"
+}

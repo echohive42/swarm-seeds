@@ -1,0 +1,103 @@
+{
+  "schema_version": "experiment-04-genome-catalog-v1",
+  "experiment_id": "swarm-seeds-04",
+  "public_condition_label": "Light reasoning",
+  "provider_reasoning_effort": "low",
+  "evolution_seed": "swarm-seeds-04-evolution-v1",
+  "rounds": 8,
+  "parent_slots": 6,
+  "candidates_per_round": 12,
+  "calls_per_block": 10,
+  "search_blocks_per_round": 2,
+  "search_cases_per_candidate": 24,
+  "search_calls_per_candidate": 20,
+  "validation_cases_per_candidate": 72,
+  "validation_calls_per_candidate": 60,
+  "decision_system_ids": [
+    "vote_10p",
+    "judge_9p1j",
+    "gated_7p2c1j",
+    "dual_8p2j",
+    "verified_7p2v1j",
+    "deliberative_6p2c2j"
+  ],
+  "worker_lens_ids": [
+    "generalist",
+    "differences",
+    "recurrences",
+    "streams",
+    "modular",
+    "simplicity",
+    "diversifier",
+    "audit"
+  ],
+  "judge_policy_ids": [
+    "plurality_preserving",
+    "evidence_weighted",
+    "minority_aware",
+    "robustness_first"
+  ],
+  "schedule": {
+    "mutation_slots": "round r mutates S[((r-1)+i) mod 6]+1 for i=0..3",
+    "crossover_slots": "the other two slots",
+    "crossover_mates": "cyclic offsets ((r-1+k) mod 5)+1 for k=0..4; first unique child",
+    "choice_function": "SHA-256(seed,NUL,label) modulo frozen canonical option order",
+    "replacement": "each child challenges its designated parent; exact fitness ties keep parent"
+  },
+  "founders": [
+    {
+      "founder_id": "F01",
+      "slot_id": "S01",
+      "genes": {
+        "decision_system_id": "vote_10p",
+        "worker_lens_ids": ["generalist", "generalist", "generalist", "generalist", "generalist", "generalist", "generalist", "generalist", "generalist", "generalist"],
+        "judge_policy_id": "plurality_preserving"
+      }
+    },
+    {
+      "founder_id": "F02",
+      "slot_id": "S02",
+      "genes": {
+        "decision_system_id": "judge_9p1j",
+        "worker_lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "diversifier", "audit", "generalist", "audit"],
+        "judge_policy_id": "evidence_weighted"
+      }
+    },
+    {
+      "founder_id": "F03",
+      "slot_id": "S03",
+      "genes": {
+        "decision_system_id": "gated_7p2c1j",
+        "worker_lens_ids": ["differences", "recurrences", "streams", "modular", "simplicity", "diversifier", "generalist", "audit", "simplicity", "generalist"],
+        "judge_policy_id": "plurality_preserving"
+      }
+    },
+    {
+      "founder_id": "F04",
+      "slot_id": "S04",
+      "genes": {
+        "decision_system_id": "dual_8p2j",
+        "worker_lens_ids": ["audit", "simplicity", "generalist", "differences", "recurrences", "streams", "modular", "diversifier", "audit", "generalist"],
+        "judge_policy_id": "minority_aware"
+      }
+    },
+    {
+      "founder_id": "F05",
+      "slot_id": "S05",
+      "genes": {
+        "decision_system_id": "verified_7p2v1j",
+        "worker_lens_ids": ["differences", "recurrences", "streams", "modular", "simplicity", "diversifier", "generalist", "audit", "audit", "generalist"],
+        "judge_policy_id": "robustness_first"
+      }
+    },
+    {
+      "founder_id": "F06",
+      "slot_id": "S06",
+      "genes": {
+        "decision_system_id": "deliberative_6p2c2j",
+        "worker_lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "diversifier", "audit", "generalist", "audit"],
+        "judge_policy_id": "robustness_first"
+      }
+    }
+  ]
+}

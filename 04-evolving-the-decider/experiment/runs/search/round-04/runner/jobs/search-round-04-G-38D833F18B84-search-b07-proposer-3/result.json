@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-34",
+          "-38",
+          "-37",
+          "-41"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating first differences -4,-3.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine delta."
+      },
+      {
+        "answer": [
+          "-9345",
+          "15130",
+          "-24475",
+          "39605",
+          "-64080"
+        ],
+        "case_id": "S074",
+        "check_summary": "Extrapolated alternating exponential recurrence.",
+        "confidence": 0.31,
+        "rule_summary": "Phase-periodic linear recurrence."
+      },
+      {
+        "answer": [
+          "8",
+          "10",
+          "8",
+          "12",
+          "10"
+        ],
+        "case_id": "S075",
+        "check_summary": "Small interleaved streams extrapolated.",
+        "confidence": 0.22,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-14270",
+          "-20870",
+          "-29740",
+          "-41280",
+          "-55500"
+        ],
+        "case_id": "S076",
+        "check_summary": "Extrapolated growing phase recurrence.",
+        "confidence": 0.18,
+        "rule_summary": "Phase-periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-4062",
+          "-9810",
+          "-23680",
+          "-57180",
+          "-137990"
+        ],
+        "case_id": "S077",
+        "check_summary": "Extrapolated rapidly growing lag recurrence.",
+        "confidence": 0.28,
+        "rule_summary": "Second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "-4915838",
+          "14747519",
+          "-44242552",
+          "132727661",
+          "-398182978"
+        ],
+        "case_id": "S078",
+        "check_summary": "Each term equals -3 times prior plus 5.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence x'=-3x+5."
+      },
+      {
+        "answer": [
+          "80",
+          "63",
+          "98",
+          "126",
+          "177"
+        ],
+        "case_id": "S079",
+        "check_summary": "Extrapolated interleaved growth pattern.",
+        "confidence": 0.19,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "408426",
+          "3675808",
+          "33082366",
+          "297741264",
+          "2679671350"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three phase streams each multiply by 9 with fixed phase bias.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic affine recurrence modulo no modulus."
+      },
+      {
+        "answer": [
+          "-152370",
+          "304738",
+          "-609474",
+          "1218946",
+          "-2437894"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating affine update with multiplier -2 and biases +2,-2.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 affine recurrence."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences are negative squares.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial difference sequence."
+      },
+      {
+        "answer": [
+          "-3765",
+          "-6008",
+          "-8613",
+          "-11643",
+          "-15166"
+        ],
+        "case_id": "S083",
+        "check_summary": "Third differences continue an arithmetic progression.",
+        "confidence": 0.96,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "349111",
+          "-837876",
+          "2010901",
+          "-4826178",
+          "11582875"
+        ],
+        "case_id": "S084",
+        "check_summary": "Extrapolated alternating affine growth.",
+        "confidence": 0.17,
+        "rule_summary": "Phase-periodic affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-38D833F18B84-search-b07-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "92e977190d6db00c2728fd8764efa9ab8ad58dcd577195eb902c63eb50a63fb4",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-38D833F18B84-search-b07-proposer-3/attempt-01"
+}

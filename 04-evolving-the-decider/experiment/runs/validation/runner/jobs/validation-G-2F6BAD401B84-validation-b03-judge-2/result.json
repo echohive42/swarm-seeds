@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "Plurality unanimously identifies x_next=-3x+3.",
+        "confidence": 1,
+        "rule_summary": "AFFINE constant update."
+      },
+      {
+        "answer": [
+          "-3777",
+          "-5390",
+          "-7477",
+          "-10123",
+          "-13420"
+        ],
+        "case_id": "V026",
+        "check_summary": "Plurality supports constant fourth finite difference -7.",
+        "confidence": 0.98,
+        "rule_summary": "POLY finite-difference continuation."
+      },
+      {
+        "answer": [
+          "-174",
+          "-1027",
+          "1438",
+          "-2549",
+          "4306"
+        ],
+        "case_id": "V027",
+        "check_summary": "Plurality selects the periodic interleaved continuation.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "47316",
+          "-94674",
+          "189310",
+          "-378664",
+          "757288"
+        ],
+        "case_id": "V028",
+        "check_summary": "Plurality supports alternating affine biases with multiplier -2.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE period-2 update."
+      },
+      {
+        "answer": [
+          "12217",
+          "18930",
+          "27984",
+          "40046",
+          "55011"
+        ],
+        "case_id": "V029",
+        "check_summary": "Plurality selects this higher-order polynomial-growth continuation.",
+        "confidence": 0.3,
+        "rule_summary": "POLY/GROWBLOCK continuation."
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "All candidates identify two interleaved arithmetic streams.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Plurality unanimously verifies alternating updates 2x+1 and 3x+7.",
+        "confidence": 1,
+        "rule_summary": "AFFINE period-2 update."
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802339",
+          "71604684",
+          "-214814049",
+          "644442141"
+        ],
+        "case_id": "V032",
+        "check_summary": "Plurality and critic evidence verify the period-3 affine updates.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE period-3 update."
+      },
+      {
+        "answer": [
+          "963",
+          "-1566",
+          "2526",
+          "-4095",
+          "6621"
+        ],
+        "case_id": "V033",
+        "check_summary": "Critic plurality verifies x_n=-x_{n-1}+x_{n-2}-3.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 constant-bias recurrence."
+      },
+      {
+        "answer": [
+          "-10",
+          "-3",
+          "-17",
+          "12",
+          "-15"
+        ],
+        "case_id": "V034",
+        "check_summary": "Plurality selects the periodic/interleaved continuation.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "57",
+          "36",
+          "85",
+          "80",
+          "74"
+        ],
+        "case_id": "V035",
+        "check_summary": "Plurality identifies this interleaved-stream continuation.",
+        "confidence": 0.42,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "815",
+          "1060",
+          "1351",
+          "1692",
+          "2087"
+        ],
+        "case_id": "V036",
+        "check_summary": "Plurality and critics support the finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY finite-difference continuation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b03-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "99a963d49bb4082347b539c2cb1c63a335793575b0f9459861d4cfe32e3777df",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b03-judge-2/attempt-01"
+}

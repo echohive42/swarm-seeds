@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating first differences -4,-3 replay the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic phase-specific constant deltas."
+      },
+      {
+        "answer": [
+          "9350",
+          "-15126",
+          "24468",
+          "-39602",
+          "64064"
+        ],
+        "case_id": "S074",
+        "check_summary": "Second-order recurrence with alternating paired biases replays the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "LIN2 recurrence with periodic bias."
+      },
+      {
+        "answer": [
+          "6",
+          "11",
+          "18",
+          "8",
+          "16"
+        ],
+        "case_id": "S075",
+        "check_summary": "Three-phase difference streams each follow a linear trend.",
+        "confidence": 0.8,
+        "rule_summary": "PDELTA with period-3 polynomial deltas."
+      },
+      {
+        "answer": [
+          "-13955",
+          "-19747",
+          "-27438",
+          "-37449",
+          "-49910"
+        ],
+        "case_id": "S076",
+        "check_summary": "Accelerating negative differences fit a phase-dependent recurrence.",
+        "confidence": 0.3,
+        "rule_summary": "LIN2/PDELTA candidate."
+      },
+      {
+        "answer": [
+          "-4062",
+          "-9803",
+          "-23663",
+          "-57124",
+          "-137913"
+        ],
+        "case_id": "S077",
+        "check_summary": "First differences satisfy d_n=2d_{n-1}+d_{n-2}.",
+        "confidence": 0.97,
+        "rule_summary": "LIN2 with constant coefficients on differences."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Every step satisfies x_next=-3*x+5.",
+        "confidence": 1,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "97",
+          "151",
+          "229",
+          "337",
+          "481"
+        ],
+        "case_id": "S079",
+        "check_summary": "Extrapolated from interleaved polynomial-like streams.",
+        "confidence": 0.35,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      },
+      {
+        "answer": [
+          "408426",
+          "1225270",
+          "-3675812",
+          "3675804",
+          "11027404"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three-phase affine transformations replay the tail.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic AFFINE phase cycle."
+      },
+      {
+        "answer": [
+          "-152370",
+          "304742",
+          "-609482",
+          "1218966",
+          "-2437930"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating affine updates replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Phase-dependent affine recurrence."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences continue as negative squares.",
+        "confidence": 1,
+        "rule_summary": "POLY sequence with quadratic first differences."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7643",
+          "-10166"
+        ],
+        "case_id": "S083",
+        "check_summary": "Finite differences continue with constant fourth difference -5.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "350000",
+          "-840001",
+          "2016000",
+          "-4838401",
+          "11612160"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating multiplicative growth is consistent with a phase-dependent affine rule.",
+        "confidence": 0.3,
+        "rule_summary": "AFFINE/LIN2 candidate."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-1EB09860ED89-search-b07-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "25ec4325e6760a35e7af7a8199792ce2fdc759c28b680a3c3498eddc984bb6b0",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-1EB09860ED89-search-b07-judge-1/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b05",
+    "results": [
+      {
+        "answer": [
+          "-1988",
+          "-2743",
+          "-3689",
+          "-4855",
+          "-6021"
+        ],
+        "case_id": "S049",
+        "check_summary": "Fourth differences are constant at -2 across the prefix; continued finite-difference replay.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued quartic polynomial sequence."
+      },
+      {
+        "answer": [
+          "97519",
+          "195057",
+          "390092",
+          "780199",
+          "1560377"
+        ],
+        "case_id": "S050",
+        "check_summary": "Affine multiplier 2 with a repeating six-phase bias cycle.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence: x'=2x+b, biases repeating [18,-25,19,-22,15,-21]."
+      },
+      {
+        "answer": [
+          "31168",
+          "93514",
+          "-93513",
+          "280543",
+          "841632"
+        ],
+        "case_id": "S051",
+        "check_summary": "Alternating phase recurrence extrapolated from the established signed tripling pattern.",
+        "confidence": 0.72,
+        "rule_summary": "Phase-specific affine recurrence with multiplier -3."
+      },
+      {
+        "answer": [
+          "350",
+          "-438",
+          "437",
+          "-531",
+          "536"
+        ],
+        "case_id": "S052",
+        "check_summary": "Alternating differences have quadratic magnitude progressions with step 24 in their second differences.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial phase-specific delta sequence."
+      },
+      {
+        "answer": [
+          "-19",
+          "-27",
+          "-30",
+          "-39",
+          "-52"
+        ],
+        "case_id": "S053",
+        "check_summary": "Extrapolation from the observed interleaved irregular phase structure.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved phase-specific affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "-61",
+          "-73",
+          "-57",
+          "-78",
+          "-91"
+        ],
+        "case_id": "S054",
+        "check_summary": "Extrapolation from the observed periodic irregular update structure.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic affine or modular-affine update."
+      },
+      {
+        "answer": [
+          "3720092",
+          "-11160274",
+          "33480820",
+          "-100442458",
+          "301327378"
+        ],
+        "case_id": "S055",
+        "check_summary": "Every transition is x'=3x+2; replayed five steps.",
+        "confidence": 0.99,
+        "rule_summary": "Constant affine recurrence with multiplier 3 and bias 2."
+      },
+      {
+        "answer": [
+          "-9254",
+          "-15383",
+          "-23741",
+          "-33552",
+          "-44155"
+        ],
+        "case_id": "S056",
+        "check_summary": "Extrapolation from the observed accelerating phase-specific recurrence.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "4662",
+          "-13982",
+          "-27966",
+          "83902",
+          "167802"
+        ],
+        "case_id": "S057",
+        "check_summary": "Repeating three-phase updates: x'=-x-3, then x'=-3x+4, then x'=2x-2.",
+        "confidence": 0.99,
+        "rule_summary": "Three-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "58",
+          "62",
+          "67",
+          "71",
+          "76"
+        ],
+        "case_id": "S058",
+        "check_summary": "Alternating increments 5,4 continue.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta sequence with alternating increments."
+      },
+      {
+        "answer": [
+          "53",
+          "123",
+          "214",
+          "328",
+          "442"
+        ],
+        "case_id": "S059",
+        "check_summary": "Second differences continue as the odd progression -5,-3,-1,1,..., yielding next differences 51,70,91,114,139.",
+        "confidence": 0.96,
+        "rule_summary": "Polynomial sequence with quadratic second-difference structure."
+      },
+      {
+        "answer": [
+          "-1594",
+          "-2882",
+          "-4966",
+          "-8338",
+          "-13794"
+        ],
+        "case_id": "S060",
+        "check_summary": "Recent differences follow Fibonacci addition: each next difference is the sum of the prior two.",
+        "confidence": 0.97,
+        "rule_summary": "Second-order linear recurrence on first differences."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-2B08D2BA7D25-search-b05-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "13141025c9432f0a6ea8f6a9227989c06e5a8761d86dbfb28b94483791e39e58",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-2B08D2BA7D25-search-b05-proposer-5/attempt-01"
+}

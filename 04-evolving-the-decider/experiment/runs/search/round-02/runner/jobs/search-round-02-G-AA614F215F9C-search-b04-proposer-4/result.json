@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-126",
+          "31",
+          "-159",
+          "35",
+          "-202"
+        ],
+        "case_id": "S037",
+        "check_summary": "Extrapolated alternating interleaved streams.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "126",
+          "75",
+          "137",
+          "84",
+          "151"
+        ],
+        "case_id": "S038",
+        "check_summary": "Extrapolated phase-interleaved bounded streams.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "29",
+          "41",
+          "42",
+          "32",
+          "51"
+        ],
+        "case_id": "S039",
+        "check_summary": "Extrapolated lagged phase streams.",
+        "confidence": 0.12,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "100",
+          "116",
+          "71",
+          "90",
+          "109"
+        ],
+        "case_id": "S040",
+        "check_summary": "Growing arithmetic blocks with increasing step and polynomial starts.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Alternating arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-14",
+          "57",
+          "-19",
+          "36",
+          "-1"
+        ],
+        "case_id": "S042",
+        "check_summary": "Extrapolated periodic affine phases.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-22",
+          "15",
+          "-10",
+          "-35",
+          "-10"
+        ],
+        "case_id": "S043",
+        "check_summary": "Extrapolated interleaved irregular streams.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-11",
+          "-17",
+          "-4",
+          "-16",
+          "-4"
+        ],
+        "case_id": "S044",
+        "check_summary": "Extrapolated phase-specific streams.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "94",
+          "-2",
+          "12",
+          "132",
+          "-100"
+        ],
+        "case_id": "S045",
+        "check_summary": "Extrapolated periodic interleaving.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-30",
+          "-12",
+          "-17",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S046",
+        "check_summary": "Constant negative step with increasing correction jumps.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "198",
+          "101",
+          "147",
+          "193",
+          "239"
+        ],
+        "case_id": "S047",
+        "check_summary": "Growing arithmetic blocks with polynomial starts and steps.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "11",
+          "12",
+          "-12",
+          "-10",
+          "-9"
+        ],
+        "case_id": "S048",
+        "check_summary": "Four-way interleaving with polynomial phase streams.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-AA614F215F9C-search-b04-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "204ff8cc9e459410e9e637f8da7968874064fa6059b220081b0d22f5f7b6883d",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-AA614F215F9C-search-b04-proposer-4/attempt-01"
+}

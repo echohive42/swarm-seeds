@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b09",
+    "results": [
+      {
+        "answer": [
+          "-253274",
+          "-759824",
+          "1519654",
+          "4558960",
+          "-9117914"
+        ],
+        "case_id": "S097",
+        "check_summary": "Two interleaved affine recurrences replay the prefix exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Odd and even positions each follow x'=-6x+b with biases 16 and 10."
+      },
+      {
+        "answer": [
+          "-1000",
+          "-1500",
+          "-2000",
+          "-2500",
+          "-3000"
+        ],
+        "case_id": "S098",
+        "check_summary": "Exact mechanism not confidently identified from the prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved periodic/interleaved candidate."
+      },
+      {
+        "answer": [
+          "-802",
+          "-1141",
+          "-1586",
+          "-2130",
+          "-2765"
+        ],
+        "case_id": "S099",
+        "check_summary": "Fourth finite differences are constant at 1.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued quartic polynomial extrapolation."
+      },
+      {
+        "answer": [
+          "-4915830",
+          "14747487",
+          "-44242464",
+          "132727389",
+          "-398182170"
+        ],
+        "case_id": "S100",
+        "check_summary": "Affine recurrence replays every supplied transition.",
+        "confidence": 1.0,
+        "rule_summary": "a'=-3a-3."
+      },
+      {
+        "answer": [
+          "-7000",
+          "-10500",
+          "-15750",
+          "-23625",
+          "-35437"
+        ],
+        "case_id": "S101",
+        "check_summary": "Exact mechanism not confidently identified from the prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved polynomial or phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "1143",
+          "1477",
+          "1871",
+          "2330",
+          "2859"
+        ],
+        "case_id": "S102",
+        "check_summary": "Second differences continue by increments of 5.",
+        "confidence": 1.0,
+        "rule_summary": "Polynomial sequence with second difference continuing 50,55,60,65,70."
+      },
+      {
+        "answer": [
+          "136",
+          "132",
+          "125",
+          "115",
+          "105"
+        ],
+        "case_id": "S103",
+        "check_summary": "First differences form three arithmetic phase streams.",
+        "confidence": 0.99,
+        "rule_summary": "Three periodic difference phases each descend by 6."
+      },
+      {
+        "answer": [
+          "-36",
+          "-41",
+          "-44",
+          "-49",
+          "-52"
+        ],
+        "case_id": "S104",
+        "check_summary": "Differences alternate -3 and -5.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic arithmetic update with period 2."
+      },
+      {
+        "answer": [
+          "-39990",
+          "39995",
+          "79981",
+          "239946",
+          "-239941"
+        ],
+        "case_id": "S105",
+        "check_summary": "Three interleaved affine streams replay the prefix.",
+        "confidence": 1.0,
+        "rule_summary": "Each phase updates x'=-6x+b with biases 6,29,-5."
+      },
+      {
+        "answer": [
+          "-105048",
+          "-286663",
+          "-784174",
+          "-2145273",
+          "-5864620"
+        ],
+        "case_id": "S106",
+        "check_summary": "Exact mechanism not confidently identified from the prefix.",
+        "confidence": 0.06,
+        "rule_summary": "Unresolved rapidly growing affine/linear candidate."
+      },
+      {
+        "answer": [
+          "12",
+          "20",
+          "31",
+          "44",
+          "59"
+        ],
+        "case_id": "S107",
+        "check_summary": "Exact mechanism not confidently identified from the prefix.",
+        "confidence": 0.07,
+        "rule_summary": "Unresolved periodic polynomial candidate."
+      },
+      {
+        "answer": [
+          "-20",
+          "-25",
+          "-31",
+          "-38",
+          "-46"
+        ],
+        "case_id": "S108",
+        "check_summary": "Exact mechanism not confidently identified from the prefix.",
+        "confidence": 0.06,
+        "rule_summary": "Unresolved interleaved or phase-specific polynomial candidate."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-1FA44A1EE857-search-b09-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "060e114a41bb80304829cef3fe058f5467e1a8a9b7d61f64b94be99da0423956",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-1FA44A1EE857-search-b09-proposer-6/attempt-01"
+}

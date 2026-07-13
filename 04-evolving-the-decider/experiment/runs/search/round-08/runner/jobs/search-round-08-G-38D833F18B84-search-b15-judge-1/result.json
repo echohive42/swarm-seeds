@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Plurality of coherent exact-replay candidates; phasewise affine transform x_next=-4x+5.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "All but one candidates agree; alternating increments 4,5 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-2786",
+          "-4878",
+          "-7930",
+          "-12226",
+          "-18116"
+        ],
+        "case_id": "S171",
+        "check_summary": "Exact finite-difference replay gives constant fifth difference -4.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Exact finite-difference continuation; fourth difference is constant -1.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences increase consecutively, yielding the coherent polynomial continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18815",
+          "-30443"
+        ],
+        "case_id": "S174",
+        "check_summary": "Plurality supports the second-order recurrence with repeating biases -2,-2,3.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97897621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Strong plurality supports alternating affine updates 3x+1 and -2x+6.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "71",
+          "82",
+          "85",
+          "64",
+          "69"
+        ],
+        "case_id": "S176",
+        "check_summary": "Strongest coherent candidate continues four phase-specific difference streams linearly.",
+        "confidence": 0.93,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-214809",
+          "-429625",
+          "859241",
+          "1718491",
+          "3436975"
+        ],
+        "case_id": "S177",
+        "check_summary": "Plurality supports the exact three-phase affine cycle replay.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "All candidates agree; each term doubles the previous term.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "All candidates agree on exact repetition of the six-term cycle.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Strong plurality supports odd-position differences decreasing by 7 and even-position differences by 6.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-38D833F18B84-search-b15-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "23efeefc8777a331363b3d07cf2d472c09881b10c09d6ac5210b6c138f16cfab",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-38D833F18B84-search-b15-judge-1/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "8",
+          "13",
+          "18"
+        ],
+        "case_id": "S157",
+        "check_summary": "Growing blocks have step +5; the next length-5 block starts at -2.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd stream increments rise by 4; even stream repeatedly multiplies by -2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-18",
+          "-20",
+          "-23",
+          "-27",
+          "-32"
+        ],
+        "case_id": "S159",
+        "check_summary": "Plurality supports the continuation from the apparent interleaved tail differences, though identification is weak.",
+        "confidence": 0.21,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd-position terms increase by 2 and even-position terms increase by 1.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-11",
+          "39",
+          "7",
+          "-12",
+          "56"
+        ],
+        "case_id": "S161",
+        "check_summary": "Three residue streams have increment patterns +2,+3,+4,+5; -5,-4,-3,-2; and +5,+8,+11,+14.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "10",
+          "12",
+          "16",
+          "14",
+          "22"
+        ],
+        "case_id": "S162",
+        "check_summary": "Plurality supports this weak phase-specific continuation; no stronger full-prefix structure is identified.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "5",
+          "-362",
+          "5",
+          "6",
+          "-730"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams: decrementing differences, unit increments, and recurrence x↦2x−6.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "40",
+          "47",
+          "52",
+          "58",
+          "63"
+        ],
+        "case_id": "S164",
+        "check_summary": "Plurality supports the phase-specific continuation, but the prefix remains weakly identified.",
+        "confidence": 0.17,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-71",
+          "-2",
+          "-87",
+          "-4",
+          "-103"
+        ],
+        "case_id": "S165",
+        "check_summary": "Plurality supports the apparent interleaved periodic polynomial continuation.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "1",
+          "19",
+          "135",
+          "-34",
+          "19"
+        ],
+        "case_id": "S166",
+        "check_summary": "One stream alternates -21 and 19; another has increments rising by 9; the remaining phase gives the listed terms.",
+        "confidence": 0.79,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-48",
+          "-65",
+          "-82",
+          "-99",
+          "-116"
+        ],
+        "case_id": "S167",
+        "check_summary": "The terminal arithmetic stream continues with constant difference -17.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "98",
+          "122",
+          "146",
+          "170",
+          "194"
+        ],
+        "case_id": "S168",
+        "check_summary": "The latest arithmetic block continues with constant step +24.",
+        "confidence": 0.88,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-B6BC6FB624BA-search-b14-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "5f239041aeae306f298c59b07deebd1ce91972794a59cca9814d38bc05efce41",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-B6BC6FB624BA-search-b14-judge-1/attempt-01"
+}

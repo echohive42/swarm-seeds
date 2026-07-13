@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "24",
+          "9",
+          "36",
+          "-7",
+          "50"
+        ],
+        "case_id": "S109",
+        "check_summary": "Odd-position terms continue with even increments; even-position terms alternate 9 and -7.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "12",
+          "5",
+          "-12",
+          "-2",
+          "7"
+        ],
+        "case_id": "S110",
+        "check_summary": "Plurality supports six-phase streams with constant and polynomial phase continuations.",
+        "confidence": 0.86,
+        "rule_summary": "INTERLEAVE of phase-specific polynomial streams"
+      },
+      {
+        "answer": [
+          "60",
+          "78",
+          "93",
+          "95",
+          "115"
+        ],
+        "case_id": "S111",
+        "check_summary": "Plurality supports three interleaved increasing streams with polynomial-like phase behavior.",
+        "confidence": 0.63,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "1",
+          "51",
+          "5",
+          "13",
+          "78"
+        ],
+        "case_id": "S112",
+        "check_summary": "Two matching proposals identify consistent polynomial progression in three phase delta streams.",
+        "confidence": 0.77,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "60",
+          "35",
+          "-10",
+          "43",
+          "68"
+        ],
+        "case_id": "S113",
+        "check_summary": "Plurality supports interleaved phase subsequences, though phase fits remain weak.",
+        "confidence": 0.32,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "31",
+          "-37",
+          "-907",
+          "30",
+          "-50"
+        ],
+        "case_id": "S114",
+        "check_summary": "Three phase streams show exact affine, alternating, and quadratic behavior; the explosive phase continues consistently.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "42",
+          "82",
+          "162",
+          "322",
+          "642"
+        ],
+        "case_id": "S115",
+        "check_summary": "Matching proposals support continued doubling-style growth in the next arithmetic block.",
+        "confidence": 0.31,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd and even subsequences are exact arithmetic progressions with steps -1 and -4.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams"
+      },
+      {
+        "answer": [
+          "40",
+          "28",
+          "58",
+          "25",
+          "3"
+        ],
+        "case_id": "S117",
+        "check_summary": "Matching proposals support phase-separated affine streams, with limited certainty.",
+        "confidence": 0.22,
+        "rule_summary": "INTERLEAVE of affine streams"
+      },
+      {
+        "answer": [
+          "13",
+          "8",
+          "3",
+          "-2",
+          "-7"
+        ],
+        "case_id": "S118",
+        "check_summary": "The sequence continues the descending arithmetic block with step -5.",
+        "confidence": 0.94,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "85",
+          "89",
+          "4",
+          "97",
+          "123"
+        ],
+        "case_id": "S119",
+        "check_summary": "Plurality supports two residue classes with accelerating polynomial increments and a sparse third branch.",
+        "confidence": 0.39,
+        "rule_summary": "INTERLEAVE of lagged polynomial streams"
+      },
+      {
+        "answer": [
+          "181",
+          "164",
+          "147",
+          "130",
+          "113"
+        ],
+        "case_id": "S120",
+        "check_summary": "Matching proposals identify block starts increasing while within-block steps progress to -17.",
+        "confidence": 0.91,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-EC429DE4D50C-search-b10-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "140a32e10d2078babf36ff7e3fc06e2dd82ad2bab52336764c1b88cb798434ec",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-EC429DE4D50C-search-b10-judge-1/attempt-01"
+}

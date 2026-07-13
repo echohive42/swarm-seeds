@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "69",
+          "4",
+          "93"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd and even subsequences replay consistent with polynomial/periodic behavior.",
+        "confidence": 0.98,
+        "rule_summary": "Interleaved polynomial and periodic streams."
+      },
+      {
+        "answer": [
+          "61",
+          "57",
+          "160",
+          "101",
+          "97"
+        ],
+        "case_id": "S014",
+        "check_summary": "Residue-class extrapolation from the visible prefix.",
+        "confidence": 0.22,
+        "rule_summary": "Phase-interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-29",
+          "76",
+          "-16",
+          "100",
+          "-22"
+        ],
+        "case_id": "S015",
+        "check_summary": "Phase-separated extrapolation of alternating subsequences.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "37",
+          "31",
+          "79",
+          "49",
+          "103"
+        ],
+        "case_id": "S016",
+        "check_summary": "Periodic phase extrapolation from residue subsequences.",
+        "confidence": 0.16,
+        "rule_summary": "Phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5; even terms decrease by 4.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-26",
+          "-19",
+          "-3",
+          "-42",
+          "-44"
+        ],
+        "case_id": "S018",
+        "check_summary": "Three residue classes show regular increment trends.",
+        "confidence": 0.52,
+        "rule_summary": "Three-way interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "45",
+          "92",
+          "71",
+          "83",
+          "50"
+        ],
+        "case_id": "S019",
+        "check_summary": "Phase-separated extrapolation from the prefix.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic affine or polynomial phase updates."
+      },
+      {
+        "answer": [
+          "40",
+          "54",
+          "6",
+          "-26",
+          "60"
+        ],
+        "case_id": "S020",
+        "check_summary": "Four phase streams exhibit polynomial step changes.",
+        "confidence": 0.7,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-54",
+          "-70",
+          "-86",
+          "-102",
+          "-118"
+        ],
+        "case_id": "S021",
+        "check_summary": "Recent phase behavior extrapolated linearly.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-54",
+          "39",
+          "-77",
+          "56",
+          "-102"
+        ],
+        "case_id": "S022",
+        "check_summary": "Residue-class continuation inferred from alternating phase changes.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-37",
+          "-35"
+        ],
+        "case_id": "S023",
+        "check_summary": "Sequence has increasing negative jumps separated by +2 runs.",
+        "confidence": 0.9,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-60",
+          "-382",
+          "-94",
+          "-766",
+          "-142"
+        ],
+        "case_id": "S024",
+        "check_summary": "Alternating nonlinear growth extrapolated from the visible recurrence pattern.",
+        "confidence": 0.1,
+        "rule_summary": "Phase-periodic affine or second-order recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-F3EA0DB4CF72-search-b02-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "5d2c819dfc1d2748c36beb80ba10d33a37f7862dd2c18fcc37fbd57ee6d585f7",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-F3EA0DB4CF72-search-b02-proposer-5/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "8",
+          "-15",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "Negative jumps recur with magnitude increasing by 5; intervening increments are +5.",
+        "confidence": 0.82,
+        "rule_summary": "Periodic growing negative jumps with constant +5 increments."
+      },
+      {
+        "answer": [
+          "40",
+          "-640",
+          "57",
+          "-1280",
+          "78"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd and even positions form independent streams: odd increments rise by 4; even terms double with sign reversal.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved quadratic odd stream and geometric even stream."
+      },
+      {
+        "answer": [
+          "-18",
+          "-20",
+          "-23",
+          "-27",
+          "-32"
+        ],
+        "case_id": "S159",
+        "check_summary": "Tail behavior is consistent with interleaved polynomial streams, extrapolated from the latest differences.",
+        "confidence": 0.21,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd terms increase by 2; even terms increase by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-11",
+          "39",
+          "7",
+          "-12",
+          "56"
+        ],
+        "case_id": "S161",
+        "check_summary": "Three residue-class streams show polynomial increments: +2,+3,+4,+5; -5,-4,-3,-2; and +5,+8,+11,+14.",
+        "confidence": 0.96,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "13",
+          "18",
+          "11",
+          "16",
+          "9"
+        ],
+        "case_id": "S162",
+        "check_summary": "Continuation extrapolated from alternating residue-class difference patterns.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "5",
+          "5",
+          "-374",
+          "6",
+          "0"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three streams: one decreases by successive integers, one increases by 1, and one follows x↦2x−6.",
+        "confidence": 0.99,
+        "rule_summary": "Three interleaved affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "-13",
+          "42",
+          "61",
+          "-56",
+          "84"
+        ],
+        "case_id": "S164",
+        "check_summary": "Continuation extrapolated from interleaved residue-class polynomial behavior.",
+        "confidence": 0.16,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-71",
+          "-2",
+          "-87",
+          "-4",
+          "-103"
+        ],
+        "case_id": "S165",
+        "check_summary": "Continuation extrapolated from the apparent interleaved periodic polynomial pattern.",
+        "confidence": 0.17,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "1",
+          "19",
+          "135",
+          "-34",
+          "19"
+        ],
+        "case_id": "S166",
+        "check_summary": "One stream alternates -21 and 19; another has increments rising by 9; the third is polynomially extrapolated.",
+        "confidence": 0.79,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-48",
+          "-65",
+          "-82",
+          "-99",
+          "-116"
+        ],
+        "case_id": "S167",
+        "check_summary": "The final stream has constant successive difference −17.",
+        "confidence": 0.91,
+        "rule_summary": "Interleaved streams with an arithmetic tail."
+      },
+      {
+        "answer": [
+          "98",
+          "122",
+          "146",
+          "170",
+          "194"
+        ],
+        "case_id": "S168",
+        "check_summary": "The latest arithmetic block advances by constant step +24.",
+        "confidence": 0.88,
+        "rule_summary": "Growing arithmetic block."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-B6BC6FB624BA-search-b14-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "e96d83f2e2aeac13c9b065d516772587b218ae152002bcb98d9fafc8cbb59af0",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-B6BC6FB624BA-search-b14-proposer-1/attempt-01"
+}

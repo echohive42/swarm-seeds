@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b08",
+    "results": [
+      {
+        "answer": [
+          "17",
+          "-24",
+          "18",
+          "-28",
+          "19"
+        ],
+        "case_id": "F085",
+        "check_summary": "Alternating arithmetic streams replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd positions increase by 1; even positions decrease by 4."
+      },
+      {
+        "answer": [
+          "22",
+          "44",
+          "65",
+          "29",
+          "56"
+        ],
+        "case_id": "F086",
+        "check_summary": "Best-fit periodic interleaving extrapolation.",
+        "confidence": 0.2,
+        "rule_summary": "Complex periodic/interleaved recurrence."
+      },
+      {
+        "answer": [
+          "33",
+          "25",
+          "19",
+          "13",
+          "7"
+        ],
+        "case_id": "F087",
+        "check_summary": "Best-fit periodic extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "Complex periodic affine/interleaved recurrence."
+      },
+      {
+        "answer": [
+          "92",
+          "113",
+          "134",
+          "155",
+          "176"
+        ],
+        "case_id": "F088",
+        "check_summary": "Growing arithmetic blocks with step increasing by 3; cubic block starts extrapolate to 92.",
+        "confidence": 0.67,
+        "rule_summary": "GROWBLOCK: next block has step 21 and six terms."
+      },
+      {
+        "answer": [
+          "11",
+          "46",
+          "11",
+          "60",
+          "11"
+        ],
+        "case_id": "F089",
+        "check_summary": "Odd stream constant; even stream has successive even-number increments.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd terms are 11; even terms follow quadratic increments."
+      },
+      {
+        "answer": [
+          "-42",
+          "-42",
+          "-4",
+          "-65",
+          "-67"
+        ],
+        "case_id": "F090",
+        "check_summary": "Three interleaved streams extrapolated by polynomial differences.",
+        "confidence": 0.78,
+        "rule_summary": "INTERLEAVE: three polynomial streams."
+      },
+      {
+        "answer": [
+          "-763",
+          "15",
+          "40",
+          "-1531",
+          "18"
+        ],
+        "case_id": "F091",
+        "check_summary": "Three streams: first doubles minus 5, second increases by 3, third has quadratic increments.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of three polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-17",
+          "34",
+          "-9",
+          "-36",
+          "61"
+        ],
+        "case_id": "F092",
+        "check_summary": "Best-fit periodic/interleaved extrapolation.",
+        "confidence": 0.16,
+        "rule_summary": "Complex periodic recurrence."
+      },
+      {
+        "answer": [
+          "21",
+          "26",
+          "31",
+          "36",
+          "41"
+        ],
+        "case_id": "F093",
+        "check_summary": "Growing blocks start at 9,12,15,18 and use step 5; next block starts at 21.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK with block lengths increasing by one."
+      },
+      {
+        "answer": [
+          "42",
+          "73",
+          "80",
+          "91",
+          "104"
+        ],
+        "case_id": "F094",
+        "check_summary": "Best-fit periodic/interleaved extrapolation.",
+        "confidence": 0.15,
+        "rule_summary": "Complex periodic affine/interleaved recurrence."
+      },
+      {
+        "answer": [
+          "29",
+          "91",
+          "5",
+          "47",
+          "112"
+        ],
+        "case_id": "F095",
+        "check_summary": "Best-fit periodic/interleaved extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "Complex periodic recurrence."
+      },
+      {
+        "answer": [
+          "53",
+          "-67",
+          "107",
+          "85",
+          "-106"
+        ],
+        "case_id": "F096",
+        "check_summary": "Three interleaved streams have polynomial first differences.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE: three polynomial streams with evolving finite differences."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-generalist_vote10-GENERALIST-VOTE10-final-b08-proposer-9",
+  "outcome": "valid_output",
+  "response_sha256": "8f331f0d458e625aee7d63c762d34cdf582531dceabd53d43ce80eb36e28e7fd",
+  "terminal_artifact_relpath": "jobs/final-generalist_vote10-GENERALIST-VOTE10-final-b08-proposer-9/attempt-01"
+}

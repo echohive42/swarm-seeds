@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-33",
+          "-113",
+          "-273",
+          "-593",
+          "-1233"
+        ],
+        "case_id": "V013",
+        "check_summary": "Recent deltas follow a doubling-negative phase.",
+        "confidence": 0.31,
+        "rule_summary": "Periodic polynomial-delta continuation."
+      },
+      {
+        "answer": [
+          "-12",
+          "-14",
+          "-16",
+          "-18",
+          "-20"
+        ],
+        "case_id": "V014",
+        "check_summary": "Recent values predominantly descend by two.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic delta continuation."
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V015",
+        "check_summary": "Interleaved continuation inferred from alternating subsequences.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V016",
+        "check_summary": "Odd and even positions are arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V017",
+        "check_summary": "Odd stream has successive negative increments; even stream doubles its negative differences.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/exponential-looking streams."
+      },
+      {
+        "answer": [
+          "-14",
+          "71",
+          "-25",
+          "107",
+          "-36"
+        ],
+        "case_id": "V018",
+        "check_summary": "Alternating subsequences extrapolated from recent phase behavior.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine/interleaved continuation."
+      },
+      {
+        "answer": [
+          "-1",
+          "23",
+          "-25",
+          "-2",
+          "34"
+        ],
+        "case_id": "V019",
+        "check_summary": "Three residue-class streams show stable repeating structure.",
+        "confidence": 0.72,
+        "rule_summary": "Three-way interleaved streams."
+      },
+      {
+        "answer": [
+          "31",
+          "18",
+          "67",
+          "25",
+          "76"
+        ],
+        "case_id": "V020",
+        "check_summary": "Alternating phase extrapolation from recent values.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-31",
+          "-14",
+          "-36",
+          "-23",
+          "-41"
+        ],
+        "case_id": "V021",
+        "check_summary": "Residue-class subsequences extrapolated by recent trends.",
+        "confidence": 0.1,
+        "rule_summary": "Three-way interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-8",
+          "121",
+          "-14",
+          "-16",
+          "181"
+        ],
+        "case_id": "V022",
+        "check_summary": "Alternating modular/affine phase continuation inferred from sign pattern.",
+        "confidence": 0.08,
+        "rule_summary": "Periodic modular affine recurrence."
+      },
+      {
+        "answer": [
+          "-127",
+          "-14",
+          "-156",
+          "-40",
+          "-185"
+        ],
+        "case_id": "V023",
+        "check_summary": "Recent alternating subsequences extrapolated linearly.",
+        "confidence": 0.09,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-2",
+          "-7",
+          "-8",
+          "-3",
+          "-14"
+        ],
+        "case_id": "V024",
+        "check_summary": "Three residue-class streams extrapolated from terminal phase differences.",
+        "confidence": 0.1,
+        "rule_summary": "Three-way interleaved polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b02-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "ade4cff1a77582a4db9aa0d504da3ba2ae8959fb8354a8dd9903ffdfa2b162dd",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b02-proposer-6/attempt-01"
+}

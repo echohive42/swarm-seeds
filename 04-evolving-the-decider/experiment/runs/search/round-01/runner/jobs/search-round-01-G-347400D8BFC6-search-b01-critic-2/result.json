@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b01",
+    "results": [
+      {
+        "answer": [
+          "30",
+          "10",
+          "5",
+          "25",
+          "-1"
+        ],
+        "case_id": "S001",
+        "check_summary": "Phase-specific deltas by position modulo 3 continue as +3, -6, and -2 in their respective first differences.",
+        "confidence": 0.84,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "2713",
+          "3755",
+          "5066",
+          "6688",
+          "8666"
+        ],
+        "case_id": "S002",
+        "check_summary": "Constant fourth finite difference continuation matches the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-218",
+          "234",
+          "-255",
+          "271",
+          "-292"
+        ],
+        "case_id": "S003",
+        "check_summary": "Odd and even subsequences are arithmetic streams with steps -37 and +37.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-129",
+          "-203",
+          "-296",
+          "-410",
+          "-547"
+        ],
+        "case_id": "S004",
+        "check_summary": "Finite differences continue with constant third difference -2.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1106415",
+          "3319238",
+          "-6638481",
+          "-19915450",
+          "39830895"
+        ],
+        "case_id": "S005",
+        "check_summary": "Odd and even lagged subsequences follow affine multiplier -6 with fixed phase biases.",
+        "confidence": 0.99,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-132",
+          "-114",
+          "-158",
+          "-165",
+          "-147"
+        ],
+        "case_id": "S006",
+        "check_summary": "Phase-specific first-difference polynomials continue across the three phases.",
+        "confidence": 0.58,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-13362",
+          "-20744",
+          "-30948",
+          "-44696",
+          "-62822"
+        ],
+        "case_id": "S007",
+        "check_summary": "Tail finite differences support a growing polynomial-block continuation.",
+        "confidence": 0.32,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-797163",
+          "-2391486",
+          "-7174455",
+          "-21523362",
+          "-64570083"
+        ],
+        "case_id": "S008",
+        "check_summary": "Each term equals three times the previous term plus three.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3097139",
+          "-8441242",
+          "-23038393",
+          "-62904758",
+          "-171552671"
+        ],
+        "case_id": "S009",
+        "check_summary": "Best-supported continuation of the apparent phase-structured affine growth.",
+        "confidence": 0.28,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "17",
+          "21",
+          "19",
+          "23",
+          "21"
+        ],
+        "case_id": "S010",
+        "check_summary": "Odd and even positions each increase by 2.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "2238744",
+          "-5398989",
+          "13025712",
+          "-31411813",
+          "75751224"
+        ],
+        "case_id": "S011",
+        "check_summary": "Best-supported alternating high-growth continuation among the anonymous proposals.",
+        "confidence": 0.24,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "37771",
+          "113309",
+          "-113304",
+          "-226613",
+          "-679843"
+        ],
+        "case_id": "S012",
+        "check_summary": "Three repeating affine updates reproduce the prefix and continue exactly.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-347400D8BFC6-search-b01-critic-2",
+  "outcome": "valid_output",
+  "response_sha256": "8ea2c7b2d7faf960c5057ed323a17e52a974f244058f45394ce64e1d583dd454",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-347400D8BFC6-search-b01-critic-2/attempt-01"
+}

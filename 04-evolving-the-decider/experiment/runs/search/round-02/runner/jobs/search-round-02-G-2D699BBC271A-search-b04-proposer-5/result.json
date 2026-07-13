@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-7",
+          "-12",
+          "-17",
+          "-22",
+          "1"
+        ],
+        "case_id": "S037",
+        "check_summary": "No stable low-complexity continuation identified; extrapolated from recent alternating block behavior.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic-delta interpretation."
+      },
+      {
+        "answer": [
+          "123",
+          "52",
+          "126",
+          "19",
+          "48"
+        ],
+        "case_id": "S038",
+        "check_summary": "Opaque bounded sequence; continuation is low-confidence.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative periodic affine/modular interpretation."
+      },
+      {
+        "answer": [
+          "17",
+          "24",
+          "9",
+          "21",
+          "31"
+        ],
+        "case_id": "S039",
+        "check_summary": "No uniquely supported short recurrence found from the supplied prefix.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative modular phase recurrence."
+      },
+      {
+        "answer": [
+          "35",
+          "55",
+          "75",
+          "95",
+          "115"
+        ],
+        "case_id": "S040",
+        "check_summary": "Differences show negative square-like resets followed by repeated positive steps increasing by four.",
+        "confidence": 0.78,
+        "rule_summary": "GROWBLOCK with next reset -49 and step +20."
+      },
+      {
+        "answer": [
+          "-20",
+          "31",
+          "-24",
+          "35",
+          "-28"
+        ],
+        "case_id": "S041",
+        "check_summary": "Odd and even positions are separate arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of odd terms decreasing by four and even terms increasing by four."
+      },
+      {
+        "answer": [
+          "-18",
+          "45",
+          "27",
+          "58",
+          "6"
+        ],
+        "case_id": "S042",
+        "check_summary": "No stable short mechanism confidently recovered.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative phase-specific modular recurrence."
+      },
+      {
+        "answer": [
+          "-134",
+          "-10",
+          "-95",
+          "-15",
+          "-163"
+        ],
+        "case_id": "S043",
+        "check_summary": "Recent phase differences suggest increasingly negative reset increments, but continuation remains uncertain.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative periodic polynomial-delta rule."
+      },
+      {
+        "answer": [
+          "-21",
+          "12",
+          "-11",
+          "-10",
+          "-45"
+        ],
+        "case_id": "S044",
+        "check_summary": "Four-phase block extrapolation using quadratic phase values.",
+        "confidence": 0.18,
+        "rule_summary": "Tentative INTERLEAVE/GROWBLOCK phase-polynomial continuation."
+      },
+      {
+        "answer": [
+          "-4",
+          "96",
+          "-4",
+          "15",
+          "-4"
+        ],
+        "case_id": "S045",
+        "check_summary": "Repeated even-position anchor at -4 is visible; odd-position continuation is uncertain.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative interleaved phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "-7",
+          "-12",
+          "-17",
+          "-22",
+          "1"
+        ],
+        "case_id": "S046",
+        "check_summary": "Positive resets occur after runs of negative five-steps; reset magnitudes increase by five.",
+        "confidence": 0.86,
+        "rule_summary": "GROWBLOCK with next reset +18 and subsequent -5 steps."
+      },
+      {
+        "answer": [
+          "63",
+          "109",
+          "155",
+          "201",
+          "247"
+        ],
+        "case_id": "S047",
+        "check_summary": "Repeated positive steps increase by eight; extrapolated next reset and step block.",
+        "confidence": 0.31,
+        "rule_summary": "Tentative GROWBLOCK continuation with next step +46."
+      },
+      {
+        "answer": [
+          "-21",
+          "12",
+          "-11",
+          "-10",
+          "-45"
+        ],
+        "case_id": "S048",
+        "check_summary": "Four-phase blocks show constant second and fourth phases; first and third phases extrapolated quadratically.",
+        "confidence": 0.42,
+        "rule_summary": "INTERLEAVE/GROWBLOCK with four-position phase recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-2D699BBC271A-search-b04-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "26d2941cd921b8acea7de13ddcb89111dd7feb0efb4da2098fb75240855d5bea",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-2D699BBC271A-search-b04-proposer-5/attempt-01"
+}

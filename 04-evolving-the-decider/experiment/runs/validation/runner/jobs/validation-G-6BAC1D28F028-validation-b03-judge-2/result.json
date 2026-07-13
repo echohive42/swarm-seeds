@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "Plurality unanimously supports x'=-3x+3; the alternate-sign candidate has an incorrect scale.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3777",
+          "-5390",
+          "-7477",
+          "-10123",
+          "-13420"
+        ],
+        "case_id": "V026",
+        "check_summary": "Plurality supports the quartic finite-difference continuation.",
+        "confidence": 0.96,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "2083",
+          "3674",
+          "1024",
+          "2760",
+          "4496"
+        ],
+        "case_id": "V027",
+        "check_summary": "No candidate has a majority; E03 is the strongest coherent full-prefix interleaved continuation.",
+        "confidence": 0.46,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "47316",
+          "-94674",
+          "189310",
+          "-378664",
+          "757288"
+        ],
+        "case_id": "V028",
+        "check_summary": "The phase biases follow alternating linear sequences; this selects E07 over the near-plurality alternatives.",
+        "confidence": 0.96,
+        "rule_summary": "Periodic AFFINE"
+      },
+      {
+        "answer": [
+          "11671",
+          "17071",
+          "23803",
+          "32265",
+          "42911"
+        ],
+        "case_id": "V029",
+        "check_summary": "No majority; E03 has the strongest coherent polynomial-growth support among candidates.",
+        "confidence": 0.48,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "All candidates agree on the exact alternating continuation.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Strong plurality supports alternating updates 2x+1 and 3x+7.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802339",
+          "71604684",
+          "-214814049",
+          "644442141"
+        ],
+        "case_id": "V032",
+        "check_summary": "The prefix matches the repeating phase updates -3x+3, -3x-6, -2x+6.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "963",
+          "-1566",
+          "2526",
+          "-4095",
+          "6618"
+        ],
+        "case_id": "V033",
+        "check_summary": "Strong plurality supports the alternating-sign Fibonacci-like difference recurrence.",
+        "confidence": 0.98,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "15",
+          "23",
+          "18",
+          "39",
+          "49"
+        ],
+        "case_id": "V034",
+        "check_summary": "E03 has decisive support for phase-specific polynomial deltas.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "37",
+          "58",
+          "81",
+          "47",
+          "48"
+        ],
+        "case_id": "V035",
+        "check_summary": "E05 is the strongest coherent candidate, with four phase-specific arithmetic difference progressions.",
+        "confidence": 0.95,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "815",
+          "1060",
+          "1351",
+          "1692",
+          "2087"
+        ],
+        "case_id": "V036",
+        "check_summary": "Plurality unanimously supports the cubic finite-difference continuation.",
+        "confidence": 1,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b03-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "6aede2d0d868b595805bc9a9c6e6f4b793f39ce8121f578a2fe2449ae5e6cae1",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b03-judge-2/attempt-01"
+}

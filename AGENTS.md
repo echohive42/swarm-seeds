@@ -6,7 +6,7 @@ Keep Swarm Seeds a clear, public collection of reusable AI-agent orchestration p
 
 ## Adding a seed
 
-- Give every seed a permanent two-digit ID: `01`, `02`, `03`.
+- Give every seed a permanent two-digit ID such as `01`, `02`, `03`, or `04`.
 - Use a concise descriptive slug: `01-reasoning-vs-routing`.
 - Keep the seed and all of its evidence in one root folder: `<id-slug>/`.
 - Store the reusable pattern at `<id-slug>/SKILL.md`.
@@ -37,6 +37,7 @@ Keep Swarm Seeds a clear, public collection of reusable AI-agent orchestration p
 - Preflight the largest downstream packet.
 - Retry real infrastructure failures with the identical prompt and preserve every attempt.
 - For future experiments, predefine one identical-prompt retry for schema-invalid completed output. Preserve both attempts and follow the frozen scoring rule.
+- For large non-urgent Codex CLI runs, test whether the selected model exposes the Flex service tier. Prefer Flex when supported, allow longer timeouts and registered availability retries, and record the requested tier exactly. If completion matters more than tier purity, freeze and log a Standard fallback after bounded Flex retries. Do not assume an unsupported model or Standard fallback used Flex.
 - Do not add orchestration machinery unless it protects blinding, repeatability, or evidence.
 
 ## Public-release safety

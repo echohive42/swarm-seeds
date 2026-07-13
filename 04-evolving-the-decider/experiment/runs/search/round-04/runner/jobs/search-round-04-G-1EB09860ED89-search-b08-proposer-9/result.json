@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "14",
+          "17",
+          "20",
+          "10"
+        ],
+        "case_id": "S085",
+        "check_summary": "Periodic phase-difference extrapolation.",
+        "confidence": 0.72,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "16",
+          "6",
+          "43",
+          "20",
+          "18"
+        ],
+        "case_id": "S086",
+        "check_summary": "Insufficiently identifiable prefix; conservative continuation.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "27",
+          "15",
+          "3",
+          "-9",
+          "-21"
+        ],
+        "case_id": "S087",
+        "check_summary": "Growing block pattern with repeated negative steps.",
+        "confidence": 0.31,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd terms rise by 5; even terms fall by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-9",
+          "84",
+          "-42",
+          "135",
+          "-75"
+        ],
+        "case_id": "S089",
+        "check_summary": "Low-confidence extrapolation from alternating growth.",
+        "confidence": 0.07,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "11",
+          "10",
+          "19",
+          "8",
+          "23"
+        ],
+        "case_id": "S090",
+        "check_summary": "Low-confidence phase-pattern extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-365",
+          "-42",
+          "96",
+          "-582",
+          "-77"
+        ],
+        "case_id": "S091",
+        "check_summary": "Low-confidence affine-modular continuation.",
+        "confidence": 0.05,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-25",
+          "0",
+          "-33",
+          "0",
+          "-42"
+        ],
+        "case_id": "S092",
+        "check_summary": "Low-confidence periodic-subsequence extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-11",
+          "44",
+          "-18",
+          "81",
+          "-25"
+        ],
+        "case_id": "S093",
+        "check_summary": "Low-confidence interleaved-stream extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "84",
+          "90",
+          "95",
+          "101",
+          "108"
+        ],
+        "case_id": "S094",
+        "check_summary": "Low-confidence phase-pattern extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-17",
+          "-33",
+          "-49",
+          "-65",
+          "-31"
+        ],
+        "case_id": "S095",
+        "check_summary": "Phase-specific polynomial deltas; three phases continue linearly.",
+        "confidence": 0.68,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-8",
+          "36",
+          "-22",
+          "78",
+          "-36"
+        ],
+        "case_id": "S096",
+        "check_summary": "Low-confidence interleaved-stream extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-1EB09860ED89-search-b08-proposer-9",
+  "outcome": "valid_output",
+  "response_sha256": "9868c8327e07ae3439f0f2760aea4280af90f654312a472518833403fe32875a",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-1EB09860ED89-search-b08-proposer-9/attempt-01"
+}

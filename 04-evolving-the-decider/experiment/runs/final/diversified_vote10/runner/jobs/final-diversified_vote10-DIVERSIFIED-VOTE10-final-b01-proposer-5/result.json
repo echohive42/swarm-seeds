@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b01",
+    "results": [
+      {
+        "answer": [
+          "1211",
+          "1535",
+          "1912",
+          "2346",
+          "2841"
+        ],
+        "case_id": "F001",
+        "check_summary": "Second differences increase by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued quartic polynomial."
+      },
+      {
+        "answer": [
+          "-176",
+          "-180",
+          "-189",
+          "-191",
+          "-198"
+        ],
+        "case_id": "F002",
+        "check_summary": "Periodic alternating differences continue.",
+        "confidence": 0.94,
+        "rule_summary": "Periodic polynomial delta."
+      },
+      {
+        "answer": [
+          "1279718",
+          "-2559430",
+          "-7678288",
+          "15356582",
+          "46069748"
+        ],
+        "case_id": "F003",
+        "check_summary": "Repeating affine phases 3x+2 and -2x+6.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-8254430",
+          "-24763286",
+          "49526574",
+          "148579714",
+          "445739146"
+        ],
+        "case_id": "F004",
+        "check_summary": "Repeating affine phases 3x-8, 3x+4, and -2x+2.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-45",
+          "-59",
+          "-64",
+          "-80",
+          "-85"
+        ],
+        "case_id": "F005",
+        "check_summary": "Alternating lagged subsequences extrapolated from observed increments.",
+        "confidence": 0.42,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-16",
+          "-19",
+          "-17",
+          "-20",
+          "-18"
+        ],
+        "case_id": "F006",
+        "check_summary": "Differences alternate -3 and +2.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta update."
+      },
+      {
+        "answer": [
+          "7",
+          "29",
+          "3",
+          "30",
+          "-5"
+        ],
+        "case_id": "F007",
+        "check_summary": "Alternating subsequence trends extrapolated.",
+        "confidence": 0.38,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-25566",
+          "-37381",
+          "-53185",
+          "-73908",
+          "-100614"
+        ],
+        "case_id": "F008",
+        "check_summary": "Fourth differences continue with successive decreases of 9.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "776",
+          "1206",
+          "1774",
+          "2505",
+          "3426"
+        ],
+        "case_id": "F009",
+        "check_summary": "Third differences continue increasing by 2.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "-1475",
+          "-2211",
+          "-3179",
+          "-4435",
+          "-6007"
+        ],
+        "case_id": "F010",
+        "check_summary": "Periodic affine/interleaved continuation inferred from alternating phases.",
+        "confidence": 0.35,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-30037",
+          "60075",
+          "-120149",
+          "240299",
+          "-480597"
+        ],
+        "case_id": "F011",
+        "check_summary": "Every step is -2x+1.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "-3847",
+          "-6400",
+          "-11253",
+          "-20224",
+          "-37147"
+        ],
+        "case_id": "F012",
+        "check_summary": "Lagged periodic polynomial continuation inferred from three interleaved streams.",
+        "confidence": 0.34,
+        "rule_summary": "Interleaved polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b01-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "e0dc595d471d418a83d3f61b8fd30432522c93e10caa1c04983fa508bc19e5c4",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b01-proposer-5/attempt-01"
+}

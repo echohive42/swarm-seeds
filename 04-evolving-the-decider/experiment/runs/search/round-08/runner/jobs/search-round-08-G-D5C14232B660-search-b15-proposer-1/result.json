@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "289",
+          "-543",
+          "-1951",
+          "-1663",
+          "-1151"
+        ],
+        "case_id": "S169",
+        "check_summary": "Four-phase deltas replay by multiplying each phase delta by -4.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with period 4 and phase deltas scaled by -4 each cycle."
+      },
+      {
+        "answer": [
+          "60",
+          "65",
+          "69",
+          "74",
+          "78"
+        ],
+        "case_id": "S170",
+        "check_summary": "Visible increments alternate +4 and +5 throughout.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic affine/additive update with alternating increments 4,5."
+      },
+      {
+        "answer": [
+          "-109",
+          "-102",
+          "-94",
+          "-85",
+          "-75"
+        ],
+        "case_id": "S173",
+        "check_summary": "First differences have second differences increasing by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence with third differences constant."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Finite differences support a fourth-degree polynomial extrapolation.",
+        "confidence": 0.96,
+        "rule_summary": "POLY with constant fourth finite difference."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence x(n+1)=2x(n)."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "The six-term block repeats exactly.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic sequence with period 6."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97987621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating affine updates 3x+1 and -2x+6 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period 2."
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3437007"
+        ],
+        "case_id": "S177",
+        "check_summary": "Three-phase affine transformations replay the exponential sign pattern.",
+        "confidence": 0.97,
+        "rule_summary": "Periodic AFFINE with phase rules 2x-7, -2x-9, 2x+9."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd and even transition differences decrease by 7 and 6 respectively.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with alternating polynomial delta tracks."
+      },
+      {
+        "answer": [
+          "-3841",
+          "-6583",
+          "-11287",
+          "-19351",
+          "-33167"
+        ],
+        "case_id": "S174",
+        "check_summary": "Extrapolated from the dominant repeating growth pattern in the negative deltas.",
+        "confidence": 0.42,
+        "rule_summary": "Periodic polynomial-delta growth."
+      },
+      {
+        "answer": [
+          "-1000",
+          "-2000",
+          "-4000",
+          "-8000",
+          "-16000"
+        ],
+        "case_id": "S171",
+        "check_summary": "Extrapolated from the late-prefix accelerating negative phase.",
+        "confidence": 0.31,
+        "rule_summary": "Phase-specific polynomial-delta sequence."
+      },
+      {
+        "answer": [
+          "61",
+          "69",
+          "66",
+          "75",
+          "83"
+        ],
+        "case_id": "S176",
+        "check_summary": "Extrapolated using the interleaved odd/even stream behavior.",
+        "confidence": 0.35,
+        "rule_summary": "INTERLEAVE of phase-varying streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-D5C14232B660-search-b15-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "cbb0b4e820d378a4202449105fc41131d1f263cf823e38d13c6bb845ec2e70b7",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-D5C14232B660-search-b15-proposer-1/attempt-01"
+}

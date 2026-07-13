@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b01",
+    "results": [
+      {
+        "answer": [
+          "30",
+          "10",
+          "5",
+          "25",
+          "-1"
+        ],
+        "case_id": "S001",
+        "check_summary": "Plurality of strong proposals; periodic deltas replay the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "2713",
+          "3755",
+          "5066",
+          "6688",
+          "8666"
+        ],
+        "case_id": "S002",
+        "check_summary": "Strong plurality; constant fourth differences support the continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-218",
+          "234",
+          "-255",
+          "271",
+          "-292"
+        ],
+        "case_id": "S003",
+        "check_summary": "Unanimous agreement; odd and even subsequences are affine.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-129",
+          "-203",
+          "-296",
+          "-410",
+          "-547"
+        ],
+        "case_id": "S004",
+        "check_summary": "Unanimous agreement; constant third differences.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1106415",
+          "3319238",
+          "-6638481",
+          "-19915450",
+          "39830895"
+        ],
+        "case_id": "S005",
+        "check_summary": "Plurality of strong proposals; alternating affine updates replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-132",
+          "-114",
+          "-158",
+          "-165",
+          "-129"
+        ],
+        "case_id": "S006",
+        "check_summary": "Plurality among strongest full-prefix periodic-delta proposals.",
+        "confidence": 0.84,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-13362",
+          "-20744",
+          "-30948",
+          "-44696",
+          "-62822"
+        ],
+        "case_id": "S007",
+        "check_summary": "Strong plurality; finite differences support a polynomial continuation.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-797163",
+          "-2391486",
+          "-7174455",
+          "-21523362",
+          "-64570083"
+        ],
+        "case_id": "S008",
+        "check_summary": "Strong plurality; exact recurrence is three times the prior term plus three.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3076331",
+          "-8378610",
+          "-22817155",
+          "-62170562",
+          "-169364515"
+        ],
+        "case_id": "S009",
+        "check_summary": "Selected the tied strongest continuation supported by the critic and proposer evidence.",
+        "confidence": 0.52,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "17",
+          "21",
+          "19",
+          "23",
+          "21"
+        ],
+        "case_id": "S010",
+        "check_summary": "Strong plurality; alternating increments are plus four and minus two.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "2236123",
+          "-5396101",
+          "13023558",
+          "-31417874",
+          "75757063"
+        ],
+        "case_id": "S011",
+        "check_summary": "Plurality of strongest proposals; alternating signed linear recurrence continuation.",
+        "confidence": 0.55,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "37771",
+          "113309",
+          "-113304",
+          "-226613",
+          "-679843"
+        ],
+        "case_id": "S012",
+        "check_summary": "Strong plurality; three-phase affine updates replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-2B08D2BA7D25-search-b01-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "bd75752457f70aa78a80ac3409cde55abbb3c3eca41746f83e224158cf0ed343",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-2B08D2BA7D25-search-b01-judge-1/attempt-01"
+}

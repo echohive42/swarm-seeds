@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "24",
+          "27",
+          "30",
+          "33"
+        ],
+        "case_id": "S085",
+        "check_summary": "Tail follows repeated +3 increments with periodic downward resets.",
+        "confidence": 0.32,
+        "rule_summary": "Periodic-delta continuation."
+      },
+      {
+        "answer": [
+          "23",
+          "30",
+          "25",
+          "48",
+          "37"
+        ],
+        "case_id": "S086",
+        "check_summary": "No simple visible continuation; extrapolated a phase-dependent modular recurrence.",
+        "confidence": 0.08,
+        "rule_summary": "Periodic modular-affine continuation."
+      },
+      {
+        "answer": [
+          "-44",
+          "-54",
+          "-64",
+          "-74",
+          "-84"
+        ],
+        "case_id": "S087",
+        "check_summary": "Final observed run is arithmetic with common difference -10.",
+        "confidence": 0.55,
+        "rule_summary": "Arithmetic tail / periodic delta."
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd stream increases by 5; even stream decreases by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Two affine streams interleaved."
+      },
+      {
+        "answer": [
+          "-45",
+          "96",
+          "-73",
+          "135",
+          "-101"
+        ],
+        "case_id": "S089",
+        "check_summary": "Extrapolated alternating phase-specific polynomial streams.",
+        "confidence": 0.07,
+        "rule_summary": "Interleaved phase recurrence."
+      },
+      {
+        "answer": [
+          "11",
+          "13",
+          "4",
+          "17",
+          "2"
+        ],
+        "case_id": "S090",
+        "check_summary": "Extrapolated a short-period interleaved recurrence.",
+        "confidence": 0.08,
+        "rule_summary": "Periodic affine/interleaved continuation."
+      },
+      {
+        "answer": [
+          "-390",
+          "-250",
+          "-102",
+          "60",
+          "230"
+        ],
+        "case_id": "S091",
+        "check_summary": "Extrapolated a phase-dependent second-order recurrence from the irregular prefix.",
+        "confidence": 0.06,
+        "rule_summary": "Phase-specific linear recurrence."
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "0",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd positions alternate 5 and 0; even-position differences decrease by successive integers.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: periodic and quadratic."
+      },
+      {
+        "answer": [
+          "-36",
+          "-13",
+          "-11",
+          "-22",
+          "-28"
+        ],
+        "case_id": "S093",
+        "check_summary": "Extrapolated two phase-specific streams from the irregular prefix.",
+        "confidence": 0.06,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "84",
+          "88",
+          "75",
+          "90",
+          "79"
+        ],
+        "case_id": "S094",
+        "check_summary": "Extrapolated a periodic interleaved recurrence.",
+        "confidence": 0.06,
+        "rule_summary": "Phase-specific affine continuation."
+      },
+      {
+        "answer": [
+          "-29",
+          "-45",
+          "-61",
+          "-77",
+          "-93"
+        ],
+        "case_id": "S095",
+        "check_summary": "Growing arithmetic blocks have steps -4, -8, -12; next block uses step -16 and starts at -29.",
+        "confidence": 0.98,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "22",
+          "32",
+          "12",
+          "44",
+          "-2"
+        ],
+        "case_id": "S096",
+        "check_summary": "Extrapolated a phase-dependent second-order recurrence.",
+        "confidence": 0.06,
+        "rule_summary": "Phase-specific linear recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-1FD52C1BC57B-search-b08-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "c0f87e0ecb48f3e851af5065a7593ae68397e039e67067d09f113327365ed912",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-1FD52C1BC57B-search-b08-proposer-4/attempt-01"
+}

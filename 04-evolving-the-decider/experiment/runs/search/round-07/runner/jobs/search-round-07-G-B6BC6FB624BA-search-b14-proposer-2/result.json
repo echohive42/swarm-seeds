@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-15",
+          "-10",
+          "-2",
+          "-15",
+          "-5"
+        ],
+        "case_id": "S157",
+        "check_summary": "Partial periodic/interleaved difference pattern; extrapolation uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "Likely interleaved polynomial or periodic-delta streams."
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "-1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Even-position increments rise by 4; odd-position stream doubles with sign reversal.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: quadratic and affine multiplier -2."
+      },
+      {
+        "answer": [
+          "-14",
+          "-38",
+          "-11",
+          "-40",
+          "-6"
+        ],
+        "case_id": "S159",
+        "check_summary": "No stable low-order difference pattern isolated confidently.",
+        "confidence": 0.12,
+        "rule_summary": "Likely interleaved or phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd terms increase by 2; even terms increase by 1.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "7",
+          "39",
+          "-25",
+          "13",
+          "53"
+        ],
+        "case_id": "S161",
+        "check_summary": "One lagged subsequence shows successive increments increasing by 1; remaining phases uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "Likely lagged polynomial increments."
+      },
+      {
+        "answer": [
+          "7",
+          "17",
+          "13",
+          "14",
+          "5"
+        ],
+        "case_id": "S162",
+        "check_summary": "Periodic differences suggest phase-specific updates, but parameters are underdetermined.",
+        "confidence": 0.15,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "5",
+          "-362",
+          "5",
+          "6",
+          "-730"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams: one arithmetic decrement, one arithmetic increment, one doubling-difference stream.",
+        "confidence": 0.98,
+        "rule_summary": "Three-way interleave of affine and exponential-looking phase streams."
+      },
+      {
+        "answer": [
+          "42",
+          "47",
+          "39",
+          "58",
+          "34"
+        ],
+        "case_id": "S164",
+        "check_summary": "No unique low-order stream decomposition isolated confidently.",
+        "confidence": 0.12,
+        "rule_summary": "Likely interleaved affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "-45",
+          "-8",
+          "61",
+          "-116",
+          "101"
+        ],
+        "case_id": "S165",
+        "check_summary": "Irregular alternating subsequences prevent confident direct extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Likely phase-specific affine or lagged-polynomial recurrence."
+      },
+      {
+        "answer": [
+          "19",
+          "135",
+          "15",
+          "19",
+          "174"
+        ],
+        "case_id": "S166",
+        "check_summary": "Modulo-3 phase 0 alternates -21 and 19; phase 1 has second differences 9; phase 2 remains uncertain.",
+        "confidence": 0.3,
+        "rule_summary": "Three interleaved phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-48",
+          "-49",
+          "-65",
+          "-66",
+          "-84"
+        ],
+        "case_id": "S167",
+        "check_summary": "Repeated blocks show arithmetic internal steps, but block-start rule is uncertain.",
+        "confidence": 0.14,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "98",
+          "122",
+          "123",
+          "170",
+          "196"
+        ],
+        "case_id": "S168",
+        "check_summary": "Tail suggests two interleaved arithmetic streams with approximately 48-step spacing.",
+        "confidence": 0.2,
+        "rule_summary": "Likely interleaved polynomial or affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-B6BC6FB624BA-search-b14-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "49402c4e684ac7de315cc9f73f81ffdeddadc5fb34cf2a75e83b7024ae8ff4c4",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-B6BC6FB624BA-search-b14-proposer-2/attempt-01"
+}

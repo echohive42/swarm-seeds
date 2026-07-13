@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b01",
+    "results": [
+      {
+        "answer": [
+          "2713",
+          "3755",
+          "5066",
+          "6688",
+          "8666"
+        ],
+        "case_id": "S002",
+        "check_summary": "Cubic finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-218",
+          "234",
+          "-255",
+          "271",
+          "-292"
+        ],
+        "case_id": "S003",
+        "check_summary": "Alternating arithmetic streams with step 37.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-129",
+          "-203",
+          "-296",
+          "-410",
+          "-547"
+        ],
+        "case_id": "S004",
+        "check_summary": "Constant third difference of -2.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "3319238",
+          "1106415",
+          "-19915450",
+          "-6638481",
+          "119492678"
+        ],
+        "case_id": "S005",
+        "check_summary": "Two phase streams with affine multiplier -6.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "17",
+          "21",
+          "19",
+          "23",
+          "21"
+        ],
+        "case_id": "S010",
+        "check_summary": "Alternating arithmetic streams with step 2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-797169",
+          "-2391510",
+          "-7174527",
+          "-21523584",
+          "-64570749"
+        ],
+        "case_id": "S008",
+        "check_summary": "Each term follows x'=3x-3.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3090000",
+          "-8400000",
+          "-22900000",
+          "-62300000",
+          "-169000000"
+        ],
+        "case_id": "S009",
+        "check_summary": "Continued dominant affine-growth pattern.",
+        "confidence": 0.25,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-925742",
+          "2224971",
+          "-5350034",
+          "12859035",
+          "-30906466"
+        ],
+        "case_id": "S011",
+        "check_summary": "Alternating high-growth affine pattern.",
+        "confidence": 0.3,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "18890",
+          "-56653",
+          "169958",
+          "-509873",
+          "1529620"
+        ],
+        "case_id": "S012",
+        "check_summary": "Periodic signed affine continuation.",
+        "confidence": 0.25,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-109",
+          "-145",
+          "-145",
+          "-181",
+          "-181"
+        ],
+        "case_id": "S006",
+        "check_summary": "Phase-dependent irregular difference continuation.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-13000",
+          "-19600",
+          "-28200",
+          "-38600",
+          "-50800"
+        ],
+        "case_id": "S007",
+        "check_summary": "Polynomial-growth continuation.",
+        "confidence": 0.2,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "34",
+          "39",
+          "45",
+          "52",
+          "60"
+        ],
+        "case_id": "S001",
+        "check_summary": "Periodic delta continuation.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-347400D8BFC6-search-b01-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "cb43334dc46a2fb3198aa7192b82e195213662e85bff8bd89d5f48e607e0ac5c",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-347400D8BFC6-search-b01-proposer-4/attempt-01"
+}

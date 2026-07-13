@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating -4,-3 deltas replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic phase-specific constant deltas."
+      },
+      {
+        "answer": [
+          "9330",
+          "-15087",
+          "24417",
+          "-39474",
+          "63891"
+        ],
+        "case_id": "S074",
+        "check_summary": "Alternating-sign expanding recurrence pattern extrapolated.",
+        "confidence": 0.42,
+        "rule_summary": "Periodic affine/linear recurrence."
+      },
+      {
+        "answer": [
+          "8",
+          "10",
+          "8",
+          "12",
+          "8"
+        ],
+        "case_id": "S075",
+        "check_summary": "Interleaved low-order streams extrapolated.",
+        "confidence": 0.3,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-14220",
+          "-19950",
+          "-27390",
+          "-37230",
+          "-50010"
+        ],
+        "case_id": "S076",
+        "check_summary": "Growing phase-dependent differences extrapolated.",
+        "confidence": 0.34,
+        "rule_summary": "Periodic polynomial-delta update."
+      },
+      {
+        "answer": [
+          "-4059",
+          "-9768",
+          "-23498",
+          "-56550",
+          "-136080"
+        ],
+        "case_id": "S077",
+        "check_summary": "Rapidly expanding negative recurrence extrapolated.",
+        "confidence": 0.35,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Exact x -> -3x+5 recurrence.",
+        "confidence": 0.99,
+        "rule_summary": "Affine update."
+      },
+      {
+        "answer": [
+          "49",
+          "86",
+          "101",
+          "143",
+          "164"
+        ],
+        "case_id": "S079",
+        "check_summary": "Interleaved growth pattern extrapolated.",
+        "confidence": 0.28,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "408426",
+          "1225270",
+          "-3675812",
+          "3675804",
+          "11027396"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three-phase affine cycle replayed.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-152370",
+          "304738",
+          "-609474",
+          "1218946",
+          "-2437890"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating -2x+2 and 2x-2 updates.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences are negative squares.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence via first differences."
+      },
+      {
+        "answer": [
+          "-2762",
+          "-3946",
+          "-5428",
+          "-7263",
+          "-9511"
+        ],
+        "case_id": "S083",
+        "check_summary": "Higher differences continue the observed arithmetic progression.",
+        "confidence": 0.91,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "145789",
+          "-352770",
+          "853089",
+          "-2060950",
+          "4981511"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating expanding recurrence extrapolated.",
+        "confidence": 0.35,
+        "rule_summary": "Periodic affine/linear recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-1CB025718435-search-b07-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "36c9d9b2674baee9c284a264f24bc0c69bf5dda24e2a7a068b919c3362163fe5",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-1CB025718435-search-b07-proposer-4/attempt-01"
+}

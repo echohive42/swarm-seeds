@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b05",
+    "results": [
+      {
+        "answer": [
+          "3446",
+          "10343",
+          "31034",
+          "93107",
+          "279326"
+        ],
+        "case_id": "F049",
+        "check_summary": "Exact affine recurrence a(n+1)=3a(n)+5.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "21",
+          "19",
+          "24",
+          "22",
+          "27"
+        ],
+        "case_id": "F050",
+        "check_summary": "Two interleaved arithmetic streams with step 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-17846",
+          "17843",
+          "-17840",
+          "53524",
+          "-160565"
+        ],
+        "case_id": "F051",
+        "check_summary": "Verified three-phase affine recurrence.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3973",
+          "-5918",
+          "-8513",
+          "-11902",
+          "-16246"
+        ],
+        "case_id": "F052",
+        "check_summary": "Finite differences give constant fifth difference -1.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "514760",
+          "1235430",
+          "2965024",
+          "7116051",
+          "17078582"
+        ],
+        "case_id": "F053",
+        "check_summary": "Exponential-growth recurrence extrapolation.",
+        "confidence": 0.62,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "1066421",
+          "-3199269",
+          "-6398539",
+          "19195611",
+          "38391221"
+        ],
+        "case_id": "F054",
+        "check_summary": "Verified alternating affine updates 2x-1 and -3x-6.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "435",
+          "-551",
+          "-317",
+          "1008",
+          "827"
+        ],
+        "case_id": "F055",
+        "check_summary": "Four interleaved quadratic streams extrapolated independently.",
+        "confidence": 0.7,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-77",
+          "-89",
+          "-102",
+          "-116",
+          "-131"
+        ],
+        "case_id": "F056",
+        "check_summary": "First differences decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "42",
+          "8",
+          "42",
+          "3",
+          "42"
+        ],
+        "case_id": "F057",
+        "check_summary": "Two interleaved polynomial streams.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-77",
+          "-89",
+          "-102",
+          "-116",
+          "-131"
+        ],
+        "case_id": "F058",
+        "check_summary": "Successive differences are -1,-2,...",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-868",
+          "-1079",
+          "-1317",
+          "-1585",
+          "-1853"
+        ],
+        "case_id": "F059",
+        "check_summary": "Second differences decrease by 3.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1476",
+          "2207",
+          "3176",
+          "4429",
+          "6016"
+        ],
+        "case_id": "F060",
+        "check_summary": "Third differences increase by 4.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-evolved_champion-G-A20DBD76963B-final-b05-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "7c301abf8308976015570d7d77b55c5b3a1b6f5a5a2c8ce9e54290f7ccedcb70",
+  "terminal_artifact_relpath": "jobs/final-evolved_champion-G-A20DBD76963B-final-b05-proposer-5/attempt-01"
+}

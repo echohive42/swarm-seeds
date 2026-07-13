@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b01",
+    "results": [
+      {
+        "answer": [
+          "33",
+          "36",
+          "40",
+          "45",
+          "51"
+        ],
+        "case_id": "S001",
+        "check_summary": "Inferred periodic/interleaved integer pattern; extrapolation uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic phase-specific deltas."
+      },
+      {
+        "answer": [
+          "2713",
+          "3752",
+          "5051",
+          "6643",
+          "8561"
+        ],
+        "case_id": "S002",
+        "check_summary": "Finite differences show steadily increasing fourth differences.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial sequence with fourth finite difference 3."
+      },
+      {
+        "answer": [
+          "-218",
+          "234",
+          "-255",
+          "271",
+          "-292"
+        ],
+        "case_id": "S003",
+        "check_summary": "Odd and even subsequences have constant opposite differences.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-129",
+          "-203",
+          "-296",
+          "-410",
+          "-547"
+        ],
+        "case_id": "S004",
+        "check_summary": "Second differences decrease by 2 each step.",
+        "confidence": 1.0,
+        "rule_summary": "Polynomial sequence with quadratic second-difference trend."
+      },
+      {
+        "answer": [
+          "1106415",
+          "-3319252",
+          "6638499",
+          "-19915504",
+          "39831003"
+        ],
+        "case_id": "S005",
+        "check_summary": "Alternating affine multipliers -2 and -3 with biases -5 and -7.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-132",
+          "-161",
+          "-203",
+          "-252",
+          "-312"
+        ],
+        "case_id": "S006",
+        "check_summary": "Candidate periodic-delta extrapolation from late prefix.",
+        "confidence": 0.14,
+        "rule_summary": "Phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-13536",
+          "-21256",
+          "-31524",
+          "-44536",
+          "-60376"
+        ],
+        "case_id": "S007",
+        "check_summary": "Candidate growing-block/polynomial extrapolation from accelerating tail.",
+        "confidence": 0.2,
+        "rule_summary": "Polynomially evolving block structure."
+      },
+      {
+        "answer": [
+          "-797166",
+          "-2391498",
+          "-7174494",
+          "-21523482",
+          "-64570446"
+        ],
+        "case_id": "S008",
+        "check_summary": "Each term after the first is triple the previous term.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence with multiplier 3 and zero bias."
+      },
+      {
+        "answer": [
+          "-1133266",
+          "-3095365",
+          "-8451596",
+          "-23080613",
+          "-63015856"
+        ],
+        "case_id": "S009",
+        "check_summary": "Candidate affine-growth extrapolation from the apparent asymptotic ratio.",
+        "confidence": 0.11,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "17",
+          "15",
+          "19",
+          "17",
+          "21"
+        ],
+        "case_id": "S010",
+        "check_summary": "Alternates +4 and -2.",
+        "confidence": 1.0,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "2221787",
+          "-5359922",
+          "12932167",
+          "-31204168",
+          "75261971"
+        ],
+        "case_id": "S011",
+        "check_summary": "Candidate alternating affine extrapolation from dominant ratio.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "37771",
+          "113309",
+          "-113304",
+          "-226613",
+          "-679843"
+        ],
+        "case_id": "S012",
+        "check_summary": "Triples follow second=2 first-5 and third=3 second-4; block starts follow -6x+24.",
+        "confidence": 1.0,
+        "rule_summary": "Interleaved phase-specific affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-F3EA0DB4CF72-search-b01-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "af8a209c7988d35bf1874e158f52ed3da17e8e9e318ac2091719d4447cb99f98",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-F3EA0DB4CF72-search-b01-proposer-6/attempt-01"
+}

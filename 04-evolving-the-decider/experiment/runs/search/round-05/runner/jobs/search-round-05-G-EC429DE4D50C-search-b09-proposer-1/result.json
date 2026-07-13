@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b09",
+    "results": [
+      {
+        "answer": [
+          "-4915830",
+          "14747487",
+          "-44242464",
+          "132727389",
+          "-398182170"
+        ],
+        "case_id": "S100",
+        "check_summary": "Matches repeating affine rule x'=-3x-3 from the established suffix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence, stabilized to x'=-3x-3."
+      },
+      {
+        "answer": [
+          "1143",
+          "1477",
+          "1871",
+          "2330",
+          "2859"
+        ],
+        "case_id": "S102",
+        "check_summary": "Successive differences continue with second differences increasing by 5.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial finite-difference sequence."
+      },
+      {
+        "answer": [
+          "-703",
+          "-833",
+          "-959",
+          "-1074",
+          "-1170"
+        ],
+        "case_id": "S099",
+        "check_summary": "Finite differences continue with third differences increasing by 1.",
+        "confidence": 0.95,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "-38",
+          "-41",
+          "-46",
+          "-49",
+          "-54"
+        ],
+        "case_id": "S104",
+        "check_summary": "Alternating decrements of -3 and -5 continue.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial delta recurrence."
+      },
+      {
+        "answer": [
+          "139",
+          "141",
+          "137",
+          "130",
+          "126"
+        ],
+        "case_id": "S103",
+        "check_summary": "Difference blocks repeat with each three-term block shifted downward by 6.",
+        "confidence": 0.97,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-39990",
+          "39995",
+          "79981",
+          "239946",
+          "-239941"
+        ],
+        "case_id": "S105",
+        "check_summary": "Three interleaved affine streams each replay a stable affine rule.",
+        "confidence": 0.98,
+        "rule_summary": "Three-stream interleave with phase-specific affine updates."
+      },
+      {
+        "answer": [
+          "-1",
+          "2",
+          "-4",
+          "-7",
+          "-4"
+        ],
+        "case_id": "S107",
+        "check_summary": "Continuation inferred from the emerging periodic finite-difference structure.",
+        "confidence": 0.35,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "10",
+          "5",
+          "9",
+          "17",
+          "23"
+        ],
+        "case_id": "S108",
+        "check_summary": "Continuation inferred from interleaved stream behavior.",
+        "confidence": 0.25,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-4915830",
+          "14747487",
+          "-44242464",
+          "132727389",
+          "-398182170"
+        ],
+        "case_id": "S097",
+        "check_summary": "Insufficiently resolved periodic affine continuation; provisional extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-4915830",
+          "14747487",
+          "-44242464",
+          "132727389",
+          "-398182170"
+        ],
+        "case_id": "S098",
+        "check_summary": "Insufficiently resolved phase-specific recurrence; provisional extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-4915830",
+          "14747487",
+          "-44242464",
+          "132727389",
+          "-398182170"
+        ],
+        "case_id": "S101",
+        "check_summary": "Insufficiently resolved polynomial/interleaved continuation; provisional extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "Polynomial or interleaved mechanism."
+      },
+      {
+        "answer": [
+          "-1154030",
+          "-3462083",
+          "-10386232",
+          "-31158699",
+          "-93476098"
+        ],
+        "case_id": "S106",
+        "check_summary": "Provisional continuation under a dominant approximately tripling affine regime.",
+        "confidence": 0.15,
+        "rule_summary": "Periodic affine recurrence with phase-dependent bias."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-EC429DE4D50C-search-b09-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "674d21a74427004a146bd00c97d51a29de95577ef35e42336e1b7da1d9d61db1",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-EC429DE4D50C-search-b09-proposer-1/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "-4",
+          "-8",
+          "-9",
+          "-13",
+          "-14"
+        ],
+        "case_id": "F037",
+        "check_summary": "Best-fit periodic delta continuation.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic phase-specific integer updates."
+      },
+      {
+        "answer": [
+          "18",
+          "21",
+          "24",
+          "20",
+          "23"
+        ],
+        "case_id": "F038",
+        "check_summary": "Continuation of the dominant +3 increment pattern with recurring resets.",
+        "confidence": 0.32,
+        "rule_summary": "Phase-periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "68",
+          "52",
+          "111",
+          "76",
+          "127"
+        ],
+        "case_id": "F039",
+        "check_summary": "Best-fit modular/phase recurrence continuation.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine recurrence modulo a prime."
+      },
+      {
+        "answer": [
+          "-5",
+          "-9",
+          "-4",
+          "-8",
+          "-3"
+        ],
+        "case_id": "F040",
+        "check_summary": "Alternating differences continue as +1,-5,0,-4,-1.",
+        "confidence": 0.9,
+        "rule_summary": "Periodic phase-specific affine updates."
+      },
+      {
+        "answer": [
+          "-54",
+          "-70",
+          "-104",
+          "-124",
+          "-196"
+        ],
+        "case_id": "F041",
+        "check_summary": "Best-fit interleaved polynomial-stream continuation.",
+        "confidence": 0.14,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-764",
+          "56",
+          "-1532",
+          "61",
+          "-3068"
+        ],
+        "case_id": "F042",
+        "check_summary": "Odd subsequence follows x->2x-4; even differences increase by 5.",
+        "confidence": 0.98,
+        "rule_summary": "Two interleaved affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "201",
+          "-55",
+          "-21",
+          "-6",
+          "-72"
+        ],
+        "case_id": "F043",
+        "check_summary": "Best-fit interleaved phase-stream continuation.",
+        "confidence": 0.16,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-58",
+          "-9",
+          "-83",
+          "-20",
+          "-112"
+        ],
+        "case_id": "F044",
+        "check_summary": "Best-fit interleaved phase-stream continuation.",
+        "confidence": 0.13,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "127",
+          "155",
+          "183",
+          "51",
+          "79"
+        ],
+        "case_id": "F045",
+        "check_summary": "Growing arithmetic blocks continue with step 28, followed by step 35.",
+        "confidence": 0.95,
+        "rule_summary": "Growing arithmetic blocks with polynomial starts and steps."
+      },
+      {
+        "answer": [
+          "-18",
+          "-30",
+          "-12",
+          "-9",
+          "-35"
+        ],
+        "case_id": "F046",
+        "check_summary": "Best-fit phase-specific recurrence continuation.",
+        "confidence": 0.13,
+        "rule_summary": "Periodic affine updates."
+      },
+      {
+        "answer": [
+          "-92",
+          "-129",
+          "-166",
+          "-203",
+          "-240"
+        ],
+        "case_id": "F047",
+        "check_summary": "Next growing block has six terms with step -37.",
+        "confidence": 0.9,
+        "rule_summary": "Growing arithmetic blocks with polynomial starts and steps."
+      },
+      {
+        "answer": [
+          "-3",
+          "-24",
+          "-47",
+          "-73",
+          "-102"
+        ],
+        "case_id": "F048",
+        "check_summary": "Best-fit interleaved phase-stream continuation.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved polynomial and affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b04-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "6c4f3a17dcf37dda5b334a441593128be29e6410856ffbac98b6293db0b5b0e6",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b04-proposer-1/attempt-01"
+}

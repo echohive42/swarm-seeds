@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "20",
+          "9",
+          "24",
+          "-7",
+          "38"
+        ],
+        "case_id": "S109",
+        "check_summary": "Repeated four-phase interleave candidate with strongest support.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE with four polynomial streams."
+      },
+      {
+        "answer": [
+          "72",
+          "-21",
+          "-36",
+          "-39",
+          "72"
+        ],
+        "case_id": "S110",
+        "check_summary": "Three independent entries agree on the phase-separated continuation.",
+        "confidence": 0.38,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "81",
+          "96",
+          "56",
+          "75",
+          "94"
+        ],
+        "case_id": "S111",
+        "check_summary": "Three entries agree and preserve the visible growing arithmetic-block structure.",
+        "confidence": 0.65,
+        "rule_summary": "GROWBLOCK with growing starts and steps."
+      },
+      {
+        "answer": [
+          "2",
+          "1",
+          "38",
+          "2",
+          "7"
+        ],
+        "case_id": "S112",
+        "check_summary": "Three independent entries agree on the three-stream finite-difference continuation.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE with three polynomial streams."
+      },
+      {
+        "answer": [
+          "56",
+          "42",
+          "-66",
+          "-28",
+          "175"
+        ],
+        "case_id": "S113",
+        "check_summary": "Three entries agree on the four-phase polynomial-stream extrapolation.",
+        "confidence": 0.27,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "31",
+          "-37",
+          "-907",
+          "28",
+          "-55"
+        ],
+        "case_id": "S114",
+        "check_summary": "Three entries agree on the three-stream continuation, including the rapid affine phase.",
+        "confidence": 0.88,
+        "rule_summary": "INTERLEAVE with polynomial and affine streams."
+      },
+      {
+        "answer": [
+          "40",
+          "53",
+          "69",
+          "101",
+          "132"
+        ],
+        "case_id": "S115",
+        "check_summary": "Three entries agree on the evolving growing-block continuation.",
+        "confidence": 0.28,
+        "rule_summary": "GROWBLOCK with evolving starts and steps."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd and even subsequences are exact arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "29",
+          "18",
+          "45",
+          "21",
+          "39"
+        ],
+        "case_id": "S117",
+        "check_summary": "Three entries agree on the best-supported growing-block continuation.",
+        "confidence": 0.24,
+        "rule_summary": "GROWBLOCK with arithmetic blocks."
+      },
+      {
+        "answer": [
+          "13",
+          "8",
+          "31",
+          "26",
+          "21"
+        ],
+        "case_id": "S118",
+        "check_summary": "Three entries agree: intervening terms descend by five while positive jumps increase.",
+        "confidence": 0.96,
+        "rule_summary": "GROWBLOCK with increasing positive jump schedule."
+      },
+      {
+        "answer": [
+          "67",
+          "15",
+          "87",
+          "91",
+          "24"
+        ],
+        "case_id": "S119",
+        "check_summary": "Two entries agree on the strongest available three-phase delta continuation.",
+        "confidence": 0.31,
+        "rule_summary": "Periodic polynomial-delta update."
+      },
+      {
+        "answer": [
+          "67",
+          "326",
+          "309",
+          "292",
+          "275"
+        ],
+        "case_id": "S120",
+        "check_summary": "Three entries agree on the next descending five-term block.",
+        "confidence": 0.72,
+        "rule_summary": "GROWBLOCK with polynomial starts and steps."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-1FA44A1EE857-search-b10-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "75b9bc6ca4dbed872614d99c9cb1a3af5b0df4ab7fb67e7e0bcf5363455ffe02",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-1FA44A1EE857-search-b10-judge-2/attempt-01"
+}

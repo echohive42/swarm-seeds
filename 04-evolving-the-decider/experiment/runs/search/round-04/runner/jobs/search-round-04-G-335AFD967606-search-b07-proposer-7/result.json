@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating differences -4,-3 replay the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic first differences."
+      },
+      {
+        "answer": [
+          "9337",
+          "-15126",
+          "24455",
+          "-39589",
+          "64036"
+        ],
+        "case_id": "S074",
+        "check_summary": "Second-order relation with phase-stable bias fits the tail and prefix.",
+        "confidence": 0.88,
+        "rule_summary": "LIN2 recurrence."
+      },
+      {
+        "answer": [
+          "8",
+          "10",
+          "9",
+          "12",
+          "8"
+        ],
+        "case_id": "S075",
+        "check_summary": "Interleaved short polynomial streams inferred from the prefix.",
+        "confidence": 0.42,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-14259",
+          "-20304",
+          "-27067",
+          "-34414",
+          "-42231"
+        ],
+        "case_id": "S076",
+        "check_summary": "Growing nonlinear differences suggest a phase-dependent polynomial-delta rule.",
+        "confidence": 0.34,
+        "rule_summary": "PDELTA."
+      },
+      {
+        "answer": [
+          "-4055",
+          "-9760",
+          "-23480",
+          "-56500",
+          "-135900"
+        ],
+        "case_id": "S077",
+        "check_summary": "Approximately geometric negative growth inferred from the late prefix.",
+        "confidence": 0.25,
+        "rule_summary": "AFFINE."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Exact update x_next=-3x+5.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE."
+      },
+      {
+        "answer": [
+          "79",
+          "102",
+          "132",
+          "171",
+          "219"
+        ],
+        "case_id": "S079",
+        "check_summary": "Periodic/interleaved growth inferred from alternating subsequences.",
+        "confidence": 0.35,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "408426",
+          "1225270",
+          "-3675812",
+          "3675804",
+          "11027396"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three-phase affine updates replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period 3."
+      },
+      {
+        "answer": [
+          "-152370",
+          "304742",
+          "-609482",
+          "1218962",
+          "-2437922"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating affine updates replay the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period 2."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-813",
+          "-989"
+        ],
+        "case_id": "S082",
+        "check_summary": "Differences continue as negative consecutive squares.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA polynomial increments."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7643",
+          "-10173"
+        ],
+        "case_id": "S083",
+        "check_summary": "Finite differences show continuing quartic behavior.",
+        "confidence": 0.96,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "350000",
+          "-840000",
+          "2016000",
+          "-4838400",
+          "11612160"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating exponential growth inferred from the prefix.",
+        "confidence": 0.21,
+        "rule_summary": "AFFINE."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-335AFD967606-search-b07-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "aecc674800ecaae50cdee1ff8302635cab3490e6ad11d02f21e93e6c72e9547c",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-335AFD967606-search-b07-proposer-7/attempt-01"
+}

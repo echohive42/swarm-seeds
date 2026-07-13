@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Four interleaved streams have successive increments multiplied by -4.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE with four geometric-increment streams."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "First differences alternate +4 and +5 throughout the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine/polynomial delta pattern +4,+5."
+      },
+      {
+        "answer": [
+          "1796",
+          "2303",
+          "2826",
+          "3359",
+          "3895"
+        ],
+        "case_id": "S171",
+        "check_summary": "Finite differences continue with the observed polynomial pattern.",
+        "confidence": 0.78,
+        "rule_summary": "POLY via continued finite-difference extrapolation."
+      },
+      {
+        "answer": [
+          "1796",
+          "2303",
+          "2826",
+          "3359",
+          "3895"
+        ],
+        "case_id": "S172",
+        "check_summary": "Second differences follow the descending third-difference pattern.",
+        "confidence": 0.95,
+        "rule_summary": "POLY with continuing finite differences."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences increase consecutively from the observed sequence.",
+        "confidence": 0.99,
+        "rule_summary": "POLY with quadratic first-difference progression."
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7182",
+          "-11626",
+          "-18805",
+          "-30429"
+        ],
+        "case_id": "S174",
+        "check_summary": "Second-order recurrence uses repeating biases -2,-2,+3.",
+        "confidence": 0.9,
+        "rule_summary": "LIN2 with period-3 bias."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97940921"
+        ],
+        "case_id": "S175",
+        "check_summary": "Pair starts update as x -> -6x+4; paired term is 3x+1.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "71",
+          "50",
+          "55",
+          "66",
+          "68"
+        ],
+        "case_id": "S176",
+        "check_summary": "Four interleaved streams have arithmetic increments decreasing by 8.",
+        "confidence": 0.93,
+        "rule_summary": "INTERLEAVE with four polynomial streams."
+      },
+      {
+        "answer": [
+          "214819",
+          "429647",
+          "859287",
+          "1718567",
+          "3437135"
+        ],
+        "case_id": "S177",
+        "check_summary": "Continuation follows the observed sign-block doubling pattern.",
+        "confidence": 0.72,
+        "rule_summary": "Periodic affine/block recurrence."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE multiplier 2, bias 0."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "The six-term cycle repeats exactly.",
+        "confidence": 1.0,
+        "rule_summary": "PERIODIC sequence / phase-specific constant updates."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-306",
+          "-360",
+          "-388"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd and even subsequences have polynomially progressing decrements.",
+        "confidence": 0.94,
+        "rule_summary": "INTERLEAVE of two polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-E2CB7ED71793-search-b15-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "87a8784067732a5ab5f0782c3360431243d95790deee011091eb1ecc24f7f0e7",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-E2CB7ED71793-search-b15-proposer-5/attempt-01"
+}

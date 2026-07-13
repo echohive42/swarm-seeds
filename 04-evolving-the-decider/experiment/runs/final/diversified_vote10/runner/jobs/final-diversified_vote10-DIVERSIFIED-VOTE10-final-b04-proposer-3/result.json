@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "-13",
+          "-14",
+          "-13",
+          "-13",
+          "-14"
+        ],
+        "case_id": "F037",
+        "check_summary": "Inferred a short periodic interleaving; extrapolation uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic interleaved low-amplitude streams."
+      },
+      {
+        "answer": [
+          "18",
+          "11",
+          "14",
+          "17",
+          "20"
+        ],
+        "case_id": "F038",
+        "check_summary": "Differences are +3 runs interrupted by drops of -1, -4, then -7.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic arithmetic growth with increasing reset drops."
+      },
+      {
+        "answer": [
+          "83",
+          "60",
+          "103",
+          "87",
+          "12"
+        ],
+        "case_id": "F039",
+        "check_summary": "No uniquely reliable continuation identified from the prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved periodic/modular recurrence."
+      },
+      {
+        "answer": [
+          "-29",
+          "-28",
+          "-33",
+          "-32",
+          "-37"
+        ],
+        "case_id": "F040",
+        "check_summary": "Alternating deltas continue as descending negatives and positives.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase delta recurrence: -11,-10,... and +6,+5,...."
+      },
+      {
+        "answer": [
+          "-1",
+          "-27",
+          "12",
+          "1",
+          "-21"
+        ],
+        "case_id": "F041",
+        "check_summary": "No uniquely reliable continuation identified from the prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved phase-dependent recurrence."
+      },
+      {
+        "answer": [
+          "-764",
+          "56",
+          "-1532",
+          "84",
+          "-3068"
+        ],
+        "case_id": "F042",
+        "check_summary": "Odd subsequence differences double negatively; even subsequence differences rise by 5.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial-growth subsequences."
+      },
+      {
+        "answer": [
+          "-6",
+          "120",
+          "-28",
+          "216",
+          "-66"
+        ],
+        "case_id": "F043",
+        "check_summary": "No uniquely reliable continuation identified from the prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Unresolved interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "6",
+          "31",
+          "-48",
+          "47",
+          "-28"
+        ],
+        "case_id": "F044",
+        "check_summary": "Negative phase jumps grow with increasing magnitude; positive phases recur.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic delta blocks with polynomial jump sizes."
+      },
+      {
+        "answer": [
+          "1",
+          "36",
+          "71",
+          "106",
+          "141"
+        ],
+        "case_id": "F045",
+        "check_summary": "Continues the apparent +28 run followed by a larger negative reset and +35 run.",
+        "confidence": 0.3,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "31",
+          "27",
+          "15",
+          "26",
+          "12"
+        ],
+        "case_id": "F046",
+        "check_summary": "No uniquely reliable continuation identified from the prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved modular or phase-dependent recurrence."
+      },
+      {
+        "answer": [
+          "-96",
+          "-133",
+          "-170",
+          "-207",
+          "-244"
+        ],
+        "case_id": "F047",
+        "check_summary": "The repeated negative delta blocks lengthen while delta magnitude increases by 8.",
+        "confidence": 0.75,
+        "rule_summary": "Growing arithmetic blocks with repeated negative steps."
+      },
+      {
+        "answer": [
+          "27",
+          "31",
+          "27",
+          "31",
+          "27"
+        ],
+        "case_id": "F048",
+        "check_summary": "No uniquely reliable continuation identified from the prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved interleaved streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b04-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "2abb86b35084257ba24c090507128202c9c0baa1a0a2763700aa361f70710c7b",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b04-proposer-3/attempt-01"
+}

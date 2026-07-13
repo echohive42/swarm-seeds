@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "723",
+          "545",
+          "2731",
+          "5166",
+          "8804"
+        ],
+        "case_id": "S169",
+        "check_summary": "Matched periodic second-order recurrence with phase-specific bias extrapolation.",
+        "confidence": 0.42,
+        "rule_summary": "LIN2 with period-4 bias."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments 4,5 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine increment pattern."
+      },
+      {
+        "answer": [
+          "-2256",
+          "-3614",
+          "-5682",
+          "-8694",
+          "-12930"
+        ],
+        "case_id": "S171",
+        "check_summary": "Finite differences continue with linearly decreasing fourth differences.",
+        "confidence": 0.98,
+        "rule_summary": "POLY, degree 5."
+      },
+      {
+        "answer": [
+          "1592",
+          "1896",
+          "2220",
+          "2561",
+          "2916"
+        ],
+        "case_id": "S172",
+        "check_summary": "Difference curvature follows the symmetric polynomial continuation.",
+        "confidence": 0.97,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Successive differences increase by 1 in second difference.",
+        "confidence": 0.99,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18815",
+          "-30443"
+        ],
+        "case_id": "S174",
+        "check_summary": "Second-order recurrence bias repeats -2,-2,3.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 with period-3 bias."
+      },
+      {
+        "answer": [
+          "2101",
+          "-4196",
+          "-12587",
+          "25180",
+          "-50354"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating affine updates replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-2 phases."
+      },
+      {
+        "answer": [
+          "70",
+          "73",
+          "52",
+          "57",
+          "68"
+        ],
+        "case_id": "S176",
+        "check_summary": "Phase-specific differences continue linearly.",
+        "confidence": 0.94,
+        "rule_summary": "PDELTA with period-4 deltas."
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718495",
+          "-3436973"
+        ],
+        "case_id": "S177",
+        "check_summary": "Period-3 affine updates continue from the established phases.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE with period-3 phases."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term doubles the previous term.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "Exact period-6 cycle repeats.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA periodic sequence."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-312",
+          "-347",
+          "-387"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd and even difference subsequences each decrease linearly.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with period-2 polynomial deltas."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-6BAC1D28F028-search-b15-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "492bb15c6ec5f1bf04d67fa4696e6a6aa449442f268a21d4f0d7aeaebe9d6f0c",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-6BAC1D28F028-search-b15-proposer-5/attempt-01"
+}

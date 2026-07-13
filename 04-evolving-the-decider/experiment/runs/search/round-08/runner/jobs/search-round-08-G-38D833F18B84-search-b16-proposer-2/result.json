@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-146",
+          "-53",
+          "-180",
+          "-52",
+          "-219"
+        ],
+        "case_id": "S181",
+        "check_summary": "No uniquely verified low-complexity continuation identified from the supplied prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative phase-interleaved extrapolation."
+      },
+      {
+        "answer": [
+          "-21",
+          "17",
+          "-6",
+          "-3",
+          "-35"
+        ],
+        "case_id": "S182",
+        "check_summary": "No uniquely verified low-complexity continuation identified from the supplied prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative multi-stream extrapolation."
+      },
+      {
+        "answer": [
+          "-11",
+          "13",
+          "18",
+          "-14",
+          "31"
+        ],
+        "case_id": "S183",
+        "check_summary": "Two residue-class streams show recurring increment structure; first stream remains underdetermined.",
+        "confidence": 0.16,
+        "rule_summary": "Tentative three-stream lag/polynomial pattern."
+      },
+      {
+        "answer": [
+          "-1021",
+          "-14",
+          "-2045",
+          "-14",
+          "-4093"
+        ],
+        "case_id": "S184",
+        "check_summary": "Large alternating growth suggests a phase-specific affine or polynomial stream.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative alternating exponential-like stream extrapolation."
+      },
+      {
+        "answer": [
+          "68",
+          "-2",
+          "91",
+          "-2",
+          "117"
+        ],
+        "case_id": "S185",
+        "check_summary": "Odd-position subsequence has successive increments 5,8,11,14,17; even positions are constantly -2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: quadratic odd stream and constant even stream."
+      },
+      {
+        "answer": [
+          "77",
+          "-64",
+          "123",
+          "-126",
+          "181"
+        ],
+        "case_id": "S186",
+        "check_summary": "No uniquely verified low-complexity continuation identified from the supplied prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative phase-interleaved extrapolation."
+      },
+      {
+        "answer": [
+          "30",
+          "28",
+          "-107",
+          "32",
+          "43"
+        ],
+        "case_id": "S187",
+        "check_summary": "Residue-class streams fit: mod 3 = 1 has increments -7,-14,-21,-28; mod 3 = 2 has increments 6,5,4; mod 3 = 0 has increments -5,1,7,13.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE: three polynomial streams by position modulo 3."
+      },
+      {
+        "answer": [
+          "-21",
+          "-38",
+          "-55",
+          "-72",
+          "-89"
+        ],
+        "case_id": "S188",
+        "check_summary": "Growing-block differences show positive jumps 9,18,25,32 and repeated negative steps of magnitudes 11,13,15,17.",
+        "confidence": 0.9,
+        "rule_summary": "GROWBLOCK with polynomial block starts and constant within-block steps."
+      },
+      {
+        "answer": [
+          "-26",
+          "-22",
+          "-29",
+          "-26",
+          "-32"
+        ],
+        "case_id": "S189",
+        "check_summary": "Successive differences alternate 10,-13,9,-12,8,-11,...,5,-8,4,-7,3,-6.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with alternating phase-specific linear deltas."
+      },
+      {
+        "answer": [
+          "-11",
+          "35",
+          "-2",
+          "30",
+          "-43"
+        ],
+        "case_id": "S190",
+        "check_summary": "No uniquely verified low-complexity continuation identified from the supplied prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic affine continuation."
+      },
+      {
+        "answer": [
+          "-17",
+          "64",
+          "-19",
+          "75",
+          "-21"
+        ],
+        "case_id": "S191",
+        "check_summary": "No uniquely verified low-complexity continuation identified from the supplied prefix.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative multi-stream extrapolation."
+      },
+      {
+        "answer": [
+          "-46",
+          "19",
+          "220",
+          "-56",
+          "19"
+        ],
+        "case_id": "S192",
+        "check_summary": "Residue-class streams fit exactly: one has differences -5,-6,-7,-8; one is arithmetic with difference 7; one doubles its differences 14,28,?",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE: three modulo-3 streams, including linear and quadratic-growth components."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-38D833F18B84-search-b16-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "e2aceaaf136b60153ad645ef9eeb2ef88129479c89c05213544a9a8af50247f5",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-38D833F18B84-search-b16-proposer-2/attempt-01"
+}

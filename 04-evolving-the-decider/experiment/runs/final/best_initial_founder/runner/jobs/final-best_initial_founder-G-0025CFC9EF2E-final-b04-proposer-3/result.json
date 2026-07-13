@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "9",
+          "-14",
+          "-18",
+          "26",
+          "-19"
+        ],
+        "case_id": "F037",
+        "check_summary": "Weak periodic-delta fit; full-prefix replay uncertain.",
+        "confidence": 0.08,
+        "rule_summary": "Candidate phase-specific periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "18",
+          "21",
+          "14",
+          "17",
+          "20"
+        ],
+        "case_id": "F038",
+        "check_summary": "Matches repeating +3,+3 pattern with every fourth transition decreasing by 5.",
+        "confidence": 0.96,
+        "rule_summary": "Periodic phase-specific delta rule."
+      },
+      {
+        "answer": [
+          "107",
+          "45",
+          "78",
+          "68",
+          "112"
+        ],
+        "case_id": "F039",
+        "check_summary": "Weak interleaved-stream extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "Candidate interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-23",
+          "-28",
+          "-28",
+          "-32",
+          "-33"
+        ],
+        "case_id": "F040",
+        "check_summary": "Exact alternating arithmetic-delta pattern.",
+        "confidence": 0.99,
+        "rule_summary": "Two alternating delta sequences: negative steps increase by 1 and positive steps decrease by 1."
+      },
+      {
+        "answer": [
+          "54",
+          "-44",
+          "132",
+          "-59",
+          "291"
+        ],
+        "case_id": "F041",
+        "check_summary": "Weak alternating-subsequence extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "Candidate phase-specific affine or interleaved streams."
+      },
+      {
+        "answer": [
+          "-764",
+          "18",
+          "-1532",
+          "41",
+          "-3068"
+        ],
+        "case_id": "F042",
+        "check_summary": "Odd subsequence follows x→2x−4; even subsequence increments by 5 each step.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-38",
+          "201",
+          "-57",
+          "319",
+          "-85"
+        ],
+        "case_id": "F043",
+        "check_summary": "Partial cubic extrapolation of interleaved streams; remaining streams uncertain.",
+        "confidence": 0.12,
+        "rule_summary": "Candidate three-stream polynomial interleave."
+      },
+      {
+        "answer": [
+          "15",
+          "15",
+          "-64",
+          "-15",
+          "9"
+        ],
+        "case_id": "F044",
+        "check_summary": "Three interleaved streams fit simple polynomial increments.",
+        "confidence": 0.93,
+        "rule_summary": "Three-stream polynomial interleave."
+      },
+      {
+        "answer": [
+          "58",
+          "91",
+          "126",
+          "157",
+          "192"
+        ],
+        "case_id": "F045",
+        "check_summary": "Weak block/interleave extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Candidate growing-block polynomial mechanism."
+      },
+      {
+        "answer": [
+          "-2",
+          "62",
+          "27",
+          "-37",
+          "91"
+        ],
+        "case_id": "F046",
+        "check_summary": "Weak phase-specific recurrence extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "Candidate periodic affine or interleaved streams."
+      },
+      {
+        "answer": [
+          "-196",
+          "-229",
+          "-262",
+          "-295",
+          "-328"
+        ],
+        "case_id": "F047",
+        "check_summary": "Late-prefix arithmetic continuation guess.",
+        "confidence": 0.18,
+        "rule_summary": "Candidate growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-2",
+          "-9",
+          "-15",
+          "-43",
+          "-68"
+        ],
+        "case_id": "F048",
+        "check_summary": "Weak interleaved-stream extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "Candidate interleaved polynomial or affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-best_initial_founder-G-0025CFC9EF2E-final-b04-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "d9dfadb05566ea5ace770a81b325863feb659ccd8ae1fbbd53e03683ebfd26ea",
+  "terminal_artifact_relpath": "jobs/final-best_initial_founder-G-0025CFC9EF2E-final-b04-proposer-3/attempt-01"
+}

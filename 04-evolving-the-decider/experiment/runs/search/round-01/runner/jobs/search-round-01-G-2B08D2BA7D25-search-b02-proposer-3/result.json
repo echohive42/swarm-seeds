@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "73",
+          "4",
+          "101"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd positions follow successive even increments; even positions alternate -5 and 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: quadratic odd stream and alternating even stream."
+      },
+      {
+        "answer": [
+          "-3",
+          "-7",
+          "-1",
+          "-15",
+          "-27"
+        ],
+        "case_id": "S014",
+        "check_summary": "Extrapolation from phase-separated integer differences.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic phase update."
+      },
+      {
+        "answer": [
+          "-22",
+          "-25",
+          "-34",
+          "-31",
+          "-46"
+        ],
+        "case_id": "S015",
+        "check_summary": "Extrapolation from interleaved phase streams.",
+        "confidence": 0.16,
+        "rule_summary": "Phase-specific interleaving."
+      },
+      {
+        "answer": [
+          "-7",
+          "-31",
+          "-3",
+          "-55",
+          "-1"
+        ],
+        "case_id": "S016",
+        "check_summary": "Extrapolation from phase-separated recurrence behavior.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine or interleaved streams."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5; even terms decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two affine streams interleaved by parity."
+      },
+      {
+        "answer": [
+          "-1",
+          "2",
+          "-30",
+          "-22",
+          "-2"
+        ],
+        "case_id": "S018",
+        "check_summary": "Three residue-class streams show polynomial increments.",
+        "confidence": 0.88,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "49",
+          "31",
+          "68",
+          "7",
+          "84"
+        ],
+        "case_id": "S019",
+        "check_summary": "Extrapolation from periodic residue-class behavior.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic affine or modular phase update."
+      },
+      {
+        "answer": [
+          "-82",
+          "-56",
+          "-30",
+          "-4",
+          "22"
+        ],
+        "case_id": "S020",
+        "check_summary": "Observed negative jumps are followed by increasing positive phase runs.",
+        "confidence": 0.23,
+        "rule_summary": "Periodic phase-specific affine deltas."
+      },
+      {
+        "answer": [
+          "-60",
+          "-82",
+          "-104",
+          "-126",
+          "-148"
+        ],
+        "case_id": "S021",
+        "check_summary": "The final repeated difference phase is -16, with the next phase inferred as a continuation.",
+        "confidence": 0.58,
+        "rule_summary": "Periodic polynomial delta update."
+      },
+      {
+        "answer": [
+          "-26",
+          "38",
+          "-43",
+          "61",
+          "-60"
+        ],
+        "case_id": "S022",
+        "check_summary": "Extrapolation from alternating residue-class changes.",
+        "confidence": 0.13,
+        "rule_summary": "Interleaved phase-specific streams."
+      },
+      {
+        "answer": [
+          "-7",
+          "-41",
+          "-39",
+          "15",
+          "-52"
+        ],
+        "case_id": "S023",
+        "check_summary": "Two residue classes have increments -3,-5,-7; the remaining class is quadratically extrapolated.",
+        "confidence": 0.61,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-82",
+          "-56",
+          "-30",
+          "-4",
+          "22"
+        ],
+        "case_id": "S024",
+        "check_summary": "Extrapolation from alternating large jumps and arithmetic runs.",
+        "confidence": 0.11,
+        "rule_summary": "Periodic affine update."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-2B08D2BA7D25-search-b02-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "6246141c3a576905ad13eeb04f3fddc010832e5487c9c659b63d6c0900a201af",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-2B08D2BA7D25-search-b02-proposer-3/attempt-01"
+}

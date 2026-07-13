@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "-7",
+          "-23",
+          "-10",
+          "-26",
+          "-13"
+        ],
+        "case_id": "F013",
+        "check_summary": "Periodic phase pattern inferred from repeated phase values and deltas.",
+        "confidence": 0.31,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "42",
+          "34",
+          "56",
+          "29",
+          "73"
+        ],
+        "case_id": "F014",
+        "check_summary": "Interleaved phase streams extrapolated from recurring modular differences.",
+        "confidence": 0.24,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "11",
+          "-4",
+          "10",
+          "-7",
+          "15"
+        ],
+        "case_id": "F015",
+        "check_summary": "Three phase-specific subsequences extrapolated independently.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-81",
+          "105",
+          "-37",
+          "127",
+          "-45"
+        ],
+        "case_id": "F016",
+        "check_summary": "Repeated negative phase deltas with expanding block structure extrapolated.",
+        "confidence": 0.22,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "87",
+          "31",
+          "-12",
+          "22",
+          "55"
+        ],
+        "case_id": "F017",
+        "check_summary": "Phase-interleaved streams fitted to the observed prefix.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-7",
+          "25",
+          "-9",
+          "28",
+          "-11"
+        ],
+        "case_id": "F018",
+        "check_summary": "Odd positions decrease by 2; even positions increase by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "67",
+          "15",
+          "87",
+          "15",
+          "109"
+        ],
+        "case_id": "F019",
+        "check_summary": "Lagged phase subsequences extrapolated from near-quadratic growth.",
+        "confidence": 0.27,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "154",
+          "-126",
+          "-240",
+          "238",
+          "358"
+        ],
+        "case_id": "F020",
+        "check_summary": "Alternating phase-affine behavior extrapolated from the prefix.",
+        "confidence": 0.2,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "31",
+          "29",
+          "-1",
+          "42",
+          "38"
+        ],
+        "case_id": "F021",
+        "check_summary": "Phase-specific interleaved subsequences continued.",
+        "confidence": 0.21,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-42",
+          "414",
+          "-62",
+          "798",
+          "-82"
+        ],
+        "case_id": "F022",
+        "check_summary": "Periodic affine recurrence with alternating large signed updates inferred.",
+        "confidence": 0.19,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "26",
+          "31",
+          "36",
+          "26",
+          "31"
+        ],
+        "case_id": "F023",
+        "check_summary": "Recurring three-phase arithmetic pattern continued.",
+        "confidence": 0.45,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "89",
+          "110",
+          "131",
+          "28",
+          "53"
+        ],
+        "case_id": "F024",
+        "check_summary": "Growing arithmetic blocks extrapolated from recent block starts and steps.",
+        "confidence": 0.23,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-evolved_champion-G-A20DBD76963B-final-b02-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "3a14be7329b78b7768df61c2884af2b3915e863681c2cc94dab0fc88472418a3",
+  "terminal_artifact_relpath": "jobs/final-evolved_champion-G-A20DBD76963B-final-b02-proposer-1/attempt-01"
+}

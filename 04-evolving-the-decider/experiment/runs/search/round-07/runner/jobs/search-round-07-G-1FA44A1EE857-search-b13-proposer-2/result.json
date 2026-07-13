@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-430",
+          "-484",
+          "-545",
+          "-600",
+          "-663"
+        ],
+        "case_id": "S145",
+        "check_summary": "Periodic first differences with repeating second-difference pattern.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "99",
+          "106",
+          "126",
+          "140",
+          "159"
+        ],
+        "case_id": "S146",
+        "check_summary": "Interleaved phase-pattern extrapolation.",
+        "confidence": 0.32,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "10922",
+          "-21842",
+          "43686",
+          "-87370",
+          "174738"
+        ],
+        "case_id": "S147",
+        "check_summary": "Each term follows t(n)=-2*t(n-1)+2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "327"
+        ],
+        "case_id": "S148",
+        "check_summary": "Alternating arithmetic difference phases with linear growth.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "3560",
+          "4779",
+          "6288",
+          "8130",
+          "10351"
+        ],
+        "case_id": "S149",
+        "check_summary": "Third differences increase arithmetically.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "0",
+          "-4",
+          "-2",
+          "-6",
+          "-4"
+        ],
+        "case_id": "S150",
+        "check_summary": "First differences alternate +2 and -4.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-3922",
+          "-6350",
+          "-10280",
+          "-16637",
+          "-26925"
+        ],
+        "case_id": "S151",
+        "check_summary": "Second-order Fibonacci-like difference extrapolation with alternating residual phase.",
+        "confidence": 0.44,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-15333",
+          "-24659",
+          "-39701",
+          "-63996",
+          "-103333"
+        ],
+        "case_id": "S152",
+        "check_summary": "Exponential second-order growth extrapolation.",
+        "confidence": 0.28,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-2613",
+          "-4231",
+          "-6849",
+          "-11085",
+          "-17939"
+        ],
+        "case_id": "S153",
+        "check_summary": "From the stable suffix, each next difference is the sum of the previous two.",
+        "confidence": 0.96,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-1239",
+          "-1593",
+          "-2009",
+          "-2492",
+          "-3047"
+        ],
+        "case_id": "S154",
+        "check_summary": "Second differences decrease linearly by 5.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "533635",
+          "-1067265",
+          "-2134529",
+          "4269051",
+          "-8538097"
+        ],
+        "case_id": "S155",
+        "check_summary": "Three-phase affine update repeats: -2x-7, -2x+5, 2x+1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "136533",
+          "273063",
+          "546123",
+          "1092243",
+          "2184483"
+        ],
+        "case_id": "S156",
+        "check_summary": "Multiplier-2 affine recurrence with alternating biases -3 and +2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-1FA44A1EE857-search-b13-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "b57a689103cde27d876299c64bf72c9af7ca104cd46e350183f52b43ace26bd4",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-1FA44A1EE857-search-b13-proposer-2/attempt-01"
+}

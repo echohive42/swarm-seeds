@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "24",
+          "27",
+          "20",
+          "23"
+        ],
+        "case_id": "S085",
+        "check_summary": "Consistent three-step +3 runs with reset corrections decreasing by 3.",
+        "confidence": 0.95,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "29",
+          "66",
+          "29",
+          "20",
+          "66"
+        ],
+        "case_id": "S086",
+        "check_summary": "Repeated candidate consensus for the period-4 modular-affine continuation.",
+        "confidence": 0.72,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-44",
+          "-54",
+          "-64",
+          "-74",
+          "-84"
+        ],
+        "case_id": "S087",
+        "check_summary": "The terminal visible run is a strong exact arithmetic progression with difference -10.",
+        "confidence": 0.9,
+        "rule_summary": "GROWBLOCK or phase-specific affine"
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd stream rises by 5 and even stream falls by 1.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-60",
+          "99",
+          "-95",
+          "144",
+          "-130"
+        ],
+        "case_id": "S089",
+        "check_summary": "Best-supported candidate among weak alternating-stream extrapolations.",
+        "confidence": 0.19,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "13",
+          "3",
+          "11",
+          "1",
+          "9"
+        ],
+        "case_id": "S090",
+        "check_summary": "Repeated candidate consensus for the bounded alternating phase pattern.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic affine/interleaved update"
+      },
+      {
+        "answer": [
+          "-420",
+          "-192",
+          "1180",
+          "-1328",
+          "4090"
+        ],
+        "case_id": "S091",
+        "check_summary": "Repeated strongest proposal for the oscillatory phase-specific second-order recurrence.",
+        "confidence": 0.16,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "5",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd terms stay at 5; even-term differences continue by successive decrements.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-14",
+          "51",
+          "-28",
+          "69",
+          "-47"
+        ],
+        "case_id": "S093",
+        "check_summary": "Repeated best-supported alternating polynomial-stream continuation.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "92",
+          "90",
+          "111",
+          "113",
+          "130"
+        ],
+        "case_id": "S094",
+        "check_summary": "Repeated strongest proposal for phase-dependent affine continuation.",
+        "confidence": 0.16,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-25",
+          "-41",
+          "-57",
+          "-73",
+          "-89"
+        ],
+        "case_id": "S095",
+        "check_summary": "Growing blocks continue with step -16 and the inferred block start.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-22",
+          "82",
+          "-46",
+          "166",
+          "-94"
+        ],
+        "case_id": "S096",
+        "check_summary": "Repeated strongest candidate for the alternating-stream continuation.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-1CB025718435-search-b08-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "f918fdde17da63d402585506031c4e9a460e0d60d59cd6d97676f1a455c0aebc",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-1CB025718435-search-b08-judge-1/attempt-01"
+}

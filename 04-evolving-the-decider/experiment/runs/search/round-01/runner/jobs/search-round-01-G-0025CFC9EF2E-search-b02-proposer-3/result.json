@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "73",
+          "4",
+          "101"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd positions have successive increments 0,4,8,12,16; even positions alternate -5,4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: quadratic odd-position stream and alternating even-position stream."
+      },
+      {
+        "answer": [
+          "28",
+          "-2",
+          "30",
+          "-5",
+          "32"
+        ],
+        "case_id": "S014",
+        "check_summary": "Weak extrapolation from recent mixed-phase trend.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved periodic affine or interleaved mechanism."
+      },
+      {
+        "answer": [
+          "64",
+          "-25",
+          "68",
+          "-34",
+          "72"
+        ],
+        "case_id": "S015",
+        "check_summary": "Partial phase-pattern extrapolation; later terms are uncertain.",
+        "confidence": 0.12,
+        "rule_summary": "Likely interleaved or phase-specific polynomial mechanism."
+      },
+      {
+        "answer": [
+          "58",
+          "18",
+          "70",
+          "23",
+          "78"
+        ],
+        "case_id": "S016",
+        "check_summary": "Weak extrapolation from alternating recent values.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved periodic mechanism."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd positions increase by 5; even positions decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-18",
+          "-5",
+          "-25",
+          "-9",
+          "-32"
+        ],
+        "case_id": "S018",
+        "check_summary": "Weak continuation of recent downward movement.",
+        "confidence": 0.07,
+        "rule_summary": "Unresolved periodic mechanism."
+      },
+      {
+        "answer": [
+          "67",
+          "41",
+          "83",
+          "30",
+          "61"
+        ],
+        "case_id": "S019",
+        "check_summary": "Weak modular/phase extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "Likely MODAFFINE with nontrivial period."
+      },
+      {
+        "answer": [
+          "42",
+          "-46",
+          "64",
+          "-68",
+          "92"
+        ],
+        "case_id": "S020",
+        "check_summary": "Weak phase-based extrapolation from recent deltas.",
+        "confidence": 0.06,
+        "rule_summary": "Unresolved periodic or interleaved mechanism."
+      },
+      {
+        "answer": [
+          "-54",
+          "16",
+          "-70",
+          "22",
+          "-86"
+        ],
+        "case_id": "S021",
+        "check_summary": "Weak continuation of alternating downward phases.",
+        "confidence": 0.06,
+        "rule_summary": "Unresolved phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "17",
+          "-48",
+          "-3",
+          "31",
+          "-18"
+        ],
+        "case_id": "S022",
+        "check_summary": "Weak modular/interleaved extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved periodic mechanism."
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-22",
+          "-40"
+        ],
+        "case_id": "S023",
+        "check_summary": "Recent subsequence shows repeated increments of 2 after a downward reset.",
+        "confidence": 0.18,
+        "rule_summary": "Likely GROWBLOCK or phase-specific delta mechanism."
+      },
+      {
+        "answer": [
+          "-40",
+          "-31",
+          "-382",
+          "-36",
+          "-790"
+        ],
+        "case_id": "S024",
+        "check_summary": "Weak extrapolation from apparent alternating large-scale behavior.",
+        "confidence": 0.04,
+        "rule_summary": "Likely phase-specific affine or modular mechanism."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-0025CFC9EF2E-search-b02-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "eb1a0313c91ccab31df874dd511a8cb71ffd66f1999a3a40ab6e2f4f62247360",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-0025CFC9EF2E-search-b02-proposer-3/attempt-01"
+}

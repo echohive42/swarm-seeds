@@ -1,0 +1,455 @@
+{
+  "bootstrap": {
+    "method": "paired case bootstrap stratified within block; percentile interval",
+    "replicates": 50000,
+    "seed": 20260713
+  },
+  "fitness_definition": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+  "genome_scores": [
+    {
+      "block_exact_cases": {
+        "final-b01": 7,
+        "final-b02": 3,
+        "final-b03": 9,
+        "final-b04": 3,
+        "final-b05": 8,
+        "final-b06": 4,
+        "final-b07": 7,
+        "final-b08": 2
+      },
+      "case_count": 96,
+      "exact_cases": 43,
+      "exact_correct": 43,
+      "fitness_key_without_hash": [
+        43,
+        2,
+        0,
+        257,
+        96
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 96,
+      "genome_id": "best_initial_founder",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        43,
+        2,
+        0,
+        257,
+        96
+      ],
+      "term_correct": 257,
+      "term_count": 480,
+      "weakest_block_exact": 2
+    },
+    {
+      "block_exact_cases": {
+        "final-b01": 9,
+        "final-b02": 2,
+        "final-b03": 8,
+        "final-b04": 3,
+        "final-b05": 7,
+        "final-b06": 3,
+        "final-b07": 6,
+        "final-b08": 3
+      },
+      "case_count": 96,
+      "exact_cases": 41,
+      "exact_correct": 41,
+      "fitness_key_without_hash": [
+        41,
+        2,
+        0,
+        243,
+        96
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 96,
+      "genome_id": "evolved_champion",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        41,
+        2,
+        0,
+        243,
+        96
+      ],
+      "term_correct": 243,
+      "term_count": 480,
+      "weakest_block_exact": 2
+    }
+  ],
+  "inputs": {
+    "answers_sha256": "c2ff7d7a06e4f13eaabdfcfb342ecb9e6cd01805183f279a9edcde2d90edc8e3",
+    "completed_jobs": 4224,
+    "predictions_sha256": "915f561029ceb31a5273d1ba4c90c3ed82e95ea693d74cc458daec69c266f9a7"
+  },
+  "methods": {
+    "best_initial_founder": {
+      "block_exact_cases": {
+        "final-b01": 7,
+        "final-b02": 3,
+        "final-b03": 9,
+        "final-b04": 3,
+        "final-b05": 8,
+        "final-b06": 4,
+        "final-b07": 7,
+        "final-b08": 2
+      },
+      "calls": 80,
+      "case_count": 96,
+      "completed_calls": 80,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.4479166666666667,
+      "exact_cases": 43,
+      "exact_ci95": [
+        0.3541666666666667,
+        0.5416666666666666
+      ],
+      "fitness_key_without_hash": [
+        43,
+        0,
+        257,
+        96
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_rate": 1.0,
+      "format_valid": 96,
+      "harmful_overrides": 0,
+      "input_tokens": 958330.0,
+      "latency_ms": 4816755.0,
+      "malformed_calls": 0,
+      "n": 96,
+      "output_tokens": 234870.0,
+      "overrides": 0,
+      "protocol_fitness_key": [
+        43,
+        2,
+        0,
+        257,
+        96
+      ],
+      "term_accuracy": 0.5354166666666667,
+      "term_ci95": [
+        0.45,
+        0.6208333333333333
+      ],
+      "term_correct": 257,
+      "term_count": 480,
+      "useful_overrides": 0,
+      "weakest_block_exact": 2
+    },
+    "diversified_vote10": {
+      "block_exact_cases": {
+        "final-b01": 8,
+        "final-b02": 2,
+        "final-b03": 7,
+        "final-b04": 2,
+        "final-b05": 7,
+        "final-b06": 2,
+        "final-b07": 5,
+        "final-b08": 4
+      },
+      "calls": 80,
+      "case_count": 96,
+      "completed_calls": 80,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.3854166666666667,
+      "exact_cases": 37,
+      "exact_ci95": [
+        0.2916666666666667,
+        0.4791666666666667
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_rate": 1.0,
+      "format_valid": 96,
+      "harmful_overrides": 0,
+      "input_tokens": 957754.0,
+      "latency_ms": 4711052.0,
+      "malformed_calls": 0,
+      "n": 96,
+      "output_tokens": 230173.0,
+      "overrides": 0,
+      "protocol_fitness_key": [
+        37,
+        2,
+        0,
+        219,
+        96
+      ],
+      "term_accuracy": 0.45625,
+      "term_ci95": [
+        0.36874999999999997,
+        0.5437500000000001
+      ],
+      "term_correct": 219,
+      "term_count": 480,
+      "useful_overrides": 0,
+      "weakest_block_exact": 2
+    },
+    "evolved_champion": {
+      "block_exact_cases": {
+        "final-b01": 9,
+        "final-b02": 2,
+        "final-b03": 8,
+        "final-b04": 3,
+        "final-b05": 7,
+        "final-b06": 3,
+        "final-b07": 6,
+        "final-b08": 3
+      },
+      "calls": 80,
+      "case_count": 96,
+      "completed_calls": 80,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.4270833333333333,
+      "exact_cases": 41,
+      "exact_ci95": [
+        0.3333333333333333,
+        0.5208333333333334
+      ],
+      "fitness_key_without_hash": [
+        41,
+        0,
+        243,
+        96
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_rate": 1.0,
+      "format_valid": 96,
+      "harmful_overrides": 0,
+      "input_tokens": 1089820.0,
+      "latency_ms": 4420029.0,
+      "malformed_calls": 0,
+      "n": 96,
+      "output_tokens": 203525.0,
+      "overrides": 11,
+      "protocol_fitness_key": [
+        41,
+        2,
+        0,
+        243,
+        96
+      ],
+      "term_accuracy": 0.50625,
+      "term_ci95": [
+        0.42291666666666666,
+        0.5875
+      ],
+      "term_correct": 243,
+      "term_count": 480,
+      "useful_overrides": 3,
+      "weakest_block_exact": 2
+    },
+    "generalist_vote10": {
+      "block_exact_cases": {
+        "final-b01": 7,
+        "final-b02": 2,
+        "final-b03": 9,
+        "final-b04": 2,
+        "final-b05": 8,
+        "final-b06": 3,
+        "final-b07": 6,
+        "final-b08": 4
+      },
+      "calls": 80,
+      "case_count": 96,
+      "completed_calls": 80,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.4270833333333333,
+      "exact_cases": 41,
+      "exact_ci95": [
+        0.34375,
+        0.5208333333333334
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_rate": 1.0,
+      "format_valid": 96,
+      "harmful_overrides": 0,
+      "input_tokens": 957370.0,
+      "latency_ms": 4779529.0,
+      "malformed_calls": 0,
+      "n": 96,
+      "output_tokens": 235873.0,
+      "overrides": 0,
+      "protocol_fitness_key": [
+        41,
+        2,
+        0,
+        242,
+        96
+      ],
+      "term_accuracy": 0.5041666666666667,
+      "term_ci95": [
+        0.41875,
+        0.5895833333333333
+      ],
+      "term_correct": 242,
+      "term_count": 480,
+      "useful_overrides": 0,
+      "weakest_block_exact": 2
+    }
+  },
+  "n_cases": 96,
+  "protocol_fitness": {
+    "best_initial_founder": {
+      "block_exact_cases": {
+        "final-b01": 7,
+        "final-b02": 3,
+        "final-b03": 9,
+        "final-b04": 3,
+        "final-b05": 8,
+        "final-b06": 4,
+        "final-b07": 7,
+        "final-b08": 2
+      },
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "protocol_fitness_key": [
+        43,
+        2,
+        0,
+        257,
+        96
+      ],
+      "weakest_block_exact": 2
+    },
+    "diversified_vote10": {
+      "block_exact_cases": {
+        "final-b01": 8,
+        "final-b02": 2,
+        "final-b03": 7,
+        "final-b04": 2,
+        "final-b05": 7,
+        "final-b06": 2,
+        "final-b07": 5,
+        "final-b08": 4
+      },
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "protocol_fitness_key": [
+        37,
+        2,
+        0,
+        219,
+        96
+      ],
+      "weakest_block_exact": 2
+    },
+    "evolved_champion": {
+      "block_exact_cases": {
+        "final-b01": 9,
+        "final-b02": 2,
+        "final-b03": 8,
+        "final-b04": 3,
+        "final-b05": 7,
+        "final-b06": 3,
+        "final-b07": 6,
+        "final-b08": 3
+      },
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "protocol_fitness_key": [
+        41,
+        2,
+        0,
+        243,
+        96
+      ],
+      "weakest_block_exact": 2
+    },
+    "generalist_vote10": {
+      "block_exact_cases": {
+        "final-b01": 7,
+        "final-b02": 2,
+        "final-b03": 9,
+        "final-b04": 2,
+        "final-b05": 8,
+        "final-b06": 3,
+        "final-b07": 6,
+        "final-b08": 4
+      },
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "protocol_fitness_key": [
+        41,
+        2,
+        0,
+        242,
+        96
+      ],
+      "weakest_block_exact": 2
+    }
+  },
+  "schema_version": "4.0",
+  "scores": [
+    {
+      "block_exact_cases": {
+        "final-b01": 7,
+        "final-b02": 3,
+        "final-b03": 9,
+        "final-b04": 3,
+        "final-b05": 8,
+        "final-b06": 4,
+        "final-b07": 7,
+        "final-b08": 2
+      },
+      "case_count": 96,
+      "exact_cases": 43,
+      "exact_correct": 43,
+      "fitness_key_without_hash": [
+        43,
+        2,
+        0,
+        257,
+        96
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 96,
+      "genome_id": "best_initial_founder",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        43,
+        2,
+        0,
+        257,
+        96
+      ],
+      "term_correct": 257,
+      "term_count": 480,
+      "weakest_block_exact": 2
+    },
+    {
+      "block_exact_cases": {
+        "final-b01": 9,
+        "final-b02": 2,
+        "final-b03": 8,
+        "final-b04": 3,
+        "final-b05": 7,
+        "final-b06": 3,
+        "final-b07": 6,
+        "final-b08": 3
+      },
+      "case_count": 96,
+      "exact_cases": 41,
+      "exact_correct": 41,
+      "fitness_key_without_hash": [
+        41,
+        2,
+        0,
+        243,
+        96
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 96,
+      "genome_id": "evolved_champion",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        41,
+        2,
+        0,
+        243,
+        96
+      ],
+      "term_correct": 243,
+      "term_count": 480,
+      "weakest_block_exact": 2
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "24",
+          "-7",
+          "36",
+          "-7",
+          "50"
+        ],
+        "case_id": "S109",
+        "check_summary": "Odd-position terms follow a quadratic stream and even-position terms alternate consistently.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "12",
+          "7",
+          "-12",
+          "-2",
+          "7"
+        ],
+        "case_id": "S110",
+        "check_summary": "Six phase streams replay the observed values and continue their phase-specific trends.",
+        "confidence": 0.72,
+        "rule_summary": "Periodic phase-specific polynomial deltas"
+      },
+      {
+        "answer": [
+          "60",
+          "78",
+          "93",
+          "95",
+          "115"
+        ],
+        "case_id": "S111",
+        "check_summary": "The strongest proposal uses three interleaved increasing streams with polynomial-like phase behavior.",
+        "confidence": 0.63,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "1",
+          "51",
+          "5",
+          "13",
+          "78"
+        ],
+        "case_id": "S112",
+        "check_summary": "Three phase delta sequences show the clearest polynomial progression in the prefix.",
+        "confidence": 0.77,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "60",
+          "35",
+          "-10",
+          "43",
+          "68"
+        ],
+        "case_id": "S113",
+        "check_summary": "Interleaved phase subsequences provide the best available continuation, though confidence is limited.",
+        "confidence": 0.32,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "31",
+          "-37",
+          "-907",
+          "30",
+          "-50"
+        ],
+        "case_id": "S114",
+        "check_summary": "Three phase-specific streams show the most coherent affine and polynomial continuation.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "42",
+          "82",
+          "162",
+          "322",
+          "642"
+        ],
+        "case_id": "S115",
+        "check_summary": "The positive run supports continued doubling-style growth within the next block.",
+        "confidence": 0.31,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd terms decrease by one and even terms decrease by four exactly.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "18",
+          "27",
+          "40",
+          "54",
+          "67"
+        ],
+        "case_id": "S117",
+        "check_summary": "Residue-class values support this periodic affine continuation better than alternatives.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "13",
+          "8",
+          "3",
+          "-2",
+          "-7"
+        ],
+        "case_id": "S118",
+        "check_summary": "Descending arithmetic blocks continue with starts increasing by three.",
+        "confidence": 0.94,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "85",
+          "89",
+          "4",
+          "97",
+          "123"
+        ],
+        "case_id": "S119",
+        "check_summary": "Two residue classes show the most regular increasing polynomial-like increments.",
+        "confidence": 0.39,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "181",
+          "164",
+          "147",
+          "130",
+          "113"
+        ],
+        "case_id": "S120",
+        "check_summary": "Growing blocks have starts increasing and within-block steps progressing to minus seventeen.",
+        "confidence": 0.91,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-EC429DE4D50C-search-b10-critic-2",
+  "outcome": "valid_output",
+  "response_sha256": "008ade6c6b463817429e1543718aacf4153a0ae98d327fa15680a5dc78bdad1c",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-EC429DE4D50C-search-b10-critic-2/attempt-01"
+}

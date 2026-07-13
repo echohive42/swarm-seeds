@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b01",
+    "results": [
+      {
+        "answer": [
+          "-218",
+          "234",
+          "-255",
+          "271",
+          "-292"
+        ],
+        "case_id": "S003",
+        "check_summary": "Alternating arithmetic streams with step magnitude 37.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-129",
+          "-203",
+          "-296",
+          "-410",
+          "-547"
+        ],
+        "case_id": "S004",
+        "check_summary": "Finite differences continue with odd decrements.",
+        "confidence": 0.97,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1106420",
+          "3319260",
+          "-6638520",
+          "19915560",
+          "-39831120"
+        ],
+        "case_id": "S005",
+        "check_summary": "Tail follows alternating affine multipliers -2 and 3.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "17",
+          "21",
+          "19",
+          "23",
+          "21"
+        ],
+        "case_id": "S010",
+        "check_summary": "Odd and even subsequences each increase by 2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-797163",
+          "-2391486",
+          "-7174455",
+          "-21523362",
+          "-64570083"
+        ],
+        "case_id": "S008",
+        "check_summary": "Recurrence x[n]=3x[n-1]+3.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "2698",
+          "3718",
+          "4987",
+          "6534",
+          "8392"
+        ],
+        "case_id": "S002",
+        "check_summary": "Finite differences fit a quartic continuation.",
+        "confidence": 0.95,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-18883",
+          "-56653",
+          "56658",
+          "-18883",
+          "-56653"
+        ],
+        "case_id": "S012",
+        "check_summary": "Repeating phase-specific affine transformations are visible in the tail.",
+        "confidence": 0.86,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-12900",
+          "-19000",
+          "-27100",
+          "-37000",
+          "-48700"
+        ],
+        "case_id": "S007",
+        "check_summary": "Extrapolation from accelerating polynomial-like differences.",
+        "confidence": 0.35,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "30",
+          "13",
+          "31",
+          "10",
+          "32"
+        ],
+        "case_id": "S001",
+        "check_summary": "Phase-dependent interleaved behavior inferred from alternating subsequences.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-125",
+          "-145",
+          "-172",
+          "-208",
+          "-253"
+        ],
+        "case_id": "S006",
+        "check_summary": "Periodic difference pattern inferred from the prefix.",
+        "confidence": 0.25,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-1550000",
+          "-5810000",
+          "-21790000",
+          "-81600000",
+          "-305900000"
+        ],
+        "case_id": "S009",
+        "check_summary": "Growth ratio approaches a periodic affine continuation.",
+        "confidence": 0.2,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "4430000",
+          "-10600000",
+          "25400000",
+          "-60800000",
+          "145600000"
+        ],
+        "case_id": "S011",
+        "check_summary": "Alternating high-growth affine behavior inferred from the prefix.",
+        "confidence": 0.2,
+        "rule_summary": "AFFINE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-077823BA6DD7-search-b01-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "e12184a041baf0ab05c5aa986eca7c9990c1d303c20128af886ce7c13c412863",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-077823BA6DD7-search-b01-proposer-3/attempt-01"
+}

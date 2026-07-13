@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-114",
+          "-101",
+          "-88",
+          "-75",
+          "-62"
+        ],
+        "case_id": "S181",
+        "check_summary": "Best-supported periodic polynomial-delta continuation among proposals.",
+        "confidence": 0.28,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-7",
+          "-20",
+          "-33",
+          "-46",
+          "-59"
+        ],
+        "case_id": "S182",
+        "check_summary": "Highest-confidence interleaved phase-trend proposal.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "0",
+          "-5",
+          "18",
+          "13",
+          "8"
+        ],
+        "case_id": "S183",
+        "check_summary": "Growing blocks show -5 runs separated by jumps increasing by 5.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-18",
+          "1027",
+          "-8",
+          "-10",
+          "-2045"
+        ],
+        "case_id": "S184",
+        "check_summary": "Strong agreement on three-phase replay with explosive affine phase.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "68",
+          "-2",
+          "91",
+          "3",
+          "117"
+        ],
+        "case_id": "S185",
+        "check_summary": "Odd stream has increments increasing by 3; even stream alternates 3 and -2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "68",
+          "103",
+          "37",
+          "79",
+          "121"
+        ],
+        "case_id": "S186",
+        "check_summary": "Best-supported growing-block continuation.",
+        "confidence": 0.83,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "30",
+          "28",
+          "-107",
+          "32",
+          "47"
+        ],
+        "case_id": "S187",
+        "check_summary": "Modulo-three subsequences replay as quadratic, decreasing-step, and increasing-step streams.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-21",
+          "-38",
+          "-55",
+          "-72",
+          "-89"
+        ],
+        "case_id": "S188",
+        "check_summary": "Negative-difference blocks lengthen while steps decrease by 2; separator jump grows.",
+        "confidence": 0.88,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-26",
+          "-22",
+          "-29",
+          "-26",
+          "-32"
+        ],
+        "case_id": "S189",
+        "check_summary": "Two interleaved arithmetic streams continue with steps -3 and -4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-12",
+          "31",
+          "-28",
+          "12",
+          "44"
+        ],
+        "case_id": "S190",
+        "check_summary": "Highest-confidence available phase-interleaved continuation.",
+        "confidence": 0.21,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "40",
+          "-8",
+          "65",
+          "24",
+          "35"
+        ],
+        "case_id": "S191",
+        "check_summary": "Best-supported periodic phase continuation among weak proposals.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-46",
+          "19",
+          "220",
+          "-55",
+          "26"
+        ],
+        "case_id": "S192",
+        "check_summary": "Three phases fit successive decrements, +7 increments, and x'=2x+4.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-010BBF37C73F-search-b16-verifier-1",
+  "outcome": "valid_output",
+  "response_sha256": "10e4f0185b04a714a18e374774fe0a5e68b5da768613dd9071d6ae2e010264d4",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-010BBF37C73F-search-b16-verifier-1/attempt-01"
+}

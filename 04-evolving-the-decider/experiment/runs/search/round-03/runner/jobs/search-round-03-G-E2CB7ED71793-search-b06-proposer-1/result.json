@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "-7",
+          "-2",
+          "24",
+          "28",
+          "3"
+        ],
+        "case_id": "S061",
+        "check_summary": "Low-confidence periodic/interleaved extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "No unique simple mechanism identified from the supplied prefix."
+      },
+      {
+        "answer": [
+          "-27",
+          "-20",
+          "-35",
+          "-8",
+          "-43"
+        ],
+        "case_id": "S062",
+        "check_summary": "Low-confidence extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "No unique simple mechanism identified from the supplied prefix."
+      },
+      {
+        "answer": [
+          "25",
+          "82",
+          "-1",
+          "86",
+          "-44"
+        ],
+        "case_id": "S063",
+        "check_summary": "Low-confidence extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "No unique simple mechanism identified from the supplied prefix."
+      },
+      {
+        "answer": [
+          "-141",
+          "-191",
+          "-534",
+          "-304",
+          "-750"
+        ],
+        "case_id": "S064",
+        "check_summary": "Low-confidence extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "No unique simple mechanism identified from the supplied prefix."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Parity subsequences are exact arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "Odd positions decrease by 4; even positions increase by 2."
+      },
+      {
+        "answer": [
+          "-20",
+          "187",
+          "-48",
+          "567",
+          "-92"
+        ],
+        "case_id": "S066",
+        "check_summary": "Low-confidence extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "No unique simple mechanism identified from the supplied prefix."
+      },
+      {
+        "answer": [
+          "-175",
+          "-206",
+          "-237",
+          "-268",
+          "-299"
+        ],
+        "case_id": "S067",
+        "check_summary": "Low-confidence block extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Possible growing arithmetic-block structure, but continuation is uncertain."
+      },
+      {
+        "answer": [
+          "-43",
+          "-52",
+          "-62",
+          "-71",
+          "-81"
+        ],
+        "case_id": "S068",
+        "check_summary": "Low-confidence periodic extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "No unique simple mechanism identified from the supplied prefix."
+      },
+      {
+        "answer": [
+          "-21",
+          "-34",
+          "-2",
+          "-15",
+          "-16"
+        ],
+        "case_id": "S069",
+        "check_summary": "One lagged subsequence shows a clear second-difference pattern; others remain uncertain.",
+        "confidence": 0.14,
+        "rule_summary": "Partial lag-polynomial fit only."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "0",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd subsequence is constant; even subsequence has successive differences decreasing by 3.",
+        "confidence": 0.98,
+        "rule_summary": "Phase-specific polynomial updates with period 2."
+      },
+      {
+        "answer": [
+          "45",
+          "-5",
+          "58",
+          "-20",
+          "72"
+        ],
+        "case_id": "S071",
+        "check_summary": "Low-confidence extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "No unique simple mechanism identified from the supplied prefix."
+      },
+      {
+        "answer": [
+          "-20",
+          "-24",
+          "-28",
+          "-32",
+          "-36"
+        ],
+        "case_id": "S072",
+        "check_summary": "Growing arithmetic blocks are visible: starts decrease by 3, block lengths grow by 1, and each block steps by -4.",
+        "confidence": 0.97,
+        "rule_summary": "GROWBLOCK with block starts -8,-11,-14,-17,-20 and lengths 2,3,4,5,..."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-E2CB7ED71793-search-b06-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "13a585885d266d1c5c3b6a2c945e10e4b012f5c730e87257f45ad4673b68919f",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-E2CB7ED71793-search-b06-proposer-1/attempt-01"
+}

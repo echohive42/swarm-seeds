@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-151",
+          "37",
+          "-210",
+          "-72",
+          "-233"
+        ],
+        "case_id": "S037",
+        "check_summary": "Periodic and lagged-pattern extrapolation; low confidence.",
+        "confidence": 0.18,
+        "rule_summary": "Mixed periodic lag-polynomial pattern."
+      },
+      {
+        "answer": [
+          "132",
+          "128",
+          "145",
+          "154",
+          "166"
+        ],
+        "case_id": "S038",
+        "check_summary": "Irregular bounded recurrence extrapolation; low confidence.",
+        "confidence": 0.12,
+        "rule_summary": "Likely periodic affine or modular pattern."
+      },
+      {
+        "answer": [
+          "45",
+          "35",
+          "48",
+          "43",
+          "55"
+        ],
+        "case_id": "S039",
+        "check_summary": "Lagged subsequences inspected; extrapolation uncertain.",
+        "confidence": 0.14,
+        "rule_summary": "Likely lag-polynomial interleave."
+      },
+      {
+        "answer": [
+          "49",
+          "69",
+          "89",
+          "109",
+          "129"
+        ],
+        "case_id": "S040",
+        "check_summary": "Negative reset terms occur at positions 3, 6, 10, 15; positive blocks have repeated steps 8, 12, 16, then 20.",
+        "confidence": 0.96,
+        "rule_summary": "Growing arithmetic blocks with polynomial starts and steps."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Odd and even positions are separate arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "56",
+          "30",
+          "75",
+          "34",
+          "82"
+        ],
+        "case_id": "S042",
+        "check_summary": "Irregular modular/periodic pattern; low confidence.",
+        "confidence": 0.1,
+        "rule_summary": "Likely modular affine recurrence."
+      },
+      {
+        "answer": [
+          "-121",
+          "5",
+          "-76",
+          "-450",
+          "4"
+        ],
+        "case_id": "S043",
+        "check_summary": "Phase 1 follows differences -3,-8,-13,-18; phase 3 decreases by 1; phase 2 cubic extrapolation is uncertain.",
+        "confidence": 0.42,
+        "rule_summary": "Three-way lag-polynomial interleave."
+      },
+      {
+        "answer": [
+          "-22",
+          "-18",
+          "-28",
+          "-27",
+          "-28"
+        ],
+        "case_id": "S044",
+        "check_summary": "Phase-specific lag sequences show polynomial finite-difference behavior.",
+        "confidence": 0.58,
+        "rule_summary": "Three-way lag-polynomial interleave."
+      },
+      {
+        "answer": [
+          "18",
+          "96",
+          "-84",
+          "-124",
+          "170"
+        ],
+        "case_id": "S045",
+        "check_summary": "Highly irregular interleaved streams; low confidence.",
+        "confidence": 0.11,
+        "rule_summary": "Likely multi-stream polynomial interleave."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-40",
+          "-45",
+          "-50"
+        ],
+        "case_id": "S046",
+        "check_summary": "Growing blocks have lengths 2, 3, 4, then 5, with within-block step -5.",
+        "confidence": 0.98,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "198",
+          "236",
+          "274",
+          "312",
+          "350"
+        ],
+        "case_id": "S047",
+        "check_summary": "Final block is arithmetic with step 38; continuation assumed for the length-5 block.",
+        "confidence": 0.82,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-11",
+          "12",
+          "-25",
+          "-10",
+          "-42"
+        ],
+        "case_id": "S048",
+        "check_summary": "Four phases: constant 12, constant -10, and polynomial phase streams.",
+        "confidence": 0.77,
+        "rule_summary": "Periodic lag-polynomial update."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-C8D08DBE9D9D-search-b04-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "173ed97412d826125df7714e67a8ead56f47f902c3748a9d3a0adfd2d6eaa157",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-C8D08DBE9D9D-search-b04-proposer-1/attempt-01"
+}

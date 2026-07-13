@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b05",
+    "results": [
+      {
+        "answer": [
+          "3454364",
+          "10363097",
+          "310890296",
+          "932670893",
+          "2798012684"
+        ],
+        "case_id": "F049",
+        "check_summary": "Fits x(n+1)=3x(n)+5 across the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence with multiplier 3 and bias 5."
+      },
+      {
+        "answer": [
+          "21",
+          "19",
+          "24",
+          "22",
+          "27"
+        ],
+        "case_id": "F050",
+        "check_summary": "Odd and even positions are arithmetic progressions with step 3.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaving two affine streams."
+      },
+      {
+        "answer": [
+          "5956",
+          "-17864",
+          "-5953",
+          "-17858",
+          "53578"
+        ],
+        "case_id": "F051",
+        "check_summary": "Three phase streams each follow multiplier -3 with phase-specific biases.",
+        "confidence": 0.98,
+        "rule_summary": "Three-way interleaved affine recurrence."
+      },
+      {
+        "answer": [
+          "-3973",
+          "-5917",
+          "-8508",
+          "-11887",
+          "-16213"
+        ],
+        "case_id": "F052",
+        "check_summary": "Finite differences support a degree-5 integer-valued polynomial.",
+        "confidence": 0.97,
+        "rule_summary": "Polynomial sequence with constant fifth difference -1."
+      },
+      {
+        "answer": [
+          "516495",
+          "1247257",
+          "3009710",
+          "7260994",
+          "17530683"
+        ],
+        "case_id": "F053",
+        "check_summary": "Exponential-growth pattern extrapolated from the recurring higher-order structure.",
+        "confidence": 0.42,
+        "rule_summary": "Second-order linear recurrence with phase-varying bias."
+      },
+      {
+        "answer": [
+          "-3199269",
+          "1066421",
+          "19195611",
+          "-6398539",
+          "115173663"
+        ],
+        "case_id": "F054",
+        "check_summary": "Odd and even streams each follow multiplier -6 with fixed stream-specific biases.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaving two affine streams."
+      },
+      {
+        "answer": [
+          "1095",
+          "-349",
+          "2097",
+          "-573",
+          "3715"
+        ],
+        "case_id": "F055",
+        "check_summary": "Periodic interleaved affine structure extrapolated from the observed phases.",
+        "confidence": 0.38,
+        "rule_summary": "Interleaved phase-specific affine updates."
+      },
+      {
+        "answer": [
+          "-138",
+          "-167",
+          "-201",
+          "-240",
+          "-284"
+        ],
+        "case_id": "F056",
+        "check_summary": "Difference pattern extrapolated from the repeating polynomial-difference trend.",
+        "confidence": 0.4,
+        "rule_summary": "Lagged polynomial increment sequence."
+      },
+      {
+        "answer": [
+          "9",
+          "42",
+          "2",
+          "39",
+          "-9"
+        ],
+        "case_id": "F057",
+        "check_summary": "Odd-stream differences decrease by 3; even-stream differences decrease by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaving two quadratic streams."
+      },
+      {
+        "answer": [
+          "-77",
+          "-89",
+          "-102",
+          "-116",
+          "-131"
+        ],
+        "case_id": "F058",
+        "check_summary": "Successive differences are -1,-1,-2,... with decrement magnitude increasing by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "-877",
+          "-1106",
+          "-1371",
+          "-1675",
+          "-2021"
+        ],
+        "case_id": "F059",
+        "check_summary": "Second differences decrease by 3 each step.",
+        "confidence": 0.99,
+        "rule_summary": "Cubic polynomial sequence."
+      },
+      {
+        "answer": [
+          "1476",
+          "2207",
+          "3176",
+          "4429",
+          "6016"
+        ],
+        "case_id": "F060",
+        "check_summary": "Third differences increase by 4 each step, yielding the next differences.",
+        "confidence": 0.99,
+        "rule_summary": "Quartic polynomial sequence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b05-proposer-9",
+  "outcome": "valid_output",
+  "response_sha256": "ad878395193a03fbf4a9f35b59566372e417416d34b9ccca1836f83beed1c387",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b05-proposer-9/attempt-01"
+}

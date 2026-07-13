@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "-81",
+          "-103",
+          "-125",
+          "-147",
+          "-169"
+        ],
+        "case_id": "S133",
+        "check_summary": "Matches the final constant-difference block of -22.",
+        "confidence": 0.82,
+        "rule_summary": "Growing arithmetic block."
+      },
+      {
+        "answer": [
+          "-8",
+          "-5",
+          "-2",
+          "1",
+          "4"
+        ],
+        "case_id": "S134",
+        "check_summary": "Continues the arithmetic block with step 3.",
+        "confidence": 0.9,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-4",
+          "35",
+          "-363",
+          "-14",
+          "40"
+        ],
+        "case_id": "S135",
+        "check_summary": "Three interleaved streams: quadratic odd stream, +5 stream, and affine doubling-minus-5 stream.",
+        "confidence": 0.98,
+        "rule_summary": "Three-stream interleave."
+      },
+      {
+        "answer": [
+          "38",
+          "17",
+          "45",
+          "31",
+          "60"
+        ],
+        "case_id": "S136",
+        "check_summary": "Tentative periodic interleaving extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic interleaved streams."
+      },
+      {
+        "answer": [
+          "-1020",
+          "11",
+          "-2044",
+          "20",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd stream follows x'=2x-4; even stream has differences increasing by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two-stream interleave."
+      },
+      {
+        "answer": [
+          "-73",
+          "8",
+          "14",
+          "35",
+          "-96"
+        ],
+        "case_id": "S138",
+        "check_summary": "Three phase streams include a quadratic phase and two polynomial phases.",
+        "confidence": 0.74,
+        "rule_summary": "Three-stream interleave."
+      },
+      {
+        "answer": [
+          "12",
+          "13",
+          "18",
+          "15",
+          "11"
+        ],
+        "case_id": "S139",
+        "check_summary": "Tentative extrapolation of interleaved low-degree streams.",
+        "confidence": 0.15,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-3",
+          "45",
+          "-21",
+          "-9",
+          "69"
+        ],
+        "case_id": "S140",
+        "check_summary": "Tentative periodic stream continuation.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "42",
+          "67",
+          "43",
+          "84",
+          "76"
+        ],
+        "case_id": "S141",
+        "check_summary": "Tentative periodic affine extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Phase-specific affine update."
+      },
+      {
+        "answer": [
+          "-12",
+          "29",
+          "-7",
+          "47",
+          "-6"
+        ],
+        "case_id": "S142",
+        "check_summary": "Tentative modular periodic extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Periodic affine modulo prime."
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "3",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Odd terms decrease by 2 and even terms decrease by 1.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-46",
+          "-54",
+          "-62",
+          "-70",
+          "-78"
+        ],
+        "case_id": "S144",
+        "check_summary": "Continues the final arithmetic run with step -8.",
+        "confidence": 0.78,
+        "rule_summary": "Arithmetic tail/growing block."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-EEE6DF66A16A-search-b12-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "e0498056297747ea0669ca2275f16fb3d39a6f13de70a0bd7d62c052d806c086",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-EEE6DF66A16A-search-b12-proposer-6/attempt-01"
+}

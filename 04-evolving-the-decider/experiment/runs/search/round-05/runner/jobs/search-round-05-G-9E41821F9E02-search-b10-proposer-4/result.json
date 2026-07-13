@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "24",
+          "9",
+          "36",
+          "-7",
+          "50"
+        ],
+        "case_id": "S109",
+        "check_summary": "Odd-position subsequence has successive even increments; even positions alternate 9 and -7.",
+        "confidence": 0.96,
+        "rule_summary": "Two interleaved streams: quadratic odd stream and alternating even stream."
+      },
+      {
+        "answer": [
+          "-4",
+          "5",
+          "-12",
+          "-18",
+          "7"
+        ],
+        "case_id": "S110",
+        "check_summary": "Three phase streams fit: one alternates 17/-12, one has quadratic differences, and one increments by 2.",
+        "confidence": 0.84,
+        "rule_summary": "Three-way interleaving with phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "78",
+          "81",
+          "100",
+          "96",
+          "117"
+        ],
+        "case_id": "S111",
+        "check_summary": "Later terms show phase-dependent increasing deltas, consistent with interleaved polynomial streams.",
+        "confidence": 0.32,
+        "rule_summary": "Three-way phase-interleaved polynomial progression."
+      },
+      {
+        "answer": [
+          "3",
+          "52",
+          "-5",
+          "72",
+          "4"
+        ],
+        "case_id": "S112",
+        "check_summary": "Multiple lagged phase streams show polynomial-like changing increments.",
+        "confidence": 0.25,
+        "rule_summary": "Lagged/interleaved polynomial updates."
+      },
+      {
+        "answer": [
+          "27",
+          "60",
+          "-18",
+          "84",
+          "-27"
+        ],
+        "case_id": "S113",
+        "check_summary": "Prefix exhibits alternating and phase-dependent nonlinear changes.",
+        "confidence": 0.2,
+        "rule_summary": "Phase-interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "31",
+          "-37",
+          "-907",
+          "30",
+          "1813"
+        ],
+        "case_id": "S114",
+        "check_summary": "Three streams are identifiable: quadratic-like first stream, alternating affine second stream, and short repeating third stream.",
+        "confidence": 0.93,
+        "rule_summary": "Three-way interleave with affine, polynomial, and periodic components."
+      },
+      {
+        "answer": [
+          "42",
+          "30",
+          "43",
+          "80",
+          "55"
+        ],
+        "case_id": "S115",
+        "check_summary": "Grouped values suggest interleaved phase streams with changing polynomial increments.",
+        "confidence": 0.2,
+        "rule_summary": "Phase-specific interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd terms decrease by 1; even terms decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "40",
+          "18",
+          "61",
+          "29",
+          "44"
+        ],
+        "case_id": "S117",
+        "check_summary": "Prefix is consistent with multiple interleaved phase streams but parameters are weakly identified.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "28",
+          "36",
+          "31",
+          "49",
+          "26"
+        ],
+        "case_id": "S118",
+        "check_summary": "Two phase subsequences exhibit quadratic increments; remaining phase is less certain.",
+        "confidence": 0.35,
+        "rule_summary": "Three-way interleaving with phase-specific polynomial updates."
+      },
+      {
+        "answer": [
+          "-2",
+          "85",
+          "89",
+          "-1",
+          "118"
+        ],
+        "case_id": "S119",
+        "check_summary": "First two phase streams show growing polynomial increments; third phase is extrapolated from its irregular progression.",
+        "confidence": 0.3,
+        "rule_summary": "Three-way interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "130",
+          "149",
+          "135",
+          "172",
+          "181"
+        ],
+        "case_id": "S120",
+        "check_summary": "Phase-dependent growth is visible, but the complete generating rule is underdetermined from manual inspection.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved growing polynomial blocks."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-9E41821F9E02-search-b10-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "f97994f7152601e4c0a7d48a53b5cb0dcf6e3d48c7278fc1950ffbee7b282c51",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-9E41821F9E02-search-b10-proposer-4/attempt-01"
+}

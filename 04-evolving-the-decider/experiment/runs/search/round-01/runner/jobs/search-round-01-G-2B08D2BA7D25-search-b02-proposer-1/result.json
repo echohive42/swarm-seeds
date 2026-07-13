@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "73",
+          "4",
+          "101"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd-position subsequence has successive even increments; even positions alternate -5 and 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: quadratic odd stream and alternating even stream."
+      },
+      {
+        "answer": [
+          "78",
+          "240",
+          "551",
+          "1057",
+          "1804"
+        ],
+        "case_id": "S014",
+        "check_summary": "Extrapolated from the highest-order finite-difference continuation of the full prefix.",
+        "confidence": 0.12,
+        "rule_summary": "POLY: finite-difference continuation."
+      },
+      {
+        "answer": [
+          "64",
+          "-24",
+          "71",
+          "-31",
+          "79"
+        ],
+        "case_id": "S015",
+        "check_summary": "Continuation estimated from the recent alternating phase behavior.",
+        "confidence": 0.1,
+        "rule_summary": "PDELTA: phase-dependent continuation."
+      },
+      {
+        "answer": [
+          "42",
+          "-25",
+          "89",
+          "-37",
+          "136"
+        ],
+        "case_id": "S016",
+        "check_summary": "Continuation estimated from alternating phase deltas.",
+        "confidence": 0.08,
+        "rule_summary": "PDELTA: phase-dependent continuation."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5; even terms decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: two affine streams."
+      },
+      {
+        "answer": [
+          "-20",
+          "-5",
+          "-31",
+          "-4",
+          "-44"
+        ],
+        "case_id": "S018",
+        "check_summary": "Continuation estimated from phase-specific recent differences.",
+        "confidence": 0.08,
+        "rule_summary": "PDELTA: phase-dependent continuation."
+      },
+      {
+        "answer": [
+          "41",
+          "92",
+          "51",
+          "112",
+          "61"
+        ],
+        "case_id": "S019",
+        "check_summary": "Continuation estimated from alternating subsequence behavior.",
+        "confidence": 0.07,
+        "rule_summary": "INTERLEAVE: alternating streams."
+      },
+      {
+        "answer": [
+          "-26",
+          "-20",
+          "34",
+          "-38",
+          "50"
+        ],
+        "case_id": "S020",
+        "check_summary": "Continuation estimated from the alternating subsequences and recent phase changes.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE: two phase-specific streams."
+      },
+      {
+        "answer": [
+          "-54",
+          "-9",
+          "-70",
+          "-12",
+          "-86"
+        ],
+        "case_id": "S021",
+        "check_summary": "Continuation estimated from the latest repeated phase decrement pattern.",
+        "confidence": 0.08,
+        "rule_summary": "GROWBLOCK: arithmetic-block continuation."
+      },
+      {
+        "answer": [
+          "-54",
+          "30",
+          "-77",
+          "40",
+          "-103"
+        ],
+        "case_id": "S022",
+        "check_summary": "Continuation estimated from recent periodic difference behavior.",
+        "confidence": 0.07,
+        "rule_summary": "PDELTA: phase-dependent polynomial deltas."
+      },
+      {
+        "answer": [
+          "-45",
+          "-43",
+          "-41",
+          "-39",
+          "-37"
+        ],
+        "case_id": "S023",
+        "check_summary": "Odd-indexed differences are -5,-7,-9,-11; intervening differences are consistently +2.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA: alternating polynomial delta phases."
+      },
+      {
+        "answer": [
+          "-54",
+          "-366",
+          "-40",
+          "-554",
+          "-26"
+        ],
+        "case_id": "S024",
+        "check_summary": "Continuation estimated from the recent alternating high-variance phase deltas.",
+        "confidence": 0.06,
+        "rule_summary": "AFFINE: phase-dependent update."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-2B08D2BA7D25-search-b02-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "8d6d711f505039b5b1a777e2ade0049f20fea353843b55aaaefe158df54bebf3",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-2B08D2BA7D25-search-b02-proposer-1/attempt-01"
+}

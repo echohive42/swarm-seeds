@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b05",
+    "results": [
+      {
+        "answer": [
+          "3454364",
+          "10363097",
+          "31089296",
+          "93267893",
+          "279803684"
+        ],
+        "case_id": "F049",
+        "check_summary": "Affine recurrence x'=3x+5 fits all terms.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "21",
+          "19",
+          "24",
+          "22",
+          "27"
+        ],
+        "case_id": "F050",
+        "check_summary": "Two interleaved arithmetic streams increase by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-5953",
+          "5956",
+          "-17864",
+          "17861",
+          "-53579"
+        ],
+        "case_id": "F051",
+        "check_summary": "Three-phase affine transitions repeat: -x-3, -x+3, -3x+4.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3972",
+          "-5912",
+          "-8493",
+          "-11852",
+          "-16143"
+        ],
+        "case_id": "F052",
+        "check_summary": "Fourth differences continue as -13,-14,-15,-16,-17.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "516032",
+          "1245813",
+          "3007659",
+          "7021125",
+          "17049908"
+        ],
+        "case_id": "F053",
+        "check_summary": "Second-order recurrence x'=2x+x₂ plus repeating biases -6,-1,1.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "1066421",
+          "-3199269",
+          "-6398539",
+          "19195611",
+          "38391221"
+        ],
+        "case_id": "F054",
+        "check_summary": "Alternating affine updates x'=2x-1 and x'=-3x-6.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-1047",
+          "2137",
+          "-4289",
+          "8577",
+          "-17169"
+        ],
+        "case_id": "F055",
+        "check_summary": "Extrapolated alternating high-order pattern from the prefix.",
+        "confidence": 0.22,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-137",
+          "-165",
+          "-196",
+          "-230",
+          "-267"
+        ],
+        "case_id": "F056",
+        "check_summary": "Extrapolated lagged polynomial trend from the prefix.",
+        "confidence": 0.2,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "5",
+          "42",
+          "-2",
+          "42",
+          "-9"
+        ],
+        "case_id": "F057",
+        "check_summary": "Odd stream differences decrease by 3; even stream differences decrease by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-77",
+          "-89",
+          "-102",
+          "-116",
+          "-131"
+        ],
+        "case_id": "F058",
+        "check_summary": "Successive differences continue -10,-11,-12,-13,-14.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-868",
+          "-1079",
+          "-1317",
+          "-1585",
+          "-1886"
+        ],
+        "case_id": "F059",
+        "check_summary": "Second differences continue decreasing by 3.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1472",
+          "2191",
+          "3136",
+          "4349",
+          "5876"
+        ],
+        "case_id": "F060",
+        "check_summary": "Finite-difference continuation matches the polynomial trend.",
+        "confidence": 0.97,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b05-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "2ebde35787e4b913e2ecca562ec92c0f846dfe01fa0f38fb2810e09b35735f7f",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b05-proposer-2/attempt-01"
+}

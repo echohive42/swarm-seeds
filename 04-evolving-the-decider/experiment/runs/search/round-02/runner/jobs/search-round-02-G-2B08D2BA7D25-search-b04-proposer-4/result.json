@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-120",
+          "17",
+          "31",
+          "-161",
+          "18"
+        ],
+        "case_id": "S037",
+        "check_summary": "Weak fit using separated evolving subsequences; extrapolation uncertain.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved polynomial-like streams."
+      },
+      {
+        "answer": [
+          "81",
+          "132",
+          "125",
+          "143",
+          "151"
+        ],
+        "case_id": "S038",
+        "check_summary": "Weak fit from phase-separated subsequences.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "25",
+          "35",
+          "42",
+          "45",
+          "54"
+        ],
+        "case_id": "S039",
+        "check_summary": "Weak phase-separated extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Three interleaved polynomial-like streams."
+      },
+      {
+        "answer": [
+          "51",
+          "71",
+          "91",
+          "111",
+          "131"
+        ],
+        "case_id": "S040",
+        "check_summary": "Exact growing arithmetic-block continuation: next block starts at 51 with step 20.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK with block starts increasing by successive odd increments and within-block steps increasing by 4."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Exact alternating arithmetic streams.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams with slopes -4 and +4."
+      },
+      {
+        "answer": [
+          "18",
+          "56",
+          "26",
+          "54",
+          "29"
+        ],
+        "case_id": "S042",
+        "check_summary": "Weak modular/phase recurrence extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE-like periodic update."
+      },
+      {
+        "answer": [
+          "-10",
+          "-55",
+          "-9",
+          "-75",
+          "-10"
+        ],
+        "case_id": "S043",
+        "check_summary": "Weak phase-separated extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved polynomial-like streams."
+      },
+      {
+        "answer": [
+          "-25",
+          "-19",
+          "-26",
+          "-10",
+          "-20"
+        ],
+        "case_id": "S044",
+        "check_summary": "Weak phase-separated extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Periodic interleaving of low-degree streams."
+      },
+      {
+        "answer": [
+          "16",
+          "132",
+          "-4",
+          "-8",
+          "21"
+        ],
+        "case_id": "S045",
+        "check_summary": "Weak fit using periodic phase structure.",
+        "confidence": 0.08,
+        "rule_summary": "Interleaved affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-40",
+          "-45",
+          "-50"
+        ],
+        "case_id": "S046",
+        "check_summary": "Exact continuation of the growing arithmetic block with step -5.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK: block starts descend by 2 and block lengths grow; each block has step -5."
+      },
+      {
+        "answer": [
+          "198",
+          "236",
+          "274",
+          "312",
+          "350"
+        ],
+        "case_id": "S047",
+        "check_summary": "Weak continuation of apparent growing arithmetic phase.",
+        "confidence": 0.1,
+        "rule_summary": "Growing-block/interleaved arithmetic structure."
+      },
+      {
+        "answer": [
+          "-9",
+          "12",
+          "-25",
+          "-10",
+          "-28"
+        ],
+        "case_id": "S048",
+        "check_summary": "Phase 2 and phase 4 are constant; phase 1 and phase 3 follow quadratic differences.",
+        "confidence": 0.93,
+        "rule_summary": "Four-phase PDELTA with constant phases and quadratic phase-specific streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-2B08D2BA7D25-search-b04-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "0dc861bc367f6d14dc4cfe99a0a037cfedeb643d3d5f413847ea37217fb527db",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-2B08D2BA7D25-search-b04-proposer-4/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "27",
+          "23",
+          "-163",
+          "51",
+          "8"
+        ],
+        "case_id": "S037",
+        "check_summary": "Period-3 phase polynomial extrapolation.",
+        "confidence": 0.42,
+        "rule_summary": "Phase-specific polynomial sequences by index modulo 3."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S038",
+        "check_summary": "Insufficiently resolved from supplied prefix; conservative placeholder.",
+        "confidence": 0.03,
+        "rule_summary": "Unresolved allowed-family fit."
+      },
+      {
+        "answer": [
+          "226",
+          "-9",
+          "235",
+          "697",
+          "-110"
+        ],
+        "case_id": "S039",
+        "check_summary": "Period-3 finite-difference extrapolation.",
+        "confidence": 0.3,
+        "rule_summary": "Phase-specific cubic polynomial sequences."
+      },
+      {
+        "answer": [
+          "96",
+          "52",
+          "63",
+          "83",
+          "73"
+        ],
+        "case_id": "S040",
+        "check_summary": "Period-4 phase polynomial extrapolation.",
+        "confidence": 0.8,
+        "rule_summary": "Four interleaved quadratic phase streams."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Exact alternating arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "Odd terms decrease by 4; even terms increase by 4."
+      },
+      {
+        "answer": [
+          "300",
+          "430",
+          "-68",
+          "958",
+          "1297"
+        ],
+        "case_id": "S042",
+        "check_summary": "Period-3 finite-difference extrapolation.",
+        "confidence": 0.24,
+        "rule_summary": "Phase-specific polynomial sequences."
+      },
+      {
+        "answer": [
+          "-354",
+          "198",
+          "5",
+          "-1124",
+          "709"
+        ],
+        "case_id": "S043",
+        "check_summary": "Period-3 phase extrapolation; one phase is visibly linear.",
+        "confidence": 0.25,
+        "rule_summary": "Three interleaved polynomial phase streams."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S044",
+        "check_summary": "Insufficiently resolved from supplied prefix; conservative placeholder.",
+        "confidence": 0.03,
+        "rule_summary": "Unresolved allowed-family fit."
+      },
+      {
+        "answer": [
+          "-134",
+          "12",
+          "111",
+          "-263",
+          "12"
+        ],
+        "case_id": "S045",
+        "check_summary": "Period-3 phase extrapolation; third phase has arithmetic increments.",
+        "confidence": 0.5,
+        "rule_summary": "Three phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-40",
+          "-45",
+          "-50"
+        ],
+        "case_id": "S046",
+        "check_summary": "Continuing the dominant phase pattern of repeated decrements.",
+        "confidence": 0.15,
+        "rule_summary": "Tentative periodic arithmetic/block continuation."
+      },
+      {
+        "answer": [
+          "198",
+          "236",
+          "274",
+          "312",
+          "350"
+        ],
+        "case_id": "S047",
+        "check_summary": "Continuing the final arithmetic block with step 38.",
+        "confidence": 0.2,
+        "rule_summary": "Tentative growing-block continuation."
+      },
+      {
+        "answer": [
+          "-21",
+          "12",
+          "-11",
+          "-10",
+          "-40"
+        ],
+        "case_id": "S048",
+        "check_summary": "Period-4 phase polynomial extrapolation.",
+        "confidence": 0.55,
+        "rule_summary": "Four phase streams, with constant phases 2 and 4."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-0025CFC9EF2E-search-b04-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "786289333692f71bb9a6c352427c5ad597a14e7dd1300a693c5355746d76dd82",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-0025CFC9EF2E-search-b04-proposer-1/attempt-01"
+}

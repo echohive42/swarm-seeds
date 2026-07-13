@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-211",
+          "169",
+          "-282",
+          "206",
+          "-357"
+        ],
+        "case_id": "S037",
+        "check_summary": "Best-supported plurality candidate; exact phase-interleaving remains uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "123",
+          "127",
+          "135",
+          "143",
+          "151"
+        ],
+        "case_id": "S038",
+        "check_summary": "Strongest coherent periodic affine continuation among candidates.",
+        "confidence": 0.12,
+        "rule_summary": "Phase-specific affine/interleaved model"
+      },
+      {
+        "answer": [
+          "160",
+          "5",
+          "176",
+          "461",
+          "-81"
+        ],
+        "case_id": "S039",
+        "check_summary": "Each residue-3 stream fits a cubic exactly across the visible prefix.",
+        "confidence": 0.74,
+        "rule_summary": "INTERLEAVE of three cubic streams"
+      },
+      {
+        "answer": [
+          "100",
+          "116",
+          "132",
+          "148",
+          "99"
+        ],
+        "case_id": "S040",
+        "check_summary": "Growing arithmetic blocks continue with step 20 before the next reset.",
+        "confidence": 0.91,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Alternating arithmetic streams replay the full prefix exactly.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams"
+      },
+      {
+        "answer": [
+          "-4",
+          "-9",
+          "-14",
+          "-19",
+          "-24"
+        ],
+        "case_id": "S042",
+        "check_summary": "Best-supported simple continuation among weak modular/periodic hypotheses.",
+        "confidence": 0.16,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-76",
+          "15",
+          "5",
+          "-103",
+          "-10"
+        ],
+        "case_id": "S043",
+        "check_summary": "Three residue classes show exact arithmetic/quadratic patterns.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of three streams"
+      },
+      {
+        "answer": [
+          "-22",
+          "-25",
+          "-28",
+          "-27",
+          "-57"
+        ],
+        "case_id": "S044",
+        "check_summary": "Residue-3 streams provide the strongest coherent polynomial replay.",
+        "confidence": 0.78,
+        "rule_summary": "INTERLEAVE of three phase-specific polynomial streams"
+      },
+      {
+        "answer": [
+          "107",
+          "-134",
+          "12",
+          "151",
+          "-254"
+        ],
+        "case_id": "S045",
+        "check_summary": "Three interleaved streams exhibit coherent polynomial/affine phase behavior.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of three polynomial/affine streams"
+      },
+      {
+        "answer": [
+          "-30",
+          "-17",
+          "-22",
+          "-27",
+          "-32"
+        ],
+        "case_id": "S046",
+        "check_summary": "Growing descending blocks continue with the next block start after completing the current block.",
+        "confidence": 0.97,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "101",
+          "147",
+          "193",
+          "239",
+          "285"
+        ],
+        "case_id": "S047",
+        "check_summary": "Final blocks support a step increase to 46 and the inferred next block start.",
+        "confidence": 0.97,
+        "rule_summary": "GROWBLOCK with polynomial starts and phase steps"
+      },
+      {
+        "answer": [
+          "-11",
+          "12",
+          "-23",
+          "-10",
+          "-42"
+        ],
+        "case_id": "S048",
+        "check_summary": "Four phases fit quadratic varying streams plus constant phase values.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with period four"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-F3EA0DB4CF72-search-b04-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "640bbe171de4e75867c77a9eac47ce0a3523dc122f48a3dd20ea5edf060f5027",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-F3EA0DB4CF72-search-b04-judge-1/attempt-01"
+}

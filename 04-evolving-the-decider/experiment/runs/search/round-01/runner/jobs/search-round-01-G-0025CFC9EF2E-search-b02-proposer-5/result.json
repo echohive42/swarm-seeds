@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "71",
+          "4",
+          "101"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd positions follow increments 0,4,8,12,16; even positions alternate -5,4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/periodic streams."
+      },
+      {
+        "answer": [
+          "-5",
+          "11",
+          "30",
+          "58",
+          "-6"
+        ],
+        "case_id": "S014",
+        "check_summary": "Each residue class modulo four fits a quadratic progression over the observed prefix.",
+        "confidence": 0.72,
+        "rule_summary": "Four interleaved quadratic streams."
+      },
+      {
+        "answer": [
+          "0",
+          "64",
+          "-25",
+          "-31",
+          "77"
+        ],
+        "case_id": "S015",
+        "check_summary": "No high-confidence simple replay identified from the supplied prefix.",
+        "confidence": 0.18,
+        "rule_summary": "Likely phase-interleaved or modular mechanism."
+      },
+      {
+        "answer": [
+          "38",
+          "-5",
+          "79",
+          "-12",
+          "104"
+        ],
+        "case_id": "S016",
+        "check_summary": "No high-confidence simple replay identified from the supplied prefix.",
+        "confidence": 0.16,
+        "rule_summary": "Likely phase-interleaved or modular mechanism."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5; even terms decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two affine streams interleaved by position."
+      },
+      {
+        "answer": [
+          "-20",
+          "-5",
+          "-27",
+          "-8",
+          "-34"
+        ],
+        "case_id": "S018",
+        "check_summary": "No high-confidence simple replay identified from the supplied prefix.",
+        "confidence": 0.14,
+        "rule_summary": "Likely periodic affine or modular mechanism."
+      },
+      {
+        "answer": [
+          "7",
+          "91",
+          "-2",
+          "112",
+          "-17"
+        ],
+        "case_id": "S019",
+        "check_summary": "No high-confidence simple replay identified from the supplied prefix.",
+        "confidence": 0.13,
+        "rule_summary": "Likely interleaved or modular mechanism."
+      },
+      {
+        "answer": [
+          "42",
+          "64",
+          "-38",
+          "-12",
+          "14"
+        ],
+        "case_id": "S020",
+        "check_summary": "Growing blocks show repeated positive steps with increasingly negative separators.",
+        "confidence": 0.93,
+        "rule_summary": "GROWBLOCK with polynomial block starts/separators."
+      },
+      {
+        "answer": [
+          "-54",
+          "-70",
+          "-87",
+          "-103",
+          "-120"
+        ],
+        "case_id": "S021",
+        "check_summary": "No high-confidence simple replay identified from the supplied prefix.",
+        "confidence": 0.12,
+        "rule_summary": "Likely growing-block or phase-specific mechanism."
+      },
+      {
+        "answer": [
+          "-63",
+          "-89",
+          "-118",
+          "-149",
+          "-183"
+        ],
+        "case_id": "S022",
+        "check_summary": "No high-confidence simple replay identified from the supplied prefix.",
+        "confidence": 0.11,
+        "rule_summary": "Likely modular or interleaved mechanism."
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-22",
+          "-35"
+        ],
+        "case_id": "S023",
+        "check_summary": "Observed transitions use +2 runs separated by increasingly negative jumps; next jump inferred as -13.",
+        "confidence": 0.86,
+        "rule_summary": "GROWBLOCK with periodic +2 increments and polynomial separator jumps."
+      },
+      {
+        "answer": [
+          "-204",
+          "-52",
+          "-410",
+          "-90",
+          "-824"
+        ],
+        "case_id": "S024",
+        "check_summary": "No high-confidence simple replay identified from the supplied prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Likely phase-specific affine or modular mechanism."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-0025CFC9EF2E-search-b02-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "5b5388a56f43ca361ec0555885ae3c4a4d1dda36f0abb692c20ff32161605d72",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-0025CFC9EF2E-search-b02-proposer-5/attempt-01"
+}

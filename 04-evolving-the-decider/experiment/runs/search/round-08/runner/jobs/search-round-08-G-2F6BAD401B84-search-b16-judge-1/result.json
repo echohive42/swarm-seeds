@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-58",
+          "-42",
+          "-91",
+          "-43",
+          "-124"
+        ],
+        "case_id": "S181",
+        "check_summary": "Proposal plurality supports the repeated periodic-delta continuation.",
+        "confidence": 0.7,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-7",
+          "58",
+          "-20",
+          "69",
+          "-33"
+        ],
+        "case_id": "S182",
+        "check_summary": "Proposal plurality supports the phase-varying affine continuation.",
+        "confidence": 0.65,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "0",
+          "-5",
+          "-10",
+          "13",
+          "8"
+        ],
+        "case_id": "S183",
+        "check_summary": "Triangular-gap jumps produce the next jump of 23 after two -5 steps.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-18",
+          "-1019",
+          "-22",
+          "2035",
+          "-26"
+        ],
+        "case_id": "S184",
+        "check_summary": "Plurality supports the alternating explosive phase continuation.",
+        "confidence": 0.55,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "68",
+          "3",
+          "91",
+          "-2",
+          "117"
+        ],
+        "case_id": "S185",
+        "check_summary": "Odd positions follow rising quadratic increments; even positions alternate 3 and -2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-56",
+          "-29",
+          "-67",
+          "-42",
+          "-78"
+        ],
+        "case_id": "S186",
+        "check_summary": "Plurality supports the three-phase interleaved continuation.",
+        "confidence": 0.5,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "30",
+          "28",
+          "-107",
+          "32",
+          "25"
+        ],
+        "case_id": "S187",
+        "check_summary": "Corrected phase alignment: residue-class streams continue with increments 3, -7, and 6/then 3? Full prefix replay gives 30, 28, -107, 32, 25",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-23",
+          "-40",
+          "-57",
+          "-74",
+          "-91"
+        ],
+        "case_id": "S188",
+        "check_summary": "Growing arithmetic blocks continue with next step -17.",
+        "confidence": 0.97,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-26",
+          "-22",
+          "-29",
+          "-26",
+          "-32"
+        ],
+        "case_id": "S189",
+        "check_summary": "Odd and even subsequences are independent arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-19",
+          "52",
+          "-4",
+          "64",
+          "17"
+        ],
+        "case_id": "S190",
+        "check_summary": "Proposal plurality supports the phase-varying interleaved continuation.",
+        "confidence": 0.5,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "42",
+          "64",
+          "31",
+          "78",
+          "35"
+        ],
+        "case_id": "S191",
+        "check_summary": "Proposal plurality supports the multi-stream polynomial continuation.",
+        "confidence": 0.45,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-48",
+          "165",
+          "-59",
+          "237",
+          "-72"
+        ],
+        "case_id": "S192",
+        "check_summary": "Proposal plurality supports the phase-dependent recurrence continuation.",
+        "confidence": 0.5,
+        "rule_summary": "MODAFFINE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-2F6BAD401B84-search-b16-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "e5af9d2997fe173f3116ebd3bc0d4402f5b08d91f903a285dee75ef0113405f0",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-2F6BAD401B84-search-b16-judge-1/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "-18",
+          "-16",
+          "-1",
+          "-3",
+          "15"
+        ],
+        "case_id": "F037",
+        "check_summary": "Weak fit to alternating irregular phase deltas.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic phase extrapolation."
+      },
+      {
+        "answer": [
+          "18",
+          "21",
+          "24",
+          "27",
+          "30"
+        ],
+        "case_id": "F038",
+        "check_summary": "Recent suffix follows repeated +3 increments.",
+        "confidence": 0.22,
+        "rule_summary": "Tentative affine/phase increment continuation."
+      },
+      {
+        "answer": [
+          "74",
+          "118",
+          "52",
+          "107",
+          "69"
+        ],
+        "case_id": "F039",
+        "check_summary": "No unique low-complexity replay established.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative periodic extrapolation."
+      },
+      {
+        "answer": [
+          "-25",
+          "-24",
+          "-30",
+          "-29",
+          "-35"
+        ],
+        "case_id": "F040",
+        "check_summary": "Alternating differences continue with odd-phase -5 and even-phase +1.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic first differences: -11,-10,... and +6,+5,... interleaved."
+      },
+      {
+        "answer": [
+          "39",
+          "297",
+          "42",
+          "601",
+          "57"
+        ],
+        "case_id": "F041",
+        "check_summary": "Partial lag-polynomial structure only.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative interleaved stream extrapolation."
+      },
+      {
+        "answer": [
+          "-764",
+          "56",
+          "-1532",
+          "84",
+          "-3068"
+        ],
+        "case_id": "F042",
+        "check_summary": "Odd subsequence differences double negatively; even subsequence differences rise by 5.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-51",
+          "270",
+          "-45",
+          "465",
+          "-60"
+        ],
+        "case_id": "F043",
+        "check_summary": "Partial interleaved-stream fit.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative phase-specific polynomial continuation."
+      },
+      {
+        "answer": [
+          "-9",
+          "-75",
+          "-15",
+          "-91",
+          "-21"
+        ],
+        "case_id": "F044",
+        "check_summary": "No unique replay determined.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative periodic phase extrapolation."
+      },
+      {
+        "answer": [
+          "127",
+          "155",
+          "57",
+          "183",
+          "71"
+        ],
+        "case_id": "F045",
+        "check_summary": "Recent positive block increments suggest continued growth with phase variation.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative growing-block continuation."
+      },
+      {
+        "answer": [
+          "-7",
+          "-12",
+          "-24",
+          "-16",
+          "-32"
+        ],
+        "case_id": "F046",
+        "check_summary": "No unique low-complexity rule established.",
+        "confidence": 0.04,
+        "rule_summary": "Tentative periodic recurrence extrapolation."
+      },
+      {
+        "answer": [
+          "-196",
+          "-225",
+          "-254",
+          "-283",
+          "-312"
+        ],
+        "case_id": "F047",
+        "check_summary": "Final visible arithmetic block has common difference -29.",
+        "confidence": 0.25,
+        "rule_summary": "Tentative growing arithmetic-block continuation."
+      },
+      {
+        "answer": [
+          "16",
+          "-6",
+          "-17",
+          "-24",
+          "-32"
+        ],
+        "case_id": "F048",
+        "check_summary": "No unique replay determined.",
+        "confidence": 0.04,
+        "rule_summary": "Tentative phase-specific continuation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b04-proposer-10",
+  "outcome": "valid_output",
+  "response_sha256": "84be7d4fcda1df40058ca7aac85dd875841f710f49bc92aa4bb804859b508ebc",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b04-proposer-10/attempt-01"
+}

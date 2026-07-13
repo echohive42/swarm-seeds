@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "73",
+          "4",
+          "101"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd-position subsequence has successive increments 0,4,8,12,16; even positions alternate -5,4.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved quadratic odd stream and periodic even stream."
+      },
+      {
+        "answer": [
+          "8",
+          "-4",
+          "12",
+          "-9",
+          "16"
+        ],
+        "case_id": "S014",
+        "check_summary": "No uniquely validated low-complexity mechanism identified from the supplied prefix.",
+        "confidence": 0.18,
+        "rule_summary": "Tentative phase-pattern extrapolation."
+      },
+      {
+        "answer": [
+          "64",
+          "-25",
+          "20",
+          "-34",
+          "70"
+        ],
+        "case_id": "S015",
+        "check_summary": "Even-position phase shows decrements -4,-5,-6,-7; remaining phases are tentative.",
+        "confidence": 0.3,
+        "rule_summary": "Phase-specific polynomial-delta extrapolation."
+      },
+      {
+        "answer": [
+          "42",
+          "-8",
+          "36",
+          "-16",
+          "27"
+        ],
+        "case_id": "S016",
+        "check_summary": "No uniquely validated low-complexity mechanism identified from the supplied prefix.",
+        "confidence": 0.14,
+        "rule_summary": "Tentative periodic-phase extrapolation."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5 and even terms decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-19",
+          "-3",
+          "-30",
+          "-44",
+          "-48"
+        ],
+        "case_id": "S018",
+        "check_summary": "Three phase subsequences show consistent local polynomial-delta behavior.",
+        "confidence": 0.72,
+        "rule_summary": "Three-way interleaving of phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "47",
+          "67",
+          "58",
+          "42",
+          "89"
+        ],
+        "case_id": "S019",
+        "check_summary": "No uniquely validated low-complexity mechanism identified from the supplied prefix.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative periodic affine extrapolation."
+      },
+      {
+        "answer": [
+          "-2",
+          "58",
+          "-46",
+          "76",
+          "-72"
+        ],
+        "case_id": "S020",
+        "check_summary": "No uniquely validated low-complexity mechanism identified from the supplied prefix.",
+        "confidence": 0.16,
+        "rule_summary": "Tentative interleaved affine extrapolation."
+      },
+      {
+        "answer": [
+          "-54",
+          "-70",
+          "-86",
+          "-102",
+          "-118"
+        ],
+        "case_id": "S021",
+        "check_summary": "No uniquely validated low-complexity mechanism identified from the supplied prefix.",
+        "confidence": 0.13,
+        "rule_summary": "Tentative phase-specific linear extrapolation."
+      },
+      {
+        "answer": [
+          "-57",
+          "-1",
+          "-81",
+          "-9",
+          "-105"
+        ],
+        "case_id": "S022",
+        "check_summary": "No uniquely validated low-complexity mechanism identified from the supplied prefix.",
+        "confidence": 0.11,
+        "rule_summary": "Tentative periodic-phase extrapolation."
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-37",
+          "-35"
+        ],
+        "case_id": "S023",
+        "check_summary": "Values advance by +2 within growing blocks; block-start drops occur at positions 2,4,7,11,16.",
+        "confidence": 0.95,
+        "rule_summary": "Growing arithmetic blocks with successive block lengths."
+      },
+      {
+        "answer": [
+          "-52",
+          "-420",
+          "-88",
+          "-914",
+          "-142"
+        ],
+        "case_id": "S024",
+        "check_summary": "No uniquely validated low-complexity mechanism identified from the supplied prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative alternating affine/modular extrapolation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-F3EA0DB4CF72-search-b02-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "1ab1da29b94b3330c144a1c2936bb480c2f7ab7029b51dc1bcb9bc934b356bcd",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-F3EA0DB4CF72-search-b02-proposer-8/attempt-01"
+}

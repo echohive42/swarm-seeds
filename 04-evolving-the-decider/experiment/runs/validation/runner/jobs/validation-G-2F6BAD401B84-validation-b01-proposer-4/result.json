@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b01",
+    "results": [
+      {
+        "answer": [
+          "-1288823",
+          "-3866468",
+          "-7732937",
+          "15465865",
+          "46397596"
+        ],
+        "case_id": "V001",
+        "check_summary": "Repeating three-phase affine updates fit the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Phase cycle x→-2x-9, x→3x+1, x→2x-1."
+      },
+      {
+        "answer": [
+          "2589",
+          "3652",
+          "4977",
+          "6600",
+          "8561"
+        ],
+        "case_id": "V002",
+        "check_summary": "Constant fourth differences fit the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial sequence with fourth difference 4."
+      },
+      {
+        "answer": [
+          "43",
+          "47",
+          "50",
+          "54",
+          "57"
+        ],
+        "case_id": "V003",
+        "check_summary": "Alternating increments repeat exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic increments +3,+4."
+      },
+      {
+        "answer": [
+          "-2590778",
+          "7772327",
+          "-23316977",
+          "69950924",
+          "-209852768"
+        ],
+        "case_id": "V004",
+        "check_summary": "Three-phase affine recurrence fits all transitions.",
+        "confidence": 0.99,
+        "rule_summary": "Multiplier -3 with repeating biases +4,-7,+4."
+      },
+      {
+        "answer": [
+          "1727182",
+          "-5183551",
+          "15550648",
+          "-46651949",
+          "139955842"
+        ],
+        "case_id": "V005",
+        "check_summary": "Single affine update fits the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "x→-3x-5."
+      },
+      {
+        "answer": [
+          "437",
+          "-2510",
+          "-1035",
+          "10034",
+          "4149"
+        ],
+        "case_id": "V006",
+        "check_summary": "Odd and even subsequences each follow affine updates.",
+        "confidence": 0.99,
+        "rule_summary": "Each lag-2 stream uses x→-4x plus phase bias -6 or +9."
+      },
+      {
+        "answer": [
+          "-112",
+          "-103",
+          "-128",
+          "-163",
+          "-151"
+        ],
+        "case_id": "V007",
+        "check_summary": "Three transition phases have linearly progressing deltas.",
+        "confidence": 0.96,
+        "rule_summary": "Phase deltas continue (-5,-11,-17,-23...), (-3,0,3,6...), (3,-4,-11,-18...)."
+      },
+      {
+        "answer": [
+          "-15067",
+          "-21115",
+          "-29050",
+          "-39303",
+          "-52368"
+        ],
+        "case_id": "V008",
+        "check_summary": "Polynomial finite-difference continuation fits the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "Fourth differences decrease by 4."
+      },
+      {
+        "answer": [
+          "-566683",
+          "1369032",
+          "-3307715",
+          "7989619",
+          "-19295020"
+        ],
+        "case_id": "V009",
+        "check_summary": "Exponential alternating growth continuation estimated from the dominant affine pattern.",
+        "confidence": 0.55,
+        "rule_summary": "Alternating affine-growth sequence."
+      },
+      {
+        "answer": [
+          "-66",
+          "45",
+          "-91",
+          "190",
+          "-396"
+        ],
+        "case_id": "V010",
+        "check_summary": "Periodic mixed affine pattern continuation estimated from recent transitions.",
+        "confidence": 0.42,
+        "rule_summary": "Phase-dependent affine/interleaved recurrence."
+      },
+      {
+        "answer": [
+          "95",
+          "-159",
+          "252",
+          "-402",
+          "655"
+        ],
+        "case_id": "V011",
+        "check_summary": "Signed Fibonacci-like difference recurrence fits the tail.",
+        "confidence": 0.97,
+        "rule_summary": "Successive difference magnitudes continue by addition with alternating signs."
+      },
+      {
+        "answer": [
+          "-805",
+          "-1035",
+          "-1304",
+          "-1615",
+          "-1971"
+        ],
+        "case_id": "V012",
+        "check_summary": "Second differences decrease by 3 consistently.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial finite-difference continuation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b01-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "bf47121a08c7c3dc6226eda41fc999a1c87051a936c0cf4c6bca278a09b82658",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b01-proposer-4/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "-425",
+          "-65",
+          "855",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Odd subsequence decrements by successive integers; even subsequence follows e_next=-2e+5.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "66",
+          "2",
+          "26",
+          "50",
+          "74"
+        ],
+        "case_id": "V038",
+        "check_summary": "Growing arithmetic blocks match the observed repeated positive increments and reset deltas.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-277",
+          "83",
+          "-190",
+          "-549",
+          "105"
+        ],
+        "case_id": "V039",
+        "check_summary": "Modulo-three streams continue with quadratic odd stream, doubling negative stream, and extrapolated second-difference stream.",
+        "confidence": 0.88,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "22",
+          "26",
+          "30",
+          "26",
+          "30"
+        ],
+        "case_id": "V040",
+        "check_summary": "Three residue-class streams support the repeated affine continuation.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "48",
+          "19",
+          "78",
+          "83",
+          "48"
+        ],
+        "case_id": "V041",
+        "check_summary": "Bounded periodic affine behavior is the best-supported candidate, though confidence is limited.",
+        "confidence": 0.25,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Odd stream increases by 2 and even stream decreases by 3 exactly across the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "30",
+          "-194",
+          "-17",
+          "54",
+          "-338"
+        ],
+        "case_id": "V043",
+        "check_summary": "Three residue streams replay a linear stream, arithmetic-increment stream, and doubling-difference stream.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-72",
+          "-95",
+          "-118",
+          "-141",
+          "-164"
+        ],
+        "case_id": "V044",
+        "check_summary": "The visible tail supports repeated negative phase updates with increasing magnitude.",
+        "confidence": 0.34,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-8",
+          "25",
+          "-9",
+          "-4",
+          "17"
+        ],
+        "case_id": "V045",
+        "check_summary": "Interleaved bounded affine streams provide the best available continuation.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-24",
+          "18",
+          "-54",
+          "-38",
+          "13"
+        ],
+        "case_id": "V046",
+        "check_summary": "Three phase streams have arithmetic differences continuing as -12,-3,-17 and related phase updates.",
+        "confidence": 0.93,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "22",
+          "-2",
+          "18",
+          "-10",
+          "6"
+        ],
+        "case_id": "V047",
+        "check_summary": "Interleaved phase streams are the best-supported explanation of the irregular prefix.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-31",
+          "28",
+          "-50",
+          "37",
+          "-45"
+        ],
+        "case_id": "V048",
+        "check_summary": "Alternating bounded streams support this periodic phase continuation better than the alternatives.",
+        "confidence": 0.24,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-E2CB7ED71793-validation-b04-critic-2",
+  "outcome": "valid_output",
+  "response_sha256": "33578f4fe9a15ceb7e23e9c8dd63204b1650e4c9ee411b9decf33771b726ff82",
+  "terminal_artifact_relpath": "jobs/validation-G-E2CB7ED71793-validation-b04-critic-2/attempt-01"
+}

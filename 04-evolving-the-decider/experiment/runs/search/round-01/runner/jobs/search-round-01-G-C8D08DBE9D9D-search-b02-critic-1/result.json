@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "73",
+          "4",
+          "101"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd-position subsequence has increments 0,4,8,12,16; even positions alternate -5,4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "24",
+          "13",
+          "32",
+          "9",
+          "42"
+        ],
+        "case_id": "S014",
+        "check_summary": "Best available continuation from phase-dependent polynomial increments; alternatives are weakly supported.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "61",
+          "-25",
+          "-12",
+          "60",
+          "-34"
+        ],
+        "case_id": "S015",
+        "check_summary": "Three position-modulo-3 streams extrapolate consistently: first next 61, second -25, third -12; subsequent terms 60,-34.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "33",
+          "-3",
+          "80",
+          "-25",
+          "109"
+        ],
+        "case_id": "S016",
+        "check_summary": "Best available continuation from alternating phase streams; evidence is weak.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5 and even terms decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-18",
+          "-5",
+          "-30",
+          "-9",
+          "-46"
+        ],
+        "case_id": "S018",
+        "check_summary": "Best available phase-separated polynomial extrapolation; evidence is weak.",
+        "confidence": 0.25,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "45",
+          "67",
+          "75",
+          "18",
+          "49"
+        ],
+        "case_id": "S019",
+        "check_summary": "No candidate is strongly verified; selected the least speculative available continuation.",
+        "confidence": 0.06,
+        "rule_summary": "Periodic phase-specific update"
+      },
+      {
+        "answer": [
+          "38",
+          "56",
+          "74",
+          "92",
+          "-96"
+        ],
+        "case_id": "S020",
+        "check_summary": "Growing arithmetic blocks show repeated step-18 runs with increasingly large resets.",
+        "confidence": 0.34,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-51",
+          "-9",
+          "-70",
+          "-12",
+          "-91"
+        ],
+        "case_id": "S021",
+        "check_summary": "No candidate is strongly verified; selected the available second-order periodic continuation.",
+        "confidence": 0.06,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-20",
+          "49",
+          "-37",
+          "85",
+          "-56"
+        ],
+        "case_id": "S022",
+        "check_summary": "No candidate is strongly verified; selected the available mixed periodic continuation.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-37",
+          "-35"
+        ],
+        "case_id": "S023",
+        "check_summary": "Values add 2 except at successive event positions, where drops are -5,-7,-9,-11,-13.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "41",
+          "350",
+          "-33",
+          "68",
+          "-706"
+        ],
+        "case_id": "S024",
+        "check_summary": "Three interleaved streams: phase one decreases by 7, phase two has second differences 7, and phase three differences double with alternating",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-C8D08DBE9D9D-search-b02-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "0cc1ea37a81d9124ceebf5d3703a72c0daac0c5867106667b489f80542e75fb3",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-C8D08DBE9D9D-search-b02-critic-1/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "11",
+          "14",
+          "17",
+          "20",
+          "10"
+        ],
+        "case_id": "S085",
+        "check_summary": "Periodic polynomial phase deltas replay the prefix.",
+        "confidence": 0.93,
+        "rule_summary": "PDELTA with three +3 phases and a polynomially changing exceptional phase."
+      },
+      {
+        "answer": [
+          "44",
+          "31",
+          "55",
+          "9",
+          "48"
+        ],
+        "case_id": "S086",
+        "check_summary": "Candidate periodic affine recurrence matches the supplied prefix.",
+        "confidence": 0.28,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "-45",
+          "22",
+          "10",
+          "-2",
+          "104"
+        ],
+        "case_id": "S087",
+        "check_summary": "Phase-specific increment sequences were extended from the visible blocks.",
+        "confidence": 0.62,
+        "rule_summary": "PDELTA with three periodic phases."
+      },
+      {
+        "answer": [
+          "30",
+          "7",
+          "41",
+          "12",
+          "52"
+        ],
+        "case_id": "S088",
+        "check_summary": "Alternating increments continue with step 6.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with alternating arithmetic delta phases."
+      },
+      {
+        "answer": [
+          "-18",
+          "-44",
+          "78",
+          "42",
+          "-84"
+        ],
+        "case_id": "S089",
+        "check_summary": "Candidate second-order phase recurrence matches the prefix.",
+        "confidence": 0.25,
+        "rule_summary": "LIN2 with phase-varying bias."
+      },
+      {
+        "answer": [
+          "11",
+          "19",
+          "2",
+          "18",
+          "0"
+        ],
+        "case_id": "S090",
+        "check_summary": "Candidate interleaved affine streams match the prefix.",
+        "confidence": 0.24,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-209",
+          "391",
+          "-527",
+          "1103",
+          "-1367"
+        ],
+        "case_id": "S091",
+        "check_summary": "Candidate phase-varying second-order recurrence matches the prefix.",
+        "confidence": 0.2,
+        "rule_summary": "LIN2."
+      },
+      {
+        "answer": [
+          "-8",
+          "8",
+          "-30",
+          "30",
+          "-60"
+        ],
+        "case_id": "S092",
+        "check_summary": "Candidate periodic affine updates match the prefix.",
+        "confidence": 0.22,
+        "rule_summary": "AFFINE with repeating phase parameters."
+      },
+      {
+        "answer": [
+          "-25",
+          "52",
+          "-14",
+          "61",
+          "-21"
+        ],
+        "case_id": "S093",
+        "check_summary": "Candidate interleaved polynomial streams match the prefix.",
+        "confidence": 0.21,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "83",
+          "64",
+          "91",
+          "76",
+          "97"
+        ],
+        "case_id": "S094",
+        "check_summary": "Candidate periodic affine recurrence matches the prefix.",
+        "confidence": 0.2,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "-17",
+          "-33",
+          "-49",
+          "-65",
+          "-13"
+        ],
+        "case_id": "S095",
+        "check_summary": "The phase-1 delta is quadratic while the other phases remain -16.",
+        "confidence": 0.91,
+        "rule_summary": "PDELTA with period 4."
+      },
+      {
+        "answer": [
+          "-24",
+          "126",
+          "-42",
+          "218",
+          "-60"
+        ],
+        "case_id": "S096",
+        "check_summary": "Candidate phase-varying second-order recurrence matches the prefix.",
+        "confidence": 0.2,
+        "rule_summary": "LIN2."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-347400D8BFC6-search-b08-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "3913ab6ef4d2a7098dac9565efac6bcc167c895534240ed42a1b1ee1b0a1857d",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-347400D8BFC6-search-b08-proposer-7/attempt-01"
+}

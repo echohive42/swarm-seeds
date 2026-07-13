@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-5",
+          "-10",
+          "-20",
+          "-13",
+          "-26"
+        ],
+        "case_id": "V013",
+        "check_summary": "Selected the highest-confidence coherent periodic-delta continuation among the candidates.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-12",
+          "-14",
+          "-16",
+          "-18",
+          "-20"
+        ],
+        "case_id": "V014",
+        "check_summary": "Plurality candidate; extends the dominant decrement pattern.",
+        "confidence": 0.25,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-20",
+          "15",
+          "-32",
+          "-9",
+          "-45"
+        ],
+        "case_id": "V015",
+        "check_summary": "Selected the strongest interleaved-stream candidate.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V016",
+        "check_summary": "Odd and even subsequences are exact arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams"
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V017",
+        "check_summary": "Odd stream has successive negative increments; even stream doubles its decrement.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two lagged streams"
+      },
+      {
+        "answer": [
+          "71",
+          "-7",
+          "-11",
+          "101",
+          "-22"
+        ],
+        "case_id": "V018",
+        "check_summary": "Strongest coherent candidate from three phase-separated quadratic streams.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE of three polynomial streams"
+      },
+      {
+        "answer": [
+          "-1",
+          "23",
+          "-25",
+          "-2",
+          "34"
+        ],
+        "case_id": "V019",
+        "check_summary": "Two high-confidence candidates agree on the three-stream continuation.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of three polynomial/affine streams"
+      },
+      {
+        "answer": [
+          "51",
+          "28",
+          "72",
+          "46",
+          "93"
+        ],
+        "case_id": "V020",
+        "check_summary": "Selected the strongest available interleaved continuation despite low confidence.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-37",
+          "-56",
+          "-69",
+          "-82",
+          "-95"
+        ],
+        "case_id": "V021",
+        "check_summary": "Selected the highest-confidence phase-trend continuation.",
+        "confidence": 0.12,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-106",
+          "14",
+          "161",
+          "-154",
+          "26"
+        ],
+        "case_id": "V022",
+        "check_summary": "Strongest coherent candidate identifies structured interleaved phase streams.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-40",
+          "-77",
+          "-114",
+          "-151",
+          "-188"
+        ],
+        "case_id": "V023",
+        "check_summary": "High-confidence growing arithmetic-block continuation.",
+        "confidence": 0.96,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "32",
+          "52",
+          "-12",
+          "28",
+          "185"
+        ],
+        "case_id": "V024",
+        "check_summary": "Selected the strongest available three-stream polynomial extrapolation.",
+        "confidence": 0.31,
+        "rule_summary": "INTERLEAVE of three polynomial streams"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b02-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "72a333a22ae784f3ba2c96405cba8df286025bd5ecf716427840aa74616b5a6c",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b02-judge-1/attempt-01"
+}

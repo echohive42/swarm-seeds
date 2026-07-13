@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-436",
+          "-482",
+          "-536",
+          "-597",
+          "-652"
+        ],
+        "case_id": "S145",
+        "check_summary": "Three-phase difference pattern replayed across successive blocks.",
+        "confidence": 0.82,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "98",
+          "105",
+          "108",
+          "122",
+          "137"
+        ],
+        "case_id": "S146",
+        "check_summary": "Interleaved subsequence continuation inferred from alternating phase trends.",
+        "confidence": 0.34,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-10922",
+          "21846",
+          "-43690",
+          "87382",
+          "-174762"
+        ],
+        "case_id": "S147",
+        "check_summary": "Every transition satisfies x'=2-2x.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "327"
+        ],
+        "case_id": "S148",
+        "check_summary": "Odd-position differences rise by 6; even-position differences rise by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "3560",
+          "4779",
+          "6288",
+          "8130",
+          "10351"
+        ],
+        "case_id": "S149",
+        "check_summary": "Finite differences fit a quartic progression.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-6",
+          "-4",
+          "-8",
+          "-6",
+          "-10"
+        ],
+        "case_id": "S150",
+        "check_summary": "Both interleaved streams decrement by 2.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-3920",
+          "-6348",
+          "-10274",
+          "-16629",
+          "-26908"
+        ],
+        "case_id": "S151",
+        "check_summary": "Difference recurrence is Fibonacci-like with alternating unit correction.",
+        "confidence": 0.63,
+        "rule_summary": "Periodic second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "-13570",
+          "-19110",
+          "-26100",
+          "-35020",
+          "-46400"
+        ],
+        "case_id": "S152",
+        "check_summary": "Growth continuation inferred from the observed phase-dependent affine behavior.",
+        "confidence": 0.28,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-2613",
+          "-4231",
+          "-6849",
+          "-11085",
+          "-17939"
+        ],
+        "case_id": "S153",
+        "check_summary": "Successive differences satisfy d_n=d_(n-1)+d_(n-2).",
+        "confidence": 0.99,
+        "rule_summary": "Second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "-1239",
+          "-1588",
+          "-1994",
+          "-2462",
+          "-3002"
+        ],
+        "case_id": "S154",
+        "check_summary": "Second differences decrease by 5 each step.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "533647",
+          "1067295",
+          "-2134597",
+          "4269199",
+          "8538399"
+        ],
+        "case_id": "S155",
+        "check_summary": "Three-phase affine transitions use biases +5,+1,-7 with multiplier signs as observed.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "136533",
+          "273068",
+          "546133",
+          "1092268",
+          "2184533"
+        ],
+        "case_id": "S156",
+        "check_summary": "Alternating updates are 2x-3 and 2x+2.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-A20DBD76963B-search-b13-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "5003264dbe353caca9fc875023bbb25b3239aea07dceffda40b4f7fd999ef5e6",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-A20DBD76963B-search-b13-proposer-3/attempt-01"
+}

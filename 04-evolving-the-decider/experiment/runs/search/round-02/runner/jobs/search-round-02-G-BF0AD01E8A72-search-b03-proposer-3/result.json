@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "-319",
+          "-959",
+          "-2879",
+          "-8639",
+          "-25919"
+        ],
+        "case_id": "S025",
+        "check_summary": "Periodic phase recurrence inferred from repeated scaled difference pattern.",
+        "confidence": 0.42,
+        "rule_summary": "PDELTA with periodic phase-specific deltas."
+      },
+      {
+        "answer": [
+          "-42",
+          "-50",
+          "-61",
+          "-70",
+          "-82"
+        ],
+        "case_id": "S026",
+        "check_summary": "Alternating irregular phase differences extended conservatively.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic PDELTA/interleaved subsequence pattern."
+      },
+      {
+        "answer": [
+          "-13",
+          "-24",
+          "-35",
+          "-49",
+          "-63"
+        ],
+        "case_id": "S027",
+        "check_summary": "First differences occur in pairs and decrease by 3 every pair.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with paired arithmetic differences."
+      },
+      {
+        "answer": [
+          "-943",
+          "-1510",
+          "-2416",
+          "-3865",
+          "-6184"
+        ],
+        "case_id": "S028",
+        "check_summary": "Exponential-looking tail extended by inferred periodic affine growth.",
+        "confidence": 0.25,
+        "rule_summary": "Periodic AFFINE or LIN2 recurrence."
+      },
+      {
+        "answer": [
+          "797159",
+          "2391482",
+          "7174451",
+          "21523358",
+          "64570079"
+        ],
+        "case_id": "S029",
+        "check_summary": "Every term equals three times the prior term plus five.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE: x(n+1)=3x(n)+5."
+      },
+      {
+        "answer": [
+          "-55",
+          "-60",
+          "-64",
+          "-69",
+          "-73"
+        ],
+        "case_id": "S030",
+        "check_summary": "Differences alternate minus five and minus four.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA with period-two constant deltas."
+      },
+      {
+        "answer": [
+          "-1920",
+          "-3980",
+          "-7440",
+          "-11220",
+          "-11640"
+        ],
+        "case_id": "S031",
+        "check_summary": "High-order/interleaved polynomial continuation estimated from prefix.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE or POLY with higher-degree phase structure."
+      },
+      {
+        "answer": [
+          "-140904",
+          "281813",
+          "-563622",
+          "1127249",
+          "-2254494"
+        ],
+        "case_id": "S032",
+        "check_summary": "Alternating affine update with multiplier minus two and phase biases five/four.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE period-two: x'=−2x+{4,5}."
+      },
+      {
+        "answer": [
+          "-205",
+          "-313",
+          "-273",
+          "-396",
+          "-351"
+        ],
+        "case_id": "S033",
+        "check_summary": "Odd and even subsequences have quadratic difference progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two quadratic streams."
+      },
+      {
+        "answer": [
+          "-99759059",
+          "-299277171",
+          "-897831515",
+          "2693494549",
+          "8080483653"
+        ],
+        "case_id": "S034",
+        "check_summary": "Four-phase affine recurrence with multipliers and biases repeating by phase.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE period-four: multipliers −3,3,3,−3 with phase biases."
+      },
+      {
+        "answer": [
+          "1112",
+          "1814",
+          "2759",
+          "3994",
+          "5570"
+        ],
+        "case_id": "S035",
+        "check_summary": "Fourth finite difference is constant four.",
+        "confidence": 1.0,
+        "rule_summary": "POLY of degree four."
+      },
+      {
+        "answer": [
+          "1240",
+          "2037",
+          "3211",
+          "4826",
+          "6951"
+        ],
+        "case_id": "S036",
+        "check_summary": "Fourth finite difference is constant five.",
+        "confidence": 1.0,
+        "rule_summary": "POLY of degree four."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-BF0AD01E8A72-search-b03-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "72f3b08a1a92a62b07c1071bde71b0d7c6a69ecab8a330523345ca6922ebb196",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-BF0AD01E8A72-search-b03-proposer-3/attempt-01"
+}

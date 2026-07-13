@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S061",
+        "check_summary": "No reliable continuation inferred from the supplied prefix.",
+        "confidence": 0.02,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S062",
+        "check_summary": "No reliable continuation inferred from the supplied prefix.",
+        "confidence": 0.02,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S063",
+        "check_summary": "No reliable continuation inferred from the supplied prefix.",
+        "confidence": 0.02,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S064",
+        "check_summary": "No reliable continuation inferred from the supplied prefix.",
+        "confidence": 0.02,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd and even positions each form arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S066",
+        "check_summary": "No reliable continuation inferred from the supplied prefix.",
+        "confidence": 0.02,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S067",
+        "check_summary": "No reliable continuation inferred from the supplied prefix.",
+        "confidence": 0.02,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-29",
+          "-16",
+          "-20",
+          "-24",
+          "-28"
+        ],
+        "case_id": "S068",
+        "check_summary": "Tentative continuation based on the dominant repeated decrement pattern.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic-delta pattern."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S069",
+        "check_summary": "No reliable continuation inferred from the supplied prefix.",
+        "confidence": 0.02,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "-3",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd positions remain -3; even-position differences decrease by successive multiples of 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S071",
+        "check_summary": "No reliable continuation inferred from the supplied prefix.",
+        "confidence": 0.02,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-29",
+          "-16",
+          "-20",
+          "-24",
+          "-28"
+        ],
+        "case_id": "S072",
+        "check_summary": "Tentative continuation from repeated -4 increments with a sparse positive phase.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic-delta pattern."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-2B08D2BA7D25-search-b06-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "88d3adca6edbf7205df9727f39e610009433c25a686e6860f23fa410d84c1b7d",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-2B08D2BA7D25-search-b06-proposer-4/attempt-01"
+}

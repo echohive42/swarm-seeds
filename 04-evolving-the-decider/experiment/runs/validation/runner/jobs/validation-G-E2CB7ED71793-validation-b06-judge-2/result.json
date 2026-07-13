@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b06",
+    "results": [
+      {
+        "answer": [
+          "-8",
+          "34",
+          "-2",
+          "49",
+          "6"
+        ],
+        "case_id": "V061",
+        "check_summary": "Plurality supports the repeated phase-specific delta continuation.",
+        "confidence": 0.22,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-51",
+          "-21",
+          "9",
+          "39",
+          "69"
+        ],
+        "case_id": "V062",
+        "check_summary": "Multiple high-confidence proposals identify successive arithmetic blocks.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-45",
+          "-24",
+          "-52",
+          "-48",
+          "-70"
+        ],
+        "case_id": "V063",
+        "check_summary": "Plurality favors the periodic-difference continuation, though confidence is limited.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "20",
+          "-33",
+          "24",
+          "-38",
+          "28"
+        ],
+        "case_id": "V064",
+        "check_summary": "Odd and even subsequences are exact arithmetic progressions.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "63",
+          "75",
+          "79",
+          "98",
+          "107"
+        ],
+        "case_id": "V065",
+        "check_summary": "Highest-confidence plurality candidate is the interleaved continuation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-49",
+          "449",
+          "-60",
+          "897",
+          "-72"
+        ],
+        "case_id": "V066",
+        "check_summary": "Odd stream has successive decrements; even stream follows doubling-minus-one.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "40",
+          "18",
+          "61",
+          "25",
+          "74"
+        ],
+        "case_id": "V067",
+        "check_summary": "Plurality supports the phase-specific interleaved continuation.",
+        "confidence": 0.11,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-37",
+          "21",
+          "1",
+          "-54",
+          "30"
+        ],
+        "case_id": "V068",
+        "check_summary": "Strong plurality and confidence support three interleaved quadratic streams.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-24",
+          "-23",
+          "-50",
+          "-27",
+          "-59"
+        ],
+        "case_id": "V069",
+        "check_summary": "Tie in proposal count is resolved by the stronger-confidence periodic-delta evidence.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "117",
+          "135",
+          "153",
+          "171",
+          "189"
+        ],
+        "case_id": "V070",
+        "check_summary": "Several proposals continue the final arithmetic phase with step eighteen.",
+        "confidence": 0.55,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "19",
+          "-83",
+          "2",
+          "38",
+          "-147"
+        ],
+        "case_id": "V071",
+        "check_summary": "Plurality and strong confidence support the three-stream interleaving.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "35",
+          "39",
+          "43",
+          "47",
+          "51"
+        ],
+        "case_id": "V072",
+        "check_summary": "Strong plurality identifies the next growing arithmetic block with step four.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-E2CB7ED71793-validation-b06-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "4b2e7e80fc4acd8e3c3c74f622d2a512fb3a56f2bbfd546cca8a395ad14f8eeb",
+  "terminal_artifact_relpath": "jobs/validation-G-E2CB7ED71793-validation-b06-judge-2/attempt-01"
+}

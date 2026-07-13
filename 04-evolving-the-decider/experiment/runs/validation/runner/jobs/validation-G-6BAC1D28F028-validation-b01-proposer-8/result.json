@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b01",
+    "results": [
+      {
+        "answer": [
+          "1933223",
+          "5799670",
+          "17399011",
+          "52197040",
+          "156591131"
+        ],
+        "case_id": "V001",
+        "check_summary": "Periodic affine growth inferred from repeated prefix structure.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic affine"
+      },
+      {
+        "answer": [
+          "2605",
+          "3672",
+          "4999",
+          "6632",
+          "8623"
+        ],
+        "case_id": "V002",
+        "check_summary": "Finite differences show polynomial continuation.",
+        "confidence": 0.86,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "43",
+          "47",
+          "50",
+          "54",
+          "57"
+        ],
+        "case_id": "V003",
+        "check_summary": "Alternating increments of 3 and 4.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-2590778",
+          "7772327",
+          "-23316977",
+          "69950924",
+          "-209852768"
+        ],
+        "case_id": "V004",
+        "check_summary": "Alternating affine updates with multipliers -3 and phase biases.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "1727182",
+          "-5181551",
+          "15544648",
+          "-46633949",
+          "139901842"
+        ],
+        "case_id": "V005",
+        "check_summary": "Exact affine recurrence x(n+1)=-3x(n)-5.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-319",
+          "517",
+          "-406",
+          "-215",
+          "1250"
+        ],
+        "case_id": "V006",
+        "check_summary": "Periodic interleaved recurrence inferred from alternating subsequences.",
+        "confidence": 0.19,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-102",
+          "-99",
+          "-123",
+          "-131",
+          "-160"
+        ],
+        "case_id": "V007",
+        "check_summary": "Interleaved low-degree streams inferred from prefix.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-15201",
+          "-21164",
+          "-28791",
+          "-38408",
+          "-50621"
+        ],
+        "case_id": "V008",
+        "check_summary": "Growing-block polynomial continuation inferred from successive differences.",
+        "confidence": 0.2,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-566416",
+          "1368475",
+          "-3304686",
+          "7983046",
+          "-19284488"
+        ],
+        "case_id": "V009",
+        "check_summary": "Alternating affine growth inferred from dominant ratio.",
+        "confidence": 0.17,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-38",
+          "16",
+          "-48",
+          "57",
+          "-74"
+        ],
+        "case_id": "V010",
+        "check_summary": "Interleaved affine streams inferred from parity structure.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-113",
+          "208",
+          "-347",
+          "584",
+          "-977"
+        ],
+        "case_id": "V011",
+        "check_summary": "Alternating lagged growth inferred from parity subsequences.",
+        "confidence": 0.14,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-805",
+          "-1035",
+          "-1304",
+          "-1615",
+          "-1971"
+        ],
+        "case_id": "V012",
+        "check_summary": "Second differences decrease linearly, giving cubic continuation.",
+        "confidence": 0.93,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b01-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "86568de9c2bd4a513b11e57b7945a9440c9bd42b63a01e35c7712b20510af3cb",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b01-proposer-8/attempt-01"
+}

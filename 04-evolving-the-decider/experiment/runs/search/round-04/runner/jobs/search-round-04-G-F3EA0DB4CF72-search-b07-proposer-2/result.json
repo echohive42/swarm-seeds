@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-34",
+          "-38",
+          "-41",
+          "-45",
+          "-48"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating first differences -4,-3.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta sequence."
+      },
+      {
+        "answer": [
+          "9345",
+          "-15126",
+          "24471",
+          "-39597",
+          "64068"
+        ],
+        "case_id": "S074",
+        "check_summary": "Alternating-sign growth continues with ratio near 1.62.",
+        "confidence": 0.28,
+        "rule_summary": "Second-order linear growth pattern."
+      },
+      {
+        "answer": [
+          "8",
+          "6",
+          "10",
+          "8",
+          "16"
+        ],
+        "case_id": "S075",
+        "check_summary": "Interleaved irregular low-order streams.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-14297",
+          "-20720",
+          "-29144",
+          "-39583",
+          "-52158"
+        ],
+        "case_id": "S076",
+        "check_summary": "Negative growth accelerates with changing increments.",
+        "confidence": 0.18,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "-4055",
+          "-9762",
+          "-23495",
+          "-56572",
+          "-136138"
+        ],
+        "case_id": "S077",
+        "check_summary": "Negative sequence exhibits approximately 2.4x growth.",
+        "confidence": 0.2,
+        "rule_summary": "Phase-specific linear recurrence."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Exact recurrence x_next=-3x+5.",
+        "confidence": 1,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "82",
+          "102",
+          "138",
+          "177",
+          "233"
+        ],
+        "case_id": "S079",
+        "check_summary": "Mixed interleaved growth with increasing positive trend.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "1225270",
+          "-3675812",
+          "408426",
+          "11027404",
+          "-33082532"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three phase streams each follow multiplier 9 with fixed phase bias.",
+        "confidence": 0.99,
+        "rule_summary": "Three-way interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-152370",
+          "304742",
+          "-609482",
+          "1218966",
+          "-2437930"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating affine updates x_next=-2x+2 and x_next=2x-2.",
+        "confidence": 1,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences continue as negative squares.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial delta recurrence."
+      },
+      {
+        "answer": [
+          "-2731",
+          "-3777",
+          "-5031",
+          "-6485",
+          "-8139"
+        ],
+        "case_id": "S083",
+        "check_summary": "Negative differences continue accelerating.",
+        "confidence": 0.18,
+        "rule_summary": "Polynomial-position sequence."
+      },
+      {
+        "answer": [
+          "-349",
+          "2052",
+          "-12075",
+          "71100",
+          "-418585"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating-sign exponential growth from interleaved streams.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-F3EA0DB4CF72-search-b07-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "1c389d4eeccbde9d3693df977c43725228aa590cf5da3f49ad20a9e4c620ef7c",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-F3EA0DB4CF72-search-b07-proposer-2/attempt-01"
+}

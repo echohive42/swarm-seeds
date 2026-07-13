@@ -1,0 +1,169 @@
+{
+  "attempt_count": 2,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "8",
+          "13",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "Differences are +5 between periodic negative jumps of -3,-8,-13,-18,-23.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic polynomial delta rule."
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "-1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd subsequence has second differences 4; even subsequence doubles with alternating sign.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-12",
+          "-80",
+          "-31",
+          "-104",
+          "-54"
+        ],
+        "case_id": "S159",
+        "check_summary": "Best fit is a phase-dependent second-order recurrence over the full prefix.",
+        "confidence": 0.16,
+        "rule_summary": "Phase-periodic LIN2 recurrence."
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd terms increase by 2; even terms increase by 1.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-11",
+          "36",
+          "7",
+          "-11",
+          "61"
+        ],
+        "case_id": "S161",
+        "check_summary": "Three residue-class streams have polynomial increments.",
+        "confidence": 0.97,
+        "rule_summary": "Three-way interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "13",
+          "17",
+          "5",
+          "19",
+          "15"
+        ],
+        "case_id": "S162",
+        "check_summary": "Prefix supports a short phase-periodic delta rule with polynomial phase behavior.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic polynomial delta rule."
+      },
+      {
+        "answer": [
+          "5",
+          "5",
+          "-362",
+          "0",
+          "6"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams: first decrements by successive integers, second increments by 1, third doubles its negative differences.",
+        "confidence": 0.99,
+        "rule_summary": "Three-way interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "35",
+          "42",
+          "76",
+          "31",
+          "-4"
+        ],
+        "case_id": "S164",
+        "check_summary": "Best fit is a phase-periodic second-order recurrence.",
+        "confidence": 0.14,
+        "rule_summary": "Phase-periodic LIN2 recurrence."
+      },
+      {
+        "answer": [
+          "-18",
+          "-74",
+          "17",
+          "-87",
+          "5"
+        ],
+        "case_id": "S165",
+        "check_summary": "Prefix is most consistent with a three-phase lagged polynomial update.",
+        "confidence": 0.13,
+        "rule_summary": "Lagged subsequences with phase-specific polynomial increments."
+      },
+      {
+        "answer": [
+          "19",
+          "135",
+          "29",
+          "19",
+          "174"
+        ],
+        "case_id": "S166",
+        "check_summary": "One residue stream alternates -21 and 19; another has increments 3,12,21,30,39.",
+        "confidence": 0.21,
+        "rule_summary": "Three-way interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-48",
+          "-35",
+          "-67",
+          "-56",
+          "-89"
+        ],
+        "case_id": "S167",
+        "check_summary": "Best fit is a phase-periodic affine/linear recurrence.",
+        "confidence": 0.12,
+        "rule_summary": "Phase-periodic LIN2 recurrence."
+      },
+      {
+        "answer": [
+          "98",
+          "122",
+          "146",
+          "170",
+          "194"
+        ],
+        "case_id": "S168",
+        "check_summary": "Growing arithmetic blocks show step sizes 8,16,24 with repeated within-block increments.",
+        "confidence": 0.91,
+        "rule_summary": "Growing arithmetic blocks."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-E2CB7ED71793-search-b14-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "d0a2526ae2edd4e60b34099fdd4eaefb8e2c62fd9ae84426cfe7c5887ecda0dc",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-E2CB7ED71793-search-b14-proposer-5/attempt-02"
+}

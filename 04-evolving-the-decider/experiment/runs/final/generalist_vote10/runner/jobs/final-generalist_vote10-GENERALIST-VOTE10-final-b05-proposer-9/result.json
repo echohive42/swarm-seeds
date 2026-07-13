@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b05",
+    "results": [
+      {
+        "answer": [
+          "3454364",
+          "10363097",
+          "31089296",
+          "93267893",
+          "279803684"
+        ],
+        "case_id": "F049",
+        "check_summary": "Matches x→3x+5.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "21",
+          "19",
+          "24",
+          "22",
+          "27"
+        ],
+        "case_id": "F050",
+        "check_summary": "Two interleaved arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-5953",
+          "5956",
+          "-17864",
+          "17861",
+          "-17858"
+        ],
+        "case_id": "F051",
+        "check_summary": "Repeating three-phase affine pattern.",
+        "confidence": 0.97,
+        "rule_summary": "Periodic AFFINE."
+      },
+      {
+        "answer": [
+          "-3973",
+          "-5917",
+          "-8508",
+          "-11887",
+          "-16213"
+        ],
+        "case_id": "F052",
+        "check_summary": "Finite-difference continuation with constant fifth difference.",
+        "confidence": 0.98,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "516032",
+          "1245813",
+          "3007659",
+          "7261125",
+          "17529908"
+        ],
+        "case_id": "F053",
+        "check_summary": "Second-order recurrence with repeating biases −6,−1,+1.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2."
+      },
+      {
+        "answer": [
+          "-3199269",
+          "1066421",
+          "19195611",
+          "-6398539",
+          "-115173669"
+        ],
+        "case_id": "F054",
+        "check_summary": "Two interleaved affine streams with multiplier −6.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-1077",
+          "-561",
+          "-2051",
+          "-1201",
+          "-3789"
+        ],
+        "case_id": "F055",
+        "check_summary": "Continuation inferred from periodic interleaved structure.",
+        "confidence": 0.28,
+        "rule_summary": "INTERLEAVE/PDELTA."
+      },
+      {
+        "answer": [
+          "-145",
+          "-181",
+          "-222",
+          "-268",
+          "-319"
+        ],
+        "case_id": "F056",
+        "check_summary": "Continuation inferred from lagged polynomial trend.",
+        "confidence": 0.25,
+        "rule_summary": "LAGPOLY."
+      },
+      {
+        "answer": [
+          "5",
+          "42",
+          "-5",
+          "39",
+          "-18"
+        ],
+        "case_id": "F057",
+        "check_summary": "Odd stream has second difference −3; even stream differences descend by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-79",
+          "-93",
+          "-108",
+          "-124",
+          "-141"
+        ],
+        "case_id": "F058",
+        "check_summary": "Successive differences continue −13 through −17.",
+        "confidence": 0.99,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "-882",
+          "-1123",
+          "-1409",
+          "-1743",
+          "-2128"
+        ],
+        "case_id": "F059",
+        "check_summary": "Second differences continue decreasing by 15,18,21,24,27.",
+        "confidence": 0.99,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "1476",
+          "2207",
+          "3176",
+          "4429",
+          "6016"
+        ],
+        "case_id": "F060",
+        "check_summary": "Third differences continue increasing by 4.",
+        "confidence": 0.98,
+        "rule_summary": "POLY."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-generalist_vote10-GENERALIST-VOTE10-final-b05-proposer-9",
+  "outcome": "valid_output",
+  "response_sha256": "821ed09d229164066219e9acc66b696e302d72e1f9724fe0e4e032537bf42701",
+  "terminal_artifact_relpath": "jobs/final-generalist_vote10-GENERALIST-VOTE10-final-b05-proposer-9/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating first differences -4,-3 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial delta."
+      },
+      {
+        "answer": [
+          "-9347",
+          "15128",
+          "-24474",
+          "39602",
+          "-64077"
+        ],
+        "case_id": "S074",
+        "check_summary": "Alternating-sign near-golden growth; extrapolation from observed recurrence pattern.",
+        "confidence": 0.28,
+        "rule_summary": "Phase-dependent second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "10",
+          "8",
+          "8",
+          "6",
+          "14"
+        ],
+        "case_id": "S075",
+        "check_summary": "Interleaved irregular low-order streams; extrapolation uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-14867",
+          "-22449",
+          "-32577",
+          "-45596",
+          "-62291"
+        ],
+        "case_id": "S076",
+        "check_summary": "Accelerating negative trajectory extrapolated from late-prefix growth.",
+        "confidence": 0.18,
+        "rule_summary": "Phase-dependent affine or linear recurrence."
+      },
+      {
+        "answer": [
+          "-4065",
+          "-9811",
+          "-23674",
+          "-57149",
+          "-137978"
+        ],
+        "case_id": "S077",
+        "check_summary": "Rapidly growing negative sequence extrapolated from late terms.",
+        "confidence": 0.16,
+        "rule_summary": "Second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182162"
+        ],
+        "case_id": "S078",
+        "check_summary": "Exact recurrence x_next=-3x+5 replayed through prefix.",
+        "confidence": 1.0,
+        "rule_summary": "Affine update."
+      },
+      {
+        "answer": [
+          "49",
+          "96",
+          "103",
+          "149",
+          "206"
+        ],
+        "case_id": "S079",
+        "check_summary": "Interleaved streams extrapolated from alternating subsequences.",
+        "confidence": 0.22,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "408426",
+          "1225270",
+          "-3675812",
+          "3675804",
+          "11027404"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three-phase affine maps replay the prefix: -3x-2, -x-8, 3x-8.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-152370",
+          "-304742",
+          "609486",
+          "1218970",
+          "-2437938"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating maps -2x+2 and 2x-2 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-388",
+          "-488",
+          "-609",
+          "-753",
+          "-922"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences continue as negative squares.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence via quadratic deltas."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7643",
+          "-10161"
+        ],
+        "case_id": "S083",
+        "check_summary": "Finite differences indicate quartic continuation.",
+        "confidence": 0.96,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-350147",
+          "843625",
+          "-2032263",
+          "4895666",
+          "-11787417"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating exponential-sign trajectory extrapolated from prefix.",
+        "confidence": 0.2,
+        "rule_summary": "Phase-dependent affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-F3EA0DB4CF72-search-b07-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "8da0ddf3eba9100879633a8f9636c8fc44e0483c8d5bd087202aeb185b41da45",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-F3EA0DB4CF72-search-b07-proposer-7/attempt-01"
+}

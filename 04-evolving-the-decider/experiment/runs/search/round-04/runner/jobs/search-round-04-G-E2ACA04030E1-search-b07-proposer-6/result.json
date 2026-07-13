@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-34",
+          "-38",
+          "-37",
+          "-41"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating -4,-3 differences replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic first-difference rule."
+      },
+      {
+        "answer": [
+          "9329",
+          "-15119",
+          "24488",
+          "-39659",
+          "64201"
+        ],
+        "case_id": "S074",
+        "check_summary": "Extrapolated from the apparent alternating signed linear recurrence.",
+        "confidence": 0.42,
+        "rule_summary": "Phase-dependent affine/linear recurrence."
+      },
+      {
+        "answer": [
+          "8",
+          "6",
+          "8",
+          "10",
+          "6"
+        ],
+        "case_id": "S075",
+        "check_summary": "Interleaved short-period streams extrapolated from the prefix.",
+        "confidence": 0.31,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-14189",
+          "-19937",
+          "-27554",
+          "-37080",
+          "-48117"
+        ],
+        "case_id": "S076",
+        "check_summary": "Extrapolated from the accelerating negative difference pattern.",
+        "confidence": 0.28,
+        "rule_summary": "Polynomial-delta recurrence."
+      },
+      {
+        "answer": [
+          "-4231",
+          "-10887",
+          "-28308",
+          "-73915",
+          "-193437"
+        ],
+        "case_id": "S077",
+        "check_summary": "First differences follow d_n=3d_(n-1)-d_(n-2).",
+        "confidence": 0.97,
+        "rule_summary": "Second-order linear recurrence on differences."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Each term follows x'=-3x+5.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "79",
+          "112",
+          "151",
+          "201",
+          "263"
+        ],
+        "case_id": "S079",
+        "check_summary": "Extrapolated from the periodic interleaved growth pattern.",
+        "confidence": 0.3,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "1225270",
+          "3675852",
+          "-11027558",
+          "33082666",
+          "99247968"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three-phase affine recurrence extrapolation.",
+        "confidence": 0.9,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-152370",
+          "-304742",
+          "609486",
+          "1218970",
+          "-2437938"
+        ],
+        "case_id": "S081",
+        "check_summary": "Three-phase signed doubling affine rule.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences are negative squares.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial first-difference rule."
+      },
+      {
+        "answer": [
+          "-2745",
+          "-4026",
+          "-5627",
+          "-7560",
+          "-9845"
+        ],
+        "case_id": "S083",
+        "check_summary": "Extrapolated from the accelerating negative-difference sequence.",
+        "confidence": 0.27,
+        "rule_summary": "Polynomial-delta recurrence."
+      },
+      {
+        "answer": [
+          "-349173",
+          "842017",
+          "-2029875",
+          "4895686",
+          "-11800239"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating affine extrapolation from the signed exponential pattern.",
+        "confidence": 0.34,
+        "rule_summary": "Phase-dependent affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-E2ACA04030E1-search-b07-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "e8dd91f4277dbdfa32f121eeb3d0210fdae98384e3fb03f6dad7f8b81375918d",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-E2ACA04030E1-search-b07-proposer-6/attempt-01"
+}

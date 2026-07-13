@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Eight-round search trajectory</title>
+<desc id="chart-desc">Best and mean exact accuracy on fresh cases by round.</desc>
+<metadata>source-digest:01ed8d6eb4571fb79d3307519ab11db22b272b51562eed76de33f05dc3888cd7</metadata>
+<style>text{font-family:Inter,Arial,sans-serif;fill:#152238}.title{font-size:28px;font-weight:750}.subtitle{font-size:14px;fill:#526174}.axis{font-size:12px;fill:#526174}.label{font-size:13px;font-weight:650}.value{font-size:12px;font-weight:750}.note{font-size:11px;fill:#526174}.legend{font-size:12px;font-weight:650}</style>
+<rect width="1200" height="720" fill="#FFFFFF"/>
+<text x="62.00" y="48.00" class="title" text-anchor="start" >Eight fixed evolutionary rounds</text>
+<text x="62.00" y="75.00" class="subtitle" text-anchor="start" >Each round used a fresh balanced 24-case sample; labels show accepted child challenges</text>
+<text x="62.00" y="700.00" class="note" text-anchor="start" >Source: results/search/round-01 through round-08</text>
+<line x1="120.00" y1="550.00" x2="1130.00" y2="550.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="108.00" y="554.00" class="axis" text-anchor="end" >0.0%</text>
+<line x1="120.00" y1="468.00" x2="1130.00" y2="468.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="108.00" y="472.00" class="axis" text-anchor="end" >20.0%</text>
+<line x1="120.00" y1="386.00" x2="1130.00" y2="386.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="108.00" y="390.00" class="axis" text-anchor="end" >40.0%</text>
+<line x1="120.00" y1="304.00" x2="1130.00" y2="304.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="108.00" y="308.00" class="axis" text-anchor="end" >60.0%</text>
+<line x1="120.00" y1="222.00" x2="1130.00" y2="222.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="108.00" y="226.00" class="axis" text-anchor="end" >80.0%</text>
+<line x1="120.00" y1="140.00" x2="1130.00" y2="140.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="108.00" y="144.00" class="axis" text-anchor="end" >100.0%</text>
+<line x1="120.00" y1="140.00" x2="120.00" y2="550.00" stroke="#152238" stroke-width="1.2"/>
+<line x1="120.00" y1="550.00" x2="1130.00" y2="550.00" stroke="#152238" stroke-width="1.2"/>
+<polyline points="183.12,345.00 309.38,345.00 435.62,276.67 561.88,362.08 688.12,396.25 814.38,327.92 940.62,310.83 1066.88,293.75" fill="none" stroke="#43AA8B" stroke-width="3.5"/>
+<polyline points="183.12,384.86 309.38,386.28 435.62,340.73 561.88,409.06 688.12,420.45 814.38,356.39 940.62,337.88 1066.88,333.61" fill="none" stroke="#277DA1" stroke-width="3.5"/>
+<circle cx="183.12" cy="345.00" r="7.00" fill="#43AA8B" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="183.12" cy="384.86" r="6.00" fill="#277DA1" stroke="#FFFFFF" stroke-width="2"/>
+<text x="183.12" y="332.00" class="value" text-anchor="middle" >50.0%</text>
+<text x="183.12" y="577.00" class="label" text-anchor="middle" >Round 1</text>
+<text x="183.12" y="597.00" class="axis" text-anchor="middle" >2/6 accepted</text>
+<circle cx="309.38" cy="345.00" r="7.00" fill="#43AA8B" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="309.38" cy="386.28" r="6.00" fill="#277DA1" stroke="#FFFFFF" stroke-width="2"/>
+<text x="309.38" y="332.00" class="value" text-anchor="middle" >50.0%</text>
+<text x="309.38" y="577.00" class="label" text-anchor="middle" >Round 2</text>
+<text x="309.38" y="597.00" class="axis" text-anchor="middle" >0/6 accepted</text>
+<circle cx="435.62" cy="276.67" r="7.00" fill="#43AA8B" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="435.62" cy="340.73" r="6.00" fill="#277DA1" stroke="#FFFFFF" stroke-width="2"/>
+<text x="435.62" y="263.67" class="value" text-anchor="middle" >66.7%</text>
+<text x="435.62" y="577.00" class="label" text-anchor="middle" >Round 3</text>
+<text x="435.62" y="597.00" class="axis" text-anchor="middle" >3/6 accepted</text>
+<circle cx="561.88" cy="362.08" r="7.00" fill="#43AA8B" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="561.88" cy="409.06" r="6.00" fill="#277DA1" stroke="#FFFFFF" stroke-width="2"/>
+<text x="561.88" y="349.08" class="value" text-anchor="middle" >45.8%</text>
+<text x="561.88" y="577.00" class="label" text-anchor="middle" >Round 4</text>
+<text x="561.88" y="597.00" class="axis" text-anchor="middle" >3/6 accepted</text>
+<circle cx="688.12" cy="396.25" r="7.00" fill="#43AA8B" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="688.12" cy="420.45" r="6.00" fill="#277DA1" stroke="#FFFFFF" stroke-width="2"/>
+<text x="688.12" y="383.25" class="value" text-anchor="middle" >37.5%</text>
+<text x="688.12" y="577.00" class="label" text-anchor="middle" >Round 5</text>
+<text x="688.12" y="597.00" class="axis" text-anchor="middle" >3/6 accepted</text>
+<circle cx="814.38" cy="327.92" r="7.00" fill="#43AA8B" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="814.38" cy="356.39" r="6.00" fill="#277DA1" stroke="#FFFFFF" stroke-width="2"/>
+<text x="814.38" y="314.92" class="value" text-anchor="middle" >54.2%</text>
+<text x="814.38" y="577.00" class="label" text-anchor="middle" >Round 6</text>
+<text x="814.38" y="597.00" class="axis" text-anchor="middle" >1/6 accepted</text>
+<circle cx="940.62" cy="310.83" r="7.00" fill="#43AA8B" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="940.62" cy="337.88" r="6.00" fill="#277DA1" stroke="#FFFFFF" stroke-width="2"/>
+<text x="940.62" y="297.83" class="value" text-anchor="middle" >58.3%</text>
+<text x="940.62" y="577.00" class="label" text-anchor="middle" >Round 7</text>
+<text x="940.62" y="597.00" class="axis" text-anchor="middle" >3/6 accepted</text>
+<circle cx="1066.88" cy="293.75" r="7.00" fill="#43AA8B" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="1066.88" cy="333.61" r="6.00" fill="#277DA1" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1066.88" y="280.75" class="value" text-anchor="middle" >62.5%</text>
+<text x="1066.88" y="577.00" class="label" text-anchor="middle" >Round 8</text>
+<text x="1066.88" y="597.00" class="axis" text-anchor="middle" >3/6 accepted</text>
+<line x1="795.00" y1="104.00" x2="829.00" y2="104.00" stroke="#43AA8B" stroke-width="4"/>
+<text x="840.00" y="109.00" class="legend" text-anchor="start" >Best candidate</text>
+<line x1="956.00" y1="104.00" x2="990.00" y2="104.00" stroke="#277DA1" stroke-width="4"/>
+<text x="1001.00" y="109.00" class="legend" text-anchor="start" >Candidate mean</text>
+<text x="600.00" y="630.00" class="note" text-anchor="middle" >Connected points describe the search path across different samples, not repeated tests on one fixed set.</text>
+</svg>

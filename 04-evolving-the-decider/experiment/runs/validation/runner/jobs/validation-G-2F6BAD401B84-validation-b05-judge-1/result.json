@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b05",
+    "results": [
+      {
+        "answer": [
+          "-125",
+          "-143",
+          "-244",
+          "-160",
+          "-174"
+        ],
+        "case_id": "V049",
+        "check_summary": "Period-3 phase deltas replay the prefix exactly and continue consistently.",
+        "confidence": 0.93,
+        "rule_summary": "PDELTA with period-3 polynomial deltas."
+      },
+      {
+        "answer": [
+          "-18510",
+          "37015",
+          "-74031",
+          "148064",
+          "-296123"
+        ],
+        "case_id": "V050",
+        "check_summary": "Alternating affine continuation matches the exact multiplier and periodic bias pattern.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with periodic biases."
+      },
+      {
+        "answer": [
+          "-10052",
+          "-15516",
+          "-22745",
+          "-32591",
+          "-45046"
+        ],
+        "case_id": "V051",
+        "check_summary": "Late-prefix acceleration supports the strongest second-order recurrence continuation.",
+        "confidence": 0.34,
+        "rule_summary": "LIN2 or periodic linear recurrence."
+      },
+      {
+        "answer": [
+          "-14217",
+          "14218",
+          "-42648",
+          "42649",
+          "-127941"
+        ],
+        "case_id": "V052",
+        "check_summary": "Odd and even subsequences exactly follow 3x-5 and 3x+3.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "151",
+          "167",
+          "179",
+          "221",
+          "240"
+        ],
+        "case_id": "V053",
+        "check_summary": "Period-3 deltas advance linearly by phase and replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-3 linear phase deltas."
+      },
+      {
+        "answer": [
+          "-48980",
+          "-117550",
+          "-282300",
+          "-677750",
+          "-1626600"
+        ],
+        "case_id": "V054",
+        "check_summary": "Periodic affine growth gives the strongest consistent exponential continuation.",
+        "confidence": 0.39,
+        "rule_summary": "AFFINE with phase-dependent parameters."
+      },
+      {
+        "answer": [
+          "1621",
+          "-2615",
+          "4239",
+          "-6851",
+          "11089"
+        ],
+        "case_id": "V055",
+        "check_summary": "Alternating interleaved growth streams provide the strongest complete continuation.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE of coupled affine streams."
+      },
+      {
+        "answer": [
+          "-37840",
+          "113525",
+          "227054",
+          "-227056",
+          "681173"
+        ],
+        "case_id": "V056",
+        "check_summary": "Three phase streams replay exact multiplier-6 affine updates with fixed biases.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of three affine streams."
+      },
+      {
+        "answer": [
+          "-26",
+          "-31",
+          "-29",
+          "-34",
+          "-32"
+        ],
+        "case_id": "V057",
+        "check_summary": "Odd and even subsequences continue as arithmetic streams with fixed steps.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "5048689",
+          "15146068",
+          "45438205",
+          "136314616",
+          "408943849"
+        ],
+        "case_id": "V058",
+        "check_summary": "Every term follows the exact recurrence x(n+1)=3x(n)+1.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "292",
+          "399",
+          "528",
+          "681",
+          "860"
+        ],
+        "case_id": "V059",
+        "check_summary": "Finite differences support a unique polynomial continuation.",
+        "confidence": 1.0,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "-4467",
+          "-5931",
+          "-7725",
+          "-9895",
+          "-12490"
+        ],
+        "case_id": "V060",
+        "check_summary": "Constant fourth difference supports the quartic continuation.",
+        "confidence": 1.0,
+        "rule_summary": "POLY of degree four."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b05-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "56cbde9a432f170fbea5495ca5b1b848889411ccc0ae747577dbd670213111e3",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b05-judge-1/attempt-01"
+}

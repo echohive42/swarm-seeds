@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "69",
+          "4",
+          "93"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd and even subsequences replay periodic arithmetic patterns.",
+        "confidence": 0.98,
+        "rule_summary": "Two interleaved arithmetic-polynomial streams."
+      },
+      {
+        "answer": [
+          "-8",
+          "-14",
+          "-3",
+          "-29",
+          "-1"
+        ],
+        "case_id": "S014",
+        "check_summary": "Candidate periodic affine continuation.",
+        "confidence": 0.18,
+        "rule_summary": "Phase-specific affine update."
+      },
+      {
+        "answer": [
+          "63",
+          "-25",
+          "-16",
+          "67",
+          "-36"
+        ],
+        "case_id": "S015",
+        "check_summary": "Three residue-class streams extrapolated independently.",
+        "confidence": 0.38,
+        "rule_summary": "Three-way interleaved lagged streams."
+      },
+      {
+        "answer": [
+          "-1",
+          "11",
+          "80",
+          "-1",
+          "93"
+        ],
+        "case_id": "S016",
+        "check_summary": "Candidate periodic phase continuation.",
+        "confidence": 0.16,
+        "rule_summary": "Phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5; even terms decrease by 4.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-20",
+          "-4",
+          "-32",
+          "-7",
+          "-47"
+        ],
+        "case_id": "S018",
+        "check_summary": "Candidate lagged-subsequence continuation.",
+        "confidence": 0.14,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "45",
+          "91",
+          "52",
+          "110",
+          "79"
+        ],
+        "case_id": "S019",
+        "check_summary": "Candidate periodic modular continuation.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine update modulo a prime."
+      },
+      {
+        "answer": [
+          "-50",
+          "-20",
+          "-84",
+          "-42",
+          "-122"
+        ],
+        "case_id": "S020",
+        "check_summary": "Candidate phase-specific recurrence continuation.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-44",
+          "-16",
+          "-73",
+          "-26",
+          "-107"
+        ],
+        "case_id": "S021",
+        "check_summary": "Candidate lagged polynomial continuation.",
+        "confidence": 0.11,
+        "rule_summary": "Interleaved lagged polynomial streams."
+      },
+      {
+        "answer": [
+          "-68",
+          "-48",
+          "-115",
+          "-87",
+          "-172"
+        ],
+        "case_id": "S022",
+        "check_summary": "Candidate periodic recurrence continuation.",
+        "confidence": 0.1,
+        "rule_summary": "Second-order linear recurrence with phase bias."
+      },
+      {
+        "answer": [
+          "-2",
+          "-41",
+          "-39",
+          "32",
+          "-41"
+        ],
+        "case_id": "S023",
+        "check_summary": "Residue-class difference patterns extrapolated.",
+        "confidence": 0.31,
+        "rule_summary": "Three-way interleaved polynomial-delta streams."
+      },
+      {
+        "answer": [
+          "-290",
+          "34",
+          "-426",
+          "52",
+          "-614"
+        ],
+        "case_id": "S024",
+        "check_summary": "Candidate alternating second-order recurrence continuation.",
+        "confidence": 0.1,
+        "rule_summary": "Phase-specific LIN2 recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-26751CF6A6D4-search-b02-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "83fd5ac18f8693560acb8ac5cd97dcc3eeebe8c22ecd0cd5368fda9bf1310c03",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-26751CF6A6D4-search-b02-proposer-1/attempt-01"
+}

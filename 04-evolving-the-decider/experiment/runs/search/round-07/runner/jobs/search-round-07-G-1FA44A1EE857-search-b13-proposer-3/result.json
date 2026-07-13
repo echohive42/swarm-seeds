@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-445",
+          "-500",
+          "-554",
+          "-624",
+          "-688"
+        ],
+        "case_id": "S145",
+        "check_summary": "Three-phase arithmetic delta pattern replayed.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic phase-specific linear deltas."
+      },
+      {
+        "answer": [
+          "129",
+          "93",
+          "123",
+          "182",
+          "125"
+        ],
+        "case_id": "S146",
+        "check_summary": "Three interleaved streams with quadratic increments.",
+        "confidence": 0.93,
+        "rule_summary": "Three polynomial streams interleaved by position."
+      },
+      {
+        "answer": [
+          "-10922",
+          "21846",
+          "-43690",
+          "87382",
+          "-174762"
+        ],
+        "case_id": "S147",
+        "check_summary": "Every step follows x'=−2x+2.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "327"
+        ],
+        "case_id": "S148",
+        "check_summary": "Alternating delta streams each increase linearly.",
+        "confidence": 0.99,
+        "rule_summary": "Two phase-specific linear delta sequences."
+      },
+      {
+        "answer": [
+          "3560",
+          "4779",
+          "6288",
+          "8124",
+          "10345"
+        ],
+        "case_id": "S149",
+        "check_summary": "Constant fourth differences in the delta sequence.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "0",
+          "-4",
+          "-2",
+          "-6",
+          "-4"
+        ],
+        "case_id": "S150",
+        "check_summary": "Alternating +2 and −4 updates.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic deltas."
+      },
+      {
+        "answer": [
+          "-3920",
+          "-6348",
+          "-10274",
+          "-16629",
+          "-26909"
+        ],
+        "case_id": "S151",
+        "check_summary": "Second-order sum recurrence with alternating biases −6 and −7.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 with period-2 bias."
+      },
+      {
+        "answer": [
+          "-14200",
+          "-20700",
+          "-30100",
+          "-43800",
+          "-63700"
+        ],
+        "case_id": "S152",
+        "check_summary": "Growth trend extrapolated from the supplied prefix.",
+        "confidence": 0.31,
+        "rule_summary": "Periodic affine/second-order growth pattern."
+      },
+      {
+        "answer": [
+          "-2613",
+          "-4231",
+          "-6849",
+          "-11085",
+          "-17939"
+        ],
+        "case_id": "S153",
+        "check_summary": "Each term equals the prior two terms minus 5.",
+        "confidence": 1.0,
+        "rule_summary": "Second-order linear recurrence with constant bias."
+      },
+      {
+        "answer": [
+          "-1239",
+          "-1593",
+          "-2009",
+          "-2492",
+          "-3047"
+        ],
+        "case_id": "S154",
+        "check_summary": "Cubic delta structure with constant fourth difference.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "533647",
+          "1067295",
+          "-2134597",
+          "4269199",
+          "8538399"
+        ],
+        "case_id": "S155",
+        "check_summary": "Three-phase affine doubling with biases +5,+1,−7.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "136533",
+          "273068",
+          "546133",
+          "1092268",
+          "2184533"
+        ],
+        "case_id": "S156",
+        "check_summary": "Alternating affine doubling biases −3 and +2.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-1FA44A1EE857-search-b13-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "da39931712f3564433a7351a42b5ce4af01cc7515722191a1e76804065711f79",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-1FA44A1EE857-search-b13-proposer-3/attempt-01"
+}

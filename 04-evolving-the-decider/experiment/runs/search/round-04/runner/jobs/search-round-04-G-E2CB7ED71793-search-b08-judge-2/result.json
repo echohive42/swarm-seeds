@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "11",
+          "14",
+          "17",
+          "20",
+          "10"
+        ],
+        "case_id": "S085",
+        "check_summary": "Repeated four-phase deltas with the first phase decreasing by 3 per cycle; other phases add 3.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "7",
+          "46",
+          "29",
+          "45",
+          "26"
+        ],
+        "case_id": "S086",
+        "check_summary": "Verified phase-specific affine recurrence modulo 67.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "36",
+          "25",
+          "14",
+          "3",
+          "-8"
+        ],
+        "case_id": "S087",
+        "check_summary": "Growing block begins at 36 and continues with step -11.",
+        "confidence": 0.86,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd-position stream rises by 5; even-position stream falls by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "42",
+          "-39",
+          "81",
+          "-75",
+          "120"
+        ],
+        "case_id": "S089",
+        "check_summary": "Alternating subsequences support phase-specific affine growth.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "2",
+          "6",
+          "18",
+          "16",
+          "10"
+        ],
+        "case_id": "S090",
+        "check_summary": "Each term is multiplied by 3 modulo 19.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-116",
+          "62",
+          "-331",
+          "126",
+          "-962"
+        ],
+        "case_id": "S091",
+        "check_summary": "Alternating tail is consistent with a phase-biased second-order recurrence.",
+        "confidence": 0.12,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "5",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd terms remain 5; even-term differences decrease successively by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-30",
+          "74",
+          "-8",
+          "78",
+          "-12"
+        ],
+        "case_id": "S093",
+        "check_summary": "Most-supported alternating interleaved continuation among the proposals.",
+        "confidence": 0.13,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "63",
+          "104",
+          "25",
+          "122",
+          "-6"
+        ],
+        "case_id": "S094",
+        "check_summary": "Irregular prefix favors a multi-phase interleaved continuation.",
+        "confidence": 0.11,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-17",
+          "-33",
+          "-49",
+          "-65",
+          "-1"
+        ],
+        "case_id": "S095",
+        "check_summary": "Four-phase deltas support quadratic first-phase growth and -16 continuation in the other lanes.",
+        "confidence": 0.97,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-10",
+          "12",
+          "-30",
+          "15",
+          "-35"
+        ],
+        "case_id": "S096",
+        "check_summary": "Best-supported interleaved continuation among the low-confidence proposals.",
+        "confidence": 0.11,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-E2CB7ED71793-search-b08-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "8cdcc1e5abd885fa3f581997c466abe65050fae6dd0205629ccd54223b1f82b6",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-E2CB7ED71793-search-b08-judge-2/attempt-01"
+}

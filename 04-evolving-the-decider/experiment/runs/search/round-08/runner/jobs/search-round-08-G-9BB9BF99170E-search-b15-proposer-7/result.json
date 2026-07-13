@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "-331",
+          "-527",
+          "-839",
+          "-1335",
+          "-2127"
+        ],
+        "case_id": "S169",
+        "check_summary": "Fits a phase-structured recurrence extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic affine/PDELTA candidate."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments +4,+5 replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial delta."
+      },
+      {
+        "answer": [
+          "-2260",
+          "-3626",
+          "-5702",
+          "-8714",
+          "-12662"
+        ],
+        "case_id": "S171",
+        "check_summary": "Finite differences support a degree-five polynomial.",
+        "confidence": 0.98,
+        "rule_summary": "POLY with constant fifth difference."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Fourth differences are constant at -1.",
+        "confidence": 0.99,
+        "rule_summary": "POLY with constant fourth difference."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences increase successively by 1.",
+        "confidence": 0.99,
+        "rule_summary": "POLY with quadratic first differences."
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18815",
+          "-30443"
+        ],
+        "case_id": "S174",
+        "check_summary": "Second-order recurrence residuals repeat -2,-2,+3.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 with period-three bias."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97997621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating updates 3x+1 and -2x+6 replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-two parameters."
+      },
+      {
+        "answer": [
+          "76",
+          "82",
+          "87",
+          "91",
+          "98"
+        ],
+        "case_id": "S176",
+        "check_summary": "Extrapolated from the observed phase-structured increments.",
+        "confidence": 0.22,
+        "rule_summary": "INTERLEAVE/PDELTA candidate."
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3436997"
+        ],
+        "case_id": "S177",
+        "check_summary": "Three-phase affine updates replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-three parameters."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term doubles the previous term.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE multiplier 2."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "Six-term cycle repeats exactly.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-six values."
+      },
+      {
+        "answer": [
+          "-232",
+          "-272",
+          "-313",
+          "-360",
+          "-407"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd-position differences fall by 7 and even-position differences by 6.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with alternating linear deltas."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-9BB9BF99170E-search-b15-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "437b9129a0b2322a813d849edbf60418754c1370c37770883ebf93c3ffdfc602",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-9BB9BF99170E-search-b15-proposer-7/attempt-01"
+}

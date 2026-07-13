@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b09",
+    "results": [
+      {
+        "answer": [
+          "-759830",
+          "4558996",
+          "-27353966",
+          "164123812",
+          "-984742862"
+        ],
+        "case_id": "S097",
+        "check_summary": "Odd and even subsequences each follow a stable affine recurrence with multiplier -6 and biases 16 and 10.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-1013",
+          "-1149",
+          "-1453",
+          "-1589",
+          "-1893"
+        ],
+        "case_id": "S098",
+        "check_summary": "Periodic/interleaved continuation inferred from alternating difference structure.",
+        "confidence": 0.32,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-703",
+          "-833",
+          "-959",
+          "-1074",
+          "-1170"
+        ],
+        "case_id": "S099",
+        "check_summary": "Finite differences have linearly increasing fourth differences, giving a degree-five polynomial continuation.",
+        "confidence": 0.98,
+        "rule_summary": "POLY degree five."
+      },
+      {
+        "answer": [
+          "-4915830",
+          "14747487",
+          "-44242464",
+          "132727389",
+          "-398182170"
+        ],
+        "case_id": "S100",
+        "check_summary": "Every transition is x -> -3x - 3.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE constant recurrence."
+      },
+      {
+        "answer": [
+          "-7287",
+          "-10731",
+          "-15251",
+          "-20987",
+          "-28063"
+        ],
+        "case_id": "S101",
+        "check_summary": "Continuation estimated from the apparent interleaved higher-order structure.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "1148",
+          "1492",
+          "1901",
+          "2380",
+          "2934"
+        ],
+        "case_id": "S102",
+        "check_summary": "Second differences increase by 5 each step.",
+        "confidence": 1.0,
+        "rule_summary": "POLY quartic."
+      },
+      {
+        "answer": [
+          "136",
+          "135",
+          "128",
+          "118",
+          "111"
+        ],
+        "case_id": "S103",
+        "check_summary": "Differences repeat in three-position blocks with each block reduced by 6.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial-delta recurrence."
+      },
+      {
+        "answer": [
+          "-38",
+          "-41",
+          "-46",
+          "-49",
+          "-54"
+        ],
+        "case_id": "S104",
+        "check_summary": "Differences alternate -3 and -5.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA period two."
+      },
+      {
+        "answer": [
+          "-39990",
+          "39995",
+          "79981",
+          "239946",
+          "-239941"
+        ],
+        "case_id": "S105",
+        "check_summary": "Three-phase affine transitions repeat: 3x+3, -x+5, 2x-9.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE period three."
+      },
+      {
+        "answer": [
+          "-1050531",
+          "-2866441",
+          "-7822143",
+          "-21333169",
+          "-58226835"
+        ],
+        "case_id": "S106",
+        "check_summary": "Continuation estimated from the dominant periodic affine growth pattern.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic AFFINE."
+      },
+      {
+        "answer": [
+          "16",
+          "22",
+          "29",
+          "37",
+          "46"
+        ],
+        "case_id": "S107",
+        "check_summary": "Continuation estimated from the observed low-order interleaved difference pattern.",
+        "confidence": 0.22,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "12",
+          "48",
+          "50",
+          "65",
+          "75"
+        ],
+        "case_id": "S108",
+        "check_summary": "Continuation estimated from the observed periodic/interleaved variation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-EC429DE4D50C-search-b09-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "8563f5f9c840f060544d9b273de33824d51934783cb55b52dd7681c93288c78f",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-EC429DE4D50C-search-b09-proposer-6/attempt-01"
+}

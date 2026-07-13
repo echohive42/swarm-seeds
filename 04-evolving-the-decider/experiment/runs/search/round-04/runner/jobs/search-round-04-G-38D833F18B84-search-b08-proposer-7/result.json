@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "14",
+          "17",
+          "20",
+          "23"
+        ],
+        "case_id": "S085",
+        "check_summary": "Fits four-term growing blocks with repeated +3 internal progression and polynomially shifting offsets.",
+        "confidence": 0.62,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "7",
+          "46",
+          "29",
+          "45",
+          "26"
+        ],
+        "case_id": "S086",
+        "check_summary": "Verified alternating affine maps modulo 67: 3x-42 and 3x+25.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-24",
+          "-34",
+          "-17",
+          "-44",
+          "-54"
+        ],
+        "case_id": "S087",
+        "check_summary": "Extrapolated from phase-separated block behavior.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd subsequence increases by 5; even subsequence decreases by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-60",
+          "93",
+          "-141",
+          "204",
+          "-276"
+        ],
+        "case_id": "S089",
+        "check_summary": "Extrapolated a phase-varying affine recurrence.",
+        "confidence": 0.12,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "2",
+          "6",
+          "18",
+          "16",
+          "10"
+        ],
+        "case_id": "S090",
+        "check_summary": "Verified multiplication by 3 modulo 19 across the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-218",
+          "407",
+          "-775",
+          "1450",
+          "-2712"
+        ],
+        "case_id": "S091",
+        "check_summary": "Extrapolated a second-order linear pattern from the irregular prefix.",
+        "confidence": 0.1,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-25",
+          "0",
+          "-32",
+          "5",
+          "-39"
+        ],
+        "case_id": "S092",
+        "check_summary": "Extrapolated phase-specific polynomial deltas.",
+        "confidence": 0.16,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-17",
+          "51",
+          "-33",
+          "65",
+          "-49"
+        ],
+        "case_id": "S093",
+        "check_summary": "Extrapolated periodic affine behavior modulo a small prime.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "64",
+          "79",
+          "94",
+          "109",
+          "124"
+        ],
+        "case_id": "S094",
+        "check_summary": "Extrapolated a phase-structured polynomial progression.",
+        "confidence": 0.12,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-63",
+          "-79",
+          "-95",
+          "-73",
+          "-49"
+        ],
+        "case_id": "S095",
+        "check_summary": "Continues the observed arithmetic block with step -16, then extrapolates block starts.",
+        "confidence": 0.29,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-6",
+          "26",
+          "-14",
+          "44",
+          "-22"
+        ],
+        "case_id": "S096",
+        "check_summary": "Extrapolated a periodic affine recurrence from the irregular prefix.",
+        "confidence": 0.1,
+        "rule_summary": "AFFINE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-38D833F18B84-search-b08-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "4e0f1f0bad8aff5c6f473b003e56f14f12b23497a996106922995c653959a3df",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-38D833F18B84-search-b08-proposer-7/attempt-01"
+}

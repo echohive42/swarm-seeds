@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "-6",
+          "9",
+          "-6",
+          "-7",
+          "-4"
+        ],
+        "case_id": "S109",
+        "check_summary": "No reliable low-complexity continuation identified.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "12",
+          "-3",
+          "-12",
+          "14",
+          "-1"
+        ],
+        "case_id": "S110",
+        "check_summary": "Prefix shows phase structure but continuation is ambiguous.",
+        "confidence": 0.1,
+        "rule_summary": "Unresolved periodic mechanism."
+      },
+      {
+        "answer": [
+          "82",
+          "76",
+          "90",
+          "105",
+          "120"
+        ],
+        "case_id": "S111",
+        "check_summary": "Later deltas suggest phase-dependent growth, but exact phase rule is uncertain.",
+        "confidence": 0.14,
+        "rule_summary": "Likely PDELTA or GROWBLOCK."
+      },
+      {
+        "answer": [
+          "3",
+          "1",
+          "27",
+          "1",
+          "3"
+        ],
+        "case_id": "S112",
+        "check_summary": "Some phase subsequences show polynomial-like increments; full continuation uncertain.",
+        "confidence": 0.12,
+        "rule_summary": "Likely phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-18",
+          "-20",
+          "-22",
+          "-24",
+          "-26"
+        ],
+        "case_id": "S113",
+        "check_summary": "One lagged phase has a clear decreasing second-difference pattern; global fit uncertain.",
+        "confidence": 0.12,
+        "rule_summary": "Likely LAGPOLY."
+      },
+      {
+        "answer": [
+          "31",
+          "-37",
+          "905",
+          "32",
+          "-50"
+        ],
+        "case_id": "S114",
+        "check_summary": "Three phase subsequences fit: affine doubling, quadratic first phase, and alternating phase.",
+        "confidence": 0.94,
+        "rule_summary": "Three-phase LIN2/AFFINE combination."
+      },
+      {
+        "answer": [
+          "4",
+          "6",
+          "10",
+          "18",
+          "34"
+        ],
+        "case_id": "S115",
+        "check_summary": "A doubling-minus-two run is visible, but phase alignment is unresolved.",
+        "confidence": 0.16,
+        "rule_summary": "Likely AFFINE or INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd terms decrease by one and even terms decrease by four.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "37",
+          "15",
+          "3",
+          "25",
+          "-7"
+        ],
+        "case_id": "S117",
+        "check_summary": "Multiple phase streams are apparent but do not uniquely determine continuation manually.",
+        "confidence": 0.1,
+        "rule_summary": "Unresolved INTERLEAVE."
+      },
+      {
+        "answer": [
+          "31",
+          "36",
+          "49",
+          "54",
+          "18"
+        ],
+        "case_id": "S118",
+        "check_summary": "Two phases share a quadratic increment pattern; the remaining phase is ambiguous.",
+        "confidence": 0.18,
+        "rule_summary": "Likely phase-specific PDELTA."
+      },
+      {
+        "answer": [
+          "82",
+          "86",
+          "4",
+          "103",
+          "108"
+        ],
+        "case_id": "S119",
+        "check_summary": "Two phases show steadily increasing increments; third phase remains uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "Likely INTERLEAVE with polynomial streams."
+      },
+      {
+        "answer": [
+          "145",
+          "125",
+          "67",
+          "101",
+          "175"
+        ],
+        "case_id": "S120",
+        "check_summary": "Alternating and block-like structure is visible, but exact registered mechanism is uncertain.",
+        "confidence": 0.11,
+        "rule_summary": "Likely GROWBLOCK or periodic PDELTA."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-9E41821F9E02-search-b10-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "3afda96123146dd22902aad04bf27458fc2bb1a501f7e58023c87e743d5b6789",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-9E41821F9E02-search-b10-proposer-5/attempt-01"
+}

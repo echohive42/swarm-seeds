@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "-425",
+          "-65",
+          "855",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Odd-position subsequence has successive decrements -5,-6,-7,-8,-9; even-position subsequence has alternating doubled differences.",
+        "confidence": 0.98,
+        "rule_summary": "Interleaved polynomial odd stream and alternating-growth even stream."
+      },
+      {
+        "answer": [
+          "25",
+          "49",
+          "73",
+          "97",
+          "121"
+        ],
+        "case_id": "V038",
+        "check_summary": "Successive differences show growing repeated positive blocks separated by negative steps.",
+        "confidence": 0.55,
+        "rule_summary": "Growing-block difference pattern."
+      },
+      {
+        "answer": [
+          "78",
+          "-189",
+          "95",
+          "-249",
+          "112"
+        ],
+        "case_id": "V039",
+        "check_summary": "Prefix is consistent with a phase-dependent second-order/affine recurrence, but parameters are weakly identified.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic recurrence extrapolation."
+      },
+      {
+        "answer": [
+          "22",
+          "10",
+          "14",
+          "18",
+          "22"
+        ],
+        "case_id": "V040",
+        "check_summary": "Repeated +4 runs are separated by phase-dependent drops 0,-4,-8,-12.",
+        "confidence": 0.8,
+        "rule_summary": "Growing-block arithmetic pattern."
+      },
+      {
+        "answer": [
+          "64",
+          "97",
+          "52",
+          "31",
+          "86"
+        ],
+        "case_id": "V041",
+        "check_summary": "Prefix appears modular or phase-dependent; continuation is weakly identified from the visible prefix.",
+        "confidence": 0.15,
+        "rule_summary": "Periodic modular-affine extrapolation."
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Odd positions form  -1,1,3,5,7,9; even positions form 7,4,1,-2,-5,-8.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-12",
+          "-63",
+          "-13",
+          "-78",
+          "-14"
+        ],
+        "case_id": "V043",
+        "check_summary": "Prefix suggests phase-dependent interleaving with polynomial/affine updates; continuation is uncertain.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic interleaved recurrence."
+      },
+      {
+        "answer": [
+          "94",
+          "66",
+          "38",
+          "10",
+          "-18"
+        ],
+        "case_id": "V044",
+        "check_summary": "Differences contain repeated negative blocks -13,-18,-23 followed by increasing positive separators.",
+        "confidence": 0.62,
+        "rule_summary": "Growing-block arithmetic pattern."
+      },
+      {
+        "answer": [
+          "35",
+          "71",
+          "18",
+          "46",
+          "29"
+        ],
+        "case_id": "V045",
+        "check_summary": "Prefix is consistent with a modular phase-dependent affine process, with parameters not uniquely apparent manually.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic modular-affine extrapolation."
+      },
+      {
+        "answer": [
+          "-24",
+          "18",
+          "-54",
+          "-38",
+          "4"
+        ],
+        "case_id": "V046",
+        "check_summary": "Difference phases are polynomial: phase sequences 21,16,13,12,...; 6,15,24,33,...; -28,-36,-46,-58,...",
+        "confidence": 0.97,
+        "rule_summary": "Three-phase polynomial delta recurrence."
+      },
+      {
+        "answer": [
+          "22",
+          "-6",
+          "30",
+          "2",
+          "38"
+        ],
+        "case_id": "V047",
+        "check_summary": "Prefix suggests interleaved phase-dependent streams; continuation is weakly identified.",
+        "confidence": 0.13,
+        "rule_summary": "Interleaved recurrence extrapolation."
+      },
+      {
+        "answer": [
+          "-36",
+          "21",
+          "-41",
+          "28",
+          "-47"
+        ],
+        "case_id": "V048",
+        "check_summary": "Alternating-sign difference structure suggests phase-dependent affine behavior, but the full parameters are not clear.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic affine/interleaved extrapolation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-A20DBD76963B-validation-b04-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "23fa17633ef4bc9a8ba26e89f8751636129997cc6696046b7bbb486c7226733f",
+  "terminal_artifact_relpath": "jobs/validation-G-A20DBD76963B-validation-b04-proposer-3/attempt-01"
+}

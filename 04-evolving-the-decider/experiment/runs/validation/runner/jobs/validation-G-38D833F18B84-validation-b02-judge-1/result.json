@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-13",
+          "-15",
+          "-17",
+          "-19",
+          "-21"
+        ],
+        "case_id": "V013",
+        "check_summary": "No candidate has strong full-prefix support; selected the most coherent simple periodic-delta continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic delta"
+      },
+      {
+        "answer": [
+          "-9",
+          "-11",
+          "-10",
+          "-12",
+          "-11"
+        ],
+        "case_id": "V014",
+        "check_summary": "E08 has the strongest stated confidence and matches alternating phase decrements.",
+        "confidence": 0.38,
+        "rule_summary": "Periodic phase-specific deltas"
+      },
+      {
+        "answer": [
+          "-20",
+          "-15",
+          "-16",
+          "-25",
+          "-13"
+        ],
+        "case_id": "V015",
+        "check_summary": "E02 is the strongest minority candidate, with residue-class oscillatory structure.",
+        "confidence": 0.3,
+        "rule_summary": "Interleaved streams"
+      },
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V016",
+        "check_summary": "Both odd and even subsequences are exact arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams"
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V017",
+        "check_summary": "Odd stream decrements by successive integers; even stream doubles its negative decrement.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved polynomial/geometric streams"
+      },
+      {
+        "answer": [
+          "71",
+          "-10",
+          "-12",
+          "-29",
+          "-23"
+        ],
+        "case_id": "V018",
+        "check_summary": "E08 is decisively more coherent, identifying three residue-class streams with constant second differences.",
+        "confidence": 0.9,
+        "rule_summary": "Three interleaved polynomial streams"
+      },
+      {
+        "answer": [
+          "-1",
+          "23",
+          "-25",
+          "-2",
+          "34"
+        ],
+        "case_id": "V019",
+        "check_summary": "E08 has the strongest coherent phase-structure explanation among candidates.",
+        "confidence": 0.7,
+        "rule_summary": "Three interleaved polynomial/affine streams"
+      },
+      {
+        "answer": [
+          "42",
+          "20",
+          "-2",
+          "-10",
+          "-8"
+        ],
+        "case_id": "V020",
+        "check_summary": "E05 is the strongest available phase-specific continuation, though support is limited.",
+        "confidence": 0.22,
+        "rule_summary": "Interleaved phase-specific streams"
+      },
+      {
+        "answer": [
+          "-43",
+          "-62",
+          "-82",
+          "-101",
+          "-121"
+        ],
+        "case_id": "V021",
+        "check_summary": "E07 gives the clearest growing-block interpretation with repeated negative steps.",
+        "confidence": 0.3,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-106",
+          "16",
+          "161",
+          "-154",
+          "34"
+        ],
+        "case_id": "V022",
+        "check_summary": "E04 has strong support from modulo-3 residue streams and explicit second-difference replay.",
+        "confidence": 0.98,
+        "rule_summary": "Three interleaved polynomial/affine streams"
+      },
+      {
+        "answer": [
+          "-5",
+          "-42",
+          "-79",
+          "-116",
+          "-153"
+        ],
+        "case_id": "V023",
+        "check_summary": "E04 explicitly identifies the growing arithmetic blocks and next block step.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-1",
+          "-3",
+          "-2",
+          "-5",
+          "-3"
+        ],
+        "case_id": "V024",
+        "check_summary": "E02 is the strongest candidate, using alternating subsequences with low-order variation.",
+        "confidence": 0.35,
+        "rule_summary": "Two interleaved polynomial streams"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-38D833F18B84-validation-b02-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "16040339040526b62e546c46e18809ef925b80e23be30311a7c9456b37eb1b28",
+  "terminal_artifact_relpath": "jobs/validation-G-38D833F18B84-validation-b02-judge-1/attempt-01"
+}

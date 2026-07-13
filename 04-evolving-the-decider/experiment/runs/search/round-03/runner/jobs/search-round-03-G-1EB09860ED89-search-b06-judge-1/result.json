@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-23",
+          "-15",
+          "-46"
+        ],
+        "case_id": "S061",
+        "check_summary": "No candidate has a complete, independently verified replay; selected the most explicit periodic-delta continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative PDELTA"
+      },
+      {
+        "answer": [
+          "36",
+          "121",
+          "-11",
+          "62",
+          "210"
+        ],
+        "case_id": "S062",
+        "check_summary": "Three residue classes are reported to have consistent polynomial difference progressions.",
+        "confidence": 0.78,
+        "rule_summary": "Three-phase lagged polynomial updates"
+      },
+      {
+        "answer": [
+          "-2",
+          "85",
+          "-30",
+          "96",
+          "-62"
+        ],
+        "case_id": "S063",
+        "check_summary": "Selected the strongest available interleaved-stream continuation, though the supplied evidence remains low-confidence.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE polynomial streams"
+      },
+      {
+        "answer": [
+          "778",
+          "-141",
+          "80",
+          "-1558",
+          "-222"
+        ],
+        "case_id": "S064",
+        "check_summary": "Candidate reports clean replay across all three phases with affine/quadratic updates.",
+        "confidence": 0.98,
+        "rule_summary": "Three-phase affine and polynomial updates"
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd-position subsequence decreases by 4 and even-position subsequence increases by 2.",
+        "confidence": 1,
+        "rule_summary": "Two interleaved arithmetic streams"
+      },
+      {
+        "answer": [
+          "7",
+          "229",
+          "48",
+          "12",
+          "453"
+        ],
+        "case_id": "S066",
+        "check_summary": "Three residue classes are reported to have clear polynomial increments and near-complete replay.",
+        "confidence": 0.99,
+        "rule_summary": "Three-phase lagged polynomial increments"
+      },
+      {
+        "answer": [
+          "-175",
+          "-220",
+          "-207",
+          "-262",
+          "-239"
+        ],
+        "case_id": "S067",
+        "check_summary": "Selected the candidate using paired interleaved subsequence differences; growing-block alternatives are less verified.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE polynomial streams"
+      },
+      {
+        "answer": [
+          "-43",
+          "-62",
+          "-81",
+          "-100",
+          "-119"
+        ],
+        "case_id": "S068",
+        "check_summary": "The visible suffix forms a clear arithmetic run with common difference -19.",
+        "confidence": 0.42,
+        "rule_summary": "Phase-specific arithmetic continuation"
+      },
+      {
+        "answer": [
+          "17",
+          "-21",
+          "21",
+          "26",
+          "-32"
+        ],
+        "case_id": "S069",
+        "check_summary": "Three position-modulo-3 streams are reported to fit quadratic continuation with high confidence.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE quadratic streams"
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "-3",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd terms remain -3; even terms have arithmetic second differences.",
+        "confidence": 1,
+        "rule_summary": "Two interleaved polynomial streams"
+      },
+      {
+        "answer": [
+          "-48",
+          "-16",
+          "-88",
+          "-46",
+          "-55"
+        ],
+        "case_id": "S071",
+        "check_summary": "Selected the only candidate with an explicit four-phase interleaving rationale; verification is weak.",
+        "confidence": 0.2,
+        "rule_summary": "Four interleaved polynomial streams"
+      },
+      {
+        "answer": [
+          "-29",
+          "-20",
+          "-24",
+          "-28",
+          "-32"
+        ],
+        "case_id": "S072",
+        "check_summary": "Selected the highest-confidence growing-block continuation from repeated suffix structure.",
+        "confidence": 0.99,
+        "rule_summary": "Growing arithmetic blocks"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-1EB09860ED89-search-b06-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "e6a286acab81a8526a3326180e872c0a8e22166d89289bf4dc00450ab3af7f01",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-1EB09860ED89-search-b06-judge-1/attempt-01"
+}

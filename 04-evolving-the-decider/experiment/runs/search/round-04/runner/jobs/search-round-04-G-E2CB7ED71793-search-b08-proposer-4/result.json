@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "24",
+          "27",
+          "20",
+          "23"
+        ],
+        "case_id": "S085",
+        "check_summary": "Periodic delta pattern with phase-5 decrement.",
+        "confidence": 0.82,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "27",
+          "54",
+          "31",
+          "45",
+          "9"
+        ],
+        "case_id": "S086",
+        "check_summary": "Candidate modular periodic recurrence extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-45",
+          "-56",
+          "-67",
+          "-78",
+          "-89"
+        ],
+        "case_id": "S087",
+        "check_summary": "Continuation of the final arithmetic block with step -10.",
+        "confidence": 0.3,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd stream rises by 5; even stream falls by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-15",
+          "105",
+          "-9",
+          "150",
+          "-3"
+        ],
+        "case_id": "S089",
+        "check_summary": "Candidate interleaved polynomial-stream extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "12",
+          "11",
+          "9",
+          "13",
+          "6"
+        ],
+        "case_id": "S090",
+        "check_summary": "Candidate periodic affine extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-116",
+          "62",
+          "-331",
+          "126",
+          "-962"
+        ],
+        "case_id": "S091",
+        "check_summary": "Candidate second-order phase-biased recurrence extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "5",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd terms remain 5; even terms continue decreasing by successive integers.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-8",
+          "78",
+          "-12",
+          "119",
+          "-16"
+        ],
+        "case_id": "S093",
+        "check_summary": "Candidate interleaved stream extrapolation.",
+        "confidence": 0.11,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "75",
+          "83",
+          "79",
+          "80",
+          "87"
+        ],
+        "case_id": "S094",
+        "check_summary": "Candidate periodic affine continuation.",
+        "confidence": 0.1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-17",
+          "-33",
+          "-49",
+          "-65",
+          "-5"
+        ],
+        "case_id": "S095",
+        "check_summary": "Phase-specific deltas: phase one accelerates upward while other phases decrease by 16.",
+        "confidence": 0.72,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-4",
+          "144",
+          "-10",
+          "194",
+          "-16"
+        ],
+        "case_id": "S096",
+        "check_summary": "Candidate interleaved polynomial-stream extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-E2CB7ED71793-search-b08-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "b7036fdb754773d433e508cc05e2f66506fa2d7b90b86f576cd72346b65485d5",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-E2CB7ED71793-search-b08-proposer-4/attempt-01"
+}

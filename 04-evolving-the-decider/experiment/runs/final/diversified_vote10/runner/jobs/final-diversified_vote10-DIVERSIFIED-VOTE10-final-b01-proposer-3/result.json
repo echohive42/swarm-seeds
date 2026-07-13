@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b01",
+    "results": [
+      {
+        "answer": [
+          "1213",
+          "1543",
+          "1932",
+          "2386",
+          "2911"
+        ],
+        "case_id": "F001",
+        "check_summary": "Cubic finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-176",
+          "-180",
+          "-189",
+          "-191",
+          "-198"
+        ],
+        "case_id": "F002",
+        "check_summary": "Alternating arithmetic difference phases continue.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-853138",
+          "-2559412",
+          "5118830",
+          "15356492",
+          "-30712982"
+        ],
+        "case_id": "F003",
+        "check_summary": "Alternating affine updates: -2x+6 and 3x+2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-8254422",
+          "-24763262",
+          "49526526",
+          "148579570",
+          "445738714"
+        ],
+        "case_id": "F004",
+        "check_summary": "Three-phase affine cycle continues.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-46",
+          "-48",
+          "-53",
+          "-55",
+          "-62"
+        ],
+        "case_id": "F005",
+        "check_summary": "Phase-pattern continuation inferred from alternating subsequences.",
+        "confidence": 0.45,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-13",
+          "-16",
+          "-14",
+          "-17",
+          "-15"
+        ],
+        "case_id": "F006",
+        "check_summary": "Alternating constant differences.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "35",
+          "6",
+          "27",
+          "-2",
+          "19"
+        ],
+        "case_id": "F007",
+        "check_summary": "Alternating stream continuation inferred from interleaved phases.",
+        "confidence": 0.4,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-23071",
+          "-31702",
+          "-43517",
+          "-59321",
+          "-80044"
+        ],
+        "case_id": "F008",
+        "check_summary": "Polynomial finite differences continue.",
+        "confidence": 0.97,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "775",
+          "1205",
+          "1773",
+          "2504",
+          "3425"
+        ],
+        "case_id": "F009",
+        "check_summary": "Polynomial finite-difference continuation.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-515",
+          "573",
+          "2173",
+          "3197",
+          "2045"
+        ],
+        "case_id": "F010",
+        "check_summary": "Four-phase difference blocks scale by -4.",
+        "confidence": 0.9,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-30037",
+          "60075",
+          "-120149",
+          "240299",
+          "-480597"
+        ],
+        "case_id": "F011",
+        "check_summary": "Repeated affine update x -> -2x+1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-2741",
+          "-3093",
+          "-574",
+          "-121",
+          "-2767"
+        ],
+        "case_id": "F012",
+        "check_summary": "Periodic phase continuation inferred from recurrence structure.",
+        "confidence": 0.35,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b01-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "cc610261674acee0431033674fe3f1efcd6d75a2af444e945c471774aba3446e",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b01-proposer-3/attempt-01"
+}

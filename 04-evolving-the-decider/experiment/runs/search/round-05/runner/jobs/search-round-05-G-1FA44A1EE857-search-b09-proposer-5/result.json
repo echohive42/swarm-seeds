@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b09",
+    "results": [
+      {
+        "answer": [
+          "-14068",
+          "28142",
+          "-56276",
+          "112558",
+          "-225112"
+        ],
+        "case_id": "S097",
+        "check_summary": "Alternating affine updates replay the prefix: x'=-2x+6, then x'=3x-2.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 affine recurrence."
+      },
+      {
+        "answer": [
+          "-1477",
+          "-1845",
+          "-1231",
+          "2079",
+          "7249"
+        ],
+        "case_id": "S098",
+        "check_summary": "Oscillatory prefix suggests a phase-dependent low-order recurrence.",
+        "confidence": 0.31,
+        "rule_summary": "Likely periodic affine or linear recurrence."
+      },
+      {
+        "answer": [
+          "-703",
+          "-833",
+          "-959",
+          "-1074",
+          "-1170"
+        ],
+        "case_id": "S099",
+        "check_summary": "Finite differences have third differences increasing by one.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial continuation."
+      },
+      {
+        "answer": [
+          "-1638615",
+          "4915842",
+          "-14747529",
+          "44242584",
+          "-132727755"
+        ],
+        "case_id": "S100",
+        "check_summary": "Every step satisfies x'=-3x-3.",
+        "confidence": 1.0,
+        "rule_summary": "Constant affine recurrence."
+      },
+      {
+        "answer": [
+          "-7360",
+          "-10973",
+          "-16017",
+          "-22688",
+          "-31025"
+        ],
+        "case_id": "S101",
+        "check_summary": "Accelerating differences indicate a higher-order polynomial continuation.",
+        "confidence": 0.24,
+        "rule_summary": "Likely polynomial sequence."
+      },
+      {
+        "answer": [
+          "1143",
+          "1477",
+          "1871",
+          "2330",
+          "2859"
+        ],
+        "case_id": "S102",
+        "check_summary": "Second differences increase linearly by five.",
+        "confidence": 0.99,
+        "rule_summary": "Quartic polynomial continuation."
+      },
+      {
+        "answer": [
+          "139",
+          "141",
+          "137",
+          "130",
+          "126"
+        ],
+        "case_id": "S103",
+        "check_summary": "Difference triples repeat with each triple reduced by six.",
+        "confidence": 0.99,
+        "rule_summary": "Period-3 polynomial delta recurrence."
+      },
+      {
+        "answer": [
+          "-36",
+          "-39",
+          "-44",
+          "-47",
+          "-52"
+        ],
+        "case_id": "S104",
+        "check_summary": "Differences alternate -3,-5.",
+        "confidence": 1.0,
+        "rule_summary": "Period-2 arithmetic recurrence."
+      },
+      {
+        "answer": [
+          "-39990",
+          "39995",
+          "79981",
+          "239946",
+          "-239941"
+        ],
+        "case_id": "S105",
+        "check_summary": "Three interleaved streams each follow x'=-6x+b with stream-specific bias.",
+        "confidence": 0.99,
+        "rule_summary": "Three-stream interleaved affine recurrence."
+      },
+      {
+        "answer": [
+          "-1050495",
+          "-2860097",
+          "-7790715",
+          "-21247353",
+          "-57946791"
+        ],
+        "case_id": "S106",
+        "check_summary": "Strong exponential growth suggests phase-dependent affine streams.",
+        "confidence": 0.28,
+        "rule_summary": "Likely interleaved or periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "18",
+          "21",
+          "29",
+          "36",
+          "45"
+        ],
+        "case_id": "S107",
+        "check_summary": "Recent increments suggest an accelerating but irregular periodic pattern.",
+        "confidence": 0.22,
+        "rule_summary": "Likely phase-dependent polynomial delta recurrence."
+      },
+      {
+        "answer": [
+          "-2",
+          "55",
+          "35",
+          "51",
+          "-5"
+        ],
+        "case_id": "S108",
+        "check_summary": "Prefix appears to combine short periodic streams with changing affine increments.",
+        "confidence": 0.2,
+        "rule_summary": "Likely interleaved polynomial or affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-1FA44A1EE857-search-b09-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "42912a96cce3288c8147adb7689a8a084ba3452cc811a974bdebc39899d8b218",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-1FA44A1EE857-search-b09-proposer-5/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "-20",
+          "-15",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "Detected +5 progression with triangular-position drops of -3,-8,-13,-18.",
+        "confidence": 0.93,
+        "rule_summary": "Periodic delta sequence with linearly growing exceptional negative corrections."
+      },
+      {
+        "answer": [
+          "40",
+          "-640",
+          "55",
+          "-1280",
+          "72"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd subsequence has second differences 4; even subsequence doubles with alternating sign.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: quadratic odd stream and affine even stream."
+      },
+      {
+        "answer": [
+          "55",
+          "-25",
+          "72",
+          "-30",
+          "95"
+        ],
+        "case_id": "S159",
+        "check_summary": "Prefix supports a phase-periodic polynomial/interleaved continuation.",
+        "confidence": 0.28,
+        "rule_summary": "Best-fit phase-specific polynomial delta mechanism."
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd terms increase by 2; even terms increase by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Two affine streams interleaved by position."
+      },
+      {
+        "answer": [
+          "-11",
+          "39",
+          "7",
+          "-12",
+          "53"
+        ],
+        "case_id": "S161",
+        "check_summary": "Three residue-class streams show polynomial increments: +2,+3,+4,+5; -5,-4,-3; and +5,+8,+11,+14.",
+        "confidence": 0.99,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "11",
+          "10",
+          "16",
+          "12",
+          "19"
+        ],
+        "case_id": "S162",
+        "check_summary": "Continuation estimated from phase-specific periodic deltas.",
+        "confidence": 0.25,
+        "rule_summary": "Periodic polynomial-delta update."
+      },
+      {
+        "answer": [
+          "5",
+          "5",
+          "-362",
+          "0",
+          "6"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams: first decreases by successive integers, second increases by 1, third follows x'=2x-6.",
+        "confidence": 0.99,
+        "rule_summary": "Three-stream interleave with polynomial and affine recurrences."
+      },
+      {
+        "answer": [
+          "-5",
+          "67",
+          "61",
+          "-10",
+          "80"
+        ],
+        "case_id": "S164",
+        "check_summary": "Continuation estimated from residue-class polynomial behavior.",
+        "confidence": 0.24,
+        "rule_summary": "Three-way interleaved phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "72",
+          "-90",
+          "51",
+          "-130",
+          "91"
+        ],
+        "case_id": "S165",
+        "check_summary": "Continuation estimated from phase-specific polynomial increments.",
+        "confidence": 0.22,
+        "rule_summary": "Three-phase lagged polynomial mechanism."
+      },
+      {
+        "answer": [
+          "147",
+          "-21",
+          "127",
+          "-21",
+          "201"
+        ],
+        "case_id": "S166",
+        "check_summary": "Continuation estimated from interleaved phase-specific affine/polynomial streams.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-51",
+          "31",
+          "-2",
+          "-70",
+          "-79"
+        ],
+        "case_id": "S167",
+        "check_summary": "Continuation estimated from interleaved polynomial streams.",
+        "confidence": 0.2,
+        "rule_summary": "Three-stream interleave with phase-specific polynomial updates."
+      },
+      {
+        "answer": [
+          "106",
+          "138",
+          "170",
+          "202",
+          "234"
+        ],
+        "case_id": "S168",
+        "check_summary": "Final visible block advances by 24; extrapolated next block uses the next growing arithmetic step.",
+        "confidence": 0.31,
+        "rule_summary": "Growing arithmetic blocks with polynomially increasing steps."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-1FA44A1EE857-search-b14-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "6fda470532807ffd79f2c52a913b4d1fc8007337a26c8550217ff8027b43975a",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-1FA44A1EE857-search-b14-proposer-6/attempt-01"
+}

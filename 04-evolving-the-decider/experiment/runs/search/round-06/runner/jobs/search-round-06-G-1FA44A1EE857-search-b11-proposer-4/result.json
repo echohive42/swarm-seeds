@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b11",
+    "results": [
+      {
+        "answer": [
+          "3454367",
+          "-10363099",
+          "31089299",
+          "-93267895",
+          "279803687"
+        ],
+        "case_id": "S121",
+        "check_summary": "Alternating affine update x'=-3x+2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "37",
+          "39",
+          "43",
+          "45",
+          "49"
+        ],
+        "case_id": "S122",
+        "check_summary": "Interleaved arithmetic streams with step 6 within each stream.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "146745",
+          "-440244",
+          "-880487",
+          "-1760967",
+          "-5282907"
+        ],
+        "case_id": "S123",
+        "check_summary": "Three-phase affine updates repeat: 2x+1, 2x+7, -3x-9.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "49147",
+          "-98295",
+          "196587",
+          "-393175",
+          "786347"
+        ],
+        "case_id": "S124",
+        "check_summary": "Alternating affine updates: 2x-3 and -2x-1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "2535",
+          "3359",
+          "4338",
+          "5488",
+          "6838"
+        ],
+        "case_id": "S125",
+        "check_summary": "Finite-difference pattern is a degree-4 polynomial sequence.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-19008",
+          "-27473",
+          "-38684",
+          "-53251",
+          "-71868"
+        ],
+        "case_id": "S126",
+        "check_summary": "Finite differences follow a polynomial fourth-difference pattern.",
+        "confidence": 0.95,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-136",
+          "-183",
+          "-181",
+          "-235",
+          "-232"
+        ],
+        "case_id": "S127",
+        "check_summary": "Interleaved difference streams: one rises by 1, the other falls by 7.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-169",
+          "-160",
+          "-158",
+          "-149",
+          "-141"
+        ],
+        "case_id": "S128",
+        "check_summary": "Interleaved difference streams advance by 6 and 1 respectively.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "862",
+          "1293",
+          "1989",
+          "3116",
+          "4939"
+        ],
+        "case_id": "S129",
+        "check_summary": "Successive differences follow Fibonacci addition.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "1037",
+          "1280",
+          "1554",
+          "1862",
+          "2207"
+        ],
+        "case_id": "S130",
+        "check_summary": "Second differences increase by 3, giving a cubic polynomial.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "65",
+          "81",
+          "89",
+          "95",
+          "113"
+        ],
+        "case_id": "S131",
+        "check_summary": "Two interleaved streams have phase-specific arithmetic differences.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "1698179",
+          "4099766",
+          "9287709",
+          "22675190",
+          "54638091"
+        ],
+        "case_id": "S132",
+        "check_summary": "Second-order recurrence x'=2x_previous+x_two_back with repeating biases 6,2,-2.",
+        "confidence": 0.97,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-1FA44A1EE857-search-b11-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "c9d429782af35fc0949619eaea0b2ecf42c35f2d885ed836381b2122a6f5bc38",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-1FA44A1EE857-search-b11-proposer-4/attempt-01"
+}

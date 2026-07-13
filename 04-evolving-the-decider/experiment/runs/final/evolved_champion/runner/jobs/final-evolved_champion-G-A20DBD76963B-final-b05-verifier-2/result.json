@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b05",
+    "results": [
+      {
+        "answer": [
+          "3454364",
+          "10363097",
+          "31089296",
+          "93267893",
+          "279803684"
+        ],
+        "case_id": "F049",
+        "check_summary": "Exact replay of x'=3x+5.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "21",
+          "19",
+          "24",
+          "22",
+          "27"
+        ],
+        "case_id": "F050",
+        "check_summary": "Odd and even subsequences each advance by 3.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-5953",
+          "5956",
+          "-17864",
+          "17861",
+          "17858"
+        ],
+        "case_id": "F051",
+        "check_summary": "Exact three-phase affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic AFFINE"
+      },
+      {
+        "answer": [
+          "-3973",
+          "-5918",
+          "-8513",
+          "-11902",
+          "-16247"
+        ],
+        "case_id": "F052",
+        "check_summary": "Finite differences have constant fifth difference -1.",
+        "confidence": 1,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "516032",
+          "1245813",
+          "3007659",
+          "7261125",
+          "17529908"
+        ],
+        "case_id": "F053",
+        "check_summary": "Second-order recurrence with repeating biases -6,-1,+1.",
+        "confidence": 1,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "1066421",
+          "-3199269",
+          "-6398539",
+          "19195611",
+          "38391221"
+        ],
+        "case_id": "F054",
+        "check_summary": "Exact alternating updates 2x-1 and -3x-6.",
+        "confidence": 1,
+        "rule_summary": "Periodic AFFINE"
+      },
+      {
+        "answer": [
+          "-365",
+          "913",
+          "-757",
+          "1605",
+          "-1173"
+        ],
+        "case_id": "F055",
+        "check_summary": "Best-supported anonymous modular-affine continuation.",
+        "confidence": 0.42,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-127",
+          "-145",
+          "-166",
+          "-190",
+          "-217"
+        ],
+        "case_id": "F056",
+        "check_summary": "Best-supported lagged polynomial continuation.",
+        "confidence": 0.35,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "42",
+          "5",
+          "39",
+          "-5",
+          "-18"
+        ],
+        "case_id": "F057",
+        "check_summary": "Odd-stream increments decrease by 3; even-stream increments decrease by 3.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-78",
+          "-91",
+          "-105",
+          "-120",
+          "-136"
+        ],
+        "case_id": "F058",
+        "check_summary": "Successive differences continue -12,-13,-14,-15,-16.",
+        "confidence": 1,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-880",
+          "-1115",
+          "-1389",
+          "-1705",
+          "-2066"
+        ],
+        "case_id": "F059",
+        "check_summary": "Second differences decrease by successive multiples of 3.",
+        "confidence": 1,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1476",
+          "2207",
+          "3176",
+          "4429",
+          "6016"
+        ],
+        "case_id": "F060",
+        "check_summary": "Third differences increase by 4, giving constant fourth difference.",
+        "confidence": 1,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-evolved_champion-G-A20DBD76963B-final-b05-verifier-2",
+  "outcome": "valid_output",
+  "response_sha256": "c9fff845ba8597a07af997c89e58707ad95e3060985660879e3e7db7af4e8f6e",
+  "terminal_artifact_relpath": "jobs/final-evolved_champion-G-A20DBD76963B-final-b05-verifier-2/attempt-01"
+}

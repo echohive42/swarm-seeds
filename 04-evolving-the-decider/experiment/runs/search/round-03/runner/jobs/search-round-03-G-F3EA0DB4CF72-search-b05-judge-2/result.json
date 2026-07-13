@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b05",
+    "results": [
+      {
+        "answer": [
+          "-1988",
+          "-2743",
+          "-3689",
+          "-4855",
+          "-6272"
+        ],
+        "case_id": "S049",
+        "check_summary": "Plurality supports constant fourth difference -2.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "97519",
+          "195057",
+          "390092",
+          "780199",
+          "1560377"
+        ],
+        "case_id": "S050",
+        "check_summary": "Strong plurality supports multiplier 2 with repeating six-phase biases.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-31163",
+          "31164",
+          "93496",
+          "-93495",
+          "-280481"
+        ],
+        "case_id": "S051",
+        "check_summary": "Strong plurality supports alternating affine phases 3x+4 and -x+1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "406",
+          "-458",
+          "513",
+          "-571",
+          "632"
+        ],
+        "case_id": "S052",
+        "check_summary": "Plurality supports alternating polynomially growing signed differences.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-25",
+          "-39",
+          "-22",
+          "-36",
+          "-50"
+        ],
+        "case_id": "S053",
+        "check_summary": "Best coherent candidate is the phase-structured interleaved continuation.",
+        "confidence": 0.68,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-63",
+          "-77",
+          "-55",
+          "-70",
+          "-87"
+        ],
+        "case_id": "S054",
+        "check_summary": "Plurality supports three interleaved polynomial streams.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3720088",
+          "-11160262",
+          "-33480784",
+          "-100442350",
+          "-301327048"
+        ],
+        "case_id": "S055",
+        "check_summary": "All strong candidates support the exact update x_next=3x+2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-8853",
+          "-14005",
+          "-21310",
+          "-31374",
+          "-44906"
+        ],
+        "case_id": "S056",
+        "check_summary": "Plurality supports finite-difference polynomial continuation.",
+        "confidence": 0.72,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-27993",
+          "83983",
+          "27996",
+          "-167961",
+          "503887"
+        ],
+        "case_id": "S057",
+        "check_summary": "Phase-separated streams confirm three interleaved affine updates.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "59",
+          "63",
+          "68",
+          "72",
+          "77"
+        ],
+        "case_id": "S058",
+        "check_summary": "The observed increments alternate +5 and +4, starting with +5 next.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "53",
+          "121",
+          "208",
+          "316",
+          "447"
+        ],
+        "case_id": "S059",
+        "check_summary": "Strong plurality supports polynomial continuation with increasing second differences.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-1594",
+          "-2882",
+          "-4966",
+          "-8338",
+          "-13794"
+        ],
+        "case_id": "S060",
+        "check_summary": "Direct difference check supports d_next=d_previous+d_before.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-F3EA0DB4CF72-search-b05-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "c91f5aa112c098f24bb34776260f9fe4a351ec5c72e2739cfa45852a0a7b2b3e",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-F3EA0DB4CF72-search-b05-judge-2/attempt-01"
+}

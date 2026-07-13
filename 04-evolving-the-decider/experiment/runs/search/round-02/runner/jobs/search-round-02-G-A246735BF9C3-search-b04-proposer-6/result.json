@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-76",
+          "15",
+          "5",
+          "-101",
+          "15"
+        ],
+        "case_id": "S037",
+        "check_summary": "Uncertain extrapolation from irregular interleaved phase streams.",
+        "confidence": 0.08,
+        "rule_summary": "Likely INTERLEAVE or phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "83",
+          "123",
+          "154",
+          "126",
+          "189"
+        ],
+        "case_id": "S038",
+        "check_summary": "Irregular bounded sequence; extrapolation uncertain.",
+        "confidence": 0.06,
+        "rule_summary": "Likely MODAFFINE or INTERLEAVE."
+      },
+      {
+        "answer": [
+          "27",
+          "42",
+          "32",
+          "44",
+          "46"
+        ],
+        "case_id": "S039",
+        "check_summary": "No uniquely reliable manual fit identified.",
+        "confidence": 0.05,
+        "rule_summary": "Likely phase-specific or modular recurrence."
+      },
+      {
+        "answer": [
+          "49",
+          "69",
+          "89",
+          "109",
+          "129"
+        ],
+        "case_id": "S040",
+        "check_summary": "Growing arithmetic blocks with starts 15,18,25,36 and steps 4,8,12,16.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK with next block start 49, step 20."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Odd and even positions are separate arithmetic streams.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "54",
+          "27",
+          "70",
+          "46",
+          "31"
+        ],
+        "case_id": "S042",
+        "check_summary": "Irregular bounded sequence; extrapolation uncertain.",
+        "confidence": 0.05,
+        "rule_summary": "Likely MODAFFINE or INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-76",
+          "15",
+          "5",
+          "-101",
+          "15"
+        ],
+        "case_id": "S043",
+        "check_summary": "Three phase streams: first differences decrease by 5, second alternates, third decreases by 1.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE of polynomial/periodic streams."
+      },
+      {
+        "answer": [
+          "-22",
+          "-18",
+          "-28",
+          "-23",
+          "-10"
+        ],
+        "case_id": "S044",
+        "check_summary": "Three phase streams fit simple polynomial increments.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial updates."
+      },
+      {
+        "answer": [
+          "8",
+          "-4",
+          "100",
+          "-6",
+          "-12"
+        ],
+        "case_id": "S045",
+        "check_summary": "Irregular interleaving; extrapolation uncertain.",
+        "confidence": 0.05,
+        "rule_summary": "Likely INTERLEAVE or phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-40",
+          "-45",
+          "-50"
+        ],
+        "case_id": "S046",
+        "check_summary": "Growing arithmetic blocks: next block has five terms starting -15 with step -5.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "98",
+          "144",
+          "190",
+          "236",
+          "282"
+        ],
+        "case_id": "S047",
+        "check_summary": "Later arithmetic blocks have steps 22,30,38; next step extrapolated as 46.",
+        "confidence": 0.22,
+        "rule_summary": "Likely GROWBLOCK with polynomial step progression."
+      },
+      {
+        "answer": [
+          "-13",
+          "12",
+          "-11",
+          "-10",
+          "-46"
+        ],
+        "case_id": "S048",
+        "check_summary": "Four phase streams; phase 1 and 3 have second difference -12, phases 2 and 4 are constant.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE of phase-specific polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-A246735BF9C3-search-b04-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "7ef9957be824d374771918ec01a846bce3d12655f8242a070704439b23c4de4a",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-A246735BF9C3-search-b04-proposer-6/attempt-01"
+}

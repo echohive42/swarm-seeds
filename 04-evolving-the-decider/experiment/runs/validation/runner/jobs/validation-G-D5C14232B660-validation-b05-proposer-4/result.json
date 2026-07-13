@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b05",
+    "results": [
+      {
+        "answer": [
+          "-201",
+          "-269",
+          "-349",
+          "-444",
+          "-556"
+        ],
+        "case_id": "V049",
+        "check_summary": "Periodic-delta extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-37021",
+          "74049",
+          "-148115",
+          "296281",
+          "-592579"
+        ],
+        "case_id": "V050",
+        "check_summary": "Alternating affine extrapolation.",
+        "confidence": 0.62,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-10132",
+          "-15661",
+          "-23687",
+          "-34747",
+          "-49392"
+        ],
+        "case_id": "V051",
+        "check_summary": "Lagged recurrence extrapolation.",
+        "confidence": 0.2,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-14217",
+          "14218",
+          "-42651",
+          "42652",
+          "-127953"
+        ],
+        "case_id": "V052",
+        "check_summary": "Alternating phase-affine rule replayed.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "143",
+          "168",
+          "180",
+          "207",
+          "225"
+        ],
+        "case_id": "V053",
+        "check_summary": "Periodic polynomial-delta extrapolation.",
+        "confidence": 0.25,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-49300",
+          "-118851",
+          "-286570",
+          "-690075",
+          "-1662360"
+        ],
+        "case_id": "V054",
+        "check_summary": "Periodic affine extrapolation.",
+        "confidence": 0.27,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-1611",
+          "1027",
+          "-2635",
+          "-2101",
+          "5327"
+        ],
+        "case_id": "V055",
+        "check_summary": "Alternating affine-stream extrapolation.",
+        "confidence": 0.31,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-227056",
+          "113525",
+          "227054",
+          "-1362352",
+          "6811757"
+        ],
+        "case_id": "V056",
+        "check_summary": "Three-phase affine recurrence replayed.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-23",
+          "-31",
+          "-26",
+          "-34",
+          "-29"
+        ],
+        "case_id": "V057",
+        "check_summary": "Two interleaved arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "5048689",
+          "15146068",
+          "45438205",
+          "136314616",
+          "408943849"
+        ],
+        "case_id": "V058",
+        "check_summary": "Constant affine recurrence x'=3x+1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "308",
+          "433",
+          "582",
+          "763",
+          "980"
+        ],
+        "case_id": "V059",
+        "check_summary": "Cubic polynomial continuation.",
+        "confidence": 0.9,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-4467",
+          "-5931",
+          "-7725",
+          "-9889",
+          "-12466"
+        ],
+        "case_id": "V060",
+        "check_summary": "Polynomial finite-difference continuation.",
+        "confidence": 0.92,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b05-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "d50cf2b1ec9de4e850054246d34651769695287912b622d006e0629d9aa01cde",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b05-proposer-4/attempt-01"
+}

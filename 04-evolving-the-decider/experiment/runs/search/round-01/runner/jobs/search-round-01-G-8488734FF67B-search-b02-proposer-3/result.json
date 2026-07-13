@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "69",
+          "4",
+          "93"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd positions follow increments 0,4,8,12,16; even positions alternate -5,4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: quadratic odd stream and alternating even stream."
+      },
+      {
+        "answer": [
+          "237",
+          "-597",
+          "457",
+          "-1328",
+          "752"
+        ],
+        "case_id": "S014",
+        "check_summary": "Candidate extrapolation from separate interleaved polynomial streams.",
+        "confidence": 0.08,
+        "rule_summary": "Interleaved phase-specific polynomial extrapolation."
+      },
+      {
+        "answer": [
+          "61",
+          "-42",
+          "-24",
+          "-67",
+          "-44"
+        ],
+        "case_id": "S015",
+        "check_summary": "Candidate three-phase interleaved extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Three interleaved lagged streams."
+      },
+      {
+        "answer": [
+          "40",
+          "-3",
+          "31",
+          "-5",
+          "18"
+        ],
+        "case_id": "S016",
+        "check_summary": "Candidate phase-specific lagged extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5; even terms decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-20",
+          "-5",
+          "-31",
+          "-9",
+          "-44"
+        ],
+        "case_id": "S018",
+        "check_summary": "Candidate interleaved stream continuation.",
+        "confidence": 0.06,
+        "rule_summary": "Phase-specific lagged polynomial updates."
+      },
+      {
+        "answer": [
+          "7",
+          "-8",
+          "-13",
+          "-24",
+          "-40"
+        ],
+        "case_id": "S019",
+        "check_summary": "Candidate modular phase recurrence continuation.",
+        "confidence": 0.05,
+        "rule_summary": "Periodic modular affine recurrence."
+      },
+      {
+        "answer": [
+          "-46",
+          "-20",
+          "56",
+          "-42",
+          "-68"
+        ],
+        "case_id": "S020",
+        "check_summary": "Candidate interleaved stream continuation.",
+        "confidence": 0.06,
+        "rule_summary": "Multiple interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-38",
+          "-54",
+          "-58",
+          "-74",
+          "-82"
+        ],
+        "case_id": "S021",
+        "check_summary": "Candidate phase-specific recurrence continuation.",
+        "confidence": 0.05,
+        "rule_summary": "Interleaved lagged polynomial streams."
+      },
+      {
+        "answer": [
+          "-76",
+          "48",
+          "-131",
+          "91",
+          "-204"
+        ],
+        "case_id": "S022",
+        "check_summary": "Candidate modular/interleaved continuation.",
+        "confidence": 0.04,
+        "rule_summary": "Periodic affine updates with phase dependence."
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-22",
+          "-20"
+        ],
+        "case_id": "S023",
+        "check_summary": "Growing arithmetic blocks: each block starts 5 lower and advances by 2.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK with block lengths increasing by one."
+      },
+      {
+        "answer": [
+          "-64",
+          "34",
+          "-110",
+          "-61",
+          "-166"
+        ],
+        "case_id": "S024",
+        "check_summary": "Candidate phase-specific affine continuation.",
+        "confidence": 0.04,
+        "rule_summary": "Periodic affine or modular affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-8488734FF67B-search-b02-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "ef7540aab3b5188360dbd624eec880ea1cb5bd7a0179781241850addf07d9dba",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-8488734FF67B-search-b02-proposer-3/attempt-01"
+}

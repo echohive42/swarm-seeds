@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "42",
+          "39",
+          "50",
+          "43",
+          "38"
+        ],
+        "case_id": "S061",
+        "check_summary": "Selected the strongest available periodic/interleaved continuation despite weak agreement.",
+        "confidence": 0.18,
+        "rule_summary": "Likely periodic phase-specific updates."
+      },
+      {
+        "answer": [
+          "-19",
+          "71",
+          "-59",
+          "93",
+          "-113"
+        ],
+        "case_id": "S062",
+        "check_summary": "Selected the highest-confidence coherent periodic-delta continuation.",
+        "confidence": 0.12,
+        "rule_summary": "PDELTA."
+      },
+      {
+        "answer": [
+          "-4",
+          "104",
+          "-6",
+          "128",
+          "-20"
+        ],
+        "case_id": "S063",
+        "check_summary": "Selected the most coherent phase-split polynomial continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-11",
+          "-814",
+          "-153",
+          "-1710",
+          "-305"
+        ],
+        "case_id": "S064",
+        "check_summary": "Selected the strongest available alternating affine-phase explanation.",
+        "confidence": 0.1,
+        "rule_summary": "AFFINE."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd and even subsequences replay as arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "229",
+          "48",
+          "7",
+          "453",
+          "70"
+        ],
+        "case_id": "S066",
+        "check_summary": "Three phase streams provide a strong full-prefix interleave fit.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of polynomial and affine streams."
+      },
+      {
+        "answer": [
+          "-175",
+          "-206",
+          "-237",
+          "-268",
+          "-299"
+        ],
+        "case_id": "S067",
+        "check_summary": "Continuation follows the terminal growing arithmetic block.",
+        "confidence": 0.58,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-43",
+          "-62",
+          "26",
+          "2",
+          "-22"
+        ],
+        "case_id": "S068",
+        "check_summary": "Growing negative blocks with singleton positive impulses fit the prefix.",
+        "confidence": 0.9,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "16",
+          "-21",
+          "21",
+          "24",
+          "-32"
+        ],
+        "case_id": "S069",
+        "check_summary": "Three residue-class subsequences follow quadratic increment patterns.",
+        "confidence": 0.95,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "0",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Interleaved streams replay exactly: constant/alternating odd stream and quadratic even stream.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      },
+      {
+        "answer": [
+          "62",
+          "16",
+          "-7",
+          "91",
+          "19"
+        ],
+        "case_id": "S071",
+        "check_summary": "Selected the strongest available phase-split polynomial continuation, though evidence is weak.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-29",
+          "-33",
+          "-20",
+          "-24",
+          "-28"
+        ],
+        "case_id": "S072",
+        "check_summary": "Growing blocks of decrement -4 are separated by increasing positive jumps.",
+        "confidence": 0.96,
+        "rule_summary": "GROWBLOCK."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-E2ACA04030E1-search-b06-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "db580af72e7df6557a3fdbe0157c757e7809bbc9b65edb8f33e7eda6f7ed6408",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-E2ACA04030E1-search-b06-judge-2/attempt-01"
+}

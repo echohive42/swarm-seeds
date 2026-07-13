@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Period-4 affine replay x'=-4x+5 matches the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Four-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "60",
+          "65",
+          "69",
+          "74",
+          "78"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments +4,+5 reproduce the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic increment sequence."
+      },
+      {
+        "answer": [
+          "-2786",
+          "-4878",
+          "-7930",
+          "-12226",
+          "-18100"
+        ],
+        "case_id": "S171",
+        "check_summary": "Odd and even subsequences continue with matching constant fifth finite differences.",
+        "confidence": 0.91,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Constant fourth finite difference -1 supports the quartic continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Quartic polynomial."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences increase by 1 throughout the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Cubic polynomial."
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18815",
+          "-30443"
+        ],
+        "case_id": "S174",
+        "check_summary": "Periodic biased second-order recurrence exactly replays the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 with repeating biases -2,-2,3."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97897621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating affine updates 3x+1 and -2x+6 reproduce all terms.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 affine recurrence."
+      },
+      {
+        "answer": [
+          "71",
+          "50",
+          "55",
+          "66",
+          "68"
+        ],
+        "case_id": "S176",
+        "check_summary": "Four phase-specific polynomial delta streams reproduce the prefix.",
+        "confidence": 0.97,
+        "rule_summary": "Period-4 interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3436997"
+        ],
+        "case_id": "S177",
+        "check_summary": "The repeating affine phase cycle -2x-9, 2x+9, 2x-7 matches the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence x'=2x."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "The exact six-term cycle repeats from the observed period.",
+        "confidence": 1.0,
+        "rule_summary": "Period-6 sequence."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Parity-separated difference streams continue with decrements 7 and 6.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 polynomial deltas."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-A20DBD76963B-search-b15-verifier-2",
+  "outcome": "valid_output",
+  "response_sha256": "1bcfa2ea38518adc4d50d76d406db83b4bb9cb526c299d02ffadcef1795f6354",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-A20DBD76963B-search-b15-verifier-2/attempt-01"
+}

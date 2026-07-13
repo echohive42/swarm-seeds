@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "-1175078",
+          "1175077",
+          "3525225",
+          "10575673",
+          "-10575674"
+        ],
+        "case_id": "F025",
+        "check_summary": "Three-phase affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-797164",
+          "-2391487",
+          "-7174456",
+          "-21523363",
+          "-64570084"
+        ],
+        "case_id": "F026",
+        "check_summary": "Constant affine replay x'=3x+5.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE."
+      },
+      {
+        "answer": [
+          "24302",
+          "-48502",
+          "97080",
+          "-194132",
+          "388254"
+        ],
+        "case_id": "F027",
+        "check_summary": "Alternating interleaved recurrence extrapolation.",
+        "confidence": 0.42,
+        "rule_summary": "INTERLEAVE/LIN2."
+      },
+      {
+        "answer": [
+          "37297",
+          "74607",
+          "149199",
+          "298413",
+          "596809"
+        ],
+        "case_id": "F028",
+        "check_summary": "Alternating doubled recurrence with odd corrections.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE periodic."
+      },
+      {
+        "answer": [
+          "5402",
+          "7395",
+          "9941",
+          "13152",
+          "17155"
+        ],
+        "case_id": "F029",
+        "check_summary": "Finite-difference polynomial continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "-7",
+          "-35",
+          "-47",
+          "-21",
+          "-52"
+        ],
+        "case_id": "F030",
+        "check_summary": "Three interleaved polynomial streams.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "721",
+          "1115",
+          "1491",
+          "1841",
+          "2156"
+        ],
+        "case_id": "F031",
+        "check_summary": "Finite-difference continuation.",
+        "confidence": 0.97,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "615004",
+          "1671772",
+          "4541892",
+          "12349420",
+          "33586644"
+        ],
+        "case_id": "F032",
+        "check_summary": "Exponential affine-pattern extrapolation.",
+        "confidence": 0.35,
+        "rule_summary": "AFFINE/PDELTA."
+      },
+      {
+        "answer": [
+          "159",
+          "211",
+          "220",
+          "326",
+          "441"
+        ],
+        "case_id": "F033",
+        "check_summary": "Phase-interleaved polynomial extrapolation.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "448",
+          "585",
+          "748",
+          "939",
+          "1160"
+        ],
+        "case_id": "F034",
+        "check_summary": "Second differences increase by two.",
+        "confidence": 0.99,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "-2771363",
+          "-5542730",
+          "-16628195",
+          "-33256394",
+          "-99769187"
+        ],
+        "case_id": "F035",
+        "check_summary": "Alternating affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE periodic."
+      },
+      {
+        "answer": [
+          "23",
+          "28",
+          "29",
+          "34",
+          "35"
+        ],
+        "case_id": "F036",
+        "check_summary": "Alternating increments +1,+5.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA periodic."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b03-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "c24fc86a9a4d294aa1f970ee4516a9bfd9e6245ca01394c780897d64e921cf2b",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b03-proposer-4/attempt-01"
+}

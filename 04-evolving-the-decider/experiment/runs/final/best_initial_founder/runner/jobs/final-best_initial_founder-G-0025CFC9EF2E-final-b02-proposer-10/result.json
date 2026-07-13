@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "4",
+          "-28",
+          "-2",
+          "-6",
+          "-30"
+        ],
+        "case_id": "F013",
+        "check_summary": "Tentative periodic phase-delta extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "PDELTA-like phase-specific integer deltas."
+      },
+      {
+        "answer": [
+          "138",
+          "18",
+          "100",
+          "-5",
+          "-39"
+        ],
+        "case_id": "F014",
+        "check_summary": "Tentative interleaved-stream extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE-like stream behavior."
+      },
+      {
+        "answer": [
+          "-3",
+          "-8",
+          "-16",
+          "-8",
+          "-20"
+        ],
+        "case_id": "F015",
+        "check_summary": "Tentative phase-interleaved extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE-like streams."
+      },
+      {
+        "answer": [
+          "-73",
+          "-95",
+          "59",
+          "-117",
+          "-139"
+        ],
+        "case_id": "F016",
+        "check_summary": "Tentative periodic recurrence extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Phase-dependent linear or affine recurrence."
+      },
+      {
+        "answer": [
+          "72",
+          "-18",
+          "-3",
+          "-20",
+          "-1"
+        ],
+        "case_id": "F017",
+        "check_summary": "Tentative interleaved-stream extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE-like streams."
+      },
+      {
+        "answer": [
+          "-7",
+          "25",
+          "-9",
+          "28",
+          "-11"
+        ],
+        "case_id": "F018",
+        "check_summary": "Odd and even subsequences are arithmetic with step -2 and +3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "71",
+          "-12",
+          "97",
+          "15",
+          "127"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd subsequence has successive increments 2,6,10,14,18; even subsequence alternates -12,15.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of a quadratic stream and a periodic affine stream."
+      },
+      {
+        "answer": [
+          "-120",
+          "164",
+          "-192",
+          "298",
+          "-376"
+        ],
+        "case_id": "F020",
+        "check_summary": "Tentative alternating affine/recurrence extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE or phase-dependent AFFINE."
+      },
+      {
+        "answer": [
+          "34",
+          "-5",
+          "29",
+          "53",
+          "-11"
+        ],
+        "case_id": "F021",
+        "check_summary": "Three residue-class streams show polynomial phase increments.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "-10",
+          "510",
+          "-18",
+          "-14",
+          "1250"
+        ],
+        "case_id": "F022",
+        "check_summary": "Tentative periodic affine-modular extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE-like phase recurrence."
+      },
+      {
+        "answer": [
+          "36",
+          "36",
+          "41",
+          "46",
+          "46"
+        ],
+        "case_id": "F023",
+        "check_summary": "First differences repeat exactly as 5,0,5.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-3 deltas."
+      },
+      {
+        "answer": [
+          "91",
+          "4",
+          "23",
+          "50",
+          "83"
+        ],
+        "case_id": "F024",
+        "check_summary": "Phase-specific difference extrapolation from repeated residue patterns.",
+        "confidence": 0.88,
+        "rule_summary": "PDELTA with period-4 polynomial phase deltas."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-best_initial_founder-G-0025CFC9EF2E-final-b02-proposer-10",
+  "outcome": "valid_output",
+  "response_sha256": "58d033e052c7016e89ecf583a908121423a4db2bdee3ab7b133067883b193642",
+  "terminal_artifact_relpath": "jobs/final-best_initial_founder-G-0025CFC9EF2E-final-b02-proposer-10/attempt-01"
+}

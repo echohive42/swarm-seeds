@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b01",
+    "results": [
+      {
+        "answer": [
+          "-1288823",
+          "-3866468",
+          "-7732937",
+          "15465865",
+          "46397596"
+        ],
+        "case_id": "V001",
+        "check_summary": "Three-phase affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine updates: 2x-1, -2x-9, 3x+1."
+      },
+      {
+        "answer": [
+          "2602",
+          "3713",
+          "5134",
+          "6917",
+          "8700"
+        ],
+        "case_id": "V002",
+        "check_summary": "Finite-difference continuation; final term uncertain.",
+        "confidence": 0.78,
+        "rule_summary": "Polynomial sequence with fourth finite difference 4."
+      },
+      {
+        "answer": [
+          "43",
+          "47",
+          "50",
+          "54",
+          "57"
+        ],
+        "case_id": "V003",
+        "check_summary": "Alternating increments replay.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved arithmetic increments +3,+4."
+      },
+      {
+        "answer": [
+          "-2590778",
+          "7772327",
+          "-23316977",
+          "69950924",
+          "-209852768"
+        ],
+        "case_id": "V004",
+        "check_summary": "Alternating affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "Alternating updates -3x+4 and -3x-7."
+      },
+      {
+        "answer": [
+          "1727182",
+          "-5165551",
+          "15496648",
+          "-46489949",
+          "139469842"
+        ],
+        "case_id": "V005",
+        "check_summary": "Constant affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "Update x -> -3x-5."
+      },
+      {
+        "answer": [
+          "-321",
+          "1282",
+          "-5134",
+          "20501",
+          "-81978"
+        ],
+        "case_id": "V006",
+        "check_summary": "Low-confidence periodic recurrence extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "Candidate periodic affine/second-order pattern."
+      },
+      {
+        "answer": [
+          "-101",
+          "-119",
+          "-137",
+          "-155",
+          "-173"
+        ],
+        "case_id": "V007",
+        "check_summary": "Low-confidence continuation.",
+        "confidence": 0.12,
+        "rule_summary": "Candidate periodic polynomial-delta pattern."
+      },
+      {
+        "answer": [
+          "-15063",
+          "-21095",
+          "-28990",
+          "-39163",
+          "-52084"
+        ],
+        "case_id": "V008",
+        "check_summary": "Finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence with fifth finite difference -4."
+      },
+      {
+        "answer": [
+          "-566485",
+          "1367890",
+          "-3304215",
+          "7985254",
+          "-19294603"
+        ],
+        "case_id": "V009",
+        "check_summary": "Low-confidence exponential recurrence extrapolation.",
+        "confidence": 0.15,
+        "rule_summary": "Candidate periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-36",
+          "43",
+          "-58",
+          "81",
+          "-106"
+        ],
+        "case_id": "V010",
+        "check_summary": "Low-confidence interleaved continuation.",
+        "confidence": 0.14,
+        "rule_summary": "Candidate two-stream polynomial/affine interleave."
+      },
+      {
+        "answer": [
+          "101",
+          "-186",
+          "341",
+          "-624",
+          "1143"
+        ],
+        "case_id": "V011",
+        "check_summary": "Low-confidence recurrence extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Candidate periodic second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "-946",
+          "-1470",
+          "-2201",
+          "-3160",
+          "-4371"
+        ],
+        "case_id": "V012",
+        "check_summary": "Finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence with constant third difference -3."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-38D833F18B84-validation-b01-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "ce8ff545cb73d2f50b2e7b25e3f0d439b0b54e076ae3645868fdad311a6841dc",
+  "terminal_artifact_relpath": "jobs/validation-G-38D833F18B84-validation-b01-proposer-5/attempt-01"
+}

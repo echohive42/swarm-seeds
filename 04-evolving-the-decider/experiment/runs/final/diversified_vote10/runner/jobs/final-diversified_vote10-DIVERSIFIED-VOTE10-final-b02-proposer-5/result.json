@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "24",
+          "-46",
+          "10",
+          "-30"
+        ],
+        "case_id": "F013",
+        "check_summary": "Fits phase-periodic polynomial extrapolation with six-phase structure.",
+        "confidence": 0.32,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "34",
+          "19",
+          "45",
+          "20",
+          "51"
+        ],
+        "case_id": "F014",
+        "check_summary": "Extrapolation from interleaved low-degree streams.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-16",
+          "-32",
+          "-1",
+          "2",
+          "-64"
+        ],
+        "case_id": "F015",
+        "check_summary": "Extrapolation from alternating subsequences.",
+        "confidence": 0.14,
+        "rule_summary": "Interleaved phase-specific affine streams."
+      },
+      {
+        "answer": [
+          "-73",
+          "55",
+          "33",
+          "11",
+          "-11"
+        ],
+        "case_id": "F016",
+        "check_summary": "Fits growing arithmetic blocks with changing starts and steps.",
+        "confidence": 0.28,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "84",
+          "91",
+          "98",
+          "105",
+          "112"
+        ],
+        "case_id": "F017",
+        "check_summary": "Extrapolation from apparent blockwise/interleaved progression.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-7",
+          "25",
+          "-9",
+          "28",
+          "-11"
+        ],
+        "case_id": "F018",
+        "check_summary": "Odd and even positions are separate arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "73",
+          "-12",
+          "97",
+          "15",
+          "121"
+        ],
+        "case_id": "F019",
+        "check_summary": "Four-phase structure; phase-1 and phase-3 subsequences are quadratic.",
+        "confidence": 0.98,
+        "rule_summary": "Phase-specific polynomial updates."
+      },
+      {
+        "answer": [
+          "-15",
+          "161",
+          "-128",
+          "-20",
+          "306"
+        ],
+        "case_id": "F020",
+        "check_summary": "Extrapolation from alternating rapidly varying subsequences.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine or second-order recurrence."
+      },
+      {
+        "answer": [
+          "24",
+          "29",
+          "27",
+          "36",
+          "31"
+        ],
+        "case_id": "F021",
+        "check_summary": "Extrapolation from interleaved phase streams.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-156",
+          "18",
+          "-246",
+          "30",
+          "-390"
+        ],
+        "case_id": "F022",
+        "check_summary": "Extrapolation from a periodic second-order recurrence.",
+        "confidence": 0.11,
+        "rule_summary": "Phase-specific second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "26",
+          "31",
+          "36",
+          "41",
+          "46"
+        ],
+        "case_id": "F023",
+        "check_summary": "Growing blocks advance their start and retain unit step.",
+        "confidence": 0.96,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "89",
+          "32",
+          "63",
+          "91",
+          "38"
+        ],
+        "case_id": "F024",
+        "check_summary": "Extrapolation from three interleaved nonlinear streams.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b02-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "c729f4e0a11172e1c5dca61cd7c49476c156dbe3795568e20a716e6da3bac6d8",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b02-proposer-5/attempt-01"
+}

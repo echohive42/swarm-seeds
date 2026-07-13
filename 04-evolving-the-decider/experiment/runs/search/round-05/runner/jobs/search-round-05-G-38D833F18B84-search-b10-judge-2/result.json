@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "24",
+          "9",
+          "36",
+          "9",
+          "50"
+        ],
+        "case_id": "S109",
+        "check_summary": "Odd and even positions form coherent interleaved arithmetic/quadratic streams.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "12",
+          "5",
+          "-12",
+          "-2",
+          "7"
+        ],
+        "case_id": "S110",
+        "check_summary": "Period-6 phase streams continue with constant and linear phase trends.",
+        "confidence": 0.72,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "81",
+          "96",
+          "111",
+          "126",
+          "141"
+        ],
+        "case_id": "S111",
+        "check_summary": "The strongest coherent continuation extends the late arithmetic-growth structure.",
+        "confidence": 0.25,
+        "rule_summary": "PDELTA or GROWBLOCK"
+      },
+      {
+        "answer": [
+          "1",
+          "51",
+          "5",
+          "8",
+          "73"
+        ],
+        "case_id": "S112",
+        "check_summary": "Period-3 phase differences support the proposed polynomial-delta continuation.",
+        "confidence": 0.9,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "61",
+          "85",
+          "81",
+          "107",
+          "94"
+        ],
+        "case_id": "S113",
+        "check_summary": "Best available continuation from the competing interleaved phase fits.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-25",
+          "-16",
+          "29",
+          "-27",
+          "-15"
+        ],
+        "case_id": "S114",
+        "check_summary": "Alternating phase behavior is most coherently explained by the proposed affine continuation.",
+        "confidence": 0.18,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "42",
+          "82",
+          "61",
+          "122",
+          "85"
+        ],
+        "case_id": "S115",
+        "check_summary": "The proposed continuation best matches the visible growing-block resets and expansions.",
+        "confidence": 0.16,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd terms decrement by one and even terms decrement by four exactly.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "40",
+          "20",
+          "67",
+          "14",
+          "78"
+        ],
+        "case_id": "S117",
+        "check_summary": "Best-supported continuation among the irregular interleaved phase candidates.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "13",
+          "8",
+          "3",
+          "26",
+          "21"
+        ],
+        "case_id": "S118",
+        "check_summary": "Repeated -5 deltas are interrupted by positive jumps with increasing spacing and size.",
+        "confidence": 0.94,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "85",
+          "89",
+          "4",
+          "118",
+          "123"
+        ],
+        "case_id": "S119",
+        "check_summary": "Three residue-class streams show two increasing phases and one declining phase.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "210",
+          "193",
+          "176",
+          "159",
+          "142"
+        ],
+        "case_id": "S120",
+        "check_summary": "The next growing arithmetic block continues with the established decrement.",
+        "confidence": 0.9,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-38D833F18B84-search-b10-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "4c30f930958ea394d1af0d309a432ef098617c6556b233a79c9d55298c994141",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-38D833F18B84-search-b10-judge-2/attempt-01"
+}

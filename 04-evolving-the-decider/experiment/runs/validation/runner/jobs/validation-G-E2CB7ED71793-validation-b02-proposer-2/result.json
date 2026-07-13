@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-19",
+          "-36",
+          "-34",
+          "-63",
+          "-51"
+        ],
+        "case_id": "V013",
+        "check_summary": "Used periodic-difference extrapolation from the visible three-term phase blocks.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-12",
+          "-14",
+          "-14",
+          "-16",
+          "-16"
+        ],
+        "case_id": "V014",
+        "check_summary": "Extended the dominant near-periodic decrement pattern.",
+        "confidence": 0.16,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-24",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V015",
+        "check_summary": "Extrapolated alternating subsequence behavior.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V016",
+        "check_summary": "Odd terms decrease by 4 and even terms increase by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V017",
+        "check_summary": "Odd subsequence has successive decrements; even subsequence differences double.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-14",
+          "-7",
+          "-20",
+          "-13",
+          "-26"
+        ],
+        "case_id": "V018",
+        "check_summary": "Extended the apparent periodic phase pattern.",
+        "confidence": 0.14,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "15",
+          "20",
+          "9",
+          "3",
+          "-25"
+        ],
+        "case_id": "V019",
+        "check_summary": "Extended alternating phase behavior.",
+        "confidence": 0.13,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "112",
+          "73",
+          "127",
+          "58",
+          "143"
+        ],
+        "case_id": "V020",
+        "check_summary": "Extrapolated phase-specific growth in the observed differences.",
+        "confidence": 0.11,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-43",
+          "-12",
+          "-55",
+          "-36",
+          "-67"
+        ],
+        "case_id": "V021",
+        "check_summary": "Extended the apparent modular/periodic recurrence.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-8",
+          "151",
+          "-94",
+          "291",
+          "-112"
+        ],
+        "case_id": "V022",
+        "check_summary": "Extended alternating sign and growth behavior.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-127",
+          "-138",
+          "-156",
+          "-196",
+          "-185"
+        ],
+        "case_id": "V023",
+        "check_summary": "Extended lagged alternating differences.",
+        "confidence": 0.1,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-7",
+          "18",
+          "-10",
+          "33",
+          "-13"
+        ],
+        "case_id": "V024",
+        "check_summary": "Extended the apparent phase-specific increment pattern.",
+        "confidence": 0.1,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-E2CB7ED71793-validation-b02-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "c01d83eb59c3530a5a53997b1f02c006471b542dd5ec93e0b4c1b4f7f6a6f460",
+  "terminal_artifact_relpath": "jobs/validation-G-E2CB7ED71793-validation-b02-proposer-2/attempt-01"
+}

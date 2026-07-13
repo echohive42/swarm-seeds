@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "-62",
+          "-119",
+          "41",
+          "-183",
+          "-388"
+        ],
+        "case_id": "S061",
+        "check_summary": "Three phase streams; third stream has successive increments 1,2,4.",
+        "confidence": 0.24,
+        "rule_summary": "Phase-interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-54",
+          "-9",
+          "-133",
+          "-50",
+          "-285"
+        ],
+        "case_id": "S062",
+        "check_summary": "Prefix treated as alternating phase-specific polynomial updates.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic delta recurrence."
+      },
+      {
+        "answer": [
+          "-11",
+          "-17",
+          "-29",
+          "-24",
+          "-35"
+        ],
+        "case_id": "S063",
+        "check_summary": "Phase-interleaved streams with polynomial/affine continuation.",
+        "confidence": 0.14,
+        "rule_summary": "Interleaved phase streams."
+      },
+      {
+        "answer": [
+          "-1110",
+          "-438",
+          "-1566",
+          "-1074",
+          "-2070"
+        ],
+        "case_id": "S064",
+        "check_summary": "Alternating phase recurrence inferred from full prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd terms decrease by 4; even terms increase by 2.",
+        "confidence": 0.99,
+        "rule_summary": "Two affine streams interleaved."
+      },
+      {
+        "answer": [
+          "229",
+          "48",
+          "7",
+          "452",
+          "12"
+        ],
+        "case_id": "S066",
+        "check_summary": "Modulo-3 streams: doubled differences, quadratic increments, and +5 arithmetic stream.",
+        "confidence": 0.96,
+        "rule_summary": "Three interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-175",
+          "-206",
+          "-110",
+          "-149",
+          "-188"
+        ],
+        "case_id": "S067",
+        "check_summary": "Growing arithmetic blocks with steps -7,-15,-23,-31,-39 and polynomial starts.",
+        "confidence": 0.82,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-54",
+          "-14",
+          "-43",
+          "-23",
+          "-32"
+        ],
+        "case_id": "S068",
+        "check_summary": "Periodic phase-specific continuation inferred from blockwise differences.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic polynomial-delta recurrence."
+      },
+      {
+        "answer": [
+          "-2",
+          "-25",
+          "-4",
+          "-37",
+          "-6"
+        ],
+        "case_id": "S069",
+        "check_summary": "Alternating phase streams with periodic affine deltas.",
+        "confidence": 0.15,
+        "rule_summary": "Two-stream interleave."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "0",
+          "-103",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd positions alternate -3,0; even-position differences are -5,-8,-11,-14,-17.",
+        "confidence": 0.98,
+        "rule_summary": "Two interleaved streams."
+      },
+      {
+        "answer": [
+          "-6",
+          "-9",
+          "-2",
+          "-8",
+          "-5"
+        ],
+        "case_id": "S071",
+        "check_summary": "Phase-interleaved polynomial streams inferred from residue classes.",
+        "confidence": 0.13,
+        "rule_summary": "Interleave."
+      },
+      {
+        "answer": [
+          "-29",
+          "-12",
+          "-16",
+          "-20",
+          "-24"
+        ],
+        "case_id": "S072",
+        "check_summary": "Blocks have three -4 steps; every fourth transition rises by 1,5,9,13.",
+        "confidence": 0.94,
+        "rule_summary": "Periodic delta recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-7652548270F5-search-b06-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "8864e8934eb7b0a203ab5f9caec6a2196e5eaa1a3cf51ba6a02c3c6ed1494c33",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-7652548270F5-search-b06-proposer-8/attempt-01"
+}

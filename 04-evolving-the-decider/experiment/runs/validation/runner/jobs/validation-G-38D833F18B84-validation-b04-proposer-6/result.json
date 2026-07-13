@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "435",
+          "-65",
+          "875",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Odd subsequence has successive decrements 5,6,7,8,9; even subsequence follows x↦-2x+5.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: quadratic odd stream and affine even stream."
+      },
+      {
+        "answer": [
+          "-19",
+          "5",
+          "29",
+          "53",
+          "-13"
+        ],
+        "case_id": "V038",
+        "check_summary": "Observed repeated positive phase increments with increasingly negative reset steps.",
+        "confidence": 0.28,
+        "rule_summary": "Periodic phase-delta pattern."
+      },
+      {
+        "answer": [
+          "83",
+          "-112",
+          "-157",
+          "105",
+          "-197"
+        ],
+        "case_id": "V039",
+        "check_summary": "First phase stream shows increments 7,10,13,16, continuing quadratically; remaining phases extrapolated by their observed trends.",
+        "confidence": 0.22,
+        "rule_summary": "Three interleaved streams."
+      },
+      {
+        "answer": [
+          "22",
+          "26",
+          "26",
+          "30",
+          "30"
+        ],
+        "case_id": "V040",
+        "check_summary": "Observed recurring arithmetic phase increments with intermittent zero and negative corrections.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic phase-specific delta process."
+      },
+      {
+        "answer": [
+          "57",
+          "88",
+          "54",
+          "92",
+          "60"
+        ],
+        "case_id": "V041",
+        "check_summary": "No single low-order full-sequence difference rule; extrapolated as phase-interleaved streams.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Odd terms increase by 2; even terms decrease by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-17",
+          "-19",
+          "-20",
+          "-72",
+          "-18"
+        ],
+        "case_id": "V043",
+        "check_summary": "Phase-interleaved irregular subsequences extrapolated from local polynomial trends.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved streams."
+      },
+      {
+        "answer": [
+          "-11",
+          "-75",
+          "-58",
+          "-97",
+          "35"
+        ],
+        "case_id": "V044",
+        "check_summary": "Alternating subsequences exhibit changing polynomial increments; continuation extrapolated from recent phases.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-6",
+          "67",
+          "-2",
+          "21",
+          "-4"
+        ],
+        "case_id": "V045",
+        "check_summary": "Phase-interleaved subsequences show locally varying affine/polynomial behavior.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved streams."
+      },
+      {
+        "answer": [
+          "-49",
+          "-29",
+          "-44",
+          "-36",
+          "-51"
+        ],
+        "case_id": "V046",
+        "check_summary": "Alternating phase streams extrapolated from recent observed values.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "22",
+          "-2",
+          "18",
+          "-6",
+          "26"
+        ],
+        "case_id": "V047",
+        "check_summary": "Observed values are consistent with interleaved low-order streams; continuation extrapolated locally.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved streams."
+      },
+      {
+        "answer": [
+          "-43",
+          "26",
+          "-50",
+          "31",
+          "-57"
+        ],
+        "case_id": "V048",
+        "check_summary": "Alternating subsequences extrapolated from recent phase-specific increments.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-38D833F18B84-validation-b04-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "74d44859f36a2ca9671cad3d965f98cc71306cc2bbc6c57d27bc7190c1dfadd2",
+  "terminal_artifact_relpath": "jobs/validation-G-38D833F18B84-validation-b04-proposer-6/attempt-01"
+}

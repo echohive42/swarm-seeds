@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b05",
+    "results": [
+      {
+        "answer": [
+          "3454364",
+          "10363097",
+          "31089296",
+          "93267893",
+          "279803684"
+        ],
+        "case_id": "F049",
+        "check_summary": "Matches phase-independent affine recurrence a(n+1)=3a(n)+5.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "21",
+          "19",
+          "24",
+          "22",
+          "27"
+        ],
+        "case_id": "F050",
+        "check_summary": "Odd and even subsequences each increase by 3.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-5953",
+          "5956",
+          "-17864",
+          "17861",
+          "-17858"
+        ],
+        "case_id": "F051",
+        "check_summary": "Three-phase affine update repeats exactly.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3973",
+          "-5917",
+          "-8508",
+          "-11887",
+          "-16213"
+        ],
+        "case_id": "F052",
+        "check_summary": "Finite differences show constant fifth difference.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "516037",
+          "1245825",
+          "3007681",
+          "7261186",
+          "17530054"
+        ],
+        "case_id": "F053",
+        "check_summary": "Second-order recurrence with repeating three-phase biases fits the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "1066421",
+          "-3199269",
+          "-6398539",
+          "19195611",
+          "38391221"
+        ],
+        "case_id": "F054",
+        "check_summary": "Two-phase affine updates repeat exactly.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-517",
+          "1001",
+          "-1967",
+          "3933",
+          "-7861"
+        ],
+        "case_id": "F055",
+        "check_summary": "Candidate periodic affine continuation inferred from alternating phase structure.",
+        "confidence": 0.32,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-143",
+          "-177",
+          "-214",
+          "-256",
+          "-303"
+        ],
+        "case_id": "F056",
+        "check_summary": "Candidate lagged polynomial continuation inferred from alternating subsequences.",
+        "confidence": 0.28,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "45",
+          "5",
+          "48",
+          "-4",
+          "48"
+        ],
+        "case_id": "F057",
+        "check_summary": "Odd stream has successive differences decreasing by 3; even stream differences decrease by 3.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-78",
+          "-91",
+          "-105",
+          "-120",
+          "-136"
+        ],
+        "case_id": "F058",
+        "check_summary": "First differences decrease successively by 1.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-880",
+          "-1115",
+          "-1389",
+          "-1705",
+          "-2066"
+        ],
+        "case_id": "F059",
+        "check_summary": "Second differences decrease by successive multiples of 3.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1476",
+          "2207",
+          "3176",
+          "4429",
+          "6016"
+        ],
+        "case_id": "F060",
+        "check_summary": "Third differences increase by 4, implying a quartic continuation.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-best_initial_founder-G-0025CFC9EF2E-final-b05-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "5fec8147f95ae75516a74c66662ce26c18cf163231f0ec2c76418108c0160714",
+  "terminal_artifact_relpath": "jobs/final-best_initial_founder-G-0025CFC9EF2E-final-b05-proposer-5/attempt-01"
+}

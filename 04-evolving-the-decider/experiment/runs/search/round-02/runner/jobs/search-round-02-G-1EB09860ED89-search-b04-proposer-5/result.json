@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-162",
+          "-4",
+          "-268",
+          "-5",
+          "-405"
+        ],
+        "case_id": "S037",
+        "check_summary": "Interleaved polynomial-like phase streams; extrapolation from repeated phase differences.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3",
+          "93",
+          "-11",
+          "45",
+          "-29"
+        ],
+        "case_id": "S038",
+        "check_summary": "Periodic wrapped affine pattern inferred from alternating phase behavior.",
+        "confidence": 0.14,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-6",
+          "35",
+          "-15",
+          "30",
+          "-24"
+        ],
+        "case_id": "S039",
+        "check_summary": "Phase-separated recurrence extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "105",
+          "101",
+          "121",
+          "137",
+          "153"
+        ],
+        "case_id": "S040",
+        "check_summary": "Growing arithmetic-block continuation.",
+        "confidence": 0.22,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Odd and even subsequences are arithmetic with common difference 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-5",
+          "-2",
+          "-35",
+          "-8",
+          "-11"
+        ],
+        "case_id": "S042",
+        "check_summary": "Periodic wrapped recurrence extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "15",
+          "5",
+          "-76",
+          "-10",
+          "4"
+        ],
+        "case_id": "S043",
+        "check_summary": "Three interleaved streams: alternating, descending arithmetic, and descending linear phases.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-18",
+          "-28",
+          "-22",
+          "-28",
+          "-27"
+        ],
+        "case_id": "S044",
+        "check_summary": "Three phase streams with polynomial increments.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "107",
+          "-134",
+          "12",
+          "151",
+          "-239"
+        ],
+        "case_id": "S045",
+        "check_summary": "Three interleaved polynomial/alternating streams extrapolated by phase.",
+        "confidence": 0.93,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-17",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S046",
+        "check_summary": "Mostly -5 steps with periodic jumps increasing by 5.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "198",
+          "203",
+          "245",
+          "250",
+          "292"
+        ],
+        "case_id": "S047",
+        "check_summary": "Growing arithmetic-block pattern extrapolated from repeated block steps.",
+        "confidence": 0.16,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "5",
+          "12",
+          "-5",
+          "10",
+          "12"
+        ],
+        "case_id": "S048",
+        "check_summary": "Four-phase interleaved stream with periodic affine behavior.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-1EB09860ED89-search-b04-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "c726607433495b616d2a21f288326ea686167f5a70367bd73d7390053935f187",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-1EB09860ED89-search-b04-proposer-5/attempt-01"
+}

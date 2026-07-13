@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b06",
+    "results": [
+      {
+        "answer": [
+          "3",
+          "12",
+          "1",
+          "8",
+          "22"
+        ],
+        "case_id": "V061",
+        "check_summary": "Matches affine recurrence modulo 29: x'=2x+6 mod 29.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "59",
+          "108",
+          "-91",
+          "-174",
+          "247"
+        ],
+        "case_id": "V062",
+        "check_summary": "Extrapolated from late-prefix second-order trend.",
+        "confidence": 0.08,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-72",
+          "-94",
+          "-116",
+          "-138",
+          "-160"
+        ],
+        "case_id": "V063",
+        "check_summary": "Extrapolated using recent approximately linear decline.",
+        "confidence": 0.06,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "20",
+          "-33",
+          "24",
+          "-38",
+          "28"
+        ],
+        "case_id": "V064",
+        "check_summary": "Even positions increase by 4; odd positions decrease by 5.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "67",
+          "57",
+          "43",
+          "60",
+          "31"
+        ],
+        "case_id": "V065",
+        "check_summary": "Low-confidence periodic modular extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-49",
+          "449",
+          "-60",
+          "897",
+          "-72"
+        ],
+        "case_id": "V066",
+        "check_summary": "Even subsequence has successive decrements 5,6,7,...; odd subsequence doubles its successive increments.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "42",
+          "18",
+          "55",
+          "25",
+          "68"
+        ],
+        "case_id": "V067",
+        "check_summary": "Low-confidence periodic extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-48",
+          "-7",
+          "-61",
+          "34",
+          "-74"
+        ],
+        "case_id": "V068",
+        "check_summary": "Low-confidence periodic phase extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-55",
+          "-89",
+          "23",
+          "-72",
+          "-110"
+        ],
+        "case_id": "V069",
+        "check_summary": "Low-confidence periodic phase extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "117",
+          "135",
+          "153",
+          "171",
+          "189"
+        ],
+        "case_id": "V070",
+        "check_summary": "Late prefix suggests continuation of the arithmetic progression with step 18.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-1",
+          "-44",
+          "-2",
+          "-51",
+          "-3"
+        ],
+        "case_id": "V071",
+        "check_summary": "Low-confidence interleaved extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "35",
+          "39",
+          "36",
+          "40",
+          "44"
+        ],
+        "case_id": "V072",
+        "check_summary": "After the initial transient, differences repeat +4,+4,-3.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b06-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "6c761a65af8a0bd5031df9c176702e064fb83dd410f503755c7d46949664550f",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b06-proposer-5/attempt-01"
+}

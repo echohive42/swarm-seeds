@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "Matches x[n+1]=-3x[n]+3.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "-4669",
+          "-8391",
+          "-14200",
+          "-22655",
+          "-34407"
+        ],
+        "case_id": "V026",
+        "check_summary": "Higher differences support polynomial continuation.",
+        "confidence": 0.82,
+        "rule_summary": "Polynomial finite-difference continuation."
+      },
+      {
+        "answer": [
+          "2083",
+          "3674",
+          "1024",
+          "2760",
+          "4496"
+        ],
+        "case_id": "V027",
+        "check_summary": "Extrapolated phase-specific interleaved difference streams.",
+        "confidence": 0.46,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "47302",
+          "-94676",
+          "189240",
+          "-378674",
+          "756994"
+        ],
+        "case_id": "V028",
+        "check_summary": "Even and odd subsequences follow phase-specific affine updates.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "11131",
+          "15801",
+          "21688",
+          "29214",
+          "38681"
+        ],
+        "case_id": "V029",
+        "check_summary": "Extrapolated structured growth from observed differences.",
+        "confidence": 0.25,
+        "rule_summary": "Polynomial or periodic-delta continuation."
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Alternating arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Repeating updates 2x+1 and 3x+7.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802339",
+          "71604684",
+          "-214814049",
+          "644442141"
+        ],
+        "case_id": "V032",
+        "check_summary": "Repeating affine phase updates.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "963",
+          "-1566",
+          "2526",
+          "-4095",
+          "6618"
+        ],
+        "case_id": "V033",
+        "check_summary": "Odd/even streams have second-order difference recurrences.",
+        "confidence": 0.9,
+        "rule_summary": "Interleaved linear streams."
+      },
+      {
+        "answer": [
+          "15",
+          "23",
+          "18",
+          "39",
+          "49"
+        ],
+        "case_id": "V034",
+        "check_summary": "Differences repeat by phase with linear phase trends.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "37",
+          "58",
+          "81",
+          "47",
+          "48"
+        ],
+        "case_id": "V035",
+        "check_summary": "Differences follow four phase-specific arithmetic progressions.",
+        "confidence": 0.95,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "815",
+          "1060",
+          "1351",
+          "1692",
+          "2087"
+        ],
+        "case_id": "V036",
+        "check_summary": "Second differences increase linearly after the initial terms.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b03-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "d98b7c85bbdfc12db4ca72be4c5feedb66faa4377e01bbe7b9e73e6c064b5f14",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b03-proposer-2/attempt-01"
+}

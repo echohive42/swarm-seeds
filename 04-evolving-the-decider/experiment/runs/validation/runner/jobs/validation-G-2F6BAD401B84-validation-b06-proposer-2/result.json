@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b06",
+    "results": [
+      {
+        "answer": [
+          "48",
+          "23",
+          "36",
+          "171",
+          "37"
+        ],
+        "case_id": "V061",
+        "check_summary": "Used cubic extrapolation on three residue-class streams.",
+        "confidence": 0.18,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-81",
+          "-97",
+          "-111",
+          "-221",
+          "-469"
+        ],
+        "case_id": "V062",
+        "check_summary": "Used cubic extrapolation on three residue-class streams.",
+        "confidence": 0.12,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-146",
+          "190",
+          "-45",
+          "-274",
+          "730"
+        ],
+        "case_id": "V063",
+        "check_summary": "Extrapolated residue-class finite differences.",
+        "confidence": 0.1,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-33",
+          "20",
+          "-38",
+          "24",
+          "-43"
+        ],
+        "case_id": "V064",
+        "check_summary": "Odd terms decrease by successive 5; even terms increase by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two periodic arithmetic streams interleaved."
+      },
+      {
+        "answer": [
+          "-5",
+          "77",
+          "-1",
+          "82",
+          "13"
+        ],
+        "case_id": "V065",
+        "check_summary": "Tail extrapolation from alternating residue streams.",
+        "confidence": 0.08,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-49",
+          "449",
+          "-60",
+          "897",
+          "-72"
+        ],
+        "case_id": "V066",
+        "check_summary": "Odd stream has successive decrements 5,6,7,...; even stream doubles its differences.",
+        "confidence": 0.98,
+        "rule_summary": "Two phase-specific polynomial/affine streams interleaved."
+      },
+      {
+        "answer": [
+          "42",
+          "58",
+          "68",
+          "78",
+          "89"
+        ],
+        "case_id": "V067",
+        "check_summary": "Extrapolated apparent periodic residue behavior.",
+        "confidence": 0.08,
+        "rule_summary": "Periodic interleaved streams."
+      },
+      {
+        "answer": [
+          "33",
+          "7",
+          "-54",
+          "54",
+          "8"
+        ],
+        "case_id": "V068",
+        "check_summary": "Three residue streams show polynomial increments: one linear-quadratic pattern and one arithmetic progression.",
+        "confidence": 0.94,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-8",
+          "-27",
+          "-52",
+          "-33",
+          "-11"
+        ],
+        "case_id": "V069",
+        "check_summary": "Extrapolated recent periodic residue trends.",
+        "confidence": 0.06,
+        "rule_summary": "Periodic interleaved streams."
+      },
+      {
+        "answer": [
+          "117",
+          "117",
+          "135",
+          "135",
+          "153"
+        ],
+        "case_id": "V070",
+        "check_summary": "Extended the dominant arithmetic tail pattern.",
+        "confidence": 0.3,
+        "rule_summary": "Growing arithmetic blocks/interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "19",
+          "-89",
+          "2",
+          "38",
+          "-170"
+        ],
+        "case_id": "V071",
+        "check_summary": "Residue class 2 alternates; residue class 0 rises by 7,10,13; residue class 1 follows second differences decreasing by 6.",
+        "confidence": 0.96,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "35",
+          "36",
+          "35",
+          "40",
+          "36"
+        ],
+        "case_id": "V072",
+        "check_summary": "Extended the repeated phase-specific increment pattern.",
+        "confidence": 0.25,
+        "rule_summary": "Periodic delta update."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b06-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "64d1ac5a257e59a684ca04c2833593ce18443c2cf3194c545c7aa4f54f8c9899",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b06-proposer-2/attempt-01"
+}

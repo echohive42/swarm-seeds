@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-1375"
+        ],
+        "case_id": "S169",
+        "check_summary": "Four-phase deltas each continue by factor -4; replay matches prefix.",
+        "confidence": 0.86,
+        "rule_summary": "PDELTA with four geometric-looking phase delta tracks."
+      },
+      {
+        "answer": [
+          "60",
+          "65",
+          "69",
+          "74",
+          "78"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating +4,+5 differences match all terms.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-two constant deltas."
+      },
+      {
+        "answer": [
+          "-2256",
+          "-3580",
+          "-5538",
+          "-8314",
+          "-16350"
+        ],
+        "case_id": "S171",
+        "check_summary": "Constant fifth finite difference -4 extends the polynomial exactly.",
+        "confidence": 0.98,
+        "rule_summary": "POLY, degree five."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Fourth finite difference is constant -1.",
+        "confidence": 0.98,
+        "rule_summary": "POLY, degree four."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences increase by one each step.",
+        "confidence": 0.99,
+        "rule_summary": "POLY, degree three."
+      },
+      {
+        "answer": [
+          "-4438",
+          "-7179",
+          "-11617",
+          "-18799",
+          "-30416"
+        ],
+        "case_id": "S174",
+        "check_summary": "Extrapolated affine/LIN2 growth from the recurring recurrence pattern.",
+        "confidence": 0.54,
+        "rule_summary": "LIN2-style exponentially growing recurrence."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97897621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating updates x→3x+1 and x→-2x+6 match prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-two phase updates."
+      },
+      {
+        "answer": [
+          "70",
+          "72",
+          "75",
+          "80",
+          "87"
+        ],
+        "case_id": "S176",
+        "check_summary": "Interleaved phase tracks extrapolated from repeating local patterns.",
+        "confidence": 0.45,
+        "rule_summary": "INTERLEAVE of short polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-214809",
+          "-429625",
+          "859241",
+          "1718491",
+          "3436975"
+        ],
+        "case_id": "S177",
+        "check_summary": "Three-phase updates repeat as 2x+9, 2x-7, -2x-9.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-three phase updates."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the previous term.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with multiplier two and zero bias."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "Six-term cycle repeats exactly.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA/periodic sequence with period six."
+      },
+      {
+        "answer": [
+          "-226",
+          "-266",
+          "-313",
+          "-354",
+          "-408"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd-position differences decrease by 7; even-position differences after the first decrease by 6.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA with alternating linear phase deltas."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-6F217370BF07-search-b15-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "4d0b851ea1ed367dbf5af6a0952d77719182d74b285cb619d49c5144c5b21457",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-6F217370BF07-search-b15-proposer-5/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "-1279",
+          "-319",
+          "-79",
+          "321",
+          "-1279"
+        ],
+        "case_id": "S025",
+        "check_summary": "Detected phase-structured oscillation; extrapolation uncertain.",
+        "confidence": 0.16,
+        "rule_summary": "Candidate periodic polynomial-delta mechanism."
+      },
+      {
+        "answer": [
+          "-46",
+          "-58",
+          "-69",
+          "-81",
+          "-92"
+        ],
+        "case_id": "S026",
+        "check_summary": "No stable low-order recurrence identified.",
+        "confidence": 0.08,
+        "rule_summary": "Candidate phase-specific lagged polynomial."
+      },
+      {
+        "answer": [
+          "-13",
+          "-24",
+          "-35",
+          "-49",
+          "-63"
+        ],
+        "case_id": "S027",
+        "check_summary": "Successive differences follow paired descending pattern.",
+        "confidence": 0.72,
+        "rule_summary": "Periodic polynomial-delta sequence."
+      },
+      {
+        "answer": [
+          "-944",
+          "-1513",
+          "-2422",
+          "-3875",
+          "-6208"
+        ],
+        "case_id": "S028",
+        "check_summary": "Tail suggests approximate multiplicative growth with phase variation.",
+        "confidence": 0.12,
+        "rule_summary": "Candidate periodic affine update."
+      },
+      {
+        "answer": [
+          "797159",
+          "2391476",
+          "7174427",
+          "21523286",
+          "64569863"
+        ],
+        "case_id": "S029",
+        "check_summary": "Every transition satisfies a(n+1)=3a(n)+5.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE recurrence with multiplier 3 and bias 5."
+      },
+      {
+        "answer": [
+          "-56",
+          "-60",
+          "-65",
+          "-69",
+          "-74"
+        ],
+        "case_id": "S030",
+        "check_summary": "Differences alternate -5 and -4.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine additive update."
+      },
+      {
+        "answer": [
+          "1872",
+          "3215",
+          "5348",
+          "8549",
+          "13152"
+        ],
+        "case_id": "S031",
+        "check_summary": "Fourth differences increase by 5, yielding a degree-5 polynomial continuation.",
+        "confidence": 0.93,
+        "rule_summary": "POLY integer-valued degree-5 sequence."
+      },
+      {
+        "answer": [
+          "-8807",
+          "-17610",
+          "35225",
+          "70454",
+          "-176715"
+        ],
+        "case_id": "S032",
+        "check_summary": "Alternating affine transitions match multiplier -2 with phase biases 5 and 4.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE phase-periodic recurrence."
+      },
+      {
+        "answer": [
+          "-205",
+          "-240",
+          "-273",
+          "-313",
+          "-351"
+        ],
+        "case_id": "S033",
+        "check_summary": "Differences occur in pairs and decrease by 3 every two steps.",
+        "confidence": 0.94,
+        "rule_summary": "Periodic polynomial-delta sequence."
+      },
+      {
+        "answer": [
+          "-99759057",
+          "299277169",
+          "-897831503",
+          "2693494515",
+          "-8080483547"
+        ],
+        "case_id": "S034",
+        "check_summary": "Transitions use multiplier -3 and repeating biases 4, 6, -2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE phase-periodic recurrence."
+      },
+      {
+        "answer": [
+          "1030",
+          "1450",
+          "1985",
+          "2650",
+          "3460"
+        ],
+        "case_id": "S035",
+        "check_summary": "Nonlinear growth pattern inferred from late differences; low certainty.",
+        "confidence": 0.1,
+        "rule_summary": "Candidate polynomial/interleaved mechanism."
+      },
+      {
+        "answer": [
+          "1025",
+          "1343",
+          "1720",
+          "2161",
+          "2671"
+        ],
+        "case_id": "S036",
+        "check_summary": "Second differences increase by 5.",
+        "confidence": 0.98,
+        "rule_summary": "POLY integer-valued degree-4 sequence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-A246735BF9C3-search-b03-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "64db6a6f2c8df5cdca9f169ac30d93635696a3bb083e2e6d3741bc4688803c0f",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-A246735BF9C3-search-b03-proposer-8/attempt-01"
+}

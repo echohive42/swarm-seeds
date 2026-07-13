@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "321",
+          "-319",
+          "-1279",
+          "-1919",
+          "-1279"
+        ],
+        "case_id": "S025",
+        "check_summary": "Phase-interleaved affine streams with multiplier -4 and bias 5; replay matches prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Four phase streams, each updated x'=-4x+5."
+      },
+      {
+        "answer": [
+          "-45",
+          "-54",
+          "-58",
+          "-69",
+          "-75"
+        ],
+        "case_id": "S026",
+        "check_summary": "Candidate continuation inferred from repeating lagged irregular difference structure; low certainty.",
+        "confidence": 0.2,
+        "rule_summary": "Likely lagged phase-specific polynomial mechanism."
+      },
+      {
+        "answer": [
+          "-13",
+          "-24",
+          "-35",
+          "-49",
+          "-63"
+        ],
+        "case_id": "S027",
+        "check_summary": "Differences occur in pairs and decrease by 3 per pair; replay matches prefix.",
+        "confidence": 0.94,
+        "rule_summary": "Paired first differences: -8,-11,-11,-14,-14."
+      },
+      {
+        "answer": [
+          "-953",
+          "-1541",
+          "-2493",
+          "-4033",
+          "-6519"
+        ],
+        "case_id": "S028",
+        "check_summary": "Continuation estimated from dominant near-geometric recurrence; moderate uncertainty.",
+        "confidence": 0.35,
+        "rule_summary": "Likely periodic affine or lagged recurrence."
+      },
+      {
+        "answer": [
+          "797159",
+          "2391482",
+          "7174451",
+          "21523358",
+          "64570079"
+        ],
+        "case_id": "S029",
+        "check_summary": "Every term satisfies x'=3x+5.",
+        "confidence": 1.0,
+        "rule_summary": "Constant affine recurrence x'=3x+5."
+      },
+      {
+        "answer": [
+          "-56",
+          "-60",
+          "-65",
+          "-69",
+          "-74"
+        ],
+        "case_id": "S030",
+        "check_summary": "Alternating first differences -5,-4 repeat.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic arithmetic update with differences -5,-4."
+      },
+      {
+        "answer": [
+          "1872",
+          "3220",
+          "5368",
+          "7492",
+          "10172"
+        ],
+        "case_id": "S031",
+        "check_summary": "Finite differences give constant fifth difference 5; polynomial extrapolation.",
+        "confidence": 0.98,
+        "rule_summary": "Degree-5 integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-70445",
+          "140894",
+          "-281783",
+          "563570",
+          "-1127135"
+        ],
+        "case_id": "S032",
+        "check_summary": "Alternating updates x'=-2x+5 and x'=-2x+4 match prefix.",
+        "confidence": 1.0,
+        "rule_summary": "Phase-periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-205",
+          "-240",
+          "-273",
+          "-313",
+          "-346"
+        ],
+        "case_id": "S033",
+        "check_summary": "First differences alternate two arithmetic progressions, each decreasing by 5.",
+        "confidence": 0.97,
+        "rule_summary": "Period-2 polynomial delta sequence."
+      },
+      {
+        "answer": [
+          "99759063",
+          "299277187",
+          "-897831557",
+          "-2693494665",
+          "-8080483997"
+        ],
+        "case_id": "S034",
+        "check_summary": "Period-4 affine multiplier/sign pattern and biases 4,6,-2,4 replay prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence with multipliers -3,3,3,-3."
+      },
+      {
+        "answer": [
+          "1112",
+          "1814",
+          "2759",
+          "3992",
+          "5560"
+        ],
+        "case_id": "S035",
+        "check_summary": "Finite differences give constant fourth difference 4; polynomial extrapolation.",
+        "confidence": 0.98,
+        "rule_summary": "Degree-4 polynomial."
+      },
+      {
+        "answer": [
+          "1025",
+          "1348",
+          "1735",
+          "2191",
+          "2721"
+        ],
+        "case_id": "S036",
+        "check_summary": "Finite differences give constant third difference 5; polynomial extrapolation.",
+        "confidence": 0.99,
+        "rule_summary": "Degree-3 polynomial."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-347400D8BFC6-search-b03-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "a8f95bf294e893ad39924e356bfa168f1f7ec978c67949ab7198f966f114ad69",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-347400D8BFC6-search-b03-proposer-3/attempt-01"
+}

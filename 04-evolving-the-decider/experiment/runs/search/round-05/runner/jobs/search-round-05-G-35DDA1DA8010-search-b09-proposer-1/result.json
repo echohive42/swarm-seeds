@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b09",
+    "results": [
+      {
+        "answer": [
+          "-253274",
+          "-759824",
+          "1519654",
+          "4558960",
+          "-9117914"
+        ],
+        "case_id": "S097",
+        "check_summary": "Alternating affine multipliers -2 and 3 with small phase biases fits the tail.",
+        "confidence": 0.78,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-1049",
+          "-1111",
+          "-923",
+          "-601",
+          "-113"
+        ],
+        "case_id": "S098",
+        "check_summary": "Tail extrapolation from alternating/interleaved structure.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-703",
+          "-833",
+          "-960",
+          "-1077",
+          "-1176"
+        ],
+        "case_id": "S099",
+        "check_summary": "Finite differences show a steadily increasing third-difference pattern.",
+        "confidence": 0.96,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-4915830",
+          "14756487",
+          "-44269464",
+          "132808389",
+          "-398425170"
+        ],
+        "case_id": "S100",
+        "check_summary": "Every transition satisfies next = -3*current - 3.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "-7810",
+          "-12214",
+          "-17907",
+          "-24925",
+          "-34342"
+        ],
+        "case_id": "S101",
+        "check_summary": "Extrapolated from accelerating negative tail differences.",
+        "confidence": 0.14,
+        "rule_summary": "Polynomial or phase-specific affine update."
+      },
+      {
+        "answer": [
+          "1143",
+          "1477",
+          "1871",
+          "2330",
+          "2859"
+        ],
+        "case_id": "S102",
+        "check_summary": "First differences have second differences increasing by 5.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "136",
+          "132",
+          "131",
+          "124",
+          "120"
+        ],
+        "case_id": "S103",
+        "check_summary": "Differences repeat in triples while each triple decreases by 6.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-36",
+          "-39",
+          "-44",
+          "-47",
+          "-52"
+        ],
+        "case_id": "S104",
+        "check_summary": "Differences alternate -3 and -5.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-39990",
+          "239969",
+          "-1439819",
+          "8638920",
+          "-51833491"
+        ],
+        "case_id": "S105",
+        "check_summary": "Three phase streams each use multiplier -6 with biases 29, -5, and 6.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-1049727",
+          "-2866999",
+          "-7830407",
+          "-21392063",
+          "-58450639"
+        ],
+        "case_id": "S106",
+        "check_summary": "Extrapolated from the apparent high-growth affine tail.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "7",
+          "13",
+          "22",
+          "34",
+          "49"
+        ],
+        "case_id": "S107",
+        "check_summary": "Interleaved subsequence continuation estimated from recent increments.",
+        "confidence": 0.16,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "47",
+          "52",
+          "50",
+          "63",
+          "56"
+        ],
+        "case_id": "S108",
+        "check_summary": "Interleaved-stream tail extrapolation.",
+        "confidence": 0.15,
+        "rule_summary": "Interleaved polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-35DDA1DA8010-search-b09-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "0e791fb07142839a5c213a2d2c963b8d5259db5fdc93176cd53a10ded6cde1de",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-35DDA1DA8010-search-b09-proposer-1/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "782",
+          "-141",
+          "123",
+          "778",
+          "-1558"
+        ],
+        "case_id": "S064",
+        "check_summary": "Three phase streams replayed; phase 1 follows x_next=-2x-2, other phases polynomial differences.",
+        "confidence": 0.84,
+        "rule_summary": "Three-way interleaved phase-specific recurrences."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd terms decrease by 4; even terms increase by 2.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "229",
+          "48",
+          "7",
+          "453",
+          "68"
+        ],
+        "case_id": "S066",
+        "check_summary": "Phase 1 increases by 5; phase 2 follows x_next=2x-5; phase 0 has quadratic increments.",
+        "confidence": 0.9,
+        "rule_summary": "Three-way interleaved phase-specific updates."
+      },
+      {
+        "answer": [
+          "-29",
+          "-21",
+          "-20",
+          "-24",
+          "-32"
+        ],
+        "case_id": "S072",
+        "check_summary": "Four phase streams extrapolated from repeated blockwise phase behavior.",
+        "confidence": 0.31,
+        "rule_summary": "Four-way interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "38",
+          "-7",
+          "-3",
+          "10",
+          "-6"
+        ],
+        "case_id": "S061",
+        "check_summary": "No uniquely reliable continuation derived from the visible prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved allowed-family fit."
+      },
+      {
+        "answer": [
+          "-2",
+          "55",
+          "17",
+          "-13",
+          "12"
+        ],
+        "case_id": "S062",
+        "check_summary": "No uniquely reliable continuation derived from the visible prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved allowed-family fit."
+      },
+      {
+        "answer": [
+          "80",
+          "112",
+          "74",
+          "78",
+          "0"
+        ],
+        "case_id": "S063",
+        "check_summary": "No uniquely reliable continuation derived from the visible prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved allowed-family fit."
+      },
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-5",
+          "-24",
+          "0"
+        ],
+        "case_id": "S068",
+        "check_summary": "No uniquely reliable continuation derived from the visible prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved allowed-family fit."
+      },
+      {
+        "answer": [
+          "9",
+          "-13",
+          "9",
+          "0",
+          "0"
+        ],
+        "case_id": "S069",
+        "check_summary": "No uniquely reliable continuation derived from the visible prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved allowed-family fit."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "0",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "One phase is constant -3, one is constant 0, and the remaining phase has successive differences decreasing by 3.",
+        "confidence": 0.95,
+        "rule_summary": "Three-way interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "37",
+          "10",
+          "37",
+          "10",
+          "37"
+        ],
+        "case_id": "S071",
+        "check_summary": "No uniquely reliable continuation derived from the visible prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved allowed-family fit."
+      },
+      {
+        "answer": [
+          "-8",
+          "-12",
+          "-11",
+          "-15",
+          "-19"
+        ],
+        "case_id": "S067",
+        "check_summary": "No uniquely reliable continuation derived from the visible prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved allowed-family fit."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-1EB09860ED89-search-b06-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "d49db18f69202eb50ef8bc125a36d7d69c650961533b8e2ae49d1862ef13025e",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-1EB09860ED89-search-b06-proposer-8/attempt-01"
+}

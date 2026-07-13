@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-8",
+          "-18",
+          "-28",
+          "-48",
+          "-88"
+        ],
+        "case_id": "V013",
+        "check_summary": "Periodic-delta continuation inferred from recent phase behavior.",
+        "confidence": 0.12,
+        "rule_summary": "Likely PDELTA with repeating polynomial phase deltas."
+      },
+      {
+        "answer": [
+          "-10",
+          "-11",
+          "-12",
+          "-13",
+          "-14"
+        ],
+        "case_id": "V014",
+        "check_summary": "Recent sequence is predominantly descending with unit-scale periodic corrections.",
+        "confidence": 0.18,
+        "rule_summary": "Likely phase-specific affine or polynomial-delta process."
+      },
+      {
+        "answer": [
+          "-26",
+          "-17",
+          "-31",
+          "-37",
+          "-36"
+        ],
+        "case_id": "V015",
+        "check_summary": "Noisy periodic subsequences suggest phase-specific continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Likely periodic affine or lag-polynomial mechanism."
+      },
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V016",
+        "check_summary": "Odd positions decrease by 4 and even positions increase by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V017",
+        "check_summary": "Odd stream has successive decrements 1,2,3,4,5; even stream differences double negatively.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of a polynomial stream and a geometric-affine stream."
+      },
+      {
+        "answer": [
+          "-5",
+          "-7",
+          "-11",
+          "-13",
+          "-19"
+        ],
+        "case_id": "V018",
+        "check_summary": "Continuation estimated from alternating irregular phase behavior.",
+        "confidence": 0.07,
+        "rule_summary": "Likely periodic affine or PDELTA mechanism."
+      },
+      {
+        "answer": [
+          "-1",
+          "23",
+          "-25",
+          "-2",
+          "-25"
+        ],
+        "case_id": "V019",
+        "check_summary": "One phase is constant at 20/-25 by position class; another descends by one.",
+        "confidence": 0.31,
+        "rule_summary": "Likely three-way INTERLEAVE with polynomial phase streams."
+      },
+      {
+        "answer": [
+          "31",
+          "28",
+          "7",
+          "66",
+          "-4"
+        ],
+        "case_id": "V020",
+        "check_summary": "Irregular alternating phase continuation estimated from local recurrence behavior.",
+        "confidence": 0.05,
+        "rule_summary": "Likely periodic affine or interleaved mechanism."
+      },
+      {
+        "answer": [
+          "-31",
+          "-54",
+          "-42",
+          "-83",
+          "-53"
+        ],
+        "case_id": "V021",
+        "check_summary": "Bounded irregular values suggest modular periodic-affine continuation.",
+        "confidence": 0.06,
+        "rule_summary": "Likely MODAFFINE."
+      },
+      {
+        "answer": [
+          "-8",
+          "161",
+          "-86",
+          "324",
+          "-104"
+        ],
+        "case_id": "V022",
+        "check_summary": "Alternating subsequences show rapidly increasing signed magnitudes.",
+        "confidence": 0.08,
+        "rule_summary": "Likely phase-specific affine recurrence, possibly modular."
+      },
+      {
+        "answer": [
+          "-127",
+          "-156",
+          "-185",
+          "-214",
+          "-243"
+        ],
+        "case_id": "V023",
+        "check_summary": "Recent tail exhibits near-linear decline in one phase with increasingly negative offsets.",
+        "confidence": 0.09,
+        "rule_summary": "Likely lag-polynomial or interleaved polynomial mechanism."
+      },
+      {
+        "answer": [
+          "-3",
+          "-5",
+          "-7",
+          "-9",
+          "-11"
+        ],
+        "case_id": "V024",
+        "check_summary": "Recent values suggest a descending arithmetic continuation after phase corrections.",
+        "confidence": 0.1,
+        "rule_summary": "Likely periodic polynomial-delta mechanism."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b02-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "db790521efed589904eda9a1624d07026e41a65cbfd0aa93c502736f8ee5c9ef",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b02-proposer-2/attempt-01"
+}

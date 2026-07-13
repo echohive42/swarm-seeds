@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Four interleaved streams each replay the prefix under x'=-4x+5.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE affine streams"
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments +4,+5 replay the full prefix.",
+        "confidence": 1,
+        "rule_summary": "PDELTA period 2"
+      },
+      {
+        "answer": [
+          "-1688",
+          "-3058",
+          "-5150",
+          "-8202",
+          "-12498"
+        ],
+        "case_id": "S171",
+        "check_summary": "Strongest coherent candidate is the full-prefix quintic continuation.",
+        "confidence": 0.95,
+        "rule_summary": "POLY integer-valued quintic"
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Finite differences support the quartic continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences advance consecutively by one.",
+        "confidence": 0.99,
+        "rule_summary": "POLY cubic"
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18815",
+          "-30443"
+        ],
+        "case_id": "S174",
+        "check_summary": "Repeating second-order recurrence with phase biases fits the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 periodic bias"
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97897621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating affine updates 3x+1 and -2x+6 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE period 2"
+      },
+      {
+        "answer": [
+          "55",
+          "64",
+          "71",
+          "50",
+          "43"
+        ],
+        "case_id": "S176",
+        "check_summary": "Highest-confidence continuation uses four interleaved quadratic streams.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE quadratic streams"
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3436997"
+        ],
+        "case_id": "S177",
+        "check_summary": "Repeating phase-specific affine transitions match the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE periodic"
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 1,
+        "rule_summary": "AFFINE homogeneous doubling"
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "The observed six-term cycle repeats exactly.",
+        "confidence": 1,
+        "rule_summary": "Periodic sequence"
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd and even subsequences follow quadratic difference tracks.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE quadratic streams"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-D5C14232B660-search-b15-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "37bea638d8ba4b56bac09445ddebcc0b126edb666a7bd011fa4ad3a68b994588",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-D5C14232B660-search-b15-judge-1/attempt-01"
+}

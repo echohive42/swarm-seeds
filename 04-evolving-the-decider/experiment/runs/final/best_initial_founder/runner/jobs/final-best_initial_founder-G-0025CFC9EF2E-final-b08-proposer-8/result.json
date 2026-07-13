@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b08",
+    "results": [
+      {
+        "answer": [
+          "17",
+          "-24",
+          "18",
+          "-28",
+          "19"
+        ],
+        "case_id": "F085",
+        "check_summary": "Alternating arithmetic streams: 11,12,13,... and 0,-4,-8,...",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "45",
+          "40",
+          "58",
+          "47",
+          "73"
+        ],
+        "case_id": "F086",
+        "check_summary": "Prefix is consistent with phase-dependent affine/interleaved behavior; continuation uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "Likely periodic affine or interleaved streams."
+      },
+      {
+        "answer": [
+          "30",
+          "-1",
+          "-5",
+          "-11",
+          "-19"
+        ],
+        "case_id": "F087",
+        "check_summary": "Partial residue-stream structure identified, but later continuation is uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "Likely interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "75",
+          "144",
+          "165",
+          "186",
+          "207"
+        ],
+        "case_id": "F088",
+        "check_summary": "Growing arithmetic blocks have steps 9,12,15,18; next block inferred with step 21.",
+        "confidence": 0.35,
+        "rule_summary": "GROWBLOCK with increasing block lengths and polynomial steps."
+      },
+      {
+        "answer": [
+          "11",
+          "46",
+          "-15",
+          "60",
+          "11"
+        ],
+        "case_id": "F089",
+        "check_summary": "Alternating constants 11,-15 and quadratic even-position stream 4,6,10,16,24,34,46,...",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of constant and quadratic streams."
+      },
+      {
+        "answer": [
+          "-31",
+          "-43",
+          "-59",
+          "-78",
+          "-111"
+        ],
+        "case_id": "F090",
+        "check_summary": "Continuation inferred from phase-separated differences; confidence limited.",
+        "confidence": 0.15,
+        "rule_summary": "Likely phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "15",
+          "36",
+          "-763",
+          "18",
+          "49"
+        ],
+        "case_id": "F091",
+        "check_summary": "Three interleaved streams: arithmetic 3,6,9,...; doubling-difference negative stream; quadratic stream.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of affine, exponential-like affine recurrence, and quadratic streams."
+      },
+      {
+        "answer": [
+          "34",
+          "-34",
+          "56",
+          "-62",
+          "103"
+        ],
+        "case_id": "F092",
+        "check_summary": "Irregular phase structure suggests modular or periodic affine generation; continuation uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "Likely MODAFFINE or periodic affine."
+      },
+      {
+        "answer": [
+          "33",
+          "38",
+          "21",
+          "26",
+          "31"
+        ],
+        "case_id": "F093",
+        "check_summary": "Growing blocks: [9,14], [12,17,22], [15,20,25,30], [18,23,28,33,38].",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK with starts increasing by 3 and step 5."
+      },
+      {
+        "answer": [
+          "63",
+          "68",
+          "73",
+          "78",
+          "83"
+        ],
+        "case_id": "F094",
+        "check_summary": "Continuation inferred from mixed phase behavior; confidence low.",
+        "confidence": 0.1,
+        "rule_summary": "Likely periodic affine or interleaved streams."
+      },
+      {
+        "answer": [
+          "-11",
+          "-23",
+          "87",
+          "4",
+          "-38"
+        ],
+        "case_id": "F095",
+        "check_summary": "Phase-separated continuation is underdetermined from the visible prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Likely interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "100",
+          "-17",
+          "100",
+          "-73",
+          "138"
+        ],
+        "case_id": "F096",
+        "check_summary": "One residue stream shows quadratic growth; other phase streams remain ambiguous.",
+        "confidence": 0.12,
+        "rule_summary": "Likely interleaved phase-specific polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-best_initial_founder-G-0025CFC9EF2E-final-b08-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "d5181c95886e749938db930c341fd9f992fb57b57d26d542a1547d543c96d7df",
+  "terminal_artifact_relpath": "jobs/final-best_initial_founder-G-0025CFC9EF2E-final-b08-proposer-8/attempt-01"
+}

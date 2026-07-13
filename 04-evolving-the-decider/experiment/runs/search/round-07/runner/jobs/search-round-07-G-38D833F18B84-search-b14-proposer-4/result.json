@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "8",
+          "13",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "Periodic increment pattern with triangular negative resets.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd subsequence has linear second differences; even subsequence doubles with alternating sign.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-38",
+          "-86",
+          "-5",
+          "-160",
+          "-4"
+        ],
+        "case_id": "S159",
+        "check_summary": "Extrapolated from recurring irregular phase differences.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Alternating affine difference pattern.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16",
+          "-18",
+          "40",
+          "-20",
+          "-31"
+        ],
+        "case_id": "S161",
+        "check_summary": "Extrapolated from phase-specific difference behavior.",
+        "confidence": 0.16,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "11",
+          "9",
+          "16",
+          "4",
+          "14"
+        ],
+        "case_id": "S162",
+        "check_summary": "Extrapolated periodic-difference continuation.",
+        "confidence": 0.17,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "10",
+          "5",
+          "-362",
+          "5",
+          "6"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams: decreasing polynomial, increasing arithmetic, and doubling negative differences.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-14",
+          "42",
+          "-1",
+          "31",
+          "-37"
+        ],
+        "case_id": "S164",
+        "check_summary": "Extrapolated phase-specific continuation.",
+        "confidence": 0.15,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-34",
+          "-5",
+          "-43",
+          "-2",
+          "-63"
+        ],
+        "case_id": "S165",
+        "check_summary": "Extrapolated recurring phase differences.",
+        "confidence": 0.15,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-21",
+          "183",
+          "33",
+          "19",
+          "132"
+        ],
+        "case_id": "S166",
+        "check_summary": "Phase-wise continuation with repeated and accelerating subsequences.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-54",
+          "-3",
+          "-14",
+          "-77",
+          "-8"
+        ],
+        "case_id": "S167",
+        "check_summary": "Extrapolated blockwise difference pattern.",
+        "confidence": 0.16,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-28",
+          "-3",
+          "98",
+          "122",
+          "146"
+        ],
+        "case_id": "S168",
+        "check_summary": "Continues the apparent arithmetic tail in the final phase.",
+        "confidence": 0.19,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-38D833F18B84-search-b14-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "120b3555f6628e031e855c1551827d91cf809582fdbaeb9474d8427e92c37fe3",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-38D833F18B84-search-b14-proposer-4/attempt-01"
+}

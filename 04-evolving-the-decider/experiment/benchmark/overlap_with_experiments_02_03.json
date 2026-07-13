@@ -1,0 +1,63 @@
+{
+  "cross_experiment_overlap_counts_by_reference": {
+    "ruleweave-5-evolution-v1": {
+      "generator_programs": 0,
+      "next_five_targets": 0,
+      "visible_prefixes": 0
+    },
+    "ruleweave-5-v1": {
+      "generator_programs": 0,
+      "next_five_targets": 0,
+      "visible_prefixes": 0
+    }
+  },
+  "cross_experiment_overlap_counts_total": {
+    "generator_programs": 0,
+    "next_five_targets": 0,
+    "visible_prefixes": 0
+  },
+  "current": {
+    "benchmark_id": "ruleweave-5-decider-v1",
+    "case_count": 360,
+    "manifest_checksums": {
+      "checksum_mismatches": [],
+      "listed_file_count": 50,
+      "missing_files": [],
+      "passed": true
+    },
+    "manifest_sha256": "20fa3633add9e79d07bfd6ca14c152ac6b3e1a120f0fe235d4b41aa62760c652",
+    "unique_program_count": 360,
+    "unique_target_count": 360,
+    "unique_visible_prefix_count": 360
+  },
+  "current_internal_duplicate_counts": {
+    "generator_programs": 0,
+    "next_five_targets": 0,
+    "visible_prefixes": 0
+  },
+  "definition": {
+    "generator_program": "SHA-256 of the hidden canonical generator program",
+    "next_five_target": "SHA-256 of the hidden ordered target tuple",
+    "visible_prefix": "exact ordered tuple of all public input terms"
+  },
+  "references": [
+    {
+      "benchmark_id": "ruleweave-5-v1",
+      "case_count": 72,
+      "manifest_sha256": "2277b7cce87eddac461283c3dfaf50c2dd3808f6c988f7712ca3be31475e4637",
+      "unique_program_count": 72,
+      "unique_target_count": 72,
+      "unique_visible_prefix_count": 72
+    },
+    {
+      "benchmark_id": "ruleweave-5-evolution-v1",
+      "case_count": 84,
+      "manifest_sha256": "695b6d0099e1b89f93c5071a2495b822292de94dd4ea81e0d78950cff0155029",
+      "unique_program_count": 84,
+      "unique_target_count": 84,
+      "unique_visible_prefix_count": 84
+    }
+  ],
+  "schema_version": "experiment-04-overlap-audit-v1",
+  "status": "passed"
+}

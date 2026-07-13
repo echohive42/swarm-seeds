@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "11",
+          "14",
+          "17",
+          "20",
+          "10"
+        ],
+        "case_id": "S085",
+        "check_summary": "Period-4 deltas support three successive +3 steps followed by a polynomially decreasing jump.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "7",
+          "46",
+          "29",
+          "45",
+          "26"
+        ],
+        "case_id": "S086",
+        "check_summary": "Alternating affine maps modulo 67 fit the full prefix exactly.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "27",
+          "16",
+          "5",
+          "-6",
+          "76"
+        ],
+        "case_id": "S087",
+        "check_summary": "Growing arithmetic blocks have steps -8, -9, -10, then -11, with polynomially advancing starts.",
+        "confidence": 0.91,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd positions increase by 5 and even positions decrease by 1.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-48",
+          "45",
+          "88",
+          "-80",
+          "123"
+        ],
+        "case_id": "S089",
+        "check_summary": "Best available coherent continuation uses three interleaved polynomial-like subsequences.",
+        "confidence": 0.54,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "2",
+          "6",
+          "18",
+          "16",
+          "10"
+        ],
+        "case_id": "S090",
+        "check_summary": "Multiplication by 3 modulo 19 matches every observed transition.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "0",
+          "37",
+          "329",
+          "17",
+          "44"
+        ],
+        "case_id": "S091",
+        "check_summary": "Three lagged streams exhibit consistent phase-specific subsequence behavior.",
+        "confidence": 0.93,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "5",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd stream is constant 5; even stream has successive decrements -4, -5, and onward.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-11",
+          "74",
+          "-18",
+          "111",
+          "-25"
+        ],
+        "case_id": "S093",
+        "check_summary": "Chosen as the strongest available interleaved-stream continuation despite limited consensus.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "74",
+          "92",
+          "77",
+          "98",
+          "80"
+        ],
+        "case_id": "S094",
+        "check_summary": "Chosen from the strongest available phase-stream continuation; evidence remains weak.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-25",
+          "-41",
+          "-57",
+          "-73",
+          "-89"
+        ],
+        "case_id": "S095",
+        "check_summary": "Four-term arithmetic blocks use steps -4, -8, -12, then -16.",
+        "confidence": 0.96,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "18",
+          "-12",
+          "140",
+          "-14",
+          "22"
+        ],
+        "case_id": "S096",
+        "check_summary": "Best available continuation follows the strongest proposed interleaved phase pattern.",
+        "confidence": 0.13,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-38D833F18B84-search-b08-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "0a0c6ae63d6cd4575797b9450eab8b6686674ca4b72c1c6c072b7fdee7d063a9",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-38D833F18B84-search-b08-judge-2/attempt-01"
+}

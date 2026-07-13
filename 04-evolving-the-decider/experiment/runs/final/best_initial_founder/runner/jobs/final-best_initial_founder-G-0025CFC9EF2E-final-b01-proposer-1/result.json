@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b01",
+    "results": [
+      {
+        "answer": [
+          "1211",
+          "1535",
+          "1912",
+          "2346",
+          "2841"
+        ],
+        "case_id": "F001",
+        "check_summary": "Cubic finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-176",
+          "-187",
+          "-191",
+          "-202",
+          "-206"
+        ],
+        "case_id": "F002",
+        "check_summary": "Alternating arithmetic difference streams.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-853138",
+          "-2559412",
+          "5118830",
+          "15356492",
+          "-30730978"
+        ],
+        "case_id": "F003",
+        "check_summary": "Three-phase affine cycle.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-8254430",
+          "-24763286",
+          "49526574",
+          "148579714",
+          "445739146"
+        ],
+        "case_id": "F004",
+        "check_summary": "Three-phase affine cycle.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-47",
+          "-42",
+          "-62",
+          "-49",
+          "-77"
+        ],
+        "case_id": "F005",
+        "check_summary": "Periodic interleaved continuation.",
+        "confidence": 0.31,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16",
+          "-19",
+          "-17",
+          "-20",
+          "-18"
+        ],
+        "case_id": "F006",
+        "check_summary": "Two interleaved arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "27",
+          "2",
+          "25",
+          "-10",
+          "16"
+        ],
+        "case_id": "F007",
+        "check_summary": "Interleaved stream continuation.",
+        "confidence": 0.28,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-21158",
+          "-27876",
+          "-37778",
+          "-51669",
+          "-70479"
+        ],
+        "case_id": "F008",
+        "check_summary": "Polynomial finite-difference continuation.",
+        "confidence": 0.96,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "775",
+          "1207",
+          "1781",
+          "2524",
+          "3267"
+        ],
+        "case_id": "F009",
+        "check_summary": "Polynomial finite-difference continuation.",
+        "confidence": 0.95,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-1059",
+          "-771",
+          "-1859",
+          "-259",
+          "-1411"
+        ],
+        "case_id": "F010",
+        "check_summary": "Four-step difference block multiplied by -4 each cycle.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-30037",
+          "60075",
+          "-120149",
+          "240299",
+          "-480597"
+        ],
+        "case_id": "F011",
+        "check_summary": "Constant affine recurrence x(n+1)=-2x(n)+1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-1284",
+          "-2340",
+          "-2867",
+          "-5850",
+          "-5041"
+        ],
+        "case_id": "F012",
+        "check_summary": "Interleaved polynomial streams.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-best_initial_founder-G-0025CFC9EF2E-final-b01-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "31a005c780358a268909ce4b90c11e2637c7f80a966f0ce1dc8ae81db4658397",
+  "terminal_artifact_relpath": "jobs/final-best_initial_founder-G-0025CFC9EF2E-final-b01-proposer-1/attempt-01"
+}

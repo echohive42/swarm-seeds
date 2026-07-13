@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating differences -4,-3 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-2 constant deltas."
+      },
+      {
+        "answer": [
+          "9330",
+          "-15111",
+          "24441",
+          "-39552",
+          "63993"
+        ],
+        "case_id": "S074",
+        "check_summary": "Plurality supports the alternating signed second-order continuation.",
+        "confidence": 0.45,
+        "rule_summary": "LIN2 with phase-dependent bias."
+      },
+      {
+        "answer": [
+          "6",
+          "11",
+          "18",
+          "7",
+          "14"
+        ],
+        "case_id": "S075",
+        "check_summary": "Three interleaved streams continue with inferred polynomial increments.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "-14195",
+          "-20254",
+          "-28159",
+          "-38217",
+          "-50612"
+        ],
+        "case_id": "S076",
+        "check_summary": "Plurality supports the accelerating negative recurrence.",
+        "confidence": 0.35,
+        "rule_summary": "Second-order linear recurrence with phase bias."
+      },
+      {
+        "answer": [
+          "-4062",
+          "-9803",
+          "-23663",
+          "-57124",
+          "-137906"
+        ],
+        "case_id": "S077",
+        "check_summary": "First differences satisfy d_n=2d_{n-1}+d_{n-2}.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 recurrence on running differences."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Every step is -3x+5.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "91",
+          "123",
+          "164",
+          "216",
+          "279"
+        ],
+        "case_id": "S079",
+        "check_summary": "Plurality supports the interleaved polynomial-stream continuation.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      },
+      {
+        "answer": [
+          "408426",
+          "1225270",
+          "-3675812",
+          "3675804",
+          "11027404"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three phase-specific affine streams replay the prefix exactly.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of three affine streams."
+      },
+      {
+        "answer": [
+          "-152370",
+          "-304742",
+          "609486",
+          "1218970",
+          "-2437938"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating affine updates replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences continue as negative consecutive squares.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA with quadratic deltas."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7643",
+          "-10166"
+        ],
+        "case_id": "S083",
+        "check_summary": "The fourth finite difference is constantly -5.",
+        "confidence": 1.0,
+        "rule_summary": "Integer-valued quartic POLY."
+      },
+      {
+        "answer": [
+          "348981",
+          "-838754",
+          "2013009",
+          "-4831222",
+          "11594929"
+        ],
+        "case_id": "S084",
+        "check_summary": "Plurality supports the alternating exponential continuation.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-E2CB7ED71793-search-b07-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "86bea448f714af0e0e92daec2c6b5c8b07d04e58d073ff17d5196170de0d6f7c",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-E2CB7ED71793-search-b07-judge-1/attempt-01"
+}

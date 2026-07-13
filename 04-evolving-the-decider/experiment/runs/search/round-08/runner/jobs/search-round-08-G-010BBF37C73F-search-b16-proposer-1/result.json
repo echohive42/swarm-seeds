@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-279",
+          "-518",
+          "-797",
+          "-1116",
+          "-1475"
+        ],
+        "case_id": "S181",
+        "check_summary": "Last finite differences suggest a rapidly decreasing continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Low-confidence polynomial extrapolation."
+      },
+      {
+        "answer": [
+          "-15",
+          "-24",
+          "-20",
+          "-1",
+          "-29"
+        ],
+        "case_id": "S182",
+        "check_summary": "No stable low-order pattern identified; continuation is uncertain.",
+        "confidence": 0.04,
+        "rule_summary": "Low-confidence interleaved extrapolation."
+      },
+      {
+        "answer": [
+          "13",
+          "-10",
+          "16",
+          "-12",
+          "19"
+        ],
+        "case_id": "S183",
+        "check_summary": "No unique simple continuation identified.",
+        "confidence": 0.05,
+        "rule_summary": "Low-confidence phase-interleaved extrapolation."
+      },
+      {
+        "answer": [
+          "-1019",
+          "-14",
+          "-2039",
+          "-14",
+          "-4079"
+        ],
+        "case_id": "S184",
+        "check_summary": "Alternating explosive and near-constant terms suggest phase-specific recurrence.",
+        "confidence": 0.12,
+        "rule_summary": "Low-confidence periodic affine extrapolation."
+      },
+      {
+        "answer": [
+          "68",
+          "3",
+          "88",
+          "-2",
+          "111"
+        ],
+        "case_id": "S185",
+        "check_summary": "Odd subsequence has successive increments 5,8,11,14,17; even subsequence alternates 3 and -2.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/periodic streams."
+      },
+      {
+        "answer": [
+          "-44",
+          "-49",
+          "-58",
+          "-65",
+          "-76"
+        ],
+        "case_id": "S186",
+        "check_summary": "No stable registered mechanism confidently recovered.",
+        "confidence": 0.03,
+        "rule_summary": "Low-confidence extrapolation."
+      },
+      {
+        "answer": [
+          "35",
+          "-119",
+          "-48",
+          "-192",
+          "-61"
+        ],
+        "case_id": "S187",
+        "check_summary": "No unique simple continuation identified.",
+        "confidence": 0.04,
+        "rule_summary": "Low-confidence periodic/interleaved extrapolation."
+      },
+      {
+        "answer": [
+          "-35",
+          "-52",
+          "-69",
+          "-86",
+          "-103"
+        ],
+        "case_id": "S188",
+        "check_summary": "Growing blocks show steps -9, -11, -13, -15; next block uses step -17.",
+        "confidence": 0.9,
+        "rule_summary": "GROWBLOCK with increasing block lengths and odd negative steps."
+      },
+      {
+        "answer": [
+          "-26",
+          "-22",
+          "-29",
+          "-26",
+          "-32"
+        ],
+        "case_id": "S189",
+        "check_summary": "Odd terms decrease by 3; even terms decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-40",
+          "61",
+          "-80",
+          "82",
+          "-124"
+        ],
+        "case_id": "S190",
+        "check_summary": "No stable low-order mechanism confidently recovered.",
+        "confidence": 0.04,
+        "rule_summary": "Low-confidence phase-interleaved extrapolation."
+      },
+      {
+        "answer": [
+          "28",
+          "-5",
+          "64",
+          "-24",
+          "77"
+        ],
+        "case_id": "S191",
+        "check_summary": "No unique simple continuation identified.",
+        "confidence": 0.04,
+        "rule_summary": "Low-confidence interleaved extrapolation."
+      },
+      {
+        "answer": [
+          "-46",
+          "145",
+          "-57",
+          "188",
+          "-68"
+        ],
+        "case_id": "S192",
+        "check_summary": "No unique simple continuation identified.",
+        "confidence": 0.03,
+        "rule_summary": "Low-confidence periodic recurrence extrapolation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-010BBF37C73F-search-b16-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "18cad8c246deb6a6beb0397a59ad27ee7fd30066cbfa2d9df7fad688f7df24d4",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-010BBF37C73F-search-b16-proposer-1/attempt-01"
+}

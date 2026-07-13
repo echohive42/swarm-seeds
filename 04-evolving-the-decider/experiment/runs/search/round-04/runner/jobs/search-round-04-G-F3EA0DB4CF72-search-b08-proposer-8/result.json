@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "14",
+          "17",
+          "20",
+          "23"
+        ],
+        "case_id": "S085",
+        "check_summary": "Periodic increments with phase-specific drops; replay matches prefix.",
+        "confidence": 0.86,
+        "rule_summary": "PDELTA with period 4."
+      },
+      {
+        "answer": [
+          "-14",
+          "53",
+          "-9",
+          "48",
+          "-4"
+        ],
+        "case_id": "S086",
+        "check_summary": "No stable low-complexity non-modular pattern identified.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative periodic affine/modular extrapolation."
+      },
+      {
+        "answer": [
+          "-44",
+          "-54",
+          "-64",
+          "-74",
+          "-84"
+        ],
+        "case_id": "S087",
+        "check_summary": "Final run is a constant decrement of 10.",
+        "confidence": 0.62,
+        "rule_summary": "GROWBLOCK or PDELTA with current phase decrement -10."
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd positions increase by 5; even positions decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-18",
+          "42",
+          "-70",
+          "90",
+          "-130"
+        ],
+        "case_id": "S089",
+        "check_summary": "No uniquely supported simple extrapolation from visible prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative interleaved/modular pattern."
+      },
+      {
+        "answer": [
+          "11",
+          "9",
+          "6",
+          "17",
+          "4"
+        ],
+        "case_id": "S090",
+        "check_summary": "No stable low-complexity pattern identified.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative periodic recurrence."
+      },
+      {
+        "answer": [
+          "-300",
+          "497",
+          "-806",
+          "1299",
+          "-2088"
+        ],
+        "case_id": "S091",
+        "check_summary": "Wild oscillation suggests a second-order or modular mechanism.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative LIN2 extrapolation."
+      },
+      {
+        "answer": [
+          "5",
+          "-28",
+          "0",
+          "-39",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd stream alternates 5,0; even stream has successive decrements -4 through -8.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE with polynomial even subsequence."
+      },
+      {
+        "answer": [
+          "-33",
+          "20",
+          "-84",
+          "69",
+          "-173"
+        ],
+        "case_id": "S093",
+        "check_summary": "No uniquely supported simple extrapolation from visible prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative interleaved/modular pattern."
+      },
+      {
+        "answer": [
+          "74",
+          "82",
+          "77",
+          "95",
+          "80"
+        ],
+        "case_id": "S094",
+        "check_summary": "No stable low-complexity pattern identified.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic modular mechanism."
+      },
+      {
+        "answer": [
+          "-29",
+          "-45",
+          "-61",
+          "-77",
+          "-93"
+        ],
+        "case_id": "S095",
+        "check_summary": "Three-position decrement blocks continue with -16; exceptional phase follows quadratic trend.",
+        "confidence": 0.58,
+        "rule_summary": "PDELTA with phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-24",
+          "180",
+          "-50",
+          "334",
+          "-76"
+        ],
+        "case_id": "S096",
+        "check_summary": "No uniquely supported simple extrapolation from visible prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative interleaved/modular pattern."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-F3EA0DB4CF72-search-b08-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "c1d75fa71dc3f375d9b19c8fe32a23de389a5bbb0adb3a4e9d248b385de44a7c",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-F3EA0DB4CF72-search-b08-proposer-8/attempt-01"
+}

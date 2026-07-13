@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "-425",
+          "-65",
+          "855",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Odd and even subsequences fit distinct exact recurrences.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "0",
+          "24",
+          "48",
+          "72",
+          "96"
+        ],
+        "case_id": "V038",
+        "check_summary": "Growing arithmetic blocks continue with the established step pattern.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-277",
+          "83",
+          "-183",
+          "-549",
+          "105"
+        ],
+        "case_id": "V039",
+        "check_summary": "Three residue-class streams fit polynomial and doubling-difference continuations.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "22",
+          "26",
+          "30",
+          "34",
+          "38"
+        ],
+        "case_id": "V040",
+        "check_summary": "Arithmetic block continuation is supported by the observed structure.",
+        "confidence": 0.8,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "88",
+          "-11",
+          "93",
+          "-5",
+          "98"
+        ],
+        "case_id": "V041",
+        "check_summary": "Best available continuation follows the proposed periodic modular-affine pattern.",
+        "confidence": 0.2,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Odd terms rise by 2 and even terms fall by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "30",
+          "94",
+          "-17",
+          "54",
+          "-194"
+        ],
+        "case_id": "V043",
+        "check_summary": "Three interleaved streams provide the strongest full-prefix fit.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "69",
+          "41",
+          "13",
+          "-15",
+          "-43"
+        ],
+        "case_id": "V044",
+        "check_summary": "Growing arithmetic blocks continue with next step -28.",
+        "confidence": 0.82,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "44",
+          "31",
+          "78",
+          "-1",
+          "16"
+        ],
+        "case_id": "V045",
+        "check_summary": "Best available periodic affine continuation from the full prefix.",
+        "confidence": 0.2,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-24",
+          "18",
+          "-54",
+          "-38",
+          "13"
+        ],
+        "case_id": "V046",
+        "check_summary": "Three residue classes show coherent polynomial and linear patterns.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "18",
+          "-6",
+          "30",
+          "-2",
+          "50"
+        ],
+        "case_id": "V047",
+        "check_summary": "Interleaved polynomial and affine streams give the strongest continuation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-20",
+          "24",
+          "-24",
+          "27",
+          "-21"
+        ],
+        "case_id": "V048",
+        "check_summary": "Alternating phase-specific modular-affine continuation is the strongest candidate.",
+        "confidence": 0.18,
+        "rule_summary": "MODAFFINE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b04-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "4bb006c1e5b2818537c2f9429df293784e5fe53a87b80ac1dc12526afcfe9d5e",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b04-judge-2/attempt-01"
+}

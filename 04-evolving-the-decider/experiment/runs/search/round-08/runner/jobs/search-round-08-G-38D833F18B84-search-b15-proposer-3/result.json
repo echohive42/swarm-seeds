@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "2017",
+          "1345",
+          "6897",
+          "6593"
+        ],
+        "case_id": "S169",
+        "check_summary": "Likely phase-interleaved polynomial/affine continuation; low confidence.",
+        "confidence": 0.18,
+        "rule_summary": "Searched periodic/interleaved delta patterns."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments +4,+5 replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine increment pattern."
+      },
+      {
+        "answer": [
+          "-2280",
+          "-3330",
+          "-4260",
+          "-4920",
+          "-5100"
+        ],
+        "case_id": "S171",
+        "check_summary": "Higher-order phase pattern extrapolation; uncertain.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic polynomial-delta continuation."
+      },
+      {
+        "answer": [
+          "1335",
+          "1638",
+          "1957",
+          "2286",
+          "2618"
+        ],
+        "case_id": "S172",
+        "check_summary": "Second differences follow the visible symmetric polynomial pattern.",
+        "confidence": 0.88,
+        "rule_summary": "Polynomial-delta continuation."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Successive delta increments continue -4,-3,...,+5.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial continuation."
+      },
+      {
+        "answer": [
+          "-4439",
+          "-7182",
+          "-11621",
+          "-18803",
+          "-30424"
+        ],
+        "case_id": "S174",
+        "check_summary": "Exponential-looking affine continuation from stable tail ratios.",
+        "confidence": 0.31,
+        "rule_summary": "Phase-affine growth continuation."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97897621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Two interleaved streams each update by multiplier -6 with fixed bias.",
+        "confidence": 0.99,
+        "rule_summary": "Two-stream interleave: odd x'=-6x+4, even x'=-6x+19."
+      },
+      {
+        "answer": [
+          "64",
+          "72",
+          "67",
+          "70",
+          "77"
+        ],
+        "case_id": "S176",
+        "check_summary": "Three interleaved streams extrapolated from local phase increments; uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "Three-stream periodic continuation."
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3436997"
+        ],
+        "case_id": "S177",
+        "check_summary": "Repeating affine phase updates replay the large tail exactly.",
+        "confidence": 0.82,
+        "rule_summary": "Four-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term doubles the previous term.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence x' = 2x."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "Six-term cycle repeats exactly.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic sequence with period 6."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Alternating delta subsequences continue with constant decrements.",
+        "confidence": 0.83,
+        "rule_summary": "Interleaved polynomial delta streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-38D833F18B84-search-b15-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "5b23d8956df305e0bfca1e7b5bc37c1056c4bca5811e1a5448d0179b789eddbd",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-38D833F18B84-search-b15-proposer-3/attempt-01"
+}

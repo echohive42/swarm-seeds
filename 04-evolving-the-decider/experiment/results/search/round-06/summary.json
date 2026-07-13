@@ -1,0 +1,1499 @@
+{
+  "bootstrap": {
+    "method": "paired case bootstrap stratified within block; percentile interval",
+    "replicates": 1000,
+    "seed": 20260713
+  },
+  "fitness_definition": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+  "genome_scores": [
+    {
+      "block_exact_cases": {
+        "search-b11": 10,
+        "search-b12": 3
+      },
+      "case_count": 24,
+      "exact_cases": 13,
+      "exact_correct": 13,
+      "fitness_key_without_hash": [
+        13,
+        3,
+        -1,
+        74,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-1FA44A1EE857",
+      "harmful_overrides": 1,
+      "protocol_fitness_key": [
+        13,
+        3,
+        -1,
+        74,
+        24
+      ],
+      "term_correct": 74,
+      "term_count": 120,
+      "weakest_block_exact": 3
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 8,
+        "search-b12": 3
+      },
+      "case_count": 24,
+      "exact_cases": 11,
+      "exact_correct": 11,
+      "fitness_key_without_hash": [
+        11,
+        3,
+        0,
+        62,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-3373FE74E208",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        11,
+        3,
+        0,
+        62,
+        24
+      ],
+      "term_correct": 62,
+      "term_count": 120,
+      "weakest_block_exact": 3
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 9,
+        "search-b12": 4
+      },
+      "case_count": 24,
+      "exact_cases": 13,
+      "exact_correct": 13,
+      "fitness_key_without_hash": [
+        13,
+        4,
+        0,
+        74,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-38D833F18B84",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        13,
+        4,
+        0,
+        74,
+        24
+      ],
+      "term_correct": 74,
+      "term_count": 120,
+      "weakest_block_exact": 4
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 7,
+        "search-b12": 2
+      },
+      "case_count": 24,
+      "exact_cases": 9,
+      "exact_correct": 9,
+      "fitness_key_without_hash": [
+        9,
+        2,
+        -1,
+        57,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-43008A0ACA81",
+      "harmful_overrides": 1,
+      "protocol_fitness_key": [
+        9,
+        2,
+        -1,
+        57,
+        24
+      ],
+      "term_correct": 57,
+      "term_count": 120,
+      "weakest_block_exact": 2
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 7,
+        "search-b12": 3
+      },
+      "case_count": 24,
+      "exact_cases": 10,
+      "exact_correct": 10,
+      "fitness_key_without_hash": [
+        10,
+        3,
+        0,
+        66,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-59263FEA2B37",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        10,
+        3,
+        0,
+        66,
+        24
+      ],
+      "term_correct": 66,
+      "term_count": 120,
+      "weakest_block_exact": 3
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 9,
+        "search-b12": 3
+      },
+      "case_count": 24,
+      "exact_cases": 12,
+      "exact_correct": 12,
+      "fitness_key_without_hash": [
+        12,
+        3,
+        -1,
+        71,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-621D0989B1DE",
+      "harmful_overrides": 1,
+      "protocol_fitness_key": [
+        12,
+        3,
+        -1,
+        71,
+        24
+      ],
+      "term_correct": 71,
+      "term_count": 120,
+      "weakest_block_exact": 3
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 9,
+        "search-b12": 4
+      },
+      "case_count": 24,
+      "exact_cases": 13,
+      "exact_correct": 13,
+      "fitness_key_without_hash": [
+        13,
+        4,
+        0,
+        74,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-8A6A683A8E7A",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        13,
+        4,
+        0,
+        74,
+        24
+      ],
+      "term_correct": 74,
+      "term_count": 120,
+      "weakest_block_exact": 4
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 8,
+        "search-b12": 3
+      },
+      "case_count": 24,
+      "exact_cases": 11,
+      "exact_correct": 11,
+      "fitness_key_without_hash": [
+        11,
+        3,
+        0,
+        70,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-9EDD732A542F",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        11,
+        3,
+        0,
+        70,
+        24
+      ],
+      "term_correct": 70,
+      "term_count": 120,
+      "weakest_block_exact": 3
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 5,
+        "search-b12": 4
+      },
+      "case_count": 24,
+      "exact_cases": 9,
+      "exact_correct": 9,
+      "fitness_key_without_hash": [
+        9,
+        4,
+        0,
+        58,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-E2ACA04030E1",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        9,
+        4,
+        0,
+        58,
+        24
+      ],
+      "term_correct": 58,
+      "term_count": 120,
+      "weakest_block_exact": 4
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 10,
+        "search-b12": 3
+      },
+      "case_count": 24,
+      "exact_cases": 13,
+      "exact_correct": 13,
+      "fitness_key_without_hash": [
+        13,
+        3,
+        0,
+        76,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-E2CB7ED71793",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        13,
+        3,
+        0,
+        76,
+        24
+      ],
+      "term_correct": 76,
+      "term_count": 120,
+      "weakest_block_exact": 3
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 10,
+        "search-b12": 2
+      },
+      "case_count": 24,
+      "exact_cases": 12,
+      "exact_correct": 12,
+      "fitness_key_without_hash": [
+        12,
+        2,
+        0,
+        71,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-EC429DE4D50C",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        12,
+        2,
+        0,
+        71,
+        24
+      ],
+      "term_correct": 71,
+      "term_count": 120,
+      "weakest_block_exact": 2
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 8,
+        "search-b12": 2
+      },
+      "case_count": 24,
+      "exact_cases": 10,
+      "exact_correct": 10,
+      "fitness_key_without_hash": [
+        10,
+        2,
+        0,
+        58,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-EEE6DF66A16A",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        10,
+        2,
+        0,
+        58,
+        24
+      ],
+      "term_correct": 58,
+      "term_count": 120,
+      "weakest_block_exact": 2
+    }
+  ],
+  "inputs": {
+    "answers_sha256": "30d7e426abd651062aa43acc80f4c3a31138700be143b8d7f37f2699fab52d56",
+    "completed_jobs": 3168,
+    "predictions_sha256": "cd1574380091bd8eb843d6e2f8fd1a5ae16da5be25eb4d693b7fddf67cab005e"
+  },
+  "methods": {
+    "G-1FA44A1EE857": {
+      "block_exact_cases": {
+        "search-b11": 10,
+        "search-b12": 3
+      },
+      "calls": 20,
+      "case_count": 24,
+      "completed_calls": 20,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.5416666666666666,
+      "exact_cases": 13,
+      "exact_ci95": [
+        0.375,
+        0.7083333333333334
+      ],
+      "fitness_key_without_hash": [
+        13,
+        -1,
+        74,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_rate": 1.0,
+      "format_valid": 24,
+      "harmful_overrides": 1,
+      "input_tokens": 279338.0,
+      "latency_ms": 1036256.0,
+      "malformed_calls": 0,
+      "n": 24,
+      "output_tokens": 50937.0,
+      "overrides": 3,
+      "protocol_fitness_key": [
+        13,
+        3,
+        -1,
+        74,
+        24
+      ],
+      "term_accuracy": 0.6166666666666667,
+      "term_ci95": [
+        0.47500000000000003,
+        0.7583333333333333
+      ],
+      "term_correct": 74,
+      "term_count": 120,
+      "useful_overrides": 1,
+      "weakest_block_exact": 3
+    },
+    "G-3373FE74E208": {
+      "block_exact_cases": {
+        "search-b11": 8,
+        "search-b12": 3
+      },
+      "calls": 20,
+      "case_count": 24,
+      "completed_calls": 20,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.4583333333333333,
+      "exact_cases": 11,
+      "exact_ci95": [
+        0.2916666666666667,
+        0.625
+      ],
+      "fitness_key_without_hash": [
+        11,
+        0,
+        62,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_rate": 1.0,
+      "format_valid": 24,
+      "harmful_overrides": 0,
+      "input_tokens": 262394.0,
+      "latency_ms": 1178380.0,
+      "malformed_calls": 0,
+      "n": 24,
+      "output_tokens": 56616.0,
+      "overrides": 0,
+      "protocol_fitness_key": [
+        11,
+        3,
+        0,
+        62,
+        24
+      ],
+      "term_accuracy": 0.5166666666666667,
+      "term_ci95": [
+        0.35000000000000003,
+        0.7000000000000001
+      ],
+      "term_correct": 62,
+      "term_count": 120,
+      "useful_overrides": 0,
+      "weakest_block_exact": 3
+    },
+    "G-38D833F18B84": {
+      "block_exact_cases": {
+        "search-b11": 9,
+        "search-b12": 4
+      },
+      "calls": 20,
+      "case_count": 24,
+      "completed_calls": 20,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.5416666666666666,
+      "exact_cases": 13,
+      "exact_ci95": [
+        0.3739583333333343,
+        0.7083333333333334
+      ],
+      "fitness_key_without_hash": [
+        13,
+        0,
+        74,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_rate": 1.0,
+      "format_valid": 24,
+      "harmful_overrides": 0,
+      "input_tokens": 262952.0,
+      "latency_ms": 1214010.0,
+      "malformed_calls": 0,
+      "n": 24,
+      "output_tokens": 55781.0,
+      "overrides": 2,
+      "protocol_fitness_key": [
+        13,
+        4,
+        0,
+        74,
+        24
+      ],
+      "term_accuracy": 0.6166666666666667,
+      "term_ci95": [
+        0.4583333333333333,
+        0.7583333333333333
+      ],
+      "term_correct": 74,
+      "term_count": 120,
+      "useful_overrides": 1,
+      "weakest_block_exact": 4
+    },
+    "G-43008A0ACA81": {
+      "block_exact_cases": {
+        "search-b11": 7,
+        "search-b12": 2
+      },
+      "calls": 20,
+      "case_count": 24,
+      "completed_calls": 20,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.375,
+      "exact_cases": 9,
+      "exact_ci95": [
+        0.20833333333333334,
+        0.5416666666666666
+      ],
+      "fitness_key_without_hash": [
+        9,
+        -1,
+        57,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_rate": 1.0,
+      "format_valid": 24,
+      "harmful_overrides": 1,
+      "input_tokens": 262724.0,
+      "latency_ms": 1234464.0,
+      "malformed_calls": 0,
+      "n": 24,
+      "output_tokens": 56630.0,
+      "overrides": 4,
+      "protocol_fitness_key": [
+        9,
+        2,
+        -1,
+        57,
+        24
+      ],
+      "term_accuracy": 0.47500000000000003,
+      "term_ci95": [
+        0.3081250000000002,
+        0.65
+      ],
+      "term_correct": 57,
+      "term_count": 120,
+      "useful_overrides": 2,
+      "weakest_block_exact": 2
+    },
+    "G-59263FEA2B37": {
+      "block_exact_cases": {
+        "search-b11": 7,
+        "search-b12": 3
+      },
+      "calls": 20,
+      "case_count": 24,
+      "completed_calls": 20,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.4166666666666667,
+      "exact_cases": 10,
+      "exact_ci95": [
+        0.20833333333333334,
+        0.625
+      ],
+      "fitness_key_without_hash": [
+        10,
+        0,
+        66,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_rate": 1.0,
+      "format_valid": 24,
+      "harmful_overrides": 0,
+      "input_tokens": 262858.0,
+      "latency_ms": 1165513.0,
+      "malformed_calls": 0,
+      "n": 24,
+      "output_tokens": 57806.0,
+      "overrides": 2,
+      "protocol_fitness_key": [
+        10,
+        3,
+        0,
+        66,
+        24
+      ],
+      "term_accuracy": 0.5499999999999999,
+      "term_ci95": [
+        0.375,
+        0.7085416666666665
+      ],
+      "term_correct": 66,
+      "term_count": 120,
+      "useful_overrides": 2,
+      "weakest_block_exact": 3
+    },
+    "G-621D0989B1DE": {
+      "block_exact_cases": {
+        "search-b11": 9,
+        "search-b12": 3
+      },
+      "calls": 20,
+      "case_count": 24,
+      "completed_calls": 20,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.5,
+      "exact_cases": 12,
+      "exact_ci95": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "fitness_key_without_hash": [
+        12,
+        -1,
+        71,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_rate": 1.0,
+      "format_valid": 24,
+      "harmful_overrides": 1,
+      "input_tokens": 279506.0,
+      "latency_ms": 1118020.0,
+      "malformed_calls": 0,
+      "n": 24,
+      "output_tokens": 54647.0,
+      "overrides": 5,
+      "protocol_fitness_key": [
+        12,
+        3,
+        -1,
+        71,
+        24
+      ],
+      "term_accuracy": 0.5916666666666667,
+      "term_ci95": [
+        0.4331250000000002,
+        0.7416666666666667
+      ],
+      "term_correct": 71,
+      "term_count": 120,
+      "useful_overrides": 2,
+      "weakest_block_exact": 3
+    },
+    "G-8A6A683A8E7A": {
+      "block_exact_cases": {
+        "search-b11": 9,
+        "search-b12": 4
+      },
+      "calls": 20,
+      "case_count": 24,
+      "completed_calls": 20,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.5416666666666666,
+      "exact_cases": 13,
+      "exact_ci95": [
+        0.375,
+        0.7083333333333334
+      ],
+      "fitness_key_without_hash": [
+        13,
+        0,
+        74,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_rate": 1.0,
+      "format_valid": 24,
+      "harmful_overrides": 0,
+      "input_tokens": 263198.0,
+      "latency_ms": 1198807.0,
+      "malformed_calls": 0,
+      "n": 24,
+      "output_tokens": 58492.0,
+      "overrides": 3,
+      "protocol_fitness_key": [
+        13,
+        4,
+        0,
+        74,
+        24
+      ],
+      "term_accuracy": 0.6166666666666667,
+      "term_ci95": [
+        0.43333333333333335,
+        0.7833333333333333
+      ],
+      "term_correct": 74,
+      "term_count": 120,
+      "useful_overrides": 2,
+      "weakest_block_exact": 4
+    },
+    "G-9EDD732A542F": {
+      "block_exact_cases": {
+        "search-b11": 8,
+        "search-b12": 3
+      },
+      "calls": 20,
+      "case_count": 24,
+      "completed_calls": 20,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.4583333333333333,
+      "exact_cases": 11,
+      "exact_ci95": [
+        0.2916666666666667,
+        0.625
+      ],
+      "fitness_key_without_hash": [
+        11,
+        0,
+        70,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_rate": 1.0,
+      "format_valid": 24,
+      "harmful_overrides": 0,
+      "input_tokens": 280148.0,
+      "latency_ms": 1044056.0,
+      "malformed_calls": 0,
+      "n": 24,
+      "output_tokens": 50871.0,
+      "overrides": 3,
+      "protocol_fitness_key": [
+        11,
+        3,
+        0,
+        70,
+        24
+      ],
+      "term_accuracy": 0.5833333333333334,
+      "term_ci95": [
+        0.4166666666666667,
+        0.7416666666666667
+      ],
+      "term_correct": 70,
+      "term_count": 120,
+      "useful_overrides": 1,
+      "weakest_block_exact": 3
+    },
+    "G-E2ACA04030E1": {
+      "block_exact_cases": {
+        "search-b11": 5,
+        "search-b12": 4
+      },
+      "calls": 20,
+      "case_count": 24,
+      "completed_calls": 20,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.375,
+      "exact_cases": 9,
+      "exact_ci95": [
+        0.16666666666666666,
+        0.5833333333333334
+      ],
+      "fitness_key_without_hash": [
+        9,
+        0,
+        58,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_rate": 1.0,
+      "format_valid": 24,
+      "harmful_overrides": 0,
+      "input_tokens": 262654.0,
+      "latency_ms": 1185139.0,
+      "malformed_calls": 0,
+      "n": 24,
+      "output_tokens": 57168.0,
+      "overrides": 4,
+      "protocol_fitness_key": [
+        9,
+        4,
+        0,
+        58,
+        24
+      ],
+      "term_accuracy": 0.48333333333333334,
+      "term_ci95": [
+        0.2916666666666667,
+        0.6585416666666665
+      ],
+      "term_correct": 58,
+      "term_count": 120,
+      "useful_overrides": 3,
+      "weakest_block_exact": 4
+    },
+    "G-E2CB7ED71793": {
+      "block_exact_cases": {
+        "search-b11": 10,
+        "search-b12": 3
+      },
+      "calls": 20,
+      "case_count": 24,
+      "completed_calls": 20,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.5416666666666666,
+      "exact_cases": 13,
+      "exact_ci95": [
+        0.375,
+        0.7083333333333334
+      ],
+      "fitness_key_without_hash": [
+        13,
+        0,
+        76,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_rate": 1.0,
+      "format_valid": 24,
+      "harmful_overrides": 0,
+      "input_tokens": 280244.0,
+      "latency_ms": 1071535.0,
+      "malformed_calls": 0,
+      "n": 24,
+      "output_tokens": 51842.0,
+      "overrides": 2,
+      "protocol_fitness_key": [
+        13,
+        3,
+        0,
+        76,
+        24
+      ],
+      "term_accuracy": 0.6333333333333333,
+      "term_ci95": [
+        0.5,
+        0.775
+      ],
+      "term_correct": 76,
+      "term_count": 120,
+      "useful_overrides": 0,
+      "weakest_block_exact": 3
+    },
+    "G-EC429DE4D50C": {
+      "block_exact_cases": {
+        "search-b11": 10,
+        "search-b12": 2
+      },
+      "calls": 20,
+      "case_count": 24,
+      "completed_calls": 20,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.5,
+      "exact_cases": 12,
+      "exact_ci95": [
+        0.375,
+        0.625
+      ],
+      "fitness_key_without_hash": [
+        12,
+        0,
+        71,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_rate": 1.0,
+      "format_valid": 24,
+      "harmful_overrides": 0,
+      "input_tokens": 279770.0,
+      "latency_ms": 1051555.0,
+      "malformed_calls": 0,
+      "n": 24,
+      "output_tokens": 51607.0,
+      "overrides": 2,
+      "protocol_fitness_key": [
+        12,
+        2,
+        0,
+        71,
+        24
+      ],
+      "term_accuracy": 0.5916666666666667,
+      "term_ci95": [
+        0.4583333333333333,
+        0.7335416666666665
+      ],
+      "term_correct": 71,
+      "term_count": 120,
+      "useful_overrides": 2,
+      "weakest_block_exact": 2
+    },
+    "G-EEE6DF66A16A": {
+      "block_exact_cases": {
+        "search-b11": 8,
+        "search-b12": 2
+      },
+      "calls": 20,
+      "case_count": 24,
+      "completed_calls": 20,
+      "cost_usd": 0.0,
+      "exact_accuracy": 0.4166666666666667,
+      "exact_cases": 10,
+      "exact_ci95": [
+        0.25,
+        0.5833333333333334
+      ],
+      "fitness_key_without_hash": [
+        10,
+        0,
+        58,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_rate": 1.0,
+      "format_valid": 24,
+      "harmful_overrides": 0,
+      "input_tokens": 262896.0,
+      "latency_ms": 1160684.0,
+      "malformed_calls": 0,
+      "n": 24,
+      "output_tokens": 57405.0,
+      "overrides": 0,
+      "protocol_fitness_key": [
+        10,
+        2,
+        0,
+        58,
+        24
+      ],
+      "term_accuracy": 0.48333333333333334,
+      "term_ci95": [
+        0.3164583333333335,
+        0.65
+      ],
+      "term_correct": 58,
+      "term_count": 120,
+      "useful_overrides": 0,
+      "weakest_block_exact": 2
+    }
+  },
+  "n_cases": 24,
+  "protocol_fitness": {
+    "G-1FA44A1EE857": {
+      "block_exact_cases": {
+        "search-b11": 10,
+        "search-b12": 3
+      },
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "protocol_fitness_key": [
+        13,
+        3,
+        -1,
+        74,
+        24
+      ],
+      "weakest_block_exact": 3
+    },
+    "G-3373FE74E208": {
+      "block_exact_cases": {
+        "search-b11": 8,
+        "search-b12": 3
+      },
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "protocol_fitness_key": [
+        11,
+        3,
+        0,
+        62,
+        24
+      ],
+      "weakest_block_exact": 3
+    },
+    "G-38D833F18B84": {
+      "block_exact_cases": {
+        "search-b11": 9,
+        "search-b12": 4
+      },
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "protocol_fitness_key": [
+        13,
+        4,
+        0,
+        74,
+        24
+      ],
+      "weakest_block_exact": 4
+    },
+    "G-43008A0ACA81": {
+      "block_exact_cases": {
+        "search-b11": 7,
+        "search-b12": 2
+      },
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "protocol_fitness_key": [
+        9,
+        2,
+        -1,
+        57,
+        24
+      ],
+      "weakest_block_exact": 2
+    },
+    "G-59263FEA2B37": {
+      "block_exact_cases": {
+        "search-b11": 7,
+        "search-b12": 3
+      },
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "protocol_fitness_key": [
+        10,
+        3,
+        0,
+        66,
+        24
+      ],
+      "weakest_block_exact": 3
+    },
+    "G-621D0989B1DE": {
+      "block_exact_cases": {
+        "search-b11": 9,
+        "search-b12": 3
+      },
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "protocol_fitness_key": [
+        12,
+        3,
+        -1,
+        71,
+        24
+      ],
+      "weakest_block_exact": 3
+    },
+    "G-8A6A683A8E7A": {
+      "block_exact_cases": {
+        "search-b11": 9,
+        "search-b12": 4
+      },
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "protocol_fitness_key": [
+        13,
+        4,
+        0,
+        74,
+        24
+      ],
+      "weakest_block_exact": 4
+    },
+    "G-9EDD732A542F": {
+      "block_exact_cases": {
+        "search-b11": 8,
+        "search-b12": 3
+      },
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "protocol_fitness_key": [
+        11,
+        3,
+        0,
+        70,
+        24
+      ],
+      "weakest_block_exact": 3
+    },
+    "G-E2ACA04030E1": {
+      "block_exact_cases": {
+        "search-b11": 5,
+        "search-b12": 4
+      },
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "protocol_fitness_key": [
+        9,
+        4,
+        0,
+        58,
+        24
+      ],
+      "weakest_block_exact": 4
+    },
+    "G-E2CB7ED71793": {
+      "block_exact_cases": {
+        "search-b11": 10,
+        "search-b12": 3
+      },
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "protocol_fitness_key": [
+        13,
+        3,
+        0,
+        76,
+        24
+      ],
+      "weakest_block_exact": 3
+    },
+    "G-EC429DE4D50C": {
+      "block_exact_cases": {
+        "search-b11": 10,
+        "search-b12": 2
+      },
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "protocol_fitness_key": [
+        12,
+        2,
+        0,
+        71,
+        24
+      ],
+      "weakest_block_exact": 2
+    },
+    "G-EEE6DF66A16A": {
+      "block_exact_cases": {
+        "search-b11": 8,
+        "search-b12": 2
+      },
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "protocol_fitness_key": [
+        10,
+        2,
+        0,
+        58,
+        24
+      ],
+      "weakest_block_exact": 2
+    }
+  },
+  "schema_version": "4.0",
+  "scores": [
+    {
+      "block_exact_cases": {
+        "search-b11": 10,
+        "search-b12": 3
+      },
+      "case_count": 24,
+      "exact_cases": 13,
+      "exact_correct": 13,
+      "fitness_key_without_hash": [
+        13,
+        3,
+        -1,
+        74,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-1FA44A1EE857",
+      "harmful_overrides": 1,
+      "protocol_fitness_key": [
+        13,
+        3,
+        -1,
+        74,
+        24
+      ],
+      "term_correct": 74,
+      "term_count": 120,
+      "weakest_block_exact": 3
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 8,
+        "search-b12": 3
+      },
+      "case_count": 24,
+      "exact_cases": 11,
+      "exact_correct": 11,
+      "fitness_key_without_hash": [
+        11,
+        3,
+        0,
+        62,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-3373FE74E208",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        11,
+        3,
+        0,
+        62,
+        24
+      ],
+      "term_correct": 62,
+      "term_count": 120,
+      "weakest_block_exact": 3
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 9,
+        "search-b12": 4
+      },
+      "case_count": 24,
+      "exact_cases": 13,
+      "exact_correct": 13,
+      "fitness_key_without_hash": [
+        13,
+        4,
+        0,
+        74,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-38D833F18B84",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        13,
+        4,
+        0,
+        74,
+        24
+      ],
+      "term_correct": 74,
+      "term_count": 120,
+      "weakest_block_exact": 4
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 7,
+        "search-b12": 2
+      },
+      "case_count": 24,
+      "exact_cases": 9,
+      "exact_correct": 9,
+      "fitness_key_without_hash": [
+        9,
+        2,
+        -1,
+        57,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-43008A0ACA81",
+      "harmful_overrides": 1,
+      "protocol_fitness_key": [
+        9,
+        2,
+        -1,
+        57,
+        24
+      ],
+      "term_correct": 57,
+      "term_count": 120,
+      "weakest_block_exact": 2
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 7,
+        "search-b12": 3
+      },
+      "case_count": 24,
+      "exact_cases": 10,
+      "exact_correct": 10,
+      "fitness_key_without_hash": [
+        10,
+        3,
+        0,
+        66,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-59263FEA2B37",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        10,
+        3,
+        0,
+        66,
+        24
+      ],
+      "term_correct": 66,
+      "term_count": 120,
+      "weakest_block_exact": 3
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 9,
+        "search-b12": 3
+      },
+      "case_count": 24,
+      "exact_cases": 12,
+      "exact_correct": 12,
+      "fitness_key_without_hash": [
+        12,
+        3,
+        -1,
+        71,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-621D0989B1DE",
+      "harmful_overrides": 1,
+      "protocol_fitness_key": [
+        12,
+        3,
+        -1,
+        71,
+        24
+      ],
+      "term_correct": 71,
+      "term_count": 120,
+      "weakest_block_exact": 3
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 9,
+        "search-b12": 4
+      },
+      "case_count": 24,
+      "exact_cases": 13,
+      "exact_correct": 13,
+      "fitness_key_without_hash": [
+        13,
+        4,
+        0,
+        74,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-8A6A683A8E7A",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        13,
+        4,
+        0,
+        74,
+        24
+      ],
+      "term_correct": 74,
+      "term_count": 120,
+      "weakest_block_exact": 4
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 8,
+        "search-b12": 3
+      },
+      "case_count": 24,
+      "exact_cases": 11,
+      "exact_correct": 11,
+      "fitness_key_without_hash": [
+        11,
+        3,
+        0,
+        70,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-9EDD732A542F",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        11,
+        3,
+        0,
+        70,
+        24
+      ],
+      "term_correct": 70,
+      "term_count": 120,
+      "weakest_block_exact": 3
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 5,
+        "search-b12": 4
+      },
+      "case_count": 24,
+      "exact_cases": 9,
+      "exact_correct": 9,
+      "fitness_key_without_hash": [
+        9,
+        4,
+        0,
+        58,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-E2ACA04030E1",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        9,
+        4,
+        0,
+        58,
+        24
+      ],
+      "term_correct": 58,
+      "term_count": 120,
+      "weakest_block_exact": 4
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 10,
+        "search-b12": 3
+      },
+      "case_count": 24,
+      "exact_cases": 13,
+      "exact_correct": 13,
+      "fitness_key_without_hash": [
+        13,
+        3,
+        0,
+        76,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-E2CB7ED71793",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        13,
+        3,
+        0,
+        76,
+        24
+      ],
+      "term_correct": 76,
+      "term_count": 120,
+      "weakest_block_exact": 3
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 10,
+        "search-b12": 2
+      },
+      "case_count": 24,
+      "exact_cases": 12,
+      "exact_correct": 12,
+      "fitness_key_without_hash": [
+        12,
+        2,
+        0,
+        71,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-EC429DE4D50C",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        12,
+        2,
+        0,
+        71,
+        24
+      ],
+      "term_correct": 71,
+      "term_count": 120,
+      "weakest_block_exact": 2
+    },
+    {
+      "block_exact_cases": {
+        "search-b11": 8,
+        "search-b12": 2
+      },
+      "case_count": 24,
+      "exact_cases": 10,
+      "exact_correct": 10,
+      "fitness_key_without_hash": [
+        10,
+        2,
+        0,
+        58,
+        24
+      ],
+      "fitness_order": "lexicographic max: exact_cases, weakest_block_exact, -harmful_overrides, term_correct, format_valid",
+      "format_valid": 24,
+      "genome_id": "G-EEE6DF66A16A",
+      "harmful_overrides": 0,
+      "protocol_fitness_key": [
+        10,
+        2,
+        0,
+        58,
+        24
+      ],
+      "term_correct": 58,
+      "term_count": 120,
+      "weakest_block_exact": 2
+    }
+  ]
+}

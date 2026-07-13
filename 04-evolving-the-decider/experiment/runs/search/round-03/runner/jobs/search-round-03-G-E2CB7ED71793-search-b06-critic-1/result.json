@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "-80",
+          "-176",
+          "42",
+          "-237",
+          "-592"
+        ],
+        "case_id": "S061",
+        "check_summary": "Best-supported candidate; phase-interleaved continuation remains uncertain.",
+        "confidence": 0.34,
+        "rule_summary": "Three phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-18",
+          "41",
+          "-5",
+          "-27",
+          "36"
+        ],
+        "case_id": "S062",
+        "check_summary": "Best-supported periodic affine extrapolation among proposals.",
+        "confidence": 0.16,
+        "rule_summary": "AFFINE with phase-dependent updates."
+      },
+      {
+        "answer": [
+          "115",
+          "-2",
+          "121",
+          "48",
+          "126"
+        ],
+        "case_id": "S063",
+        "check_summary": "Best-supported three-phase interleaving proposal.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "80",
+          "778",
+          "-141",
+          "123",
+          "-1558"
+        ],
+        "case_id": "S064",
+        "check_summary": "Phase 1 affine rule and polynomial phase increments consistently support this tuple.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE of affine and polynomial phase streams."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd subsequence decreases by 4 and even subsequence increases by 2.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "7",
+          "229",
+          "48",
+          "7",
+          "341"
+        ],
+        "case_id": "S066",
+        "check_summary": "Three phase streams are strongly supported by the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of affine and polynomial streams."
+      },
+      {
+        "answer": [
+          "-90",
+          "-129",
+          "-168",
+          "-207",
+          "-246"
+        ],
+        "case_id": "S067",
+        "check_summary": "Best-supported growing-block continuation; block transition remains somewhat uncertain.",
+        "confidence": 0.82,
+        "rule_summary": "GROWBLOCK with expanding arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-43",
+          "-62",
+          "32",
+          "13",
+          "-6"
+        ],
+        "case_id": "S068",
+        "check_summary": "Best-supported growing-block proposal from the visible repeated-step structure.",
+        "confidence": 0.84,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "16",
+          "-21",
+          "21",
+          "24",
+          "-32"
+        ],
+        "case_id": "S069",
+        "check_summary": "Residue classes modulo 3 have consistent quadratic difference patterns.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "-3",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd stream is constant; even-stream decrements grow by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two polynomial streams."
+      },
+      {
+        "answer": [
+          "-140",
+          "-200",
+          "215",
+          "-496",
+          "-491"
+        ],
+        "case_id": "S071",
+        "check_summary": "Best-supported proposal, though phase-stream extrapolation is weakly constrained.",
+        "confidence": 0.29,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-29",
+          "-33",
+          "-20",
+          "-24",
+          "-28"
+        ],
+        "case_id": "S072",
+        "check_summary": "Repeated -4 runs with positive jumps increasing by 4 support this continuation.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA with period-three phase-specific deltas."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-E2CB7ED71793-search-b06-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "b0391956d98cba28ea7f7ec90cefc1453a2674e5f6fdae26e15a228a8b21c78b",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-E2CB7ED71793-search-b06-critic-1/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-143",
+          "19",
+          "25",
+          "-213",
+          "16"
+        ],
+        "case_id": "S037",
+        "check_summary": "Inferred alternating/block-structured continuation from recurring phase behavior.",
+        "confidence": 0.18,
+        "rule_summary": "Likely growing-block or phase-specific polynomial-delta sequence."
+      },
+      {
+        "answer": [
+          "131",
+          "123",
+          "143",
+          "129",
+          "155"
+        ],
+        "case_id": "S038",
+        "check_summary": "Extended apparent phase-specific progression in the terminal region.",
+        "confidence": 0.14,
+        "rule_summary": "Likely interleaved or periodic affine sequence."
+      },
+      {
+        "answer": [
+          "18",
+          "27",
+          "58",
+          "25",
+          "78"
+        ],
+        "case_id": "S039",
+        "check_summary": "Projected terminal phase patterns across the observed mixed progression.",
+        "confidence": 0.12,
+        "rule_summary": "Likely interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "100",
+          "116",
+          "132",
+          "148",
+          "164"
+        ],
+        "case_id": "S040",
+        "check_summary": "Terminal subsequence is an arithmetic progression with step 16.",
+        "confidence": 0.82,
+        "rule_summary": "Likely interleaved arithmetic/polynomial streams."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Odd and even positions each form arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "47",
+          "20",
+          "86",
+          "17",
+          "14"
+        ],
+        "case_id": "S042",
+        "check_summary": "Projected the latest alternating phase behavior.",
+        "confidence": 0.1,
+        "rule_summary": "Likely periodic affine or modular-affine sequence."
+      },
+      {
+        "answer": [
+          "-12",
+          "15",
+          "-78",
+          "7",
+          "-14"
+        ],
+        "case_id": "S043",
+        "check_summary": "Extended inferred phase-specific alternating behavior.",
+        "confidence": 0.12,
+        "rule_summary": "Likely interleaved or lagged polynomial streams."
+      },
+      {
+        "answer": [
+          "-21",
+          "-17",
+          "-23",
+          "-18",
+          "-25"
+        ],
+        "case_id": "S044",
+        "check_summary": "Projected the predominantly negative terminal phase patterns.",
+        "confidence": 0.11,
+        "rule_summary": "Likely phase-specific polynomial-delta sequence."
+      },
+      {
+        "answer": [
+          "36",
+          "-4",
+          "-108",
+          "122",
+          "-4"
+        ],
+        "case_id": "S045",
+        "check_summary": "Extended repeated phase values and terminal oscillation.",
+        "confidence": 0.1,
+        "rule_summary": "Likely periodic affine or interleaved streams."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-40",
+          "-45",
+          "-50"
+        ],
+        "case_id": "S046",
+        "check_summary": "Final observed terms form a clear arithmetic progression with step -5.",
+        "confidence": 0.9,
+        "rule_summary": "Likely growing-block or phase-specific arithmetic sequence."
+      },
+      {
+        "answer": [
+          "198",
+          "236",
+          "274",
+          "312",
+          "350"
+        ],
+        "case_id": "S047",
+        "check_summary": "Final observed block is arithmetic with step 38.",
+        "confidence": 0.91,
+        "rule_summary": "Likely growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-11",
+          "12",
+          "-23",
+          "-10",
+          "-42"
+        ],
+        "case_id": "S048",
+        "check_summary": "Constant fourth phase and polynomial-looking first and third phases were continued.",
+        "confidence": 0.63,
+        "rule_summary": "Likely four-phase interleaved polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-C8D08DBE9D9D-search-b04-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "353d463638caa8a8edb4c504107b3ccf22da46aff4898adf6fac889c69fe6d9d",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-C8D08DBE9D9D-search-b04-proposer-4/attempt-01"
+}

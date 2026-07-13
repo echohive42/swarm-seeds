@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "69",
+          "4",
+          "93"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd and even subsequences replay as quadratic/periodic streams.",
+        "confidence": 0.98,
+        "rule_summary": "Two-position interleave."
+      },
+      {
+        "answer": [
+          "15",
+          "-7",
+          "24",
+          "-1",
+          "35"
+        ],
+        "case_id": "S014",
+        "check_summary": "Prefix is consistent with a phase-dependent affine recurrence.",
+        "confidence": 0.22,
+        "rule_summary": "Periodic affine."
+      },
+      {
+        "answer": [
+          "-25",
+          "61",
+          "-3",
+          "61",
+          "-2"
+        ],
+        "case_id": "S015",
+        "check_summary": "Lagged phase streams show polynomial increments, with one irregular phase extrapolated.",
+        "confidence": 0.34,
+        "rule_summary": "Lagged polynomial."
+      },
+      {
+        "answer": [
+          "54",
+          "-3",
+          "78",
+          "-1",
+          "105"
+        ],
+        "case_id": "S016",
+        "check_summary": "Phase-separated recurrence extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic affine."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5 and even terms decrease by 4.",
+        "confidence": 1.0,
+        "rule_summary": "Two affine streams interleaved."
+      },
+      {
+        "answer": [
+          "-20",
+          "-3",
+          "-30",
+          "-46",
+          "2"
+        ],
+        "case_id": "S018",
+        "check_summary": "Three lagged streams exhibit low-order polynomial increments.",
+        "confidence": 0.28,
+        "rule_summary": "Three-way interleave."
+      },
+      {
+        "answer": [
+          "89",
+          "-14",
+          "78",
+          "-9",
+          "66"
+        ],
+        "case_id": "S019",
+        "check_summary": "Phase-dependent modular recurrence extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "Modular affine."
+      },
+      {
+        "answer": [
+          "-6",
+          "42",
+          "-42",
+          "86",
+          "-66"
+        ],
+        "case_id": "S020",
+        "check_summary": "Interleaved phase streams with affine/polynomial updates.",
+        "confidence": 0.14,
+        "rule_summary": "Interleave."
+      },
+      {
+        "answer": [
+          "-54",
+          "26",
+          "-70",
+          "42",
+          "-86"
+        ],
+        "case_id": "S021",
+        "check_summary": "Repeated late-phase deltas suggest periodic second-order behavior.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic linear recurrence."
+      },
+      {
+        "answer": [
+          "19",
+          "-54",
+          "-1",
+          "76",
+          "-17"
+        ],
+        "case_id": "S022",
+        "check_summary": "Phase-separated affine recurrence extrapolation.",
+        "confidence": 0.15,
+        "rule_summary": "Periodic affine."
+      },
+      {
+        "answer": [
+          "-39",
+          "-37",
+          "-41",
+          "-50",
+          "-48"
+        ],
+        "case_id": "S023",
+        "check_summary": "Lagged subsequences show mostly quadratic decrement patterns.",
+        "confidence": 0.3,
+        "rule_summary": "Lagged polynomial."
+      },
+      {
+        "answer": [
+          "-54",
+          "39",
+          "-10",
+          "-358",
+          "-34"
+        ],
+        "case_id": "S024",
+        "check_summary": "Alternating phase recurrence with rapidly changing affine updates.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-8488734FF67B-search-b02-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "d270fcf5732b615dfd9af4d7db0c70998b274a556089f3f35d506bf359aec94c",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-8488734FF67B-search-b02-proposer-2/attempt-01"
+}

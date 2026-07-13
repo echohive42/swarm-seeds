@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b05",
+    "results": [
+      {
+        "answer": [
+          "-1988",
+          "-2743",
+          "-3689",
+          "-4855",
+          "-6272"
+        ],
+        "case_id": "S049",
+        "check_summary": "Constant fourth differences; quartic continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY quartic"
+      },
+      {
+        "answer": [
+          "195057",
+          "97519",
+          "390087",
+          "780199",
+          "1560359"
+        ],
+        "case_id": "S050",
+        "check_summary": "Three-phase interleaved affine streams replay the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE periodic affine streams"
+      },
+      {
+        "answer": [
+          "-31163",
+          "31164",
+          "93496",
+          "-93495",
+          "-280481"
+        ],
+        "case_id": "S051",
+        "check_summary": "Alternating affine phase updates replay all terms.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE period-2"
+      },
+      {
+        "answer": [
+          "406",
+          "-458",
+          "513",
+          "-571",
+          "632"
+        ],
+        "case_id": "S052",
+        "check_summary": "Alternating polynomial increments with increasing second differences.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA period-2 polynomial deltas"
+      },
+      {
+        "answer": [
+          "-63",
+          "-78",
+          "-55",
+          "-70",
+          "-89"
+        ],
+        "case_id": "S053",
+        "check_summary": "Four-way interleaving detected; continuation beyond prefix is uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE polynomial streams"
+      },
+      {
+        "answer": [
+          "-63",
+          "-78",
+          "-55",
+          "-70",
+          "-89"
+        ],
+        "case_id": "S054",
+        "check_summary": "Three interleaved arithmetic streams with linearly changing steps.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE polynomial streams"
+      },
+      {
+        "answer": [
+          "-3720088",
+          "-11160262",
+          "-33480784",
+          "-100442350",
+          "-301327048"
+        ],
+        "case_id": "S055",
+        "check_summary": "Exact affine recurrence a(n)=3a(n-1)+2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-9418",
+          "-16129",
+          "-27413",
+          "-46571",
+          "-79120"
+        ],
+        "case_id": "S056",
+        "check_summary": "Nonlinear-looking growth; continuation is uncertain from supplied prefix.",
+        "confidence": 0.15,
+        "rule_summary": "LIN2 or PDELTA"
+      },
+      {
+        "answer": [
+          "83991",
+          "503935",
+          "3023598",
+          "18141585",
+          "108849507"
+        ],
+        "case_id": "S057",
+        "check_summary": "Three-phase affine block recurrence with multiplier 6.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE periodic affine"
+      },
+      {
+        "answer": [
+          "58",
+          "62",
+          "67",
+          "71",
+          "76"
+        ],
+        "case_id": "S058",
+        "check_summary": "Alternating increments +5,+4.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA period-2"
+      },
+      {
+        "answer": [
+          "53",
+          "104",
+          "172",
+          "259",
+          "367"
+        ],
+        "case_id": "S059",
+        "check_summary": "Second differences increase by 2; polynomial continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY cubic"
+      },
+      {
+        "answer": [
+          "-1290",
+          "-2086",
+          "-3376",
+          "-5462",
+          "-8838"
+        ],
+        "case_id": "S060",
+        "check_summary": "Differences follow a second-order additive recurrence.",
+        "confidence": 0.96,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-E662737BA253-search-b05-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "cdd248a66c06c7ef57a1af066cf980e71ae54c77f56d2e95c3b765ebe0d032f9",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-E662737BA253-search-b05-proposer-1/attempt-01"
+}

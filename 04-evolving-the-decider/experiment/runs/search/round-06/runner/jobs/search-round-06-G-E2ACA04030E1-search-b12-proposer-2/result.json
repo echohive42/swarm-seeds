@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "-81",
+          "-103",
+          "-125",
+          "-147",
+          "-169"
+        ],
+        "case_id": "S133",
+        "check_summary": "Fits a phase-structured delta pattern with repeated late-phase decrement.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-8",
+          "-5",
+          "-2",
+          "-19",
+          "-16"
+        ],
+        "case_id": "S134",
+        "check_summary": "Positive runs of +3 are separated by increasingly negative jumps.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-14",
+          "35",
+          "-363",
+          "-24",
+          "40"
+        ],
+        "case_id": "S135",
+        "check_summary": "Three interleaved streams: quadratic, arithmetic, and affine doubling-minus-five.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "18",
+          "27",
+          "-9",
+          "45",
+          "24"
+        ],
+        "case_id": "S136",
+        "check_summary": "Continuation inferred from a periodic multi-phase update.",
+        "confidence": 0.16,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-1020",
+          "16",
+          "-2044",
+          "30",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd subsequence doubles minus four; even subsequence has second differences three.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-73",
+          "4",
+          "-4",
+          "12",
+          "-1"
+        ],
+        "case_id": "S138",
+        "check_summary": "Continuation inferred from interleaved lagged subsequences.",
+        "confidence": 0.14,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-2",
+          "7",
+          "41",
+          "-1",
+          "6"
+        ],
+        "case_id": "S139",
+        "check_summary": "Continuation inferred from periodic phase-specific recurrence behavior.",
+        "confidence": 0.13,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-15",
+          "-3",
+          "5",
+          "-4",
+          "-21"
+        ],
+        "case_id": "S140",
+        "check_summary": "Continuation inferred from interleaved low-degree streams.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "47",
+          "64",
+          "57",
+          "54",
+          "68"
+        ],
+        "case_id": "S141",
+        "check_summary": "Continuation inferred from a periodic multi-phase affine pattern.",
+        "confidence": 0.12,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-6",
+          "3",
+          "-7",
+          "26",
+          "-3"
+        ],
+        "case_id": "S142",
+        "check_summary": "Continuation inferred from three phase-specific subsequences.",
+        "confidence": 0.13,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "4",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Odd terms decrease by two; even terms decrease by one.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3",
+          "-19",
+          "-35",
+          "-51",
+          "-67"
+        ],
+        "case_id": "S144",
+        "check_summary": "Growing blocks have lengths increasing by one and steps decreasing by four.",
+        "confidence": 0.86,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-E2ACA04030E1-search-b12-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "800c9f71be5af0c7e74912123dbc43853802da02d076b0e94a6ac88bbb42b1af",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-E2ACA04030E1-search-b12-proposer-2/attempt-01"
+}

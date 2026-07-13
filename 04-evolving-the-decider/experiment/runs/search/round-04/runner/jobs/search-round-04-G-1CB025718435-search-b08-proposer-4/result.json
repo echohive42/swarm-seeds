@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "19",
+          "22",
+          "25",
+          "18",
+          "21"
+        ],
+        "case_id": "S085",
+        "check_summary": "Periodic deltas with a recurring phase decrement.",
+        "confidence": 0.93,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "29",
+          "66",
+          "29",
+          "20",
+          "66"
+        ],
+        "case_id": "S086",
+        "check_summary": "Period-4 modular affine replay over modulus 67.",
+        "confidence": 0.72,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "26",
+          "15",
+          "4",
+          "-7",
+          "-18"
+        ],
+        "case_id": "S087",
+        "check_summary": "Next growing arithmetic block inferred from block starts and steps.",
+        "confidence": 0.61,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd stream rises by 5; even stream falls by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-60",
+          "99",
+          "-95",
+          "144",
+          "-130"
+        ],
+        "case_id": "S089",
+        "check_summary": "Alternating higher-order phase pattern extrapolation.",
+        "confidence": 0.19,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "13",
+          "11",
+          "17",
+          "15",
+          "19"
+        ],
+        "case_id": "S090",
+        "check_summary": "Periodic phase continuation inferred from short prefix.",
+        "confidence": 0.18,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-420",
+          "-192",
+          "1180",
+          "-1328",
+          "4090"
+        ],
+        "case_id": "S091",
+        "check_summary": "High-order alternating recurrence extrapolation.",
+        "confidence": 0.16,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "5",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd terms are constant 5; even terms have successive decrements.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-14",
+          "51",
+          "-28",
+          "69",
+          "-47"
+        ],
+        "case_id": "S093",
+        "check_summary": "Alternating polynomial-stream continuation.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "92",
+          "90",
+          "111",
+          "113",
+          "130"
+        ],
+        "case_id": "S094",
+        "check_summary": "Phase-dependent affine continuation.",
+        "confidence": 0.16,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-63",
+          "-71",
+          "-79",
+          "-87",
+          "-95"
+        ],
+        "case_id": "S095",
+        "check_summary": "Periodic decrement pattern continuation.",
+        "confidence": 0.25,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-22",
+          "82",
+          "-46",
+          "166",
+          "-94"
+        ],
+        "case_id": "S096",
+        "check_summary": "Alternating stream recurrence continuation.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-1CB025718435-search-b08-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "092933b20230231fec881956cf9284a215db14782b6f22356bf5e5a39855967e",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-1CB025718435-search-b08-proposer-4/attempt-01"
+}

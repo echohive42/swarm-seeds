@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b05",
+    "results": [
+      {
+        "answer": [
+          "3454364",
+          "10363097",
+          "31089296",
+          "93267893",
+          "279803684"
+        ],
+        "case_id": "F049",
+        "check_summary": "Matches x'=3x+5 throughout prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "21",
+          "19",
+          "24",
+          "22",
+          "27"
+        ],
+        "case_id": "F050",
+        "check_summary": "Two interleaved arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-5953",
+          "5956",
+          "-17864",
+          "17861",
+          "-17858"
+        ],
+        "case_id": "F051",
+        "check_summary": "Matches the repeating four-phase affine updates.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-3959",
+          "-5860",
+          "-8363",
+          "-11592",
+          "-15688"
+        ],
+        "case_id": "F052",
+        "check_summary": "Finite differences yield constant fifth difference -1.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued degree-five polynomial."
+      },
+      {
+        "answer": [
+          "516032",
+          "1245813",
+          "3007659",
+          "6021125",
+          "15049908"
+        ],
+        "case_id": "F053",
+        "check_summary": "Matches second-order recurrence with repeating biases -6,-1,+1.",
+        "confidence": 0.93,
+        "rule_summary": "Periodic-bias LIN2 recurrence."
+      },
+      {
+        "answer": [
+          "-1599639",
+          "-3199279",
+          "9597831",
+          "19195661",
+          "-57586989"
+        ],
+        "case_id": "F054",
+        "check_summary": "Alternates x'=2x-1 and x'=-3x-6.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "-385",
+          "1045",
+          "-1001",
+          "-2345",
+          "2781"
+        ],
+        "case_id": "F055",
+        "check_summary": "Extrapolated from apparent phase-structured bounded sequence.",
+        "confidence": 0.22,
+        "rule_summary": "Likely periodic modular/interleaved mechanism."
+      },
+      {
+        "answer": [
+          "-142",
+          "-145",
+          "-171",
+          "-184",
+          "-217"
+        ],
+        "case_id": "F056",
+        "check_summary": "Extrapolated from apparent lagged phase pattern.",
+        "confidence": 0.18,
+        "rule_summary": "Likely lag-polynomial mechanism."
+      },
+      {
+        "answer": [
+          "39",
+          "5",
+          "33",
+          "-5",
+          "27"
+        ],
+        "case_id": "F057",
+        "check_summary": "Odd and even subsequences have constant third differences.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved cubic streams."
+      },
+      {
+        "answer": [
+          "-77",
+          "-89",
+          "-102",
+          "-116",
+          "-131"
+        ],
+        "case_id": "F058",
+        "check_summary": "Successive differences continue -11,-12,-13,-14,-15.",
+        "confidence": 0.99,
+        "rule_summary": "Degree-two polynomial."
+      },
+      {
+        "answer": [
+          "-868",
+          "-1079",
+          "-1317",
+          "-1585",
+          "-1886"
+        ],
+        "case_id": "F059",
+        "check_summary": "Second differences continue decreasing by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Cubic polynomial."
+      },
+      {
+        "answer": [
+          "1476",
+          "2207",
+          "3176",
+          "4429",
+          "6016"
+        ],
+        "case_id": "F060",
+        "check_summary": "Third differences continue increasing by 2.",
+        "confidence": 0.98,
+        "rule_summary": "Degree-four polynomial."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b05-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "7e56d24a6801887625a8085f57242ed3846fbdb65abb6410166dc7a52ae05f11",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b05-proposer-5/attempt-01"
+}

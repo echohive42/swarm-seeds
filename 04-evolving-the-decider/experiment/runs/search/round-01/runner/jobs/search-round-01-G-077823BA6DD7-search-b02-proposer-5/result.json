@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "73",
+          "-5",
+          "101"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd positions follow successive even increments; even positions alternate -5 and 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: quadratic odd stream and periodic even stream."
+      },
+      {
+        "answer": [
+          "22",
+          "5",
+          "12",
+          "4",
+          "9"
+        ],
+        "case_id": "S014",
+        "check_summary": "No uniquely verified continuation from the supplied prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved allowed-family fit."
+      },
+      {
+        "answer": [
+          "70",
+          "-24",
+          "83",
+          "-31",
+          "98"
+        ],
+        "case_id": "S015",
+        "check_summary": "No uniquely verified continuation from the supplied prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved allowed-family fit."
+      },
+      {
+        "answer": [
+          "61",
+          "11",
+          "76",
+          "9",
+          "88"
+        ],
+        "case_id": "S016",
+        "check_summary": "No uniquely verified continuation from the supplied prefix.",
+        "confidence": 0.06,
+        "rule_summary": "Unresolved allowed-family fit."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5 and even terms decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: two affine streams."
+      },
+      {
+        "answer": [
+          "-19",
+          "-4",
+          "-26",
+          "-7",
+          "-34"
+        ],
+        "case_id": "S018",
+        "check_summary": "No uniquely verified continuation from the supplied prefix.",
+        "confidence": 0.07,
+        "rule_summary": "Unresolved allowed-family fit."
+      },
+      {
+        "answer": [
+          "79",
+          "45",
+          "97",
+          "38",
+          "115"
+        ],
+        "case_id": "S019",
+        "check_summary": "No uniquely verified continuation from the supplied prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved allowed-family fit."
+      },
+      {
+        "answer": [
+          "-6",
+          "58",
+          "-38",
+          "76",
+          "-56"
+        ],
+        "case_id": "S020",
+        "check_summary": "No uniquely verified continuation from the supplied prefix.",
+        "confidence": 0.06,
+        "rule_summary": "Unresolved allowed-family fit."
+      },
+      {
+        "answer": [
+          "-54",
+          "-48",
+          "-70",
+          "-58",
+          "-86"
+        ],
+        "case_id": "S021",
+        "check_summary": "No uniquely verified continuation from the supplied prefix.",
+        "confidence": 0.06,
+        "rule_summary": "Unresolved allowed-family fit."
+      },
+      {
+        "answer": [
+          "-20",
+          "41",
+          "-49",
+          "64",
+          "-78"
+        ],
+        "case_id": "S022",
+        "check_summary": "No uniquely verified continuation from the supplied prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved allowed-family fit."
+      },
+      {
+        "answer": [
+          "-39",
+          "-28",
+          "-41",
+          "-26",
+          "-43"
+        ],
+        "case_id": "S023",
+        "check_summary": "Two visible lagged subsequences have quadratic negative increments; remaining phase is unresolved.",
+        "confidence": 0.12,
+        "rule_summary": "Likely INTERLEAVE or LAGPOLY."
+      },
+      {
+        "answer": [
+          "-294",
+          "34",
+          "-486",
+          "-42",
+          "-798"
+        ],
+        "case_id": "S024",
+        "check_summary": "No uniquely verified continuation from the supplied prefix.",
+        "confidence": 0.04,
+        "rule_summary": "Unresolved allowed-family fit."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-077823BA6DD7-search-b02-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "866d53b6ca41bfa41520b68271493bd111ed03c7b837f69d4ff8fc0e6fca00fb",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-077823BA6DD7-search-b02-proposer-5/attempt-01"
+}

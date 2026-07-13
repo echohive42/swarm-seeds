@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "24",
+          "9",
+          "36",
+          "-7",
+          "50"
+        ],
+        "case_id": "S109",
+        "check_summary": "Odd positions have successive even increments; even positions alternate 9 and -7.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: quadratic odd stream and alternating even stream."
+      },
+      {
+        "answer": [
+          "-1",
+          "-12",
+          "14",
+          "-12",
+          "30"
+        ],
+        "case_id": "S110",
+        "check_summary": "Five-phase continuation inferred from phase-wise recurrence.",
+        "confidence": 0.28,
+        "rule_summary": "Phase-periodic affine/polynomial update."
+      },
+      {
+        "answer": [
+          "72",
+          "46",
+          "94",
+          "62",
+          "120"
+        ],
+        "case_id": "S111",
+        "check_summary": "Continuation inferred from interleaved polynomial-like streams.",
+        "confidence": 0.3,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "1",
+          "71",
+          "43",
+          "-5",
+          "-2"
+        ],
+        "case_id": "S112",
+        "check_summary": "Phase-wise continuation inferred from repeating six-position structure.",
+        "confidence": 0.27,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-18",
+          "28",
+          "-24",
+          "42",
+          "-44"
+        ],
+        "case_id": "S113",
+        "check_summary": "Continuation inferred from interleaved nonlinear streams.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-25",
+          "-16",
+          "29",
+          "-15",
+          "-26"
+        ],
+        "case_id": "S114",
+        "check_summary": "Continuation inferred from alternating phase-specific affine behavior.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "42",
+          "82",
+          "37",
+          "52",
+          "72"
+        ],
+        "case_id": "S115",
+        "check_summary": "Continuation inferred from phase-periodic delta growth.",
+        "confidence": 0.24,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd stream decreases by 1; even stream decreases by 4.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "40",
+          "22",
+          "7",
+          "45",
+          "55"
+        ],
+        "case_id": "S117",
+        "check_summary": "Continuation inferred from interleaved phase streams.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "36",
+          "31",
+          "54",
+          "49",
+          "59"
+        ],
+        "case_id": "S118",
+        "check_summary": "Last two phase streams show increments increasing by 5; first stream extrapolated phase-wise.",
+        "confidence": 0.31,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "82",
+          "13",
+          "3",
+          "103",
+          "108"
+        ],
+        "case_id": "S119",
+        "check_summary": "Continuation inferred from three phase-specific streams.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "176",
+          "282",
+          "427",
+          "145",
+          "210"
+        ],
+        "case_id": "S120",
+        "check_summary": "Continuation inferred from four phase-specific polynomial streams.",
+        "confidence": 0.19,
+        "rule_summary": "Four-way interleaved polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-E2ACA04030E1-search-b10-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "4da26f9fd7600dc5179d3d3357b5c79526867afd863887c74fb7dc10477db5f9",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-E2ACA04030E1-search-b10-proposer-4/attempt-01"
+}

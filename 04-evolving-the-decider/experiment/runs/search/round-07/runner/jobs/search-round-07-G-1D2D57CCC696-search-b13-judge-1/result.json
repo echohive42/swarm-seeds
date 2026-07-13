@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-430",
+          "-484",
+          "-545",
+          "-600",
+          "-663"
+        ],
+        "case_id": "S145",
+        "check_summary": "Plurality of coherent candidates; period-3 phase deltas replay with phase shifts of -9.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-3 affine deltas."
+      },
+      {
+        "answer": [
+          "123",
+          "129",
+          "93",
+          "178",
+          "184"
+        ],
+        "case_id": "S146",
+        "check_summary": "Three position-modulo-3 streams have consistent quadratic difference growth across the full prefix.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE of three quadratic streams."
+      },
+      {
+        "answer": [
+          "-10922",
+          "21846",
+          "-43690",
+          "87382",
+          "-174762"
+        ],
+        "case_id": "S147",
+        "check_summary": "Exact replay under x_next=-2x+2.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "327"
+        ],
+        "case_id": "S148",
+        "check_summary": "Alternating difference streams increase by 6 and 4 respectively.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two quadratic streams."
+      },
+      {
+        "answer": [
+          "3560",
+          "4779",
+          "6288",
+          "8130",
+          "10351"
+        ],
+        "case_id": "S149",
+        "check_summary": "Constant fourth finite difference of 3 matches the full prefix.",
+        "confidence": 1.0,
+        "rule_summary": "POLY quartic."
+      },
+      {
+        "answer": [
+          "-6",
+          "-4",
+          "-8",
+          "-6",
+          "-10"
+        ],
+        "case_id": "S150",
+        "check_summary": "Odd and even subsequences each decrease by 2.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-3920",
+          "-6348",
+          "-10274",
+          "-16629",
+          "-26909"
+        ],
+        "case_id": "S151",
+        "check_summary": "Full prefix supports a second-order sum recurrence with alternating phase bias.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 with period-2 bias."
+      },
+      {
+        "answer": [
+          "-14799",
+          "-22848",
+          "-33807",
+          "-47250",
+          "-62929"
+        ],
+        "case_id": "S152",
+        "check_summary": "Selected as the strongest coherent continuation among the candidates for the accelerating recurrence.",
+        "confidence": 0.55,
+        "rule_summary": "LIN2 with phase-specific bias."
+      },
+      {
+        "answer": [
+          "-2613",
+          "-4231",
+          "-6849",
+          "-11085",
+          "-17939"
+        ],
+        "case_id": "S153",
+        "check_summary": "Every term from the third satisfies x_next=x_prev+x_prev2-5.",
+        "confidence": 1.0,
+        "rule_summary": "LIN2 with constant bias -5."
+      },
+      {
+        "answer": [
+          "-1239",
+          "-1593",
+          "-2009",
+          "-2492",
+          "-3047"
+        ],
+        "case_id": "S154",
+        "check_summary": "Constant third finite difference of -5 reproduces the prefix.",
+        "confidence": 1.0,
+        "rule_summary": "POLY cubic."
+      },
+      {
+        "answer": [
+          "533647",
+          "1067295",
+          "-2134597",
+          "4269199",
+          "8538399"
+        ],
+        "case_id": "S155",
+        "check_summary": "Exact period-3 affine replay with multipliers -2,-2,2 and biases -7,5,1.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "136533",
+          "273068",
+          "546133",
+          "1092268",
+          "2184533"
+        ],
+        "case_id": "S156",
+        "check_summary": "Alternating updates 2x-3 and 2x+2 exactly reproduce the prefix.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE with period-2 bias."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-1D2D57CCC696-search-b13-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "5e1735d87ac4d2171341cdf3a5602444abc4ec792be802fb6e410855d594030f",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-1D2D57CCC696-search-b13-judge-1/attempt-01"
+}

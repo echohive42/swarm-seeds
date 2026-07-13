@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "-81",
+          "-103",
+          "-125",
+          "-147",
+          "-169"
+        ],
+        "case_id": "S133",
+        "check_summary": "Inferred repeated phase-specific negative delta with uncertain continuation.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA/GROWBLOCK candidate"
+      },
+      {
+        "answer": [
+          "-8",
+          "-5",
+          "-2",
+          "-19",
+          "-16"
+        ],
+        "case_id": "S134",
+        "check_summary": "Differences show repeated +3 runs interrupted by descending jumps.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "35",
+          "-363",
+          "-14",
+          "40",
+          "-731"
+        ],
+        "case_id": "S135",
+        "check_summary": "Three interleaved streams: linear, linear, and doubling-minus-five.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "18",
+          "-9",
+          "-17",
+          "-27",
+          "-4"
+        ],
+        "case_id": "S136",
+        "check_summary": "Noisy bounded sequence; continuation uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE candidate"
+      },
+      {
+        "answer": [
+          "-1020",
+          "11",
+          "-2044",
+          "20",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd subsequence doubles minus four; even subsequence has second differences three.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-8",
+          "-17",
+          "-6",
+          "-31",
+          "-4"
+        ],
+        "case_id": "S138",
+        "check_summary": "Bounded irregular sequence; continuation uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE candidate"
+      },
+      {
+        "answer": [
+          "7",
+          "-3",
+          "12",
+          "-2",
+          "21"
+        ],
+        "case_id": "S139",
+        "check_summary": "Irregular bounded sequence; continuation uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE candidate"
+      },
+      {
+        "answer": [
+          "-3",
+          "-15",
+          "-21",
+          "-39",
+          "-45"
+        ],
+        "case_id": "S140",
+        "check_summary": "Irregular interleaved/bounded sequence; continuation uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE candidate"
+      },
+      {
+        "answer": [
+          "48",
+          "69",
+          "39",
+          "78",
+          "42"
+        ],
+        "case_id": "S141",
+        "check_summary": "Irregular bounded sequence; continuation uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE candidate"
+      },
+      {
+        "answer": [
+          "-7",
+          "45",
+          "-13",
+          "37",
+          "-19"
+        ],
+        "case_id": "S142",
+        "check_summary": "Irregular bounded sequence with apparent wrap points; continuation uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE candidate"
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "4",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Odd terms descend by two; even terms descend by one.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-50",
+          "-62",
+          "-74",
+          "-86",
+          "-98"
+        ],
+        "case_id": "S144",
+        "check_summary": "Final alternating streams continue with common decrement twenty-four.",
+        "confidence": 0.86,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-EC429DE4D50C-search-b12-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "24ee3763985b7e768e4a629940888e4c6cd45044601b556005000c081ec0d26b",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-EC429DE4D50C-search-b12-proposer-4/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b05",
+    "results": [
+      {
+        "answer": [
+          "-1988",
+          "-2743",
+          "-3689",
+          "-4855",
+          "-6241"
+        ],
+        "case_id": "S049",
+        "check_summary": "Polynomial finite-difference continuation.",
+        "confidence": 0.93,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "97565",
+          "195106",
+          "390185",
+          "780340",
+          "1560713"
+        ],
+        "case_id": "S050",
+        "check_summary": "Alternating affine biases continue regularly.",
+        "confidence": 0.8,
+        "rule_summary": "Phase-periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "31164",
+          "-93495",
+          "280482",
+          "-841449",
+          "2524344"
+        ],
+        "case_id": "S051",
+        "check_summary": "Every term follows x_next=-3x-3.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "406",
+          "-458",
+          "505",
+          "-579",
+          "624"
+        ],
+        "case_id": "S052",
+        "check_summary": "Alternating polynomial difference magnitudes.",
+        "confidence": 0.9,
+        "rule_summary": "Periodic polynomial-delta sequence."
+      },
+      {
+        "answer": [
+          "-29",
+          "-45",
+          "-30",
+          "-62",
+          "-31"
+        ],
+        "case_id": "S053",
+        "check_summary": "Estimated periodic interleaved continuation.",
+        "confidence": 0.28,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-68",
+          "-63",
+          "-83",
+          "-72",
+          "-102"
+        ],
+        "case_id": "S054",
+        "check_summary": "Estimated phase-periodic continuation.",
+        "confidence": 0.2,
+        "rule_summary": "Phase-periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-9176",
+          "-14402",
+          "-21180",
+          "-30154",
+          "-41774"
+        ],
+        "case_id": "S056",
+        "check_summary": "Estimated affine-growth continuation from tail residuals.",
+        "confidence": 0.18,
+        "rule_summary": "Phase-periodic affine/linear recurrence."
+      },
+      {
+        "answer": [
+          "-3720088",
+          "-11160262",
+          "-33480784",
+          "-100442350",
+          "-301327048"
+        ],
+        "case_id": "S055",
+        "check_summary": "Every term follows x_next=3x+2.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "13999",
+          "83983",
+          "27996",
+          "-27993",
+          "503887"
+        ],
+        "case_id": "S057",
+        "check_summary": "Three interleaved streams each follow affine recurrences.",
+        "confidence": 0.96,
+        "rule_summary": "Three-stream interleave."
+      },
+      {
+        "answer": [
+          "58",
+          "63",
+          "68",
+          "73",
+          "78"
+        ],
+        "case_id": "S058",
+        "check_summary": "Constant increment of 5.",
+        "confidence": 0.99,
+        "rule_summary": "Affine/polynomial sequence."
+      },
+      {
+        "answer": [
+          "53",
+          "104",
+          "174",
+          "265",
+          "377"
+        ],
+        "case_id": "S059",
+        "check_summary": "Finite differences continue with odd third-difference progression.",
+        "confidence": 0.95,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "-1290",
+          "-2086",
+          "-3374",
+          "-5458",
+          "-8830"
+        ],
+        "case_id": "S060",
+        "check_summary": "First differences follow Fibonacci-like additive recurrence.",
+        "confidence": 0.96,
+        "rule_summary": "Second-order linear recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-1EB09860ED89-search-b05-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "b212de9eb572050ab817a9b69257ecae99f3d357be6341f2d386629ab5a83b8c",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-1EB09860ED89-search-b05-proposer-6/attempt-01"
+}

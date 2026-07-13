@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating first differences -4,-3 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-2 constant deltas."
+      },
+      {
+        "answer": [
+          "9345",
+          "-15126",
+          "24471",
+          "-39597",
+          "64068"
+        ],
+        "case_id": "S074",
+        "check_summary": "Alternating-sign Fibonacci-like growth from the terminal pair.",
+        "confidence": 0.62,
+        "rule_summary": "LIN2 with alternating phase behavior."
+      },
+      {
+        "answer": [
+          "8",
+          "6",
+          "10",
+          "11",
+          "8"
+        ],
+        "case_id": "S075",
+        "check_summary": "Interleaved low-order streams inferred from alternating positions.",
+        "confidence": 0.28,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-13704",
+          "-18802",
+          "-25075",
+          "-32678",
+          "-42119"
+        ],
+        "case_id": "S076",
+        "check_summary": "Accelerating negative differences suggest phase-dependent growth.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA with polynomial phase deltas."
+      },
+      {
+        "answer": [
+          "-4067",
+          "-9817",
+          "-23705",
+          "-57235",
+          "-138267"
+        ],
+        "case_id": "S077",
+        "check_summary": "Negative magnitudes show approximately geometric acceleration.",
+        "confidence": 0.24,
+        "rule_summary": "AFFINE with phase-dependent multiplier/bias."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Each step is exactly three times the prior plus five.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with multiplier -3 and bias 5."
+      },
+      {
+        "answer": [
+          "74",
+          "105",
+          "126",
+          "174",
+          "201"
+        ],
+        "case_id": "S079",
+        "check_summary": "Block/interleaved trend extrapolation from recent phase pattern.",
+        "confidence": 0.2,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "1225300",
+          "-1225308",
+          "-3675924",
+          "11027770",
+          "11027762"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three-step affine phase cycle replayed from the terminal state.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE with period-3 phase transforms."
+      },
+      {
+        "answer": [
+          "-152370",
+          "-304742",
+          "609486",
+          "1218970",
+          "-2437938"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating transforms x↦-2x+2 and x↦2x-2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-2 transforms."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences are negative consecutive squares.",
+        "confidence": 0.99,
+        "rule_summary": "POLY with quadratic first differences."
+      },
+      {
+        "answer": [
+          "-2674",
+          "-3781",
+          "-5201",
+          "-6992",
+          "-9214"
+        ],
+        "case_id": "S083",
+        "check_summary": "Accelerating negative differences extrapolated from the late prefix.",
+        "confidence": 0.2,
+        "rule_summary": "POLY or PDELTA with higher-order phase terms."
+      },
+      {
+        "answer": [
+          "351048",
+          "-847503",
+          "2046054",
+          "-4939611",
+          "11926776"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating-sign second-order growth near x↦-2x plus prior term.",
+        "confidence": 0.58,
+        "rule_summary": "LIN2 with period-2 sign phase."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-335AFD967606-search-b07-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "01a5f3fd5a289432603cb6c8923902aeb9d9acde3ca885eec00ef12b24da572c",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-335AFD967606-search-b07-proposer-3/attempt-01"
+}

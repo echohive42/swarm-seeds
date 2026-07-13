@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "14",
+          "17",
+          "20",
+          "23"
+        ],
+        "case_id": "S085",
+        "check_summary": "Three +3 runs separated by drops increasing by 3.",
+        "confidence": 0.86,
+        "rule_summary": "Periodic blockwise arithmetic progression."
+      },
+      {
+        "answer": [
+          "44",
+          "27",
+          "9",
+          "52",
+          "31"
+        ],
+        "case_id": "S086",
+        "check_summary": "No uniquely verified low-complexity continuation from visible prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative modular/phase recurrence."
+      },
+      {
+        "answer": [
+          "12",
+          "1",
+          "-10",
+          "-21",
+          "-32"
+        ],
+        "case_id": "S087",
+        "check_summary": "Final blocks show repeated steps -9 then -10; extrapolated next block step -11.",
+        "confidence": 0.42,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd positions increase by 5; even positions decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-31",
+          "89",
+          "-57",
+          "118",
+          "-84"
+        ],
+        "case_id": "S089",
+        "check_summary": "No uniquely verified continuation.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative phase-dependent affine recurrence."
+      },
+      {
+        "answer": [
+          "-1",
+          "11",
+          "27",
+          "5",
+          "-9"
+        ],
+        "case_id": "S090",
+        "check_summary": "No uniquely verified continuation.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-102",
+          "-58",
+          "144",
+          "-301",
+          "512"
+        ],
+        "case_id": "S091",
+        "check_summary": "No uniquely verified continuation.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative modular affine recurrence."
+      },
+      {
+        "answer": [
+          "-25",
+          "-6",
+          "-40",
+          "-3",
+          "-55"
+        ],
+        "case_id": "S092",
+        "check_summary": "No uniquely verified continuation.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative phase-specific delta recurrence."
+      },
+      {
+        "answer": [
+          "-29",
+          "21",
+          "-48",
+          "58",
+          "-67"
+        ],
+        "case_id": "S093",
+        "check_summary": "No uniquely verified continuation.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative interleaved recurrence."
+      },
+      {
+        "answer": [
+          "54",
+          "34",
+          "91",
+          "12",
+          "104"
+        ],
+        "case_id": "S094",
+        "check_summary": "No uniquely verified continuation.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-25",
+          "-43",
+          "-63",
+          "-77",
+          "-39"
+        ],
+        "case_id": "S095",
+        "check_summary": "Lag-4 streams exhibit progressively more negative increments; extrapolated.",
+        "confidence": 0.31,
+        "rule_summary": "Lagged subsequences with polynomial increments."
+      },
+      {
+        "answer": [
+          "-8",
+          "38",
+          "-10",
+          "72",
+          "-2"
+        ],
+        "case_id": "S096",
+        "check_summary": "No uniquely verified continuation.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative interleaved polynomial/affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-571E66D2D29B-search-b08-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "2b22668508281016bb470547c3f6cf7faefb7bc21dcf367a8f08b141a6f1f03b",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-571E66D2D29B-search-b08-proposer-5/attempt-01"
+}

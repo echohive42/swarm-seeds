@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "855",
+          "-65",
+          "2135",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Odd and even subsequences replay as polynomial and exponentially signed-difference streams.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams."
+      },
+      {
+        "answer": [
+          "66",
+          "2",
+          "26",
+          "50",
+          "74"
+        ],
+        "case_id": "V038",
+        "check_summary": "Arithmetic growing-block structure with starts and steps advancing polynomially.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "83",
+          "-171",
+          "105",
+          "-237",
+          "127"
+        ],
+        "case_id": "V039",
+        "check_summary": "Three phase streams extrapolated from their observed polynomial-like increments.",
+        "confidence": 0.42,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "26",
+          "30",
+          "22",
+          "22",
+          "26"
+        ],
+        "case_id": "V040",
+        "check_summary": "Phase-separated arithmetic streams extrapolated from repeated increments.",
+        "confidence": 0.55,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "48",
+          "19",
+          "78",
+          "83",
+          "48"
+        ],
+        "case_id": "V041",
+        "check_summary": "Periodic modular phase behavior inferred from the bounded integer prefix.",
+        "confidence": 0.25,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Odd-indexed differences decrease by 5; even-indexed differences increase by 5.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-two polynomial deltas."
+      },
+      {
+        "answer": [
+          "-27",
+          "-18",
+          "-79",
+          "-20",
+          "-92"
+        ],
+        "case_id": "V043",
+        "check_summary": "Phase-separated delta trends extrapolated across the observed prefix.",
+        "confidence": 0.28,
+        "rule_summary": "PDELTA."
+      },
+      {
+        "answer": [
+          "-72",
+          "-98",
+          "-124",
+          "-150",
+          "-176"
+        ],
+        "case_id": "V044",
+        "check_summary": "Continuation of the visible arithmetic tail with phase-dependent offsets.",
+        "confidence": 0.24,
+        "rule_summary": "PDELTA."
+      },
+      {
+        "answer": [
+          "31",
+          "17",
+          "82",
+          "21",
+          "-2"
+        ],
+        "case_id": "V045",
+        "check_summary": "Bounded phase recurrence extrapolated from the full prefix.",
+        "confidence": 0.22,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "-24",
+          "18",
+          "-54",
+          "-38",
+          "13"
+        ],
+        "case_id": "V046",
+        "check_summary": "Three phase difference sequences show arithmetic/quadratic continuation.",
+        "confidence": 0.93,
+        "rule_summary": "PDELTA with period-three polynomial deltas."
+      },
+      {
+        "answer": [
+          "22",
+          "-1",
+          "29",
+          "13",
+          "36"
+        ],
+        "case_id": "V047",
+        "check_summary": "Interleaved phase trends extrapolated from the observed differences.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-27",
+          "24",
+          "-38",
+          "27",
+          "-40"
+        ],
+        "case_id": "V048",
+        "check_summary": "Alternating phase streams extrapolated from their observed bounded recurrence.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-E2CB7ED71793-validation-b04-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "4bf582e6db54749710b80b2d998e6d09e69c5c2bdbf113bf6d19f455b839fc63",
+  "terminal_artifact_relpath": "jobs/validation-G-E2CB7ED71793-validation-b04-proposer-1/attempt-01"
+}

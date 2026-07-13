@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "10",
+          "12",
+          "15",
+          "18",
+          "4"
+        ],
+        "case_id": "S085",
+        "check_summary": "Periodic delta extrapolation.",
+        "confidence": 0.55,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "29",
+          "31",
+          "53",
+          "42",
+          "28"
+        ],
+        "case_id": "S086",
+        "check_summary": "Tentative periodic affine extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-44",
+          "-54",
+          "-64",
+          "-74",
+          "-84"
+        ],
+        "case_id": "S087",
+        "check_summary": "Continued terminal arithmetic phase.",
+        "confidence": 0.12,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd and even arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-6",
+          "111",
+          "-60",
+          "162",
+          "-114"
+        ],
+        "case_id": "S089",
+        "check_summary": "Tentative periodic recurrence extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "8",
+          "16",
+          "9",
+          "19",
+          "10"
+        ],
+        "case_id": "S090",
+        "check_summary": "Tentative interleaved extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-360",
+          "-95",
+          "621",
+          "-482",
+          "1285"
+        ],
+        "case_id": "S091",
+        "check_summary": "Tentative second-order recurrence extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "0",
+          "-27",
+          "0",
+          "-37",
+          "0"
+        ],
+        "case_id": "S092",
+        "check_summary": "Even subsequence has successive decrements.",
+        "confidence": 0.72,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-30",
+          "74",
+          "-63",
+          "111",
+          "-96"
+        ],
+        "case_id": "S093",
+        "check_summary": "Tentative periodic affine extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "25",
+          "89",
+          "-1",
+          "107",
+          "-24"
+        ],
+        "case_id": "S094",
+        "check_summary": "Tentative interleaved extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-19",
+          "-35",
+          "-51",
+          "-67",
+          "-19"
+        ],
+        "case_id": "S095",
+        "check_summary": "Four-phase polynomial delta extrapolation.",
+        "confidence": 0.78,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-4",
+          "149",
+          "-14",
+          "194",
+          "-24"
+        ],
+        "case_id": "S096",
+        "check_summary": "Tentative second-order recurrence extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-571E66D2D29B-search-b08-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "0779832a67f596b8ddd79dc2a4a006a1779c952fa621b22b097a5035a45456fc",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-571E66D2D29B-search-b08-proposer-3/attempt-01"
+}

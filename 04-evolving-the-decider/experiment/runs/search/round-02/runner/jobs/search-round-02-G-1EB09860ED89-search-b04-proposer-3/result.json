@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-263",
+          "-4",
+          "107",
+          "-134",
+          "12"
+        ],
+        "case_id": "S037",
+        "check_summary": "Weak extrapolation from mixed phase patterns.",
+        "confidence": 0.12,
+        "rule_summary": "Uncertain periodic/interleaved fit."
+      },
+      {
+        "answer": [
+          "130",
+          "123",
+          "137",
+          "125",
+          "144"
+        ],
+        "case_id": "S038",
+        "check_summary": "Weak extrapolation from phase-separated values.",
+        "confidence": 0.1,
+        "rule_summary": "Uncertain periodic affine/interleaved fit."
+      },
+      {
+        "answer": [
+          "42",
+          "43",
+          "44",
+          "45",
+          "46"
+        ],
+        "case_id": "S039",
+        "check_summary": "Low-confidence continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Uncertain modular or periodic fit."
+      },
+      {
+        "answer": [
+          "35",
+          "55",
+          "75",
+          "95",
+          "115"
+        ],
+        "case_id": "S040",
+        "check_summary": "Matches growing reset-and-ramp block pattern.",
+        "confidence": 0.86,
+        "rule_summary": "Growing arithmetic blocks with reset deltas -1,-9,-25,-49 and steps 4,8,12,16,20."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Exact alternating arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "Odd positions increase by 4; even positions decrease by 4."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-17",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S042",
+        "check_summary": "Low-confidence continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Uncertain periodic phase pattern."
+      },
+      {
+        "answer": [
+          "15",
+          "5",
+          "-76",
+          "-10",
+          "4"
+        ],
+        "case_id": "S043",
+        "check_summary": "Exact three-stream fit across the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "Three interleaved streams: constant alternating stream, descending arithmetic stream, and descending unit stream."
+      },
+      {
+        "answer": [
+          "-18",
+          "-22",
+          "-28",
+          "-29",
+          "-46"
+        ],
+        "case_id": "S044",
+        "check_summary": "Exact three-phase polynomial fits.",
+        "confidence": 0.96,
+        "rule_summary": "Three interleaved polynomial streams with phase-specific finite differences."
+      },
+      {
+        "answer": [
+          "107",
+          "-134",
+          "12",
+          "151",
+          "-263"
+        ],
+        "case_id": "S045",
+        "check_summary": "Strong three-stream polynomial fit.",
+        "confidence": 0.94,
+        "rule_summary": "Three interleaved streams: quadratic, alternating constant, and quadratic-growth stream."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-17",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S046",
+        "check_summary": "Matches repeated -5 runs with increasing positive jumps.",
+        "confidence": 0.82,
+        "rule_summary": "Growing-block delta pattern with positive jumps 3,8,13,18 separated by increasing runs of -5."
+      },
+      {
+        "answer": [
+          "206",
+          "252",
+          "298",
+          "344",
+          "390"
+        ],
+        "case_id": "S047",
+        "check_summary": "Low-confidence continuation from final arithmetic block.",
+        "confidence": 0.2,
+        "rule_summary": "Growing arithmetic block continuation, inferred next step 46."
+      },
+      {
+        "answer": [
+          "11",
+          "12",
+          "-1",
+          "-10",
+          "14"
+        ],
+        "case_id": "S048",
+        "check_summary": "Low-confidence phase continuation.",
+        "confidence": 0.15,
+        "rule_summary": "Uncertain four-phase interleaved polynomial/affine fit."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-1EB09860ED89-search-b04-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "3dff77f5f5b48b3b86cc6d742a9bd3c6507ea32cbc52b780c6cc09773bdfc51d",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-1EB09860ED89-search-b04-proposer-3/attempt-01"
+}

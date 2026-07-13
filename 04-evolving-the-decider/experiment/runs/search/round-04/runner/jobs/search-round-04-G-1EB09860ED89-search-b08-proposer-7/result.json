@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "11",
+          "14",
+          "17",
+          "20",
+          "10"
+        ],
+        "case_id": "S085",
+        "check_summary": "Periodic increment structure with recurring +3 runs and decreasing reset deltas.",
+        "confidence": 0.78,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "38",
+          "47",
+          "29",
+          "55",
+          "42"
+        ],
+        "case_id": "S086",
+        "check_summary": "Opaque modular/phase-dependent progression; continuation is weakly constrained by visible prefix.",
+        "confidence": 0.16,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "27",
+          "16",
+          "5",
+          "-6",
+          "67"
+        ],
+        "case_id": "S087",
+        "check_summary": "Block pattern: positive jump followed by three equal negative deltas; jump and decrement evolve regularly.",
+        "confidence": 0.94,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Two interleaved arithmetic streams: odd terms rise by 5 and even terms fall by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-48",
+          "81",
+          "45",
+          "-74",
+          "109"
+        ],
+        "case_id": "S089",
+        "check_summary": "Three interleaved streams with polynomially changing increments.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "11",
+          "16",
+          "10",
+          "18",
+          "12"
+        ],
+        "case_id": "S090",
+        "check_summary": "Likely phase-dependent recurrence; several allowed families remain compatible with the prefix.",
+        "confidence": 0.14,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-206",
+          "-394",
+          "-581",
+          "-1049",
+          "-1887"
+        ],
+        "case_id": "S091",
+        "check_summary": "Highly irregular prefix consistent with a phase-dependent second-order recurrence, but continuation is weakly identified.",
+        "confidence": 0.11,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "0",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd subsequence is constant 5; even subsequence has successive decrements of 4,5,6,7,8.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-9",
+          "44",
+          "54",
+          "-14",
+          "51"
+        ],
+        "case_id": "S093",
+        "check_summary": "Irregular interleaved/polynomial structure; continuation has low confidence from the supplied prefix alone.",
+        "confidence": 0.13,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "84",
+          "91",
+          "102",
+          "114",
+          "128"
+        ],
+        "case_id": "S094",
+        "check_summary": "Likely multi-stream or phase-dependent affine continuation; evidence is insufficient for a strong unique fit.",
+        "confidence": 0.12,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-59",
+          "-71",
+          "-83",
+          "-95",
+          "-107"
+        ],
+        "case_id": "S095",
+        "check_summary": "Final visible run has constant decrement -12, supporting continuation of that affine phase.",
+        "confidence": 0.73,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "22",
+          "36",
+          "18",
+          "78",
+          "24"
+        ],
+        "case_id": "S096",
+        "check_summary": "Irregular phase-dependent sequence; continuation is weakly constrained and treated as affine/periodic.",
+        "confidence": 0.1,
+        "rule_summary": "AFFINE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-1EB09860ED89-search-b08-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "203568b22a19708e3bc52845b1a52f746d41639141c71072c239c9f829984de3",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-1EB09860ED89-search-b08-proposer-7/attempt-01"
+}

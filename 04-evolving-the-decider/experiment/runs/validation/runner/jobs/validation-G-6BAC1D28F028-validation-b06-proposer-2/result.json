@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b06",
+    "results": [
+      {
+        "answer": [
+          "24",
+          "-2",
+          "34",
+          "-8",
+          "44"
+        ],
+        "case_id": "V061",
+        "check_summary": "Best-fit periodic integer update extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic affine/PDELTA candidate."
+      },
+      {
+        "answer": [
+          "36",
+          "-74",
+          "-44",
+          "-14",
+          "16"
+        ],
+        "case_id": "V062",
+        "check_summary": "Difference blocks show repeated positive phases with widening negative transitions.",
+        "confidence": 0.62,
+        "rule_summary": "Growing phase-specific delta blocks."
+      },
+      {
+        "answer": [
+          "-79",
+          "-102",
+          "-146",
+          "-205",
+          "-281"
+        ],
+        "case_id": "V063",
+        "check_summary": "Best-fit nonlinear lagged extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "Lagged polynomial candidate."
+      },
+      {
+        "answer": [
+          "20",
+          "-33",
+          "24",
+          "-38",
+          "28"
+        ],
+        "case_id": "V064",
+        "check_summary": "Odd subsequence rises by 4; even subsequence falls by 5.",
+        "confidence": 0.99,
+        "rule_summary": "Two arithmetic streams interleaved."
+      },
+      {
+        "answer": [
+          "57",
+          "77",
+          "64",
+          "91",
+          "78"
+        ],
+        "case_id": "V065",
+        "check_summary": "Best-fit interleaved polynomial/affine extrapolation.",
+        "confidence": 0.16,
+        "rule_summary": "Interleaved stream candidate."
+      },
+      {
+        "answer": [
+          "-49",
+          "449",
+          "-60",
+          "897",
+          "-72"
+        ],
+        "case_id": "V066",
+        "check_summary": "Odd terms decrement by successive integers; even terms follow x→2x−1.",
+        "confidence": 0.99,
+        "rule_summary": "Two phase-specific affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "58",
+          "20",
+          "67",
+          "29",
+          "76"
+        ],
+        "case_id": "V067",
+        "check_summary": "Best-fit periodic phase extrapolation.",
+        "confidence": 0.15,
+        "rule_summary": "Periodic affine candidate."
+      },
+      {
+        "answer": [
+          "-54",
+          "27",
+          "-76",
+          "49",
+          "-105"
+        ],
+        "case_id": "V068",
+        "check_summary": "Best-fit second-order periodic recurrence extrapolation.",
+        "confidence": 0.13,
+        "rule_summary": "LIN2 phase candidate."
+      },
+      {
+        "answer": [
+          "-45",
+          "15",
+          "-72",
+          "23",
+          "-105"
+        ],
+        "case_id": "V069",
+        "check_summary": "Best-fit interleaved recurrence extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved affine candidate."
+      },
+      {
+        "answer": [
+          "117",
+          "135",
+          "153",
+          "171",
+          "189"
+        ],
+        "case_id": "V070",
+        "check_summary": "Final arithmetic run advances by 18.",
+        "confidence": 0.83,
+        "rule_summary": "Growing arithmetic block continuation."
+      },
+      {
+        "answer": [
+          "-12",
+          "8",
+          "-4",
+          "13",
+          "-2"
+        ],
+        "case_id": "V071",
+        "check_summary": "Best-fit periodic second-order extrapolation.",
+        "confidence": 0.13,
+        "rule_summary": "LIN2 phase candidate."
+      },
+      {
+        "answer": [
+          "35",
+          "39",
+          "43",
+          "47",
+          "36"
+        ],
+        "case_id": "V072",
+        "check_summary": "Repeated +4 phases with negative transition terms −3, −7, then −11.",
+        "confidence": 0.96,
+        "rule_summary": "Growing phase-specific delta blocks."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b06-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "d4c4e112b2a63a883362e4269e886a75429dd0a008cbb426bcf5ac2687a19de0",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b06-proposer-2/attempt-01"
+}

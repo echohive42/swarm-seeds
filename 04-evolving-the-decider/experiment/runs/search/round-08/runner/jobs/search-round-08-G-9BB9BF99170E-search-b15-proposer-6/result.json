@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "2080",
+          "2202",
+          "7165",
+          "5837",
+          "26560"
+        ],
+        "case_id": "S169",
+        "check_summary": "Interleaved degree-5 polynomial streams; extrapolated each parity stream.",
+        "confidence": 0.86,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments 4 and 5 replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-2752",
+          "-4738",
+          "-7570",
+          "-11486",
+          "-16770"
+        ],
+        "case_id": "S171",
+        "check_summary": "Constant fifth differences of -4.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Third differences continue decreasing by 1.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences continue increasing by 1.",
+        "confidence": 0.97,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-4440",
+          "-7177",
+          "-11610",
+          "-18779",
+          "-30381"
+        ],
+        "case_id": "S174",
+        "check_summary": "Alternating difference subsequences extrapolated from their observed recurrence.",
+        "confidence": 0.58,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97972621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Two-phase affine updates replay the repeating transformations.",
+        "confidence": 0.93,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "65",
+          "70",
+          "61",
+          "76",
+          "67"
+        ],
+        "case_id": "S176",
+        "check_summary": "Parity streams extrapolated from phase-specific increments.",
+        "confidence": 0.36,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-171850",
+          "-343691"
+        ],
+        "case_id": "S177",
+        "check_summary": "Repeating signed doubling affine phases.",
+        "confidence": 0.89,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is previous term multiplied by -2.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "Six-term period repeats exactly.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Paired difference trends extrapolated.",
+        "confidence": 0.63,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-9BB9BF99170E-search-b15-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "957a2fffbabc367b8ed08dfb1f3cfa8d0362fb08b65271da062707adecc54e7d",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-9BB9BF99170E-search-b15-proposer-6/attempt-01"
+}

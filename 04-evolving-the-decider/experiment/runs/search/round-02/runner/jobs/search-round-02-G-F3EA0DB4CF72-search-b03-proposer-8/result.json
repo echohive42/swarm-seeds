@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "721",
+          "1441",
+          "2881",
+          "5761",
+          "11521"
+        ],
+        "case_id": "S025",
+        "check_summary": "Periodic polynomial-delta continuation inferred from repeating phase structure.",
+        "confidence": 0.42,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-62",
+          "-39",
+          "-53",
+          "-79",
+          "-92"
+        ],
+        "case_id": "S026",
+        "check_summary": "Phase-specific delta continuation from the observed periodic difference pattern.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-24",
+          "-38",
+          "-55",
+          "-72",
+          "-89"
+        ],
+        "case_id": "S027",
+        "check_summary": "Alternating repeated differences with each pair decreasing by five.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-951",
+          "-1537",
+          "-2481",
+          "-4009",
+          "-6474"
+        ],
+        "case_id": "S028",
+        "check_summary": "Extrapolated phase-dependent affine growth from the terminal recurrence pattern.",
+        "confidence": 0.24,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "797159",
+          "2391479",
+          "7174439",
+          "21523319",
+          "64569959"
+        ],
+        "case_id": "S029",
+        "check_summary": "Exact recurrence a(n)=3a(n-1)+5.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-56",
+          "-60",
+          "-65",
+          "-69",
+          "-74"
+        ],
+        "case_id": "S030",
+        "check_summary": "Alternating decrements of four and five.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "1872",
+          "3215",
+          "5348",
+          "8549",
+          "13250"
+        ],
+        "case_id": "S031",
+        "check_summary": "Finite-difference continuation with fourth differences increasing by five.",
+        "confidence": 0.88,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-140903",
+          "-281802",
+          "563609",
+          "1127222",
+          "-2254439"
+        ],
+        "case_id": "S032",
+        "check_summary": "Alternating affine updates: -2x+5 and 2x+4.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-205",
+          "-240",
+          "-273",
+          "-313",
+          "-351"
+        ],
+        "case_id": "S033",
+        "check_summary": "Alternating difference families continue with arithmetic decrements.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-99759059",
+          "-299277171",
+          "-897831515",
+          "2693494549",
+          "8080483643"
+        ],
+        "case_id": "S034",
+        "check_summary": "Three-phase affine recurrence with multipliers ±3 and fixed phase biases.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "1112",
+          "1814",
+          "2759",
+          "3788",
+          "4898"
+        ],
+        "case_id": "S035",
+        "check_summary": "Finite-difference continuation after the stabilized fourth-difference pattern.",
+        "confidence": 0.63,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1025",
+          "1348",
+          "1736",
+          "2194",
+          "2727"
+        ],
+        "case_id": "S036",
+        "check_summary": "Polynomial finite differences continue with second differences increasing by five.",
+        "confidence": 0.97,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-F3EA0DB4CF72-search-b03-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "8b533f5ed33ee609a5a5f105423fc1b845ae1a91ee05bd6c07cdc75d61ff8bcb",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-F3EA0DB4CF72-search-b03-proposer-8/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "Constant affine recurrence x'=-3x+3 matches every transition.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3777",
+          "-5390",
+          "-7477",
+          "-10123",
+          "-13420"
+        ],
+        "case_id": "V026",
+        "check_summary": "Fourth finite difference is constantly -7.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-174",
+          "-1027",
+          "1438",
+          "-2549",
+          "4306"
+        ],
+        "case_id": "V027",
+        "check_summary": "Best-supported periodic interleaved continuation; alternatives are weakly evidenced.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "47316",
+          "-94674",
+          "189310",
+          "-378664",
+          "757288"
+        ],
+        "case_id": "V028",
+        "check_summary": "Alternating affine biases continue linearly by phase.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "12217",
+          "18930",
+          "27984",
+          "40046",
+          "55011"
+        ],
+        "case_id": "V029",
+        "check_summary": "Best-supported candidate among weak higher-order growth explanations.",
+        "confidence": 0.3,
+        "rule_summary": "POLY/GROWBLOCK"
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Odd and even subsequences each increase by one.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Alternating updates 2x+1 and 3x+7 match the prefix.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802339",
+          "71604684",
+          "-214814049",
+          "644442141"
+        ],
+        "case_id": "V032",
+        "check_summary": "Period-three affine updates (-2x+6), (-3x+3), (-3x-6) repeat.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "963",
+          "-1566",
+          "2526",
+          "-4095",
+          "6621"
+        ],
+        "case_id": "V033",
+        "check_summary": "Second-order recurrence x_n=-x_{n-1}+x_{n-2}-3 matches the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-10",
+          "-3",
+          "-17",
+          "12",
+          "-15"
+        ],
+        "case_id": "V034",
+        "check_summary": "Best-supported periodic/interleaved continuation among anonymous proposals.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "57",
+          "36",
+          "85",
+          "80",
+          "74"
+        ],
+        "case_id": "V035",
+        "check_summary": "Best-supported interleaved continuation from the observed phase streams.",
+        "confidence": 0.42,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "815",
+          "1060",
+          "1351",
+          "1692",
+          "2087"
+        ],
+        "case_id": "V036",
+        "check_summary": "Second differences increase by four, yielding the continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b03-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "c8bd0f47943a24fda5f8e6b7809e1720adfa295a5f6eefaafe748dbda8fb7fd4",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b03-critic-1/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-13",
+          "-19",
+          "-25",
+          "-31",
+          "-37"
+        ],
+        "case_id": "V013",
+        "check_summary": "Inferred periodic affine continuation from the observed prefix.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-12",
+          "-14",
+          "-16",
+          "-18",
+          "-20"
+        ],
+        "case_id": "V014",
+        "check_summary": "Extended the dominant negative-difference trend.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic polynomial-delta sequence."
+      },
+      {
+        "answer": [
+          "-24",
+          "-17",
+          "-30",
+          "-3",
+          "-36"
+        ],
+        "case_id": "V015",
+        "check_summary": "Continued the alternating subsequence patterns.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V016",
+        "check_summary": "Odd positions decrease by 4; even positions increase by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two affine streams interleaved by position."
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V017",
+        "check_summary": "Odd subsequence has successive negative integer differences; even subsequence doubles its differences.",
+        "confidence": 0.99,
+        "rule_summary": "Two lagged polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "62",
+          "8",
+          "77",
+          "17",
+          "92"
+        ],
+        "case_id": "V018",
+        "check_summary": "Extended the apparent alternating stream behavior.",
+        "confidence": 0.08,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "8",
+          "-25",
+          "9",
+          "15",
+          "20"
+        ],
+        "case_id": "V019",
+        "check_summary": "Continued the apparent periodic interleaving.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine/interleaved sequence."
+      },
+      {
+        "answer": [
+          "51",
+          "28",
+          "72",
+          "46",
+          "93"
+        ],
+        "case_id": "V020",
+        "check_summary": "Extended the two apparent interleaved streams.",
+        "confidence": 0.08,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-43",
+          "-62",
+          "-58",
+          "-99",
+          "-73"
+        ],
+        "case_id": "V021",
+        "check_summary": "Continued a bounded periodic recurrence hypothesis.",
+        "confidence": 0.07,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-146",
+          "123",
+          "-278",
+          "246",
+          "-530"
+        ],
+        "case_id": "V022",
+        "check_summary": "Extended the alternating rapidly growing recurrence pattern.",
+        "confidence": 0.1,
+        "rule_summary": "Phase-specific second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "-40",
+          "-77",
+          "-114",
+          "-151",
+          "-188"
+        ],
+        "case_id": "V023",
+        "check_summary": "Positive block starts grow quadratically; negative steps repeat in growing blocks.",
+        "confidence": 0.96,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-3",
+          "-7",
+          "-14",
+          "-21",
+          "-28"
+        ],
+        "case_id": "V024",
+        "check_summary": "Extended the observed phase-delta trend.",
+        "confidence": 0.08,
+        "rule_summary": "Periodic polynomial-delta sequence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b02-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "91b292ccf0593b378421cc236659140979f29efaeb93ae5d49bbfd84ea3fe016",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b02-proposer-5/attempt-01"
+}

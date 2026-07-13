@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "Matches x(n+1)=-3x(n)+3 throughout.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-2940",
+          "-4840",
+          "-7460",
+          "-10860",
+          "-15120"
+        ],
+        "case_id": "V026",
+        "check_summary": "Tail extrapolation from accelerating negative differences.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-1977",
+          "3024",
+          "-2860",
+          "5223",
+          "-5711"
+        ],
+        "case_id": "V027",
+        "check_summary": "Extrapolated alternating subsequence behavior.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "23656",
+          "-47352",
+          "94712",
+          "-189784",
+          "380104"
+        ],
+        "case_id": "V028",
+        "check_summary": "Alternating exponential growth extrapolation.",
+        "confidence": 0.25,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "12920",
+          "20533",
+          "30294",
+          "42735",
+          "58382"
+        ],
+        "case_id": "V029",
+        "check_summary": "Accelerating positive-difference tail extrapolation.",
+        "confidence": 0.16,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Odd and even positions each increase by one.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-933315",
+          "-2799978",
+          "-5599955",
+          "-16799858",
+          "-33599715"
+        ],
+        "case_id": "V031",
+        "check_summary": "Repeating affine phase updates 2x+1 and 3x+7.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "7956078",
+          "-23868207",
+          "71604624",
+          "-143209242",
+          "429627753"
+        ],
+        "case_id": "V032",
+        "check_summary": "Repeating three-phase affine updates verified on prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "975",
+          "-1557",
+          "2604",
+          "-4251",
+          "6870"
+        ],
+        "case_id": "V033",
+        "check_summary": "Alternating rapidly growing subsequences extrapolated.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "9",
+          "14",
+          "25",
+          "28",
+          "51"
+        ],
+        "case_id": "V034",
+        "check_summary": "Heuristic phase-wise continuation from recent oscillatory increments.",
+        "confidence": 0.12,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "45",
+          "68",
+          "50",
+          "80",
+          "57"
+        ],
+        "case_id": "V035",
+        "check_summary": "Heuristic interleaved continuation from phase-separated tails.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "813",
+          "1056",
+          "1347",
+          "1692",
+          "2097"
+        ],
+        "case_id": "V036",
+        "check_summary": "Tail second differences increase by four.",
+        "confidence": 0.67,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-38D833F18B84-validation-b03-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "39ea4685c6bbaa5d2e118a36c87e3c632d3bfd3d228d63a24c9ce6d4cad28280",
+  "terminal_artifact_relpath": "jobs/validation-G-38D833F18B84-validation-b03-proposer-7/attempt-01"
+}

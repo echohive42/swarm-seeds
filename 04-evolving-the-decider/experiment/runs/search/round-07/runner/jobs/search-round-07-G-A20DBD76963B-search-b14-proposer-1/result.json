@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-30",
+          "-25",
+          "-20",
+          "-15",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "Growing arithmetic blocks with negative starts and repeated +5 steps.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd and even positions follow separate arithmetic and multiplicative streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-94",
+          "-116",
+          "-123",
+          "-169",
+          "-184"
+        ],
+        "case_id": "S159",
+        "check_summary": "Prefix is consistent with a higher-order periodic polynomial-delta construction.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd positions increase by 2; even positions increase by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "7",
+          "-11",
+          "-20",
+          "-9",
+          "-1"
+        ],
+        "case_id": "S161",
+        "check_summary": "Prefix is consistent with a periodic interleaved construction.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-5",
+          "25",
+          "43",
+          "50",
+          "37"
+        ],
+        "case_id": "S162",
+        "check_summary": "Periodic phase-specific polynomial increments fit the observed differences.",
+        "confidence": 0.22,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "10",
+          "5",
+          "-362",
+          "5",
+          "6"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams: decreasing arithmetic, increasing arithmetic, and affine recurrence.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-34",
+          "-61",
+          "-77",
+          "-104",
+          "-110"
+        ],
+        "case_id": "S164",
+        "check_summary": "Prefix is consistent with a bounded periodic recurrence.",
+        "confidence": 0.15,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-72",
+          "42",
+          "-96",
+          "57",
+          "-120"
+        ],
+        "case_id": "S165",
+        "check_summary": "Prefix is consistent with a periodic affine construction.",
+        "confidence": 0.14,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "96",
+          "24",
+          "-21",
+          "147",
+          "27"
+        ],
+        "case_id": "S166",
+        "check_summary": "Prefix is consistent with interleaved phase-specific affine streams.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-31",
+          "-48",
+          "-65",
+          "15",
+          "-6"
+        ],
+        "case_id": "S167",
+        "check_summary": "Growing blocks have increasing lengths, arithmetic negative runs, and polynomial starts.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-28",
+          "4",
+          "36",
+          "68",
+          "100"
+        ],
+        "case_id": "S168",
+        "check_summary": "Growing arithmetic blocks use step sizes increasing by 8 and block lengths increasing by one.",
+        "confidence": 0.97,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-A20DBD76963B-search-b14-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "0622f5c4f6d9e0eb309f5940d44ac8a004e07e3ca40b2ca54207e77e57d665fe",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-A20DBD76963B-search-b14-proposer-1/attempt-01"
+}

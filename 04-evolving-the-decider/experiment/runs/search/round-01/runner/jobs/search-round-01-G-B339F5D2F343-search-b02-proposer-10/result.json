@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "-5",
+          "45",
+          "4",
+          "67",
+          "-5"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd positions follow increasing quadratic increments; even positions alternate.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "42",
+          "14",
+          "29",
+          "11",
+          "39"
+        ],
+        "case_id": "S014",
+        "check_summary": "Candidate periodic interleaving fit.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-22",
+          "67",
+          "-31",
+          "80",
+          "-30"
+        ],
+        "case_id": "S015",
+        "check_summary": "Candidate interleaved polynomial-stream fit.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "36",
+          "8",
+          "87",
+          "-2",
+          "75"
+        ],
+        "case_id": "S016",
+        "check_summary": "Candidate phase-specific recurrence fit.",
+        "confidence": 0.12,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd subsequence increases by 5; even subsequence decreases by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-19",
+          "-4",
+          "-26",
+          "-5",
+          "-39"
+        ],
+        "case_id": "S018",
+        "check_summary": "Candidate periodic interleaving fit.",
+        "confidence": 0.13,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "68",
+          "45",
+          "7",
+          "18",
+          "89"
+        ],
+        "case_id": "S019",
+        "check_summary": "Candidate modular affine fit.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-46",
+          "-20",
+          "58",
+          "-32",
+          "-2"
+        ],
+        "case_id": "S020",
+        "check_summary": "Candidate three-stream interleaving fit.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-54",
+          "-72",
+          "-6",
+          "-34",
+          "-50"
+        ],
+        "case_id": "S021",
+        "check_summary": "Candidate phase-specific delta continuation.",
+        "confidence": 0.15,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "19",
+          "-54",
+          "-4",
+          "-75",
+          "-13"
+        ],
+        "case_id": "S022",
+        "check_summary": "Candidate interleaved stream continuation.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-37",
+          "-35"
+        ],
+        "case_id": "S023",
+        "check_summary": "Positive increments of 2 interrupted at triangular positions by jumps decreasing by 2.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-354",
+          "-40",
+          "-710",
+          "-54",
+          "-1422"
+        ],
+        "case_id": "S024",
+        "check_summary": "Candidate alternating affine continuation.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-B339F5D2F343-search-b02-proposer-10",
+  "outcome": "valid_output",
+  "response_sha256": "bef78a29fe4ce1fa3b8bebb98f20b632ba102f57929a5767ee04959bd1b8fad7",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-B339F5D2F343-search-b02-proposer-10/attempt-01"
+}

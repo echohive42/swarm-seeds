@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "Matches affine update a'=-3a+3.",
+        "confidence": 0.99,
+        "rule_summary": "Constant affine recurrence."
+      },
+      {
+        "answer": [
+          "-2885",
+          "-4498",
+          "-6111",
+          "-7724",
+          "-9337"
+        ],
+        "case_id": "V026",
+        "check_summary": "Finite differences extend with constant fourth difference -7.",
+        "confidence": 0.92,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "-1535",
+          "2760",
+          "-5001",
+          "9064",
+          "-16435"
+        ],
+        "case_id": "V027",
+        "check_summary": "Tentative periodic recurrence extrapolation.",
+        "confidence": 0.28,
+        "rule_summary": "Periodic affine/linear mechanism."
+      },
+      {
+        "answer": [
+          "47316",
+          "-94674",
+          "189310",
+          "-378664",
+          "757288"
+        ],
+        "case_id": "V028",
+        "check_summary": "Matches multiplier -2 with alternating arithmetic biases.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "11659",
+          "17246",
+          "24594",
+          "33834",
+          "45365"
+        ],
+        "case_id": "V029",
+        "check_summary": "Tentative higher-order polynomial extrapolation.",
+        "confidence": 0.24,
+        "rule_summary": "Polynomial-difference mechanism."
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Odd and even subsequences each increase by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Matches alternating updates 2a+1 and 3a+7.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802333",
+          "107407005",
+          "-322221012",
+          "966663030"
+        ],
+        "case_id": "V032",
+        "check_summary": "Matches repeating affine bias pattern after the initial terms.",
+        "confidence": 0.97,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-987",
+          "1596",
+          "-2583",
+          "4182",
+          "-6777"
+        ],
+        "case_id": "V033",
+        "check_summary": "Tentative alternating recurrence extrapolation.",
+        "confidence": 0.25,
+        "rule_summary": "Periodic second-order mechanism."
+      },
+      {
+        "answer": [
+          "-13",
+          "-19",
+          "-5",
+          "-27",
+          "-1"
+        ],
+        "case_id": "V034",
+        "check_summary": "Tentative periodic affine extrapolation.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic affine mechanism."
+      },
+      {
+        "answer": [
+          "47",
+          "72",
+          "56",
+          "90",
+          "67"
+        ],
+        "case_id": "V035",
+        "check_summary": "Tentative interleaved-stream extrapolation.",
+        "confidence": 0.19,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "815",
+          "1060",
+          "1351",
+          "1692",
+          "2087"
+        ],
+        "case_id": "V036",
+        "check_summary": "Second differences continue by increments of 4.",
+        "confidence": 0.96,
+        "rule_summary": "Cubic polynomial sequence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-A20DBD76963B-validation-b03-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "d3b2984e75d958e97935abd5d7e7f84ab35f00e0523dc6346a182a0cb5efc679",
+  "terminal_artifact_relpath": "jobs/validation-G-A20DBD76963B-validation-b03-proposer-2/attempt-01"
+}

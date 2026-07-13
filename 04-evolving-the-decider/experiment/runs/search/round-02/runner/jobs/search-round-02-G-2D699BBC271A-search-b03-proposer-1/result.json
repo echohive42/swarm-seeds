@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "321",
+          "-319",
+          "-1279",
+          "-2239",
+          "-2879"
+        ],
+        "case_id": "S025",
+        "check_summary": "Periodic delta replay with four-phase scaling pattern.",
+        "confidence": 0.8,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-54",
+          "-58",
+          "-65",
+          "-72",
+          "-80"
+        ],
+        "case_id": "S026",
+        "check_summary": "Extrapolation from recurring irregular phase-specific differences.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-13",
+          "-24",
+          "-38",
+          "-52",
+          "-66"
+        ],
+        "case_id": "S027",
+        "check_summary": "Successive paired differences decrease by 3.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-947",
+          "-1535",
+          "-2475",
+          "-3997",
+          "-6462"
+        ],
+        "case_id": "S028",
+        "check_summary": "Exponential-like lagged recurrence extrapolation.",
+        "confidence": 0.25,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "797159",
+          "2391479",
+          "7174436",
+          "21523313",
+          "64569944"
+        ],
+        "case_id": "S029",
+        "check_summary": "Each term equals three times the previous term plus five.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-56",
+          "-60",
+          "-65",
+          "-69",
+          "-74"
+        ],
+        "case_id": "S030",
+        "check_summary": "Alternating differences of -5 and -4.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "2394",
+          "4399",
+          "7334",
+          "11477",
+          "17162"
+        ],
+        "case_id": "S031",
+        "check_summary": "Constant fifth finite difference of 5.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-140903",
+          "-281802",
+          "563609",
+          "1127222",
+          "-2254443"
+        ],
+        "case_id": "S032",
+        "check_summary": "Alternating affine updates with multipliers -2 and 2.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-205",
+          "-240",
+          "-268",
+          "-303",
+          "-336"
+        ],
+        "case_id": "S033",
+        "check_summary": "Alternating difference pattern continuing by paired decrements.",
+        "confidence": 0.95,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-99759059",
+          "-299277171",
+          "-897831515",
+          "2693494549",
+          "8080483653"
+        ],
+        "case_id": "S034",
+        "check_summary": "Four-phase affine cycle with multipliers -3, 3, 3, -3 and fixed biases.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "1081",
+          "1721",
+          "2573",
+          "3684",
+          "5105"
+        ],
+        "case_id": "S035",
+        "check_summary": "Constant fourth finite difference of 4.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1025",
+          "1343",
+          "1720",
+          "2161",
+          "2671"
+        ],
+        "case_id": "S036",
+        "check_summary": "Finite differences have second differences increasing by 5.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-2D699BBC271A-search-b03-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "8ad45596e293196433b7978c1d63e8443b77711095bb4bafe3ba964a498894f4",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-2D699BBC271A-search-b03-proposer-1/attempt-01"
+}

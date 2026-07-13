@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "855",
+          "-65",
+          "-425",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Odd-position subsequence has successive decrements of 5,6,7,8,9; even-position differences double with alternating sign.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: polynomial odd stream and affine/geometric even stream."
+      },
+      {
+        "answer": [
+          "66",
+          "-46",
+          "87",
+          "-63",
+          "108"
+        ],
+        "case_id": "V038",
+        "check_summary": "Prefix exhibits repeated phase-specific increments, but the terminal continuation is weakly identified.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic phase-specific delta recurrence."
+      },
+      {
+        "answer": [
+          "83",
+          "-185",
+          "102",
+          "-237",
+          "123"
+        ],
+        "case_id": "V039",
+        "check_summary": "Candidate continuation inferred from alternating phase growth; full-prefix uniqueness is uncertain.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "26",
+          "30",
+          "34",
+          "22",
+          "26"
+        ],
+        "case_id": "V040",
+        "check_summary": "Arithmetic runs of step 4 with growing block offsets; next offset begins after the observed block.",
+        "confidence": 0.95,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "112",
+          "-13",
+          "148",
+          "-9",
+          "187"
+        ],
+        "case_id": "V041",
+        "check_summary": "Noisy-looking periodic recurrence fit; continuation remains uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Odd terms increase by 2; even terms decrease by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-37",
+          "-69",
+          "-58",
+          "-88",
+          "-79"
+        ],
+        "case_id": "V043",
+        "check_summary": "Candidate periodic continuation from phase-specific increments.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic delta recurrence."
+      },
+      {
+        "answer": [
+          "-52",
+          "-75",
+          "-78",
+          "-101",
+          "-104"
+        ],
+        "case_id": "V044",
+        "check_summary": "Candidate continuation from alternating phase trends.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-21",
+          "15",
+          "-32",
+          "18",
+          "-43"
+        ],
+        "case_id": "V045",
+        "check_summary": "Candidate continuation from alternating phase recurrence.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-49",
+          "-4",
+          "-61",
+          "-18",
+          "-73"
+        ],
+        "case_id": "V046",
+        "check_summary": "Candidate continuation from phase-specific recurrence.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "1",
+          "9",
+          "-6",
+          "4",
+          "-13"
+        ],
+        "case_id": "V047",
+        "check_summary": "Candidate continuation from alternating streams.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-43",
+          "26",
+          "-50",
+          "31",
+          "-57"
+        ],
+        "case_id": "V048",
+        "check_summary": "Candidate continuation from alternating phase recurrence.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine update."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-38D833F18B84-validation-b04-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "589c6c7704a589f9b6b49a81719411c0a90b1853557f5c4116fceed986b3a458",
+  "terminal_artifact_relpath": "jobs/validation-G-38D833F18B84-validation-b04-proposer-3/attempt-01"
+}

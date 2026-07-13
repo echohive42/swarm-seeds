@@ -1,0 +1,640 @@
+{
+  "artifact_notes": [
+    {
+      "field": "methods.*.fitness_key_without_hash",
+      "severity": "warning",
+      "statement": "Generated score summaries retain an obsolete four-part convenience field from Experiment 03. The authoritative five-part protocol_fitness_key, genome_scores, freezes, and selection receipts are internally consistent and drove every selection, so this label defect does not change results."
+    }
+  ],
+  "conclusion": {
+    "boundary": "This is one Luna Light condition, one synthetic sequence grammar, six bounded decision systems, and one deterministic evolutionary schedule. It does not establish a universal orchestration rule.",
+    "statement": "The evolved champion differed from diversified Vote10 by +4.2 pp, but the paired 95% interval [-2.1 pp, +10.4 pp] included zero, so superiority was not established.",
+    "superiority_claim_allowed": false
+  },
+  "evolution": {
+    "accepted_children_total": 18,
+    "best_initial_founder": {
+      "decision_system_id": "vote_10p",
+      "genome_id": "G-0025CFC9EF2E",
+      "judge_policy_id": "plurality_preserving"
+    },
+    "champion": {
+      "decision_system_id": "verified_7p2v1j",
+      "genome_id": "G-A20DBD76963B",
+      "judge_policy_id": "minority_aware",
+      "validation_accuracy": 0.4583333333333333,
+      "validation_exact_cases": 33,
+      "validation_n": 72,
+      "worker_lens_ids": [
+        "generalist",
+        "recurrences",
+        "recurrences",
+        "modular",
+        "simplicity",
+        "generalist",
+        "generalist",
+        "generalist",
+        "audit",
+        "generalist"
+      ]
+    },
+    "interpretation": "Each round used a different balanced 24-case sample. The trajectory shows the observed search process, not repeated measurement on one fixed benchmark. Validation alone selected the champion.",
+    "round_trajectory": [
+      {
+        "accepted_children": 2,
+        "best_accuracy": 0.5,
+        "best_exact_cases": 12,
+        "best_genome_ids_by_exact_score": [
+          "G-2B08D2BA7D25"
+        ],
+        "candidate_count": 12,
+        "fresh_cases": 24,
+        "mean_accuracy": 0.4027777777777778,
+        "mean_exact_cases": 9.666666666666666,
+        "round": 1
+      },
+      {
+        "accepted_children": 0,
+        "best_accuracy": 0.5,
+        "best_exact_cases": 12,
+        "best_genome_ids_by_exact_score": [
+          "G-0025CFC9EF2E"
+        ],
+        "candidate_count": 12,
+        "fresh_cases": 24,
+        "mean_accuracy": 0.3993055555555556,
+        "mean_exact_cases": 9.583333333333334,
+        "round": 2
+      },
+      {
+        "accepted_children": 3,
+        "best_accuracy": 0.6666666666666666,
+        "best_exact_cases": 16,
+        "best_genome_ids_by_exact_score": [
+          "G-E2ACA04030E1"
+        ],
+        "candidate_count": 12,
+        "fresh_cases": 24,
+        "mean_accuracy": 0.5104166666666666,
+        "mean_exact_cases": 12.25,
+        "round": 3
+      },
+      {
+        "accepted_children": 3,
+        "best_accuracy": 0.4583333333333333,
+        "best_exact_cases": 11,
+        "best_genome_ids_by_exact_score": [
+          "G-38D833F18B84"
+        ],
+        "candidate_count": 12,
+        "fresh_cases": 24,
+        "mean_accuracy": 0.34375,
+        "mean_exact_cases": 8.25,
+        "round": 4
+      },
+      {
+        "accepted_children": 3,
+        "best_accuracy": 0.375,
+        "best_exact_cases": 9,
+        "best_genome_ids_by_exact_score": [
+          "G-3373FE74E208"
+        ],
+        "candidate_count": 12,
+        "fresh_cases": 24,
+        "mean_accuracy": 0.3159722222222222,
+        "mean_exact_cases": 7.583333333333333,
+        "round": 5
+      },
+      {
+        "accepted_children": 1,
+        "best_accuracy": 0.5416666666666666,
+        "best_exact_cases": 13,
+        "best_genome_ids_by_exact_score": [
+          "G-1FA44A1EE857",
+          "G-38D833F18B84",
+          "G-8A6A683A8E7A",
+          "G-E2CB7ED71793"
+        ],
+        "candidate_count": 12,
+        "fresh_cases": 24,
+        "mean_accuracy": 0.4722222222222222,
+        "mean_exact_cases": 11.333333333333334,
+        "round": 6
+      },
+      {
+        "accepted_children": 3,
+        "best_accuracy": 0.5833333333333334,
+        "best_exact_cases": 14,
+        "best_genome_ids_by_exact_score": [
+          "G-38D833F18B84",
+          "G-9BB9BF99170E",
+          "G-A20DBD76963B"
+        ],
+        "candidate_count": 12,
+        "fresh_cases": 24,
+        "mean_accuracy": 0.5173611111111112,
+        "mean_exact_cases": 12.416666666666666,
+        "round": 7
+      },
+      {
+        "accepted_children": 3,
+        "best_accuracy": 0.625,
+        "best_exact_cases": 15,
+        "best_genome_ids_by_exact_score": [
+          "G-6BAC1D28F028"
+        ],
+        "candidate_count": 12,
+        "fresh_cases": 24,
+        "mean_accuracy": 0.5277777777777778,
+        "mean_exact_cases": 12.666666666666666,
+        "round": 8
+      }
+    ],
+    "survivor_decision_system_composition": [
+      {
+        "counts": {
+          "deliberative_6p2c2j": 1,
+          "dual_8p2j": 1,
+          "gated_7p2c1j": 1,
+          "judge_9p1j": 1,
+          "verified_7p2v1j": 1,
+          "vote_10p": 1
+        },
+        "round": 0
+      },
+      {
+        "counts": {
+          "deliberative_6p2c2j": 2,
+          "dual_8p2j": 1,
+          "gated_7p2c1j": 1,
+          "judge_9p1j": 1,
+          "verified_7p2v1j": 0,
+          "vote_10p": 1
+        },
+        "round": 1
+      },
+      {
+        "counts": {
+          "deliberative_6p2c2j": 2,
+          "dual_8p2j": 1,
+          "gated_7p2c1j": 1,
+          "judge_9p1j": 1,
+          "verified_7p2v1j": 0,
+          "vote_10p": 1
+        },
+        "round": 2
+      },
+      {
+        "counts": {
+          "deliberative_6p2c2j": 2,
+          "dual_8p2j": 2,
+          "gated_7p2c1j": 1,
+          "judge_9p1j": 1,
+          "verified_7p2v1j": 0,
+          "vote_10p": 0
+        },
+        "round": 3
+      },
+      {
+        "counts": {
+          "deliberative_6p2c2j": 3,
+          "dual_8p2j": 3,
+          "gated_7p2c1j": 0,
+          "judge_9p1j": 0,
+          "verified_7p2v1j": 0,
+          "vote_10p": 0
+        },
+        "round": 4
+      },
+      {
+        "counts": {
+          "deliberative_6p2c2j": 3,
+          "dual_8p2j": 3,
+          "gated_7p2c1j": 0,
+          "judge_9p1j": 0,
+          "verified_7p2v1j": 0,
+          "vote_10p": 0
+        },
+        "round": 5
+      },
+      {
+        "counts": {
+          "deliberative_6p2c2j": 3,
+          "dual_8p2j": 3,
+          "gated_7p2c1j": 0,
+          "judge_9p1j": 0,
+          "verified_7p2v1j": 0,
+          "vote_10p": 0
+        },
+        "round": 6
+      },
+      {
+        "counts": {
+          "deliberative_6p2c2j": 2,
+          "dual_8p2j": 3,
+          "gated_7p2c1j": 0,
+          "judge_9p1j": 0,
+          "verified_7p2v1j": 1,
+          "vote_10p": 0
+        },
+        "round": 7
+      },
+      {
+        "counts": {
+          "deliberative_6p2c2j": 2,
+          "dual_8p2j": 3,
+          "gated_7p2c1j": 0,
+          "judge_9p1j": 0,
+          "verified_7p2v1j": 1,
+          "vote_10p": 0
+        },
+        "round": 8
+      }
+    ]
+  },
+  "experiment": {
+    "actual_model_attempts": 2604,
+    "early_stopping": false,
+    "fixed_rounds": 8,
+    "hidden_final_cases": 96,
+    "model": "gpt-5.6-luna",
+    "provider_reasoning_effort": "low",
+    "public_reasoning_label": "Light reasoning",
+    "question": "Can symbolic evolution improve how ten Luna Light calls decide together?",
+    "registered_logical_call_identities": 2600,
+    "search_cases": 192,
+    "service_tier": "Standard",
+    "validation_cases": 72
+  },
+  "headline": {
+    "ci95": [
+      -0.020833333333333332,
+      0.10416666666666667
+    ],
+    "estimate": 0.041666666666666664,
+    "finding": "The evolved champion differed from diversified Vote10 by +4.2 pp, but the paired 95% interval [-2.1 pp, +10.4 pp] included zero, so superiority was not established.",
+    "interval_includes_zero": true,
+    "primary_contrast": "evolved_champion minus diversified_vote10",
+    "superiority_supported": false
+  },
+  "hidden_final": {
+    "methods": {
+      "best_initial_founder": {
+        "completed_calls": 80,
+        "exact_accuracy": 0.4479166666666667,
+        "exact_cases": 43,
+        "exact_ci95": [
+          0.3541666666666667,
+          0.5416666666666666
+        ],
+        "harmful_overrides": 0,
+        "input_tokens": 958330.0,
+        "label": "Best initial founder",
+        "latency_ms": 4816755.0,
+        "malformed_calls": 0,
+        "n": 96,
+        "net_override_value": 0,
+        "output_tokens": 234870.0,
+        "overrides": 0,
+        "proposal_plurality_accuracy": 0.4479166666666667,
+        "proposal_plurality_exact_cases": 43,
+        "term_accuracy": 0.5354166666666667,
+        "term_correct": 257,
+        "term_count": 480,
+        "useful_overrides": 0
+      },
+      "diversified_vote10": {
+        "completed_calls": 80,
+        "exact_accuracy": 0.3854166666666667,
+        "exact_cases": 37,
+        "exact_ci95": [
+          0.2916666666666667,
+          0.4791666666666667
+        ],
+        "harmful_overrides": 0,
+        "input_tokens": 957754.0,
+        "label": "Diversified Vote10",
+        "latency_ms": 4711052.0,
+        "malformed_calls": 0,
+        "n": 96,
+        "net_override_value": 0,
+        "output_tokens": 230173.0,
+        "overrides": 0,
+        "proposal_plurality_accuracy": 0.3854166666666667,
+        "proposal_plurality_exact_cases": 37,
+        "term_accuracy": 0.45625,
+        "term_correct": 219,
+        "term_count": 480,
+        "useful_overrides": 0
+      },
+      "evolved_champion": {
+        "completed_calls": 80,
+        "exact_accuracy": 0.4270833333333333,
+        "exact_cases": 41,
+        "exact_ci95": [
+          0.3333333333333333,
+          0.5208333333333334
+        ],
+        "harmful_overrides": 0,
+        "input_tokens": 1089820.0,
+        "label": "Evolved champion",
+        "latency_ms": 4420029.0,
+        "malformed_calls": 0,
+        "n": 96,
+        "net_override_value": 3,
+        "output_tokens": 203525.0,
+        "overrides": 11,
+        "proposal_plurality_accuracy": 0.3958333333333333,
+        "proposal_plurality_exact_cases": 38,
+        "term_accuracy": 0.50625,
+        "term_correct": 243,
+        "term_count": 480,
+        "useful_overrides": 3
+      },
+      "generalist_vote10": {
+        "completed_calls": 80,
+        "exact_accuracy": 0.4270833333333333,
+        "exact_cases": 41,
+        "exact_ci95": [
+          0.34375,
+          0.5208333333333334
+        ],
+        "harmful_overrides": 0,
+        "input_tokens": 957370.0,
+        "label": "Generalist Vote10",
+        "latency_ms": 4779529.0,
+        "malformed_calls": 0,
+        "n": 96,
+        "net_override_value": 0,
+        "output_tokens": 235873.0,
+        "overrides": 0,
+        "proposal_plurality_accuracy": 0.4270833333333333,
+        "proposal_plurality_exact_cases": 41,
+        "term_accuracy": 0.5041666666666667,
+        "term_correct": 242,
+        "term_count": 480,
+        "useful_overrides": 0
+      }
+    },
+    "paired_comparisons": [
+      {
+        "both_correct": 34,
+        "both_wrong": 52,
+        "ci95": [
+          -0.020833333333333332,
+          0.10416666666666667
+        ],
+        "contrast": "evolved_champion minus diversified_vote10",
+        "estimate": 0.041666666666666664,
+        "interval_includes_zero": true,
+        "left": "evolved_champion",
+        "left_only_wins": 7,
+        "mcnemar_exact_two_sided_p": 0.34375,
+        "right": "diversified_vote10",
+        "right_only_wins": 3,
+        "superiority_supported": false
+      },
+      {
+        "both_correct": 36,
+        "both_wrong": 48,
+        "ci95": [
+          -0.09375,
+          0.041666666666666664
+        ],
+        "contrast": "evolved_champion minus best_initial_founder",
+        "estimate": -0.020833333333333332,
+        "interval_includes_zero": true,
+        "left": "evolved_champion",
+        "left_only_wins": 5,
+        "mcnemar_exact_two_sided_p": 0.7744140625,
+        "right": "best_initial_founder",
+        "right_only_wins": 7,
+        "superiority_supported": false
+      },
+      {
+        "both_correct": 36,
+        "both_wrong": 50,
+        "ci95": [
+          -0.0625,
+          0.0625
+        ],
+        "contrast": "evolved_champion minus generalist_vote10",
+        "estimate": 0.0,
+        "interval_includes_zero": true,
+        "left": "evolved_champion",
+        "left_only_wins": 5,
+        "mcnemar_exact_two_sided_p": 1.0,
+        "right": "generalist_vote10",
+        "right_only_wins": 5,
+        "superiority_supported": false
+      }
+    ],
+    "primary_case_overlap": {
+      "both_correct": 34,
+      "both_wrong": 52,
+      "champion_only": 7,
+      "diversified_vote10_only": 3
+    }
+  },
+  "operations": {
+    "attempt_status_counts": {
+      "schema_invalid": 4,
+      "valid_output": 2600
+    },
+    "cached_input_tokens_all_attempts": 17758208,
+    "infrastructure_exhausted_jobs": 0,
+    "infrastructure_failure_attempts": 0,
+    "input_tokens_all_attempts": 34692166,
+    "jobs_retried": 4,
+    "latency_ms_all_attempts": 145422086,
+    "malformed_attempts": 4,
+    "output_tokens_all_attempts": 6849421,
+    "protocol_violation_attempts": 0,
+    "protocol_violation_jobs": 0,
+    "registered_call_identities": 2600,
+    "retry_attempts": 4,
+    "schema_invalid_exhausted_jobs": 0,
+    "total_attempts": 2604,
+    "total_tokens_all_attempts": 41541587,
+    "valid_output_jobs": 2600
+  },
+  "schema_version": "experiment-04-analysis-v1",
+  "source_artifacts": [
+    {
+      "path": "genomes/champion-freeze.json",
+      "sha256": "6e4fa5b1f59e837ab4b31c494be0465ec160e0a4192370b97de13130459f8233"
+    },
+    {
+      "path": "genomes/round-00-parents.json",
+      "sha256": "393f13a47fa4cf520bc9b0817c60644f266dd8694c228cdbafc59d3df5b9bacd"
+    },
+    {
+      "path": "genomes/round-01-survivors.json",
+      "sha256": "3811a228ff80ecfcda6589f41addf65830c2732547c1f7e167af5b8fd00f7557"
+    },
+    {
+      "path": "genomes/round-02-survivors.json",
+      "sha256": "1ecf3363e6d44c54d776d67712670e8419ca14bad9c76d114a0712d71902b518"
+    },
+    {
+      "path": "genomes/round-03-survivors.json",
+      "sha256": "a65fc17764d9dc556e9ff3fbfa3b8438d3ff1a4d6c7639ad601f0d5ff679e7df"
+    },
+    {
+      "path": "genomes/round-04-survivors.json",
+      "sha256": "5efdef718fb23f88d7569dcd594423ca7df53acd6a49eeef9a9b867fcf45647f"
+    },
+    {
+      "path": "genomes/round-05-survivors.json",
+      "sha256": "81c62267336952e591da7fd2fbf42d32d60e57873b30652a99b49c005f4f30cf"
+    },
+    {
+      "path": "genomes/round-06-survivors.json",
+      "sha256": "2d41a7694edc1bb7da29fd01ce2cbe740582e8674b214a6190731985328a382f"
+    },
+    {
+      "path": "genomes/round-07-survivors.json",
+      "sha256": "471c7dff6dac65ea30ef7dd6216ca9ceece31246268a43b197412056542d5c36"
+    },
+    {
+      "path": "genomes/round-08-survivors.json",
+      "sha256": "0a5855b9c5ff00d2cb41e49bf096d26841da2c6a56cb1812a4bfac154de8a49c"
+    },
+    {
+      "path": "results/final/case_matrix.csv",
+      "sha256": "7ab086607dbf697ccfa3489ae1a241e166d41cef9be15ffdd50849ff22bd06e7"
+    },
+    {
+      "path": "results/final/comparisons.json",
+      "sha256": "be295e190472f218a547775c05449f6e3345937725ae9f49c9d3918022aa578d"
+    },
+    {
+      "path": "results/final/summary.json",
+      "sha256": "b47fd1ad4255a0c8b3a9542ec31d3f0b75ab5b5a7c626ca186f984501ffb59cf"
+    },
+    {
+      "path": "results/search/round-01/case_matrix.csv",
+      "sha256": "5d23a4246fd7be10b0f4304be5b86cfc351ca40e3f5adeb2d1a113d1790aff94"
+    },
+    {
+      "path": "results/search/round-01/summary.json",
+      "sha256": "d5ec98ac277442282bd944292c37cf36175777d7abf1687fbe0823c937ce9997"
+    },
+    {
+      "path": "results/search/round-02/case_matrix.csv",
+      "sha256": "b19dbb4fe8f85e80bb23a678b56c29747388a64cef6109dd7291a69a9c402bba"
+    },
+    {
+      "path": "results/search/round-02/summary.json",
+      "sha256": "b266763c4a329849f30d9a957f12ab24f066ef1e18dfb2e927feebea48ba9495"
+    },
+    {
+      "path": "results/search/round-03/case_matrix.csv",
+      "sha256": "7496cfdf314a9750238da673403ea3b75fcbe892a23d66505ef9865d78b7a1c8"
+    },
+    {
+      "path": "results/search/round-03/summary.json",
+      "sha256": "2d43199b5c61f3964f08b299fc7d19d15ecf20755e51caa18f0ab24f63ffd6d1"
+    },
+    {
+      "path": "results/search/round-04/case_matrix.csv",
+      "sha256": "a5d392e87ca0229a017e042c6ec56db004b43e3e01222000ff46faf35f4bb680"
+    },
+    {
+      "path": "results/search/round-04/summary.json",
+      "sha256": "1af69dcc514707d50eda04aed2ede39d7109c497e265bdfd4906fb2abcea6996"
+    },
+    {
+      "path": "results/search/round-05/case_matrix.csv",
+      "sha256": "254f8ad80961fd953ddfeafc9cf2ea012347d171268e27f16394caa3886ee5fc"
+    },
+    {
+      "path": "results/search/round-05/summary.json",
+      "sha256": "a5d2c07a3c406b39590431c4fe415bb0bd6d35ff5e6b9f60cc1166d28794197f"
+    },
+    {
+      "path": "results/search/round-06/case_matrix.csv",
+      "sha256": "c2a9012c8e4728462d13cd7f35a497ecc32969482fbde0df238a2d3c83ece258"
+    },
+    {
+      "path": "results/search/round-06/summary.json",
+      "sha256": "304c50a5c76fa16064b3ae5953d5253aec52d2b809cee9a6c98471269d802619"
+    },
+    {
+      "path": "results/search/round-07/case_matrix.csv",
+      "sha256": "020f66fccb84db4bec02f9ff654e5fcd9101d28064dfe398f46e9d42b441c815"
+    },
+    {
+      "path": "results/search/round-07/summary.json",
+      "sha256": "31bb6e3cc313aee08e6a833b4108c10a0117cb172b101f7a4f92c200ca0d5346"
+    },
+    {
+      "path": "results/search/round-08/case_matrix.csv",
+      "sha256": "94807817dcf091e9180eb61388f3e8d1ce8adb23e93a72ed619e294f21e2dd5a"
+    },
+    {
+      "path": "results/search/round-08/summary.json",
+      "sha256": "8216d4ee6383d5a37015c8dd3d48f4110c00ab2b6a612ec5283f77baf0b0ea05"
+    },
+    {
+      "path": "results/validation/case_matrix.csv",
+      "sha256": "584a8f9142a7f7e3a2912ff7c7ef8adb11358a1cf8f5f76dc2de7e91fa189601"
+    },
+    {
+      "path": "results/validation/summary.json",
+      "sha256": "b108d7cee2a4dc5d1daa8130f168c1787b13dc4e529a7031f90908a391758045"
+    },
+    {
+      "path": "runs/final/best_initial_founder/runner/attempts.jsonl",
+      "sha256": "d72436b63527bb6c0f17de8b85d2d3c03d69549fe5392309ac6f062c2d0ebe7a"
+    },
+    {
+      "path": "runs/final/diversified_vote10/runner/attempts.jsonl",
+      "sha256": "0e25ee53c1f29dd364e3ba6f68b8c6fe4d63d1586d91fa9720d9b6d9123a734a"
+    },
+    {
+      "path": "runs/final/evolved_champion/runner/attempts.jsonl",
+      "sha256": "0686cdc35ae06c77943a549df9ce7fc6ab401513f89f5578009b5fcacba79453"
+    },
+    {
+      "path": "runs/final/generalist_vote10/runner/attempts.jsonl",
+      "sha256": "41dd6063e1f7ba6214b5e1a29795ca4ff2f0aa5f34c2148df509e3ebdc106381"
+    },
+    {
+      "path": "runs/search/round-01/runner/attempts.jsonl",
+      "sha256": "0e37d7ac4dc21de226070df2edbb68e51946fbbeb72f1233cc7002f97f0dcd02"
+    },
+    {
+      "path": "runs/search/round-02/runner/attempts.jsonl",
+      "sha256": "6dda5e91518a885f3884fd51de70880974e8213652ed6be397868c0af8a30462"
+    },
+    {
+      "path": "runs/search/round-03/runner/attempts.jsonl",
+      "sha256": "d0ea8dbe601f0a4e6a53f4d2926e485efa28b5e58333b7d17d3269efd5db98d2"
+    },
+    {
+      "path": "runs/search/round-04/runner/attempts.jsonl",
+      "sha256": "917f807fdc87b8a4a8592e5156afd49ea76e9d2f6b055ed4056625a989e7882e"
+    },
+    {
+      "path": "runs/search/round-05/runner/attempts.jsonl",
+      "sha256": "68dbbadf90e23b532e65aee0e5e67bce42322d698ca3943e7e174cc64d5b91a9"
+    },
+    {
+      "path": "runs/search/round-06/runner/attempts.jsonl",
+      "sha256": "4a77e2b53bbfb6a0d638c25e4a88dfd8891c124b8df06fcbdca494c566b45973"
+    },
+    {
+      "path": "runs/search/round-07/runner/attempts.jsonl",
+      "sha256": "3e2ca91c144a4b08bd6695f33fa3d7a839639f780c5b41f7fd28d2f47d5790f7"
+    },
+    {
+      "path": "runs/search/round-08/runner/attempts.jsonl",
+      "sha256": "d41a62238f2ad0b5ed72d33e2b6e4ea926e428c2fff859fe49d6bae921960121"
+    },
+    {
+      "path": "runs/validation/runner/attempts.jsonl",
+      "sha256": "1b0906f17aefb93d512cb87f1c976725899e359eabc4a75dcbd6dbaefd882184"
+    }
+  ]
+}

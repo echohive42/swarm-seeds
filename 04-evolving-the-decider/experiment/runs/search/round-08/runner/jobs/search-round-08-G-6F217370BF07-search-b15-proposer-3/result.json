@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Matches phase-periodic affine rule x[n+4]=-4x[n]+5.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence with period 4."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments +4,+5 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta rule with phase increments 4 and 5."
+      },
+      {
+        "answer": [
+          "-2230",
+          "-3506",
+          "-5402",
+          "-8114",
+          "-11880"
+        ],
+        "case_id": "S171",
+        "check_summary": "Finite differences continue with linearly decreasing fourth differences.",
+        "confidence": 0.96,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2872"
+        ],
+        "case_id": "S172",
+        "check_summary": "Difference hierarchy continues with third differences decreasing by 1.",
+        "confidence": 0.96,
+        "rule_summary": "Polynomial delta sequence."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences continue as -4 through +6.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18815",
+          "-30443"
+        ],
+        "case_id": "S174",
+        "check_summary": "Lag-2 recurrence residual repeats -2,-2,+3.",
+        "confidence": 0.95,
+        "rule_summary": "Second-order linear recurrence with period-3 bias."
+      },
+      {
+        "answer": [
+          "2719366",
+          "-5438756",
+          "-16316192",
+          "32632540",
+          "97897156"
+        ],
+        "case_id": "S175",
+        "check_summary": "Every second term follows x[n+2]=-6x[n]+4.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic-phase second-order affine recurrence."
+      },
+      {
+        "answer": [
+          "77",
+          "80",
+          "59",
+          "64",
+          "73"
+        ],
+        "case_id": "S176",
+        "check_summary": "Phase-specific differences continue as 9,3,-21,5,9.",
+        "confidence": 0.94,
+        "rule_summary": "Period-4 polynomial delta rule."
+      },
+      {
+        "answer": [
+          "214859",
+          "429627",
+          "859291",
+          "-1718853",
+          "-3436997"
+        ],
+        "case_id": "S177",
+        "check_summary": "Lag-3 recurrence x[n+3]=-8x[n]+19 matches all terms.",
+        "confidence": 0.99,
+        "rule_summary": "Second-order/lagged affine recurrence."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence x[n+1]=-2x[n]."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "Six-term cycle repeats exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic sequence."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Alternating second-difference tracks continue with odd negatives and even positives.",
+        "confidence": 0.94,
+        "rule_summary": "Periodic polynomial delta rule."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-6F217370BF07-search-b15-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "6b575d94ee44ae4e0bccdf14691059775d01d11f3088dbd734965a325b3e5687",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-6F217370BF07-search-b15-proposer-3/attempt-01"
+}

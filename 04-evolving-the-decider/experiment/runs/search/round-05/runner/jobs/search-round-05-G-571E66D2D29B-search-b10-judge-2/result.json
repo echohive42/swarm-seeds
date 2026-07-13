@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "24",
+          "9",
+          "36",
+          "-7",
+          "50"
+        ],
+        "case_id": "S109",
+        "check_summary": "Odd-position values continue with successive even increments; even positions alternate 9 and -7.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "12",
+          "5",
+          "-12",
+          "-2",
+          "7"
+        ],
+        "case_id": "S110",
+        "check_summary": "Six-phase continuation matches the observed phase-specific recurrence structure.",
+        "confidence": 0.72,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "72",
+          "91",
+          "110",
+          "55",
+          "76"
+        ],
+        "case_id": "S111",
+        "check_summary": "Growing arithmetic-block continuation best matches the visible block endpoints and changing steps.",
+        "confidence": 0.32,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "1",
+          "51",
+          "3",
+          "11",
+          "76"
+        ],
+        "case_id": "S112",
+        "check_summary": "Three residue classes exhibit exact polynomial delta progressions through the prefix.",
+        "confidence": 0.91,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "42",
+          "-3",
+          "56",
+          "-10",
+          "67"
+        ],
+        "case_id": "S113",
+        "check_summary": "Interleaved phase streams provide the strongest full-prefix continuation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-907",
+          "31",
+          "-13",
+          "1813",
+          "30"
+        ],
+        "case_id": "S114",
+        "check_summary": "Explosive residue-class behavior supports the interleaved continuation.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "42",
+          "82",
+          "33",
+          "67",
+          "137"
+        ],
+        "case_id": "S115",
+        "check_summary": "Growing arithmetic-block structure best fits the expanding step pattern.",
+        "confidence": 0.3,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd and even subsequences are exact arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "30",
+          "54",
+          "37",
+          "61",
+          "47"
+        ],
+        "case_id": "S117",
+        "check_summary": "Multiple phase streams are best continued by the candidate interleaving.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "28",
+          "25",
+          "20",
+          "30",
+          "27"
+        ],
+        "case_id": "S118",
+        "check_summary": "Periodic interleaved streams give the strongest phase-consistent continuation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "82",
+          "86",
+          "5",
+          "100",
+          "105"
+        ],
+        "case_id": "S119",
+        "check_summary": "Residue-class polynomial increments provide the strongest continuation.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "189",
+          "172",
+          "155",
+          "138",
+          "121"
+        ],
+        "case_id": "S120",
+        "check_summary": "Growing arithmetic blocks continue with a new block starting at 189 and step -17.",
+        "confidence": 0.93,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-571E66D2D29B-search-b10-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "433f80a80f3bc931cb11e688bd25cedf2af6d07ce8c914b6cbfa25860a14dfed",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-571E66D2D29B-search-b10-judge-2/attempt-01"
+}

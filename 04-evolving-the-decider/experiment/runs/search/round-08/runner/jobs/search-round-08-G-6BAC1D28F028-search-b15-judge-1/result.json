@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Plurality supports a four-phase periodic delta continuation.",
+        "confidence": 0.9,
+        "rule_summary": "PDELTA with period-4 phase deltas."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments of 4 and 5 exactly replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with alternating constant deltas."
+      },
+      {
+        "answer": [
+          "-2256",
+          "-3614",
+          "-5682",
+          "-8694",
+          "-12930"
+        ],
+        "case_id": "S171",
+        "check_summary": "Strong plurality supports the degree-5 polynomial continuation.",
+        "confidence": 0.98,
+        "rule_summary": "POLY with constant fifth finite difference."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Strong plurality supports constant fourth difference -1.",
+        "confidence": 0.99,
+        "rule_summary": "POLY, integer-valued quartic."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences continue as 6,7,8,9,10.",
+        "confidence": 0.99,
+        "rule_summary": "POLY with constant third finite difference."
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18815",
+          "-30443"
+        ],
+        "case_id": "S174",
+        "check_summary": "Plurality supports a second-order recurrence with repeating biases.",
+        "confidence": 0.98,
+        "rule_summary": "LIN2 with period-3 bias."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97897621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating affine updates reproduce every observed transition.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with x→3x+1 and x→−2x+6."
+      },
+      {
+        "answer": [
+          "70",
+          "73",
+          "52",
+          "57",
+          "68"
+        ],
+        "case_id": "S176",
+        "check_summary": "Highest-confidence evidence supports phase-specific delta continuation.",
+        "confidence": 0.8,
+        "rule_summary": "PDELTA with period-4 deltas."
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3436997"
+        ],
+        "case_id": "S177",
+        "check_summary": "Directly continuing the verified affine phase cycle gives the tuple.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with repeating updates 2x−7, −2x−9, 2x+9."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE x→2x."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "The observed six-term cycle repeats exactly.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic sequence with period 6."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Two interleaved quadratic streams continue with constant second difference.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two quadratic streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-6BAC1D28F028-search-b15-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "aa15cec749a719cdd42a1a2ef6af94cbcfffa3b9a9b4741c3624e9aaa9b5f631",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-6BAC1D28F028-search-b15-judge-1/attempt-01"
+}

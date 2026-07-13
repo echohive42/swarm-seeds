@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "-425",
+          "-65",
+          "855",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Odd and even subsequences replay as a quadratic decrement and affine recurrence.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd terms decrement by successive integers; even terms follow x_next=-2x+5."
+      },
+      {
+        "answer": [
+          "66",
+          "85",
+          "104",
+          "123",
+          "142"
+        ],
+        "case_id": "V038",
+        "check_summary": "Extrapolated from the apparent phase-structured affine pattern.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA with periodic phase-specific increments."
+      },
+      {
+        "answer": [
+          "91",
+          "-189",
+          "-98",
+          "-237",
+          "118"
+        ],
+        "case_id": "V039",
+        "check_summary": "Extrapolated from alternating phase behavior and recurring affine structure.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE with phase-specific affine updates."
+      },
+      {
+        "answer": [
+          "22",
+          "26",
+          "30",
+          "26",
+          "30"
+        ],
+        "case_id": "V040",
+        "check_summary": "Continues the dominant arithmetic growth with periodic resets.",
+        "confidence": 0.31,
+        "rule_summary": "GROWBLOCK with arithmetic steps and periodic block starts."
+      },
+      {
+        "answer": [
+          "52",
+          "41",
+          "87",
+          "-6",
+          "31"
+        ],
+        "case_id": "V041",
+        "check_summary": "Extrapolated under a bounded periodic affine mechanism.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE with phase-dependent affine updates."
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Odd subsequence increases by 2; even subsequence decreases by 3.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE: odd stream x_next=x+2; even stream x_next=x-3."
+      },
+      {
+        "answer": [
+          "-35",
+          "-18",
+          "-54",
+          "-19",
+          "-73"
+        ],
+        "case_id": "V043",
+        "check_summary": "Extrapolated from the alternating phase-specific delta pattern.",
+        "confidence": 0.1,
+        "rule_summary": "PDELTA with periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "98",
+          "70",
+          "42",
+          "14",
+          "-14"
+        ],
+        "case_id": "V044",
+        "check_summary": "Observed positive reset followed by a longer constant negative-delta block.",
+        "confidence": 0.43,
+        "rule_summary": "GROWBLOCK with polynomial block starts and repeated arithmetic steps."
+      },
+      {
+        "answer": [
+          "48",
+          "-9",
+          "72",
+          "-6",
+          "96"
+        ],
+        "case_id": "V045",
+        "check_summary": "Extrapolated under a periodic bounded recurrence.",
+        "confidence": 0.07,
+        "rule_summary": "MODAFFINE with repeating phase parameters."
+      },
+      {
+        "answer": [
+          "-56",
+          "-17",
+          "31",
+          "-63",
+          "-4"
+        ],
+        "case_id": "V046",
+        "check_summary": "Extrapolated from phase-specific affine behavior.",
+        "confidence": 0.09,
+        "rule_summary": "INTERLEAVE with affine phase updates."
+      },
+      {
+        "answer": [
+          "24",
+          "28",
+          "8",
+          "42",
+          "4"
+        ],
+        "case_id": "V047",
+        "check_summary": "Extrapolated from the observed interleaved bounded streams.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE with polynomial or affine component streams."
+      },
+      {
+        "answer": [
+          "-44",
+          "25",
+          "-51",
+          "28",
+          "-59"
+        ],
+        "case_id": "V048",
+        "check_summary": "Continues the alternating-sign phase pattern with slowly varying magnitudes.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial increments."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-38D833F18B84-validation-b04-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "1f7b693d3c99cf8232f3cc19c66a88f9b8e9ec9ac2a4db429e2d366afca623b0",
+  "terminal_artifact_relpath": "jobs/validation-G-38D833F18B84-validation-b04-proposer-8/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b05",
+    "results": [
+      {
+        "answer": [
+          "3454364",
+          "10363097",
+          "31089296",
+          "93267893",
+          "279803684"
+        ],
+        "case_id": "F049",
+        "check_summary": "Matches x_next=3x+5.",
+        "confidence": 1,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "21",
+          "19",
+          "24",
+          "22",
+          "27"
+        ],
+        "case_id": "F050",
+        "check_summary": "Alternating arithmetic streams verified.",
+        "confidence": 1,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-11833",
+          "11836",
+          "-35504",
+          "106516",
+          "-212965"
+        ],
+        "case_id": "F051",
+        "check_summary": "Periodic three-phase affine replay.",
+        "confidence": 1,
+        "rule_summary": "Phase-periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-3972",
+          "-5912",
+          "-8493",
+          "-11852",
+          "-16143"
+        ],
+        "case_id": "F052",
+        "check_summary": "Finite-difference continuation verified.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "516037",
+          "1245825",
+          "3007681",
+          "7261186",
+          "17530054"
+        ],
+        "case_id": "F053",
+        "check_summary": "Second-order recurrence with repeating bias fits suffix.",
+        "confidence": 0.88,
+        "rule_summary": "Periodic-bias LIN2 recurrence."
+      },
+      {
+        "answer": [
+          "1066421",
+          "-3199269",
+          "-6398539",
+          "19195611",
+          "38391221"
+        ],
+        "case_id": "F054",
+        "check_summary": "Alternating affine updates verified.",
+        "confidence": 1,
+        "rule_summary": "Period-2 affine recurrence."
+      },
+      {
+        "answer": [
+          "-217",
+          "-631",
+          "1140",
+          "-289",
+          "-1652"
+        ],
+        "case_id": "F055",
+        "check_summary": "Interleaved stream extrapolation.",
+        "confidence": 0.42,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-120",
+          "-131",
+          "-145",
+          "-160",
+          "-176"
+        ],
+        "case_id": "F056",
+        "check_summary": "Continuation inferred from descending periodic structure.",
+        "confidence": 0.25,
+        "rule_summary": "Periodic delta recurrence."
+      },
+      {
+        "answer": [
+          "42",
+          "-7",
+          "39",
+          "-28",
+          "36"
+        ],
+        "case_id": "F057",
+        "check_summary": "Odd/even polynomial streams verified.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-78",
+          "-91",
+          "-105",
+          "-120",
+          "-136"
+        ],
+        "case_id": "F058",
+        "check_summary": "Successive differences decrease by one.",
+        "confidence": 1,
+        "rule_summary": "Quadratic polynomial."
+      },
+      {
+        "answer": [
+          "-883",
+          "-1124",
+          "-1407",
+          "-1735",
+          "-2111"
+        ],
+        "case_id": "F059",
+        "check_summary": "Second differences continue by successive multiples of three.",
+        "confidence": 1,
+        "rule_summary": "Quartic polynomial."
+      },
+      {
+        "answer": [
+          "1472",
+          "2191",
+          "3136",
+          "4349",
+          "5876"
+        ],
+        "case_id": "F060",
+        "check_summary": "Finite differences continue with constant fourth difference.",
+        "confidence": 1,
+        "rule_summary": "Quartic polynomial."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-evolved_champion-G-A20DBD76963B-final-b05-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "53ce3c5e996db5dee9d46766b91b5b89d0f605db2d285caa8f55dcddbbca69e2",
+  "terminal_artifact_relpath": "jobs/final-evolved_champion-G-A20DBD76963B-final-b05-proposer-3/attempt-01"
+}

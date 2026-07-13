@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-30",
+          "-54",
+          "-90",
+          "-138",
+          "-198"
+        ],
+        "case_id": "V013",
+        "check_summary": "Best-fit periodic polynomial extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-11",
+          "-13",
+          "-12",
+          "-14",
+          "-15"
+        ],
+        "case_id": "V014",
+        "check_summary": "Alternating declining phase pattern extrapolated.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-14",
+          "-14",
+          "-13",
+          "-13",
+          "-15"
+        ],
+        "case_id": "V015",
+        "check_summary": "Interleaved phase extrapolation from alternating subsequences.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V016",
+        "check_summary": "Two arithmetic streams verified across the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V017",
+        "check_summary": "Odd stream has successive negative increments; even stream doubles its decrement.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-10",
+          "-14",
+          "71",
+          "-29",
+          "-29"
+        ],
+        "case_id": "V018",
+        "check_summary": "Three residue classes fit quadratic phase trends.",
+        "confidence": 0.82,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-1",
+          "23",
+          "-25",
+          "-2",
+          "20"
+        ],
+        "case_id": "V019",
+        "check_summary": "Interleaved phase extrapolation with repeating boundary phases.",
+        "confidence": 0.18,
+        "rule_summary": "Three interleaved streams."
+      },
+      {
+        "answer": [
+          "-20",
+          "-12",
+          "85",
+          "-5",
+          "31"
+        ],
+        "case_id": "V020",
+        "check_summary": "Best-fit multi-phase extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-39",
+          "-35",
+          "-54",
+          "-65",
+          "-75"
+        ],
+        "case_id": "V021",
+        "check_summary": "Interleaved subsequence continuation estimate.",
+        "confidence": 0.1,
+        "rule_summary": "Lagged subsequences with polynomial increments."
+      },
+      {
+        "answer": [
+          "184",
+          "59",
+          "10",
+          "-270",
+          "330"
+        ],
+        "case_id": "V022",
+        "check_summary": "Four phase subsequences extrapolated by finite differences.",
+        "confidence": 0.48,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-127",
+          "-161",
+          "-150",
+          "-220",
+          "-205"
+        ],
+        "case_id": "V023",
+        "check_summary": "Multi-phase finite-difference continuation estimate.",
+        "confidence": 0.11,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-5",
+          "-3",
+          "-2",
+          "-1",
+          "0"
+        ],
+        "case_id": "V024",
+        "check_summary": "Alternating phase trend extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "Interleaved polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b02-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "f0f8f80a0bc7191598be6162eeb8e51dc931401bf12bf7c81d63d55f29eacde7",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b02-proposer-4/attempt-01"
+}

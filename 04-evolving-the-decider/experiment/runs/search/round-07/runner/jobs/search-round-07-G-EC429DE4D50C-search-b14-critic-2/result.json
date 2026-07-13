@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "8",
+          "-15",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "All strong proposals agree; +5 runs are interrupted by triangular-position drops.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK/PDELTA"
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd stream follows quadratic differences; even stream alternates sign while doubling.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "37",
+          "35",
+          "42",
+          "50",
+          "59"
+        ],
+        "case_id": "S159",
+        "check_summary": "Weakly supported modular-affine continuation; no proposal has a fully verified replay.",
+        "confidence": 0.22,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd-position stream rises by 2 and even-position stream rises by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-11",
+          "7",
+          "39",
+          "8",
+          "-13"
+        ],
+        "case_id": "S161",
+        "check_summary": "Three residue streams give increments 2,3,4,5; -5,-4,-3; and 5,8,11,14.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-44",
+          "63",
+          "23",
+          "-150",
+          "177"
+        ],
+        "case_id": "S162",
+        "check_summary": "Most supported among weak competing phase-polynomial extrapolations.",
+        "confidence": 0.42,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "5",
+          "5",
+          "-362",
+          "-1",
+          "6"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three streams are descending by successive integers, ascending by integers, and x maps to 2x-6.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "47",
+          "72",
+          "69",
+          "91",
+          "84"
+        ],
+        "case_id": "S164",
+        "check_summary": "Weak periodic-difference continuation; proposals do not establish a uniquely replayed rule.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-15",
+          "-72",
+          "13",
+          "-23",
+          "13"
+        ],
+        "case_id": "S165",
+        "check_summary": "Best-supported lagged-subsequence continuation among low-confidence proposals.",
+        "confidence": 0.15,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-21",
+          "135",
+          "1",
+          "-21",
+          "183"
+        ],
+        "case_id": "S166",
+        "check_summary": "Strongest proposal identifies three interleaved polynomial streams, including a constant phase.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-48",
+          "-25",
+          "-50",
+          "-64",
+          "-78"
+        ],
+        "case_id": "S167",
+        "check_summary": "Best-supported lagged phase continuation among weak alternatives.",
+        "confidence": 0.14,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-36",
+          "-4",
+          "28",
+          "60",
+          "92"
+        ],
+        "case_id": "S168",
+        "check_summary": "Growing blocks have steps 0,8,16,24, then 32; the next block starts at -36.",
+        "confidence": 0.93,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-EC429DE4D50C-search-b14-critic-2",
+  "outcome": "valid_output",
+  "response_sha256": "636ae1dac40c6992f99bc4447f83baaf2cb70e61fda91e77288afdc8b7d2cf95",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-EC429DE4D50C-search-b14-critic-2/attempt-01"
+}

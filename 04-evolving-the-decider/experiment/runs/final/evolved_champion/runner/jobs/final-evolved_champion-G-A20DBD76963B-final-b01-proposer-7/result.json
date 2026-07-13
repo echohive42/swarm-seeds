@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b01",
+    "results": [
+      {
+        "answer": [
+          "1211",
+          "1535",
+          "1912",
+          "2346",
+          "2841"
+        ],
+        "case_id": "F001",
+        "check_summary": "Polynomial first differences replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "-176",
+          "-180",
+          "-189",
+          "-191",
+          "-198"
+        ],
+        "case_id": "F002",
+        "check_summary": "Alternating arithmetic difference phases replay the prefix.",
+        "confidence": 0.97,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-853138",
+          "-2559412",
+          "5118830",
+          "15356492",
+          "-30712978"
+        ],
+        "case_id": "F003",
+        "check_summary": "Alternating affine updates replay the stable prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-5502946",
+          "-16508846",
+          "-49526534",
+          "99053070",
+          "297159202"
+        ],
+        "case_id": "F004",
+        "check_summary": "Three-phase affine recurrence replays the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-44",
+          "-10",
+          "-53",
+          "-37",
+          "-35"
+        ],
+        "case_id": "F005",
+        "check_summary": "Four-phase delta extrapolation fits the observed block structure.",
+        "confidence": 0.45,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-19",
+          "-17",
+          "-20",
+          "-18",
+          "-21"
+        ],
+        "case_id": "F006",
+        "check_summary": "Alternating differences are exactly periodic.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic phase-specific deltas."
+      },
+      {
+        "answer": [
+          "34",
+          "36",
+          "38",
+          "40",
+          "42"
+        ],
+        "case_id": "F007",
+        "check_summary": "Interleaved stream continuation inferred from alternating subsequences.",
+        "confidence": 0.38,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-25566",
+          "-37381",
+          "-53185",
+          "-73908",
+          "-100614"
+        ],
+        "case_id": "F008",
+        "check_summary": "Finite differences show a polynomial continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "775",
+          "1205",
+          "1773",
+          "2504",
+          "3425"
+        ],
+        "case_id": "F009",
+        "check_summary": "Finite-difference continuation has steadily increasing odd third differences.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "-2224",
+          "-3317",
+          "-3205",
+          "-3767",
+          "-6762"
+        ],
+        "case_id": "F010",
+        "check_summary": "Phase-specific delta extrapolation fits the periodic block pattern.",
+        "confidence": 0.42,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-30037",
+          "60075",
+          "-120149",
+          "240299",
+          "-480597"
+        ],
+        "case_id": "F011",
+        "check_summary": "The update x_next=-2x+1 exactly replays the prefix.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "-1532",
+          "-4544",
+          "-13400",
+          "-39536",
+          "-116612"
+        ],
+        "case_id": "F012",
+        "check_summary": "Continuation inferred from the recurring affine/interleaved structure.",
+        "confidence": 0.3,
+        "rule_summary": "Interleaved affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-evolved_champion-G-A20DBD76963B-final-b01-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "aef75b69054b5f7665d53e6278d1a92dc2c8e5307a5ce920f921a0fbe6ea4df4",
+  "terminal_artifact_relpath": "jobs/final-evolved_champion-G-A20DBD76963B-final-b01-proposer-7/attempt-01"
+}

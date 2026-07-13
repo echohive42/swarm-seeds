@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b05",
+    "results": [
+      {
+        "answer": [
+          "-151",
+          "-226",
+          "-280",
+          "-371",
+          "-450"
+        ],
+        "case_id": "V049",
+        "check_summary": "Low-confidence extrapolation; no compact rule uniquely reconstructed.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic polynomial-delta continuation."
+      },
+      {
+        "answer": [
+          "37016",
+          "-74033",
+          "148062",
+          "-296127",
+          "592250"
+        ],
+        "case_id": "V050",
+        "check_summary": "Fits a late-prefix alternating affine pattern approximately.",
+        "confidence": 0.22,
+        "rule_summary": "Alternating affine update with slowly varying phase biases."
+      },
+      {
+        "answer": [
+          "-9256",
+          "-12785",
+          "-17333",
+          "-23160",
+          "-30507"
+        ],
+        "case_id": "V051",
+        "check_summary": "No reliable compact recurrence reconstructed.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative affine-like growth continuation."
+      },
+      {
+        "answer": [
+          "-14217",
+          "42655",
+          "-127962",
+          "383887",
+          "-1151661"
+        ],
+        "case_id": "V052",
+        "check_summary": "Odd and even subsequences independently fit affine rules.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams: odd x→3x−5, even x→3x+3."
+      },
+      {
+        "answer": [
+          "151",
+          "167",
+          "179",
+          "221",
+          "240"
+        ],
+        "case_id": "V053",
+        "check_summary": "Three-phase first differences continue linearly.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic deltas with phase increments 7, 3, and 3."
+      },
+      {
+        "answer": [
+          "-49144",
+          "-285649",
+          "-1660781",
+          "-9659776",
+          "-56209904"
+        ],
+        "case_id": "V054",
+        "check_summary": "Low-confidence exponential continuation from approximate parity-stream ratios.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative interleaved affine streams."
+      },
+      {
+        "answer": [
+          "1613",
+          "-2615",
+          "3269",
+          "-6851",
+          "6597"
+        ],
+        "case_id": "V055",
+        "check_summary": "Low-confidence alternating-stream extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative interleaved affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "-37840",
+          "113525",
+          "227054",
+          "-227056",
+          "681173"
+        ],
+        "case_id": "V056",
+        "check_summary": "Three phase streams fit exact affine updates.",
+        "confidence": 0.99,
+        "rule_summary": "Three interleaved streams, each updated by x→6x+b with biases 23, 26, and −16."
+      },
+      {
+        "answer": [
+          "-26",
+          "-31",
+          "-29",
+          "-34",
+          "-32"
+        ],
+        "case_id": "V057",
+        "check_summary": "Two arithmetic streams continue with constant decrement 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams, both x→x−3."
+      },
+      {
+        "answer": [
+          "5048689",
+          "15146068",
+          "45438205",
+          "136314616",
+          "408943849"
+        ],
+        "case_id": "V058",
+        "check_summary": "Exact first-order affine recurrence.",
+        "confidence": 0.99,
+        "rule_summary": "x→3x+1."
+      },
+      {
+        "answer": [
+          "292",
+          "399",
+          "528",
+          "681",
+          "860"
+        ],
+        "case_id": "V059",
+        "check_summary": "Finite differences identify a polynomial continuation.",
+        "confidence": 0.98,
+        "rule_summary": "First differences have quadratic progression, yielding a cubic polynomial."
+      },
+      {
+        "answer": [
+          "-4467",
+          "-5931",
+          "-7725",
+          "-9895",
+          "-12490"
+        ],
+        "case_id": "V060",
+        "check_summary": "Third differences continue as an arithmetic sequence.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued quartic polynomial continuation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-E2CB7ED71793-validation-b05-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "65e4b3e4c5cc9c033454f3c2cc8c599454fd32fa92da976b925192dbe33df1c0",
+  "terminal_artifact_relpath": "jobs/validation-G-E2CB7ED71793-validation-b05-proposer-5/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "8",
+          "-15",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "Plurality agrees on the periodic triangular-reset continuation.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-specific growing negative jumps and +5 increments."
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Strong plurality and coherent interleaved-stream fit.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of a quadratic odd stream and even stream multiplied by -2."
+      },
+      {
+        "answer": [
+          "-17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S159",
+        "check_summary": "Selected highest-confidence coherent minority; evidence remains weak.",
+        "confidence": 0.38,
+        "rule_summary": "INTERLEAVE with phase-specific low-degree updates."
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "All candidates agree on the two arithmetic streams.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-11",
+          "39",
+          "7",
+          "-12",
+          "56"
+        ],
+        "case_id": "S161",
+        "check_summary": "Residue classes continue with increments -5,-4,-3; 5,8,11; and 2,3,4,5.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "11",
+          "17",
+          "8",
+          "13",
+          "20"
+        ],
+        "case_id": "S162",
+        "check_summary": "Chosen as the strongest available periodic-delta continuation; evidence is uncertain.",
+        "confidence": 0.3,
+        "rule_summary": "PDELTA with repeating phase-specific deltas."
+      },
+      {
+        "answer": [
+          "5",
+          "-362",
+          "5",
+          "6",
+          "-730"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three residue-class streams give exact continuation.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of polynomial and affine streams."
+      },
+      {
+        "answer": [
+          "42",
+          "75",
+          "31",
+          "67",
+          "80"
+        ],
+        "case_id": "S164",
+        "check_summary": "Highest-confidence available phase-specific recurrence candidate.",
+        "confidence": 0.27,
+        "rule_summary": "Periodic affine update with phase-specific parameters."
+      },
+      {
+        "answer": [
+          "-4",
+          "19",
+          "-85",
+          "48",
+          "-6"
+        ],
+        "case_id": "S165",
+        "check_summary": "Highest-confidence available full-prefix phase-model candidate.",
+        "confidence": 0.25,
+        "rule_summary": "Periodic phase-specific polynomial-delta process."
+      },
+      {
+        "answer": [
+          "1",
+          "19",
+          "135",
+          "-38",
+          "-21"
+        ],
+        "case_id": "S166",
+        "check_summary": "Strong coherent three-stream polynomial fit.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "32",
+          "12",
+          "-8",
+          "-28",
+          "-48"
+        ],
+        "case_id": "S167",
+        "check_summary": "Strong plurality identifies growing blocks with steps -5,-9,-13,-17.",
+        "confidence": 0.97,
+        "rule_summary": "GROWBLOCK with polynomial starts and arithmetic steps."
+      },
+      {
+        "answer": [
+          "-34",
+          "-2",
+          "30",
+          "62",
+          "94"
+        ],
+        "case_id": "S168",
+        "check_summary": "Strong coherent growing-block reconstruction.",
+        "confidence": 0.97,
+        "rule_summary": "GROWBLOCK with block steps 0,8,16,24,32 and quadratic starts."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-B6D67789C6A8-search-b14-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "213742463e797162d82b685482bf8f421926a5f9ab35416450c9a971a24861b1",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-B6D67789C6A8-search-b14-judge-2/attempt-01"
+}

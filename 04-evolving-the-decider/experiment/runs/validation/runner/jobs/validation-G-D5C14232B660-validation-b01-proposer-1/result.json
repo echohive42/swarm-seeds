@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b01",
+    "results": [
+      {
+        "answer": [
+          "-1288823",
+          "-3866468",
+          "-7732937",
+          "15465865",
+          "46397596"
+        ],
+        "case_id": "V001",
+        "check_summary": "Periodic affine replay with multipliers 3,2,-2 and biases 1,-1,-9.",
+        "confidence": 0.99,
+        "rule_summary": "Phase-periodic affine update."
+      },
+      {
+        "answer": [
+          "2605",
+          "3828",
+          "5137",
+          "7368",
+          "10129"
+        ],
+        "case_id": "V002",
+        "check_summary": "Odd/even lag subsequences replay as quartic polynomial streams.",
+        "confidence": 0.98,
+        "rule_summary": "Lagged polynomial updates by parity."
+      },
+      {
+        "answer": [
+          "43",
+          "47",
+          "50",
+          "54",
+          "57"
+        ],
+        "case_id": "V003",
+        "check_summary": "Alternating increments +3,+4 replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial delta."
+      },
+      {
+        "answer": [
+          "-2590778",
+          "7772327",
+          "-23316977",
+          "69950924",
+          "-209852768"
+        ],
+        "case_id": "V004",
+        "check_summary": "Alternating affine update x→-3x+4 and x→-3x-7.",
+        "confidence": 0.99,
+        "rule_summary": "Phase-periodic affine update."
+      },
+      {
+        "answer": [
+          "1727182",
+          "-5181551",
+          "15544648",
+          "-46633949",
+          "139901842"
+        ],
+        "case_id": "V005",
+        "check_summary": "Constant affine update x→-3x-5 replays all terms.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "-1035",
+          "826",
+          "445",
+          "-2502",
+          "4157"
+        ],
+        "case_id": "V006",
+        "check_summary": "Four-phase delta streams fit affine recurrence with phase-specific bias.",
+        "confidence": 0.86,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-112",
+          "-103",
+          "-128",
+          "-163",
+          "-151"
+        ],
+        "case_id": "V007",
+        "check_summary": "First differences split into three arithmetic phase streams.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial delta."
+      },
+      {
+        "answer": [
+          "-15063",
+          "-21095",
+          "-28990",
+          "-39163",
+          "-52088"
+        ],
+        "case_id": "V008",
+        "check_summary": "Finite differences indicate a polynomial continuation.",
+        "confidence": 0.91,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-331699",
+          "800000",
+          "-1931300",
+          "4660000",
+          "-11250000"
+        ],
+        "case_id": "V009",
+        "check_summary": "Alternating growth is consistent with a periodic affine extrapolation.",
+        "confidence": 0.62,
+        "rule_summary": "Phase-periodic affine update."
+      },
+      {
+        "answer": [
+          "-43",
+          "31",
+          "-28",
+          "54",
+          "-72"
+        ],
+        "case_id": "V010",
+        "check_summary": "Periodic interleaved streams inferred from recurring phase behavior.",
+        "confidence": 0.58,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "70",
+          "-151",
+          "302",
+          "-733",
+          "1766"
+        ],
+        "case_id": "V011",
+        "check_summary": "Parity-separated lag behavior extrapolated from the visible prefix.",
+        "confidence": 0.55,
+        "rule_summary": "Lagged polynomial updates."
+      },
+      {
+        "answer": [
+          "-805",
+          "-1035",
+          "-1304",
+          "-1615",
+          "-1971"
+        ],
+        "case_id": "V012",
+        "check_summary": "Second differences decrease by 3 each step, giving cubic continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b01-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "56ee56102e53d77b5f5a789f338ba6329e5a775aacf3632973c55e8c5e8309f2",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b01-proposer-1/attempt-01"
+}

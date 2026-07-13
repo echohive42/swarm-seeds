@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "-895",
+          "-1823",
+          "2945",
+          "7137",
+          "-12415"
+        ],
+        "case_id": "S169",
+        "check_summary": "Two interleaved streams show successive increments multiplied by -4 in the observed tail.",
+        "confidence": 0.93,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments +4,+5 replay the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-2786",
+          "-4878",
+          "-7930",
+          "-12226",
+          "-18100"
+        ],
+        "case_id": "S171",
+        "check_summary": "Exact finite-difference continuation has constant fifth difference -4.",
+        "confidence": 0.99,
+        "rule_summary": "POLY degree 5"
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Fourth finite differences are constant -1.",
+        "confidence": 0.99,
+        "rule_summary": "POLY degree 4"
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences continue increasing consecutively.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18815",
+          "-30443"
+        ],
+        "case_id": "S174",
+        "check_summary": "Periodic-bias second-order recurrence exactly matches the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97897621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Repeating affine phases 3x+1 and -2x+6 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "71",
+          "50",
+          "55",
+          "66",
+          "68"
+        ],
+        "case_id": "S176",
+        "check_summary": "Four interleaved streams fit arithmetic increments with decreasing step pattern.",
+        "confidence": 0.93,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3436997"
+        ],
+        "case_id": "S177",
+        "check_summary": "Periodic affine transformations replay the prefix exactly.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "The six-term cycle repeats exactly.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd and even interleaved difference streams continue their linear decrements.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-E2CB7ED71793-search-b15-critic-2",
+  "outcome": "valid_output",
+  "response_sha256": "87c48a4a413cfbcce13fffac04bd52bf692edfc95b76eb69a2e24879208f5425",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-E2CB7ED71793-search-b15-critic-2/attempt-01"
+}

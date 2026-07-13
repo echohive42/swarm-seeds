@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating differences -4,-3 replay the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-2 constant deltas."
+      },
+      {
+        "answer": [
+          "9332",
+          "-15113",
+          "24465",
+          "-39605",
+          "64102"
+        ],
+        "case_id": "S074",
+        "check_summary": "Extrapolated from the observed alternating signed growth.",
+        "confidence": 0.25,
+        "rule_summary": "Periodic affine/LIN2 candidate."
+      },
+      {
+        "answer": [
+          "6",
+          "11",
+          "18",
+          "7",
+          "14"
+        ],
+        "case_id": "S075",
+        "check_summary": "Three interleaved streams have successive polynomial increments.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "-14275",
+          "-21088",
+          "-30445",
+          "-42630",
+          "-58089"
+        ],
+        "case_id": "S076",
+        "check_summary": "Extrapolated from the accelerating negative differences.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic affine/LIN2 candidate."
+      },
+      {
+        "answer": [
+          "-4062",
+          "-9803",
+          "-23663",
+          "-57124",
+          "-137906"
+        ],
+        "case_id": "S077",
+        "check_summary": "Differences obey d_n=2d_{n-1}+d_{n-2}.",
+        "confidence": 0.98,
+        "rule_summary": "LIN2 recurrence on first differences."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Each term is -3 times the prior term plus 5.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE recurrence x_n=-3x_{n-1}+5."
+      },
+      {
+        "answer": [
+          "80",
+          "105",
+          "145",
+          "187",
+          "242"
+        ],
+        "case_id": "S079",
+        "check_summary": "Extrapolated from the irregular but accelerating differences.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE/GROWBLOCK candidate."
+      },
+      {
+        "answer": [
+          "408426",
+          "1089150",
+          "-3267452",
+          "3267444",
+          "8713198"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three-position affine block pattern replayed.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE of three affine streams."
+      },
+      {
+        "answer": [
+          "-152370",
+          "-304742",
+          "609486",
+          "1218970",
+          "-2437938"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating updates x_n=-2x_{n-1}+2 and x_n=2x_{n-1}-2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-2 multipliers and biases."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-813",
+          "-990"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences are negative squares.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with delta -(n-3)^2."
+      },
+      {
+        "answer": [
+          "-2745",
+          "-3915",
+          "-5341",
+          "-7041",
+          "-9033"
+        ],
+        "case_id": "S083",
+        "check_summary": "Extrapolated from the increasingly negative differences.",
+        "confidence": 0.18,
+        "rule_summary": "POLY/PDELTA candidate."
+      },
+      {
+        "answer": [
+          "3517",
+          "-8491",
+          "20491",
+          "-49411",
+          "119107"
+        ],
+        "case_id": "S084",
+        "check_summary": "Extrapolated from the alternating exponential-sign growth.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic affine candidate."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-E2CB7ED71793-search-b07-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "a269948c6ae9086eca557b38e2330c44759015990bf691760b95a980fb78894c",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-E2CB7ED71793-search-b07-proposer-1/attempt-01"
+}

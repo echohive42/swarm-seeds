@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V016",
+        "check_summary": "Alternating arithmetic streams with steps -4 and +4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd positions decrease by 4; even positions increase by 4."
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V017",
+        "check_summary": "Odd subsequence has successive decrements 1,2,3,4,5; even subsequence decrements double each time.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: polynomial odd stream and exponential-looking affine-phase even stream."
+      },
+      {
+        "answer": [
+          "-1",
+          "13",
+          "-4",
+          "24",
+          "20"
+        ],
+        "case_id": "V019",
+        "check_summary": "Six-phase streams extrapolated from phase-specific polynomial increments.",
+        "confidence": 0.55,
+        "rule_summary": "PDELTA with period 6."
+      },
+      {
+        "answer": [
+          "-14",
+          "-12",
+          "-15",
+          "-4",
+          "-11"
+        ],
+        "case_id": "V013",
+        "check_summary": "Periodic phase extrapolation from the supplied prefix.",
+        "confidence": 0.12,
+        "rule_summary": "PDELTA with periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-11",
+          "-12",
+          "-12",
+          "-14",
+          "-14"
+        ],
+        "case_id": "V014",
+        "check_summary": "Alternating subsequence extrapolation from the decreasing prefix.",
+        "confidence": 0.13,
+        "rule_summary": "INTERLEAVE with two slowly varying streams."
+      },
+      {
+        "answer": [
+          "-17",
+          "-9",
+          "-18",
+          "-5",
+          "-12"
+        ],
+        "case_id": "V015",
+        "check_summary": "Periodic interleaving extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE with phase-specific affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "-11",
+          "35",
+          "-9",
+          "70",
+          "-13"
+        ],
+        "case_id": "V018",
+        "check_summary": "Periodic phase extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "PDELTA with periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "37",
+          "74",
+          "47",
+          "-3",
+          "-36"
+        ],
+        "case_id": "V020",
+        "check_summary": "Interleaved stream extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE with polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-31",
+          "-48",
+          "-37",
+          "-60",
+          "-44"
+        ],
+        "case_id": "V021",
+        "check_summary": "Bounded periodic recurrence extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "MODAFFINE with periodic affine updates."
+      },
+      {
+        "answer": [
+          "-119",
+          "116",
+          "-178",
+          "229",
+          "-263"
+        ],
+        "case_id": "V022",
+        "check_summary": "Alternating signed recurrence extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "LIN2 with phase-repeating bias."
+      },
+      {
+        "answer": [
+          "-127",
+          "-156",
+          "-185",
+          "-214",
+          "-243"
+        ],
+        "case_id": "V023",
+        "check_summary": "Tail differences suggest a continuing arithmetic subsequence.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE with arithmetic/polynomial streams."
+      },
+      {
+        "answer": [
+          "-7",
+          "-20",
+          "2",
+          "-18",
+          "-4"
+        ],
+        "case_id": "V024",
+        "check_summary": "Periodic interleaving extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE with polynomial/affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b02-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "f36d8bbffae0d377828286a48f2fb27008e23afad7cb1b22244bfe74cbd055b4",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b02-proposer-2/attempt-01"
+}

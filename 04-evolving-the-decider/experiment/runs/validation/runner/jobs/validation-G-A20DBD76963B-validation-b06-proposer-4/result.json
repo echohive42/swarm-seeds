@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b06",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "12",
+          "24",
+          "11",
+          "27"
+        ],
+        "case_id": "V061",
+        "check_summary": "Best-fit periodic/interleaved integer pattern.",
+        "confidence": 0.18,
+        "rule_summary": "Uncertain interleaved or modular-affine continuation."
+      },
+      {
+        "answer": [
+          "-72",
+          "-42",
+          "-12",
+          "18",
+          "48"
+        ],
+        "case_id": "V062",
+        "check_summary": "Repeated positive phase increments grow by 7; negative reset jumps grow polynomially.",
+        "confidence": 0.82,
+        "rule_summary": "Growing arithmetic block pattern."
+      },
+      {
+        "answer": [
+          "-37",
+          "-71",
+          "-6",
+          "-19",
+          "-86"
+        ],
+        "case_id": "V063",
+        "check_summary": "No uniquely verified continuation from visible prefix.",
+        "confidence": 0.12,
+        "rule_summary": "Uncertain periodic or modular pattern."
+      },
+      {
+        "answer": [
+          "20",
+          "-33",
+          "24",
+          "-38",
+          "28"
+        ],
+        "case_id": "V064",
+        "check_summary": "Odd and even positions are separate arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: even stream increases by 4; odd stream decreases by 5."
+      },
+      {
+        "answer": [
+          "61",
+          "58",
+          "73",
+          "82",
+          "98"
+        ],
+        "case_id": "V065",
+        "check_summary": "Best-fit multi-stream continuation.",
+        "confidence": 0.15,
+        "rule_summary": "Uncertain interleaved polynomial or modular pattern."
+      },
+      {
+        "answer": [
+          "-49",
+          "449",
+          "-60",
+          "897",
+          "-72"
+        ],
+        "case_id": "V066",
+        "check_summary": "Odd stream has successive decrements; even stream follows doubling minus one.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd decrements grow by 1; even update is x'=2x-1."
+      },
+      {
+        "answer": [
+          "40",
+          "18",
+          "58",
+          "67",
+          "80"
+        ],
+        "case_id": "V067",
+        "check_summary": "Best-fit periodic continuation.",
+        "confidence": 0.14,
+        "rule_summary": "Uncertain interleaved or modular-affine pattern."
+      },
+      {
+        "answer": [
+          "-54",
+          "9",
+          "-1",
+          "-74",
+          "23"
+        ],
+        "case_id": "V068",
+        "check_summary": "Partial lagged-subsequence structure identified, but continuation is uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "Uncertain LAGPOLY or interleaved pattern."
+      },
+      {
+        "answer": [
+          "-27",
+          "-9",
+          "20",
+          "-30",
+          "23"
+        ],
+        "case_id": "V069",
+        "check_summary": "Three phase streams are independently regular.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE: phase streams continue with arithmetic/polynomial increments."
+      },
+      {
+        "answer": [
+          "27",
+          "54",
+          "81",
+          "108",
+          "135"
+        ],
+        "case_id": "V070",
+        "check_summary": "Arithmetic blocks show increasing block step and length.",
+        "confidence": 0.72,
+        "rule_summary": "GROWBLOCK continuation with next block starting at 27 and step 27."
+      },
+      {
+        "answer": [
+          "-89",
+          "2",
+          "19",
+          "-164",
+          "2"
+        ],
+        "case_id": "V071",
+        "check_summary": "Three phase streams have polynomial continuations.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE: phase-1 differences follow a quadratic pattern; phase-2 alternates; phase-0 differences rise by 3."
+      },
+      {
+        "answer": [
+          "35",
+          "39",
+          "43",
+          "47",
+          "32"
+        ],
+        "case_id": "V072",
+        "check_summary": "Best-fit growing-block continuation.",
+        "confidence": 0.3,
+        "rule_summary": "Uncertain GROWBLOCK or phase-specific increment pattern."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-A20DBD76963B-validation-b06-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "f9438a8abd4a449f79b0ab07f6c03d419e8dfe8706848df267451e4b74475f5d",
+  "terminal_artifact_relpath": "jobs/validation-G-A20DBD76963B-validation-b06-proposer-4/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "18",
+          "21",
+          "24",
+          "27",
+          "20"
+        ],
+        "case_id": "S085",
+        "check_summary": "Periodic delta structure with a phase-specific polynomial decrease.",
+        "confidence": 0.46,
+        "rule_summary": "PDELTA with mostly constant phase deltas and a quadratic exceptional phase."
+      },
+      {
+        "answer": [
+          "-17",
+          "-23",
+          "-29",
+          "-35",
+          "-41"
+        ],
+        "case_id": "S086",
+        "check_summary": "No stable low-order recurrence identified from the prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic affine extrapolation."
+      },
+      {
+        "answer": [
+          "26",
+          "15",
+          "4",
+          "-7",
+          "-18"
+        ],
+        "case_id": "S087",
+        "check_summary": "Growing arithmetic blocks with steps -7,-8,-9,-10, followed by -11.",
+        "confidence": 0.82,
+        "rule_summary": "GROWBLOCK with polynomial block starts and linearly changing block steps."
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd and even positions form arithmetic streams with increments +5 and -1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-52",
+          "93",
+          "-101",
+          "126",
+          "-150"
+        ],
+        "case_id": "S089",
+        "check_summary": "No stable low-order recurrence identified from the prefix.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative alternating affine extrapolation."
+      },
+      {
+        "answer": [
+          "4",
+          "17",
+          "0",
+          "19",
+          "-1"
+        ],
+        "case_id": "S090",
+        "check_summary": "No stable low-order recurrence identified from the prefix.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative periodic interleaving."
+      },
+      {
+        "answer": [
+          "412",
+          "-816",
+          "1615",
+          "-3190",
+          "6300"
+        ],
+        "case_id": "S091",
+        "check_summary": "No stable low-order recurrence identified from the prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative high-gain periodic affine extrapolation."
+      },
+      {
+        "answer": [
+          "0",
+          "-27",
+          "0",
+          "-37",
+          "0"
+        ],
+        "case_id": "S092",
+        "check_summary": "Even-position subsequence has successive decrements of -4,-5,-6,-7,-8; odd positions stabilize at zero.",
+        "confidence": 0.86,
+        "rule_summary": "LAGPOLY/interleaved subsequences."
+      },
+      {
+        "answer": [
+          "-16",
+          "56",
+          "-25",
+          "73",
+          "-34"
+        ],
+        "case_id": "S093",
+        "check_summary": "No stable low-order recurrence identified from the prefix.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative periodic interleaving."
+      },
+      {
+        "answer": [
+          "74",
+          "91",
+          "79",
+          "96",
+          "84"
+        ],
+        "case_id": "S094",
+        "check_summary": "No stable low-order recurrence identified from the prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative two-stream affine extrapolation."
+      },
+      {
+        "answer": [
+          "-63",
+          "-79",
+          "-95",
+          "-111",
+          "-127"
+        ],
+        "case_id": "S095",
+        "check_summary": "Arithmetic block step continues from -12 to -16, with the next block beginning after five terms.",
+        "confidence": 0.55,
+        "rule_summary": "GROWBLOCK with expanding block lengths and linearly changing negative steps."
+      },
+      {
+        "answer": [
+          "0",
+          "-27",
+          "0",
+          "-37",
+          "0"
+        ],
+        "case_id": "S096",
+        "check_summary": "No stable low-order recurrence identified from the prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative periodic affine extrapolation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-38D833F18B84-search-b08-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "f26c6c779dd019138a284bb06cd5ee38b58f477894ddd9586965bf05c9d19933",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-38D833F18B84-search-b08-proposer-8/attempt-01"
+}

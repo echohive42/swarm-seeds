@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "273",
+          "477",
+          "837",
+          "1461",
+          "2541"
+        ],
+        "case_id": "S169",
+        "check_summary": "Periodic nonlinear recurrence inferred from the full prefix.",
+        "confidence": 0.42,
+        "rule_summary": "Phase-dependent affine/polynomial update."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments of 4 and 5 replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic arithmetic progression."
+      },
+      {
+        "answer": [
+          "-2256",
+          "-3618",
+          "-5698",
+          "-8734",
+          "-13010"
+        ],
+        "case_id": "S171",
+        "check_summary": "Finite differences support continuation with constant fifth difference -4.",
+        "confidence": 0.96,
+        "rule_summary": "Integer-valued quintic polynomial."
+      },
+      {
+        "answer": [
+          "1335",
+          "1638",
+          "1957",
+          "2286",
+          "2618"
+        ],
+        "case_id": "S172",
+        "check_summary": "Fourth differences continue with constant -1.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued quartic polynomial."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences increase consecutively by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial difference sequence."
+      },
+      {
+        "answer": [
+          "-3396",
+          "-6141",
+          "-10580",
+          "-17769",
+          "-29397"
+        ],
+        "case_id": "S174",
+        "check_summary": "Tail differences follow a periodic Fibonacci-like recurrence with phase offsets.",
+        "confidence": 0.62,
+        "rule_summary": "Phase-dependent second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438750",
+          "-16316249",
+          "32632498",
+          "97897495"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating multipliers -2 and 3 with fixed phase biases replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "61",
+          "75",
+          "76",
+          "74",
+          "83"
+        ],
+        "case_id": "S176",
+        "check_summary": "Continuation estimated from interleaved phase streams.",
+        "confidence": 0.34,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-214809",
+          "-429625",
+          "859241",
+          "1718491",
+          "3436975"
+        ],
+        "case_id": "S177",
+        "check_summary": "Three-phase affine multipliers and biases replay the tail exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence a(n)=2a(n-1)."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "Six-term cycle repeats exactly.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic sequence."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd and even transition differences each follow arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved quadratic streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-9BB9BF99170E-search-b15-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "7e2dd4628d48e8c885d4314f2a691abcd5f5bab50679e87aafb39cd02ebd291e",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-9BB9BF99170E-search-b15-proposer-5/attempt-01"
+}

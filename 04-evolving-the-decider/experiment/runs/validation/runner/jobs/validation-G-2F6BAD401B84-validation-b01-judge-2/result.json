@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b01",
+    "results": [
+      {
+        "answer": [
+          "-1288823",
+          "-3866468",
+          "-7732937",
+          "15465865",
+          "46397596"
+        ],
+        "case_id": "V001",
+        "check_summary": "Three-phase affine recurrence matches all observed transitions.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE period-3."
+      },
+      {
+        "answer": [
+          "2605",
+          "3716",
+          "5137",
+          "6920",
+          "9121"
+        ],
+        "case_id": "V002",
+        "check_summary": "Fourth finite difference is constantly 4.",
+        "confidence": 0.99,
+        "rule_summary": "POLY quartic."
+      },
+      {
+        "answer": [
+          "43",
+          "47",
+          "50",
+          "54",
+          "57"
+        ],
+        "case_id": "V003",
+        "check_summary": "Alternating increments +3,+4 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA period-2."
+      },
+      {
+        "answer": [
+          "-2590778",
+          "7772327",
+          "-23316977",
+          "69950924",
+          "-209852768"
+        ],
+        "case_id": "V004",
+        "check_summary": "Repeating affine updates reproduce every transition.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE period-2."
+      },
+      {
+        "answer": [
+          "1727182",
+          "-5181551",
+          "15544648",
+          "-46633949",
+          "139901842"
+        ],
+        "case_id": "V005",
+        "check_summary": "Every transition follows x→-3x-5.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE."
+      },
+      {
+        "answer": [
+          "437",
+          "-2510",
+          "-1739",
+          "10034",
+          "6965"
+        ],
+        "case_id": "V006",
+        "check_summary": "Odd and even lag-2 streams follow phase-specific affine updates.",
+        "confidence": 0.95,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-112",
+          "-103",
+          "-128",
+          "-163",
+          "-151"
+        ],
+        "case_id": "V007",
+        "check_summary": "Three phase-specific delta sequences continue linearly.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA period-3."
+      },
+      {
+        "answer": [
+          "-15043",
+          "-20995",
+          "-28690",
+          "-38463",
+          "-50688"
+        ],
+        "case_id": "V008",
+        "check_summary": "Finite differences support the quintic continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY quintic."
+      },
+      {
+        "answer": [
+          "-566683",
+          "1369032",
+          "-3307715",
+          "7989619",
+          "-19295020"
+        ],
+        "case_id": "V009",
+        "check_summary": "Plurality supports the alternating signed-growth continuation.",
+        "confidence": 0.55,
+        "rule_summary": "AFFINE periodic candidate."
+      },
+      {
+        "answer": [
+          "-66",
+          "45",
+          "-91",
+          "190",
+          "-396"
+        ],
+        "case_id": "V010",
+        "check_summary": "Plurality supports the phase-dependent interleaved continuation.",
+        "confidence": 0.42,
+        "rule_summary": "INTERLEAVE/AFFINE candidate."
+      },
+      {
+        "answer": [
+          "95",
+          "-159",
+          "252",
+          "-413",
+          "663"
+        ],
+        "case_id": "V011",
+        "check_summary": "First differences follow d_n=d_{n-2}-d_{n-1}.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 on differences."
+      },
+      {
+        "answer": [
+          "-805",
+          "-1035",
+          "-1304",
+          "-1615",
+          "-1971"
+        ],
+        "case_id": "V012",
+        "check_summary": "Second differences decrease by 3 at each step.",
+        "confidence": 0.99,
+        "rule_summary": "POLY cubic."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b01-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "cf9b139949f00357de619d92ee982cf3a29e8ed6c6ee106ae7ce9fe7b48a6855",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b01-judge-2/attempt-01"
+}

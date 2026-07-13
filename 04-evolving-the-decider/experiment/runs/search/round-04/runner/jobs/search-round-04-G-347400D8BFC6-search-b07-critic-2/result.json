@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating differences -4,-3 replay the full prefix and extend uniquely.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 constant-delta PDELTA."
+      },
+      {
+        "answer": [
+          "-5781",
+          "9350",
+          "-15139",
+          "5781",
+          "-20915"
+        ],
+        "case_id": "S074",
+        "check_summary": "The proposed period-3 biased second-order recurrence exactly reproduces the prefix.",
+        "confidence": 0.97,
+        "rule_summary": "LIN2 with periodic bias."
+      },
+      {
+        "answer": [
+          "8",
+          "8",
+          "10",
+          "10",
+          "12"
+        ],
+        "case_id": "S075",
+        "check_summary": "Best-supported continuation among the interleaved-stream proposals; evidence is weak.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE with low-degree streams."
+      },
+      {
+        "answer": [
+          "-14280",
+          "-20914",
+          "-29774",
+          "-41386",
+          "-56365"
+        ],
+        "case_id": "S076",
+        "check_summary": "Finite-difference continuation is the strongest complete polynomial fit among proposals.",
+        "confidence": 0.78,
+        "rule_summary": "POLY degree-5 continuation."
+      },
+      {
+        "answer": [
+          "-4062",
+          "-9803",
+          "-23663",
+          "-57124",
+          "-137906"
+        ],
+        "case_id": "S077",
+        "check_summary": "First differences satisfy the same second-order recurrence throughout the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "LIN2 recurrence on running differences."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Every transition exactly follows x_next=-3x+5.",
+        "confidence": 1.0,
+        "rule_summary": "Constant AFFINE update."
+      },
+      {
+        "answer": [
+          "80",
+          "113",
+          "145",
+          "190",
+          "250"
+        ],
+        "case_id": "S079",
+        "check_summary": "Best-supported continuation among weak interleaved-growth proposals.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE or GROWBLOCK."
+      },
+      {
+        "answer": [
+          "408426",
+          "1225270",
+          "-3675812",
+          "3675804",
+          "11027404"
+        ],
+        "case_id": "S080",
+        "check_summary": "Period-3 affine transitions replay the observed prefix exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Period-3 AFFINE update."
+      },
+      {
+        "answer": [
+          "-152370",
+          "-304742",
+          "609482",
+          "1218962",
+          "-2437922"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating affine updates reproduce every observed transition.",
+        "confidence": 1.0,
+        "rule_summary": "Period-2 AFFINE update."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences continue as negative consecutive squares.",
+        "confidence": 1.0,
+        "rule_summary": "Polynomial-delta update."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7643",
+          "-10166"
+        ],
+        "case_id": "S083",
+        "check_summary": "The stabilized finite-difference pattern gives the strongest polynomial continuation.",
+        "confidence": 0.96,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "348721",
+          "-837132",
+          "2010315",
+          "-4824759",
+          "11579472"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating exponential continuation is the best-supported proposal for the observed tail.",
+        "confidence": 0.2,
+        "rule_summary": "Phase-dependent affine or second-order recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-347400D8BFC6-search-b07-critic-2",
+  "outcome": "valid_output",
+  "response_sha256": "5e62fce29128c06e48ef70b421effba104c4be824139bc4dc6cac73d45ae55d2",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-347400D8BFC6-search-b07-critic-2/attempt-01"
+}

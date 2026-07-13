@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "-81",
+          "-103",
+          "-125",
+          "-147",
+          "-169"
+        ],
+        "case_id": "S133",
+        "check_summary": "Tail follows repeated -22 phase delta.",
+        "confidence": 0.72,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-8",
+          "-5",
+          "-2",
+          "-19",
+          "-16"
+        ],
+        "case_id": "S134",
+        "check_summary": "Recurring +3 runs interrupted by increasingly negative jumps.",
+        "confidence": 0.84,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-14",
+          "35",
+          "-363",
+          "-24",
+          "40"
+        ],
+        "case_id": "S135",
+        "check_summary": "Three interleaved streams: quadratic odd-position stream, +5 stream, and doubling-minus stream.",
+        "confidence": 0.9,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "60",
+          "-9",
+          "87",
+          "-3",
+          "132"
+        ],
+        "case_id": "S136",
+        "check_summary": "Extrapolated phase-interleaved affine/polynomial streams.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-1020",
+          "13",
+          "-2044",
+          "21",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd stream doubles with successive negative powers; even stream has second differences +3.",
+        "confidence": 0.98,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-4",
+          "-73",
+          "-9",
+          "-94",
+          "-14"
+        ],
+        "case_id": "S138",
+        "check_summary": "Extrapolated periodic phase recurrence from alternating subsequences.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-7",
+          "17",
+          "-7",
+          "57",
+          "-14"
+        ],
+        "case_id": "S139",
+        "check_summary": "Extrapolated interleaved phase streams.",
+        "confidence": 0.15,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-7",
+          "-29",
+          "-29",
+          "-37",
+          "-4"
+        ],
+        "case_id": "S140",
+        "check_summary": "Extrapolated periodic block/interleaved continuation.",
+        "confidence": 0.1,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "68",
+          "63",
+          "42",
+          "71",
+          "77"
+        ],
+        "case_id": "S141",
+        "check_summary": "Extrapolated phase-interleaved recurrence.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-57",
+          "11",
+          "-55",
+          "3",
+          "-53"
+        ],
+        "case_id": "S142",
+        "check_summary": "Extrapolated periodic phase streams.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "4",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Odd terms decrease by 2; even terms decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic polynomial streams."
+      },
+      {
+        "answer": [
+          "-50",
+          "-62",
+          "-74",
+          "-86",
+          "-98"
+        ],
+        "case_id": "S144",
+        "check_summary": "Final phase is a constant-step arithmetic continuation with step -12.",
+        "confidence": 0.91,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-8A6A683A8E7A-search-b12-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "50702e05eb70d1ebff2292fd82a054756b09d8da24f8060fa1703aa6aefaafe0",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-8A6A683A8E7A-search-b12-proposer-6/attempt-01"
+}

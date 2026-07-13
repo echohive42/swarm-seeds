@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "73",
+          "4",
+          "101"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd and even subsequences follow clear polynomial/periodic patterns.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved quadratic odd stream and alternating even stream."
+      },
+      {
+        "answer": [
+          "-4",
+          "31",
+          "-8",
+          "36",
+          "-13"
+        ],
+        "case_id": "S014",
+        "check_summary": "Candidate phase-interleaved continuation; lower certainty.",
+        "confidence": 0.18,
+        "rule_summary": "Likely periodic phase recurrence."
+      },
+      {
+        "answer": [
+          "-12",
+          "55",
+          "-25",
+          "20",
+          "49"
+        ],
+        "case_id": "S015",
+        "check_summary": "Three phase streams show consistent polynomial/affine continuation.",
+        "confidence": 0.82,
+        "rule_summary": "Three-way interleave with polynomial phase streams."
+      },
+      {
+        "answer": [
+          "39",
+          "-1",
+          "70",
+          "-11",
+          "86"
+        ],
+        "case_id": "S016",
+        "check_summary": "Candidate periodic continuation; low certainty.",
+        "confidence": 0.12,
+        "rule_summary": "Likely phase-specific affine or modular recurrence."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5; even terms decrease by 4.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-8",
+          "-30",
+          "-3",
+          "-26",
+          "-46"
+        ],
+        "case_id": "S018",
+        "check_summary": "Three phase streams exhibit simple polynomial/affine differences.",
+        "confidence": 0.86,
+        "rule_summary": "Three-way interleave of phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "47",
+          "91",
+          "8",
+          "104",
+          "-5"
+        ],
+        "case_id": "S019",
+        "check_summary": "Candidate modular/periodic continuation; low certainty.",
+        "confidence": 0.1,
+        "rule_summary": "Likely modular affine recurrence."
+      },
+      {
+        "answer": [
+          "41",
+          "-33",
+          "350",
+          "68",
+          "-706"
+        ],
+        "case_id": "S020",
+        "check_summary": "Candidate phase continuation; low certainty.",
+        "confidence": 0.12,
+        "rule_summary": "Likely interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-54",
+          "-10",
+          "-70",
+          "-14",
+          "-86"
+        ],
+        "case_id": "S021",
+        "check_summary": "Candidate continuation from apparent phase trends; low certainty.",
+        "confidence": 0.14,
+        "rule_summary": "Likely phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "33",
+          "-45",
+          "-19",
+          "-57",
+          "-29"
+        ],
+        "case_id": "S022",
+        "check_summary": "Candidate interleaved continuation; low certainty.",
+        "confidence": 0.13,
+        "rule_summary": "Likely multi-stream interleave."
+      },
+      {
+        "answer": [
+          "-34",
+          "-32",
+          "-36",
+          "-41",
+          "-38"
+        ],
+        "case_id": "S023",
+        "check_summary": "Candidate continuation from recurring paired differences; low certainty.",
+        "confidence": 0.11,
+        "rule_summary": "Likely growing-block or phase-specific delta rule."
+      },
+      {
+        "answer": [
+          "41",
+          "-33",
+          "350",
+          "68",
+          "-706"
+        ],
+        "case_id": "S024",
+        "check_summary": "Three phase streams are identifiable: one arithmetic, one quadratic-difference, one affine.",
+        "confidence": 0.97,
+        "rule_summary": "Three-way interleave with arithmetic, quadratic, and affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-077823BA6DD7-search-b02-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "1d7eef79913856e181e63c18f87f17a893e093e2d3d208ad8f0a7e02760ee0ec",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-077823BA6DD7-search-b02-proposer-1/attempt-01"
+}

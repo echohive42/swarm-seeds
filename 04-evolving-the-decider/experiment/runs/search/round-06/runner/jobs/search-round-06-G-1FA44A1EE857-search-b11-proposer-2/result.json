@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b11",
+    "results": [
+      {
+        "answer": [
+          "3454367",
+          "-10363099",
+          "31089299",
+          "-93267895",
+          "279803687"
+        ],
+        "case_id": "S121",
+        "check_summary": "Alternating affine update replayed across prefix.",
+        "confidence": 0.99,
+        "rule_summary": "x[n+1]=-3x[n]+2"
+      },
+      {
+        "answer": [
+          "37",
+          "39",
+          "43",
+          "45",
+          "49"
+        ],
+        "case_id": "S122",
+        "check_summary": "Alternating increments replayed.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic deltas +4,+2"
+      },
+      {
+        "answer": [
+          "146745",
+          "-440244",
+          "-880487",
+          "-1760967",
+          "-5282910"
+        ],
+        "case_id": "S123",
+        "check_summary": "Three-phase affine cycle replayed.",
+        "confidence": 0.98,
+        "rule_summary": "Phases: 2x+1, 2x+7, -3x-9"
+      },
+      {
+        "answer": [
+          "49147",
+          "-98295",
+          "196587",
+          "-393175",
+          "786347"
+        ],
+        "case_id": "S124",
+        "check_summary": "Alternating affine update replayed.",
+        "confidence": 0.99,
+        "rule_summary": "Alternating updates 2x-3 and -2x-1"
+      },
+      {
+        "answer": [
+          "2005",
+          "2879",
+          "3960",
+          "5278",
+          "6596"
+        ],
+        "case_id": "S125",
+        "check_summary": "Finite differences fit constant fourth difference.",
+        "confidence": 0.7,
+        "rule_summary": "Integer-valued quartic polynomial continuation"
+      },
+      {
+        "answer": [
+          "-18954",
+          "-27197",
+          "-37838",
+          "-51235",
+          "-67752"
+        ],
+        "case_id": "S126",
+        "check_summary": "Finite-difference continuation with constant fourth difference.",
+        "confidence": 0.9,
+        "rule_summary": "Polynomial sequence with fourth difference -6"
+      },
+      {
+        "answer": [
+          "-136",
+          "-183",
+          "-182",
+          "-229",
+          "-228"
+        ],
+        "case_id": "S127",
+        "check_summary": "Interleaved two-stream difference patterns replayed.",
+        "confidence": 0.95,
+        "rule_summary": "Odd/even streams have paired affine difference progressions"
+      },
+      {
+        "answer": [
+          "-169",
+          "-160",
+          "-158",
+          "-143",
+          "-141"
+        ],
+        "case_id": "S128",
+        "check_summary": "Interleaved paired difference patterns replayed.",
+        "confidence": 0.95,
+        "rule_summary": "Two interleaved streams with arithmetic difference increments"
+      },
+      {
+        "answer": [
+          "862",
+          "1558",
+          "2685",
+          "4508",
+          "7458"
+        ],
+        "case_id": "S129",
+        "check_summary": "Successive differences follow Fibonacci-style addition from established regime.",
+        "confidence": 0.94,
+        "rule_summary": "Next delta equals sum of prior two deltas"
+      },
+      {
+        "answer": [
+          "1038",
+          "1283",
+          "1560",
+          "1872",
+          "2222"
+        ],
+        "case_id": "S130",
+        "check_summary": "Second differences increase by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence with quadratic first differences"
+      },
+      {
+        "answer": [
+          "63",
+          "77",
+          "87",
+          "91",
+          "113"
+        ],
+        "case_id": "S131",
+        "check_summary": "Odd/even subsequences fit separate interleaved patterns.",
+        "confidence": 0.65,
+        "rule_summary": "Two interleaved polynomial/affine streams"
+      },
+      {
+        "answer": [
+          "1698179",
+          "4099766",
+          "9097709",
+          "22293190",
+          "53674091"
+        ],
+        "case_id": "S132",
+        "check_summary": "Second-order recurrence with repeating bias replayed.",
+        "confidence": 0.97,
+        "rule_summary": "x[n+1]=2x[n]+x[n-1] with periodic biases +6,+2,-2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-1FA44A1EE857-search-b11-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "08ae1449b2306847cbc1863336cd5923d2173a7c32554f5277126d5251c2dbfd",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-1FA44A1EE857-search-b11-proposer-2/attempt-01"
+}

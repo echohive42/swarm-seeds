@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "73",
+          "4",
+          "97"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd and even subsequences match simple arithmetic/periodic patterns.",
+        "confidence": 0.98,
+        "rule_summary": "Interleaved arithmetic progression and alternating constant sequence."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S014",
+        "check_summary": "No reliable low-complexity continuation identified.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-12",
+          "-25",
+          "61",
+          "-34",
+          "20"
+        ],
+        "case_id": "S015",
+        "check_summary": "Three phase subsequences show polynomial increment patterns.",
+        "confidence": 0.72,
+        "rule_summary": "Three-way interleaved phase-polynomial streams."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S016",
+        "check_summary": "No reliable continuation identified.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms rise by 5; even terms fall by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two-way interleaved arithmetic progressions."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S018",
+        "check_summary": "No reliable continuation identified.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S019",
+        "check_summary": "No reliable continuation identified.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S020",
+        "check_summary": "No reliable continuation identified.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-54",
+          "-70",
+          "-86",
+          "-102",
+          "-118"
+        ],
+        "case_id": "S021",
+        "check_summary": "Recent phase-specific differences support continued subtraction by 16.",
+        "confidence": 0.42,
+        "rule_summary": "Periodic delta process with a repeated late phase."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S022",
+        "check_summary": "No reliable continuation identified.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S023",
+        "check_summary": "No reliable continuation identified.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S024",
+        "check_summary": "No reliable continuation identified.",
+        "confidence": 0.05,
+        "rule_summary": "Unresolved."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-347400D8BFC6-search-b02-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "f173856ed020e40e370307037be0014776c4c60b98357d18d69aef30c0247030",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-347400D8BFC6-search-b02-proposer-1/attempt-01"
+}

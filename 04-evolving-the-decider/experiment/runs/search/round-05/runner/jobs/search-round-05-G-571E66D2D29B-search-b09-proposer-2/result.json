@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b09",
+    "results": [
+      {
+        "answer": [
+          "-759824",
+          "1519654",
+          "4558960",
+          "-9117914",
+          "27353704"
+        ],
+        "case_id": "S097",
+        "check_summary": "Alternating affine subsequences with multiplier -6.",
+        "confidence": 0.98,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "-1321",
+          "-2493",
+          "-4341",
+          "-7317",
+          "-12081"
+        ],
+        "case_id": "S098",
+        "check_summary": "Oscillatory prefix; extrapolation uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "Likely periodic second-order recurrence."
+      },
+      {
+        "answer": [
+          "-703",
+          "-833",
+          "-959",
+          "-1074",
+          "-1170"
+        ],
+        "case_id": "S099",
+        "check_summary": "Finite differences support a quartic polynomial.",
+        "confidence": 0.97,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-4915830",
+          "14747487",
+          "-44242464",
+          "132727389",
+          "-398182170"
+        ],
+        "case_id": "S100",
+        "check_summary": "Constant affine update x'=-3x-3.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "-7772",
+          "-12693",
+          "-19452",
+          "-28201",
+          "-38774"
+        ],
+        "case_id": "S101",
+        "check_summary": "High-order trend extrapolation uncertain.",
+        "confidence": 0.16,
+        "rule_summary": "Likely polynomial or periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "1185",
+          "1561",
+          "1997",
+          "2498",
+          "3069"
+        ],
+        "case_id": "S102",
+        "check_summary": "Second differences increase by 5.",
+        "confidence": 0.99,
+        "rule_summary": "Quartic-like polynomial progression."
+      },
+      {
+        "answer": [
+          "136",
+          "128",
+          "117",
+          "103",
+          "86"
+        ],
+        "case_id": "S103",
+        "check_summary": "Local extrapolation from late prefix; uncertain.",
+        "confidence": 0.15,
+        "rule_summary": "Likely periodic polynomial delta process."
+      },
+      {
+        "answer": [
+          "-36",
+          "-41",
+          "-44",
+          "-49",
+          "-52"
+        ],
+        "case_id": "S104",
+        "check_summary": "Alternating differences -3,-5.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta recurrence."
+      },
+      {
+        "answer": [
+          "39995",
+          "79981",
+          "239976",
+          "-799909",
+          "-1599797"
+        ],
+        "case_id": "S105",
+        "check_summary": "Three interleaved affine streams; first two phases inferred.",
+        "confidence": 0.92,
+        "rule_summary": "Three-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "-1050587",
+          "-2868643",
+          "-7827187",
+          "-21346883",
+          "-58218715"
+        ],
+        "case_id": "S106",
+        "check_summary": "Exponential affine trend extrapolation uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "Likely periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "16",
+          "22",
+          "29",
+          "37",
+          "46"
+        ],
+        "case_id": "S107",
+        "check_summary": "Late differences suggest gradual increasing trend; uncertain.",
+        "confidence": 0.12,
+        "rule_summary": "Likely periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "14",
+          "53",
+          "55",
+          "65",
+          "72"
+        ],
+        "case_id": "S108",
+        "check_summary": "Oscillatory nonlinear prefix; extrapolation uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "Likely interleaved or periodic polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-571E66D2D29B-search-b09-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "2417230431d8af52672ecceff7aef1026397c536b88108749f50b16ff1e3f4db",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-571E66D2D29B-search-b09-proposer-2/attempt-01"
+}

@@ -1,0 +1,506 @@
+{
+  "artifact_sha256": "010906dd3f04a5e48d371a876cffc262c3b38d3397f15cae91b4a9f7a02d960d",
+  "best_founder_freeze_artifact_sha256": null,
+  "catalog_file_sha256": "7e0f6abb1774aaf904353195b2b24cc5572db50261b5e6329dd11f8e74fcae4a",
+  "evolution_seed": "swarm-seeds-04-evolution-v1",
+  "expected_calls_per_candidate": 20,
+  "expected_cases_per_candidate": 24,
+  "experiment_id": "swarm-seeds-04",
+  "genomes": [
+    {
+      "genes": {
+        "decision_system_id": "vote_10p",
+        "judge_policy_id": "plurality_preserving",
+        "worker_lens_ids": [
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist"
+        ]
+      },
+      "genome_id": "G-0025CFC9EF2E",
+      "genome_sha256": "0025cfc9ef2ee3d344d081e1e2ce7d21c34336b77eb3d442437a803b0db0e2af",
+      "lineage": {
+        "crossover_sources": null,
+        "designated_parent_slot": "S01",
+        "founder_id": "F01",
+        "mutation": null,
+        "operation": "founder",
+        "parents": [],
+        "round": 0
+      }
+    },
+    {
+      "genes": {
+        "decision_system_id": "judge_9p1j",
+        "judge_policy_id": "evidence_weighted",
+        "worker_lens_ids": [
+          "generalist",
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "simplicity",
+          "diversifier",
+          "audit",
+          "generalist",
+          "audit"
+        ]
+      },
+      "genome_id": "G-1EB09860ED89",
+      "genome_sha256": "1eb09860ed89a647bb76608128e477b3ced2db7d35cc5f8745c1a2b9fde8e767",
+      "lineage": {
+        "crossover_sources": null,
+        "designated_parent_slot": "S02",
+        "founder_id": "F02",
+        "mutation": null,
+        "operation": "founder",
+        "parents": [],
+        "round": 0
+      }
+    },
+    {
+      "genes": {
+        "decision_system_id": "gated_7p2c1j",
+        "judge_policy_id": "plurality_preserving",
+        "worker_lens_ids": [
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "simplicity",
+          "diversifier",
+          "generalist",
+          "audit",
+          "simplicity",
+          "generalist"
+        ]
+      },
+      "genome_id": "G-347400D8BFC6",
+      "genome_sha256": "347400d8bfc642b1adb21d9a3d5a9641078dae8893103d2e2bd4c39d6f6927a3",
+      "lineage": {
+        "crossover_sources": null,
+        "designated_parent_slot": "S03",
+        "founder_id": "F03",
+        "mutation": null,
+        "operation": "founder",
+        "parents": [],
+        "round": 0
+      }
+    },
+    {
+      "genes": {
+        "decision_system_id": "dual_8p2j",
+        "judge_policy_id": "minority_aware",
+        "worker_lens_ids": [
+          "audit",
+          "simplicity",
+          "generalist",
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "diversifier",
+          "audit",
+          "generalist"
+        ]
+      },
+      "genome_id": "G-F3EA0DB4CF72",
+      "genome_sha256": "f3ea0db4cf72fc9c43767f3cf31eda90cfff86929541b23d111304676067bf64",
+      "lineage": {
+        "crossover_sources": null,
+        "designated_parent_slot": "S04",
+        "founder_id": "F04",
+        "mutation": null,
+        "operation": "founder",
+        "parents": [],
+        "round": 0
+      }
+    },
+    {
+      "genes": {
+        "decision_system_id": "verified_7p2v1j",
+        "judge_policy_id": "robustness_first",
+        "worker_lens_ids": [
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "simplicity",
+          "diversifier",
+          "generalist",
+          "audit",
+          "audit",
+          "generalist"
+        ]
+      },
+      "genome_id": "G-26751CF6A6D4",
+      "genome_sha256": "26751cf6a6d404b4be61f88a483cbe08d576a211523d6252c5543252ea93c99a",
+      "lineage": {
+        "crossover_sources": null,
+        "designated_parent_slot": "S05",
+        "founder_id": "F05",
+        "mutation": null,
+        "operation": "founder",
+        "parents": [],
+        "round": 0
+      }
+    },
+    {
+      "genes": {
+        "decision_system_id": "deliberative_6p2c2j",
+        "judge_policy_id": "robustness_first",
+        "worker_lens_ids": [
+          "generalist",
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "simplicity",
+          "diversifier",
+          "audit",
+          "generalist",
+          "audit"
+        ]
+      },
+      "genome_id": "G-077823BA6DD7",
+      "genome_sha256": "077823ba6dd79996658e63b440070bf4e60cfc4b87f8f5c48f936a1aa3b3c7f1",
+      "lineage": {
+        "crossover_sources": null,
+        "designated_parent_slot": "S06",
+        "founder_id": "F06",
+        "mutation": null,
+        "operation": "founder",
+        "parents": [],
+        "round": 0
+      }
+    },
+    {
+      "genes": {
+        "decision_system_id": "vote_10p",
+        "judge_policy_id": "plurality_preserving",
+        "worker_lens_ids": [
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist",
+          "audit",
+          "generalist"
+        ]
+      },
+      "genome_id": "G-B339F5D2F343",
+      "genome_sha256": "b339f5d2f343e2ca822b191e4089abde478414c44dea97d9687a9e1ec62a888b",
+      "lineage": {
+        "crossover_sources": null,
+        "designated_parent_slot": "S01",
+        "founder_id": null,
+        "mutation": {
+          "attempt": 0,
+          "from": "generalist",
+          "locus": "worker_lens_ids.8",
+          "to": "audit"
+        },
+        "operation": "one_gene_mutation",
+        "parents": [
+          "G-0025CFC9EF2E"
+        ],
+        "round": 1
+      }
+    },
+    {
+      "genes": {
+        "decision_system_id": "judge_9p1j",
+        "judge_policy_id": "evidence_weighted",
+        "worker_lens_ids": [
+          "simplicity",
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "simplicity",
+          "diversifier",
+          "audit",
+          "generalist",
+          "audit"
+        ]
+      },
+      "genome_id": "G-3E12E3A43395",
+      "genome_sha256": "3e12e3a43395d8bc7eab17b14fc69f2de111cdf1d6de81b01f5177e72102bb69",
+      "lineage": {
+        "crossover_sources": null,
+        "designated_parent_slot": "S02",
+        "founder_id": null,
+        "mutation": {
+          "attempt": 0,
+          "from": "generalist",
+          "locus": "worker_lens_ids.0",
+          "to": "simplicity"
+        },
+        "operation": "one_gene_mutation",
+        "parents": [
+          "G-1EB09860ED89"
+        ],
+        "round": 1
+      }
+    },
+    {
+      "genes": {
+        "decision_system_id": "gated_7p2c1j",
+        "judge_policy_id": "evidence_weighted",
+        "worker_lens_ids": [
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "simplicity",
+          "diversifier",
+          "generalist",
+          "audit",
+          "simplicity",
+          "generalist"
+        ]
+      },
+      "genome_id": "G-8488734FF67B",
+      "genome_sha256": "8488734ff67b73bc0aef2c7af156629af833faf7b9b336ce57e139f623f9ccd7",
+      "lineage": {
+        "crossover_sources": null,
+        "designated_parent_slot": "S03",
+        "founder_id": null,
+        "mutation": {
+          "attempt": 0,
+          "from": "plurality_preserving",
+          "locus": "judge_policy_id",
+          "to": "evidence_weighted"
+        },
+        "operation": "one_gene_mutation",
+        "parents": [
+          "G-347400D8BFC6"
+        ],
+        "round": 1
+      }
+    },
+    {
+      "genes": {
+        "decision_system_id": "dual_8p2j",
+        "judge_policy_id": "minority_aware",
+        "worker_lens_ids": [
+          "audit",
+          "simplicity",
+          "generalist",
+          "differences",
+          "recurrences",
+          "audit",
+          "modular",
+          "diversifier",
+          "audit",
+          "generalist"
+        ]
+      },
+      "genome_id": "G-3CE5CD3B66B3",
+      "genome_sha256": "3ce5cd3b66b3715755af9be567115f2417332fbb5956db5b85ec618a743d0e6b",
+      "lineage": {
+        "crossover_sources": null,
+        "designated_parent_slot": "S04",
+        "founder_id": null,
+        "mutation": {
+          "attempt": 0,
+          "from": "streams",
+          "locus": "worker_lens_ids.5",
+          "to": "audit"
+        },
+        "operation": "one_gene_mutation",
+        "parents": [
+          "G-F3EA0DB4CF72"
+        ],
+        "round": 1
+      }
+    },
+    {
+      "genes": {
+        "decision_system_id": "deliberative_6p2c2j",
+        "judge_policy_id": "robustness_first",
+        "worker_lens_ids": [
+          "differences",
+          "recurrences",
+          "recurrences",
+          "streams",
+          "modular",
+          "diversifier",
+          "diversifier",
+          "audit",
+          "audit",
+          "audit"
+        ]
+      },
+      "genome_id": "G-C8D08DBE9D9D",
+      "genome_sha256": "c8d08dbe9d9d6cab19d8292e95ebd155466c91647c4add244480005c3fc1f1b9",
+      "lineage": {
+        "crossover_sources": {
+          "attempt": 0,
+          "decision_system_id": "G-077823BA6DD7",
+          "judge_policy_id": "G-26751CF6A6D4",
+          "mask": 1209,
+          "mate_slot": "S06",
+          "worker_lens_ids": [
+            "G-26751CF6A6D4",
+            "G-26751CF6A6D4",
+            "G-077823BA6DD7",
+            "G-077823BA6DD7",
+            "G-077823BA6DD7",
+            "G-26751CF6A6D4",
+            "G-077823BA6DD7",
+            "G-26751CF6A6D4",
+            "G-26751CF6A6D4",
+            "G-077823BA6DD7"
+          ]
+        },
+        "designated_parent_slot": "S05",
+        "founder_id": null,
+        "mutation": null,
+        "operation": "crossover",
+        "parents": [
+          "G-26751CF6A6D4",
+          "G-077823BA6DD7"
+        ],
+        "round": 1
+      }
+    },
+    {
+      "genes": {
+        "decision_system_id": "deliberative_6p2c2j",
+        "judge_policy_id": "plurality_preserving",
+        "worker_lens_ids": [
+          "generalist",
+          "differences",
+          "recurrences",
+          "streams",
+          "modular",
+          "simplicity",
+          "diversifier",
+          "audit",
+          "generalist",
+          "generalist"
+        ]
+      },
+      "genome_id": "G-2B08D2BA7D25",
+      "genome_sha256": "2b08d2ba7d252136ff1ef4494a1abd2e29c2337dae2ebead8c3c799ae9d55300",
+      "lineage": {
+        "crossover_sources": {
+          "attempt": 0,
+          "decision_system_id": "G-077823BA6DD7",
+          "judge_policy_id": "G-0025CFC9EF2E",
+          "mask": 3586,
+          "mate_slot": "S01",
+          "worker_lens_ids": [
+            "G-0025CFC9EF2E",
+            "G-077823BA6DD7",
+            "G-077823BA6DD7",
+            "G-077823BA6DD7",
+            "G-077823BA6DD7",
+            "G-077823BA6DD7",
+            "G-077823BA6DD7",
+            "G-077823BA6DD7",
+            "G-0025CFC9EF2E",
+            "G-0025CFC9EF2E"
+          ]
+        },
+        "designated_parent_slot": "S06",
+        "founder_id": null,
+        "mutation": null,
+        "operation": "crossover",
+        "parents": [
+          "G-077823BA6DD7",
+          "G-0025CFC9EF2E"
+        ],
+        "round": 1
+      }
+    }
+  ],
+  "history_genome_sha256s": [
+    "0025cfc9ef2ee3d344d081e1e2ce7d21c34336b77eb3d442437a803b0db0e2af",
+    "077823ba6dd79996658e63b440070bf4e60cfc4b87f8f5c48f936a1aa3b3c7f1",
+    "1eb09860ed89a647bb76608128e477b3ced2db7d35cc5f8745c1a2b9fde8e767",
+    "26751cf6a6d404b4be61f88a483cbe08d576a211523d6252c5543252ea93c99a",
+    "2b08d2ba7d252136ff1ef4494a1abd2e29c2337dae2ebead8c3c799ae9d55300",
+    "347400d8bfc642b1adb21d9a3d5a9641078dae8893103d2e2bd4c39d6f6927a3",
+    "3ce5cd3b66b3715755af9be567115f2417332fbb5956db5b85ec618a743d0e6b",
+    "3e12e3a43395d8bc7eab17b14fc69f2de111cdf1d6de81b01f5177e72102bb69",
+    "8488734ff67b73bc0aef2c7af156629af833faf7b9b336ce57e139f623f9ccd7",
+    "b339f5d2f343e2ca822b191e4089abde478414c44dea97d9687a9e1ec62a888b",
+    "c8d08dbe9d9d6cab19d8292e95ebd155466c91647c4add244480005c3fc1f1b9",
+    "f3ea0db4cf72fc9c43767f3cf31eda90cfff86929541b23d111304676067bf64"
+  ],
+  "history_genome_sha256s_before": [
+    "0025cfc9ef2ee3d344d081e1e2ce7d21c34336b77eb3d442437a803b0db0e2af",
+    "077823ba6dd79996658e63b440070bf4e60cfc4b87f8f5c48f936a1aa3b3c7f1",
+    "1eb09860ed89a647bb76608128e477b3ced2db7d35cc5f8745c1a2b9fde8e767",
+    "26751cf6a6d404b4be61f88a483cbe08d576a211523d6252c5543252ea93c99a",
+    "347400d8bfc642b1adb21d9a3d5a9641078dae8893103d2e2bd4c39d6f6927a3",
+    "f3ea0db4cf72fc9c43767f3cf31eda90cfff86929541b23d111304676067bf64"
+  ],
+  "parent_child_pairs": [
+    {
+      "child_genome_id": "G-B339F5D2F343",
+      "operation": "one_gene_mutation",
+      "parent_genome_id": "G-0025CFC9EF2E",
+      "slot_id": "S01"
+    },
+    {
+      "child_genome_id": "G-3E12E3A43395",
+      "operation": "one_gene_mutation",
+      "parent_genome_id": "G-1EB09860ED89",
+      "slot_id": "S02"
+    },
+    {
+      "child_genome_id": "G-8488734FF67B",
+      "operation": "one_gene_mutation",
+      "parent_genome_id": "G-347400D8BFC6",
+      "slot_id": "S03"
+    },
+    {
+      "child_genome_id": "G-3CE5CD3B66B3",
+      "operation": "one_gene_mutation",
+      "parent_genome_id": "G-F3EA0DB4CF72",
+      "slot_id": "S04"
+    },
+    {
+      "child_genome_id": "G-C8D08DBE9D9D",
+      "operation": "crossover",
+      "parent_genome_id": "G-26751CF6A6D4",
+      "slot_id": "S05"
+    },
+    {
+      "child_genome_id": "G-2B08D2BA7D25",
+      "operation": "crossover",
+      "parent_genome_id": "G-077823BA6DD7",
+      "slot_id": "S06"
+    }
+  ],
+  "parent_slot_count": 6,
+  "provider_reasoning_effort": "low",
+  "public_condition_label": "Light reasoning",
+  "reproduction_summary": {
+    "crossovers": 2,
+    "one_gene_mutations": 4,
+    "parents": 6
+  },
+  "round": 1,
+  "round_count": 8,
+  "schema_version": "experiment-04-round-candidates-v1",
+  "search_blocks": [
+    "search-b01",
+    "search-b02"
+  ],
+  "source_parent_artifact_sha256": "fcad67b296ea8c7223c42e8bbc0b39ca60a195ce54559c79c56e34d99c55c4e6",
+  "source_parent_file_sha256": "393f13a47fa4cf520bc9b0817c60644f266dd8694c228cdbafc59d3df5b9bacd"
+}

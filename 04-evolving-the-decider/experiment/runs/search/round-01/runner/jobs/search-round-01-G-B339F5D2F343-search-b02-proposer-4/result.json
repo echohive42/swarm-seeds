@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "71",
+          "-5",
+          "97"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd positions increase by successive multiples of 4; even positions are constant at -5.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: quadratic odd stream and constant even stream."
+      },
+      {
+        "answer": [
+          "64",
+          "12",
+          "30",
+          "58",
+          "111"
+        ],
+        "case_id": "S014",
+        "check_summary": "Consistent phase-wise extrapolation from the observed periodic differences.",
+        "confidence": 0.42,
+        "rule_summary": "Four-phase polynomial-delta update."
+      },
+      {
+        "answer": [
+          "-12",
+          "3",
+          "-25",
+          "20",
+          "-1"
+        ],
+        "case_id": "S015",
+        "check_summary": "Phase subsequences show polynomial/affine increment patterns.",
+        "confidence": 0.63,
+        "rule_summary": "Three-phase interleaved recurrence."
+      },
+      {
+        "answer": [
+          "-13",
+          "75",
+          "-3",
+          "91",
+          "-11"
+        ],
+        "case_id": "S016",
+        "check_summary": "Phase-wise affine continuation inferred from the alternating prefix.",
+        "confidence": 0.35,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms rise by 5; even terms fall by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-20",
+          "-8",
+          "-31",
+          "-15",
+          "-42"
+        ],
+        "case_id": "S018",
+        "check_summary": "Phase-specific continuation inferred from the observed periodic differences.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic polynomial-delta update."
+      },
+      {
+        "answer": [
+          "73",
+          "47",
+          "94",
+          "57",
+          "83"
+        ],
+        "case_id": "S019",
+        "check_summary": "Continuation estimated from the multi-phase difference structure.",
+        "confidence": 0.24,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "42",
+          "64",
+          "86",
+          "108",
+          "6"
+        ],
+        "case_id": "S020",
+        "check_summary": "Blocks use increasing positive arithmetic steps followed by larger negative resets.",
+        "confidence": 0.82,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-54",
+          "-70",
+          "-86",
+          "-102",
+          "31"
+        ],
+        "case_id": "S021",
+        "check_summary": "Negative runs continue with phase-specific constant deltas before a block reset.",
+        "confidence": 0.38,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-25",
+          "49",
+          "-47",
+          "76",
+          "-69"
+        ],
+        "case_id": "S022",
+        "check_summary": "Phase-wise continuation inferred from the alternating difference pattern.",
+        "confidence": 0.27,
+        "rule_summary": "Periodic polynomial-delta update."
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-37",
+          "-35"
+        ],
+        "case_id": "S023",
+        "check_summary": "Each growing block advances by +2 and is preceded by an increasingly large negative jump.",
+        "confidence": 0.9,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "35",
+          "350",
+          "-33",
+          "56",
+          "-706"
+        ],
+        "case_id": "S024",
+        "check_summary": "Three phase streams: phase 1 decreases by 7, phase 2 has quadratic increments, and phase 3 follows x↦-2x-6.",
+        "confidence": 0.88,
+        "rule_summary": "Three-way interleaving with phase-specific affine/polynomial rules."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-B339F5D2F343-search-b02-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "ff9f4d03a478314a217bf28d8293bd6bdcda4c047802cc2e436b99a94285d87d",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-B339F5D2F343-search-b02-proposer-4/attempt-01"
+}

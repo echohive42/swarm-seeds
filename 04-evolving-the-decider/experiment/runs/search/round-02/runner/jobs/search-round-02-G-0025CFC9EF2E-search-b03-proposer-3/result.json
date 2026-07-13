@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "321",
+          "-319",
+          "-1279",
+          "-1919",
+          "-1279"
+        ],
+        "case_id": "S025",
+        "check_summary": "Periodic phase deltas replay the prefix.",
+        "confidence": 0.93,
+        "rule_summary": "PDELTA with four-phase deltas scaled by -4 each cycle."
+      },
+      {
+        "answer": [
+          "-42",
+          "-55",
+          "-63",
+          "-75",
+          "-83"
+        ],
+        "case_id": "S026",
+        "check_summary": "Continuation inferred from repeating phase behavior.",
+        "confidence": 0.24,
+        "rule_summary": "Periodic affine/PDELTA continuation."
+      },
+      {
+        "answer": [
+          "-13",
+          "-24",
+          "-38",
+          "-52",
+          "-66"
+        ],
+        "case_id": "S027",
+        "check_summary": "Paired differences decrease by 3.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with paired arithmetic differences."
+      },
+      {
+        "answer": [
+          "-955",
+          "-1547",
+          "-2507",
+          "-4051",
+          "-6551"
+        ],
+        "case_id": "S028",
+        "check_summary": "Exponential tail replayed using the apparent periodic affine pattern.",
+        "confidence": 0.22,
+        "rule_summary": "Phase-specific affine recurrence with multiplier 2."
+      },
+      {
+        "answer": [
+          "797159",
+          "2391482",
+          "7174451",
+          "21523358",
+          "64570079"
+        ],
+        "case_id": "S029",
+        "check_summary": "Every term satisfies x(n+1)=3x(n)+5.",
+        "confidence": 1,
+        "rule_summary": "AFFINE recurrence x(n+1)=3x(n)+5."
+      },
+      {
+        "answer": [
+          "-56",
+          "-60",
+          "-65",
+          "-69",
+          "-74"
+        ],
+        "case_id": "S030",
+        "check_summary": "Differences alternate -5,-4.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-two constant deltas."
+      },
+      {
+        "answer": [
+          "2340",
+          "3714",
+          "5220",
+          "6600",
+          "6990"
+        ],
+        "case_id": "S031",
+        "check_summary": "Continuation inferred from the oscillating polynomial-like differences.",
+        "confidence": 0.18,
+        "rule_summary": "Polynomial/phase-specific delta continuation."
+      },
+      {
+        "answer": [
+          "-17610",
+          "35225",
+          "70454",
+          "-140903",
+          "-281802"
+        ],
+        "case_id": "S032",
+        "check_summary": "Alternating affine updates replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with alternating multipliers -2,+2 and biases 5,4."
+      },
+      {
+        "answer": [
+          "-205",
+          "-240",
+          "-273",
+          "-313",
+          "-351"
+        ],
+        "case_id": "S033",
+        "check_summary": "Odd and even differences each decrease by 5.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with two interleaved arithmetic delta streams."
+      },
+      {
+        "answer": [
+          "99759069",
+          "299277205",
+          "-897831611",
+          "-2693494827",
+          "8080484485"
+        ],
+        "case_id": "S034",
+        "check_summary": "Three-phase affine recurrence replayed exactly after initialization.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE with repeating multipliers +3,+3,-3 and phase biases."
+      },
+      {
+        "answer": [
+          "1077",
+          "1705",
+          "2533",
+          "3604",
+          "4965"
+        ],
+        "case_id": "S035",
+        "check_summary": "Higher differences follow the observed cubic progression.",
+        "confidence": 0.71,
+        "rule_summary": "POLY/PDELTA with polynomially evolving differences."
+      },
+      {
+        "answer": [
+          "1271",
+          "1589",
+          "1966",
+          "2407",
+          "2917"
+        ],
+        "case_id": "S036",
+        "check_summary": "Second differences increase by 5 after the initial terms.",
+        "confidence": 0.99,
+        "rule_summary": "POLY with cubic finite-difference structure."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-0025CFC9EF2E-search-b03-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "e11f42d80e3fb4449b07f2477e3df1b64dab801a44418d6e2003cdf9a682df07",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-0025CFC9EF2E-search-b03-proposer-3/attempt-01"
+}

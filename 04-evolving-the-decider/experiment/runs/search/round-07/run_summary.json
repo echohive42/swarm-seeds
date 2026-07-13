@@ -1,0 +1,32 @@
+{
+  "answer_schema_sha256": "d3e21944bdd38b0525d8e1595e050802423fdd7681e048f362e716afad4edc4c",
+  "artifact_type": "experiment-04-run-summary",
+  "blocks": [
+    "search-b13",
+    "search-b14"
+  ],
+  "common_prefix_sha256": "3ad985c8871487077ef3b2e3abd82534512d797d2d7cccc1337f2d576d967aab",
+  "concurrency": 60,
+  "genomes": [
+    "G-EEE6DF66A16A",
+    "G-EC429DE4D50C",
+    "G-3373FE74E208",
+    "G-38D833F18B84",
+    "G-1FA44A1EE857",
+    "G-E2CB7ED71793",
+    "G-B6D67789C6A8",
+    "G-B6BC6FB624BA",
+    "G-A20DBD76963B",
+    "G-1D2D57CCC696",
+    "G-9BB9BF99170E",
+    "G-15900AE27B5A"
+  ],
+  "model": "gpt-5.6-luna",
+  "phase": "search-round-07",
+  "planned_calls": 240,
+  "prediction_records_sha256": "b530151362f461abb484012d22a7655254a8a1dea9cf6a8f4bbb4681c06c81cc",
+  "public_condition_label": "Light reasoning",
+  "reasoning_effort": "low",
+  "schema_version": "4.0",
+  "service_tier": "standard"
+}

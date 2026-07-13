@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "24",
+          "17",
+          "20",
+          "23"
+        ],
+        "case_id": "S085",
+        "check_summary": "The recurring +3 runs and increasingly negative wrap corrections support this continuation.",
+        "confidence": 0.86,
+        "rule_summary": "PDELTA with period-4 phase corrections."
+      },
+      {
+        "answer": [
+          "7",
+          "46",
+          "30",
+          "4",
+          "37"
+        ],
+        "case_id": "S086",
+        "check_summary": "The full prefix exactly follows x(n+1) = 3x(n) + 25 modulo 67; continuation recalculated from 61.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE modulo 67."
+      },
+      {
+        "answer": [
+          "26",
+          "15",
+          "4",
+          "-7",
+          "-18"
+        ],
+        "case_id": "S087",
+        "check_summary": "The growing arithmetic-block interpretation gives the most coherent complete continuation.",
+        "confidence": 0.78,
+        "rule_summary": "GROWBLOCK with step -11."
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd-position terms increase by 5 and even-position terms decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-36",
+          "102",
+          "-70",
+          "159",
+          "-111"
+        ],
+        "case_id": "S089",
+        "check_summary": "Among the proposals, the phase-dependent second-order explanation best matches the alternating tail.",
+        "confidence": 0.3,
+        "rule_summary": "LIN2 with repeating phase bias."
+      },
+      {
+        "answer": [
+          "11",
+          "17",
+          "-1",
+          "21",
+          "-7"
+        ],
+        "case_id": "S090",
+        "check_summary": "The prefix supports a phase-separated affine continuation, though alternatives remain plausible.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE of affine streams."
+      },
+      {
+        "answer": [
+          "-54",
+          "-296",
+          "-111",
+          "-487",
+          "-188"
+        ],
+        "case_id": "S091",
+        "check_summary": "Large alternating growth is most consistent with a phase-dependent linear recurrence.",
+        "confidence": 0.22,
+        "rule_summary": "LIN2 with periodic bias."
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "5",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd terms remain 5; even terms continue with decrements -9, -10, and so on.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE with a constant odd stream and quadratic even stream."
+      },
+      {
+        "answer": [
+          "-30",
+          "74",
+          "-63",
+          "111",
+          "-96"
+        ],
+        "case_id": "S093",
+        "check_summary": "The phase-separated continuation is the best-supported proposal for the irregular alternating streams.",
+        "confidence": 0.22,
+        "rule_summary": "INTERLEAVE of polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "67",
+          "104",
+          "63",
+          "123",
+          "70"
+        ],
+        "case_id": "S094",
+        "check_summary": "The bounded, phase-dependent continuation is best explained by modular-affine updates.",
+        "confidence": 0.2,
+        "rule_summary": "MODAFFINE with phase-dependent updates."
+      },
+      {
+        "answer": [
+          "-19",
+          "-35",
+          "-51",
+          "-67",
+          "-9"
+        ],
+        "case_id": "S095",
+        "check_summary": "Period-4 delta blocks support a new positive phase correction followed by repeated -16 decrements.",
+        "confidence": 0.68,
+        "rule_summary": "PDELTA with period-4 polynomial phase deltas."
+      },
+      {
+        "answer": [
+          "-12",
+          "132",
+          "-10",
+          "300",
+          "-8"
+        ],
+        "case_id": "S096",
+        "check_summary": "Alternating phase streams with growing magnitudes make this the strongest available continuation.",
+        "confidence": 0.23,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-35DDA1DA8010-search-b08-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "ad0c06bd84e2ca61635d470359b2a9c3c3a826166e1fd04f729961c29725df4e",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-35DDA1DA8010-search-b08-critic-1/attempt-01"
+}

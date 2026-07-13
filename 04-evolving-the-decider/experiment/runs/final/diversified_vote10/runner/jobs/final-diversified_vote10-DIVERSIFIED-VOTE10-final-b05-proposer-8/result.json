@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b05",
+    "results": [
+      {
+        "answer": [
+          "3454364",
+          "10363097",
+          "31089296",
+          "93267893",
+          "279803684"
+        ],
+        "case_id": "F049",
+        "check_summary": "Exact affine replay: x'=3x+5.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "21",
+          "19",
+          "24",
+          "22",
+          "27"
+        ],
+        "case_id": "F050",
+        "check_summary": "Exact interleaved arithmetic streams.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-5953",
+          "5956",
+          "-17864",
+          "17861",
+          "-17858"
+        ],
+        "case_id": "F051",
+        "check_summary": "Exact replay by three-phase affine cycle.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3959",
+          "-5366",
+          "-7267",
+          "-9768",
+          "-12988"
+        ],
+        "case_id": "F052",
+        "check_summary": "Extrapolated accelerating finite-difference pattern.",
+        "confidence": 0.28,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "515000",
+          "1245000",
+          "3006000",
+          "7257000",
+          "17516000"
+        ],
+        "case_id": "F053",
+        "check_summary": "Extrapolated near-constant-ratio recurrence.",
+        "confidence": 0.22,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "1066421",
+          "-3199269",
+          "-6398539",
+          "19195611",
+          "38391221"
+        ],
+        "case_id": "F054",
+        "check_summary": "Exact alternating affine replay.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-865",
+          "-1049",
+          "-1254",
+          "-1483",
+          "-1739"
+        ],
+        "case_id": "F055",
+        "check_summary": "Low-confidence extrapolation of irregular interleaved pattern.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-130",
+          "-151",
+          "-175",
+          "-202",
+          "-232"
+        ],
+        "case_id": "F056",
+        "check_summary": "Low-confidence extrapolation of declining irregular sequence.",
+        "confidence": 0.1,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "42",
+          "5",
+          "42",
+          "39",
+          "-4"
+        ],
+        "case_id": "F057",
+        "check_summary": "Exact replay of two interleaved polynomial streams.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-77",
+          "-89",
+          "-102",
+          "-116",
+          "-131"
+        ],
+        "case_id": "F058",
+        "check_summary": "Exact successive-difference pattern.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-865",
+          "-1049",
+          "-1254",
+          "-1483",
+          "-1739"
+        ],
+        "case_id": "F059",
+        "check_summary": "Exact quadratic second-difference progression.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1476",
+          "2011",
+          "2742",
+          "3711",
+          "4964"
+        ],
+        "case_id": "F060",
+        "check_summary": "Exact polynomial finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b05-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "8c118730ff835dee3d4cea5a0ff61d48f5e3ed2ccf6e567a2b2dca67290de12a",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b05-proposer-8/attempt-01"
+}

@@ -1,0 +1,116 @@
+{
+  "bootstrap_replicates": 50000,
+  "bootstrap_seed": 20260713,
+  "comparisons": [
+    {
+      "both_correct": 34,
+      "both_wrong": 52,
+      "ci90": [
+        -0.010416666666666666,
+        0.09375
+      ],
+      "ci95": [
+        -0.020833333333333332,
+        0.10416666666666667
+      ],
+      "contrast": "evolved_champion minus diversified_vote10",
+      "estimate": 0.041666666666666664,
+      "left": "evolved_champion",
+      "left_only_wins": 7,
+      "mcnemar": {
+        "discordant": 10,
+        "left_only": 7,
+        "p_value": 0.34375,
+        "right_only": 3,
+        "test": "exact two-sided McNemar"
+      },
+      "n": 96,
+      "right": "diversified_vote10",
+      "right_only_wins": 3,
+      "superiority_supported": false
+    },
+    {
+      "both_correct": 36,
+      "both_wrong": 48,
+      "ci90": [
+        -0.08333333333333333,
+        0.03125
+      ],
+      "ci95": [
+        -0.09375,
+        0.041666666666666664
+      ],
+      "contrast": "evolved_champion minus best_initial_founder",
+      "estimate": -0.020833333333333332,
+      "left": "evolved_champion",
+      "left_only_wins": 5,
+      "mcnemar": {
+        "discordant": 12,
+        "left_only": 5,
+        "p_value": 0.7744140625,
+        "right_only": 7,
+        "test": "exact two-sided McNemar"
+      },
+      "n": 96,
+      "right": "best_initial_founder",
+      "right_only_wins": 7,
+      "superiority_supported": false
+    },
+    {
+      "both_correct": 36,
+      "both_wrong": 50,
+      "ci90": [
+        -0.052083333333333336,
+        0.052083333333333336
+      ],
+      "ci95": [
+        -0.0625,
+        0.0625
+      ],
+      "contrast": "evolved_champion minus generalist_vote10",
+      "estimate": 0.0,
+      "left": "evolved_champion",
+      "left_only_wins": 5,
+      "mcnemar": {
+        "discordant": 10,
+        "left_only": 5,
+        "p_value": 1.0,
+        "right_only": 5,
+        "test": "exact two-sided McNemar"
+      },
+      "n": 96,
+      "right": "generalist_vote10",
+      "right_only_wins": 5,
+      "superiority_supported": false
+    }
+  ],
+  "direction": "positive favors final_genome",
+  "primary": {
+    "both_correct": 34,
+    "both_wrong": 52,
+    "ci90": [
+      -0.010416666666666666,
+      0.09375
+    ],
+    "ci95": [
+      -0.020833333333333332,
+      0.10416666666666667
+    ],
+    "contrast": "evolved_champion minus diversified_vote10",
+    "estimate": 0.041666666666666664,
+    "left": "evolved_champion",
+    "left_only_wins": 7,
+    "mcnemar": {
+      "discordant": 10,
+      "left_only": 7,
+      "p_value": 0.34375,
+      "right_only": 3,
+      "test": "exact two-sided McNemar"
+    },
+    "n": 96,
+    "right": "diversified_vote10",
+    "right_only_wins": 3,
+    "superiority_supported": false
+  },
+  "schema_version": "4.0"
+}

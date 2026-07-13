@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b01",
+    "results": [
+      {
+        "answer": [
+          "1211",
+          "1535",
+          "1912",
+          "2346",
+          "2841"
+        ],
+        "case_id": "F001",
+        "check_summary": "Constant fourth differences in the first differences; replay matches prefix.",
+        "confidence": 0.99,
+        "rule_summary": "POLY degree 5."
+      },
+      {
+        "answer": [
+          "-176",
+          "-180",
+          "-189",
+          "-189",
+          "-196"
+        ],
+        "case_id": "F002",
+        "check_summary": "Alternating arithmetic difference streams replay the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with period 2."
+      },
+      {
+        "answer": [
+          "-853138",
+          "-2559412",
+          "5118830",
+          "15356492",
+          "-30712978"
+        ],
+        "case_id": "F003",
+        "check_summary": "Alternating affine updates replay every transition.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE period 2: -2x+6, then 3x+2."
+      },
+      {
+        "answer": [
+          "-8254430",
+          "-24763298",
+          "49526598",
+          "148579786",
+          "445739350"
+        ],
+        "case_id": "F004",
+        "check_summary": "Three-phase affine update replay matches the full prefix.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE period 3: -2x+2, 3x-8, 3x-8."
+      },
+      {
+        "answer": [
+          "-19",
+          "-40",
+          "-47",
+          "-18",
+          "-44"
+        ],
+        "case_id": "F005",
+        "check_summary": "Three periodic delta streams continue linearly by phase.",
+        "confidence": 0.94,
+        "rule_summary": "PDELTA period 3."
+      },
+      {
+        "answer": [
+          "-13",
+          "-16",
+          "-14",
+          "-17",
+          "-15"
+        ],
+        "case_id": "F006",
+        "check_summary": "Alternating -3 and +2 updates replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA period 2."
+      },
+      {
+        "answer": [
+          "-12",
+          "4",
+          "-18",
+          "1",
+          "-29"
+        ],
+        "case_id": "F007",
+        "check_summary": "Four-phase difference streams continue their observed arithmetic trends.",
+        "confidence": 0.86,
+        "rule_summary": "PDELTA period 4."
+      },
+      {
+        "answer": [
+          "-23071",
+          "-31693",
+          "-43472",
+          "-59186",
+          "-79729"
+        ],
+        "case_id": "F008",
+        "check_summary": "Constant fifth difference from the stabilized polynomial difference table.",
+        "confidence": 0.98,
+        "rule_summary": "POLY degree 6."
+      },
+      {
+        "answer": [
+          "833",
+          "1456",
+          "2450",
+          "3961",
+          "6162"
+        ],
+        "case_id": "F009",
+        "check_summary": "Constant fifth differences in the finite-difference table.",
+        "confidence": 0.99,
+        "rule_summary": "POLY degree 5."
+      },
+      {
+        "answer": [
+          "-515",
+          "573",
+          "2173",
+          "3209",
+          "2045"
+        ],
+        "case_id": "F010",
+        "check_summary": "Four-step affine relation x(n+4)=-4x(n)-15 replays the prefix.",
+        "confidence": 0.97,
+        "rule_summary": "AFFINE phase-4 recurrence."
+      },
+      {
+        "answer": [
+          "-30037",
+          "60075",
+          "-120149",
+          "240299",
+          "-480597"
+        ],
+        "case_id": "F011",
+        "check_summary": "Every transition follows x(next)=-2x+1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE period 1."
+      },
+      {
+        "answer": [
+          "-2283",
+          "-1220",
+          "2284",
+          "8852",
+          "24979"
+        ],
+        "case_id": "F012",
+        "check_summary": "Three interleaved cubic streams extrapolated from their finite differences.",
+        "confidence": 0.72,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-best_initial_founder-G-0025CFC9EF2E-final-b01-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "9e2d992f109edd9a23d80049c9c2bcee1f68d611efa4369f41f092b68a20911f",
+  "terminal_artifact_relpath": "jobs/final-best_initial_founder-G-0025CFC9EF2E-final-b01-proposer-4/attempt-01"
+}

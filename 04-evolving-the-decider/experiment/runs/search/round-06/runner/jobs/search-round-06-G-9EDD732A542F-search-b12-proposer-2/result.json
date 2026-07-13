@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "-81",
+          "-103",
+          "-125",
+          "-147",
+          "-169"
+        ],
+        "case_id": "S133",
+        "check_summary": "Periodic difference structure inferred from repeated negative-difference blocks.",
+        "confidence": 0.32,
+        "rule_summary": "PDELTA/GROWBLOCK-like blockwise polynomial deltas."
+      },
+      {
+        "answer": [
+          "-5",
+          "-2",
+          "1",
+          "-16",
+          "-13"
+        ],
+        "case_id": "S134",
+        "check_summary": "Arithmetic +3 runs with increasingly spaced negative resets.",
+        "confidence": 0.87,
+        "rule_summary": "GROWBLOCK with polynomially spaced resets."
+      },
+      {
+        "answer": [
+          "35",
+          "-363",
+          "-14",
+          "40",
+          "-731"
+        ],
+        "case_id": "S135",
+        "check_summary": "Three interleaved streams: quadratic, arithmetic, and doubling-difference stream.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of polynomial and affine streams."
+      },
+      {
+        "answer": [
+          "-29",
+          "-99",
+          "-22",
+          "-47",
+          "-179"
+        ],
+        "case_id": "S136",
+        "check_summary": "Periodic interleaved subsequences fitted from finite differences.",
+        "confidence": 0.29,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-1020",
+          "11",
+          "-2044",
+          "20",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd subsequence follows x->2x-4; even subsequence has second differences increasing by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of affine and polynomial streams."
+      },
+      {
+        "answer": [
+          "8",
+          "14",
+          "-73",
+          "20",
+          "35"
+        ],
+        "case_id": "S138",
+        "check_summary": "Three residue classes exhibit polynomial finite-difference patterns.",
+        "confidence": 0.94,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "-1",
+          "37",
+          "-15",
+          "41",
+          "-30"
+        ],
+        "case_id": "S139",
+        "check_summary": "Interleaved phase sequences extrapolated by finite differences.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE/POLY candidate."
+      },
+      {
+        "answer": [
+          "28",
+          "54",
+          "29",
+          "41",
+          "28"
+        ],
+        "case_id": "S140",
+        "check_summary": "Three interleaved streams; one alternates, two have polynomial increments.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE of polynomial and affine streams."
+      },
+      {
+        "answer": [
+          "74",
+          "42",
+          "83",
+          "70",
+          "51"
+        ],
+        "case_id": "S141",
+        "check_summary": "Periodic multi-stream recurrence inferred from phase behavior.",
+        "confidence": 0.24,
+        "rule_summary": "INTERLEAVE or MODAFFINE candidate."
+      },
+      {
+        "answer": [
+          "-6",
+          "-46",
+          "-10",
+          "-74",
+          "-15"
+        ],
+        "case_id": "S142",
+        "check_summary": "Phase-specific subsequences extrapolated from observed modular/polynomial behavior.",
+        "confidence": 0.21,
+        "rule_summary": "MODAFFINE/INTERLEAVE candidate."
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "4",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Odd terms decrease by 2; even terms decrease by 1.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-50",
+          "-62",
+          "-74",
+          "-86",
+          "-98"
+        ],
+        "case_id": "S144",
+        "check_summary": "Suffix is an arithmetic progression with common difference -12.",
+        "confidence": 0.91,
+        "rule_summary": "GROWBLOCK/arithmetic phase."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-9EDD732A542F-search-b12-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "60abf1f08fbe0190178a235a2b34ada1dd533e8338d15d25045010b8e805fdf0",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-9EDD732A542F-search-b12-proposer-2/attempt-01"
+}

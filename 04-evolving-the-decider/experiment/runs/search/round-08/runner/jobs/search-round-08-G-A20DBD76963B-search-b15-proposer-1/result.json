@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "All four phase subsequences follow x'=-4x+5.",
+        "confidence": 0.99,
+        "rule_summary": "Four-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Differences alternate +4,+5 throughout.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic increment pattern [4,5]."
+      },
+      {
+        "answer": [
+          "1332",
+          "1635",
+          "1954",
+          "2283",
+          "2615"
+        ],
+        "case_id": "S171",
+        "check_summary": "Insufficiently distinctive prefix; extrapolated via registered polynomial finite-difference continuation.",
+        "confidence": 0.62,
+        "rule_summary": "Polynomial continuation."
+      },
+      {
+        "answer": [
+          "1332",
+          "1635",
+          "1954",
+          "2283",
+          "2615"
+        ],
+        "case_id": "S172",
+        "check_summary": "Fourth finite differences are constant -1.",
+        "confidence": 0.99,
+        "rule_summary": "Quartic polynomial."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences increase by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Cubic polynomial continuation."
+      },
+      {
+        "answer": [
+          "-4439",
+          "-7186",
+          "-11629",
+          "-18815",
+          "-30444"
+        ],
+        "case_id": "S174",
+        "check_summary": "Exponential-like recurrence inferred from late prefix.",
+        "confidence": 0.55,
+        "rule_summary": "Affine/linear recurrence continuation."
+      },
+      {
+        "answer": [
+          "75541",
+          "-151076",
+          "-453227",
+          "906460",
+          "2719381"
+        ],
+        "case_id": "S175",
+        "check_summary": "Repeating transformations x'=3x+1, then x'=-2x+6.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "55",
+          "66",
+          "58",
+          "50",
+          "43"
+        ],
+        "case_id": "S176",
+        "check_summary": "Residue-class streams have quadratic continuation with second difference -8.",
+        "confidence": 0.88,
+        "rule_summary": "Four-way interleaved quadratic streams."
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3436997"
+        ],
+        "case_id": "S177",
+        "check_summary": "Repeating phase transforms match the late prefix: -2x-9, 2x+9, 2x-7.",
+        "confidence": 0.96,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence x' = 2x."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "The six-term cycle repeats exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic sequence of period 6."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-318",
+          "-359",
+          "-411"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd and even difference subsequences are arithmetic with steps -6 and -6 after initialization.",
+        "confidence": 0.96,
+        "rule_summary": "Interleaved arithmetic difference streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-A20DBD76963B-search-b15-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "279ca44a1c8b1bfa821110a9dd13b2025957db5b4a31e668af1bf7c62d46c233",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-A20DBD76963B-search-b15-proposer-1/attempt-01"
+}

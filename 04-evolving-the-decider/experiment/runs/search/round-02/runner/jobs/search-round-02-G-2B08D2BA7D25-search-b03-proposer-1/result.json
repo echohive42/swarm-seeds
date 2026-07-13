@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "-304",
+          "306",
+          "1221",
+          "1831",
+          "-304"
+        ],
+        "case_id": "S025",
+        "check_summary": "Periodic phase extrapolation from repeated block increments.",
+        "confidence": 0.38,
+        "rule_summary": "PDELTA with phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-69",
+          "-77",
+          "-84",
+          "-92",
+          "-99"
+        ],
+        "case_id": "S026",
+        "check_summary": "Extrapolated the irregular periodic difference pattern.",
+        "confidence": 0.12,
+        "rule_summary": "Likely periodic phase-specific update."
+      },
+      {
+        "answer": [
+          "-13",
+          "-21",
+          "-29",
+          "-40",
+          "-51"
+        ],
+        "case_id": "S027",
+        "check_summary": "Differences occur in pairs and decline by three per pair.",
+        "confidence": 0.97,
+        "rule_summary": "PDELTA with paired linear phase pattern."
+      },
+      {
+        "answer": [
+          "-956",
+          "-1549",
+          "-2505",
+          "-4054",
+          "-6560"
+        ],
+        "case_id": "S028",
+        "check_summary": "Extrapolated the apparent rapidly growing negative recurrence.",
+        "confidence": 0.16,
+        "rule_summary": "Likely phased affine or linear recurrence."
+      },
+      {
+        "answer": [
+          "797159",
+          "2391479",
+          "7174439",
+          "21523319",
+          "64569959"
+        ],
+        "case_id": "S029",
+        "check_summary": "Every term satisfies x(n+1)=3x(n)+5.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "-56",
+          "-60",
+          "-65",
+          "-69",
+          "-74"
+        ],
+        "case_id": "S030",
+        "check_summary": "Alternating differences -5 and -4 continue.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "1872",
+          "3220",
+          "5368",
+          "7504",
+          "10264"
+        ],
+        "case_id": "S031",
+        "check_summary": "Finite-difference extrapolation with linearly changing fourth differences.",
+        "confidence": 0.9,
+        "rule_summary": "POLY of degree five."
+      },
+      {
+        "answer": [
+          "-281802",
+          "-140903",
+          "1127222",
+          "563609",
+          "-4508874"
+        ],
+        "case_id": "S032",
+        "check_summary": "Even and odd streams follow separate affine recurrences.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-210",
+          "-238",
+          "-273",
+          "-306",
+          "-341"
+        ],
+        "case_id": "S033",
+        "check_summary": "Paired difference pattern continues with decrements -28,-35,-33.",
+        "confidence": 0.95,
+        "rule_summary": "PDELTA with periodic paired increments."
+      },
+      {
+        "answer": [
+          "-99759059",
+          "-299277171",
+          "-897831515",
+          "2693494549",
+          "8080483653"
+        ],
+        "case_id": "S034",
+        "check_summary": "Three-phase affine multipliers and biases repeat.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-three phases."
+      },
+      {
+        "answer": [
+          "1112",
+          "1814",
+          "2695",
+          "3994",
+          "5943"
+        ],
+        "case_id": "S035",
+        "check_summary": "Odd and even subsequences extrapolated as polynomial streams.",
+        "confidence": 0.82,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      },
+      {
+        "answer": [
+          "1025",
+          "1343",
+          "1720",
+          "2161",
+          "2640"
+        ],
+        "case_id": "S036",
+        "check_summary": "Second differences increase by five, then continue linearly.",
+        "confidence": 0.99,
+        "rule_summary": "POLY of degree three."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-2B08D2BA7D25-search-b03-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "8a6f9870913bcf18a73ac6ae4eb7b7863d79a2e29df2b742048677609519ce3e",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-2B08D2BA7D25-search-b03-proposer-1/attempt-01"
+}

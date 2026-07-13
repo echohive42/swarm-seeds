@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-52",
+          "-206",
+          "-44",
+          "-64",
+          "-74"
+        ],
+        "case_id": "S181",
+        "check_summary": "Best-supported candidate among weak periodic phase-delta explanations.",
+        "confidence": 0.34,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-3",
+          "31",
+          "-10",
+          "58",
+          "-17"
+        ],
+        "case_id": "S182",
+        "check_summary": "Selected the clearest interleaved continuation among competing weak candidates.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "0",
+          "-5",
+          "-10",
+          "13",
+          "8"
+        ],
+        "case_id": "S183",
+        "check_summary": "Highest-confidence candidate with a specific periodic delta explanation.",
+        "confidence": 0.97,
+        "rule_summary": "Piecewise periodic delta pattern."
+      },
+      {
+        "answer": [
+          "-18",
+          "1027",
+          "-8",
+          "-10",
+          "-2045"
+        ],
+        "case_id": "S184",
+        "check_summary": "Strong agreement among the highest-confidence candidates.",
+        "confidence": 0.98,
+        "rule_summary": "Lagged subsequences with phase-specific polynomial increments."
+      },
+      {
+        "answer": [
+          "68",
+          "3",
+          "91",
+          "-2",
+          "117"
+        ],
+        "case_id": "S185",
+        "check_summary": "Near-unanimous agreement on interleaved odd quadratic and even alternating streams.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/periodic streams."
+      },
+      {
+        "answer": [
+          "-25",
+          "-48",
+          "-17",
+          "-63",
+          "-9"
+        ],
+        "case_id": "S186",
+        "check_summary": "Selected the most plausible periodic recurrence candidate despite weak evidence.",
+        "confidence": 0.13,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "30",
+          "28",
+          "-107",
+          "32",
+          "47"
+        ],
+        "case_id": "S187",
+        "check_summary": "Strong support for three interleaved polynomial residue streams.",
+        "confidence": 0.99,
+        "rule_summary": "Lagged subsequences with phase-specific polynomial increments."
+      },
+      {
+        "answer": [
+          "-35",
+          "-50",
+          "-65",
+          "-80",
+          "-95"
+        ],
+        "case_id": "S188",
+        "check_summary": "Strong growing-block explanation with consistent step progression.",
+        "confidence": 0.95,
+        "rule_summary": "GROWBLOCK with polynomial starts and steps."
+      },
+      {
+        "answer": [
+          "-26",
+          "-22",
+          "-29",
+          "-26",
+          "-32"
+        ],
+        "case_id": "S189",
+        "check_summary": "Near-unanimous agreement from two interleaved arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-5",
+          "44",
+          "-8",
+          "49",
+          "-11"
+        ],
+        "case_id": "S190",
+        "check_summary": "Selected the strongest available weak phase-stream extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "Interleaved affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "-8",
+          "40",
+          "-15",
+          "51",
+          "-22"
+        ],
+        "case_id": "S191",
+        "check_summary": "Selected the strongest available weak periodic-interleaving candidate.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "19",
+          "220",
+          "-46",
+          "26",
+          "444"
+        ],
+        "case_id": "S192",
+        "check_summary": "Strong agreement on three interleaved streams with arithmetic, linear, and doubling differences.",
+        "confidence": 0.99,
+        "rule_summary": "Three interleaved polynomial/affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-6BAC1D28F028-search-b16-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "eaf4a96820c1c02b143b60ea1e3199d3545098c5c8d4148efd59186bbd026926",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-6BAC1D28F028-search-b16-judge-2/attempt-01"
+}

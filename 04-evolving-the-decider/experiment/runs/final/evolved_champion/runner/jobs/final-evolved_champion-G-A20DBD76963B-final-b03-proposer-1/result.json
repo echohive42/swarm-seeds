@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "-1175078",
+          "1175077",
+          "3525225",
+          "10575673",
+          "-10575674"
+        ],
+        "case_id": "F025",
+        "check_summary": "Period-3 affine replay: 3x-6, 3x-2, -x-1.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-797164",
+          "-2391497",
+          "-7174496",
+          "-21523483",
+          "-64570444"
+        ],
+        "case_id": "F026",
+        "check_summary": "Constant affine replay x'=3x+5.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "24302",
+          "-48502",
+          "97080",
+          "-194146",
+          "388166"
+        ],
+        "case_id": "F027",
+        "check_summary": "Interleaved two-stream affine-polynomial extrapolation.",
+        "confidence": 0.42,
+        "rule_summary": "Two-stream interleave."
+      },
+      {
+        "answer": [
+          "37317",
+          "74627",
+          "149263",
+          "298517",
+          "597045"
+        ],
+        "case_id": "F028",
+        "check_summary": "Multiplier-2 updates with alternating odd biases increasing by 2.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "5402",
+          "7395",
+          "9941",
+          "13152",
+          "17155"
+        ],
+        "case_id": "F029",
+        "check_summary": "Finite-difference extrapolation with linearly increasing fourth differences.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-7",
+          "-35",
+          "-47",
+          "-17",
+          "-56"
+        ],
+        "case_id": "F030",
+        "check_summary": "Three interleaved streams each follow a quadratic difference pattern.",
+        "confidence": 0.96,
+        "rule_summary": "Three-stream interleave."
+      },
+      {
+        "answer": [
+          "464",
+          "494",
+          "498",
+          "467",
+          "391"
+        ],
+        "case_id": "F031",
+        "check_summary": "Finite differences continue with third differences decreasing by 1.",
+        "confidence": 0.97,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "616348",
+          "1676636",
+          "4560644",
+          "12414044",
+          "33798260"
+        ],
+        "case_id": "F032",
+        "check_summary": "Exponential-growth recurrence extrapolation.",
+        "confidence": 0.45,
+        "rule_summary": "Affine or linear recurrence."
+      },
+      {
+        "answer": [
+          "134",
+          "157",
+          "168",
+          "220",
+          "279"
+        ],
+        "case_id": "F033",
+        "check_summary": "Periodic interleaved polynomial-pattern extrapolation.",
+        "confidence": 0.4,
+        "rule_summary": "Interleaved streams."
+      },
+      {
+        "answer": [
+          "464",
+          "611",
+          "792",
+          "1019",
+          "1296"
+        ],
+        "case_id": "F034",
+        "check_summary": "Polynomial finite-difference continuation.",
+        "confidence": 0.55,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-2771363",
+          "-5542730",
+          "-16628195",
+          "-33256394",
+          "-99769187"
+        ],
+        "case_id": "F035",
+        "check_summary": "Alternating affine multipliers 3 and 2 with biases -5 and -4.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "23",
+          "28",
+          "29",
+          "34",
+          "35"
+        ],
+        "case_id": "F036",
+        "check_summary": "Alternating increments +1 and +5.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta update."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-evolved_champion-G-A20DBD76963B-final-b03-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "0c16d7d19203ea5b9334381477408304c7e11d4e5dbc65fdf3eb9a0e0057031c",
+  "terminal_artifact_relpath": "jobs/final-evolved_champion-G-A20DBD76963B-final-b03-proposer-1/attempt-01"
+}

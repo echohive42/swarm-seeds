@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-430",
+          "-491",
+          "-546",
+          "-616",
+          "-680"
+        ],
+        "case_id": "S145",
+        "check_summary": "Periodic phase differences replay the prefix.",
+        "confidence": 0.97,
+        "rule_summary": "PDELTA with period-3 affine phase deltas."
+      },
+      {
+        "answer": [
+          "101",
+          "105",
+          "119",
+          "124",
+          "128"
+        ],
+        "case_id": "S146",
+        "check_summary": "Best-fit interleaved phase continuation.",
+        "confidence": 0.32,
+        "rule_summary": "INTERLEAVE with low-degree stream updates."
+      },
+      {
+        "answer": [
+          "-10922",
+          "21846",
+          "-43690",
+          "87382",
+          "-174762"
+        ],
+        "case_id": "S147",
+        "check_summary": "Every transition satisfies x'=-2x+2.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence x'=-2x+2."
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "327"
+        ],
+        "case_id": "S148",
+        "check_summary": "Odd-position deltas increase by 6; even-position deltas by 4.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA with alternating affine phase deltas."
+      },
+      {
+        "answer": [
+          "3560",
+          "4779",
+          "6288",
+          "8130",
+          "10351"
+        ],
+        "case_id": "S149",
+        "check_summary": "Fourth differences are constant 3.",
+        "confidence": 1.0,
+        "rule_summary": "POLY with constant fourth finite difference."
+      },
+      {
+        "answer": [
+          "-6",
+          "-10",
+          "-12",
+          "-16",
+          "-18"
+        ],
+        "case_id": "S150",
+        "check_summary": "Differences alternate +2 and -4.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA with period-2 constant deltas."
+      },
+      {
+        "answer": [
+          "-3920",
+          "-6348",
+          "-10274",
+          "-16629",
+          "-26909"
+        ],
+        "case_id": "S151",
+        "check_summary": "Differences follow Fibonacci addition with alternating correction ±1.",
+        "confidence": 0.94,
+        "rule_summary": "LIN2 recurrence on first differences with period-2 bias."
+      },
+      {
+        "answer": [
+          "-14628",
+          "-24764",
+          "-41908",
+          "-70916",
+          "-120004"
+        ],
+        "case_id": "S152",
+        "check_summary": "Exponential LIN2 continuation estimate.",
+        "confidence": 0.28,
+        "rule_summary": "LIN2 with phase-dependent bias."
+      },
+      {
+        "answer": [
+          "-2613",
+          "-4231",
+          "-6849",
+          "-11085",
+          "-17939"
+        ],
+        "case_id": "S153",
+        "check_summary": "Each term equals the previous two terms minus 5.",
+        "confidence": 1.0,
+        "rule_summary": "LIN2 recurrence x_n=x_{n-1}+x_{n-2}-5."
+      },
+      {
+        "answer": [
+          "-1239",
+          "-1593",
+          "-2009",
+          "-2492",
+          "-3047"
+        ],
+        "case_id": "S154",
+        "check_summary": "Second differences decrease by 5.",
+        "confidence": 1.0,
+        "rule_summary": "POLY with constant third difference -5."
+      },
+      {
+        "answer": [
+          "533635",
+          "-1067265",
+          "-2134529",
+          "4269051",
+          "-8538103"
+        ],
+        "case_id": "S155",
+        "check_summary": "Period-3 affine transformations replay the prefix.",
+        "confidence": 1.0,
+        "rule_summary": "MOD-free periodic AFFINE phases: -2x-7, -2x+5, 2x+1."
+      },
+      {
+        "answer": [
+          "136538",
+          "273073",
+          "546144",
+          "1092289",
+          "2184578"
+        ],
+        "case_id": "S156",
+        "check_summary": "Multiplier 2 with alternating biases -3 and +2.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE with period-2 bias."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-A20DBD76963B-search-b13-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "eb6991064a52ecb53d371f0858e5f76490965f3064e11165aec5a89f741c1a84",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-A20DBD76963B-search-b13-proposer-7/attempt-01"
+}

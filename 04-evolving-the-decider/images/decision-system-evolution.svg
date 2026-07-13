@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Decision-system evolution</title>
+<desc id="chart-desc">Composition of six persistent survivor slots across eight rounds.</desc>
+<metadata>source-digest:01ed8d6eb4571fb79d3307519ab11db22b272b51562eed76de33f05dc3888cd7</metadata>
+<style>text{font-family:Inter,Arial,sans-serif;fill:#152238}.title{font-size:28px;font-weight:750}.subtitle{font-size:14px;fill:#526174}.axis{font-size:12px;fill:#526174}.label{font-size:13px;font-weight:650}.value{font-size:12px;font-weight:750}.note{font-size:11px;fill:#526174}.legend{font-size:12px;font-weight:650}</style>
+<rect width="1200" height="740" fill="#FFFFFF"/>
+<text x="62.00" y="48.00" class="title" text-anchor="start" >How the six survivor slots changed</text>
+<text x="62.00" y="75.00" class="subtitle" text-anchor="start" >Founders at round 0, then survivor composition after each paired replacement round</text>
+<text x="62.00" y="720.00" class="note" text-anchor="start" >Source: genomes/round-00-parents.json and round-01 through round-08 survivors</text>
+<line x1="125.00" y1="535.00" x2="1125.00" y2="535.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="112.00" y="539.00" class="axis" text-anchor="end" >0</text>
+<line x1="125.00" y1="470.00" x2="1125.00" y2="470.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="112.00" y="474.00" class="axis" text-anchor="end" >1</text>
+<line x1="125.00" y1="405.00" x2="1125.00" y2="405.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="112.00" y="409.00" class="axis" text-anchor="end" >2</text>
+<line x1="125.00" y1="340.00" x2="1125.00" y2="340.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="112.00" y="344.00" class="axis" text-anchor="end" >3</text>
+<line x1="125.00" y1="275.00" x2="1125.00" y2="275.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="112.00" y="279.00" class="axis" text-anchor="end" >4</text>
+<line x1="125.00" y1="210.00" x2="1125.00" y2="210.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="112.00" y="214.00" class="axis" text-anchor="end" >5</text>
+<line x1="125.00" y1="145.00" x2="1125.00" y2="145.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="112.00" y="149.00" class="axis" text-anchor="end" >6</text>
+<rect x="147.56" y="470.00" width="66.00" height="65.00" fill="#277DA1" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="147.56" y="405.00" width="66.00" height="65.00" fill="#F9844A" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="147.56" y="340.00" width="66.00" height="65.00" fill="#43AA8B" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="147.56" y="275.00" width="66.00" height="65.00" fill="#8B6BBE" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="147.56" y="210.00" width="66.00" height="65.00" fill="#4CC9C0" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="147.56" y="145.00" width="66.00" height="65.00" fill="#F9C74F" stroke="#FFFFFF" stroke-width="1"/>
+<text x="180.56" y="563.00" class="label" text-anchor="middle" >Founders</text>
+<rect x="258.67" y="470.00" width="66.00" height="65.00" fill="#277DA1" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="258.67" y="405.00" width="66.00" height="65.00" fill="#F9844A" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="258.67" y="340.00" width="66.00" height="65.00" fill="#43AA8B" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="258.67" y="275.00" width="66.00" height="65.00" fill="#8B6BBE" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="258.67" y="145.00" width="66.00" height="130.00" fill="#F9C74F" stroke="#FFFFFF" stroke-width="1"/>
+<text x="291.67" y="563.00" class="label" text-anchor="middle" >Round 1</text>
+<rect x="369.78" y="470.00" width="66.00" height="65.00" fill="#277DA1" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="369.78" y="405.00" width="66.00" height="65.00" fill="#F9844A" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="369.78" y="340.00" width="66.00" height="65.00" fill="#43AA8B" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="369.78" y="275.00" width="66.00" height="65.00" fill="#8B6BBE" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="369.78" y="145.00" width="66.00" height="130.00" fill="#F9C74F" stroke="#FFFFFF" stroke-width="1"/>
+<text x="402.78" y="563.00" class="label" text-anchor="middle" >Round 2</text>
+<rect x="480.89" y="470.00" width="66.00" height="65.00" fill="#F9844A" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="480.89" y="405.00" width="66.00" height="65.00" fill="#43AA8B" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="480.89" y="275.00" width="66.00" height="130.00" fill="#8B6BBE" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="480.89" y="145.00" width="66.00" height="130.00" fill="#F9C74F" stroke="#FFFFFF" stroke-width="1"/>
+<text x="513.89" y="563.00" class="label" text-anchor="middle" >Round 3</text>
+<rect x="592.00" y="340.00" width="66.00" height="195.00" fill="#8B6BBE" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="592.00" y="145.00" width="66.00" height="195.00" fill="#F9C74F" stroke="#FFFFFF" stroke-width="1"/>
+<text x="625.00" y="563.00" class="label" text-anchor="middle" >Round 4</text>
+<rect x="703.11" y="340.00" width="66.00" height="195.00" fill="#8B6BBE" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="703.11" y="145.00" width="66.00" height="195.00" fill="#F9C74F" stroke="#FFFFFF" stroke-width="1"/>
+<text x="736.11" y="563.00" class="label" text-anchor="middle" >Round 5</text>
+<rect x="814.22" y="340.00" width="66.00" height="195.00" fill="#8B6BBE" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="814.22" y="145.00" width="66.00" height="195.00" fill="#F9C74F" stroke="#FFFFFF" stroke-width="1"/>
+<text x="847.22" y="563.00" class="label" text-anchor="middle" >Round 6</text>
+<rect x="925.33" y="340.00" width="66.00" height="195.00" fill="#8B6BBE" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="925.33" y="275.00" width="66.00" height="65.00" fill="#4CC9C0" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="925.33" y="145.00" width="66.00" height="130.00" fill="#F9C74F" stroke="#FFFFFF" stroke-width="1"/>
+<text x="958.33" y="563.00" class="label" text-anchor="middle" >Round 7</text>
+<rect x="1036.44" y="340.00" width="66.00" height="195.00" fill="#8B6BBE" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="1036.44" y="275.00" width="66.00" height="65.00" fill="#4CC9C0" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="1036.44" y="145.00" width="66.00" height="130.00" fill="#F9C74F" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1069.44" y="563.00" class="label" text-anchor="middle" >Round 8</text>
+<rect x="145.00" y="583.00" width="18.00" height="18.00" fill="#277DA1" rx="3"/>
+<text x="173.00" y="597.00" class="legend" text-anchor="start" >Vote 10P</text>
+<rect x="490.00" y="583.00" width="18.00" height="18.00" fill="#F9844A" rx="3"/>
+<text x="518.00" y="597.00" class="legend" text-anchor="start" >Judge 9P+1J</text>
+<rect x="835.00" y="583.00" width="18.00" height="18.00" fill="#43AA8B" rx="3"/>
+<text x="863.00" y="597.00" class="legend" text-anchor="start" >Gated 7P+2C+1J</text>
+<rect x="145.00" y="618.00" width="18.00" height="18.00" fill="#8B6BBE" rx="3"/>
+<text x="173.00" y="632.00" class="legend" text-anchor="start" >Dual 8P+2J</text>
+<rect x="490.00" y="618.00" width="18.00" height="18.00" fill="#4CC9C0" rx="3"/>
+<text x="518.00" y="632.00" class="legend" text-anchor="start" >Verified 7P+2V+1J</text>
+<rect x="835.00" y="618.00" width="18.00" height="18.00" fill="#F9C74F" rx="3"/>
+<text x="863.00" y="632.00" class="legend" text-anchor="start" >Deliberative 6P+2C+2J</text>
+<text x="84.00" y="340.00" class="axis" text-anchor="middle" transform="rotate(-90 84 340.0)">Survivor slots</text>
+</svg>

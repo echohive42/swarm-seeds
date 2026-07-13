@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-12",
+          "-16",
+          "-26",
+          "-20",
+          "-50"
+        ],
+        "case_id": "V013",
+        "check_summary": "Weak periodic-difference extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "PDELTA candidate."
+      },
+      {
+        "answer": [
+          "-10",
+          "-12",
+          "-14",
+          "-16",
+          "-18"
+        ],
+        "case_id": "V014",
+        "check_summary": "Continues the dominant recent decrement pattern.",
+        "confidence": 0.16,
+        "rule_summary": "PDELTA/interleaved candidate."
+      },
+      {
+        "answer": [
+          "-14",
+          "-17",
+          "-25",
+          "-19",
+          "-37"
+        ],
+        "case_id": "V015",
+        "check_summary": "Low-confidence phase extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "INTERLEAVE candidate."
+      },
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V016",
+        "check_summary": "Odd and even subsequences replay as arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE with two affine streams."
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V017",
+        "check_summary": "Odd subsequence has successive negative increments; even subsequence doubles its decrement.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE with polynomial and exponential-looking phase streams."
+      },
+      {
+        "answer": [
+          "66",
+          "-7",
+          "83",
+          "-13",
+          "104"
+        ],
+        "case_id": "V018",
+        "check_summary": "Low-confidence phase extrapolation.",
+        "confidence": 0.04,
+        "rule_summary": "PDELTA candidate."
+      },
+      {
+        "answer": [
+          "35",
+          "-10",
+          "53",
+          "-20",
+          "75"
+        ],
+        "case_id": "V019",
+        "check_summary": "Low-confidence interleaved extrapolation.",
+        "confidence": 0.04,
+        "rule_summary": "INTERLEAVE candidate."
+      },
+      {
+        "answer": [
+          "75",
+          "68",
+          "92",
+          "97",
+          "113"
+        ],
+        "case_id": "V020",
+        "check_summary": "Low-confidence periodic affine extrapolation.",
+        "confidence": 0.03,
+        "rule_summary": "MODAFFINE candidate."
+      },
+      {
+        "answer": [
+          "-38",
+          "-43",
+          "-52",
+          "-61",
+          "-66"
+        ],
+        "case_id": "V021",
+        "check_summary": "Low-confidence modular/phase extrapolation.",
+        "confidence": 0.03,
+        "rule_summary": "MODAFFINE candidate."
+      },
+      {
+        "answer": [
+          "-122",
+          "-8",
+          "185",
+          "-12",
+          "-278"
+        ],
+        "case_id": "V022",
+        "check_summary": "Low-confidence modular affine extrapolation.",
+        "confidence": 0.03,
+        "rule_summary": "MODAFFINE candidate."
+      },
+      {
+        "answer": [
+          "-106",
+          "-127",
+          "-143",
+          "-164",
+          "-180"
+        ],
+        "case_id": "V023",
+        "check_summary": "Extends the recent repeated negative-step block pattern.",
+        "confidence": 0.12,
+        "rule_summary": "GROWBLOCK candidate."
+      },
+      {
+        "answer": [
+          "-8",
+          "-3",
+          "-15",
+          "-7",
+          "-22"
+        ],
+        "case_id": "V024",
+        "check_summary": "Low-confidence phase extrapolation.",
+        "confidence": 0.03,
+        "rule_summary": "PDELTA candidate."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b02-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "5f6f45d44d9b0a6aae000d36ac2c9683b17ec47016ae87c57b9a46f602208abe",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b02-proposer-1/attempt-01"
+}

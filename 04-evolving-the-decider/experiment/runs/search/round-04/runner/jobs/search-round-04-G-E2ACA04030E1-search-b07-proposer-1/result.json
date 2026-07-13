@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-34",
+          "-38",
+          "-41",
+          "-45",
+          "-48"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating -4,-3 differences replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic first-order difference."
+      },
+      {
+        "answer": [
+          "9337",
+          "-15126",
+          "24455",
+          "-39589",
+          "64036"
+        ],
+        "case_id": "S074",
+        "check_summary": "Alternating Fibonacci-like difference magnitudes.",
+        "confidence": 0.55,
+        "rule_summary": "Alternating signed second-order growth."
+      },
+      {
+        "answer": [
+          "8",
+          "6",
+          "7",
+          "14",
+          "8"
+        ],
+        "case_id": "S075",
+        "check_summary": "Interleaved irregular streams inferred from visible phase behavior.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-14317",
+          "-20650",
+          "-28600",
+          "-38500",
+          "-50600"
+        ],
+        "case_id": "S076",
+        "check_summary": "Extrapolated accelerating negative differences.",
+        "confidence": 0.15,
+        "rule_summary": "Growing polynomial-delta behavior."
+      },
+      {
+        "answer": [
+          "-4062",
+          "-9803",
+          "-23663",
+          "-57124",
+          "-137813"
+        ],
+        "case_id": "S077",
+        "check_summary": "Successive differences satisfy d_n=2d_{n-1}+d_{n-2}.",
+        "confidence": 0.99,
+        "rule_summary": "Second-order recurrence on differences."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Exact affine update a_next=-3a+5.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE."
+      },
+      {
+        "answer": [
+          "82",
+          "102",
+          "126",
+          "156",
+          "190"
+        ],
+        "case_id": "S079",
+        "check_summary": "Accelerating interleaved polynomial trend extrapolation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "1225270",
+          "-3675812",
+          "3675804",
+          "11027404",
+          "-33082014"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three phase-specific affine streams with multiplier 9.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic AFFINE."
+      },
+      {
+        "answer": [
+          "-152370",
+          "304738",
+          "-609474",
+          "1218946",
+          "-2437890"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating affine update with multiplier -2 and phase biases.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic AFFINE."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Differences continue as negative consecutive squares.",
+        "confidence": 1.0,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7643",
+          "-9673"
+        ],
+        "case_id": "S083",
+        "check_summary": "Finite differences continue with third differences decreasing by 5.",
+        "confidence": 0.98,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "350000",
+          "-840000",
+          "2016000",
+          "-4838400",
+          "11612160"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating exponential growth extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic AFFINE."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-E2ACA04030E1-search-b07-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "a12549b492fcdc5d7a6da84ca18b8f7e29faa76424e199b02d71c545dac344c9",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-E2ACA04030E1-search-b07-proposer-1/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "-425",
+          "-65",
+          "855",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Proposal plurality and consistent interleaved-stream verification support this tuple.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "66",
+          "2",
+          "24",
+          "48",
+          "72"
+        ],
+        "case_id": "V038",
+        "check_summary": "Growing-block proposals agree on the first two terms, but the supplied candidate tuple's later values are arithmetically inconsistent; the +",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-186",
+          "-277",
+          "83",
+          "-284",
+          "-549"
+        ],
+        "case_id": "V039",
+        "check_summary": "Proposal plurality and the strongest complete modulo-three stream fit support this continuation.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "22",
+          "26",
+          "30",
+          "26",
+          "30"
+        ],
+        "case_id": "V040",
+        "check_summary": "Two high-confidence proposals agree, and the three residue-class streams repeat consistently.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "48",
+          "19",
+          "78",
+          "83",
+          "48"
+        ],
+        "case_id": "V041",
+        "check_summary": "Proposal plurality supports this bounded periodic modular-affine continuation, though confidence is limited.",
+        "confidence": 0.25,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Strong unanimous plurality; odd and even subsequences are independently arithmetic.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-17",
+          "30",
+          "94",
+          "-18",
+          "54"
+        ],
+        "case_id": "V043",
+        "check_summary": "High-confidence plurality and complete modulo-three stream verification agree.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "94",
+          "71",
+          "48",
+          "25",
+          "143"
+        ],
+        "case_id": "V044",
+        "check_summary": "Two matching high-confidence proposals identify growing blocks of three negative steps followed by polynomial reset jumps.",
+        "confidence": 0.76,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-8",
+          "25",
+          "-9",
+          "-4",
+          "17"
+        ],
+        "case_id": "V045",
+        "check_summary": "Matching critic and proposer candidates provide the strongest available interleaved-stream plurality.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-24",
+          "18",
+          "-54",
+          "-41",
+          "1"
+        ],
+        "case_id": "V046",
+        "check_summary": "Strong plurality with high-confidence phase-specific delta verification supports this tuple.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "22",
+          "-2",
+          "18",
+          "-10",
+          "6"
+        ],
+        "case_id": "V047",
+        "check_summary": "Plurality across four candidates supports this interleaved continuation, with moderate uncertainty.",
+        "confidence": 0.3,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-27",
+          "24",
+          "-38",
+          "27",
+          "-40"
+        ],
+        "case_id": "V048",
+        "check_summary": "Matching critic and proposer candidates form the plurality and best-supported alternating continuation.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-E2CB7ED71793-validation-b04-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "65cc85ec1a80fb011a93995035b43c30fbd3b5df9dd5fc4fa27aa66ee066fc4d",
+  "terminal_artifact_relpath": "jobs/validation-G-E2CB7ED71793-validation-b04-judge-2/attempt-01"
+}

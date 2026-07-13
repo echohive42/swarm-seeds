@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "All proposals agree and the alternating differences exactly replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-2 constant deltas -4 and -3."
+      },
+      {
+        "answer": [
+          "9350",
+          "-15139",
+          "24481",
+          "-39615",
+          "64088"
+        ],
+        "case_id": "S074",
+        "check_summary": "The period-3 biased second-order recurrence exactly reproduces the visible tail and continuation.",
+        "confidence": 0.94,
+        "rule_summary": "LIN2 with x[n]=-x[n-1]+x[n-2] and repeating biases 5,-8,-8."
+      },
+      {
+        "answer": [
+          "8",
+          "4",
+          "10",
+          "6",
+          "8"
+        ],
+        "case_id": "S075",
+        "check_summary": "The first proposed interleaved continuation is the best-supported among weak, mutually inconsistent fits.",
+        "confidence": 0.28,
+        "rule_summary": "INTERLEAVE with short polynomial streams."
+      },
+      {
+        "answer": [
+          "-14348",
+          "-21193",
+          "-30489",
+          "-42851",
+          "-58990"
+        ],
+        "case_id": "S076",
+        "check_summary": "Finite differences support the continuation with fourth differences decreasing by 7.",
+        "confidence": 0.88,
+        "rule_summary": "POLY/PDELTA polynomial-difference continuation."
+      },
+      {
+        "answer": [
+          "-4062",
+          "-9803",
+          "-23663",
+          "-57124",
+          "-137906"
+        ],
+        "case_id": "S077",
+        "check_summary": "The recurrence a(n)=2a(n-1)+a(n-2)+5 exactly matches the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 with constant bias 5."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Every visible transition satisfies x_next=-3x+5.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE update x_next=-3x+5."
+      },
+      {
+        "answer": [
+          "83",
+          "118",
+          "163",
+          "217",
+          "282"
+        ],
+        "case_id": "S079",
+        "check_summary": "This is the best-supported continuation among the low-confidence interleaved extrapolations.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE with polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "408426",
+          "1225270",
+          "-3675812",
+          "3675804",
+          "11027404"
+        ],
+        "case_id": "S080",
+        "check_summary": "The repeating three-phase affine maps exactly replay the final observed cycles.",
+        "confidence": 0.99,
+        "rule_summary": "Period-3 affine updates: -x-8, 3x-8, -3x-2."
+      },
+      {
+        "answer": [
+          "-152370",
+          "-304742",
+          "609486",
+          "1218970",
+          "-2437938"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating affine updates reproduce the prefix and determine the continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 affine updates -2x+2 and 2x-2."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences continue as negative consecutive squares.",
+        "confidence": 1.0,
+        "rule_summary": "POLY/PDELTA with quadratic first differences."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7643",
+          "-10098"
+        ],
+        "case_id": "S083",
+        "check_summary": "Finite differences support the quartic continuation with third differences decreasing by 5.",
+        "confidence": 0.96,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "351214",
+          "-846449",
+          "2039910",
+          "-4916639",
+          "11854762"
+        ],
+        "case_id": "S084",
+        "check_summary": "The alternating exponential-growth continuation is the best-supported candidate from the signed tail.",
+        "confidence": 0.2,
+        "rule_summary": "LIN2/AFFINE alternating recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-571E66D2D29B-search-b07-critic-2",
+  "outcome": "valid_output",
+  "response_sha256": "e7c7cb880e6369aaa4130b2beb79535a5c2b637ef70fd43f20de0979028fea59",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-571E66D2D29B-search-b07-critic-2/attempt-01"
+}

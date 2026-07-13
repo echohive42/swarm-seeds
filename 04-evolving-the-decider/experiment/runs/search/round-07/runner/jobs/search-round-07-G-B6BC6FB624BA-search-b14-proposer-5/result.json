@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "8",
+          "-15",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "Growing arithmetic blocks with starts decreasing by 3 and lengths increasing by 1.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "40",
+          "-640",
+          "55",
+          "1280",
+          "72"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd and even positions replay as quadratic increments and multiplication by -2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-35",
+          "-80",
+          "-76",
+          "-160",
+          "-117"
+        ],
+        "case_id": "S159",
+        "check_summary": "Tentative phase-structured modular continuation.",
+        "confidence": 0.18,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd positions increase by 2; even positions increase by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-2",
+          "36",
+          "6",
+          "-8",
+          "-4"
+        ],
+        "case_id": "S161",
+        "check_summary": "Tentative three-phase recurrence continuation.",
+        "confidence": 0.16,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "17",
+          "11",
+          "19",
+          "14",
+          "21"
+        ],
+        "case_id": "S162",
+        "check_summary": "Tentative alternating phase continuation from recent subsequence increments.",
+        "confidence": 0.2,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "5",
+          "5",
+          "-362",
+          "4",
+          "6"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams: descending second differences, increasing integers, and x2-6 recurrence.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-6",
+          "72",
+          "66",
+          "-18",
+          "78"
+        ],
+        "case_id": "S164",
+        "check_summary": "Tentative phase-structured continuation.",
+        "confidence": 0.15,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-18",
+          "-112",
+          "-75",
+          "-184",
+          "-132"
+        ],
+        "case_id": "S165",
+        "check_summary": "Tentative phase-specific affine continuation.",
+        "confidence": 0.14,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-42",
+          "151",
+          "-63",
+          "238",
+          "-84"
+        ],
+        "case_id": "S166",
+        "check_summary": "Tentative periodic affine continuation.",
+        "confidence": 0.13,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-52",
+          "-25",
+          "-74",
+          "-44",
+          "-97"
+        ],
+        "case_id": "S167",
+        "check_summary": "Tentative three-stream continuation.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "98",
+          "122",
+          "146",
+          "170",
+          "194"
+        ],
+        "case_id": "S168",
+        "check_summary": "Recent arithmetic block continues with step 24.",
+        "confidence": 0.8,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-B6BC6FB624BA-search-b14-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "22f722aa1cb653e237a8feb6eac4064f0b3eb0f089805cd97269f4b0fe461f14",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-B6BC6FB624BA-search-b14-proposer-5/attempt-01"
+}

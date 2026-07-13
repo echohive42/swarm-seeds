@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b01",
+    "results": [
+      {
+        "answer": [
+          "-3866468",
+          "-7732937",
+          "15465865",
+          "-30931739",
+          "61863469"
+        ],
+        "case_id": "V001",
+        "check_summary": "Periodic affine replay with phase transforms 2x-1, -2x-9, 3x+1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "2876",
+          "3987",
+          "5408",
+          "7191",
+          "9392"
+        ],
+        "case_id": "V002",
+        "check_summary": "Finite-difference continuation of the observed polynomial trend.",
+        "confidence": 0.72,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "43",
+          "47",
+          "50",
+          "54",
+          "57"
+        ],
+        "case_id": "V003",
+        "check_summary": "Alternating increments +3,+4 replayed.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-2590778",
+          "7772327",
+          "-23316977",
+          "69950924",
+          "-209852768"
+        ],
+        "case_id": "V004",
+        "check_summary": "Alternating affine updates -3x+4 and -3x-7.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "1727182",
+          "-5181551",
+          "15544648",
+          "-46633949",
+          "139901842"
+        ],
+        "case_id": "V005",
+        "check_summary": "Constant affine update -3x-5.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-319",
+          "1034",
+          "-1668",
+          "2651",
+          "-4260"
+        ],
+        "case_id": "V006",
+        "check_summary": "Tentative periodic linear continuation from the alternating irregular pattern.",
+        "confidence": 0.18,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-101",
+          "-119",
+          "-137",
+          "-155",
+          "-173"
+        ],
+        "case_id": "V007",
+        "check_summary": "Tentative continuation of the observed interleaved irregular differences.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-15047",
+          "-21015",
+          "-28750",
+          "-38603",
+          "-50968"
+        ],
+        "case_id": "V008",
+        "check_summary": "Polynomial finite-difference continuation; fourth differences continue by -4.",
+        "confidence": 0.86,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-567807",
+          "1374181",
+          "-3321901",
+          "8028757",
+          "-19429408"
+        ],
+        "case_id": "V009",
+        "check_summary": "Tentative alternating affine-growth continuation.",
+        "confidence": 0.16,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-37",
+          "44",
+          "-55",
+          "68",
+          "-83"
+        ],
+        "case_id": "V010",
+        "check_summary": "Tentative interleaved continuation from alternating subsequences.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "109",
+          "-184",
+          "307",
+          "-526",
+          "893"
+        ],
+        "case_id": "V011",
+        "check_summary": "Tentative alternating recurrence continuation.",
+        "confidence": 0.13,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-790",
+          "-990",
+          "-1214",
+          "-1465",
+          "-1746"
+        ],
+        "case_id": "V012",
+        "check_summary": "Second differences decrease by successive multiples of 3.",
+        "confidence": 0.91,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b01-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "7d61d7a7a1d73df0a9db4d04e644bd1d0a387bc6847e2a20ef55066f6b078ff8",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b01-proposer-6/attempt-01"
+}

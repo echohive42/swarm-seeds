@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-34",
+          "-38",
+          "-41",
+          "-45",
+          "-48"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating constant differences -4,-3 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-2 constant deltas."
+      },
+      {
+        "answer": [
+          "-9303",
+          "15072",
+          "-24417",
+          "39534",
+          "-64047"
+        ],
+        "case_id": "S074",
+        "check_summary": "Extrapolated from alternating rapidly growing difference patterns.",
+        "confidence": 0.28,
+        "rule_summary": "Likely periodic affine or linear recurrence."
+      },
+      {
+        "answer": [
+          "8",
+          "10",
+          "11",
+          "16",
+          "12"
+        ],
+        "case_id": "S075",
+        "check_summary": "Weak extrapolation from interleaved irregular subsequences.",
+        "confidence": 0.12,
+        "rule_summary": "Likely INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-14348",
+          "-21193",
+          "-30489",
+          "-42818",
+          "-58851"
+        ],
+        "case_id": "S076",
+        "check_summary": "Extrapolated from accelerating higher-order differences.",
+        "confidence": 0.2,
+        "rule_summary": "Likely polynomial-delta recurrence."
+      },
+      {
+        "answer": [
+          "-4062",
+          "-9803",
+          "-23663",
+          "-57124",
+          "-137881"
+        ],
+        "case_id": "S077",
+        "check_summary": "Differences follow the exact recurrence d_n=2d_{n-1}+d_{n-2}.",
+        "confidence": 0.97,
+        "rule_summary": "LIN2 / induced recurrence on first differences."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Every term follows a_n=-3a_{n-1}+5.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE constant update."
+      },
+      {
+        "answer": [
+          "99",
+          "122",
+          "129",
+          "144",
+          "151"
+        ],
+        "case_id": "S079",
+        "check_summary": "Extrapolated alternating difference subsequences.",
+        "confidence": 0.22,
+        "rule_summary": "Likely INTERLEAVE or periodic deltas."
+      },
+      {
+        "answer": [
+          "408426",
+          "1225270",
+          "-3675812",
+          "3675834",
+          "11027506"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three phase streams follow affine multiplier 9 with phase biases.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of three affine streams."
+      },
+      {
+        "answer": [
+          "-152370",
+          "304738",
+          "609474",
+          "-1218946",
+          "-2437890"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating updates are -2x+2 and 2x-2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-2 phase updates."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "First differences continue as negative consecutive squares.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with quadratic phase delta."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7580",
+          "-9974"
+        ],
+        "case_id": "S083",
+        "check_summary": "Third differences continue decreasing by 5.",
+        "confidence": 0.83,
+        "rule_summary": "POLY/PDELTA with polynomial differences."
+      },
+      {
+        "answer": [
+          "-349019",
+          "842531",
+          "-2033371",
+          "4905242",
+          "-11827027"
+        ],
+        "case_id": "S084",
+        "check_summary": "Extrapolated alternating exponential pattern.",
+        "confidence": 0.18,
+        "rule_summary": "Likely periodic affine or LIN2."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-1CB025718435-search-b07-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "e384990b8a774c5dd7b6626f409a655442660090c5a69cc2a57acd456ed79ab2",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-1CB025718435-search-b07-proposer-2/attempt-01"
+}

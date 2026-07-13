@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "75",
+          "4",
+          "105"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd and even subsequences replay as quadratic and alternating streams.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "24",
+          "13",
+          "32",
+          "9",
+          "42"
+        ],
+        "case_id": "S014",
+        "check_summary": "Prefix is consistent with phase-dependent polynomial increments.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "70",
+          "-25",
+          "84",
+          "-34",
+          "100"
+        ],
+        "case_id": "S015",
+        "check_summary": "Three phase subsequences show polynomially changing increments.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "38",
+          "-1",
+          "96",
+          "-15",
+          "172"
+        ],
+        "case_id": "S016",
+        "check_summary": "Alternating phase updates have changing affine increments.",
+        "confidence": 0.12,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5 and even terms decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-22",
+          "-4",
+          "-35",
+          "-7",
+          "-50"
+        ],
+        "case_id": "S018",
+        "check_summary": "Phase-specific subsequences fit low-degree polynomial updates.",
+        "confidence": 0.14,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "68",
+          "7",
+          "91",
+          "-16",
+          "54"
+        ],
+        "case_id": "S019",
+        "check_summary": "Values are consistent with a periodic modular affine process.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "46",
+          "-12",
+          "76",
+          "-28",
+          "112"
+        ],
+        "case_id": "S020",
+        "check_summary": "Interleaved phase streams exhibit polynomially varying steps.",
+        "confidence": 0.11,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-45",
+          "-57",
+          "-72",
+          "-81",
+          "-101"
+        ],
+        "case_id": "S021",
+        "check_summary": "Alternating streams follow phase-specific polynomial deltas.",
+        "confidence": 0.1,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-8",
+          "31",
+          "-13",
+          "43",
+          "-20"
+        ],
+        "case_id": "S022",
+        "check_summary": "Prefix supports a multi-stream interleaving with polynomial stream rules.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-39",
+          "-37"
+        ],
+        "case_id": "S023",
+        "check_summary": "Differences are +2 except triangular-position negative spikes of -5,-7,-9,-11.",
+        "confidence": 0.97,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-54",
+          "34",
+          "-382",
+          "-47",
+          "-790"
+        ],
+        "case_id": "S024",
+        "check_summary": "Prefix is consistent with phase-dependent second-order linear behavior.",
+        "confidence": 0.08,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-C8D08DBE9D9D-search-b02-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "7771498f5e1d57ace3b1f17762d990111c01d1a527b6991836d8086e91f693b2",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-C8D08DBE9D9D-search-b02-proposer-6/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "8",
+          "13",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "The prefix shows +5 updates interrupted by corrections -3,-8,-13,-18 at expanding gaps; the next correction is -23.",
+        "confidence": 0.97,
+        "rule_summary": "PDELTA with periodic polynomial correction events."
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "-1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd-position terms have quadratic growth; even-position terms multiply by -2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of polynomial and affine streams."
+      },
+      {
+        "answer": [
+          "-20",
+          "-47",
+          "-31",
+          "-34",
+          "-5"
+        ],
+        "case_id": "S159",
+        "check_summary": "No proposal is strongly validated; this is the least-unsupported continuation among the supplied bounded phase-pattern candidates.",
+        "confidence": 0.2,
+        "rule_summary": "MODAFFINE candidate."
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd terms increase by 2 and even terms increase by 1.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-12",
+          "39",
+          "1",
+          "-12",
+          "56"
+        ],
+        "case_id": "S161",
+        "check_summary": "Three residue streams have increments 2,3,4; -5,-4,-3; and 5,8,11, yielding the next values directly.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "13",
+          "17",
+          "5",
+          "19",
+          "15"
+        ],
+        "case_id": "S162",
+        "check_summary": "The candidates are weakly supported; this continuation best matches the supplied periodic-delta evidence.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA with phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "5",
+          "-362",
+          "5",
+          "6",
+          "-730"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams are arithmetic decrements, arithmetic increments, and x↦2x−6.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of affine and second-order streams."
+      },
+      {
+        "answer": [
+          "39",
+          "67",
+          "65",
+          "83",
+          "111"
+        ],
+        "case_id": "S164",
+        "check_summary": "Weakly identified phase-stream continuation; selected as the best-supported supplied proposal.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE of phase-specific polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-5",
+          "-30",
+          "53",
+          "-3",
+          "-2"
+        ],
+        "case_id": "S165",
+        "check_summary": "No candidate cleanly validates against a simple stream decomposition; this is the strongest supplied periodic-affine proposal.",
+        "confidence": 0.22,
+        "rule_summary": "MODAFFINE candidate."
+      },
+      {
+        "answer": [
+          "19",
+          "1",
+          "19",
+          "135",
+          "-38"
+        ],
+        "case_id": "S166",
+        "check_summary": "The strongest proposal identifies three phase streams, including an alternating stream and polynomial-growth streams.",
+        "confidence": 0.78,
+        "rule_summary": "INTERLEAVE of three phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-57",
+          "-29",
+          "-2",
+          "-44",
+          "-65"
+        ],
+        "case_id": "S167",
+        "check_summary": "The prefix does not strongly distinguish the low-confidence candidates; selected best-supported interleaved continuation.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE candidate."
+      },
+      {
+        "answer": [
+          "98",
+          "122",
+          "146",
+          "170",
+          "194"
+        ],
+        "case_id": "S168",
+        "check_summary": "The latest block advances by 24, continuing the growing arithmetic-block pattern.",
+        "confidence": 0.91,
+        "rule_summary": "GROWBLOCK with growing within-block steps."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-E2CB7ED71793-search-b14-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "a9ccdd7936fd26c16d30ef60696b1e44bc0b311b58eda5afe69a4dc8d7d8dec1",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-E2CB7ED71793-search-b14-critic-1/attempt-01"
+}

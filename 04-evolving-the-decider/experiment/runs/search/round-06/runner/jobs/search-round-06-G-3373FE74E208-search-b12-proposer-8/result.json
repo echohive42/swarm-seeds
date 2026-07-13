@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "-81",
+          "1",
+          "-27",
+          "-55",
+          "-83"
+        ],
+        "case_id": "S133",
+        "check_summary": "Periodic delta-block continuation inferred from repeated negative runs.",
+        "confidence": 0.34,
+        "rule_summary": "PDELTA with expanding phase runs."
+      },
+      {
+        "answer": [
+          "-8",
+          "-5",
+          "-2",
+          "-19",
+          "-16"
+        ],
+        "case_id": "S134",
+        "check_summary": "Negative events occur at triangular-numbered transitions; other deltas are +3.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with +3 baseline and periodic negative corrections."
+      },
+      {
+        "answer": [
+          "35",
+          "-363",
+          "-14",
+          "40",
+          "-731"
+        ],
+        "case_id": "S135",
+        "check_summary": "Three interleaved streams: descending even-step stream, +5 stream, and doubling-minus-5 stream.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE of three polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-15",
+          "9",
+          "-18",
+          "-3",
+          "12"
+        ],
+        "case_id": "S136",
+        "check_summary": "Candidate periodic interleaving continuation; irregular prefix leaves moderate uncertainty.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-1020",
+          "14",
+          "-2044",
+          "25",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd terms follow x↦2x−4; even-term differences increase by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of affine and polynomial streams."
+      },
+      {
+        "answer": [
+          "-7",
+          "-10",
+          "-1",
+          "-16",
+          "-18"
+        ],
+        "case_id": "S138",
+        "check_summary": "Candidate phase-specific recurrence continuation from the irregular prefix.",
+        "confidence": 0.12,
+        "rule_summary": "LIN2 with phase-varying bias."
+      },
+      {
+        "answer": [
+          "12",
+          "4",
+          "41",
+          "7",
+          "16"
+        ],
+        "case_id": "S139",
+        "check_summary": "Candidate three-phase interleaving continuation; evidence is weak.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE of low-degree streams."
+      },
+      {
+        "answer": [
+          "-5",
+          "-21",
+          "43",
+          "-9",
+          "-37"
+        ],
+        "case_id": "S140",
+        "check_summary": "Candidate periodic affine continuation from recent phase deltas.",
+        "confidence": 0.13,
+        "rule_summary": "AFFINE with repeating phase parameters."
+      },
+      {
+        "answer": [
+          "66",
+          "48",
+          "73",
+          "39",
+          "82"
+        ],
+        "case_id": "S141",
+        "check_summary": "Candidate interleaved continuation; prefix does not uniquely expose phase parameters manually.",
+        "confidence": 0.11,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      },
+      {
+        "answer": [
+          "-35",
+          "21",
+          "-2",
+          "-47",
+          "31"
+        ],
+        "case_id": "S142",
+        "check_summary": "Candidate periodic affine continuation with phase-dependent updates.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE-like periodic update."
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "4",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Odd terms decrease by 2 and even terms decrease by 1.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "1",
+          "-15",
+          "-31",
+          "-47",
+          "-63"
+        ],
+        "case_id": "S144",
+        "check_summary": "Growing arithmetic blocks with lengths increasing by one and steps decreasing by 4.",
+        "confidence": 0.87,
+        "rule_summary": "GROWBLOCK with polynomial block starts and phase-specific steps."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-3373FE74E208-search-b12-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "a7821f63dca3d5823b2e48842e620a2f9c62c6c20c5ec61d93496aad6a10c386",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-3373FE74E208-search-b12-proposer-8/attempt-01"
+}

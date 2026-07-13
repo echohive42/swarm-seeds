@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b11",
+    "results": [
+      {
+        "answer": [
+          "3454367",
+          "-10363099",
+          "31089299",
+          "-93267895",
+          "279803687"
+        ],
+        "case_id": "S121",
+        "check_summary": "Alternating recurrence x'=-3x+2 replayed.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "37",
+          "39",
+          "43",
+          "45",
+          "49"
+        ],
+        "case_id": "S122",
+        "check_summary": "Alternating increments 2,4 replayed.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "146745",
+          "-440244",
+          "-880487",
+          "-1760967",
+          "5292894"
+        ],
+        "case_id": "S123",
+        "check_summary": "Three-phase affine updates replayed.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-49151",
+          "-98305",
+          "196609",
+          "393215",
+          "-786431"
+        ],
+        "case_id": "S124",
+        "check_summary": "Two-phase affine updates replayed.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "2547",
+          "3421",
+          "4502",
+          "5820",
+          "7407"
+        ],
+        "case_id": "S125",
+        "check_summary": "Polynomial finite differences replayed.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-19014",
+          "-27503",
+          "-38774",
+          "-53461",
+          "-72288"
+        ],
+        "case_id": "S126",
+        "check_summary": "Finite-difference polynomial continuation replayed.",
+        "confidence": 0.96,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-96",
+          "-143",
+          "-141",
+          "-195",
+          "-192"
+        ],
+        "case_id": "S127",
+        "check_summary": "Alternating difference sequences replayed.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-169",
+          "-160",
+          "-150",
+          "-135",
+          "-117"
+        ],
+        "case_id": "S128",
+        "check_summary": "Alternating arithmetic difference sequences replayed.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "700",
+          "1135",
+          "1839",
+          "2978",
+          "4821"
+        ],
+        "case_id": "S129",
+        "check_summary": "Differences follow Fibonacci recurrence after the initial terms.",
+        "confidence": 0.98,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "1047",
+          "1312",
+          "1622",
+          "1982",
+          "2397"
+        ],
+        "case_id": "S130",
+        "check_summary": "Second differences increase by 3.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "63",
+          "81",
+          "87",
+          "95",
+          "91"
+        ],
+        "case_id": "S131",
+        "check_summary": "Two interleaved polynomial difference streams replayed.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "1698171",
+          "4099754",
+          "9397681",
+          "22205114",
+          "52727827"
+        ],
+        "case_id": "S132",
+        "check_summary": "Second-order recurrence with repeating bias phase replayed.",
+        "confidence": 0.96,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-1FA44A1EE857-search-b11-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "2c9d30d775363a66ad9b95244af1d8e51f78026dcdda5546235f47e0ae6a6608",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-1FA44A1EE857-search-b11-proposer-3/attempt-01"
+}

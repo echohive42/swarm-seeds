@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating differences -4,-3 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-2 constant deltas."
+      },
+      {
+        "answer": [
+          "9345",
+          "-15127",
+          "24472",
+          "-39599",
+          "64071"
+        ],
+        "case_id": "S074",
+        "check_summary": "Alternating signed growth extrapolated from the recurrence-like prefix.",
+        "confidence": 0.32,
+        "rule_summary": "LIN2 or phase-periodic affine growth."
+      },
+      {
+        "answer": [
+          "8",
+          "6",
+          "7",
+          "10",
+          "8"
+        ],
+        "case_id": "S075",
+        "check_summary": "Interleaved/periodic irregular continuation inferred from short finite patterns.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE candidate."
+      },
+      {
+        "answer": [
+          "-14420",
+          "-21089",
+          "-29711",
+          "-39463",
+          "-49518"
+        ],
+        "case_id": "S076",
+        "check_summary": "Extrapolated accelerating negative differences from the prefix.",
+        "confidence": 0.22,
+        "rule_summary": "PDELTA with polynomial phase deltas."
+      },
+      {
+        "answer": [
+          "-4062",
+          "-9763",
+          "-23543",
+          "-56804",
+          "-137106"
+        ],
+        "case_id": "S077",
+        "check_summary": "Differences satisfy d_next=2*d_prev+d_prevprev.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 recurrence on first differences."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Each term follows next=-3*current+5.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "91",
+          "118",
+          "153",
+          "198",
+          "256"
+        ],
+        "case_id": "S079",
+        "check_summary": "Interleaved streams extrapolated from observed alternating subsequences.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "1225290",
+          "3675874",
+          "3675866",
+          "11027590",
+          "11027582"
+        ],
+        "case_id": "S080",
+        "check_summary": "Periodic affine block pattern extrapolated from repeated triples.",
+        "confidence": 0.28,
+        "rule_summary": "AFFINE with phase-dependent updates."
+      },
+      {
+        "answer": [
+          "152370",
+          "-304738",
+          "609474",
+          "-1218946",
+          "2437890"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating updates 2x-2 and -2x+2 replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-2 coefficients."
+      },
+      {
+        "answer": [
+          "-388",
+          "-488",
+          "-609",
+          "-753",
+          "-922"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences are negative squares.",
+        "confidence": 0.99,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-3704",
+          "-4947",
+          "-6552",
+          "-8582"
+        ],
+        "case_id": "S083",
+        "check_summary": "Finite differences continue with the observed polynomial third-difference trend.",
+        "confidence": 0.83,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "350817",
+          "-846052",
+          "2042031",
+          "-4928734",
+          "11895933"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating exponential growth extrapolated from the prefix.",
+        "confidence": 0.3,
+        "rule_summary": "AFFINE with phase-dependent multiplier."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-35DDA1DA8010-search-b07-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "d1dae08cda0f3893d286a59842121ec94bdb73523bf5ebf81da6c6ebf3be6a14",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-35DDA1DA8010-search-b07-proposer-2/attempt-01"
+}

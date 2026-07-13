@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-20",
+          "-74",
+          "-2",
+          "-120",
+          "6"
+        ],
+        "case_id": "S037",
+        "check_summary": "Best-effort phase-interleaved extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Likely interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "126",
+          "129",
+          "154",
+          "128",
+          "133"
+        ],
+        "case_id": "S038",
+        "check_summary": "Best-effort periodic-stream extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Likely phase-specific affine or polynomial updates."
+      },
+      {
+        "answer": [
+          "226",
+          "-9",
+          "235",
+          "697",
+          "-148"
+        ],
+        "case_id": "S039",
+        "check_summary": "Quadratic extrapolation of three interleaved streams.",
+        "confidence": 0.32,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "100",
+          "51",
+          "71",
+          "91",
+          "111"
+        ],
+        "case_id": "S040",
+        "check_summary": "Matches repeated positive deltas and square-negative separators.",
+        "confidence": 0.82,
+        "rule_summary": "Growing arithmetic blocks with step 4,8,12,16,20 and negative square separators."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Exact alternating arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "66",
+          "23",
+          "69",
+          "28",
+          "71"
+        ],
+        "case_id": "S042",
+        "check_summary": "Best-effort periodic affine extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Likely phase-specific affine update."
+      },
+      {
+        "answer": [
+          "-42",
+          "15",
+          "-10",
+          "7",
+          "-78"
+        ],
+        "case_id": "S043",
+        "check_summary": "Best-effort interleaved extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Likely interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-20",
+          "-19",
+          "-21",
+          "-25",
+          "-22"
+        ],
+        "case_id": "S044",
+        "check_summary": "Best-effort phase-pattern continuation.",
+        "confidence": 0.1,
+        "rule_summary": "Likely periodic phase-specific deltas."
+      },
+      {
+        "answer": [
+          "-4",
+          "96",
+          "-50",
+          "-4",
+          "16"
+        ],
+        "case_id": "S045",
+        "check_summary": "Best-effort periodic-stream extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Likely interleaved phase-specific affine streams."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-27",
+          "-32",
+          "-37"
+        ],
+        "case_id": "S046",
+        "check_summary": "Continues -5 runs with every third-position corrections +3,+8,+13,+18.",
+        "confidence": 0.91,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "198",
+          "236",
+          "274",
+          "312",
+          "350"
+        ],
+        "case_id": "S047",
+        "check_summary": "Best-effort continuation of final arithmetic block.",
+        "confidence": 0.2,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-11",
+          "12",
+          "-25",
+          "-10",
+          "-42"
+        ],
+        "case_id": "S048",
+        "check_summary": "Quadratic extrapolation of phase-1 and phase-3 streams; constant phases retained.",
+        "confidence": 0.4,
+        "rule_summary": "Four-way interleaved polynomial/affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-0025CFC9EF2E-search-b04-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "cacb9455b406f3ee46d8930b902a4a30af6e3dd391723f1088dd99903fea93b8",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-0025CFC9EF2E-search-b04-proposer-8/attempt-01"
+}

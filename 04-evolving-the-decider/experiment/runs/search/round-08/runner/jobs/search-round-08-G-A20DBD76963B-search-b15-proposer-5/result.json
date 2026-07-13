@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1671",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Four interleaved affine streams, each updating by x -> -4x + 5.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments 4 and 5 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-2786",
+          "-4878",
+          "-7930",
+          "-12226",
+          "-18100"
+        ],
+        "case_id": "S171",
+        "check_summary": "Odd and even subsequences each have constant fifth finite difference -128.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Finite differences terminate with constant fourth difference -1.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-54",
+          "-24"
+        ],
+        "case_id": "S173",
+        "check_summary": "Successive differences follow a quadratic pattern with next differences 6,13,21,30,40.",
+        "confidence": 0.97,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18815",
+          "-30443"
+        ],
+        "case_id": "S174",
+        "check_summary": "Second-order recurrence a_n=a_{n-1}+a_{n-2}+periodic residual (-2,-2,3).",
+        "confidence": 0.99,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97957621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating affine updates x -> 3x+1 and x -> -2x+6.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "71",
+          "50",
+          "55",
+          "66",
+          "68"
+        ],
+        "case_id": "S176",
+        "check_summary": "Four interleaved streams have quadratic subsequence increments.",
+        "confidence": 0.94,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "429607",
+          "859247",
+          "214809",
+          "-3436837",
+          "-6874001"
+        ],
+        "case_id": "S177",
+        "check_summary": "Three interleaved affine streams update by x -> -8x + phase-specific bias.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "0",
+          "-5",
+          "8",
+          "-3",
+          "-2"
+        ],
+        "case_id": "S179",
+        "check_summary": "A six-term periodic sequence repeats exactly.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Differences split by parity; odd-phase differences decrement by 7 and even-phase by 6.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-A20DBD76963B-search-b15-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "c89c9e3d29a0f535f7de073c92c041b98ac7434d16cd84a936aa0de00f9b0a56",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-A20DBD76963B-search-b15-proposer-5/attempt-01"
+}

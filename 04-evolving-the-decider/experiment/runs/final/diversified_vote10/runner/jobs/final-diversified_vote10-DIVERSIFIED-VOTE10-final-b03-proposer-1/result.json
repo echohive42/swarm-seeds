@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "391691",
+          "1175067",
+          "3525199",
+          "-3525200",
+          "-10575606"
+        ],
+        "case_id": "F025",
+        "check_summary": "Three-phase affine replay fits all terms.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine updates: 3x-6, 3x-2, -x-1."
+      },
+      {
+        "answer": [
+          "-797164",
+          "-2391487",
+          "-7174456",
+          "-21523363",
+          "-64570084"
+        ],
+        "case_id": "F026",
+        "check_summary": "Constant affine replay fits all terms.",
+        "confidence": 0.99,
+        "rule_summary": "x_next=3x+5."
+      },
+      {
+        "answer": [
+          "23906",
+          "-47660",
+          "95442",
+          "-190944",
+          "382054"
+        ],
+        "case_id": "F027",
+        "check_summary": "Alternating-growth recurrence inferred from the prefix.",
+        "confidence": 0.42,
+        "rule_summary": "Phase-alternating second-order linear behavior."
+      },
+      {
+        "answer": [
+          "37323",
+          "74633",
+          "149281",
+          "298547",
+          "597097"
+        ],
+        "case_id": "F028",
+        "check_summary": "Alternating offsets fit the complete prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Repeated doubling with offsets +odd,-odd."
+      },
+      {
+        "answer": [
+          "5402",
+          "7395",
+          "9941",
+          "13152",
+          "17155"
+        ],
+        "case_id": "F029",
+        "check_summary": "Finite-difference polynomial continuation.",
+        "confidence": 0.92,
+        "rule_summary": "Polynomial sequence with structured increasing finite differences."
+      },
+      {
+        "answer": [
+          "-42",
+          "-47",
+          "-54",
+          "-63",
+          "-74"
+        ],
+        "case_id": "F030",
+        "check_summary": "Periodic polynomial-delta continuation inferred.",
+        "confidence": 0.31,
+        "rule_summary": "Phase-specific running deltas."
+      },
+      {
+        "answer": [
+          "464",
+          "494",
+          "498",
+          "467",
+          "391"
+        ],
+        "case_id": "F031",
+        "check_summary": "Finite-difference continuation fits the observed curvature.",
+        "confidence": 0.88,
+        "rule_summary": "Integer-valued polynomial continuation."
+      },
+      {
+        "answer": [
+          "390452",
+          "1066484",
+          "2912196",
+          "7951640",
+          "21712932"
+        ],
+        "case_id": "F032",
+        "check_summary": "Exponential-growth recurrence continuation inferred.",
+        "confidence": 0.39,
+        "rule_summary": "Second-order growth recurrence with phase effects."
+      },
+      {
+        "answer": [
+          "167",
+          "221",
+          "279",
+          "343",
+          "413"
+        ],
+        "case_id": "F033",
+        "check_summary": "Structured interleaved continuation inferred.",
+        "confidence": 0.28,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "448",
+          "585",
+          "748",
+          "939",
+          "1160"
+        ],
+        "case_id": "F034",
+        "check_summary": "Second differences increase by two throughout.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence with quadratic second-difference pattern."
+      },
+      {
+        "answer": [
+          "-2771363",
+          "-5542730",
+          "-16628195",
+          "-33256394",
+          "-99769187"
+        ],
+        "case_id": "F035",
+        "check_summary": "Alternating affine multipliers replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Repeated updates 3x-5, 2x-4."
+      },
+      {
+        "answer": [
+          "27",
+          "28",
+          "33",
+          "34",
+          "39"
+        ],
+        "case_id": "F036",
+        "check_summary": "Alternating increments fit all terms.",
+        "confidence": 0.99,
+        "rule_summary": "Repeated increments +1,+5."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b03-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "8b09c25055e563a6a9fa6d2130247f7af2e27cf28f9592c6f803d51ba93b4a53",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b03-proposer-1/attempt-01"
+}

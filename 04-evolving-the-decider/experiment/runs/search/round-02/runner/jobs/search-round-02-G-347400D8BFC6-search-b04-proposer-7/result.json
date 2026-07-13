@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-76",
+          "15",
+          "5",
+          "-102",
+          "-10"
+        ],
+        "case_id": "S043",
+        "check_summary": "Three interleaved streams: one has successive decrements increasing by 5; the others are alternating and descending by 1.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "31",
+          "-24",
+          "35",
+          "-28",
+          "39"
+        ],
+        "case_id": "S041",
+        "check_summary": "Odd and even positions are separate arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-21",
+          "12",
+          "-23",
+          "-10",
+          "-56"
+        ],
+        "case_id": "S048",
+        "check_summary": "Four-phase streams; phase 1 and phase 3 follow quadratic block-index trends, while phases 2 and 4 are constant.",
+        "confidence": 0.91,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "100",
+          "51",
+          "67",
+          "83",
+          "99"
+        ],
+        "case_id": "S040",
+        "check_summary": "Positive block increments rise by 4 and repeat; reset increments occur at growing block boundaries.",
+        "confidence": 0.9,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-7",
+          "-12",
+          "-17",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S046",
+        "check_summary": "Mostly decrement by 5, with every third transition receiving an increasing correction of 5.",
+        "confidence": 0.94,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-18",
+          "-22",
+          "-34",
+          "-22",
+          "-35"
+        ],
+        "case_id": "S044",
+        "check_summary": "Three phase-specific polynomial streams inferred from the phase subsequences.",
+        "confidence": 0.72,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-24",
+          "-19",
+          "-5",
+          "-9",
+          "13"
+        ],
+        "case_id": "S037",
+        "check_summary": "No uniquely verified continuation from the supplied prefix.",
+        "confidence": 0.12,
+        "rule_summary": "UNKNOWN"
+      },
+      {
+        "answer": [
+          "59",
+          "15",
+          "88",
+          "62",
+          "69"
+        ],
+        "case_id": "S038",
+        "check_summary": "No uniquely verified continuation from the supplied prefix.",
+        "confidence": 0.1,
+        "rule_summary": "UNKNOWN"
+      },
+      {
+        "answer": [
+          "42",
+          "17",
+          "21",
+          "41",
+          "12"
+        ],
+        "case_id": "S039",
+        "check_summary": "No uniquely verified continuation from the supplied prefix.",
+        "confidence": 0.1,
+        "rule_summary": "UNKNOWN"
+      },
+      {
+        "answer": [
+          "75",
+          "28",
+          "62",
+          "29",
+          "68"
+        ],
+        "case_id": "S042",
+        "check_summary": "No uniquely verified continuation from the supplied prefix.",
+        "confidence": 0.1,
+        "rule_summary": "UNKNOWN"
+      },
+      {
+        "answer": [
+          "16",
+          "-4",
+          "21",
+          "22",
+          "12"
+        ],
+        "case_id": "S045",
+        "check_summary": "No uniquely verified continuation from the supplied prefix.",
+        "confidence": 0.1,
+        "rule_summary": "UNKNOWN"
+      },
+      {
+        "answer": [
+          "-24",
+          "84",
+          "122",
+          "160",
+          "46"
+        ],
+        "case_id": "S047",
+        "check_summary": "Growing arithmetic blocks are visible, but the next block start and length are not uniquely established manually.",
+        "confidence": 0.18,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-347400D8BFC6-search-b04-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "be3d410453067d33d8a36d4069b99bc296c9e44fce4869d1a3f7f0dcc2d8c57a",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-347400D8BFC6-search-b04-proposer-7/attempt-01"
+}

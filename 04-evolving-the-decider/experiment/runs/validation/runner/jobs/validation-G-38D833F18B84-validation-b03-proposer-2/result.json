@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "Constant affine update x'=-3x+3 matches all terms.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3777",
+          "-5390",
+          "-7477",
+          "-9564",
+          "-11651"
+        ],
+        "case_id": "V026",
+        "check_summary": "Tail finite differences indicate third differences decreasing by 7.",
+        "confidence": 0.42,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-2095",
+          "3310",
+          "-5557",
+          "8998",
+          "-14579"
+        ],
+        "case_id": "V027",
+        "check_summary": "Interleaved streams inferred from alternating subsequences; extrapolation uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "47310",
+          "-94662",
+          "189286",
+          "-378616",
+          "757192"
+        ],
+        "case_id": "V028",
+        "check_summary": "Periodic affine update with alternating biases matches prefix.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "12431",
+          "19261",
+          "28629",
+          "41475",
+          "57733"
+        ],
+        "case_id": "V029",
+        "check_summary": "Growing second-difference trend extrapolated from the tail.",
+        "confidence": 0.2,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Two arithmetic streams interleaved by parity.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Alternating affine updates x'≈2x+1 and x'≈3x+7 match all terms.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802339",
+          "71604684",
+          "-214814049",
+          "644442141"
+        ],
+        "case_id": "V032",
+        "check_summary": "Three-phase affine recurrence with multipliers -3,-3,-2 matches prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "963",
+          "-1566",
+          "2526",
+          "-4095",
+          "6618"
+        ],
+        "case_id": "V033",
+        "check_summary": "Odd and even subsequences follow second-order linear difference patterns.",
+        "confidence": 0.86,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "15",
+          "23",
+          "24",
+          "39",
+          "51"
+        ],
+        "case_id": "V034",
+        "check_summary": "Three interleaved quadratic streams match each residue class modulo 3.",
+        "confidence": 0.94,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "57",
+          "90",
+          "46",
+          "98",
+          "66"
+        ],
+        "case_id": "V035",
+        "check_summary": "Interleaved irregular streams extrapolated from local phase patterns.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "815",
+          "1060",
+          "1351",
+          "1692",
+          "2033"
+        ],
+        "case_id": "V036",
+        "check_summary": "Second differences increase by 4, yielding the continuation.",
+        "confidence": 0.97,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-38D833F18B84-validation-b03-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "65a4f7675ce4dbb6ac351613cf78c7b960ad8542856e0d5929deae2ff94de005",
+  "terminal_artifact_relpath": "jobs/validation-G-38D833F18B84-validation-b03-proposer-2/attempt-01"
+}

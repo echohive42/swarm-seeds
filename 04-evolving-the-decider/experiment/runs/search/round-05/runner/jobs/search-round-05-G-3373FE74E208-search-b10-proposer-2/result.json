@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "24",
+          "9",
+          "36",
+          "-7",
+          "50"
+        ],
+        "case_id": "S109",
+        "check_summary": "Odd and even subsequences fit separate simple rules.",
+        "confidence": 0.99,
+        "rule_summary": "Odd positions have successive even increments; even positions alternate 9 and -7."
+      },
+      {
+        "answer": [
+          "12",
+          "-21",
+          "-5",
+          "-6",
+          "17"
+        ],
+        "case_id": "S110",
+        "check_summary": "Candidate periodic interleaving extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic phase-specific affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "81",
+          "96",
+          "111",
+          "126",
+          "141"
+        ],
+        "case_id": "S111",
+        "check_summary": "Tail follows constant increment 15.",
+        "confidence": 0.42,
+        "rule_summary": "Periodic-delta sequence with the observed terminal phase continuing."
+      },
+      {
+        "answer": [
+          "-9",
+          "-6",
+          "43",
+          "-5",
+          "-5"
+        ],
+        "case_id": "S112",
+        "check_summary": "Candidate phase-interleaved extrapolation.",
+        "confidence": 0.15,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "56",
+          "42",
+          "-7",
+          "14",
+          "-2"
+        ],
+        "case_id": "S113",
+        "check_summary": "Candidate interleaved polynomial-stream extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Multiple interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-25",
+          "29",
+          "-13",
+          "113",
+          "30"
+        ],
+        "case_id": "S114",
+        "check_summary": "Candidate periodic second-order extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Phase-specific second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "42",
+          "82",
+          "162",
+          "322",
+          "642"
+        ],
+        "case_id": "S115",
+        "check_summary": "Terminal increments continue doubling.",
+        "confidence": 0.55,
+        "rule_summary": "Interleaved/growing-block pattern with successive increments 5, 10, 20, 40, 80."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd and even subsequences are arithmetic.",
+        "confidence": 1.0,
+        "rule_summary": "Odd positions decrement by 1; even positions decrement by 4."
+      },
+      {
+        "answer": [
+          "36",
+          "8",
+          "12",
+          "47",
+          "10"
+        ],
+        "case_id": "S117",
+        "check_summary": "Candidate interleaved stream continuation.",
+        "confidence": 0.12,
+        "rule_summary": "Multiple interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "41",
+          "36",
+          "31",
+          "59",
+          "54"
+        ],
+        "case_id": "S118",
+        "check_summary": "Differences alternate a rising positive jump with repeated -5.",
+        "confidence": 0.99,
+        "rule_summary": "Positive jumps are 3, 8, 13, 18, 23, 28; intervening deltas are -5."
+      },
+      {
+        "answer": [
+          "82",
+          "86",
+          "4",
+          "82",
+          "86"
+        ],
+        "case_id": "S119",
+        "check_summary": "Candidate three-stream extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "Three interleaved phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "125",
+          "108",
+          "91",
+          "74",
+          "57"
+        ],
+        "case_id": "S120",
+        "check_summary": "Terminal block continues with a positive start followed by repeated negative steps.",
+        "confidence": 0.28,
+        "rule_summary": "Growing arithmetic blocks with polynomial starts and phase-specific steps."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-3373FE74E208-search-b10-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "a238736b401616b9930a2ac36cb3f52e0d8b9e9d6b7fd12aba606aca71dd5e4b",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-3373FE74E208-search-b10-proposer-2/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-143",
+          "5",
+          "-211",
+          "-76",
+          "-50"
+        ],
+        "case_id": "S037",
+        "check_summary": "Best available phase-grouped continuation; alternatives do not replay a comparably coherent structure.",
+        "confidence": 0.28,
+        "rule_summary": "INTERLEAVE with three phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "91",
+          "139",
+          "143",
+          "167",
+          "169"
+        ],
+        "case_id": "S038",
+        "check_summary": "Best available phase-interleaved affine continuation.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "23",
+          "31",
+          "45",
+          "43",
+          "51"
+        ],
+        "case_id": "S039",
+        "check_summary": "Best available interleaved continuation from the bounded phase patterns.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "51",
+          "71",
+          "91",
+          "111",
+          "131"
+        ],
+        "case_id": "S040",
+        "check_summary": "Blocks of lengths 2, 3, 4, and 5 have starts 15,18,25,36,51 and steps 4,8,12,16,20.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Odd positions decrease by 4 and even positions increase by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-14",
+          "57",
+          "-19",
+          "36",
+          "-1"
+        ],
+        "case_id": "S042",
+        "check_summary": "Best available periodic-affine continuation; confidence remains low.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "15",
+          "5",
+          "-76",
+          "-10",
+          "4"
+        ],
+        "case_id": "S043",
+        "check_summary": "Three residue-class streams replay exact arithmetic patterns: alternating, descending, and polynomially declining.",
+        "confidence": 0.91,
+        "rule_summary": "Three-way INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-18",
+          "-28",
+          "-22",
+          "-28",
+          "-40"
+        ],
+        "case_id": "S044",
+        "check_summary": "Lag-3 streams fit exact polynomial increments, including successive differences -7,-8,-9 and 6,0,-6,-12.",
+        "confidence": 0.95,
+        "rule_summary": "LAGPOLY."
+      },
+      {
+        "answer": [
+          "-4",
+          "-28",
+          "-4",
+          "-6",
+          "-4"
+        ],
+        "case_id": "S045",
+        "check_summary": "Best available periodic interleaving continuation; evidence is weak.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-17",
+          "-22",
+          "-27",
+          "-32",
+          "-37"
+        ],
+        "case_id": "S046",
+        "check_summary": "Growing arithmetic blocks use step -5; the next block starts at -17.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "198",
+          "101",
+          "147",
+          "193",
+          "239"
+        ],
+        "case_id": "S047",
+        "check_summary": "Best-supported continuation of the observed growing arithmetic blocks.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-21",
+          "12",
+          "-25",
+          "-10",
+          "-50"
+        ],
+        "case_id": "S048",
+        "check_summary": "Four interleaved streams: two constants and two quadratic phase streams.",
+        "confidence": 0.93,
+        "rule_summary": "INTERLEAVE."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-AA614F215F9C-search-b04-critic-2",
+  "outcome": "valid_output",
+  "response_sha256": "c7c10ec224f67b6d971fbacaf32d8fad77e22bb5aef1fe52c13fd54830e3dd8a",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-AA614F215F9C-search-b04-critic-2/attempt-01"
+}

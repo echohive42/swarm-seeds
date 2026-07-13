@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "-11",
+          "-39",
+          "-67",
+          "-95",
+          "-123"
+        ],
+        "case_id": "S133",
+        "check_summary": "The strongest coherent fit is a growing-block continuation with the next block beginning at -11 and step -28.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-8",
+          "-5",
+          "-2",
+          "-19",
+          "-16"
+        ],
+        "case_id": "S134",
+        "check_summary": "Ascending runs use step +3, with block resets continuing at the observed pattern.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA/GROWBLOCK"
+      },
+      {
+        "answer": [
+          "35",
+          "-363",
+          "-14",
+          "40",
+          "-731"
+        ],
+        "case_id": "S135",
+        "check_summary": "Three interleaved streams replay the prefix exactly and determine the continuation.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-37",
+          "-71",
+          "253",
+          "-153",
+          "-181"
+        ],
+        "case_id": "S136",
+        "check_summary": "The best available coherent candidate extrapolates the three position-modulo-3 polynomial streams.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-1020",
+          "14",
+          "-2044",
+          "25",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd terms follow x to 2x-4; even terms have successive differences increasing by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "2",
+          "22",
+          "-73",
+          "8",
+          "8"
+        ],
+        "case_id": "S138",
+        "check_summary": "Three interleaved polynomial-increment streams provide the strongest full-prefix fit.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "2",
+          "7",
+          "-16",
+          "5",
+          "9"
+        ],
+        "case_id": "S139",
+        "check_summary": "The strongest coherent candidate uses a repeating six-phase delta pattern.",
+        "confidence": 0.62,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "45",
+          "28",
+          "65",
+          "73",
+          "-21"
+        ],
+        "case_id": "S140",
+        "check_summary": "Three interleaved streams, including polynomial-difference and alternating components, fit the prefix.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "39",
+          "51",
+          "60",
+          "27",
+          "68"
+        ],
+        "case_id": "S141",
+        "check_summary": "This is the selected phase-specific affine continuation among weak competing fits.",
+        "confidence": 0.16,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "128",
+          "5",
+          "20",
+          "-8",
+          "-28"
+        ],
+        "case_id": "S142",
+        "check_summary": "Period-three subsequences receive the strongest available polynomial continuation support.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE/POLY"
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "4",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Odd positions decrease by 2 and even positions decrease by 1.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "1",
+          "-15",
+          "-31",
+          "-47",
+          "-63"
+        ],
+        "case_id": "S144",
+        "check_summary": "Growing arithmetic blocks have increasing lengths and phase steps decreasing by 4.",
+        "confidence": 0.87,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-3373FE74E208-search-b12-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "b3a658377d79388019586914bf22bd01672ef045a5c6f10519b69a669b9a0a8c",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-3373FE74E208-search-b12-judge-1/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "The constant affine recurrence x'=-3x+3 exactly reproduces every visible transition.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3777",
+          "-5390",
+          "-7477",
+          "-10123",
+          "-13420"
+        ],
+        "case_id": "V026",
+        "check_summary": "The fourth finite difference is constant at -7, supporting the polynomial continuation.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-2105",
+          "4510",
+          "-9460",
+          "19895",
+          "-41740"
+        ],
+        "case_id": "V027",
+        "check_summary": "Among the proposals, this is the best-supported continuation of the oscillatory structured recurrence.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic affine/LIN2 continuation"
+      },
+      {
+        "answer": [
+          "47310",
+          "-94660",
+          "189276",
+          "-378594",
+          "757142"
+        ],
+        "case_id": "V028",
+        "check_summary": "A period-2 affine recurrence with multiplier -2 and evolving phase biases matches the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "12217",
+          "18930",
+          "27984",
+          "40046",
+          "55011"
+        ],
+        "case_id": "V029",
+        "check_summary": "This is the best-supported higher-order growth continuation among the proposed candidates.",
+        "confidence": 0.3,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Odd and even subsequences are arithmetic streams increasing by one.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Alternating updates x'=2x+1 and x'=3x+7 exactly reproduce the prefix.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802339",
+          "71604684",
+          "-214814049",
+          "644442141"
+        ],
+        "case_id": "V032",
+        "check_summary": "The period-3 affine updates (-2,+6), (-3,+3), and (-3,-6) reproduce the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "963",
+          "-1566",
+          "2526",
+          "-4095",
+          "6621"
+        ],
+        "case_id": "V033",
+        "check_summary": "The recurrence x_n=-x_{n-1}+x_{n-2}-3 exactly matches the visible sequence.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-10",
+          "-3",
+          "-17",
+          "12",
+          "-15"
+        ],
+        "case_id": "V034",
+        "check_summary": "This is the best-supported periodic/interleaved continuation among the proposals.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "57",
+          "36",
+          "85",
+          "80",
+          "74"
+        ],
+        "case_id": "V035",
+        "check_summary": "This is the strongest available interleaved-stream continuation against the prefix.",
+        "confidence": 0.42,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "815",
+          "1060",
+          "1351",
+          "1692",
+          "2087"
+        ],
+        "case_id": "V036",
+        "check_summary": "Second differences increase by four, yielding the polynomial continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b03-critic-2",
+  "outcome": "valid_output",
+  "response_sha256": "282a5b750a63dea12545dfb2de4df897546cb82d54ae3a931fbffb715bbee415",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b03-critic-2/attempt-01"
+}

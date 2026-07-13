@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "20",
+          "9",
+          "36",
+          "-7",
+          "42"
+        ],
+        "case_id": "S109",
+        "check_summary": "Four-position interleave; residue streams include constants and quadratic progressions.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3",
+          "17",
+          "12",
+          "11",
+          "-12"
+        ],
+        "case_id": "S110",
+        "check_summary": "Periodic phase structure with repeated 17, 12, and -12 streams.",
+        "confidence": 0.34,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "80",
+          "95",
+          "112",
+          "131",
+          "152"
+        ],
+        "case_id": "S111",
+        "check_summary": "Piecewise periodic polynomial-delta pattern; extrapolation follows recent phase increments.",
+        "confidence": 0.22,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-6",
+          "-7",
+          "43",
+          "-5",
+          "-5"
+        ],
+        "case_id": "S112",
+        "check_summary": "Four-phase recurrence with alternating irregular phase-specific updates.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "48",
+          "-12",
+          "56",
+          "-5",
+          "70"
+        ],
+        "case_id": "S113",
+        "check_summary": "Interleaved phase streams with polynomial/affine local progression.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-25",
+          "29",
+          "-915",
+          "-27",
+          "1821"
+        ],
+        "case_id": "S114",
+        "check_summary": "Alternating phase recurrence with rapidly growing signed updates.",
+        "confidence": 0.2,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "42",
+          "82",
+          "162",
+          "322",
+          "642"
+        ],
+        "case_id": "S115",
+        "check_summary": "Recent differences follow doubling blocks: 5, 10, 20, 40, 80.",
+        "confidence": 0.55,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Two interleaved arithmetic streams: odd terms descend by one, even terms by four.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "27",
+          "44",
+          "6",
+          "40",
+          "22"
+        ],
+        "case_id": "S117",
+        "check_summary": "Phase-interleaved sequence with recurring affine subsequence behavior.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "5",
+          "8",
+          "18",
+          "26",
+          "-3"
+        ],
+        "case_id": "S118",
+        "check_summary": "Four interleaved quadratic streams extrapolated from residue classes.",
+        "confidence": 0.6,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "68",
+          "4",
+          "76",
+          "1",
+          "80"
+        ],
+        "case_id": "S119",
+        "check_summary": "Three-phase delta pattern with growing positive and negative phase contributions.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "148",
+          "133",
+          "118",
+          "103",
+          "208"
+        ],
+        "case_id": "S120",
+        "check_summary": "Periodic phase deltas show repeated descending runs with accelerating reset terms.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-E2CB7ED71793-search-b10-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "c11ca160c74f3a381a9e9a4ec0fcf7acec3c5e174574befff572614c4f31790f",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-E2CB7ED71793-search-b10-proposer-3/attempt-01"
+}

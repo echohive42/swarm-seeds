@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating first differences -4,-3 across the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic arithmetic update with phase deltas -4 and -3."
+      },
+      {
+        "answer": [
+          "9345",
+          "-15126",
+          "24472",
+          "-39608",
+          "64081"
+        ],
+        "case_id": "S074",
+        "check_summary": "Alternating-sign near-Fibonacci growth; extrapolation from terminal recurrence pattern.",
+        "confidence": 0.31,
+        "rule_summary": "Phase-dependent second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "8",
+          "6",
+          "10",
+          "7",
+          "10"
+        ],
+        "case_id": "S075",
+        "check_summary": "Interleaved short polynomial/affine streams; extrapolated phase-wise.",
+        "confidence": 0.26,
+        "rule_summary": "Three-stream interleaving."
+      },
+      {
+        "answer": [
+          "-14789",
+          "-22374",
+          "-31967",
+          "-43782",
+          "-57841"
+        ],
+        "case_id": "S076",
+        "check_summary": "Accelerating negative differences consistent with phase-dependent polynomial deltas.",
+        "confidence": 0.34,
+        "rule_summary": "Periodic polynomial-delta update."
+      },
+      {
+        "answer": [
+          "-4051",
+          "-9770",
+          "-23538",
+          "-56686",
+          "-136594"
+        ],
+        "case_id": "S077",
+        "check_summary": "Strong approximately 2.4x negative growth; extrapolated affine phase recurrence.",
+        "confidence": 0.28,
+        "rule_summary": "Phase-dependent affine update."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182174"
+        ],
+        "case_id": "S078",
+        "check_summary": "Exact recurrence x_next=-3x+5 throughout the prefix.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence x_next=-3x+5."
+      },
+      {
+        "answer": [
+          "77",
+          "93",
+          "120",
+          "151",
+          "190"
+        ],
+        "case_id": "S079",
+        "check_summary": "Interleaved polynomial streams extrapolated from terminal phase behavior.",
+        "confidence": 0.25,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-1225298",
+          "3675898",
+          "-11027696",
+          "33083090",
+          "-99249272"
+        ],
+        "case_id": "S080",
+        "check_summary": "Periodic affine growth with recurring sign and magnitude pattern.",
+        "confidence": 0.3,
+        "rule_summary": "Phase-dependent affine recurrence."
+      },
+      {
+        "answer": [
+          "-152370",
+          "304738",
+          "-609474",
+          "1218946",
+          "-2437890"
+        ],
+        "case_id": "S081",
+        "check_summary": "Exact alternating recurrence x_next=-2x+2 and x_next=-2x-2.",
+        "confidence": 1.0,
+        "rule_summary": "Two-phase affine recurrence with multiplier -2 and biases +2,-2."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "From the fourth term onward, successive deltas are negative squares.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial delta rule with deltas -1,-4,-9,... after startup."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7643",
+          "-10173"
+        ],
+        "case_id": "S083",
+        "check_summary": "Finite-difference extrapolation from the apparent polynomial difference pattern.",
+        "confidence": 0.46,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "349210",
+          "-837895",
+          "2010948",
+          "-4826283",
+          "11583080"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating exponential recurrence extrapolated from the terminal prefix.",
+        "confidence": 0.27,
+        "rule_summary": "Phase-dependent affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-335AFD967606-search-b07-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "5dd71326d4c0ebf85e2feb06f4c6f7f43e0613a2d54df509bc0336e25ef3b74c",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-335AFD967606-search-b07-proposer-6/attempt-01"
+}

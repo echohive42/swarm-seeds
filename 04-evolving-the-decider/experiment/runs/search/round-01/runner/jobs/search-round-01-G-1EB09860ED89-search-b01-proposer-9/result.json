@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b01",
+    "results": [
+      {
+        "answer": [
+          "-218",
+          "234",
+          "-255",
+          "271",
+          "-292"
+        ],
+        "case_id": "S003",
+        "check_summary": "Alternating arithmetic streams with step ±37.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic progressions."
+      },
+      {
+        "answer": [
+          "-129",
+          "-203",
+          "-296",
+          "-410",
+          "-547"
+        ],
+        "case_id": "S004",
+        "check_summary": "Third differences are constant -2.",
+        "confidence": 0.99,
+        "rule_summary": "Cubic polynomial sequence."
+      },
+      {
+        "answer": [
+          "1106415",
+          "3319238",
+          "-6638481",
+          "19915436",
+          "-39830877"
+        ],
+        "case_id": "S005",
+        "check_summary": "Alternating affine updates replay the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "Period-2 affine recurrence."
+      },
+      {
+        "answer": [
+          "-797163",
+          "-2391486",
+          "-7174455",
+          "-21523362",
+          "-64570083"
+        ],
+        "case_id": "S008",
+        "check_summary": "Each term equals three times the prior term plus three.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence a(n)=3a(n-1)+3."
+      },
+      {
+        "answer": [
+          "947",
+          "2848",
+          "4031",
+          "5495",
+          "7288"
+        ],
+        "case_id": "S002",
+        "check_summary": "Fourth finite differences are constant 3.",
+        "confidence": 0.99,
+        "rule_summary": "Quartic polynomial sequence."
+      },
+      {
+        "answer": [
+          "113309",
+          "-113304",
+          "37771",
+          "-679843",
+          "679848"
+        ],
+        "case_id": "S012",
+        "check_summary": "Three interleaved affine streams each have multiplier -6.",
+        "confidence": 0.99,
+        "rule_summary": "Three-way interleaved affine recurrence."
+      },
+      {
+        "answer": [
+          "17",
+          "15",
+          "19",
+          "17",
+          "21"
+        ],
+        "case_id": "S010",
+        "check_summary": "Alternating increments are +4 and -2.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 arithmetic update."
+      },
+      {
+        "answer": [
+          "-151",
+          "-177",
+          "-211",
+          "-253",
+          "-303"
+        ],
+        "case_id": "S001",
+        "check_summary": "Prefix suggests a periodic polynomial-delta process.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic delta sequence."
+      },
+      {
+        "answer": [
+          "-1922",
+          "-4921",
+          "-12520",
+          "-31717",
+          "-80202"
+        ],
+        "case_id": "S006",
+        "check_summary": "Prefix suggests phase-dependent affine growth.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-14102",
+          "-22870",
+          "-35558",
+          "-51926",
+          "-71374"
+        ],
+        "case_id": "S007",
+        "check_summary": "Prefix suggests a growing polynomial-block process.",
+        "confidence": 0.15,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-1528503",
+          "-4219066",
+          "-11648251",
+          "-32173872",
+          "-88810743"
+        ],
+        "case_id": "S009",
+        "check_summary": "Prefix suggests a phase-dependent linear recurrence.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "-2229683",
+          "-5369626",
+          "-12919291",
+          "-31068284",
+          "-74758451"
+        ],
+        "case_id": "S011",
+        "check_summary": "Prefix suggests alternating affine growth.",
+        "confidence": 0.14,
+        "rule_summary": "Period-2 affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-1EB09860ED89-search-b01-proposer-9",
+  "outcome": "valid_output",
+  "response_sha256": "f47ca70335057a072235289a0e01e5fa784f119e9b73245c4924596d7ed4727b",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-1EB09860ED89-search-b01-proposer-9/attempt-01"
+}

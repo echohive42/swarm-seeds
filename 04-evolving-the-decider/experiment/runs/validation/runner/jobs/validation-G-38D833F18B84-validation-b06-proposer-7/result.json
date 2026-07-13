@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b06",
+    "results": [
+      {
+        "answer": [
+          "20",
+          "24",
+          "28",
+          "32",
+          "36"
+        ],
+        "case_id": "V061",
+        "check_summary": "Uncertain extrapolation; bounded periodic structure suspected.",
+        "confidence": 0.08,
+        "rule_summary": "Candidate periodic modular/interleaved rule."
+      },
+      {
+        "answer": [
+          "-74",
+          "-44",
+          "-14",
+          "16",
+          "46"
+        ],
+        "case_id": "V062",
+        "check_summary": "Observed repeated positive delta blocks with increasingly spaced negative resets.",
+        "confidence": 0.42,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-40",
+          "-25",
+          "2",
+          "-52",
+          "-78"
+        ],
+        "case_id": "V063",
+        "check_summary": "Weak fit from residue-class extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Candidate interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "20",
+          "-33",
+          "24",
+          "-38",
+          "28"
+        ],
+        "case_id": "V064",
+        "check_summary": "Odd terms rise by 4; even terms fall by 5.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "58",
+          "47",
+          "82",
+          "61",
+          "65"
+        ],
+        "case_id": "V065",
+        "check_summary": "Low-confidence bounded interleaved extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "Candidate modular/interleaved structure."
+      },
+      {
+        "answer": [
+          "-49",
+          "449",
+          "-60",
+          "897",
+          "-72"
+        ],
+        "case_id": "V066",
+        "check_summary": "Odd subsequence decreases by successive integers; even subsequence doubles minus 1.",
+        "confidence": 0.99,
+        "rule_summary": "Two lagged polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "42",
+          "19",
+          "16",
+          "34",
+          "61"
+        ],
+        "case_id": "V067",
+        "check_summary": "Weak residue-class extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "Candidate interleaved streams."
+      },
+      {
+        "answer": [
+          "-49",
+          "33",
+          "6",
+          "-54",
+          "54"
+        ],
+        "case_id": "V068",
+        "check_summary": "Three residue classes show polynomial increments.",
+        "confidence": 0.96,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-30",
+          "-6",
+          "-11",
+          "-39",
+          "-20"
+        ],
+        "case_id": "V069",
+        "check_summary": "Low-confidence extrapolation from possible interleaved/modular structure.",
+        "confidence": 0.06,
+        "rule_summary": "Candidate interleaved or modular affine rule."
+      },
+      {
+        "answer": [
+          "117",
+          "135",
+          "153",
+          "171",
+          "189"
+        ],
+        "case_id": "V070",
+        "check_summary": "Final block advances by repeated increment 18.",
+        "confidence": 0.5,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-37",
+          "-2",
+          "19",
+          "-87",
+          "-2"
+        ],
+        "case_id": "V071",
+        "check_summary": "Residue class 2 is constant; residue class 0 has quadratic increments; residue class 1 has falling second differences.",
+        "confidence": 0.86,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "35",
+          "24",
+          "28",
+          "32",
+          "36"
+        ],
+        "case_id": "V072",
+        "check_summary": "Repeated +4 runs are interrupted by increasingly negative resets.",
+        "confidence": 0.55,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-38D833F18B84-validation-b06-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "8f979c592b8e15ccd8f0c25786efa66d51ea051ffc4a77164ace35c6be00fd7f",
+  "terminal_artifact_relpath": "jobs/validation-G-38D833F18B84-validation-b06-proposer-7/attempt-01"
+}

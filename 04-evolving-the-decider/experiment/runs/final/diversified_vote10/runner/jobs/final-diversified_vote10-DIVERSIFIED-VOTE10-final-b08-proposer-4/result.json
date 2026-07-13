@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b08",
+    "results": [
+      {
+        "answer": [
+          "17",
+          "-24",
+          "18",
+          "-28",
+          "19"
+        ],
+        "case_id": "F085",
+        "check_summary": "Two interleaved arithmetic streams: odd terms increase by 1; even terms decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "54",
+          "41",
+          "68",
+          "59",
+          "82"
+        ],
+        "case_id": "F086",
+        "check_summary": "Candidate phase-interleaved continuation; prefix supports multiple phase-specific updates.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-2",
+          "-11",
+          "-20",
+          "-29",
+          "33"
+        ],
+        "case_id": "F087",
+        "check_summary": "Block-difference pattern: positive jumps alternate with repeated negative steps; next positive jump inferred as 62.",
+        "confidence": 0.83,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "89",
+          "110",
+          "131",
+          "152",
+          "173"
+        ],
+        "case_id": "F088",
+        "check_summary": "Difference blocks show singleton negative jumps followed by repeated positive jumps of increasing magnitude.",
+        "confidence": 0.97,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "11",
+          "46",
+          "-15",
+          "60",
+          "11"
+        ],
+        "case_id": "F089",
+        "check_summary": "Odd stream alternates 11 and -15; even stream has increments 2,4,6,8,10.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-44",
+          "-32",
+          "-25",
+          "-54",
+          "-33"
+        ],
+        "case_id": "F090",
+        "check_summary": "Three lagged streams have arithmetic second-difference progressions.",
+        "confidence": 0.9,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "15",
+          "39",
+          "-763",
+          "18",
+          "54"
+        ],
+        "case_id": "F091",
+        "check_summary": "Three interleaved streams: doubling-minus-5-like negative stream, +3 stream, and quadratic stream.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "34",
+          "-29",
+          "24",
+          "77",
+          "-5"
+        ],
+        "case_id": "F092",
+        "check_summary": "Candidate phase-interleaved continuation; prefix is consistent with a higher-period structured rule.",
+        "confidence": 0.14,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "33",
+          "21",
+          "26",
+          "31",
+          "36"
+        ],
+        "case_id": "F093",
+        "check_summary": "Growing arithmetic blocks with starts increasing by 3 and within-block step 5.",
+        "confidence": 0.96,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "43",
+          "65",
+          "79",
+          "68",
+          "83"
+        ],
+        "case_id": "F094",
+        "check_summary": "Candidate continuation from phase-specific interleaving; evidence is weak.",
+        "confidence": 0.12,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-46",
+          "36",
+          "86",
+          "-91",
+          "20"
+        ],
+        "case_id": "F095",
+        "check_summary": "Candidate continuation from interleaved phase streams; evidence is weak.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "53",
+          "-67",
+          "107",
+          "85",
+          "-123"
+        ],
+        "case_id": "F096",
+        "check_summary": "Three lagged polynomial streams with progressively changing second differences.",
+        "confidence": 0.97,
+        "rule_summary": "LAGPOLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b08-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "66054d3a85b23f7dc9518cf7df539ee26559c4c7a4469b9b68f0d993c5d6bc74",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b08-proposer-4/attempt-01"
+}

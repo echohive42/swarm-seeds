@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V013",
+        "check_summary": "Detected alternating arithmetic subsequences in the visible suffix.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-12",
+          "-14",
+          "-16",
+          "-18",
+          "-20"
+        ],
+        "case_id": "V014",
+        "check_summary": "Continuation follows the dominant recent decrement pattern.",
+        "confidence": 0.22,
+        "rule_summary": "Periodic delta update."
+      },
+      {
+        "answer": [
+          "-1",
+          "-17",
+          "-5",
+          "-21",
+          "-1"
+        ],
+        "case_id": "V015",
+        "check_summary": "Candidate continuation inferred from alternating phase behavior.",
+        "confidence": 0.08,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V016",
+        "check_summary": "Odd and even subsequences are arithmetic with step 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V017",
+        "check_summary": "Odd subsequence has successive decrements; even subsequence doubles its negative magnitude plus progression.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/geometric-phase streams."
+      },
+      {
+        "answer": [
+          "-8",
+          "95",
+          "6",
+          "191",
+          "-2"
+        ],
+        "case_id": "V018",
+        "check_summary": "Candidate continuation inferred from phase-separated recent behavior.",
+        "confidence": 0.07,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-1",
+          "23",
+          "-25",
+          "-2",
+          "34"
+        ],
+        "case_id": "V019",
+        "check_summary": "Three phase streams are partially identifiable from the prefix.",
+        "confidence": 0.83,
+        "rule_summary": "Three interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "31",
+          "7",
+          "77",
+          "4",
+          "100"
+        ],
+        "case_id": "V020",
+        "check_summary": "Candidate continuation inferred from recent phase structure.",
+        "confidence": 0.06,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-37",
+          "-7",
+          "-48",
+          "-9",
+          "-59"
+        ],
+        "case_id": "V021",
+        "check_summary": "Candidate continuation inferred from alternating recent differences.",
+        "confidence": 0.06,
+        "rule_summary": "Periodic affine update modulo a prime."
+      },
+      {
+        "answer": [
+          "-5",
+          "121",
+          "-116",
+          "-6",
+          "181"
+        ],
+        "case_id": "V022",
+        "check_summary": "Candidate continuation inferred from alternating signed growth.",
+        "confidence": 0.05,
+        "rule_summary": "Periodic affine update modulo a prime."
+      },
+      {
+        "answer": [
+          "-127",
+          "-6",
+          "-155",
+          "-7",
+          "-183"
+        ],
+        "case_id": "V023",
+        "check_summary": "Candidate continuation inferred from visible descending phase trends.",
+        "confidence": 0.06,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-8",
+          "28",
+          "-3",
+          "34",
+          "2"
+        ],
+        "case_id": "V024",
+        "check_summary": "Candidate continuation inferred from phase-separated oscillation.",
+        "confidence": 0.05,
+        "rule_summary": "Periodic affine update."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b02-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "30bf9a9b38cd2d9abc9f62080ceff202f4f26fe2eec87e3fc7c09866f1752f4d",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b02-proposer-7/attempt-01"
+}

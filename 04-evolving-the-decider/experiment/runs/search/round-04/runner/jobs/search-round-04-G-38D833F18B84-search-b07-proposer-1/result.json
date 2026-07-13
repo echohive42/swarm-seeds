@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating first differences -4,-3 replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine delta with period 2."
+      },
+      {
+        "answer": [
+          "9250",
+          "-15001",
+          "24307",
+          "-39355",
+          "63728"
+        ],
+        "case_id": "S074",
+        "check_summary": "Exponential alternating-sign continuation inferred from visible recurrence family.",
+        "confidence": 0.32,
+        "rule_summary": "Phase-dependent second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "8",
+          "10",
+          "8",
+          "12",
+          "16"
+        ],
+        "case_id": "S075",
+        "check_summary": "Interleaved short streams inferred from alternating residue patterns.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-13521",
+          "-18629",
+          "-24252",
+          "-30258",
+          "-36397"
+        ],
+        "case_id": "S076",
+        "check_summary": "Accelerating negative differences indicate phase-dependent nonlinear growth.",
+        "confidence": 0.2,
+        "rule_summary": "Running periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-4231",
+          "-10887",
+          "-28308",
+          "-73915",
+          "-193315"
+        ],
+        "case_id": "S077",
+        "check_summary": "First differences continue recurrence d_n=3d_(n-1)-d_(n-2).",
+        "confidence": 0.9,
+        "rule_summary": "Second-order linear recurrence on running differences."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Exact update x'=-3x+5 replays all terms.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "83",
+          "108",
+          "145",
+          "181",
+          "226"
+        ],
+        "case_id": "S079",
+        "check_summary": "Continuation inferred from alternating growing increment patterns.",
+        "confidence": 0.21,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "1225270",
+          "-3675812",
+          "408426",
+          "3675838",
+          "-33082502"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three phase streams each follow multiplier 9 with phase-specific bias.",
+        "confidence": 0.98,
+        "rule_summary": "Three-way interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-152378",
+          "304766",
+          "609522",
+          "-1219042",
+          "-2438086"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating phase affine continuation inferred from repeated doubling structure.",
+        "confidence": 0.45,
+        "rule_summary": "Phase-dependent affine recurrence."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Differences are successive negative squares from the visible prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence with quadratic first differences."
+      },
+      {
+        "answer": [
+          "-2557",
+          "-3288",
+          "-4067",
+          "-4899",
+          "-5789"
+        ],
+        "case_id": "S083",
+        "check_summary": "Second differences continue decreasing by 5.",
+        "confidence": 0.86,
+        "rule_summary": "Polynomial continuation."
+      },
+      {
+        "answer": [
+          "349134",
+          "-839635",
+          "2015123",
+          "-4836304",
+          "11607199"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating exponential continuation inferred from the visible prefix.",
+        "confidence": 0.25,
+        "rule_summary": "Phase-dependent affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-38D833F18B84-search-b07-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "d36355983c60a39998d2b8a12303d24ccb7d429781730103eb733d939688eba6",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-38D833F18B84-search-b07-proposer-1/attempt-01"
+}

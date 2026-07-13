@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-8",
+          "-12",
+          "-16",
+          "-20",
+          "-24"
+        ],
+        "case_id": "V013",
+        "check_summary": "Extrapolated from the late periodic-delta structure.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative periodic polynomial-delta continuation."
+      },
+      {
+        "answer": [
+          "-11",
+          "-12",
+          "-13",
+          "-14",
+          "-15"
+        ],
+        "case_id": "V014",
+        "check_summary": "Late terms suggest alternating small negative decrements.",
+        "confidence": 0.14,
+        "rule_summary": "Tentative phase-specific delta continuation."
+      },
+      {
+        "answer": [
+          "-1",
+          "-14",
+          "-5",
+          "-15",
+          "-17"
+        ],
+        "case_id": "V015",
+        "check_summary": "Used tentative phase-separated continuation.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V016",
+        "check_summary": "Odd and even subsequences are arithmetic with steps -4 and +4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V017",
+        "check_summary": "Odd subsequence has successive decrements 1,2,3,4,5; even subsequence doubles its decrement.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of polynomial and affine-exponential-looking phase streams."
+      },
+      {
+        "answer": [
+          "-13",
+          "-25",
+          "-2",
+          "-89",
+          "-21"
+        ],
+        "case_id": "V018",
+        "check_summary": "Tentative phase-specific recurrence continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic affine/LIN2 mechanism."
+      },
+      {
+        "answer": [
+          "-25",
+          "-1",
+          "20",
+          "-25",
+          "-2"
+        ],
+        "case_id": "V019",
+        "check_summary": "Tentative four-phase continuation based on repeated late phase values.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative periodic affine mechanism."
+      },
+      {
+        "answer": [
+          "28",
+          "11",
+          "5",
+          "33",
+          "15"
+        ],
+        "case_id": "V020",
+        "check_summary": "Tentative interleaved continuation from recurring local patterns.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative multi-stream interleave."
+      },
+      {
+        "answer": [
+          "14",
+          "-5",
+          "-24",
+          "-43",
+          "-62"
+        ],
+        "case_id": "V021",
+        "check_summary": "Tentative continuation of the late negative trend.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative polynomial-delta mechanism."
+      },
+      {
+        "answer": [
+          "81",
+          "-70",
+          "4",
+          "-137",
+          "8"
+        ],
+        "case_id": "V022",
+        "check_summary": "Tentative alternating phase continuation.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative periodic affine mechanism."
+      },
+      {
+        "answer": [
+          "-127",
+          "-156",
+          "-185",
+          "-214",
+          "-243"
+        ],
+        "case_id": "V023",
+        "check_summary": "Late terms show a strong approximately constant decrement in one phase.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-4",
+          "-9",
+          "-17",
+          "-14",
+          "-30"
+        ],
+        "case_id": "V024",
+        "check_summary": "Tentative phase-separated continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative interleaved polynomial/affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-38D833F18B84-validation-b02-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "8b1b6a907b93301c112564ecbe5df272bff421fd32f0fb703a95caba7d7fa6fb",
+  "terminal_artifact_relpath": "jobs/validation-G-38D833F18B84-validation-b02-proposer-5/attempt-01"
+}

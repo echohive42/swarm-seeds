@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "-11",
+          "-39",
+          "-67",
+          "-95",
+          "-123"
+        ],
+        "case_id": "S133",
+        "check_summary": "Growing arithmetic blocks with starts and steps following polynomial trends; prefix replay matches.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-8",
+          "-5",
+          "-2",
+          "1",
+          "4"
+        ],
+        "case_id": "S134",
+        "check_summary": "Growing blocks have lengths 1,2,3,4 and within-block increment 3; block starts decrease by 5.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "35",
+          "-363",
+          "-14",
+          "40",
+          "-731"
+        ],
+        "case_id": "S135",
+        "check_summary": "Three interleaved streams: constant +5, quadratic doubling-minus adjustments, and decreasing even-step stream.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-17",
+          "-31",
+          "-74",
+          "-61",
+          "-143"
+        ],
+        "case_id": "S136",
+        "check_summary": "Candidate phase-interleaved recurrence fit; confidence limited by irregular prefix.",
+        "confidence": 0.22,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-1020",
+          "14",
+          "-2044",
+          "25",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd subsequence follows x'=2x-4; even subsequence has successive differences -4,-1,2,5,8.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "0",
+          "22",
+          "-73",
+          "47",
+          "4"
+        ],
+        "case_id": "S138",
+        "check_summary": "Three interleaved streams; first has fourth-difference pattern, third has quadratic difference growth.",
+        "confidence": 0.65,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "31",
+          "-1",
+          "54",
+          "-2",
+          "79"
+        ],
+        "case_id": "S139",
+        "check_summary": "Candidate interleaved polynomial/affine extrapolation; irregular phase behavior lowers confidence.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "45",
+          "28",
+          "65",
+          "73",
+          "-21"
+        ],
+        "case_id": "S140",
+        "check_summary": "Three interleaved streams: one quadratic-difference stream, one constant second-difference stream, and an alternating stream.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "39",
+          "51",
+          "60",
+          "27",
+          "68"
+        ],
+        "case_id": "S141",
+        "check_summary": "Candidate phase-specific affine recurrence extrapolation; prefix admits limited-confidence fit.",
+        "confidence": 0.16,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "19",
+          "-29",
+          "11",
+          "95",
+          "27"
+        ],
+        "case_id": "S142",
+        "check_summary": "Candidate three-phase interleaved recurrence extrapolation; confidence limited.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "4",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Odd positions decrease by 2; even positions decrease by 1.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-50",
+          "-62",
+          "-74",
+          "-86",
+          "-98"
+        ],
+        "case_id": "S144",
+        "check_summary": "Candidate phase-specific arithmetic continuation from the terminal regular segment.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-3373FE74E208-search-b12-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "2ac28e2b790dfa121845bd8f520bdab8347f959d9045953907511af95a7755aa",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-3373FE74E208-search-b12-proposer-1/attempt-01"
+}

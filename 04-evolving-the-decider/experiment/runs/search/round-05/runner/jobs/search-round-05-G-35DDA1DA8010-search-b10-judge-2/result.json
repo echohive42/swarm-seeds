@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "24",
+          "9",
+          "36",
+          "-7",
+          "50"
+        ],
+        "case_id": "S109",
+        "check_summary": "Plurality of independent proposals; odd stream quadratic and even stream alternating.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "12",
+          "5",
+          "-12",
+          "-2",
+          "7"
+        ],
+        "case_id": "S110",
+        "check_summary": "Plurality supports consistent six-phase continuation.",
+        "confidence": 0.78,
+        "rule_summary": "Phase-specific affine streams"
+      },
+      {
+        "answer": [
+          "56",
+          "75",
+          "94",
+          "113",
+          "132"
+        ],
+        "case_id": "S111",
+        "check_summary": "Plurality supports the next growing arithmetic block with step 19.",
+        "confidence": 0.78,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "3",
+          "-5",
+          "-5",
+          "-7",
+          "35"
+        ],
+        "case_id": "S112",
+        "check_summary": "Plurality supports residue-class stream continuation.",
+        "confidence": 0.29,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-12",
+          "56",
+          "-17",
+          "78",
+          "-28"
+        ],
+        "case_id": "S113",
+        "check_summary": "Plurality supports this interleaved phase continuation.",
+        "confidence": 0.22,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "31",
+          "-29",
+          "-907",
+          "30",
+          "-49"
+        ],
+        "case_id": "S114",
+        "check_summary": "Strong plurality and explicit full-prefix phase replay support the tuple.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "42",
+          "82",
+          "34",
+          "66",
+          "138"
+        ],
+        "case_id": "S115",
+        "check_summary": "Tie resolved by critic-supported growing-block continuation.",
+        "confidence": 0.2,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "All proposals agree; odd terms decrement by 1 and even terms by 4.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "54",
+          "18",
+          "45",
+          "40",
+          "31"
+        ],
+        "case_id": "S117",
+        "check_summary": "Tie resolved by critic-supported interleaved-stream continuation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "23",
+          "18",
+          "13",
+          "8",
+          "31"
+        ],
+        "case_id": "S118",
+        "check_summary": "Strong plurality identifies rising positive jumps separated by decrements of 5.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic difference rule"
+      },
+      {
+        "answer": [
+          "79",
+          "82",
+          "4",
+          "101",
+          "104"
+        ],
+        "case_id": "S119",
+        "check_summary": "Plurality supports three interleaved polynomial streams.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "189",
+          "172",
+          "155",
+          "138",
+          "121"
+        ],
+        "case_id": "S120",
+        "check_summary": "Strong plurality supports the next block start 189 with step -17.",
+        "confidence": 0.93,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-35DDA1DA8010-search-b10-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "c858489f1435cbd257870ce537134dff0948300b4e2b4594f9056e358399fab4",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-35DDA1DA8010-search-b10-judge-2/attempt-01"
+}

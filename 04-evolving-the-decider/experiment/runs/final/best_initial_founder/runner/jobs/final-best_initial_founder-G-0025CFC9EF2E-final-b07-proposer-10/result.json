@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b07",
+    "results": [
+      {
+        "answer": [
+          "-6453",
+          "-8709",
+          "-11494",
+          "-14898",
+          "-19018"
+        ],
+        "case_id": "F073",
+        "check_summary": "Constant fourth differences from the later prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued quartic polynomial."
+      },
+      {
+        "answer": [
+          "42324",
+          "-84652",
+          "169300",
+          "-338604",
+          "677204"
+        ],
+        "case_id": "F074",
+        "check_summary": "Every transition satisfies x_next=-2*x-4.",
+        "confidence": 1,
+        "rule_summary": "Affine recurrence with multiplier -2 and bias -4."
+      },
+      {
+        "answer": [
+          "-12493162",
+          "34030862",
+          "-92717442",
+          "252701702",
+          "-688550878"
+        ],
+        "case_id": "F075",
+        "check_summary": "Exponential alternating continuation inferred from the dominant affine pattern.",
+        "confidence": 0.24,
+        "rule_summary": "Alternating affine/exponential recurrence."
+      },
+      {
+        "answer": [
+          "-18947928",
+          "-56843782",
+          "-170531351",
+          "-511594047",
+          "-1534782139"
+        ],
+        "case_id": "F076",
+        "check_summary": "Phase biases repeat -5,6,2 with multiplier 3.",
+        "confidence": 1,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-2435451",
+          "-4870895",
+          "-14612682",
+          "-29225361",
+          "-87676080"
+        ],
+        "case_id": "F077",
+        "check_summary": "Alternating transitions are 3x+3 and 2x+7.",
+        "confidence": 1,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "-70",
+          "-75",
+          "-88",
+          "-99",
+          "-116"
+        ],
+        "case_id": "F078",
+        "check_summary": "Continuation estimated from interleaved declining streams.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-1123",
+          "451",
+          "2563",
+          "-10231",
+          "41037"
+        ],
+        "case_id": "F079",
+        "check_summary": "Continuation estimated from alternating recurrence structure.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-3684",
+          "-5136",
+          "-6500",
+          "-6804",
+          "-5876"
+        ],
+        "case_id": "F080",
+        "check_summary": "Continuation estimated from higher-order polynomial trend.",
+        "confidence": 0.2,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "-591",
+          "-799",
+          "-1050",
+          "-1348",
+          "-1697"
+        ],
+        "case_id": "F081",
+        "check_summary": "Second differences continue decreasing by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued quartic polynomial after the initial transient."
+      },
+      {
+        "answer": [
+          "-505",
+          "-852",
+          "-1443",
+          "-2450",
+          "-4167"
+        ],
+        "case_id": "F082",
+        "check_summary": "Continuation estimated from lagged polynomial differences.",
+        "confidence": 0.16,
+        "rule_summary": "Lagged polynomial update."
+      },
+      {
+        "answer": [
+          "-13",
+          "-13",
+          "-44",
+          "-39",
+          "-33"
+        ],
+        "case_id": "F083",
+        "check_summary": "Three interleaved streams have quadratic difference patterns.",
+        "confidence": 0.97,
+        "rule_summary": "Three-way interleaving of quadratic streams."
+      },
+      {
+        "answer": [
+          "9",
+          "7",
+          "12",
+          "10",
+          "15"
+        ],
+        "case_id": "F084",
+        "check_summary": "Odd and even subsequences each increase by 3.",
+        "confidence": 1,
+        "rule_summary": "Two interleaved arithmetic streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-best_initial_founder-G-0025CFC9EF2E-final-b07-proposer-10",
+  "outcome": "valid_output",
+  "response_sha256": "8e95531ce37b5704a0b041d9970a9fdcfcce77987e69f662a4960f246808862e",
+  "terminal_artifact_relpath": "jobs/final-best_initial_founder-G-0025CFC9EF2E-final-b07-proposer-10/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "Matches a_n=-3a_{n-1}+3.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence with constant multiplier and bias."
+      },
+      {
+        "answer": [
+          "-3777",
+          "-5390",
+          "-7477",
+          "-10123",
+          "-13420"
+        ],
+        "case_id": "V026",
+        "check_summary": "Higher differences continue with third differences decreasing by 7.",
+        "confidence": 0.88,
+        "rule_summary": "Polynomial difference progression."
+      },
+      {
+        "answer": [
+          "-1857",
+          "3308",
+          "-6295",
+          "11986",
+          "-22957"
+        ],
+        "case_id": "V027",
+        "check_summary": "Continues the alternating phase recurrence inferred from the full prefix.",
+        "confidence": 0.42,
+        "rule_summary": "Phase-specific second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "47316",
+          "-94674",
+          "189310",
+          "-378666",
+          "757292"
+        ],
+        "case_id": "V028",
+        "check_summary": "Alternating affine biases continue linearly by phase.",
+        "confidence": 0.98,
+        "rule_summary": "Two-phase affine recurrence with multiplier -2."
+      },
+      {
+        "answer": [
+          "12155",
+          "18563",
+          "26937",
+          "37196",
+          "49389"
+        ],
+        "case_id": "V029",
+        "check_summary": "Continues the inferred polynomial-growth difference pattern.",
+        "confidence": 0.51,
+        "rule_summary": "Polynomial or phase-polynomial progression."
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Alternating sequences increment by one every two terms.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaving of two affine streams."
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Alternating updates 2x+1 and 3x+7 match the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802339",
+          "71604684",
+          "-214814049",
+          "429628104"
+        ],
+        "case_id": "V032",
+        "check_summary": "Three-phase affine cycle continues with multipliers -3,-3,-2 and biases 3,-6,6.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "963",
+          "-1566",
+          "2526",
+          "-4095",
+          "6618"
+        ],
+        "case_id": "V033",
+        "check_summary": "Odd and even subsequences follow coupled second-order linear difference continuation.",
+        "confidence": 0.78,
+        "rule_summary": "Interleaved linear streams."
+      },
+      {
+        "answer": [
+          "5",
+          "7",
+          "13",
+          "17",
+          "25"
+        ],
+        "case_id": "V034",
+        "check_summary": "Continues the inferred alternating phase-polynomial increments.",
+        "confidence": 0.38,
+        "rule_summary": "Interleaved phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "57",
+          "82",
+          "46",
+          "48",
+          "74"
+        ],
+        "case_id": "V035",
+        "check_summary": "Odd/even subsequences continue their alternating increment patterns.",
+        "confidence": 0.74,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "807",
+          "1036",
+          "1303",
+          "1612",
+          "1967"
+        ],
+        "case_id": "V036",
+        "check_summary": "Second differences continue increasing by 4.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial sequence with quartic-style finite differences."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b03-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "618193f8d4875402bf4c7efcd3b3a7efd4f16e2587871d3c905e520574a9f6a4",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b03-proposer-8/attempt-01"
+}

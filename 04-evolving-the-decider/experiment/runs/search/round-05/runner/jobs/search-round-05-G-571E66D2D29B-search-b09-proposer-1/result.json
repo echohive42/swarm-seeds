@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b09",
+    "results": [
+      {
+        "answer": [
+          "-253274",
+          "-759824",
+          "151",
+          "-455",
+          "1371"
+        ],
+        "case_id": "S097",
+        "check_summary": "Odd/even interleaved affine streams replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Two phase-specific affine streams with multiplier -6."
+      },
+      {
+        "answer": [
+          "-2141",
+          "-1205",
+          "-277",
+          "1179",
+          "2933"
+        ],
+        "case_id": "S098",
+        "check_summary": "Periodic finite-difference continuation.",
+        "confidence": 0.22,
+        "rule_summary": "Phase-specific polynomial differences."
+      },
+      {
+        "answer": [
+          "-703",
+          "-833",
+          "-959",
+          "-1074",
+          "-1170"
+        ],
+        "case_id": "S099",
+        "check_summary": "Third differences increase successively by one.",
+        "confidence": 0.98,
+        "rule_summary": "Cubic finite-difference continuation."
+      },
+      {
+        "answer": [
+          "-4915830",
+          "14747487",
+          "-44242464",
+          "132727389",
+          "-398182170"
+        ],
+        "case_id": "S100",
+        "check_summary": "Constant affine update exactly matches prefix.",
+        "confidence": 0.99,
+        "rule_summary": "x_next = -3x - 3."
+      },
+      {
+        "answer": [
+          "-7420",
+          "-11856",
+          "-18231",
+          "-26721",
+          "-37840"
+        ],
+        "case_id": "S101",
+        "check_summary": "Finite-difference extrapolation.",
+        "confidence": 0.2,
+        "rule_summary": "Polynomial/interleaved continuation."
+      },
+      {
+        "answer": [
+          "1138",
+          "1462",
+          "1841",
+          "2280",
+          "2784"
+        ],
+        "case_id": "S102",
+        "check_summary": "Second differences rise by five.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial finite-difference rule."
+      },
+      {
+        "answer": [
+          "139",
+          "141",
+          "137",
+          "130",
+          "126"
+        ],
+        "case_id": "S103",
+        "check_summary": "Differences repeat in phase triples with decrement six per cycle.",
+        "confidence": 0.99,
+        "rule_summary": "Period-3 phase-specific affine deltas."
+      },
+      {
+        "answer": [
+          "-36",
+          "-41",
+          "-44",
+          "-49",
+          "-52"
+        ],
+        "case_id": "S104",
+        "check_summary": "Alternating differences -3,-5.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 delta rule."
+      },
+      {
+        "answer": [
+          "-39990",
+          "39995",
+          "79981",
+          "239946",
+          "-239941"
+        ],
+        "case_id": "S105",
+        "check_summary": "Three interleaved affine streams replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Period-3 affine streams with multiplier -6."
+      },
+      {
+        "answer": [
+          "-1048727",
+          "-2859125",
+          "-7797611",
+          "-21259595",
+          "-57981191"
+        ],
+        "case_id": "S106",
+        "check_summary": "Exponential continuation inferred from dominant affine growth.",
+        "confidence": 0.18,
+        "rule_summary": "Affine/periodic affine continuation."
+      },
+      {
+        "answer": [
+          "16",
+          "25",
+          "38",
+          "51",
+          "69"
+        ],
+        "case_id": "S107",
+        "check_summary": "Interleaved stream continuation inferred from phase trends.",
+        "confidence": 0.16,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-7",
+          "52",
+          "54",
+          "48",
+          "25"
+        ],
+        "case_id": "S108",
+        "check_summary": "Periodic finite-difference continuation inferred from recent phases.",
+        "confidence": 0.15,
+        "rule_summary": "Phase-specific polynomial differences."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-571E66D2D29B-search-b09-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "b00dd0fa2521df9a095c84a521a12cc1c5af2c2e1468e1971b64df7a0904e499",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-571E66D2D29B-search-b09-proposer-1/attempt-01"
+}

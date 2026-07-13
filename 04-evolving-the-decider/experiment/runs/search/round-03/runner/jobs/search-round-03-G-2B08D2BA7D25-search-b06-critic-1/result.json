@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "-1",
+          "-1",
+          "-1",
+          "-1",
+          "-1"
+        ],
+        "case_id": "S061",
+        "check_summary": "No candidate is supported by a complete replay of the prefix.",
+        "confidence": 0.03,
+        "rule_summary": "Unresolved periodic or modular mechanism."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "S062",
+        "check_summary": "No anonymous proposal has a verified full-prefix replay.",
+        "confidence": 0.02,
+        "rule_summary": "Unresolved phase-specific mechanism."
+      },
+      {
+        "answer": [
+          "84",
+          "52",
+          "86",
+          "41",
+          "94"
+        ],
+        "case_id": "S063",
+        "check_summary": "The bounded prefix is most consistent with the modular-affine proposal, though verification is incomplete.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative MODAFFINE continuation."
+      },
+      {
+        "answer": [
+          "-2",
+          "-774",
+          "-127",
+          "1110",
+          "-198"
+        ],
+        "case_id": "S064",
+        "check_summary": "No proposal is fully verified; this is the least unsupported recurrence continuation.",
+        "confidence": 0.03,
+        "rule_summary": "Tentative phase-periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd terms decrease by 4 and even terms increase by 2 throughout the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "7",
+          "224",
+          "48",
+          "12",
+          "448"
+        ],
+        "case_id": "S066",
+        "check_summary": "Residue classes modulo three replay as +5, doubling differences, and quadratic increments.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of three streams."
+      },
+      {
+        "answer": [
+          "-175",
+          "-54",
+          "-208",
+          "-85",
+          "-241"
+        ],
+        "case_id": "S067",
+        "check_summary": "The tail supports a growing-block continuation, but the mechanism is only partially identified.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative GROWBLOCK extrapolation."
+      },
+      {
+        "answer": [
+          "-29",
+          "-16",
+          "-20",
+          "-24",
+          "-28"
+        ],
+        "case_id": "S068",
+        "check_summary": "No complete low-complexity replay was verified; this follows the strongest repeated phase decrement.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic-delta continuation."
+      },
+      {
+        "answer": [
+          "16",
+          "-13",
+          "21",
+          "24",
+          "-21"
+        ],
+        "case_id": "S069",
+        "check_summary": "Modulo-three subsequences fit polynomial extrapolation: next values are 16, -13, 21, 24, -21.",
+        "confidence": 0.72,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "-3",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd positions are constant at -3; even-position differences decrease by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of a constant stream and a quadratic stream."
+      },
+      {
+        "answer": [
+          "18",
+          "45",
+          "-8",
+          "16",
+          "29"
+        ],
+        "case_id": "S071",
+        "check_summary": "No candidate has a verified full-prefix replay.",
+        "confidence": 0.03,
+        "rule_summary": "Unresolved interleaved polynomial mechanism."
+      },
+      {
+        "answer": [
+          "-29",
+          "-33",
+          "-20",
+          "-24",
+          "-28"
+        ],
+        "case_id": "S072",
+        "check_summary": "Blocks have starts -8,-11,-14,-17 and within-block step -4; the next block starts at -20.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK with increasing block lengths and arithmetic steps."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-2B08D2BA7D25-search-b06-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "e82fde1ba35de42f6e60204d4e455bec3cd7905d3651cc28ef00bfb875f7de9e",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-2B08D2BA7D25-search-b06-critic-1/attempt-01"
+}

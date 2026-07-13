@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-151",
+          "17",
+          "-176",
+          "18",
+          "-201"
+        ],
+        "case_id": "S037",
+        "check_summary": "Pattern inferred from alternating irregular polynomial-like streams; low certainty.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved phase-dependent polynomial streams."
+      },
+      {
+        "answer": [
+          "126",
+          "127",
+          "131",
+          "136",
+          "142"
+        ],
+        "case_id": "S038",
+        "check_summary": "Tail suggests phase-dependent interleaving; low certainty.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic affine or interleaved streams."
+      },
+      {
+        "answer": [
+          "35",
+          "41",
+          "-4",
+          "42",
+          "-23"
+        ],
+        "case_id": "S039",
+        "check_summary": "No uniquely reliable continuation identified.",
+        "confidence": 0.1,
+        "rule_summary": "Likely interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "100",
+          "-49",
+          "-29",
+          "-9",
+          "11"
+        ],
+        "case_id": "S040",
+        "check_summary": "Verified block pattern: positive steps 4,8,12,16 repeated by growing block lengths, with negative square jumps.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK with repeated positive arithmetic steps and odd-square negative transitions."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Odd and even positions are arithmetic progressions with differences -4 and +4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-16",
+          "-38",
+          "-7",
+          "-12",
+          "-17"
+        ],
+        "case_id": "S042",
+        "check_summary": "No uniquely reliable continuation identified.",
+        "confidence": 0.08,
+        "rule_summary": "Likely periodic affine or interleaved streams."
+      },
+      {
+        "answer": [
+          "-10",
+          "-84",
+          "-57",
+          "-11",
+          "-125"
+        ],
+        "case_id": "S043",
+        "check_summary": "No uniquely reliable continuation identified.",
+        "confidence": 0.08,
+        "rule_summary": "Likely interleaved or lagged polynomial streams."
+      },
+      {
+        "answer": [
+          "-21",
+          "-19",
+          "-24",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S044",
+        "check_summary": "No uniquely reliable continuation identified.",
+        "confidence": 0.1,
+        "rule_summary": "Likely phase-dependent interleaving."
+      },
+      {
+        "answer": [
+          "-4",
+          "-4",
+          "-62",
+          "-4",
+          "-4"
+        ],
+        "case_id": "S045",
+        "check_summary": "Possible repeating phase structure, but continuation is uncertain.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine or interleaved streams."
+      },
+      {
+        "answer": [
+          "-7",
+          "-12",
+          "-17",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S046",
+        "check_summary": "Differences show runs of -5 separated by jumps +3,+8,+13,+18; next jump is inferred as +18.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK with increasing run lengths and arithmetic transition jumps."
+      },
+      {
+        "answer": [
+          "-97",
+          "-51",
+          "-5",
+          "41",
+          "87"
+        ],
+        "case_id": "S047",
+        "check_summary": "Inferred next transition and continuation of the final arithmetic block; moderate uncertainty.",
+        "confidence": 0.55,
+        "rule_summary": "GROWBLOCK with increasing arithmetic steps and polynomial transition jumps."
+      },
+      {
+        "answer": [
+          "-11",
+          "-10",
+          "-14",
+          "-10",
+          "-17"
+        ],
+        "case_id": "S048",
+        "check_summary": "Odd-position stream has differences 4,1,-2,-5,-8, continuing by -3; even positions remain -10.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of a quadratic odd-position stream and constant even-position stream."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-1EB09860ED89-search-b04-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "c9741c1fb3060100149c32eb32b295f2e04f48ef48a3fb043b54cf14f4be2856",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-1EB09860ED89-search-b04-proposer-4/attempt-01"
+}

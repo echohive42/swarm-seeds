@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-12",
+          "-12",
+          "-14",
+          "-14",
+          "-16"
+        ],
+        "case_id": "V014",
+        "check_summary": "Tail follows alternating near-linear decrements.",
+        "confidence": 0.18,
+        "rule_summary": "Alternating phase-specific affine trend."
+      },
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V016",
+        "check_summary": "Even and odd subsequences are arithmetic with steps -4 and +4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V017",
+        "check_summary": "Even subsequence differences decrease by successive integers; odd differences double negatively.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of polynomial and affine/exponential-looking phase streams."
+      },
+      {
+        "answer": [
+          "-10",
+          "63",
+          "-19",
+          "79",
+          "-28"
+        ],
+        "case_id": "V013",
+        "check_summary": "Periodic tail differences suggest phase-specific continuation.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic phase update."
+      },
+      {
+        "answer": [
+          "-21",
+          "18",
+          "-24",
+          "23",
+          "-27"
+        ],
+        "case_id": "V015",
+        "check_summary": "Alternating streams show bounded oscillatory continuation.",
+        "confidence": 0.11,
+        "rule_summary": "INTERLEAVE of phase-specific recurrences."
+      },
+      {
+        "answer": [
+          "68",
+          "7",
+          "-19",
+          "86",
+          "-37"
+        ],
+        "case_id": "V018",
+        "check_summary": "Oscillatory values treated as periodic interleaving.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE of bounded streams."
+      },
+      {
+        "answer": [
+          "20",
+          "29",
+          "-25",
+          "-1",
+          "20"
+        ],
+        "case_id": "V019",
+        "check_summary": "Repeated block anchors suggest periodic block continuation.",
+        "confidence": 0.14,
+        "rule_summary": "GROWBLOCK with phase-specific block values."
+      },
+      {
+        "answer": [
+          "12",
+          "61",
+          "-3",
+          "77",
+          "-14"
+        ],
+        "case_id": "V020",
+        "check_summary": "Alternating oscillatory tail extrapolated by phase.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE of affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "-13",
+          "-44",
+          "-2",
+          "-63",
+          "-15"
+        ],
+        "case_id": "V021",
+        "check_summary": "Bounded irregular sequence treated as modular periodic affine.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "-2",
+          "151",
+          "-86",
+          "4",
+          "-102"
+        ],
+        "case_id": "V022",
+        "check_summary": "Alternating large-magnitude phases suggest phase-specific recurrence.",
+        "confidence": 0.09,
+        "rule_summary": "Periodic AFFINE/LIN2 update."
+      },
+      {
+        "answer": [
+          "-127",
+          "-138",
+          "-155",
+          "-178",
+          "-193"
+        ],
+        "case_id": "V023",
+        "check_summary": "Final subsequence exhibits approximately constant negative progression.",
+        "confidence": 0.13,
+        "rule_summary": "INTERLEAVE with polynomial phase streams."
+      },
+      {
+        "answer": [
+          "-4",
+          "28",
+          "1",
+          "34",
+          "-6"
+        ],
+        "case_id": "V024",
+        "check_summary": "Alternating phase continuation inferred from recent oscillation.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE of phase-specific streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b02-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "16946a681b09a983a5ffb44ba19994581c762787bd4c3b3eaf45fbadd4ff7ac5",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b02-proposer-3/attempt-01"
+}

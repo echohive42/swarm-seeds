@@ -1,0 +1,77 @@
+{
+  "artifact_sha256": "ebb5c5284917ea5dd1c452d98bceea22deae6dc9a5021ff46203ad3a5afe17e6",
+  "catalog_file_sha256": "7e0f6abb1774aaf904353195b2b24cc5572db50261b5e6329dd11f8e74fcae4a",
+  "evolution_seed": "swarm-seeds-04-evolution-v1",
+  "experiment_id": "swarm-seeds-04",
+  "fitness": {
+    "block_exact": {
+      "search-b01": 7,
+      "search-b02": 4
+    },
+    "calls": 20,
+    "case_count": 24,
+    "exact_cases": 11,
+    "fitness_key": [
+      11,
+      4,
+      0,
+      59,
+      24
+    ],
+    "format_valid": 24,
+    "harmful_overrides": 0,
+    "term_correct": 59,
+    "weakest_block_exact": 4
+  },
+  "founder_genome": {
+    "genes": {
+      "decision_system_id": "vote_10p",
+      "judge_policy_id": "plurality_preserving",
+      "worker_lens_ids": [
+        "generalist",
+        "generalist",
+        "generalist",
+        "generalist",
+        "generalist",
+        "generalist",
+        "generalist",
+        "generalist",
+        "generalist",
+        "generalist"
+      ]
+    },
+    "genome_id": "G-0025CFC9EF2E",
+    "genome_sha256": "0025cfc9ef2ee3d344d081e1e2ce7d21c34336b77eb3d442437a803b0db0e2af",
+    "lineage": {
+      "crossover_sources": null,
+      "designated_parent_slot": "S01",
+      "founder_id": "F01",
+      "mutation": null,
+      "operation": "founder",
+      "parents": [],
+      "round": 0
+    }
+  },
+  "founder_slot_id": "S01",
+  "freeze_status": "best_founder_frozen_after_round_1_before_validation_or_final_answers",
+  "genome_hash_tie_break": "lexicographically smaller canonical genome_sha256",
+  "parent_slot_count": 6,
+  "provider_reasoning_effort": "low",
+  "public_condition_label": "Light reasoning",
+  "round_count": 8,
+  "round_frozen": 1,
+  "schema_version": "experiment-04-best-founder-freeze-v1",
+  "selection_rule": [
+    "more exact next-five cases",
+    "more exact cases on the weakest block",
+    "fewer harmful overrides of a correct proposer plurality",
+    "more individually correct terms",
+    "more format-valid cases"
+  ],
+  "source_answers_file_sha256": "8ae136073fc16fb46d7a5ed5fea2fd29f8866213e545e0e239f13c924116ca46",
+  "source_candidates_artifact_sha256": "010906dd3f04a5e48d371a876cffc262c3b38d3397f15cae91b4a9f7a02d960d",
+  "source_candidates_file_sha256": "455dc1cfe5163b4dd7fe9e83deb2ea6ed657b9eaf99a885978959564f6118768",
+  "source_case_matrix_file_sha256": "5d23a4246fd7be10b0f4304be5b86cfc351ca40e3f5adeb2d1a113d1790aff94",
+  "source_predictions_file_sha256": "55951bdc2e4fcd9024e4a04df828bd5dc86b1b4f178147ddb5bc4b74f8487611",
+  "source_summary_file_sha256": "d5ec98ac277442282bd944292c37cf36175777d7abf1687fbe0823c937ce9997"
+}

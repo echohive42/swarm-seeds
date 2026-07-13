@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "-425",
+          "-65",
+          "855",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Odd subsequence has successive decrements -5,-6,-7,-8,-9; even subsequence follows x↦-2x+5.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: polynomial odd stream and affine even stream."
+      },
+      {
+        "answer": [
+          "66",
+          "0",
+          "24",
+          "48",
+          "72"
+        ],
+        "case_id": "V038",
+        "check_summary": "Observed positive delta runs increase in length; negative deltas occur at expanding magnitudes.",
+        "confidence": 0.82,
+        "rule_summary": "Periodic growing-block delta pattern."
+      },
+      {
+        "answer": [
+          "-262",
+          "-376",
+          "-449",
+          "-557",
+          "-628"
+        ],
+        "case_id": "V039",
+        "check_summary": "Extrapolated from alternating irregular phase deltas.",
+        "confidence": 0.18,
+        "rule_summary": "Phase-specific polynomial-delta model."
+      },
+      {
+        "answer": [
+          "26",
+          "30",
+          "18",
+          "22",
+          "26"
+        ],
+        "case_id": "V040",
+        "check_summary": "Mostly +4 increments with periodic negative corrections of -4,-8,-12.",
+        "confidence": 0.86,
+        "rule_summary": "Periodic polynomial delta sequence."
+      },
+      {
+        "answer": [
+          "57",
+          "42",
+          "91",
+          "63",
+          "32"
+        ],
+        "case_id": "V041",
+        "check_summary": "Extrapolated from bounded periodic-affine behavior.",
+        "confidence": 0.12,
+        "rule_summary": "Modular periodic affine model."
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Odd terms continue +2; even terms continue -3.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-27",
+          "-5",
+          "38",
+          "-20",
+          "-25"
+        ],
+        "case_id": "V043",
+        "check_summary": "Extrapolated from phase-specific delta structure.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic polynomial-delta model."
+      },
+      {
+        "answer": [
+          "71",
+          "43",
+          "15",
+          "-13",
+          "190"
+        ],
+        "case_id": "V044",
+        "check_summary": "Negative runs lengthen while their magnitude rises by 5; positive jumps follow a quadratic progression.",
+        "confidence": 0.91,
+        "rule_summary": "Growing-block mechanism."
+      },
+      {
+        "answer": [
+          "31",
+          "47",
+          "18",
+          "72",
+          "4"
+        ],
+        "case_id": "V045",
+        "check_summary": "Extrapolated from bounded phase recurrence.",
+        "confidence": 0.11,
+        "rule_summary": "Periodic affine model."
+      },
+      {
+        "answer": [
+          "-48",
+          "-17",
+          "29",
+          "-54",
+          "-4"
+        ],
+        "case_id": "V046",
+        "check_summary": "Extrapolated from alternating phase behavior.",
+        "confidence": 0.12,
+        "rule_summary": "Interleaved phase-specific affine streams."
+      },
+      {
+        "answer": [
+          "19",
+          "28",
+          "7",
+          "41",
+          "3"
+        ],
+        "case_id": "V047",
+        "check_summary": "Extrapolated from short interleaved subsequences.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-41",
+          "24",
+          "-45",
+          "27",
+          "-48"
+        ],
+        "case_id": "V048",
+        "check_summary": "Extrapolated from alternating bounded phase deltas.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b04-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "e27097b316f6ad0ea4ede1d6cbeb3e13485861b89043e52fdeee4c0199313fb8",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b04-proposer-6/attempt-01"
+}

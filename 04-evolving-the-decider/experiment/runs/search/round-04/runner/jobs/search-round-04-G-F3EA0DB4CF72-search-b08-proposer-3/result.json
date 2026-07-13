@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "15",
+          "18",
+          "21",
+          "24",
+          "16"
+        ],
+        "case_id": "S085",
+        "check_summary": "Matches repeating length-four arithmetic blocks with quadratic block starts.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "39",
+          "7",
+          "54",
+          "49",
+          "45"
+        ],
+        "case_id": "S086",
+        "check_summary": "Prefix appears consistent with a phase-dependent modular affine process; continuation uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-45",
+          "-56",
+          "-67",
+          "-78",
+          "-89"
+        ],
+        "case_id": "S087",
+        "check_summary": "Continuation inferred from the latest arithmetic block with step decreasing by one.",
+        "confidence": 0.42,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "1",
+          "30",
+          "0",
+          "35",
+          "-1"
+        ],
+        "case_id": "S088",
+        "check_summary": "Even and odd subsequences are arithmetic with slopes -1 and +5.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-9",
+          "51",
+          "-69",
+          "78",
+          "-129"
+        ],
+        "case_id": "S089",
+        "check_summary": "Phase-interleaved continuation is weakly identified from the prefix.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "11",
+          "2",
+          "17",
+          "-1",
+          "23"
+        ],
+        "case_id": "S090",
+        "check_summary": "Phase-dependent affine continuation inferred with low certainty.",
+        "confidence": 0.14,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-4",
+          "-76",
+          "-31",
+          "-353",
+          "-58"
+        ],
+        "case_id": "S091",
+        "check_summary": "Random-looking prefix treated as a phase-dependent affine recurrence; low certainty.",
+        "confidence": 0.1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "0",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd subsequence alternates 5 and 0; even subsequence decrements by successive integers.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-15",
+          "40",
+          "-4",
+          "73",
+          "-7"
+        ],
+        "case_id": "S093",
+        "check_summary": "Weak phase-interleaved extrapolation from sparse subsequence evidence.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "82",
+          "91",
+          "87",
+          "96",
+          "92"
+        ],
+        "case_id": "S094",
+        "check_summary": "Low-confidence phase-dependent continuation.",
+        "confidence": 0.08,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-17",
+          "-33",
+          "-49",
+          "-65",
+          "-35"
+        ],
+        "case_id": "S095",
+        "check_summary": "Phase-one deltas follow quadratic growth; other phases decrease by four each cycle.",
+        "confidence": 0.94,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "20",
+          "9",
+          "32",
+          "14",
+          "104"
+        ],
+        "case_id": "S096",
+        "check_summary": "Prefix suggests phase-dependent modular or affine behavior; continuation uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-F3EA0DB4CF72-search-b08-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "b901ff4619c02e6b1073208626a0edf2c40f10ae633901086f9ead3d7d92910a",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-F3EA0DB4CF72-search-b08-proposer-3/attempt-01"
+}

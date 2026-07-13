@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "24",
+          "27",
+          "20",
+          "23"
+        ],
+        "case_id": "S085",
+        "check_summary": "The four-phase delta pattern supports a +3 continuation with the next phase correction at the fourth forecast term.",
+        "confidence": 0.82,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "7",
+          "46",
+          "29",
+          "45",
+          "26"
+        ],
+        "case_id": "S086",
+        "check_summary": "The modulo-67 phase-specific affine recurrence is explicitly verified against the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "36",
+          "25",
+          "14",
+          "3",
+          "-8"
+        ],
+        "case_id": "S087",
+        "check_summary": "Growing block lengths and starts produce a six-term block beginning at 36 with step -11.",
+        "confidence": 0.86,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd-position stream increases by 5 while even-position stream decreases by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-36",
+          "93",
+          "-51",
+          "126",
+          "-69"
+        ],
+        "case_id": "S089",
+        "check_summary": "The alternating tail is best explained by phase-specific second-order continuation among the supplied proposals.",
+        "confidence": 0.16,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "2",
+          "6",
+          "18",
+          "16",
+          "10"
+        ],
+        "case_id": "S090",
+        "check_summary": "Multiplication by 3 modulo 19 reproduces the prefix and determines the continuation.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-116",
+          "62",
+          "-331",
+          "126",
+          "-962"
+        ],
+        "case_id": "S091",
+        "check_summary": "The large alternating tail is most consistent with a phase-biased second-order linear recurrence.",
+        "confidence": 0.12,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "0",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd terms alternate 5 and 0; even-term differences continue decreasing by successive integers.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-30",
+          "74",
+          "-8",
+          "78",
+          "-12"
+        ],
+        "case_id": "S093",
+        "check_summary": "The prefix is most consistent with an alternating interleaved polynomial-stream continuation among the proposals.",
+        "confidence": 0.13,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "63",
+          "104",
+          "25",
+          "122",
+          "-6"
+        ],
+        "case_id": "S094",
+        "check_summary": "The irregular prefix favors a multi-phase interleaved continuation, though proposal support is weak.",
+        "confidence": 0.11,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-17",
+          "-33",
+          "-49",
+          "-65",
+          "-1"
+        ],
+        "case_id": "S095",
+        "check_summary": "Three phase lanes continue by -16 while the first phase follows its inferred quadratic delta.",
+        "confidence": 0.97,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-4",
+          "146",
+          "-10",
+          "200",
+          "-16"
+        ],
+        "case_id": "S096",
+        "check_summary": "The supplied interleaved polynomial continuation is the best-supported candidate for the irregular phase lanes.",
+        "confidence": 0.09,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-E2CB7ED71793-search-b08-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "81208be82b4f90e4da23e0102f7e1f7e928909679e0820666c509aefff04cbf1",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-E2CB7ED71793-search-b08-critic-1/attempt-01"
+}

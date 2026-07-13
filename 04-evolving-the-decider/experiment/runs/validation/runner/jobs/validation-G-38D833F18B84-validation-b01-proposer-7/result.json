@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b01",
+    "results": [
+      {
+        "answer": [
+          "1288813",
+          "-2577635",
+          "-7732904",
+          "-15465809",
+          "30931609"
+        ],
+        "case_id": "V001",
+        "check_summary": "Periodic affine replay with transition rules 2x-1, -2x-9, 3x+1.",
+        "confidence": 0.99,
+        "rule_summary": "Three-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "2553",
+          "3544",
+          "4761",
+          "6240",
+          "8021"
+        ],
+        "case_id": "V002",
+        "check_summary": "Constant fourth finite difference 4.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued quartic polynomial."
+      },
+      {
+        "answer": [
+          "44",
+          "47",
+          "51",
+          "54",
+          "58"
+        ],
+        "case_id": "V003",
+        "check_summary": "Alternating increments 4,3 replayed.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta recurrence."
+      },
+      {
+        "answer": [
+          "-2590778",
+          "7772327",
+          "-23316905",
+          "69950708",
+          "-209852120"
+        ],
+        "case_id": "V004",
+        "check_summary": "Alternating affine update with multiplier -3 and biases 4,-7.",
+        "confidence": 0.98,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "1727182",
+          "-5181551",
+          "15544648",
+          "-46633949",
+          "139901842"
+        ],
+        "case_id": "V005",
+        "check_summary": "Replay of x_next=-3x-5.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "422",
+          "-2510",
+          "-1694",
+          "10034",
+          "6770"
+        ],
+        "case_id": "V006",
+        "check_summary": "Both parity subsequences replay x[n+2]=-4x[n]-6.",
+        "confidence": 0.99,
+        "rule_summary": "Lag-2 affine recurrence."
+      },
+      {
+        "answer": [
+          "-101",
+          "-106",
+          "-126",
+          "-137",
+          "-169"
+        ],
+        "case_id": "V007",
+        "check_summary": "Low-confidence extrapolation from lagged periodic-delta structure.",
+        "confidence": 0.2,
+        "rule_summary": "Lagged polynomial/periodic-delta candidate."
+      },
+      {
+        "answer": [
+          "-15067",
+          "-21115",
+          "-29033",
+          "-39252",
+          "-52266"
+        ],
+        "case_id": "V008",
+        "check_summary": "Constant fifth finite difference -4.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued quintic polynomial."
+      },
+      {
+        "answer": [
+          "-567713",
+          "1374658",
+          "-3327590",
+          "8057001",
+          "-19506655"
+        ],
+        "case_id": "V009",
+        "check_summary": "Low-confidence extrapolation of the apparent alternating-growth recurrence.",
+        "confidence": 0.18,
+        "rule_summary": "Candidate periodic affine or second-order recurrence."
+      },
+      {
+        "answer": [
+          "-7",
+          "-17",
+          "-24",
+          "-38",
+          "-53"
+        ],
+        "case_id": "V010",
+        "check_summary": "Low-confidence extrapolation from irregular interleaved structure.",
+        "confidence": 0.15,
+        "rule_summary": "Candidate interleaved streams."
+      },
+      {
+        "answer": [
+          "95",
+          "-159",
+          "252",
+          "-413",
+          "663"
+        ],
+        "case_id": "V011",
+        "check_summary": "Successive difference magnitudes follow Fibonacci addition with alternating signs.",
+        "confidence": 0.99,
+        "rule_summary": "Lagged recurrence in first differences."
+      },
+      {
+        "answer": [
+          "-805",
+          "-1035",
+          "-1304",
+          "-1615",
+          "-1971"
+        ],
+        "case_id": "V012",
+        "check_summary": "Second differences continue -3,-6,-9,...",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued cubic polynomial."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-38D833F18B84-validation-b01-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "0483d368e88f1d960bd0e79097c9acb16e38f24803e66a0625bf4802fc35b008",
+  "terminal_artifact_relpath": "jobs/validation-G-38D833F18B84-validation-b01-proposer-7/attempt-01"
+}

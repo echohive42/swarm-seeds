@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating decrements of -4 and -3 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic first-order delta pattern."
+      },
+      {
+        "answer": [
+          "9349",
+          "-15128",
+          "24477",
+          "-39605",
+          "64082"
+        ],
+        "case_id": "S074",
+        "check_summary": "Alternating-sign growth with near-Fibonacci magnitude progression.",
+        "confidence": 0.35,
+        "rule_summary": "Phase-dependent second-order growth."
+      },
+      {
+        "answer": [
+          "7",
+          "5",
+          "18",
+          "7",
+          "11"
+        ],
+        "case_id": "S075",
+        "check_summary": "Three interleaved streams have polynomial increments.",
+        "confidence": 0.97,
+        "rule_summary": "Three-stream interleave."
+      },
+      {
+        "answer": [
+          "-14200",
+          "-20500",
+          "-29000",
+          "-40000",
+          "-54000"
+        ],
+        "case_id": "S076",
+        "check_summary": "Negative growth accelerates consistently across the observed tail.",
+        "confidence": 0.2,
+        "rule_summary": "Accelerating phase-dependent recurrence."
+      },
+      {
+        "answer": [
+          "-4090",
+          "-9920",
+          "-24050",
+          "-58300",
+          "-141300"
+        ],
+        "case_id": "S077",
+        "check_summary": "Magnitudes follow a rapidly increasing affine-like recurrence.",
+        "confidence": 0.25,
+        "rule_summary": "Phase-dependent affine growth."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Every term follows x' = -3x + 5.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "91",
+          "109",
+          "145",
+          "188",
+          "246"
+        ],
+        "case_id": "S079",
+        "check_summary": "Tail extrapolation from interleaved irregularly accelerating streams.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "1225294",
+          "-3675884",
+          "9924880",
+          "-29774642",
+          "89323918"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three-phase affine cycle with multipliers and phase biases.",
+        "confidence": 0.93,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-152370",
+          "-304742",
+          "609486",
+          "1218970",
+          "-2437938"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating multipliers of -2 and 2 with biases +2 and -2.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive decrements are negative consecutive squares.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial delta sequence."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4010",
+          "-5621",
+          "-7665",
+          "-10214"
+        ],
+        "case_id": "S083",
+        "check_summary": "Extrapolated from the accelerating negative finite-difference tail.",
+        "confidence": 0.2,
+        "rule_summary": "Polynomial running-delta process."
+      },
+      {
+        "answer": [
+          "-350000",
+          "840000",
+          "-2016000",
+          "4838400",
+          "-11612160"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating-sign magnitudes continue with approximately 5.8x two-step growth.",
+        "confidence": 0.2,
+        "rule_summary": "Phase-dependent affine growth."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-35DDA1DA8010-search-b07-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "400faff78246e340fe25ba9c240831a8dba2ecf5ea2cee20872fd995521bc383",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-35DDA1DA8010-search-b07-proposer-5/attempt-01"
+}

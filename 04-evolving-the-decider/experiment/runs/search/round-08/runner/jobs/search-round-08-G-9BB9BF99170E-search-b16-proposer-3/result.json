@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-211",
+          "-108",
+          "-164",
+          "-181",
+          "-198"
+        ],
+        "case_id": "S181",
+        "check_summary": "Periodic phase-delta extrapolation.",
+        "confidence": 0.24,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-7",
+          "-16",
+          "-27",
+          "-38",
+          "-49"
+        ],
+        "case_id": "S182",
+        "check_summary": "Low-confidence periodic subsequence extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "0",
+          "-5",
+          "-10",
+          "13",
+          "8"
+        ],
+        "case_id": "S183",
+        "check_summary": "Positive increments recur at triangular positions; other deltas are -5.",
+        "confidence": 0.97,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-1019",
+          "-14",
+          "-2039",
+          "-14",
+          "-4079"
+        ],
+        "case_id": "S184",
+        "check_summary": "Low-confidence phase extrapolation.",
+        "confidence": 0.07,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "68",
+          "3",
+          "91",
+          "-2",
+          "117"
+        ],
+        "case_id": "S185",
+        "check_summary": "Odd subsequence has arithmetic second-difference growth; even subsequence alternates 3,-2.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-8",
+          "70",
+          "-47",
+          "105",
+          "-102"
+        ],
+        "case_id": "S186",
+        "check_summary": "Low-confidence periodic phase extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "42",
+          "-93",
+          "57",
+          "-119",
+          "72"
+        ],
+        "case_id": "S187",
+        "check_summary": "Low-confidence phase-specific recurrence extrapolation.",
+        "confidence": 0.06,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-68",
+          "-83",
+          "-98",
+          "-113",
+          "-128"
+        ],
+        "case_id": "S188",
+        "check_summary": "Tail exhibits repeated -15 increments.",
+        "confidence": 0.29,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-13",
+          "-9",
+          "-16",
+          "-13",
+          "-19"
+        ],
+        "case_id": "S189",
+        "check_summary": "Alternating deltas continue as -8,+4,-7,+3,-6.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-31",
+          "58",
+          "-45",
+          "77",
+          "-62"
+        ],
+        "case_id": "S190",
+        "check_summary": "Low-confidence affine/interleaved extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "41",
+          "64",
+          "35",
+          "78",
+          "29"
+        ],
+        "case_id": "S191",
+        "check_summary": "Low-confidence periodic phase extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-58",
+          "165",
+          "-78",
+          "246",
+          "-103"
+        ],
+        "case_id": "S192",
+        "check_summary": "Low-confidence periodic affine extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "MODAFFINE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-9BB9BF99170E-search-b16-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "bd686f078985e7d4d944cdb52477410eb6d6ceae43627bbea5ef9a419a4c9180",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-9BB9BF99170E-search-b16-proposer-3/attempt-01"
+}

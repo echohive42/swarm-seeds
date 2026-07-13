@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b05",
+    "results": [
+      {
+        "answer": [
+          "-190",
+          "-237",
+          "-286",
+          "-337",
+          "-390"
+        ],
+        "case_id": "V049",
+        "check_summary": "Best-fit periodic affine extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic affine recurrence inferred from alternating growth."
+      },
+      {
+        "answer": [
+          "37015",
+          "-74043",
+          "148071",
+          "-296099",
+          "592127"
+        ],
+        "case_id": "V050",
+        "check_summary": "Alternating near-doubling replay.",
+        "confidence": 0.42,
+        "rule_summary": "Phase-dependent affine update with multiplier -2."
+      },
+      {
+        "answer": [
+          "-9573",
+          "-13772",
+          "-19291",
+          "-26350",
+          "-35189"
+        ],
+        "case_id": "V051",
+        "check_summary": "Extrapolated accelerating negative recurrence.",
+        "confidence": 0.2,
+        "rule_summary": "Second-order/phase recurrence with increasing negative increments."
+      },
+      {
+        "answer": [
+          "-14217",
+          "42649",
+          "-42648",
+          "127942",
+          "-127941"
+        ],
+        "case_id": "V052",
+        "check_summary": "Exact threefold phase replay.",
+        "confidence": 0.99,
+        "rule_summary": "Odd stream x↦3x-5; even stream x↦3x+3."
+      },
+      {
+        "answer": [
+          "151",
+          "167",
+          "179",
+          "221",
+          "240"
+        ],
+        "case_id": "V053",
+        "check_summary": "Exact phase-specific delta continuation.",
+        "confidence": 0.98,
+        "rule_summary": "Three-phase polynomial deltas."
+      },
+      {
+        "answer": [
+          "-48895",
+          "-117312",
+          "-281725",
+          "-676718",
+          "-1624131"
+        ],
+        "case_id": "V054",
+        "check_summary": "Exponential affine extrapolation.",
+        "confidence": 0.24,
+        "rule_summary": "Periodic affine recurrence with approximately 2.4 growth."
+      },
+      {
+        "answer": [
+          "1615",
+          "-2593",
+          "4159",
+          "-6659",
+          "10655"
+        ],
+        "case_id": "V055",
+        "check_summary": "Alternating affine continuation.",
+        "confidence": 0.3,
+        "rule_summary": "Phase-dependent alternating affine streams."
+      },
+      {
+        "answer": [
+          "-37840",
+          "113525",
+          "227054",
+          "-227056",
+          "681173"
+        ],
+        "case_id": "V056",
+        "check_summary": "Exact three-phase affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "Three interleaved streams with multiplier 6 and fixed phase biases."
+      },
+      {
+        "answer": [
+          "-26",
+          "-31",
+          "-29",
+          "-34",
+          "-32"
+        ],
+        "case_id": "V057",
+        "check_summary": "Exact alternating arithmetic continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams, each decrementing by 3."
+      },
+      {
+        "answer": [
+          "5048689",
+          "15146068",
+          "45438205",
+          "136314616",
+          "408943849"
+        ],
+        "case_id": "V058",
+        "check_summary": "Exact affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "Single recurrence x↦3x+1."
+      },
+      {
+        "answer": [
+          "288",
+          "411",
+          "534",
+          "679",
+          "848"
+        ],
+        "case_id": "V059",
+        "check_summary": "Exact finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence with fourth differences constant."
+      },
+      {
+        "answer": [
+          "-4467",
+          "-5931",
+          "-7725",
+          "-9895",
+          "-12490"
+        ],
+        "case_id": "V060",
+        "check_summary": "Exact finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence with linearly changing third differences."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b05-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "0a8c18736d1ed1771370d3c8d2672d9dc1f83eb1fac974bef9a470cf245f703d",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b05-proposer-5/attempt-01"
+}

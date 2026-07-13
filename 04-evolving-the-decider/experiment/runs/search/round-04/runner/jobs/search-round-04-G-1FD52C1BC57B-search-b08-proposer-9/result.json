@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "11",
+          "14",
+          "17",
+          "20",
+          "23"
+        ],
+        "case_id": "S085",
+        "check_summary": "Periodic increment pattern with every-fourth decrement continuing by -3.",
+        "confidence": 0.72,
+        "rule_summary": "Phase-specific polynomial delta recurrence."
+      },
+      {
+        "answer": [
+          "47",
+          "30",
+          "50",
+          "24",
+          "53"
+        ],
+        "case_id": "S086",
+        "check_summary": "Fitted as a periodic modular affine pattern; continuation uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic affine update modulo a prime."
+      },
+      {
+        "answer": [
+          "-34",
+          "-44",
+          "-54",
+          "-64",
+          "-74"
+        ],
+        "case_id": "S087",
+        "check_summary": "Final established run decreases by 10 each term.",
+        "confidence": 0.86,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd positions rise by 5 and even positions fall by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-30",
+          "87",
+          "45",
+          "-55",
+          "115"
+        ],
+        "case_id": "S089",
+        "check_summary": "Three interleaved streams have arithmetic second differences and continue consistently.",
+        "confidence": 0.91,
+        "rule_summary": "Three polynomial streams interleaved by position."
+      },
+      {
+        "answer": [
+          "11",
+          "3",
+          "21",
+          "1",
+          "27"
+        ],
+        "case_id": "S090",
+        "check_summary": "Continuation inferred from phase-specific affine behavior.",
+        "confidence": 0.19,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-297",
+          "-496",
+          "-746",
+          "-1094",
+          "-1518"
+        ],
+        "case_id": "S091",
+        "check_summary": "Extrapolated from rapidly varying second-order behavior.",
+        "confidence": 0.12,
+        "rule_summary": "Second-order linear recurrence with periodic bias."
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "5",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd subsequence is constant 5; even-subsequence differences decrease successively.",
+        "confidence": 0.99,
+        "rule_summary": "Two lagged polynomial subsequences."
+      },
+      {
+        "answer": [
+          "-18",
+          "21",
+          "-24",
+          "56",
+          "-17"
+        ],
+        "case_id": "S093",
+        "check_summary": "Continuation estimated from interleaved phase patterns.",
+        "confidence": 0.14,
+        "rule_summary": "Multiple interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "76",
+          "92",
+          "87",
+          "98",
+          "104"
+        ],
+        "case_id": "S094",
+        "check_summary": "Continuation estimated from periodic interleaved behavior.",
+        "confidence": 0.11,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-55",
+          "-71",
+          "-87",
+          "-103",
+          "-119"
+        ],
+        "case_id": "S095",
+        "check_summary": "Last visible block has constant decrement -12; continuation extends the block trend.",
+        "confidence": 0.31,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-20",
+          "176",
+          "-28",
+          "266",
+          "-36"
+        ],
+        "case_id": "S096",
+        "check_summary": "Continuation estimated from alternating phase-specific recurrence.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine or second-order recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-1FD52C1BC57B-search-b08-proposer-9",
+  "outcome": "valid_output",
+  "response_sha256": "09f080b85efae504cae929e0f5baa5e3fe719d3367b79136e4875d0472945f3b",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-1FD52C1BC57B-search-b08-proposer-9/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "4",
+          "-29",
+          "4",
+          "-43",
+          "4"
+        ],
+        "case_id": "F013",
+        "check_summary": "Bounded alternating subsequences suggest a phase-periodic modular rule; continuation uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "MODAFFINE-like phase recurrence."
+      },
+      {
+        "answer": [
+          "14",
+          "42",
+          "6",
+          "19",
+          "2"
+        ],
+        "case_id": "F014",
+        "check_summary": "No unique simple low-order recurrence identified from the bounded prefix.",
+        "confidence": 0.12,
+        "rule_summary": "Likely periodic modular affine update."
+      },
+      {
+        "answer": [
+          "-1",
+          "-3",
+          "-8",
+          "-2",
+          "-3"
+        ],
+        "case_id": "F015",
+        "check_summary": "Subsequence differences do not stabilize under a simple interleave.",
+        "confidence": 0.1,
+        "rule_summary": "Likely phase-specific polynomial-delta rule."
+      },
+      {
+        "answer": [
+          "53",
+          "23",
+          "-7",
+          "-37",
+          "-67"
+        ],
+        "case_id": "F016",
+        "check_summary": "Block deltas show positive boundary jumps followed by increasingly long constant negative runs.",
+        "confidence": 0.58,
+        "rule_summary": "GROWBLOCK with polynomial boundary jumps and phase-specific steps."
+      },
+      {
+        "answer": [
+          "66",
+          "34",
+          "88",
+          "52",
+          "110"
+        ],
+        "case_id": "F017",
+        "check_summary": "Bounded interleaved streams remain underdetermined from the prefix.",
+        "confidence": 0.11,
+        "rule_summary": "Likely modular or interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-7",
+          "25",
+          "-9",
+          "28",
+          "-11"
+        ],
+        "case_id": "F018",
+        "check_summary": "Odd positions decrease by 2 and even positions increase by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "71",
+          "15",
+          "95",
+          "-12",
+          "121"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd subsequence has successive increments 2,6,10,14,18; even subsequence alternates -12,15.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of a quadratic stream and a period-2 affine stream."
+      },
+      {
+        "answer": [
+          "-4",
+          "-126",
+          "176",
+          "-194",
+          "398"
+        ],
+        "case_id": "F020",
+        "check_summary": "Large alternating excursions suggest a phase-dependent second-order or affine rule; continuation uncertain.",
+        "confidence": 0.15,
+        "rule_summary": "Likely LIN2 or phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "24",
+          "28",
+          "-1",
+          "31",
+          "45"
+        ],
+        "case_id": "F021",
+        "check_summary": "Recent differences suggest interleaved phase behavior but do not determine a unique continuation.",
+        "confidence": 0.13,
+        "rule_summary": "Likely periodic affine or interleaved rule."
+      },
+      {
+        "answer": [
+          "-30",
+          "458",
+          "-38",
+          "-510",
+          "-46"
+        ],
+        "case_id": "F022",
+        "check_summary": "Alternating large-magnitude changes are consistent with a phase-dependent linear recurrence.",
+        "confidence": 0.14,
+        "rule_summary": "Likely LIN2 with repeating bias phases."
+      },
+      {
+        "answer": [
+          "21",
+          "26",
+          "31",
+          "36",
+          "41"
+        ],
+        "case_id": "F023",
+        "check_summary": "The latest visible block advances by 5 and appears to continue arithmetically.",
+        "confidence": 0.35,
+        "rule_summary": "Likely growing/interleaved arithmetic blocks."
+      },
+      {
+        "answer": [
+          "47",
+          "68",
+          "89",
+          "110",
+          "131"
+        ],
+        "case_id": "F024",
+        "check_summary": "The final visible pair of increments is +21, suggesting continuation of the latest phase step.",
+        "confidence": 0.3,
+        "rule_summary": "Likely GROWBLOCK or phase-specific polynomial deltas."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-generalist_vote10-GENERALIST-VOTE10-final-b02-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "a121885eba87e317d6d11d750904883522f74a4788b61d35b15e85f56e099ad2",
+  "terminal_artifact_relpath": "jobs/final-generalist_vote10-GENERALIST-VOTE10-final-b02-proposer-7/attempt-01"
+}

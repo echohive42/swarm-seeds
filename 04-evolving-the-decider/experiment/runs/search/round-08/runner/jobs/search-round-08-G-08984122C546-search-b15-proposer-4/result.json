@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Four-position streams follow x_next=-4x+5.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE affine streams."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Differences alternate 4 and 5.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta rule."
+      },
+      {
+        "answer": [
+          "-2786",
+          "-4878",
+          "-7930",
+          "-12226",
+          "-18100"
+        ],
+        "case_id": "S171",
+        "check_summary": "Fifth differences are constant -4.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued degree-5 polynomial."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Third differences continue decreasing by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial finite-difference rule."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences increase by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial finite-difference rule."
+      },
+      {
+        "answer": [
+          "-4440",
+          "-7183",
+          "-11623",
+          "-18806",
+          "-30429"
+        ],
+        "case_id": "S174",
+        "check_summary": "Extrapolated alternating lagged growth in differences.",
+        "confidence": 0.48,
+        "rule_summary": "LAGPOLY/PDELTA-style lagged update."
+      },
+      {
+        "answer": [
+          "-214809",
+          "-429625",
+          "859241",
+          "1718491",
+          "3436975"
+        ],
+        "case_id": "S175",
+        "check_summary": "Continued phase-dependent signed doubling pattern.",
+        "confidence": 0.42,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "67",
+          "63",
+          "70",
+          "77",
+          "72"
+        ],
+        "case_id": "S176",
+        "check_summary": "Extrapolated phase-dependent difference pattern.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic delta rule."
+      },
+      {
+        "answer": [
+          "-214809",
+          "-429625",
+          "859241",
+          "1718491",
+          "3436975"
+        ],
+        "case_id": "S177",
+        "check_summary": "Signed doubling with repeating phase biases.",
+        "confidence": 0.96,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the previous term.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE multiplier 2."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "The six-term cycle repeats.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE periodic streams."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd-position differences drop by 7; even-position differences drop by 6.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic polynomial delta rule."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-08984122C546-search-b15-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "3ce55c3b1d790f41daed6a4804fa6f6c32a8eb1c2927104d10bddf9698a4981f",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-08984122C546-search-b15-proposer-4/attempt-01"
+}

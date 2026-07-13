@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "641",
+          "961",
+          "641",
+          "-319",
+          "-1599"
+        ],
+        "case_id": "S025",
+        "check_summary": "Periodic phase delta extrapolation; low confidence.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic polynomial-delta pattern inferred from repeated scaled phase structure."
+      },
+      {
+        "answer": [
+          "-42",
+          "-57",
+          "-61",
+          "-69",
+          "-77"
+        ],
+        "case_id": "S026",
+        "check_summary": "Irregular lagged pattern; low confidence.",
+        "confidence": 0.12,
+        "rule_summary": "Lagged subsequence with phase-specific small integer increments."
+      },
+      {
+        "answer": [
+          "-13",
+          "-24",
+          "-35",
+          "-49",
+          "-63"
+        ],
+        "case_id": "S027",
+        "check_summary": "Paired first-difference pattern repeats with decrementing offsets.",
+        "confidence": 0.93,
+        "rule_summary": "Interleaved arithmetic-difference streams."
+      },
+      {
+        "answer": [
+          "-945",
+          "-1521",
+          "-2439",
+          "-3907",
+          "-6259"
+        ],
+        "case_id": "S028",
+        "check_summary": "Affine-growth continuation inferred from tail; moderate uncertainty.",
+        "confidence": 0.25,
+        "rule_summary": "Periodic affine update with changing phase bias."
+      },
+      {
+        "answer": [
+          "797159",
+          "2391482",
+          "7174451",
+          "21523358",
+          "64570079"
+        ],
+        "case_id": "S029",
+        "check_summary": "Exact recurrence x_next=3x+5 throughout prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Constant affine recurrence."
+      },
+      {
+        "answer": [
+          "-55",
+          "-59",
+          "-64",
+          "-68",
+          "-73"
+        ],
+        "case_id": "S030",
+        "check_summary": "Alternating decrements of 5 and 4.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic arithmetic delta."
+      },
+      {
+        "answer": [
+          "-1010",
+          "-2117",
+          "-4140",
+          "-7280",
+          "-10027"
+        ],
+        "case_id": "S031",
+        "check_summary": "Polynomial extrapolation from finite differences; moderate uncertainty.",
+        "confidence": 0.28,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "-140903",
+          "-281810",
+          "563625",
+          "1127254",
+          "-2254503"
+        ],
+        "case_id": "S032",
+        "check_summary": "Exact repeating affine phase recurrence with sign changes.",
+        "confidence": 0.97,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-205",
+          "-240",
+          "-273",
+          "-313",
+          "-351"
+        ],
+        "case_id": "S033",
+        "check_summary": "Alternating first-difference streams with linear drift.",
+        "confidence": 0.96,
+        "rule_summary": "Interleaved polynomial delta streams."
+      },
+      {
+        "answer": [
+          "99759069",
+          "299277205",
+          "-897831611",
+          "-2693494827",
+          "-8080484483"
+        ],
+        "case_id": "S034",
+        "check_summary": "Exact three-phase affine recurrence after initial transition.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic affine update with multipliers 3, 3, and -3."
+      },
+      {
+        "answer": [
+          "1112",
+          "1814",
+          "2759",
+          "3994",
+          "5229"
+        ],
+        "case_id": "S035",
+        "check_summary": "Quartic finite-difference continuation.",
+        "confidence": 0.88,
+        "rule_summary": "Integer-valued quartic polynomial."
+      },
+      {
+        "answer": [
+          "1025",
+          "1348",
+          "1730",
+          "2171",
+          "2671"
+        ],
+        "case_id": "S036",
+        "check_summary": "Exact cubic finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued cubic polynomial."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-A5C4CF71B956-search-b03-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "807ef03f8f4b61314d5dbc33e22c55150cb7163f16ec6e443a0c5ec9feedc7dd",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-A5C4CF71B956-search-b03-proposer-5/attempt-01"
+}

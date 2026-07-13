@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-146",
+          "-41",
+          "-177",
+          "-52",
+          "-208"
+        ],
+        "case_id": "S181",
+        "check_summary": "Prefix-consistent extrapolation under a phase-periodic polynomial-delta pattern.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA with periodic phase-specific deltas."
+      },
+      {
+        "answer": [
+          "-9",
+          "35",
+          "-4",
+          "24",
+          "-11"
+        ],
+        "case_id": "S182",
+        "check_summary": "Prefix supports a periodic affine/interleaved pattern; continuation is low-confidence.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE with affine streams."
+      },
+      {
+        "answer": [
+          "15",
+          "18",
+          "22",
+          "26",
+          "31"
+        ],
+        "case_id": "S183",
+        "check_summary": "Three phase streams show recurring polynomial increments.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      },
+      {
+        "answer": [
+          "-1019",
+          "-14",
+          "-2029",
+          "-14",
+          "-4049"
+        ],
+        "case_id": "S184",
+        "check_summary": "Large alternating phase growth suggests phase-specific affine behavior.",
+        "confidence": 0.16,
+        "rule_summary": "AFFINE with repeating phase."
+      },
+      {
+        "answer": [
+          "68",
+          "3",
+          "91",
+          "-2",
+          "117"
+        ],
+        "case_id": "S185",
+        "check_summary": "Odd positions have second differences 3; even positions alternate 3 and -2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of a quadratic stream and a period-2 constant stream."
+      },
+      {
+        "answer": [
+          "-46",
+          "67",
+          "-55",
+          "75",
+          "-64"
+        ],
+        "case_id": "S186",
+        "check_summary": "Prefix treated as a multi-phase affine/interleaved sequence.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE with phase-specific affine updates."
+      },
+      {
+        "answer": [
+          "29",
+          "26",
+          "-107",
+          "30",
+          "39"
+        ],
+        "case_id": "S187",
+        "check_summary": "Modulo-3 streams extrapolate with arithmetic second differences.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "-70",
+          "-87",
+          "-104",
+          "-121",
+          "-138"
+        ],
+        "case_id": "S188",
+        "check_summary": "Growing negative arithmetic blocks suggest the next block continues with step -17.",
+        "confidence": 0.72,
+        "rule_summary": "GROWBLOCK with polynomially changing block steps."
+      },
+      {
+        "answer": [
+          "-13",
+          "-21",
+          "-17",
+          "-24",
+          "-21"
+        ],
+        "case_id": "S189",
+        "check_summary": "Successive differences alternate positive and negative arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-2 polynomial deltas."
+      },
+      {
+        "answer": [
+          "-10",
+          "48",
+          "-1",
+          "57",
+          "-22"
+        ],
+        "case_id": "S190",
+        "check_summary": "Continuation estimated from alternating phase behavior.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE with affine streams."
+      },
+      {
+        "answer": [
+          "39",
+          "31",
+          "68",
+          "20",
+          "72"
+        ],
+        "case_id": "S191",
+        "check_summary": "Prefix treated as a phase-periodic affine/interleaved process.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE with affine streams."
+      },
+      {
+        "answer": [
+          "-48",
+          "185",
+          "-59",
+          "296",
+          "-70"
+        ],
+        "case_id": "S192",
+        "check_summary": "Prefix treated as a phase-periodic recurrence with alternating growth.",
+        "confidence": 0.14,
+        "rule_summary": "LIN2 with repeating phase bias."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-B6BC6FB624BA-search-b16-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "4a9cbf5256910f6d5315e88f558013ffe6810d6dbb136317041202989ef6deb0",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-B6BC6FB624BA-search-b16-proposer-4/attempt-01"
+}

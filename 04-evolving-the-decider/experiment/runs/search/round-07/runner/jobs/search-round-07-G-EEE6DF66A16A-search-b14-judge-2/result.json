@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "8",
+          "-15",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "Triangular-position negative jumps with +5 otherwise; prefix replay is exact.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA/GROWBLOCK"
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd and even subsequences replay quadratic and signed-doubling streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-45",
+          "-20",
+          "-5",
+          "10",
+          "25"
+        ],
+        "case_id": "S159",
+        "check_summary": "Selected the strongest available full-prefix periodic-polynomial continuation.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd terms rise by 2 and even terms rise by 1.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-11",
+          "39",
+          "7",
+          "-13",
+          "56"
+        ],
+        "case_id": "S161",
+        "check_summary": "Three modulo-3 streams have polynomial increments matching the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "13",
+          "11",
+          "19",
+          "13",
+          "25"
+        ],
+        "case_id": "S162",
+        "check_summary": "Selected the strongest available phase-specific continuation.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "5",
+          "-362",
+          "5",
+          "6",
+          "-730"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams continue with arithmetic and doubling behavior.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "39",
+          "72",
+          "45",
+          "78",
+          "51"
+        ],
+        "case_id": "S164",
+        "check_summary": "Selected the strongest available periodic-affine continuation.",
+        "confidence": 0.12,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-4",
+          "-20",
+          "-19",
+          "-32",
+          "-28"
+        ],
+        "case_id": "S165",
+        "check_summary": "Selected the strongest available periodic-polynomial continuation.",
+        "confidence": 0.15,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "1",
+          "19",
+          "135",
+          "-38",
+          "-21"
+        ],
+        "case_id": "S166",
+        "check_summary": "Modulo-3 streams include alternating, quadratic, and cubic phase behavior.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-45",
+          "31",
+          "-62",
+          "48",
+          "-83"
+        ],
+        "case_id": "S167",
+        "check_summary": "Selected the strongest available interleaved-polynomial continuation.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-22",
+          "10",
+          "42",
+          "74",
+          "106"
+        ],
+        "case_id": "S168",
+        "check_summary": "Growing blocks have steps 0, 8, 16, 24, then 32 with polynomial starts.",
+        "confidence": 0.72,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-EEE6DF66A16A-search-b14-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "04cc24f260558f72e6e299f53aabb903503d36b7bee900d8aaeb1601a86b1610",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-EEE6DF66A16A-search-b14-judge-2/attempt-01"
+}

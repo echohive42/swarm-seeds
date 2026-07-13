@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b05",
+    "results": [
+      {
+        "answer": [
+          "3454364",
+          "10363097",
+          "31089296",
+          "93267893",
+          "279803684"
+        ],
+        "case_id": "F049",
+        "check_summary": "Constant affine update x'=3x+5 matches all terms.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "21",
+          "19",
+          "24",
+          "22",
+          "27"
+        ],
+        "case_id": "F050",
+        "check_summary": "Odd and even positions are arithmetic streams with step 3.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-5953",
+          "5956",
+          "-17864",
+          "17861",
+          "-53579"
+        ],
+        "case_id": "F051",
+        "check_summary": "Three-phase affine updates replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3927",
+          "-5680",
+          "-7879",
+          "-10570",
+          "-13783"
+        ],
+        "case_id": "F052",
+        "check_summary": "Extrapolated periodic polynomial-delta pattern.",
+        "confidence": 0.31,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "513000",
+          "1231200",
+          "2954880",
+          "7091712",
+          "17020109"
+        ],
+        "case_id": "F053",
+        "check_summary": "Extrapolated dominant affine-growth recurrence.",
+        "confidence": 0.28,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "1066421",
+          "-3199269",
+          "-6398539",
+          "19195611",
+          "38391221"
+        ],
+        "case_id": "F054",
+        "check_summary": "Alternating updates x'=2x-1 and x'=-3x-6 match all terms.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-1013",
+          "-453",
+          "2141",
+          "-1053",
+          "-3833"
+        ],
+        "case_id": "F055",
+        "check_summary": "Extrapolated interleaved modular/affine streams.",
+        "confidence": 0.18,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-127",
+          "-154",
+          "-184",
+          "-217",
+          "-253"
+        ],
+        "case_id": "F056",
+        "check_summary": "Extrapolated lagged subsequence polynomial increments.",
+        "confidence": 0.24,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "42",
+          "5",
+          "39",
+          "-5",
+          "36"
+        ],
+        "case_id": "F057",
+        "check_summary": "Even stream differences descend by 3; odd stream differences descend by 3.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-77",
+          "-89",
+          "-102",
+          "-116",
+          "-131"
+        ],
+        "case_id": "F058",
+        "check_summary": "Successive differences are -1,-1,-2,...,-10.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-880",
+          "-1115",
+          "-1389",
+          "-1705",
+          "-2066"
+        ],
+        "case_id": "F059",
+        "check_summary": "Second differences decrease by successive multiples of 3.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1494",
+          "2225",
+          "3194",
+          "4447",
+          "5700"
+        ],
+        "case_id": "F060",
+        "check_summary": "Third differences continue increasing by 4.",
+        "confidence": 0.87,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-evolved_champion-G-A20DBD76963B-final-b05-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "f3ddacf4465042731140da8f9099999cb1bfa0fe41c9009d9452cef799da8a93",
+  "terminal_artifact_relpath": "jobs/final-evolved_champion-G-A20DBD76963B-final-b05-proposer-6/attempt-01"
+}

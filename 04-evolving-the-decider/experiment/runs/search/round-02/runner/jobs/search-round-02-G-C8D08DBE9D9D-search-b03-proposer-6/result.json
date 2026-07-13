@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "321",
+          "-319",
+          "-1279",
+          "-1919",
+          "-1279"
+        ],
+        "case_id": "S025",
+        "check_summary": "Four-step affine replay: each phase advances by x -> -4x + 5.",
+        "confidence": 0.98,
+        "rule_summary": "Phase-periodic affine recurrence with period 4."
+      },
+      {
+        "answer": [
+          "-61",
+          "-38",
+          "-49",
+          "-76",
+          "-103"
+        ],
+        "case_id": "S026",
+        "check_summary": "Phase-group differences show structured but less certain periodic polynomial deltas.",
+        "confidence": 0.32,
+        "rule_summary": "Periodic phase-specific polynomial-delta update."
+      },
+      {
+        "answer": [
+          "-13",
+          "-21",
+          "-32",
+          "-43",
+          "-57"
+        ],
+        "case_id": "S027",
+        "check_summary": "Successive paired differences decrease by 3 in regular blocks.",
+        "confidence": 0.94,
+        "rule_summary": "Periodic polynomial delta sequence."
+      },
+      {
+        "answer": [
+          "-955",
+          "-1544",
+          "-2500",
+          "-4045",
+          "-6545"
+        ],
+        "case_id": "S028",
+        "check_summary": "Late prefix follows a stable approximately 1.6x growth recurrence.",
+        "confidence": 0.28,
+        "rule_summary": "Phase-periodic affine or linear recurrence."
+      },
+      {
+        "answer": [
+          "797156",
+          "2391473",
+          "7174424",
+          "21523277",
+          "64569836"
+        ],
+        "case_id": "S029",
+        "check_summary": "Every transition satisfies next = 3*current + 5.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence x(n+1)=3x(n)+5."
+      },
+      {
+        "answer": [
+          "-56",
+          "-60",
+          "-65",
+          "-69",
+          "-74"
+        ],
+        "case_id": "S030",
+        "check_summary": "Differences alternate -5 and -4 throughout the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 polynomial delta update."
+      },
+      {
+        "answer": [
+          "-1048",
+          "-1398",
+          "-1805",
+          "-2273",
+          "-2807"
+        ],
+        "case_id": "S031",
+        "check_summary": "High-order finite differences suggest polynomial continuation.",
+        "confidence": 0.36,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "140912",
+          "-281819",
+          "-563634",
+          "1127273",
+          "2254550"
+        ],
+        "case_id": "S032",
+        "check_summary": "Alternating updates are next = -2x + 5 and next = 2x + 4.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 affine recurrence."
+      },
+      {
+        "answer": [
+          "-205",
+          "-240",
+          "-273",
+          "-313",
+          "-351"
+        ],
+        "case_id": "S033",
+        "check_summary": "Odd and even differences each decrease by 5 per occurrence.",
+        "confidence": 0.96,
+        "rule_summary": "Period-2 polynomial delta update."
+      },
+      {
+        "answer": [
+          "99759063",
+          "299277187",
+          "-897831557",
+          "-2693494671",
+          "-8080484015"
+        ],
+        "case_id": "S034",
+        "check_summary": "Repeating late-phase affine transitions are 3x, 3x-2, -3x+4.",
+        "confidence": 0.97,
+        "rule_summary": "Period-3 affine recurrence."
+      },
+      {
+        "answer": [
+          "1112",
+          "1814",
+          "2759",
+          "3994",
+          "5406"
+        ],
+        "case_id": "S035",
+        "check_summary": "Finite differences stabilize to polynomial growth with third differences rising by 4.",
+        "confidence": 0.82,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "1025",
+          "1343",
+          "1720",
+          "2161",
+          "2671"
+        ],
+        "case_id": "S036",
+        "check_summary": "Differences continue with second differences increasing by 5.",
+        "confidence": 0.9,
+        "rule_summary": "Integer-valued polynomial sequence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-C8D08DBE9D9D-search-b03-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "8f818df28b5527e2173999e910ef9470d315d426a93e306f4ed2184484c62ee2",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-C8D08DBE9D9D-search-b03-proposer-6/attempt-01"
+}

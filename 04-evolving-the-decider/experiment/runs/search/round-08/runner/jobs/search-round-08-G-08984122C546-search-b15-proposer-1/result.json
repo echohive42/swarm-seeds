@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "-670",
+          "-548",
+          "245",
+          "1587",
+          "-1440"
+        ],
+        "case_id": "S169",
+        "check_summary": "Four phase-specific quadratic subsequences reproduce the prefix.",
+        "confidence": 0.95,
+        "rule_summary": "INTERLEAVE with four quadratic streams."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments 4 and 5 reproduce the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic PDELTA with increments 4,5."
+      },
+      {
+        "answer": [
+          "-2166",
+          "-3352",
+          "-5178",
+          "-7894",
+          "-11800"
+        ],
+        "case_id": "S171",
+        "check_summary": "Finite differences give constant fifth difference -4.",
+        "confidence": 0.98,
+        "rule_summary": "Degree-5 POLY."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Finite differences continue with third differences descending by 1.",
+        "confidence": 0.98,
+        "rule_summary": "Degree-5 POLY."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences increase consecutively after the symmetric delta pattern.",
+        "confidence": 0.98,
+        "rule_summary": "POLY/PDELTA with quadratic increments."
+      },
+      {
+        "answer": [
+          "-4430",
+          "-7167",
+          "-11593",
+          "-18717",
+          "-30205"
+        ],
+        "case_id": "S174",
+        "check_summary": "Prefix exhibits repeated accelerating affine-growth behavior.",
+        "confidence": 0.42,
+        "rule_summary": "Phase-specific AFFINE."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97897621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Transitions repeat 3x+1, -2x+6.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic AFFINE."
+      },
+      {
+        "answer": [
+          "64",
+          "59",
+          "75",
+          "82",
+          "88"
+        ],
+        "case_id": "S176",
+        "check_summary": "Interleaved irregular low-degree streams inferred from phase structure.",
+        "confidence": 0.34,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-53701",
+          "-107409",
+          "214809",
+          "429627",
+          "859247"
+        ],
+        "case_id": "S177",
+        "check_summary": "Transitions repeat 2x+9, 2x-7, -2x-9.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic AFFINE."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term doubles the previous term.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE x' = 2x."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "Six-term period repeats exactly.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic PDELTA/state cycle."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd-position deltas decrease by 7; even-position deltas decrease by 6.",
+        "confidence": 0.96,
+        "rule_summary": "Periodic PDELTA with two arithmetic delta phases."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-08984122C546-search-b15-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "df87bf330a02b0b1366e2a04a5da762cb6cc215b23d3acc89ec585216e06fc74",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-08984122C546-search-b15-proposer-1/attempt-01"
+}

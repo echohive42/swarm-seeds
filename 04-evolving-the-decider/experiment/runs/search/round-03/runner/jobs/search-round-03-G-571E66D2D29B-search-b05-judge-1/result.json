@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b05",
+    "results": [
+      {
+        "answer": [
+          "-1988",
+          "-2743",
+          "-3689",
+          "-4855",
+          "-6272"
+        ],
+        "case_id": "S049",
+        "check_summary": "Independent candidates agree on constant fourth finite difference -2.",
+        "confidence": 0.99,
+        "rule_summary": "POLY quartic finite-difference continuation."
+      },
+      {
+        "answer": [
+          "97519",
+          "195057",
+          "390092",
+          "780199",
+          "1560377"
+        ],
+        "case_id": "S050",
+        "check_summary": "Multiple reconstructions agree on the repeating affine/interleaved continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic AFFINE / INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-31163",
+          "31164",
+          "93496",
+          "-93495",
+          "-280481"
+        ],
+        "case_id": "S051",
+        "check_summary": "Alternating affine transformations reproduce the full prefix and agree across candidates.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "406",
+          "-458",
+          "513",
+          "-571",
+          "632"
+        ],
+        "case_id": "S052",
+        "check_summary": "Alternating phase-specific polynomial deltas agree across independent candidates.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA."
+      },
+      {
+        "answer": [
+          "-63",
+          "-77",
+          "-55",
+          "-70",
+          "-87"
+        ],
+        "case_id": "S053",
+        "check_summary": "The strongest available evidence supports the repeated interleaved phase continuation.",
+        "confidence": 0.55,
+        "rule_summary": "INTERLEAVE / PDELTA."
+      },
+      {
+        "answer": [
+          "-63",
+          "-77",
+          "-55",
+          "-68",
+          "-82"
+        ],
+        "case_id": "S054",
+        "check_summary": "Multiple candidates verify three phase-specific arithmetic delta streams.",
+        "confidence": 0.98,
+        "rule_summary": "Period-3 PDELTA."
+      },
+      {
+        "answer": [
+          "-3720088",
+          "-11160262",
+          "-33480784",
+          "-100442350",
+          "-301327048"
+        ],
+        "case_id": "S055",
+        "check_summary": "Every observed transition satisfies next = 3 times current plus 2.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE x'=3x+2."
+      },
+      {
+        "answer": [
+          "-9054",
+          "-16275",
+          "-28648",
+          "-48326",
+          "-78068"
+        ],
+        "case_id": "S056",
+        "check_summary": "The modal reconstructed continuation is the high-order finite-difference extrapolation, though evidence remains weak.",
+        "confidence": 0.38,
+        "rule_summary": "POLY continuation."
+      },
+      {
+        "answer": [
+          "27996",
+          "-27993",
+          "83983",
+          "167964",
+          "-167961"
+        ],
+        "case_id": "S057",
+        "check_summary": "Independent candidates agree on the period-3 affine/LIN2 continuation.",
+        "confidence": 1.0,
+        "rule_summary": "Period-3 AFFINE / LIN2."
+      },
+      {
+        "answer": [
+          "58",
+          "63",
+          "67",
+          "72",
+          "76"
+        ],
+        "case_id": "S058",
+        "check_summary": "The observed differences alternate +5 and +4, yielding this continuation.",
+        "confidence": 1.0,
+        "rule_summary": "Period-2 PDELTA."
+      },
+      {
+        "answer": [
+          "53",
+          "121",
+          "208",
+          "316",
+          "447"
+        ],
+        "case_id": "S059",
+        "check_summary": "Independent candidates agree on the polynomial continuation of successive differences.",
+        "confidence": 0.99,
+        "rule_summary": "POLY."
+      },
+      {
+        "answer": [
+          "-1290",
+          "-2086",
+          "-3374",
+          "-5458",
+          "-8830"
+        ],
+        "case_id": "S060",
+        "check_summary": "All candidates verify the Fibonacci-type second-order recurrence on differences.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 on successive differences."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-571E66D2D29B-search-b05-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "302740efe7c810a105c3b4a605f9570449944b3057520ae37b7c26dd82669e46",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-571E66D2D29B-search-b05-judge-1/attempt-01"
+}

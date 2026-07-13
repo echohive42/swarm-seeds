@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b06",
+    "results": [
+      {
+        "answer": [
+          "-8",
+          "35",
+          "-11",
+          "39",
+          "-14"
+        ],
+        "case_id": "F061",
+        "check_summary": "Odd-position stream decreases by 3; even-position stream increases by 4.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "16",
+          "34",
+          "11",
+          "27",
+          "2"
+        ],
+        "case_id": "F062",
+        "check_summary": "No fully verified simple continuation from the supplied prefix.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative phase-interleaved continuation."
+      },
+      {
+        "answer": [
+          "-8",
+          "-2",
+          "42",
+          "-19",
+          "-43"
+        ],
+        "case_id": "F063",
+        "check_summary": "No fully verified simple continuation from the supplied prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative multi-phase recurrence."
+      },
+      {
+        "answer": [
+          "-124",
+          "-152",
+          "-180",
+          "-208",
+          "-236"
+        ],
+        "case_id": "F064",
+        "check_summary": "Recent tail suggests an arithmetic continuation with common difference -28.",
+        "confidence": 0.25,
+        "rule_summary": "Tentative arithmetic-tail continuation."
+      },
+      {
+        "answer": [
+          "57",
+          "104",
+          "-13",
+          "111",
+          "-58"
+        ],
+        "case_id": "F065",
+        "check_summary": "No fully verified simple continuation from the supplied prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative interleaved continuation."
+      },
+      {
+        "answer": [
+          "99",
+          "-15",
+          "-67",
+          "-205",
+          "-22"
+        ],
+        "case_id": "F066",
+        "check_summary": "Modulo-3 stream at positions 1,4,7,10,13 has differences -6,-9,-12,-15; another stream follows alternating doubled deltas; the third falls -",
+        "confidence": 0.88,
+        "rule_summary": "Three interleaved phase-specific streams."
+      },
+      {
+        "answer": [
+          "-78",
+          "-41",
+          "9",
+          "-55",
+          "-100"
+        ],
+        "case_id": "F067",
+        "check_summary": "No fully verified simple continuation from the supplied prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "47",
+          "42",
+          "36",
+          "58",
+          "53"
+        ],
+        "case_id": "F068",
+        "check_summary": "No fully verified simple continuation from the supplied prefix.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative periodic-delta continuation."
+      },
+      {
+        "answer": [
+          "-22",
+          "-24",
+          "-26",
+          "-28",
+          "-30"
+        ],
+        "case_id": "F069",
+        "check_summary": "The sequence trends downward with mostly small negative increments.",
+        "confidence": 0.2,
+        "rule_summary": "Tentative near-arithmetic continuation."
+      },
+      {
+        "answer": [
+          "-640",
+          "17",
+          "1280",
+          "26",
+          "-2560"
+        ],
+        "case_id": "F070",
+        "check_summary": "Odd positions multiply by -2; even-position values follow k^2-6k+10.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved streams: geometric and quadratic."
+      },
+      {
+        "answer": [
+          "-49",
+          "-47",
+          "-57",
+          "-59",
+          "-68"
+        ],
+        "case_id": "F071",
+        "check_summary": "No fully verified simple continuation from the supplied prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative phase-interleaved continuation."
+      },
+      {
+        "answer": [
+          "31",
+          "18",
+          "42",
+          "12",
+          "51"
+        ],
+        "case_id": "F072",
+        "check_summary": "No fully verified simple continuation from the supplied prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative bounded phase recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-evolved_champion-G-A20DBD76963B-final-b06-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "bbcaa27e8f95289e76d2b8555aebdd096d7ba6bff7ea45278511a4ec65103c9b",
+  "terminal_artifact_relpath": "jobs/final-evolved_champion-G-A20DBD76963B-final-b06-proposer-5/attempt-01"
+}

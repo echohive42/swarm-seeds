@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "Full prefix follows x(n+1)=-3x(n)+3.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3777",
+          "-5390",
+          "-7477",
+          "-10123",
+          "-13413"
+        ],
+        "case_id": "V026",
+        "check_summary": "Finite differences support a quartic continuation.",
+        "confidence": 0.82,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-1314",
+          "2385",
+          "-5110",
+          "10767",
+          "-22496"
+        ],
+        "case_id": "V027",
+        "check_summary": "Estimated phase-structured interleaved continuation.",
+        "confidence": 0.24,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "47316",
+          "-94674",
+          "189310",
+          "-378664",
+          "757284"
+        ],
+        "case_id": "V028",
+        "check_summary": "Alternating affine multiplier near -2 with phase bias.",
+        "confidence": 0.72,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "12100",
+          "18367",
+          "26159",
+          "35643",
+          "46887"
+        ],
+        "case_id": "V029",
+        "check_summary": "Estimated polynomial-growth continuation from late differences.",
+        "confidence": 0.3,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Alternating arithmetic streams are exact.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Alternating multipliers 2 and 3 with phase biases.",
+        "confidence": 0.8,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802330",
+          "71604657",
+          "-214813980",
+          "429627891"
+        ],
+        "case_id": "V032",
+        "check_summary": "Estimated periodic affine continuation.",
+        "confidence": 0.28,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "957",
+          "-1224",
+          "2490",
+          "-4995",
+          "10116"
+        ],
+        "case_id": "V033",
+        "check_summary": "Estimated alternating recurrence continuation.",
+        "confidence": 0.3,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-9",
+          "-7",
+          "-11",
+          "-5",
+          "-13"
+        ],
+        "case_id": "V034",
+        "check_summary": "Estimated phase-periodic continuation.",
+        "confidence": 0.22,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "35",
+          "38",
+          "57",
+          "80",
+          "62"
+        ],
+        "case_id": "V035",
+        "check_summary": "Estimated interleaved stream continuation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "815",
+          "1060",
+          "1351",
+          "1692",
+          "2033"
+        ],
+        "case_id": "V036",
+        "check_summary": "Second differences continue with constant increment 4.",
+        "confidence": 0.86,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b03-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "00efabb4f16349c5d8434e524046a1401e788072695c5f8023d5ce6457fa76b5",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b03-proposer-7/attempt-01"
+}

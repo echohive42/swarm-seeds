@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "-425",
+          "-65",
+          "855",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Odd-position terms decrement by 5,6,7,8,...; even-position terms follow x'=-2x+5.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "66",
+          "0",
+          "24",
+          "48",
+          "72"
+        ],
+        "case_id": "V038",
+        "check_summary": "Positive runs use increments 14,19, then 24; intervening negative separators have increasing magnitude.",
+        "confidence": 0.9,
+        "rule_summary": "Growing-block delta pattern."
+      },
+      {
+        "answer": [
+          "83",
+          "-183",
+          "-277",
+          "105",
+          "-276"
+        ],
+        "case_id": "V039",
+        "check_summary": "Three residue streams exhibit polynomial/affine continuation consistent with the full prefix.",
+        "confidence": 0.94,
+        "rule_summary": "Three-way interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "22",
+          "26",
+          "22",
+          "34",
+          "26"
+        ],
+        "case_id": "V040",
+        "check_summary": "Phase-interleaved arithmetic streams with periodic corrections reproduce the prefix.",
+        "confidence": 0.86,
+        "rule_summary": "Interleaved phase-specific affine streams."
+      },
+      {
+        "answer": [
+          "-42",
+          "57",
+          "-7",
+          "31",
+          "-18"
+        ],
+        "case_id": "V041",
+        "check_summary": "Bounded irregular values are consistent with a periodic affine update modulo a prime.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic modular affine recurrence."
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Odd subsequence increases by 2 and even subsequence decreases by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "30",
+          "98",
+          "-17",
+          "54",
+          "400"
+        ],
+        "case_id": "V043",
+        "check_summary": "The prefix supports three interleaved streams, including a linear stream and accelerating phase increments.",
+        "confidence": 0.78,
+        "rule_summary": "Three-stream polynomial/affine interleave."
+      },
+      {
+        "answer": [
+          "71",
+          "43",
+          "15",
+          "-13",
+          "190"
+        ],
+        "case_id": "V044",
+        "check_summary": "Negative blocks lengthen with step -28; the next block start follows the established growing-block progression.",
+        "confidence": 0.91,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "31",
+          "47",
+          "18",
+          "72",
+          "4"
+        ],
+        "case_id": "V045",
+        "check_summary": "No simple nonmodular fit is supported; this is the best periodic-affine candidate.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-48",
+          "27",
+          "-61",
+          "34",
+          "-76"
+        ],
+        "case_id": "V046",
+        "check_summary": "Lagged residue subsequences show polynomially changing increments matching the proposed continuation.",
+        "confidence": 0.25,
+        "rule_summary": "Lagged polynomial increments."
+      },
+      {
+        "answer": [
+          "22",
+          "24",
+          "18",
+          "38",
+          "10"
+        ],
+        "case_id": "V047",
+        "check_summary": "Short residue subsequences support a phase-specific interleaved affine continuation.",
+        "confidence": 0.25,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-39",
+          "27",
+          "-40",
+          "32",
+          "-43"
+        ],
+        "case_id": "V048",
+        "check_summary": "Alternating subsequences exhibit structured lagged changes consistent with the proposed continuation.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b04-critic-2",
+  "outcome": "valid_output",
+  "response_sha256": "e3d91f71b19cb9b801b158872e36ad1e56c5da59b903cbcb0f5f78fe5a4c6229",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b04-critic-2/attempt-01"
+}

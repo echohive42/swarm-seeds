@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "69",
+          "4",
+          "93"
+        ],
+        "case_id": "S013",
+        "check_summary": "Alternating streams: odd-index terms have second differences 4; even-index terms alternate -5,4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of a quadratic odd stream and a period-2 even stream."
+      },
+      {
+        "answer": [
+          "26",
+          "23",
+          "41",
+          "30",
+          "67"
+        ],
+        "case_id": "S014",
+        "check_summary": "Noisy phase-structured continuation inferred from the full prefix.",
+        "confidence": 0.18,
+        "rule_summary": "Likely periodic phase-specific polynomial or affine update."
+      },
+      {
+        "answer": [
+          "-31",
+          "-28",
+          "-58",
+          "-45",
+          "-85"
+        ],
+        "case_id": "S015",
+        "check_summary": "Continuation estimated from alternating phase behavior and recent trend.",
+        "confidence": 0.14,
+        "rule_summary": "Likely interleaved or periodic affine mechanism."
+      },
+      {
+        "answer": [
+          "41",
+          "9",
+          "87",
+          "5",
+          "145"
+        ],
+        "case_id": "S016",
+        "check_summary": "Continuation estimated from phase-separated trends.",
+        "confidence": 0.12,
+        "rule_summary": "Likely periodic phase-specific update."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5; even terms decrease by 4.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-27",
+          "-5",
+          "-40",
+          "-9",
+          "-53"
+        ],
+        "case_id": "S018",
+        "check_summary": "Continuation estimated from recent periodic differences.",
+        "confidence": 0.13,
+        "rule_summary": "Likely periodic polynomial-delta mechanism."
+      },
+      {
+        "answer": [
+          "18",
+          "64",
+          "7",
+          "76",
+          "-5"
+        ],
+        "case_id": "S019",
+        "check_summary": "Continuation estimated under a modular periodic-affine pattern.",
+        "confidence": 0.1,
+        "rule_summary": "Likely MODAFFINE."
+      },
+      {
+        "answer": [
+          "42",
+          "20",
+          "64",
+          "42",
+          "88"
+        ],
+        "case_id": "S020",
+        "check_summary": "Positive phase increments appear in runs after negative resets; continuation extrapolated accordingly.",
+        "confidence": 0.2,
+        "rule_summary": "Likely GROWBLOCK or periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-54",
+          "-70",
+          "-86",
+          "-102",
+          "-118"
+        ],
+        "case_id": "S021",
+        "check_summary": "The final phase has a stable decrement of 16; continuation extends that phase.",
+        "confidence": 0.31,
+        "rule_summary": "Likely periodic affine or polynomial-delta update."
+      },
+      {
+        "answer": [
+          "-25",
+          "36",
+          "-43",
+          "53",
+          "-61"
+        ],
+        "case_id": "S022",
+        "check_summary": "Continuation estimated from alternating phase behavior.",
+        "confidence": 0.1,
+        "rule_summary": "Likely interleaved periodic streams."
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-37",
+          "-35"
+        ],
+        "case_id": "S023",
+        "check_summary": "Differences are +2 except at triangularly spaced reset positions, whose decrements grow by 2.",
+        "confidence": 0.97,
+        "rule_summary": "GROWBLOCK with increasing block lengths and reset decrements."
+      },
+      {
+        "answer": [
+          "-42",
+          "34",
+          "-74",
+          "48",
+          "-106"
+        ],
+        "case_id": "S024",
+        "check_summary": "Continuation estimated from alternating high-variance phase updates.",
+        "confidence": 0.08,
+        "rule_summary": "Likely periodic affine or interleaved affine mechanism."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-0025CFC9EF2E-search-b02-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "c4e725a6b95655587a896d49690af2b7d244209b162468f0932037ce90c1d809",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-0025CFC9EF2E-search-b02-proposer-6/attempt-01"
+}

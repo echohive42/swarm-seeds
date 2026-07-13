@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b05",
+    "results": [
+      {
+        "answer": [
+          "-55",
+          "-73",
+          "-174",
+          "-99",
+          "-114"
+        ],
+        "case_id": "V049",
+        "check_summary": "Period-three phase deltas fit the full prefix with polynomial continuation.",
+        "confidence": 0.74,
+        "rule_summary": "PDELTA with three phase-specific polynomial delta sequences."
+      },
+      {
+        "answer": [
+          "37012",
+          "-74029",
+          "148057",
+          "-296112",
+          "592229"
+        ],
+        "case_id": "V050",
+        "check_summary": "The alternating multiplier-minus-two recurrence and phase biases continue coherently.",
+        "confidence": 0.96,
+        "rule_summary": "Three-phase AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "-9765",
+          "-14523",
+          "-21020",
+          "-29688",
+          "-41024"
+        ],
+        "case_id": "V051",
+        "check_summary": "Higher-order difference continuation best matches the accelerating negative tail.",
+        "confidence": 0.32,
+        "rule_summary": "Polynomial delta progression."
+      },
+      {
+        "answer": [
+          "-14217",
+          "14218",
+          "-42648",
+          "42649",
+          "-127944"
+        ],
+        "case_id": "V052",
+        "check_summary": "Odd and even subsequences follow exact affine updates with multiplier 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "151",
+          "167",
+          "179",
+          "221",
+          "240"
+        ],
+        "case_id": "V053",
+        "check_summary": "Each phase has a linear increment progression across three-position cycles.",
+        "confidence": 0.99,
+        "rule_summary": "Period-three PDELTA."
+      },
+      {
+        "answer": [
+          "-49232",
+          "-118158",
+          "-283582",
+          "-680601",
+          "-1633448"
+        ],
+        "case_id": "V054",
+        "check_summary": "The negative exponential tail is best explained by a phase-periodic affine update.",
+        "confidence": 0.41,
+        "rule_summary": "Phase-periodic AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "1621",
+          "-2615",
+          "4239",
+          "-6851",
+          "11093"
+        ],
+        "case_id": "V055",
+        "check_summary": "Alternating subsequences continue under the strongest coherent interleaved affine fit.",
+        "confidence": 0.88,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "37838",
+          "-37840",
+          "113525",
+          "227054",
+          "-227056"
+        ],
+        "case_id": "V056",
+        "check_summary": "Three residue-class streams follow exact multiplier-six affine updates.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of three affine streams."
+      },
+      {
+        "answer": [
+          "-23",
+          "-28",
+          "-26",
+          "-31",
+          "-29"
+        ],
+        "case_id": "V057",
+        "check_summary": "Both parity subsequences decrement by three.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "5048689",
+          "15146068",
+          "45438205",
+          "136314616",
+          "408943849"
+        ],
+        "case_id": "V058",
+        "check_summary": "Every term follows the exact recurrence next equals three times current plus one.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "292",
+          "399",
+          "528",
+          "681",
+          "860"
+        ],
+        "case_id": "V059",
+        "check_summary": "The late finite differences support continued quadratic second-difference growth.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "-4467",
+          "-5931",
+          "-7725",
+          "-9895",
+          "-12490"
+        ],
+        "case_id": "V060",
+        "check_summary": "Third finite differences continue with constant decrement three.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-6BAC1D28F028-validation-b05-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "40979385a73832d593ead07f68ef7e13d29ec519a534a39e0ae661c3dd58afa5",
+  "terminal_artifact_relpath": "jobs/validation-G-6BAC1D28F028-validation-b05-judge-2/attempt-01"
+}

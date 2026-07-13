@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-431",
+          "-484",
+          "-547",
+          "-600",
+          "-666"
+        ],
+        "case_id": "S145",
+        "check_summary": "Three-phase interleaved polynomial-difference streams replay the prefix.",
+        "confidence": 0.82,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial increments."
+      },
+      {
+        "answer": [
+          "93",
+          "123",
+          "129",
+          "119",
+          "135"
+        ],
+        "case_id": "S146",
+        "check_summary": "Three interleaved streams reproduce all 14 terms.",
+        "confidence": 0.88,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "-10922",
+          "21846",
+          "-43690",
+          "87382",
+          "-174762"
+        ],
+        "case_id": "S147",
+        "check_summary": "Every transition satisfies x_next=-2*x+2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE recurrence x_next=-2x+2."
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "327"
+        ],
+        "case_id": "S148",
+        "check_summary": "Alternating differences follow arithmetic progressions with increments 6 and 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two quadratic streams."
+      },
+      {
+        "answer": [
+          "3560",
+          "4779",
+          "6288",
+          "7849",
+          "9700"
+        ],
+        "case_id": "S149",
+        "check_summary": "Third differences increase by 3; continued polynomial differences.",
+        "confidence": 0.97,
+        "rule_summary": "POLY degree-five sequence."
+      },
+      {
+        "answer": [
+          "-6",
+          "-4",
+          "-8",
+          "-6",
+          "-10"
+        ],
+        "case_id": "S150",
+        "check_summary": "Odd and even subsequences each decrease by 2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-3920",
+          "-6348",
+          "-10274",
+          "-16629",
+          "-26909"
+        ],
+        "case_id": "S151",
+        "check_summary": "Difference recurrence uses the prior two differences with alternating bias +1,-1.",
+        "confidence": 0.91,
+        "rule_summary": "PDELTA with Fibonacci-like periodic deltas."
+      },
+      {
+        "answer": [
+          "-11869",
+          "-14214",
+          "-16812",
+          "-19657",
+          "-22755"
+        ],
+        "case_id": "S152",
+        "check_summary": "Extrapolated continuation of the registered lagged recurrence pattern.",
+        "confidence": 0.42,
+        "rule_summary": "LIN2 with phase-specific bias."
+      },
+      {
+        "answer": [
+          "-2613",
+          "-4231",
+          "-6844",
+          "-11075",
+          "-17919"
+        ],
+        "case_id": "S153",
+        "check_summary": "From the third difference onward, each delta is the sum of the prior two.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with Fibonacci delta recurrence."
+      },
+      {
+        "answer": [
+          "-1239",
+          "-1593",
+          "-2009",
+          "-2487",
+          "-3032"
+        ],
+        "case_id": "S154",
+        "check_summary": "Second differences decrease by 5 each step.",
+        "confidence": 0.99,
+        "rule_summary": "POLY degree-four sequence."
+      },
+      {
+        "answer": [
+          "-533641",
+          "1067275",
+          "-2134545",
+          "4269091",
+          "-8538189"
+        ],
+        "case_id": "S155",
+        "check_summary": "Three-phase affine updates repeat across the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE periodic phase recurrence."
+      },
+      {
+        "answer": [
+          "136533",
+          "273068",
+          "546133",
+          "1092268",
+          "2184533"
+        ],
+        "case_id": "S156",
+        "check_summary": "Alternating updates are x_next=2x-3 and x_next=2x+2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE periodic phase recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-EEE6DF66A16A-search-b13-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "faacde5000b8823e32ce935e230229bbcba9aeef4c4f2b830645e537b9b56e53",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-EEE6DF66A16A-search-b13-proposer-6/attempt-01"
+}

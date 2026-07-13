@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "111",
+          "349",
+          "801",
+          "1550",
+          "3480"
+        ],
+        "case_id": "F013",
+        "check_summary": "Cubic continuation from the terminal prefix.",
+        "confidence": 0.08,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-9",
+          "-66",
+          "-168",
+          "-315",
+          "-513"
+        ],
+        "case_id": "F014",
+        "check_summary": "Cubic continuation from the terminal prefix.",
+        "confidence": 0.07,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-17",
+          "-12",
+          "-23",
+          "-65",
+          "-142"
+        ],
+        "case_id": "F015",
+        "check_summary": "Cubic continuation from the terminal prefix.",
+        "confidence": 0.07,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-79",
+          "-247",
+          "-517",
+          "-925",
+          "-1507"
+        ],
+        "case_id": "F016",
+        "check_summary": "Terminal-block continuation estimate.",
+        "confidence": 0.12,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "53",
+          "-11",
+          "-149",
+          "-363",
+          "-669"
+        ],
+        "case_id": "F017",
+        "check_summary": "Cubic continuation from the terminal prefix.",
+        "confidence": 0.07,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-7",
+          "25",
+          "-9",
+          "28",
+          "-11"
+        ],
+        "case_id": "F018",
+        "check_summary": "Odd and even affine streams interleave.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "71",
+          "-12",
+          "97",
+          "15",
+          "127"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd stream has quadratic increments; even stream alternates.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-154",
+          "298",
+          "-566",
+          "1042",
+          "-1878"
+        ],
+        "case_id": "F020",
+        "check_summary": "Cubic continuation estimate.",
+        "confidence": 0.08,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "25",
+          "-11",
+          "30",
+          "-27",
+          "35"
+        ],
+        "case_id": "F021",
+        "check_summary": "Cubic continuation estimate.",
+        "confidence": 0.08,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-86",
+          "-174",
+          "-344",
+          "-646",
+          "-1146"
+        ],
+        "case_id": "F022",
+        "check_summary": "Cubic continuation estimate.",
+        "confidence": 0.07,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "36",
+          "41",
+          "46",
+          "51",
+          "56"
+        ],
+        "case_id": "F023",
+        "check_summary": "Repeating arithmetic progression continuation.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "89",
+          "110",
+          "27",
+          "54",
+          "81"
+        ],
+        "case_id": "F024",
+        "check_summary": "Growing arithmetic blocks with polynomial starts and steps.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-generalist_vote10-GENERALIST-VOTE10-final-b02-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "2590a8d18d4830e9137853af901d159ae576a1bf72b6b02e0727f4f316d4a215",
+  "terminal_artifact_relpath": "jobs/final-generalist_vote10-GENERALIST-VOTE10-final-b02-proposer-2/attempt-01"
+}

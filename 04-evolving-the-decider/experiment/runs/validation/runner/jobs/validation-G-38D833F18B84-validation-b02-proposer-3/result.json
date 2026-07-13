@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-13",
+          "-23",
+          "-43",
+          "-83",
+          "-163"
+        ],
+        "case_id": "V013",
+        "check_summary": "Detected phase-structured repeated multiplicative deltas; continuation uncertain.",
+        "confidence": 0.22,
+        "rule_summary": "PDELTA with periodic phase-specific deltas."
+      },
+      {
+        "answer": [
+          "-12",
+          "-14",
+          "-13",
+          "-15",
+          "-16"
+        ],
+        "case_id": "V014",
+        "check_summary": "Late prefix is dominated by near-periodic decrements with occasional phase correction.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA with periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-19",
+          "-15",
+          "-29",
+          "-18",
+          "-39"
+        ],
+        "case_id": "V015",
+        "check_summary": "Interleaved subsequences show alternating nonlinear increments.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE of two polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V016",
+        "check_summary": "Odd and even positions are arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-22",
+          "-101",
+          "-29",
+          "-197",
+          "-37"
+        ],
+        "case_id": "V017",
+        "check_summary": "Odd stream has successive decrements 1,2,3,...; even stream doubles its decrement.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of polynomial and affine streams."
+      },
+      {
+        "answer": [
+          "-7",
+          "65",
+          "-13",
+          "83",
+          "-23"
+        ],
+        "case_id": "V018",
+        "check_summary": "Phase-dependent bounded recurrence inferred from oscillatory prefix.",
+        "confidence": 0.15,
+        "rule_summary": "MODAFFINE with periodic affine updates."
+      },
+      {
+        "answer": [
+          "-25",
+          "-5",
+          "20",
+          "-25",
+          "-10"
+        ],
+        "case_id": "V019",
+        "check_summary": "Repeated values suggest a short-period affine phase pattern.",
+        "confidence": 0.16,
+        "rule_summary": "AFFINE with repeating phase parameters."
+      },
+      {
+        "answer": [
+          "31",
+          "19",
+          "12",
+          "37",
+          "24"
+        ],
+        "case_id": "V020",
+        "check_summary": "Oscillatory sequence is consistent with a periodic affine update.",
+        "confidence": 0.14,
+        "rule_summary": "MODAFFINE with periodic affine updates."
+      },
+      {
+        "answer": [
+          "-43",
+          "-62",
+          "-82",
+          "-101",
+          "-121"
+        ],
+        "case_id": "V021",
+        "check_summary": "Growing-block pattern: positive jump followed by repeated negative steps.",
+        "confidence": 0.3,
+        "rule_summary": "GROWBLOCK with polynomial block starts and steps."
+      },
+      {
+        "answer": [
+          "-5",
+          "121",
+          "-116",
+          "-237",
+          "-358"
+        ],
+        "case_id": "V022",
+        "check_summary": "Alternating signs and expanding magnitudes suggest a modular or phase-affine process.",
+        "confidence": 0.12,
+        "rule_summary": "MODAFFINE with periodic affine updates."
+      },
+      {
+        "answer": [
+          "26",
+          "-11",
+          "-48",
+          "-85",
+          "-122"
+        ],
+        "case_id": "V023",
+        "check_summary": "Growing-block differences include a new positive jump followed by repeated negative steps.",
+        "confidence": 0.3,
+        "rule_summary": "GROWBLOCK with polynomial block starts and steps."
+      },
+      {
+        "answer": [
+          "-4",
+          "15",
+          "-7",
+          "18",
+          "-10"
+        ],
+        "case_id": "V024",
+        "check_summary": "Short-period oscillation suggests phase-specific affine updates.",
+        "confidence": 0.13,
+        "rule_summary": "AFFINE with repeating phase parameters."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-38D833F18B84-validation-b02-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "b86b5235511499f6681b6b60ea547d1ac1eb7069e7a37a2cfa8ef23dac1867d2",
+  "terminal_artifact_relpath": "jobs/validation-G-38D833F18B84-validation-b02-proposer-3/attempt-01"
+}

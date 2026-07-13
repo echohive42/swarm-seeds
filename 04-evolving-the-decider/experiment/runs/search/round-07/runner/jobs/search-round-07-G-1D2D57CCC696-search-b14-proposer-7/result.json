@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "8",
+          "-15",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "Growing arithmetic blocks with starts decreasing by 3 and lengths increasing by 1; replay matches prefix.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Even and odd subsequences independently match quadratic and geometric rules.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-12",
+          "-3",
+          "-8",
+          "-3",
+          "-4"
+        ],
+        "case_id": "S159",
+        "check_summary": "Candidate periodic bounded recurrence inferred from the full prefix.",
+        "confidence": 0.22,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Even terms increase by 2 and odd terms increase by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-7",
+          "-15",
+          "3",
+          "-2",
+          "-11"
+        ],
+        "case_id": "S161",
+        "check_summary": "Candidate phase-dependent affine recurrence inferred from the prefix.",
+        "confidence": 0.2,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "17",
+          "9",
+          "22",
+          "10",
+          "24"
+        ],
+        "case_id": "S162",
+        "check_summary": "Candidate interleaved bounded subsequences inferred from the prefix.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "5",
+          "-362",
+          "5",
+          "6",
+          "-730"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams: polynomial, arithmetic, and exponentially scaled differences.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-6",
+          "-18",
+          "-30",
+          "-42",
+          "-54"
+        ],
+        "case_id": "S164",
+        "check_summary": "Candidate periodic bounded recurrence inferred from the prefix.",
+        "confidence": 0.18,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-4",
+          "-92",
+          "-9",
+          "-123",
+          "-14"
+        ],
+        "case_id": "S165",
+        "check_summary": "Candidate phase-dependent recurrence inferred from the prefix.",
+        "confidence": 0.16,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-21",
+          "141",
+          "25",
+          "19",
+          "-21"
+        ],
+        "case_id": "S166",
+        "check_summary": "Candidate three-phase recurrence inferred from the prefix.",
+        "confidence": 0.15,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-51",
+          "-2",
+          "-71",
+          "-4",
+          "-91"
+        ],
+        "case_id": "S167",
+        "check_summary": "Candidate phase-specific polynomial-delta continuation inferred from repeated blocks.",
+        "confidence": 0.17,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "98",
+          "122",
+          "146",
+          "170",
+          "194"
+        ],
+        "case_id": "S168",
+        "check_summary": "Final arithmetic block continues with common difference 24.",
+        "confidence": 0.86,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-1D2D57CCC696-search-b14-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "89ca0d38780ddc0231bed79fc67009c996fd947fde5867a59fc730a511bed331",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-1D2D57CCC696-search-b14-proposer-7/attempt-01"
+}

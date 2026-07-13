@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "-1663",
+          "125",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Fits a_{n+4}=-4a_n+5 across the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Period-4 affine recurrence."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments +4,+5 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta sequence +4,+5."
+      },
+      {
+        "answer": [
+          "-2782",
+          "-4858",
+          "-7870",
+          "-12086",
+          "-17816"
+        ],
+        "case_id": "S171",
+        "check_summary": "Finite-difference continuation with linearly changing fourth differences.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued degree-5 polynomial."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Second differences continue 25,21,16,10,3.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial finite-difference sequence."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Successive differences continue the centered quadratic pattern.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18815",
+          "-30443"
+        ],
+        "case_id": "S174",
+        "check_summary": "Recurrence a_n=a_{n-1}+a_{n-2}+periodic bias (-2,-2,3).",
+        "confidence": 0.99,
+        "rule_summary": "Periodic biased second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97897621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating updates 3x+1 and -2x+6 replay all terms.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 affine recurrence."
+      },
+      {
+        "answer": [
+          "71",
+          "50",
+          "55",
+          "66",
+          "68"
+        ],
+        "case_id": "S176",
+        "check_summary": "Four interleaved streams have polynomial increments.",
+        "confidence": 0.96,
+        "rule_summary": "Four-position interleaving of polynomial streams."
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3437007"
+        ],
+        "case_id": "S177",
+        "check_summary": "Repeating phase-specific affine transformations replay the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term is twice the preceding term.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence a_n=2a_{n-1}."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "The six-term period repeats exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic phase sequence."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Alternating difference subsequences continue with decrements 7 and 6.",
+        "confidence": 0.97,
+        "rule_summary": "Interleaved quadratic streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-A20DBD76963B-search-b15-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "b3747c00c7cb72c0486f1a3cd8be80b65e13f5baf1146acd963c04778a0a7547",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-A20DBD76963B-search-b15-proposer-6/attempt-01"
+}

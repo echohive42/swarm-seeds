@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "-364",
+          "1066",
+          "2861",
+          "-685",
+          "3417"
+        ],
+        "case_id": "S169",
+        "check_summary": "Three interleaved cubic subsequences reproduce the prefix.",
+        "confidence": 0.86,
+        "rule_summary": "INTERLEAVE with three cubic streams."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments +4,+5 reproduce the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial delta."
+      },
+      {
+        "answer": [
+          "-2628",
+          "-4366",
+          "-7004",
+          "-10962",
+          "-16640"
+        ],
+        "case_id": "S171",
+        "check_summary": "Tail extrapolation from accelerating periodic differences.",
+        "confidence": 0.28,
+        "rule_summary": "Periodic polynomial-delta continuation."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2215",
+          "2548",
+          "2890"
+        ],
+        "case_id": "S172",
+        "check_summary": "Successive difference increments continue with a descending arithmetic pattern.",
+        "confidence": 0.94,
+        "rule_summary": "Polynomial difference sequence."
+      },
+      {
+        "answer": [
+          "-110",
+          "-101",
+          "-89",
+          "-75",
+          "-60"
+        ],
+        "case_id": "S173",
+        "check_summary": "Differences follow the symmetric repeating pattern.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-4434",
+          "-7176",
+          "-11610",
+          "-18786",
+          "-30396"
+        ],
+        "case_id": "S174",
+        "check_summary": "Continuation of the near-golden-ratio second-order growth pattern.",
+        "confidence": 0.48,
+        "rule_summary": "LIN2 with phase-specific bias."
+      },
+      {
+        "answer": [
+          "2713781",
+          "-5427556",
+          "-16282667",
+          "32565340",
+          "97696021"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating affine updates 3x+1 and -2x+6 reproduce the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic AFFINE."
+      },
+      {
+        "answer": [
+          "71",
+          "68",
+          "75",
+          "84",
+          "79"
+        ],
+        "case_id": "S176",
+        "check_summary": "Phase-stream continuation from the observed interleaving.",
+        "confidence": 0.32,
+        "rule_summary": "INTERLEAVE phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3436997"
+        ],
+        "case_id": "S177",
+        "check_summary": "Repeating affine phase updates reproduce the prefix.",
+        "confidence": 0.97,
+        "rule_summary": "Periodic AFFINE."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term doubles the preceding negative value.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE multiplier 2."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "The six-term cycle repeats.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic INTERLEAVE/cycle."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd and even differences decrease linearly with slopes -7 and -6.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic-difference streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-EEE6DF66A16A-search-b15-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "e8cda08a43516a3351a8f67ea174bb564933876f86f13651900ad8d096940480",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-EEE6DF66A16A-search-b15-proposer-7/attempt-01"
+}

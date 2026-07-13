@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b05",
+    "results": [
+      {
+        "answer": [
+          "-1988",
+          "-2743",
+          "-3689",
+          "-4834",
+          "-6186"
+        ],
+        "case_id": "S049",
+        "check_summary": "Second differences continue with successive odd decrements.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial finite-difference continuation."
+      },
+      {
+        "answer": [
+          "97523",
+          "195064",
+          "390107",
+          "780232",
+          "1560443"
+        ],
+        "case_id": "S050",
+        "check_summary": "Alternating affine biases continue from the repeated tail.",
+        "confidence": 0.9,
+        "rule_summary": "Period-2 affine recurrence."
+      },
+      {
+        "answer": [
+          "-31163",
+          "31164",
+          "93496",
+          "-93495",
+          "-280481"
+        ],
+        "case_id": "S051",
+        "check_summary": "Alternating updates 3x+4 and -x+1 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 affine recurrence."
+      },
+      {
+        "answer": [
+          "406",
+          "-458",
+          "513",
+          "-571",
+          "632"
+        ],
+        "case_id": "S052",
+        "check_summary": "Absolute-value increments rise by successive multiples of 3.",
+        "confidence": 0.99,
+        "rule_summary": "Alternating-sign polynomial magnitude sequence."
+      },
+      {
+        "answer": [
+          "-17",
+          "-28",
+          "-12",
+          "-31",
+          "-45"
+        ],
+        "case_id": "S053",
+        "check_summary": "Tail suggests a phase-structured delta continuation.",
+        "confidence": 0.35,
+        "rule_summary": "Periodic polynomial-delta continuation."
+      },
+      {
+        "answer": [
+          "-63",
+          "-77",
+          "-55",
+          "-70",
+          "-87"
+        ],
+        "case_id": "S054",
+        "check_summary": "Three phase-specific delta sequences continue arithmetically.",
+        "confidence": 0.98,
+        "rule_summary": "Period-3 polynomial delta recurrence."
+      },
+      {
+        "answer": [
+          "-3720088",
+          "-11160262",
+          "-33480784",
+          "-100442350",
+          "-301327048"
+        ],
+        "case_id": "S055",
+        "check_summary": "Every transition follows 3x+2.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "-7800",
+          "-11500",
+          "-16800",
+          "-24100",
+          "-33700"
+        ],
+        "case_id": "S056",
+        "check_summary": "Nonlinear-looking tail is extrapolated as a growing phased delta pattern.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic polynomial-delta continuation."
+      },
+      {
+        "answer": [
+          "13999",
+          "27996",
+          "-27993",
+          "83983",
+          "167964"
+        ],
+        "case_id": "S057",
+        "check_summary": "Tail repeats the affine phase cycle -3x+4, 2x-2, -x+3.",
+        "confidence": 0.98,
+        "rule_summary": "Period-3 affine recurrence."
+      },
+      {
+        "answer": [
+          "58",
+          "63",
+          "67",
+          "72",
+          "76"
+        ],
+        "case_id": "S058",
+        "check_summary": "Alternating increments +5,+4 continue.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 affine recurrence."
+      },
+      {
+        "answer": [
+          "53",
+          "104",
+          "172",
+          "259",
+          "367"
+        ],
+        "case_id": "S059",
+        "check_summary": "Successive differences continue with odd-number increments.",
+        "confidence": 0.97,
+        "rule_summary": "Polynomial finite-difference continuation."
+      },
+      {
+        "answer": [
+          "-1594",
+          "-2882",
+          "-4966",
+          "-8338",
+          "-13794"
+        ],
+        "case_id": "S060",
+        "check_summary": "Difference recurrence continues with each new difference summing the prior two.",
+        "confidence": 0.98,
+        "rule_summary": "Second-order linear recurrence on differences."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-0025CFC9EF2E-search-b05-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "e517cc4d7b2cba39c5f91dc13194e3b0efcf8767128d4880e6129db577c6cf0f",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-0025CFC9EF2E-search-b05-proposer-8/attempt-01"
+}

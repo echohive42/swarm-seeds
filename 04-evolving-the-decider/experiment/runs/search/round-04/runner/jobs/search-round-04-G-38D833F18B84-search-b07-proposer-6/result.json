@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating first differences -4,-3 replay the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta with phase-specific constant deltas."
+      },
+      {
+        "answer": [
+          "-9360",
+          "15145",
+          "-24505",
+          "39650",
+          "-64155"
+        ],
+        "case_id": "S074",
+        "check_summary": "Alternating-sign growth is consistent with the dominant observed recurrence pattern.",
+        "confidence": 0.22,
+        "rule_summary": "Phase-dependent linear recurrence extrapolation."
+      },
+      {
+        "answer": [
+          "8",
+          "10",
+          "11",
+          "12",
+          "14"
+        ],
+        "case_id": "S075",
+        "check_summary": "Interleaved low-degree streams were fitted to the prefix.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-14809",
+          "-22432",
+          "-32515",
+          "-45574",
+          "-61961"
+        ],
+        "case_id": "S076",
+        "check_summary": "Accelerating negative differences suggest a phase-dependent recurrence.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-4071",
+          "-9852",
+          "-23821",
+          "-57578",
+          "-139179"
+        ],
+        "case_id": "S077",
+        "check_summary": "Negative magnitudes exhibit near-geometric acceleration.",
+        "confidence": 0.17,
+        "rule_summary": "Second-order linear recurrence with periodic bias."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "The exact update x_next=-3*x+5 holds throughout the prefix.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "82",
+          "104",
+          "145",
+          "186",
+          "248"
+        ],
+        "case_id": "S079",
+        "check_summary": "Interleaved phase streams were extrapolated from their observed increments.",
+        "confidence": 0.15,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "408426",
+          "1225270",
+          "-3675812",
+          "3675804",
+          "11027404"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three phase streams follow exact multiplier-9 affine updates.",
+        "confidence": 0.99,
+        "rule_summary": "Three-way interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-152370",
+          "609486",
+          "-2437938",
+          "9751754",
+          "-39070014"
+        ],
+        "case_id": "S081",
+        "check_summary": "Odd and even subsequences follow exact affine updates with multipliers -4.",
+        "confidence": 0.99,
+        "rule_summary": "Two-way interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences are negative consecutive squares.",
+        "confidence": 1.0,
+        "rule_summary": "Polynomial sequence with quadratic first differences."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7643",
+          "-10166"
+        ],
+        "case_id": "S083",
+        "check_summary": "Finite differences support quartic extrapolation with linearly decreasing fourth differences.",
+        "confidence": 0.97,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "350112",
+          "-840267",
+          "2016654",
+          "-4839975",
+          "11615928"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating-sign affine growth was extrapolated from the observed prefix.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-38D833F18B84-search-b07-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "6f59d5299ca2a3c889270f25c45f1f02d12711cf9ccaf74f7665e0baac953eb3",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-38D833F18B84-search-b07-proposer-6/attempt-01"
+}

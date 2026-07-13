@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b08",
+    "results": [
+      {
+        "answer": [
+          "17",
+          "-24",
+          "18",
+          "-28",
+          "19"
+        ],
+        "case_id": "F085",
+        "check_summary": "Odd and even positions form separate arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE two affine streams."
+      },
+      {
+        "answer": [
+          "42",
+          "6",
+          "47",
+          "8",
+          "52"
+        ],
+        "case_id": "F086",
+        "check_summary": "Highest-confidence available proposal uses a structured alternating-stream fit, though evidence is weak.",
+        "confidence": 0.28,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "69",
+          "59",
+          "49",
+          "39",
+          "29"
+        ],
+        "case_id": "F087",
+        "check_summary": "Growing arithmetic blocks continue with descending step sizes and polynomially growing separators.",
+        "confidence": 0.88,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "105",
+          "126",
+          "147",
+          "168",
+          "189"
+        ],
+        "case_id": "F088",
+        "check_summary": "A new separator is followed by a six-term arithmetic block with step 21.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "11",
+          "46",
+          "-15",
+          "60",
+          "11"
+        ],
+        "case_id": "F089",
+        "check_summary": "Odd positions alternate 11 and -15; even positions have successive even increments.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE two polynomial streams."
+      },
+      {
+        "answer": [
+          "-42",
+          "-4",
+          "-65",
+          "-42",
+          "-15"
+        ],
+        "case_id": "F090",
+        "check_summary": "Three phase streams each follow constant-second-difference polynomial updates.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE three quadratic streams."
+      },
+      {
+        "answer": [
+          "15",
+          "40",
+          "-763",
+          "18",
+          "59"
+        ],
+        "case_id": "F091",
+        "check_summary": "Three interleaved streams are directly reconstructed: arithmetic, quadratic-increment, and affine doubling.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE three polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "31",
+          "92",
+          "-27",
+          "63",
+          "137"
+        ],
+        "case_id": "F092",
+        "check_summary": "Three phase streams exhibit distinct polynomial increment patterns.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "33",
+          "38",
+          "43",
+          "48",
+          "53"
+        ],
+        "case_id": "F093",
+        "check_summary": "Growing arithmetic blocks continue with common step 5 and increasing starts.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "63",
+          "80",
+          "97",
+          "114",
+          "131"
+        ],
+        "case_id": "F094",
+        "check_summary": "Best available proposal extends the observed late arithmetic phase with step 17.",
+        "confidence": 0.22,
+        "rule_summary": "Periodic affine or growing-block mechanism."
+      },
+      {
+        "answer": [
+          "84",
+          "99",
+          "116",
+          "135",
+          "156"
+        ],
+        "case_id": "F095",
+        "check_summary": "Highest-confidence available proposal extrapolates increasing polynomial increments across interleaved streams.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE polynomial streams."
+      },
+      {
+        "answer": [
+          "-67",
+          "107",
+          "53",
+          "-123",
+          "159"
+        ],
+        "case_id": "F096",
+        "check_summary": "Three lag-3 subsequences show polynomially evolving first differences.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE three lagged polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-evolved_champion-G-A20DBD76963B-final-b08-verifier-1",
+  "outcome": "valid_output",
+  "response_sha256": "805edaaac01d3313ab3b199674516f8dad307e7c02a28487ad1c3468bf39b400",
+  "terminal_artifact_relpath": "jobs/final-evolved_champion-G-A20DBD76963B-final-b08-verifier-1/attempt-01"
+}

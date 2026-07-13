@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "25",
+          "21",
+          "1",
+          "24",
+          "16"
+        ],
+        "case_id": "S061",
+        "check_summary": "Exact period-two affine replay modulo 41.",
+        "confidence": 0.99,
+        "rule_summary": "Two-step affine recurrence x' = 25x + 32 mod 41."
+      },
+      {
+        "answer": [
+          "-40",
+          "-19",
+          "-12",
+          "-11",
+          "-13"
+        ],
+        "case_id": "S062",
+        "check_summary": "Candidate phase-polynomial extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "-16",
+          "-14",
+          "-2",
+          "-7",
+          "-44"
+        ],
+        "case_id": "S063",
+        "check_summary": "Candidate interleaved-stream extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved affine or polynomial streams."
+      },
+      {
+        "answer": [
+          "-111",
+          "-101",
+          "-103",
+          "-257",
+          "-611"
+        ],
+        "case_id": "S064",
+        "check_summary": "Candidate phase-polynomial extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Periodic phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Exact alternating arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "Odd terms decrement by 4; even terms increment by 2."
+      },
+      {
+        "answer": [
+          "-8",
+          "61",
+          "-15",
+          "117",
+          "-24"
+        ],
+        "case_id": "S066",
+        "check_summary": "Candidate interleaved-stream extrapolation.",
+        "confidence": 0.09,
+        "rule_summary": "Interleaved phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "-175",
+          "-206",
+          "-237",
+          "-268",
+          "-299"
+        ],
+        "case_id": "S067",
+        "check_summary": "Candidate growing arithmetic-block continuation.",
+        "confidence": 0.14,
+        "rule_summary": "Growing arithmetic blocks with evolving starts and steps."
+      },
+      {
+        "answer": [
+          "-38",
+          "-29",
+          "-24",
+          "-19",
+          "-14"
+        ],
+        "case_id": "S068",
+        "check_summary": "Candidate periodic phase extrapolation.",
+        "confidence": 0.09,
+        "rule_summary": "Phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "-14",
+          "-8",
+          "-4",
+          "-3",
+          "-1"
+        ],
+        "case_id": "S069",
+        "check_summary": "Candidate interleaved-stream extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "-3",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Exact odd constant and quadratic even subsequence.",
+        "confidence": 0.99,
+        "rule_summary": "Odd terms are -3; even subsequence has successive differences decreasing by 3."
+      },
+      {
+        "answer": [
+          "-15",
+          "-4",
+          "-26",
+          "-14",
+          "-41"
+        ],
+        "case_id": "S071",
+        "check_summary": "Candidate interleaved-stream extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-25",
+          "-21",
+          "-25",
+          "-29",
+          "-33"
+        ],
+        "case_id": "S072",
+        "check_summary": "Candidate growing-block continuation.",
+        "confidence": 0.2,
+        "rule_summary": "Blocks reset with arithmetic step -4 and polynomially changing starts."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-F3EA0DB4CF72-search-b06-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "29b26b2396207b8066997c307136b48048662979e1ea8862187a710dc45b34d8",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-F3EA0DB4CF72-search-b06-proposer-1/attempt-01"
+}

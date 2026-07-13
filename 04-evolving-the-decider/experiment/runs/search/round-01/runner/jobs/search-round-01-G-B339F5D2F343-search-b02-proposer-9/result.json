@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "77",
+          "4",
+          "109"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd and even subsequences replay exactly with quadratic odd growth and alternating even values.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "30",
+          "-1",
+          "35",
+          "-2",
+          "40"
+        ],
+        "case_id": "S014",
+        "check_summary": "Insufficiently distinctive prefix; extrapolation follows a tentative interleaved trend.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-19",
+          "76",
+          "-34",
+          "83",
+          "-49"
+        ],
+        "case_id": "S015",
+        "check_summary": "Tentative phase-interleaved extrapolation from irregular subsequences.",
+        "confidence": 0.07,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "42",
+          "-5",
+          "79",
+          "-7",
+          "116"
+        ],
+        "case_id": "S016",
+        "check_summary": "Tentative phase-interleaved continuation from alternating irregular streams.",
+        "confidence": 0.06,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5 and even terms decrease by 4 exactly.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-24",
+          "-4",
+          "-37",
+          "-7",
+          "-51"
+        ],
+        "case_id": "S018",
+        "check_summary": "Tentative alternating-stream continuation.",
+        "confidence": 0.05,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "44",
+          "91",
+          "57",
+          "10",
+          "71"
+        ],
+        "case_id": "S019",
+        "check_summary": "Tentative modular phase continuation.",
+        "confidence": 0.04,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "38",
+          "-12",
+          "58",
+          "-22",
+          "80"
+        ],
+        "case_id": "S020",
+        "check_summary": "Tentative interleaved continuation from alternating streams.",
+        "confidence": 0.05,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-54",
+          "-9",
+          "-70",
+          "-12",
+          "-87"
+        ],
+        "case_id": "S021",
+        "check_summary": "Tentative phase-specific affine continuation.",
+        "confidence": 0.04,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-18",
+          "41",
+          "-31",
+          "62",
+          "-46"
+        ],
+        "case_id": "S022",
+        "check_summary": "Tentative interleaved continuation.",
+        "confidence": 0.04,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-22",
+          "-35"
+        ],
+        "case_id": "S023",
+        "check_summary": "Growing blocks replay: within-block increments are +2 and terminal drops grow by 2.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-61",
+          "365",
+          "-102",
+          "731",
+          "-171"
+        ],
+        "case_id": "S024",
+        "check_summary": "Tentative phase-specific second-order continuation.",
+        "confidence": 0.03,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-B339F5D2F343-search-b02-proposer-9",
+  "outcome": "valid_output",
+  "response_sha256": "a84675f2ed31a9e496324221decec3523c6b637e969079e6f30c6c5c3b7bb872",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-B339F5D2F343-search-b02-proposer-9/attempt-01"
+}

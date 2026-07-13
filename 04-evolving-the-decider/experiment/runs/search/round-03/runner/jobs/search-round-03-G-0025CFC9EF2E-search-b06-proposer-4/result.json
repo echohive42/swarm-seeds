@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "-16",
+          "-12",
+          "-8",
+          "-4",
+          "0"
+        ],
+        "case_id": "S061",
+        "check_summary": "No reliable simple mechanism identified from the supplied prefix.",
+        "confidence": 0.03,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-21",
+          "28",
+          "-5",
+          "72",
+          "-9"
+        ],
+        "case_id": "S062",
+        "check_summary": "No reliable simple mechanism identified from the supplied prefix.",
+        "confidence": 0.02,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "83",
+          "85",
+          "87",
+          "89",
+          "91"
+        ],
+        "case_id": "S063",
+        "check_summary": "No reliable simple mechanism identified from the supplied prefix.",
+        "confidence": 0.02,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-456",
+          "-132",
+          "-522",
+          "-186",
+          "-588"
+        ],
+        "case_id": "S064",
+        "check_summary": "No reliable simple mechanism identified from the supplied prefix.",
+        "confidence": 0.02,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd and even positions are separate arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-8",
+          "147",
+          "-13",
+          "202",
+          "-18"
+        ],
+        "case_id": "S066",
+        "check_summary": "No reliable simple mechanism identified from the supplied prefix.",
+        "confidence": 0.02,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-175",
+          "-206",
+          "-237",
+          "-268",
+          "-299"
+        ],
+        "case_id": "S067",
+        "check_summary": "No reliable simple mechanism identified from the supplied prefix.",
+        "confidence": 0.03,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-43",
+          "-29",
+          "-48",
+          "-24",
+          "-53"
+        ],
+        "case_id": "S068",
+        "check_summary": "No reliable simple mechanism identified from the supplied prefix.",
+        "confidence": 0.02,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-4",
+          "-17",
+          "-1",
+          "5",
+          "-11"
+        ],
+        "case_id": "S069",
+        "check_summary": "No reliable simple mechanism identified from the supplied prefix.",
+        "confidence": 0.02,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "0",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd positions alternate between -3 and 0; even-position subsequence has successive differences decreasing by 3.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE with one periodic stream and one quadratic stream."
+      },
+      {
+        "answer": [
+          "-4",
+          "-8",
+          "-12",
+          "-16",
+          "-20"
+        ],
+        "case_id": "S071",
+        "check_summary": "No reliable simple mechanism identified from the supplied prefix.",
+        "confidence": 0.02,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-29",
+          "-16",
+          "-20",
+          "-24",
+          "-28"
+        ],
+        "case_id": "S072",
+        "check_summary": "Most transitions are -4, with periodic positive jumps increasing by 4.",
+        "confidence": 0.71,
+        "rule_summary": "GROWBLOCK."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-0025CFC9EF2E-search-b06-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "67388e40bed048b171a64d3f28018ebd5dbe8a5b4184821fb14fbda34851057d",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-0025CFC9EF2E-search-b06-proposer-4/attempt-01"
+}

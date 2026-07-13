@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-430",
+          "-484",
+          "-536",
+          "-591",
+          "-654"
+        ],
+        "case_id": "S145",
+        "check_summary": "Periodic phase deltas with arithmetic progression by phase.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "96",
+          "107",
+          "117",
+          "130",
+          "144"
+        ],
+        "case_id": "S146",
+        "check_summary": "Extrapolated interleaved low-degree streams.",
+        "confidence": 0.48,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "10922",
+          "-21842",
+          "43686",
+          "-87370",
+          "174742"
+        ],
+        "case_id": "S147",
+        "check_summary": "Every term satisfies x(n)=-2x(n-1)+2.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "327"
+        ],
+        "case_id": "S148",
+        "check_summary": "Alternating delta streams have arithmetic growth.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "3560",
+          "4779",
+          "6288",
+          "8130",
+          "10351"
+        ],
+        "case_id": "S149",
+        "check_summary": "Fourth finite differences are constant.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-6",
+          "-4",
+          "-8",
+          "-6",
+          "-10"
+        ],
+        "case_id": "S150",
+        "check_summary": "Two interleaved arithmetic streams.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3920",
+          "-6340",
+          "-10260",
+          "-16590",
+          "-26840"
+        ],
+        "case_id": "S151",
+        "check_summary": "Extrapolated rapidly growing lagged recurrence.",
+        "confidence": 0.38,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-13269",
+          "-18120",
+          "-24384",
+          "-31983",
+          "-40794"
+        ],
+        "case_id": "S152",
+        "check_summary": "Extrapolated phase-dependent affine growth.",
+        "confidence": 0.31,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-2613",
+          "-4231",
+          "-6849",
+          "-11085",
+          "-17939"
+        ],
+        "case_id": "S153",
+        "check_summary": "Recurrence x(n)=2x(n-1)-x(n-3).",
+        "confidence": 0.99,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-1239",
+          "-1593",
+          "-2009",
+          "-2492",
+          "-3047"
+        ],
+        "case_id": "S154",
+        "check_summary": "Third finite differences are constant.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "533635",
+          "1067271",
+          "-2134541",
+          "4269083",
+          "8538167"
+        ],
+        "case_id": "S155",
+        "check_summary": "Three-phase affine multiplier pattern repeats.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "136533",
+          "273068",
+          "546133",
+          "1092268",
+          "2184533"
+        ],
+        "case_id": "S156",
+        "check_summary": "Multiplier 2 with alternating biases -3 and +2.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-15900AE27B5A-search-b13-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "3e771982c26b00ee285abd05718efe96c0b5dd8fda6ae2c0f4ab030ba07158d3",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-15900AE27B5A-search-b13-proposer-4/attempt-01"
+}

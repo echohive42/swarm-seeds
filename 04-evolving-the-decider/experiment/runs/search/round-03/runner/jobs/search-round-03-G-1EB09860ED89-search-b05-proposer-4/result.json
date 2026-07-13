@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b05",
+    "results": [
+      {
+        "answer": [
+          "-1988",
+          "-2743",
+          "-3689",
+          "-4855",
+          "-6272"
+        ],
+        "case_id": "S049",
+        "check_summary": "Matches quadratic progression in successive differences.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "97519",
+          "195057",
+          "390092",
+          "780199",
+          "1560377"
+        ],
+        "case_id": "S050",
+        "check_summary": "Matches alternating affine updates.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-31163",
+          "31164",
+          "93496",
+          "-93495",
+          "-280481"
+        ],
+        "case_id": "S051",
+        "check_summary": "Matches three-step interleaved affine streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "406",
+          "-458",
+          "513",
+          "-571",
+          "632"
+        ],
+        "case_id": "S052",
+        "check_summary": "Matches alternating polynomial difference pattern.",
+        "confidence": 0.97,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-63",
+          "-78",
+          "-55",
+          "-70",
+          "-91"
+        ],
+        "case_id": "S053",
+        "check_summary": "Candidate extrapolation from interleaved subsequences.",
+        "confidence": 0.42,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-63",
+          "-78",
+          "-55",
+          "-70",
+          "-91"
+        ],
+        "case_id": "S054",
+        "check_summary": "Each residue stream has arithmetic progression with linearly changing steps.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3720088",
+          "-11160262",
+          "-33480784",
+          "-100442350",
+          "-301327048"
+        ],
+        "case_id": "S055",
+        "check_summary": "Matches repeated affine update x -> 3x + 2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-8853",
+          "-14005",
+          "-21310",
+          "-31374",
+          "-44767"
+        ],
+        "case_id": "S056",
+        "check_summary": "Candidate higher-order polynomial extrapolation from tail differences.",
+        "confidence": 0.36,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "83983",
+          "28008",
+          "-27993",
+          "503887",
+          "168036"
+        ],
+        "case_id": "S057",
+        "check_summary": "Matches three interleaved affine streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "58",
+          "63",
+          "67",
+          "72",
+          "76"
+        ],
+        "case_id": "S058",
+        "check_summary": "Matches alternating increments +5,+4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "53",
+          "121",
+          "208",
+          "316",
+          "447"
+        ],
+        "case_id": "S059",
+        "check_summary": "Second differences increase by 2.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-1290",
+          "-2086",
+          "-3374",
+          "-5458",
+          "-8830"
+        ],
+        "case_id": "S060",
+        "check_summary": "Successive differences follow a second-order linear recurrence.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-1EB09860ED89-search-b05-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "48e18c805c53e724714374a6030e7da133eec9cde1a0f42b87d142b71123d3df",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-1EB09860ED89-search-b05-proposer-4/attempt-01"
+}

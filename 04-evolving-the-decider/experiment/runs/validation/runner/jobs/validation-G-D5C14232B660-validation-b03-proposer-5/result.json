@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "Matched affine update x'=-3x+3.",
+        "confidence": 0.99,
+        "rule_summary": "Constant affine recurrence."
+      },
+      {
+        "answer": [
+          "-3777",
+          "-5390",
+          "-7477",
+          "-10123",
+          "-13420"
+        ],
+        "case_id": "V026",
+        "check_summary": "Matched polynomial finite-difference continuation.",
+        "confidence": 0.91,
+        "rule_summary": "Higher-order polynomial progression."
+      },
+      {
+        "answer": [
+          "-267",
+          "-1330",
+          "2510",
+          "-5111",
+          "10047"
+        ],
+        "case_id": "V027",
+        "check_summary": "Continuation inferred from alternating subsequences.",
+        "confidence": 0.32,
+        "rule_summary": "Interleaved phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "47354",
+          "-94754",
+          "189514",
+          "-379094",
+          "758834"
+        ],
+        "case_id": "V028",
+        "check_summary": "Matched dominant alternating affine growth with periodic correction.",
+        "confidence": 0.55,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "11931",
+          "18309",
+          "27157",
+          "38907",
+          "54531"
+        ],
+        "case_id": "V029",
+        "check_summary": "Continuation inferred from accelerating polynomial trend.",
+        "confidence": 0.28,
+        "rule_summary": "Polynomial progression."
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Matched alternating +2,-3 pattern.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Matched alternating updates x' = 2x+1 and x' = 3x+7.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802339",
+          "107407020",
+          "-322221066",
+          "966663201"
+        ],
+        "case_id": "V032",
+        "check_summary": "Matched repeating affine offsets +3,-6 after the prefix transient.",
+        "confidence": 0.96,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "963",
+          "-1566",
+          "2526",
+          "-2532",
+          "6618"
+        ],
+        "case_id": "V033",
+        "check_summary": "Matched interleaved streams with shared second-order difference growth.",
+        "confidence": 0.86,
+        "rule_summary": "Interleaved recurrence streams."
+      },
+      {
+        "answer": [
+          "-11",
+          "-14",
+          "-23",
+          "-27",
+          "-37"
+        ],
+        "case_id": "V034",
+        "check_summary": "Continuation inferred from phase-separated irregular progression.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic phase-specific polynomial update."
+      },
+      {
+        "answer": [
+          "57",
+          "36",
+          "46",
+          "80",
+          "74"
+        ],
+        "case_id": "V035",
+        "check_summary": "Matched alternating subsequence difference patterns.",
+        "confidence": 0.86,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "815",
+          "1060",
+          "1351",
+          "1692",
+          "2087"
+        ],
+        "case_id": "V036",
+        "check_summary": "Matched cubic finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial progression."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b03-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "7febd1dff68722a7c731ff5a3a67d44891a4ab97eb0ee54afbf2e824dcef88e1",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b03-proposer-5/attempt-01"
+}

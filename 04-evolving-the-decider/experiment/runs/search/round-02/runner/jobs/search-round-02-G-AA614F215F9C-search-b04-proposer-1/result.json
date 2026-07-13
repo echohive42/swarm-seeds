@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-181",
+          "24",
+          "-159",
+          "29",
+          "-137"
+        ],
+        "case_id": "S037",
+        "check_summary": "Best-fit periodic phase-delta continuation.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "91",
+          "139",
+          "143",
+          "167",
+          "169"
+        ],
+        "case_id": "S038",
+        "check_summary": "Best-fit phase-interleaved affine continuation.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "23",
+          "31",
+          "45",
+          "43",
+          "51"
+        ],
+        "case_id": "S039",
+        "check_summary": "Best-fit interleaved polynomial continuation.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "35",
+          "55",
+          "75",
+          "95",
+          "115"
+        ],
+        "case_id": "S040",
+        "check_summary": "Repeated positive block steps with quadratic negative separators.",
+        "confidence": 0.96,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "31",
+          "-24",
+          "35",
+          "-28",
+          "39"
+        ],
+        "case_id": "S041",
+        "check_summary": "Alternating arithmetic streams are exact on the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-40",
+          "-45",
+          "-50"
+        ],
+        "case_id": "S042",
+        "check_summary": "Best-fit periodic modular-affine continuation.",
+        "confidence": 0.12,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-15",
+          "-70",
+          "-10",
+          "-82",
+          "-5"
+        ],
+        "case_id": "S043",
+        "check_summary": "Best-fit phase-specific polynomial-delta continuation.",
+        "confidence": 0.13,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-17",
+          "-20",
+          "-19",
+          "-18",
+          "-21"
+        ],
+        "case_id": "S044",
+        "check_summary": "Best-fit interleaved affine continuation.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-4",
+          "-28",
+          "-4",
+          "-6",
+          "-4"
+        ],
+        "case_id": "S045",
+        "check_summary": "Recurring phase values suggest a periodic interleaving.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-7",
+          "-12",
+          "-17",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S046",
+        "check_summary": "Mostly constant decrement with recurring growing correction phases.",
+        "confidence": 0.34,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "198",
+          "236",
+          "274",
+          "312",
+          "350"
+        ],
+        "case_id": "S047",
+        "check_summary": "Final observed block continues with constant step 38.",
+        "confidence": 0.82,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-11",
+          "12",
+          "-25",
+          "-10",
+          "-42"
+        ],
+        "case_id": "S048",
+        "check_summary": "Four-way interleave; two varying streams extrapolated quadratically and two are constant.",
+        "confidence": 0.93,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-AA614F215F9C-search-b04-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "db9affd8b6a0eda0f1476a7da4b29ff96fb53d181785a13821bfd7f8d74a2cae",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-AA614F215F9C-search-b04-proposer-1/attempt-01"
+}

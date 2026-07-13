@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "-1175082",
+          "-3525248",
+          "3525247",
+          "10575735",
+          "31727203"
+        ],
+        "case_id": "F025",
+        "check_summary": "Repeating affine phase updates replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Three-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "-797164",
+          "-2391487",
+          "-7174456",
+          "-21523363",
+          "-64570084"
+        ],
+        "case_id": "F026",
+        "check_summary": "Constant affine update replays all terms.",
+        "confidence": 0.99,
+        "rule_summary": "x'=3x+5."
+      },
+      {
+        "answer": [
+          "-48502",
+          "24316",
+          "-194132",
+          "97136",
+          "-776632"
+        ],
+        "case_id": "F027",
+        "check_summary": "Interleaved streams with recurring affine corrections.",
+        "confidence": 0.62,
+        "rule_summary": "Two interleaved affine-growth streams."
+      },
+      {
+        "answer": [
+          "37323",
+          "74633",
+          "149281",
+          "298547",
+          "597111"
+        ],
+        "case_id": "F028",
+        "check_summary": "Alternating doubled values with odd corrections.",
+        "confidence": 0.99,
+        "rule_summary": "x'=2x±increasing odd correction."
+      },
+      {
+        "answer": [
+          "5402",
+          "7395",
+          "9941",
+          "13152",
+          "17155"
+        ],
+        "case_id": "F029",
+        "check_summary": "Finite-difference extrapolation gives polynomial continuation.",
+        "confidence": 0.97,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "F030",
+        "check_summary": "Prefix is irregular under the supplied anonymous evidence.",
+        "confidence": 0.08,
+        "rule_summary": "Undetermined modular or interleaved mechanism."
+      },
+      {
+        "answer": [
+          "464",
+          "494",
+          "498",
+          "467",
+          "391"
+        ],
+        "case_id": "F031",
+        "check_summary": "Polynomial finite differences extrapolate the continuation.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "616556",
+          "1684460",
+          "4602028",
+          "12572972",
+          "34349996"
+        ],
+        "case_id": "F032",
+        "check_summary": "Second-order linear recurrence with constant bias fits the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "x'=2x_prev+2x_prev2-4."
+      },
+      {
+        "answer": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "case_id": "F033",
+        "check_summary": "Prefix is irregular under the supplied anonymous evidence.",
+        "confidence": 0.08,
+        "rule_summary": "Undetermined modular or interleaved mechanism."
+      },
+      {
+        "answer": [
+          "450",
+          "591",
+          "760",
+          "959",
+          "1190"
+        ],
+        "case_id": "F034",
+        "check_summary": "Second differences increase by two throughout.",
+        "confidence": 0.99,
+        "rule_summary": "Quartic polynomial continuation."
+      },
+      {
+        "answer": [
+          "-2771363",
+          "-5542730",
+          "-16628195",
+          "-33256394",
+          "-99769187"
+        ],
+        "case_id": "F035",
+        "check_summary": "Alternating affine updates replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Alternating x'=3x-5 and x'=2x-4."
+      },
+      {
+        "answer": [
+          "23",
+          "28",
+          "29",
+          "34",
+          "35"
+        ],
+        "case_id": "F036",
+        "check_summary": "Alternating increments +1 and +5 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase additive recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b03-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "7d5cb30f1b7ebe5d8fee9f736b8428c93cc906ee5db06984815444e4b74cc176",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b03-proposer-6/attempt-01"
+}

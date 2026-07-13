@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-96",
+          "-123",
+          "-140",
+          "-177",
+          "-188"
+        ],
+        "case_id": "S181",
+        "check_summary": "Estimated periodic phase-delta continuation.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic polynomial-delta hypothesis."
+      },
+      {
+        "answer": [
+          "31",
+          "38",
+          "61",
+          "68",
+          "95"
+        ],
+        "case_id": "S182",
+        "check_summary": "Estimated phase-structured continuation.",
+        "confidence": 0.15,
+        "rule_summary": "Periodic affine/interleaved hypothesis."
+      },
+      {
+        "answer": [
+          "12",
+          "9",
+          "14",
+          "11",
+          "16"
+        ],
+        "case_id": "S183",
+        "check_summary": "Estimated interleaved phase continuation.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-18",
+          "1027",
+          "-8",
+          "-18",
+          "-2045"
+        ],
+        "case_id": "S184",
+        "check_summary": "Three-phase replay: one affine stream and two polynomial streams.",
+        "confidence": 0.94,
+        "rule_summary": "Period-3 phase-specific affine/polynomial updates."
+      },
+      {
+        "answer": [
+          "69",
+          "3",
+          "91",
+          "-2",
+          "95"
+        ],
+        "case_id": "S185",
+        "check_summary": "Four-phase streams extrapolated from observed increments and constants.",
+        "confidence": 0.72,
+        "rule_summary": "Period-4 interleaved polynomial/constant streams."
+      },
+      {
+        "answer": [
+          "-58",
+          "68",
+          "87",
+          "-211",
+          "-176"
+        ],
+        "case_id": "S186",
+        "check_summary": "Estimated periodic phase continuation.",
+        "confidence": 0.16,
+        "rule_summary": "Phase-specific polynomial-delta hypothesis."
+      },
+      {
+        "answer": [
+          "30",
+          "28",
+          "-107",
+          "32",
+          "49"
+        ],
+        "case_id": "S187",
+        "check_summary": "Phase-specific delta subsequences extrapolated by finite differences.",
+        "confidence": 0.79,
+        "rule_summary": "Period-3 polynomial deltas."
+      },
+      {
+        "answer": [
+          "-68",
+          "-63",
+          "-78",
+          "-93",
+          "-108"
+        ],
+        "case_id": "S188",
+        "check_summary": "Estimated arithmetic-tail continuation.",
+        "confidence": 0.3,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-14",
+          "-21",
+          "-18",
+          "-24",
+          "-22"
+        ],
+        "case_id": "S189",
+        "check_summary": "Alternating delta pattern continues as +4,-7,+3,-6,+2.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-8",
+          "48",
+          "57",
+          "-5",
+          "66"
+        ],
+        "case_id": "S190",
+        "check_summary": "Estimated phase-structured continuation.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic affine/interleaved hypothesis."
+      },
+      {
+        "answer": [
+          "68",
+          "72",
+          "95",
+          "84",
+          "106"
+        ],
+        "case_id": "S191",
+        "check_summary": "Estimated phase-structured continuation.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic polynomial-delta hypothesis."
+      },
+      {
+        "answer": [
+          "56",
+          "-49",
+          "-230",
+          "71",
+          "-310"
+        ],
+        "case_id": "S192",
+        "check_summary": "Estimated phase-specific delta continuation.",
+        "confidence": 0.19,
+        "rule_summary": "Period-3 polynomial-delta hypothesis."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-38D833F18B84-search-b16-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "d556d5d0e89f2dff40514a13fb3eef9ec415dfbbe8a6b9e2f37390fe6d8e3c61",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-38D833F18B84-search-b16-proposer-7/attempt-01"
+}

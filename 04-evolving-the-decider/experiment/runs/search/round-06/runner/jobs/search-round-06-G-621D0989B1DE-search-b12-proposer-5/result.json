@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "-81",
+          "-103",
+          "-125",
+          "-147",
+          "-169"
+        ],
+        "case_id": "S133",
+        "check_summary": "Tail continues with constant difference -22.",
+        "confidence": 0.99,
+        "rule_summary": "Arithmetic continuation."
+      },
+      {
+        "answer": [
+          "-8",
+          "-5",
+          "-2",
+          "1",
+          "4"
+        ],
+        "case_id": "S134",
+        "check_summary": "Recent phase increments are +3.",
+        "confidence": 0.84,
+        "rule_summary": "Periodic phase subsequences with linear increments."
+      },
+      {
+        "answer": [
+          "35",
+          "-363",
+          "-14",
+          "40",
+          "-731"
+        ],
+        "case_id": "S135",
+        "check_summary": "Three interleaved streams extrapolate independently.",
+        "confidence": 0.98,
+        "rule_summary": "Three-stream interleaving."
+      },
+      {
+        "answer": [
+          "-9",
+          "38",
+          "-3",
+          "72",
+          "-24"
+        ],
+        "case_id": "S136",
+        "check_summary": "Extrapolated phase-specific polynomial streams.",
+        "confidence": 0.22,
+        "rule_summary": "Periodic interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-1020",
+          "16",
+          "-2044",
+          "30",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd stream follows x→2x−4; even stream has second differences +3.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "2",
+          "32",
+          "8",
+          "48",
+          "-73"
+        ],
+        "case_id": "S138",
+        "check_summary": "Three lagged columns have arithmetic second-difference patterns.",
+        "confidence": 0.96,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "15",
+          "-4",
+          "25",
+          "87",
+          "52"
+        ],
+        "case_id": "S139",
+        "check_summary": "Four interleaved quadratic extrapolations.",
+        "confidence": 0.62,
+        "rule_summary": "Four-stream polynomial interleaving."
+      },
+      {
+        "answer": [
+          "-2",
+          "-39",
+          "-3",
+          "-75",
+          "-32"
+        ],
+        "case_id": "S140",
+        "check_summary": "Phase-stream extrapolation from repeated block structure.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-36",
+          "64",
+          "-12",
+          "72",
+          "-5"
+        ],
+        "case_id": "S141",
+        "check_summary": "Extrapolated periodic phase streams.",
+        "confidence": 0.15,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-24",
+          "-7",
+          "-1",
+          "-20",
+          "-11"
+        ],
+        "case_id": "S142",
+        "check_summary": "Extrapolated periodic affine phases.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "4",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Odd terms decrease by 2; even terms decrease by 1.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-50",
+          "-62",
+          "-74",
+          "-86",
+          "-98"
+        ],
+        "case_id": "S144",
+        "check_summary": "Tail is an arithmetic run with difference -12.",
+        "confidence": 0.98,
+        "rule_summary": "Arithmetic continuation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-621D0989B1DE-search-b12-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "6f8602b19eae96672c0338eb8236b5c07d95f9f4324d5bd8da4ab1c9b90ccd61",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-621D0989B1DE-search-b12-proposer-5/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b05",
+    "results": [
+      {
+        "answer": [
+          "-1988",
+          "-2743",
+          "-3689",
+          "-4855",
+          "-6272"
+        ],
+        "case_id": "S049",
+        "check_summary": "Finite differences continue with third differences decreasing by successive odd amounts.",
+        "confidence": 1,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "97519",
+          "195057",
+          "390092",
+          "780199",
+          "1560377"
+        ],
+        "case_id": "S050",
+        "check_summary": "Period-6 affine biases replay the full prefix.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-31163",
+          "31164",
+          "93496",
+          "-93495",
+          "-280481"
+        ],
+        "case_id": "S051",
+        "check_summary": "Alternating affine maps 3x+4 and -x+1 replay and continue the prefix.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "406",
+          "-458",
+          "513",
+          "-571",
+          "632"
+        ],
+        "case_id": "S052",
+        "check_summary": "First differences alternate sign and their magnitudes have steadily increasing second differences.",
+        "confidence": 1,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-8",
+          "-29",
+          "-19",
+          "-22",
+          "2"
+        ],
+        "case_id": "S053",
+        "check_summary": "Plurality supports a four-phase polynomial-delta continuation, though evidence is comparatively weak.",
+        "confidence": 0.62,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-63",
+          "-77",
+          "-55",
+          "-70",
+          "-87"
+        ],
+        "case_id": "S054",
+        "check_summary": "Three phase-specific arithmetic delta streams continue exactly.",
+        "confidence": 1,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-3720088",
+          "-11160262",
+          "-33480784",
+          "-100442350",
+          "-301327048"
+        ],
+        "case_id": "S055",
+        "check_summary": "Every transition satisfies x_next=3*x+2.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-8790",
+          "-13753",
+          "-20680",
+          "-30114",
+          "-40758"
+        ],
+        "case_id": "S056",
+        "check_summary": "High-order polynomial finite-difference continuation has the strongest plurality support.",
+        "confidence": 0.86,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "13999",
+          "27996",
+          "-27993",
+          "83983",
+          "167964"
+        ],
+        "case_id": "S057",
+        "check_summary": "Direct replay of the three-phase maps -3x+4, 2x-2, and -x+3 gives the continuation.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "58",
+          "63",
+          "67",
+          "72",
+          "76"
+        ],
+        "case_id": "S058",
+        "check_summary": "Alternating increments +4,+5 continue from the final transition phase.",
+        "confidence": 1,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "53",
+          "104",
+          "172",
+          "259",
+          "367"
+        ],
+        "case_id": "S059",
+        "check_summary": "Second differences continue increasing by successive odd increments.",
+        "confidence": 1,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-1290",
+          "-2086",
+          "-3374",
+          "-5458",
+          "-8830"
+        ],
+        "case_id": "S060",
+        "check_summary": "Successive differences continue by Fibonacci-type addition.",
+        "confidence": 1,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-E2CB7ED71793-search-b05-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "9e51b1b68aae81becfb4bccca10ada5fb425b56c9662db6946a2d81d27c658c8",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-E2CB7ED71793-search-b05-judge-2/attempt-01"
+}

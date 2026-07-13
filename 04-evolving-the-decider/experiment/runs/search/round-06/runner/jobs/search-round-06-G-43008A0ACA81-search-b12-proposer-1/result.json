@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "24",
+          "6",
+          "-22",
+          "-50",
+          "11"
+        ],
+        "case_id": "S133",
+        "check_summary": "Periodic delta extrapolation; tail replay is consistent.",
+        "confidence": 0.62,
+        "rule_summary": "Phase-specific polynomial deltas with period four."
+      },
+      {
+        "answer": [
+          "-11",
+          "-25",
+          "-22",
+          "-19",
+          "-39"
+        ],
+        "case_id": "S134",
+        "check_summary": "Three interleaved streams identified; one stream remains weakly constrained.",
+        "confidence": 0.38,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-4",
+          "35",
+          "-363",
+          "-14",
+          "40"
+        ],
+        "case_id": "S135",
+        "check_summary": "All three phase streams replay cleanly.",
+        "confidence": 0.99,
+        "rule_summary": "Three lagged subsequences: quadratic, affine, and doubling-difference stream."
+      },
+      {
+        "answer": [
+          "36",
+          "18",
+          "-3",
+          "57",
+          "40"
+        ],
+        "case_id": "S136",
+        "check_summary": "Candidate periodic affine continuation; low certainty.",
+        "confidence": 0.2,
+        "rule_summary": "Phase-specific affine update."
+      },
+      {
+        "answer": [
+          "-1020",
+          "16",
+          "-2044",
+          "30",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd stream doubles with affine bias; even-stream differences rise by three.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-8",
+          "-67",
+          "-4",
+          "-80",
+          "-1"
+        ],
+        "case_id": "S138",
+        "check_summary": "Candidate phase-based continuation; low certainty.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic polynomial-delta update."
+      },
+      {
+        "answer": [
+          "4",
+          "12",
+          "-1",
+          "15",
+          "-3"
+        ],
+        "case_id": "S139",
+        "check_summary": "Candidate periodic continuation; low certainty.",
+        "confidence": 0.18,
+        "rule_summary": "Phase-specific affine update."
+      },
+      {
+        "answer": [
+          "-5",
+          "-15",
+          "-4",
+          "-39",
+          "-3"
+        ],
+        "case_id": "S140",
+        "check_summary": "Candidate interleaved continuation; low certainty.",
+        "confidence": 0.17,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "45",
+          "48",
+          "42",
+          "41",
+          "30"
+        ],
+        "case_id": "S141",
+        "check_summary": "Candidate interleaved continuation; low certainty.",
+        "confidence": 0.16,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-8",
+          "-40",
+          "-18",
+          "72",
+          "11"
+        ],
+        "case_id": "S142",
+        "check_summary": "Candidate periodic modular-affine continuation; low certainty.",
+        "confidence": 0.15,
+        "rule_summary": "Periodic affine update modulo a prime."
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "4",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Both alternating subsequences are exact arithmetic progressions.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-50",
+          "-62",
+          "-74",
+          "-86",
+          "-98"
+        ],
+        "case_id": "S144",
+        "check_summary": "Final arithmetic tail is exact.",
+        "confidence": 0.96,
+        "rule_summary": "Growing-block or phase-polynomial rule with terminal constant step."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-43008A0ACA81-search-b12-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "d0d3b51e7785bc27198801e1c63b320a3b5a6314e8dfb7f8a02aa36634799639",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-43008A0ACA81-search-b12-proposer-1/attempt-01"
+}

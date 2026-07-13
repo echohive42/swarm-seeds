@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-145",
+          "-69",
+          "-38",
+          "-81",
+          "-27"
+        ],
+        "case_id": "S181",
+        "check_summary": "Best-supported periodic phase-delta continuation among proposals.",
+        "confidence": 0.14,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-25",
+          "34",
+          "-37",
+          "73",
+          "-80"
+        ],
+        "case_id": "S182",
+        "check_summary": "Best-supported phase-dependent affine continuation among proposals.",
+        "confidence": 0.13,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-7",
+          "-5",
+          "5",
+          "13",
+          "-15"
+        ],
+        "case_id": "S183",
+        "check_summary": "Best available polynomial phase-stream continuation; mechanism label remains uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic phase-specific polynomial deltas"
+      },
+      {
+        "answer": [
+          "-18",
+          "1027",
+          "-8",
+          "-18",
+          "-2045"
+        ],
+        "case_id": "S184",
+        "check_summary": "Three residue streams support alternating doubling-plus-nine, quadratic phase increments, and linear phase increments.",
+        "confidence": 0.78,
+        "rule_summary": "Three-way interleaving of phase-specific polynomial/affine streams"
+      },
+      {
+        "answer": [
+          "68",
+          "3",
+          "91",
+          "-2",
+          "117"
+        ],
+        "case_id": "S185",
+        "check_summary": "Odd subsequence increments are 5,8,11,14,17; even subsequence alternates 3 and -2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "68",
+          "40",
+          "-109",
+          "75",
+          "-67"
+        ],
+        "case_id": "S186",
+        "check_summary": "Weakest-supported continuation; repeated phase deltas suggest periodic polynomial behavior.",
+        "confidence": 0.16,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "30",
+          "26",
+          "-107",
+          "32",
+          "39"
+        ],
+        "case_id": "S187",
+        "check_summary": "Three residue streams are strongly identified: increments +6,+5,+4; -5,+1,+7; and -7,-14,-21,-28.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-21",
+          "-38",
+          "-55",
+          "-72",
+          "-89"
+        ],
+        "case_id": "S188",
+        "check_summary": "Difference blocks show increasing run lengths of repeated negative steps separated by positive jumps.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-26",
+          "-22",
+          "-29",
+          "-26",
+          "-32"
+        ],
+        "case_id": "S189",
+        "check_summary": "Odd terms decrement by 3 and even terms decrement by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-15",
+          "58",
+          "-16",
+          "77",
+          "-17"
+        ],
+        "case_id": "S190",
+        "check_summary": "Best available phase-dependent affine continuation, though prefix support is weak.",
+        "confidence": 0.11,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "61",
+          "-4",
+          "75",
+          "-9",
+          "88"
+        ],
+        "case_id": "S191",
+        "check_summary": "Best-supported interleaved polynomial continuation among proposals.",
+        "confidence": 0.11,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-37",
+          "19",
+          "220",
+          "-46",
+          "26"
+        ],
+        "case_id": "S192",
+        "check_summary": "Three residue streams are strongly identified: decrements increasing by one, constant +7, and doubling positive increments.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-E2CB7ED71793-search-b16-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "fb22475f7a5e89f73c4c5194df1b4ca86062e64656448ddcc1f499f1a69cd91c",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-E2CB7ED71793-search-b16-critic-1/attempt-01"
+}

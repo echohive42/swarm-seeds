@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b09",
+    "results": [
+      {
+        "answer": [
+          "-126338",
+          "379014",
+          "-1137044",
+          "3411138",
+          "-10233416"
+        ],
+        "case_id": "S097",
+        "check_summary": "Periodic affine extrapolation.",
+        "confidence": 0.28,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-1237",
+          "-1393",
+          "-1191",
+          "-517",
+          "1167"
+        ],
+        "case_id": "S098",
+        "check_summary": "Periodic polynomial-stream extrapolation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-703",
+          "-833",
+          "-959",
+          "-1074",
+          "-1170"
+        ],
+        "case_id": "S099",
+        "check_summary": "Finite-difference continuation.",
+        "confidence": 0.96,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-4915827",
+          "14747478",
+          "-44242437",
+          "132727308",
+          "-398181927"
+        ],
+        "case_id": "S100",
+        "check_summary": "Exact affine replay with update x'=-3x-3.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-7860",
+          "-12580",
+          "-19042",
+          "-27580",
+          "-38342"
+        ],
+        "case_id": "S101",
+        "check_summary": "Phase-polynomial extrapolation.",
+        "confidence": 0.16,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "1143",
+          "1477",
+          "1871",
+          "2330",
+          "2859"
+        ],
+        "case_id": "S102",
+        "check_summary": "Exact cubic finite-difference continuation.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "136",
+          "129",
+          "125",
+          "115",
+          "102"
+        ],
+        "case_id": "S103",
+        "check_summary": "Periodic difference pattern continuation.",
+        "confidence": 0.72,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-38",
+          "-41",
+          "-46",
+          "-49",
+          "-54"
+        ],
+        "case_id": "S104",
+        "check_summary": "Alternating constant-delta phases.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-26671",
+          "-80010",
+          "140651",
+          "281293",
+          "843882"
+        ],
+        "case_id": "S105",
+        "check_summary": "Phase-specific affine extrapolation.",
+        "confidence": 0.22,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-1050071",
+          "-2863783",
+          "-7801335",
+          "-21267287",
+          "-57970559"
+        ],
+        "case_id": "S106",
+        "check_summary": "Affine-growth continuation.",
+        "confidence": 0.18,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "14",
+          "21",
+          "29",
+          "38",
+          "48"
+        ],
+        "case_id": "S107",
+        "check_summary": "Interleaved smooth-stream extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "26",
+          "38",
+          "43",
+          "53",
+          "56"
+        ],
+        "case_id": "S108",
+        "check_summary": "Interleaved polynomial-stream extrapolation.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-9E41821F9E02-search-b09-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "8c24dfaa75438be5ffcd766e6dc8d8a4358e06aa76713e4f5d4d81fd9cedeaa0",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-9E41821F9E02-search-b09-proposer-3/attempt-01"
+}

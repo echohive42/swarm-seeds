@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-27",
+          "-16",
+          "-23",
+          "-24",
+          "-24"
+        ],
+        "case_id": "S181",
+        "check_summary": "Insufficiently distinctive prefix; conservative continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Possible periodic-delta mechanism."
+      },
+      {
+        "answer": [
+          "-22",
+          "-14",
+          "-17",
+          "-9",
+          "-12"
+        ],
+        "case_id": "S182",
+        "check_summary": "Candidate continuation from alternating periodic differences.",
+        "confidence": 0.1,
+        "rule_summary": "Possible periodic-delta mechanism."
+      },
+      {
+        "answer": [
+          "-10",
+          "10",
+          "0",
+          "-3",
+          "-3"
+        ],
+        "case_id": "S183",
+        "check_summary": "Residue-stream extrapolation; low confidence.",
+        "confidence": 0.12,
+        "rule_summary": "Possible interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-22",
+          "-1019",
+          "-14",
+          "2043",
+          "-22"
+        ],
+        "case_id": "S184",
+        "check_summary": "Candidate phase-stream continuation; low confidence.",
+        "confidence": 0.1,
+        "rule_summary": "Possible periodic affine or interleaved streams."
+      },
+      {
+        "answer": [
+          "68",
+          "3",
+          "91",
+          "-2",
+          "117"
+        ],
+        "case_id": "S185",
+        "check_summary": "Even terms are alternating 3,-2; odd differences increase by 3.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE: constant even stream and quadratic odd stream."
+      },
+      {
+        "answer": [
+          "-17",
+          "-44",
+          "-2",
+          "-53",
+          "-67"
+        ],
+        "case_id": "S186",
+        "check_summary": "Candidate lagged-stream extrapolation; low confidence.",
+        "confidence": 0.09,
+        "rule_summary": "Possible interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-107",
+          "19",
+          "220",
+          "-135",
+          "26"
+        ],
+        "case_id": "S187",
+        "check_summary": "One residue stream has differences -7,-14,-21,-28; remaining streams uncertain.",
+        "confidence": 0.16,
+        "rule_summary": "Possible interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-68",
+          "-83",
+          "-98",
+          "-113",
+          "-128"
+        ],
+        "case_id": "S188",
+        "check_summary": "Continuation of the visible repeated negative-difference block.",
+        "confidence": 0.2,
+        "rule_summary": "Possible GROWBLOCK mechanism."
+      },
+      {
+        "answer": [
+          "-14",
+          "-22",
+          "-19",
+          "-26",
+          "-24"
+        ],
+        "case_id": "S189",
+        "check_summary": "Alternating differences continue +4,-8,+3,-7,+2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE/periodic deltas with arithmetic difference subsequences."
+      },
+      {
+        "answer": [
+          "-5",
+          "35",
+          "-4",
+          "31",
+          "-3"
+        ],
+        "case_id": "S190",
+        "check_summary": "Candidate alternating continuation; low confidence.",
+        "confidence": 0.1,
+        "rule_summary": "Possible interleaved streams."
+      },
+      {
+        "answer": [
+          "30",
+          "22",
+          "25",
+          "2",
+          "52"
+        ],
+        "case_id": "S191",
+        "check_summary": "Candidate residue-stream continuation; low confidence.",
+        "confidence": 0.08,
+        "rule_summary": "Possible interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "19",
+          "220",
+          "-46",
+          "26",
+          "444"
+        ],
+        "case_id": "S192",
+        "check_summary": "Residue classes show +7, doubling positive differences, and increasingly negative differences.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: three polynomial/exponential-looking phase streams; residue extrapolation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-E2CB7ED71793-search-b16-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "0aff39336925b62dd911bb116da8783f79e44426a8995db15258493baa5b8abc",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-E2CB7ED71793-search-b16-proposer-2/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Alternating arithmetic streams: odd terms decrease by 4 and even terms increase by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-17",
+          "-22",
+          "-27",
+          "-32",
+          "-37"
+        ],
+        "case_id": "S046",
+        "check_summary": "Growing arithmetic blocks use step -5; the next block starts at -17 and has length 5.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK with starts decreasing by 2 and block lengths increasing."
+      },
+      {
+        "answer": [
+          "49",
+          "69",
+          "89",
+          "109",
+          "129"
+        ],
+        "case_id": "S040",
+        "check_summary": "Successive arithmetic blocks have starts 15,18,25,36,49 and steps 4,8,12,16,20.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK with polynomial starts and increasing block lengths."
+      },
+      {
+        "answer": [
+          "-64",
+          "128",
+          "-128",
+          "256",
+          "-256"
+        ],
+        "case_id": "S037",
+        "check_summary": "Tentative periodic modular-affine continuation based on alternating large-magnitude wrap behavior.",
+        "confidence": 0.18,
+        "rule_summary": "Tentative MODAFFINE."
+      },
+      {
+        "answer": [
+          "93",
+          "127",
+          "135",
+          "74",
+          "142"
+        ],
+        "case_id": "S038",
+        "check_summary": "Tentative phase-specific affine continuation.",
+        "confidence": 0.14,
+        "rule_summary": "Tentative AFFINE with periodic phases."
+      },
+      {
+        "answer": [
+          "17",
+          "35",
+          "42",
+          "44",
+          "19"
+        ],
+        "case_id": "S039",
+        "check_summary": "Tentative continuation of a bounded periodic recurrence.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative MODAFFINE."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S042",
+        "check_summary": "Tentative bounded recurrence continuation.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative MODAFFINE."
+      },
+      {
+        "answer": [
+          "-78",
+          "5",
+          "-10",
+          "-70",
+          "-11"
+        ],
+        "case_id": "S043",
+        "check_summary": "Tentative phase-separated polynomial continuation.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-21",
+          "-17",
+          "-26",
+          "-19",
+          "-24"
+        ],
+        "case_id": "S044",
+        "check_summary": "Tentative phase-specific continuation.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative AFFINE."
+      },
+      {
+        "answer": [
+          "-14",
+          "102",
+          "-78",
+          "-4",
+          "18"
+        ],
+        "case_id": "S045",
+        "check_summary": "Tentative modular-affine continuation.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative MODAFFINE."
+      },
+      {
+        "answer": [
+          "-17",
+          "143",
+          "189",
+          "235",
+          "281"
+        ],
+        "case_id": "S047",
+        "check_summary": "Tentative next growing arithmetic block with inferred step 46.",
+        "confidence": 0.22,
+        "rule_summary": "Tentative GROWBLOCK."
+      },
+      {
+        "answer": [
+          "11",
+          "12",
+          "-1",
+          "-10",
+          "14"
+        ],
+        "case_id": "S048",
+        "check_summary": "Tentative periodic phase continuation with fixed fourth-phase value -10.",
+        "confidence": 0.16,
+        "rule_summary": "Tentative PDELTA."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-AA614F215F9C-search-b04-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "91119ccb6973bbef37b420a8849d6268955cab5720aa1f4cb767c8070d0161de",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-AA614F215F9C-search-b04-proposer-5/attempt-01"
+}

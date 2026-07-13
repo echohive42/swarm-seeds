@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-102",
+          "-129",
+          "-120",
+          "-111",
+          "-100"
+        ],
+        "case_id": "S037",
+        "check_summary": "Low-confidence extrapolation from irregular phase-like differences.",
+        "confidence": 0.08,
+        "rule_summary": "Possible periodic polynomial-delta process."
+      },
+      {
+        "answer": [
+          "164",
+          "133",
+          "176",
+          "191",
+          "208"
+        ],
+        "case_id": "S038",
+        "check_summary": "Low-confidence extrapolation from mixed irregular differences.",
+        "confidence": 0.06,
+        "rule_summary": "Possible phase-specific affine or polynomial-delta process."
+      },
+      {
+        "answer": [
+          "36",
+          "51",
+          "44",
+          "53",
+          "50"
+        ],
+        "case_id": "S039",
+        "check_summary": "Low-confidence extrapolation from apparent interleaving.",
+        "confidence": 0.07,
+        "rule_summary": "Possible interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "104",
+          "55",
+          "75",
+          "95",
+          "119"
+        ],
+        "case_id": "S040",
+        "check_summary": "Prefix replay supports phase-specific difference patterns, including -1,-9,-25 and +4 phase growth.",
+        "confidence": 0.82,
+        "rule_summary": "PDELTA with periodic polynomial phase deltas."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Exact alternating arithmetic streams replay the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-5",
+          "71",
+          "-25",
+          "44",
+          "-3"
+        ],
+        "case_id": "S042",
+        "check_summary": "Low-confidence extrapolation from irregular prefix.",
+        "confidence": 0.04,
+        "rule_summary": "Possible modular affine or phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "-47",
+          "14",
+          "-68",
+          "-6",
+          "-80"
+        ],
+        "case_id": "S043",
+        "check_summary": "Low-confidence extrapolation from irregular phase differences.",
+        "confidence": 0.05,
+        "rule_summary": "Possible periodic polynomial-delta process."
+      },
+      {
+        "answer": [
+          "-18",
+          "-16",
+          "-19",
+          "-21",
+          "-25"
+        ],
+        "case_id": "S044",
+        "check_summary": "One phase exhibits a clear descending arithmetic delta pattern; remaining phases are uncertain.",
+        "confidence": 0.12,
+        "rule_summary": "Possible PDELTA with periodic phase rules."
+      },
+      {
+        "answer": [
+          "-27",
+          "94",
+          "-116",
+          "-8",
+          "38"
+        ],
+        "case_id": "S045",
+        "check_summary": "Low-confidence extrapolation from highly irregular values.",
+        "confidence": 0.03,
+        "rule_summary": "Possible interleaved or modular recurrence."
+      },
+      {
+        "answer": [
+          "-30",
+          "-12",
+          "-17",
+          "-22",
+          "23"
+        ],
+        "case_id": "S046",
+        "check_summary": "Difference pattern strongly supports -5 baseline with every fifth phase delta increasing by 5.",
+        "confidence": 0.76,
+        "rule_summary": "PDELTA with periodic phase-specific deltas."
+      },
+      {
+        "answer": [
+          "206",
+          "252",
+          "298",
+          "344",
+          "390"
+        ],
+        "case_id": "S047",
+        "check_summary": "Recent arithmetic block has step 38; next block extrapolated with increasing step.",
+        "confidence": 0.22,
+        "rule_summary": "GROWBLOCK with polynomial block starts and steps."
+      },
+      {
+        "answer": [
+          "-1",
+          "12",
+          "-25",
+          "-10",
+          "-13"
+        ],
+        "case_id": "S048",
+        "check_summary": "Constant phase-2 and phase-4 streams replay exactly; phase-1 and phase-3 extrapolation is uncertain.",
+        "confidence": 0.31,
+        "rule_summary": "INTERLEAVE or PDELTA with four phases."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-F3EA0DB4CF72-search-b04-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "93f155692b68931e7dcae597b92d8769facbe2df97678312780552670e1c640c",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-F3EA0DB4CF72-search-b04-proposer-1/attempt-01"
+}

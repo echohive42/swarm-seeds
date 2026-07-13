@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "24",
+          "9",
+          "44",
+          "-7",
+          "72"
+        ],
+        "case_id": "S109",
+        "check_summary": "Odd-position subsequence has successive even increments; even positions are constant at 9 and -7 alternately.",
+        "confidence": 0.98,
+        "rule_summary": "Two interleaved arithmetic-polynomial streams."
+      },
+      {
+        "answer": [
+          "12",
+          "5",
+          "-12",
+          "-2",
+          "7"
+        ],
+        "case_id": "S110",
+        "check_summary": "Six-phase interleaving with phase-specific affine continuation.",
+        "confidence": 0.48,
+        "rule_summary": "Periodic interleaved affine streams."
+      },
+      {
+        "answer": [
+          "81",
+          "96",
+          "56",
+          "75",
+          "94"
+        ],
+        "case_id": "S111",
+        "check_summary": "Periodic delta pattern; first two phase deltas continue at 15, while the third follows polynomial extrapolation.",
+        "confidence": 0.35,
+        "rule_summary": "Phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-2",
+          "48",
+          "-38",
+          "-5",
+          "63"
+        ],
+        "case_id": "S112",
+        "check_summary": "Periodic phase increments with alternating large signed changes and a zero phase.",
+        "confidence": 0.28,
+        "rule_summary": "Phase-specific polynomial delta recurrence."
+      },
+      {
+        "answer": [
+          "61",
+          "-8",
+          "26",
+          "-17",
+          "49"
+        ],
+        "case_id": "S113",
+        "check_summary": "Interleaved phase behavior with alternating polynomial-sized corrections.",
+        "confidence": 0.22,
+        "rule_summary": "Periodic affine/polynomial interleave."
+      },
+      {
+        "answer": [
+          "-23",
+          "-15",
+          "941",
+          "31",
+          "-17"
+        ],
+        "case_id": "S114",
+        "check_summary": "Alternating phase recurrence with rapidly growing signed corrections.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "90",
+          "14",
+          "-11",
+          "-20",
+          "173"
+        ],
+        "case_id": "S115",
+        "check_summary": "Four interleaved streams; first four continuations obtained by quadratic phase extrapolation.",
+        "confidence": 0.42,
+        "rule_summary": "Four-stream polynomial interleave."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd positions decrease by 1; even positions decrease by 4.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "17",
+          "44",
+          "18",
+          "11",
+          "41"
+        ],
+        "case_id": "S117",
+        "check_summary": "Periodic interleaving with phase-specific affine continuation.",
+        "confidence": 0.25,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "18",
+          "13",
+          "36",
+          "31",
+          "26"
+        ],
+        "case_id": "S118",
+        "check_summary": "Differences repeat as two -5 steps followed by positive increments increasing by 5.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic polynomial delta recurrence."
+      },
+      {
+        "answer": [
+          "83",
+          "81",
+          "112",
+          "109",
+          "72"
+        ],
+        "case_id": "S119",
+        "check_summary": "Interleaved phase subsequences show polynomially changing signed increments.",
+        "confidence": 0.24,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "228",
+          "211",
+          "194",
+          "427",
+          "405"
+        ],
+        "case_id": "S120",
+        "check_summary": "Positive block increments follow polynomial extrapolation; two intervening decrements continue by -5.",
+        "confidence": 0.5,
+        "rule_summary": "Growing-block polynomial starts and steps."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-0130D900270E-search-b10-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "73215ddcac1bb529a97e38c0fd6cbb4f9a44376ffef6d45f686202a24cf773e9",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-0130D900270E-search-b10-proposer-5/attempt-01"
+}

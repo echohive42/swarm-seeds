@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "7",
+          "12",
+          "17",
+          "22",
+          "27"
+        ],
+        "case_id": "S157",
+        "check_summary": "Low-confidence extrapolation from mixed periodic increments.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA-like periodic polynomial increments."
+      },
+      {
+        "answer": [
+          "40",
+          "-640",
+          "55",
+          "-1280",
+          "72"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd subsequence has quadratic growth; even subsequence doubles.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of quadratic and geometric affine streams."
+      },
+      {
+        "answer": [
+          "-91",
+          "-246",
+          "-496",
+          "-871",
+          "-1396"
+        ],
+        "case_id": "S159",
+        "check_summary": "Extrapolated from increasingly negative terminal differences.",
+        "confidence": 0.12,
+        "rule_summary": "LIN2-like recurrence with periodic bias."
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Alternating arithmetic streams continue directly.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "7",
+          "-11",
+          "14",
+          "13",
+          "-13"
+        ],
+        "case_id": "S161",
+        "check_summary": "Three lagged streams have polynomial difference patterns.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "11",
+          "17",
+          "19",
+          "5",
+          "14"
+        ],
+        "case_id": "S162",
+        "check_summary": "Low-confidence continuation of phase-dependent increments.",
+        "confidence": 0.15,
+        "rule_summary": "PDELTA-like periodic polynomial increments."
+      },
+      {
+        "answer": [
+          "5",
+          "5",
+          "-362",
+          "0",
+          "6"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams are independently extrapolated.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of three polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-25",
+          "52",
+          "63",
+          "-11",
+          "-30"
+        ],
+        "case_id": "S164",
+        "check_summary": "Low-confidence phase-wise extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic phase-specific polynomial update."
+      },
+      {
+        "answer": [
+          "-14",
+          "-122",
+          "-25",
+          "-184",
+          "-39"
+        ],
+        "case_id": "S165",
+        "check_summary": "Low-confidence extrapolation from irregular interleaved subsequences.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE with polynomial streams."
+      },
+      {
+        "answer": [
+          "-21",
+          "135",
+          "29",
+          "19",
+          "105"
+        ],
+        "case_id": "S166",
+        "check_summary": "Phase-periodic continuation inferred from repeated residues.",
+        "confidence": 0.2,
+        "rule_summary": "AFFINE or LIN2 recurrence with periodic coefficients."
+      },
+      {
+        "answer": [
+          "-46",
+          "-48",
+          "-67",
+          "-71",
+          "-50"
+        ],
+        "case_id": "S167",
+        "check_summary": "Low-confidence continuation of interleaved irregular streams.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE of polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "98",
+          "122",
+          "146",
+          "170",
+          "194"
+        ],
+        "case_id": "S168",
+        "check_summary": "Terminal arithmetic run with common difference 24 continued.",
+        "confidence": 0.3,
+        "rule_summary": "GROWBLOCK with arithmetic block continuation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-B6D67789C6A8-search-b14-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "eeb6a6af8851639f302ba2b7e7df121e5df396dc0926ebc463394251951416e3",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-B6D67789C6A8-search-b14-proposer-7/attempt-01"
+}

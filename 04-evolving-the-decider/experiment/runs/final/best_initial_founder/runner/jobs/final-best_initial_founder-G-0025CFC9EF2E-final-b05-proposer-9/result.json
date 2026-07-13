@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b05",
+    "results": [
+      {
+        "answer": [
+          "3454364",
+          "10363097",
+          "31089296",
+          "93267893",
+          "279803684"
+        ],
+        "case_id": "F049",
+        "check_summary": "Verified x_next=3x+5 across full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE constant update."
+      },
+      {
+        "answer": [
+          "21",
+          "19",
+          "24",
+          "22",
+          "27"
+        ],
+        "case_id": "F050",
+        "check_summary": "Two interleaved arithmetic streams verified.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE two streams, each increasing by 3."
+      },
+      {
+        "answer": [
+          "5947",
+          "-17837",
+          "-17834",
+          "53506",
+          "53503"
+        ],
+        "case_id": "F051",
+        "check_summary": "Alternating affine phases replay the suffix.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE with alternating updates x->-x+3 and x->-3x+4."
+      },
+      {
+        "answer": [
+          "-3957",
+          "-5850",
+          "-8333",
+          "-11522",
+          "-15548"
+        ],
+        "case_id": "F052",
+        "check_summary": "Finite differences show fourth differences decreasing by 1.",
+        "confidence": 0.99,
+        "rule_summary": "POLY degree 5."
+      },
+      {
+        "answer": [
+          "516032",
+          "1245813",
+          "3007659",
+          "7021125",
+          "17049908"
+        ],
+        "case_id": "F053",
+        "check_summary": "Second-order recurrence with repeating three-phase biases fits suffix.",
+        "confidence": 0.88,
+        "rule_summary": "LIN2 with period-3 bias."
+      },
+      {
+        "answer": [
+          "1066421",
+          "-3199269",
+          "-6398539",
+          "19195611",
+          "38391221"
+        ],
+        "case_id": "F054",
+        "check_summary": "Alternating affine updates fit all displayed terms.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with alternating phases x->2x-1 and x->-3x-6."
+      },
+      {
+        "answer": [
+          "1523",
+          "1177",
+          "-658",
+          "3451",
+          "3393"
+        ],
+        "case_id": "F055",
+        "check_summary": "Three interleaved cubic streams extrapolated from the prefix.",
+        "confidence": 0.62,
+        "rule_summary": "INTERLEAVE three polynomial streams."
+      },
+      {
+        "answer": [
+          "-126",
+          "-143",
+          "-159",
+          "-177",
+          "-196"
+        ],
+        "case_id": "F056",
+        "check_summary": "Extrapolation from phase-structured lag differences.",
+        "confidence": 0.3,
+        "rule_summary": "LAGPOLY phase-specific subsequences."
+      },
+      {
+        "answer": [
+          "45",
+          "5",
+          "45",
+          "-5",
+          "45"
+        ],
+        "case_id": "F057",
+        "check_summary": "Odd and even subsequences have quadratic difference trends.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE two polynomial streams."
+      },
+      {
+        "answer": [
+          "-77",
+          "-89",
+          "-102",
+          "-116",
+          "-131"
+        ],
+        "case_id": "F058",
+        "check_summary": "Successive differences decrease by one each step.",
+        "confidence": 0.99,
+        "rule_summary": "POLY quadratic."
+      },
+      {
+        "answer": [
+          "-880",
+          "-1115",
+          "-1389",
+          "-1705",
+          "-2063"
+        ],
+        "case_id": "F059",
+        "check_summary": "Second differences decrease by 3 each step.",
+        "confidence": 0.99,
+        "rule_summary": "POLY cubic."
+      },
+      {
+        "answer": [
+          "1476",
+          "2207",
+          "3176",
+          "4429",
+          "5682"
+        ],
+        "case_id": "F060",
+        "check_summary": "Third differences increase by 4; quartic continuation verified.",
+        "confidence": 0.99,
+        "rule_summary": "POLY quartic."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-best_initial_founder-G-0025CFC9EF2E-final-b05-proposer-9",
+  "outcome": "valid_output",
+  "response_sha256": "e3f78a535adba16ec580e78737b9ed58d1fd47f42b2fee08eaa071d5ee8f41fd",
+  "terminal_artifact_relpath": "jobs/final-best_initial_founder-G-0025CFC9EF2E-final-b05-proposer-9/attempt-01"
+}

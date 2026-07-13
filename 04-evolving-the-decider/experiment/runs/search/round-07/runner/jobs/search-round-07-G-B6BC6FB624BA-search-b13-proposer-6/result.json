@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-436",
+          "-482",
+          "-536",
+          "-597",
+          "-652"
+        ],
+        "case_id": "S145",
+        "check_summary": "Periodic phase-specific first differences with phase increments of -9.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "90",
+          "102",
+          "116",
+          "121",
+          "124"
+        ],
+        "case_id": "S146",
+        "check_summary": "Tail differences fit a repeating five-phase pattern.",
+        "confidence": 0.42,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-10922",
+          "21846",
+          "-43690",
+          "87382",
+          "-174762"
+        ],
+        "case_id": "S147",
+        "check_summary": "Every transition follows a[n+1] = -2a[n] + 2.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "327"
+        ],
+        "case_id": "S148",
+        "check_summary": "Alternating difference streams increase linearly by 6 and 4.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "3560",
+          "4779",
+          "6288",
+          "8130",
+          "10351"
+        ],
+        "case_id": "S149",
+        "check_summary": "Finite differences have constant fourth difference 3.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-6",
+          "-4",
+          "-8",
+          "-6",
+          "-10"
+        ],
+        "case_id": "S150",
+        "check_summary": "Odd and even subsequences each decrease arithmetically by 2.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3920",
+          "-6348",
+          "-10274",
+          "-16629",
+          "-26910"
+        ],
+        "case_id": "S151",
+        "check_summary": "Second-order sum recurrence with alternating biases -6 and -7.",
+        "confidence": 0.96,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-12490",
+          "-19511",
+          "-30564",
+          "-47891",
+          "-75080"
+        ],
+        "case_id": "S152",
+        "check_summary": "Exponential-growth prefix consistent with a phase-specific linear recurrence.",
+        "confidence": 0.3,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-2613",
+          "-4231",
+          "-6849",
+          "-11085",
+          "-17939"
+        ],
+        "case_id": "S153",
+        "check_summary": "Every term after the initial pair equals the previous two-term sum minus 5.",
+        "confidence": 1.0,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-1239",
+          "-1593",
+          "-2009",
+          "-2492",
+          "-3047"
+        ],
+        "case_id": "S154",
+        "check_summary": "Second differences decrease by 5 in the alternating difference progression.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "533635",
+          "-1067265",
+          "-2134529",
+          "4269051",
+          "-8538097"
+        ],
+        "case_id": "S155",
+        "check_summary": "Four-phase affine transformations repeat exactly.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "136533",
+          "273068",
+          "546133",
+          "1092268",
+          "2184533"
+        ],
+        "case_id": "S156",
+        "check_summary": "Alternating affine updates 2x+2 and 2x-3.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-B6BC6FB624BA-search-b13-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "c48d331ceaa957bb8c27d96e39979baae473fdde1f435ae725c0d9d4e069dc3c",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-B6BC6FB624BA-search-b13-proposer-6/attempt-01"
+}

@@ -1,0 +1,362 @@
+{
+  "all_consecutive_block_pairs_cover_all_24_family_tier_cells_once": true,
+  "ambiguity_policy": "all recognized full-prefix DSL candidates must predict one identical next-five tuple",
+  "benchmark_id": "ruleweave-5-decider-v1",
+  "block_schema_version": "4.0",
+  "block_tier_counts": {
+    "final": [
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      }
+    ],
+    "search": [
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      }
+    ],
+    "validation": [
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      }
+    ]
+  },
+  "blocks_per_split": {
+    "final": 8,
+    "search": 16,
+    "validation": 6
+  },
+  "cases_per_block": 12,
+  "cases_per_family_tier_cell": {
+    "final": 4,
+    "search": 8,
+    "validation": 3
+  },
+  "checksums": {
+    "README.md": "d5fb7dfe71d28d3da458f7dc7fcbc0b33926a9ac3d752a097806219eef26701e",
+    "hidden/final_answers.jsonl": "c2ff7d7a06e4f13eaabdfcfb342ecb9e6cd01805183f279a9edcde2d90edc8e3",
+    "hidden/generation_receipt.json": "77213cab97e66d0a0c9a2fc4eacca83dfa8bd422a872b10343d4554ce42cd65c",
+    "hidden/recognizer_audit.json": "b08298a982367327fb442085befd7c6bf6b2c82b52e213562dc8308b3ba36420",
+    "hidden/search_R01_answers.jsonl": "8ae136073fc16fb46d7a5ed5fea2fd29f8866213e545e0e239f13c924116ca46",
+    "hidden/search_R02_answers.jsonl": "a986fec201b593d7a0447ea06baa4750ee2d60d5ff5f7363fe1a78c05421a1e1",
+    "hidden/search_R03_answers.jsonl": "2b3696b7ed63b6ff0c010f088f69ed642a3b1bae3a1fafae8fc1de2033ec95d5",
+    "hidden/search_R04_answers.jsonl": "cec47bdb4b5a39e738ca92042a75ce58ff200b080f57a726a4eec4691ca39294",
+    "hidden/search_R05_answers.jsonl": "059bb5f199db17197e03aa0ad8f71a127f42618f81420f12e8d982b1a44185ed",
+    "hidden/search_R06_answers.jsonl": "30d7e426abd651062aa43acc80f4c3a31138700be143b8d7f37f2699fab52d56",
+    "hidden/search_R07_answers.jsonl": "0d5c1007c9058835d96a4f306b8c3665205bf75698aa6fb28f3474922a9f6c3b",
+    "hidden/search_R08_answers.jsonl": "239f171458ab470081c23d87396090ee92f07b9ed0493c01034b1b4cbc30a20a",
+    "hidden/search_answers.jsonl": "93550e72ef58ccf263441b56920ceda2dd36821fe9561c61db98893692373e06",
+    "hidden/validation_answers.jsonl": "6381be8028ceb7b9c2c35ceedfac7122b4efb77e221d2d6468e7381b05fddd89",
+    "public/final_B01.json": "746ffbbbb18816aa44ed628573c52c79c462197b69f34f0cd75a50f7e9da3d90",
+    "public/final_B02.json": "38cbcd20d5652c68c1b813574a9a461a343454ac087527ac6fa880b56771697c",
+    "public/final_B03.json": "f055b9dd4b59b6297aca31a1b2a0e9a776fc91b22a1ac76f7d3ce296a33ef1a1",
+    "public/final_B04.json": "fe00929e265a9eb7d70d32e9bd3438b154c8b39448c2ae8decf7055ca9392d75",
+    "public/final_B05.json": "39c6ee040bf42190fc66a33c46bf82688a210953f500696d6e01e40e3aea9e17",
+    "public/final_B06.json": "028c4595ad66989ea361b32e5243651af02f8993d42b0f10f8e7bfbe18ee847b",
+    "public/final_B07.json": "3568b3b4ce56e5dbb8ecc1526259e01dd97ad3cfa2591fc3d3458cd0f3d2c597",
+    "public/final_B08.json": "589e3d4f2efbd128e5a40f4ca6aca6e1ae9f1aff316f6320de01289f94643864",
+    "public/final_blocks.json": "25b29be2fe8fb9e6aeda7ac230e4eb79b326109a5f3fa50c167e0861a4de5693",
+    "public/final_cases.jsonl": "9c15fe6b11350b2a5da03434313217ea27c74acface52f936617ac2ddd6c4ac7",
+    "public/search_B01.json": "21c388971a661e3521fae4f7032285a12deb98fea3d9f511f4c376eae1783504",
+    "public/search_B02.json": "070b6fb9f43a4ebd39908d057086b57581946cb85ebf960aa7afaa1c245c7715",
+    "public/search_B03.json": "e7f28464749634377095912d1d2c66fc6a8d20e8e2747133f05526d594e7de30",
+    "public/search_B04.json": "f25d010bc913480d6dcf90a684fb0312fadc6620d48e0906d90659ce1eb79e8f",
+    "public/search_B05.json": "129e82cbc83060d0da246b572545a3b0d9963f230dbf01ab453abc71b2511190",
+    "public/search_B06.json": "204d15b6ca7263e8082c69246d5d39d0111c2d48692a5ce61f7feb497c770cdd",
+    "public/search_B07.json": "7219dd74b7878b7f7bb8891128695ce846db44b5c29cc2db22fab0c0343163e6",
+    "public/search_B08.json": "753fced4d1c9e170789d141d7d209d36097e78fedd14d95a3106166c0b58f0df",
+    "public/search_B09.json": "3e23a7ccb20a47a9c3596e52572bc148777d4e8981df3d3fa3e65acd5ba87926",
+    "public/search_B10.json": "87de4764304d303306ed6f7513ac15ca03143fed2b88d92b865478e5da42c27b",
+    "public/search_B11.json": "913389bfa8bddbc90c261e8811d892f0c5f18170146eb029903826e7aea91dc6",
+    "public/search_B12.json": "a19ea52cebc76cecbce7f2d387219cbd8f9543f2ff3e02b4adfdf158f9eb3dc7",
+    "public/search_B13.json": "ef4b606dc6a3c3530e5fe2667241553a39292bc9f1469fcddeb760a3d569e3e3",
+    "public/search_B14.json": "a9e836583ce20931278327a3e6bd50cef0b8064fca51afe2945a435dcd5316eb",
+    "public/search_B15.json": "9384ab5adf68d41d6f56474c8ab0fc647c887612107c44c41d4f3af056d6139c",
+    "public/search_B16.json": "29dc3f4e70175975aa6dedbfd74224646e13d9de00b030da436a16dd90bfe769",
+    "public/search_blocks.json": "21a786faa3eb705c6d68afb2277b00beff7d315490d45dd61fb93edfa4877088",
+    "public/search_cases.jsonl": "261d168eb0571f23eec914078a2a3b7c6d25fd37b2e9e21e07aaadcacb2af861",
+    "public/validation_B01.json": "3713058b27d4c6b32d9760b3bbbbb1acd44c99026f6a7c84e0117ba5a0175719",
+    "public/validation_B02.json": "2f4f9b4c58851c5004f39ae3113a071821cfa23d8362826946812971eb9833f9",
+    "public/validation_B03.json": "5b0e724b401800f708c2a55a6758580f733506f2209e5201d5f50effbe2f1d6d",
+    "public/validation_B04.json": "76e820b49a6ac245fac705cf365eeb1a91601669f31a6907b8c8ad7340f756ac",
+    "public/validation_B05.json": "28e7c9268c0dcab202def90bae91f2b6acddec02b004421a005d3620d959d747",
+    "public/validation_B06.json": "bd16951fcac426a8d0c5cb6acacde536aca2aa0a36c5d997541063ed809fb30d",
+    "public/validation_blocks.json": "4708127d10c4745e054e25f123d5a703751fd9951164f7dd786b579b5879bff0",
+    "public/validation_cases.jsonl": "f8e061c0d6a5b6f91c8ff0b8d1d0337ee439ce45393f07cfed6eee9b1f8ec703"
+  },
+  "experiment_id": "swarm-seeds-04",
+  "families": [
+    "POLY",
+    "PDELTA",
+    "AFFINE",
+    "LIN2",
+    "LAGPOLY",
+    "INTERLEAVE",
+    "GROWBLOCK",
+    "MODAFFINE"
+  ],
+  "integer_policy": {
+    "intermediate_max_abs": "1000000000000000",
+    "public_encoding": "signed decimal strings",
+    "reference_arithmetic": "Python arbitrary-precision integers",
+    "target_max_abs": "1000000000000",
+    "visible_max_abs": "1000000000"
+  },
+  "overlap_guard_references": [
+    {
+      "benchmark_id": "ruleweave-5-v1",
+      "case_count": 72,
+      "manifest_sha256": "2277b7cce87eddac461283c3dfaf50c2dd3808f6c988f7712ca3be31475e4637"
+    },
+    {
+      "benchmark_id": "ruleweave-5-evolution-v1",
+      "case_count": 84,
+      "manifest_sha256": "695b6d0099e1b89f93c5071a2495b822292de94dd4ea81e0d78950cff0155029"
+    }
+  ],
+  "overlap_policy": "zero internal and Experiment 02/03 overlap for exact visible prefixes, canonical program hashes, and next-five target hashes",
+  "provider_reasoning_setting_for_light": "low",
+  "public_reasoning_labels": [
+    "light"
+  ],
+  "registered_adjacent_block_pairs": {
+    "final": [
+      [
+        "final-b01",
+        "final-b02"
+      ],
+      [
+        "final-b03",
+        "final-b04"
+      ],
+      [
+        "final-b05",
+        "final-b06"
+      ],
+      [
+        "final-b07",
+        "final-b08"
+      ]
+    ],
+    "search": [
+      [
+        "search-b01",
+        "search-b02"
+      ],
+      [
+        "search-b03",
+        "search-b04"
+      ],
+      [
+        "search-b05",
+        "search-b06"
+      ],
+      [
+        "search-b07",
+        "search-b08"
+      ],
+      [
+        "search-b09",
+        "search-b10"
+      ],
+      [
+        "search-b11",
+        "search-b12"
+      ],
+      [
+        "search-b13",
+        "search-b14"
+      ],
+      [
+        "search-b15",
+        "search-b16"
+      ]
+    ],
+    "validation": [
+      [
+        "validation-b01",
+        "validation-b02"
+      ],
+      [
+        "validation-b03",
+        "validation-b04"
+      ],
+      [
+        "validation-b05",
+        "validation-b06"
+      ]
+    ]
+  },
+  "root_seed": "swarm-seeds-04-evolving-the-decider-2026-07-13-a",
+  "root_seed_sha256": "3442de6cdbc347e5b3058d2fdb26ff795143d7ce96f4a707c195c3eaf9756f5c",
+  "ruleweave_generator_sha256": "209f4b2049a22f50ee0a1e4f378864fbc8aca1b12205ee10714e41c80ac72209",
+  "schema_scope": "RuleWeave benchmark manifest only; experiment block packets use schema 4.0",
+  "schema_version": "1.0",
+  "search_round_answer_files": [
+    "hidden/search_R01_answers.jsonl",
+    "hidden/search_R02_answers.jsonl",
+    "hidden/search_R03_answers.jsonl",
+    "hidden/search_R04_answers.jsonl",
+    "hidden/search_R05_answers.jsonl",
+    "hidden/search_R06_answers.jsonl",
+    "hidden/search_R07_answers.jsonl",
+    "hidden/search_R08_answers.jsonl"
+  ],
+  "splits": {
+    "final": 96,
+    "search": 192,
+    "validation": 72
+  },
+  "target_terms": 5,
+  "task": "continue each integer sequence with exactly five terms",
+  "tiers": [
+    "hard",
+    "very-hard",
+    "stress"
+  ],
+  "visible_terms": {
+    "hard": 12,
+    "stress": 14,
+    "very-hard": 13
+  }
+}

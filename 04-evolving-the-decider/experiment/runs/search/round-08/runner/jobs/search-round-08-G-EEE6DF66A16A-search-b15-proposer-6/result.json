@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Periodic four-phase deltas replay the prefix.",
+        "confidence": 0.95,
+        "rule_summary": "PDELTA with repeating four-phase polynomial delta blocks."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating +4,+5 increments replay all terms.",
+        "confidence": 1,
+        "rule_summary": "Periodic arithmetic increments."
+      },
+      {
+        "answer": [
+          "-2722",
+          "-4640",
+          "-7354",
+          "-11086",
+          "-16100"
+        ],
+        "case_id": "S171",
+        "check_summary": "Finite differences show constant fifth difference -4.",
+        "confidence": 0.99,
+        "rule_summary": "Degree-five integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Third differences decrease linearly by one.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial sequence with steadily changing second differences."
+      },
+      {
+        "answer": [
+          "-229",
+          "-341",
+          "-450",
+          "-555",
+          "-655"
+        ],
+        "case_id": "S173",
+        "check_summary": "Successive increments continue the observed arithmetic trend.",
+        "confidence": 0.97,
+        "rule_summary": "Polynomial difference progression."
+      },
+      {
+        "answer": [
+          "-4437",
+          "-7177",
+          "-11611",
+          "-18785",
+          "-30393"
+        ],
+        "case_id": "S174",
+        "check_summary": "Late differences follow the observed near-Fibonacci phase pattern.",
+        "confidence": 0.72,
+        "rule_summary": "Phase-specific affine/linear recurrence behavior."
+      },
+      {
+        "answer": [
+          "-1812914",
+          "-5438741",
+          "10874988",
+          "32624965",
+          "-65249924"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating affine updates replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Three-phase affine updates: multiply by -2 then 3 with phase biases."
+      },
+      {
+        "answer": [
+          "71",
+          "75",
+          "79",
+          "83",
+          "87"
+        ],
+        "case_id": "S176",
+        "check_summary": "Interleaved stream continuation inferred from recurring phase increments.",
+        "confidence": 0.55,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3436997"
+        ],
+        "case_id": "S177",
+        "check_summary": "Three interleaved streams each follow multiplier -8 with fixed bias.",
+        "confidence": 0.99,
+        "rule_summary": "Three-way interleave of affine recurrences."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term doubles with negative sign preserved.",
+        "confidence": 1,
+        "rule_summary": "Affine recurrence a(n+1)=2a(n)."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "Six-term period repeats exactly.",
+        "confidence": 1,
+        "rule_summary": "Periodic sequence."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd and even difference phases continue with slopes -7 and -6.",
+        "confidence": 0.98,
+        "rule_summary": "Interleaved arithmetic-difference streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-EEE6DF66A16A-search-b15-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "3fa0600e198c1ee0faa52f0d5fd101350339b59254bebcc72b79f7f96a268e0e",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-EEE6DF66A16A-search-b15-proposer-6/attempt-01"
+}

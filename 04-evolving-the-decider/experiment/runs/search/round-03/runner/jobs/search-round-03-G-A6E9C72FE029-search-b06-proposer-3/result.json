@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "42",
+          "38",
+          "47",
+          "46",
+          "62"
+        ],
+        "case_id": "S061",
+        "check_summary": "Extrapolated a three-phase interleaved progression.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-31",
+          "86",
+          "-46",
+          "145",
+          "-67"
+        ],
+        "case_id": "S062",
+        "check_summary": "Extrapolated phase-specific polynomial streams.",
+        "confidence": 0.06,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "66",
+          "82",
+          "70",
+          "86",
+          "62"
+        ],
+        "case_id": "S063",
+        "check_summary": "Extrapolated alternating and phase-specific streams.",
+        "confidence": 0.07,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-112",
+          "-154",
+          "-150",
+          "-260",
+          "-192"
+        ],
+        "case_id": "S064",
+        "check_summary": "Extrapolated phase-specific polynomial updates.",
+        "confidence": 0.05,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd terms decrement by 4; even terms increment by 2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-25",
+          "67",
+          "-4",
+          "204",
+          "-8"
+        ],
+        "case_id": "S066",
+        "check_summary": "Extrapolated phase-specific interleaved streams.",
+        "confidence": 0.06,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-175",
+          "-206",
+          "-195",
+          "-230",
+          "-245"
+        ],
+        "case_id": "S067",
+        "check_summary": "Extrapolated growing-block arithmetic structure.",
+        "confidence": 0.12,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-43",
+          "-31",
+          "-14",
+          "-52",
+          "-5"
+        ],
+        "case_id": "S068",
+        "check_summary": "Extrapolated periodic phase-specific updates.",
+        "confidence": 0.08,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "16",
+          "-8",
+          "21",
+          "21",
+          "-16"
+        ],
+        "case_id": "S069",
+        "check_summary": "Three interleaved polynomial streams were extrapolated.",
+        "confidence": 0.35,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-193",
+          "153",
+          "-278",
+          "-477",
+          "507"
+        ],
+        "case_id": "S070",
+        "check_summary": "Cubic extrapolation independently applied to three phase streams.",
+        "confidence": 0.28,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16",
+          "-24",
+          "-5",
+          "-11",
+          "-12"
+        ],
+        "case_id": "S071",
+        "check_summary": "Extrapolated phase-specific interleaved progressions.",
+        "confidence": 0.07,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-12",
+          "-16",
+          "-20",
+          "-24",
+          "-11"
+        ],
+        "case_id": "S072",
+        "check_summary": "Differences repeat in blocks of three negative 4s, interrupted by positive increments 1, 5, 9, 13.",
+        "confidence": 0.93,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-A6E9C72FE029-search-b06-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "54b5ba2140aa9b2e534a8e2eb6cad51ec9e84ef594ac812a8a55464ff5bec29c",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-A6E9C72FE029-search-b06-proposer-3/attempt-01"
+}

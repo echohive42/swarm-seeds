@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-5",
+          "-15",
+          "-25",
+          "-35",
+          "-45"
+        ],
+        "case_id": "V013",
+        "check_summary": "Tentative periodic-delta continuation from the strongest visible suffix pattern.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA-like phase continuation."
+      },
+      {
+        "answer": [
+          "-12",
+          "-14",
+          "-16",
+          "-18",
+          "-20"
+        ],
+        "case_id": "V014",
+        "check_summary": "Continuation of the dominant declining arithmetic behavior.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved affine-like decline."
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V015",
+        "check_summary": "Low-confidence extrapolation of alternating structured streams.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE-like alternating streams."
+      },
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V016",
+        "check_summary": "Odd and even subsequences are arithmetic with steps -4 and +4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V017",
+        "check_summary": "Odd stream has successive decrements; even stream has doubling decrements.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of polynomial and exponential-looking phase updates."
+      },
+      {
+        "answer": [
+          "-10",
+          "-14",
+          "71",
+          "-31",
+          "-34"
+        ],
+        "case_id": "V018",
+        "check_summary": "Tentative three-phase continuation based on residue-class trends.",
+        "confidence": 0.27,
+        "rule_summary": "PDELTA with three repeating phases."
+      },
+      {
+        "answer": [
+          "-25",
+          "-2",
+          "20",
+          "-25",
+          "-5"
+        ],
+        "case_id": "V019",
+        "check_summary": "Low-confidence periodic interleave extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE-like multi-stream recurrence."
+      },
+      {
+        "answer": [
+          "30",
+          "17",
+          "7",
+          "28",
+          "2"
+        ],
+        "case_id": "V020",
+        "check_summary": "Low-confidence continuation of apparent mixed periodic structure.",
+        "confidence": 0.1,
+        "rule_summary": "MODAFFINE-like periodic update."
+      },
+      {
+        "answer": [
+          "14",
+          "-5",
+          "-24",
+          "14",
+          "-5"
+        ],
+        "case_id": "V021",
+        "check_summary": "Tentative period-three continuation from the late prefix.",
+        "confidence": 0.15,
+        "rule_summary": "MODAFFINE-like periodic sequence."
+      },
+      {
+        "answer": [
+          "-24",
+          "-11",
+          "-70",
+          "-4",
+          "81"
+        ],
+        "case_id": "V022",
+        "check_summary": "Low-confidence alternating phase extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE or MODAFFINE-like structure."
+      },
+      {
+        "answer": [
+          "5",
+          "-32",
+          "-69",
+          "-106",
+          "-143"
+        ],
+        "case_id": "V023",
+        "check_summary": "Growing blocks have increasing lengths and block steps -5,-13,-21,-29; polynomial block-start extrapolation gives next start 5.",
+        "confidence": 0.9,
+        "rule_summary": "GROWBLOCK with polynomial starts and phase-specific arithmetic steps."
+      },
+      {
+        "answer": [
+          "-2",
+          "18",
+          "-1",
+          "25",
+          "-4"
+        ],
+        "case_id": "V024",
+        "check_summary": "Low-confidence mixed-stream continuation.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE-like periodic structure."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b02-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "b54c70231ada3ad0713ef6ca4493ee3b659372afcac8749575c9be9a21cb2b2e",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b02-proposer-1/attempt-01"
+}

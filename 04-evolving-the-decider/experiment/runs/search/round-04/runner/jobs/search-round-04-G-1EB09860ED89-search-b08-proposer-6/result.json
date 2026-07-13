@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "11",
+          "14",
+          "17",
+          "20",
+          "10"
+        ],
+        "case_id": "S085",
+        "check_summary": "Periodic arithmetic progression with increasingly negative reset.",
+        "confidence": 0.74,
+        "rule_summary": "Phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-13",
+          "39",
+          "-8",
+          "48",
+          "3"
+        ],
+        "case_id": "S086",
+        "check_summary": "No stable low-complexity pattern identified; extrapolation uncertain.",
+        "confidence": 0.08,
+        "rule_summary": "Uncertain periodic affine/modular mechanism."
+      },
+      {
+        "answer": [
+          "-44",
+          "-54",
+          "-64",
+          "-74",
+          "-84"
+        ],
+        "case_id": "S087",
+        "check_summary": "Final observed run is an arithmetic progression with step -10.",
+        "confidence": 0.28,
+        "rule_summary": "Likely phase-specific arithmetic stream."
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd and even positions form linear streams with steps +5 and -1.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-48",
+          "88",
+          "45",
+          "-80",
+          "123"
+        ],
+        "case_id": "S089",
+        "check_summary": "Three interleaved streams show arithmetic second-difference structure.",
+        "confidence": 0.95,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "11",
+          "18",
+          "10",
+          "21",
+          "12"
+        ],
+        "case_id": "S090",
+        "check_summary": "No stable low-complexity pattern identified; extrapolation uncertain.",
+        "confidence": 0.08,
+        "rule_summary": "Uncertain periodic affine mechanism."
+      },
+      {
+        "answer": [
+          "-290",
+          "-75",
+          "142",
+          "-352",
+          "-8"
+        ],
+        "case_id": "S091",
+        "check_summary": "No stable low-complexity pattern identified; extrapolation uncertain.",
+        "confidence": 0.06,
+        "rule_summary": "Uncertain second-order or modular mechanism."
+      },
+      {
+        "answer": [
+          "5",
+          "-28",
+          "5",
+          "-39",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd positions remain 5; even positions decrease with successive steps -4 through -8.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-7",
+          "44",
+          "-8",
+          "41",
+          "-11"
+        ],
+        "case_id": "S093",
+        "check_summary": "No stable low-complexity pattern identified; extrapolation uncertain.",
+        "confidence": 0.07,
+        "rule_summary": "Uncertain interleaved mechanism."
+      },
+      {
+        "answer": [
+          "74",
+          "88",
+          "90",
+          "104",
+          "100"
+        ],
+        "case_id": "S094",
+        "check_summary": "No stable low-complexity pattern identified; extrapolation uncertain.",
+        "confidence": 0.07,
+        "rule_summary": "Uncertain periodic mechanism."
+      },
+      {
+        "answer": [
+          "-19",
+          "-35",
+          "-51",
+          "-67",
+          "-7"
+        ],
+        "case_id": "S095",
+        "check_summary": "Four-position phase structure with repeated -16 deltas and polynomial phase reset.",
+        "confidence": 0.61,
+        "rule_summary": "Phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-12",
+          "198",
+          "-20",
+          "364",
+          "-34"
+        ],
+        "case_id": "S096",
+        "check_summary": "No stable low-complexity pattern identified; extrapolation uncertain.",
+        "confidence": 0.06,
+        "rule_summary": "Uncertain periodic affine or interleaved mechanism."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-1EB09860ED89-search-b08-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "6d4c9158e4d186d9f5a4438cfbe2841c023d050f85e00d9397b920c3c8a5c40a",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-1EB09860ED89-search-b08-proposer-6/attempt-01"
+}

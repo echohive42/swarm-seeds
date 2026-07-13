@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "69",
+          "4",
+          "93"
+        ],
+        "case_id": "S013",
+        "check_summary": "Parity subsequences replay consistently: odd terms follow quadratic increments and even terms alternate -5,4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/periodic streams."
+      },
+      {
+        "answer": [
+          "61",
+          "57",
+          "160",
+          "101",
+          "97"
+        ],
+        "case_id": "S014",
+        "check_summary": "Residue-class extrapolation is the strongest available candidate, though support is weak.",
+        "confidence": 0.22,
+        "rule_summary": "Phase-interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-12",
+          "3",
+          "-25",
+          "20",
+          "-3"
+        ],
+        "case_id": "S015",
+        "check_summary": "Three interleaved streams are coherent; one exhibits successive increments -4,-5,-6,-7.",
+        "confidence": 0.8,
+        "rule_summary": "Three polynomial streams interleaved by position."
+      },
+      {
+        "answer": [
+          "39",
+          "-1",
+          "72",
+          "-15",
+          "63"
+        ],
+        "case_id": "S016",
+        "check_summary": "Periodic interleaving provides the strongest coherent continuation among weak candidates.",
+        "confidence": 0.14,
+        "rule_summary": "Phase-specific polynomial-delta sequence."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5 and even terms decrease by 4 throughout the prefix.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-19",
+          "-3",
+          "-30",
+          "-44",
+          "-48"
+        ],
+        "case_id": "S018",
+        "check_summary": "Three phase subsequences support periodic polynomial-delta continuation; this is the strongest coherent candidate.",
+        "confidence": 0.72,
+        "rule_summary": "Three-way interleaving of phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "45",
+          "92",
+          "71",
+          "83",
+          "50"
+        ],
+        "case_id": "S019",
+        "check_summary": "Phase-separated extrapolation is selected despite limited discriminating evidence.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic affine or polynomial phase updates."
+      },
+      {
+        "answer": [
+          "42",
+          "64",
+          "-38",
+          "-12",
+          "14"
+        ],
+        "case_id": "S020",
+        "check_summary": "Growing positive blocks and triangular-index negative shocks give the strongest full-prefix explanation.",
+        "confidence": 0.72,
+        "rule_summary": "Growing-block delta process."
+      },
+      {
+        "answer": [
+          "21",
+          "-1",
+          "-23",
+          "62",
+          "40"
+        ],
+        "case_id": "S021",
+        "check_summary": "Phase-specific deltas continue with inferred period-four polynomial trends.",
+        "confidence": 0.76,
+        "rule_summary": "Periodic polynomial-delta update."
+      },
+      {
+        "answer": [
+          "23",
+          "3",
+          "-1",
+          "5",
+          "16"
+        ],
+        "case_id": "S022",
+        "check_summary": "No candidate has strong validation; this continuation is retained as the least unsupported plurality option.",
+        "confidence": 0.15,
+        "rule_summary": "Likely modular affine or interleaved mechanism."
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-37",
+          "-35"
+        ],
+        "case_id": "S023",
+        "check_summary": "Growing arithmetic blocks have step +2 and successive block-start shocks, yielding this continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "41",
+          "350",
+          "-26",
+          "68",
+          "-706"
+        ],
+        "case_id": "S024",
+        "check_summary": "Modulo-three streams show consistent linear, quadratic, and affine behavior with this continuation.",
+        "confidence": 0.97,
+        "rule_summary": "Three-way interleaved polynomial/affine streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-F3EA0DB4CF72-search-b02-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "d23576b4ce8faec5a65a6b2e54605e372e977ccd020a8cb3e667dec7403f85cf",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-F3EA0DB4CF72-search-b02-judge-2/attempt-01"
+}

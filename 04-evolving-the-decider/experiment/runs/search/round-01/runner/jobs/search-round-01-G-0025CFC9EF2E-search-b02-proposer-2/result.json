@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "4",
+          "71",
+          "4",
+          "97"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd-position subsequence has successive even increments; even positions alternate -5,4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: quadratic odd stream and alternating even stream."
+      },
+      {
+        "answer": [
+          "-8",
+          "21",
+          "-12",
+          "23",
+          "-16"
+        ],
+        "case_id": "S014",
+        "check_summary": "No uniquely verified low-complexity continuation from supplied prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Heuristic phase extrapolation."
+      },
+      {
+        "answer": [
+          "-17",
+          "-4",
+          "-24",
+          "-12",
+          "-31"
+        ],
+        "case_id": "S015",
+        "check_summary": "No uniquely verified low-complexity continuation from supplied prefix.",
+        "confidence": 0.07,
+        "rule_summary": "Heuristic phase extrapolation."
+      },
+      {
+        "answer": [
+          "44",
+          "14",
+          "40",
+          "15",
+          "36"
+        ],
+        "case_id": "S016",
+        "check_summary": "No uniquely verified low-complexity continuation from supplied prefix.",
+        "confidence": 0.06,
+        "rule_summary": "Heuristic phase extrapolation."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5; even terms decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-22",
+          "-5",
+          "-30",
+          "-9",
+          "-38"
+        ],
+        "case_id": "S018",
+        "check_summary": "No uniquely verified low-complexity continuation from supplied prefix.",
+        "confidence": 0.06,
+        "rule_summary": "Heuristic phase extrapolation."
+      },
+      {
+        "answer": [
+          "-1",
+          "32",
+          "-4",
+          "92",
+          "-7"
+        ],
+        "case_id": "S019",
+        "check_summary": "No uniquely verified low-complexity continuation from supplied prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Heuristic phase extrapolation."
+      },
+      {
+        "answer": [
+          "38",
+          "-46",
+          "-6",
+          "-68",
+          "-18"
+        ],
+        "case_id": "S020",
+        "check_summary": "No uniquely verified low-complexity continuation from supplied prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Heuristic phase extrapolation."
+      },
+      {
+        "answer": [
+          "-54",
+          "-9",
+          "-70",
+          "-12",
+          "-86"
+        ],
+        "case_id": "S021",
+        "check_summary": "No uniquely verified low-complexity continuation from supplied prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Heuristic phase extrapolation."
+      },
+      {
+        "answer": [
+          "-50",
+          "47",
+          "-71",
+          "76",
+          "-96"
+        ],
+        "case_id": "S022",
+        "check_summary": "No uniquely verified low-complexity continuation from supplied prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Heuristic phase extrapolation."
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-37",
+          "-35"
+        ],
+        "case_id": "S023",
+        "check_summary": "Growing blocks are consecutive arithmetic runs; block starts decrease by 5 and block lengths grow.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-50",
+          "42",
+          "-86",
+          "-93",
+          "-158"
+        ],
+        "case_id": "S024",
+        "check_summary": "No uniquely verified low-complexity continuation from supplied prefix.",
+        "confidence": 0.04,
+        "rule_summary": "Heuristic phase extrapolation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-0025CFC9EF2E-search-b02-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "c5fb61e4dcd5da9bc03fece5e473a0f5b873b0516a1ba2badab64eb16cae9fe5",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-0025CFC9EF2E-search-b02-proposer-2/attempt-01"
+}

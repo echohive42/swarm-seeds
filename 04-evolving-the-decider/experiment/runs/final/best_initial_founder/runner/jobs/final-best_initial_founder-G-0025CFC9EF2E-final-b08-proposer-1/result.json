@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b08",
+    "results": [
+      {
+        "answer": [
+          "17",
+          "-24",
+          "18",
+          "-28",
+          "19"
+        ],
+        "case_id": "F085",
+        "check_summary": "Alternating arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "Odd positions increase by 1; even positions decrease by 4."
+      },
+      {
+        "answer": [
+          "20",
+          "49",
+          "16",
+          "63",
+          "35"
+        ],
+        "case_id": "F086",
+        "check_summary": "Candidate periodic interleave extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "Best-fit periodic multi-stream continuation."
+      },
+      {
+        "answer": [
+          "-2",
+          "-11",
+          "-20",
+          "41",
+          "32"
+        ],
+        "case_id": "F087",
+        "check_summary": "Growing arithmetic blocks.",
+        "confidence": 0.91,
+        "rule_summary": "Blocks lengthen; within-block step is increasingly negative, with polynomial block starts."
+      },
+      {
+        "answer": [
+          "147",
+          "162",
+          "180",
+          "198",
+          "216"
+        ],
+        "case_id": "F088",
+        "check_summary": "Candidate periodic arithmetic continuation.",
+        "confidence": 0.24,
+        "rule_summary": "Best-fit growing-block/interleaved continuation."
+      },
+      {
+        "answer": [
+          "11",
+          "46",
+          "11",
+          "60",
+          "11"
+        ],
+        "case_id": "F089",
+        "check_summary": "Constant odd stream and quadratic even stream.",
+        "confidence": 0.99,
+        "rule_summary": "Odd terms are 11; even terms have successive even increments."
+      },
+      {
+        "answer": [
+          "-22",
+          "-8",
+          "-42",
+          "-29",
+          "-11"
+        ],
+        "case_id": "F090",
+        "check_summary": "Three interleaved quadratic streams.",
+        "confidence": 0.86,
+        "rule_summary": "Residue-class streams extrapolate by constant second differences."
+      },
+      {
+        "answer": [
+          "-763",
+          "15",
+          "40",
+          "-1531",
+          "18"
+        ],
+        "case_id": "F091",
+        "check_summary": "Three interleaved streams.",
+        "confidence": 0.99,
+        "rule_summary": "One stream doubles minus 5; one increments by 3; one has linear first differences."
+      },
+      {
+        "answer": [
+          "88",
+          "34",
+          "24",
+          "121",
+          "53"
+        ],
+        "case_id": "F092",
+        "check_summary": "Candidate modular/interleaved continuation.",
+        "confidence": 0.16,
+        "rule_summary": "Best-fit periodic multi-stream continuation."
+      },
+      {
+        "answer": [
+          "33",
+          "21",
+          "26",
+          "31",
+          "36"
+        ],
+        "case_id": "F093",
+        "check_summary": "Growing arithmetic blocks.",
+        "confidence": 0.94,
+        "rule_summary": "Block starts increase by 3 and each block advances by 5."
+      },
+      {
+        "answer": [
+          "61",
+          "68",
+          "43",
+          "64",
+          "75"
+        ],
+        "case_id": "F094",
+        "check_summary": "Candidate periodic multi-stream continuation.",
+        "confidence": 0.17,
+        "rule_summary": "Best-fit phase-specific continuation."
+      },
+      {
+        "answer": [
+          "19",
+          "87",
+          "31",
+          "6",
+          "104"
+        ],
+        "case_id": "F095",
+        "check_summary": "Candidate interleaved polynomial continuation.",
+        "confidence": 0.15,
+        "rule_summary": "Best-fit residue-class stream extrapolation."
+      },
+      {
+        "answer": [
+          "-67",
+          "107",
+          "53",
+          "-123",
+          "159"
+        ],
+        "case_id": "F096",
+        "check_summary": "Three interleaved polynomial streams.",
+        "confidence": 0.9,
+        "rule_summary": "Residue-class streams have polynomially changing first differences."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-best_initial_founder-G-0025CFC9EF2E-final-b08-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "8b03c67e2ea83c90bafaeaa5b42647df287e148df7398bf2055e120352f8debc",
+  "terminal_artifact_relpath": "jobs/final-best_initial_founder-G-0025CFC9EF2E-final-b08-proposer-1/attempt-01"
+}

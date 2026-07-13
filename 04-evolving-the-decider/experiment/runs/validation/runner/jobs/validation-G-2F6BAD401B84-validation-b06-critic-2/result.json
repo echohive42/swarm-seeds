@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b06",
+    "results": [
+      {
+        "answer": [
+          "3",
+          "12",
+          "1",
+          "8",
+          "22"
+        ],
+        "case_id": "V061",
+        "check_summary": "The prefix exactly replays x'=2x+6 modulo 29, yielding the proposed continuation.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "59",
+          "-51",
+          "-21",
+          "9",
+          "39"
+        ],
+        "case_id": "V062",
+        "check_summary": "The visible three-term arithmetic blocks have steps 9, 16, 23, then 30, with the next block reset matching the proposal.",
+        "confidence": 0.9,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-78",
+          "-102",
+          "-130",
+          "-162",
+          "-198"
+        ],
+        "case_id": "V063",
+        "check_summary": "The terminal differences support a continuing polynomially accelerating negative-delta pattern; evidence remains limited.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "20",
+          "-33",
+          "24",
+          "-38",
+          "28"
+        ],
+        "case_id": "V064",
+        "check_summary": "Odd and even subsequences independently replay arithmetic progressions with steps -5 and +4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "67",
+          "58",
+          "77",
+          "82",
+          "63"
+        ],
+        "case_id": "V065",
+        "check_summary": "The proposed continuation is the best available interleaved modular fit, though prefix support is weak.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-49",
+          "449",
+          "-60",
+          "897",
+          "-72"
+        ],
+        "case_id": "V066",
+        "check_summary": "Odd positions decrement by successive integers while even positions follow x'=2x-1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "54",
+          "17",
+          "68",
+          "23",
+          "82"
+        ],
+        "case_id": "V067",
+        "check_summary": "The bounded prefix offers only weak support for periodic modular continuation; this is the best-supported proposal.",
+        "confidence": 0.14,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "33",
+          "7",
+          "-54",
+          "54",
+          "6"
+        ],
+        "case_id": "V068",
+        "check_summary": "Residue classes modulo 3 give next values 33, 7, -54, 54, and 6 from their exact finite-difference patterns.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE of three polynomial streams"
+      },
+      {
+        "answer": [
+          "7",
+          "20",
+          "-27",
+          "135",
+          "-30"
+        ],
+        "case_id": "V069",
+        "check_summary": "Residue-class replay gives a linear stream, a quadratic stream, and a doubling-sign stream; the resulting continuation is exact under that L",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE of three streams"
+      },
+      {
+        "answer": [
+          "117",
+          "135",
+          "153",
+          "171",
+          "189"
+        ],
+        "case_id": "V070",
+        "check_summary": "The final visible arithmetic block continues with common difference 18.",
+        "confidence": 0.9,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "19",
+          "-89",
+          "2",
+          "38",
+          "-170"
+        ],
+        "case_id": "V071",
+        "check_summary": "Three residue streams match the stated polynomial phase rules and produce the proposed continuation.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE of three polynomial streams"
+      },
+      {
+        "answer": [
+          "35",
+          "39",
+          "28",
+          "32",
+          "36"
+        ],
+        "case_id": "V072",
+        "check_summary": "The repeating increments are +4,+4 followed by a decreasing reset phase, giving the proposed continuation.",
+        "confidence": 0.95,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-2F6BAD401B84-validation-b06-critic-2",
+  "outcome": "valid_output",
+  "response_sha256": "1830f554bbcd277a47b2497cb00e978daa0673b8746827b3125510a80f00aeca",
+  "terminal_artifact_relpath": "jobs/validation-G-2F6BAD401B84-validation-b06-critic-2/attempt-01"
+}

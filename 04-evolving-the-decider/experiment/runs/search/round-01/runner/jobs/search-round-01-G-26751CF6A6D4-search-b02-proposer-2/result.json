@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "73",
+          "4",
+          "101"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd and even subsequences replay as polynomial and alternating streams.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE: odd terms have successive quadratic increments; even terms alternate -5,4."
+      },
+      {
+        "answer": [
+          "-8",
+          "14",
+          "-3",
+          "31",
+          "-1"
+        ],
+        "case_id": "S014",
+        "check_summary": "Best fit is a phase-periodic affine/interleaved continuation.",
+        "confidence": 0.19,
+        "rule_summary": "Periodic affine phase updates."
+      },
+      {
+        "answer": [
+          "67",
+          "-25",
+          "-23",
+          "-34",
+          "76"
+        ],
+        "case_id": "S015",
+        "check_summary": "Continuation inferred from lagged phase subsequences.",
+        "confidence": 0.16,
+        "rule_summary": "LAGPOLY with phase-specific increments."
+      },
+      {
+        "answer": [
+          "89",
+          "-25",
+          "91",
+          "-37",
+          "113"
+        ],
+        "case_id": "S016",
+        "check_summary": "Continuation inferred from alternating phase updates.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd subsequence increases by 5; even subsequence decreases by 4.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE: two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-18",
+          "-4",
+          "-25",
+          "-7",
+          "-32"
+        ],
+        "case_id": "S018",
+        "check_summary": "Best fit is a phase-periodic second-order continuation.",
+        "confidence": 0.13,
+        "rule_summary": "LIN2 with repeating phase bias."
+      },
+      {
+        "answer": [
+          "83",
+          "-5",
+          "57",
+          "19",
+          "68"
+        ],
+        "case_id": "S019",
+        "check_summary": "Continuation inferred from periodic lagged updates.",
+        "confidence": 0.12,
+        "rule_summary": "PDELTA with phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "42",
+          "-42",
+          "6",
+          "-6",
+          "24"
+        ],
+        "case_id": "S020",
+        "check_summary": "Continuation inferred from repeating affine phases.",
+        "confidence": 0.15,
+        "rule_summary": "AFFINE with periodic phase parameters."
+      },
+      {
+        "answer": [
+          "21",
+          "-1",
+          "-23",
+          "-45",
+          "40"
+        ],
+        "case_id": "S021",
+        "check_summary": "Repeated three-step negative delta block with polynomially changing reset deltas.",
+        "confidence": 0.38,
+        "rule_summary": "PDELTA: reset deltas and phase-block decrements evolve polynomially."
+      },
+      {
+        "answer": [
+          "-20",
+          "36",
+          "-4",
+          "-57",
+          "17"
+        ],
+        "case_id": "S022",
+        "check_summary": "Continuation inferred from a periodic second-order recurrence.",
+        "confidence": 0.11,
+        "rule_summary": "LIN2 with phase-specific bias."
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-37",
+          "-35"
+        ],
+        "case_id": "S023",
+        "check_summary": "Mostly +2 increments interrupted by progressively spaced negative jumps.",
+        "confidence": 0.93,
+        "rule_summary": "PDELTA with triangular phase schedule and jump sizes -5,-7,-9,-11,... ."
+      },
+      {
+        "answer": [
+          "-68",
+          "12",
+          "-502",
+          "-40",
+          "-1090"
+        ],
+        "case_id": "S024",
+        "check_summary": "Continuation inferred from alternating affine growth factors.",
+        "confidence": 0.1,
+        "rule_summary": "AFFINE with periodic phase multipliers and biases."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-26751CF6A6D4-search-b02-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "7242f0b4d10b5d4e5e979963670a15a02e1aaeedf3b9d07a8cdb10a60aa805af",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-26751CF6A6D4-search-b02-proposer-2/attempt-01"
+}

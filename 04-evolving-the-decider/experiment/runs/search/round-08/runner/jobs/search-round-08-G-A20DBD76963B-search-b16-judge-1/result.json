@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-52",
+          "-70",
+          "-40",
+          "-94",
+          "-28"
+        ],
+        "case_id": "S181",
+        "check_summary": "Plurality agreement across repeated PDELTA candidates.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "7",
+          "-12",
+          "-20",
+          "-5",
+          "-13"
+        ],
+        "case_id": "S182",
+        "check_summary": "Plurality agreement supports a phase-dependent affine continuation.",
+        "confidence": 0.16,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "0",
+          "-5",
+          "-10",
+          "13",
+          "8"
+        ],
+        "case_id": "S183",
+        "check_summary": "Strong plurality with high-confidence triangular-event delta pattern.",
+        "confidence": 0.95,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-22",
+          "-14",
+          "-29",
+          "-22",
+          "-36"
+        ],
+        "case_id": "S184",
+        "check_summary": "Selected the strongest coherent repeated phase-stream continuation among tied candidates.",
+        "confidence": 0.17,
+        "rule_summary": "Phase-specific affine continuation"
+      },
+      {
+        "answer": [
+          "68",
+          "3",
+          "91",
+          "-2",
+          "117"
+        ],
+        "case_id": "S185",
+        "check_summary": "Strong plurality and near-unanimous interleaved-stream fit.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "68",
+          "103",
+          "-37",
+          "5",
+          "47"
+        ],
+        "case_id": "S186",
+        "check_summary": "Three matching high-confidence GROWBLOCK candidates.",
+        "confidence": 0.78,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "30",
+          "26",
+          "-107",
+          "32",
+          "39"
+        ],
+        "case_id": "S187",
+        "check_summary": "Strong plurality supports three interleaved polynomial streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-21",
+          "-38",
+          "-55",
+          "-72",
+          "-89"
+        ],
+        "case_id": "S188",
+        "check_summary": "Growing arithmetic blocks with steps -9,-11,-13,-15,-17.",
+        "confidence": 0.96,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-26",
+          "-22",
+          "-29",
+          "-26",
+          "-32"
+        ],
+        "case_id": "S189",
+        "check_summary": "Near-unanimous fit from two interleaved arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-1",
+          "-35",
+          "-12",
+          "-47",
+          "-23"
+        ],
+        "case_id": "S190",
+        "check_summary": "Plurality supports periodic affine phase continuation.",
+        "confidence": 0.13,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "41",
+          "58",
+          "35",
+          "69",
+          "24"
+        ],
+        "case_id": "S191",
+        "check_summary": "Plurality supports two position-dependent streams.",
+        "confidence": 0.11,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-46",
+          "19",
+          "220",
+          "-56",
+          "26"
+        ],
+        "case_id": "S192",
+        "check_summary": "Strong plurality and verifier agreement for three interleaved streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-A20DBD76963B-search-b16-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "a0d9019c245e8615bba127d9ff47d184ecbe8622c6e5be9d75bc1fbb82a0195a",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-A20DBD76963B-search-b16-judge-1/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "8",
+          "-15",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "The +5 runs are interrupted by drops of -3,-8,-13,-18,-23 at triangular block boundaries.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd and even positions form independent polynomial and doubling streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3",
+          "17",
+          "-2",
+          "19",
+          "-1"
+        ],
+        "case_id": "S159",
+        "check_summary": "Weakly supported periodic interleaved continuation; proposals disagree substantially.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd-position terms rise by 2 and even-position terms rise by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-11",
+          "39",
+          "7",
+          "-12",
+          "56"
+        ],
+        "case_id": "S161",
+        "check_summary": "Three residue streams have polynomial increments: +2,+3,+4,+5; -5,-4,-3,-2; and +5,+8,+11,+14.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "11",
+          "10",
+          "16",
+          "12",
+          "19"
+        ],
+        "case_id": "S162",
+        "check_summary": "Best-supported continuation among competing periodic phase-delta explanations.",
+        "confidence": 0.25,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "5",
+          "-362",
+          "5",
+          "6",
+          "-730"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams: descending integer differences, increasing integers, and x'=2x-6.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "39",
+          "72",
+          "42",
+          "81",
+          "63"
+        ],
+        "case_id": "S164",
+        "check_summary": "Weakly supported phase-interleaved continuation; the prefix does not uniquely expose the phase rules.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "72",
+          "-90",
+          "51",
+          "-130",
+          "91"
+        ],
+        "case_id": "S165",
+        "check_summary": "Low-confidence three-phase lagged-polynomial continuation from the anonymous evidence.",
+        "confidence": 0.22,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "19",
+          "-21",
+          "129",
+          "25",
+          "19"
+        ],
+        "case_id": "S166",
+        "check_summary": "Low-confidence periodic multi-stream continuation with a recurring -21 phase.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-48",
+          "-3",
+          "-14",
+          "-65",
+          "-25"
+        ],
+        "case_id": "S167",
+        "check_summary": "Low-confidence three-stream interleaved continuation; candidate evidence is highly uncertain.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-19",
+          "13",
+          "45",
+          "77",
+          "109"
+        ],
+        "case_id": "S168",
+        "check_summary": "Growing arithmetic blocks continue with the next block step of 32.",
+        "confidence": 0.91,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-1FA44A1EE857-search-b14-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "955b96902a6c31964692c557789ab4fd5983f3aec8e1763caf2d3bfa0542ac5c",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-1FA44A1EE857-search-b14-critic-1/attempt-01"
+}

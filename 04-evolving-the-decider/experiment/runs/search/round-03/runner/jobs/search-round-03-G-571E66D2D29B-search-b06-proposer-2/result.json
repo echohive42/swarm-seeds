@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "15",
+          "9",
+          "31",
+          "12"
+        ],
+        "case_id": "S061",
+        "check_summary": "Candidate periodic modular-affine continuation; low certainty.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-23",
+          "89",
+          "-85",
+          "143",
+          "-179"
+        ],
+        "case_id": "S062",
+        "check_summary": "Candidate second-order continuation; low certainty.",
+        "confidence": 0.07,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-16",
+          "115",
+          "-11",
+          "122",
+          "-7"
+        ],
+        "case_id": "S063",
+        "check_summary": "Candidate periodic interleaved continuation; low certainty.",
+        "confidence": 0.07,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-114",
+          "-1110",
+          "-150",
+          "-3270",
+          "-186"
+        ],
+        "case_id": "S064",
+        "check_summary": "Candidate phase-dependent affine continuation; low certainty.",
+        "confidence": 0.06,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd and even subsequences are arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-16",
+          "201",
+          "-24",
+          "585",
+          "-32"
+        ],
+        "case_id": "S066",
+        "check_summary": "Candidate periodic affine continuation; low certainty.",
+        "confidence": 0.06,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-183",
+          "-222",
+          "-261",
+          "-300",
+          "-339"
+        ],
+        "case_id": "S067",
+        "check_summary": "Candidate growing arithmetic-block continuation; moderate-low certainty.",
+        "confidence": 0.18,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-29",
+          "-54",
+          "-31",
+          "-68",
+          "-33"
+        ],
+        "case_id": "S068",
+        "check_summary": "Candidate interleaved continuation; low certainty.",
+        "confidence": 0.07,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "16",
+          "-21",
+          "21",
+          "24",
+          "-32"
+        ],
+        "case_id": "S069",
+        "check_summary": "Three interleaved quadratic streams with constant second differences.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "0",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Three interleaved streams; one constant stream and one quadratic stream.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-14",
+          "-8",
+          "34",
+          "-2",
+          "-4"
+        ],
+        "case_id": "S071",
+        "check_summary": "Candidate interleaved polynomial continuation; low certainty.",
+        "confidence": 0.06,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-29",
+          "-30",
+          "-34",
+          "-35",
+          "-39"
+        ],
+        "case_id": "S072",
+        "check_summary": "Candidate periodic phase continuation; low certainty.",
+        "confidence": 0.08,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-571E66D2D29B-search-b06-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "7db2c053c1ea021aef57be10a079d88e90a40df0bfc14467aaa5eec908629634",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-571E66D2D29B-search-b06-proposer-2/attempt-01"
+}

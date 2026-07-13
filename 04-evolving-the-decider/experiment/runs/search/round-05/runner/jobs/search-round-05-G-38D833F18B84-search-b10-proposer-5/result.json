@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "-6",
+          "9",
+          "-6",
+          "-7",
+          "-4"
+        ],
+        "case_id": "S109",
+        "check_summary": "No stable low-order continuation identified from the prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic/interleaved fit."
+      },
+      {
+        "answer": [
+          "12",
+          "-3",
+          "-12",
+          "14",
+          "-1"
+        ],
+        "case_id": "S110",
+        "check_summary": "Prefix shows possible phase repetition but continuation is underdetermined manually.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic affine fit."
+      },
+      {
+        "answer": [
+          "82",
+          "97",
+          "112",
+          "127",
+          "142"
+        ],
+        "case_id": "S111",
+        "check_summary": "Later terms contain repeated positive increments, suggesting phase-specific deltas.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative periodic polynomial-delta fit."
+      },
+      {
+        "answer": [
+          "32",
+          "51",
+          "3",
+          "-5",
+          "76"
+        ],
+        "case_id": "S112",
+        "check_summary": "Three interleaved subsequences are visible; one phase extrapolates quadratically.",
+        "confidence": 0.18,
+        "rule_summary": "Tentative three-stream polynomial/interleave fit."
+      },
+      {
+        "answer": [
+          "40",
+          "21",
+          "56",
+          "-17",
+          "77"
+        ],
+        "case_id": "S113",
+        "check_summary": "No uniquely validated continuation found from the supplied prefix.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative periodic/interleaved fit."
+      },
+      {
+        "answer": [
+          "-25",
+          "-16",
+          "-24",
+          "-987",
+          "-26"
+        ],
+        "case_id": "S114",
+        "check_summary": "Large phase-dependent swings suggest a periodic second-order or affine mechanism.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative periodic recurrence fit."
+      },
+      {
+        "answer": [
+          "42",
+          "82",
+          "40",
+          "202",
+          "87"
+        ],
+        "case_id": "S115",
+        "check_summary": "Early powers-of-two differences suggest repeated phase behavior, but later phases are ambiguous.",
+        "confidence": 0.09,
+        "rule_summary": "Tentative periodic delta fit."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd and even subsequences are arithmetic with increments -1 and -4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "41",
+          "15",
+          "58",
+          "31",
+          "7"
+        ],
+        "case_id": "S117",
+        "check_summary": "No uniquely validated continuation found from the supplied prefix.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative interleaved-stream fit."
+      },
+      {
+        "answer": [
+          "23",
+          "18",
+          "28",
+          "23",
+          "15"
+        ],
+        "case_id": "S118",
+        "check_summary": "Possible phase-specific descending streams are visible, but continuation is uncertain.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative interleave/periodic fit."
+      },
+      {
+        "answer": [
+          "70",
+          "81",
+          "4",
+          "79",
+          "91"
+        ],
+        "case_id": "S119",
+        "check_summary": "Two increasing phases and one decreasing phase suggest interleaving, but parameters are uncertain.",
+        "confidence": 0.09,
+        "rule_summary": "Tentative three-stream polynomial fit."
+      },
+      {
+        "answer": [
+          "176",
+          "159",
+          "142",
+          "125",
+          "108"
+        ],
+        "case_id": "S120",
+        "check_summary": "Block starts rise by 9, 32, and 51, while the final block has step -12; extrapolation gives next start 176 and step -17.",
+        "confidence": 0.34,
+        "rule_summary": "GROWBLOCK with polynomial starts and phase-specific arithmetic steps."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-38D833F18B84-search-b10-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "1b5fea075318d1b351e8e085b458e846844762f9ab032121fa2299eb04e818dd",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-38D833F18B84-search-b10-proposer-5/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "-80",
+          "-176",
+          "42",
+          "-237",
+          "-592"
+        ],
+        "case_id": "S061",
+        "check_summary": "Plurality across strongest phase-interleaved proposals.",
+        "confidence": 0.34,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-18",
+          "41",
+          "-5",
+          "-27",
+          "36"
+        ],
+        "case_id": "S062",
+        "check_summary": "Plurality supports the phase-dependent affine continuation.",
+        "confidence": 0.16,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "115",
+          "-2",
+          "121",
+          "48",
+          "126"
+        ],
+        "case_id": "S063",
+        "check_summary": "Plurality among the strongest interleaving proposals.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "80",
+          "778",
+          "-141",
+          "123",
+          "-1558"
+        ],
+        "case_id": "S064",
+        "check_summary": "Three matching high-confidence proposals provide a complete phase replay.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE of affine and polynomial streams"
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "All proposals agree on the two arithmetic parity streams.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams"
+      },
+      {
+        "answer": [
+          "7",
+          "229",
+          "48",
+          "7",
+          "341"
+        ],
+        "case_id": "S066",
+        "check_summary": "Three matching high-confidence proposals support the phase streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of affine and polynomial streams"
+      },
+      {
+        "answer": [
+          "-175",
+          "-206",
+          "-237",
+          "-268",
+          "-299"
+        ],
+        "case_id": "S067",
+        "check_summary": "Plurality favors continuation of the visible terminal arithmetic block.",
+        "confidence": 0.4,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-43",
+          "-62",
+          "32",
+          "13",
+          "-6"
+        ],
+        "case_id": "S068",
+        "check_summary": "Plurality and high-confidence proposals support the growing-block continuation.",
+        "confidence": 0.84,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "16",
+          "-21",
+          "21",
+          "24",
+          "-32"
+        ],
+        "case_id": "S069",
+        "check_summary": "Strong plurality from matching quadratic phase-stream fits.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of three polynomial streams"
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "-3",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd subsequence is constant at -3; even subsequence decrements by successive multiples of 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two polynomial streams"
+      },
+      {
+        "answer": [
+          "-140",
+          "-200",
+          "215",
+          "-496",
+          "-491"
+        ],
+        "case_id": "S071",
+        "check_summary": "Plurality among the best-supported phase-stream extrapolations.",
+        "confidence": 0.29,
+        "rule_summary": "INTERLEAVE of three polynomial streams"
+      },
+      {
+        "answer": [
+          "-29",
+          "-33",
+          "-20",
+          "-24",
+          "-28"
+        ],
+        "case_id": "S072",
+        "check_summary": "Plurality supports the period-three phase-delta continuation.",
+        "confidence": 0.97,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-E2CB7ED71793-search-b06-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "a29cffc4fabd40db0949dda2e689d41d42bb0bb98fd7c885946bf1ea1ea24011",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-E2CB7ED71793-search-b06-judge-1/attempt-01"
+}

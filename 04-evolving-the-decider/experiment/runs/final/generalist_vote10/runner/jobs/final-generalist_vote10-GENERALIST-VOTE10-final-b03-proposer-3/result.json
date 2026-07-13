@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "-1175078",
+          "1175077",
+          "3525225",
+          "10575673",
+          "31727017"
+        ],
+        "case_id": "F025",
+        "check_summary": "Periodic affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "Three-phase affine update."
+      },
+      {
+        "answer": [
+          "-797164",
+          "-2391487",
+          "-7174456",
+          "-21523363",
+          "-64570084"
+        ],
+        "case_id": "F026",
+        "check_summary": "Constant affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "x_next=3x+5."
+      },
+      {
+        "answer": [
+          "24316",
+          "-48502",
+          "97136",
+          "-194132",
+          "388410"
+        ],
+        "case_id": "F027",
+        "check_summary": "Phase-dependent second-order replay.",
+        "confidence": 0.91,
+        "rule_summary": "x_next=-2x plus phase-linear bias."
+      },
+      {
+        "answer": [
+          "37323",
+          "74633",
+          "149281",
+          "298547",
+          "597111"
+        ],
+        "case_id": "F028",
+        "check_summary": "Alternating affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "x_next=2x plus alternating odd offsets."
+      },
+      {
+        "answer": [
+          "5402",
+          "7395",
+          "9941",
+          "13152",
+          "17155"
+        ],
+        "case_id": "F029",
+        "check_summary": "Finite-difference continuation.",
+        "confidence": 0.88,
+        "rule_summary": "Polynomial difference pattern."
+      },
+      {
+        "answer": [
+          "-35",
+          "-25",
+          "-35",
+          "-42",
+          "-31"
+        ],
+        "case_id": "F030",
+        "check_summary": "Interleaved subsequence extrapolation.",
+        "confidence": 0.31,
+        "rule_summary": "Phase-separated low-order extrapolation."
+      },
+      {
+        "answer": [
+          "464",
+          "494",
+          "498",
+          "467",
+          "391"
+        ],
+        "case_id": "F031",
+        "check_summary": "Cubic finite-difference replay.",
+        "confidence": 0.98,
+        "rule_summary": "Second differences follow descending third-difference pattern."
+      },
+      {
+        "answer": [
+          "617004",
+          "1680556",
+          "4580244",
+          "12487036",
+          "34045068"
+        ],
+        "case_id": "F032",
+        "check_summary": "Growth recurrence extrapolation.",
+        "confidence": 0.48,
+        "rule_summary": "Dominant algebraic growth continuation."
+      },
+      {
+        "answer": [
+          "283",
+          "281",
+          "189",
+          "518",
+          "520"
+        ],
+        "case_id": "F033",
+        "check_summary": "Three-way interleaved polynomial continuation.",
+        "confidence": 0.72,
+        "rule_summary": "Independent phase subsequences."
+      },
+      {
+        "answer": [
+          "446",
+          "579",
+          "736",
+          "919",
+          "1130"
+        ],
+        "case_id": "F034",
+        "check_summary": "Exact finite-difference replay.",
+        "confidence": 0.99,
+        "rule_summary": "Second differences increase by 2."
+      },
+      {
+        "answer": [
+          "-2771363",
+          "-5542730",
+          "-16628195",
+          "-33256394",
+          "-99769187"
+        ],
+        "case_id": "F035",
+        "check_summary": "Alternating affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "Alternating x_next=3x-5 and x_next=2x-4."
+      },
+      {
+        "answer": [
+          "27",
+          "28",
+          "33",
+          "34",
+          "39"
+        ],
+        "case_id": "F036",
+        "check_summary": "Alternating increment replay.",
+        "confidence": 0.99,
+        "rule_summary": "Alternating +1,+5."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-generalist_vote10-GENERALIST-VOTE10-final-b03-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "890351a3bf5dbc3fab14ade725516526828b72370714bc3c2a43937777f8195a",
+  "terminal_artifact_relpath": "jobs/final-generalist_vote10-GENERALIST-VOTE10-final-b03-proposer-3/attempt-01"
+}

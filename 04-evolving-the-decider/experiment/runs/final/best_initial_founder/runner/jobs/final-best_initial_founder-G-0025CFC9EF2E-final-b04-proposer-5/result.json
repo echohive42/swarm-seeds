@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b04",
+    "results": [
+      {
+        "answer": [
+          "-3",
+          "-7",
+          "27",
+          "-7",
+          "-12"
+        ],
+        "case_id": "F037",
+        "check_summary": "Periodic signed-delta pattern inferred from the full prefix.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "8",
+          "11",
+          "14",
+          "17",
+          "7"
+        ],
+        "case_id": "F038",
+        "check_summary": "All ordinary increments are +3; every fourth exceptional increment decreases by successive odd amounts.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period 4"
+      },
+      {
+        "answer": [
+          "104",
+          "58",
+          "116",
+          "43",
+          "106"
+        ],
+        "case_id": "F039",
+        "check_summary": "Alternating phase streams with polynomial-like continuation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-29",
+          "-28",
+          "-32",
+          "-32",
+          "-35"
+        ],
+        "case_id": "F040",
+        "check_summary": "Successive differences alternate between increasing negative and decreasing positive arithmetic sequences.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic-difference streams"
+      },
+      {
+        "answer": [
+          "-58",
+          "37",
+          "-79",
+          "83",
+          "-106"
+        ],
+        "case_id": "F041",
+        "check_summary": "Alternating recurrence phases inferred from the irregular prefix.",
+        "confidence": 0.17,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-764",
+          "56",
+          "-1532",
+          "84",
+          "-3068"
+        ],
+        "case_id": "F042",
+        "check_summary": "Odd subsequence doubles with exponentially growing negative offset; even subsequence has arithmetic second differences.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two polynomial/affine streams"
+      },
+      {
+        "answer": [
+          "-15",
+          "194",
+          "-51",
+          "298",
+          "-6"
+        ],
+        "case_id": "F043",
+        "check_summary": "Three phase streams continued using polynomial phase increments.",
+        "confidence": 0.19,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "15",
+          "-64",
+          "-15",
+          "9",
+          "-85"
+        ],
+        "case_id": "F044",
+        "check_summary": "Three interleaved streams: first has quadratic differences, second has constant second difference, third has constant second difference.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of polynomial streams"
+      },
+      {
+        "answer": [
+          "56",
+          "92",
+          "58",
+          "127",
+          "76"
+        ],
+        "case_id": "F045",
+        "check_summary": "Three interleaved phase streams continued by fitted polynomial increments.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-15",
+          "39",
+          "18",
+          "52",
+          "27"
+        ],
+        "case_id": "F046",
+        "check_summary": "Phase-specific interleaved continuation inferred from recurring stream offsets.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-104",
+          "-141",
+          "-178",
+          "-215",
+          "-252"
+        ],
+        "case_id": "F047",
+        "check_summary": "Growing blocks of repeated negative steps, separated by increasing positive singleton jumps.",
+        "confidence": 0.96,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-5",
+          "35",
+          "20",
+          "-12",
+          "42"
+        ],
+        "case_id": "F048",
+        "check_summary": "Periodic multi-phase affine continuation inferred from the prefix.",
+        "confidence": 0.17,
+        "rule_summary": "MODAFFINE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-best_initial_founder-G-0025CFC9EF2E-final-b04-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "93e252d9d4d6a97ca901480526584a9a1eaea6d059c1ab2d8375234a8745c74f",
+  "terminal_artifact_relpath": "jobs/final-best_initial_founder-G-0025CFC9EF2E-final-b04-proposer-5/attempt-01"
+}

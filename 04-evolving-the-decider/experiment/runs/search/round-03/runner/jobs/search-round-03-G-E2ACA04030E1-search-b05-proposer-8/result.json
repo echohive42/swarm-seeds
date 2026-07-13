@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b05",
+    "results": [
+      {
+        "answer": [
+          "-1988",
+          "-2743",
+          "-3689",
+          "-4855",
+          "-6272"
+        ],
+        "case_id": "S049",
+        "check_summary": "Third differences continue with successive odd decrements.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial finite-difference continuation."
+      },
+      {
+        "answer": [
+          "97519",
+          "195057",
+          "390092",
+          "780199",
+          "1560377"
+        ],
+        "case_id": "S050",
+        "check_summary": "Affine biases repeat with period six.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic first-order affine recurrence."
+      },
+      {
+        "answer": [
+          "-10389",
+          "31174",
+          "-31173",
+          "93526",
+          "-93525"
+        ],
+        "case_id": "S051",
+        "check_summary": "Alternating affine phase updates replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "406",
+          "-458",
+          "513",
+          "-571",
+          "632"
+        ],
+        "case_id": "S052",
+        "check_summary": "Alternating differences have magnitudes whose increments rise by six.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial signed-difference continuation."
+      },
+      {
+        "answer": [
+          "-19",
+          "-27",
+          "-16",
+          "-22",
+          "-29"
+        ],
+        "case_id": "S053",
+        "check_summary": "Weak continuation inferred from interleaved low-degree streams.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-63",
+          "-77",
+          "-55",
+          "-70",
+          "-87"
+        ],
+        "case_id": "S054",
+        "check_summary": "Three lagged streams have arithmetic first differences.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-3720088",
+          "-11160262",
+          "-33480784",
+          "-100442350",
+          "-301327048"
+        ],
+        "case_id": "S055",
+        "check_summary": "Every step is three times the prior term plus two.",
+        "confidence": 0.99,
+        "rule_summary": "First-order affine recurrence."
+      },
+      {
+        "answer": [
+          "-10370",
+          "-19820",
+          "-37310",
+          "-68780",
+          "-123650"
+        ],
+        "case_id": "S056",
+        "check_summary": "Weak continuation inferred from accelerating phase-dependent updates.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic polynomial-delta recurrence."
+      },
+      {
+        "answer": [
+          "27996",
+          "-27993",
+          "83983",
+          "167964",
+          "-167961"
+        ],
+        "case_id": "S057",
+        "check_summary": "Three affine phase transformations repeat.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "59",
+          "63",
+          "68",
+          "72",
+          "77"
+        ],
+        "case_id": "S058",
+        "check_summary": "Increments alternate five and four.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta recurrence."
+      },
+      {
+        "answer": [
+          "53",
+          "121",
+          "208",
+          "316",
+          "447"
+        ],
+        "case_id": "S059",
+        "check_summary": "Second differences increase by two.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial finite-difference continuation."
+      },
+      {
+        "answer": [
+          "-1290",
+          "-2086",
+          "-3374",
+          "-5458",
+          "-8830"
+        ],
+        "case_id": "S060",
+        "check_summary": "Successive differences follow a Fibonacci-type two-step sum.",
+        "confidence": 0.99,
+        "rule_summary": "Second-order linear recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-E2ACA04030E1-search-b05-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "e59cffce5c8e2a8d4f63ae6368916344890143ce85bf08a4ede2e7c61741159b",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-E2ACA04030E1-search-b05-proposer-8/attempt-01"
+}

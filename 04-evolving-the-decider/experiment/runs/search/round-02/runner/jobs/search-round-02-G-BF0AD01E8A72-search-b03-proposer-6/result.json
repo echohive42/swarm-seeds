@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "321",
+          "-319",
+          "-1279",
+          "-1919",
+          "-1279"
+        ],
+        "case_id": "S025",
+        "check_summary": "4-phase affine replay fits all 12 terms.",
+        "confidence": 0.99,
+        "rule_summary": "Each phase follows x'=-4x+5."
+      },
+      {
+        "answer": [
+          "-48",
+          "-59",
+          "-64",
+          "-48",
+          "-67"
+        ],
+        "case_id": "S026",
+        "check_summary": "Candidate periodic-delta continuation; lower certainty.",
+        "confidence": 0.22,
+        "rule_summary": "Periodic phase-specific integer deltas."
+      },
+      {
+        "answer": [
+          "-13",
+          "-24",
+          "-35",
+          "-49",
+          "-63"
+        ],
+        "case_id": "S027",
+        "check_summary": "Difference pattern decreases by 3 every two steps.",
+        "confidence": 0.98,
+        "rule_summary": "Paired arithmetic differences: 10, then each pair drops by 3."
+      },
+      {
+        "answer": [
+          "-948",
+          "-1530",
+          "-2477",
+          "-4009",
+          "-6487"
+        ],
+        "case_id": "S028",
+        "check_summary": "Candidate lagged recurrence continuation; lower certainty.",
+        "confidence": 0.2,
+        "rule_summary": "Lagged Fibonacci-like growth with phase corrections."
+      },
+      {
+        "answer": [
+          "797159",
+          "2391482",
+          "7174451",
+          "21523358",
+          "64570079"
+        ],
+        "case_id": "S029",
+        "check_summary": "Affine recurrence exactly fits the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "x'=3x+5."
+      },
+      {
+        "answer": [
+          "-56",
+          "-60",
+          "-65",
+          "-69",
+          "-74"
+        ],
+        "case_id": "S030",
+        "check_summary": "Alternating differences repeat exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Differences alternate -5 and -4."
+      },
+      {
+        "answer": [
+          "1632",
+          "2118",
+          "2704",
+          "3390",
+          "4176"
+        ],
+        "case_id": "S031",
+        "check_summary": "Candidate polynomial/interleaved continuation; lower certainty.",
+        "confidence": 0.18,
+        "rule_summary": "Smooth higher-order finite-difference continuation."
+      },
+      {
+        "answer": [
+          "-140903",
+          "281810",
+          "-563615",
+          "1127234",
+          "-2254463"
+        ],
+        "case_id": "S032",
+        "check_summary": "Alternating affine replay fits all supplied terms.",
+        "confidence": 0.99,
+        "rule_summary": "Alternating updates x'=-2x+5 and x'=-2x+4."
+      },
+      {
+        "answer": [
+          "-13",
+          "-24",
+          "-35",
+          "-49",
+          "-63"
+        ],
+        "case_id": "S033",
+        "check_summary": "Candidate continuation from slowly varying negative differences.",
+        "confidence": 0.25,
+        "rule_summary": "Phase-specific polynomial decrement pattern."
+      },
+      {
+        "answer": [
+          "99759069",
+          "299277205",
+          "-897831611",
+          "-2693494827",
+          "8080484485"
+        ],
+        "case_id": "S034",
+        "check_summary": "4-phase affine replay fits the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Transition biases/multipliers repeat: -3x+4, 3x+6, 3x-2, -3x+4."
+      },
+      {
+        "answer": [
+          "1112",
+          "1814",
+          "2759",
+          "3994",
+          "5570"
+        ],
+        "case_id": "S035",
+        "check_summary": "Finite differences stabilize to constant fourth difference.",
+        "confidence": 0.9,
+        "rule_summary": "Polynomial continuation from the observed difference table."
+      },
+      {
+        "answer": [
+          "1025",
+          "1348",
+          "1735",
+          "2191",
+          "2721"
+        ],
+        "case_id": "S036",
+        "check_summary": "Second differences increase by 5 exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Quadratic difference pattern with second differences 49,54,59,64,69."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-BF0AD01E8A72-search-b03-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "c5dcc984142c6c577888bd0c820005e77290761b806b5929342dc09a8403b38f",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-BF0AD01E8A72-search-b03-proposer-6/attempt-01"
+}

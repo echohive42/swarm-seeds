@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "73",
+          "4",
+          "105"
+        ],
+        "case_id": "S013",
+        "check_summary": "Alternating streams: odd-position increments increase by 4; even stream is constant 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-1",
+          "30",
+          "-8",
+          "45",
+          "-17"
+        ],
+        "case_id": "S014",
+        "check_summary": "Best-effort continuation from apparent phase-interleaved structure.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "67",
+          "-25",
+          "77",
+          "-34",
+          "88"
+        ],
+        "case_id": "S015",
+        "check_summary": "Best-effort continuation from apparent phase-structured streams.",
+        "confidence": 0.08,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "39",
+          "-39",
+          "78",
+          "-65",
+          "117"
+        ],
+        "case_id": "S016",
+        "check_summary": "Best-effort continuation from apparent periodic phase structure.",
+        "confidence": 0.05,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd positions increase by 5; even positions decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-8",
+          "-5",
+          "-20",
+          "-8",
+          "-27"
+        ],
+        "case_id": "S018",
+        "check_summary": "Best-effort continuation from apparent phase-specific recurrence.",
+        "confidence": 0.05,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "47",
+          "87",
+          "63",
+          "91",
+          "76"
+        ],
+        "case_id": "S019",
+        "check_summary": "Best-effort continuation from apparent modular/phase-affine behavior.",
+        "confidence": 0.04,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-42",
+          "-20",
+          "58",
+          "-70",
+          "-2"
+        ],
+        "case_id": "S020",
+        "check_summary": "Best-effort continuation from apparent interleaved streams.",
+        "confidence": 0.04,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-54",
+          "-22",
+          "-70",
+          "-6",
+          "-86"
+        ],
+        "case_id": "S021",
+        "check_summary": "Best-effort continuation from apparent blockwise phase deltas.",
+        "confidence": 0.04,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-54",
+          "28",
+          "-79",
+          "34",
+          "-107"
+        ],
+        "case_id": "S022",
+        "check_summary": "Best-effort continuation from apparent phase-interleaved recurrence.",
+        "confidence": 0.04,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-39",
+          "-37",
+          "-35"
+        ],
+        "case_id": "S023",
+        "check_summary": "Differences are +2 except at triangular-number transitions, whose negative jumps increase by 2.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-44",
+          "-354",
+          "-60",
+          "-698",
+          "-78"
+        ],
+        "case_id": "S024",
+        "check_summary": "Best-effort continuation from apparent alternating nonlinear phase structure.",
+        "confidence": 0.03,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-2B08D2BA7D25-search-b02-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "da1468499057d303702d6ffb546f68d38859aa9becd31504efa8535be56497e6",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-2B08D2BA7D25-search-b02-proposer-5/attempt-01"
+}

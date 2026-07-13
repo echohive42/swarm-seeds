@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "8",
+          "-15",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "Periodic deltas with triangular-position negative resets and +5 otherwise.",
+        "confidence": 0.99,
+        "rule_summary": "Running value with +5 deltas interrupted at triangular phases by deltas decreasing by 5."
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "1280",
+          "88"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd stream has second differences +4; even stream multiplies by -2.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved quadratic odd stream and geometric even stream."
+      },
+      {
+        "answer": [
+          "23",
+          "-20",
+          "79",
+          "-5",
+          "104"
+        ],
+        "case_id": "S159",
+        "check_summary": "Candidate extrapolation from a periodic interleaved modular-affine pattern.",
+        "confidence": 0.32,
+        "rule_summary": "Periodic affine/modular interleave."
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd terms increase by 2; even terms increase by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-11",
+          "39",
+          "7",
+          "-11",
+          "53"
+        ],
+        "case_id": "S161",
+        "check_summary": "Three interleaved streams with polynomial increments replay the prefix.",
+        "confidence": 0.96,
+        "rule_summary": "Three-stream interleave; stream increments are arithmetic by phase."
+      },
+      {
+        "answer": [
+          "11",
+          "15",
+          "20",
+          "18",
+          "23"
+        ],
+        "case_id": "S162",
+        "check_summary": "Candidate extrapolation from three periodic phase streams.",
+        "confidence": 0.28,
+        "rule_summary": "Three-phase lagged polynomial update."
+      },
+      {
+        "answer": [
+          "5",
+          "-362",
+          "5",
+          "6",
+          "-730"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three streams: descending arithmetic, ascending arithmetic, and doubling negative differences.",
+        "confidence": 0.99,
+        "rule_summary": "Three-way interleave with polynomial/arithmetic streams."
+      },
+      {
+        "answer": [
+          "45",
+          "67",
+          "35",
+          "78",
+          "80"
+        ],
+        "case_id": "S164",
+        "check_summary": "Candidate extrapolation from a multi-phase interleaved sequence.",
+        "confidence": 0.25,
+        "rule_summary": "Periodic interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-4",
+          "-20",
+          "61",
+          "-35",
+          "-2"
+        ],
+        "case_id": "S165",
+        "check_summary": "Candidate extrapolation from phase-specific lagged updates.",
+        "confidence": 0.2,
+        "rule_summary": "Lagged polynomial/interleaved mechanism."
+      },
+      {
+        "answer": [
+          "135",
+          "11",
+          "174",
+          "165",
+          "2"
+        ],
+        "case_id": "S166",
+        "check_summary": "First stream alternates -21 and 19; second has increments rising by 9; third is phase-updated.",
+        "confidence": 0.5,
+        "rule_summary": "Three-way interleave with arithmetic phase rules."
+      },
+      {
+        "answer": [
+          "-48",
+          "-49",
+          "-58",
+          "-65",
+          "-82"
+        ],
+        "case_id": "S167",
+        "check_summary": "Candidate extrapolation from growing-block phase behavior.",
+        "confidence": 0.22,
+        "rule_summary": "Growing-block/interleaved update."
+      },
+      {
+        "answer": [
+          "-32",
+          "32",
+          "32",
+          "32",
+          "32"
+        ],
+        "case_id": "S168",
+        "check_summary": "Growing signed blocks with separator resets and increasing repeated positive blocks.",
+        "confidence": 0.9,
+        "rule_summary": "Growing-block sequence; next negative separator followed by a lengthening +32 block."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-1D2D57CCC696-search-b14-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "0cd50c6891b368897f9780682525f401f4b8297504f74ecc074d531ac54d2365",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-1D2D57CCC696-search-b14-proposer-6/attempt-01"
+}

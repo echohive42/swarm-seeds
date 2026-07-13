@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "-7",
+          "25",
+          "-9",
+          "28",
+          "-11"
+        ],
+        "case_id": "F018",
+        "check_summary": "Alternating arithmetic streams: odd terms decrease by 2; even terms increase by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "71",
+          "-12",
+          "95",
+          "15",
+          "127"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd-position increments are 2,6,10,14,18; even positions alternate -12 and 15.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of a quadratic stream and a period-2 stream."
+      },
+      {
+        "answer": [
+          "34",
+          "-5",
+          "29",
+          "53",
+          "-8"
+        ],
+        "case_id": "F021",
+        "check_summary": "Three residue streams show quadratic increments: odd-residue differences rise by 5, residue-0 by 2, and residue-2 fall by 4.",
+        "confidence": 0.95,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "16",
+          "21",
+          "16",
+          "6",
+          "11"
+        ],
+        "case_id": "F023",
+        "check_summary": "The sequence is organized into three residue streams with repeated quadratic-style phase increments.",
+        "confidence": 0.45,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "84",
+          "-103",
+          "-40",
+          "126",
+          "-145"
+        ],
+        "case_id": "F013",
+        "check_summary": "Bounded irregular values are consistent with a periodic modular affine mechanism.",
+        "confidence": 0.18,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "66",
+          "-5",
+          "-20",
+          "40",
+          "57"
+        ],
+        "case_id": "F014",
+        "check_summary": "Irregular alternating structure suggests phase-specific affine updates.",
+        "confidence": 0.16,
+        "rule_summary": "AFFINE with repeating phase."
+      },
+      {
+        "answer": [
+          "-4",
+          "-2",
+          "-10",
+          "-6",
+          "-16"
+        ],
+        "case_id": "F015",
+        "check_summary": "No simple single-stream progression; extrapolated by residue-class phase behavior.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE of polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-73",
+          "-95",
+          "-119",
+          "-147",
+          "-175"
+        ],
+        "case_id": "F016",
+        "check_summary": "Strong periodic-delta structure with increasingly negative continuation in the final phase.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA."
+      },
+      {
+        "answer": [
+          "38",
+          "117",
+          "-43",
+          "8",
+          "157"
+        ],
+        "case_id": "F017",
+        "check_summary": "Irregular multi-phase values suggest interleaved phase-specific streams.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "144",
+          "-122",
+          "214",
+          "-184",
+          "316"
+        ],
+        "case_id": "F020",
+        "check_summary": "Alternating large-magnitude values are consistent with phase-specific affine recurrences.",
+        "confidence": 0.14,
+        "rule_summary": "AFFINE with repeating phase."
+      },
+      {
+        "answer": [
+          "91",
+          "86",
+          "108",
+          "129",
+          "122"
+        ],
+        "case_id": "F022",
+        "check_summary": "Large alternating swings suggest a periodic affine or second-order recurrence.",
+        "confidence": 0.13,
+        "rule_summary": "LIN2 with periodic bias."
+      },
+      {
+        "answer": [
+          "83",
+          "32",
+          "44",
+          "98",
+          "101"
+        ],
+        "case_id": "F024",
+        "check_summary": "Multi-stream progression with phase-dependent polynomial increments.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b02-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "0f7ad1d0120c0069a823960c7a4b798bf8ec1e1585f88f4e4e6faf86b9aabe13",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b02-proposer-1/attempt-01"
+}

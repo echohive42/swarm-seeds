@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b01",
+    "results": [
+      {
+        "answer": [
+          "1401",
+          "2110",
+          "3076",
+          "4316",
+          "5851"
+        ],
+        "case_id": "F001",
+        "check_summary": "Cubic polynomial replay; constant fourth difference pattern.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-176",
+          "-180",
+          "-189",
+          "-191",
+          "-198"
+        ],
+        "case_id": "F002",
+        "check_summary": "Alternating arithmetic first differences replay the prefix.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-853138",
+          "-2559412",
+          "5118830",
+          "15356492",
+          "-30712978"
+        ],
+        "case_id": "F003",
+        "check_summary": "Alternating affine updates (-2x+6, 3x+2).",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "8254437",
+          "24763303",
+          "74289913",
+          "-148579824",
+          "445739487"
+        ],
+        "case_id": "F004",
+        "check_summary": "Four-phase affine recurrence replay.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-45",
+          "-47",
+          "-59",
+          "-60",
+          "-74"
+        ],
+        "case_id": "F005",
+        "check_summary": "Best-fit periodic interleaved increment continuation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-13",
+          "-18",
+          "-16",
+          "-19",
+          "-17"
+        ],
+        "case_id": "F006",
+        "check_summary": "Alternating decrement pattern.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "8",
+          "30",
+          "6",
+          "30",
+          "-2"
+        ],
+        "case_id": "F007",
+        "check_summary": "Best-fit interleaved stream continuation.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-25557",
+          "-37336",
+          "-53050",
+          "-73593",
+          "-99668"
+        ],
+        "case_id": "F008",
+        "check_summary": "Fifth-degree polynomial finite-difference replay.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "775",
+          "1205",
+          "1773",
+          "2504",
+          "3431"
+        ],
+        "case_id": "F009",
+        "check_summary": "Polynomial finite differences with linear third differences.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-115",
+          "-1123",
+          "-4483",
+          "-13423",
+          "-46003"
+        ],
+        "case_id": "F010",
+        "check_summary": "Best-fit phase-affine continuation.",
+        "confidence": 0.15,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-30037",
+          "60075",
+          "-120149",
+          "240299",
+          "-480597"
+        ],
+        "case_id": "F011",
+        "check_summary": "Exact recurrence x(n+1)=-2x(n)+1.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-2193",
+          "-4204",
+          "-10335",
+          "-17466",
+          "-39177"
+        ],
+        "case_id": "F012",
+        "check_summary": "Best-fit periodic polynomial/interleaved continuation.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-generalist_vote10-GENERALIST-VOTE10-final-b01-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "478036300da85a86af8930310323f6ca07096c13200599a338b92f706774a102",
+  "terminal_artifact_relpath": "jobs/final-generalist_vote10-GENERALIST-VOTE10-final-b01-proposer-6/attempt-01"
+}

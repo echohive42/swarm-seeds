@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "-15",
+          "-10",
+          "-5"
+        ],
+        "case_id": "S157",
+        "check_summary": "Periodic growing-block differences fit the prefix.",
+        "confidence": 0.8,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "82",
+          "-640",
+          "185",
+          "-1280",
+          "288"
+        ],
+        "case_id": "S158",
+        "check_summary": "Even subsequence follows multiplication by -2; odd subsequence extrapolated polynomially.",
+        "confidence": 0.58,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-20",
+          "-14",
+          "-2",
+          "24",
+          "66"
+        ],
+        "case_id": "S159",
+        "check_summary": "Extrapolated from alternating lagged subsequence behavior.",
+        "confidence": 0.18,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd and even positions are arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-12",
+          "8",
+          "-17",
+          "-1",
+          "35"
+        ],
+        "case_id": "S161",
+        "check_summary": "Extrapolated periodic interleaved subsequences.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "11",
+          "12",
+          "7",
+          "17",
+          "5"
+        ],
+        "case_id": "S162",
+        "check_summary": "Extrapolated periodic phase differences.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "5",
+          "-362",
+          "5",
+          "6",
+          "-730"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams: triangular decrement, integer increment, and doubling negative differences.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "39",
+          "72",
+          "36",
+          "89",
+          "31"
+        ],
+        "case_id": "S164",
+        "check_summary": "Extrapolated phase-specific interleaved progression.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-5",
+          "-4",
+          "-95",
+          "48",
+          "-7"
+        ],
+        "case_id": "S165",
+        "check_summary": "Extrapolated periodic lag structure.",
+        "confidence": 0.15,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "48",
+          "17",
+          "19",
+          "132",
+          "20"
+        ],
+        "case_id": "S166",
+        "check_summary": "Extrapolated six-phase interleaved streams.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-48",
+          "-57",
+          "-23",
+          "-65",
+          "37"
+        ],
+        "case_id": "S167",
+        "check_summary": "Extrapolated three-phase interleaved streams.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "98",
+          "122",
+          "98",
+          "146",
+          "122"
+        ],
+        "case_id": "S168",
+        "check_summary": "Extrapolated periodic interleaved streams from terminal arithmetic behavior.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-1FA44A1EE857-search-b14-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "a3cb18f163c5b19bc5451c2e50ca12ec7350b31a9c97c446f2080c7bb33b8a0e",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-1FA44A1EE857-search-b14-proposer-1/attempt-01"
+}

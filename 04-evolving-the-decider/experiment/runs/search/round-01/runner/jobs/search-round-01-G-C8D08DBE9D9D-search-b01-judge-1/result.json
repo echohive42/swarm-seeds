@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b01",
+    "results": [
+      {
+        "answer": [
+          "30",
+          "10",
+          "5",
+          "25",
+          "-1"
+        ],
+        "case_id": "S001",
+        "check_summary": "Periodic first differences replay the full prefix and continue consistently.",
+        "confidence": 0.98,
+        "rule_summary": "Phase-specific arithmetic difference progressions."
+      },
+      {
+        "answer": [
+          "2713",
+          "3755",
+          "5066",
+          "6688",
+          "8666"
+        ],
+        "case_id": "S002",
+        "check_summary": "Constant fourth differences support the quartic continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued quartic polynomial."
+      },
+      {
+        "answer": [
+          "-218",
+          "234",
+          "-255",
+          "271",
+          "-292"
+        ],
+        "case_id": "S003",
+        "check_summary": "Odd and even subsequences are arithmetic with increments -37 and +37.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-129",
+          "-203",
+          "-296",
+          "-410",
+          "-547"
+        ],
+        "case_id": "S004",
+        "check_summary": "Second differences continue as -15,-17,-19,-21,-23.",
+        "confidence": 1.0,
+        "rule_summary": "Cubic polynomial sequence."
+      },
+      {
+        "answer": [
+          "1106415",
+          "3319238",
+          "-6638481",
+          "-19915450",
+          "39830895"
+        ],
+        "case_id": "S005",
+        "check_summary": "Alternating updates x→-2x-5 and x→3x-7 replay the prefix exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-141",
+          "-190",
+          "-240",
+          "-291",
+          "-343"
+        ],
+        "case_id": "S006",
+        "check_summary": "Best-supported lagged polynomial continuation among the proposals.",
+        "confidence": 0.34,
+        "rule_summary": "Lagged polynomial subsequences."
+      },
+      {
+        "answer": [
+          "-13362",
+          "-15566",
+          "-25770",
+          "-39518",
+          "-57644"
+        ],
+        "case_id": "S007",
+        "check_summary": "Finite differences support a degree-five polynomial with fourth differences decreasing by 8.",
+        "confidence": 0.99,
+        "rule_summary": "Degree-five polynomial sequence."
+      },
+      {
+        "answer": [
+          "-797163",
+          "-2391486",
+          "-7174455",
+          "-21523362",
+          "-64570083"
+        ],
+        "case_id": "S008",
+        "check_summary": "Each term equals three times the prior term plus 3.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "-3096427",
+          "-8441434",
+          "-23014935",
+          "-62738804",
+          "-171068723"
+        ],
+        "case_id": "S009",
+        "check_summary": "This is the strongest available continuation under the apparent affine-growth pattern.",
+        "confidence": 0.2,
+        "rule_summary": "Affine or second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "17",
+          "21",
+          "19",
+          "23",
+          "21"
+        ],
+        "case_id": "S010",
+        "check_summary": "Odd and even subsequences each increase by 2.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-2236614",
+          "5394198",
+          "-13016120",
+          "31392870",
+          "-75728700"
+        ],
+        "case_id": "S011",
+        "check_summary": "Alternating-sign growth is consistent with the strongest proposed phase-dependent linear recurrence.",
+        "confidence": 0.2,
+        "rule_summary": "Phase-dependent second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "37771",
+          "113309",
+          "-113304",
+          "-226613",
+          "-679843"
+        ],
+        "case_id": "S012",
+        "check_summary": "Repeating affine phases 2x-5, 3x-4, and -x+5 replay the prefix exactly.",
+        "confidence": 1.0,
+        "rule_summary": "Period-3 affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-C8D08DBE9D9D-search-b01-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "a0d8d0dfee9904dfece8663014d58fcb2a7b490426e8e08323103dbb248e10eb",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-C8D08DBE9D9D-search-b01-judge-1/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "-425",
+          "-65",
+          "855",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Odd subsequence decreases by successive integers; even subsequence has alternating doubling differences.",
+        "confidence": 0.96,
+        "rule_summary": "Two interleaved streams."
+      },
+      {
+        "answer": [
+          "68",
+          "-11",
+          "83",
+          "-14",
+          "105"
+        ],
+        "case_id": "V038",
+        "check_summary": "No reliable full-prefix mechanism identified.",
+        "confidence": 0.12,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "83",
+          "-277",
+          "-190",
+          "-549",
+          "105"
+        ],
+        "case_id": "V039",
+        "check_summary": "Three interleaved streams show quadratic, doubling-difference, and polynomial-difference behavior.",
+        "confidence": 0.78,
+        "rule_summary": "Three interleaved streams."
+      },
+      {
+        "answer": [
+          "22",
+          "26",
+          "30",
+          "34",
+          "38"
+        ],
+        "case_id": "V040",
+        "check_summary": "Recent values support a repeating arithmetic continuation.",
+        "confidence": 0.22,
+        "rule_summary": "Likely periodic/interleaved arithmetic pattern."
+      },
+      {
+        "answer": [
+          "84",
+          "83",
+          "90",
+          "97",
+          "104"
+        ],
+        "case_id": "V041",
+        "check_summary": "No reliable full-prefix mechanism identified.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Odd positions increase by 2; even positions decrease by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two affine streams interleaved."
+      },
+      {
+        "answer": [
+          "-17",
+          "-19",
+          "-18",
+          "-21",
+          "-19"
+        ],
+        "case_id": "V043",
+        "check_summary": "No reliable full-prefix mechanism identified.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-72",
+          "-95",
+          "-118",
+          "-141",
+          "-164"
+        ],
+        "case_id": "V044",
+        "check_summary": "Final observed run decreases by 23 per term.",
+        "confidence": 0.35,
+        "rule_summary": "Local affine continuation."
+      },
+      {
+        "answer": [
+          "-6",
+          "14",
+          "-2",
+          "18",
+          "-10"
+        ],
+        "case_id": "V045",
+        "check_summary": "No reliable full-prefix mechanism identified.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-18",
+          "-50",
+          "-3",
+          "-63",
+          "-42"
+        ],
+        "case_id": "V046",
+        "check_summary": "No reliable full-prefix mechanism identified.",
+        "confidence": 0.07,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "18",
+          "-6",
+          "30",
+          "-2",
+          "42"
+        ],
+        "case_id": "V047",
+        "check_summary": "No reliable full-prefix mechanism identified.",
+        "confidence": 0.07,
+        "rule_summary": "Unresolved."
+      },
+      {
+        "answer": [
+          "-34",
+          "27",
+          "-32",
+          "33",
+          "-30"
+        ],
+        "case_id": "V048",
+        "check_summary": "No reliable full-prefix mechanism identified.",
+        "confidence": 0.1,
+        "rule_summary": "Unresolved."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b04-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "8abdbae6c2f5d9103887ee52b1b49d02ced558d32ef197c9a2a21324c7f2ba68",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b04-proposer-7/attempt-01"
+}

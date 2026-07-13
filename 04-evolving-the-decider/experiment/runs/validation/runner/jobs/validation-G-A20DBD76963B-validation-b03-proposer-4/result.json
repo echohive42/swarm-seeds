@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "4118667",
+          "-12356004",
+          "37068015",
+          "-111204042",
+          "333612129"
+        ],
+        "case_id": "V025",
+        "check_summary": "Matches a_n=-3a_(n-1)+3.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-2885",
+          "-4498",
+          "-6585",
+          "-9231",
+          "-12528"
+        ],
+        "case_id": "V026",
+        "check_summary": "Finite-difference continuation with stabilized fourth difference.",
+        "confidence": 0.78,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-1451",
+          "3010",
+          "-2825",
+          "5980",
+          "-4199"
+        ],
+        "case_id": "V027",
+        "check_summary": "Candidate periodic interleaving continuation.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "47318",
+          "-94674",
+          "189320",
+          "-378664",
+          "757338"
+        ],
+        "case_id": "V028",
+        "check_summary": "Alternating subsequences follow fourth-order affine growth with constant correction.",
+        "confidence": 0.97,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "11231",
+          "15655",
+          "20516",
+          "26058",
+          "32397"
+        ],
+        "case_id": "V029",
+        "check_summary": "Candidate polynomial-growth continuation from successive differences.",
+        "confidence": 0.2,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Alternating arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Repeating affine transitions 2x+1 and 3x+7.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802339",
+          "71604684",
+          "-214814049",
+          "429628104"
+        ],
+        "case_id": "V032",
+        "check_summary": "Repeating affine phase transitions.",
+        "confidence": 0.96,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "978",
+          "1596",
+          "2622",
+          "4305",
+          "7074"
+        ],
+        "case_id": "V033",
+        "check_summary": "Candidate alternating-stream continuation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-10",
+          "8",
+          "-12",
+          "17",
+          "-20"
+        ],
+        "case_id": "V034",
+        "check_summary": "Candidate interleaved stream continuation.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "35",
+          "48",
+          "27",
+          "58",
+          "39"
+        ],
+        "case_id": "V035",
+        "check_summary": "Candidate interleaved polynomial/affine continuation.",
+        "confidence": 0.17,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "815",
+          "1060",
+          "1351",
+          "1692",
+          "2087"
+        ],
+        "case_id": "V036",
+        "check_summary": "Second differences continue increasing by four.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-A20DBD76963B-validation-b03-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "6ea6e07ed289bdb6fc3f6aa8bbb8c77ff3adfa170cee239aa94aff064f7c615e",
+  "terminal_artifact_relpath": "jobs/validation-G-A20DBD76963B-validation-b03-proposer-4/attempt-01"
+}

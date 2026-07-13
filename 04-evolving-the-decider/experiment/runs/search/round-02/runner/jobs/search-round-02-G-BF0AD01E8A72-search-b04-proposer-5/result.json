@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-135",
+          "34",
+          "-180",
+          "41",
+          "-237"
+        ],
+        "case_id": "S037",
+        "check_summary": "Uncertain extrapolation from alternating irregular phase structure.",
+        "confidence": 0.12,
+        "rule_summary": "Likely periodic or modular phase update."
+      },
+      {
+        "answer": [
+          "126",
+          "128",
+          "133",
+          "135",
+          "142"
+        ],
+        "case_id": "S038",
+        "check_summary": "Low-confidence continuation of irregular interleaved streams.",
+        "confidence": 0.1,
+        "rule_summary": "Likely modular affine or interleaved mechanism."
+      },
+      {
+        "answer": [
+          "-1",
+          "31",
+          "-8",
+          "34",
+          "-15"
+        ],
+        "case_id": "S039",
+        "check_summary": "Low-confidence extrapolation from irregular differences.",
+        "confidence": 0.1,
+        "rule_summary": "Likely periodic modular update."
+      },
+      {
+        "answer": [
+          "105",
+          "43",
+          "67",
+          "85",
+          "126"
+        ],
+        "case_id": "S040",
+        "check_summary": "Low-confidence phase continuation.",
+        "confidence": 0.12,
+        "rule_summary": "Likely periodic polynomial-delta mechanism."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Alternating arithmetic streams replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-8",
+          "52",
+          "-17",
+          "39",
+          "-11"
+        ],
+        "case_id": "S042",
+        "check_summary": "Low-confidence irregular continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Likely modular affine mechanism."
+      },
+      {
+        "answer": [
+          "-14",
+          "22",
+          "-69",
+          "-30",
+          "-95"
+        ],
+        "case_id": "S043",
+        "check_summary": "Low-confidence periodic phase extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Likely periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-24",
+          "-20",
+          "-26",
+          "-30",
+          "-34"
+        ],
+        "case_id": "S044",
+        "check_summary": "Low-confidence continuation of negative-valued phase pattern.",
+        "confidence": 0.1,
+        "rule_summary": "Likely periodic affine or modular update."
+      },
+      {
+        "answer": [
+          "-16",
+          "92",
+          "-96",
+          "-4",
+          "-22"
+        ],
+        "case_id": "S045",
+        "check_summary": "Low-confidence irregular continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Likely modular affine mechanism."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-40",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S046",
+        "check_summary": "Differences are mostly -5 with periodic positive wrap corrections.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA with periodic correction increments."
+      },
+      {
+        "answer": [
+          "206",
+          "252",
+          "298",
+          "344",
+          "390"
+        ],
+        "case_id": "S047",
+        "check_summary": "Arithmetic growing-block continuation inferred from final block step progression.",
+        "confidence": 0.72,
+        "rule_summary": "GROWBLOCK with increasing block starts and steps."
+      },
+      {
+        "answer": [
+          "-11",
+          "12",
+          "-37",
+          "-10",
+          "-50"
+        ],
+        "case_id": "S048",
+        "check_summary": "Three phase streams fit quadratic increments, with constant second and fourth phases.",
+        "confidence": 0.78,
+        "rule_summary": "INTERLEAVE of phase-specific polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-BF0AD01E8A72-search-b04-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "6faafc4d619e98e23fb3abfd8b35798d191e6f4c1a04e34c4a86044dc5d3d348",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-BF0AD01E8A72-search-b04-proposer-5/attempt-01"
+}

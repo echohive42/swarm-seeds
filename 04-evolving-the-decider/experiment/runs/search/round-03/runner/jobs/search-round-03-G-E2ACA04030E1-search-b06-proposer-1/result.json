@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "-26",
+          "-6",
+          "-18",
+          "-42",
+          "-2"
+        ],
+        "case_id": "S061",
+        "check_summary": "No stable low-order replay identified from visible prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative periodic-delta extrapolation."
+      },
+      {
+        "answer": [
+          "-20",
+          "39",
+          "1",
+          "-11",
+          "27"
+        ],
+        "case_id": "S062",
+        "check_summary": "No stable low-order replay identified from visible prefix.",
+        "confidence": 0.04,
+        "rule_summary": "Tentative affine/interleaved extrapolation."
+      },
+      {
+        "answer": [
+          "-4",
+          "126",
+          "-32",
+          "151",
+          "-62"
+        ],
+        "case_id": "S063",
+        "check_summary": "No stable low-order replay identified from visible prefix.",
+        "confidence": 0.04,
+        "rule_summary": "Tentative phase-specific recurrence extrapolation."
+      },
+      {
+        "answer": [
+          "-154",
+          "-642",
+          "358",
+          "-1402",
+          "1070"
+        ],
+        "case_id": "S064",
+        "check_summary": "No stable low-order replay identified from visible prefix.",
+        "confidence": 0.03,
+        "rule_summary": "Tentative phase-specific affine extrapolation."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd and even subsequences replay exactly as arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams: odd terms decrement by 4; even terms increment by 2."
+      },
+      {
+        "answer": [
+          "-4",
+          "245",
+          "-5",
+          "489",
+          "-6"
+        ],
+        "case_id": "S066",
+        "check_summary": "No stable low-order replay identified from visible prefix.",
+        "confidence": 0.03,
+        "rule_summary": "Tentative interleaved recurrence extrapolation."
+      },
+      {
+        "answer": [
+          "-183",
+          "-118",
+          "-157",
+          "-196",
+          "-235"
+        ],
+        "case_id": "S067",
+        "check_summary": "Difference blocks replay with growing negative-block lengths and quadratic positive impulses.",
+        "confidence": 0.72,
+        "rule_summary": "Growing-block delta pattern; next impulse estimated at 65 and following negative block at -39."
+      },
+      {
+        "answer": [
+          "-43",
+          "36",
+          "12",
+          "-12",
+          "-36"
+        ],
+        "case_id": "S068",
+        "check_summary": "Repeated negative delta blocks and periodic positive impulses are visible.",
+        "confidence": 0.68,
+        "rule_summary": "Growing-block pattern with next negative delta -19 and next positive impulse estimated at 79."
+      },
+      {
+        "answer": [
+          "-20",
+          "7",
+          "-2",
+          "18",
+          "-5"
+        ],
+        "case_id": "S069",
+        "check_summary": "No stable low-order replay identified from visible prefix.",
+        "confidence": 0.04,
+        "rule_summary": "Tentative interleaved extrapolation."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "-3",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd subsequence is constant; even-subsequence differences decrease by successive multiples of 3.",
+        "confidence": 0.98,
+        "rule_summary": "Interleaved streams: odd terms constant at -3; even terms continue second-difference -3."
+      },
+      {
+        "answer": [
+          "-19",
+          "68",
+          "-42",
+          "101",
+          "-67"
+        ],
+        "case_id": "S071",
+        "check_summary": "No stable low-order replay identified from visible prefix.",
+        "confidence": 0.03,
+        "rule_summary": "Tentative phase-specific recurrence extrapolation."
+      },
+      {
+        "answer": [
+          "-29",
+          "-16",
+          "-20",
+          "-24",
+          "-28"
+        ],
+        "case_id": "S072",
+        "check_summary": "Baseline delta -4 with recurring positive impulses at growing block boundaries.",
+        "confidence": 0.74,
+        "rule_summary": "Growing-block delta pattern; next impulse estimated after the next five-position boundary."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-E2ACA04030E1-search-b06-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "80129ac62895e9558115c87d6ad64ac9f02b292130f36743c632ee56ec028d23",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-E2ACA04030E1-search-b06-proposer-1/attempt-01"
+}

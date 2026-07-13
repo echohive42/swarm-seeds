@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "-81",
+          "-103",
+          "-125",
+          "-147",
+          "-169"
+        ],
+        "case_id": "S133",
+        "check_summary": "Tail continuation with constant decrement.",
+        "confidence": 0.18,
+        "rule_summary": "Affine or periodic-delta tail."
+      },
+      {
+        "answer": [
+          "-8",
+          "-5",
+          "-22",
+          "-19",
+          "-16"
+        ],
+        "case_id": "S134",
+        "check_summary": "Periodic differences repeat additive jump pattern.",
+        "confidence": 0.9,
+        "rule_summary": "Three-phase polynomial deltas."
+      },
+      {
+        "answer": [
+          "-4",
+          "35",
+          "-363",
+          "-14",
+          "40"
+        ],
+        "case_id": "S135",
+        "check_summary": "Three interleaved streams extrapolated independently.",
+        "confidence": 0.94,
+        "rule_summary": "INTERLEAVE with arithmetic and doubling streams."
+      },
+      {
+        "answer": [
+          "-10",
+          "55",
+          "-3",
+          "-5",
+          "59"
+        ],
+        "case_id": "S136",
+        "check_summary": "Periodic interleaving extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-1020",
+          "16",
+          "-2044",
+          "30",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd stream doubles minus four; even stream has arithmetic increments.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of affine and polynomial streams."
+      },
+      {
+        "answer": [
+          "-73",
+          "6",
+          "14",
+          "-96",
+          "10"
+        ],
+        "case_id": "S138",
+        "check_summary": "Three phase streams extrapolated from polynomial increments.",
+        "confidence": 0.86,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial updates."
+      },
+      {
+        "answer": [
+          "-7",
+          "41",
+          "-4",
+          "-5",
+          "49"
+        ],
+        "case_id": "S139",
+        "check_summary": "Periodic stream continuation.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "28",
+          "45",
+          "28",
+          "-3",
+          "69"
+        ],
+        "case_id": "S140",
+        "check_summary": "Phase streams extrapolated from observed increment patterns.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE with polynomial streams."
+      },
+      {
+        "answer": [
+          "60",
+          "36",
+          "80",
+          "58",
+          "67"
+        ],
+        "case_id": "S141",
+        "check_summary": "Periodic interleaved continuation.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "70",
+          "19",
+          "3",
+          "89",
+          "30"
+        ],
+        "case_id": "S142",
+        "check_summary": "Phase-specific polynomial extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "4",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Odd terms decrease by two; even terms decrease by one.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-50",
+          "-62",
+          "-74",
+          "-86",
+          "-98"
+        ],
+        "case_id": "S144",
+        "check_summary": "Final arithmetic tail decreases by twelve.",
+        "confidence": 0.88,
+        "rule_summary": "Periodic-delta arithmetic tail."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-621D0989B1DE-search-b12-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "dd87b247e78c9ea6745fc682ca06ceb3b653c7d85d4a48a82882ec249286155f",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-621D0989B1DE-search-b12-proposer-3/attempt-01"
+}

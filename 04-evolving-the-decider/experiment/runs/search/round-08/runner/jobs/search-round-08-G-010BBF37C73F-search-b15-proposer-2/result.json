@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Four interleaved quadratic-difference streams; full prefix replay consistent.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE with four-position residue streams."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments 4,5 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine/additive pattern."
+      },
+      {
+        "answer": [
+          "-2774",
+          "-4818",
+          "-7750",
+          "-11806",
+          "-16462"
+        ],
+        "case_id": "S171",
+        "check_summary": "Finite-difference continuation with fifth difference -4.",
+        "confidence": 0.96,
+        "rule_summary": "POLY-like integer sequence via constant fifth difference."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Difference table continues with third differences decreasing by 1.",
+        "confidence": 0.97,
+        "rule_summary": "POLY with polynomial finite differences."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences increase successively by 1.",
+        "confidence": 0.99,
+        "rule_summary": "POLY finite-difference continuation."
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18815",
+          "-30443"
+        ],
+        "case_id": "S174",
+        "check_summary": "Period-3 second-order recurrence with biases -2,-2,3.",
+        "confidence": 0.94,
+        "rule_summary": "LIN2 with periodic bias."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97897621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating affine updates replay all transitions.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE with period-2 multipliers 3 and -2."
+      },
+      {
+        "answer": [
+          "71",
+          "50",
+          "55",
+          "66",
+          "68"
+        ],
+        "case_id": "S176",
+        "check_summary": "Four interleaved quadratic streams replay the prefix.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE with four residue streams."
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3436997"
+        ],
+        "case_id": "S177",
+        "check_summary": "Periodic affine transitions with multipliers ±2 and phase biases.",
+        "confidence": 0.9,
+        "rule_summary": "AFFINE with repeating phase-specific updates."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term doubles the preceding term.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE multiplier 2, bias 0."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "Prefix is an exact period-6 cycle.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA periodic sequence."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Two interleaved arithmetic difference progressions continue consistently.",
+        "confidence": 0.94,
+        "rule_summary": "INTERLEAVE of two polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-010BBF37C73F-search-b15-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "16023b371855566ac4a46f4f24c8644480d0197fdce798fe3aa8ad9c017025da",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-010BBF37C73F-search-b15-proposer-2/attempt-01"
+}

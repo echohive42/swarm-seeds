@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-49",
+          "-72",
+          "-95",
+          "-118",
+          "-141"
+        ],
+        "case_id": "V037",
+        "check_summary": "Insufficient evidence for a unique low-complexity continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic-delta extrapolation."
+      },
+      {
+        "answer": [
+          "66",
+          "85",
+          "104",
+          "38",
+          "57"
+        ],
+        "case_id": "V038",
+        "check_summary": "Observed positive runs suggest a periodic delta pattern, but phase behavior is uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative PDELTA continuation."
+      },
+      {
+        "answer": [
+          "-184",
+          "83",
+          "-237",
+          "102",
+          "-299"
+        ],
+        "case_id": "V039",
+        "check_summary": "No stable short mechanism was identified from the prefix.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative alternating-stream extrapolation."
+      },
+      {
+        "answer": [
+          "26",
+          "30",
+          "34",
+          "22",
+          "26"
+        ],
+        "case_id": "V040",
+        "check_summary": "Repeated increments of four with periodic downward corrections are evident.",
+        "confidence": 0.25,
+        "rule_summary": "Tentative periodic phase-delta rule."
+      },
+      {
+        "answer": [
+          "48",
+          "19",
+          "78",
+          "83",
+          "84"
+        ],
+        "case_id": "V041",
+        "check_summary": "Bounded irregular values suggest modular or phase-dependent affine behavior.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative MODAFFINE continuation."
+      },
+      {
+        "answer": [
+          "11",
+          "-12",
+          "13",
+          "-15",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Alternating bounded changes do not determine a reliable short rule.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative phase-dependent affine rule."
+      },
+      {
+        "answer": [
+          "-17",
+          "-67",
+          "-18",
+          "-84",
+          "-19"
+        ],
+        "case_id": "V043",
+        "check_summary": "Irregular alternating behavior leaves the continuation underdetermined.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative interleaved-stream continuation."
+      },
+      {
+        "answer": [
+          "-72",
+          "-95",
+          "-118",
+          "-141",
+          "-164"
+        ],
+        "case_id": "V044",
+        "check_summary": "The final arithmetic block has step negative twenty-three.",
+        "confidence": 0.2,
+        "rule_summary": "Tentative GROWBLOCK continuation."
+      },
+      {
+        "answer": [
+          "65",
+          "12",
+          "10",
+          "-14",
+          "37"
+        ],
+        "case_id": "V045",
+        "check_summary": "No unique short recurrence was established.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative modular phase rule."
+      },
+      {
+        "answer": [
+          "-45",
+          "-50",
+          "-56",
+          "-63",
+          "-71"
+        ],
+        "case_id": "V046",
+        "check_summary": "Bounded irregularity suggests a modular periodic recurrence, but parameters are unresolved.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative MODAFFINE continuation."
+      },
+      {
+        "answer": [
+          "18",
+          "22",
+          "14",
+          "26",
+          "10"
+        ],
+        "case_id": "V047",
+        "check_summary": "The prefix shows small oscillatory changes without a secure mechanism.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative interleaved affine continuation."
+      },
+      {
+        "answer": [
+          "-41",
+          "26",
+          "-46",
+          "31",
+          "-51"
+        ],
+        "case_id": "V048",
+        "check_summary": "Alternating streams are visible, but their next increments are uncertain.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative interleaved-stream continuation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b04-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "c665954c8b1a2498005cb7977f45655c08e3f4569b51d981604e6319ee9a31ad",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b04-proposer-2/attempt-01"
+}

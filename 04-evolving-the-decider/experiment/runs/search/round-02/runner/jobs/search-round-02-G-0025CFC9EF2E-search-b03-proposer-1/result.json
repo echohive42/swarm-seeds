@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b03",
+    "results": [
+      {
+        "answer": [
+          "-319",
+          "-1279",
+          "-1919",
+          "-1279",
+          "1281"
+        ],
+        "case_id": "S025",
+        "check_summary": "Matches a four-phase affine block recurrence across the full prefix.",
+        "confidence": 0.72,
+        "rule_summary": "Phase-specific affine recurrence with four-position block multiplier -4 and bias 5."
+      },
+      {
+        "answer": [
+          "-42",
+          "-59",
+          "-75",
+          "-90",
+          "-104"
+        ],
+        "case_id": "S026",
+        "check_summary": "Tentative extrapolation from recurring lagged difference structure.",
+        "confidence": 0.22,
+        "rule_summary": "Likely lagged phase-polynomial update."
+      },
+      {
+        "answer": [
+          "-13",
+          "-24",
+          "-38",
+          "-52",
+          "-66"
+        ],
+        "case_id": "S027",
+        "check_summary": "Successive differences occur in pairs and decrease by 3 every two positions.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial delta sequence."
+      },
+      {
+        "answer": [
+          "-942",
+          "-1510",
+          "-2414",
+          "-3862",
+          "-6174"
+        ],
+        "case_id": "S028",
+        "check_summary": "Tentative extrapolation of the apparent phase-dependent affine growth.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "797",
+          "2396",
+          "7193",
+          "21584",
+          "64757"
+        ],
+        "case_id": "S029",
+        "check_summary": "From the fourth term onward, each term equals three times the previous term plus 5.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence x(n+1)=3x(n)+5."
+      },
+      {
+        "answer": [
+          "-56",
+          "-60",
+          "-65",
+          "-69",
+          "-74"
+        ],
+        "case_id": "S030",
+        "check_summary": "Differences alternate -5 and -4 throughout the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic phase-specific constant deltas."
+      },
+      {
+        "answer": [
+          "2082",
+          "3714",
+          "5940",
+          "7902",
+          "6816"
+        ],
+        "case_id": "S031",
+        "check_summary": "Tentative extrapolation from a phase-polynomial delta pattern.",
+        "confidence": 0.18,
+        "rule_summary": "Likely periodic polynomial delta recurrence."
+      },
+      {
+        "answer": [
+          "-551",
+          "-1098",
+          "2201",
+          "4406",
+          "-8807"
+        ],
+        "case_id": "S032",
+        "check_summary": "Alternating affine updates exactly fit the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Odd transitions x->-2x+5; even transitions x->2x+4."
+      },
+      {
+        "answer": [
+          "-205",
+          "-240",
+          "-273",
+          "-313",
+          "-351"
+        ],
+        "case_id": "S033",
+        "check_summary": "Differences alternate between two arithmetic progressions.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic polynomial delta sequence."
+      },
+      {
+        "answer": [
+          "99759069",
+          "299277205",
+          "-897831611",
+          "-2693494833",
+          "-8080484501"
+        ],
+        "case_id": "S034",
+        "check_summary": "Six-phase affine recurrence fits the complete prefix and repeats.",
+        "confidence": 0.99,
+        "rule_summary": "Multipliers [-3,3,3,-3,3,3] with biases [4,6,-2,4,0,-2]."
+      },
+      {
+        "answer": [
+          "1051",
+          "1550",
+          "2221",
+          "3027",
+          "3929"
+        ],
+        "case_id": "S035",
+        "check_summary": "Tentative extrapolation from nonuniform polynomial-like differences.",
+        "confidence": 0.2,
+        "rule_summary": "Likely periodic polynomial delta mechanism."
+      },
+      {
+        "answer": [
+          "1022",
+          "1340",
+          "1717",
+          "2158",
+          "2668"
+        ],
+        "case_id": "S036",
+        "check_summary": "Second differences increase by 5 after the initial transient, yielding the continuation.",
+        "confidence": 0.94,
+        "rule_summary": "Polynomial delta recurrence with linearly increasing second differences."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-0025CFC9EF2E-search-b03-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "c938e26a258cd4774930492023aaf36a44c2560d5594d6aa1af44628dc397b05",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-0025CFC9EF2E-search-b03-proposer-1/attempt-01"
+}

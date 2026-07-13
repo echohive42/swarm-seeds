@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b07",
+    "results": [
+      {
+        "answer": [
+          "-6521",
+          "-8920",
+          "-11930",
+          "-15647",
+          "-20174"
+        ],
+        "case_id": "F073",
+        "check_summary": "Cubic finite-difference continuation from the stable tail.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "42324",
+          "-84652",
+          "169300",
+          "-338604",
+          "677204"
+        ],
+        "case_id": "F074",
+        "check_summary": "Every transition matches x'=-2x-4.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-12496396",
+          "34085776",
+          "-93001228",
+          "253867088",
+          "-693297836"
+        ],
+        "case_id": "F075",
+        "check_summary": "Exponential alternating continuation under a phase-varying affine pattern.",
+        "confidence": 0.35,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "6315975",
+          "-18947923",
+          "56843764",
+          "-170531286",
+          "511593860"
+        ],
+        "case_id": "F076",
+        "check_summary": "Tail repeats affine updates with multipliers -3 and phase biases 6,2,-5.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "2435448",
+          "-4870889",
+          "14612664",
+          "-29225321",
+          "87675960"
+        ],
+        "case_id": "F077",
+        "check_summary": "Alternating updates x'=-3x-3 and x'=2x+7.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-57",
+          "-70",
+          "-82",
+          "-101",
+          "-107"
+        ],
+        "case_id": "F078",
+        "check_summary": "Phase-interleaved continuation estimate.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-99",
+          "-259",
+          "-219",
+          "517",
+          "341"
+        ],
+        "case_id": "F079",
+        "check_summary": "Phase-interleaved affine continuation estimate.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-4598",
+          "-7424",
+          "-11536",
+          "-17372",
+          "-24866"
+        ],
+        "case_id": "F080",
+        "check_summary": "Polynomial-tail extrapolation estimate from higher finite differences.",
+        "confidence": 0.25,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-607",
+          "-835",
+          "-1110",
+          "-1436",
+          "-1817"
+        ],
+        "case_id": "F081",
+        "check_summary": "Stable cubic finite-difference tail continuation.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-516",
+          "-857",
+          "-1422",
+          "-2367",
+          "-3940"
+        ],
+        "case_id": "F082",
+        "check_summary": "Alternating-growth recurrence continuation estimate.",
+        "confidence": 0.25,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-23",
+          "-17",
+          "-47",
+          "-31",
+          "-95"
+        ],
+        "case_id": "F083",
+        "check_summary": "Periodic interleaved continuation estimate.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "9",
+          "7",
+          "12",
+          "10",
+          "15"
+        ],
+        "case_id": "F084",
+        "check_summary": "Odd and even subsequences each increase by 3.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-generalist_vote10-GENERALIST-VOTE10-final-b07-proposer-10",
+  "outcome": "valid_output",
+  "response_sha256": "1dbc2045b654ad8db92cae4ac86bd87e27e5661dbf52cd234cadb527a5e9fc67",
+  "terminal_artifact_relpath": "jobs/final-generalist_vote10-GENERALIST-VOTE10-final-b07-proposer-10/attempt-01"
+}

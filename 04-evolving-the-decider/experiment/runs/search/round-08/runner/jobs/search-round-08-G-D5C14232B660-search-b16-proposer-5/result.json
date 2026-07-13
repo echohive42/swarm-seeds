@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-27",
+          "-154",
+          "-51",
+          "-208",
+          "-75"
+        ],
+        "case_id": "S181",
+        "check_summary": "Tentative periodic affine extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Likely phase-dependent recurrence."
+      },
+      {
+        "answer": [
+          "29",
+          "-12",
+          "38",
+          "-1",
+          "47"
+        ],
+        "case_id": "S182",
+        "check_summary": "Tentative periodic extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Likely interleaved phase streams."
+      },
+      {
+        "answer": [
+          "15",
+          "-1",
+          "20",
+          "-6",
+          "25"
+        ],
+        "case_id": "S183",
+        "check_summary": "Tentative interleaved continuation.",
+        "confidence": 0.1,
+        "rule_summary": "Likely interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "1019",
+          "-14",
+          "-22",
+          "-2045",
+          "-14"
+        ],
+        "case_id": "S184",
+        "check_summary": "Strong sign-growth pattern in first phase stream; other phases uncertain.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "68",
+          "91",
+          "3",
+          "141",
+          "-2"
+        ],
+        "case_id": "S185",
+        "check_summary": "Phase streams show quadratic increments and constant residues.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved polynomial streams with period four."
+      },
+      {
+        "answer": [
+          "-4",
+          "61",
+          "-49",
+          "-31",
+          "89"
+        ],
+        "case_id": "S186",
+        "check_summary": "Tentative phase-dependent recurrence.",
+        "confidence": 0.08,
+        "rule_summary": "Likely periodic affine or interleaved streams."
+      },
+      {
+        "answer": [
+          "-106",
+          "22",
+          "-119",
+          "-148",
+          "29"
+        ],
+        "case_id": "S187",
+        "check_summary": "Tentative phase-stream continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Likely interleaved phase-specific recurrences."
+      },
+      {
+        "answer": [
+          "-88",
+          "-83",
+          "-138",
+          "-113",
+          "-188"
+        ],
+        "case_id": "S188",
+        "check_summary": "Even residue stream is arithmetic after the observed transition; odd stream uncertain.",
+        "confidence": 0.22,
+        "rule_summary": "Likely growing-block or interleaved arithmetic structure."
+      },
+      {
+        "answer": [
+          "-13",
+          "-9",
+          "-16",
+          "-13",
+          "-19"
+        ],
+        "case_id": "S189",
+        "check_summary": "Alternating differences follow a clear arithmetic pattern.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic first-order delta pattern."
+      },
+      {
+        "answer": [
+          "-6",
+          "52",
+          "-10",
+          "61",
+          "-14"
+        ],
+        "case_id": "S190",
+        "check_summary": "Tentative interleaved continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Likely phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "42",
+          "-5",
+          "67",
+          "-1",
+          "80"
+        ],
+        "case_id": "S191",
+        "check_summary": "Tentative phase-dependent continuation.",
+        "confidence": 0.07,
+        "rule_summary": "Likely interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "60",
+          "-50",
+          "172",
+          "-71",
+          "264"
+        ],
+        "case_id": "S192",
+        "check_summary": "Tentative second-order or phase-dependent recurrence.",
+        "confidence": 0.07,
+        "rule_summary": "Likely periodic linear recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-D5C14232B660-search-b16-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "87f27a5a19d13aadbca7159129077c049a972a54ad862f20d34a9527e2589cd3",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-D5C14232B660-search-b16-proposer-5/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "15",
+          "26",
+          "29",
+          "32"
+        ],
+        "case_id": "S085",
+        "check_summary": "Periodic phase-delta extrapolation; prefix replay consistent.",
+        "confidence": 0.22,
+        "rule_summary": "PDELTA with phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "35",
+          "8",
+          "56",
+          "49",
+          "14"
+        ],
+        "case_id": "S086",
+        "check_summary": "Tentative periodic affine/modular continuation.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE with repeating phase parameters."
+      },
+      {
+        "answer": [
+          "-44",
+          "-55",
+          "-66",
+          "-26",
+          "-37"
+        ],
+        "case_id": "S087",
+        "check_summary": "Blockwise delta pattern extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "GROWBLOCK/PDELTA hybrid pattern."
+      },
+      {
+        "answer": [
+          "15",
+          "30",
+          "14",
+          "35",
+          "13"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd subsequence rises by 5; even subsequence falls by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-13",
+          "105",
+          "-51",
+          "177",
+          "-95"
+        ],
+        "case_id": "S089",
+        "check_summary": "Tentative second-order/phase recurrence continuation.",
+        "confidence": 0.07,
+        "rule_summary": "LIN2 with phase-varying bias."
+      },
+      {
+        "answer": [
+          "13",
+          "11",
+          "17",
+          "6",
+          "19"
+        ],
+        "case_id": "S090",
+        "check_summary": "Tentative interleaved affine continuation.",
+        "confidence": 0.07,
+        "rule_summary": "INTERLEAVE of short polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-324",
+          "145",
+          "-557",
+          "258",
+          "-946"
+        ],
+        "case_id": "S091",
+        "check_summary": "Tentative second-order recurrence extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "LIN2 with phase-specific bias."
+      },
+      {
+        "answer": [
+          "5",
+          "-19",
+          "0",
+          "-33",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Residue-class subsequences fit constant/linear rules.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE of four lagged polynomial streams."
+      },
+      {
+        "answer": [
+          "-30",
+          "51",
+          "-41",
+          "62",
+          "-52"
+        ],
+        "case_id": "S093",
+        "check_summary": "Tentative alternating-stream continuation.",
+        "confidence": 0.06,
+        "rule_summary": "INTERLEAVE with polynomial stream updates."
+      },
+      {
+        "answer": [
+          "85",
+          "80",
+          "94",
+          "78",
+          "83"
+        ],
+        "case_id": "S094",
+        "check_summary": "Tentative periodic modular affine continuation.",
+        "confidence": 0.06,
+        "rule_summary": "MODAFFINE with phase repetition."
+      },
+      {
+        "answer": [
+          "-17",
+          "-33",
+          "-49",
+          "-65",
+          "-81"
+        ],
+        "case_id": "S095",
+        "check_summary": "Phase deltas after the observed block structure extrapolate linearly.",
+        "confidence": 0.31,
+        "rule_summary": "PDELTA with phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-2",
+          "164",
+          "-8",
+          "239",
+          "-14"
+        ],
+        "case_id": "S096",
+        "check_summary": "Tentative phase-interleaved recurrence continuation.",
+        "confidence": 0.05,
+        "rule_summary": "INTERLEAVE/LIN2 continuation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-E2CB7ED71793-search-b08-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "c73dc294b147a71a3549f9a3d0680200eb52bffd9226b4161ecb28a1fb4cacd1",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-E2CB7ED71793-search-b08-proposer-1/attempt-01"
+}

@@ -1,0 +1,14 @@
+{
+  "adapter": "experiment/scripts/generate_benchmark.py",
+  "adapter_sha256": "3ac81d7947123e54002f9e527faf81f1fa41cb2e621fbe918625d802fd7bf8ce",
+  "arithmetic": "Python arbitrary-precision integers",
+  "benchmark_id": "ruleweave-5-decider-v1",
+  "block_schema_version": "4.0",
+  "case_count": 360,
+  "experiment_id": "swarm-seeds-04",
+  "reuse_mode": "dynamic import; no RuleWeave grammar or recognizer source copied",
+  "root_seed": "swarm-seeds-04-evolving-the-decider-2026-07-13-a",
+  "root_seed_sha256": "3442de6cdbc347e5b3058d2fdb26ff795143d7ce96f4a707c195c3eaf9756f5c",
+  "ruleweave_generator": "../03-evolving-light-swarms/experiment/scripts/generate_benchmark.py",
+  "ruleweave_generator_sha256": "209f4b2049a22f50ee0a1e4f378864fbc8aca1b12205ee10714e41c80ac72209"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b08",
+    "results": [
+      {
+        "answer": [
+          "17",
+          "-24",
+          "18",
+          "-28",
+          "19"
+        ],
+        "case_id": "F085",
+        "check_summary": "Alternating arithmetic streams replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: odd positions increase by 1; even positions decrease by 4."
+      },
+      {
+        "answer": [
+          "47",
+          "49",
+          "19",
+          "56",
+          "51"
+        ],
+        "case_id": "F086",
+        "check_summary": "Candidate periodic affine continuation.",
+        "confidence": 0.22,
+        "rule_summary": "Periodic AFFINE fit."
+      },
+      {
+        "answer": [
+          "-2",
+          "-11",
+          "-20",
+          "-30",
+          "-40"
+        ],
+        "case_id": "F087",
+        "check_summary": "Growing arithmetic blocks with successive negative steps.",
+        "confidence": 0.94,
+        "rule_summary": "GROWBLOCK: next block continues step -9, followed by step -10."
+      },
+      {
+        "answer": [
+          "144",
+          "162",
+          "180",
+          "198",
+          "216"
+        ],
+        "case_id": "F088",
+        "check_summary": "Arithmetic continuation of the final visible block.",
+        "confidence": 0.38,
+        "rule_summary": "GROWBLOCK continuation with step +18."
+      },
+      {
+        "answer": [
+          "11",
+          "46",
+          "11",
+          "60",
+          "11"
+        ],
+        "case_id": "F089",
+        "check_summary": "Odd stream constant; even stream has quadratic increments.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: constant 11 stream and even subsequence with successive even increments."
+      },
+      {
+        "answer": [
+          "-29",
+          "-35",
+          "-49",
+          "-44",
+          "-52"
+        ],
+        "case_id": "F090",
+        "check_summary": "Candidate phase-specific recurrence continuation.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic LIN2 fit."
+      },
+      {
+        "answer": [
+          "15",
+          "40",
+          "-763",
+          "18",
+          "59"
+        ],
+        "case_id": "F091",
+        "check_summary": "Three interleaved streams replay the prefix.",
+        "confidence": 0.96,
+        "rule_summary": "INTERLEAVE: first stream doubles with offset; second is arithmetic; third has odd-step increments."
+      },
+      {
+        "answer": [
+          "-22",
+          "28",
+          "-18",
+          "-43",
+          "46"
+        ],
+        "case_id": "F092",
+        "check_summary": "Candidate modular periodic continuation.",
+        "confidence": 0.16,
+        "rule_summary": "MODAFFINE fit modulo a prime."
+      },
+      {
+        "answer": [
+          "33",
+          "21",
+          "26",
+          "31",
+          "36"
+        ],
+        "case_id": "F093",
+        "check_summary": "Growing arithmetic blocks with starts increasing by 3.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK: blocks use step +5 and lengths increase successively."
+      },
+      {
+        "answer": [
+          "64",
+          "58",
+          "50",
+          "68",
+          "48"
+        ],
+        "case_id": "F094",
+        "check_summary": "Candidate phase-specific affine continuation.",
+        "confidence": 0.17,
+        "rule_summary": "Periodic AFFINE fit."
+      },
+      {
+        "answer": [
+          "23",
+          "-66",
+          "-49",
+          "74",
+          "-117"
+        ],
+        "case_id": "F095",
+        "check_summary": "Candidate interleaved polynomial continuation.",
+        "confidence": 0.15,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-67",
+          "106",
+          "53",
+          "-123",
+          "159"
+        ],
+        "case_id": "F096",
+        "check_summary": "Three interleaved polynomial streams replay the prefix.",
+        "confidence": 0.93,
+        "rule_summary": "INTERLEAVE: three streams with increasing finite differences."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-best_initial_founder-G-0025CFC9EF2E-final-b08-proposer-9",
+  "outcome": "valid_output",
+  "response_sha256": "5054ec0f3b8aacb9e0448429b90a992e72077109b29fbe9f6c59f148703993c5",
+  "terminal_artifact_relpath": "jobs/final-best_initial_founder-G-0025CFC9EF2E-final-b08-proposer-9/attempt-01"
+}

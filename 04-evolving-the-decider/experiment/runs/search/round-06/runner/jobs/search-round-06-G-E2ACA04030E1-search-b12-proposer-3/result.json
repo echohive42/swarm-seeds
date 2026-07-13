@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "-81",
+          "-103",
+          "-125",
+          "-147",
+          "-169"
+        ],
+        "case_id": "S133",
+        "check_summary": "Tail follows a constant -22 progression after the phase transition.",
+        "confidence": 0.34,
+        "rule_summary": "Periodic phase update with an arithmetic tail."
+      },
+      {
+        "answer": [
+          "-8",
+          "-5",
+          "-2",
+          "1",
+          "-19"
+        ],
+        "case_id": "S134",
+        "check_summary": "Repeated +3 runs with periodically decreasing block starts.",
+        "confidence": 0.86,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "35",
+          "-363",
+          "40",
+          "-731",
+          "45"
+        ],
+        "case_id": "S135",
+        "check_summary": "Three interleaved streams: +5, affine doubling-minus-? stream, and decreasing even-step stream.",
+        "confidence": 0.98,
+        "rule_summary": "Three-stream interleave."
+      },
+      {
+        "answer": [
+          "-21",
+          "69",
+          "-69",
+          "-9",
+          "87"
+        ],
+        "case_id": "S136",
+        "check_summary": "Periodic interleaved polynomial-like streams extrapolated from residue classes.",
+        "confidence": 0.22,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-1020",
+          "16",
+          "-2044",
+          "30",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd stream follows x -> 2x-4; even stream has second differences +3.",
+        "confidence": 0.99,
+        "rule_summary": "Two-stream interleave with affine and polynomial streams."
+      },
+      {
+        "answer": [
+          "2",
+          "14",
+          "-73",
+          "8",
+          "34"
+        ],
+        "case_id": "S138",
+        "check_summary": "Three residue streams have polynomial increments; extrapolation gives the stated tuple.",
+        "confidence": 0.93,
+        "rule_summary": "Three-stream interleave."
+      },
+      {
+        "answer": [
+          "-7",
+          "14",
+          "-57",
+          "-4",
+          "-84"
+        ],
+        "case_id": "S139",
+        "check_summary": "Periodic residue-class extrapolation from the three observed streams.",
+        "confidence": 0.18,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "27",
+          "37",
+          "28",
+          "78",
+          "45"
+        ],
+        "case_id": "S140",
+        "check_summary": "Three interleaved streams; one alternates 28,-21, another has increasing arithmetic increments.",
+        "confidence": 0.88,
+        "rule_summary": "Three-stream interleave."
+      },
+      {
+        "answer": [
+          "74",
+          "79",
+          "89",
+          "67",
+          "99"
+        ],
+        "case_id": "S141",
+        "check_summary": "Periodic phase-specific polynomial extrapolation.",
+        "confidence": 0.16,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-13",
+          "14",
+          "3",
+          "-31",
+          "35"
+        ],
+        "case_id": "S142",
+        "check_summary": "Residue-class extrapolation using phase-specific polynomial increments.",
+        "confidence": 0.15,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "4",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Odd positions decrease by 2 and even positions decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Two affine streams interleaved."
+      },
+      {
+        "answer": [
+          "-50",
+          "-62",
+          "-74",
+          "-86",
+          "-98"
+        ],
+        "case_id": "S144",
+        "check_summary": "Observed tail enters a constant -12 arithmetic progression.",
+        "confidence": 0.71,
+        "rule_summary": "Periodic delta rule with arithmetic tail."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-E2ACA04030E1-search-b12-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "d3ba6dc923b931a37aebdb5385877d549e8536f3a8bcc3196229c3d3d8a68437",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-E2ACA04030E1-search-b12-proposer-3/attempt-01"
+}

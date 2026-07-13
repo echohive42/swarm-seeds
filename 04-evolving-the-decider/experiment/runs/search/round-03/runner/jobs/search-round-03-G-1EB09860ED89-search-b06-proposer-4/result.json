@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "-16",
+          "38",
+          "-7",
+          "41",
+          "-20"
+        ],
+        "case_id": "S061",
+        "check_summary": "Low-confidence periodic/interleaved extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Possible periodic modular or interleaved recurrence."
+      },
+      {
+        "answer": [
+          "-8",
+          "31",
+          "-18",
+          "63",
+          "-35"
+        ],
+        "case_id": "S062",
+        "check_summary": "Low-confidence extrapolation from irregular prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Possible phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "75",
+          "86",
+          "-2",
+          "83",
+          "116"
+        ],
+        "case_id": "S063",
+        "check_summary": "Low-confidence interleaved-stream extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Possible multiple interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-21",
+          "-156",
+          "-12",
+          "-312",
+          "-3"
+        ],
+        "case_id": "S064",
+        "check_summary": "Low-confidence phase recurrence extrapolation.",
+        "confidence": 0.09,
+        "rule_summary": "Possible periodic affine or lagged recurrence."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd and even subsequences are arithmetic.",
+        "confidence": 0.99,
+        "rule_summary": "Odd terms decrease by 4; even terms increase by 2."
+      },
+      {
+        "answer": [
+          "-6",
+          "201",
+          "-11",
+          "357",
+          "-16"
+        ],
+        "case_id": "S066",
+        "check_summary": "Low-confidence phase-specific extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Possible periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-168",
+          "-199",
+          "-230",
+          "-261",
+          "-196"
+        ],
+        "case_id": "S067",
+        "check_summary": "Low-confidence growing-block extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "Possible growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-43",
+          "-62",
+          "-81",
+          "-100",
+          "-119"
+        ],
+        "case_id": "S068",
+        "check_summary": "Recent suffix forms an arithmetic run with step -19.",
+        "confidence": 0.42,
+        "rule_summary": "Possible growing-block or phase-specific arithmetic rule."
+      },
+      {
+        "answer": [
+          "21",
+          "16",
+          "-21",
+          "21",
+          "21"
+        ],
+        "case_id": "S069",
+        "check_summary": "Three interleaved streams extrapolated by finite differences.",
+        "confidence": 0.58,
+        "rule_summary": "Three position-modulo-3 streams with polynomial increments."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "-3",
+          "-98",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd terms constant; even-term differences decrease by 3 each step.",
+        "confidence": 0.97,
+        "rule_summary": "Two interleaved streams: constant odd stream and quadratic even stream."
+      },
+      {
+        "answer": [
+          "-9",
+          "-11",
+          "-23",
+          "-20",
+          "-5"
+        ],
+        "case_id": "S071",
+        "check_summary": "Low-confidence interleaved-stream extrapolation.",
+        "confidence": 0.09,
+        "rule_summary": "Possible multiple interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-29",
+          "-20",
+          "-24",
+          "-28",
+          "-33"
+        ],
+        "case_id": "S072",
+        "check_summary": "Growing four-term arithmetic blocks inferred from suffix.",
+        "confidence": 0.46,
+        "rule_summary": "Four phase streams with recurring blockwise decrements."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-1EB09860ED89-search-b06-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "1b1f503bf4fb75e8bd93eee9ab73b929a9d1bafd9bd6ab0b7516541b2287d502",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-1EB09860ED89-search-b06-proposer-4/attempt-01"
+}

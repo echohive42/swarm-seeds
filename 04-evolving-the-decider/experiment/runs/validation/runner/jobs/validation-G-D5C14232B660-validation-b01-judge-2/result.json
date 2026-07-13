@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b01",
+    "results": [
+      {
+        "answer": [
+          "1288813",
+          "-2577635",
+          "-7732904",
+          "-15465809",
+          "30931609"
+        ],
+        "case_id": "V001",
+        "check_summary": "Three-phase affine updates reproduce the full prefix and determine the continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "2605",
+          "3828",
+          "5137",
+          "7368",
+          "10129"
+        ],
+        "case_id": "V002",
+        "check_summary": "Parity-separated lag-polynomial streams provide the strongest full-prefix fit.",
+        "confidence": 0.98,
+        "rule_summary": "Lagged polynomial updates by parity."
+      },
+      {
+        "answer": [
+          "43",
+          "47",
+          "50",
+          "54",
+          "57"
+        ],
+        "case_id": "V003",
+        "check_summary": "Alternating increments of 3 and 4 reproduce every transition.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic additive delta."
+      },
+      {
+        "answer": [
+          "-2590778",
+          "7772327",
+          "-23316977",
+          "69950924",
+          "-209852768"
+        ],
+        "case_id": "V004",
+        "check_summary": "Alternating affine updates x→-3x+4 and x→-3x-7 reproduce the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "1727182",
+          "-5181551",
+          "15544648",
+          "-46633949",
+          "139901842"
+        ],
+        "case_id": "V005",
+        "check_summary": "The constant update x→-3x-5 matches every observed transition.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "437",
+          "-2510",
+          "-1739",
+          "10034",
+          "6965"
+        ],
+        "case_id": "V006",
+        "check_summary": "Two interleaved affine streams reproduce the prefix with high confidence.",
+        "confidence": 0.98,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-112",
+          "-103",
+          "-128",
+          "-163",
+          "-151"
+        ],
+        "case_id": "V007",
+        "check_summary": "Three phase-specific arithmetic difference streams continue coherently.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial delta."
+      },
+      {
+        "answer": [
+          "-15063",
+          "-21095",
+          "-28990",
+          "-39163",
+          "-52088"
+        ],
+        "case_id": "V008",
+        "check_summary": "Constant fifth finite difference supports the polynomial continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Degree-five integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-566000",
+          "1368000",
+          "-3309000",
+          "8007000",
+          "-19370000"
+        ],
+        "case_id": "V009",
+        "check_summary": "Alternating high-growth continuation has the plurality among candidate fits.",
+        "confidence": 0.4,
+        "rule_summary": "Periodic affine or modular-affine continuation."
+      },
+      {
+        "answer": [
+          "-43",
+          "31",
+          "-28",
+          "54",
+          "-72"
+        ],
+        "case_id": "V010",
+        "check_summary": "The strongest coherent candidate is a phase-interleaved continuation.",
+        "confidence": 0.58,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "95",
+          "-159",
+          "252",
+          "-413",
+          "663"
+        ],
+        "case_id": "V011",
+        "check_summary": "First differences follow d_n=d_{n-2}-d_{n-1}, determining the continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Second-order recurrence on first differences."
+      },
+      {
+        "answer": [
+          "-805",
+          "-1035",
+          "-1304",
+          "-1615",
+          "-1971"
+        ],
+        "case_id": "V012",
+        "check_summary": "Cubic finite differences continue consistently across the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Cubic polynomial continuation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b01-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "7bf014055d8b339d33aef34cf03fc9db337116133224890ed9c5e709122e15f0",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b01-judge-2/attempt-01"
+}

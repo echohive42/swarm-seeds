@@ -1,0 +1,38 @@
+{
+  "artifact_type": "experiment-04-finalist-run-packet",
+  "population": [
+    {
+      "genes": {
+        "decision_system_id": "vote_10p",
+        "judge_policy_id": "plurality_preserving",
+        "worker_lens_ids": [
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist",
+          "generalist"
+        ]
+      },
+      "genome_id": "G-0025CFC9EF2E",
+      "genome_sha256": "0025cfc9ef2ee3d344d081e1e2ce7d21c34336b77eb3d442437a803b0db0e2af",
+      "lineage": {
+        "crossover_sources": null,
+        "designated_parent_slot": "S01",
+        "founder_id": "F01",
+        "mutation": null,
+        "operation": "founder",
+        "parents": [],
+        "round": 0
+      }
+    }
+  ],
+  "role": "best_initial_founder",
+  "schema_version": "4.0",
+  "source_champion_freeze": "champion-freeze.json",
+  "source_champion_freeze_sha256": "6e4fa5b1f59e837ab4b31c494be0465ec160e0a4192370b97de13130459f8233"
+}

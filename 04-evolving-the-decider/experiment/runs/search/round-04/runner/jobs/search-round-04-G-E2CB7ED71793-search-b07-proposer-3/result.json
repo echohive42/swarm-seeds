@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-33",
+          "-37",
+          "-40",
+          "-42",
+          "-46"
+        ],
+        "case_id": "S073",
+        "check_summary": "Periodic deltas repeat -4,-3,-2.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "9310",
+          "-15047",
+          "24357",
+          "-39404",
+          "63762"
+        ],
+        "case_id": "S074",
+        "check_summary": "Alternating rapidly growing recurrence extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "8",
+          "10",
+          "9",
+          "12",
+          "10"
+        ],
+        "case_id": "S075",
+        "check_summary": "Interleaved low-order streams extrapolated from alternating subsequences.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-14300",
+          "-20700",
+          "-28600",
+          "-38200",
+          "-49400"
+        ],
+        "case_id": "S076",
+        "check_summary": "Growing recurrence extrapolation from successive differences.",
+        "confidence": 0.12,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-4059",
+          "-9782",
+          "-23587",
+          "-56859",
+          "-137073"
+        ],
+        "case_id": "S077",
+        "check_summary": "Exponential recurrence extrapolation from late-prefix growth.",
+        "confidence": 0.16,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Verified affine update x_next=-3x+5.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "83",
+          "118",
+          "159",
+          "207",
+          "262"
+        ],
+        "case_id": "S079",
+        "check_summary": "Interleaved growing-block extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "408426",
+          "1225270",
+          "-3675812",
+          "3675804",
+          "11027404"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three phase-specific affine streams with multiplier 9.",
+        "confidence": 0.97,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-152370",
+          "-304742",
+          "609486",
+          "1218970",
+          "-2437938"
+        ],
+        "case_id": "S081",
+        "check_summary": "Verified alternating affine updates.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-388",
+          "-488",
+          "-609",
+          "-753",
+          "-922"
+        ],
+        "case_id": "S082",
+        "check_summary": "Running deltas are successive negative squares.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-2695",
+          "-3821",
+          "-5226",
+          "-6930",
+          "-8953"
+        ],
+        "case_id": "S083",
+        "check_summary": "Polynomial-growth extrapolation from finite differences.",
+        "confidence": 0.15,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "350779",
+          "-843883",
+          "2030104",
+          "-4881974",
+          "11731577"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating affine-growth extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "AFFINE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-E2CB7ED71793-search-b07-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "6ea6f14dcc25c9e671f42a3475aea40395a1a57fc446b0b63f4b27a4baf2e151",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-E2CB7ED71793-search-b07-proposer-3/attempt-01"
+}

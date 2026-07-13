@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b01",
+    "results": [
+      {
+        "answer": [
+          "1211",
+          "1537",
+          "1920",
+          "2366",
+          "2881"
+        ],
+        "case_id": "F001",
+        "check_summary": "Cubic first-difference pattern replays the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "POLY: constant fourth differences."
+      },
+      {
+        "answer": [
+          "-176",
+          "-180",
+          "-189",
+          "-191",
+          "-198"
+        ],
+        "case_id": "F002",
+        "check_summary": "Alternating arithmetic difference sequences match all transitions.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA: phase-specific linear deltas."
+      },
+      {
+        "answer": [
+          "-853138",
+          "-2559412",
+          "5118830",
+          "15356492",
+          "-30712978"
+        ],
+        "case_id": "F003",
+        "check_summary": "Alternating affine updates reproduce the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE: alternating updates -2x+6 and 3x+2."
+      },
+      {
+        "answer": [
+          "-8254424",
+          "-24763322",
+          "49526646",
+          "148579930",
+          "-297159858"
+        ],
+        "case_id": "F004",
+        "check_summary": "Three-phase affine cycle reproduces the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE: cycle 3x-8, 3x+4, -2x+2."
+      },
+      {
+        "answer": [
+          "-19",
+          "-40",
+          "-47",
+          "-18",
+          "-40"
+        ],
+        "case_id": "F005",
+        "check_summary": "Three interleaved streams show polynomial increment patterns.",
+        "confidence": 0.94,
+        "rule_summary": "INTERLEAVE: three phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "-19",
+          "-17",
+          "-20",
+          "-18",
+          "-21"
+        ],
+        "case_id": "F006",
+        "check_summary": "Odd and even subsequences each decrease by one.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: two affine streams."
+      },
+      {
+        "answer": [
+          "8",
+          "32",
+          "6",
+          "34",
+          "4"
+        ],
+        "case_id": "F007",
+        "check_summary": "Best fit is phase-interleaved arithmetic/polynomial streams.",
+        "confidence": 0.55,
+        "rule_summary": "INTERLEAVE: phase-specific low-degree streams."
+      },
+      {
+        "answer": [
+          "-23071",
+          "-31693",
+          "-43472",
+          "-59186",
+          "-79729"
+        ],
+        "case_id": "F008",
+        "check_summary": "Tail finite differences follow a quartic continuation.",
+        "confidence": 0.96,
+        "rule_summary": "POLY/GROWBLOCK: quartic finite-difference continuation."
+      },
+      {
+        "answer": [
+          "775",
+          "1184",
+          "1708",
+          "2370",
+          "3195"
+        ],
+        "case_id": "F009",
+        "check_summary": "Third differences increase by two, yielding the continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY: quadratic third-difference progression."
+      },
+      {
+        "answer": [
+          "385",
+          "-552",
+          "-2077",
+          "-3053",
+          "745"
+        ],
+        "case_id": "F010",
+        "check_summary": "Four interleaved quadratic streams fit the observed blocks.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE: four phase-specific quadratic streams."
+      },
+      {
+        "answer": [
+          "-30037",
+          "60075",
+          "-120149",
+          "240299",
+          "-480597"
+        ],
+        "case_id": "F011",
+        "check_summary": "Every transition follows x_next=-2x+1.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE: constant update -2x+1."
+      },
+      {
+        "answer": [
+          "-2860",
+          "-2250",
+          "-2372",
+          "-1057",
+          "-342"
+        ],
+        "case_id": "F012",
+        "check_summary": "Phase-interleaved recurrence continuation selected from the registered families.",
+        "confidence": 0.35,
+        "rule_summary": "LIN2/PDELTA: periodic phase-specific recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-best_initial_founder-G-0025CFC9EF2E-final-b01-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "fba7f43d47cc2dc778952628b30ca296945467abc49bd0a814a1a9a8ffbf47c2",
+  "terminal_artifact_relpath": "jobs/final-best_initial_founder-G-0025CFC9EF2E-final-b01-proposer-7/attempt-01"
+}

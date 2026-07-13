@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-41",
+          "-120",
+          "-45",
+          "-128",
+          "-49"
+        ],
+        "case_id": "S181",
+        "check_summary": "No stable low-complexity continuation identified.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic-delta extrapolation."
+      },
+      {
+        "answer": [
+          "-13",
+          "-62",
+          "-111",
+          "-160",
+          "-209"
+        ],
+        "case_id": "S182",
+        "check_summary": "Last differences admit a tentative arithmetic continuation.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative polynomial-difference extrapolation."
+      },
+      {
+        "answer": [
+          "12",
+          "-2",
+          "14",
+          "-4",
+          "16"
+        ],
+        "case_id": "S183",
+        "check_summary": "Alternating structure is suggested but not uniquely resolved.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative interleaved-stream continuation."
+      },
+      {
+        "answer": [
+          "-22",
+          "-14",
+          "-1019",
+          "-18",
+          "-30"
+        ],
+        "case_id": "S184",
+        "check_summary": "Large alternating excursions suggest phased recurrence, but parameters remain uncertain.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative phased affine/linear continuation."
+      },
+      {
+        "answer": [
+          "68",
+          "3",
+          "88",
+          "-2",
+          "111"
+        ],
+        "case_id": "S185",
+        "check_summary": "Odd subsequence increments are 5,8,11,14,17; even subsequence is constant 3,-2 alternating.",
+        "confidence": 0.98,
+        "rule_summary": "Two interleaved polynomial/constant streams."
+      },
+      {
+        "answer": [
+          "-31",
+          "12",
+          "45",
+          "-8",
+          "57"
+        ],
+        "case_id": "S186",
+        "check_summary": "No unique registered-family continuation was isolated.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative interleaved recurrence."
+      },
+      {
+        "answer": [
+          "30",
+          "26",
+          "-107",
+          "30",
+          "39"
+        ],
+        "case_id": "S187",
+        "check_summary": "One interleaved stream has differences -7,-14,-21,-28; another 6,5,4; the third -5,1,7.",
+        "confidence": 0.99,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-68",
+          "-36",
+          "-53",
+          "-70",
+          "-87"
+        ],
+        "case_id": "S188",
+        "check_summary": "Negative blocks have lengths 1,2,3,4 with steps -9,-11,-13,-15; next jump is tentatively +32.",
+        "confidence": 0.97,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-14",
+          "-21",
+          "-18",
+          "-24",
+          "-22"
+        ],
+        "case_id": "S189",
+        "check_summary": "Differences alternate as +10,-13,+9,-12,...,+5,-8, implying +4,-7,+3,-6,+2.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-4",
+          "-40",
+          "-44",
+          "-80",
+          "-84"
+        ],
+        "case_id": "S190",
+        "check_summary": "No stable low-complexity continuation identified.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative phased-difference extrapolation."
+      },
+      {
+        "answer": [
+          "20",
+          "-4",
+          "68",
+          "-19",
+          "84"
+        ],
+        "case_id": "S191",
+        "check_summary": "No unique registered-family continuation was isolated.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative interleaved continuation."
+      },
+      {
+        "answer": [
+          "-50",
+          "165",
+          "-63",
+          "236",
+          "-76"
+        ],
+        "case_id": "S192",
+        "check_summary": "Large alternating differences suggest a phased recurrence, but exact parameters are unresolved.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative phased recurrence extrapolation."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-A20DBD76963B-search-b16-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "6028c99a8b5e802a5ceaa2c2ddda91563c299f4031fe51a3ec9b897ca54f49f4",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-A20DBD76963B-search-b16-proposer-4/attempt-01"
+}

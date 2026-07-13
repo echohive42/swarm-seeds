@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-158",
+          "-56",
+          "-199",
+          "-88",
+          "-246"
+        ],
+        "case_id": "S181",
+        "check_summary": "No compact phase pattern identified confidently; extrapolation uncertain.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved periodic/affine candidate."
+      },
+      {
+        "answer": [
+          "-21",
+          "28",
+          "-34",
+          "41",
+          "-47"
+        ],
+        "case_id": "S182",
+        "check_summary": "No compact full-prefix rule identified confidently.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved interleaved or periodic-affine candidate."
+      },
+      {
+        "answer": [
+          "-11",
+          "15",
+          "5",
+          "23",
+          "-14"
+        ],
+        "case_id": "S183",
+        "check_summary": "Two residue streams show quadratic-like increments, but the remaining stream is unresolved.",
+        "confidence": 0.16,
+        "rule_summary": "Likely three-way interleave with phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "1027",
+          "-26",
+          "2047",
+          "-38",
+          "4067"
+        ],
+        "case_id": "S184",
+        "check_summary": "Large alternating excursions suggest periodic affine behavior; parameters remain uncertain.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved periodic affine or second-order recurrence."
+      },
+      {
+        "answer": [
+          "68",
+          "3",
+          "91",
+          "-2",
+          "117"
+        ],
+        "case_id": "S185",
+        "check_summary": "Odd-position stream has successive increments 5,8,11,14,17; even-position stream alternates 3,-2.",
+        "confidence": 0.93,
+        "rule_summary": "Two interleaved streams: quadratic odd stream and alternating even stream."
+      },
+      {
+        "answer": [
+          "-75",
+          "-11",
+          "71",
+          "-152",
+          "24"
+        ],
+        "case_id": "S186",
+        "check_summary": "Repeated local increments are visible, but the phase structure is not uniquely recovered manually.",
+        "confidence": 0.09,
+        "rule_summary": "Unresolved phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "30",
+          "28",
+          "-107",
+          "32",
+          "47"
+        ],
+        "case_id": "S187",
+        "check_summary": "Modulo-three streams: first has differences -7,-14,-21,-28; second differences 6,5,4; third differences -5,1,7.",
+        "confidence": 0.96,
+        "rule_summary": "Three-way interleave with polynomial streams."
+      },
+      {
+        "answer": [
+          "-68",
+          "-83",
+          "-53",
+          "-98",
+          "-68"
+        ],
+        "case_id": "S188",
+        "check_summary": "No compact full-prefix explanation identified confidently.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-26",
+          "-22",
+          "-29",
+          "-26",
+          "-32"
+        ],
+        "case_id": "S189",
+        "check_summary": "Odd positions decrease by 3; even positions decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "39",
+          "83",
+          "-86",
+          "18",
+          "181"
+        ],
+        "case_id": "S190",
+        "check_summary": "Applied cubic extrapolation independently to the three residue classes modulo 3.",
+        "confidence": 0.24,
+        "rule_summary": "Three-way interleave with polynomial streams."
+      },
+      {
+        "answer": [
+          "62",
+          "58",
+          "64",
+          "76",
+          "81"
+        ],
+        "case_id": "S191",
+        "check_summary": "No compact full-prefix explanation identified confidently.",
+        "confidence": 0.08,
+        "rule_summary": "Unresolved interleaved or periodic recurrence."
+      },
+      {
+        "answer": [
+          "19",
+          "220",
+          "-46",
+          "26",
+          "444"
+        ],
+        "case_id": "S192",
+        "check_summary": "Modulo-three streams: one has successive differences -5,-6,-7,-8; one increases by 7; one doubles its differences 14,28,56.",
+        "confidence": 0.98,
+        "rule_summary": "Three-way interleave with polynomial/exponential-looking phase updates."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-D5C14232B660-search-b16-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "96af46107643ba9df53b26e06a52973712097e29ad94bf844ff2a793f8eb4178",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-D5C14232B660-search-b16-proposer-4/attempt-01"
+}

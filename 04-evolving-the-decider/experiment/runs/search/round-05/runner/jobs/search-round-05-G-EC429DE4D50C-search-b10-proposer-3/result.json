@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "-1",
+          "-2",
+          "-3",
+          "-4",
+          "-5"
+        ],
+        "case_id": "S109",
+        "check_summary": "Periodic bounded sequence; inferred continuation from repeating phase structure.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic phase recurrence"
+      },
+      {
+        "answer": [
+          "17",
+          "12",
+          "-9",
+          "-12",
+          "-18"
+        ],
+        "case_id": "S110",
+        "check_summary": "Affine/second-order periodic continuation inferred from alternating differences.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine recurrence"
+      },
+      {
+        "answer": [
+          "80",
+          "95",
+          "102",
+          "124",
+          "131"
+        ],
+        "case_id": "S111",
+        "check_summary": "Phase-specific increment pattern extrapolated from the prefix.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic polynomial deltas"
+      },
+      {
+        "answer": [
+          "-6",
+          "-7",
+          "47",
+          "-5",
+          "-5"
+        ],
+        "case_id": "S112",
+        "check_summary": "Repeated phase values and sparse rising branch extrapolated.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic phase recurrence"
+      },
+      {
+        "answer": [
+          "31",
+          "-8",
+          "62",
+          "56",
+          "-4"
+        ],
+        "case_id": "S113",
+        "check_summary": "Interleaved stream continuation inferred from alternating subsequences.",
+        "confidence": 0.08,
+        "rule_summary": "Interleaved polynomial streams"
+      },
+      {
+        "answer": [
+          "-25",
+          "-16",
+          "-1123",
+          "-15",
+          "-26"
+        ],
+        "case_id": "S114",
+        "check_summary": "Large alternating phase excursions extrapolated using periodic recurrence structure.",
+        "confidence": 0.07,
+        "rule_summary": "Periodic second-order recurrence"
+      },
+      {
+        "answer": [
+          "42",
+          "82",
+          "39",
+          "72",
+          "138"
+        ],
+        "case_id": "S115",
+        "check_summary": "Block and interleaved growth pattern extrapolated.",
+        "confidence": 0.09,
+        "rule_summary": "Growing arithmetic blocks"
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd positions decrease by one; even positions decrease by four.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams"
+      },
+      {
+        "answer": [
+          "40",
+          "8",
+          "68",
+          "30",
+          "11"
+        ],
+        "case_id": "S117",
+        "check_summary": "Interleaved phase growth extrapolated from prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Interleaved affine streams"
+      },
+      {
+        "answer": [
+          "13",
+          "8",
+          "3",
+          "-2",
+          "-7"
+        ],
+        "case_id": "S118",
+        "check_summary": "Growing descending blocks with successive starts increasing by three.",
+        "confidence": 0.94,
+        "rule_summary": "Growing arithmetic blocks"
+      },
+      {
+        "answer": [
+          "85",
+          "89",
+          "4",
+          "109",
+          "115"
+        ],
+        "case_id": "S119",
+        "check_summary": "Three phase streams extrapolated from observed increment patterns.",
+        "confidence": 0.11,
+        "rule_summary": "Lagged phase-polynomial streams"
+      },
+      {
+        "answer": [
+          "43",
+          "31",
+          "19",
+          "7",
+          "175"
+        ],
+        "case_id": "S120",
+        "check_summary": "Descending arithmetic blocks with increasing block starts inferred.",
+        "confidence": 0.22,
+        "rule_summary": "Growing arithmetic blocks"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-EC429DE4D50C-search-b10-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "b0f92da7ce4d12bb7ecca3f46080c6c89721deb17fed20ae8d033a141cb201ad",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-EC429DE4D50C-search-b10-proposer-3/attempt-01"
+}

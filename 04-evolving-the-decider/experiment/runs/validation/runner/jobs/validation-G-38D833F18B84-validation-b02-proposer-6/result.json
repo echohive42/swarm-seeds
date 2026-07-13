@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V016",
+        "check_summary": "Odd and even subsequences are arithmetic with step +4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V017",
+        "check_summary": "Odd subsequence has successive decrements 1,2,3,4,5; even subsequence doubles its negative decrement.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/geometric streams."
+      },
+      {
+        "answer": [
+          "71",
+          "-10",
+          "-12",
+          "-29",
+          "-23"
+        ],
+        "case_id": "V018",
+        "check_summary": "Three residue-class streams have constant second differences in the visible tails.",
+        "confidence": 0.9,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "20",
+          "-1",
+          "-2",
+          "-25",
+          "-1"
+        ],
+        "case_id": "V019",
+        "check_summary": "One residue-class stream decreases by 1; remaining streams are extrapolated from their visible phase patterns.",
+        "confidence": 0.45,
+        "rule_summary": "Interleaved phase-specific streams."
+      },
+      {
+        "answer": [
+          "-9",
+          "-11",
+          "-10",
+          "-12",
+          "-11"
+        ],
+        "case_id": "V014",
+        "check_summary": "Tail is consistent with alternating phase-specific decrements, predominantly -2 with periodic perturbations.",
+        "confidence": 0.38,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-106",
+          "16",
+          "161",
+          "-154",
+          "34"
+        ],
+        "case_id": "V022",
+        "check_summary": "Modulo-3 streams show arithmetic second-difference patterns: -8,-12,-18,-26; -6,-2,2,6; and doubling increments.",
+        "confidence": 0.98,
+        "rule_summary": "Three interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-98",
+          "-154",
+          "-127",
+          "-212",
+          "-40"
+        ],
+        "case_id": "V023",
+        "check_summary": "The first residue-class stream has a stable -29 tail; other streams are extrapolated from recent phase behavior.",
+        "confidence": 0.42,
+        "rule_summary": "Interleaved phase-specific streams."
+      },
+      {
+        "answer": [
+          "-1",
+          "-3",
+          "-2",
+          "-5",
+          "-3"
+        ],
+        "case_id": "V024",
+        "check_summary": "Alternating subsequences show low-order phase-specific variation; continuation follows the recent paired pattern.",
+        "confidence": 0.35,
+        "rule_summary": "Two interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-20",
+          "-15",
+          "-16",
+          "-25",
+          "-13"
+        ],
+        "case_id": "V015",
+        "check_summary": "Residue-class subsequences exhibit phase-specific oscillatory polynomial behavior.",
+        "confidence": 0.3,
+        "rule_summary": "Interleaved streams."
+      },
+      {
+        "answer": [
+          "11",
+          "-5",
+          "-7",
+          "-10",
+          "-2"
+        ],
+        "case_id": "V021",
+        "check_summary": "Sequence is consistent with multiple interleaved phase streams with nonlinear increments.",
+        "confidence": 0.25,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "42",
+          "20",
+          "-2",
+          "-10",
+          "-8"
+        ],
+        "case_id": "V020",
+        "check_summary": "Recent values support phase-specific affine/polynomial continuation.",
+        "confidence": 0.22,
+        "rule_summary": "Interleaved phase-specific streams."
+      },
+      {
+        "answer": [
+          "7",
+          "-5",
+          "-1",
+          "-10",
+          "-3"
+        ],
+        "case_id": "V013",
+        "check_summary": "Prefix is consistent with multiple phase-specific streams; continuation follows the latest visible phase deltas.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-38D833F18B84-validation-b02-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "458213f0349f4614fee464ec93a1785766671e7d7506798c7b2df0460e5a961a",
+  "terminal_artifact_relpath": "jobs/validation-G-38D833F18B84-validation-b02-proposer-6/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b11",
+    "results": [
+      {
+        "answer": [
+          "3454367",
+          "-10363099",
+          "31089299",
+          "-93267895",
+          "279803687"
+        ],
+        "case_id": "S121",
+        "check_summary": "Matches alternating affine update x'=-3x+2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "37",
+          "39",
+          "43",
+          "45",
+          "49"
+        ],
+        "case_id": "S122",
+        "check_summary": "Odd and even positions are arithmetic streams with step 6.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "146745",
+          "-440244",
+          "-880487",
+          "-1760967",
+          "5282892"
+        ],
+        "case_id": "S123",
+        "check_summary": "Matches a 3-phase affine cycle: 2x+1, 2x+7, -3x-9.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-49151",
+          "-98305",
+          "196609",
+          "393215",
+          "-786431"
+        ],
+        "case_id": "S124",
+        "check_summary": "Matches alternating updates -2x-1 and 2x-3.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "2547",
+          "3421",
+          "4502",
+          "5820",
+          "7407"
+        ],
+        "case_id": "S125",
+        "check_summary": "Finite differences match the polynomial continuation.",
+        "confidence": 0.96,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-19008",
+          "-27473",
+          "-38684",
+          "-53251",
+          "-71868"
+        ],
+        "case_id": "S126",
+        "check_summary": "Finite-difference continuation matches the full prefix.",
+        "confidence": 0.93,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-136",
+          "-183",
+          "-181",
+          "-235",
+          "-232"
+        ],
+        "case_id": "S127",
+        "check_summary": "Differences are interleaved arithmetic streams.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-162",
+          "-153",
+          "-151",
+          "-142",
+          "-140"
+        ],
+        "case_id": "S128",
+        "check_summary": "Differences are two interleaved arithmetic streams.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "861",
+          "1557",
+          "2684",
+          "4507",
+          "7457"
+        ],
+        "case_id": "S129",
+        "check_summary": "From the fifth difference onward, each difference is the sum of the prior two.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "1035",
+          "1274",
+          "1542",
+          "1842",
+          "2177"
+        ],
+        "case_id": "S130",
+        "check_summary": "Second differences increase by 3, giving polynomial continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "63",
+          "81",
+          "87",
+          "94",
+          "111"
+        ],
+        "case_id": "S131",
+        "check_summary": "Odd and even subsequences have alternating polynomial difference patterns.",
+        "confidence": 0.82,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "1698175",
+          "4099754",
+          "9897669",
+          "23795094",
+          "57387855"
+        ],
+        "case_id": "S132",
+        "check_summary": "Matches x_n=2x_(n-1)+x_(n-2) with repeating biases 2,-2,6.",
+        "confidence": 0.98,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-E2ACA04030E1-search-b11-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "5e3212e25b37343e3e45f872a07b5b6dce6f694d3fcfb75cb56ac22965bc1697",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-E2ACA04030E1-search-b11-proposer-3/attempt-01"
+}

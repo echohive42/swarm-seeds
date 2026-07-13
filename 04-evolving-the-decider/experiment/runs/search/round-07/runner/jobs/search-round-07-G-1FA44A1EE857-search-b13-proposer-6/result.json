@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-436",
+          "-482",
+          "-536",
+          "-597",
+          "-652"
+        ],
+        "case_id": "S145",
+        "check_summary": "Period-3 difference blocks each decrease by 9.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial delta sequence."
+      },
+      {
+        "answer": [
+          "96",
+          "106",
+          "120",
+          "134",
+          "139"
+        ],
+        "case_id": "S146",
+        "check_summary": "Extrapolated phase-structured interleaved progression.",
+        "confidence": 0.35,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-10922",
+          "21846",
+          "-43690",
+          "87382",
+          "-174762"
+        ],
+        "case_id": "S147",
+        "check_summary": "Every term satisfies x_n=-2x_(n-1)+2.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "169",
+          "206",
+          "235",
+          "278",
+          "311"
+        ],
+        "case_id": "S148",
+        "check_summary": "Alternating differences increase by 6 and 4.",
+        "confidence": 1.0,
+        "rule_summary": "Period-2 polynomial deltas."
+      },
+      {
+        "answer": [
+          "3560",
+          "4779",
+          "6288",
+          "8130",
+          "10355"
+        ],
+        "case_id": "S149",
+        "check_summary": "Finite differences yield linearly increasing third differences.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "-6",
+          "-4",
+          "-8",
+          "-6",
+          "-10"
+        ],
+        "case_id": "S150",
+        "check_summary": "Odd and even subsequences each decrease by 2.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-3920",
+          "-6348",
+          "-10274",
+          "-16629",
+          "-26909"
+        ],
+        "case_id": "S151",
+        "check_summary": "Second-order recurrence with alternating biases -6 and -7.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 periodic-bias recurrence."
+      },
+      {
+        "answer": [
+          "-13373",
+          "-18167",
+          "-24689",
+          "-33531",
+          "-45561"
+        ],
+        "case_id": "S152",
+        "check_summary": "Extrapolated accelerating second-order pattern.",
+        "confidence": 0.3,
+        "rule_summary": "Second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "-2613",
+          "-4231",
+          "-6849",
+          "-11085",
+          "-17939"
+        ],
+        "case_id": "S153",
+        "check_summary": "Every term satisfies x_n=x_(n-1)+x_(n-2)-5.",
+        "confidence": 1.0,
+        "rule_summary": "LIN2 constant-bias recurrence."
+      },
+      {
+        "answer": [
+          "-1239",
+          "-1593",
+          "-2009",
+          "-2492",
+          "-3047"
+        ],
+        "case_id": "S154",
+        "check_summary": "Second differences continue decreasing by 5.",
+        "confidence": 1.0,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "533635",
+          "-1067265",
+          "-2134529",
+          "4269051",
+          "-8538097"
+        ],
+        "case_id": "S155",
+        "check_summary": "Multiplier -2 with repeating additions -7,5,1.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "136538",
+          "273073",
+          "546148",
+          "1092293",
+          "2184584"
+        ],
+        "case_id": "S156",
+        "check_summary": "Multiplier 2 with alternating biases +2 and -3.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-1FA44A1EE857-search-b13-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "b79bd9362ba1d4ee41114a5e9a1d152fa8638666876184493101547c75426854",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-1FA44A1EE857-search-b13-proposer-6/attempt-01"
+}

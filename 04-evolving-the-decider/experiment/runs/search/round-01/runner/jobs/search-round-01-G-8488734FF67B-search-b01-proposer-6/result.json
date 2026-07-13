@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b01",
+    "results": [
+      {
+        "answer": [
+          "-152",
+          "203",
+          "-689",
+          "994",
+          "-1952"
+        ],
+        "case_id": "S001",
+        "check_summary": "Matched a high-order interleaved polynomial extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "2713",
+          "3755",
+          "5066",
+          "6688",
+          "8666"
+        ],
+        "case_id": "S002",
+        "check_summary": "Fourth finite differences are constant at 3.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-218",
+          "234",
+          "-255",
+          "271",
+          "-292"
+        ],
+        "case_id": "S003",
+        "check_summary": "Odd and even subsequences advance by -37 and +37.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-129",
+          "-203",
+          "-296",
+          "-410",
+          "-547"
+        ],
+        "case_id": "S004",
+        "check_summary": "Finite-difference continuation has second differences decreasing by 2.",
+        "confidence": 0.96,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1106415",
+          "3319238",
+          "-6638481",
+          "19915424",
+          "-39830853"
+        ],
+        "case_id": "S005",
+        "check_summary": "Three-phase multiplicative pattern replayed.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-111",
+          "-139",
+          "-160",
+          "-202",
+          "-225"
+        ],
+        "case_id": "S006",
+        "check_summary": "Tentative periodic polynomial-delta continuation.",
+        "confidence": 0.12,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-11650",
+          "-15912",
+          "-20780",
+          "-26374",
+          "-32880"
+        ],
+        "case_id": "S007",
+        "check_summary": "Tentative growing-block extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-797169",
+          "-2391510",
+          "-7174533",
+          "-21523602",
+          "-64570809"
+        ],
+        "case_id": "S008",
+        "check_summary": "Each term equals three times the previous term minus 3.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3097915",
+          "-8441470",
+          "-23022665",
+          "-62789070",
+          "-171316285"
+        ],
+        "case_id": "S009",
+        "check_summary": "Tentative affine extrapolation from dominant ratio.",
+        "confidence": 0.16,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "17",
+          "21",
+          "19",
+          "23",
+          "21"
+        ],
+        "case_id": "S010",
+        "check_summary": "Alternating arithmetic streams each increase by 2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "2230877",
+          "129234",
+          "13302891",
+          "771439",
+          "79367795"
+        ],
+        "case_id": "S011",
+        "check_summary": "Tentative phase-affine continuation.",
+        "confidence": 0.13,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "37771",
+          "113309",
+          "-113304",
+          "-226613",
+          "679859"
+        ],
+        "case_id": "S012",
+        "check_summary": "Three phase streams use multiplier -6 with phase biases 11, 24, and 13.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-8488734FF67B-search-b01-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "ad6f76c44c885fa1c19616576e136b4e25225e11fb5c4592124ccc14cc4bfca6",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-8488734FF67B-search-b01-proposer-6/attempt-01"
+}

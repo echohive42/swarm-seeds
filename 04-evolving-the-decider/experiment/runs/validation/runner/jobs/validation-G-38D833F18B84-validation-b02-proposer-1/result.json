@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b02",
+    "results": [
+      {
+        "answer": [
+          "3",
+          "-5",
+          "-21",
+          "-24",
+          "-30"
+        ],
+        "case_id": "V013",
+        "check_summary": "Replay suggests repeating triplet-scaled deltas after the visible prefix.",
+        "confidence": 0.36,
+        "rule_summary": "PDELTA with phase-specific geometric-looking deltas."
+      },
+      {
+        "answer": [
+          "-12",
+          "-14",
+          "-13",
+          "-15",
+          "-17"
+        ],
+        "case_id": "V014",
+        "check_summary": "Tail is dominated by alternating small negative changes.",
+        "confidence": 0.18,
+        "rule_summary": "Likely low-degree periodic PDELTA."
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V015",
+        "check_summary": "Visible values do not determine a reliable simple continuation manually.",
+        "confidence": 0.08,
+        "rule_summary": "Likely modular or interleaved recurrence."
+      },
+      {
+        "answer": [
+          "-24",
+          "14",
+          "-28",
+          "18",
+          "-32"
+        ],
+        "case_id": "V016",
+        "check_summary": "Even and odd subsequences are exact arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams: -4n and 4n-10."
+      },
+      {
+        "answer": [
+          "-22",
+          "-197",
+          "-29",
+          "-389",
+          "-37"
+        ],
+        "case_id": "V017",
+        "check_summary": "Even-position stream has successive doubling negative differences; odd-position stream has successive integer increments.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two polynomial/exponential-looking lag streams."
+      },
+      {
+        "answer": [
+          "-18",
+          "65",
+          "-12",
+          "83",
+          "-6"
+        ],
+        "case_id": "V018",
+        "check_summary": "Continuation inferred from apparent phase cycling, but replay is incomplete.",
+        "confidence": 0.12,
+        "rule_summary": "Likely periodic interleaved affine or modular recurrence."
+      },
+      {
+        "answer": [
+          "-5",
+          "25",
+          "-25",
+          "-10",
+          "30"
+        ],
+        "case_id": "V019",
+        "check_summary": "Several phase patterns are compatible with the prefix; extrapolation is uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "Likely INTERLEAVE or MODAFFINE."
+      },
+      {
+        "answer": [
+          "36",
+          "-5",
+          "17",
+          "-13",
+          "44"
+        ],
+        "case_id": "V020",
+        "check_summary": "No stable low-order difference pattern was isolated from the prefix.",
+        "confidence": 0.07,
+        "rule_summary": "Likely modular periodic recurrence."
+      },
+      {
+        "answer": [
+          "-43",
+          "-8",
+          "-60",
+          "-11",
+          "-77"
+        ],
+        "case_id": "V021",
+        "check_summary": "Continuation guessed from alternating phase behavior.",
+        "confidence": 0.08,
+        "rule_summary": "Likely periodic affine or interleaved recurrence."
+      },
+      {
+        "answer": [
+          "-8",
+          "121",
+          "-86",
+          "-12",
+          "161"
+        ],
+        "case_id": "V022",
+        "check_summary": "Values suggest modular phase-dependent behavior; exact modulus and phase were not recovered.",
+        "confidence": 0.06,
+        "rule_summary": "Likely MODAFFINE."
+      },
+      {
+        "answer": [
+          "-127",
+          "-11",
+          "-160",
+          "-40",
+          "-197"
+        ],
+        "case_id": "V023",
+        "check_summary": "Tail differences suggest a growing negative phase, but the full mechanism remains ambiguous.",
+        "confidence": 0.1,
+        "rule_summary": "Likely interleaved polynomial or periodic-delta process."
+      },
+      {
+        "answer": [
+          "-6",
+          "-8",
+          "-3",
+          "-11",
+          "-1"
+        ],
+        "case_id": "V024",
+        "check_summary": "No unique simple continuation was established from visible differences.",
+        "confidence": 0.07,
+        "rule_summary": "Likely periodic PDELTA or interleaved affine."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-38D833F18B84-validation-b02-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "04fc77946f7e5ebadae1026fc8d951fa93a2ceebcbc0867450998c2fff626d80",
+  "terminal_artifact_relpath": "jobs/validation-G-38D833F18B84-validation-b02-proposer-1/attempt-01"
+}

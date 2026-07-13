@@ -1,0 +1,3124 @@
+{
+  "analysis": {
+    "actual_model_attempts": 2604,
+    "artifacts": {
+      "experiment/results/analysis.json": "6b727d318bf5ebb6061131663c7c0e767381fdb7bdeb42acec703c2b54b59470",
+      "experiment/results/analysis.md": "dec7e95fdaddf44c686f3fd036def5a53e6be21e476a961bdba59fb6b57b0da9",
+      "images/decision-system-evolution.svg": "25e024c50c9e3cc5db306e34cde1b8b616408d9eaf661eb0f781379ef9bbcef9",
+      "images/eight-round-trajectory.svg": "019d0554601926e6f659c6b989585aa0970a7885fde82aa1aea140c119767bcc",
+      "images/final-exact-accuracy.svg": "61374cb88bf943453aedb24df61e823b68273ebce0587140b7bd64087290fdad"
+    },
+    "byte_check": {
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "validated 2 reports and 3 deterministic SVG charts"
+    },
+    "clarified_accounting_keys_present": true,
+    "operations_registered_call_identities": 2600,
+    "registered_logical_call_identities": 2600,
+    "source_errors": [],
+    "source_receipts": 44,
+    "verified": true
+  },
+  "benchmark": {
+    "case_counts": {
+      "final": 96,
+      "search": 192,
+      "validation": 72
+    },
+    "manifest_sha256": "20fa3633add9e79d07bfd6ca14c152ac6b3e1a120f0fe235d4b41aa62760c652",
+    "overlap": {
+      "by_reference": {
+        "ruleweave-5-evolution-v1": {
+          "generator_programs": 0,
+          "next_five_targets": 0,
+          "visible_prefixes": 0
+        },
+        "ruleweave-5-v1": {
+          "generator_programs": 0,
+          "next_five_targets": 0,
+          "visible_prefixes": 0
+        }
+      },
+      "internal_duplicates": {
+        "generator_programs": 0,
+        "next_five_targets": 0,
+        "visible_prefixes": 0
+      },
+      "total": {
+        "generator_programs": 0,
+        "next_five_targets": 0,
+        "visible_prefixes": 0
+      }
+    },
+    "verified": true
+  },
+  "checks": [
+    {
+      "detail": {
+        "audit_output_present_at_scan_start": true,
+        "bytes": 171420932,
+        "files": 13245,
+        "missing": [],
+        "outside_seed": [],
+        "scope": "Git-visible tracked plus intended-untracked files under the seed, via git ls-files --cached --others --exclude-standard"
+      },
+      "name": "release.surface_enumeration",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "excluded_files_present_locally": {
+          "python_cache": 11,
+          "run_locks": 13,
+          "transport_process_diagnostics": 10416
+        },
+        "git_visible_exclusion_violations": [],
+        "missing_ignore_categories": [],
+        "required_ignore_categories": {
+          "preflight_runs": "runs/preflight",
+          "python_bytecode": "*.py[cod]",
+          "python_cache": "__pycache__",
+          "run_locks": ".run.lock",
+          "smoke_runs": "runs/smoke",
+          "transport_events": "events.jsonl",
+          "transport_process": "process.json",
+          "transport_result": "transport_result.json",
+          "transport_stderr": "stderr.txt"
+        },
+        "sanitized_command_json_is_release_intended": true
+      },
+      "name": "release.excluded_transport_and_process_artifacts",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "files_checked": 68,
+        "malformed_entries": [],
+        "mismatches": [],
+        "path_escapes": []
+      },
+      "name": "freeze.declared_file_hashes",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "declared_file_count": 68,
+        "expected_file_count": 68,
+        "experiment": "swarm-seeds-04",
+        "hash_algorithm": "sha256",
+        "mapping_file_count": 68,
+        "schema_version": "1.0"
+      },
+      "name": "freeze.metadata",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "mismatches": {},
+        "verified": {
+          "experiment_03_generator": "209f4b2049a22f50ee0a1e4f378864fbc8aca1b12205ee10714e41c80ac72209",
+          "experiment_03_runner": "aa1ca21a0c7f6914ffbad7ea05eefdd506ceb9acdbc5fff86068809f414a98b1",
+          "experiment_03_scorer": "cb7c1639be3ea158a5c2ecbc6e8e79119198bc9748a769f46a714b6ec6a79f3b"
+        }
+      },
+      "name": "freeze.repository_local_dependencies",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "files_checked": 50,
+        "mismatches": []
+      },
+      "name": "benchmark.frozen_checksums",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "block_errors": [],
+        "blocks": {
+          "final": 8,
+          "search": 16,
+          "validation": 6
+        },
+        "splits": {
+          "final": 96,
+          "search": 192,
+          "validation": 72
+        }
+      },
+      "name": "benchmark.registered_shape",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "cross_experiment": {
+          "ruleweave-5-evolution-v1": {
+            "generator_programs": 0,
+            "next_five_targets": 0,
+            "visible_prefixes": 0
+          },
+          "ruleweave-5-v1": {
+            "generator_programs": 0,
+            "next_five_targets": 0,
+            "visible_prefixes": 0
+          }
+        },
+        "declared_report_matches_recomputation": true,
+        "internal_duplicates": {
+          "generator_programs": 0,
+          "next_five_targets": 0,
+          "visible_prefixes": 0
+        },
+        "total": {
+          "generator_programs": 0,
+          "next_five_targets": 0,
+          "visible_prefixes": 0
+        }
+      },
+      "name": "benchmark.zero_overlap",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "catalog_sha256": "7e0f6abb1774aaf904353195b2b24cc5572db50261b5e6329dd11f8e74fcae4a",
+        "mismatches": {}
+      },
+      "name": "evolution.catalog",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "candidate_files": [
+          "round-01-candidates.json",
+          "round-02-candidates.json",
+          "round-03-candidates.json",
+          "round-04-candidates.json",
+          "round-05-candidates.json",
+          "round-06-candidates.json",
+          "round-07-candidates.json",
+          "round-08-candidates.json"
+        ],
+        "final_round_completed": 8,
+        "survivor_files": [
+          "round-01-survivors.json",
+          "round-02-survivors.json",
+          "round-03-survivors.json",
+          "round-04-survivors.json",
+          "round-05-survivors.json",
+          "round-06-survivors.json",
+          "round-07-survivors.json",
+          "round-08-survivors.json"
+        ]
+      },
+      "name": "evolution.exact_eight_rounds_no_early_stop",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "artifact_errors": [],
+        "reproduction_errors": [],
+        "rounds": [
+          {
+            "accepted_children": 2,
+            "candidates": 12,
+            "crossovers": 2,
+            "one_gene_mutations": 4,
+            "round": 1,
+            "search_blocks": [
+              "search-b01",
+              "search-b02"
+            ],
+            "survivors": 6
+          },
+          {
+            "accepted_children": 0,
+            "candidates": 12,
+            "crossovers": 2,
+            "one_gene_mutations": 4,
+            "round": 2,
+            "search_blocks": [
+              "search-b03",
+              "search-b04"
+            ],
+            "survivors": 6
+          },
+          {
+            "accepted_children": 3,
+            "candidates": 12,
+            "crossovers": 2,
+            "one_gene_mutations": 4,
+            "round": 3,
+            "search_blocks": [
+              "search-b05",
+              "search-b06"
+            ],
+            "survivors": 6
+          },
+          {
+            "accepted_children": 3,
+            "candidates": 12,
+            "crossovers": 2,
+            "one_gene_mutations": 4,
+            "round": 4,
+            "search_blocks": [
+              "search-b07",
+              "search-b08"
+            ],
+            "survivors": 6
+          },
+          {
+            "accepted_children": 3,
+            "candidates": 12,
+            "crossovers": 2,
+            "one_gene_mutations": 4,
+            "round": 5,
+            "search_blocks": [
+              "search-b09",
+              "search-b10"
+            ],
+            "survivors": 6
+          },
+          {
+            "accepted_children": 1,
+            "candidates": 12,
+            "crossovers": 2,
+            "one_gene_mutations": 4,
+            "round": 6,
+            "search_blocks": [
+              "search-b11",
+              "search-b12"
+            ],
+            "survivors": 6
+          },
+          {
+            "accepted_children": 3,
+            "candidates": 12,
+            "crossovers": 2,
+            "one_gene_mutations": 4,
+            "round": 7,
+            "search_blocks": [
+              "search-b13",
+              "search-b14"
+            ],
+            "survivors": 6
+          },
+          {
+            "accepted_children": 3,
+            "candidates": 12,
+            "crossovers": 2,
+            "one_gene_mutations": 4,
+            "round": 8,
+            "search_blocks": [
+              "search-b15",
+              "search-b16"
+            ],
+            "survivors": 6
+          }
+        ]
+      },
+      "name": "evolution.population_and_reproduction",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "errors": []
+      },
+      "name": "evolution.content_addressed_chain",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "founder_genome_id": "G-0025CFC9EF2E",
+        "freeze_status": "best_founder_frozen_after_round_1_before_validation_or_final_answers",
+        "verified": true
+      },
+      "name": "evolution.best_founder_frozen_after_round_one",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "aggregate_records": 288,
+        "attempt_statuses": {
+          "valid_output": 240
+        },
+        "attempts": 240,
+        "blocks": [
+          "search-b01",
+          "search-b02"
+        ],
+        "candidates": 12,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "cb1c41a35c5255bc8ee76fcc7fe33fcb0abf890b43b0af33d283fd6918f8c115",
+        "manifest_identities": 240,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-0025CFC9EF2E",
+          "G-1EB09860ED89",
+          "G-347400D8BFC6",
+          "G-F3EA0DB4CF72",
+          "G-26751CF6A6D4",
+          "G-077823BA6DD7",
+          "G-B339F5D2F343",
+          "G-3E12E3A43395",
+          "G-8488734FF67B",
+          "G-3CE5CD3B66B3",
+          "G-C8D08DBE9D9D",
+          "G-2B08D2BA7D25"
+        ],
+        "planned_identities": 240,
+        "prediction_records": 3168,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 240
+        },
+        "unique_identities": 240,
+        "verified": true
+      },
+      "name": "collection.search-round-01",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "aggregate_records": 288,
+        "attempt_statuses": {
+          "schema_invalid": 1,
+          "valid_output": 240
+        },
+        "attempts": 241,
+        "blocks": [
+          "search-b03",
+          "search-b04"
+        ],
+        "candidates": 12,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "25fb733daa9d573eb1b5b3eefb154346aa3c836199770d0b8fe985dbb66a37b8",
+        "manifest_identities": 240,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-0025CFC9EF2E",
+          "G-1EB09860ED89",
+          "G-347400D8BFC6",
+          "G-F3EA0DB4CF72",
+          "G-C8D08DBE9D9D",
+          "G-2B08D2BA7D25",
+          "G-69EC56E447B2",
+          "G-A5C4CF71B956",
+          "G-2D699BBC271A",
+          "G-A246735BF9C3",
+          "G-BF0AD01E8A72",
+          "G-AA614F215F9C"
+        ],
+        "planned_identities": 240,
+        "prediction_records": 3168,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [
+          "search-round-02-G-347400D8BFC6-search-b04-proposer-1"
+        ],
+        "retry_attempts": 1,
+        "terminal_outcomes": {
+          "valid_output": 240
+        },
+        "unique_identities": 240,
+        "verified": true
+      },
+      "name": "collection.search-round-02",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "aggregate_records": 288,
+        "attempt_statuses": {
+          "schema_invalid": 2,
+          "valid_output": 240
+        },
+        "attempts": 242,
+        "blocks": [
+          "search-b05",
+          "search-b06"
+        ],
+        "candidates": 12,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "2403ce5bb964c092584d812c3a69b7e0e1ed28ea7a542c5371d4f7a6e775d659",
+        "manifest_identities": 240,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-0025CFC9EF2E",
+          "G-1EB09860ED89",
+          "G-347400D8BFC6",
+          "G-F3EA0DB4CF72",
+          "G-C8D08DBE9D9D",
+          "G-2B08D2BA7D25",
+          "G-E2ACA04030E1",
+          "G-E662737BA253",
+          "G-A6E9C72FE029",
+          "G-7652548270F5",
+          "G-571E66D2D29B",
+          "G-E2CB7ED71793"
+        ],
+        "planned_identities": 240,
+        "prediction_records": 3168,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [
+          "search-round-03-G-7652548270F5-search-b05-proposer-7",
+          "search-round-03-G-A6E9C72FE029-search-b05-critic-2"
+        ],
+        "retry_attempts": 2,
+        "terminal_outcomes": {
+          "valid_output": 240
+        },
+        "unique_identities": 240,
+        "verified": true
+      },
+      "name": "collection.search-round-03",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "aggregate_records": 288,
+        "attempt_statuses": {
+          "valid_output": 240
+        },
+        "attempts": 240,
+        "blocks": [
+          "search-b07",
+          "search-b08"
+        ],
+        "candidates": 12,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "5286277c31b2519b4442e4fe41b68d4ca3913a038858b732a4ab63287cc00bd5",
+        "manifest_identities": 240,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-E2ACA04030E1",
+          "G-1EB09860ED89",
+          "G-347400D8BFC6",
+          "G-F3EA0DB4CF72",
+          "G-571E66D2D29B",
+          "G-E2CB7ED71793",
+          "G-512B4980C514",
+          "G-35DDA1DA8010",
+          "G-335AFD967606",
+          "G-38D833F18B84",
+          "G-1CB025718435",
+          "G-1FD52C1BC57B"
+        ],
+        "planned_identities": 240,
+        "prediction_records": 3168,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 240
+        },
+        "unique_identities": 240,
+        "verified": true
+      },
+      "name": "collection.search-round-04",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "aggregate_records": 288,
+        "attempt_statuses": {
+          "valid_output": 240
+        },
+        "attempts": 240,
+        "blocks": [
+          "search-b09",
+          "search-b10"
+        ],
+        "candidates": 12,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "260b03061760fc761c3cd77a717fe05a2e93f95f7dba71b353ba231ea97bc5a8",
+        "manifest_identities": 240,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-E2ACA04030E1",
+          "G-35DDA1DA8010",
+          "G-335AFD967606",
+          "G-38D833F18B84",
+          "G-571E66D2D29B",
+          "G-E2CB7ED71793",
+          "G-0130D900270E",
+          "G-EC429DE4D50C",
+          "G-3373FE74E208",
+          "G-26840FECDB83",
+          "G-1FA44A1EE857",
+          "G-9E41821F9E02"
+        ],
+        "planned_identities": 240,
+        "prediction_records": 3168,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 240
+        },
+        "unique_identities": 240,
+        "verified": true
+      },
+      "name": "collection.search-round-05",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "aggregate_records": 288,
+        "attempt_statuses": {
+          "valid_output": 240
+        },
+        "attempts": 240,
+        "blocks": [
+          "search-b11",
+          "search-b12"
+        ],
+        "candidates": 12,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "49b0d486f5996311b4628938255101695d0dd7ce2ca06c5a88a33d40b8635e10",
+        "manifest_identities": 240,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-E2ACA04030E1",
+          "G-EC429DE4D50C",
+          "G-3373FE74E208",
+          "G-38D833F18B84",
+          "G-1FA44A1EE857",
+          "G-E2CB7ED71793",
+          "G-EEE6DF66A16A",
+          "G-9EDD732A542F",
+          "G-43008A0ACA81",
+          "G-8A6A683A8E7A",
+          "G-621D0989B1DE",
+          "G-59263FEA2B37"
+        ],
+        "planned_identities": 240,
+        "prediction_records": 3168,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 240
+        },
+        "unique_identities": 240,
+        "verified": true
+      },
+      "name": "collection.search-round-06",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "aggregate_records": 288,
+        "attempt_statuses": {
+          "schema_invalid": 1,
+          "valid_output": 240
+        },
+        "attempts": 241,
+        "blocks": [
+          "search-b13",
+          "search-b14"
+        ],
+        "candidates": 12,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "58b3d171a65b2915feebd12869b6b3b3931024ed632e0f8e6b326810afec861c",
+        "manifest_identities": 240,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-EEE6DF66A16A",
+          "G-EC429DE4D50C",
+          "G-3373FE74E208",
+          "G-38D833F18B84",
+          "G-1FA44A1EE857",
+          "G-E2CB7ED71793",
+          "G-B6D67789C6A8",
+          "G-B6BC6FB624BA",
+          "G-A20DBD76963B",
+          "G-1D2D57CCC696",
+          "G-9BB9BF99170E",
+          "G-15900AE27B5A"
+        ],
+        "planned_identities": 240,
+        "prediction_records": 3168,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [
+          "search-round-07-G-E2CB7ED71793-search-b14-proposer-5"
+        ],
+        "retry_attempts": 1,
+        "terminal_outcomes": {
+          "valid_output": 240
+        },
+        "unique_identities": 240,
+        "verified": true
+      },
+      "name": "collection.search-round-07",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "aggregate_records": 288,
+        "attempt_statuses": {
+          "valid_output": 240
+        },
+        "attempts": 240,
+        "blocks": [
+          "search-b15",
+          "search-b16"
+        ],
+        "candidates": 12,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "c2c39bc4c24229dc5153470e44eac1c5d7cd86ce09e9cb3acc50fcf5cdc6953a",
+        "manifest_identities": 240,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-EEE6DF66A16A",
+          "G-B6BC6FB624BA",
+          "G-A20DBD76963B",
+          "G-38D833F18B84",
+          "G-9BB9BF99170E",
+          "G-E2CB7ED71793",
+          "G-D5C14232B660",
+          "G-2F6BAD401B84",
+          "G-010BBF37C73F",
+          "G-08984122C546",
+          "G-6BAC1D28F028",
+          "G-6F217370BF07"
+        ],
+        "planned_identities": 240,
+        "prediction_records": 3168,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 240
+        },
+        "unique_identities": 240,
+        "verified": true
+      },
+      "name": "collection.search-round-08",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "aggregate_records": 432,
+        "attempt_statuses": {
+          "valid_output": 360
+        },
+        "attempts": 360,
+        "blocks": [
+          "validation-b01",
+          "validation-b02",
+          "validation-b03",
+          "validation-b04",
+          "validation-b05",
+          "validation-b06"
+        ],
+        "candidates": 6,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "95e718c8bb8fe6435aff149bc3ddb6c3c3207d7c5e6a8196b9b6f61efe0877d9",
+        "manifest_identities": 360,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-D5C14232B660",
+          "G-2F6BAD401B84",
+          "G-A20DBD76963B",
+          "G-38D833F18B84",
+          "G-6BAC1D28F028",
+          "G-E2CB7ED71793"
+        ],
+        "planned_identities": 360,
+        "prediction_records": 4752,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 360
+        },
+        "unique_identities": 360,
+        "verified": true
+      },
+      "name": "collection.validation",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "aggregate_records": 96,
+        "attempt_statuses": {
+          "valid_output": 80
+        },
+        "attempts": 80,
+        "blocks": [
+          "final-b01",
+          "final-b02",
+          "final-b03",
+          "final-b04",
+          "final-b05",
+          "final-b06",
+          "final-b07",
+          "final-b08"
+        ],
+        "candidates": 1,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "07b3129f7b9d11c8b1d7506f660e5d7565dc7d20a80a2c9ef958080e3abec0ea",
+        "manifest_identities": 80,
+        "max_observed_concurrency": 56,
+        "methods": [
+          "G-A20DBD76963B"
+        ],
+        "planned_identities": 80,
+        "prediction_records": 1056,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 80
+        },
+        "unique_identities": 80,
+        "verified": true
+      },
+      "name": "collection.final-evolved-champion",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "aggregate_records": 96,
+        "attempt_statuses": {
+          "valid_output": 80
+        },
+        "attempts": 80,
+        "blocks": [
+          "final-b01",
+          "final-b02",
+          "final-b03",
+          "final-b04",
+          "final-b05",
+          "final-b06",
+          "final-b07",
+          "final-b08"
+        ],
+        "candidates": 1,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "2ba2ca9bd0fdfc3378a2a4b923501d228dbb3a7796ce35a9b17aae57d208a5ec",
+        "manifest_identities": 80,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-0025CFC9EF2E"
+        ],
+        "planned_identities": 80,
+        "prediction_records": 1056,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 80
+        },
+        "unique_identities": 80,
+        "verified": true
+      },
+      "name": "collection.final-best-initial-founder",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "aggregate_records": 96,
+        "attempt_statuses": {
+          "valid_output": 80
+        },
+        "attempts": 80,
+        "blocks": [
+          "final-b01",
+          "final-b02",
+          "final-b03",
+          "final-b04",
+          "final-b05",
+          "final-b06",
+          "final-b07",
+          "final-b08"
+        ],
+        "candidates": 1,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "0a16d4260b18566316669a3e0bd65caa70d4e7fb183f1a78d9fcf256e232cbdb",
+        "manifest_identities": 80,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "generalist_vote10"
+        ],
+        "planned_identities": 80,
+        "prediction_records": 1056,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 80
+        },
+        "unique_identities": 80,
+        "verified": true
+      },
+      "name": "collection.final-generalist-vote10",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "aggregate_records": 96,
+        "attempt_statuses": {
+          "valid_output": 80
+        },
+        "attempts": 80,
+        "blocks": [
+          "final-b01",
+          "final-b02",
+          "final-b03",
+          "final-b04",
+          "final-b05",
+          "final-b06",
+          "final-b07",
+          "final-b08"
+        ],
+        "candidates": 1,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "f6d9b51a7cccbb710885ebcb45a6885b5b0e48f5c246d3edf52959f2bb24af2b",
+        "manifest_identities": 80,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "diversified_vote10"
+        ],
+        "planned_identities": 80,
+        "prediction_records": 1056,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 80
+        },
+        "unique_identities": 80,
+        "verified": true
+      },
+      "name": "collection.final-diversified-vote10",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "actual_model_attempts": 2604,
+        "attempt_statuses": {
+          "schema_invalid": 4,
+          "valid_output": 2600
+        },
+        "duplicate_identities": [],
+        "identity_sha256": "fb9393aa2f86ffbc0b34f05ef8c290c8fa2fdfe03ce0cdce395c31feb6e4cd4e",
+        "observed_planned_identities": {
+          "final": 320,
+          "search": 1920,
+          "total": 2600,
+          "validation": 360
+        },
+        "provider_model_reports_available": 0,
+        "provider_model_reports_unavailable": 2604,
+        "provider_reported_model_values": [],
+        "registered_plan": {
+          "final": 320,
+          "search": 1920,
+          "total": 2600,
+          "validation": 360
+        },
+        "retry_attempts": 4,
+        "terminal_outcomes": {
+          "valid_output": 2600
+        },
+        "unique_planned_identities": 2600
+      },
+      "name": "collection.aggregate_plan_and_retry_accounting",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "conflicts": [],
+        "reported_values": [],
+        "requested_model": "gpt-5.6-luna"
+      },
+      "name": "collection.provider_reported_model_no_conflict",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "interpretation": "The frozen request configuration is verified, but an unreported provider identity is not claimed as observed.",
+        "reported_attempts": 0,
+        "requested_model": "gpt-5.6-luna",
+        "status": "provider-reported model identity unavailable",
+        "unreported_attempts": 2604
+      },
+      "name": "collection.provider_reported_model_identity",
+      "severity": "warning",
+      "status": "warning"
+    },
+    {
+      "detail": {
+        "errors": [],
+        "scores": {
+          "final": {
+            "authoritative_protocol_key_errors": [],
+            "calls_per_method": {
+              "80": 4
+            },
+            "comparison_identities": [
+              [
+                "evolved_champion",
+                "diversified_vote10"
+              ],
+              [
+                "evolved_champion",
+                "best_initial_founder"
+              ],
+              [
+                "evolved_champion",
+                "generalist_vote10"
+              ]
+            ],
+            "genome_scores_authoritative": true,
+            "matrix": {
+              "blocks": {
+                "final-b01": 12,
+                "final-b02": 12,
+                "final-b03": 12,
+                "final-b04": 12,
+                "final-b05": 12,
+                "final-b06": 12,
+                "final-b07": 12,
+                "final-b08": 12
+              },
+              "rows": 96,
+              "unique_case_ids": 96
+            },
+            "merge_source_errors": [],
+            "methods": 4,
+            "n_cases": 96,
+            "verified": true
+          },
+          "search-round-01": {
+            "calls_per_method": {
+              "20": 12
+            },
+            "matrix": {
+              "blocks": {
+                "search-b01": 12,
+                "search-b02": 12
+              },
+              "rows": 24,
+              "unique_case_ids": 24
+            },
+            "methods": 12,
+            "n_cases": 24,
+            "verified": true
+          },
+          "search-round-02": {
+            "calls_per_method": {
+              "20": 12
+            },
+            "matrix": {
+              "blocks": {
+                "search-b03": 12,
+                "search-b04": 12
+              },
+              "rows": 24,
+              "unique_case_ids": 24
+            },
+            "methods": 12,
+            "n_cases": 24,
+            "verified": true
+          },
+          "search-round-03": {
+            "calls_per_method": {
+              "20": 12
+            },
+            "matrix": {
+              "blocks": {
+                "search-b05": 12,
+                "search-b06": 12
+              },
+              "rows": 24,
+              "unique_case_ids": 24
+            },
+            "methods": 12,
+            "n_cases": 24,
+            "verified": true
+          },
+          "search-round-04": {
+            "calls_per_method": {
+              "20": 12
+            },
+            "matrix": {
+              "blocks": {
+                "search-b07": 12,
+                "search-b08": 12
+              },
+              "rows": 24,
+              "unique_case_ids": 24
+            },
+            "methods": 12,
+            "n_cases": 24,
+            "verified": true
+          },
+          "search-round-05": {
+            "calls_per_method": {
+              "20": 12
+            },
+            "matrix": {
+              "blocks": {
+                "search-b09": 12,
+                "search-b10": 12
+              },
+              "rows": 24,
+              "unique_case_ids": 24
+            },
+            "methods": 12,
+            "n_cases": 24,
+            "verified": true
+          },
+          "search-round-06": {
+            "calls_per_method": {
+              "20": 12
+            },
+            "matrix": {
+              "blocks": {
+                "search-b11": 12,
+                "search-b12": 12
+              },
+              "rows": 24,
+              "unique_case_ids": 24
+            },
+            "methods": 12,
+            "n_cases": 24,
+            "verified": true
+          },
+          "search-round-07": {
+            "calls_per_method": {
+              "20": 12
+            },
+            "matrix": {
+              "blocks": {
+                "search-b13": 12,
+                "search-b14": 12
+              },
+              "rows": 24,
+              "unique_case_ids": 24
+            },
+            "methods": 12,
+            "n_cases": 24,
+            "verified": true
+          },
+          "search-round-08": {
+            "calls_per_method": {
+              "20": 12
+            },
+            "matrix": {
+              "blocks": {
+                "search-b15": 12,
+                "search-b16": 12
+              },
+              "rows": 24,
+              "unique_case_ids": 24
+            },
+            "methods": 12,
+            "n_cases": 24,
+            "verified": true
+          },
+          "validation": {
+            "calls_per_method": {
+              "60": 6
+            },
+            "matrix": {
+              "blocks": {
+                "validation-b01": 12,
+                "validation-b02": 12,
+                "validation-b03": 12,
+                "validation-b04": 12,
+                "validation-b05": 12,
+                "validation-b06": 12
+              },
+              "rows": 72,
+              "unique_case_ids": 72
+            },
+            "methods": 6,
+            "n_cases": 72,
+            "verified": true
+          }
+        }
+      },
+      "name": "scoring.registered_sample_sizes_and_sources",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "authoritative_protocol_key_errors": [],
+        "calls_per_method": {
+          "80": 4
+        },
+        "comparison_identities": [
+          [
+            "evolved_champion",
+            "diversified_vote10"
+          ],
+          [
+            "evolved_champion",
+            "best_initial_founder"
+          ],
+          [
+            "evolved_champion",
+            "generalist_vote10"
+          ]
+        ],
+        "genome_scores_authoritative": true,
+        "matrix": {
+          "blocks": {
+            "final-b01": 12,
+            "final-b02": 12,
+            "final-b03": 12,
+            "final-b04": 12,
+            "final-b05": 12,
+            "final-b06": 12,
+            "final-b07": 12,
+            "final-b08": 12
+          },
+          "rows": 96,
+          "unique_case_ids": 96
+        },
+        "merge_source_errors": [],
+        "methods": 4,
+        "n_cases": 96,
+        "verified": true
+      },
+      "name": "scoring.exact_three_registered_final_comparisons",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "authoritative_fields": [
+          "methods.*.protocol_fitness_key",
+          "genome_scores",
+          "genome freezes",
+          "selection receipts"
+        ],
+        "interpretation": "The obsolete four-part convenience field is not used to audit fitness or selection.",
+        "legacy_fields": [
+          "methods.best_initial_founder.fitness_key_without_hash",
+          "methods.evolved_champion.fitness_key_without_hash"
+        ],
+        "status": "warning: obsolete convenience field retained"
+      },
+      "name": "scoring.obsolete_four_part_fitness_key_without_hash",
+      "severity": "warning",
+      "status": "warning"
+    },
+    {
+      "detail": {
+        "champion_genome_id": "G-A20DBD76963B",
+        "champion_slot_id": "S03",
+        "chronology_evidence": "The validation-only sealed freeze is content-addressed into both final run packets before their jobs are defined; hidden-final answers are absent from the freeze sources.",
+        "final_packet_errors": [],
+        "freeze_status": "validation_champion_frozen_before_hidden_final_answers",
+        "source_hashes_verified": true
+      },
+      "name": "finalization.champion_frozen_pre_final",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "actual_model_attempts": 2604,
+        "artifacts": {
+          "experiment/results/analysis.json": "6b727d318bf5ebb6061131663c7c0e767381fdb7bdeb42acec703c2b54b59470",
+          "experiment/results/analysis.md": "dec7e95fdaddf44c686f3fd036def5a53e6be21e476a961bdba59fb6b57b0da9",
+          "images/decision-system-evolution.svg": "25e024c50c9e3cc5db306e34cde1b8b616408d9eaf661eb0f781379ef9bbcef9",
+          "images/eight-round-trajectory.svg": "019d0554601926e6f659c6b989585aa0970a7885fde82aa1aea140c119767bcc",
+          "images/final-exact-accuracy.svg": "61374cb88bf943453aedb24df61e823b68273ebce0587140b7bd64087290fdad"
+        },
+        "byte_check": {
+          "returncode": 0,
+          "stderr": "",
+          "stdout": "validated 2 reports and 3 deterministic SVG charts"
+        },
+        "clarified_accounting_keys_present": true,
+        "operations_registered_call_identities": 2600,
+        "registered_logical_call_identities": 2600,
+        "source_errors": [],
+        "source_receipts": 44
+      },
+      "name": "analysis.accounting_and_source_receipts",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "artifacts": {
+          "experiment/results/analysis.json": "6b727d318bf5ebb6061131663c7c0e767381fdb7bdeb42acec703c2b54b59470",
+          "experiment/results/analysis.md": "dec7e95fdaddf44c686f3fd036def5a53e6be21e476a961bdba59fb6b57b0da9",
+          "images/decision-system-evolution.svg": "25e024c50c9e3cc5db306e34cde1b8b616408d9eaf661eb0f781379ef9bbcef9",
+          "images/eight-round-trajectory.svg": "019d0554601926e6f659c6b989585aa0970a7885fde82aa1aea140c119767bcc",
+          "images/final-exact-accuracy.svg": "61374cb88bf943453aedb24df61e823b68273ebce0587140b7bd64087290fdad"
+        },
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "validated 2 reports and 3 deterministic SVG charts"
+      },
+      "name": "analysis.deterministic_report_and_chart_byte_check",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "external_package_manifests": [],
+        "imports": {
+          "experiment/postprocessing/audit_release.py": [
+            "__future__",
+            "argparse",
+            "ast",
+            "collections",
+            "csv",
+            "dataclasses",
+            "datetime",
+            "hashlib",
+            "json",
+            "os",
+            "pathlib",
+            "re",
+            "subprocess",
+            "sys",
+            "typing",
+            "urllib"
+          ],
+          "experiment/postprocessing/build_report.py": [
+            "__future__",
+            "argparse",
+            "collections",
+            "csv",
+            "hashlib",
+            "html",
+            "json",
+            "math",
+            "pathlib",
+            "sys",
+            "typing",
+            "xml"
+          ],
+          "experiment/scripts/audit_benchmark_overlap.py": [
+            "__future__",
+            "argparse",
+            "hashlib",
+            "json",
+            "pathlib",
+            "typing"
+          ],
+          "experiment/scripts/evolve.py": [
+            "__future__",
+            "argparse",
+            "collections",
+            "copy",
+            "csv",
+            "hashlib",
+            "json",
+            "os",
+            "pathlib",
+            "sys",
+            "tempfile",
+            "typing"
+          ],
+          "experiment/scripts/freeze.py": [
+            "__future__",
+            "argparse",
+            "hashlib",
+            "json",
+            "pathlib"
+          ],
+          "experiment/scripts/generate_benchmark.py": [
+            "__future__",
+            "collections",
+            "importlib",
+            "json",
+            "pathlib",
+            "sys",
+            "types",
+            "typing"
+          ],
+          "experiment/scripts/merge_predictions.py": [
+            "__future__",
+            "argparse",
+            "hashlib",
+            "json",
+            "pathlib"
+          ],
+          "experiment/scripts/orchestrate.py": [
+            "__future__",
+            "argparse",
+            "collections",
+            "hashlib",
+            "json",
+            "math",
+            "pathlib",
+            "re",
+            "subprocess",
+            "sys",
+            "tempfile",
+            "typing"
+          ],
+          "experiment/scripts/prepare_finalists.py": [
+            "__future__",
+            "argparse",
+            "hashlib",
+            "json",
+            "pathlib"
+          ],
+          "experiment/scripts/run_experiment.py": [
+            "__future__",
+            "argparse",
+            "json",
+            "pathlib",
+            "subprocess",
+            "sys"
+          ],
+          "experiment/scripts/run_jobs.py": [
+            "__future__",
+            "importlib",
+            "pathlib",
+            "sys",
+            "typing"
+          ],
+          "experiment/scripts/score.py": [
+            "__future__",
+            "collections",
+            "importlib",
+            "json",
+            "pathlib",
+            "sys",
+            "typing"
+          ]
+        },
+        "non_stdlib_imports": [],
+        "parse_errors": [],
+        "python_files": 12,
+        "repository_local_frozen_adapters": [
+          "scripts/generate_benchmark.py -> Experiment 03 generator",
+          "scripts/run_jobs.py -> Experiment 03 runner",
+          "scripts/score.py -> Experiment 03 scorer"
+        ]
+      },
+      "name": "dependencies.python_standard_library_only",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "expected": [
+          "README.md",
+          "SKILL.md",
+          "experiment/README.md",
+          "experiment/REPORT.md",
+          "experiment/genomes/README.md"
+        ],
+        "interpretation": "Missing publication wrappers are non-blocking while the evidence audit remains rerunnable.",
+        "missing": []
+      },
+      "name": "documentation.expected_release_documents",
+      "severity": "warning",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "broken_or_escaping_links": [],
+        "malformed_expected_documents": [],
+        "markdown_files_checked": 9
+      },
+      "name": "documentation.present_documents_and_local_links",
+      "severity": "hard",
+      "status": "passed"
+    },
+    {
+      "detail": {
+        "bytes_scanned": 171420932,
+        "files_scanned": 13245,
+        "finding_count": 0,
+        "findings": [],
+        "scope": "exact Git-visible tracked plus intended-untracked release surface enumerated at audit start"
+      },
+      "name": "privacy.secrets_local_paths_and_ephemeral_identifiers",
+      "severity": "hard",
+      "status": "passed"
+    }
+  ],
+  "collection": {
+    "aggregate": {
+      "actual_model_attempts": 2604,
+      "attempt_statuses": {
+        "schema_invalid": 4,
+        "valid_output": 2600
+      },
+      "duplicate_identities": [],
+      "identity_sha256": "fb9393aa2f86ffbc0b34f05ef8c290c8fa2fdfe03ce0cdce395c31feb6e4cd4e",
+      "observed_planned_identities": {
+        "final": 320,
+        "search": 1920,
+        "total": 2600,
+        "validation": 360
+      },
+      "provider_model_reports_available": 0,
+      "provider_model_reports_unavailable": 2604,
+      "provider_reported_model_values": [],
+      "registered_plan": {
+        "final": 320,
+        "search": 1920,
+        "total": 2600,
+        "validation": 360
+      },
+      "retry_attempts": 4,
+      "terminal_outcomes": {
+        "valid_output": 2600
+      },
+      "unique_planned_identities": 2600
+    },
+    "runs": {
+      "final-best-initial-founder": {
+        "aggregate_records": 96,
+        "attempt_statuses": {
+          "valid_output": 80
+        },
+        "attempts": 80,
+        "blocks": [
+          "final-b01",
+          "final-b02",
+          "final-b03",
+          "final-b04",
+          "final-b05",
+          "final-b06",
+          "final-b07",
+          "final-b08"
+        ],
+        "candidates": 1,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "2ba2ca9bd0fdfc3378a2a4b923501d228dbb3a7796ce35a9b17aae57d208a5ec",
+        "manifest_identities": 80,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-0025CFC9EF2E"
+        ],
+        "planned_identities": 80,
+        "prediction_records": 1056,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 80
+        },
+        "unique_identities": 80,
+        "verified": true
+      },
+      "final-diversified-vote10": {
+        "aggregate_records": 96,
+        "attempt_statuses": {
+          "valid_output": 80
+        },
+        "attempts": 80,
+        "blocks": [
+          "final-b01",
+          "final-b02",
+          "final-b03",
+          "final-b04",
+          "final-b05",
+          "final-b06",
+          "final-b07",
+          "final-b08"
+        ],
+        "candidates": 1,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "f6d9b51a7cccbb710885ebcb45a6885b5b0e48f5c246d3edf52959f2bb24af2b",
+        "manifest_identities": 80,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "diversified_vote10"
+        ],
+        "planned_identities": 80,
+        "prediction_records": 1056,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 80
+        },
+        "unique_identities": 80,
+        "verified": true
+      },
+      "final-evolved-champion": {
+        "aggregate_records": 96,
+        "attempt_statuses": {
+          "valid_output": 80
+        },
+        "attempts": 80,
+        "blocks": [
+          "final-b01",
+          "final-b02",
+          "final-b03",
+          "final-b04",
+          "final-b05",
+          "final-b06",
+          "final-b07",
+          "final-b08"
+        ],
+        "candidates": 1,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "07b3129f7b9d11c8b1d7506f660e5d7565dc7d20a80a2c9ef958080e3abec0ea",
+        "manifest_identities": 80,
+        "max_observed_concurrency": 56,
+        "methods": [
+          "G-A20DBD76963B"
+        ],
+        "planned_identities": 80,
+        "prediction_records": 1056,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 80
+        },
+        "unique_identities": 80,
+        "verified": true
+      },
+      "final-generalist-vote10": {
+        "aggregate_records": 96,
+        "attempt_statuses": {
+          "valid_output": 80
+        },
+        "attempts": 80,
+        "blocks": [
+          "final-b01",
+          "final-b02",
+          "final-b03",
+          "final-b04",
+          "final-b05",
+          "final-b06",
+          "final-b07",
+          "final-b08"
+        ],
+        "candidates": 1,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "0a16d4260b18566316669a3e0bd65caa70d4e7fb183f1a78d9fcf256e232cbdb",
+        "manifest_identities": 80,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "generalist_vote10"
+        ],
+        "planned_identities": 80,
+        "prediction_records": 1056,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 80
+        },
+        "unique_identities": 80,
+        "verified": true
+      },
+      "search-round-01": {
+        "aggregate_records": 288,
+        "attempt_statuses": {
+          "valid_output": 240
+        },
+        "attempts": 240,
+        "blocks": [
+          "search-b01",
+          "search-b02"
+        ],
+        "candidates": 12,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "cb1c41a35c5255bc8ee76fcc7fe33fcb0abf890b43b0af33d283fd6918f8c115",
+        "manifest_identities": 240,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-0025CFC9EF2E",
+          "G-1EB09860ED89",
+          "G-347400D8BFC6",
+          "G-F3EA0DB4CF72",
+          "G-26751CF6A6D4",
+          "G-077823BA6DD7",
+          "G-B339F5D2F343",
+          "G-3E12E3A43395",
+          "G-8488734FF67B",
+          "G-3CE5CD3B66B3",
+          "G-C8D08DBE9D9D",
+          "G-2B08D2BA7D25"
+        ],
+        "planned_identities": 240,
+        "prediction_records": 3168,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 240
+        },
+        "unique_identities": 240,
+        "verified": true
+      },
+      "search-round-02": {
+        "aggregate_records": 288,
+        "attempt_statuses": {
+          "schema_invalid": 1,
+          "valid_output": 240
+        },
+        "attempts": 241,
+        "blocks": [
+          "search-b03",
+          "search-b04"
+        ],
+        "candidates": 12,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "25fb733daa9d573eb1b5b3eefb154346aa3c836199770d0b8fe985dbb66a37b8",
+        "manifest_identities": 240,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-0025CFC9EF2E",
+          "G-1EB09860ED89",
+          "G-347400D8BFC6",
+          "G-F3EA0DB4CF72",
+          "G-C8D08DBE9D9D",
+          "G-2B08D2BA7D25",
+          "G-69EC56E447B2",
+          "G-A5C4CF71B956",
+          "G-2D699BBC271A",
+          "G-A246735BF9C3",
+          "G-BF0AD01E8A72",
+          "G-AA614F215F9C"
+        ],
+        "planned_identities": 240,
+        "prediction_records": 3168,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [
+          "search-round-02-G-347400D8BFC6-search-b04-proposer-1"
+        ],
+        "retry_attempts": 1,
+        "terminal_outcomes": {
+          "valid_output": 240
+        },
+        "unique_identities": 240,
+        "verified": true
+      },
+      "search-round-03": {
+        "aggregate_records": 288,
+        "attempt_statuses": {
+          "schema_invalid": 2,
+          "valid_output": 240
+        },
+        "attempts": 242,
+        "blocks": [
+          "search-b05",
+          "search-b06"
+        ],
+        "candidates": 12,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "2403ce5bb964c092584d812c3a69b7e0e1ed28ea7a542c5371d4f7a6e775d659",
+        "manifest_identities": 240,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-0025CFC9EF2E",
+          "G-1EB09860ED89",
+          "G-347400D8BFC6",
+          "G-F3EA0DB4CF72",
+          "G-C8D08DBE9D9D",
+          "G-2B08D2BA7D25",
+          "G-E2ACA04030E1",
+          "G-E662737BA253",
+          "G-A6E9C72FE029",
+          "G-7652548270F5",
+          "G-571E66D2D29B",
+          "G-E2CB7ED71793"
+        ],
+        "planned_identities": 240,
+        "prediction_records": 3168,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [
+          "search-round-03-G-7652548270F5-search-b05-proposer-7",
+          "search-round-03-G-A6E9C72FE029-search-b05-critic-2"
+        ],
+        "retry_attempts": 2,
+        "terminal_outcomes": {
+          "valid_output": 240
+        },
+        "unique_identities": 240,
+        "verified": true
+      },
+      "search-round-04": {
+        "aggregate_records": 288,
+        "attempt_statuses": {
+          "valid_output": 240
+        },
+        "attempts": 240,
+        "blocks": [
+          "search-b07",
+          "search-b08"
+        ],
+        "candidates": 12,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "5286277c31b2519b4442e4fe41b68d4ca3913a038858b732a4ab63287cc00bd5",
+        "manifest_identities": 240,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-E2ACA04030E1",
+          "G-1EB09860ED89",
+          "G-347400D8BFC6",
+          "G-F3EA0DB4CF72",
+          "G-571E66D2D29B",
+          "G-E2CB7ED71793",
+          "G-512B4980C514",
+          "G-35DDA1DA8010",
+          "G-335AFD967606",
+          "G-38D833F18B84",
+          "G-1CB025718435",
+          "G-1FD52C1BC57B"
+        ],
+        "planned_identities": 240,
+        "prediction_records": 3168,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 240
+        },
+        "unique_identities": 240,
+        "verified": true
+      },
+      "search-round-05": {
+        "aggregate_records": 288,
+        "attempt_statuses": {
+          "valid_output": 240
+        },
+        "attempts": 240,
+        "blocks": [
+          "search-b09",
+          "search-b10"
+        ],
+        "candidates": 12,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "260b03061760fc761c3cd77a717fe05a2e93f95f7dba71b353ba231ea97bc5a8",
+        "manifest_identities": 240,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-E2ACA04030E1",
+          "G-35DDA1DA8010",
+          "G-335AFD967606",
+          "G-38D833F18B84",
+          "G-571E66D2D29B",
+          "G-E2CB7ED71793",
+          "G-0130D900270E",
+          "G-EC429DE4D50C",
+          "G-3373FE74E208",
+          "G-26840FECDB83",
+          "G-1FA44A1EE857",
+          "G-9E41821F9E02"
+        ],
+        "planned_identities": 240,
+        "prediction_records": 3168,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 240
+        },
+        "unique_identities": 240,
+        "verified": true
+      },
+      "search-round-06": {
+        "aggregate_records": 288,
+        "attempt_statuses": {
+          "valid_output": 240
+        },
+        "attempts": 240,
+        "blocks": [
+          "search-b11",
+          "search-b12"
+        ],
+        "candidates": 12,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "49b0d486f5996311b4628938255101695d0dd7ce2ca06c5a88a33d40b8635e10",
+        "manifest_identities": 240,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-E2ACA04030E1",
+          "G-EC429DE4D50C",
+          "G-3373FE74E208",
+          "G-38D833F18B84",
+          "G-1FA44A1EE857",
+          "G-E2CB7ED71793",
+          "G-EEE6DF66A16A",
+          "G-9EDD732A542F",
+          "G-43008A0ACA81",
+          "G-8A6A683A8E7A",
+          "G-621D0989B1DE",
+          "G-59263FEA2B37"
+        ],
+        "planned_identities": 240,
+        "prediction_records": 3168,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 240
+        },
+        "unique_identities": 240,
+        "verified": true
+      },
+      "search-round-07": {
+        "aggregate_records": 288,
+        "attempt_statuses": {
+          "schema_invalid": 1,
+          "valid_output": 240
+        },
+        "attempts": 241,
+        "blocks": [
+          "search-b13",
+          "search-b14"
+        ],
+        "candidates": 12,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "58b3d171a65b2915feebd12869b6b3b3931024ed632e0f8e6b326810afec861c",
+        "manifest_identities": 240,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-EEE6DF66A16A",
+          "G-EC429DE4D50C",
+          "G-3373FE74E208",
+          "G-38D833F18B84",
+          "G-1FA44A1EE857",
+          "G-E2CB7ED71793",
+          "G-B6D67789C6A8",
+          "G-B6BC6FB624BA",
+          "G-A20DBD76963B",
+          "G-1D2D57CCC696",
+          "G-9BB9BF99170E",
+          "G-15900AE27B5A"
+        ],
+        "planned_identities": 240,
+        "prediction_records": 3168,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [
+          "search-round-07-G-E2CB7ED71793-search-b14-proposer-5"
+        ],
+        "retry_attempts": 1,
+        "terminal_outcomes": {
+          "valid_output": 240
+        },
+        "unique_identities": 240,
+        "verified": true
+      },
+      "search-round-08": {
+        "aggregate_records": 288,
+        "attempt_statuses": {
+          "valid_output": 240
+        },
+        "attempts": 240,
+        "blocks": [
+          "search-b15",
+          "search-b16"
+        ],
+        "candidates": 12,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "c2c39bc4c24229dc5153470e44eac1c5d7cd86ce09e9cb3acc50fcf5cdc6953a",
+        "manifest_identities": 240,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-EEE6DF66A16A",
+          "G-B6BC6FB624BA",
+          "G-A20DBD76963B",
+          "G-38D833F18B84",
+          "G-9BB9BF99170E",
+          "G-E2CB7ED71793",
+          "G-D5C14232B660",
+          "G-2F6BAD401B84",
+          "G-010BBF37C73F",
+          "G-08984122C546",
+          "G-6BAC1D28F028",
+          "G-6F217370BF07"
+        ],
+        "planned_identities": 240,
+        "prediction_records": 3168,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 240
+        },
+        "unique_identities": 240,
+        "verified": true
+      },
+      "validation": {
+        "aggregate_records": 432,
+        "attempt_statuses": {
+          "valid_output": 360
+        },
+        "attempts": 360,
+        "blocks": [
+          "validation-b01",
+          "validation-b02",
+          "validation-b03",
+          "validation-b04",
+          "validation-b05",
+          "validation-b06"
+        ],
+        "candidates": 6,
+        "errors": {
+          "artifacts": [],
+          "concurrency": [],
+          "dimensions": [],
+          "ledger": [],
+          "manifests": [],
+          "predictions": [],
+          "prompt_set_mismatch": []
+        },
+        "identity_sha256": "95e718c8bb8fe6435aff149bc3ddb6c3c3207d7c5e6a8196b9b6f61efe0877d9",
+        "manifest_identities": 360,
+        "max_observed_concurrency": 60,
+        "methods": [
+          "G-D5C14232B660",
+          "G-2F6BAD401B84",
+          "G-A20DBD76963B",
+          "G-38D833F18B84",
+          "G-6BAC1D28F028",
+          "G-E2CB7ED71793"
+        ],
+        "planned_identities": 360,
+        "prediction_records": 4752,
+        "preflight": {
+          "binary_sha256": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+          "release_locator": "0.144.3-aarch64-apple-darwin/bin/codex",
+          "version": "codex-cli 0.144.3"
+        },
+        "requested_configuration": {
+          "ephemeral": true,
+          "model": "gpt-5.6-luna",
+          "public_label": "Light reasoning",
+          "reasoning_effort": "low",
+          "sandbox": "read-only",
+          "service_tier": "standard",
+          "service_tier_evidence": "manifests and summaries request Standard; command has no non-default tier override",
+          "timeout_seconds": 300
+        },
+        "retried_jobs": [],
+        "retry_attempts": 0,
+        "terminal_outcomes": {
+          "valid_output": 360
+        },
+        "unique_identities": 360,
+        "verified": true
+      }
+    },
+    "verified": true
+  },
+  "dependencies": {
+    "external_package_manifests": [],
+    "imports": {
+      "experiment/postprocessing/audit_release.py": [
+        "__future__",
+        "argparse",
+        "ast",
+        "collections",
+        "csv",
+        "dataclasses",
+        "datetime",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "re",
+        "subprocess",
+        "sys",
+        "typing",
+        "urllib"
+      ],
+      "experiment/postprocessing/build_report.py": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "hashlib",
+        "html",
+        "json",
+        "math",
+        "pathlib",
+        "sys",
+        "typing",
+        "xml"
+      ],
+      "experiment/scripts/audit_benchmark_overlap.py": [
+        "__future__",
+        "argparse",
+        "hashlib",
+        "json",
+        "pathlib",
+        "typing"
+      ],
+      "experiment/scripts/evolve.py": [
+        "__future__",
+        "argparse",
+        "collections",
+        "copy",
+        "csv",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "sys",
+        "tempfile",
+        "typing"
+      ],
+      "experiment/scripts/freeze.py": [
+        "__future__",
+        "argparse",
+        "hashlib",
+        "json",
+        "pathlib"
+      ],
+      "experiment/scripts/generate_benchmark.py": [
+        "__future__",
+        "collections",
+        "importlib",
+        "json",
+        "pathlib",
+        "sys",
+        "types",
+        "typing"
+      ],
+      "experiment/scripts/merge_predictions.py": [
+        "__future__",
+        "argparse",
+        "hashlib",
+        "json",
+        "pathlib"
+      ],
+      "experiment/scripts/orchestrate.py": [
+        "__future__",
+        "argparse",
+        "collections",
+        "hashlib",
+        "json",
+        "math",
+        "pathlib",
+        "re",
+        "subprocess",
+        "sys",
+        "tempfile",
+        "typing"
+      ],
+      "experiment/scripts/prepare_finalists.py": [
+        "__future__",
+        "argparse",
+        "hashlib",
+        "json",
+        "pathlib"
+      ],
+      "experiment/scripts/run_experiment.py": [
+        "__future__",
+        "argparse",
+        "json",
+        "pathlib",
+        "subprocess",
+        "sys"
+      ],
+      "experiment/scripts/run_jobs.py": [
+        "__future__",
+        "importlib",
+        "pathlib",
+        "sys",
+        "typing"
+      ],
+      "experiment/scripts/score.py": [
+        "__future__",
+        "collections",
+        "importlib",
+        "json",
+        "pathlib",
+        "sys",
+        "typing"
+      ]
+    },
+    "non_stdlib_imports": [],
+    "parse_errors": [],
+    "python_files": 12,
+    "repository_local_frozen_adapters": [
+      "scripts/generate_benchmark.py -> Experiment 03 generator",
+      "scripts/run_jobs.py -> Experiment 03 runner",
+      "scripts/score.py -> Experiment 03 scorer"
+    ],
+    "verified": true
+  },
+  "documentation": {
+    "broken_links": [],
+    "expected": [
+      "README.md",
+      "SKILL.md",
+      "experiment/README.md",
+      "experiment/REPORT.md",
+      "experiment/genomes/README.md"
+    ],
+    "malformed": [],
+    "missing": [],
+    "verified_present_files": true
+  },
+  "evolution": {
+    "best_founder_artifact_sha256": "ebb5c5284917ea5dd1c452d98bceea22deae6dc9a5021ff46203ad3a5afe17e6",
+    "best_founder_id": "G-0025CFC9EF2E",
+    "catalog_sha256": "7e0f6abb1774aaf904353195b2b24cc5572db50261b5e6329dd11f8e74fcae4a",
+    "final_survivor_ids": [
+      "G-D5C14232B660",
+      "G-2F6BAD401B84",
+      "G-A20DBD76963B",
+      "G-38D833F18B84",
+      "G-6BAC1D28F028",
+      "G-E2CB7ED71793"
+    ],
+    "round_08_population_path": "genomes/round-08-survivors.json",
+    "round_08_population_sha256": "0a5855b9c5ff00d2cb41e49bf096d26841da2c6a56cb1812a4bfac154de8a49c",
+    "rounds": [
+      {
+        "accepted_children": 2,
+        "candidates": 12,
+        "crossovers": 2,
+        "one_gene_mutations": 4,
+        "round": 1,
+        "search_blocks": [
+          "search-b01",
+          "search-b02"
+        ],
+        "survivors": 6
+      },
+      {
+        "accepted_children": 0,
+        "candidates": 12,
+        "crossovers": 2,
+        "one_gene_mutations": 4,
+        "round": 2,
+        "search_blocks": [
+          "search-b03",
+          "search-b04"
+        ],
+        "survivors": 6
+      },
+      {
+        "accepted_children": 3,
+        "candidates": 12,
+        "crossovers": 2,
+        "one_gene_mutations": 4,
+        "round": 3,
+        "search_blocks": [
+          "search-b05",
+          "search-b06"
+        ],
+        "survivors": 6
+      },
+      {
+        "accepted_children": 3,
+        "candidates": 12,
+        "crossovers": 2,
+        "one_gene_mutations": 4,
+        "round": 4,
+        "search_blocks": [
+          "search-b07",
+          "search-b08"
+        ],
+        "survivors": 6
+      },
+      {
+        "accepted_children": 3,
+        "candidates": 12,
+        "crossovers": 2,
+        "one_gene_mutations": 4,
+        "round": 5,
+        "search_blocks": [
+          "search-b09",
+          "search-b10"
+        ],
+        "survivors": 6
+      },
+      {
+        "accepted_children": 1,
+        "candidates": 12,
+        "crossovers": 2,
+        "one_gene_mutations": 4,
+        "round": 6,
+        "search_blocks": [
+          "search-b11",
+          "search-b12"
+        ],
+        "survivors": 6
+      },
+      {
+        "accepted_children": 3,
+        "candidates": 12,
+        "crossovers": 2,
+        "one_gene_mutations": 4,
+        "round": 7,
+        "search_blocks": [
+          "search-b13",
+          "search-b14"
+        ],
+        "survivors": 6
+      },
+      {
+        "accepted_children": 3,
+        "candidates": 12,
+        "crossovers": 2,
+        "one_gene_mutations": 4,
+        "round": 8,
+        "search_blocks": [
+          "search-b15",
+          "search-b16"
+        ],
+        "survivors": 6
+      }
+    ],
+    "verified": true
+  },
+  "finalization": {
+    "champion_genome_id": "G-A20DBD76963B",
+    "champion_slot_id": "S03",
+    "chronology_evidence": "The validation-only sealed freeze is content-addressed into both final run packets before their jobs are defined; hidden-final answers are absent from the freeze sources.",
+    "final_packet_errors": [],
+    "freeze_status": "validation_champion_frozen_before_hidden_final_answers",
+    "source_hashes_verified": true,
+    "verified": true
+  },
+  "freeze": {
+    "external_dependencies": {
+      "experiment_03_generator": "209f4b2049a22f50ee0a1e4f378864fbc8aca1b12205ee10714e41c80ac72209",
+      "experiment_03_runner": "aa1ca21a0c7f6914ffbad7ea05eefdd506ceb9acdbc5fff86068809f414a98b1",
+      "experiment_03_scorer": "cb7c1639be3ea158a5c2ecbc6e8e79119198bc9748a769f46a714b6ec6a79f3b"
+    },
+    "file_mismatches": [],
+    "files_checked": 68,
+    "manifest_sha256": "a66a4788d87e57096eb2620d1fd5ab6632f49c748618ab8bc32e1378765a35d8",
+    "scope_note": "Post-freeze release-only audit and reporting files are not treated as experimental inputs.",
+    "verified": true
+  },
+  "generated_at": "2026-07-13T21:33:33.608266Z",
+  "privacy": {
+    "bytes_scanned": 171420932,
+    "files_scanned": 13245,
+    "finding_count": 0,
+    "findings": [],
+    "passed": true,
+    "scope": "exact Git-visible tracked plus intended-untracked release surface enumerated at audit start"
+  },
+  "release_exclusions": {
+    "audit": {
+      "excluded_files_present_locally": {
+        "python_cache": 11,
+        "run_locks": 13,
+        "transport_process_diagnostics": 10416
+      },
+      "git_visible_exclusion_violations": [],
+      "missing_ignore_categories": [],
+      "required_ignore_categories": {
+        "preflight_runs": "runs/preflight",
+        "python_bytecode": "*.py[cod]",
+        "python_cache": "__pycache__",
+        "run_locks": ".run.lock",
+        "smoke_runs": "runs/smoke",
+        "transport_events": "events.jsonl",
+        "transport_process": "process.json",
+        "transport_result": "transport_result.json",
+        "transport_stderr": "stderr.txt"
+      },
+      "sanitized_command_json_is_release_intended": true
+    },
+    "policy": [
+      "events.jsonl, process.json, stderr.txt, and transport_result.json are local CLI transport/process diagnostics",
+      ".run.lock, __pycache__, and Python bytecode are ephemeral local state",
+      "runs/smoke and runs/preflight are non-experimental development activity",
+      "sanitized command.json, output_schema.json, last_message.txt, result.json, and attempts.jsonl are release evidence"
+    ]
+  },
+  "release_surface": {
+    "audit_output_present_at_scan_start": true,
+    "bytes": 171420932,
+    "files": 13245,
+    "missing": [],
+    "outside_seed": [],
+    "scope": "Git-visible tracked plus intended-untracked files under the seed, via git ls-files --cached --others --exclude-standard"
+  },
+  "schema_version": "experiment-04-release-audit-v1",
+  "scoring": {
+    "legacy_fitness_fields": [
+      "methods.best_initial_founder.fitness_key_without_hash",
+      "methods.evolved_champion.fitness_key_without_hash"
+    ],
+    "scores": {
+      "final": {
+        "authoritative_protocol_key_errors": [],
+        "calls_per_method": {
+          "80": 4
+        },
+        "comparison_identities": [
+          [
+            "evolved_champion",
+            "diversified_vote10"
+          ],
+          [
+            "evolved_champion",
+            "best_initial_founder"
+          ],
+          [
+            "evolved_champion",
+            "generalist_vote10"
+          ]
+        ],
+        "genome_scores_authoritative": true,
+        "matrix": {
+          "blocks": {
+            "final-b01": 12,
+            "final-b02": 12,
+            "final-b03": 12,
+            "final-b04": 12,
+            "final-b05": 12,
+            "final-b06": 12,
+            "final-b07": 12,
+            "final-b08": 12
+          },
+          "rows": 96,
+          "unique_case_ids": 96
+        },
+        "merge_source_errors": [],
+        "methods": 4,
+        "n_cases": 96,
+        "verified": true
+      },
+      "search-round-01": {
+        "calls_per_method": {
+          "20": 12
+        },
+        "matrix": {
+          "blocks": {
+            "search-b01": 12,
+            "search-b02": 12
+          },
+          "rows": 24,
+          "unique_case_ids": 24
+        },
+        "methods": 12,
+        "n_cases": 24,
+        "verified": true
+      },
+      "search-round-02": {
+        "calls_per_method": {
+          "20": 12
+        },
+        "matrix": {
+          "blocks": {
+            "search-b03": 12,
+            "search-b04": 12
+          },
+          "rows": 24,
+          "unique_case_ids": 24
+        },
+        "methods": 12,
+        "n_cases": 24,
+        "verified": true
+      },
+      "search-round-03": {
+        "calls_per_method": {
+          "20": 12
+        },
+        "matrix": {
+          "blocks": {
+            "search-b05": 12,
+            "search-b06": 12
+          },
+          "rows": 24,
+          "unique_case_ids": 24
+        },
+        "methods": 12,
+        "n_cases": 24,
+        "verified": true
+      },
+      "search-round-04": {
+        "calls_per_method": {
+          "20": 12
+        },
+        "matrix": {
+          "blocks": {
+            "search-b07": 12,
+            "search-b08": 12
+          },
+          "rows": 24,
+          "unique_case_ids": 24
+        },
+        "methods": 12,
+        "n_cases": 24,
+        "verified": true
+      },
+      "search-round-05": {
+        "calls_per_method": {
+          "20": 12
+        },
+        "matrix": {
+          "blocks": {
+            "search-b09": 12,
+            "search-b10": 12
+          },
+          "rows": 24,
+          "unique_case_ids": 24
+        },
+        "methods": 12,
+        "n_cases": 24,
+        "verified": true
+      },
+      "search-round-06": {
+        "calls_per_method": {
+          "20": 12
+        },
+        "matrix": {
+          "blocks": {
+            "search-b11": 12,
+            "search-b12": 12
+          },
+          "rows": 24,
+          "unique_case_ids": 24
+        },
+        "methods": 12,
+        "n_cases": 24,
+        "verified": true
+      },
+      "search-round-07": {
+        "calls_per_method": {
+          "20": 12
+        },
+        "matrix": {
+          "blocks": {
+            "search-b13": 12,
+            "search-b14": 12
+          },
+          "rows": 24,
+          "unique_case_ids": 24
+        },
+        "methods": 12,
+        "n_cases": 24,
+        "verified": true
+      },
+      "search-round-08": {
+        "calls_per_method": {
+          "20": 12
+        },
+        "matrix": {
+          "blocks": {
+            "search-b15": 12,
+            "search-b16": 12
+          },
+          "rows": 24,
+          "unique_case_ids": 24
+        },
+        "methods": 12,
+        "n_cases": 24,
+        "verified": true
+      },
+      "validation": {
+        "calls_per_method": {
+          "60": 6
+        },
+        "matrix": {
+          "blocks": {
+            "validation-b01": 12,
+            "validation-b02": 12,
+            "validation-b03": 12,
+            "validation-b04": 12,
+            "validation-b05": 12,
+            "validation-b06": 12
+          },
+          "rows": 72,
+          "unique_case_ids": 72
+        },
+        "methods": 6,
+        "n_cases": 72,
+        "verified": true
+      }
+    },
+    "verified": true
+  },
+  "status": "passed",
+  "summary": {
+    "failed": 0,
+    "passed": 37,
+    "warnings": 2
+  }
+}

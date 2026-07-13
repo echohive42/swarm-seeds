@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-209",
+          "121",
+          "-230",
+          "161",
+          "-252"
+        ],
+        "case_id": "S037",
+        "check_summary": "Low-confidence extrapolation from phase-structured deltas.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic polynomial-delta structure."
+      },
+      {
+        "answer": [
+          "24",
+          "130",
+          "136",
+          "142",
+          "148"
+        ],
+        "case_id": "S038",
+        "check_summary": "Low-confidence extrapolation from interleaved phase behavior.",
+        "confidence": 0.1,
+        "rule_summary": "Interleaved affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "-11",
+          "43",
+          "-9",
+          "48",
+          "-7"
+        ],
+        "case_id": "S039",
+        "check_summary": "Low-confidence phase extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "40",
+          "60",
+          "80",
+          "100",
+          "34"
+        ],
+        "case_id": "S040",
+        "check_summary": "Matches block deltas: next block begins -44, then three +20 steps; following block begins -66.",
+        "confidence": 0.94,
+        "rule_summary": "GROWBLOCK with polynomial block starts and arithmetic within-block steps."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Alternating arithmetic subsequences replay exactly.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-15",
+          "-44",
+          "-67",
+          "-5",
+          "-10"
+        ],
+        "case_id": "S042",
+        "check_summary": "Low-confidence periodic affine extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine/modular update."
+      },
+      {
+        "answer": [
+          "-112",
+          "15",
+          "-132",
+          "-10",
+          "-158"
+        ],
+        "case_id": "S043",
+        "check_summary": "Low-confidence lagged phase extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "LAGPOLY with phase-specific increments."
+      },
+      {
+        "answer": [
+          "-18",
+          "-18",
+          "-2",
+          "-20",
+          "-20"
+        ],
+        "case_id": "S044",
+        "check_summary": "Low-confidence three-phase delta extrapolation.",
+        "confidence": 0.13,
+        "rule_summary": "PDELTA with periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-31",
+          "93",
+          "-92",
+          "-40",
+          "-123"
+        ],
+        "case_id": "S045",
+        "check_summary": "Low-confidence periodic affine extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "AFFINE with repeating phase parameters."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-17",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S046",
+        "check_summary": "Phase deltas follow -5, then a phase-2 sequence 3,8,13,18, with remaining deltas -5.",
+        "confidence": 0.9,
+        "rule_summary": "PDELTA with period-four phase-specific deltas."
+      },
+      {
+        "answer": [
+          "198",
+          "236",
+          "274",
+          "312",
+          "397"
+        ],
+        "case_id": "S047",
+        "check_summary": "Low-confidence growing-block extrapolation from repeated positive runs.",
+        "confidence": 0.18,
+        "rule_summary": "GROWBLOCK with polynomial starts and steps."
+      },
+      {
+        "answer": [
+          "-11",
+          "12",
+          "-25",
+          "-10",
+          "-42"
+        ],
+        "case_id": "S048",
+        "check_summary": "Interleaved phase streams fit quadratic subsequences for phases one and three, constant phases two and four.",
+        "confidence": 0.87,
+        "rule_summary": "INTERLEAVE of phase-specific polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-347400D8BFC6-search-b04-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "d06782392d7c99d9cafc50a7deafbf76cd4640d9d8a22184c59f3bdcb9dec995",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-347400D8BFC6-search-b04-proposer-2/attempt-01"
+}

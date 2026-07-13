@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b06",
+    "results": [
+      {
+        "answer": [
+          "-5",
+          "-20",
+          "-6",
+          "-2",
+          "-15"
+        ],
+        "case_id": "S061",
+        "check_summary": "Candidate interleaved low-degree streams; prefix replay not uniquely verified.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative INTERLEAVE extrapolation."
+      },
+      {
+        "answer": [
+          "-30",
+          "86",
+          "-58",
+          "170",
+          "-110"
+        ],
+        "case_id": "S062",
+        "check_summary": "Candidate periodic affine/second-order behavior; exact parameters uncertain.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative phase-dependent recurrence."
+      },
+      {
+        "answer": [
+          "76",
+          "26",
+          "82",
+          "40",
+          "80"
+        ],
+        "case_id": "S063",
+        "check_summary": "Candidate interleaved polynomial streams; low confidence.",
+        "confidence": 0.06,
+        "rule_summary": "Tentative INTERLEAVE extrapolation."
+      },
+      {
+        "answer": [
+          "-8",
+          "-250",
+          "-3",
+          "-546",
+          "2"
+        ],
+        "case_id": "S064",
+        "check_summary": "Candidate phase-dependent recurrence; exact replay uncertain.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative periodic recurrence."
+      },
+      {
+        "answer": [
+          "-32",
+          "24",
+          "-36",
+          "26",
+          "-40"
+        ],
+        "case_id": "S065",
+        "check_summary": "Odd terms decrement by 4 and even terms increment by 2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-7",
+          "47",
+          "-12",
+          "68",
+          "-17"
+        ],
+        "case_id": "S066",
+        "check_summary": "Candidate interleaved streams; exact replay not verified.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative INTERLEAVE extrapolation."
+      },
+      {
+        "answer": [
+          "-96",
+          "-119",
+          "-158",
+          "-182",
+          "-224"
+        ],
+        "case_id": "S067",
+        "check_summary": "Tail suggests interleaved polynomial-delta streams, but parameters are uncertain.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative INTERLEAVE with phase-specific increments."
+      },
+      {
+        "answer": [
+          "-24",
+          "-43",
+          "-62",
+          "-81",
+          "7"
+        ],
+        "case_id": "S068",
+        "check_summary": "Negative runs lengthen; decrements appear to continue -19 then -24, with next positive jump estimated.",
+        "confidence": 0.28,
+        "rule_summary": "Tentative GROWBLOCK pattern."
+      },
+      {
+        "answer": [
+          "-10",
+          "-7",
+          "14",
+          "-21",
+          "17"
+        ],
+        "case_id": "S069",
+        "check_summary": "Candidate interleaved streams; exact replay not verified.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative INTERLEAVE extrapolation."
+      },
+      {
+        "answer": [
+          "-3",
+          "-78",
+          "-3",
+          "-101",
+          "-3"
+        ],
+        "case_id": "S070",
+        "check_summary": "Odd terms remain -3; even-term decrements continue by successive odd increments.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of a constant stream and quadratic stream."
+      },
+      {
+        "answer": [
+          "-4",
+          "-18",
+          "-11",
+          "-3",
+          "-26"
+        ],
+        "case_id": "S071",
+        "check_summary": "Candidate interleaved/periodic recurrence; exact replay uncertain.",
+        "confidence": 0.05,
+        "rule_summary": "Tentative phase-dependent recurrence."
+      },
+      {
+        "answer": [
+          "-29",
+          "-33",
+          "-38",
+          "-42",
+          "-46"
+        ],
+        "case_id": "S072",
+        "check_summary": "Tail contains arithmetic runs with recurring step -4; continuation estimated.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative GROWBLOCK/interleaved arithmetic pattern."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-1EB09860ED89-search-b06-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "b61ff6a43c506caf2c9a3b98e7fdcb8f7f5919d0141c5809e5375a1fbbd3af7b",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-1EB09860ED89-search-b06-proposer-3/attempt-01"
+}

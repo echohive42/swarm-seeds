@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b03",
+    "results": [
+      {
+        "answer": [
+          "-1175078",
+          "1175077",
+          "3525225",
+          "10575673",
+          "-10575674"
+        ],
+        "case_id": "F025",
+        "check_summary": "Periodic affine replay: 3x-2, -x-1, 3x-6 cycle.",
+        "confidence": 0.99,
+        "rule_summary": "Period-3 affine update."
+      },
+      {
+        "answer": [
+          "-797164",
+          "-2391487",
+          "-7174456",
+          "-21523363",
+          "-64570084"
+        ],
+        "case_id": "F026",
+        "check_summary": "Every transition matches x'=3x+5.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence x'=3x+5."
+      },
+      {
+        "answer": [
+          "24328",
+          "-48502",
+          "97186",
+          "-194146",
+          "388672"
+        ],
+        "case_id": "F027",
+        "check_summary": "Parity-separated streams with repeating affine difference corrections.",
+        "confidence": 0.71,
+        "rule_summary": "Two interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "37323",
+          "74631",
+          "149277",
+          "298537",
+          "597093"
+        ],
+        "case_id": "F028",
+        "check_summary": "Doubling with alternating odd corrections.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update x'=2x+(-1)^phase(odd)."
+      },
+      {
+        "answer": [
+          "5402",
+          "7395",
+          "9941",
+          "13152",
+          "17155"
+        ],
+        "case_id": "F029",
+        "check_summary": "Finite differences extend with fourth differences increasing by one.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "-7",
+          "-35",
+          "-47",
+          "-17",
+          "-52"
+        ],
+        "case_id": "F030",
+        "check_summary": "Three interleaved arithmetic-quadratic streams replay the prefix.",
+        "confidence": 0.96,
+        "rule_summary": "Three-way interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "464",
+          "494",
+          "498",
+          "467",
+          "391"
+        ],
+        "case_id": "F031",
+        "check_summary": "Finite differences follow descending third-difference pattern.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "616548",
+          "1684444",
+          "4603008",
+          "12570944",
+          "34331904"
+        ],
+        "case_id": "F032",
+        "check_summary": "Rapid-growth affine-family extrapolation from the observed multiplier pattern.",
+        "confidence": 0.42,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "131",
+          "161",
+          "157",
+          "202",
+          "254"
+        ],
+        "case_id": "F033",
+        "check_summary": "Continuation inferred from the repeating interleaved difference structure.",
+        "confidence": 0.54,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "450",
+          "591",
+          "760",
+          "959",
+          "1190"
+        ],
+        "case_id": "F034",
+        "check_summary": "Second differences increase by two.",
+        "confidence": 0.99,
+        "rule_summary": "Cubic polynomial sequence."
+      },
+      {
+        "answer": [
+          "-2771363",
+          "-5542730",
+          "-16628195",
+          "-33256394",
+          "-99769187"
+        ],
+        "case_id": "F035",
+        "check_summary": "Alternating updates x'=3x-5 and x'=2x-4.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 affine update."
+      },
+      {
+        "answer": [
+          "27",
+          "28",
+          "33",
+          "34",
+          "39"
+        ],
+        "case_id": "F036",
+        "check_summary": "Alternating increments +1 and +5.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 affine update."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-best_initial_founder-G-0025CFC9EF2E-final-b03-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "ef922bd5886275bd4d74abe3b803527420dfb2186bccca34fbb92b20eb4b8bbf",
+  "terminal_artifact_relpath": "jobs/final-best_initial_founder-G-0025CFC9EF2E-final-b03-proposer-6/attempt-01"
+}

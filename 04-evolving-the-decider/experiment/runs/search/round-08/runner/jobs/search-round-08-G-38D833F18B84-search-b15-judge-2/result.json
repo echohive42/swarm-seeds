@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "705",
+          "577",
+          "-255",
+          "-1663",
+          "-2815"
+        ],
+        "case_id": "S169",
+        "check_summary": "Plurality of exact four-phase affine/interleaved replay candidates.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "All strong candidates confirm alternating increments of 4 and 5.",
+        "confidence": 1,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-2222",
+          "-3036",
+          "-4312",
+          "-6208",
+          "-8920"
+        ],
+        "case_id": "S171",
+        "check_summary": "Strong candidate confirms constant fifth finite difference of -4.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Plurality confirms the finite-difference polynomial continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Plurality confirms the smoothly increasing second-difference pattern.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18815",
+          "-30443"
+        ],
+        "case_id": "S174",
+        "check_summary": "Strongest coherent plurality supports the period-3 biased second-order recurrence.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438756",
+          "-16316267",
+          "32632540",
+          "97897621"
+        ],
+        "case_id": "S175",
+        "check_summary": "Plurality of exact affine phase-replay candidates.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "71",
+          "50",
+          "55",
+          "66",
+          "68"
+        ],
+        "case_id": "S176",
+        "check_summary": "Phase-specific differences continue by phase with exact linear trends.",
+        "confidence": 0.93,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-214809",
+          "-429625",
+          "859241",
+          "1718491",
+          "3436975"
+        ],
+        "case_id": "S177",
+        "check_summary": "Strong plurality confirms the repeating affine phase transitions.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "All candidates confirm doubling each term.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "All candidates confirm the exact six-term cycle.",
+        "confidence": 1,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Strong plurality confirms alternating difference tracks decreasing by 7 and 6.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-38D833F18B84-search-b15-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "13d3fc25edf34eebcfe3a617317f6ecdce6ab84a622a0306ab03a34d81eefde9",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-38D833F18B84-search-b15-judge-2/attempt-01"
+}

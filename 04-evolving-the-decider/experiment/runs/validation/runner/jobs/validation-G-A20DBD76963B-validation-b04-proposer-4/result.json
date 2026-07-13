@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "-425",
+          "-65",
+          "855",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Odd-position subsequence has successive decrements of 5,6,7,8,9; even-position subsequence follows x↦-2x+5.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: quadratic odd stream and affine even stream."
+      },
+      {
+        "answer": [
+          "66",
+          "85",
+          "104",
+          "123",
+          "142"
+        ],
+        "case_id": "V038",
+        "check_summary": "Prefix is consistent with a phase-dependent affine/polynomial continuation; forecast is tentative.",
+        "confidence": 0.18,
+        "rule_summary": "Tentative periodic affine continuation."
+      },
+      {
+        "answer": [
+          "-277",
+          "83",
+          "-190",
+          "-549",
+          "105"
+        ],
+        "case_id": "V039",
+        "check_summary": "Every third term beginning at position 3 follows x↦2x+5; positions 1,4,7,10,13 increase by 7,10,13,16.",
+        "confidence": 0.84,
+        "rule_summary": "Three interleaved streams with affine and polynomial components."
+      },
+      {
+        "answer": [
+          "22",
+          "26",
+          "22",
+          "26",
+          "30"
+        ],
+        "case_id": "V040",
+        "check_summary": "Observed dominant phase pattern repeatedly advances by 4 with periodic resets.",
+        "confidence": 0.31,
+        "rule_summary": "Periodic phase-dependent affine increments."
+      },
+      {
+        "answer": [
+          "38",
+          "68",
+          "53",
+          "17",
+          "62"
+        ],
+        "case_id": "V041",
+        "check_summary": "No unique low-complexity continuation confidently identified from the prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic affine continuation."
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Odd terms are -1,1,3,5,7,9; even terms are 7,4,1,-2,-5,-8.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams with increments +2 and -3."
+      },
+      {
+        "answer": [
+          "-17",
+          "-70",
+          "-18",
+          "-90",
+          "-19"
+        ],
+        "case_id": "V043",
+        "check_summary": "Terms at positions 1,4,7,10,13 form -12,-13,-14,-15,-16; remaining phases are uncertain.",
+        "confidence": 0.19,
+        "rule_summary": "Periodic interleaving with one arithmetic phase."
+      },
+      {
+        "answer": [
+          "-67",
+          "-75",
+          "-88",
+          "-101",
+          "-109"
+        ],
+        "case_id": "V044",
+        "check_summary": "Tentative continuation based on recurring negative-step phases.",
+        "confidence": 0.1,
+        "rule_summary": "Phase-dependent polynomial deltas."
+      },
+      {
+        "answer": [
+          "34",
+          "31",
+          "22",
+          "27",
+          "14"
+        ],
+        "case_id": "V045",
+        "check_summary": "No unique low-complexity continuation confidently identified from the prefix.",
+        "confidence": 0.07,
+        "rule_summary": "Tentative periodic affine continuation."
+      },
+      {
+        "answer": [
+          "-12",
+          "34",
+          "-49",
+          "-61",
+          "-70"
+        ],
+        "case_id": "V046",
+        "check_summary": "Tentative interleaved-stream continuation.",
+        "confidence": 0.09,
+        "rule_summary": "Periodic affine/interleaved model."
+      },
+      {
+        "answer": [
+          "18",
+          "-2",
+          "25",
+          "-14",
+          "32"
+        ],
+        "case_id": "V047",
+        "check_summary": "Tentative interleaved-stream continuation.",
+        "confidence": 0.09,
+        "rule_summary": "Periodic affine/interleaved model."
+      },
+      {
+        "answer": [
+          "-43",
+          "26",
+          "-50",
+          "31",
+          "-57"
+        ],
+        "case_id": "V048",
+        "check_summary": "Tentative continuation from alternating subsequence trends.",
+        "confidence": 0.15,
+        "rule_summary": "Two interleaved phase-dependent streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-A20DBD76963B-validation-b04-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "1a81acf86bf2435b2145a0766d4efd976bdc453f3141e826e9d58b80dd1431bf",
+  "terminal_artifact_relpath": "jobs/validation-G-A20DBD76963B-validation-b04-proposer-4/attempt-01"
+}

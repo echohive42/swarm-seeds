@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "36",
+          "9",
+          "50",
+          "-7",
+          "66"
+        ],
+        "case_id": "S109",
+        "check_summary": "Odd-position subsequence has successive even increments; even positions alternate 9,-7.",
+        "confidence": 0.99,
+        "rule_summary": "Two-way interleave: quadratic odd stream and period-2 even stream."
+      },
+      {
+        "answer": [
+          "12",
+          "12",
+          "-12",
+          "2",
+          "7"
+        ],
+        "case_id": "S110",
+        "check_summary": "Six-phase interleave; constant phases and short arithmetic phase continuations fit the prefix.",
+        "confidence": 0.55,
+        "rule_summary": "Six-way phase interleave with polynomial/arithmetic phase streams."
+      },
+      {
+        "answer": [
+          "53",
+          "68",
+          "83",
+          "98",
+          "113"
+        ],
+        "case_id": "S111",
+        "check_summary": "Terminal values suggest continuation of the apparent arithmetic tail with step 15.",
+        "confidence": 0.2,
+        "rule_summary": "Likely phase-interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "83",
+          "44",
+          "-5",
+          "3",
+          "71"
+        ],
+        "case_id": "S112",
+        "check_summary": "Four-phase interleave; repeated -5 phase and polynomial-looking phase increments.",
+        "confidence": 0.15,
+        "rule_summary": "Four-way lagged polynomial interleave."
+      },
+      {
+        "answer": [
+          "57",
+          "64",
+          "43",
+          "2",
+          "14"
+        ],
+        "case_id": "S113",
+        "check_summary": "No unique low-complexity continuation identified from the visible prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Likely multi-stream polynomial interleave."
+      },
+      {
+        "answer": [
+          "-45",
+          "-24",
+          "29",
+          "-15",
+          "-113"
+        ],
+        "case_id": "S114",
+        "check_summary": "Large oscillating values suggest periodic affine or modular phase updates.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine phase recurrence."
+      },
+      {
+        "answer": [
+          "15",
+          "4",
+          "18",
+          "10",
+          "24"
+        ],
+        "case_id": "S115",
+        "check_summary": "Short phase-separated subsequences show alternating polynomial-style changes.",
+        "confidence": 0.15,
+        "rule_summary": "Four-way interleave of low-degree streams."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd terms decrease by 1; even terms decrease by 4.",
+        "confidence": 1.0,
+        "rule_summary": "Two-way interleave of arithmetic streams."
+      },
+      {
+        "answer": [
+          "36",
+          "31",
+          "3",
+          "2",
+          "50"
+        ],
+        "case_id": "S117",
+        "check_summary": "Phase structure is apparent but continuation is underdetermined from the prefix.",
+        "confidence": 0.1,
+        "rule_summary": "Likely periodic interleave."
+      },
+      {
+        "answer": [
+          "36",
+          "36",
+          "31",
+          "54",
+          "41"
+        ],
+        "case_id": "S118",
+        "check_summary": "Three streams each use increments increasing by 5: +6,+3,+8,+13, then +18.",
+        "confidence": 0.98,
+        "rule_summary": "Three-way interleave of quadratic streams."
+      },
+      {
+        "answer": [
+          "69",
+          "-39",
+          "84",
+          "-91",
+          "112"
+        ],
+        "case_id": "S119",
+        "check_summary": "Alternating and phase-separated differences suggest a higher-order interleave.",
+        "confidence": 0.1,
+        "rule_summary": "Likely multi-stream polynomial/affine interleave."
+      },
+      {
+        "answer": [
+          "67",
+          "115",
+          "79",
+          "91",
+          "43"
+        ],
+        "case_id": "S120",
+        "check_summary": "Terminal blocks contain arithmetic descending runs with differing phase steps.",
+        "confidence": 0.15,
+        "rule_summary": "Periodic phase-specific affine update."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-0130D900270E-search-b10-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "adddbf43829d9901159d1b97ae851d5d24ca17f22755f7037b57d8fbd34a684e",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-0130D900270E-search-b10-proposer-8/attempt-01"
+}

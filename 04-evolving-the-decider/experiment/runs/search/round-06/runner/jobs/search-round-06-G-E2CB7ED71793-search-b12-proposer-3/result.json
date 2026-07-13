@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "-81",
+          "-103",
+          "-125",
+          "-147",
+          "-169"
+        ],
+        "case_id": "S133",
+        "check_summary": "Consistent with a phase-structured arithmetic progression continuation.",
+        "confidence": 0.22,
+        "rule_summary": "Periodic polynomial-delta pattern."
+      },
+      {
+        "answer": [
+          "-8",
+          "-5",
+          "-22",
+          "-19",
+          "-16"
+        ],
+        "case_id": "S134",
+        "check_summary": "Triangularly spaced negative jumps with intervening +3 increments.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "35",
+          "-363",
+          "-14",
+          "40",
+          "-731"
+        ],
+        "case_id": "S135",
+        "check_summary": "Three interleaved streams: +5 arithmetic, doubling negative recurrence, and descending even-step stream.",
+        "confidence": 0.99,
+        "rule_summary": "Three-stream interleave."
+      },
+      {
+        "answer": [
+          "38",
+          "19",
+          "-4",
+          "46",
+          "-11"
+        ],
+        "case_id": "S136",
+        "check_summary": "Phase-structured continuation inferred from interleaved irregular streams.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic affine/linear recurrence."
+      },
+      {
+        "answer": [
+          "-1020",
+          "16",
+          "-2044",
+          "29",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd subsequence follows x↦4x+20; even subsequence has quadratic increments.",
+        "confidence": 0.99,
+        "rule_summary": "Two-stream interleave with affine and polynomial streams."
+      },
+      {
+        "answer": [
+          "4",
+          "16",
+          "-73",
+          "10",
+          "25"
+        ],
+        "case_id": "S138",
+        "check_summary": "Two subsequences show quadratic continuation; middle phase extrapolated from its local delta pattern.",
+        "confidence": 0.42,
+        "rule_summary": "Three-stream interleave."
+      },
+      {
+        "answer": [
+          "20",
+          "7",
+          "64",
+          "6",
+          "121"
+        ],
+        "case_id": "S139",
+        "check_summary": "Phase-structured continuation inferred from interleaved streams.",
+        "confidence": 0.18,
+        "rule_summary": "Three-stream interleave."
+      },
+      {
+        "answer": [
+          "56",
+          "-4",
+          "91",
+          "-3",
+          "177"
+        ],
+        "case_id": "S140",
+        "check_summary": "Phase-structured continuation inferred from interleaved polynomial streams.",
+        "confidence": 0.16,
+        "rule_summary": "Three-stream interleave."
+      },
+      {
+        "answer": [
+          "67",
+          "41",
+          "84",
+          "25",
+          "91"
+        ],
+        "case_id": "S141",
+        "check_summary": "Phase-structured continuation inferred from interleaved affine streams.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-7",
+          "76",
+          "11",
+          "-18",
+          "104"
+        ],
+        "case_id": "S142",
+        "check_summary": "Phase-structured continuation inferred from periodic recurrence behavior.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic second-order recurrence."
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "4",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Odd terms decrease by 2; even terms decrease by 1.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-50",
+          "-50",
+          "-62",
+          "-62",
+          "-74"
+        ],
+        "case_id": "S144",
+        "check_summary": "Tail exhibits repeated -12 phase behavior with periodic alignment.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic polynomial-delta pattern."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-E2CB7ED71793-search-b12-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "ce3eaa84b122a7f189b0e94fce65fbc8cdd324d8b09762f958f2ca4a15040ed7",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-E2CB7ED71793-search-b12-proposer-3/attempt-01"
+}

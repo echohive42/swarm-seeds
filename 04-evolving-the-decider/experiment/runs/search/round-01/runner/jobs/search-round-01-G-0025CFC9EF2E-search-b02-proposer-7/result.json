@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "73",
+          "4",
+          "101"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd positions follow increasing even increments; even positions alternate -5 and 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE: quadratic odd stream and period-2 even stream."
+      },
+      {
+        "answer": [
+          "-8",
+          "35",
+          "-17",
+          "1",
+          "-26"
+        ],
+        "case_id": "S014",
+        "check_summary": "Noisy alternating structure inferred from phase-wise continuation.",
+        "confidence": 0.12,
+        "rule_summary": "Phase-specific recurrence candidate."
+      },
+      {
+        "answer": [
+          "-20",
+          "-30",
+          "-25",
+          "-43",
+          "-14"
+        ],
+        "case_id": "S015",
+        "check_summary": "Phase-separated continuation estimated from the irregular prefix.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE or periodic affine candidate."
+      },
+      {
+        "answer": [
+          "42",
+          "-39",
+          "72",
+          "-65",
+          "87"
+        ],
+        "case_id": "S016",
+        "check_summary": "Continuation estimated under a periodic affine/modular mechanism.",
+        "confidence": 0.08,
+        "rule_summary": "MODAFFINE candidate."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5; even terms decrease by 4.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE: two arithmetic streams."
+      },
+      {
+        "answer": [
+          "-19",
+          "-5",
+          "-26",
+          "-9",
+          "-34"
+        ],
+        "case_id": "S018",
+        "check_summary": "Continuation estimated from phase-separated differences.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic phase-specific polynomial-delta candidate."
+      },
+      {
+        "answer": [
+          "84",
+          "17",
+          "43",
+          "-11",
+          "62"
+        ],
+        "case_id": "S019",
+        "check_summary": "Irregular modular-looking prefix; continuation estimated by modular recurrence.",
+        "confidence": 0.06,
+        "rule_summary": "MODAFFINE candidate."
+      },
+      {
+        "answer": [
+          "-50",
+          "-20",
+          "38",
+          "-74",
+          "-2"
+        ],
+        "case_id": "S020",
+        "check_summary": "Continuation estimated from alternating phase behavior.",
+        "confidence": 0.08,
+        "rule_summary": "Periodic affine candidate."
+      },
+      {
+        "answer": [
+          "-45",
+          "-31",
+          "-70",
+          "-48",
+          "-96"
+        ],
+        "case_id": "S021",
+        "check_summary": "Continuation estimated from phase-specific differences.",
+        "confidence": 0.06,
+        "rule_summary": "PDELTA candidate."
+      },
+      {
+        "answer": [
+          "-42",
+          "18",
+          "-65",
+          "34",
+          "-89"
+        ],
+        "case_id": "S022",
+        "check_summary": "Irregular modular-looking prefix; continuation estimated by modular recurrence.",
+        "confidence": 0.05,
+        "rule_summary": "MODAFFINE candidate."
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-37",
+          "-35"
+        ],
+        "case_id": "S023",
+        "check_summary": "Growing blocks have starts decreasing by 5 and within-block step +2.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK: block lengths grow by one; starts follow an arithmetic rule."
+      },
+      {
+        "answer": [
+          "-34",
+          "-286",
+          "-40",
+          "-454",
+          "-46"
+        ],
+        "case_id": "S024",
+        "check_summary": "Continuation estimated under a phase-specific affine recurrence.",
+        "confidence": 0.06,
+        "rule_summary": "Periodic affine candidate."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-0025CFC9EF2E-search-b02-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "31077aae67ce4fc43984bc91ea7f147706603cf381981d14ff5d5ad8ccb601c9",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-0025CFC9EF2E-search-b02-proposer-7/attempt-01"
+}

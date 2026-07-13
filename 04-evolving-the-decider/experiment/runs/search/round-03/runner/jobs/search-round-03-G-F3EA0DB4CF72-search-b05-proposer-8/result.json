@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b05",
+    "results": [
+      {
+        "answer": [
+          "-1988",
+          "-2743",
+          "-3689",
+          "-4855",
+          "-6272"
+        ],
+        "case_id": "S049",
+        "check_summary": "Fits constant fourth difference -2 across the full prefix.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued quartic polynomial sequence."
+      },
+      {
+        "answer": [
+          "97519",
+          "195057",
+          "390092",
+          "780199",
+          "1560377"
+        ],
+        "case_id": "S050",
+        "check_summary": "Fits phase-periodic affine multiplier 2 with repeating biases.",
+        "confidence": 0.91,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-31163",
+          "31164",
+          "93496",
+          "-93495",
+          "-280481"
+        ],
+        "case_id": "S051",
+        "check_summary": "Fits alternating affine updates 3x+4 and -x+1.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "397",
+          "-440",
+          "486",
+          "-535",
+          "587"
+        ],
+        "case_id": "S052",
+        "check_summary": "Absolute values have successive increments increasing by 3; signs alternate.",
+        "confidence": 0.99,
+        "rule_summary": "Alternating polynomial magnitude sequence."
+      },
+      {
+        "answer": [
+          "-15",
+          "-9",
+          "-17",
+          "-8",
+          "-22"
+        ],
+        "case_id": "S053",
+        "check_summary": "No fully validated continuation; extrapolated from recurring local phase behavior.",
+        "confidence": 0.18,
+        "rule_summary": "Likely periodic phase-specific delta mechanism."
+      },
+      {
+        "answer": [
+          "-63",
+          "-77",
+          "-55",
+          "-70",
+          "-87"
+        ],
+        "case_id": "S054",
+        "check_summary": "Three interleaved arithmetic streams with linearly changing steps.",
+        "confidence": 0.97,
+        "rule_summary": "Three-stream interleaving."
+      },
+      {
+        "answer": [
+          "-3720088",
+          "-11160262",
+          "-33480784",
+          "-100442350",
+          "-301327048"
+        ],
+        "case_id": "S055",
+        "check_summary": "Fits x_next=3x+2 exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "-10400",
+          "-19900",
+          "-37000",
+          "-67000",
+          "-118000"
+        ],
+        "case_id": "S056",
+        "check_summary": "No fully validated continuation; extrapolated from accelerating affine-like tail.",
+        "confidence": 0.12,
+        "rule_summary": "Likely phase-periodic affine or lagged polynomial mechanism."
+      },
+      {
+        "answer": [
+          "27996",
+          "-27993",
+          "-83975",
+          "-167952",
+          "167955"
+        ],
+        "case_id": "S057",
+        "check_summary": "Fits repeating updates 3x+4, 2x-2, and -x+3.",
+        "confidence": 0.99,
+        "rule_summary": "Three-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "59",
+          "63",
+          "68",
+          "72",
+          "77"
+        ],
+        "case_id": "S058",
+        "check_summary": "Alternating increments +5 and +4.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta sequence."
+      },
+      {
+        "answer": [
+          "53",
+          "121",
+          "208",
+          "316",
+          "447"
+        ],
+        "case_id": "S059",
+        "check_summary": "First differences continue with increments increasing by 2.",
+        "confidence": 0.96,
+        "rule_summary": "Polynomial difference sequence."
+      },
+      {
+        "answer": [
+          "-1290",
+          "-2086",
+          "-3376",
+          "-5462",
+          "-8838"
+        ],
+        "case_id": "S060",
+        "check_summary": "Tail differences follow Fibonacci-style addition of prior differences.",
+        "confidence": 0.94,
+        "rule_summary": "Second-order linear recurrence with bias."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-03-G-F3EA0DB4CF72-search-b05-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "d5e4228a5958d10fa40ca81d22c0555551ed900bbab2c9e71b021ba3d138ce55",
+  "terminal_artifact_relpath": "jobs/search-round-03-G-F3EA0DB4CF72-search-b05-proposer-8/attempt-01"
+}

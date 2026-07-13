@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b04",
+    "results": [
+      {
+        "answer": [
+          "-54",
+          "-425",
+          "-65",
+          "855",
+          "-77"
+        ],
+        "case_id": "V037",
+        "check_summary": "Odd subsequence has successive decrements 5 through 9; even subsequence follows x↦-2x+5.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: polynomial odd stream and affine even stream."
+      },
+      {
+        "answer": [
+          "23",
+          "47",
+          "71",
+          "95",
+          "119"
+        ],
+        "case_id": "V038",
+        "check_summary": "Differences form expanding blocks: -24 once followed by +24 five times.",
+        "confidence": 0.94,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "83",
+          "-190",
+          "-277",
+          "105",
+          "-297"
+        ],
+        "case_id": "V039",
+        "check_summary": "Three interleaved streams show polynomial-like phase increments, including a doubling negative-difference stream.",
+        "confidence": 0.72,
+        "rule_summary": "Three polynomial streams interleaved by position."
+      },
+      {
+        "answer": [
+          "22",
+          "26",
+          "30",
+          "26",
+          "30"
+        ],
+        "case_id": "V040",
+        "check_summary": "Three residue-class streams repeat increments 8,4,4.",
+        "confidence": 0.97,
+        "rule_summary": "Three interleaved affine streams."
+      },
+      {
+        "answer": [
+          "61",
+          "28",
+          "34",
+          "57",
+          "42"
+        ],
+        "case_id": "V041",
+        "check_summary": "Prefix is consistent with a periodic modular affine process; exact parameter recovery is uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic affine update modulo a prime."
+      },
+      {
+        "answer": [
+          "11",
+          "-11",
+          "13",
+          "-14",
+          "15"
+        ],
+        "case_id": "V042",
+        "check_summary": "Alternating differences are arithmetic sequences: positive phase decreases by 5 and negative phase increases by 5.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "30",
+          "94",
+          "-17",
+          "49",
+          "-18"
+        ],
+        "case_id": "V043",
+        "check_summary": "Three interleaved streams: one descends by successive integers, one has increments increasing by 5, and one doubles signed differences.",
+        "confidence": 0.98,
+        "rule_summary": "Three polynomial streams interleaved by position."
+      },
+      {
+        "answer": [
+          "94",
+          "71",
+          "48",
+          "25",
+          "143"
+        ],
+        "case_id": "V044",
+        "check_summary": "Negative differences occur in blocks of three while positive block starts grow polynomially.",
+        "confidence": 0.76,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-8",
+          "72",
+          "-18",
+          "-31",
+          "96"
+        ],
+        "case_id": "V045",
+        "check_summary": "Prefix appears modular and phase-dependent; exact continuation is uncertain.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic affine update modulo a prime."
+      },
+      {
+        "answer": [
+          "-24",
+          "18",
+          "-54",
+          "-41",
+          "1"
+        ],
+        "case_id": "V046",
+        "check_summary": "Three phase differences continue as 13,42,-72.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "22",
+          "-4",
+          "20",
+          "18",
+          "28"
+        ],
+        "case_id": "V047",
+        "check_summary": "Prefix appears to use a periodic affine or interleaved rule; continuation is uncertain.",
+        "confidence": 0.13,
+        "rule_summary": "Phase-dependent affine recurrence."
+      },
+      {
+        "answer": [
+          "78",
+          "-49",
+          "30",
+          "99",
+          "-62"
+        ],
+        "case_id": "V048",
+        "check_summary": "Alternating phase differences suggest periodic affine behavior, but exact parameters are uncertain.",
+        "confidence": 0.15,
+        "rule_summary": "Periodic affine update."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-E2CB7ED71793-validation-b04-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "23578253c894a45a3dd1dfe2c5bdd0e4cd3f81e53ecd21955a878132184d9638",
+  "terminal_artifact_relpath": "jobs/validation-G-E2CB7ED71793-validation-b04-proposer-3/attempt-01"
+}

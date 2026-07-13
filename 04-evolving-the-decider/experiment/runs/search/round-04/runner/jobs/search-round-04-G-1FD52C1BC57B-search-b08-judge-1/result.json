@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "24",
+          "27",
+          "20",
+          "23"
+        ],
+        "case_id": "S085",
+        "check_summary": "Repeated +3,+3,+3 followed by a phase-specific reset; plurality supports the replayed reset.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "14",
+          "15",
+          "29",
+          "40",
+          "32"
+        ],
+        "case_id": "S086",
+        "check_summary": "The highest-confidence candidate gives a complete period-3 modular-affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "-44",
+          "-54",
+          "-64",
+          "-74",
+          "-84"
+        ],
+        "case_id": "S087",
+        "check_summary": "Plurality favors continuing the visible terminal arithmetic run with step -10.",
+        "confidence": 0.55,
+        "rule_summary": "Phase-specific arithmetic deltas"
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd-position terms rise by 5 while even-position terms fall by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-48",
+          "88",
+          "27",
+          "-80",
+          "88"
+        ],
+        "case_id": "S089",
+        "check_summary": "Highest-confidence candidate identifies three interleaved polynomial streams.",
+        "confidence": 0.94,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "2",
+          "6",
+          "18",
+          "16",
+          "10"
+        ],
+        "case_id": "S090",
+        "check_summary": "Each next term is three times the previous term modulo 19.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "5",
+          "37",
+          "-167",
+          "22",
+          "44"
+        ],
+        "case_id": "S091",
+        "check_summary": "Three interleaved streams replay with distinct polynomial or affine progressions.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "5",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd subsequence is constant 5; even subsequence decrements successively by increasing integers.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-30",
+          "74",
+          "-67",
+          "111",
+          "-104"
+        ],
+        "case_id": "S093",
+        "check_summary": "No candidate has strong plurality; selected the most structurally specific interleaved continuation.",
+        "confidence": 0.05,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "91",
+          "102",
+          "96",
+          "117",
+          "121"
+        ],
+        "case_id": "S094",
+        "check_summary": "Selected the strongest available candidate for a phase-evolving interleaved continuation.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-29",
+          "-45",
+          "-61",
+          "-77",
+          "-93"
+        ],
+        "case_id": "S095",
+        "check_summary": "Growing arithmetic blocks show steps -4, -8, -12, then -16.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK"
+      },
+      {
+        "answer": [
+          "-8",
+          "112",
+          "-6",
+          "146",
+          "-4"
+        ],
+        "case_id": "S096",
+        "check_summary": "Selected the strongest available alternating phase continuation; evidence remains weak.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-1FD52C1BC57B-search-b08-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "6b93e60871ad075fff363e4baa1a2963f1afa50e84e425bf2d942608c6a7b5a3",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-1FD52C1BC57B-search-b08-judge-1/attempt-01"
+}

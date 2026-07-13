@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-198",
+          "-159",
+          "-239",
+          "-200",
+          "-280"
+        ],
+        "case_id": "S181",
+        "check_summary": "Pattern inferred from alternating phase-dependent differences.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic affine/interleaved continuation."
+      },
+      {
+        "answer": [
+          "38",
+          "60",
+          "34",
+          "65",
+          "52"
+        ],
+        "case_id": "S182",
+        "check_summary": "Candidate continuation from phase-separated polynomial streams.",
+        "confidence": 0.16,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-56",
+          "19",
+          "18",
+          "-152",
+          "31"
+        ],
+        "case_id": "S183",
+        "check_summary": "Three residue streams identified; two quadratic streams and cubic extrapolation for the first.",
+        "confidence": 0.86,
+        "rule_summary": "Three-way interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-14",
+          "-22",
+          "-1023",
+          "-14",
+          "-38"
+        ],
+        "case_id": "S184",
+        "check_summary": "Continuation estimated from phase-specific explosive recurrence behavior.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic affine or interleaved recurrence."
+      },
+      {
+        "answer": [
+          "68",
+          "-2",
+          "88",
+          "-2",
+          "111"
+        ],
+        "case_id": "S185",
+        "check_summary": "Odd-position increments rise by 3; even positions remain constant.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: quadratic odd stream and constant even stream."
+      },
+      {
+        "answer": [
+          "68",
+          "103",
+          "-51",
+          "-9",
+          "33"
+        ],
+        "case_id": "S186",
+        "check_summary": "Difference blocks have repeated positive phases and triangularly spaced negative resets.",
+        "confidence": 0.97,
+        "rule_summary": "Growing-block difference process."
+      },
+      {
+        "answer": [
+          "-177",
+          "-160",
+          "-296",
+          "-278",
+          "-420"
+        ],
+        "case_id": "S187",
+        "check_summary": "Continuation estimated from alternating phase difference families.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-21",
+          "-38",
+          "-55",
+          "-72",
+          "-89"
+        ],
+        "case_id": "S188",
+        "check_summary": "Difference blocks show isolated positive increments followed by increasingly long repeated negative increments.",
+        "confidence": 0.93,
+        "rule_summary": "Growing-block difference process."
+      },
+      {
+        "answer": [
+          "-26",
+          "-22",
+          "-29",
+          "-26",
+          "-32"
+        ],
+        "case_id": "S189",
+        "check_summary": "Alternating differences continue as -8,4,-7,3,-6.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta sequence with alternating arithmetic phases."
+      },
+      {
+        "answer": [
+          "-40",
+          "-58",
+          "-89",
+          "-109",
+          "-151"
+        ],
+        "case_id": "S190",
+        "check_summary": "Continuation estimated from phase-separated delta patterns.",
+        "confidence": 0.15,
+        "rule_summary": "Interleaved affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "34",
+          "21",
+          "-12",
+          "-8",
+          "-27"
+        ],
+        "case_id": "S191",
+        "check_summary": "Continuation estimated from residue-class polynomial streams.",
+        "confidence": 0.17,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-182",
+          "-155",
+          "-208",
+          "-175",
+          "-239"
+        ],
+        "case_id": "S192",
+        "check_summary": "Continuation estimated from alternating high-order phase differences.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic polynomial-delta process."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-EEE6DF66A16A-search-b16-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "3f497268f6535f269b0d03f1f2298a3d133e94d0280007059bff7f39d17cb927",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-EEE6DF66A16A-search-b16-proposer-6/attempt-01"
+}

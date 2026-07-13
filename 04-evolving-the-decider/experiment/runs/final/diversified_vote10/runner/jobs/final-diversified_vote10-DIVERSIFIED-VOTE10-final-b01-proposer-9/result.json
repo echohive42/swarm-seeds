@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b01",
+    "results": [
+      {
+        "answer": [
+          "1211",
+          "1535",
+          "1912",
+          "2346",
+          "2841"
+        ],
+        "case_id": "F001",
+        "check_summary": "Cubic finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-176",
+          "-180",
+          "-189",
+          "-191",
+          "-198"
+        ],
+        "case_id": "F002",
+        "check_summary": "Alternating arithmetic difference phases.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-853138",
+          "-2559412",
+          "5118830",
+          "15356492",
+          "-30712978"
+        ],
+        "case_id": "F003",
+        "check_summary": "Alternating affine updates.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-8254430",
+          "-24763286",
+          "49526574",
+          "148579714",
+          "445739146"
+        ],
+        "case_id": "F004",
+        "check_summary": "Three-phase affine update.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-19",
+          "-40",
+          "-47",
+          "-18",
+          "-44"
+        ],
+        "case_id": "F005",
+        "check_summary": "Three-phase polynomial delta continuation.",
+        "confidence": 0.92,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-19",
+          "-17",
+          "-20",
+          "-18",
+          "-21"
+        ],
+        "case_id": "F006",
+        "check_summary": "Alternating constant deltas.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "30",
+          "8",
+          "30",
+          "-2",
+          "25"
+        ],
+        "case_id": "F007",
+        "check_summary": "Tentative interleaved continuation from paired streams.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-25557",
+          "-37336",
+          "-53050",
+          "-73477",
+          "-99502"
+        ],
+        "case_id": "F008",
+        "check_summary": "Polynomial finite-difference continuation.",
+        "confidence": 0.97,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "778",
+          "1208",
+          "1776",
+          "2507",
+          "3426"
+        ],
+        "case_id": "F009",
+        "check_summary": "Polynomial finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-131",
+          "-1155",
+          "-1315",
+          "-227",
+          "1789"
+        ],
+        "case_id": "F010",
+        "check_summary": "Tentative phase-dependent continuation.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-30037",
+          "60075",
+          "-120149",
+          "240299",
+          "-480597"
+        ],
+        "case_id": "F011",
+        "check_summary": "Constant affine recurrence x -> -2x+1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3377",
+          "-6824",
+          "-10765",
+          "-15194",
+          "-20295"
+        ],
+        "case_id": "F012",
+        "check_summary": "Tentative lagged polynomial continuation.",
+        "confidence": 0.18,
+        "rule_summary": "LIN2"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-diversified_vote10-DIVERSIFIED-VOTE10-final-b01-proposer-9",
+  "outcome": "valid_output",
+  "response_sha256": "6a8a9704cbafee1d102a1a84aa8198d0c055165d07dfcc7b6cd18dcb00e78e69",
+  "terminal_artifact_relpath": "jobs/final-diversified_vote10-DIVERSIFIED-VOTE10-final-b01-proposer-9/attempt-01"
+}

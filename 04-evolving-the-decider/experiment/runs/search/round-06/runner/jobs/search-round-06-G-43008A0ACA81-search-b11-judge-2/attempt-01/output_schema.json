@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "block_id": {
+      "maxLength": 80,
+      "minLength": 1,
+      "type": "string"
+    },
+    "results": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "items": {
+              "pattern": "^(0|-?[1-9][0-9]*)$",
+              "type": "string"
+            },
+            "maxItems": 5,
+            "minItems": 5,
+            "type": "array"
+          },
+          "case_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "check_summary": {
+            "maxLength": 140,
+            "type": "string"
+          },
+          "confidence": {
+            "maximum": 1,
+            "minimum": 0,
+            "type": "number"
+          },
+          "rule_summary": {
+            "maxLength": 180,
+            "type": "string"
+          }
+        },
+        "required": [
+          "case_id",
+          "answer",
+          "confidence",
+          "rule_summary",
+          "check_summary"
+        ],
+        "type": "object"
+      },
+      "maxItems": 12,
+      "minItems": 12,
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "4.0",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "block_id",
+    "results"
+  ],
+  "title": "Swarm Seeds 04 answer block",
+  "type": "object"
+}

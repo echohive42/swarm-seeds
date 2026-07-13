@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b01",
+    "results": [
+      {
+        "answer": [
+          "1288813",
+          "-2577635",
+          "-7732904",
+          "-15465809",
+          "-46397426"
+        ],
+        "case_id": "V001",
+        "check_summary": "Periodic affine phase pattern with period 5; replayed prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE periodic multipliers [2,-3,3,2,-2] with phase biases [-1,18,1,-1,-9]."
+      },
+      {
+        "answer": [
+          "2589",
+          "3652",
+          "4977",
+          "6600",
+          "8223"
+        ],
+        "case_id": "V002",
+        "check_summary": "Constant fourth finite difference of 4.",
+        "confidence": 0.99,
+        "rule_summary": "POLY degree 4."
+      },
+      {
+        "answer": [
+          "43",
+          "47",
+          "50",
+          "54",
+          "57"
+        ],
+        "case_id": "V003",
+        "check_summary": "Alternating increments +3,+4.",
+        "confidence": 0.99,
+        "rule_summary": "POLY/interleaved arithmetic pattern."
+      },
+      {
+        "answer": [
+          "-2590778",
+          "7772327",
+          "-23316977",
+          "69950924",
+          "-209852768"
+        ],
+        "case_id": "V004",
+        "check_summary": "Alternating affine update replayed exactly.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE multiplier -3 with alternating biases +4,-7."
+      },
+      {
+        "answer": [
+          "1727182",
+          "-5181551",
+          "15544648",
+          "-46633949",
+          "139901842"
+        ],
+        "case_id": "V005",
+        "check_summary": "Constant affine update replayed exactly.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE x_next=-3x-5."
+      },
+      {
+        "answer": [
+          "-319",
+          "517",
+          "-674",
+          "875",
+          "-1136"
+        ],
+        "case_id": "V006",
+        "check_summary": "Best-fit periodic linear recurrence extrapolation.",
+        "confidence": 0.22,
+        "rule_summary": "Likely LIN2 or phase-interleaved affine mechanism."
+      },
+      {
+        "answer": [
+          "95",
+          "-159",
+          "252",
+          "-413",
+          "663"
+        ],
+        "case_id": "V007",
+        "check_summary": "First differences follow a second-order signed recurrence.",
+        "confidence": 0.96,
+        "rule_summary": "LIN2 on first differences: d_n=-d_{n-1}+d_{n-2}."
+      },
+      {
+        "answer": [
+          "-15063",
+          "-21095",
+          "-28990",
+          "-39163",
+          "-52088"
+        ],
+        "case_id": "V008",
+        "check_summary": "Constant fifth finite difference of -4.",
+        "confidence": 0.99,
+        "rule_summary": "POLY degree 5."
+      },
+      {
+        "answer": [
+          "-567794",
+          "1375131",
+          "-3331388",
+          "8069955",
+          "-19529296"
+        ],
+        "case_id": "V009",
+        "check_summary": "Alternating-growth affine extrapolation.",
+        "confidence": 0.2,
+        "rule_summary": "Likely MODAFFINE or periodic AFFINE."
+      },
+      {
+        "answer": [
+          "-36",
+          "49",
+          "-58",
+          "71",
+          "-84"
+        ],
+        "case_id": "V010",
+        "check_summary": "Best-fit periodic affine extrapolation.",
+        "confidence": 0.18,
+        "rule_summary": "Likely phase-specific AFFINE or INTERLEAVE."
+      },
+      {
+        "answer": [
+          "95",
+          "-159",
+          "252",
+          "-413",
+          "663"
+        ],
+        "case_id": "V011",
+        "check_summary": "Signed second-order difference recurrence replayed.",
+        "confidence": 0.98,
+        "rule_summary": "LIN2 recurrence on first differences."
+      },
+      {
+        "answer": [
+          "-805",
+          "-1035",
+          "-1304",
+          "-1615",
+          "-1973"
+        ],
+        "case_id": "V012",
+        "check_summary": "Constant third finite difference of -3.",
+        "confidence": 0.99,
+        "rule_summary": "POLY degree 3."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-D5C14232B660-validation-b01-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "69e75c63e42dea8ab89283d59e7aa8d9638c10fa3fd87f0b0f8112c07dae5879",
+  "terminal_artifact_relpath": "jobs/validation-G-D5C14232B660-validation-b01-proposer-4/attempt-01"
+}

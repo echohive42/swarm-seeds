@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "-20",
+          "-15",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "Repeating delta pattern with every third negative delta decreasing by 5.",
+        "confidence": 0.93,
+        "rule_summary": "PDELTA, phase-periodic deltas."
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Even subsequence has increments increasing by 4; odd subsequence multiplies by -2.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of quadratic and geometric-affine streams."
+      },
+      {
+        "answer": [
+          "-11",
+          "39",
+          "7",
+          "-12",
+          "56"
+        ],
+        "case_id": "S159",
+        "check_summary": "Extrapolation from phase-separated polynomial-like subsequences.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE, likely phase-specific streams."
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Even terms increase by 2 and odd terms increase by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-11",
+          "39",
+          "7",
+          "-12",
+          "56"
+        ],
+        "case_id": "S161",
+        "check_summary": "Three interleaved streams: phase 0 increments by successive integers, phase 1 by successive integers, phase 2 by increments increasing by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "22",
+          "10",
+          "17",
+          "14",
+          "30"
+        ],
+        "case_id": "S162",
+        "check_summary": "Phase-separated continuation under a periodic polynomial-delta interpretation.",
+        "confidence": 0.16,
+        "rule_summary": "PDELTA, phase-periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "5",
+          "-362",
+          "5",
+          "6",
+          "-730"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three interleaved streams: descending quadratic phase, consecutive integers, and a doubling-difference negative stream.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of three streams."
+      },
+      {
+        "answer": [
+          "-6",
+          "42",
+          "-18",
+          "30",
+          "66"
+        ],
+        "case_id": "S164",
+        "check_summary": "Continuation estimated from phase-specific bounded recurrence behavior.",
+        "confidence": 0.12,
+        "rule_summary": "MODAFFINE, periodic affine update modulo a prime."
+      },
+      {
+        "answer": [
+          "-16",
+          "-111",
+          "49",
+          "-32",
+          "-87"
+        ],
+        "case_id": "S165",
+        "check_summary": "Phase-separated extrapolation from the observed irregular interleaved streams.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE, likely polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "25",
+          "19",
+          "135",
+          "20",
+          "183"
+        ],
+        "case_id": "S166",
+        "check_summary": "Phase 0 alternates -21 and 19; phase 1 has quadratic increments; phase 2 extrapolated from its phase pattern.",
+        "confidence": 0.57,
+        "rule_summary": "INTERLEAVE of three phase-specific streams."
+      },
+      {
+        "answer": [
+          "-48",
+          "-48",
+          "-65",
+          "-82",
+          "-99"
+        ],
+        "case_id": "S167",
+        "check_summary": "Recent phase pattern shows a constant -17 progression on the relevant subsequence.",
+        "confidence": 0.14,
+        "rule_summary": "PDELTA or INTERLEAVE with phase-specific affine behavior."
+      },
+      {
+        "answer": [
+          "-10",
+          "22",
+          "54",
+          "86",
+          "118"
+        ],
+        "case_id": "S168",
+        "check_summary": "Growing blocks have steps 0, 8, 16, 24; next block starts at -10 with step 32.",
+        "confidence": 0.86,
+        "rule_summary": "GROWBLOCK with polynomial block starts and steps."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-A20DBD76963B-search-b14-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "7c7eb624746696eba07015bc46241a4e34a18948b56440c6ea66c185a52d1f77",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-A20DBD76963B-search-b14-proposer-7/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "-20",
+          "-13",
+          "-7",
+          "-2",
+          "4"
+        ],
+        "case_id": "F013",
+        "check_summary": "Best-fit periodic/interleaved extrapolation; low certainty.",
+        "confidence": 0.12,
+        "rule_summary": "Unresolved periodic phase model."
+      },
+      {
+        "answer": [
+          "167",
+          "89",
+          "192",
+          "422",
+          "215"
+        ],
+        "case_id": "F014",
+        "check_summary": "Cubic phase extrapolation across three residue classes.",
+        "confidence": 0.1,
+        "rule_summary": "Period-3 polynomial phase interpolation."
+      },
+      {
+        "answer": [
+          "-4",
+          "-1",
+          "-2",
+          "-8",
+          "-3"
+        ],
+        "case_id": "F015",
+        "check_summary": "Best-fit interleaved phase extrapolation; low certainty.",
+        "confidence": 0.1,
+        "rule_summary": "Unresolved interleaved polynomial model."
+      },
+      {
+        "answer": [
+          "218",
+          "-66",
+          "-30",
+          "-30",
+          "436"
+        ],
+        "case_id": "F016",
+        "check_summary": "Phase-delta continuation inferred from repeated delta runs.",
+        "confidence": 0.14,
+        "rule_summary": "Periodic polynomial-delta update."
+      },
+      {
+        "answer": [
+          "34",
+          "-7",
+          "29",
+          "48",
+          "-19"
+        ],
+        "case_id": "F017",
+        "check_summary": "Best-fit periodic phase extrapolation; low certainty.",
+        "confidence": 0.1,
+        "rule_summary": "Unresolved interleaved phase model."
+      },
+      {
+        "answer": [
+          "-7",
+          "25",
+          "-9",
+          "28",
+          "-11"
+        ],
+        "case_id": "F018",
+        "check_summary": "Odd terms decrease by 2; even terms increase by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "71",
+          "-12",
+          "97",
+          "15",
+          "127"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd subsequence has successive differences 2,6,10,14,18; evens alternate fixed values.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved polynomial and constant streams."
+      },
+      {
+        "answer": [
+          "-122",
+          "164",
+          "-180",
+          "310",
+          "-454"
+        ],
+        "case_id": "F020",
+        "check_summary": "Best-fit periodic affine extrapolation; low certainty.",
+        "confidence": 0.1,
+        "rule_summary": "Unresolved phase-affine model."
+      },
+      {
+        "answer": [
+          "34",
+          "-6",
+          "29",
+          "48",
+          "-7"
+        ],
+        "case_id": "F021",
+        "check_summary": "Period-3 phase trends extrapolated independently.",
+        "confidence": 0.86,
+        "rule_summary": "Three interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-67",
+          "-46",
+          "-198",
+          "-78",
+          "-19"
+        ],
+        "case_id": "F022",
+        "check_summary": "Best-fit periodic second-order extrapolation; low certainty.",
+        "confidence": 0.1,
+        "rule_summary": "Unresolved phase-linear recurrence."
+      },
+      {
+        "answer": [
+          "16",
+          "21",
+          "6",
+          "6",
+          "16"
+        ],
+        "case_id": "F023",
+        "check_summary": "Period-3 phase deltas extrapolated polynomially.",
+        "confidence": 0.45,
+        "rule_summary": "Three interleaved polynomial-delta streams."
+      },
+      {
+        "answer": [
+          "84",
+          "107",
+          "26",
+          "45",
+          "120"
+        ],
+        "case_id": "F024",
+        "check_summary": "Four phase streams show polynomially changing increments.",
+        "confidence": 0.72,
+        "rule_summary": "Period-4 interleaved polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-evolved_champion-G-A20DBD76963B-final-b02-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "91def68042ea62f9a36fba5db1cb241b7d28457465e960089267d41906a01f21",
+  "terminal_artifact_relpath": "jobs/final-evolved_champion-G-A20DBD76963B-final-b02-proposer-6/attempt-01"
+}

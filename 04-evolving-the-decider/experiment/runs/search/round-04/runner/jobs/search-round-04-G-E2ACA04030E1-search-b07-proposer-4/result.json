@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating first differences -4,-3 replay the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta rule."
+      },
+      {
+        "answer": [
+          "-9359",
+          "15142",
+          "-24501",
+          "39647",
+          "-64149"
+        ],
+        "case_id": "S074",
+        "check_summary": "Alternating-sign growth pattern extrapolated from the full prefix.",
+        "confidence": 0.35,
+        "rule_summary": "Periodic affine/linear recurrence."
+      },
+      {
+        "answer": [
+          "8",
+          "6",
+          "8",
+          "10",
+          "8"
+        ],
+        "case_id": "S075",
+        "check_summary": "Interleaved irregular streams; extrapolation remains weak.",
+        "confidence": 0.2,
+        "rule_summary": "Interleave hypothesis."
+      },
+      {
+        "answer": [
+          "-14373",
+          "-21190",
+          "-30098",
+          "-41132",
+          "-54455"
+        ],
+        "case_id": "S076",
+        "check_summary": "Accelerating negative differences extrapolated from the prefix.",
+        "confidence": 0.25,
+        "rule_summary": "Periodic polynomial-delta rule."
+      },
+      {
+        "answer": [
+          "-4059",
+          "-9785",
+          "-23582",
+          "-56865",
+          "-137101"
+        ],
+        "case_id": "S077",
+        "check_summary": "Approximate exponential negative growth extrapolated.",
+        "confidence": 0.25,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Exact recurrence x[n]=−3x[n−1]+5 from the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Affine update."
+      },
+      {
+        "answer": [
+          "78",
+          "69",
+          "101",
+          "119",
+          "161"
+        ],
+        "case_id": "S079",
+        "check_summary": "Interleaved/periodic difference pattern extrapolated weakly.",
+        "confidence": 0.2,
+        "rule_summary": "Interleave hypothesis."
+      },
+      {
+        "answer": [
+          "-408434",
+          "1225530",
+          "-3676586",
+          "11029794",
+          "-33089378"
+        ],
+        "case_id": "S080",
+        "check_summary": "Alternating high-growth affine pattern extrapolated from the prefix.",
+        "confidence": 0.3,
+        "rule_summary": "Phase-specific affine update."
+      },
+      {
+        "answer": [
+          "-152374",
+          "304746",
+          "-609494",
+          "1218986",
+          "-2437974"
+        ],
+        "case_id": "S081",
+        "check_summary": "Exact alternating affine rule with multipliers -2 and biases ±2.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Differences are successive negative squares.",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial delta rule."
+      },
+      {
+        "answer": [
+          "-2688",
+          "-3824",
+          "-5289",
+          "-7101",
+          "-9280"
+        ],
+        "case_id": "S083",
+        "check_summary": "Accelerating negative differences extrapolated from the prefix.",
+        "confidence": 0.3,
+        "rule_summary": "Polynomial-delta rule."
+      },
+      {
+        "answer": [
+          "351142",
+          "-844029",
+          "2025669",
+          "-4861614",
+          "11667867"
+        ],
+        "case_id": "S084",
+        "check_summary": "Alternating-sign multiplicative growth extrapolated.",
+        "confidence": 0.3,
+        "rule_summary": "Periodic affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-E2ACA04030E1-search-b07-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "4597fc02f49149416efbb53c70c06d8d21476dd14c9ef15cafedafe5f6a52c00",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-E2ACA04030E1-search-b07-proposer-4/attempt-01"
+}

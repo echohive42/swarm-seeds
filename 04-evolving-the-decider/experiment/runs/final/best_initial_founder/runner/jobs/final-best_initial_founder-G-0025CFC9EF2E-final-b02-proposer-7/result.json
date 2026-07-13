@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "1",
+          "-15",
+          "-7",
+          "-2",
+          "-30"
+        ],
+        "case_id": "F013",
+        "check_summary": "Six-phase affine streams fit the full prefix.",
+        "confidence": 0.78,
+        "rule_summary": "MODAFFINE-like periodic phase updates."
+      },
+      {
+        "answer": [
+          "62",
+          "34",
+          "29",
+          "54",
+          "18"
+        ],
+        "case_id": "F014",
+        "check_summary": "Periodic interleaved affine explanation selected.",
+        "confidence": 0.28,
+        "rule_summary": "INTERLEAVE with phase-specific affine streams."
+      },
+      {
+        "answer": [
+          "9",
+          "17",
+          "-2",
+          "10",
+          "-1"
+        ],
+        "case_id": "F015",
+        "check_summary": "Three-phase interleaving selected from prefix structure.",
+        "confidence": 0.24,
+        "rule_summary": "INTERLEAVE of short polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-73",
+          "-95",
+          "-117",
+          "-139",
+          "-161"
+        ],
+        "case_id": "F016",
+        "check_summary": "Tail arithmetic phase continuation selected.",
+        "confidence": 0.31,
+        "rule_summary": "PDELTA with periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "58",
+          "87",
+          "95",
+          "107",
+          "128"
+        ],
+        "case_id": "F017",
+        "check_summary": "Periodic interleaved continuation selected.",
+        "confidence": 0.22,
+        "rule_summary": "INTERLEAVE of affine streams."
+      },
+      {
+        "answer": [
+          "-7",
+          "25",
+          "-9",
+          "28",
+          "-11"
+        ],
+        "case_id": "F018",
+        "check_summary": "Odd and even subsequences are arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "71",
+          "15",
+          "97",
+          "-12",
+          "131"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd subsequence has quadratic increments; even subsequence alternates.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of a quadratic stream and a periodic affine stream."
+      },
+      {
+        "answer": [
+          "-24",
+          "-125",
+          "176",
+          "-232",
+          "-48"
+        ],
+        "case_id": "F020",
+        "check_summary": "Periodic affine phase continuation selected.",
+        "confidence": 0.25,
+        "rule_summary": "MODAFFINE with repeating phase updates."
+      },
+      {
+        "answer": [
+          "27",
+          "-1",
+          "32",
+          "29",
+          "38"
+        ],
+        "case_id": "F021",
+        "check_summary": "Interleaved phase continuation selected.",
+        "confidence": 0.23,
+        "rule_summary": "INTERLEAVE of polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-18",
+          "-6",
+          "-30",
+          "14",
+          "-42"
+        ],
+        "case_id": "F022",
+        "check_summary": "Periodic modular-affine continuation selected.",
+        "confidence": 0.2,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "21",
+          "26",
+          "31",
+          "36",
+          "41"
+        ],
+        "case_id": "F023",
+        "check_summary": "Growing arithmetic blocks fit the complete prefix.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK with successive arithmetic blocks."
+      },
+      {
+        "answer": [
+          "39",
+          "54",
+          "69",
+          "32",
+          "59"
+        ],
+        "case_id": "F024",
+        "check_summary": "Growing phase/block continuation selected.",
+        "confidence": 0.22,
+        "rule_summary": "GROWBLOCK with polynomial starts and steps."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-best_initial_founder-G-0025CFC9EF2E-final-b02-proposer-7",
+  "outcome": "valid_output",
+  "response_sha256": "5fab444e8b4c01fd7bc6571fabca0b803109d5c2ed6ced235aae947ce0c4d9de",
+  "terminal_artifact_relpath": "jobs/final-best_initial_founder-G-0025CFC9EF2E-final-b02-proposer-7/attempt-01"
+}

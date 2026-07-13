@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-445",
+          "-499",
+          "-569",
+          "-639",
+          "-721"
+        ],
+        "case_id": "S145",
+        "check_summary": "Periodic three-phase differences replay the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA with phase-specific linear deltas."
+      },
+      {
+        "answer": [
+          "93",
+          "123",
+          "129",
+          "125",
+          "178"
+        ],
+        "case_id": "S146",
+        "check_summary": "Periodic three-phase polynomial differences fit the prefix.",
+        "confidence": 0.82,
+        "rule_summary": "PDELTA with phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-10922",
+          "21846",
+          "-43690",
+          "87382",
+          "-174762"
+        ],
+        "case_id": "S147",
+        "check_summary": "Every term satisfies x[n]=-2*x[n-1]+2.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE constant update."
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "327"
+        ],
+        "case_id": "S148",
+        "check_summary": "Odd and even differences are arithmetic with steps 6 and 4.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two quadratic streams."
+      },
+      {
+        "answer": [
+          "3560",
+          "4779",
+          "6288",
+          "8130",
+          "10351"
+        ],
+        "case_id": "S149",
+        "check_summary": "Fourth differences are constant at 3.",
+        "confidence": 1.0,
+        "rule_summary": "POLY quartic."
+      },
+      {
+        "answer": [
+          "-6",
+          "-4",
+          "-8",
+          "-6",
+          "-10"
+        ],
+        "case_id": "S150",
+        "check_summary": "Two interleaved arithmetic streams continue linearly.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-3920",
+          "-6348",
+          "-10274",
+          "-16629",
+          "-26909"
+        ],
+        "case_id": "S151",
+        "check_summary": "Second-order recurrence with alternating biases -6 and -7 fits the suffix.",
+        "confidence": 0.96,
+        "rule_summary": "LIN2 with phase-specific periodic bias."
+      },
+      {
+        "answer": [
+          "-15100",
+          "-23600",
+          "-36700",
+          "-57200",
+          "-89100"
+        ],
+        "case_id": "S152",
+        "check_summary": "Exponential-growth continuation estimated from the apparent registered recurrence family.",
+        "confidence": 0.25,
+        "rule_summary": "LIN2 candidate with periodic bias; continuation uncertain."
+      },
+      {
+        "answer": [
+          "-2613",
+          "-4231",
+          "-6849",
+          "-11085",
+          "-17939"
+        ],
+        "case_id": "S153",
+        "check_summary": "x[n]=x[n-1]+x[n-2]-5 exactly fits.",
+        "confidence": 1.0,
+        "rule_summary": "LIN2 constant-bias recurrence."
+      },
+      {
+        "answer": [
+          "-1244",
+          "-1546",
+          "-1908",
+          "-2335",
+          "-2832"
+        ],
+        "case_id": "S154",
+        "check_summary": "Successive difference curvature continues with constant fourth difference after the initial transient.",
+        "confidence": 0.9,
+        "rule_summary": "POLY-like PDELTA continuation."
+      },
+      {
+        "answer": [
+          "533635",
+          "-1067265",
+          "-2134529",
+          "4269051",
+          "-8538097"
+        ],
+        "case_id": "S155",
+        "check_summary": "Three-phase affine updates replay the prefix.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE with period-three multipliers and biases."
+      },
+      {
+        "answer": [
+          "136533",
+          "273068",
+          "546133",
+          "1092268",
+          "2184533"
+        ],
+        "case_id": "S156",
+        "check_summary": "Alternating affine update 2x-3, 2x+2 fits exactly.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE with period-two bias."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-38D833F18B84-search-b13-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "94eb96df498630b0b1c978da84b13613f50851bd7588624be855b1041a7d7ae4",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-38D833F18B84-search-b13-proposer-3/attempt-01"
+}

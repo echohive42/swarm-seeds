@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b01",
+    "results": [
+      {
+        "answer": [
+          "30",
+          "10",
+          "5",
+          "25",
+          "-1"
+        ],
+        "case_id": "S001",
+        "check_summary": "Periodic phase deltas replay the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "Period-3 polynomial delta updates."
+      },
+      {
+        "answer": [
+          "2713",
+          "3755",
+          "5066",
+          "6688",
+          "8468"
+        ],
+        "case_id": "S002",
+        "check_summary": "Higher differences continue the established polynomial pattern.",
+        "confidence": 0.91,
+        "rule_summary": "Polynomial delta sequence with linear-growth second differences."
+      },
+      {
+        "answer": [
+          "-218",
+          "234",
+          "-255",
+          "271",
+          "-292"
+        ],
+        "case_id": "S003",
+        "check_summary": "Odd and even subsequences each advance linearly.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-129",
+          "-203",
+          "-296",
+          "-410",
+          "-539"
+        ],
+        "case_id": "S004",
+        "check_summary": "Finite differences continue with successive odd decrements.",
+        "confidence": 0.98,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "3319238",
+          "1106415",
+          "-19915450",
+          "-6638481",
+          "119492678"
+        ],
+        "case_id": "S005",
+        "check_summary": "Odd and even lag-2 streams follow affine updates.",
+        "confidence": 0.99,
+        "rule_summary": "Lag-2 affine recurrence with phase-specific biases."
+      },
+      {
+        "answer": [
+          "-129",
+          "-146",
+          "-146",
+          "-180",
+          "-184"
+        ],
+        "case_id": "S006",
+        "check_summary": "Continuation estimated from recurring phase structure.",
+        "confidence": 0.28,
+        "rule_summary": "Periodic phase-specific delta recurrence."
+      },
+      {
+        "answer": [
+          "-12864",
+          "-19024",
+          "-27120",
+          "-37056",
+          "-48960"
+        ],
+        "case_id": "S007",
+        "check_summary": "Continuation estimated from the observed growing-block pattern.",
+        "confidence": 0.31,
+        "rule_summary": "Growing polynomial blocks."
+      },
+      {
+        "answer": [
+          "-797163",
+          "-2391486",
+          "-7174455",
+          "-21523362",
+          "-64570083"
+        ],
+        "case_id": "S008",
+        "check_summary": "Each term equals three times the previous term plus three.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence a(n)=3a(n-1)+3."
+      },
+      {
+        "answer": [
+          "-3094",
+          "-11336",
+          "-41453",
+          "-151559",
+          "-553990"
+        ],
+        "case_id": "S009",
+        "check_summary": "Continuation estimated from the apparent phase-affine growth.",
+        "confidence": 0.34,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "17",
+          "15",
+          "19",
+          "17",
+          "21"
+        ],
+        "case_id": "S010",
+        "check_summary": "Alternating differences are +2 and -2.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 affine update."
+      },
+      {
+        "answer": [
+          "-2230996",
+          "5371654",
+          "-12933714",
+          "31161038",
+          "-75066358"
+        ],
+        "case_id": "S011",
+        "check_summary": "Continuation estimated from alternating affine growth.",
+        "confidence": 0.35,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "37771",
+          "113309",
+          "-113304",
+          "-226613",
+          "-679843"
+        ],
+        "case_id": "S012",
+        "check_summary": "Every third term follows one of three affine phase updates.",
+        "confidence": 0.99,
+        "rule_summary": "Period-3 lagged affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-1EB09860ED89-search-b01-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "4dae25887d2b0e7f7df4860e69b2b8e5bf3431f4656c123a891159a9303a8533",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-1EB09860ED89-search-b01-proposer-3/attempt-01"
+}

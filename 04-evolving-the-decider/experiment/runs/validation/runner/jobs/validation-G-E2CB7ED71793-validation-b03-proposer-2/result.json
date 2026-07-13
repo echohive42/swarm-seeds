@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b03",
+    "results": [
+      {
+        "answer": [
+          "-4118667",
+          "12356004",
+          "-37068009",
+          "111204030",
+          "-333612087"
+        ],
+        "case_id": "V025",
+        "check_summary": "Matches x_next=-3x+3.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE recurrence with constant multiplier and bias."
+      },
+      {
+        "answer": [
+          "-2885",
+          "-4498",
+          "-6585",
+          "-9231",
+          "-12547"
+        ],
+        "case_id": "V026",
+        "check_summary": "Tail extrapolation from apparent finite-difference structure.",
+        "confidence": 0.28,
+        "rule_summary": "PDELTA with polynomially evolving differences."
+      },
+      {
+        "answer": [
+          "-1950",
+          "3904",
+          "-7790",
+          "15584",
+          "-31150"
+        ],
+        "case_id": "V027",
+        "check_summary": "Low-confidence extrapolation of alternating growth pattern.",
+        "confidence": 0.12,
+        "rule_summary": "INTERLEAVE or periodic affine-like mechanism."
+      },
+      {
+        "answer": [
+          "47310",
+          "-94664",
+          "189282",
+          "-378612",
+          "757122"
+        ],
+        "case_id": "V028",
+        "check_summary": "Matches alternating affine update with phase biases decreasing by 2.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE periodic phase recurrence."
+      },
+      {
+        "answer": [
+          "12807",
+          "21351",
+          "32981",
+          "48857",
+          "69437"
+        ],
+        "case_id": "V029",
+        "check_summary": "Low-confidence nonlinear tail extrapolation.",
+        "confidence": 0.14,
+        "rule_summary": "PDELTA with polynomially evolving increments."
+      },
+      {
+        "answer": [
+          "18",
+          "16",
+          "19",
+          "17",
+          "20"
+        ],
+        "case_id": "V030",
+        "check_summary": "Alternating +1 and -2 pattern.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-559875",
+          "-1679618",
+          "-3359235",
+          "-10077698",
+          "-20155395"
+        ],
+        "case_id": "V031",
+        "check_summary": "Matches alternating multipliers 2 and 3 with fixed phase biases.",
+        "confidence": 0.98,
+        "rule_summary": "AFFINE periodic phase recurrence."
+      },
+      {
+        "answer": [
+          "11934111",
+          "-35802339",
+          "71604684",
+          "-214814049",
+          "644442141"
+        ],
+        "case_id": "V032",
+        "check_summary": "Matches repeating -3,-3,-2 multiplier phases with biases.",
+        "confidence": 0.91,
+        "rule_summary": "AFFINE periodic phase recurrence."
+      },
+      {
+        "answer": [
+          "963",
+          "-1566",
+          "2526",
+          "-4095",
+          "6618"
+        ],
+        "case_id": "V033",
+        "check_summary": "Signed Fibonacci-like difference magnitudes.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 recurrence inducing Fibonacci differences."
+      },
+      {
+        "answer": [
+          "-8",
+          "12",
+          "-4",
+          "27",
+          "-5"
+        ],
+        "case_id": "V034",
+        "check_summary": "Low-confidence extrapolation from irregular interleaved subsequences.",
+        "confidence": 0.1,
+        "rule_summary": "INTERLEAVE of polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "57",
+          "74",
+          "46",
+          "50",
+          "74"
+        ],
+        "case_id": "V035",
+        "check_summary": "Interleaved subsequences with alternating polynomial increments.",
+        "confidence": 0.72,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      },
+      {
+        "answer": [
+          "815",
+          "1060",
+          "1351",
+          "1692",
+          "2087"
+        ],
+        "case_id": "V036",
+        "check_summary": "Finite differences show cubic growth.",
+        "confidence": 0.99,
+        "rule_summary": "POLY cubic integer-valued sequence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-E2CB7ED71793-validation-b03-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "1183dd2d977ca29bea98d24001dd23b73832883790edd3fe87cc1a28e616b048",
+  "terminal_artifact_relpath": "jobs/validation-G-E2CB7ED71793-validation-b03-proposer-2/attempt-01"
+}

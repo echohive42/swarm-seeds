@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b09",
+    "results": [
+      {
+        "answer": [
+          "-126686",
+          "253370",
+          "-506746",
+          "1013490",
+          "-2026982"
+        ],
+        "case_id": "S097",
+        "check_summary": "Low-confidence periodic affine extrapolation.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative phase-periodic affine continuation."
+      },
+      {
+        "answer": [
+          "-1571",
+          "-3277",
+          "-6943",
+          "-14757",
+          "-31351"
+        ],
+        "case_id": "S098",
+        "check_summary": "Low-confidence continuation.",
+        "confidence": 0.08,
+        "rule_summary": "Tentative periodic recurrence."
+      },
+      {
+        "answer": [
+          "-703",
+          "-831",
+          "-961",
+          "-1088",
+          "-1207"
+        ],
+        "case_id": "S099",
+        "check_summary": "Finite differences show continuing cubic third-difference pattern.",
+        "confidence": 0.84,
+        "rule_summary": "Polynomial finite-difference continuation."
+      },
+      {
+        "answer": [
+          "-4915830",
+          "14747487",
+          "-44242464",
+          "132727395",
+          "-398182188"
+        ],
+        "case_id": "S100",
+        "check_summary": "Verified x(n+1)=-3x(n)-3.",
+        "confidence": 0.99,
+        "rule_summary": "Constant affine recurrence."
+      },
+      {
+        "answer": [
+          "-8259",
+          "-13922",
+          "-22065",
+          "-33390",
+          "-44715"
+        ],
+        "case_id": "S101",
+        "check_summary": "Low-confidence finite-difference extrapolation.",
+        "confidence": 0.19,
+        "rule_summary": "Tentative polynomial continuation."
+      },
+      {
+        "answer": [
+          "1148",
+          "1432",
+          "1776",
+          "2185",
+          "2664"
+        ],
+        "case_id": "S102",
+        "check_summary": "Verified linearly increasing second differences after initial terms.",
+        "confidence": 0.93,
+        "rule_summary": "Cubic polynomial continuation."
+      },
+      {
+        "answer": [
+          "142",
+          "138",
+          "131",
+          "127",
+          "117"
+        ],
+        "case_id": "S103",
+        "check_summary": "Tentative repeating difference motif.",
+        "confidence": 0.31,
+        "rule_summary": "Periodic difference continuation."
+      },
+      {
+        "answer": [
+          "-36",
+          "-41",
+          "-44",
+          "-49",
+          "-52"
+        ],
+        "case_id": "S104",
+        "check_summary": "Verified alternating differences -3,-5.",
+        "confidence": 0.99,
+        "rule_summary": "Alternating arithmetic increments."
+      },
+      {
+        "answer": [
+          "-39990",
+          "39995",
+          "79981",
+          "239946",
+          "-239941"
+        ],
+        "case_id": "S105",
+        "check_summary": "Verified repeating three-phase affine block.",
+        "confidence": 0.98,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "-1051275",
+          "-2871193",
+          "-7844057",
+          "-21432247",
+          "-58574601"
+        ],
+        "case_id": "S106",
+        "check_summary": "Low-confidence extrapolation from apparent phase recurrence.",
+        "confidence": 0.14,
+        "rule_summary": "Tentative periodic affine continuation."
+      },
+      {
+        "answer": [
+          "16",
+          "19",
+          "27",
+          "32",
+          "43"
+        ],
+        "case_id": "S107",
+        "check_summary": "Low-confidence periodic difference continuation.",
+        "confidence": 0.11,
+        "rule_summary": "Tentative phase-specific increment pattern."
+      },
+      {
+        "answer": [
+          "-15",
+          "42",
+          "43",
+          "49",
+          "50"
+        ],
+        "case_id": "S108",
+        "check_summary": "Low-confidence periodic continuation.",
+        "confidence": 0.09,
+        "rule_summary": "Tentative phase-specific affine/polynomial rule."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-3373FE74E208-search-b09-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "8ed90343bc1a9f998ea30b40e7f04f579180db8de8f85affa2aa4c4b2a4d80e6",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-3373FE74E208-search-b09-proposer-8/attempt-01"
+}

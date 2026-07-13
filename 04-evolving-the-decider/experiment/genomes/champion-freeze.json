@@ -1,0 +1,297 @@
+{
+  "artifact_sha256": "6bfc7824e76270e6957addbc64f0c5cfb2d4852f32b2c3e9c9afd20a2d4cd850",
+  "best_founder_genome": {
+    "genes": {
+      "decision_system_id": "vote_10p",
+      "judge_policy_id": "plurality_preserving",
+      "worker_lens_ids": [
+        "generalist",
+        "generalist",
+        "generalist",
+        "generalist",
+        "generalist",
+        "generalist",
+        "generalist",
+        "generalist",
+        "generalist",
+        "generalist"
+      ]
+    },
+    "genome_id": "G-0025CFC9EF2E",
+    "genome_sha256": "0025cfc9ef2ee3d344d081e1e2ce7d21c34336b77eb3d442437a803b0db0e2af",
+    "lineage": {
+      "crossover_sources": null,
+      "designated_parent_slot": "S01",
+      "founder_id": "F01",
+      "mutation": null,
+      "operation": "founder",
+      "parents": [],
+      "round": 0
+    }
+  },
+  "best_founder_slot_id": "S01",
+  "catalog_file_sha256": "7e0f6abb1774aaf904353195b2b24cc5572db50261b5e6329dd11f8e74fcae4a",
+  "champion_fitness": {
+    "block_exact": {
+      "validation-b01": 9,
+      "validation-b02": 3,
+      "validation-b03": 7,
+      "validation-b04": 3,
+      "validation-b05": 8,
+      "validation-b06": 3
+    },
+    "calls": 60,
+    "case_count": 72,
+    "exact_cases": 33,
+    "fitness_key": [
+      33,
+      3,
+      0,
+      189,
+      72
+    ],
+    "format_valid": 72,
+    "harmful_overrides": 0,
+    "term_correct": 189,
+    "weakest_block_exact": 3
+  },
+  "champion_genome": {
+    "genes": {
+      "decision_system_id": "verified_7p2v1j",
+      "judge_policy_id": "minority_aware",
+      "worker_lens_ids": [
+        "generalist",
+        "recurrences",
+        "recurrences",
+        "modular",
+        "simplicity",
+        "generalist",
+        "generalist",
+        "generalist",
+        "audit",
+        "generalist"
+      ]
+    },
+    "genome_id": "G-A20DBD76963B",
+    "genome_sha256": "a20dbd76963bd8b6f1deb1cd5222b8190ea71f0941b7aa263a63a15bd4622187",
+    "lineage": {
+      "crossover_sources": null,
+      "designated_parent_slot": "S03",
+      "founder_id": null,
+      "mutation": {
+        "attempt": 0,
+        "from": "dual_8p2j",
+        "locus": "decision_system_id",
+        "to": "verified_7p2v1j"
+      },
+      "operation": "one_gene_mutation",
+      "parents": [
+        "G-3373FE74E208"
+      ],
+      "round": 7
+    }
+  },
+  "champion_slot_id": "S03",
+  "evolution_seed": "swarm-seeds-04-evolution-v1",
+  "experiment_id": "swarm-seeds-04",
+  "freeze_status": "validation_champion_frozen_before_hidden_final_answers",
+  "genome_hash_tie_break": "lexicographically smaller canonical genome_sha256",
+  "parent_slot_count": 6,
+  "provider_reasoning_effort": "low",
+  "public_condition_label": "Light reasoning",
+  "round_count": 8,
+  "schema_version": "experiment-04-champion-freeze-v1",
+  "selection_rule": [
+    "more exact next-five cases",
+    "more exact cases on the weakest block",
+    "fewer harmful overrides of a correct proposer plurality",
+    "more individually correct terms",
+    "more format-valid cases"
+  ],
+  "source_answers_file_sha256": "6381be8028ceb7b9c2c35ceedfac7122b4efb77e221d2d6468e7381b05fddd89",
+  "source_best_founder_artifact_sha256": "ebb5c5284917ea5dd1c452d98bceea22deae6dc9a5021ff46203ad3a5afe17e6",
+  "source_best_founder_file_sha256": "c1b39fdf47f669c3918033d978c86ee56ee40016f65805313f1d30a8ec2cc802",
+  "source_case_matrix_file_sha256": "584a8f9142a7f7e3a2912ff7c7ef8adb11358a1cf8f5f76dc2de7e91fa189601",
+  "source_population_artifact_sha256": "f557cda40183508a5eb92e408fc931fb1878de8770dd078171113d5a968c0d80",
+  "source_population_file_sha256": "0a5855b9c5ff00d2cb41e49bf096d26841da2c6a56cb1812a4bfac154de8a49c",
+  "source_predictions_file_sha256": "000400f0ea0f5cd08afb13eb275ed4bf1c4aa9ccb0417bda2ab2b0c364e029db",
+  "source_summary_file_sha256": "b108d7cee2a4dc5d1daa8130f168c1787b13dc4e529a7031f90908a391758045",
+  "survivor_scores": [
+    {
+      "fitness": {
+        "block_exact": {
+          "validation-b01": 7,
+          "validation-b02": 3,
+          "validation-b03": 7,
+          "validation-b04": 4,
+          "validation-b05": 7,
+          "validation-b06": 4
+        },
+        "calls": 60,
+        "case_count": 72,
+        "exact_cases": 32,
+        "fitness_key": [
+          32,
+          3,
+          0,
+          191,
+          72
+        ],
+        "format_valid": 72,
+        "harmful_overrides": 0,
+        "term_correct": 191,
+        "weakest_block_exact": 3
+      },
+      "genome_id": "G-D5C14232B660",
+      "slot_id": "S01"
+    },
+    {
+      "fitness": {
+        "block_exact": {
+          "validation-b01": 6,
+          "validation-b02": 5,
+          "validation-b03": 7,
+          "validation-b04": 3,
+          "validation-b05": 7,
+          "validation-b06": 4
+        },
+        "calls": 60,
+        "case_count": 72,
+        "exact_cases": 32,
+        "fitness_key": [
+          32,
+          3,
+          0,
+          188,
+          72
+        ],
+        "format_valid": 72,
+        "harmful_overrides": 0,
+        "term_correct": 188,
+        "weakest_block_exact": 3
+      },
+      "genome_id": "G-2F6BAD401B84",
+      "slot_id": "S02"
+    },
+    {
+      "fitness": {
+        "block_exact": {
+          "validation-b01": 9,
+          "validation-b02": 3,
+          "validation-b03": 7,
+          "validation-b04": 3,
+          "validation-b05": 8,
+          "validation-b06": 3
+        },
+        "calls": 60,
+        "case_count": 72,
+        "exact_cases": 33,
+        "fitness_key": [
+          33,
+          3,
+          0,
+          189,
+          72
+        ],
+        "format_valid": 72,
+        "harmful_overrides": 0,
+        "term_correct": 189,
+        "weakest_block_exact": 3
+      },
+      "genome_id": "G-A20DBD76963B",
+      "slot_id": "S03"
+    },
+    {
+      "fitness": {
+        "block_exact": {
+          "validation-b01": 7,
+          "validation-b02": 4,
+          "validation-b03": 7,
+          "validation-b04": 3,
+          "validation-b05": 8,
+          "validation-b06": 3
+        },
+        "calls": 60,
+        "case_count": 72,
+        "exact_cases": 32,
+        "fitness_key": [
+          32,
+          3,
+          0,
+          186,
+          72
+        ],
+        "format_valid": 72,
+        "harmful_overrides": 0,
+        "term_correct": 186,
+        "weakest_block_exact": 3
+      },
+      "genome_id": "G-38D833F18B84",
+      "slot_id": "S04"
+    },
+    {
+      "fitness": {
+        "block_exact": {
+          "validation-b01": 9,
+          "validation-b02": 3,
+          "validation-b03": 8,
+          "validation-b04": 2,
+          "validation-b05": 5,
+          "validation-b06": 3
+        },
+        "calls": 60,
+        "case_count": 72,
+        "exact_cases": 30,
+        "fitness_key": [
+          30,
+          2,
+          -1,
+          174,
+          72
+        ],
+        "format_valid": 72,
+        "harmful_overrides": 1,
+        "term_correct": 174,
+        "weakest_block_exact": 2
+      },
+      "genome_id": "G-6BAC1D28F028",
+      "slot_id": "S05"
+    },
+    {
+      "fitness": {
+        "block_exact": {
+          "validation-b01": 7,
+          "validation-b02": 2,
+          "validation-b03": 9,
+          "validation-b04": 2,
+          "validation-b05": 8,
+          "validation-b06": 2
+        },
+        "calls": 60,
+        "case_count": 72,
+        "exact_cases": 30,
+        "fitness_key": [
+          30,
+          2,
+          0,
+          182,
+          72
+        ],
+        "format_valid": 72,
+        "harmful_overrides": 0,
+        "term_correct": 182,
+        "weakest_block_exact": 2
+      },
+      "genome_id": "G-E2CB7ED71793",
+      "slot_id": "S06"
+    }
+  ],
+  "validation_blocks": [
+    "validation-b01",
+    "validation-b02",
+    "validation-b03",
+    "validation-b04",
+    "validation-b05",
+    "validation-b06"
+  ]
+}

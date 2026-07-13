@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b09",
+    "results": [
+      {
+        "answer": [
+          "-253268",
+          "-759824",
+          "1519624",
+          "4558960",
+          "-9117928"
+        ],
+        "case_id": "S097",
+        "check_summary": "Periodic phase deltas follow exact alternating geometric continuation with ratio -6.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-833",
+          "-1705",
+          "-1353",
+          "1327",
+          "2807"
+        ],
+        "case_id": "S098",
+        "check_summary": "Candidate periodic recurrence extrapolation.",
+        "confidence": 0.38,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "-703",
+          "-833",
+          "-959",
+          "-1074",
+          "-1170"
+        ],
+        "case_id": "S099",
+        "check_summary": "Finite differences continue with successive third differences increasing by one.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-4915830",
+          "14747487",
+          "-44242464",
+          "132727389",
+          "-398182170"
+        ],
+        "case_id": "S100",
+        "check_summary": "Every transition is x -> -3x - 3.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-7770",
+          "-11680",
+          "-16547",
+          "-22249",
+          "-28534"
+        ],
+        "case_id": "S101",
+        "check_summary": "Candidate polynomial continuation.",
+        "confidence": 0.25,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1143",
+          "1477",
+          "1871",
+          "2330",
+          "2859"
+        ],
+        "case_id": "S102",
+        "check_summary": "Second differences continue as an arithmetic progression.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "139",
+          "141",
+          "137",
+          "130",
+          "126"
+        ],
+        "case_id": "S103",
+        "check_summary": "Three-phase difference blocks repeat with each block reduced by six.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-36",
+          "-39",
+          "-44",
+          "-47",
+          "-52"
+        ],
+        "case_id": "S104",
+        "check_summary": "Differences alternate -3 and -5.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-39990",
+          "39995",
+          "79981",
+          "159966",
+          "479900"
+        ],
+        "case_id": "S105",
+        "check_summary": "Three-phase affine delta sequences continue geometrically with fixed offsets.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-1050521",
+          "-2866991",
+          "-7824223",
+          "-21338687",
+          "-58206079"
+        ],
+        "case_id": "S106",
+        "check_summary": "Candidate phase-affine continuation.",
+        "confidence": 0.3,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "7",
+          "16",
+          "13",
+          "25",
+          "24"
+        ],
+        "case_id": "S107",
+        "check_summary": "Candidate interleaved-stream continuation.",
+        "confidence": 0.22,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-3",
+          "50",
+          "48",
+          "46",
+          "43"
+        ],
+        "case_id": "S108",
+        "check_summary": "Candidate interleaved polynomial continuation.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-3373FE74E208-search-b09-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "a8a5b134640575074896bb6a8e6b405f5d4f57114e46f2b3d8eeb704caab86b1",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-3373FE74E208-search-b09-proposer-6/attempt-01"
+}

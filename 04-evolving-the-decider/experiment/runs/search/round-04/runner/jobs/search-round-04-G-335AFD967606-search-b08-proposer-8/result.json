@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "14",
+          "17",
+          "20",
+          "10"
+        ],
+        "case_id": "S085",
+        "check_summary": "Differences repeat +3 within four-position blocks, with block correction drops -1, -4, then -7.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic polynomial-delta sequence."
+      },
+      {
+        "answer": [
+          "25",
+          "7",
+          "56",
+          "40",
+          "29"
+        ],
+        "case_id": "S086",
+        "check_summary": "Prefix appears modular and phase-dependent; continuation is low-confidence.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic modular affine recurrence."
+      },
+      {
+        "answer": [
+          "71",
+          "60",
+          "49",
+          "38",
+          "27"
+        ],
+        "case_id": "S087",
+        "check_summary": "Growing arithmetic blocks are evident, with successive negative steps; next block extrapolated with step -11.",
+        "confidence": 0.3,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "15",
+          "1",
+          "30",
+          "0",
+          "35"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd positions increase by 5 and even positions decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-8",
+          "92",
+          "-48",
+          "124",
+          "-101"
+        ],
+        "case_id": "S089",
+        "check_summary": "Prefix is consistent with a phase-dependent second-order recurrence; continuation is uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "Phase-periodic second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "11",
+          "2",
+          "18",
+          "-1",
+          "21"
+        ],
+        "case_id": "S090",
+        "check_summary": "Noisy interleaved structure suggests phase-dependent affine updates; continuation is low-confidence.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-89",
+          "146",
+          "-355",
+          "612",
+          "-1057"
+        ],
+        "case_id": "S091",
+        "check_summary": "Large irregular swings suggest a phase-dependent second-order recurrence.",
+        "confidence": 0.1,
+        "rule_summary": "Phase-periodic second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "0",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd subsequence alternates 5,0; even subsequence has successive decrements -4,-5,-6,-7,-8.",
+        "confidence": 0.99,
+        "rule_summary": "Two lagged polynomial subsequences."
+      },
+      {
+        "answer": [
+          "-19",
+          "44",
+          "-8",
+          "51",
+          "-13"
+        ],
+        "case_id": "S093",
+        "check_summary": "Irregular interleaved streams suggest modular or phase-dependent affine behavior.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic modular affine recurrence."
+      },
+      {
+        "answer": [
+          "83",
+          "22",
+          "75",
+          "39",
+          "68"
+        ],
+        "case_id": "S094",
+        "check_summary": "Prefix appears modular with phase-dependent updates; continuation is low-confidence.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic modular affine recurrence."
+      },
+      {
+        "answer": [
+          "-63",
+          "-79",
+          "-95",
+          "-111",
+          "-127"
+        ],
+        "case_id": "S095",
+        "check_summary": "Final arithmetic block has step -12; extrapolation uses the next growing step -16.",
+        "confidence": 0.72,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-12",
+          "130",
+          "-20",
+          "156",
+          "-28"
+        ],
+        "case_id": "S096",
+        "check_summary": "Irregular values suggest a phase-dependent modular or affine recurrence.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic modular affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-335AFD967606-search-b08-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "9530eeb148916cd8e1e92535931d1a9931d29f3e90ecabd48deb9521c28fa9cf",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-335AFD967606-search-b08-proposer-8/attempt-01"
+}

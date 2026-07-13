@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Period-2 differences alternate -4 and -3 throughout the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with alternating constant deltas."
+      },
+      {
+        "answer": [
+          "-9345",
+          "15130",
+          "-24475",
+          "39605",
+          "-64080"
+        ],
+        "case_id": "S074",
+        "check_summary": "Selected the strongest coherent phase-periodic recurrence candidate among conflicting proposals.",
+        "confidence": 0.31,
+        "rule_summary": "Phase-periodic linear recurrence."
+      },
+      {
+        "answer": [
+          "6",
+          "11",
+          "18",
+          "8",
+          "16"
+        ],
+        "case_id": "S075",
+        "check_summary": "Three interleaved subsequences support quadratic continuation.",
+        "confidence": 0.96,
+        "rule_summary": "Three-way INTERLEAVE of polynomial streams."
+      },
+      {
+        "answer": [
+          "-12021",
+          "-16539",
+          "-23508",
+          "-33543",
+          "-47355"
+        ],
+        "case_id": "S076",
+        "check_summary": "Selected the strongest polynomial-difference continuation among conflicting proposals.",
+        "confidence": 0.34,
+        "rule_summary": "Polynomial-difference continuation."
+      },
+      {
+        "answer": [
+          "-4062",
+          "-9803",
+          "-23663",
+          "-57124",
+          "-137906"
+        ],
+        "case_id": "S077",
+        "check_summary": "First differences satisfy d_n=2d_(n-1)+d_(n-2).",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 recurrence on first differences."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Every step follows x_next=-3x+5.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "55",
+          "77",
+          "92",
+          "114",
+          "150"
+        ],
+        "case_id": "S079",
+        "check_summary": "Four interleaved streams support arithmetic second-difference progression.",
+        "confidence": 0.8,
+        "rule_summary": "INTERLEAVE with polynomial streams."
+      },
+      {
+        "answer": [
+          "408426",
+          "1225270",
+          "-3675812",
+          "3675804",
+          "11027404"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three phase-specific affine maps with multiplier 9 reproduce the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Three-way interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-152370",
+          "-304742",
+          "609486",
+          "1218970",
+          "-2437938"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating updates follow x->-2x+2 and x->2x-2.",
+        "confidence": 0.99,
+        "rule_summary": "Period-2 AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "-388",
+          "-509",
+          "-653",
+          "-822",
+          "-1018"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences continue as negative consecutive squares.",
+        "confidence": 1.0,
+        "rule_summary": "PDELTA with quadratic deltas."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7643",
+          "-10166"
+        ],
+        "case_id": "S083",
+        "check_summary": "Fourth finite difference remains constant at -5.",
+        "confidence": 1.0,
+        "rule_summary": "Integer-valued quartic POLY."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7643",
+          "-10166"
+        ],
+        "case_id": "S084",
+        "check_summary": "Finite differences reveal a quartic continuation with constant fourth difference -5.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued quartic POLY."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-38D833F18B84-search-b07-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "d0035ccaf2f9f4675c21b2ea1b7f915d8a88a1d5cd5407ff261d4e7239da2caa",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-38D833F18B84-search-b07-judge-2/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b12",
+    "results": [
+      {
+        "answer": [
+          "-81",
+          "-103",
+          "-125",
+          "-147",
+          "-169"
+        ],
+        "case_id": "S133",
+        "check_summary": "Tentative periodic-delta continuation.",
+        "confidence": 0.18,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-8",
+          "-5",
+          "-2",
+          "1",
+          "-16"
+        ],
+        "case_id": "S134",
+        "check_summary": "Matches expanding runs of +3 deltas separated by decrements of 3.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "35",
+          "-364",
+          "-14",
+          "40",
+          "-363"
+        ],
+        "case_id": "S135",
+        "check_summary": "Three interleaved streams: arithmetic, quadratic, and doubling-difference.",
+        "confidence": 0.94,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-37",
+          "-71",
+          "412",
+          "-153",
+          "-107"
+        ],
+        "case_id": "S136",
+        "check_summary": "Tentative three-stream polynomial extrapolation.",
+        "confidence": 0.28,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-1020",
+          "10",
+          "-2044",
+          "16",
+          "-4092"
+        ],
+        "case_id": "S137",
+        "check_summary": "Odd subsequence follows x↦2x−4; even differences rise by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-60",
+          "-5",
+          "-77",
+          "-6",
+          "-96"
+        ],
+        "case_id": "S138",
+        "check_summary": "Tentative periodic/interleaved continuation.",
+        "confidence": 0.16,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "34",
+          "-5",
+          "216",
+          "81",
+          "-39"
+        ],
+        "case_id": "S139",
+        "check_summary": "Cubic extrapolation of three interleaved streams.",
+        "confidence": 0.72,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-172",
+          "85",
+          "-17",
+          "-318",
+          "238"
+        ],
+        "case_id": "S140",
+        "check_summary": "Tentative cubic extrapolation of three interleaved streams.",
+        "confidence": 0.34,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "128",
+          "39",
+          "2",
+          "244",
+          "96"
+        ],
+        "case_id": "S141",
+        "check_summary": "Tentative phase-specific polynomial extrapolation.",
+        "confidence": 0.27,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "39",
+          "2",
+          "128",
+          "96",
+          "32"
+        ],
+        "case_id": "S142",
+        "check_summary": "Three interleaved streams show constant third differences.",
+        "confidence": 0.91,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-15",
+          "5",
+          "-17",
+          "4",
+          "-19"
+        ],
+        "case_id": "S143",
+        "check_summary": "Odd terms decrease by 2; even terms decrease by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-38",
+          "-50",
+          "-62",
+          "-74",
+          "-86"
+        ],
+        "case_id": "S144",
+        "check_summary": "Final phase exhibits repeated −12 deltas.",
+        "confidence": 0.62,
+        "rule_summary": "PDELTA"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-1FA44A1EE857-search-b12-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "6e701df66a93192fa1ca72f0867e20251e16756e0e82e81aad1d7bd51639093e",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-1FA44A1EE857-search-b12-proposer-2/attempt-01"
+}

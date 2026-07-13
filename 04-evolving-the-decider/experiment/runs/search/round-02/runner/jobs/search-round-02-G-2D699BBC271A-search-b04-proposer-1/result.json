@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-40",
+          "12",
+          "11",
+          "-10",
+          "-40"
+        ],
+        "case_id": "S037",
+        "check_summary": "Low-confidence extrapolation from phase patterns.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative periodic phase model."
+      },
+      {
+        "answer": [
+          "130",
+          "126",
+          "151",
+          "129",
+          "177"
+        ],
+        "case_id": "S038",
+        "check_summary": "Low-confidence extrapolation from irregular phase-separated values.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative interleaved polynomial model."
+      },
+      {
+        "answer": [
+          "43",
+          "45",
+          "44",
+          "50",
+          "47"
+        ],
+        "case_id": "S039",
+        "check_summary": "Low-confidence extrapolation from lagged phase behavior.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative lag-polynomial model."
+      },
+      {
+        "answer": [
+          "49",
+          "69",
+          "89",
+          "109",
+          "129"
+        ],
+        "case_id": "S040",
+        "check_summary": "Growing arithmetic blocks with starts 15,18,25,36 and steps 4,8,12,16.",
+        "confidence": 0.98,
+        "rule_summary": "GROWBLOCK with polynomial block starts and linearly increasing block steps."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Odd and even positions are arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-1",
+          "57",
+          "31",
+          "54",
+          "39"
+        ],
+        "case_id": "S042",
+        "check_summary": "Low-confidence extrapolation from phase-separated irregular values.",
+        "confidence": 0.1,
+        "rule_summary": "Tentative periodic phase model."
+      },
+      {
+        "answer": [
+          "15",
+          "5",
+          "-76",
+          "15",
+          "4"
+        ],
+        "case_id": "S043",
+        "check_summary": "Three phase streams: phase 1 decrements by 3,8,13,18; phase 2 alternates; phase 3 decrements by 1.",
+        "confidence": 0.97,
+        "rule_summary": "PDELTA with period 3 and phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-18",
+          "-28",
+          "-22",
+          "-28",
+          "-40"
+        ],
+        "case_id": "S044",
+        "check_summary": "Three phase streams show polynomial phase-specific differences.",
+        "confidence": 0.96,
+        "rule_summary": "PDELTA with period 3."
+      },
+      {
+        "answer": [
+          "-4",
+          "102",
+          "-4",
+          "-104",
+          "-4"
+        ],
+        "case_id": "S045",
+        "check_summary": "Low-confidence extrapolation from apparent interleaving.",
+        "confidence": 0.12,
+        "rule_summary": "Tentative INTERLEAVE model."
+      },
+      {
+        "answer": [
+          "-30",
+          "-35",
+          "-17",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S046",
+        "check_summary": "Growing blocks have lengths 2,3,4,5 and step -5, with starts decreasing by 2.",
+        "confidence": 0.95,
+        "rule_summary": "GROWBLOCK with polynomial starts and constant within-block step."
+      },
+      {
+        "answer": [
+          "-16",
+          "-21",
+          "-26",
+          "-31",
+          "-36"
+        ],
+        "case_id": "S047",
+        "check_summary": "Low-confidence continuation of arithmetic block structure.",
+        "confidence": 0.18,
+        "rule_summary": "Tentative GROWBLOCK model."
+      },
+      {
+        "answer": [
+          "-21",
+          "12",
+          "11",
+          "-10",
+          "-40"
+        ],
+        "case_id": "S048",
+        "check_summary": "Period-4 phase streams: constant phases 2 and 4, quadratic phase streams 1 and 3.",
+        "confidence": 0.94,
+        "rule_summary": "PDELTA with period 4 and phase-specific polynomial increments."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-2D699BBC271A-search-b04-proposer-1",
+  "outcome": "valid_output",
+  "response_sha256": "080d283f118fa8099b01303a993930ae8c7d520a76e2d7f4522405c15f4fda5c",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-2D699BBC271A-search-b04-proposer-1/attempt-01"
+}

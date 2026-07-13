@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "73",
+          "4",
+          "101"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd positions follow successive even increments; even positions are constant alternation.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/constant streams."
+      },
+      {
+        "answer": [
+          "-2",
+          "31",
+          "-20",
+          "44",
+          "-41"
+        ],
+        "case_id": "S014",
+        "check_summary": "Prefix supports a phase-dependent recurrence; extrapolation remains uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic affine or interleaved recurrence."
+      },
+      {
+        "answer": [
+          "75",
+          "-31",
+          "-6",
+          "70",
+          "-18"
+        ],
+        "case_id": "S015",
+        "check_summary": "Alternating subsequences show nonuniform phase-dependent changes.",
+        "confidence": 0.16,
+        "rule_summary": "Periodic affine or lagged polynomial."
+      },
+      {
+        "answer": [
+          "30",
+          "-11",
+          "79",
+          "-1",
+          "104"
+        ],
+        "case_id": "S016",
+        "check_summary": "Mixed phase behavior prevents a unique short manual derivation.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic recurrence."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd terms increase by 5 and even terms decrease by 4.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-29",
+          "-5",
+          "-38",
+          "-4",
+          "-47"
+        ],
+        "case_id": "S018",
+        "check_summary": "Phase-separated continuation inferred from recent deltas.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "47",
+          "37",
+          "78",
+          "7",
+          "93"
+        ],
+        "case_id": "S019",
+        "check_summary": "Values appear modular and phase-dependent; continuation is uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic modular affine recurrence."
+      },
+      {
+        "answer": [
+          "38",
+          "58",
+          "-42",
+          "-22",
+          "32"
+        ],
+        "case_id": "S020",
+        "check_summary": "Alternating phase behavior suggests a periodic recurrence.",
+        "confidence": 0.11,
+        "rule_summary": "Periodic affine or lagged polynomial."
+      },
+      {
+        "answer": [
+          "-54",
+          "-21",
+          "-70",
+          "-36",
+          "-86"
+        ],
+        "case_id": "S021",
+        "check_summary": "Recent phase-specific declines were extended.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic second-order recurrence."
+      },
+      {
+        "answer": [
+          "-7",
+          "45",
+          "-16",
+          "70",
+          "-25"
+        ],
+        "case_id": "S022",
+        "check_summary": "Strongly oscillatory phase pattern; extrapolation uncertain.",
+        "confidence": 0.1,
+        "rule_summary": "Periodic recurrence."
+      },
+      {
+        "answer": [
+          "-39",
+          "-37",
+          "-48",
+          "-46",
+          "-57"
+        ],
+        "case_id": "S023",
+        "check_summary": "Recent paired terms suggest continuing negative drift with alternating offsets.",
+        "confidence": 0.16,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-87",
+          "-388",
+          "-352",
+          "-758",
+          "-1320"
+        ],
+        "case_id": "S024",
+        "check_summary": "Large oscillatory growth suggests phase-dependent affine updates.",
+        "confidence": 0.09,
+        "rule_summary": "Periodic affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-C8D08DBE9D9D-search-b02-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "3cccd85ce19834c80875e8b0979210a90207d9d5846c84f08fa8805779b5a92f",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-C8D08DBE9D9D-search-b02-proposer-2/attempt-01"
+}

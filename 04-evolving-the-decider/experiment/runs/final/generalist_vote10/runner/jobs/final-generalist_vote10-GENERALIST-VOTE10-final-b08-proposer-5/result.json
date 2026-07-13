@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b08",
+    "results": [
+      {
+        "answer": [
+          "17",
+          "-24",
+          "18",
+          "-28",
+          "19"
+        ],
+        "case_id": "F085",
+        "check_summary": "Alternating arithmetic streams: odd terms increase by 1; even terms decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "44",
+          "59",
+          "77",
+          "68",
+          "101"
+        ],
+        "case_id": "F086",
+        "check_summary": "Candidate periodic interleaving fit; extrapolation uncertain.",
+        "confidence": 0.24,
+        "rule_summary": "Likely INTERLEAVE with phase-specific polynomial streams."
+      },
+      {
+        "answer": [
+          "33",
+          "58",
+          "-3",
+          "44",
+          "23"
+        ],
+        "case_id": "F087",
+        "check_summary": "Candidate phase-stream extrapolation; low certainty.",
+        "confidence": 0.18,
+        "rule_summary": "Likely INTERLEAVE or phase-specific polynomial updates."
+      },
+      {
+        "answer": [
+          "33",
+          "38",
+          "21",
+          "26",
+          "31"
+        ],
+        "case_id": "F088",
+        "check_summary": "Growing arithmetic blocks with starts increasing by 3 and step 5; block lengths grow.",
+        "confidence": 0.94,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "11",
+          "44",
+          "-15",
+          "60",
+          "11"
+        ],
+        "case_id": "F089",
+        "check_summary": "Four-position interleave: constant streams at phases 1 and 3; quadratic streams at phases 2 and 0.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE of polynomial/constant streams."
+      },
+      {
+        "answer": [
+          "-42",
+          "-42",
+          "-4",
+          "-47",
+          "-42"
+        ],
+        "case_id": "F090",
+        "check_summary": "Three phase streams fit quadratic finite differences.",
+        "confidence": 0.76,
+        "rule_summary": "PDELTA with period 3 and quadratic phase deltas."
+      },
+      {
+        "answer": [
+          "-763",
+          "18",
+          "40",
+          "-1531",
+          "21"
+        ],
+        "case_id": "F091",
+        "check_summary": "Three interleaved streams: first follows x↦2x−5; second increases by 3; third has odd linear increments.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of affine and polynomial streams."
+      },
+      {
+        "answer": [
+          "31",
+          "92",
+          "-19",
+          "63",
+          "137"
+        ],
+        "case_id": "F092",
+        "check_summary": "Three phase streams show polynomial finite-difference patterns.",
+        "confidence": 0.93,
+        "rule_summary": "PDELTA with period 3."
+      },
+      {
+        "answer": [
+          "33",
+          "38",
+          "21",
+          "26",
+          "31"
+        ],
+        "case_id": "F093",
+        "check_summary": "Growing arithmetic blocks with starts 9,12,15,18,21 and common step 5.",
+        "confidence": 0.96,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "62",
+          "68",
+          "43",
+          "65",
+          "51"
+        ],
+        "case_id": "F094",
+        "check_summary": "Candidate periodic interleaving fit; extrapolation uncertain.",
+        "confidence": 0.16,
+        "rule_summary": "Likely INTERLEAVE with phase-specific affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "-22",
+          "31",
+          "91",
+          "-45",
+          "66"
+        ],
+        "case_id": "F095",
+        "check_summary": "Candidate phase-stream extrapolation; low certainty.",
+        "confidence": 0.14,
+        "rule_summary": "Likely INTERLEAVE or MODAFFINE."
+      },
+      {
+        "answer": [
+          "53",
+          "-67",
+          "83",
+          "85",
+          "-53"
+        ],
+        "case_id": "F096",
+        "check_summary": "Three phase streams have structured polynomial first differences.",
+        "confidence": 0.91,
+        "rule_summary": "PDELTA with period 3 and polynomial phase deltas."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-generalist_vote10-GENERALIST-VOTE10-final-b08-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "80cbac398047962766bb27300327a101b4d0d90492407b3eb576b296dde85ceb",
+  "terminal_artifact_relpath": "jobs/final-generalist_vote10-GENERALIST-VOTE10-final-b08-proposer-5/attempt-01"
+}

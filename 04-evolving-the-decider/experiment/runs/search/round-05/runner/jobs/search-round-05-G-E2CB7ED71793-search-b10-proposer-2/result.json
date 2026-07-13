@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "20",
+          "-7",
+          "6",
+          "9",
+          "14"
+        ],
+        "case_id": "S109",
+        "check_summary": "Insufficiently distinctive prefix; extrapolated periodic/interleaved structure.",
+        "confidence": 0.08,
+        "rule_summary": "Candidate periodic/interleaved integer sequence."
+      },
+      {
+        "answer": [
+          "17",
+          "12",
+          "1",
+          "-12",
+          "6"
+        ],
+        "case_id": "S110",
+        "check_summary": "Insufficiently distinctive prefix; extrapolated phase-specific recurrence.",
+        "confidence": 0.08,
+        "rule_summary": "Candidate periodic affine/linear recurrence."
+      },
+      {
+        "answer": [
+          "81",
+          "96",
+          "111",
+          "126",
+          "141"
+        ],
+        "case_id": "S111",
+        "check_summary": "Continues the visible arithmetic block with step 15.",
+        "confidence": 0.5,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-6",
+          "-7",
+          "19",
+          "-5",
+          "-5"
+        ],
+        "case_id": "S112",
+        "check_summary": "Insufficiently distinctive prefix; extrapolated phase structure.",
+        "confidence": 0.08,
+        "rule_summary": "Candidate periodic-delta sequence."
+      },
+      {
+        "answer": [
+          "42",
+          "9",
+          "35",
+          "17",
+          "36"
+        ],
+        "case_id": "S113",
+        "check_summary": "Insufficiently distinctive prefix; extrapolated interleaved streams.",
+        "confidence": 0.08,
+        "rule_summary": "Candidate interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-13",
+          "113",
+          "30",
+          "-16",
+          "-227"
+        ],
+        "case_id": "S114",
+        "check_summary": "Insufficiently distinctive prefix; extrapolated phase-specific recurrence.",
+        "confidence": 0.06,
+        "rule_summary": "Candidate periodic linear recurrence."
+      },
+      {
+        "answer": [
+          "18",
+          "34",
+          "25",
+          "7",
+          "12"
+        ],
+        "case_id": "S115",
+        "check_summary": "Continues the apparent paired difference pattern tentatively.",
+        "confidence": 0.12,
+        "rule_summary": "Candidate periodic-delta sequence."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd positions decrease by 1; even positions decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "50",
+          "25",
+          "3",
+          "2",
+          "50"
+        ],
+        "case_id": "S117",
+        "check_summary": "Insufficiently distinctive prefix; extrapolated interleaved structure.",
+        "confidence": 0.07,
+        "rule_summary": "Candidate interleaved streams."
+      },
+      {
+        "answer": [
+          "13",
+          "8",
+          "3",
+          "26",
+          "21"
+        ],
+        "case_id": "S118",
+        "check_summary": "Visible growing arithmetic blocks continue with step -5.",
+        "confidence": 0.94,
+        "rule_summary": "Growing arithmetic blocks of increasing length."
+      },
+      {
+        "answer": [
+          "85",
+          "89",
+          "1",
+          "118",
+          "123"
+        ],
+        "case_id": "S119",
+        "check_summary": "Extrapolated block starts from apparent polynomial growth; final block term uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "Growing blocks with polynomial starts."
+      },
+      {
+        "answer": [
+          "67",
+          "55",
+          "43",
+          "31",
+          "19"
+        ],
+        "case_id": "S120",
+        "check_summary": "Continues the visible descending arithmetic block with step -12.",
+        "confidence": 0.55,
+        "rule_summary": "Growing arithmetic blocks."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-E2CB7ED71793-search-b10-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "3c34cf5ef9be3e07cfb179cf5fc420020c6beeb899e348b5c3f5b656ca2631e9",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-E2CB7ED71793-search-b10-proposer-2/attempt-01"
+}

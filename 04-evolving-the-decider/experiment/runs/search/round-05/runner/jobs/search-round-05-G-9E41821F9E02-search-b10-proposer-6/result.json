@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b10",
+    "results": [
+      {
+        "answer": [
+          "-7",
+          "15",
+          "-26",
+          "3",
+          "-18"
+        ],
+        "case_id": "S109",
+        "check_summary": "Periodic delta extrapolation; phase-wise replay is plausible but underdetermined.",
+        "confidence": 0.22,
+        "rule_summary": "PDELTA with periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "3",
+          "17",
+          "12",
+          "-3",
+          "-12"
+        ],
+        "case_id": "S110",
+        "check_summary": "Alternating/interleaved structure suggested by repeated values; continuation uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE with short phase-dependent streams."
+      },
+      {
+        "answer": [
+          "84",
+          "101",
+          "120",
+          "141",
+          "164"
+        ],
+        "case_id": "S111",
+        "check_summary": "Late positive runs suggest a growing polynomial block continuation.",
+        "confidence": 0.2,
+        "rule_summary": "GROWBLOCK with polynomial starts and steps."
+      },
+      {
+        "answer": [
+          "-11",
+          "-7",
+          "39",
+          "-1",
+          "-9"
+        ],
+        "case_id": "S112",
+        "check_summary": "Periodic phase behavior inferred from recurring negative values and rising spikes.",
+        "confidence": 0.2,
+        "rule_summary": "PDELTA with phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "28",
+          "18",
+          "46",
+          "-4",
+          "56"
+        ],
+        "case_id": "S113",
+        "check_summary": "Interleaved phase pattern inferred; several mechanisms remain compatible.",
+        "confidence": 0.14,
+        "rule_summary": "INTERLEAVE of polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-27",
+          "893",
+          "31",
+          "-25",
+          "1743"
+        ],
+        "case_id": "S114",
+        "check_summary": "Explosive alternating subsequences suggest phase-specific affine growth.",
+        "confidence": 0.17,
+        "rule_summary": "AFFINE with repeating phase multipliers and biases."
+      },
+      {
+        "answer": [
+          "42",
+          "82",
+          "51",
+          "102",
+          "77"
+        ],
+        "case_id": "S115",
+        "check_summary": "Blockwise doubling increments followed by renewed growth suggest GROWBLOCK.",
+        "confidence": 0.2,
+        "rule_summary": "GROWBLOCK with polynomial block steps."
+      },
+      {
+        "answer": [
+          "-9",
+          "-32",
+          "-10",
+          "-36",
+          "-11"
+        ],
+        "case_id": "S116",
+        "check_summary": "Odd and even subsequences are exact arithmetic progressions.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "27",
+          "55",
+          "40",
+          "60",
+          "48"
+        ],
+        "case_id": "S117",
+        "check_summary": "Mixed interleaving with recurring high values; continuation is uncertain.",
+        "confidence": 0.13,
+        "rule_summary": "INTERLEAVE of affine streams."
+      },
+      {
+        "answer": [
+          "26",
+          "21",
+          "14",
+          "29",
+          "22"
+        ],
+        "case_id": "S118",
+        "check_summary": "Three-phase interleaving with recurring offsets inferred.",
+        "confidence": 0.16,
+        "rule_summary": "INTERLEAVE of polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "80",
+          "86",
+          "4",
+          "101",
+          "109"
+        ],
+        "case_id": "S119",
+        "check_summary": "Three interleaved streams show accelerating positive and declining negative phases.",
+        "confidence": 0.18,
+        "rule_summary": "INTERLEAVE with phase-specific polynomial updates."
+      },
+      {
+        "answer": [
+          "70",
+          "121",
+          "138",
+          "161",
+          "177"
+        ],
+        "case_id": "S120",
+        "check_summary": "Three-column growth pattern suggests accelerating phase-specific increments.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE of polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-9E41821F9E02-search-b10-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "1b92c04b1d87412397958a5b85e38cc7acab365d9a0026438ef2f1741682548d",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-9E41821F9E02-search-b10-proposer-6/attempt-01"
+}

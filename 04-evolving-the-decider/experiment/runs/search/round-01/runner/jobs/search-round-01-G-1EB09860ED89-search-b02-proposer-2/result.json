@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "49",
+          "-5",
+          "69",
+          "4",
+          "93"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd-position subsequence has differences 0,4,8,12,16; even positions alternate -5,4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved streams: quadratic odd stream and alternating even stream."
+      },
+      {
+        "answer": [
+          "8",
+          "28",
+          "-7",
+          "37",
+          "-4"
+        ],
+        "case_id": "S014",
+        "check_summary": "Evidence is consistent with a phase-dependent recurrence; extrapolation is uncertain.",
+        "confidence": 0.18,
+        "rule_summary": "Likely periodic affine or interleaved mechanism."
+      },
+      {
+        "answer": [
+          "61",
+          "-25",
+          "20",
+          "40",
+          "60"
+        ],
+        "case_id": "S015",
+        "check_summary": "The second residue stream continues -4,-5,-6,-7; other streams show structured polynomial/exponential increments.",
+        "confidence": 0.82,
+        "rule_summary": "Three interleaved phase-specific streams."
+      },
+      {
+        "answer": [
+          "39",
+          "-1",
+          "79",
+          "-15",
+          "123"
+        ],
+        "case_id": "S016",
+        "check_summary": "Several residue subsequences exhibit phase structure, but the exact registered mechanism is ambiguous.",
+        "confidence": 0.16,
+        "rule_summary": "Likely interleaved or periodic-delta mechanism."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd positions increase by 5; even positions decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-8",
+          "-4",
+          "-23",
+          "-7",
+          "-34"
+        ],
+        "case_id": "S018",
+        "check_summary": "Recent differences suggest phase-specific behavior; continuation remains uncertain.",
+        "confidence": 0.14,
+        "rule_summary": "Likely periodic-delta or interleaved mechanism."
+      },
+      {
+        "answer": [
+          "47",
+          "91",
+          "42",
+          "11",
+          "68"
+        ],
+        "case_id": "S019",
+        "check_summary": "Residue subsequences show nonuniform phase behavior with insufficiently distinctive short-prefix evidence.",
+        "confidence": 0.12,
+        "rule_summary": "Likely interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-12",
+          "-20",
+          "-30",
+          "-38",
+          "-42"
+        ],
+        "case_id": "S020",
+        "check_summary": "The sequence has strong periodic phase irregularity but no uniquely recoverable simple continuation from inspection.",
+        "confidence": 0.11,
+        "rule_summary": "Likely periodic affine or interleaved mechanism."
+      },
+      {
+        "answer": [
+          "-54",
+          "-70",
+          "-86",
+          "-102",
+          "-118"
+        ],
+        "case_id": "S021",
+        "check_summary": "The terminal run contains repeated phase-specific decrements, suggesting continued negative drift.",
+        "confidence": 0.1,
+        "rule_summary": "Likely periodic-delta recurrence."
+      },
+      {
+        "answer": [
+          "33",
+          "-54",
+          "44",
+          "-75",
+          "55"
+        ],
+        "case_id": "S022",
+        "check_summary": "The third-position residue stream continues by +11 from 0,11,22; other residues are uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "Likely three-way interleaving."
+      },
+      {
+        "answer": [
+          "-37",
+          "-35",
+          "-33",
+          "-31",
+          "-29"
+        ],
+        "case_id": "S023",
+        "check_summary": "Growing blocks have starts decreasing by 5; within each block terms increase by 2.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK with block lengths increasing by one."
+      },
+      {
+        "answer": [
+          "350",
+          "-33",
+          "-362",
+          "-40",
+          "374"
+        ],
+        "case_id": "S024",
+        "check_summary": "Positions 1 mod 3 decrease by 7; positions 0 mod 3 follow x_next=-2x-6.",
+        "confidence": 0.83,
+        "rule_summary": "Three interleaved streams, including arithmetic and affine components."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-1EB09860ED89-search-b02-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "1f2045d9968ffe65cfdef04c436e062f1ff34efc5873f4b4fc50ba851f3fa9d3",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-1EB09860ED89-search-b02-proposer-2/attempt-01"
+}

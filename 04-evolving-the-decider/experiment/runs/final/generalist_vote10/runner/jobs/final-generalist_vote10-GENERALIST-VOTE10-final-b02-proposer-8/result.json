@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b02",
+    "results": [
+      {
+        "answer": [
+          "-7",
+          "25",
+          "-9",
+          "28",
+          "-11"
+        ],
+        "case_id": "F018",
+        "check_summary": "Alternating arithmetic streams: odd terms decrease by 2 and even terms increase by 3.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two arithmetic streams."
+      },
+      {
+        "answer": [
+          "71",
+          "15",
+          "95",
+          "-12",
+          "121"
+        ],
+        "case_id": "F019",
+        "check_summary": "Odd-position terms have successive increments 2, 6, 10, 14, 18; even positions alternate -12 and 15.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of a quadratic odd stream and alternating even stream."
+      },
+      {
+        "answer": [
+          "25",
+          "-23",
+          "28",
+          "-37",
+          "31"
+        ],
+        "case_id": "F015",
+        "check_summary": "Three interleaved subsequences were extrapolated quadratically from their observed prefixes.",
+        "confidence": 0.32,
+        "rule_summary": "INTERLEAVE of three polynomial streams."
+      },
+      {
+        "answer": [
+          "36",
+          "-73",
+          "30",
+          "-78",
+          "24"
+        ],
+        "case_id": "F016",
+        "check_summary": "Observed later runs contain arithmetic blocks with increasingly negative phase steps.",
+        "confidence": 0.18,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "-29",
+          "-68",
+          "-22",
+          "-54",
+          "-15"
+        ],
+        "case_id": "F013",
+        "check_summary": "Candidate periodic phase update inferred from the alternating irregular prefix.",
+        "confidence": 0.08,
+        "rule_summary": "PDELTA."
+      },
+      {
+        "answer": [
+          "18",
+          "42",
+          "64",
+          "75",
+          "91"
+        ],
+        "case_id": "F014",
+        "check_summary": "Candidate periodic polynomial-delta continuation.",
+        "confidence": 0.07,
+        "rule_summary": "PDELTA."
+      },
+      {
+        "answer": [
+          "-4",
+          "7",
+          "-9",
+          "8",
+          "-14"
+        ],
+        "case_id": "F017",
+        "check_summary": "Candidate phase-specific continuation of the irregular multi-stream prefix.",
+        "confidence": 0.06,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "-5",
+          "25",
+          "-7",
+          "28",
+          "-9"
+        ],
+        "case_id": "F020",
+        "check_summary": "Candidate alternating affine continuation.",
+        "confidence": 0.06,
+        "rule_summary": "AFFINE."
+      },
+      {
+        "answer": [
+          "23",
+          "29",
+          "26",
+          "34",
+          "29"
+        ],
+        "case_id": "F021",
+        "check_summary": "Candidate periodic phase continuation.",
+        "confidence": 0.06,
+        "rule_summary": "PDELTA."
+      },
+      {
+        "answer": [
+          "-30",
+          "420",
+          "-38",
+          "846",
+          "-46"
+        ],
+        "case_id": "F022",
+        "check_summary": "Candidate periodic affine continuation under modular-like phase behavior.",
+        "confidence": 0.05,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "36",
+          "41",
+          "36",
+          "41",
+          "36"
+        ],
+        "case_id": "F023",
+        "check_summary": "Candidate continuation of repeated five-step increment structure.",
+        "confidence": 0.08,
+        "rule_summary": "PDELTA."
+      },
+      {
+        "answer": [
+          "89",
+          "94",
+          "105",
+          "116",
+          "131"
+        ],
+        "case_id": "F024",
+        "check_summary": "Candidate continuation of phase-specific polynomial streams.",
+        "confidence": 0.07,
+        "rule_summary": "INTERLEAVE."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-generalist_vote10-GENERALIST-VOTE10-final-b02-proposer-8",
+  "outcome": "valid_output",
+  "response_sha256": "79aa78454ba3f0c5db1996a543f43ca7af5f9518b853ed48b6e6e9766d4152fc",
+  "terminal_artifact_relpath": "jobs/final-generalist_vote10-GENERALIST-VOTE10-final-b02-proposer-8/attempt-01"
+}

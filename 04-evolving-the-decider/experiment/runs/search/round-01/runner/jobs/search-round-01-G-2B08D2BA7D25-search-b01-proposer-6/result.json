@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b01",
+    "results": [
+      {
+        "answer": [
+          "34",
+          "20",
+          "23",
+          "37",
+          "19"
+        ],
+        "case_id": "S001",
+        "check_summary": "Periodic phase deltas inferred from the full prefix.",
+        "confidence": 0.22,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "2713",
+          "3755",
+          "5066",
+          "6688",
+          "8666"
+        ],
+        "case_id": "S002",
+        "check_summary": "Successive second differences follow a quadratic progression.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-218",
+          "234",
+          "-255",
+          "271",
+          "-292"
+        ],
+        "case_id": "S003",
+        "check_summary": "Two interleaved arithmetic streams with increments -37 and +37.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-129",
+          "-203",
+          "-296",
+          "-410",
+          "-547"
+        ],
+        "case_id": "S004",
+        "check_summary": "Finite differences continue the cubic pattern.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1106421",
+          "-2212847",
+          "6638544",
+          "-13277083",
+          "39831246"
+        ],
+        "case_id": "S005",
+        "check_summary": "Alternating affine multipliers inferred from the dominant repeating pattern.",
+        "confidence": 0.36,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-142",
+          "-142",
+          "-183",
+          "-183",
+          "-236"
+        ],
+        "case_id": "S006",
+        "check_summary": "Periodic phase behavior inferred from alternating lagged subsequences.",
+        "confidence": 0.2,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-13032",
+          "-18648",
+          "-25672",
+          "-34624",
+          "-45960"
+        ],
+        "case_id": "S007",
+        "check_summary": "Higher-order finite-difference continuation.",
+        "confidence": 0.18,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-797169",
+          "-2391510",
+          "-7174533",
+          "-21523602",
+          "-64570809"
+        ],
+        "case_id": "S008",
+        "check_summary": "Exact recurrence a(n)=3a(n-1)-3.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3098121",
+          "-8441248",
+          "-23026907",
+          "-62803834",
+          "-171248273"
+        ],
+        "case_id": "S009",
+        "check_summary": "Periodic affine recurrence continuation.",
+        "confidence": 0.2,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "17",
+          "15",
+          "19",
+          "17",
+          "21"
+        ],
+        "case_id": "S010",
+        "check_summary": "Alternating increments +4,-2.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "-2233600",
+          "5371870",
+          "-12925219",
+          "31094554",
+          "-74823735"
+        ],
+        "case_id": "S011",
+        "check_summary": "Alternating affine continuation inferred from the full prefix.",
+        "confidence": 0.2,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "113309",
+          "-226613",
+          "-679843",
+          "679848",
+          "1359691"
+        ],
+        "case_id": "S012",
+        "check_summary": "Three-phase affine block recurrence exactly matches the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-2B08D2BA7D25-search-b01-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "f203e930bb5ec01a8dacdf0c58ad19b17ba59e4a32f4a1dbc4533dc8c08d6e7c",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-2B08D2BA7D25-search-b01-proposer-6/attempt-01"
+}

@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b05",
+    "results": [
+      {
+        "answer": [
+          "3454364",
+          "10363097",
+          "31089296",
+          "93267893",
+          "279803684"
+        ],
+        "case_id": "F049",
+        "check_summary": "Matches x->3x+5.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "21",
+          "19",
+          "24",
+          "22",
+          "27"
+        ],
+        "case_id": "F050",
+        "check_summary": "Two interleaved arithmetic streams.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-5953",
+          "-5950",
+          "17854",
+          "17851",
+          "17848"
+        ],
+        "case_id": "F051",
+        "check_summary": "Repeating phase updates inferred from the prefix.",
+        "confidence": 0.86,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3959",
+          "-5846",
+          "-8065",
+          "-10631",
+          "-13559"
+        ],
+        "case_id": "F052",
+        "check_summary": "Extrapolated from terminal finite-difference structure.",
+        "confidence": 0.25,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "514996",
+          "1242948",
+          "2998658",
+          "7237687",
+          "17476331"
+        ],
+        "case_id": "F053",
+        "check_summary": "Extrapolated from dominant periodic affine growth.",
+        "confidence": 0.3,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-106419",
+          "319257",
+          "638513",
+          "-1915539",
+          "-3831081"
+        ],
+        "case_id": "F054",
+        "check_summary": "Repeating signed affine growth pattern.",
+        "confidence": 0.4,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-335",
+          "1247",
+          "-725",
+          "-2095",
+          "6173"
+        ],
+        "case_id": "F055",
+        "check_summary": "Interleaved irregular polynomial-like streams extrapolated from prefix.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-123",
+          "-137",
+          "-152",
+          "-168",
+          "-185"
+        ],
+        "case_id": "F056",
+        "check_summary": "Terminal trend extrapolation.",
+        "confidence": 0.2,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "42",
+          "5",
+          "42",
+          "-5",
+          "39"
+        ],
+        "case_id": "F057",
+        "check_summary": "Odd and even subsequences have arithmetic second-difference patterns.",
+        "confidence": 0.98,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-77",
+          "-89",
+          "-102",
+          "-116",
+          "-131"
+        ],
+        "case_id": "F058",
+        "check_summary": "Successive differences decrease by one each step.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-868",
+          "-1079",
+          "-1317",
+          "-1585",
+          "-1886"
+        ],
+        "case_id": "F059",
+        "check_summary": "Second differences follow a linear decrement pattern.",
+        "confidence": 1.0,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1476",
+          "2207",
+          "3176",
+          "4429",
+          "5682"
+        ],
+        "case_id": "F060",
+        "check_summary": "Third differences increase by six.",
+        "confidence": 0.92,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-best_initial_founder-G-0025CFC9EF2E-final-b05-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "dd976c5834709f2fbc7b786215c927bfefee02a274cbe762293cf800f5400aa1",
+  "terminal_artifact_relpath": "jobs/final-best_initial_founder-G-0025CFC9EF2E-final-b05-proposer-2/attempt-01"
+}

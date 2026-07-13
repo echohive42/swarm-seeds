@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b09",
+    "results": [
+      {
+        "answer": [
+          "-126482",
+          "379438",
+          "-1138316",
+          "3414946",
+          "-10244892"
+        ],
+        "case_id": "S097",
+        "check_summary": "Extrapolated periodic affine-growth pattern.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-1293",
+          "-1853",
+          "-2517",
+          "-3295",
+          "-4187"
+        ],
+        "case_id": "S098",
+        "check_summary": "Extrapolated oscillating finite-difference pattern.",
+        "confidence": 0.12,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-703",
+          "-833",
+          "-959",
+          "-1074",
+          "-1170"
+        ],
+        "case_id": "S099",
+        "check_summary": "Third differences increase linearly; continued difference table.",
+        "confidence": 0.91,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-4915830",
+          "14747487",
+          "-44242464",
+          "132727389",
+          "-398182170"
+        ],
+        "case_id": "S100",
+        "check_summary": "Exact recurrence x_next=-3*x-3 after initial transient.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "-7710",
+          "-12177",
+          "-17969",
+          "-25117",
+          "-33743"
+        ],
+        "case_id": "S101",
+        "check_summary": "Extrapolated high-order polynomial trend.",
+        "confidence": 0.16,
+        "rule_summary": "Polynomial position rule."
+      },
+      {
+        "answer": [
+          "1148",
+          "1492",
+          "1901",
+          "2380",
+          "2934"
+        ],
+        "case_id": "S102",
+        "check_summary": "Second differences continue with increments 5,10,15,...",
+        "confidence": 0.99,
+        "rule_summary": "Polynomial finite-difference rule."
+      },
+      {
+        "answer": [
+          "142",
+          "138",
+          "131",
+          "127",
+          "120"
+        ],
+        "case_id": "S103",
+        "check_summary": "Repeating three-step difference motif continued.",
+        "confidence": 0.89,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-36",
+          "-39",
+          "-44",
+          "-47",
+          "-52"
+        ],
+        "case_id": "S104",
+        "check_summary": "Differences alternate -3,-5 exactly.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic delta rule."
+      },
+      {
+        "answer": [
+          "79992",
+          "39995",
+          "79981",
+          "-479940",
+          "-239965"
+        ],
+        "case_id": "S105",
+        "check_summary": "Three phase subsequences follow x_next=-6*x+b with phase biases 6,29,-5.",
+        "confidence": 0.97,
+        "rule_summary": "Phase-specific affine recurrence."
+      },
+      {
+        "answer": [
+          "-1050467",
+          "-2864555",
+          "-7815151",
+          "-21314075",
+          "-58129139"
+        ],
+        "case_id": "S106",
+        "check_summary": "Extrapolated near-geometric periodic affine pattern.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "13",
+          "22",
+          "34",
+          "49",
+          "67"
+        ],
+        "case_id": "S107",
+        "check_summary": "Extrapolated interleaved smooth subsequence trend.",
+        "confidence": 0.14,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "30",
+          "54",
+          "57",
+          "65",
+          "75"
+        ],
+        "case_id": "S108",
+        "check_summary": "Extrapolated interleaved periodic-difference pattern.",
+        "confidence": 0.13,
+        "rule_summary": "Interleaved polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-26840FECDB83-search-b09-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "354245b48f60bb527906eb29324c54ab983df816e5912de389009ba4d370e0cb",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-26840FECDB83-search-b09-proposer-3/attempt-01"
+}

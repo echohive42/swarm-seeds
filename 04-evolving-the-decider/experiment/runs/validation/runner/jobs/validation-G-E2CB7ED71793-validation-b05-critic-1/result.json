@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "validation-b05",
+    "results": [
+      {
+        "answer": [
+          "-125",
+          "-143",
+          "-244",
+          "-157",
+          "-171"
+        ],
+        "case_id": "V049",
+        "check_summary": "Interleaved phase subsequences support the continuation.",
+        "confidence": 0.86,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "37015",
+          "-74031",
+          "148064",
+          "-296127",
+          "592257"
+        ],
+        "case_id": "V050",
+        "check_summary": "Phase-affine continuation matches the strongest proposal.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic affine update with multiplier -2."
+      },
+      {
+        "answer": [
+          "-9759",
+          "-14504",
+          "-20985",
+          "-29202",
+          "-39591"
+        ],
+        "case_id": "V051",
+        "check_summary": "Fourth-difference continuation supports the polynomial sequence.",
+        "confidence": 0.97,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "14218",
+          "-14217",
+          "42649",
+          "-42648",
+          "127942"
+        ],
+        "case_id": "V052",
+        "check_summary": "Odd positions follow x→3x−5 and even positions x→3x+3.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "151",
+          "167",
+          "179",
+          "221",
+          "240"
+        ],
+        "case_id": "V053",
+        "check_summary": "All proposals agree on the period-3 delta continuation.",
+        "confidence": 0.99,
+        "rule_summary": "Period-3 polynomial deltas."
+      },
+      {
+        "answer": [
+          "-49210",
+          "-118799",
+          "-286803",
+          "-692399",
+          "-1671596"
+        ],
+        "case_id": "V054",
+        "check_summary": "Alternating-bias second-order recurrence is the strongest exact fit.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2 with alternating biases."
+      },
+      {
+        "answer": [
+          "1613",
+          "-2623",
+          "4181",
+          "-6915",
+          "11467"
+        ],
+        "case_id": "V055",
+        "check_summary": "Best-supported alternating interleaved affine extrapolation.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE of affine streams."
+      },
+      {
+        "answer": [
+          "-37840",
+          "113525",
+          "227054",
+          "-227056",
+          "681173"
+        ],
+        "case_id": "V056",
+        "check_summary": "Three phase streams fit exact multiplier-6 affine updates.",
+        "confidence": 0.99,
+        "rule_summary": "Three interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-26",
+          "-31",
+          "-29",
+          "-34",
+          "-32"
+        ],
+        "case_id": "V057",
+        "check_summary": "Both alternating streams decrement by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "5048689",
+          "15146068",
+          "45438205",
+          "136314616",
+          "408943849"
+        ],
+        "case_id": "V058",
+        "check_summary": "Exact recurrence x→3x+1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "292",
+          "399",
+          "528",
+          "681",
+          "860"
+        ],
+        "case_id": "V059",
+        "check_summary": "Finite differences support the cubic continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-4467",
+          "-5931",
+          "-7725",
+          "-9895",
+          "-12490"
+        ],
+        "case_id": "V060",
+        "check_summary": "Finite-difference continuation supports the polynomial sequence.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "validation-G-E2CB7ED71793-validation-b05-critic-1",
+  "outcome": "valid_output",
+  "response_sha256": "2bb8c76f1b1e91284393c14d13589d5d1f378011e3da668ffd286defc119e342",
+  "terminal_artifact_relpath": "jobs/validation-G-E2CB7ED71793-validation-b05-critic-1/attempt-01"
+}

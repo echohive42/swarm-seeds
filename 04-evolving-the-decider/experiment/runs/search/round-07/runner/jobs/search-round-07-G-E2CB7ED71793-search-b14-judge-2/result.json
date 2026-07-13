@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b14",
+    "results": [
+      {
+        "answer": [
+          "-2",
+          "3",
+          "8",
+          "-15",
+          "-10"
+        ],
+        "case_id": "S157",
+        "check_summary": "Periodic +5 progression with corrections at expanding intervals.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "42",
+          "-640",
+          "61",
+          "1280",
+          "84"
+        ],
+        "case_id": "S158",
+        "check_summary": "Odd subsequence has second differences 4; even subsequence multiplies by -2.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-20",
+          "-47",
+          "-31",
+          "-34",
+          "-5"
+        ],
+        "case_id": "S159",
+        "check_summary": "Plurality supports this phase-periodic continuation, though confidence is low.",
+        "confidence": 0.28,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "17",
+          "-3",
+          "19",
+          "-2",
+          "21"
+        ],
+        "case_id": "S160",
+        "check_summary": "Odd terms increase by 2 and even terms by 1.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-11",
+          "39",
+          "7",
+          "-10",
+          "56"
+        ],
+        "case_id": "S161",
+        "check_summary": "Plurality supports three interleaved residue streams with polynomial increments.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "23",
+          "11",
+          "28",
+          "17",
+          "42"
+        ],
+        "case_id": "S162",
+        "check_summary": "Plurality supports this periodic polynomial-delta continuation, with low confidence.",
+        "confidence": 0.25,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "5",
+          "5",
+          "-362",
+          "5",
+          "6"
+        ],
+        "case_id": "S163",
+        "check_summary": "Three residue streams: descending sequence, incrementing sequence, and doubling negative differences.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-5",
+          "67",
+          "42",
+          "82",
+          "79"
+        ],
+        "case_id": "S164",
+        "check_summary": "Plurality supports this interleaved continuation, though evidence is weak.",
+        "confidence": 0.24,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-5",
+          "-30",
+          "53",
+          "-3",
+          "-2"
+        ],
+        "case_id": "S165",
+        "check_summary": "Plurality supports a phase-dependent affine continuation.",
+        "confidence": 0.22,
+        "rule_summary": "MODAFFINE"
+      },
+      {
+        "answer": [
+          "19",
+          "1",
+          "19",
+          "135",
+          "-38"
+        ],
+        "case_id": "S166",
+        "check_summary": "Three interleaved streams with alternating and polynomial-growth phases.",
+        "confidence": 0.9,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-52",
+          "-49",
+          "-73",
+          "-79",
+          "-102"
+        ],
+        "case_id": "S167",
+        "check_summary": "Plurality supports this interleaved polynomial continuation, with low confidence.",
+        "confidence": 0.23,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "98",
+          "122",
+          "146",
+          "170",
+          "194"
+        ],
+        "case_id": "S168",
+        "check_summary": "The final arithmetic block continues with step 24.",
+        "confidence": 0.91,
+        "rule_summary": "GROWBLOCK"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-E2CB7ED71793-search-b14-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "49a154b4fc4abaf1373c1a17b15672d2a4d734fdb6d2e559a3edf9bb6e598cd5",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-E2CB7ED71793-search-b14-judge-2/attempt-01"
+}

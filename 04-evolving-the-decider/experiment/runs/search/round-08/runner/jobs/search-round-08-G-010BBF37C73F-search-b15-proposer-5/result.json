@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b15",
+    "results": [
+      {
+        "answer": [
+          "1067",
+          "2292",
+          "3028",
+          "4120",
+          "5438"
+        ],
+        "case_id": "S169",
+        "check_summary": "Matched a four-phase quadratic delta extrapolation.",
+        "confidence": 0.55,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "61",
+          "65",
+          "70",
+          "74",
+          "79"
+        ],
+        "case_id": "S170",
+        "check_summary": "Alternating increments +4,+5 replay the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial deltas."
+      },
+      {
+        "answer": [
+          "-2256",
+          "-3610",
+          "-5662",
+          "-8634",
+          "-12790"
+        ],
+        "case_id": "S171",
+        "check_summary": "Constant fifth finite difference -4.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued degree-5 polynomial."
+      },
+      {
+        "answer": [
+          "1592",
+          "1895",
+          "2214",
+          "2543",
+          "2875"
+        ],
+        "case_id": "S172",
+        "check_summary": "Third finite differences continue decreasing by 1.",
+        "confidence": 0.99,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-109",
+          "-96",
+          "-75",
+          "-45",
+          "-5"
+        ],
+        "case_id": "S173",
+        "check_summary": "Second differences increase linearly through the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-4442",
+          "-7187",
+          "-11626",
+          "-18810",
+          "-30433"
+        ],
+        "case_id": "S174",
+        "check_summary": "Extrapolated the apparent Fibonacci-like periodic affine delta recurrence.",
+        "confidence": 0.43,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "2719381",
+          "-5438762",
+          "-16316285",
+          "32632570",
+          "97897711"
+        ],
+        "case_id": "S175",
+        "check_summary": "Alternating affine updates 3x+1 and -2x+6.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "64",
+          "70",
+          "75",
+          "62",
+          "68"
+        ],
+        "case_id": "S176",
+        "check_summary": "Continued the apparent periodic multi-stream increment pattern.",
+        "confidence": 0.35,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "214809",
+          "429627",
+          "859247",
+          "-1718503",
+          "-3436997"
+        ],
+        "case_id": "S177",
+        "check_summary": "Three-phase affine updates replay the repeated blocks.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-8192",
+          "-16384",
+          "-32768",
+          "-65536",
+          "-131072"
+        ],
+        "case_id": "S178",
+        "check_summary": "Each term doubles the previous term.",
+        "confidence": 1.0,
+        "rule_summary": "Affine update."
+      },
+      {
+        "answer": [
+          "-5",
+          "8",
+          "-3",
+          "-2",
+          "5"
+        ],
+        "case_id": "S179",
+        "check_summary": "Six-term cycle repeats exactly.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic phase-specific deltas."
+      },
+      {
+        "answer": [
+          "-237",
+          "-272",
+          "-319",
+          "-360",
+          "-414"
+        ],
+        "case_id": "S180",
+        "check_summary": "Odd-position increments fall by 7 and even-position increments by 6.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic polynomial deltas."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-010BBF37C73F-search-b15-proposer-5",
+  "outcome": "valid_output",
+  "response_sha256": "67f6599c2b39bc669b7940f4b1bbba3fee0dc982b9b65f6f11849005b4d6c912",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-010BBF37C73F-search-b15-proposer-5/attempt-01"
+}

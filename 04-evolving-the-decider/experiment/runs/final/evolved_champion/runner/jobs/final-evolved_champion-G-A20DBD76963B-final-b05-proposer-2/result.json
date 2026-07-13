@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b05",
+    "results": [
+      {
+        "answer": [
+          "3454364",
+          "10363097",
+          "31089296",
+          "93267893",
+          "279803684"
+        ],
+        "case_id": "F049",
+        "check_summary": "Verified constant affine update x'=3x+5.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "21",
+          "19",
+          "24",
+          "22",
+          "27"
+        ],
+        "case_id": "F050",
+        "check_summary": "Verified two interleaved arithmetic streams.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-5953",
+          "5956",
+          "-17864",
+          "17861",
+          "-53580"
+        ],
+        "case_id": "F051",
+        "check_summary": "Verified repeating three-phase affine updates.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3973",
+          "-5902",
+          "-8445",
+          "-11721",
+          "-15862"
+        ],
+        "case_id": "F052",
+        "check_summary": "Extrapolated structured higher-order differences.",
+        "confidence": 0.42,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "516039",
+          "1245822",
+          "3007682",
+          "7031187",
+          "17064050"
+        ],
+        "case_id": "F053",
+        "check_summary": "Verified second-order recurrence with repeating biases -1,+1,-6.",
+        "confidence": 0.99,
+        "rule_summary": "LIN2"
+      },
+      {
+        "answer": [
+          "1066421",
+          "-3199269",
+          "-6398539",
+          "19195611",
+          "38391221"
+        ],
+        "case_id": "F054",
+        "check_summary": "Verified alternating affine updates.",
+        "confidence": 1,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-9",
+          "-185",
+          "-143",
+          "475",
+          "-277"
+        ],
+        "case_id": "F055",
+        "check_summary": "Extrapolated alternating subsequences.",
+        "confidence": 0.25,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-127",
+          "-145",
+          "-166",
+          "-190",
+          "-217"
+        ],
+        "case_id": "F056",
+        "check_summary": "Extrapolated declining structured sequence.",
+        "confidence": 0.25,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "45",
+          "9",
+          "48",
+          "4",
+          "51"
+        ],
+        "case_id": "F057",
+        "check_summary": "Verified two interleaved quadratic streams.",
+        "confidence": 1,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-77",
+          "-89",
+          "-102",
+          "-116",
+          "-131"
+        ],
+        "case_id": "F058",
+        "check_summary": "Verified successive differences 0,-1,-2,...",
+        "confidence": 1,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-883",
+          "-1124",
+          "-1407",
+          "-1735",
+          "-2111"
+        ],
+        "case_id": "F059",
+        "check_summary": "Verified second differences decreasing by successive multiples of three.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1476",
+          "2207",
+          "3176",
+          "4429",
+          "6016"
+        ],
+        "case_id": "F060",
+        "check_summary": "Verified polynomial finite-difference continuation.",
+        "confidence": 0.98,
+        "rule_summary": "POLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-evolved_champion-G-A20DBD76963B-final-b05-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "394508118befb2272eee1f3a790270d8ccd0ab4bf1f4a7189f04ba934d6428bc",
+  "terminal_artifact_relpath": "jobs/final-evolved_champion-G-A20DBD76963B-final-b05-proposer-2/attempt-01"
+}

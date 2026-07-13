@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b02",
+    "results": [
+      {
+        "answer": [
+          "29",
+          "-5",
+          "49",
+          "4",
+          "73"
+        ],
+        "case_id": "S013",
+        "check_summary": "Odd-position subsequence has successive differences 0,4,8,12; even positions alternate -5,4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved polynomial/periodic streams."
+      },
+      {
+        "answer": [
+          "20",
+          "14",
+          "18",
+          "12",
+          "16"
+        ],
+        "case_id": "S014",
+        "check_summary": "Weak phase-pattern extrapolation from the observed prefix.",
+        "confidence": 0.08,
+        "rule_summary": "Likely periodic phase recurrence."
+      },
+      {
+        "answer": [
+          "61",
+          "-25",
+          "-12",
+          "60",
+          "-34"
+        ],
+        "case_id": "S015",
+        "check_summary": "Residue-3 subsequences suggest blockwise polynomial/affine evolution.",
+        "confidence": 0.28,
+        "rule_summary": "Three interleaved streams."
+      },
+      {
+        "answer": [
+          "38",
+          "-3",
+          "76",
+          "-1",
+          "105"
+        ],
+        "case_id": "S016",
+        "check_summary": "Weak extrapolation from alternating subsequences.",
+        "confidence": 0.06,
+        "rule_summary": "Likely interleaved periodic recurrence."
+      },
+      {
+        "answer": [
+          "41",
+          "-25",
+          "46",
+          "-29",
+          "51"
+        ],
+        "case_id": "S017",
+        "check_summary": "Odd positions increase by 5; even positions decrease by 4.",
+        "confidence": 1.0,
+        "rule_summary": "Two affine streams interleaved by position."
+      },
+      {
+        "answer": [
+          "-8",
+          "-4",
+          "-20",
+          "-6",
+          "-28"
+        ],
+        "case_id": "S018",
+        "check_summary": "Weak phase-based extrapolation.",
+        "confidence": 0.05,
+        "rule_summary": "Likely periodic polynomial-delta process."
+      },
+      {
+        "answer": [
+          "47",
+          "91",
+          "-8",
+          "-31",
+          "66"
+        ],
+        "case_id": "S019",
+        "check_summary": "Weak extrapolation from irregular modular-looking prefix.",
+        "confidence": 0.03,
+        "rule_summary": "Likely modular affine recurrence."
+      },
+      {
+        "answer": [
+          "-4",
+          "58",
+          "-34",
+          "-6",
+          "76"
+        ],
+        "case_id": "S020",
+        "check_summary": "Weak extrapolation from irregular phase-separated values.",
+        "confidence": 0.04,
+        "rule_summary": "Likely periodic recurrence or interleaving."
+      },
+      {
+        "answer": [
+          "-33",
+          "-12",
+          "-43",
+          "-18",
+          "-53"
+        ],
+        "case_id": "S021",
+        "check_summary": "Weak extrapolation from phase-separated differences.",
+        "confidence": 0.05,
+        "rule_summary": "Likely interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-18",
+          "39",
+          "-45",
+          "60",
+          "-80"
+        ],
+        "case_id": "S022",
+        "check_summary": "Weak extrapolation from irregular periodic-looking prefix.",
+        "confidence": 0.03,
+        "rule_summary": "Likely modular or phase-periodic recurrence."
+      },
+      {
+        "answer": [
+          "-28",
+          "-26",
+          "-24",
+          "-22",
+          "-37"
+        ],
+        "case_id": "S023",
+        "check_summary": "Growing blocks: starts -12,-17,-22,-27,-32 with step 2 and lengths 1,2,3,4,5.",
+        "confidence": 0.99,
+        "rule_summary": "GROWBLOCK with polynomial block starts and fixed arithmetic steps."
+      },
+      {
+        "answer": [
+          "-40",
+          "-9",
+          "-370",
+          "-54",
+          "-754"
+        ],
+        "case_id": "S024",
+        "check_summary": "Weak extrapolation from large irregular alternating values.",
+        "confidence": 0.02,
+        "rule_summary": "Likely periodic affine or second-order recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-01-G-077823BA6DD7-search-b02-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "f58888e6c0088f1028777921f4ae0dc3f614600a76f297fed878295a4cd93903",
+  "terminal_artifact_relpath": "jobs/search-round-01-G-077823BA6DD7-search-b02-proposer-3/attempt-01"
+}

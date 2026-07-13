@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-430",
+          "-484",
+          "-539",
+          "-603",
+          "-666"
+        ],
+        "case_id": "S145",
+        "check_summary": "Differences are periodic by phase modulo 3, each phase decreasing by 9.",
+        "confidence": 0.98,
+        "rule_summary": "Period-3 polynomial delta sequence."
+      },
+      {
+        "answer": [
+          "94",
+          "104",
+          "111",
+          "126",
+          "131"
+        ],
+        "case_id": "S146",
+        "check_summary": "Extrapolated from interleaved phase behavior in the first differences.",
+        "confidence": 0.22,
+        "rule_summary": "Interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-10922",
+          "21846",
+          "-43690",
+          "87382",
+          "-174762"
+        ],
+        "case_id": "S147",
+        "check_summary": "Every term satisfies x(n+1) = -2x(n) + 2.",
+        "confidence": 1.0,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "327"
+        ],
+        "case_id": "S148",
+        "check_summary": "First differences split by parity into arithmetic progressions with increments 6 and 4.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "3560",
+          "4779",
+          "6288",
+          "8130",
+          "10352"
+        ],
+        "case_id": "S149",
+        "check_summary": "Third differences increase by 3, giving polynomial extrapolation.",
+        "confidence": 1.0,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "-6",
+          "-4",
+          "-8",
+          "-6",
+          "-10"
+        ],
+        "case_id": "S150",
+        "check_summary": "Odd and even subsequences each decrease by 2.",
+        "confidence": 1.0,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "-3921",
+          "-6349",
+          "-10278",
+          "-16635",
+          "-26913"
+        ],
+        "case_id": "S151",
+        "check_summary": "Differences follow Fibonacci-like recurrence with alternating phase correction.",
+        "confidence": 0.76,
+        "rule_summary": "Phase-biased second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "-14508",
+          "-19472",
+          "-24600",
+          "-30200",
+          "-36300"
+        ],
+        "case_id": "S152",
+        "check_summary": "Extrapolated from the accelerating negative difference sequence.",
+        "confidence": 0.15,
+        "rule_summary": "Phase-specific second-order recurrence."
+      },
+      {
+        "answer": [
+          "-2613",
+          "-4231",
+          "-6849",
+          "-11085",
+          "-17939"
+        ],
+        "case_id": "S153",
+        "check_summary": "Successive differences follow the Fibonacci recurrence.",
+        "confidence": 1.0,
+        "rule_summary": "Second-order linear recurrence on differences."
+      },
+      {
+        "answer": [
+          "-1239",
+          "-1593",
+          "-2009",
+          "-2492",
+          "-3047"
+        ],
+        "case_id": "S154",
+        "check_summary": "Second differences decrease by 5, implying cubic continuation.",
+        "confidence": 1.0,
+        "rule_summary": "Polynomial sequence."
+      },
+      {
+        "answer": [
+          "533635",
+          "-1067265",
+          "-2134529",
+          "4269051",
+          "-8538097"
+        ],
+        "case_id": "S155",
+        "check_summary": "Multiplier alternates sign with repeating biases -7, 5, 1.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "136533",
+          "273068",
+          "546133",
+          "1092268",
+          "2184533"
+        ],
+        "case_id": "S156",
+        "check_summary": "Bias alternates -3 and +2 under multiplier 2.",
+        "confidence": 1.0,
+        "rule_summary": "Period-2 affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-38D833F18B84-search-b13-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "548a9430acc9cfc871de2f362f70f013afd925bf5f39ed85d17a1a36ce716c06",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-38D833F18B84-search-b13-proposer-2/attempt-01"
+}

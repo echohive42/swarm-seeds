@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b11",
+    "results": [
+      {
+        "answer": [
+          "3454367",
+          "-10363099",
+          "31089299",
+          "-93267895",
+          "279803687"
+        ],
+        "case_id": "S121",
+        "check_summary": "Affine recurrence x'=−3x+2 matches all terms.",
+        "confidence": 1.0,
+        "rule_summary": "Constant affine update."
+      },
+      {
+        "answer": [
+          "35",
+          "39",
+          "43",
+          "47",
+          "51"
+        ],
+        "case_id": "S122",
+        "check_summary": "Alternating increments +2,+4 match prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase affine progression."
+      },
+      {
+        "answer": [
+          "146745",
+          "-440244",
+          "-880487",
+          "-1760967",
+          "5282892"
+        ],
+        "case_id": "S123",
+        "check_summary": "Three-phase affine updates repeat exactly.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic affine recurrence."
+      },
+      {
+        "answer": [
+          "-99",
+          "-201",
+          "401",
+          "801",
+          "-1601"
+        ],
+        "case_id": "S124",
+        "check_summary": "Alternating affine updates match prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Two-phase affine recurrence."
+      },
+      {
+        "answer": [
+          "2545",
+          "3413",
+          "4482",
+          "5780",
+          "7411"
+        ],
+        "case_id": "S125",
+        "check_summary": "Finite-difference continuation used.",
+        "confidence": 0.9,
+        "rule_summary": "Polynomial delta progression."
+      },
+      {
+        "answer": [
+          "-19014",
+          "-27503",
+          "-38774",
+          "-53461",
+          "-72282"
+        ],
+        "case_id": "S126",
+        "check_summary": "Fourth differences continue by −6.",
+        "confidence": 0.96,
+        "rule_summary": "Integer-valued polynomial sequence."
+      },
+      {
+        "answer": [
+          "-187",
+          "-221",
+          "-243",
+          "-272",
+          "-307"
+        ],
+        "case_id": "S127",
+        "check_summary": "Odd/even interleaved difference patterns continued.",
+        "confidence": 0.88,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-172",
+          "-163",
+          "-155",
+          "-140",
+          "-126"
+        ],
+        "case_id": "S128",
+        "check_summary": "Alternating difference sequences continued.",
+        "confidence": 0.9,
+        "rule_summary": "Interleaved affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "700",
+          "1135",
+          "1839",
+          "2978",
+          "4821"
+        ],
+        "case_id": "S129",
+        "check_summary": "Later differences follow Fibonacci addition.",
+        "confidence": 0.91,
+        "rule_summary": "Second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "1029",
+          "1256",
+          "1506",
+          "1782",
+          "2087"
+        ],
+        "case_id": "S130",
+        "check_summary": "Second differences increase by 3.",
+        "confidence": 0.99,
+        "rule_summary": "Cubic polynomial sequence."
+      },
+      {
+        "answer": [
+          "86",
+          "92",
+          "100",
+          "105",
+          "128"
+        ],
+        "case_id": "S131",
+        "check_summary": "Phase-separated difference continuation.",
+        "confidence": 0.55,
+        "rule_summary": "Interleaved periodic polynomial streams."
+      },
+      {
+        "answer": [
+          "1707140",
+          "4947900",
+          "14340600",
+          "41587700",
+          "120605400"
+        ],
+        "case_id": "S132",
+        "check_summary": "Exponential-looking affine continuation extrapolated from prefix.",
+        "confidence": 0.25,
+        "rule_summary": "Periodic affine recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-06-G-EC429DE4D50C-search-b11-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "813ed8b82818e959a7b9101eab43a80787d5a313a2bfe5e4a43f5561036d50cb",
+  "terminal_artifact_relpath": "jobs/search-round-06-G-EC429DE4D50C-search-b11-proposer-6/attempt-01"
+}

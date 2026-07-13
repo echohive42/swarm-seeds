@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b07",
+    "results": [
+      {
+        "answer": [
+          "-35",
+          "-38",
+          "-42",
+          "-45",
+          "-49"
+        ],
+        "case_id": "S073",
+        "check_summary": "Alternating phase deltas -4,-3 replay the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic polynomial delta update."
+      },
+      {
+        "answer": [
+          "-2196",
+          "-1376",
+          "-828",
+          "-543",
+          "-293"
+        ],
+        "case_id": "S074",
+        "check_summary": "Second-order recurrence with repeating biases 5,-8,-8 matches the prefix.",
+        "confidence": 0.98,
+        "rule_summary": "Periodic second-order linear recurrence."
+      },
+      {
+        "answer": [
+          "8",
+          "6",
+          "14",
+          "7",
+          "15"
+        ],
+        "case_id": "S075",
+        "check_summary": "Interleaved low-degree streams inferred from alternating positions.",
+        "confidence": 0.34,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-13937",
+          "-19074",
+          "-25024",
+          "-31807",
+          "-39379"
+        ],
+        "case_id": "S076",
+        "check_summary": "Extrapolated from the accelerating phase-structured differences.",
+        "confidence": 0.22,
+        "rule_summary": "Periodic polynomial delta update."
+      },
+      {
+        "answer": [
+          "-4062",
+          "-9803",
+          "-23663",
+          "-57124",
+          "-137906"
+        ],
+        "case_id": "S077",
+        "check_summary": "Recurrence a(n)=2a(n-1)+a(n-2)+5 exactly matches the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Second-order linear recurrence with constant bias."
+      },
+      {
+        "answer": [
+          "-4915828",
+          "14747489",
+          "-44242462",
+          "132727391",
+          "-398182168"
+        ],
+        "case_id": "S078",
+        "check_summary": "Affine update x(n)=-3x(n-1)+5 matches all observed transitions.",
+        "confidence": 0.99,
+        "rule_summary": "Affine recurrence."
+      },
+      {
+        "answer": [
+          "83",
+          "118",
+          "163",
+          "217",
+          "282"
+        ],
+        "case_id": "S079",
+        "check_summary": "Extrapolated from the inferred interleaved phase structure.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-5054",
+          "5046",
+          "15130",
+          "-45392",
+          "45384"
+        ],
+        "case_id": "S080",
+        "check_summary": "Three-phase affine maps replay all observed terms.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-152370",
+          "304738",
+          "-609474",
+          "1218946",
+          "-2437888"
+        ],
+        "case_id": "S081",
+        "check_summary": "Alternating affine maps x->-2x+2 and x->-2x-2 match the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "-388",
+          "-488",
+          "-609",
+          "-745",
+          "-890"
+        ],
+        "case_id": "S082",
+        "check_summary": "Successive differences are negative squares from the established phase onward.",
+        "confidence": 0.97,
+        "rule_summary": "Polynomial delta update."
+      },
+      {
+        "answer": [
+          "-2765",
+          "-4008",
+          "-5613",
+          "-7643",
+          "-10098"
+        ],
+        "case_id": "S083",
+        "check_summary": "Finite differences show a quartic continuation with third differences decreasing by 5.",
+        "confidence": 0.96,
+        "rule_summary": "Integer-valued polynomial."
+      },
+      {
+        "answer": [
+          "3519",
+          "-8491",
+          "20448",
+          "-49208",
+          "118386"
+        ],
+        "case_id": "S084",
+        "check_summary": "Extrapolated from the alternating exponential-looking affine pattern.",
+        "confidence": 0.24,
+        "rule_summary": "Periodic affine update."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-571E66D2D29B-search-b07-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "cca990423b970246ed0416294d4158a198399aad832b6277fdaccc8769a92ccf",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-571E66D2D29B-search-b07-proposer-3/attempt-01"
+}

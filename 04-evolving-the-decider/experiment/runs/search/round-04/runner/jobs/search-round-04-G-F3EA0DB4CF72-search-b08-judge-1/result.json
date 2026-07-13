@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b08",
+    "results": [
+      {
+        "answer": [
+          "21",
+          "14",
+          "17",
+          "20",
+          "23"
+        ],
+        "case_id": "S085",
+        "check_summary": "Periodic phase-delta continuation has the strongest coherent full-prefix support.",
+        "confidence": 0.86,
+        "rule_summary": "PDELTA with period 4."
+      },
+      {
+        "answer": [
+          "46",
+          "7",
+          "45",
+          "29",
+          "36"
+        ],
+        "case_id": "S086",
+        "check_summary": "The recurrence x(n+1)=9x(n)+33 modulo 67 exactly replays the full prefix.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "61",
+          "50",
+          "39",
+          "28",
+          "17"
+        ],
+        "case_id": "S087",
+        "check_summary": "Growing arithmetic blocks with polynomially increasing starts and repeated negative within-block steps.",
+        "confidence": 0.94,
+        "rule_summary": "GROWBLOCK."
+      },
+      {
+        "answer": [
+          "30",
+          "1",
+          "35",
+          "0",
+          "40"
+        ],
+        "case_id": "S088",
+        "check_summary": "Odd positions rise by 5 and even positions fall by 1.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-17",
+          "86",
+          "-61",
+          "113",
+          "-105"
+        ],
+        "case_id": "S089",
+        "check_summary": "Best-supported continuation among weak alternating-stream extrapolations.",
+        "confidence": 0.24,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "2",
+          "6",
+          "18",
+          "16",
+          "10"
+        ],
+        "case_id": "S090",
+        "check_summary": "The recurrence x(n+1)=3x(n) modulo 19 exactly replays the prefix.",
+        "confidence": 0.99,
+        "rule_summary": "MODAFFINE."
+      },
+      {
+        "answer": [
+          "-69",
+          "-106",
+          "-12",
+          "-217",
+          "30"
+        ],
+        "case_id": "S091",
+        "check_summary": "Selected as the strongest available coherent second-order continuation, though support is weak.",
+        "confidence": 0.18,
+        "rule_summary": "LIN2."
+      },
+      {
+        "answer": [
+          "5",
+          "-27",
+          "5",
+          "-37",
+          "5"
+        ],
+        "case_id": "S092",
+        "check_summary": "Odd subsequence is constant 5; even subsequence decrements successively by 4,5,6,7,8,9.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE with constant and quadratic streams."
+      },
+      {
+        "answer": [
+          "-34",
+          "48",
+          "-41",
+          "59",
+          "-48"
+        ],
+        "case_id": "S093",
+        "check_summary": "Selected as the strongest available alternating polynomial-stream extrapolation; support remains weak.",
+        "confidence": 0.2,
+        "rule_summary": "INTERLEAVE."
+      },
+      {
+        "answer": [
+          "24",
+          "79",
+          "-3",
+          "92",
+          "-14"
+        ],
+        "case_id": "S094",
+        "check_summary": "Selected as the strongest available phase-specific affine continuation; support remains weak.",
+        "confidence": 0.18,
+        "rule_summary": "AFFINE."
+      },
+      {
+        "answer": [
+          "-17",
+          "-33",
+          "-49",
+          "-65",
+          "-35"
+        ],
+        "case_id": "S095",
+        "check_summary": "Phase-specific deltas show the strongest coherent polynomial continuation.",
+        "confidence": 0.94,
+        "rule_summary": "PDELTA."
+      },
+      {
+        "answer": [
+          "-18",
+          "158",
+          "-30",
+          "314",
+          "-42"
+        ],
+        "case_id": "S096",
+        "check_summary": "Selected as the strongest available phase-specific second-order continuation; support remains weak.",
+        "confidence": 0.16,
+        "rule_summary": "LIN2."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-04-G-F3EA0DB4CF72-search-b08-judge-1",
+  "outcome": "valid_output",
+  "response_sha256": "d9b2eb86be985fda5425daa669f72bbc4dd8fbd87f200c8d36d3d3fecb70c3f1",
+  "terminal_artifact_relpath": "jobs/search-round-04-G-F3EA0DB4CF72-search-b08-judge-1/attempt-01"
+}

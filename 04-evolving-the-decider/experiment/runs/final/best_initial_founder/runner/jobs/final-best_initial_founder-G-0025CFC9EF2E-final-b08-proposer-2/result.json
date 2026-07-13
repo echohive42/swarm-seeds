@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b08",
+    "results": [
+      {
+        "answer": [
+          "17",
+          "-24",
+          "18",
+          "-28",
+          "19"
+        ],
+        "case_id": "F085",
+        "check_summary": "Odd positions increase by 1; even positions decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic streams."
+      },
+      {
+        "answer": [
+          "230",
+          "80",
+          "-82",
+          "586",
+          "207"
+        ],
+        "case_id": "F086",
+        "check_summary": "Three phase subsequences fit cubic finite-difference continuation.",
+        "confidence": 0.52,
+        "rule_summary": "Three-way interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "71",
+          "61",
+          "301",
+          "135",
+          "124"
+        ],
+        "case_id": "F087",
+        "check_summary": "Three phase subsequences fit cubic/quartic finite-difference continuation.",
+        "confidence": 0.42,
+        "rule_summary": "Three-way interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "144",
+          "162",
+          "180",
+          "198",
+          "216"
+        ],
+        "case_id": "F088",
+        "check_summary": "Final phase continues by a constant step of 18.",
+        "confidence": 0.35,
+        "rule_summary": "Growing arithmetic blocks with phase structure."
+      },
+      {
+        "answer": [
+          "11",
+          "46",
+          "-15",
+          "60",
+          "11"
+        ],
+        "case_id": "F089",
+        "check_summary": "Odd stream alternates 11 and -15; even stream increments by successive even numbers.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved arithmetic/polynomial streams."
+      },
+      {
+        "answer": [
+          "-42",
+          "-4",
+          "-42",
+          "-71",
+          "-15"
+        ],
+        "case_id": "F090",
+        "check_summary": "Three phase streams have constant second differences.",
+        "confidence": 0.94,
+        "rule_summary": "Three-way interleaved quadratic streams."
+      },
+      {
+        "answer": [
+          "15",
+          "40",
+          "-763",
+          "18",
+          "42"
+        ],
+        "case_id": "F091",
+        "check_summary": "Three phase streams: linear, quadratic, and affine-doubling negative stream.",
+        "confidence": 0.98,
+        "rule_summary": "Three-way interleaved polynomial/affine streams."
+      },
+      {
+        "answer": [
+          "-31",
+          "107",
+          "-69",
+          "-112",
+          "-23"
+        ],
+        "case_id": "F092",
+        "check_summary": "Periodic phase continuation inferred from sparse phase subsequences.",
+        "confidence": 0.18,
+        "rule_summary": "Periodic interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "21",
+          "26",
+          "31",
+          "36",
+          "41"
+        ],
+        "case_id": "F093",
+        "check_summary": "Blocks have starts increasing by 3 and within-block step 5.",
+        "confidence": 0.99,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "45",
+          "40",
+          "35",
+          "30",
+          "25"
+        ],
+        "case_id": "F094",
+        "check_summary": "Periodic multi-phase continuation inferred from repeated block structure.",
+        "confidence": 0.2,
+        "rule_summary": "Periodic affine/interleaved streams."
+      },
+      {
+        "answer": [
+          "-21",
+          "31",
+          "91",
+          "-52",
+          "113"
+        ],
+        "case_id": "F095",
+        "check_summary": "Periodic multi-phase continuation inferred from phase-specific polynomial updates.",
+        "confidence": 0.16,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-67",
+          "107",
+          "53",
+          "-120",
+          "159"
+        ],
+        "case_id": "F096",
+        "check_summary": "Three phase subsequences show progressing quadratic second differences.",
+        "confidence": 0.87,
+        "rule_summary": "Three-way interleaved polynomial streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-best_initial_founder-G-0025CFC9EF2E-final-b08-proposer-2",
+  "outcome": "valid_output",
+  "response_sha256": "c780870bbcd5efabab2ef6c5395854c291fc27a1023ad3c5f397153d457758eb",
+  "terminal_artifact_relpath": "jobs/final-best_initial_founder-G-0025CFC9EF2E-final-b08-proposer-2/attempt-01"
+}

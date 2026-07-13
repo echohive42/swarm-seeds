@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b16",
+    "results": [
+      {
+        "answer": [
+          "-204",
+          "-92",
+          "-43",
+          "-120",
+          "-79"
+        ],
+        "case_id": "S181",
+        "check_summary": "Best-fit periodic-delta continuation; low confidence.",
+        "confidence": 0.08,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-5",
+          "32",
+          "-17",
+          "39",
+          "-34"
+        ],
+        "case_id": "S182",
+        "check_summary": "Best-fit interleaved continuation; low confidence.",
+        "confidence": 0.08,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "13",
+          "8",
+          "-18",
+          "16",
+          "-8"
+        ],
+        "case_id": "S183",
+        "check_summary": "Best-fit phase-interleaved continuation; low confidence.",
+        "confidence": 0.08,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-18",
+          "1027",
+          "-8",
+          "-10",
+          "-2045"
+        ],
+        "case_id": "S184",
+        "check_summary": "Three lag-3 subsequences replayed; high-confidence continuation.",
+        "confidence": 0.98,
+        "rule_summary": "Lagged subsequences with phase-specific polynomial increments."
+      },
+      {
+        "answer": [
+          "68",
+          "3",
+          "91",
+          "-2",
+          "117"
+        ],
+        "case_id": "S185",
+        "check_summary": "Odd subsequence has increments 5,8,11,14,17; even subsequence alternates 3 and -2.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved polynomial and periodic affine streams."
+      },
+      {
+        "answer": [
+          "-13",
+          "-12",
+          "-49",
+          "-17",
+          "65"
+        ],
+        "case_id": "S186",
+        "check_summary": "Best-fit periodic phase continuation; low confidence.",
+        "confidence": 0.08,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "30",
+          "28",
+          "-107",
+          "32",
+          "47"
+        ],
+        "case_id": "S187",
+        "check_summary": "Three lag-3 subsequences show arithmetic/quadratic/exponential differences.",
+        "confidence": 0.99,
+        "rule_summary": "Lagged subsequences with phase-specific polynomial increments."
+      },
+      {
+        "answer": [
+          "-17",
+          "-34",
+          "-51",
+          "-68",
+          "-85"
+        ],
+        "case_id": "S188",
+        "check_summary": "Growing arithmetic blocks: next block starts at -17 with step -17.",
+        "confidence": 0.94,
+        "rule_summary": "Growing arithmetic blocks with polynomial starts and steps."
+      },
+      {
+        "answer": [
+          "-26",
+          "-22",
+          "-29",
+          "-26",
+          "-32"
+        ],
+        "case_id": "S189",
+        "check_summary": "Odd stream decrements by 3; even stream decrements by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-12",
+          "31",
+          "-8",
+          "24",
+          "-4"
+        ],
+        "case_id": "S190",
+        "check_summary": "Best-fit interleaved continuation; low confidence.",
+        "confidence": 0.08,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "34",
+          "-9",
+          "-18",
+          "61",
+          "-5"
+        ],
+        "case_id": "S191",
+        "check_summary": "Best-fit periodic affine continuation; low confidence.",
+        "confidence": 0.08,
+        "rule_summary": "Periodic affine update."
+      },
+      {
+        "answer": [
+          "19",
+          "220",
+          "-46",
+          "26",
+          "444"
+        ],
+        "case_id": "S192",
+        "check_summary": "Three lag-3 subsequences replayed: linear, linear, and doubling increments.",
+        "confidence": 0.99,
+        "rule_summary": "Lagged subsequences with phase-specific polynomial increments."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-08-G-6BAC1D28F028-search-b16-proposer-3",
+  "outcome": "valid_output",
+  "response_sha256": "d28bed48e3dfbe8832824e73f5a27a219684fda94a0c2660661b9558b3543e16",
+  "terminal_artifact_relpath": "jobs/search-round-08-G-6BAC1D28F028-search-b16-proposer-3/attempt-01"
+}

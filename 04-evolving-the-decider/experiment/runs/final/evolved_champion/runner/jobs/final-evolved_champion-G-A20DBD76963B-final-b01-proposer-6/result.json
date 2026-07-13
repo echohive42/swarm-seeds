@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "final-b01",
+    "results": [
+      {
+        "answer": [
+          "1211",
+          "1535",
+          "1912",
+          "2346",
+          "2841"
+        ],
+        "case_id": "F001",
+        "check_summary": "Cubic finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "-176",
+          "-180",
+          "-189",
+          "-191",
+          "-198"
+        ],
+        "case_id": "F002",
+        "check_summary": "Alternating arithmetic difference continuation.",
+        "confidence": 0.98,
+        "rule_summary": "PDELTA"
+      },
+      {
+        "answer": [
+          "1279718",
+          "-2559430",
+          "-7678288",
+          "15356582",
+          "46069748"
+        ],
+        "case_id": "F003",
+        "check_summary": "Alternating affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-8254422",
+          "-24763262",
+          "49526526",
+          "148579570",
+          "445738714"
+        ],
+        "case_id": "F004",
+        "check_summary": "Three-phase affine replay.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-47",
+          "-40",
+          "-48",
+          "-43",
+          "-49"
+        ],
+        "case_id": "F005",
+        "check_summary": "Periodic lagged continuation estimate.",
+        "confidence": 0.3,
+        "rule_summary": "LAGPOLY"
+      },
+      {
+        "answer": [
+          "-16",
+          "-19",
+          "-17",
+          "-20",
+          "-18"
+        ],
+        "case_id": "F006",
+        "check_summary": "Two interleaved arithmetic streams.",
+        "confidence": 0.99,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-102",
+          "47",
+          "122",
+          "-385",
+          "73"
+        ],
+        "case_id": "F007",
+        "check_summary": "Three-stream polynomial extrapolation.",
+        "confidence": 0.35,
+        "rule_summary": "INTERLEAVE"
+      },
+      {
+        "answer": [
+          "-25557",
+          "-37336",
+          "-53050",
+          "-73593",
+          "-99984"
+        ],
+        "case_id": "F008",
+        "check_summary": "Polynomial finite-difference continuation.",
+        "confidence": 0.92,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "775",
+          "1205",
+          "1773",
+          "2504",
+          "3425"
+        ],
+        "case_id": "F009",
+        "check_summary": "Polynomial finite-difference continuation.",
+        "confidence": 0.99,
+        "rule_summary": "POLY"
+      },
+      {
+        "answer": [
+          "1029",
+          "-1203",
+          "2053",
+          "-2803",
+          "3077"
+        ],
+        "case_id": "F010",
+        "check_summary": "Periodic affine continuation estimate.",
+        "confidence": 0.25,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-30037",
+          "60075",
+          "-120149",
+          "240299",
+          "-480597"
+        ],
+        "case_id": "F011",
+        "check_summary": "Constant affine recurrence x_next=-2x+1.",
+        "confidence": 0.99,
+        "rule_summary": "AFFINE"
+      },
+      {
+        "answer": [
+          "-3005",
+          "-3380",
+          "-4457",
+          "-5840",
+          "-7869"
+        ],
+        "case_id": "F012",
+        "check_summary": "Periodic lagged polynomial continuation estimate.",
+        "confidence": 0.2,
+        "rule_summary": "LAGPOLY"
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "final-evolved_champion-G-A20DBD76963B-final-b01-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "99960ec1084ff971123e6df38c9a5bc4e7c65e4f04f6d3270e88bd4ab91402fe",
+  "terminal_artifact_relpath": "jobs/final-evolved_champion-G-A20DBD76963B-final-b01-proposer-6/attempt-01"
+}

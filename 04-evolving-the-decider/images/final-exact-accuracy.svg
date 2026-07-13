@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Hidden-final exact accuracy</title>
+<desc id="chart-desc">Four ten-call methods on 96 paired cases.</desc>
+<metadata>source-digest:01ed8d6eb4571fb79d3307519ab11db22b272b51562eed76de33f05dc3888cd7</metadata>
+<style>text{font-family:Inter,Arial,sans-serif;fill:#152238}.title{font-size:28px;font-weight:750}.subtitle{font-size:14px;fill:#526174}.axis{font-size:12px;fill:#526174}.label{font-size:13px;font-weight:650}.value{font-size:12px;font-weight:750}.note{font-size:11px;fill:#526174}.legend{font-size:12px;font-weight:650}</style>
+<rect width="1200" height="720" fill="#FFFFFF"/>
+<text x="62.00" y="48.00" class="title" text-anchor="start" >Hidden-final exact accuracy</text>
+<text x="62.00" y="75.00" class="subtitle" text-anchor="start" >Same 96 paired cases; whiskers show block-stratified 95% intervals</text>
+<text x="62.00" y="700.00" class="note" text-anchor="start" >Source: results/final/summary.json and comparisons.json</text>
+<line x1="120.00" y1="540.00" x2="1130.00" y2="540.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="108.00" y="544.00" class="axis" text-anchor="end" >0.0%</text>
+<line x1="120.00" y1="460.00" x2="1130.00" y2="460.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="108.00" y="464.00" class="axis" text-anchor="end" >20.0%</text>
+<line x1="120.00" y1="380.00" x2="1130.00" y2="380.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="108.00" y="384.00" class="axis" text-anchor="end" >40.0%</text>
+<line x1="120.00" y1="300.00" x2="1130.00" y2="300.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="108.00" y="304.00" class="axis" text-anchor="end" >60.0%</text>
+<line x1="120.00" y1="220.00" x2="1130.00" y2="220.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="108.00" y="224.00" class="axis" text-anchor="end" >80.0%</text>
+<line x1="120.00" y1="140.00" x2="1130.00" y2="140.00" stroke="#D8E1EB" stroke-width="1"/>
+<text x="108.00" y="144.00" class="axis" text-anchor="end" >100.0%</text>
+<line x1="120.00" y1="140.00" x2="120.00" y2="540.00" stroke="#152238" stroke-width="1.2"/>
+<line x1="120.00" y1="540.00" x2="1130.00" y2="540.00" stroke="#152238" stroke-width="1.2"/>
+<rect x="198.25" y="369.17" width="96.00" height="170.83" fill="#7D8A99" rx="5"/>
+<line x1="246.25" y1="331.67" x2="246.25" y2="402.50" stroke="#152238" stroke-width="2.5"/>
+<line x1="233.25" y1="331.67" x2="259.25" y2="331.67" stroke="#152238" stroke-width="2.5"/>
+<line x1="233.25" y1="402.50" x2="259.25" y2="402.50" stroke="#152238" stroke-width="2.5"/>
+<circle cx="246.25" cy="369.17" r="5.00" fill="#152238"/>
+<text x="246.25" y="319.67" class="value" text-anchor="middle" >42.7%</text>
+<text x="246.25" y="569.00" class="label" text-anchor="middle" >Generalist Vote10</text>
+<text x="246.25" y="590.00" class="axis" text-anchor="middle" >41/96 exact</text>
+<rect x="450.75" y="385.83" width="96.00" height="154.17" fill="#277DA1" rx="5"/>
+<line x1="498.75" y1="348.33" x2="498.75" y2="423.33" stroke="#152238" stroke-width="2.5"/>
+<line x1="485.75" y1="348.33" x2="511.75" y2="348.33" stroke="#152238" stroke-width="2.5"/>
+<line x1="485.75" y1="423.33" x2="511.75" y2="423.33" stroke="#152238" stroke-width="2.5"/>
+<circle cx="498.75" cy="385.83" r="5.00" fill="#152238"/>
+<text x="498.75" y="336.33" class="value" text-anchor="middle" >38.5%</text>
+<text x="498.75" y="569.00" class="label" text-anchor="middle" >Diversified Vote10</text>
+<text x="498.75" y="590.00" class="axis" text-anchor="middle" >37/96 exact</text>
+<rect x="703.25" y="360.83" width="96.00" height="179.17" fill="#F9C74F" rx="5"/>
+<line x1="751.25" y1="323.33" x2="751.25" y2="398.33" stroke="#152238" stroke-width="2.5"/>
+<line x1="738.25" y1="323.33" x2="764.25" y2="323.33" stroke="#152238" stroke-width="2.5"/>
+<line x1="738.25" y1="398.33" x2="764.25" y2="398.33" stroke="#152238" stroke-width="2.5"/>
+<circle cx="751.25" cy="360.83" r="5.00" fill="#152238"/>
+<text x="751.25" y="311.33" class="value" text-anchor="middle" >44.8%</text>
+<text x="751.25" y="569.00" class="label" text-anchor="middle" >Best initial founder</text>
+<text x="751.25" y="590.00" class="axis" text-anchor="middle" >43/96 exact</text>
+<rect x="955.75" y="369.17" width="96.00" height="170.83" fill="#43AA8B" rx="5"/>
+<line x1="1003.75" y1="331.67" x2="1003.75" y2="406.67" stroke="#152238" stroke-width="2.5"/>
+<line x1="990.75" y1="331.67" x2="1016.75" y2="331.67" stroke="#152238" stroke-width="2.5"/>
+<line x1="990.75" y1="406.67" x2="1016.75" y2="406.67" stroke="#152238" stroke-width="2.5"/>
+<circle cx="1003.75" cy="369.17" r="5.00" fill="#152238"/>
+<text x="1003.75" y="319.67" class="value" text-anchor="middle" >42.7%</text>
+<text x="1003.75" y="569.00" class="label" text-anchor="middle" >Evolved champion</text>
+<text x="1003.75" y="590.00" class="axis" text-anchor="middle" >41/96 exact</text>
+<rect x="185.00" y="626.00" width="830.00" height="42.00" fill="#F4F7FA" rx="8"/>
+<text x="600.00" y="652.00" class="label" text-anchor="middle" >Champion minus diversified Vote10: +4.2 pp; 95% interval [-2.1 pp, +10.4 pp]. Superiority not established.</text>
+</svg>

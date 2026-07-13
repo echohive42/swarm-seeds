@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b13",
+    "results": [
+      {
+        "answer": [
+          "-430",
+          "-484",
+          "-545",
+          "-600",
+          "-663"
+        ],
+        "case_id": "S145",
+        "check_summary": "Plurality agrees on the period-3 continuation; visible differences replay with phase-specific linear declines.",
+        "confidence": 0.99,
+        "rule_summary": "PDELTA with period-3 linear phase deltas."
+      },
+      {
+        "answer": [
+          "93",
+          "87",
+          "117",
+          "123",
+          "109"
+        ],
+        "case_id": "S146",
+        "check_summary": "Plurality supports the three-phase polynomial-delta continuation.",
+        "confidence": 0.7,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-10922",
+          "21846",
+          "-43690",
+          "87382",
+          "-174762"
+        ],
+        "case_id": "S147",
+        "check_summary": "Every transition satisfies next = -2 times current + 2.",
+        "confidence": 1.0,
+        "rule_summary": "AFFINE recurrence."
+      },
+      {
+        "answer": [
+          "181",
+          "206",
+          "249",
+          "278",
+          "327"
+        ],
+        "case_id": "S148",
+        "check_summary": "Alternating phase differences increase linearly by 6 and 4.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two quadratic streams."
+      },
+      {
+        "answer": [
+          "3560",
+          "4779",
+          "6288",
+          "8130",
+          "10351"
+        ],
+        "case_id": "S149",
+        "check_summary": "Fourth finite differences are constant at 3.",
+        "confidence": 1.0,
+        "rule_summary": "Integer-valued quartic POLY."
+      },
+      {
+        "answer": [
+          "-6",
+          "-4",
+          "-8",
+          "-6",
+          "-10"
+        ],
+        "case_id": "S150",
+        "check_summary": "Odd and even subsequences each decrement by 2.",
+        "confidence": 1.0,
+        "rule_summary": "INTERLEAVE of two affine streams."
+      },
+      {
+        "answer": [
+          "-3920",
+          "-6348",
+          "-10274",
+          "-16629",
+          "-26909"
+        ],
+        "case_id": "S151",
+        "check_summary": "Plurality supports the biased Fibonacci-style second-order recurrence with periodic bias.",
+        "confidence": 0.99,
+        "rule_summary": "Periodic biased LIN2 recurrence."
+      },
+      {
+        "answer": [
+          "-12490",
+          "-19511",
+          "-30564",
+          "-47891",
+          "-75080"
+        ],
+        "case_id": "S152",
+        "check_summary": "Plurality supports this phase-specific linear recurrence continuation; no candidate has high-certainty verification.",
+        "confidence": 0.38,
+        "rule_summary": "LIN2 with phase-specific recurrence."
+      },
+      {
+        "answer": [
+          "-2613",
+          "-4231",
+          "-6849",
+          "-11085",
+          "-17939"
+        ],
+        "case_id": "S153",
+        "check_summary": "Every next term equals the previous two terms minus 5.",
+        "confidence": 1.0,
+        "rule_summary": "LIN2 with constant bias."
+      },
+      {
+        "answer": [
+          "-1239",
+          "-1593",
+          "-2009",
+          "-2492",
+          "-3047"
+        ],
+        "case_id": "S154",
+        "check_summary": "Third finite differences remain constant at -5.",
+        "confidence": 1.0,
+        "rule_summary": "Cubic POLY."
+      },
+      {
+        "answer": [
+          "533635",
+          "-1067265",
+          "-2134529",
+          "4269051",
+          "-8538097"
+        ],
+        "case_id": "S155",
+        "check_summary": "Plurality agrees on the repeating affine phase cycle.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic AFFINE update."
+      },
+      {
+        "answer": [
+          "136533",
+          "273068",
+          "546133",
+          "1092268",
+          "2184533"
+        ],
+        "case_id": "S156",
+        "check_summary": "Alternating affine updates 2x-3 and 2x+2 replay the prefix.",
+        "confidence": 1.0,
+        "rule_summary": "Period-2 AFFINE recurrence."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-07-G-B6BC6FB624BA-search-b13-judge-2",
+  "outcome": "valid_output",
+  "response_sha256": "5a4f45ac4c53d5ecc4c7fffb5b520c35616f44dba71bb12f75dc6f26b36dd418",
+  "terminal_artifact_relpath": "jobs/search-round-07-G-B6BC6FB624BA-search-b13-judge-2/attempt-01"
+}

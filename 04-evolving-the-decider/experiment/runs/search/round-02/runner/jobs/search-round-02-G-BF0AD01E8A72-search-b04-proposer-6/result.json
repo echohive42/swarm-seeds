@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b04",
+    "results": [
+      {
+        "answer": [
+          "-143",
+          "17",
+          "-209",
+          "19",
+          "-287"
+        ],
+        "case_id": "S037",
+        "check_summary": "Alternating subsequences show polynomial-like signed growth; extrapolation uncertain.",
+        "confidence": 0.2,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "139",
+          "-2",
+          "159",
+          "-35",
+          "187"
+        ],
+        "case_id": "S038",
+        "check_summary": "Alternating streams exhibit nonlinear phase behavior; continuation is low-confidence.",
+        "confidence": 0.18,
+        "rule_summary": "Phase-interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "160",
+          "5",
+          "176",
+          "395",
+          "-67"
+        ],
+        "case_id": "S039",
+        "check_summary": "Three residue-class streams fit cubic extrapolations exactly across the prefix.",
+        "confidence": 0.86,
+        "rule_summary": "Three interleaved cubic polynomial streams."
+      },
+      {
+        "answer": [
+          "105",
+          "100",
+          "116",
+          "132",
+          "148"
+        ],
+        "case_id": "S040",
+        "check_summary": "Repeated phase increments suggest a periodic polynomial-delta process.",
+        "confidence": 0.28,
+        "rule_summary": "Periodic phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-24",
+          "31",
+          "-28",
+          "35",
+          "-32"
+        ],
+        "case_id": "S041",
+        "check_summary": "Odd terms increase by 4 and even terms decrease by 4.",
+        "confidence": 0.99,
+        "rule_summary": "Two interleaved affine streams."
+      },
+      {
+        "answer": [
+          "-19",
+          "58",
+          "-1",
+          "55",
+          "-17"
+        ],
+        "case_id": "S042",
+        "check_summary": "Residue-class continuation is consistent with periodic nonlinear updates but uncertain.",
+        "confidence": 0.19,
+        "rule_summary": "Phase-interleaved affine/polynomial streams."
+      },
+      {
+        "answer": [
+          "-14",
+          "8",
+          "-74",
+          "15",
+          "-10"
+        ],
+        "case_id": "S043",
+        "check_summary": "Signed alternating blocks suggest a phase-dependent recurrence; extrapolation uncertain.",
+        "confidence": 0.17,
+        "rule_summary": "Periodic affine or polynomial-delta update."
+      },
+      {
+        "answer": [
+          "-4",
+          "-19",
+          "-13",
+          "-20",
+          "-22"
+        ],
+        "case_id": "S044",
+        "check_summary": "Multiple phase streams are visible, but several mechanisms remain compatible.",
+        "confidence": 0.16,
+        "rule_summary": "Interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "-14",
+          "91",
+          "-102",
+          "-4",
+          "118"
+        ],
+        "case_id": "S045",
+        "check_summary": "Strongly irregular phase behavior suggests interleaved affine streams; low-confidence continuation.",
+        "confidence": 0.14,
+        "rule_summary": "Multi-stream interleave."
+      },
+      {
+        "answer": [
+          "-7",
+          "-12",
+          "-17",
+          "-22",
+          "-27"
+        ],
+        "case_id": "S046",
+        "check_summary": "Mostly repeated -5 increments with periodic positive corrections; next correction is extrapolated.",
+        "confidence": 0.7,
+        "rule_summary": "Periodic phase-specific deltas."
+      },
+      {
+        "answer": [
+          "-81",
+          "-43",
+          "-5",
+          "33",
+          "-109"
+        ],
+        "case_id": "S047",
+        "check_summary": "Growing arithmetic blocks are evident; next block boundary is uncertain.",
+        "confidence": 0.3,
+        "rule_summary": "Growing arithmetic blocks."
+      },
+      {
+        "answer": [
+          "-11",
+          "12",
+          "-25",
+          "-10",
+          "-42"
+        ],
+        "case_id": "S048",
+        "check_summary": "Four interleaved streams include a constant -10 stream and quadratic-looking companions.",
+        "confidence": 0.72,
+        "rule_summary": "Four-way interleaved polynomial/constant streams."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-02-G-BF0AD01E8A72-search-b04-proposer-6",
+  "outcome": "valid_output",
+  "response_sha256": "1c5a098bdd6cb7db555e76af998b49157f9dde63f94e71db0e2642164ade2eb0",
+  "terminal_artifact_relpath": "jobs/search-round-02-G-BF0AD01E8A72-search-b04-proposer-6/attempt-01"
+}

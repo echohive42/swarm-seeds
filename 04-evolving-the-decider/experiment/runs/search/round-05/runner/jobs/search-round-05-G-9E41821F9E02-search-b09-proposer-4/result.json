@@ -1,0 +1,169 @@
+{
+  "attempt_count": 1,
+  "document": {
+    "block_id": "search-b09",
+    "results": [
+      {
+        "answer": [
+          "-253274",
+          "4558960",
+          "1519654",
+          "-27353744",
+          "-9117914"
+        ],
+        "case_id": "S097",
+        "check_summary": "Interleaved affine streams with multiplier -6.",
+        "confidence": 0.99,
+        "rule_summary": "Two phase streams, each updated affinely."
+      },
+      {
+        "answer": [
+          "-1105",
+          "-151",
+          "-101",
+          "-713",
+          "-313"
+        ],
+        "case_id": "S098",
+        "check_summary": "Tentative interleaved-stream extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Likely phase-interleaved polynomial or affine streams."
+      },
+      {
+        "answer": [
+          "-703",
+          "-833",
+          "-963",
+          "-1089",
+          "-1204"
+        ],
+        "case_id": "S099",
+        "check_summary": "Finite-difference continuation; third differences increase by one.",
+        "confidence": 0.96,
+        "rule_summary": "Polynomial-like difference progression."
+      },
+      {
+        "answer": [
+          "-4915830",
+          "14747487",
+          "-44242464",
+          "132727389",
+          "-398182170"
+        ],
+        "case_id": "S100",
+        "check_summary": "Verified recurrence a(n)=-3a(n-1)-3.",
+        "confidence": 1.0,
+        "rule_summary": "Constant affine recurrence."
+      },
+      {
+        "answer": [
+          "-7670",
+          "-12687",
+          "-20355",
+          "-30152",
+          "-40806"
+        ],
+        "case_id": "S101",
+        "check_summary": "Tentative polynomial/interleaving extrapolation.",
+        "confidence": 0.08,
+        "rule_summary": "Likely interleaved polynomial streams."
+      },
+      {
+        "answer": [
+          "1190",
+          "1566",
+          "1997",
+          "2488",
+          "3044"
+        ],
+        "case_id": "S102",
+        "check_summary": "Continuation of growing second-difference pattern.",
+        "confidence": 0.72,
+        "rule_summary": "Polynomial/growing-block style progression."
+      },
+      {
+        "answer": [
+          "139",
+          "141",
+          "137",
+          "130",
+          "126"
+        ],
+        "case_id": "S103",
+        "check_summary": "Difference phases each decline by six per cycle.",
+        "confidence": 0.98,
+        "rule_summary": "Three-phase polynomial delta pattern."
+      },
+      {
+        "answer": [
+          "-38",
+          "-41",
+          "-46",
+          "-49",
+          "-54"
+        ],
+        "case_id": "S104",
+        "check_summary": "Alternating decrements -3 and -5.",
+        "confidence": 1.0,
+        "rule_summary": "Periodic delta sequence."
+      },
+      {
+        "answer": [
+          "39995",
+          "79981",
+          "-39990",
+          "239946",
+          "-239941"
+        ],
+        "case_id": "S105",
+        "check_summary": "Three interleaved affine streams with multiplier -6.",
+        "confidence": 0.99,
+        "rule_summary": "Phase-specific affine updates."
+      },
+      {
+        "answer": [
+          "-1051745",
+          "-2873477",
+          "-7849171",
+          "-21445805",
+          "-58585411"
+        ],
+        "case_id": "S106",
+        "check_summary": "Tentative linear-recurrence extrapolation.",
+        "confidence": 0.1,
+        "rule_summary": "Likely biased second-order or affine-phase recurrence."
+      },
+      {
+        "answer": [
+          "9",
+          "26",
+          "35",
+          "40",
+          "63"
+        ],
+        "case_id": "S107",
+        "check_summary": "Difference sequence is four-block phase-linear.",
+        "confidence": 0.93,
+        "rule_summary": "Interleaved phase-specific polynomial deltas."
+      },
+      {
+        "answer": [
+          "-7",
+          "-20",
+          "-34",
+          "-51",
+          "-71"
+        ],
+        "case_id": "S108",
+        "check_summary": "Tentative continuation from local difference structure.",
+        "confidence": 0.1,
+        "rule_summary": "Likely interleaved or phase-specific polynomial pattern."
+      }
+    ],
+    "schema_version": "4.0"
+  },
+  "job_id": "search-round-05-G-9E41821F9E02-search-b09-proposer-4",
+  "outcome": "valid_output",
+  "response_sha256": "5d3fa59e875b1b2a1c30eef5914788a3bc017eadb64172b6721c63d33bf0374c",
+  "terminal_artifact_relpath": "jobs/search-round-05-G-9E41821F9E02-search-b09-proposer-4/attempt-01"
+}
