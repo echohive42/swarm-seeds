@@ -1,11 +1,17 @@
 # Seed catalog
 
-## 01 — Reasoning vs. Routing
+## 01: Reasoning vs Routing
 
-**Question:** Is it better to spend compute on deeper individual reasoning, independent agents, or agents that critique and verify one another?
+**Question:** When solving a hard pattern task, should compute go toward deeper reasoning, more independent agents, or a structured agent swarm?
 
-**Seed:** [Open the reusable orchestration](skills/01-reasoning-vs-routing/SKILL.md)
+**Simple answer:** Medium reasoning was the largest improvement. At medium reasoning, a 10-agent vote matched the exact accuracy of the more complex 5→2→2→1 swarm while using much less visible-token proxy and latency.
 
-**First result:** [GPT-5.6 Luna, low versus medium reasoning](results/01-reasoning-vs-routing/run-01-luna-low-vs-medium/README.md)
+**Open the complete seed:** [01-reasoning-vs-routing](01-reasoning-vs-routing/README.md)
 
-**Short finding:** Medium reasoning produced the largest improvement. At medium reasoning, a simple ten-agent ensemble matched the accuracy of the more expensive 5–2–2–1 collaboration pipeline. At low reasoning, collaboration helped substantially, but the benchmark was too small to call its advantage over the ensemble conclusive.
+Inside the folder:
+
+- [Reusable `SKILL.md`](01-reasoning-vs-routing/SKILL.md)
+- [Actual experiment](01-reasoning-vs-routing/experiment/README.md)
+- [Technical report](01-reasoning-vs-routing/experiment/REPORT.md)
+- [Raw outputs](01-reasoning-vs-routing/experiment/raw/)
+- [Result images](01-reasoning-vs-routing/images/)

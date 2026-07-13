@@ -58,7 +58,7 @@ This was a small, curated finite-sequence benchmark. Finite sequences are inhere
 
 ## Read next
 
-- [Reusable seed](../../../skills/01-reasoning-vs-routing/SKILL.md)
+- [Reusable seed](../SKILL.md)
 - [Full report](REPORT.md)
 - [Frozen protocol](PROTOCOL.md)
 - [Summary table](results/final_summary.csv)

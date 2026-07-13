@@ -2,28 +2,37 @@
 
 ## Purpose
 
-Keep Swarm Seeds a clear, public collection of reusable agent-orchestration patterns and the evidence behind them.
+Keep Swarm Seeds a clear, public collection of reusable AI-agent orchestration patterns and the complete experiments behind them.
 
 ## Adding a seed
 
 - Give every seed a permanent two-digit ID: `01`, `02`, `03`.
 - Use a concise descriptive slug: `01-reasoning-vs-routing`.
-- Store the reusable pattern as one file: `skills/<id-slug>/SKILL.md`.
-- Put experimental evidence under `results/<id-slug>/run-<number>-<description>/`.
+- Keep the seed and all of its evidence in one root folder: `<id-slug>/`.
+- Store the reusable pattern at `<id-slug>/SKILL.md`.
+- Store the first complete run at `<id-slug>/experiment/`.
+- Put later runs at `<id-slug>/experiments/run-02-<description>/` without overwriting the original run.
+- Keep experiment images at `<id-slug>/images/` when they exist.
+- Keep social copy, publishing drafts, and chart-generation working files outside this repository.
 - Never renumber an existing seed.
-- Revise the skill in place; add new experimental runs instead of overwriting old evidence.
 
 ## Writing
 
 - Explain the question and result in plain language before technical detail.
 - State what was tested, what happened, and what remains uncertain.
-- Avoid promotional claims that exceed the evidence.
-- Keep Echohive, Get Amplified, and 1000x Lab links in the root README rather than inserting them into result data or reports.
+- Avoid claims that exceed the evidence.
+- Keep Echohive, Get Amplified, and 1000x Lab links in the root README rather than result data or raw records.
+
+## Evidence preservation
+
+- Publish the real protocol, prompts, benchmark, outputs, failures, scoring, audits, and limitations.
+- Do not replace the full experiment with a simplified example.
+- Preserve malformed responses, failed attempts, scoring penalties, and uncertainty.
+- Add new experimental runs instead of rewriting old evidence.
 
 ## Public-release safety
 
 - Never publish credentials, private account data, local absolute paths, internal task UUIDs, or source-task identifiers.
-- Replace internal task identifiers with stable readable labels while preserving outputs and provenance relationships.
-- Preserve malformed responses, failed attempts, scoring penalties, and limitations.
+- Replace internal task identifiers with stable readable labels while preserving provenance relationships.
 - Run the benchmark verifier, scorers, comparison script, and final audit before publishing a result.
 - Validate every `SKILL.md` and check Markdown links.

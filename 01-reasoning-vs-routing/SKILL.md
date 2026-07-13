@@ -242,4 +242,4 @@ Separate three conclusions:
 
 If collaboration ties the ensemble but costs more, prefer the ensemble for efficiency. If collaboration helps only in the lower-reasoning arm, describe it as a possible rescue mechanism rather than a universal advantage.
 
-The first implementation of this seed is documented in the matching [Luna low-vs-medium result](../../results/01-reasoning-vs-routing/run-01-luna-low-vs-medium/README.md).
+The first implementation of this seed is preserved beside it in the complete [Luna low-vs-medium experiment](experiment/README.md).

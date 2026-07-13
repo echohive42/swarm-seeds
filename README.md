@@ -1,51 +1,58 @@
 # Swarm Seeds
 
-Small, tested patterns for growing more capable agent systems.
+Open experiments for learning how AI agents should reason, vote, review, and coordinate.
 
-A **seed** is one self-contained `SKILL.md` file. It explains an orchestration pattern clearly enough to reuse, adapt, and test. Each seed has a matching results folder containing the experiment that motivated it—including prompts, benchmarks, outputs, scoring, audits, and limitations.
+This repository preserves the actual experiment, not a simplified demo. Each numbered folder contains one reusable `SKILL.md` seed beside the complete run that produced it: protocol, prompts, benchmark, raw agent outputs, failed attempts, scoring, audits, charts, and limitations.
 
-Swarm Seeds comes from [Echohive](https://www.echohive.ai/), a living laboratory for learning what becomes possible when AI systems, better tools, and human judgment work together.
+## 01: Reasoning vs Routing
 
-If you want to go further:
+We gave GPT-5.6 Luna the first 10 integers from mathematical sequences and asked it to predict the next 3 exactly.
 
-- [Get Amplified](https://www.echohive.ai/get-amplified) is an evolving field guide to using AI systems, agents, markets, and methods of mind more effectively.
-- [1000x Lab](https://www.echohive.ai/1000x-lab) is the live Sunday room where new models, research, workflows, and experiments are put on the board and tested together.
+The experiment compared:
 
-## Seeds
+- one direct AI solver;
+- 10 independent AI solvers combined by a deterministic vote;
+- a 10-call swarm with 5 proposers, 2 critics, 2 verifiers, and 1 judge;
+- low reasoning versus medium reasoning.
 
-| Seed | Simple description | Evidence |
-|---|---|---|
-| [01 — Reasoning vs. Routing](skills/01-reasoning-vs-routing/SKILL.md) | Tests when deeper reasoning, independent voting, or structured collaboration produces better answers. | [Luna low-vs-medium run](results/01-reasoning-vs-routing/run-01-luna-low-vs-medium/README.md) |
+On 12 untouched final cases, the medium vote and medium swarm both reached 91.7% exact accuracy. The vote used about 3.3x less visible-token proxy and had about 2.4x lower latency. At low reasoning, the structured swarm performed best, but its advantage over voting remained uncertain on this small benchmark.
 
-## How the repository is organized
+[Enter the complete experiment](01-reasoning-vs-routing/README.md)
+
+Direct links:
+
+- [Reusable skill seed](01-reasoning-vs-routing/SKILL.md)
+- [Full technical report](01-reasoning-vs-routing/experiment/REPORT.md)
+- [Frozen benchmark](01-reasoning-vs-routing/experiment/benchmark/manifest.json)
+- [Raw agent outputs](01-reasoning-vs-routing/experiment/raw/)
+- [Result images](01-reasoning-vs-routing/images/)
+
+## Repository shape
 
 ```text
-skills/
-  01-reasoning-vs-routing/
-    SKILL.md
-
-results/
-  01-reasoning-vs-routing/
-    run-01-luna-low-vs-medium/
-      README.md
-      REPORT.md
-      PROTOCOL.md
-      benchmark/
-      prompts/
-      raw/
-      results/
-      scripts/
-      plots/
+01-reasoning-vs-routing/
+  README.md
+  SKILL.md
+  experiment/
+    PROTOCOL.md
+    REPORT.md
+    benchmark/
+    prompts/
+    raw/
+    packets/
+    results/
+    scripts/
+    plots/
+  images/
 ```
 
-The number is permanent. A seed can improve without changing its identity. New experimental runs are added beneath the matching results folder instead of overwriting old evidence.
+Future seeds will follow the same pattern: one numbered folder, one reusable skill, and the complete evidence used to evaluate it.
 
-## How to use a seed
+## From Echohive
 
-1. Open its `SKILL.md`.
-2. Read the purpose and non-negotiable safeguards.
-3. Adapt the task-specific parts while preserving the experimental controls.
-4. Run a development split before an untouched final split.
-5. Keep the raw outputs—including failures—and report uncertainty honestly.
+Swarm Seeds is part of [Echohive](https://www.echohive.ai/), a living laboratory for testing what one person can build with better AI systems and better judgment.
 
-These seeds are starting points, not universal claims. A pattern that works on one benchmark may fail on another. The results are included so each idea can be judged by its evidence rather than its name.
+- [Get Amplified](https://www.echohive.ai/get-amplified) is a practical field guide to AI models, agents, harnesses, markets, and methods of mind.
+- [1000x Lab](https://www.echohive.ai/1000x-lab) is the live Sunday session where new models, research, workflows, and experiments are examined together.
+
+The links are here for readers who want to continue. The experiment itself remains fully open in this repository.
