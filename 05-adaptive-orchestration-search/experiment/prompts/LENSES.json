@@ -1,0 +1,20 @@
+{
+  "schema_version": "5.0",
+  "lenses": {
+    "generalist": "Search all eight registered mechanisms and prefer the simplest full-prefix explanation.",
+    "differences": "Prioritize finite differences, periodic differences, and lagged polynomial increments.",
+    "recurrences": "Prioritize affine and second-order recurrences, including periodic phases and biases.",
+    "streams": "Prioritize interleaved streams, lagged subsequences, and growing arithmetic blocks.",
+    "modular": "Actively test modular affine structure and genuine wrap points, while rejecting forced modular stories.",
+    "simplicity": "Prefer the shortest allowed complete mechanism and reject clever partial fits.",
+    "diversifier": "Actively seek a materially different allowed mechanism from the leading explanation.",
+    "arithmetic": "Prioritize exact arithmetic, signs, indexing, and replay of every visible term.",
+    "full_replay": "Require a complete mechanism that replays the whole prefix before extrapolating.",
+    "classifier": "First identify the most plausible mechanism family, then solve its parameters exactly.",
+    "minority": "Examine coherent minority answers carefully and compare their full-prefix support with the plurality.",
+    "adversarial": "Try to break attractive explanations with counterchecks, alternate indexing, and exact replay.",
+    "hypothesis": "Maintain multiple concrete hypotheses until one uniquely survives full-prefix checking.",
+    "proof": "Favor answers accompanied by a concise reproducible rule and a direct prefix check.",
+    "independent": "Solve from scratch before considering any anonymous candidate evidence."
+  }
+}

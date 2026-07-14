@@ -1,0 +1,24 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-exploration-strategy-batch",
+  "batch_id": "exploration-gate-01",
+  "panel_id": "stable-eleven-prompt-gate-01",
+  "design_status": "frozen_before_subject_calls",
+  "description": "The stable 11-prompt subset selected after depth cycle 01 is frozen and run once on 24 fresh cases in four six-case packets.",
+  "strategies": [{
+    "strategy_id": "EG01-A",
+    "name": "Stable Eleven-Prompt Swarm",
+    "category": "hybrid",
+    "description": "Eleven complementary general prompts selected from frequency across the top 100 balanced depth-cycle ensembles, followed only by deterministic plurality.",
+    "stages": [{
+      "stage_id": "solve",
+      "role": "proposer",
+      "count": 11,
+      "scope": "all",
+      "reads": [],
+      "lens_ids": ["generalist", "growing_block_slow", "hypothesis_tournament", "internal_panel", "interwoven_stream_slow", "lag_class_slow", "mdl_suffix_holdout", "modulus_equation", "periodic_delta_slow", "recurrence_exhaustive", "wildcard_compression"],
+      "instruction": "Work carefully on this smaller case set. For each sequence, compare global structures, verify a late suffix when possible, and return the exact continuation supported by the strongest compact rule."
+    }],
+    "selector": {"mode": "base_plurality", "base_roles": ["proposer"]}
+  }]
+}

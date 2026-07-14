@@ -1,0 +1,752 @@
+{
+  "artifact_type": "experiment-05-open-prompt-race-analysis",
+  "candidate_oracle": {
+    "cases": 24,
+    "exact": 20,
+    "exact_accuracy": 0.8333333333333334
+  },
+  "case_count": 24,
+  "case_diagnostics": [
+    {
+      "block_id": "research-b07",
+      "case_id": "R073",
+      "correct_support": 2,
+      "correct_support_rate": 0.18181818181818182,
+      "family": "LIN2",
+      "oracle_exact": true,
+      "plurality_support": 2,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "very-hard",
+      "unique_answers": 10
+    },
+    {
+      "block_id": "research-b07",
+      "case_id": "R074",
+      "correct_support": 6,
+      "correct_support_rate": 0.5454545454545454,
+      "family": "AFFINE",
+      "oracle_exact": true,
+      "plurality_support": 6,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "very-hard",
+      "unique_answers": 6
+    },
+    {
+      "block_id": "research-b07",
+      "case_id": "R075",
+      "correct_support": 6,
+      "correct_support_rate": 0.5454545454545454,
+      "family": "AFFINE",
+      "oracle_exact": true,
+      "plurality_support": 6,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "stress",
+      "unique_answers": 6
+    },
+    {
+      "block_id": "research-b07",
+      "case_id": "R076",
+      "correct_support": 5,
+      "correct_support_rate": 0.45454545454545453,
+      "family": "POLY",
+      "oracle_exact": true,
+      "plurality_support": 5,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "very-hard",
+      "unique_answers": 7
+    },
+    {
+      "block_id": "research-b07",
+      "case_id": "R077",
+      "correct_support": 10,
+      "correct_support_rate": 0.9090909090909091,
+      "family": "PDELTA",
+      "oracle_exact": true,
+      "plurality_support": 10,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "very-hard",
+      "unique_answers": 2
+    },
+    {
+      "block_id": "research-b07",
+      "case_id": "R078",
+      "correct_support": 6,
+      "correct_support_rate": 0.5454545454545454,
+      "family": "PDELTA",
+      "oracle_exact": true,
+      "plurality_support": 6,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 2
+    },
+    {
+      "block_id": "research-b07",
+      "case_id": "R079",
+      "correct_support": 8,
+      "correct_support_rate": 0.7272727272727273,
+      "family": "POLY",
+      "oracle_exact": true,
+      "plurality_support": 8,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 4
+    },
+    {
+      "block_id": "research-b07",
+      "case_id": "R080",
+      "correct_support": 2,
+      "correct_support_rate": 0.18181818181818182,
+      "family": "PDELTA",
+      "oracle_exact": true,
+      "plurality_support": 3,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "stress",
+      "unique_answers": 8
+    },
+    {
+      "block_id": "research-b07",
+      "case_id": "R081",
+      "correct_support": 11,
+      "correct_support_rate": 1.0,
+      "family": "AFFINE",
+      "oracle_exact": true,
+      "plurality_support": 11,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 1
+    },
+    {
+      "block_id": "research-b07",
+      "case_id": "R082",
+      "correct_support": 7,
+      "correct_support_rate": 0.6363636363636364,
+      "family": "LIN2",
+      "oracle_exact": true,
+      "plurality_support": 7,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 4
+    },
+    {
+      "block_id": "research-b07",
+      "case_id": "R083",
+      "correct_support": 9,
+      "correct_support_rate": 0.8181818181818182,
+      "family": "LIN2",
+      "oracle_exact": true,
+      "plurality_support": 9,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "stress",
+      "unique_answers": 3
+    },
+    {
+      "block_id": "research-b07",
+      "case_id": "R084",
+      "correct_support": 4,
+      "correct_support_rate": 0.36363636363636365,
+      "family": "POLY",
+      "oracle_exact": true,
+      "plurality_support": 4,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "stress",
+      "unique_answers": 8
+    },
+    {
+      "block_id": "research-b08",
+      "case_id": "R085",
+      "correct_support": 10,
+      "correct_support_rate": 0.9090909090909091,
+      "family": "LAGPOLY",
+      "oracle_exact": true,
+      "plurality_support": 10,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 2
+    },
+    {
+      "block_id": "research-b08",
+      "case_id": "R086",
+      "correct_support": 1,
+      "correct_support_rate": 0.09090909090909091,
+      "family": "GROWBLOCK",
+      "oracle_exact": true,
+      "plurality_support": 4,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 4,
+      "tier": "hard",
+      "unique_answers": 8
+    },
+    {
+      "block_id": "research-b08",
+      "case_id": "R087",
+      "correct_support": 1,
+      "correct_support_rate": 0.09090909090909091,
+      "family": "LAGPOLY",
+      "oracle_exact": true,
+      "plurality_support": 1,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "stress",
+      "unique_answers": 11
+    },
+    {
+      "block_id": "research-b08",
+      "case_id": "R088",
+      "correct_support": 0,
+      "correct_support_rate": 0.0,
+      "family": "MODAFFINE",
+      "oracle_exact": false,
+      "plurality_support": 3,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "hard",
+      "unique_answers": 9
+    },
+    {
+      "block_id": "research-b08",
+      "case_id": "R089",
+      "correct_support": 3,
+      "correct_support_rate": 0.2727272727272727,
+      "family": "LAGPOLY",
+      "oracle_exact": true,
+      "plurality_support": 3,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "very-hard",
+      "unique_answers": 9
+    },
+    {
+      "block_id": "research-b08",
+      "case_id": "R090",
+      "correct_support": 2,
+      "correct_support_rate": 0.18181818181818182,
+      "family": "INTERLEAVE",
+      "oracle_exact": true,
+      "plurality_support": 2,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "very-hard",
+      "unique_answers": 10
+    },
+    {
+      "block_id": "research-b08",
+      "case_id": "R091",
+      "correct_support": 2,
+      "correct_support_rate": 0.18181818181818182,
+      "family": "GROWBLOCK",
+      "oracle_exact": true,
+      "plurality_support": 4,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 1,
+      "tier": "very-hard",
+      "unique_answers": 5
+    },
+    {
+      "block_id": "research-b08",
+      "case_id": "R092",
+      "correct_support": 1,
+      "correct_support_rate": 0.09090909090909091,
+      "family": "INTERLEAVE",
+      "oracle_exact": true,
+      "plurality_support": 1,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "stress",
+      "unique_answers": 11
+    },
+    {
+      "block_id": "research-b08",
+      "case_id": "R093",
+      "correct_support": 8,
+      "correct_support_rate": 0.7272727272727273,
+      "family": "INTERLEAVE",
+      "oracle_exact": true,
+      "plurality_support": 8,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 4
+    },
+    {
+      "block_id": "research-b08",
+      "case_id": "R094",
+      "correct_support": 0,
+      "correct_support_rate": 0.0,
+      "family": "GROWBLOCK",
+      "oracle_exact": false,
+      "plurality_support": 4,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "stress",
+      "unique_answers": 7
+    },
+    {
+      "block_id": "research-b08",
+      "case_id": "R095",
+      "correct_support": 0,
+      "correct_support_rate": 0.0,
+      "family": "MODAFFINE",
+      "oracle_exact": false,
+      "plurality_support": 1,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "stress",
+      "unique_answers": 11
+    },
+    {
+      "block_id": "research-b08",
+      "case_id": "R096",
+      "correct_support": 0,
+      "correct_support_rate": 0.0,
+      "family": "MODAFFINE",
+      "oracle_exact": false,
+      "plurality_support": 1,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "very-hard",
+      "unique_answers": 11
+    }
+  ],
+  "family_diagnostics": {
+    "AFFINE": {
+      "cases": 3,
+      "oracle_exact": 3,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 15,
+        "exact": 3,
+        "exact_accuracy": 1.0,
+        "term_accuracy": 1.0,
+        "terms": 15
+      }
+    },
+    "GROWBLOCK": {
+      "cases": 3,
+      "oracle_exact": 2,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 5,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "term_accuracy": 0.3333333333333333,
+        "terms": 15
+      }
+    },
+    "INTERLEAVE": {
+      "cases": 3,
+      "oracle_exact": 3,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 15,
+        "exact": 3,
+        "exact_accuracy": 1.0,
+        "term_accuracy": 1.0,
+        "terms": 15
+      }
+    },
+    "LAGPOLY": {
+      "cases": 3,
+      "oracle_exact": 3,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 10,
+        "exact": 2,
+        "exact_accuracy": 0.6666666666666666,
+        "term_accuracy": 0.6666666666666666,
+        "terms": 15
+      }
+    },
+    "LIN2": {
+      "cases": 3,
+      "oracle_exact": 3,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 15,
+        "exact": 3,
+        "exact_accuracy": 1.0,
+        "term_accuracy": 1.0,
+        "terms": 15
+      }
+    },
+    "MODAFFINE": {
+      "cases": 3,
+      "oracle_exact": 0,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 0,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "term_accuracy": 0.0,
+        "terms": 15
+      }
+    },
+    "PDELTA": {
+      "cases": 3,
+      "oracle_exact": 3,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 10,
+        "exact": 2,
+        "exact_accuracy": 0.6666666666666666,
+        "term_accuracy": 0.6666666666666666,
+        "terms": 15
+      }
+    },
+    "POLY": {
+      "cases": 3,
+      "oracle_exact": 3,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 15,
+        "exact": 3,
+        "exact_accuracy": 1.0,
+        "term_accuracy": 1.0,
+        "terms": 15
+      }
+    }
+  },
+  "lens_scores": [
+    {
+      "block_exact": {
+        "research-b07": 10,
+        "research-b08": 4
+      },
+      "cases": 24,
+      "correct_terms": 74,
+      "exact": 14,
+      "exact_accuracy": 0.5833333333333334,
+      "lens_id": "hypothesis_tournament",
+      "mean_confidence": 0.6975,
+      "mean_latency_ms": 55463.5,
+      "term_accuracy": 0.6166666666666667,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b07": 9,
+        "research-b08": 4
+      },
+      "cases": 24,
+      "correct_terms": 71,
+      "exact": 13,
+      "exact_accuracy": 0.5416666666666666,
+      "lens_id": "internal_panel",
+      "mean_confidence": 0.7804166666666666,
+      "mean_latency_ms": 56737.0,
+      "term_accuracy": 0.5916666666666667,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b07": 8,
+        "research-b08": 3
+      },
+      "cases": 24,
+      "correct_terms": 67,
+      "exact": 11,
+      "exact_accuracy": 0.4583333333333333,
+      "lens_id": "periodic_delta_slow",
+      "mean_confidence": 0.7954166666666667,
+      "mean_latency_ms": 64021.0,
+      "term_accuracy": 0.5583333333333333,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b07": 9,
+        "research-b08": 2
+      },
+      "cases": 24,
+      "correct_terms": 66,
+      "exact": 11,
+      "exact_accuracy": 0.4583333333333333,
+      "lens_id": "interwoven_stream_slow",
+      "mean_confidence": 0.7404166666666666,
+      "mean_latency_ms": 54838.75,
+      "term_accuracy": 0.55,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b07": 9,
+        "research-b08": 1
+      },
+      "cases": 24,
+      "correct_terms": 59,
+      "exact": 10,
+      "exact_accuracy": 0.4166666666666667,
+      "lens_id": "recurrence_exhaustive",
+      "mean_confidence": 0.7045833333333333,
+      "mean_latency_ms": 55862.0,
+      "term_accuracy": 0.49166666666666664,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b07": 7,
+        "research-b08": 1
+      },
+      "cases": 24,
+      "correct_terms": 54,
+      "exact": 8,
+      "exact_accuracy": 0.3333333333333333,
+      "lens_id": "modulus_equation",
+      "mean_confidence": 0.5966666666666667,
+      "mean_latency_ms": 63225.5,
+      "term_accuracy": 0.45,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b07": 4,
+        "research-b08": 4
+      },
+      "cases": 24,
+      "correct_terms": 51,
+      "exact": 8,
+      "exact_accuracy": 0.3333333333333333,
+      "lens_id": "growing_block_slow",
+      "mean_confidence": 0.6583333333333333,
+      "mean_latency_ms": 57765.75,
+      "term_accuracy": 0.425,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b07": 5,
+        "research-b08": 3
+      },
+      "cases": 24,
+      "correct_terms": 44,
+      "exact": 8,
+      "exact_accuracy": 0.3333333333333333,
+      "lens_id": "mdl_suffix_holdout",
+      "mean_confidence": 0.6179166666666667,
+      "mean_latency_ms": 61873.75,
+      "term_accuracy": 0.36666666666666664,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b07": 5,
+        "research-b08": 2
+      },
+      "cases": 24,
+      "correct_terms": 61,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "wildcard_compression",
+      "mean_confidence": 0.7520833333333333,
+      "mean_latency_ms": 60392.75,
+      "term_accuracy": 0.5083333333333333,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b07": 5,
+        "research-b08": 2
+      },
+      "cases": 24,
+      "correct_terms": 55,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "generalist",
+      "mean_confidence": 0.6616666666666666,
+      "mean_latency_ms": 54556.25,
+      "term_accuracy": 0.4583333333333333,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b07": 5,
+        "research-b08": 2
+      },
+      "cases": 24,
+      "correct_terms": 43,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "lag_class_slow",
+      "mean_confidence": 0.62125,
+      "mean_latency_ms": 53605.25,
+      "term_accuracy": 0.35833333333333334,
+      "terms": 120
+    }
+  ],
+  "model_call_count": 44,
+  "prompt_arm_count": 11,
+  "schema_version": "5.1-exploration",
+  "source_predictions_sha256": "7580edef9a774b93ce3d006c394bc493ef9695fdd17392a62a4961277ea208e8",
+  "subset_search": {
+    "balanced_in_sample_best": {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 7,
+      "block_2_terms": 35,
+      "lens_count": 4,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "f9261bbe20ccbda6",
+      "total_exact": 18,
+      "total_terms": 93,
+      "worst_block_exact": 7
+    },
+    "block_1_to_block_2": {
+      "canonical_selected": {
+        "block_1_exact": 12,
+        "block_1_terms": 60,
+        "block_2_exact": 4,
+        "block_2_terms": 30,
+        "lens_count": 3,
+        "lens_ids": [
+          "generalist",
+          "hypothesis_tournament",
+          "interwoven_stream_slow"
+        ],
+        "subset_id": "09e7cfe429416dcc",
+        "total_exact": 16,
+        "total_terms": 90,
+        "worst_block_exact": 4
+      },
+      "selection_uses_only": "block_1_exact",
+      "top_100_train_winners_test_exact_mean": 4.11,
+      "top_100_train_winners_test_exact_median": 4.0,
+      "top_100_train_winners_test_exact_range": [
+        2,
+        6
+      ]
+    },
+    "block_2_to_block_1": {
+      "canonical_selected": {
+        "block_1_exact": 9,
+        "block_1_terms": 50,
+        "block_2_exact": 7,
+        "block_2_terms": 35,
+        "lens_count": 4,
+        "lens_ids": [
+          "growing_block_slow",
+          "internal_panel",
+          "mdl_suffix_holdout",
+          "periodic_delta_slow"
+        ],
+        "subset_id": "e45b8b1bfb90412d",
+        "total_exact": 16,
+        "total_terms": 85,
+        "worst_block_exact": 7
+      },
+      "selection_uses_only": "block_2_exact",
+      "top_100_train_winners_test_exact_mean": 10.04,
+      "top_100_train_winners_test_exact_median": 10.0,
+      "top_100_train_winners_test_exact_range": [
+        6,
+        12
+      ]
+    },
+    "random_seed": "swarm-seeds-05-wide-01-subsets-v1",
+    "subsets_evaluated": 1981,
+    "warning": "The balanced result uses all 24 exploratory answers and is not validation. Directional transfers are small 12-case internal checks only."
+  },
+  "system_scores": {
+    "ALL-11": {
+      "all": {
+        "cases": 24,
+        "correct_terms": 85,
+        "exact": 16,
+        "exact_accuracy": 0.6666666666666666,
+        "term_accuracy": 0.7083333333333334,
+        "terms": 120
+      },
+      "blocks": {
+        "research-b07": {
+          "cases": 12,
+          "correct_terms": 55,
+          "exact": 11,
+          "exact_accuracy": 0.9166666666666666,
+          "term_accuracy": 0.9166666666666666,
+          "terms": 60
+        },
+        "research-b08": {
+          "cases": 12,
+          "correct_terms": 30,
+          "exact": 5,
+          "exact_accuracy": 0.4166666666666667,
+          "term_accuracy": 0.5,
+          "terms": 60
+        }
+      },
+      "lens_count": 11,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ]
+    },
+    "EG01-A": {
+      "all": {
+        "cases": 24,
+        "correct_terms": 85,
+        "exact": 16,
+        "exact_accuracy": 0.6666666666666666,
+        "term_accuracy": 0.7083333333333334,
+        "terms": 120
+      },
+      "blocks": {
+        "research-b07": {
+          "cases": 12,
+          "correct_terms": 55,
+          "exact": 11,
+          "exact_accuracy": 0.9166666666666666,
+          "term_accuracy": 0.9166666666666666,
+          "terms": 60
+        },
+        "research-b08": {
+          "cases": 12,
+          "correct_terms": 30,
+          "exact": 5,
+          "exact_accuracy": 0.4166666666666667,
+          "term_accuracy": 0.5,
+          "terms": 60
+        }
+      },
+      "lens_count": 11,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ]
+    }
+  },
+  "valid_prediction_count": 264
+}

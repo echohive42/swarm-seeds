@@ -1,0 +1,5 @@
+gate,system,status,exact,cases,exact_accuracy,correct_terms,terms,term_accuracy,base_exact,base_accuracy,logical_calls,model_attempts,retries,notes
+fresh-80-gate-01,deep-override,preregistered_fresh_miss,13,24,0.5416666667,75,120,0.6250000000,14,0.5833333333,78,101,23,"Deep-stage selector harmed one base-correct case"
+fresh-80-gate-02,unweighted-visible-holdout,preregistered_fresh_miss,19,24,0.7916666667,103,120,0.8583333333,15,0.6250000000,340,340,0,"Four useful overrides and zero harmful overrides; missed target by one"
+fresh-80-gate-02,length-weighted-visible-holdout,posthoc_development_only,21,24,0.8750000000,107,120,0.8916666667,15,0.6250000000,0,0,0,"Selector discovered after answer unseal; not a validation result"
+fresh-80-gate-03,length-weighted-visible-holdout,preregistered_fresh_target_reached,22,24,0.9166666667,112,120,0.9333333333,16,0.6666666667,268,268,0,"Architecture frozen before case generation; six useful and zero harmful overrides"

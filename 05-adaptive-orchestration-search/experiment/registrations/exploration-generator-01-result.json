@@ -1,0 +1,72 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-marginal-generator-exploration-result",
+  "cycle_id": "exploration-generator-01",
+  "completed_at_utc": "2026-07-14T01:44:29Z",
+  "status": "complete_exploratory",
+  "model": "gpt-5.6-luna",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "case_count": 24,
+  "unique_logical_jobs": 60,
+  "model_attempts": 67,
+  "valid_output_attempts": 60,
+  "schema_invalid_attempts": 7,
+  "failed_jobs_after_exact_retry": 0,
+  "scores": {
+    "base_eleven_plurality": {
+      "exact": 14,
+      "cases": 24,
+      "exact_accuracy": 0.5833333333333334
+    },
+    "four_specialist_plurality": {
+      "exact": 9,
+      "cases": 24,
+      "exact_accuracy": 0.375
+    },
+    "extended_fifteen_plurality": {
+      "exact": 16,
+      "cases": 24,
+      "exact_accuracy": 0.6666666666666666
+    },
+    "base_eleven_candidate_oracle": {
+      "exact": 19,
+      "cases": 24,
+      "exact_accuracy": 0.7916666666666666
+    },
+    "extended_fifteen_candidate_oracle": {
+      "exact": 19,
+      "cases": 24,
+      "exact_accuracy": 0.7916666666666666
+    },
+    "posthoc_best_subset": {
+      "exact": 16,
+      "cases": 24,
+      "exact_accuracy": 0.6666666666666666,
+      "lens_count": 7
+    }
+  },
+  "diagnosis": [
+    "Adding four specialists improved deterministic plurality by two exact cases, from 58.3% to 66.7%.",
+    "The added specialists did not increase candidate coverage: both the base and extended candidate oracles were 19/24.",
+    "The specialists helped by reinforcing correct existing hypotheses, not by solving previously uncovered cases.",
+    "All five cases without a correct candidate showed maximum disagreement among the base eleven prompts. Two additional maximally disputed cases did contain a correct candidate.",
+    "This supports a general disagreement-triggered depth router as the next exploration, rather than more global judges or more unconditional prompt arms.",
+    "The 79.2% oracle and all subset results are exploratory diagnostics, not frozen performance."
+  ],
+  "sha256": {
+    "exploration_registration": "a98edd1d4af401710c30fcb34b41542a6a72228c7864a11ddf437471deeeb26e",
+    "retry_registration": "c30e3d896a4333fa006234a93acead2f7e255bd11c90fb7c1dd24cc3abfb91f5",
+    "run_summary": "4c9ccc9ac1720517e617b91d67d4d2ac933510e7c8546a160bdefbe0e25f720e",
+    "base_attempt_ledger": "91c32bffe87efadf26c9b031ed85d151bb7d47e9fb1172ea002d5a74699e97e2",
+    "retry_attempt_ledger": "9eaf83d8afb87517aaf9336cc9dcdadfe8f3be36250d2cedd1756b6e77df7ac3",
+    "retry_merge": "4da94724f08324f25154556c4e7a20902ab3a91f9a477a1d038ac52837b004eb",
+    "merged_predictions": "3c8ddfa427c20f280b4090c1b3c1b96254bcee4f824c6fca7b34db9b8d16a4c0",
+    "analysis": "a1ccdc70f4691fa3d367671f4f55129c17b743e29c665b1d9e04ab265f2e4a7a",
+    "lens_scores_csv": "24918e75f256d853cef97779ab4084a3e7705adef49e8e6a8d07ab1c694f104a",
+    "case_scores_csv": "45f9906fc5a944eb34830882ca134e6bad0c5b9dc4890f54811bdf7e284adb49",
+    "top_subsets": "b146eebd2332db81ced7818c621fb904c655de95fc19ab4275c8d19f79ecfbc3",
+    "parent_block_projection": "23de2a980af721c64ed610f43ef3bce54429dfbf15ee3549efe2f0a3107eb22e",
+    "retry_merge_script": "36bf7d286c7dc91eea855d72b964a2bc73334b38a57f68e9f9b6110ae9706337"
+  }
+}

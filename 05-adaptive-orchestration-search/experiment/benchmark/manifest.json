@@ -1,0 +1,328 @@
+{
+  "all_consecutive_block_pairs_cover_all_24_family_tier_cells_once": true,
+  "benchmark_id": "ruleweave-5-adaptive-director-v1",
+  "block_schema_version": "5.0",
+  "block_tier_counts": {
+    "final": [
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      }
+    ],
+    "search": [
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      }
+    ],
+    "validation": [
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      },
+      {
+        "hard": 4,
+        "stress": 4,
+        "very-hard": 4
+      }
+    ]
+  },
+  "blocks_per_split": {
+    "final": 16,
+    "search": 6,
+    "validation": 6
+  },
+  "cases_per_block": 12,
+  "cases_per_family_tier_cell": {
+    "final": 8,
+    "search": 3,
+    "validation": 3
+  },
+  "checksums": {
+    "README.md": "5fbc2da461dfb90f9b96557b6d8d8fcd428d3989bf56c2598e23ebf969efc1d3",
+    "hidden/final_answers.jsonl": "c1a0ad71bcaef789ae1b20ff5b965af19bc839fc85b5a6bda73f1d82ebc2ab92",
+    "hidden/generation_receipt.json": "115375c2ef79ad59d9d5e62e56e7437b7d60f0e6e7ebd3c5b8134f15c31f6307",
+    "hidden/recognizer_audit.json": "de67939fd6e1790e64521c686d449782256e8d75fffbae2a915b35fc1f3d8867",
+    "hidden/search_B01_answers.jsonl": "78974ffa7f454713b423b8de509539854b59a0f61f2a60dfc132a12f8875a445",
+    "hidden/search_B02_answers.jsonl": "a37d5e3fb510b9afa0b13c0d3cf129f8d696f636c6f874d20d2f6b43a5af93c1",
+    "hidden/search_B03_answers.jsonl": "0a0e776cfa70fff76604897fd3f3acd71abfdd64ce5ffd921482a7f53bacb830",
+    "hidden/search_answers.jsonl": "5ecbee3dcbf38892b45ac721b2fe8560c43396121b2998e14a35c0b177c8cc6e",
+    "hidden/validation_answers.jsonl": "4ed2442b2974b53aac13d9b031eb804df4b7486191954d0722883fa969296e15",
+    "overlap_with_experiments_02_03_04.json": "1256cf92db7d6a6c8429e3b98477fe2adb049457a88619edfddeaddb4ac088ea",
+    "public/final_B01.json": "b93fd14ddf3bc9560476964efd64f6c25967c272bcdbb9000dac89c24caa162d",
+    "public/final_B02.json": "023ce2e9933a1e6f0c158b27c41e4c8c1154a8df3f4aacd97886881cefa9747f",
+    "public/final_B03.json": "a901a11c5b979dfbd7d74b0c64ccfc8a91ea7ccc154c98c10d3a5b7787136900",
+    "public/final_B04.json": "26df66e5a710d1b947a3314806e443d1dee403ea49889c33f18a97a30a5599fe",
+    "public/final_B05.json": "85574a2eff8d9bd529efd856542e164ef0c15dbad909c4eca228d9a222bd3a79",
+    "public/final_B06.json": "65401452da62672c7c886fc33f696cb5a72dd6558a00ad2a8cb5dc9eefa2c823",
+    "public/final_B07.json": "1bc13a06644dde7fc4355622c9c20394967e424864a3a91deb0ba1415bfbd948",
+    "public/final_B08.json": "b02d9f75ac5c8040c830689666991dad57734ecd496ad37a11b66de97ebb0756",
+    "public/final_B09.json": "0a11b1999679eb46351b3fe42276ea0fce1e683806434ed9b6f63533809181c6",
+    "public/final_B10.json": "a2b1be6dfe906a8ba284950e93521884ab70897585b0fe7229d40e0dcec527d3",
+    "public/final_B11.json": "c5ec2276a78b68225bb0c1a89056afe3a17220792c66f6d098c6cd85303ab97a",
+    "public/final_B12.json": "642705ac0ad32f3c2cfdb33a11d526912b2e7b0d9e859c2544d7902bec1528fe",
+    "public/final_B13.json": "56e5d0aa031c273c024cb788da95457b08af8f6e9c99943467611c77ae358fd4",
+    "public/final_B14.json": "56a13f490267757cd7e70d285a7fbcbaae8232ff98a99d04ebde350906a8d050",
+    "public/final_B15.json": "da4a6e982d3f546b60707e52dbe50865482b522368de573e9e165846efa15c45",
+    "public/final_B16.json": "085b906139f87be6695fde32d1fafb3f367523e33bd974a490627e5a929ee614",
+    "public/final_blocks.json": "e322ad3a8214f952a9837ae0dd242c2c72a3b3a5bfe94b5725c57ae8586e1149",
+    "public/final_cases.jsonl": "1c797fa435ec9d0e1c72f8501fd1bb30570fb0bf07d6d9565aaa5cba7efb462c",
+    "public/search_B01.json": "e0349e43137367fab37bc9984ac541edf8975236d9034728391cc36b0c2c0869",
+    "public/search_B02.json": "efa9e35bc60d19e3cc6553d109ca7ab404a01fcc52faed5b6c07acbb5d8a3874",
+    "public/search_B03.json": "070bafd267ed46743d15814c1d00ddc5ae081cb2415bdf2d8b5e6d8161b90c1f",
+    "public/search_B04.json": "fb823e527ac6e3df527ca19812acaf948ca9f3b387974d6038274e7cfb5604a7",
+    "public/search_B05.json": "2faccfef98aa7b9b00dabf70993e35c05ad4f2d6b02635341503d1b6505952cb",
+    "public/search_B06.json": "41466ba75da9fa8a1f921341b64480094a847c6830cb361b02c481d008196d51",
+    "public/search_blocks.json": "73cf610b97e6ed6885b18246cf7ac0fd0ffa3aa5e1c6ec6380c235351e94c2f1",
+    "public/search_cases.jsonl": "7aac83fe4cdd9b99fb8716c0f9d7576ec128b755f6fda7e45099884525cc6760",
+    "public/validation_B01.json": "14e115f2710743cff526e386a00b0cc44acd8de5a181c98ebf8c41666fd3a321",
+    "public/validation_B02.json": "76f0f42bee9c56389fba8d30d299e8bc572945fd4ee948f4cf1238a858303e61",
+    "public/validation_B03.json": "a64f3c7ab77482f45c5340c31c513c33280914a105788a69efc29ad6454aa71b",
+    "public/validation_B04.json": "79c98aac5a7cba1f31f30998fad7c91abcbcab34d6d42344e651b3a69837d3cf",
+    "public/validation_B05.json": "69e3500410517eb72e001f961996a3d01919e692c2ee46e286bfca769a48d8ce",
+    "public/validation_B06.json": "e9460e00400fffbec127939efe22ead14a882de8c929d165dfe94c05dc69309d",
+    "public/validation_blocks.json": "e60b8e17f65768efdc555cdbf8cee0b5b06fe961ec650c9719cf97d4e9502277",
+    "public/validation_cases.jsonl": "39c73c061919c60ae86ad28e983e5dfd858656bf2fbed8c20a20a09532e81d4b"
+  },
+  "experiment_id": "swarm-seeds-05",
+  "families": [
+    "POLY",
+    "PDELTA",
+    "AFFINE",
+    "LIN2",
+    "LAGPOLY",
+    "INTERLEAVE",
+    "GROWBLOCK",
+    "MODAFFINE"
+  ],
+  "overlap_guard_references": [
+    {
+      "benchmark_id": "ruleweave-5-v1",
+      "case_count": 72,
+      "manifest_sha256": "2277b7cce87eddac461283c3dfaf50c2dd3808f6c988f7712ca3be31475e4637"
+    },
+    {
+      "benchmark_id": "ruleweave-5-evolution-v1",
+      "case_count": 84,
+      "manifest_sha256": "695b6d0099e1b89f93c5071a2495b822292de94dd4ea81e0d78950cff0155029"
+    },
+    {
+      "benchmark_id": "ruleweave-5-decider-v1",
+      "case_count": 360,
+      "manifest_sha256": "20fa3633add9e79d07bfd6ca14c152ac6b3e1a120f0fe235d4b41aa62760c652"
+    }
+  ],
+  "provider_reasoning_setting_for_light": "low",
+  "registered_adjacent_block_pairs": {
+    "final": [
+      [
+        "final-b01",
+        "final-b02"
+      ],
+      [
+        "final-b03",
+        "final-b04"
+      ],
+      [
+        "final-b05",
+        "final-b06"
+      ],
+      [
+        "final-b07",
+        "final-b08"
+      ],
+      [
+        "final-b09",
+        "final-b10"
+      ],
+      [
+        "final-b11",
+        "final-b12"
+      ],
+      [
+        "final-b13",
+        "final-b14"
+      ],
+      [
+        "final-b15",
+        "final-b16"
+      ]
+    ],
+    "search": [
+      [
+        "search-b01",
+        "search-b02"
+      ],
+      [
+        "search-b03",
+        "search-b04"
+      ],
+      [
+        "search-b05",
+        "search-b06"
+      ]
+    ],
+    "validation": [
+      [
+        "validation-b01",
+        "validation-b02"
+      ],
+      [
+        "validation-b03",
+        "validation-b04"
+      ],
+      [
+        "validation-b05",
+        "validation-b06"
+      ]
+    ]
+  },
+  "root_seed": "swarm-seeds-05-adaptive-orchestration-search-2026-07-13-a",
+  "root_seed_sha256": "d66bc0cc596db67c6ef2ed58501be798b4291e962b6579e32e2cbd4d50a34258",
+  "schema_version": "1.0",
+  "search_batch_answer_files": [
+    "hidden/search_B01_answers.jsonl",
+    "hidden/search_B02_answers.jsonl",
+    "hidden/search_B03_answers.jsonl"
+  ],
+  "splits": {
+    "final": 192,
+    "search": 72,
+    "validation": 72
+  },
+  "target_terms": 5,
+  "task": "continue each integer sequence with exactly five terms",
+  "tiers": [
+    "hard",
+    "very-hard",
+    "stress"
+  ],
+  "visible_terms": {
+    "hard": 12,
+    "stress": 14,
+    "very-hard": 13
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "artifact_type": "derived-six-case-block-manifest",
+  "case_ids": [
+    "R121",
+    "R122",
+    "R123",
+    "R124",
+    "R125",
+    "R126",
+    "R127",
+    "R128",
+    "R129",
+    "R130",
+    "R131",
+    "R132",
+    "R133",
+    "R134",
+    "R135",
+    "R136",
+    "R137",
+    "R138",
+    "R139",
+    "R140",
+    "R141",
+    "R142",
+    "R143",
+    "R144"
+  ],
+  "cases_per_block": 6,
+  "checksums": {
+    "research-b11a.json": "239f190fe9da472edde2f600d43777b72451606b6fb9a018dbf91de21f34959c",
+    "research-b11b.json": "31632f947c610dca9e02c82455176b39cc93616bca824b9bb7d72a8356373a0c",
+    "research-b12a.json": "eeaad3ddbe9a1a0a977b78d24456de8593a205c436f96871d33200e03901e4f7",
+    "research-b12b.json": "53c45d8e26f64335be9ebc9445e9093da659d446888345aed95dbe62fffefa83"
+  },
+  "derived_block_count": 4,
+  "schema_version": "5.1-exploration",
+  "sources": [
+    "research_B11.json",
+    "research_B12.json"
+  ],
+  "unique_case_count": 24
+}

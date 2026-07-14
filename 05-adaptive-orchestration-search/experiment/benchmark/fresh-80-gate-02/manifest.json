@@ -1,0 +1,30 @@
+{
+  "answer_file": "hidden/answers.jsonl",
+  "benchmark_id": "ruleweave-5-verified-holdout-fresh-gate-02",
+  "block_count": 4,
+  "block_files": [
+    "fresh-g02-a.json",
+    "fresh-g02-b.json",
+    "fresh-g02-c.json",
+    "fresh-g02-d.json"
+  ],
+  "block_schema_version": "5.2-fresh-gate",
+  "case_count": 24,
+  "cases_per_block": 6,
+  "checksums": {
+    "hidden/answers.jsonl": "3c3a1b44a92ac61fa55deb045c934cea93112df8e63326d002c05196b5107bc1",
+    "public/cases.jsonl": "431fda4b003dbe11cc6aa3475717926b2bb11f1a3aa36a6d88ae62e31c4224c6",
+    "public/fresh-g02-a.json": "9a9e3071148106127c527d6b8b4a83c7d0daa09a093bd1bc27219aa988ebef25",
+    "public/fresh-g02-b.json": "60306250bed43d92777eda3eb0376df6185ca58eb29478bfa4b79635ca7a3e64",
+    "public/fresh-g02-c.json": "34abd77545b61e2fdf4c89369eef88476d2e542661717d5aacd0da5045384399",
+    "public/fresh-g02-d.json": "deace5e4978af0fe39a29e6fea4699d76ce372613ee9d15e6bd75e9c094c6b9b"
+  },
+  "experiment_id": "swarm-seeds-05-fresh-80-gate-02",
+  "family_tier_design": "eight families by three tiers, one case per cell; validated by the generator before artifact creation",
+  "generation_status": "Cases and answers were created once under the registered seed. Public block finalization does not parse or rewrite the answer file.",
+  "root_seed": "swarm-seeds-05-fresh-80-gate-02-2026-07-14-a",
+  "root_seed_sha256": "a7728c384d134c9b17b3d9682d25961664ab05390225ef88aaea54d8dd7ff1e6",
+  "schema_version": "1.0",
+  "status": "separately_sealed_fresh_progressive_gate",
+  "task": "continue each integer sequence with exactly five terms"
+}

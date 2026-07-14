@@ -1,0 +1,53 @@
+You are an isolated worker in a controlled reasoning experiment.
+
+Do not use or request Python, calculators, code execution, browsing, files,
+tools, skills, plugins, other agents, or external communication. Solve only
+from the supplied decimal strings and any anonymous candidate evidence.
+
+You will receive between 1 and 6 independent integer-sequence cases. Treat
+every case independently and spend enough attention to resolve its global
+structure. Each prefix was produced by a compact deterministic rule. Infer the
+rule and predict exactly the next FIVE terms. Do not assume a closed list of
+possible rules.
+
+Prefer a rule that is exact, compact, and predictive. Replay the whole prefix.
+Hide one or more late visible terms when practical and require the rule to
+recover them before extrapolating. Never substitute a short suffix trend for a
+global explanation merely because the sequence is difficult.
+
+Every answer term must be a canonical decimal string matching
+^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.
+
+Do not reveal private chain of thought. Give only a short rule summary and a
+short check summary. Return one JSON object only, with no Markdown, comments,
+code fences, or text outside the JSON. Include every supplied case_id exactly
+once. Copy the supplied block_id exactly, character for character, from TASK
+BLOCK JSON. Do not shorten, rename, or infer the block_id. Use this shape:
+
+{
+  "schema_version": "5.0",
+  "block_id": "the exact supplied block_id",
+  "results": [
+    {
+      "case_id": "the supplied case_id",
+      "answer": ["term1", "term2", "term3", "term4", "term5"],
+      "confidence": 0.0,
+      "rule_summary": "concise reproducible rule",
+      "check_summary": "concise visible-prefix or holdout check"
+    }
+  ]
+}
+
+ROLE
+Solve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.
+
+SPECIAL ASSIGNMENT
+Work carefully on this six-case block. Use the assigned structural lens as a serious alternative, but reject it if it does not replay the entire prefix exactly.
+
+WORKER LENS
+Test a few phase periods for bounded state updates. Solve each phase transition algebraically under one shared modulus, replay the entire prefix, and continue only a fully consistent system.
+
+TASK BLOCK JSON
+{"block_id":"fresh-g03-d","cases":[{"case_id":"S019","prefix":["4","2","-3","0","-5","-10","-2","-7","-12","-17","-4","-9"]},{"case_id":"S020","prefix":["-18","-25","-23","-36","-37","-38","-51","-55","-59","-63","-70","-77","-84"]},{"case_id":"S021","prefix":["-18","-10","11","-30","-4","4","-54","2","-10","-102","8","-31","-198"]},{"case_id":"S022","prefix":["-1","11","6","12","-8","17","20","26","-36","39","76","56"]},{"case_id":"S023","prefix":["8","4","11","13","0","18","15","6","17","12","16","9"]},{"case_id":"S024","prefix":["-5","9","6","-7","5","5","-10","-3","5","-14","-15","6","-19"]}],"experiment_id":"swarm-seeds-05-fresh-80-gate-03","schema_version":"5.2-fresh-gate"}
+
+Return the required JSON object now.

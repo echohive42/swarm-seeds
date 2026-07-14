@@ -1,0 +1,50 @@
+{
+  "schema_version": "5.1-exploration",
+  "artifact_type": "experiment-05-exploratory-prompt-race-result",
+  "cycle_id": "exploration-wide-01",
+  "completed_at_utc": "2026-07-14T00:42:30Z",
+  "status": "complete_exploratory",
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "case_count": 24,
+  "prompt_arm_count": 30,
+  "logical_calls": 60,
+  "valid_jobs": 60,
+  "failed_jobs": 0,
+  "attempts": 60,
+  "maximum_observed_concurrency": 60,
+  "valid_case_predictions": 720,
+  "scores": {
+    "best_single_prompt": {"lens_id": "minimum_description", "exact": 11, "cases": 24, "exact_accuracy": 0.4583333333333333},
+    "constructive_15_prompt_plurality": {"strategy_id": "EW01-A", "exact": 16, "cases": 24, "exact_accuracy": 0.6666666666666666},
+    "diversifying_15_prompt_plurality": {"strategy_id": "EW01-B", "exact": 13, "cases": 24, "exact_accuracy": 0.5416666666666666},
+    "all_30_prompt_plurality": {"exact": 15, "cases": 24, "exact_accuracy": 0.625},
+    "all_30_candidate_oracle": {"exact": 16, "cases": 24, "exact_accuracy": 0.6666666666666666},
+    "best_balanced_in_sample_subset": {"exact": 16, "cases": 24, "exact_accuracy": 0.6666666666666666, "lens_count": 11}
+  },
+  "offline_subset_search": {
+    "subsets_evaluated": 25000,
+    "additional_model_calls": 0,
+    "interpretation": "Exploratory only. The balanced subset used all 24 answers; the two 12-case blocks partitioned mechanism types and therefore were not interchangeable validation folds."
+  },
+  "diagnosis": [
+    "The constructive 15-prompt plurality selected every case for which any of the 30 prompts generated the exact answer.",
+    "Adding the second 15 prompts changed one correct plurality into an error, so more prompt arms were not automatically beneficial.",
+    "Eight cases had no exact candidate. Generation, not selection, was the dominant bottleneck on this cycle.",
+    "Post-hoc failure shapes were three modular recurrences, two growing-block sequences, and one each involving lagged, interleaved, and periodic-difference structure.",
+    "The 66.7% result is promising exploration, not a validated estimate."
+  ],
+  "infrastructure_note": "The first sandboxed launch stopped before model initialization because Codex CLI could not write its state database. Its failed artifacts were preserved under runs/exploration/wide-01. The exact registered batch was then run once outside the sandbox under wide-01-rerun-01; all 60 model jobs completed on their first attempt.",
+  "sha256": {
+    "predictions": "a4f15addfa7bc62d3e7f1680844ac74d8c1b6b0ff7f4bea8d70c192d3f0216c8",
+    "run_summary": "95db46360818dcd88a261d1e26b016ab37aceb98f5ab90e46062d17171666c01",
+    "attempt_ledger": "3a187c3175210f75a231cff45e29bea528f45d8af3041e8bd33575a79d0ce1d1",
+    "analysis": "d9254b6c1336cbd2b0222acb350b7ea85f94b905dea95d55ff0d345387c4e38e",
+    "lens_scores_csv": "546e494237e82dc221c61732a2924db190f807e61605714c322de94aa0569ef9",
+    "case_scores_csv": "ac5434eba3a1f657b7faec73fb825f0698ec55461f9eca8cbac10ce8c16d672c",
+    "top_subsets": "e2485cad2b51ae753b1c7e634702a475ffaa4d096416360857a67308a79fe0ff",
+    "analysis_script": "eb32ecd1947d72b7322856828510ac5633e318c89706614c3ebf5d2970d0808b"
+  }
+}

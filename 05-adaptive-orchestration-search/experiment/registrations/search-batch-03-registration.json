@@ -1,0 +1,34 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-search-batch-registration",
+  "batch_id": "B03",
+  "panel_id": "search-panel-03",
+  "registered_before_subject_calls": true,
+  "requested_model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "maximum_concurrency": 60,
+  "timeout_seconds": 900,
+  "strategy_count": 20,
+  "maximum_logical_calls": 574,
+  "public_blocks": ["search-b05", "search-b06"],
+  "design_basis": [
+    "Preserve all four repeated controls.",
+    "Replicate the two promoted Batch 02 finalists and the strongest nonpromoted correction system.",
+    "Concentrate later calls on low-consensus or close-vote cases.",
+    "Test explicit weak-family reconstruction instructions without revealing any case family.",
+    "Prefer distributed weighted decisions or support-gated integration over unilateral judging."
+  ],
+  "sha256": {
+    "batch_02_result_registration": "9a90571f7c14c5b0152cdde986bcb9e27af9b92e31bbe22f0e29a540f3114f59",
+    "codex_binary": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+    "common_prefix": "149f5f6f692e2145ca5d6c975bee772c4ff2b0c8aed8b4d32d9365675b1cb6dc",
+    "lens_catalog": "2c76a935de783a57bf40a039fe2f94eb02a36b4385273e3c1f8a7e8baa0cf970",
+    "orchestrator": "402d86e9278494b38bd5ab674d51b84f51e7f23eefc15e44a48ced9172f3aa4a",
+    "public_block_01": "2faccfef98aa7b9b00dabf70993e35c05ad4f2d6b02635341503d1b6505952cb",
+    "public_block_02": "41466ba75da9fa8a1f921341b64480094a847c6830cb361b02c481d008196d51",
+    "runner": "234dbd2830a3d0b3459360411d352f4f6b2c1348fb79b881a8684e666bb3e4e9",
+    "strategy_batch": "bd162e8997399e273a9eec03c521745c4c9857065b47d6c5b1ded0b12f488d8c"
+  }
+}

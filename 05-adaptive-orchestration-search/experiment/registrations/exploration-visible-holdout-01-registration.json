@@ -1,0 +1,86 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-visible-holdout-open-development-registration",
+  "exploration_id": "visible-holdout-01",
+  "registered_at_utc": "2026-07-14T02:28:16Z",
+  "registered_before_subject_calls": true,
+  "status": "open_development_not_validation",
+  "objective": "Test whether deterministic verification against withheld but already-public suffix terms can select better Luna Light sequence continuations without relying on a learned judge.",
+  "development_cases": {
+    "source_blocks": [
+      "research-b13",
+      "research-b14"
+    ],
+    "case_count": 24,
+    "answers_already_open": true,
+    "performance_claim_allowed": false
+  },
+  "router": {
+    "input": "the complete 15-prompt base panel from fresh-80-gate-01",
+    "selection_rule": "Route any case whose deterministic base plurality has support at most five.",
+    "ranking_rule": "plurality support ascending, unique answer count descending, mean reported confidence ascending, case_id ascending",
+    "cap": 16,
+    "selected_count": 16,
+    "selected_case_ids": [
+      "R161",
+      "R167",
+      "R158",
+      "R168",
+      "R164",
+      "R165",
+      "R150",
+      "R151",
+      "R160",
+      "R152",
+      "R163",
+      "R155",
+      "R162",
+      "R145",
+      "R166",
+      "R159"
+    ],
+    "uses_answers": false,
+    "open-development-error_recall_diagnostic": "After fresh-80-gate-01 was scored, this rule was found to include all 10 base plurality errors among 16 routed cases. That diagnostic is development evidence and is not a future-gate guarantee."
+  },
+  "subject_calls": {
+    "requested_model": "gpt-5.6-luna",
+    "reasoning_effort": "low",
+    "public_reasoning_label": "Light reasoning",
+    "service_tier": "standard",
+    "prompt_arms_per_case": 8,
+    "holdout_two_arms_per_case": 4,
+    "holdout_three_arms_per_case": 4,
+    "cases_per_call": 1,
+    "logical_calls": 128,
+    "maximum_concurrency": 60,
+    "subject_visible_fields": [
+      "case_id",
+      "shortened decimal prefix",
+      "requested continuation length"
+    ],
+    "subject_hidden_fields": [
+      "withheld visible suffix terms",
+      "five-term benchmark answer",
+      "family",
+      "tier",
+      "generator parameters",
+      "other agents' outputs"
+    ]
+  },
+  "mechanism": "Each agent predicts through either two or three removed visible terms and then five future terms. After every call is terminal, a deterministic offline selector may reject any candidate that fails its own visible holdout. Multiple predeclared selector rules may be compared because this is open development. Any promoted rule must be frozen before new cases are generated or scored.",
+  "retry_rule": "Never rerun a valid output. Retry only the identical logical job after a schema or infrastructure failure, preserve every attempt ledger, and merge exact replacements before scoring.",
+  "integrity_rule": "The holdout key is a separate artifact and is not included in the runner manifest or any subject prompt. The five benchmark answer terms are never supplied to subject calls.",
+  "sha256": {
+    "codex_binary": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+    "preparation_script": "ecc053c8bb9215e89e9354efd064b9a3885d30c22d72484bdeed2300052cdfa2",
+    "scoring_script": "490d8e7d0b06cf44fc04109520f750f534e5fe178c548697457a4946e93f0cc2",
+    "common_prefix": "82acf58e3579da04471aa38a6bb1318c27db54cc8a3df7fe89697c09fbcf85a6",
+    "lens_catalog": "ce8e82797eb260ca67c212a74a2beab3f648712a3e51dce6083be0084bf584fd",
+    "base_predictions": "1fac40c45f8729e42e084e0f037bc2603e30c3b71b644cbfe51aa45d967ff715",
+    "route_manifest": "0c82ba4279bd816ceaef6a418c11398091974f703355836144a23de0409d8ad4",
+    "holdout_key": "1e54631ccb69de9c99ed18c9c9a05446f66283344a73f114b0692e69bc5c44b8",
+    "job_manifest": "50f8e6271d8ed5a4b8385b12feb46082f1590a907431fcb98b3fa3c137c9d207",
+    "preparation_summary": "611ca1fed83c42c21a7de4a0e2e2d4fcdd566639f3733d4ff07b4d7278cbe72f",
+    "research_answers": "65d4f08d3d563da1e709c0be33c97a6f69f329ed9f8de0b65c43146789d2e71a"
+  }
+}

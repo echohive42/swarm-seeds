@@ -1,0 +1,73 @@
+{
+  "artifact_type": "combined-verified-support-route",
+  "candidate_count": 7,
+  "phase": "fresh-80-gate-03-holdout-03",
+  "ranking_rule": "maximum support ascending, total survivors ascending, unique answers descending, case_id ascending",
+  "route_cap": 12,
+  "schema_version": "5.2-exploration",
+  "selected": [
+    {
+      "case_id": "S002",
+      "maximum_verified_support": 1,
+      "unique_verified_answers": 1,
+      "verified_survivor_count": 1
+    },
+    {
+      "case_id": "S017",
+      "maximum_verified_support": 1,
+      "unique_verified_answers": 1,
+      "verified_survivor_count": 1
+    },
+    {
+      "case_id": "S009",
+      "maximum_verified_support": 1,
+      "unique_verified_answers": 2,
+      "verified_survivor_count": 2
+    },
+    {
+      "case_id": "S014",
+      "maximum_verified_support": 2,
+      "unique_verified_answers": 1,
+      "verified_survivor_count": 2
+    },
+    {
+      "case_id": "S021",
+      "maximum_verified_support": 2,
+      "unique_verified_answers": 1,
+      "verified_survivor_count": 2
+    },
+    {
+      "case_id": "S015",
+      "maximum_verified_support": 2,
+      "unique_verified_answers": 5,
+      "verified_survivor_count": 6
+    },
+    {
+      "case_id": "S013",
+      "maximum_verified_support": 2,
+      "unique_verified_answers": 4,
+      "verified_survivor_count": 6
+    }
+  ],
+  "selected_count": 7,
+  "selection_rule": "Route cases whose most-supported externally verified future tuple has support at most 3 across all source stages.",
+  "source_blocks": [
+    "fresh-g03-a",
+    "fresh-g03-b",
+    "fresh-g03-c",
+    "fresh-g03-d"
+  ],
+  "source_hashes": [
+    {
+      "attempt_ledger": "a862581d6f9212f6b8a16bb9245ed98f5a0580c282dd377843271adfa3c992d8",
+      "holdout": "3580456cda82f195001f9eb01550cea10f90f8dcbdaefe5759bf4f058a83771e",
+      "manifest": "e02ce61e5885bbd481a7fc40b42beb87819d8fa94475d57d8b2f7752ba7d2c1d"
+    },
+    {
+      "attempt_ledger": "956344aa70088a28e352526c8e70ead105ab161f049a3c0810d24f731b06119c",
+      "holdout": "27add2d28fcedc6d5cb669eec2635fcb4f2456711e74e3659370ffb5c0aabfd4",
+      "manifest": "ee481916da19019e6583dbe5b876cc69fd0733aa6ebd5189812987244eee30ed"
+    }
+  ],
+  "uses_benchmark_answers": false
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-validation-wave-result-registration",
+  "wave_id": "validation-wave-02",
+  "case_count": 72,
+  "logical_calls": 360,
+  "attempts": 362,
+  "valid_jobs": 360,
+  "failed_jobs": 0,
+  "scores": {
+    "B02-H01": 32,
+    "B02-N03": 40,
+    "B03-R03": 34,
+    "VAL-CONTROL-C02": 32
+  },
+  "pooled_validation_selection": [
+    {
+      "strategy_id": "B02-N03",
+      "pooled_exact_cases": 75,
+      "replicate_exact_cases": [35, 40]
+    },
+    {
+      "strategy_id": "B02-H01",
+      "pooled_exact_cases": 72,
+      "replicate_exact_cases": [40, 32]
+    }
+  ],
+  "pooled_control": {
+    "strategy_id": "VAL-CONTROL-C02",
+    "pooled_exact_cases": 67,
+    "replicate_exact_cases": [35, 32]
+  },
+  "sha256": {
+    "registration": "a05018993a407fe2b3bdb42486fbf9b298c266a0d864121176bbfee878e47e66",
+    "run_summary": "96be27bce30a249f6aebb5909e93593b42ae37406b9f7c3999f941a4f6dcfe3e",
+    "predictions": "7fd0ffe31558414812db663ac59bd4e5f52aa62e138a2eed7d41f03dec59b53e",
+    "score_summary": "3fedbfb15f23812edfd6b939aa8986d1acd316e0b1f3d44d247b82afb2b95bb6",
+    "case_matrix": "c7091e2b12ae5bc325c5aae2cd71ed7b5b15e74059b28dcaa8dd5720e8dbdbd5",
+    "comparisons": "9d58ba64189b8ef84a7b262b5e0a761f11088d34bbe2dcd6234d58171b45b87a"
+  }
+}

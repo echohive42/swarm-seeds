@@ -1,0 +1,55 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-fresh-gate-stage-registration",
+  "gate_id": "fresh-80-gate-02",
+  "stage_id": "holdout-01",
+  "registered_at_utc": "2026-07-14T03:09:31Z",
+  "registered_before_stage_calls": true,
+  "requested_model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "maximum_concurrency": 60,
+  "route": {
+    "selection_rule": "base plurality support at most five",
+    "ranking_rule": "support ascending, unique answers descending, mean confidence ascending, case_id ascending",
+    "candidate_count": 17,
+    "route_cap": 16,
+    "selected_count": 16,
+    "selected_case_ids": [
+      "Q023",
+      "Q021",
+      "Q017",
+      "Q009",
+      "Q010",
+      "Q022",
+      "Q020",
+      "Q014",
+      "Q007",
+      "Q016",
+      "Q001",
+      "Q015",
+      "Q024",
+      "Q008",
+      "Q003",
+      "Q019"
+    ],
+    "uses_benchmark_answers": false
+  },
+  "calls": {
+    "prompt_arms_per_case": 8,
+    "logical_calls": 128,
+    "holdout_terms": [2, 3]
+  },
+  "retry_rule": "Never rerun a valid output. Retry only an identical failed logical job and preserve all ledgers.",
+  "sealed_answers_opened": false,
+  "sha256": {
+    "base_predictions": "6dabfb7967939d210117a9a8ae4049bccc5d3d8236c3f594238076164a5d8ee6",
+    "base_attempt_ledger": "1786634b982d55ce477c868154539e3f9b5d405b844a74f797dd1a7030847e31",
+    "route_manifest": "ec9cb21715b057179be69e9dad42d03ab2cfa38f70a77d4ca192bdfe2c2cb802",
+    "public_holdout_key": "1d7cdda56c23c83636b58303ce0629dd927482b3db0729c80f9e03eb10c9a42a",
+    "job_manifest": "1ec8668d4bb4e75fb130abb52546ad5857e9aa03d3ddb8513436611aedba05b5",
+    "preparation_summary": "f65fcadd01e8ebd10ab88a8dcabda01c639a3464e72345a55f38e2804d78e98c",
+    "sealed_answers": "3c3a1b44a92ac61fa55deb045c934cea93112df8e63326d002c05196b5107bc1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-mechanical-deep-stage-registration",
+  "gate_id": "fresh-80-gate-01-deep-stage",
+  "registered_at_utc": "2026-07-14T02:11:32Z",
+  "registered_before_deep_calls": true,
+  "parent_gate_registration": "bdf141e4ef41df2b846c4aa29dc6ef01d613972c016e41489d44dc1297d35d79",
+  "route_candidate_count": 6,
+  "route_cap": 8,
+  "selected_case_count": 6,
+  "selected_case_ids_in_registered_rank_order": ["R161", "R167", "R168", "R158", "R150", "R151"],
+  "deep_prompt_count": 3,
+  "logical_calls": 18,
+  "maximum_concurrency": 18,
+  "uses_answers": false,
+  "execution_rule": "Run the exact frozen deep trio once on every selected single-case block. Retry malformed jobs only. Do not inspect answers until every deep job is terminal.",
+  "sha256": {
+    "base_merged_predictions": "1fac40c45f8729e42e084e0f037bc2603e30c3b71b644cbfe51aa45d967ff715",
+    "base_retry_merge": "218391e25310f9b848770e06882174bee0ddc5d662546d52d955745edf310f96",
+    "base_attempt_ledger": "3d8055848d31279a7421d56c31377cc56bd60ebb5f4697879df371858ea21aaf",
+    "base_retry_attempt_ledger": "9416c2d78af159ac4c8d41801001a17fb4451ab89396a529a13366999d293548",
+    "route_manifest": "6c491b14555564b583fc1f3fdf7220e75db6c06bd1971e4d9f5f372df192a945",
+    "route_r150": "5b876cadc9c01fa89fb9a09d34a293efe3e794020063af98d06ca86fd5049b23",
+    "route_r151": "19ceeda9c98fe59bf79f575338b62c7f8e261c38aaa7e99942fc2d2a3ba46fa2",
+    "route_r158": "35d62849cb864e5f4d2d3217fe1b1c5870042f56cc1c9f96593df8f78f2ed843",
+    "route_r161": "590c8d20246a30a1a246c429e7239f4f9fffdb7625589da3fe842a6d1ad0df24",
+    "route_r167": "41766d4737dc79f736461aebe1109f6eeb9e533e2d62a3ef30f1f2b4d9eb1648",
+    "route_r168": "a67d30b709a2d7d12c0a6bc86f81576cb1578fa75a9ce44447130bd60b07ee90",
+    "deep_strategy": "a2a747d58e1f79912a0b3a66d66d0dbc1b2bcb2c8d3c38bdf22dfebd1ed1e8b5"
+  }
+}

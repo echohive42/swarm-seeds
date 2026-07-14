@@ -1,0 +1,45 @@
+{
+  "schema_version": "5.0",
+  "lenses": [
+    {
+      "lens_id": "periodic_delta_equation_h1",
+      "holdout_terms": 1,
+      "instruction": "Compute every first difference. For each period p from 2 through 6, group differences by transition index modulo p. Within each phase column, test degree 0 through 3 finite-difference laws by cycle number. Accept only a p and degree that explain every observed difference, then continue the columns in phase order."
+    },
+    {
+      "lens_id": "periodic_delta_coordinate_h1",
+      "holdout_terms": 1,
+      "instruction": "Treat the first difference at position n as a polynomial in cycle q=floor(n/p) with a separate polynomial for each residue r=n mod p. Test p=2..6 and low degree. Lay out the actual phase table, verify all rows, and then sum the continued differences back into sequence terms."
+    },
+    {
+      "lens_id": "phase_modular_equations_h1",
+      "holdout_terms": 1,
+      "instruction": "Test x[n+1] = (a_r*x[n] + b_r) mod M for phase periods p=1..4. Use all same-phase transition pairs to derive congruence constraints on a_r, b_r, and one shared M greater than all observed residues. Replay every transition and then advance six steps with the correct phase index."
+    },
+    {
+      "lens_id": "phase_modular_reverse_h1",
+      "holdout_terms": 1,
+      "instruction": "Search a shared modulus and phase-specific affine maps using both forward and reverse consistency. Candidate moduli must divide the appropriate affine residual differences and exceed the observed range. Test p=1..4, reject any single-transition mismatch, and audit phase alignment carefully."
+    },
+    {
+      "lens_id": "lag_class_table_h1",
+      "holdout_terms": 1,
+      "instruction": "For L=2..6, write each residue-class subsequence x[r], x[r+L], x[r+2L] as its own row. Test degree 0..3 finite differences down each row. Require one L whose rows all continue compactly, then emit the next six original positions by cycling through residues."
+    },
+    {
+      "lens_id": "heterogeneous_stream_table_h1",
+      "holdout_terms": 1,
+      "instruction": "For k=2..6, split the sequence into k interwoven streams. Fit each stream independently using a small polynomial, affine recurrence, alternating update, or constant rule. Do not force the streams to share a family. Verify all stream terms and then reweave six positions."
+    },
+    {
+      "lens_id": "growing_block_table_h1",
+      "holdout_terms": 1,
+      "instruction": "Try consecutive block lengths l0, l0+1, l0+2,... for l0=2..5. Within each block test a constant step. Tabulate block number, length, start, and step; fit low-degree laws to starts and steps; verify every boundary; then complete the current block and enter the next."
+    },
+    {
+      "lens_id": "structural_exhaustive_worksheet_h1",
+      "holdout_terms": 1,
+      "instruction": "Work through four explicit tables: periodic first differences, residue-class original terms, growing consecutive blocks, and phase-dependent modular affine transitions. Reject each table on its first mismatch. Return the shortest exact table that survives and calculate six continuation terms."
+    }
+  ]
+}

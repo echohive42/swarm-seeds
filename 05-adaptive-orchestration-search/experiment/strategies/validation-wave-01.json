@@ -1,0 +1,506 @@
+{
+  "artifact_type": "experiment-05-validation-strategy-wave",
+  "control_id": "VAL-CONTROL-C02",
+  "design_status": "frozen_after_search_and_before_validation_answers_open",
+  "schema_version": "5.0",
+  "source_finalist_ids": [
+    "B01-F03",
+    "B01-H04",
+    "B02-N03",
+    "B02-H01",
+    "B03-H01",
+    "B03-R03"
+  ],
+  "strategies": [
+    {
+      "category": "failure_targeted",
+      "description": "Twelve proposers establish a strong baseline. Three challengers can override only when at least two independently agree.",
+      "name": "No-Judge Conservative Challenge",
+      "selector": {
+        "base_roles": [
+          "proposer"
+        ],
+        "decision_roles": [
+          "challenger"
+        ],
+        "min_agree": 2,
+        "min_support": 0,
+        "mode": "agreement_gate",
+        "support_roles": []
+      },
+      "stages": [
+        {
+          "count": 12,
+          "instruction": "Solve independently and require a full-prefix mechanism.",
+          "lens_ids": [
+            "generalist",
+            "differences",
+            "recurrences",
+            "streams",
+            "modular",
+            "simplicity",
+            "arithmetic",
+            "classifier",
+            "hypothesis",
+            "proof",
+            "independent",
+            "generalist"
+          ],
+          "reads": [],
+          "role": "proposer",
+          "scope": "all",
+          "stage_id": "solve"
+        },
+        {
+          "count": 3,
+          "instruction": "Try to disprove the plurality and report a replacement only when fully reconstructed.",
+          "lens_ids": [
+            "adversarial",
+            "minority",
+            "full_replay"
+          ],
+          "reads": [
+            "solve"
+          ],
+          "role": "challenger",
+          "scope": "all",
+          "stage_id": "challenge"
+        }
+      ],
+      "strategy_id": "B01-F03"
+    },
+    {
+      "category": "hybrid",
+      "description": "Seven proposers, four critics, and four verifiers. A weighted deterministic vote replaces the judge bottleneck.",
+      "name": "Judge-Free Weighted Review",
+      "selector": {
+        "base_roles": [
+          "proposer"
+        ],
+        "mode": "weighted_plurality",
+        "role_weights": {
+          "critic": 1.35,
+          "proposer": 1.0,
+          "verifier": 1.75
+        }
+      },
+      "stages": [
+        {
+          "count": 7,
+          "instruction": "Solve independently and return one exact answer.",
+          "lens_ids": [
+            "generalist",
+            "differences",
+            "recurrences",
+            "streams",
+            "modular",
+            "simplicity",
+            "arithmetic"
+          ],
+          "reads": [],
+          "role": "proposer",
+          "scope": "all",
+          "stage_id": "solve"
+        },
+        {
+          "count": 4,
+          "instruction": "Falsify weak proposals and report the strongest complete answer.",
+          "lens_ids": [
+            "adversarial",
+            "minority",
+            "hypothesis",
+            "full_replay"
+          ],
+          "reads": [
+            "solve"
+          ],
+          "role": "critic",
+          "scope": "all",
+          "stage_id": "criticize"
+        },
+        {
+          "count": 4,
+          "instruction": "Independently replay and verify the strongest candidates.",
+          "lens_ids": [
+            "arithmetic",
+            "full_replay",
+            "proof",
+            "independent"
+          ],
+          "reads": [
+            "solve",
+            "criticize"
+          ],
+          "role": "verifier",
+          "scope": "all",
+          "stage_id": "verify"
+        }
+      ],
+      "strategy_id": "B01-H04"
+    },
+    {
+      "category": "novel",
+      "description": "Nine proposals pass through criticism, verification, and one final proof integrator with a three-reviewer support gate.",
+      "name": "Sequential Proof Repair",
+      "selector": {
+        "base_roles": [
+          "proposer"
+        ],
+        "decision_roles": [
+          "integrator"
+        ],
+        "min_agree": 1,
+        "min_support": 3,
+        "mode": "agreement_gate",
+        "support_roles": [
+          "critic",
+          "verifier"
+        ]
+      },
+      "stages": [
+        {
+          "count": 9,
+          "instruction": "Solve independently and return one complete answer.",
+          "lens_ids": [
+            "generalist",
+            "differences",
+            "recurrences",
+            "streams",
+            "modular",
+            "simplicity",
+            "arithmetic",
+            "classifier",
+            "independent"
+          ],
+          "reads": [],
+          "role": "proposer",
+          "scope": "all",
+          "stage_id": "solve"
+        },
+        {
+          "count": 3,
+          "instruction": "Identify concrete proposal failures and the strongest repaired answer.",
+          "lens_ids": [
+            "adversarial",
+            "minority",
+            "full_replay"
+          ],
+          "reads": [
+            "solve"
+          ],
+          "role": "critic",
+          "scope": "all",
+          "stage_id": "criticize"
+        },
+        {
+          "count": 2,
+          "instruction": "Reconstruct the strongest survivor exactly.",
+          "lens_ids": [
+            "arithmetic",
+            "independent"
+          ],
+          "reads": [
+            "solve",
+            "criticize"
+          ],
+          "role": "verifier",
+          "scope": "all",
+          "stage_id": "verify"
+        },
+        {
+          "count": 1,
+          "instruction": "Return the single answer that survives the complete proof audit.",
+          "lens_ids": [
+            "proof"
+          ],
+          "reads": [
+            "solve",
+            "criticize",
+            "verify"
+          ],
+          "role": "integrator",
+          "scope": "all",
+          "stage_id": "integrate"
+        }
+      ],
+      "strategy_id": "B02-N03"
+    },
+    {
+      "category": "hybrid",
+      "description": "Ten proposers preserve a strong base while two critics and three verifiers contribute weighted evidence without a judge.",
+      "name": "Large-Base Judge-Free Review",
+      "selector": {
+        "base_roles": [
+          "proposer"
+        ],
+        "mode": "weighted_plurality",
+        "role_weights": {
+          "critic": 1.25,
+          "proposer": 1.0,
+          "verifier": 1.65
+        }
+      },
+      "stages": [
+        {
+          "count": 10,
+          "instruction": "Solve independently and require a complete mechanism.",
+          "lens_ids": [
+            "generalist",
+            "differences",
+            "recurrences",
+            "streams",
+            "modular",
+            "simplicity",
+            "arithmetic",
+            "classifier",
+            "hypothesis",
+            "independent"
+          ],
+          "reads": [],
+          "role": "proposer",
+          "scope": "all",
+          "stage_id": "solve"
+        },
+        {
+          "count": 2,
+          "instruction": "Identify concrete failures and the strongest repaired answer.",
+          "lens_ids": [
+            "adversarial",
+            "minority"
+          ],
+          "reads": [
+            "solve"
+          ],
+          "role": "critic",
+          "scope": "all",
+          "stage_id": "criticize"
+        },
+        {
+          "count": 3,
+          "instruction": "Reconstruct and replay the leading candidates exactly.",
+          "lens_ids": [
+            "full_replay",
+            "arithmetic",
+            "independent"
+          ],
+          "reads": [
+            "solve",
+            "criticize"
+          ],
+          "role": "verifier",
+          "scope": "all",
+          "stage_id": "verify"
+        }
+      ],
+      "strategy_id": "B02-H01"
+    },
+    {
+      "category": "hybrid",
+      "description": "Ten proposers, three critics, and two verifiers use a judge-free weighted decision.",
+      "name": "Large Base with Distributed Review",
+      "selector": {
+        "base_roles": [
+          "proposer"
+        ],
+        "mode": "weighted_plurality",
+        "role_weights": {
+          "critic": 1.3,
+          "proposer": 1.0,
+          "verifier": 1.7
+        }
+      },
+      "stages": [
+        {
+          "count": 10,
+          "instruction": "Solve independently and require a complete mechanism.",
+          "lens_ids": [
+            "generalist",
+            "differences",
+            "recurrences",
+            "streams",
+            "modular",
+            "simplicity",
+            "arithmetic",
+            "classifier",
+            "hypothesis",
+            "independent"
+          ],
+          "reads": [],
+          "role": "proposer",
+          "scope": "all",
+          "stage_id": "solve"
+        },
+        {
+          "count": 3,
+          "instruction": "Falsify weak candidates and report the strongest complete alternative.",
+          "lens_ids": [
+            "adversarial",
+            "minority",
+            "full_replay"
+          ],
+          "reads": [
+            "solve"
+          ],
+          "role": "critic",
+          "scope": "all",
+          "stage_id": "criticize"
+        },
+        {
+          "count": 2,
+          "instruction": "Reconstruct the strongest surviving answer exactly.",
+          "lens_ids": [
+            "arithmetic",
+            "independent"
+          ],
+          "reads": [
+            "solve",
+            "criticize"
+          ],
+          "role": "verifier",
+          "scope": "all",
+          "stage_id": "verify"
+        }
+      ],
+      "strategy_id": "B03-H01"
+    },
+    {
+      "category": "refinement",
+      "description": "Replication of the Batch 02 system that made three useful and no harmful corrections from a weak base.",
+      "name": "Replicated Expanded Judge-Free Review",
+      "selector": {
+        "base_roles": [
+          "proposer"
+        ],
+        "mode": "weighted_plurality",
+        "role_weights": {
+          "critic": 1.3,
+          "proposer": 1.0,
+          "verifier": 1.7
+        }
+      },
+      "stages": [
+        {
+          "count": 9,
+          "instruction": "Solve independently and return one exact full-prefix answer.",
+          "lens_ids": [
+            "generalist",
+            "differences",
+            "recurrences",
+            "streams",
+            "modular",
+            "simplicity",
+            "arithmetic",
+            "classifier",
+            "independent"
+          ],
+          "reads": [],
+          "role": "proposer",
+          "scope": "all",
+          "stage_id": "solve"
+        },
+        {
+          "count": 3,
+          "instruction": "Falsify weak candidates and return the strongest complete answer.",
+          "lens_ids": [
+            "adversarial",
+            "minority",
+            "full_replay"
+          ],
+          "reads": [
+            "solve"
+          ],
+          "role": "critic",
+          "scope": "all",
+          "stage_id": "criticize"
+        },
+        {
+          "count": 3,
+          "instruction": "Independently reconstruct and replay the strongest surviving mechanisms.",
+          "lens_ids": [
+            "arithmetic",
+            "proof",
+            "independent"
+          ],
+          "reads": [
+            "solve",
+            "criticize"
+          ],
+          "role": "verifier",
+          "scope": "all",
+          "stage_id": "verify"
+        }
+      ],
+      "strategy_id": "B03-R03"
+    },
+    {
+      "category": "control",
+      "description": "Frozen strongest repeated search control: fifteen independently prompted diverse solvers followed by deterministic plurality.",
+      "name": "Diversified Vote 15 Control",
+      "selector": {
+        "base_roles": [
+          "proposer"
+        ],
+        "mode": "base_plurality"
+      },
+      "stages": [
+        {
+          "count": 15,
+          "instruction": "Solve independently through the assigned lens, but search other allowed families if that lens fails.",
+          "lens_ids": [
+            "generalist",
+            "differences",
+            "recurrences",
+            "streams",
+            "modular",
+            "simplicity",
+            "diversifier",
+            "arithmetic",
+            "full_replay",
+            "classifier",
+            "minority",
+            "hypothesis",
+            "proof",
+            "independent",
+            "generalist"
+          ],
+          "reads": [],
+          "role": "proposer",
+          "scope": "all",
+          "stage_id": "solve"
+        }
+      ],
+      "strategy_id": "VAL-CONTROL-C02"
+    }
+  ],
+  "strategy_provenance": {
+    "B01-F03": {
+      "source_batch": "batch-01.json",
+      "strategy_sha256": "9c98f813e2ade5bf610b86ca505da881dddaa3445e76a805bfa44caa3563c644"
+    },
+    "B01-H04": {
+      "source_batch": "batch-01.json",
+      "strategy_sha256": "fb4f3d7016374a52be021505adef3b9d7a5e09c4774b923aed928ee18b7c2b25"
+    },
+    "B02-H01": {
+      "source_batch": "batch-02.json",
+      "strategy_sha256": "596f034989f06bb5ebf1eac9cd51b30246635be1c6d02f22afc978cab1536fad"
+    },
+    "B02-N03": {
+      "source_batch": "batch-02.json",
+      "strategy_sha256": "28be7e5aea76451d3d9ad8994fcd14f1b0007c845bf22bd100a6e93481835556"
+    },
+    "B03-H01": {
+      "source_batch": "batch-03.json",
+      "strategy_sha256": "7ccf3c3ac9dbd95b2d92ae1fd45f2fabfdce190e828efb81175c09fcf7118170"
+    },
+    "B03-R03": {
+      "source_batch": "batch-03.json",
+      "strategy_sha256": "4e165ee03275377b5ed0a3064fd447ee0455ea797ff270840771964b9dfe33e8"
+    },
+    "VAL-CONTROL-C02": {
+      "source_batch": "batch-01.json",
+      "strategy_sha256": "6b40a8040c03cb53a5fc273f6247a80dacde73967350dffb0950234b454841ee"
+    }
+  },
+  "wave_id": "validation-wave-01"
+}

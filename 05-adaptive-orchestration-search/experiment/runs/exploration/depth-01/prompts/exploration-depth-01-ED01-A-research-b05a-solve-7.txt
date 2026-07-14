@@ -1,0 +1,52 @@
+You are an isolated worker in a controlled reasoning experiment.
+
+Do not use or request Python, calculators, code execution, browsing, files,
+tools, skills, plugins, other agents, or external communication. Solve only
+from the supplied decimal strings and any anonymous candidate evidence.
+
+You will receive between 1 and 6 independent integer-sequence cases. Treat
+every case independently and spend enough attention to resolve its global
+structure. Each prefix was produced by a compact deterministic rule. Infer the
+rule and predict exactly the next FIVE terms. Do not assume a closed list of
+possible rules.
+
+Prefer a rule that is exact, compact, and predictive. Replay the whole prefix.
+Hide one or more late visible terms when practical and require the rule to
+recover them before extrapolating. Never substitute a short suffix trend for a
+global explanation merely because the sequence is difficult.
+
+Every answer term must be a canonical decimal string matching
+^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.
+
+Do not reveal private chain of thought. Give only a short rule summary and a
+short check summary. Return one JSON object only, with no Markdown, comments,
+code fences, or text outside the JSON. Include every supplied case_id exactly
+once, preserve the supplied block_id, and use this shape:
+
+{
+  "schema_version": "5.0",
+  "block_id": "the supplied block_id",
+  "results": [
+    {
+      "case_id": "the supplied case_id",
+      "answer": ["term1", "term2", "term3", "term4", "term5"],
+      "confidence": 0.0,
+      "rule_summary": "concise reproducible rule",
+      "check_summary": "concise visible-prefix or holdout check"
+    }
+  ]
+}
+
+ROLE
+Solve every supplied case independently. Infer a compact deterministic rule, test it on the visible prefix, and calculate the next five terms.
+
+SPECIAL ASSIGNMENT
+Work carefully on this smaller case set. For each sequence, compare global structures, verify a late suffix when possible, and return the exact continuation supported by the strongest compact rule.
+
+WORKER LENS
+For plausible affine updates, compare raw predictions with observations. Their nonzero residuals must share a modulus larger than observed residues; use that constraint to solve and replay the update exactly.
+
+TASK BLOCK JSON
+{"block_id":"research-b05a","cases":[{"case_id":"R049","prefix":["7","9","-10","30","-69","169","-406","982","-2369","5721","-13810","33342"]},{"case_id":"R050","prefix":["-8","20","54","-166","-504","1508","4518","-13558","-40680","122036","366102","-1098310","-3294936"]},{"case_id":"R051","prefix":["-2","1","7","19","43","91","187","379","763","1531","3067","6139"]},{"case_id":"R052","prefix":["19","19","15","9","3","2","17","68","187","421","835","1515","2571","4140"]},{"case_id":"R053","prefix":["-17","-15","-19","-26","-32","-32","-20","11","69","163","303","500","766"]},{"case_id":"R054","prefix":["-5","0","8","23","49","90","150","233","343","484","660","875"]}],"derived_from":"research-b05","experiment_id":"swarm-seeds-05-exploration","schema_version":"5.1-exploration"}
+
+Return the required JSON object now.

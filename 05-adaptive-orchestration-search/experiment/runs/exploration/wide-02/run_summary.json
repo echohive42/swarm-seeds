@@ -1,0 +1,115 @@
+{
+  "actual_logical_calls": 60,
+  "artifact_type": "experiment-05-run-summary",
+  "blocks": [
+    "research-b03",
+    "research-b04"
+  ],
+  "common_prefix_sha256": "74e85596eca89ef84805a97c4ae3272934556583db65d39139993567513c3760",
+  "concurrency": 60,
+  "lens_catalog_sha256": "e46fa9278267ddc5d040c8c1d9d45483362e8b171ca49f49308a037866fa9979",
+  "model": "gpt-5.6-luna",
+  "per_strategy_calls": {
+    "EW02-A": 30,
+    "EW02-B": 30
+  },
+  "phase": "exploration-wide-02",
+  "planned_max_calls": 60,
+  "prediction_records_sha256": "e69b590d8c31b3122c9e9d4fefc65d501d7b4714c67226e8143a877d11c3c526",
+  "public_condition_label": "Light reasoning",
+  "reasoning_effort": "low",
+  "routing_decisions": [
+    {
+      "block_id": "research-b03",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "EW02-A",
+      "target_case_ids": [
+        "R025",
+        "R026",
+        "R027",
+        "R028",
+        "R029",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036"
+      ]
+    },
+    {
+      "block_id": "research-b04",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "EW02-A",
+      "target_case_ids": [
+        "R037",
+        "R038",
+        "R039",
+        "R040",
+        "R041",
+        "R042",
+        "R043",
+        "R044",
+        "R045",
+        "R046",
+        "R047",
+        "R048"
+      ]
+    },
+    {
+      "block_id": "research-b03",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "EW02-B",
+      "target_case_ids": [
+        "R025",
+        "R026",
+        "R027",
+        "R028",
+        "R029",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036"
+      ]
+    },
+    {
+      "block_id": "research-b04",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "EW02-B",
+      "target_case_ids": [
+        "R037",
+        "R038",
+        "R039",
+        "R040",
+        "R041",
+        "R042",
+        "R043",
+        "R044",
+        "R045",
+        "R046",
+        "R047",
+        "R048"
+      ]
+    }
+  ],
+  "schema_version": "5.0",
+  "service_tier": "standard",
+  "strategies": [
+    "EW02-A",
+    "EW02-B"
+  ],
+  "strategy_batch_sha256": "ed7595e090307e44ae8298673bbcacbf342c8753918a58b1d2ed38820bcf072e",
+  "timeout_seconds": 900
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-separate-fresh-benchmark-generation-registration",
+  "gate_id": "fresh-80-gate-02",
+  "registered_at_utc": "2026-07-14T02:59:19Z",
+  "registered_before_generation": true,
+  "architecture_frozen_before_generation": true,
+  "status": "generation_registered_answers_not_created",
+  "objective": "Generate one independently sealed 24-case RuleWeave-5 panel after freezing the verified-holdout architecture, avoiding any ambiguity from previously opened multi-panel answer files.",
+  "design": {
+    "cases": 24,
+    "families": 8,
+    "difficulty_tiers": 3,
+    "cases_per_family_tier_cell": 1,
+    "public_blocks": 4,
+    "cases_per_block": 6,
+    "target_terms": 5,
+    "zero_overlap_guard": "Reject exact visible-prefix, canonical-program, and next-five overlap against Experiments 02, 03, 04, and prior Experiment 05 benchmarks."
+  },
+  "root_seed": "swarm-seeds-05-fresh-80-gate-02-2026-07-14-a",
+  "root_seed_sha256": "a7728c384d134c9b17b3d9682d25961664ab05390225ef88aaea54d8dd7ff1e6",
+  "answer_isolation": "The generator writes answers to a new dedicated file. Neither the generation command nor any pre-scoring audit may print or parse answer contents. Only its SHA-256 is recorded until every registered subject job is terminal.",
+  "frozen_development_source": {
+    "exact": 21,
+    "cases": 24,
+    "exact_accuracy": 0.875,
+    "term_accuracy": 0.9083333333333333,
+    "useful_overrides": 7,
+    "harmful_overrides": 0,
+    "status": "open_development_not_validation"
+  },
+  "sha256": {
+    "generator_script": "0406893f411671e343abe3059cdf1069c6c67d09c9751cb921c97313f941a5f7",
+    "frozen_scoring_script": "571bce1e8a4cbefe7ced536993acb8027980b21021d5bf63fa62b4ed1aed4577",
+    "development_score": "4176c20d60ef077fbb53a4daf89d197c1213ccf92f23f509cc3550c5af55eaf6"
+  }
+}

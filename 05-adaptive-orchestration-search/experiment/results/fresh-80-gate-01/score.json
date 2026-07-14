@@ -1,0 +1,80 @@
+{
+  "adaptive_routing": {
+    "harmful_overrides": 1,
+    "selected_cases": [
+      "R161",
+      "R167",
+      "R168",
+      "R158",
+      "R150",
+      "R151"
+    ],
+    "selected_count": 6,
+    "useful_overrides": 0
+  },
+  "artifact_type": "experiment-05-adaptive-fresh-gate-score",
+  "base_fifteen": {
+    "cases": 24,
+    "exact": 14,
+    "exact_accuracy": 0.5833333333333334
+  },
+  "candidate_oracle": {
+    "cases": 24,
+    "exact": 17,
+    "exact_accuracy": 0.7083333333333334
+  },
+  "family_exact": {
+    "AFFINE": {
+      "cases": 3,
+      "exact": 3
+    },
+    "GROWBLOCK": {
+      "cases": 3,
+      "exact": 0
+    },
+    "INTERLEAVE": {
+      "cases": 3,
+      "exact": 2
+    },
+    "LAGPOLY": {
+      "cases": 3,
+      "exact": 1
+    },
+    "LIN2": {
+      "cases": 3,
+      "exact": 2
+    },
+    "MODAFFINE": {
+      "cases": 3,
+      "exact": 1
+    },
+    "PDELTA": {
+      "cases": 3,
+      "exact": 1
+    },
+    "POLY": {
+      "cases": 3,
+      "exact": 3
+    }
+  },
+  "panel_exact": {
+    "research-b13": 9,
+    "research-b14": 4
+  },
+  "registered_system": {
+    "cases": 24,
+    "correct_terms": 75,
+    "exact": 13,
+    "exact_accuracy": 0.5416666666666666,
+    "term_accuracy": 0.625,
+    "terms": 120
+  },
+  "schema_version": "5.2-exploration",
+  "sha256": {
+    "answers": "65d4f08d3d563da1e709c0be33c97a6f69f329ed9f8de0b65c43146789d2e71a",
+    "base_predictions": "1fac40c45f8729e42e084e0f037bc2603e30c3b71b644cbfe51aa45d967ff715",
+    "deep_predictions": "2e67614b83b501be0f93e4316ff9509dcb7541203ed9f1e42710c2d1638dc9f9",
+    "route_manifest": "6c491b14555564b583fc1f3fdf7220e75db6c06bd1971e4d9f5f372df192a945"
+  },
+  "status": "target_not_reached"
+}

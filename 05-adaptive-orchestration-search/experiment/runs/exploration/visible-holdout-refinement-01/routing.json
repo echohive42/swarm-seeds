@@ -1,0 +1,91 @@
+{
+  "artifact_type": "combined-verified-support-route",
+  "candidate_count": 10,
+  "phase": "visible-holdout-refinement-01",
+  "ranking_rule": "maximum support ascending, total survivors ascending, unique answers descending, case_id ascending",
+  "route_cap": 10,
+  "schema_version": "5.2-exploration",
+  "selected": [
+    {
+      "case_id": "R167",
+      "maximum_verified_support": 0,
+      "unique_verified_answers": 0,
+      "verified_survivor_count": 0
+    },
+    {
+      "case_id": "R145",
+      "maximum_verified_support": 1,
+      "unique_verified_answers": 1,
+      "verified_survivor_count": 1
+    },
+    {
+      "case_id": "R158",
+      "maximum_verified_support": 1,
+      "unique_verified_answers": 1,
+      "verified_survivor_count": 1
+    },
+    {
+      "case_id": "R161",
+      "maximum_verified_support": 1,
+      "unique_verified_answers": 1,
+      "verified_survivor_count": 1
+    },
+    {
+      "case_id": "R164",
+      "maximum_verified_support": 1,
+      "unique_verified_answers": 2,
+      "verified_survivor_count": 2
+    },
+    {
+      "case_id": "R155",
+      "maximum_verified_support": 2,
+      "unique_verified_answers": 4,
+      "verified_survivor_count": 5
+    },
+    {
+      "case_id": "R165",
+      "maximum_verified_support": 3,
+      "unique_verified_answers": 2,
+      "verified_survivor_count": 4
+    },
+    {
+      "case_id": "R168",
+      "maximum_verified_support": 3,
+      "unique_verified_answers": 2,
+      "verified_survivor_count": 4
+    },
+    {
+      "case_id": "R163",
+      "maximum_verified_support": 3,
+      "unique_verified_answers": 3,
+      "verified_survivor_count": 5
+    },
+    {
+      "case_id": "R159",
+      "maximum_verified_support": 3,
+      "unique_verified_answers": 3,
+      "verified_survivor_count": 6
+    }
+  ],
+  "selected_count": 10,
+  "selection_rule": "Route cases whose most-supported externally verified future tuple has support at most 3 across all source stages.",
+  "source_blocks": [
+    "research-b13a",
+    "research-b13b",
+    "research-b14a",
+    "research-b14b"
+  ],
+  "source_hashes": [
+    {
+      "attempt_ledger": "97d88e2f0651d33e6269585b5184fea290d0f286874c25015fc61be3824bac4e",
+      "holdout": "1e54631ccb69de9c99ed18c9c9a05446f66283344a73f114b0692e69bc5c44b8",
+      "manifest": "50f8e6271d8ed5a4b8385b12feb46082f1590a907431fcb98b3fa3c137c9d207"
+    },
+    {
+      "attempt_ledger": "6eef28dd896a964058d912352c0069ca10599258d414fa3a90fa14b8f05ba38f",
+      "holdout": "394c463784cf173dac8d68b0f0d30e4d0ef2b4e2059611b136f786f2ecbf4bf3",
+      "manifest": "b8ee4632c1c6f565eca319049f1c8ae0b25b3830dfedc4d4f02a9c4fc999c949"
+    }
+  ],
+  "uses_benchmark_answers": false
+}

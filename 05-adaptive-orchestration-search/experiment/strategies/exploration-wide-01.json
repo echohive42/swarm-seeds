@@ -1,0 +1,78 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-exploration-strategy-batch",
+  "batch_id": "exploration-wide-01",
+  "panel_id": "general-prompt-panel-01",
+  "design_status": "frozen_before_subject_calls",
+  "description": "Thirty open-ended Luna Light solver prompts share two fresh 12-case blocks. The two 15-call containers exist only to satisfy the registered per-strategy budget; offline analysis treats every lens as an individual prompt arm and may combine their candidates without new model calls.",
+  "strategies": [
+    {
+      "strategy_id": "EW01-A",
+      "name": "General Prompt Lenses A",
+      "category": "novel",
+      "description": "Fifteen constructive and structural prompt lenses, with deterministic plurality retained only as a diagnostic baseline.",
+      "stages": [
+        {
+          "stage_id": "solve",
+          "role": "proposer",
+          "count": 15,
+          "scope": "all",
+          "reads": [],
+          "lens_ids": [
+            "generalist",
+            "finite_differences",
+            "recurrence_builder",
+            "subsequence_splitter",
+            "phase_detector",
+            "modular_reasoner",
+            "block_cartographer",
+            "index_formula",
+            "transformation_chain",
+            "backward_solver",
+            "minimum_description",
+            "hypothesis_competition",
+            "change_point",
+            "state_machine",
+            "arithmetic_auditor"
+          ],
+          "instruction": "Solve independently. Compare plausible rules, test late visible terms as a holdout when practical, and return the most predictive compact continuation."
+        }
+      ],
+      "selector": {"mode": "base_plurality", "base_roles": ["proposer"]}
+    },
+    {
+      "strategy_id": "EW01-B",
+      "name": "General Prompt Lenses B",
+      "category": "novel",
+      "description": "Fifteen validation, adversarial, and diversifying prompt lenses, with deterministic plurality retained only as a diagnostic baseline.",
+      "stages": [
+        {
+          "stage_id": "solve",
+          "role": "proposer",
+          "count": 15,
+          "scope": "all",
+          "reads": [],
+          "lens_ids": [
+            "holdout_first",
+            "falsifier",
+            "residual_modeler",
+            "sign_ratio_specialist",
+            "lag_dependency",
+            "interleaving_specialist",
+            "periodic_increment",
+            "piecewise_blocks",
+            "residue_classes",
+            "generative_simulator",
+            "reverse_sequence",
+            "compression_test",
+            "minority_hunter",
+            "conservative_forecaster",
+            "wildcard_inventor"
+          ],
+          "instruction": "Solve independently. Compare plausible rules, test late visible terms as a holdout when practical, and return the most predictive compact continuation."
+        }
+      ],
+      "selector": {"mode": "base_plurality", "base_roles": ["proposer"]}
+    }
+  ]
+}

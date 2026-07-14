@@ -1,0 +1,122 @@
+[
+  {
+    "block_id": "fresh-g03-a",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "solve",
+    "strategy_id": "F80G03-BASE",
+    "target_case_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ]
+  },
+  {
+    "block_id": "fresh-g03-b",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "solve",
+    "strategy_id": "F80G03-BASE",
+    "target_case_ids": [
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012"
+    ]
+  },
+  {
+    "block_id": "fresh-g03-c",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "solve",
+    "strategy_id": "F80G03-BASE",
+    "target_case_ids": [
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S017",
+      "S018"
+    ]
+  },
+  {
+    "block_id": "fresh-g03-d",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "solve",
+    "strategy_id": "F80G03-BASE",
+    "target_case_ids": [
+      "S019",
+      "S020",
+      "S021",
+      "S022",
+      "S023",
+      "S024"
+    ]
+  },
+  {
+    "block_id": "fresh-g03-a",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "solve",
+    "strategy_id": "F80G03-ADD",
+    "target_case_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ]
+  },
+  {
+    "block_id": "fresh-g03-b",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "solve",
+    "strategy_id": "F80G03-ADD",
+    "target_case_ids": [
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012"
+    ]
+  },
+  {
+    "block_id": "fresh-g03-c",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "solve",
+    "strategy_id": "F80G03-ADD",
+    "target_case_ids": [
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S017",
+      "S018"
+    ]
+  },
+  {
+    "block_id": "fresh-g03-d",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "solve",
+    "strategy_id": "F80G03-ADD",
+    "target_case_ids": [
+      "S019",
+      "S020",
+      "S021",
+      "S022",
+      "S023",
+      "S024"
+    ]
+  }
+]

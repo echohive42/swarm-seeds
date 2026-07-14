@@ -1,0 +1,1116 @@
+{
+  "artifact_type": "experiment-05-open-prompt-race-analysis",
+  "candidate_oracle": {
+    "cases": 24,
+    "exact": 16,
+    "exact_accuracy": 0.6666666666666666
+  },
+  "case_count": 24,
+  "case_diagnostics": [
+    {
+      "block_id": "research-b01",
+      "case_id": "R001",
+      "correct_support": 13,
+      "correct_support_rate": 0.43333333333333335,
+      "family": "LIN2",
+      "oracle_exact": true,
+      "plurality_support": 13,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 11
+    },
+    {
+      "block_id": "research-b01",
+      "case_id": "R002",
+      "correct_support": 30,
+      "correct_support_rate": 1.0,
+      "family": "AFFINE",
+      "oracle_exact": true,
+      "plurality_support": 30,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 1
+    },
+    {
+      "block_id": "research-b01",
+      "case_id": "R003",
+      "correct_support": 15,
+      "correct_support_rate": 0.5,
+      "family": "LIN2",
+      "oracle_exact": true,
+      "plurality_support": 15,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "stress",
+      "unique_answers": 16
+    },
+    {
+      "block_id": "research-b01",
+      "case_id": "R004",
+      "correct_support": 17,
+      "correct_support_rate": 0.5666666666666667,
+      "family": "LIN2",
+      "oracle_exact": true,
+      "plurality_support": 17,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "very-hard",
+      "unique_answers": 13
+    },
+    {
+      "block_id": "research-b01",
+      "case_id": "R005",
+      "correct_support": 10,
+      "correct_support_rate": 0.3333333333333333,
+      "family": "AFFINE",
+      "oracle_exact": true,
+      "plurality_support": 10,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "stress",
+      "unique_answers": 14
+    },
+    {
+      "block_id": "research-b01",
+      "case_id": "R006",
+      "correct_support": 18,
+      "correct_support_rate": 0.6,
+      "family": "AFFINE",
+      "oracle_exact": true,
+      "plurality_support": 18,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "very-hard",
+      "unique_answers": 9
+    },
+    {
+      "block_id": "research-b01",
+      "case_id": "R007",
+      "correct_support": 15,
+      "correct_support_rate": 0.5,
+      "family": "POLY",
+      "oracle_exact": true,
+      "plurality_support": 15,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "stress",
+      "unique_answers": 13
+    },
+    {
+      "block_id": "research-b01",
+      "case_id": "R008",
+      "correct_support": 7,
+      "correct_support_rate": 0.23333333333333334,
+      "family": "PDELTA",
+      "oracle_exact": true,
+      "plurality_support": 7,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 12
+    },
+    {
+      "block_id": "research-b01",
+      "case_id": "R009",
+      "correct_support": 0,
+      "correct_support_rate": 0.0,
+      "family": "PDELTA",
+      "oracle_exact": false,
+      "plurality_support": 2,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "stress",
+      "unique_answers": 28
+    },
+    {
+      "block_id": "research-b01",
+      "case_id": "R010",
+      "correct_support": 21,
+      "correct_support_rate": 0.7,
+      "family": "POLY",
+      "oracle_exact": true,
+      "plurality_support": 21,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 6
+    },
+    {
+      "block_id": "research-b01",
+      "case_id": "R011",
+      "correct_support": 18,
+      "correct_support_rate": 0.6,
+      "family": "POLY",
+      "oracle_exact": true,
+      "plurality_support": 18,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "very-hard",
+      "unique_answers": 12
+    },
+    {
+      "block_id": "research-b01",
+      "case_id": "R012",
+      "correct_support": 8,
+      "correct_support_rate": 0.26666666666666666,
+      "family": "PDELTA",
+      "oracle_exact": true,
+      "plurality_support": 8,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "very-hard",
+      "unique_answers": 22
+    },
+    {
+      "block_id": "research-b02",
+      "case_id": "R013",
+      "correct_support": 0,
+      "correct_support_rate": 0.0,
+      "family": "MODAFFINE",
+      "oracle_exact": false,
+      "plurality_support": 8,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "hard",
+      "unique_answers": 23
+    },
+    {
+      "block_id": "research-b02",
+      "case_id": "R014",
+      "correct_support": 0,
+      "correct_support_rate": 0.0,
+      "family": "LAGPOLY",
+      "oracle_exact": false,
+      "plurality_support": 1,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "very-hard",
+      "unique_answers": 30
+    },
+    {
+      "block_id": "research-b02",
+      "case_id": "R015",
+      "correct_support": 5,
+      "correct_support_rate": 0.16666666666666666,
+      "family": "INTERLEAVE",
+      "oracle_exact": true,
+      "plurality_support": 5,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "very-hard",
+      "unique_answers": 25
+    },
+    {
+      "block_id": "research-b02",
+      "case_id": "R016",
+      "correct_support": 0,
+      "correct_support_rate": 0.0,
+      "family": "GROWBLOCK",
+      "oracle_exact": false,
+      "plurality_support": 1,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 2,
+      "tier": "very-hard",
+      "unique_answers": 30
+    },
+    {
+      "block_id": "research-b02",
+      "case_id": "R017",
+      "correct_support": 23,
+      "correct_support_rate": 0.7666666666666667,
+      "family": "LAGPOLY",
+      "oracle_exact": true,
+      "plurality_support": 23,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 7
+    },
+    {
+      "block_id": "research-b02",
+      "case_id": "R018",
+      "correct_support": 0,
+      "correct_support_rate": 0.0,
+      "family": "INTERLEAVE",
+      "oracle_exact": false,
+      "plurality_support": 1,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "stress",
+      "unique_answers": 30
+    },
+    {
+      "block_id": "research-b02",
+      "case_id": "R019",
+      "correct_support": 0,
+      "correct_support_rate": 0.0,
+      "family": "MODAFFINE",
+      "oracle_exact": false,
+      "plurality_support": 1,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "stress",
+      "unique_answers": 30
+    },
+    {
+      "block_id": "research-b02",
+      "case_id": "R020",
+      "correct_support": 0,
+      "correct_support_rate": 0.0,
+      "family": "GROWBLOCK",
+      "oracle_exact": false,
+      "plurality_support": 6,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 1,
+      "tier": "stress",
+      "unique_answers": 24
+    },
+    {
+      "block_id": "research-b02",
+      "case_id": "R021",
+      "correct_support": 19,
+      "correct_support_rate": 0.6333333333333333,
+      "family": "INTERLEAVE",
+      "oracle_exact": true,
+      "plurality_support": 19,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 6
+    },
+    {
+      "block_id": "research-b02",
+      "case_id": "R022",
+      "correct_support": 2,
+      "correct_support_rate": 0.06666666666666667,
+      "family": "LAGPOLY",
+      "oracle_exact": true,
+      "plurality_support": 2,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "stress",
+      "unique_answers": 29
+    },
+    {
+      "block_id": "research-b02",
+      "case_id": "R023",
+      "correct_support": 2,
+      "correct_support_rate": 0.06666666666666667,
+      "family": "GROWBLOCK",
+      "oracle_exact": true,
+      "plurality_support": 3,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 4,
+      "tier": "hard",
+      "unique_answers": 24
+    },
+    {
+      "block_id": "research-b02",
+      "case_id": "R024",
+      "correct_support": 0,
+      "correct_support_rate": 0.0,
+      "family": "MODAFFINE",
+      "oracle_exact": false,
+      "plurality_support": 1,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "very-hard",
+      "unique_answers": 30
+    }
+  ],
+  "family_diagnostics": {
+    "AFFINE": {
+      "cases": 3,
+      "oracle_exact": 3,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 15,
+        "exact": 3,
+        "exact_accuracy": 1.0,
+        "term_accuracy": 1.0,
+        "terms": 15
+      }
+    },
+    "GROWBLOCK": {
+      "cases": 3,
+      "oracle_exact": 1,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 7,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "term_accuracy": 0.4666666666666667,
+        "terms": 15
+      }
+    },
+    "INTERLEAVE": {
+      "cases": 3,
+      "oracle_exact": 2,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 10,
+        "exact": 2,
+        "exact_accuracy": 0.6666666666666666,
+        "term_accuracy": 0.6666666666666666,
+        "terms": 15
+      }
+    },
+    "LAGPOLY": {
+      "cases": 3,
+      "oracle_exact": 2,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 10,
+        "exact": 2,
+        "exact_accuracy": 0.6666666666666666,
+        "term_accuracy": 0.6666666666666666,
+        "terms": 15
+      }
+    },
+    "LIN2": {
+      "cases": 3,
+      "oracle_exact": 3,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 15,
+        "exact": 3,
+        "exact_accuracy": 1.0,
+        "term_accuracy": 1.0,
+        "terms": 15
+      }
+    },
+    "MODAFFINE": {
+      "cases": 3,
+      "oracle_exact": 0,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 0,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "term_accuracy": 0.0,
+        "terms": 15
+      }
+    },
+    "PDELTA": {
+      "cases": 3,
+      "oracle_exact": 2,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 10,
+        "exact": 2,
+        "exact_accuracy": 0.6666666666666666,
+        "term_accuracy": 0.6666666666666666,
+        "terms": 15
+      }
+    },
+    "POLY": {
+      "cases": 3,
+      "oracle_exact": 3,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 15,
+        "exact": 3,
+        "exact_accuracy": 1.0,
+        "term_accuracy": 1.0,
+        "terms": 15
+      }
+    }
+  },
+  "lens_scores": [
+    {
+      "block_exact": {
+        "research-b01": 10,
+        "research-b02": 1
+      },
+      "cases": 24,
+      "correct_terms": 62,
+      "exact": 11,
+      "exact_accuracy": 0.4583333333333333,
+      "lens_id": "minimum_description",
+      "mean_confidence": 0.5754166666666667,
+      "mean_latency_ms": 67803.0,
+      "term_accuracy": 0.5166666666666667,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 8,
+        "research-b02": 3
+      },
+      "cases": 24,
+      "correct_terms": 56,
+      "exact": 11,
+      "exact_accuracy": 0.4583333333333333,
+      "lens_id": "hypothesis_competition",
+      "mean_confidence": 0.5695833333333333,
+      "mean_latency_ms": 64001.0,
+      "term_accuracy": 0.4666666666666667,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 8,
+        "research-b02": 2
+      },
+      "cases": 24,
+      "correct_terms": 64,
+      "exact": 10,
+      "exact_accuracy": 0.4166666666666667,
+      "lens_id": "block_cartographer",
+      "mean_confidence": 0.67875,
+      "mean_latency_ms": 66473.0,
+      "term_accuracy": 0.5333333333333333,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 8,
+        "research-b02": 2
+      },
+      "cases": 24,
+      "correct_terms": 56,
+      "exact": 10,
+      "exact_accuracy": 0.4166666666666667,
+      "lens_id": "piecewise_blocks",
+      "mean_confidence": 0.6229166666666667,
+      "mean_latency_ms": 64142.0,
+      "term_accuracy": 0.4666666666666667,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 9,
+        "research-b02": 0
+      },
+      "cases": 24,
+      "correct_terms": 58,
+      "exact": 9,
+      "exact_accuracy": 0.375,
+      "lens_id": "periodic_increment",
+      "mean_confidence": 0.6254166666666666,
+      "mean_latency_ms": 64520.5,
+      "term_accuracy": 0.48333333333333334,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 7,
+        "research-b02": 2
+      },
+      "cases": 24,
+      "correct_terms": 55,
+      "exact": 9,
+      "exact_accuracy": 0.375,
+      "lens_id": "arithmetic_auditor",
+      "mean_confidence": 0.6570833333333334,
+      "mean_latency_ms": 74242.5,
+      "term_accuracy": 0.4583333333333333,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 6,
+        "research-b02": 3
+      },
+      "cases": 24,
+      "correct_terms": 54,
+      "exact": 9,
+      "exact_accuracy": 0.375,
+      "lens_id": "change_point",
+      "mean_confidence": 0.5858333333333333,
+      "mean_latency_ms": 62857.0,
+      "term_accuracy": 0.45,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 5,
+        "research-b02": 3
+      },
+      "cases": 24,
+      "correct_terms": 55,
+      "exact": 8,
+      "exact_accuracy": 0.3333333333333333,
+      "lens_id": "generative_simulator",
+      "mean_confidence": 0.6241666666666666,
+      "mean_latency_ms": 82130.5,
+      "term_accuracy": 0.4583333333333333,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 7,
+        "research-b02": 1
+      },
+      "cases": 24,
+      "correct_terms": 48,
+      "exact": 8,
+      "exact_accuracy": 0.3333333333333333,
+      "lens_id": "subsequence_splitter",
+      "mean_confidence": 0.5375,
+      "mean_latency_ms": 59582.0,
+      "term_accuracy": 0.4,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 6,
+        "research-b02": 2
+      },
+      "cases": 24,
+      "correct_terms": 47,
+      "exact": 8,
+      "exact_accuracy": 0.3333333333333333,
+      "lens_id": "generalist",
+      "mean_confidence": 0.49416666666666664,
+      "mean_latency_ms": 70070.0,
+      "term_accuracy": 0.39166666666666666,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 5,
+        "research-b02": 2
+      },
+      "cases": 24,
+      "correct_terms": 54,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "lag_dependency",
+      "mean_confidence": 0.5804166666666667,
+      "mean_latency_ms": 66414.0,
+      "term_accuracy": 0.45,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 5,
+        "research-b02": 2
+      },
+      "cases": 24,
+      "correct_terms": 53,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "state_machine",
+      "mean_confidence": 0.53125,
+      "mean_latency_ms": 66352.0,
+      "term_accuracy": 0.44166666666666665,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 6,
+        "research-b02": 1
+      },
+      "cases": 24,
+      "correct_terms": 52,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "holdout_first",
+      "mean_confidence": 0.5333333333333333,
+      "mean_latency_ms": 67604.0,
+      "term_accuracy": 0.43333333333333335,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 5,
+        "research-b02": 2
+      },
+      "cases": 24,
+      "correct_terms": 49,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "falsifier",
+      "mean_confidence": 0.5545833333333333,
+      "mean_latency_ms": 71400.0,
+      "term_accuracy": 0.4083333333333333,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 6,
+        "research-b02": 1
+      },
+      "cases": 24,
+      "correct_terms": 48,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "compression_test",
+      "mean_confidence": 0.5316666666666666,
+      "mean_latency_ms": 65914.0,
+      "term_accuracy": 0.4,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 5,
+        "research-b02": 2
+      },
+      "cases": 24,
+      "correct_terms": 48,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "modular_reasoner",
+      "mean_confidence": 0.4970833333333333,
+      "mean_latency_ms": 67517.5,
+      "term_accuracy": 0.4,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 6,
+        "research-b02": 1
+      },
+      "cases": 24,
+      "correct_terms": 48,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "phase_detector",
+      "mean_confidence": 0.6329166666666667,
+      "mean_latency_ms": 67359.0,
+      "term_accuracy": 0.4,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 5,
+        "research-b02": 2
+      },
+      "cases": 24,
+      "correct_terms": 46,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "sign_ratio_specialist",
+      "mean_confidence": 0.5745833333333333,
+      "mean_latency_ms": 69627.0,
+      "term_accuracy": 0.38333333333333336,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 5,
+        "research-b02": 2
+      },
+      "cases": 24,
+      "correct_terms": 44,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "finite_differences",
+      "mean_confidence": 0.5729166666666666,
+      "mean_latency_ms": 61396.5,
+      "term_accuracy": 0.36666666666666664,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 5,
+        "research-b02": 2
+      },
+      "cases": 24,
+      "correct_terms": 41,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "residual_modeler",
+      "mean_confidence": 0.5329166666666667,
+      "mean_latency_ms": 60448.5,
+      "term_accuracy": 0.3416666666666667,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 5,
+        "research-b02": 2
+      },
+      "cases": 24,
+      "correct_terms": 39,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "recurrence_builder",
+      "mean_confidence": 0.6425,
+      "mean_latency_ms": 71202.5,
+      "term_accuracy": 0.325,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 5,
+        "research-b02": 2
+      },
+      "cases": 24,
+      "correct_terms": 38,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "wildcard_inventor",
+      "mean_confidence": 0.54625,
+      "mean_latency_ms": 70122.5,
+      "term_accuracy": 0.31666666666666665,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 4,
+        "research-b02": 2
+      },
+      "cases": 24,
+      "correct_terms": 52,
+      "exact": 6,
+      "exact_accuracy": 0.25,
+      "lens_id": "minority_hunter",
+      "mean_confidence": 0.5991666666666666,
+      "mean_latency_ms": 62768.5,
+      "term_accuracy": 0.43333333333333335,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 5,
+        "research-b02": 1
+      },
+      "cases": 24,
+      "correct_terms": 48,
+      "exact": 6,
+      "exact_accuracy": 0.25,
+      "lens_id": "conservative_forecaster",
+      "mean_confidence": 0.60375,
+      "mean_latency_ms": 71067.0,
+      "term_accuracy": 0.4,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 5,
+        "research-b02": 1
+      },
+      "cases": 24,
+      "correct_terms": 43,
+      "exact": 6,
+      "exact_accuracy": 0.25,
+      "lens_id": "transformation_chain",
+      "mean_confidence": 0.5258333333333334,
+      "mean_latency_ms": 63597.0,
+      "term_accuracy": 0.35833333333333334,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 4,
+        "research-b02": 2
+      },
+      "cases": 24,
+      "correct_terms": 41,
+      "exact": 6,
+      "exact_accuracy": 0.25,
+      "lens_id": "interleaving_specialist",
+      "mean_confidence": 0.4633333333333333,
+      "mean_latency_ms": 59271.0,
+      "term_accuracy": 0.3416666666666667,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 4,
+        "research-b02": 2
+      },
+      "cases": 24,
+      "correct_terms": 40,
+      "exact": 6,
+      "exact_accuracy": 0.25,
+      "lens_id": "residue_classes",
+      "mean_confidence": 0.5916666666666667,
+      "mean_latency_ms": 61691.0,
+      "term_accuracy": 0.3333333333333333,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 5,
+        "research-b02": 1
+      },
+      "cases": 24,
+      "correct_terms": 38,
+      "exact": 6,
+      "exact_accuracy": 0.25,
+      "lens_id": "backward_solver",
+      "mean_confidence": 0.565,
+      "mean_latency_ms": 62416.5,
+      "term_accuracy": 0.31666666666666665,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 4,
+        "research-b02": 1
+      },
+      "cases": 24,
+      "correct_terms": 41,
+      "exact": 5,
+      "exact_accuracy": 0.20833333333333334,
+      "lens_id": "reverse_sequence",
+      "mean_confidence": 0.55,
+      "mean_latency_ms": 66036.5,
+      "term_accuracy": 0.3416666666666667,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b01": 4,
+        "research-b02": 1
+      },
+      "cases": 24,
+      "correct_terms": 35,
+      "exact": 5,
+      "exact_accuracy": 0.20833333333333334,
+      "lens_id": "index_formula",
+      "mean_confidence": 0.5470833333333334,
+      "mean_latency_ms": 65765.5,
+      "term_accuracy": 0.2916666666666667,
+      "terms": 120
+    }
+  ],
+  "model_call_count": 60,
+  "prompt_arm_count": 30,
+  "schema_version": "5.1-exploration",
+  "source_predictions_sha256": "a4f15addfa7bc62d3e7f1680844ac74d8c1b6b0ff7f4bea8d70c192d3f0216c8",
+  "subset_search": {
+    "balanced_in_sample_best": {
+      "block_1_exact": 11,
+      "block_1_terms": 56,
+      "block_2_exact": 5,
+      "block_2_terms": 31,
+      "lens_count": 11,
+      "lens_ids": [
+        "block_cartographer",
+        "change_point",
+        "falsifier",
+        "generalist",
+        "generative_simulator",
+        "hypothesis_competition",
+        "periodic_increment",
+        "phase_detector",
+        "residue_classes",
+        "reverse_sequence",
+        "wildcard_inventor"
+      ],
+      "subset_id": "f4adc22b77a8d9b3",
+      "total_exact": 16,
+      "total_terms": 87,
+      "worst_block_exact": 5
+    },
+    "block_1_to_block_2": {
+      "canonical_selected": {
+        "block_1_exact": 11,
+        "block_1_terms": 56,
+        "block_2_exact": 2,
+        "block_2_terms": 20,
+        "lens_count": 3,
+        "lens_ids": [
+          "falsifier",
+          "periodic_increment",
+          "piecewise_blocks"
+        ],
+        "subset_id": "40b3701a061c542b",
+        "total_exact": 13,
+        "total_terms": 76,
+        "worst_block_exact": 2
+      },
+      "selection_uses_only": "block_1_exact",
+      "top_100_train_winners_test_exact_mean": 2.98,
+      "top_100_train_winners_test_exact_median": 3.0,
+      "top_100_train_winners_test_exact_range": [
+        1,
+        5
+      ]
+    },
+    "block_2_to_block_1": {
+      "canonical_selected": {
+        "block_1_exact": 10,
+        "block_1_terms": 54,
+        "block_2_exact": 5,
+        "block_2_terms": 31,
+        "lens_count": 7,
+        "lens_ids": [
+          "block_cartographer",
+          "change_point",
+          "falsifier",
+          "generative_simulator",
+          "periodic_increment",
+          "state_machine",
+          "transformation_chain"
+        ],
+        "subset_id": "5f55ccf53284f6de",
+        "total_exact": 15,
+        "total_terms": 85,
+        "worst_block_exact": 5
+      },
+      "selection_uses_only": "block_2_exact",
+      "top_100_train_winners_test_exact_mean": 9.96,
+      "top_100_train_winners_test_exact_median": 10.0,
+      "top_100_train_winners_test_exact_range": [
+        8,
+        11
+      ]
+    },
+    "random_seed": "swarm-seeds-05-wide-01-subsets-v1",
+    "subsets_evaluated": 25000,
+    "warning": "The balanced result uses all 24 exploratory answers and is not validation. Directional transfers are small 12-case internal checks only."
+  },
+  "system_scores": {
+    "ALL-30": {
+      "all": {
+        "cases": 24,
+        "correct_terms": 82,
+        "exact": 15,
+        "exact_accuracy": 0.625,
+        "term_accuracy": 0.6833333333333333,
+        "terms": 120
+      },
+      "blocks": {
+        "research-b01": {
+          "cases": 12,
+          "correct_terms": 55,
+          "exact": 11,
+          "exact_accuracy": 0.9166666666666666,
+          "term_accuracy": 0.9166666666666666,
+          "terms": 60
+        },
+        "research-b02": {
+          "cases": 12,
+          "correct_terms": 27,
+          "exact": 4,
+          "exact_accuracy": 0.3333333333333333,
+          "term_accuracy": 0.45,
+          "terms": 60
+        }
+      },
+      "lens_count": 30,
+      "lens_ids": [
+        "arithmetic_auditor",
+        "backward_solver",
+        "block_cartographer",
+        "change_point",
+        "compression_test",
+        "conservative_forecaster",
+        "falsifier",
+        "finite_differences",
+        "generalist",
+        "generative_simulator",
+        "holdout_first",
+        "hypothesis_competition",
+        "index_formula",
+        "interleaving_specialist",
+        "lag_dependency",
+        "minimum_description",
+        "minority_hunter",
+        "modular_reasoner",
+        "periodic_increment",
+        "phase_detector",
+        "piecewise_blocks",
+        "recurrence_builder",
+        "residual_modeler",
+        "residue_classes",
+        "reverse_sequence",
+        "sign_ratio_specialist",
+        "state_machine",
+        "subsequence_splitter",
+        "transformation_chain",
+        "wildcard_inventor"
+      ]
+    },
+    "EW01-A": {
+      "all": {
+        "cases": 24,
+        "correct_terms": 81,
+        "exact": 16,
+        "exact_accuracy": 0.6666666666666666,
+        "term_accuracy": 0.675,
+        "terms": 120
+      },
+      "blocks": {
+        "research-b01": {
+          "cases": 12,
+          "correct_terms": 55,
+          "exact": 11,
+          "exact_accuracy": 0.9166666666666666,
+          "term_accuracy": 0.9166666666666666,
+          "terms": 60
+        },
+        "research-b02": {
+          "cases": 12,
+          "correct_terms": 26,
+          "exact": 5,
+          "exact_accuracy": 0.4166666666666667,
+          "term_accuracy": 0.43333333333333335,
+          "terms": 60
+        }
+      },
+      "lens_count": 15,
+      "lens_ids": [
+        "arithmetic_auditor",
+        "backward_solver",
+        "block_cartographer",
+        "change_point",
+        "finite_differences",
+        "generalist",
+        "hypothesis_competition",
+        "index_formula",
+        "minimum_description",
+        "modular_reasoner",
+        "phase_detector",
+        "recurrence_builder",
+        "state_machine",
+        "subsequence_splitter",
+        "transformation_chain"
+      ]
+    },
+    "EW01-B": {
+      "all": {
+        "cases": 24,
+        "correct_terms": 81,
+        "exact": 13,
+        "exact_accuracy": 0.5416666666666666,
+        "term_accuracy": 0.675,
+        "terms": 120
+      },
+      "blocks": {
+        "research-b01": {
+          "cases": 12,
+          "correct_terms": 53,
+          "exact": 10,
+          "exact_accuracy": 0.8333333333333334,
+          "term_accuracy": 0.8833333333333333,
+          "terms": 60
+        },
+        "research-b02": {
+          "cases": 12,
+          "correct_terms": 28,
+          "exact": 3,
+          "exact_accuracy": 0.25,
+          "term_accuracy": 0.4666666666666667,
+          "terms": 60
+        }
+      },
+      "lens_count": 15,
+      "lens_ids": [
+        "compression_test",
+        "conservative_forecaster",
+        "falsifier",
+        "generative_simulator",
+        "holdout_first",
+        "interleaving_specialist",
+        "lag_dependency",
+        "minority_hunter",
+        "periodic_increment",
+        "piecewise_blocks",
+        "residual_modeler",
+        "residue_classes",
+        "reverse_sequence",
+        "sign_ratio_specialist",
+        "wildcard_inventor"
+      ]
+    }
+  },
+  "valid_prediction_count": 720
+}

@@ -1,0 +1,82 @@
+{
+  "artifact_type": "visible-holdout-survivor-count-route",
+  "candidate_count": 10,
+  "phase": "fresh-80-gate-02-holdout-02",
+  "ranking_rule": "survivor count ascending, unique surviving answers descending, case_id ascending",
+  "route_cap": 12,
+  "schema_version": "5.2-exploration",
+  "selected": [
+    {
+      "case_id": "Q009",
+      "longest_surviving_holdout": 0,
+      "survivor_count": 0,
+      "unique_surviving_answers": 0
+    },
+    {
+      "case_id": "Q010",
+      "longest_surviving_holdout": 0,
+      "survivor_count": 0,
+      "unique_surviving_answers": 0
+    },
+    {
+      "case_id": "Q015",
+      "longest_surviving_holdout": 0,
+      "survivor_count": 0,
+      "unique_surviving_answers": 0
+    },
+    {
+      "case_id": "Q021",
+      "longest_surviving_holdout": 0,
+      "survivor_count": 0,
+      "unique_surviving_answers": 0
+    },
+    {
+      "case_id": "Q014",
+      "longest_surviving_holdout": 2,
+      "survivor_count": 1,
+      "unique_surviving_answers": 1
+    },
+    {
+      "case_id": "Q017",
+      "longest_surviving_holdout": 2,
+      "survivor_count": 1,
+      "unique_surviving_answers": 1
+    },
+    {
+      "case_id": "Q022",
+      "longest_surviving_holdout": 2,
+      "survivor_count": 1,
+      "unique_surviving_answers": 1
+    },
+    {
+      "case_id": "Q016",
+      "longest_surviving_holdout": 2,
+      "survivor_count": 2,
+      "unique_surviving_answers": 1
+    },
+    {
+      "case_id": "Q020",
+      "longest_surviving_holdout": 3,
+      "survivor_count": 3,
+      "unique_surviving_answers": 3
+    },
+    {
+      "case_id": "Q008",
+      "longest_surviving_holdout": 3,
+      "survivor_count": 3,
+      "unique_surviving_answers": 1
+    }
+  ],
+  "selected_count": 10,
+  "selection_rule": "Route cases with at most 3 candidates that exactly recovered their own stage-one visible holdout.",
+  "source_blocks": [
+    "fresh-g02-a",
+    "fresh-g02-b",
+    "fresh-g02-c",
+    "fresh-g02-d"
+  ],
+  "stage_one_attempt_ledger_sha256": "80b9bb1bac5d416d71605f9d4507982f8d405a2440a4037020911b32b93f2dc9",
+  "stage_one_holdout_sha256": "1d7cdda56c23c83636b58303ce0629dd927482b3db0729c80f9e03eb10c9a42a",
+  "stage_one_manifest_sha256": "1ec8668d4bb4e75fb130abb52546ad5857e9aa03d3ddb8513436611aedba05b5",
+  "uses_benchmark_answers": false
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "5.1-validation",
+  "artifact_type": "experiment-05-exact-job-retry-registration",
+  "validation_id": "quick-validation-01-retry-02",
+  "registered_at_utc": "2026-07-14T01:24:44Z",
+  "registered_before_retry_calls": true,
+  "reason": "Two exact jobs remained schema-invalid after retry wave 01 because they returned a mismatched block_id. Retry only those two unchanged prompts once more.",
+  "job_ids": [
+    "quick-validation-01-QV01-A-research-b09a-solve-3",
+    "quick-validation-01-QV01-A-research-b09a-solve-8"
+  ],
+  "job_count": 2,
+  "maximum_concurrency": 2,
+  "timeout_seconds": 900,
+  "requested_model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "replacement_rule": "Use a valid result only for the matching null job_id. Preserve every valid base and retry-wave-01 result. Do not rerun or replace any valid output.",
+  "sha256": {
+    "retry_wave_01_registration": "01732b376c868e471c34967b4df319f623ded9220fafb32176bdf3d22b734f8d",
+    "retry_wave_01_attempt_ledger": "ddff11ffb217f3af3bacec277b6130fb0a1bd900e9c08b018228c25ecca0c60d",
+    "retry_wave_01_operational_summary": "e9b5ebd46a51bab39662163e995519c8d7577c475b640aced3fca92534172252",
+    "filtered_retry_manifest": "2389e0f2ce79b04e1d44faa24aaf8ee4bb2181c4b126e1c10c742bbcb15777d3"
+  }
+}

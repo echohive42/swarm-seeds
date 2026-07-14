@@ -1,0 +1,70 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-adaptive-fresh-80-gate-registration",
+  "gate_id": "fresh-80-gate-01",
+  "registered_at_utc": "2026-07-14T02:03:39Z",
+  "registered_before_subject_calls": true,
+  "status": "fresh_progressive_gate_not_final_confirmation",
+  "objective": "Test whether the fully frozen adaptive Luna Light system reaches at least 80% exact accuracy on 24 untouched cases.",
+  "target": {
+    "minimum_exact": 20,
+    "cases": 24,
+    "minimum_attainable_accuracy": 0.8333333333333334
+  },
+  "requested_model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "fresh_case_count": 24,
+  "prior_prediction_overlap": 0,
+  "source_blocks": ["research-b13", "research-b14"],
+  "derived_blocks": ["research-b13a", "research-b13b", "research-b14a", "research-b14b"],
+  "base_stage": {
+    "prompt_arms": 15,
+    "cases_per_call": 6,
+    "logical_calls": 60,
+    "maximum_concurrency": 60,
+    "selector": "deterministic plurality across all fifteen base prompt arms"
+  },
+  "router": {
+    "input_lenses": ["generalist", "growing_block_slow", "hypothesis_tournament", "internal_panel", "interwoven_stream_slow", "lag_class_slow", "mdl_suffix_holdout", "modulus_equation", "periodic_delta_slow", "recurrence_exhaustive", "wildcard_compression"],
+    "selection_rule": "select a case only when all eleven input lenses return distinct exact tuples, so maximum support equals one",
+    "ranking_rule": "unique answer count descending, mean reported confidence ascending, case_id ascending",
+    "cap": 8,
+    "uses_answers": false
+  },
+  "deep_stage": {
+    "prompt_arms": 3,
+    "prompt_ids": ["interwoven_lag_forensics", "phase_congruence_solver", "recurrence_procedure_duel"],
+    "cases_per_call": 1,
+    "maximum_routed_cases": 8,
+    "maximum_logical_calls": 24,
+    "maximum_concurrency": 24,
+    "selector": "deterministic plurality across the three deep answers"
+  },
+  "final_rule": "Start with deterministic plurality across all fifteen base prompts. On each routed case, unconditionally replace the base answer with deterministic plurality across the three deep prompts. Do not alter unrouted cases.",
+  "maximum_total_logical_calls": 84,
+  "hidden_answers_sealed_before_calls": true,
+  "retry_rule": "Never rerun a valid output. Retry only the identical logical job after a schema or infrastructure failure, preserve every source ledger, and merge exact replacements before continuing.",
+  "scoring_rule": "Score only after all base jobs and all mechanically routed deep jobs are valid or terminal. The registered adaptive final answer is the only performance result. Base score, candidate oracle, and family diagnostics are secondary.",
+  "interpretation_rule": "A score of at least 20/24 reaches the research target on one fresh progressive gate. It remains a small-sample result and should later be replicated before a broad general-performance claim.",
+  "sha256": {
+    "codex_binary": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+    "base_common_prefix": "0bb2a204af57b7aa5d48f408fd5352a5d0484e6d93e2365e3309d4722cd50276",
+    "base_lens_catalog": "bbb63042a2b3abace1d6cf843455889a96d315bec6ff9927285590e18b30f5cc",
+    "base_strategy": "69788bcf27dd72289be47faceda25e5772353703acd88f45d4b61562fa6e43be",
+    "deep_common_prefix": "39ee4def55399ea98a94be45d980f8ba9026170444ea149d32d762ee28b9e9db",
+    "deep_lens_catalog": "8a78dbc59b71af63105eef9f2b6ef05c82004a73e7132ab93f963fe4c34076cf",
+    "deep_strategy": "a2a747d58e1f79912a0b3a66d66d0dbc1b2bcb2c8d3c38bdf22dfebd1ed1e8b5",
+    "router_script": "b57af0a512c770779b855c8de20102601445aa1a574dbdd481bf49acb9e7e9a6",
+    "scoring_script": "5d2150e249849334b78c7f13b69f3df473dc4163390c7043ef8f3af6d77d5f40",
+    "derived_block_wrapper": "cbbe9c995584ee3a24fec18c426848846cc08db24b350aa1cbdb959cc8d72dbc",
+    "derived_block_manifest": "6768b5b365f8dbb05194f63144e71675395c9877559aaa3f8357b68743a70ffe",
+    "public_block_13a": "9adca6c2b3f27f27cbf74c2e7a9c64602757286b5b02bde40109a242283d6b87",
+    "public_block_13b": "1354fb403874123ac33b9b3f08c6f7d02b2bd3966c8e187f9ec695b8b2911a4a",
+    "public_block_14a": "42b22360df0f08ec0535ef563855fc9b8417fcd86cd5769bb5426cf58f49824c",
+    "public_block_14b": "b718544cb93c7c6aff65b3eaed7e825dd5f78aca30653cd6fd77145171a4a1ef",
+    "sealed_research_answers": "65d4f08d3d563da1e709c0be33c97a6f69f329ed9f8de0b65c43146789d2e71a",
+    "source_development_result": "e89d110c6e960c1427c28afa7e50b32f0e70c1c734df3ebfe7b16acded4bbc9f"
+  }
+}

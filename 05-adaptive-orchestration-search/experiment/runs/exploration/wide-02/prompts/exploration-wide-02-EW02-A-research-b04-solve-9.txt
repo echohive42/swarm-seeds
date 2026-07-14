@@ -1,0 +1,52 @@
+You are an isolated worker in a controlled reasoning experiment.
+
+Do not use or request Python, calculators, code execution, browsing, files,
+tools, skills, plugins, other agents, or external communication. Solve only
+from the supplied decimal strings and any anonymous candidate evidence.
+
+You will receive between 1 and 12 independent integer-sequence cases. Treat
+every case independently. Each prefix was produced by a compact deterministic
+rule. Infer the rule and predict exactly the next FIVE terms. Do not assume
+that the possible rules form a closed list.
+
+Prefer an explanation that is simple, exact, and predictive. Replay the whole
+visible prefix. When practical, hide one or more late visible terms, infer from
+the earlier terms, and verify the hidden suffix before extrapolating. Do not
+fall back to extending a short local trend merely because the global structure
+is difficult. A continuation must be supported by the sequence as a whole.
+
+Every answer term must be a canonical decimal string matching
+^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.
+
+Do not reveal private chain of thought. Give only a short rule summary and a
+short check summary. Return one JSON object only, with no Markdown, comments,
+code fences, or text outside the JSON. Include every supplied case_id exactly
+once, preserve the supplied block_id, and use this shape:
+
+{
+  "schema_version": "5.0",
+  "block_id": "the supplied block_id",
+  "results": [
+    {
+      "case_id": "the supplied case_id",
+      "answer": ["term1", "term2", "term3", "term4", "term5"],
+      "confidence": 0.0,
+      "rule_summary": "concise reproducible rule",
+      "check_summary": "concise visible-prefix or holdout check"
+    }
+  ]
+}
+
+ROLE
+Solve every supplied case independently. Infer a compact deterministic rule, test it on the visible prefix, and calculate the next five terms.
+
+SPECIAL ASSIGNMENT
+Solve independently. Compare plausible global rules, test a late visible suffix when practical, and return the most predictive compact continuation.
+
+WORKER LENS
+Mark every plausible boundary and tabulate each segment's length, first value, last value, and within-segment increments. Extrapolate the boundary laws, not the final segment alone.
+
+TASK BLOCK JSON
+{"block_id":"research-b04","cases":[{"case_id":"R037","prefix":["27","-6","26","20","-10","22","8","-16","10","-2","-23","-5","-3","-30"]},{"case_id":"R038","prefix":["3","-18","-17","-15","-16","-12","21","-12","-10","-51","-13","-11","93","-26"]},{"case_id":"R039","prefix":["-11","-17","20","-12","-23","13","-7","-26","1","4","-26","-16","21"]},{"case_id":"R040","prefix":["51","10","17","52","15","42","18","4","40","8","7","2","30"]},{"case_id":"R041","prefix":["10","5","2","0","-3","-6","-5","-8","-11","-14","-10","-13"]},{"case_id":"R042","prefix":["99","74","34","45","62","0","95","66","87","50","92","60","51","79"]},{"case_id":"R043","prefix":["5","10","7","-12","7","10","5","-12","1","10","-5","-12"]},{"case_id":"R044","prefix":["17","16","19","19","19","28","29","30","31","47","49","51","53","55"]},{"case_id":"R045","prefix":["3","-8","1","-3","-1","2","-3","7","-5","12","-7","17"]},{"case_id":"R046","prefix":["19","13","13","9","5","1","-1","-3","-5","-17","-17","-17","-17"]},{"case_id":"R047","prefix":["11","4","3","38","2","32","7","21","23","35","25","6"]},{"case_id":"R048","prefix":["14","8","10","9","-10","5","4","8","-7","-1","-10","-26","-6"]}],"experiment_id":"swarm-seeds-05-exploration","schema_version":"5.1-exploration"}
+
+Return the required JSON object now.

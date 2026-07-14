@@ -1,0 +1,45 @@
+{
+  "schema_version": "5.0",
+  "lenses": [
+    {
+      "lens_id": "modular_affine_exhaustive_h1",
+      "holdout_terms": 1,
+      "instruction": "Test affine modular state updates systematically. For phase periods 1 through 4, seek one modulus M and phase-specific x_next = a*x + b mod M. Derive constraints from every transition, require M larger than every residue, and replay the entire supplied prefix exactly."
+    },
+    {
+      "lens_id": "periodic_delta_table_h1",
+      "holdout_terms": 1,
+      "instruction": "Build the first-difference sequence. For candidate periods 2 through 6, place differences into phase columns and test constant through cubic evolution down each column. Continue the phase columns and restore the original sequence exactly."
+    },
+    {
+      "lens_id": "lag_residue_polynomial_h1",
+      "holdout_terms": 1,
+      "instruction": "For lags 2 through 6, split the original terms by index modulo the lag. Build finite-difference tables for each residue subsequence by cycle index, continue each independently, and weave the requested positions back in order."
+    },
+    {
+      "lens_id": "heterogeneous_interleave_h1",
+      "holdout_terms": 1,
+      "instruction": "Test interleavings with 2 through 6 streams. Allow each stream a different compact atom, including a low-degree polynomial, affine recurrence, alternating rule, or bounded update. Require every stream to replay exactly before reweaving."
+    },
+    {
+      "lens_id": "growing_blocks_exhaustive_h1",
+      "holdout_terms": 1,
+      "instruction": "Enumerate consecutive block decompositions whose lengths grow regularly, including lengths l0, l0+1, l0+2 and so on for small l0. Infer simple polynomial laws for each block start and internal step, and cross the next boundary exactly."
+    },
+    {
+      "lens_id": "segment_boundary_backtracking_h1",
+      "holdout_terms": 1,
+      "instruction": "Backtrack plausible segment boundaries rather than extrapolating the suffix. Test evolving lengths, starts, internal increments, resets, and mirrored motifs. Demand a compact boundary-by-boundary reconstruction of every supplied term."
+    },
+    {
+      "lens_id": "structural_library_duel_h2",
+      "holdout_terms": 2,
+      "instruction": "Run a disciplined tournament among periodic differences, lag-residue polynomials, heterogeneous interleavings, growing blocks, low-order recurrences, and modular affine state. Fully replay each viable model and select the shortest exact generator."
+    },
+    {
+      "lens_id": "reverse_execution_audit_h2",
+      "holdout_terms": 2,
+      "instruction": "Solve from both ends of the supplied prefix. A valid rule must generate the sequence forward and explain late terms backward through the same phase, stream, segment, or state coordinates. Prefer exact executable structure over visual trend."
+    }
+  ]
+}

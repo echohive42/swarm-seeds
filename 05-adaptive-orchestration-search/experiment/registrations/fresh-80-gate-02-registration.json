@@ -1,0 +1,100 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-adaptive-fresh-80-gate-registration",
+  "gate_id": "fresh-80-gate-02",
+  "registered_at_utc": "2026-07-14T03:05:27Z",
+  "registered_before_subject_calls": true,
+  "status": "fresh_progressive_gate_not_final_confirmation",
+  "objective": "Test whether the frozen three-stage visible-holdout Luna Light system reaches at least 80% exact accuracy on 24 cases generated only after the architecture was frozen.",
+  "target": {
+    "minimum_exact": 20,
+    "cases": 24,
+    "minimum_attainable_accuracy": 0.8333333333333334
+  },
+  "requested_model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "maximum_concurrency": 60,
+  "fresh_case_count": 24,
+  "prior_prediction_overlap": 0,
+  "benchmark_generation": {
+    "root_seed": "swarm-seeds-05-fresh-80-gate-02-2026-07-14-a",
+    "root_seed_sha256": "a7728c1bfb291fe9a33225946e3f86c353310f2b03226181bb45e1f5f56f589e",
+    "generated_after_architecture_freeze": true,
+    "public_blocks": [
+      "fresh-g02-a",
+      "fresh-g02-b",
+      "fresh-g02-c",
+      "fresh-g02-d"
+    ],
+    "sealed_answers_opened_before_calls": false
+  },
+  "base_stage": {
+    "prompt_arms": 15,
+    "cases_per_call": 6,
+    "logical_calls": 60,
+    "selector": "deterministic plurality across all fifteen base prompt arms, with mean reported confidence and canonical tuple used only as deterministic tie breakers"
+  },
+  "stage_one": {
+    "name": "visible holdout rule search",
+    "router": "route cases whose base plurality support is at most five; rank by support ascending, unique answers descending, mean confidence ascending, case_id ascending",
+    "route_cap": 16,
+    "prompt_arms_per_case": 8,
+    "holdout_terms": [2, 3],
+    "maximum_logical_calls": 128,
+    "uses_benchmark_answers": false
+  },
+  "stage_two": {
+    "name": "visible holdout failure recovery",
+    "router": "route stage-one cases with at most three candidates that exactly recovered their own removed public suffix; rank by survivor count ascending, unique surviving answers descending, case_id ascending",
+    "route_cap": 12,
+    "prompt_arms_per_case": 8,
+    "holdout_terms": [1, 2],
+    "maximum_logical_calls": 96,
+    "uses_benchmark_answers": false
+  },
+  "stage_three": {
+    "name": "externally verified structural worksheets",
+    "router": "across stage one and stage two, route cases whose most-supported candidate that recovered its own removed public suffix has support at most three; rank by maximum support ascending, total survivors ascending, unique answers descending, case_id ascending",
+    "route_cap": 12,
+    "prompt_arms_per_case": 8,
+    "holdout_terms": [1],
+    "maximum_logical_calls": 96,
+    "uses_benchmark_answers": false
+  },
+  "final_rule": "Start with the base fifteen deterministic plurality. For every case having at least one candidate that exactly recovered its own removed public suffix, replace the base answer with deterministic plurality over all such verified future tuples from the three holdout stages. Rank tuples by support descending, mean reported confidence descending, and canonical tuple ascending.",
+  "maximum_total_logical_calls": 380,
+  "hidden_answers_sealed_before_calls": true,
+  "retry_rule": "Never rerun a valid output. Retry only the identical logical job after a schema or infrastructure failure, preserve every attempt ledger, and merge exact replacements before downstream routing.",
+  "scoring_rule": "Open and parse the sealed answer file only after all base and mechanically routed holdout jobs are valid or terminal. Score the single registered final answer once. Base score, candidate oracle, family diagnostics, and term accuracy are secondary.",
+  "interpretation_rule": "At least 20/24 reaches the stated 80%-or-higher target because the first attainable passing score is 83.3%. It is evidence from one small fresh gate, not a universal performance guarantee.",
+  "sha256": {
+    "codex_binary": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+    "benchmark_manifest": "d4ec98db2dde80480a16edf6c362a867ed03948d30af8c07d051f601a19d1ac0",
+    "public_cases": "431fda4b003dbe11cc6aa3475717926b2bb11f1a3aa36a6d88ae62e31c4224c6",
+    "public_block_a": "9a9e3071148106127c527d6b8b4a83c7d0daa09a093bd1bc27219aa988ebef25",
+    "public_block_b": "60306250bed43d92777eda3eb0376df6185ca58eb29478bfa4b79635ca7a3e64",
+    "public_block_c": "34abd77545b61e2fdf4c89369eef88476d2e542661717d5aacd0da5045384399",
+    "public_block_d": "deace5e4978af0fe39a29e6fea4699d76ce372613ee9d15e6bd75e9c094c6b9b",
+    "sealed_answers": "3c3a1b44a92ac61fa55deb045c934cea93112df8e63326d002c05196b5107bc1",
+    "base_strategy": "0d8f259ac3da41bfb39cbf7803a7d8e8a814a50fdc99188fdf8b52935e154696",
+    "base_common_prefix": "0bb2a204af57b7aa5d48f408fd5352a5d0484e6d93e2365e3309d4722cd50276",
+    "base_lens_catalog": "bbb63042a2b3abace1d6cf843455889a96d315bec6ff9927285590e18b30f5cc",
+    "base_orchestrator": "858843153b4f397305086df807a7af25927e260eb85816e6e65ee7aa13f016d5",
+    "generic_orchestrator": "402d86e9278494b38bd5ab674d51b84f51e7f23eefc15e44a48ced9172f3aa4a",
+    "runner": "234dbd2830a3d0b3459360411d352f4f6b2c1348fb79b881a8684e666bb3e4e9",
+    "stage_one_preparation": "ecc053c8bb9215e89e9354efd064b9a3885d30c22d72484bdeed2300052cdfa2",
+    "stage_one_common_prefix": "82acf58e3579da04471aa38a6bb1318c27db54cc8a3df7fe89697c09fbcf85a6",
+    "stage_one_lens_catalog": "ce8e82797eb260ca67c212a74a2beab3f648712a3e51dce6083be0084bf584fd",
+    "stage_two_preparation": "17deb875e9233f6d99d18f321770e3471d05105e1e8bc5cfb3daa59f4ad7b2a3",
+    "stage_two_common_prefix": "c04aff3d1e50d24afe86913f2a793a95d065a122cff69ff0936fce4ff50c1de7",
+    "stage_two_lens_catalog": "185aa49ca716134fddcf07fa51bc921c085b5781092080d9eb88c3edfba04aca",
+    "stage_three_preparation": "484f14720caae7f23a4d50554554fa23ada2c5fa4688df393e851ed113033a3e",
+    "stage_three_common_prefix": "421f430d9aee711f80163d68b0f37b3d1823dbbab0c4e3a0d416842b48534fa7",
+    "stage_three_lens_catalog": "e2c347fc4b3ca75140ff4eec5320991ce1b1b36ca1602ea319eec73e60d501f5",
+    "scoring_script": "571bce1e8a4cbefe7ced536993acb8027980b21021d5bf63fa62b4ed1aed4577",
+    "retry_merge_script": "36bf7d286c7dc91eea855d72b964a2bc73334b38a57f68e9f9b6110ae9706337",
+    "source_development_score": "4176c20d60ef077fbb53a4daf89d197c1213ccf92f23f509cc3550c5af55eaf6"
+  }
+}

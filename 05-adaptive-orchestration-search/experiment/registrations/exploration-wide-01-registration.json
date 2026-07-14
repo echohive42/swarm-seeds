@@ -1,0 +1,49 @@
+{
+  "schema_version": "5.1-exploration",
+  "artifact_type": "experiment-05-exploratory-prompt-race-registration",
+  "cycle_id": "exploration-wide-01",
+  "registered_at_utc": "2026-07-14T00:35:39Z",
+  "registered_before_subject_calls": true,
+  "status": "exploratory_not_confirmatory",
+  "objective": "Compare 30 open-ended solver prompts on the same 24 fresh cases, build a reusable candidate archive, and identify complementary prompt ensembles without exposing hidden taxonomy or answers to Luna.",
+  "requested_model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "maximum_concurrency": 60,
+  "timeout_seconds": 900,
+  "prompt_arm_count": 30,
+  "strategy_container_count": 2,
+  "blocks": ["research-b01", "research-b02"],
+  "case_count": 24,
+  "calls_per_prompt_arm": 2,
+  "maximum_logical_calls": 60,
+  "hidden_answers_sealed_before_calls": true,
+  "prompt_constraints": [
+    "No tools, code execution, browsing, files, other agents, or external communication.",
+    "No named RuleWeave families or closed benchmark taxonomy.",
+    "All arms share one common prefix and one special assignment; only the worker lens changes.",
+    "Every arm sees the same two blocks and independently returns exactly five terms per case."
+  ],
+  "post_call_exploration": [
+    "Score each prompt arm and both diagnostic 15-arm pluralities.",
+    "Measure the 30-arm oracle ceiling and pooled plurality.",
+    "Search hundreds of prompt subsets and generic selectors without additional model calls.",
+    "Use family labels only for post-hoc diagnosis, never for inference or deployable selector inputs.",
+    "Promote only systems that survive progressive fresh-case gates; do not run a large final validation without user approval."
+  ],
+  "sha256": {
+    "codex_binary": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+    "common_prefix": "1abbde50a2256207170b6061a77fa3da2bbc6e01cf16c00fc0f45c12b23b3a07",
+    "lens_catalog": "731d0d6620a22d0cc02685d2cbaf2b239d683615edef97de38c5a6ecdc4e724d",
+    "strategy_batch": "bd160fbdd50ac5ae05f8150ed1504bf17cc7ad3408ede2b159f9057df6e0170d",
+    "public_block_01": "dec32e0533e3293780b5f1ee264d8fa606bd2f1ddeb7064efbb68d28da8d2d49",
+    "public_block_02": "bc92f1f67b7c623a088dd7c8512fbc3d029ae2ef5901475f3370d1a6f8c92117",
+    "sealed_research_answers": "65d4f08d3d563da1e709c0be33c97a6f69f329ed9f8de0b65c43146789d2e71a",
+    "benchmark_manifest": "24145bc30417ce84a485ea9ce65c145cebbfd295a40d61939019a229f651dba9",
+    "exploration_orchestrator": "a0ba0fc7f586a061c4924d42fca4ab7334085be32b21612d6f934f78dbd86162",
+    "base_orchestrator": "402d86e9278494b38bd5ab674d51b84f51e7f23eefc15e44a48ced9172f3aa4a",
+    "runner": "234dbd2830a3d0b3459360411d352f4f6b2c1348fb79b881a8684e666bb3e4e9",
+    "benchmark_generator": "f5bb8e4b9d107ee2d12201aded05db6ebaaaa022e6e08fafc5024845b6b19276"
+  }
+}

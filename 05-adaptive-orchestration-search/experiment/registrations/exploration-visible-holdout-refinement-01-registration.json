@@ -1,0 +1,67 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-visible-holdout-refinement-registration",
+  "exploration_id": "visible-holdout-refinement-01",
+  "registered_at_utc": "2026-07-14T02:47:42Z",
+  "registered_before_subject_calls": true,
+  "status": "open_development_not_validation",
+  "objective": "Increase externally verified candidate coverage with explicit mathematical worksheets on cases that still have weak verified agreement.",
+  "router": {
+    "input": "all candidates from visible-holdout-01 and visible-holdout-recovery-01 that exactly recovered their own removed public suffix",
+    "selection_rule": "Route a case when its most-supported verified future tuple has support at most three.",
+    "ranking_rule": "maximum verified support ascending, total verified survivors ascending, unique verified answers descending, case_id ascending",
+    "cap": 10,
+    "selected_count": 10,
+    "selected_case_ids": [
+      "R167",
+      "R145",
+      "R158",
+      "R161",
+      "R164",
+      "R155",
+      "R165",
+      "R168",
+      "R163",
+      "R159"
+    ],
+    "uses_benchmark_answers": false,
+    "uses_family_or_generator_metadata": false
+  },
+  "subject_calls": {
+    "requested_model": "gpt-5.6-luna",
+    "reasoning_effort": "low",
+    "public_reasoning_label": "Light reasoning",
+    "service_tier": "standard",
+    "prompt_arms_per_case": 8,
+    "holdout_terms": 1,
+    "cases_per_call": 1,
+    "logical_calls": 80,
+    "maximum_concurrency": 60,
+    "worksheets": [
+      "periodic delta equations, two formulations",
+      "phase-modular affine equations, two formulations",
+      "lag-residue polynomial table",
+      "heterogeneous interwoven streams",
+      "growing block table",
+      "four-library exhaustive comparison"
+    ]
+  },
+  "fairness": "Every selected case receives all eight worksheets. Subjects see only a case ID, a prefix shortened by one public term, and the request for six continuation terms. No family, generator, answer, removed term, or prior-agent evidence is supplied.",
+  "retry_rule": "Never rerun a valid output. Retry only an identical logical job after schema or infrastructure failure and preserve all ledgers.",
+  "interpretation_rule": "This is open development. A selector and prompt portfolio must be frozen before any new fresh performance gate.",
+  "sha256": {
+    "preparation_script": "484f14720caae7f23a4d50554554fa23ada2c5fa4688df393e851ed113033a3e",
+    "common_prefix": "421f430d9aee711f80163d68b0f37b3d1823dbbab0c4e3a0d416842b48534fa7",
+    "lens_catalog": "e2c347fc4b3ca75140ff4eec5320991ce1b1b36ca1602ea319eec73e60d501f5",
+    "stage_one_manifest": "50f8e6271d8ed5a4b8385b12feb46082f1590a907431fcb98b3fa3c137c9d207",
+    "stage_one_holdout": "1e54631ccb69de9c99ed18c9c9a05446f66283344a73f114b0692e69bc5c44b8",
+    "stage_one_attempt_ledger": "97d88e2f0651d33e6269585b5184fea290d0f286874c25015fc61be3824bac4e",
+    "stage_two_manifest": "b8ee4632c1c6f565eca319049f1c8ae0b25b3830dfedc4d4f02a9c4fc999c949",
+    "stage_two_holdout": "394c463784cf173dac8d68b0f0d30e4d0ef2b4e2059611b136f786f2ecbf4bf3",
+    "stage_two_attempt_ledger": "6eef28dd896a964058d912352c0069ca10599258d414fa3a90fa14b8f05ba38f",
+    "route_manifest": "6cb45edd9d68f91bc285eda38afe0e113bcd187b124e2b94e4c8342499219c6d",
+    "holdout_key": "bb06e6e77c6afe845412f979480c8b1703fef30c97ad9bab4b379fa759537c99",
+    "job_manifest": "ee7237db9bdc233f992ea1053c9b74481dbd7169f86732ab8ef9edf5ced5a289",
+    "preparation_summary": "7255c29fd2c4a4a8cf7314084d6c1deb8dd9690494dbadbac3b9115a66675bbd"
+  }
+}

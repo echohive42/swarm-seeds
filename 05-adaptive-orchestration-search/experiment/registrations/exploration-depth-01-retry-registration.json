@@ -1,0 +1,26 @@
+{
+  "schema_version": "5.1-exploration",
+  "artifact_type": "experiment-05-exact-job-retry-registration",
+  "cycle_id": "exploration-depth-01-retry-01",
+  "registered_at_utc": "2026-07-14T00:54:56Z",
+  "registered_before_retry_calls": true,
+  "reason": "Four of the 60 frozen jobs exhausted schema-format retries. Rerun only those exact prompt and block requests in a separate runner directory, preserving all 56 valid first-run jobs.",
+  "job_ids": [
+    "exploration-depth-01-ED01-A-research-b06b-solve-1",
+    "exploration-depth-01-ED01-A-research-b06b-solve-7",
+    "exploration-depth-01-ED01-A-research-b06b-solve-8",
+    "exploration-depth-01-ED01-A-research-b06b-solve-15"
+  ],
+  "job_count": 4,
+  "maximum_concurrency": 4,
+  "timeout_seconds": 900,
+  "requested_model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "service_tier": "standard",
+  "replacement_rule": "A valid retry document replaces only the null model rows from the same job_id. Original valid jobs are never rerun or replaced. Preserve original and retry ledgers separately and construct a documented merged prediction artifact.",
+  "sha256": {
+    "frozen_stage_manifest": "1815865fcde05f41ee6fa3f1c1810ade72ba1078a49d8dc9637199fa50bbbbec",
+    "first_run_predictions": "b2965cac4cbdc46858e6fedb568eed5c68d9189e3b61dfd932643c1b19ee68fc",
+    "first_run_attempt_ledger": "b4c9b0527b1e2071cd0b94ec666ea87f8e7cf77907eb4c7858411e654c8d1619"
+  }
+}

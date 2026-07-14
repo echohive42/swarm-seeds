@@ -1,0 +1,814 @@
+{
+  "artifact_type": "holdout-length-weighted-frozen-system-score",
+  "base_fifteen": {
+    "cases": 24,
+    "exact": 15,
+    "exact_accuracy": 0.625
+  },
+  "candidate_oracle_including_base": {
+    "cases": 24,
+    "exact": 21,
+    "exact_accuracy": 0.875
+  },
+  "case_decisions": {
+    "Q001": {
+      "base_answer": [
+        "281836",
+        "-680415",
+        "1642663",
+        "-3965742",
+        "9574144"
+      ],
+      "base_exact": true,
+      "family": "LIN2",
+      "final_answer": [
+        "281836",
+        "-680415",
+        "1642663",
+        "-3965742",
+        "9574144"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "281836",
+        "-680415",
+        "1642663",
+        "-3965742",
+        "9574144"
+      ],
+      "unique_verified_candidates": 1,
+      "verified_candidate_count": 6,
+      "winning_verified_support": 6
+    },
+    "Q002": {
+      "base_answer": [
+        "19",
+        "16",
+        "21",
+        "18",
+        "23"
+      ],
+      "base_exact": true,
+      "family": "PDELTA",
+      "final_answer": [
+        "19",
+        "16",
+        "21",
+        "18",
+        "23"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "19",
+        "16",
+        "21",
+        "18",
+        "23"
+      ],
+      "unique_verified_candidates": 0,
+      "verified_candidate_count": 0,
+      "winning_verified_support": 0
+    },
+    "Q003": {
+      "base_answer": [
+        "15932",
+        "23759",
+        "34365",
+        "48426",
+        "66719"
+      ],
+      "base_exact": true,
+      "family": "POLY",
+      "final_answer": [
+        "15932",
+        "23759",
+        "34365",
+        "48426",
+        "66719"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "15932",
+        "23759",
+        "34365",
+        "48426",
+        "66719"
+      ],
+      "unique_verified_candidates": 1,
+      "verified_candidate_count": 6,
+      "winning_verified_support": 6
+    },
+    "Q004": {
+      "base_answer": [
+        "773",
+        "951",
+        "1136",
+        "1322",
+        "1502"
+      ],
+      "base_exact": true,
+      "family": "POLY",
+      "final_answer": [
+        "773",
+        "951",
+        "1136",
+        "1322",
+        "1502"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "773",
+        "951",
+        "1136",
+        "1322",
+        "1502"
+      ],
+      "unique_verified_candidates": 0,
+      "verified_candidate_count": 0,
+      "winning_verified_support": 0
+    },
+    "Q005": {
+      "base_answer": [
+        "-760",
+        "-972",
+        "-1221",
+        "-1510",
+        "-1842"
+      ],
+      "base_exact": true,
+      "family": "POLY",
+      "final_answer": [
+        "-760",
+        "-972",
+        "-1221",
+        "-1510",
+        "-1842"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "-760",
+        "-972",
+        "-1221",
+        "-1510",
+        "-1842"
+      ],
+      "unique_verified_candidates": 0,
+      "verified_candidate_count": 0,
+      "winning_verified_support": 0
+    },
+    "Q006": {
+      "base_answer": [
+        "61435",
+        "122875",
+        "245755",
+        "491515",
+        "983035"
+      ],
+      "base_exact": true,
+      "family": "AFFINE",
+      "final_answer": [
+        "61435",
+        "122875",
+        "245755",
+        "491515",
+        "983035"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "61435",
+        "122875",
+        "245755",
+        "491515",
+        "983035"
+      ],
+      "unique_verified_candidates": 0,
+      "verified_candidate_count": 0,
+      "winning_verified_support": 0
+    },
+    "Q007": {
+      "base_answer": [
+        "-182",
+        "-178",
+        "186",
+        "542",
+        "170"
+      ],
+      "base_exact": true,
+      "family": "LIN2",
+      "final_answer": [
+        "-182",
+        "-178",
+        "186",
+        "542",
+        "170"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "-182",
+        "-178",
+        "186",
+        "542",
+        "170"
+      ],
+      "unique_verified_candidates": 1,
+      "verified_candidate_count": 7,
+      "winning_verified_support": 7
+    },
+    "Q008": {
+      "base_answer": [
+        "-201",
+        "-230",
+        "-266",
+        "-299",
+        "-340"
+      ],
+      "base_exact": true,
+      "family": "PDELTA",
+      "final_answer": [
+        "-201",
+        "-230",
+        "-266",
+        "-299",
+        "-340"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "-201",
+        "-230",
+        "-266",
+        "-299",
+        "-340"
+      ],
+      "unique_verified_candidates": 2,
+      "verified_candidate_count": 9,
+      "winning_verified_support": 8
+    },
+    "Q009": {
+      "base_answer": [
+        "42",
+        "29",
+        "45",
+        "79",
+        "99"
+      ],
+      "base_exact": false,
+      "family": "PDELTA",
+      "final_answer": [
+        "5",
+        "3",
+        "-3",
+        "-7",
+        "8"
+      ],
+      "final_exact": false,
+      "override": true,
+      "truth": [
+        "47",
+        "81",
+        "42",
+        "29",
+        "107"
+      ],
+      "unique_verified_candidates": 1,
+      "verified_candidate_count": 1,
+      "winning_verified_support": 1
+    },
+    "Q010": {
+      "base_answer": [
+        "-9173",
+        "-1504",
+        "3870",
+        "1398",
+        "-7695"
+      ],
+      "base_exact": false,
+      "family": "LIN2",
+      "final_answer": [
+        "-9173",
+        "-1504",
+        "3870",
+        "1398",
+        "-7695"
+      ],
+      "final_exact": false,
+      "override": false,
+      "truth": [
+        "2348",
+        "7354",
+        "2650",
+        "-12057",
+        "-17357"
+      ],
+      "unique_verified_candidates": 0,
+      "verified_candidate_count": 0,
+      "winning_verified_support": 0
+    },
+    "Q011": {
+      "base_answer": [
+        "-1593165",
+        "-4779497",
+        "14338490",
+        "-28676973",
+        "-86030921"
+      ],
+      "base_exact": true,
+      "family": "AFFINE",
+      "final_answer": [
+        "-1593165",
+        "-4779497",
+        "14338490",
+        "-28676973",
+        "-86030921"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "-1593165",
+        "-4779497",
+        "14338490",
+        "-28676973",
+        "-86030921"
+      ],
+      "unique_verified_candidates": 0,
+      "verified_candidate_count": 0,
+      "winning_verified_support": 0
+    },
+    "Q012": {
+      "base_answer": [
+        "1940889",
+        "-5822665",
+        "11645337",
+        "-34936009",
+        "69872025"
+      ],
+      "base_exact": true,
+      "family": "AFFINE",
+      "final_answer": [
+        "1940889",
+        "-5822665",
+        "11645337",
+        "-34936009",
+        "69872025"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "1940889",
+        "-5822665",
+        "11645337",
+        "-34936009",
+        "69872025"
+      ],
+      "unique_verified_candidates": 0,
+      "verified_candidate_count": 0,
+      "winning_verified_support": 0
+    },
+    "Q013": {
+      "base_answer": [
+        "-92",
+        "639",
+        "-124",
+        "1279",
+        "-161"
+      ],
+      "base_exact": true,
+      "family": "INTERLEAVE",
+      "final_answer": [
+        "-92",
+        "639",
+        "-124",
+        "1279",
+        "-161"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "-92",
+        "639",
+        "-124",
+        "1279",
+        "-161"
+      ],
+      "unique_verified_candidates": 0,
+      "verified_candidate_count": 0,
+      "winning_verified_support": 0
+    },
+    "Q014": {
+      "base_answer": [
+        "28",
+        "29",
+        "8",
+        "26",
+        "27"
+      ],
+      "base_exact": false,
+      "family": "INTERLEAVE",
+      "final_answer": [
+        "248",
+        "-72",
+        "89",
+        "504",
+        "-119"
+      ],
+      "final_exact": true,
+      "override": true,
+      "truth": [
+        "248",
+        "-72",
+        "89",
+        "504",
+        "-119"
+      ],
+      "unique_verified_candidates": 4,
+      "verified_candidate_count": 7,
+      "winning_verified_support": 2
+    },
+    "Q015": {
+      "base_answer": [
+        "-35",
+        "-38",
+        "-41",
+        "-34",
+        "-37"
+      ],
+      "base_exact": true,
+      "family": "GROWBLOCK",
+      "final_answer": [
+        "-35",
+        "-38",
+        "-41",
+        "-34",
+        "-37"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "-35",
+        "-38",
+        "-41",
+        "-34",
+        "-37"
+      ],
+      "unique_verified_candidates": 6,
+      "verified_candidate_count": 11,
+      "winning_verified_support": 6
+    },
+    "Q016": {
+      "base_answer": [
+        "-9",
+        "-3",
+        "-470",
+        "-11",
+        "0"
+      ],
+      "base_exact": true,
+      "family": "INTERLEAVE",
+      "final_answer": [
+        "-9",
+        "-3",
+        "-470",
+        "-11",
+        "0"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "-9",
+        "-3",
+        "-470",
+        "-11",
+        "0"
+      ],
+      "unique_verified_candidates": 2,
+      "verified_candidate_count": 5,
+      "winning_verified_support": 4
+    },
+    "Q017": {
+      "base_answer": [
+        "-36",
+        "15",
+        "-30",
+        "34",
+        "-62"
+      ],
+      "base_exact": false,
+      "family": "LAGPOLY",
+      "final_answer": [
+        "-62",
+        "-43",
+        "-30",
+        "34",
+        "-83"
+      ],
+      "final_exact": true,
+      "override": true,
+      "truth": [
+        "-62",
+        "-43",
+        "-30",
+        "34",
+        "-83"
+      ],
+      "unique_verified_candidates": 2,
+      "verified_candidate_count": 5,
+      "winning_verified_support": 4
+    },
+    "Q018": {
+      "base_answer": [
+        "-6",
+        "10",
+        "-9",
+        "12",
+        "-12"
+      ],
+      "base_exact": true,
+      "family": "LAGPOLY",
+      "final_answer": [
+        "-6",
+        "10",
+        "-9",
+        "12",
+        "-12"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "-6",
+        "10",
+        "-9",
+        "12",
+        "-12"
+      ],
+      "unique_verified_candidates": 0,
+      "verified_candidate_count": 0,
+      "winning_verified_support": 0
+    },
+    "Q019": {
+      "base_answer": [
+        "88",
+        "115",
+        "142",
+        "169",
+        "196"
+      ],
+      "base_exact": false,
+      "family": "GROWBLOCK",
+      "final_answer": [
+        "88",
+        "115",
+        "-2",
+        "31",
+        "64"
+      ],
+      "final_exact": false,
+      "override": true,
+      "truth": [
+        "88",
+        "115",
+        "-7",
+        "26",
+        "59"
+      ],
+      "unique_verified_candidates": 4,
+      "verified_candidate_count": 6,
+      "winning_verified_support": 2
+    },
+    "Q020": {
+      "base_answer": [
+        "-79",
+        "-117",
+        "-155",
+        "-193",
+        "-231"
+      ],
+      "base_exact": false,
+      "family": "LAGPOLY",
+      "final_answer": [
+        "30",
+        "-13",
+        "-63",
+        "53",
+        "-28"
+      ],
+      "final_exact": true,
+      "override": true,
+      "truth": [
+        "30",
+        "-13",
+        "-63",
+        "53",
+        "-28"
+      ],
+      "unique_verified_candidates": 6,
+      "verified_candidate_count": 11,
+      "winning_verified_support": 3
+    },
+    "Q021": {
+      "base_answer": [
+        "29",
+        "14",
+        "29",
+        "14",
+        "29"
+      ],
+      "base_exact": false,
+      "family": "MODAFFINE",
+      "final_answer": [
+        "46",
+        "55",
+        "48",
+        "6",
+        "59"
+      ],
+      "final_exact": true,
+      "override": true,
+      "truth": [
+        "46",
+        "55",
+        "48",
+        "6",
+        "59"
+      ],
+      "unique_verified_candidates": 1,
+      "verified_candidate_count": 3,
+      "winning_verified_support": 3
+    },
+    "Q022": {
+      "base_answer": [
+        "100",
+        "114",
+        "128",
+        "142",
+        "156"
+      ],
+      "base_exact": false,
+      "family": "MODAFFINE",
+      "final_answer": [
+        "5",
+        "12",
+        "46",
+        "79",
+        "60"
+      ],
+      "final_exact": true,
+      "override": true,
+      "truth": [
+        "5",
+        "12",
+        "46",
+        "79",
+        "60"
+      ],
+      "unique_verified_candidates": 3,
+      "verified_candidate_count": 4,
+      "winning_verified_support": 2
+    },
+    "Q023": {
+      "base_answer": [
+        "35",
+        "4",
+        "39",
+        "8",
+        "43"
+      ],
+      "base_exact": false,
+      "family": "MODAFFINE",
+      "final_answer": [
+        "34",
+        "15",
+        "13",
+        "5",
+        "10"
+      ],
+      "final_exact": true,
+      "override": true,
+      "truth": [
+        "34",
+        "15",
+        "13",
+        "5",
+        "10"
+      ],
+      "unique_verified_candidates": 2,
+      "verified_candidate_count": 7,
+      "winning_verified_support": 6
+    },
+    "Q024": {
+      "base_answer": [
+        "-169",
+        "-118",
+        "-153",
+        "-188",
+        "-223"
+      ],
+      "base_exact": true,
+      "family": "GROWBLOCK",
+      "final_answer": [
+        "-169",
+        "-118",
+        "-153",
+        "-188",
+        "-223"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "-169",
+        "-118",
+        "-153",
+        "-188",
+        "-223"
+      ],
+      "unique_verified_candidates": 2,
+      "verified_candidate_count": 6,
+      "winning_verified_support": 5
+    }
+  },
+  "family_exact": {
+    "AFFINE": {
+      "cases": 3,
+      "exact": 3
+    },
+    "GROWBLOCK": {
+      "cases": 3,
+      "exact": 2
+    },
+    "INTERLEAVE": {
+      "cases": 3,
+      "exact": 3
+    },
+    "LAGPOLY": {
+      "cases": 3,
+      "exact": 3
+    },
+    "LIN2": {
+      "cases": 3,
+      "exact": 2
+    },
+    "MODAFFINE": {
+      "cases": 3,
+      "exact": 3
+    },
+    "PDELTA": {
+      "cases": 3,
+      "exact": 2
+    },
+    "POLY": {
+      "cases": 3,
+      "exact": 3
+    }
+  },
+  "panel_exact": {
+    "fresh-g02-": 10,
+    "fresh-g02-c": 6,
+    "fresh-g02-d": 5
+  },
+  "registered_system": {
+    "cases": 24,
+    "correct_terms": 107,
+    "exact": 21,
+    "exact_accuracy": 0.875,
+    "term_accuracy": 0.8916666666666667,
+    "terms": 120
+  },
+  "schema_version": "5.2-exploration",
+  "sha256": {
+    "answers": "3c3a1b44a92ac61fa55deb045c934cea93112df8e63326d002c05196b5107bc1",
+    "base_predictions": "6dabfb7967939d210117a9a8ae4049bccc5d3d8236c3f594238076164a5d8ee6",
+    "sources": [
+      {
+        "attempt_ledger": "80b9bb1bac5d416d71605f9d4507982f8d405a2440a4037020911b32b93f2dc9",
+        "holdout": "1d7cdda56c23c83636b58303ce0629dd927482b3db0729c80f9e03eb10c9a42a",
+        "manifest": "1ec8668d4bb4e75fb130abb52546ad5857e9aa03d3ddb8513436611aedba05b5"
+      },
+      {
+        "attempt_ledger": "c78ffae7e5515b9ceb388913df82fbbc6d3d0672f7dc2204ede64f65474e1746",
+        "holdout": "4013ad965ec50e90f402cddae66daf29cfc0a7356ebd947d130692a0eee20d59",
+        "manifest": "399abe933c4067a970bd364c0d84df570b252a25760bd3c59f753e82d7e283e0"
+      },
+      {
+        "attempt_ledger": "cdb69815beb26f87a445d99378e72c8a855aaac74017e7e2e79eb3f1d97e37d2",
+        "holdout": "3fe2d415d1146171b9be6d51d8240adc86d378ef17e7600498bf9b371f2fa496",
+        "manifest": "437cbfdb8f25e9485dd9d6b50fefc4a811e7f83c1676dafd569c9956fba60e9f"
+      }
+    ]
+  },
+  "status": "target_reached",
+  "verified_selection": {
+    "candidate_count": 94,
+    "cases_with_verified_candidates": 15,
+    "harmful_overrides": 0,
+    "selector": "sum of recovered public holdout terms descending, longest recovered holdout descending, distinct holdout depths descending, source-stage diversity descending, raw support descending, canonical tuple ascending",
+    "useful_overrides": 6,
+    "uses_self_reported_confidence": false,
+    "weight_definition": "Each verified candidate receives one vote unit per public suffix term it predicted exactly before its five hidden continuation terms."
+  }
+}

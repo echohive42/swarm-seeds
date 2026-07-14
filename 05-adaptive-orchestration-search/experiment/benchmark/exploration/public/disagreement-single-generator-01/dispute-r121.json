@@ -1,0 +1,27 @@
+{
+  "block_id": "dispute-r121",
+  "cases": [
+    {
+      "case_id": "R121",
+      "prefix": [
+        "-29",
+        "-28",
+        "-109",
+        "-281",
+        "-775",
+        "-2107",
+        "-5771",
+        "-15751",
+        "-43039",
+        "-117587",
+        "-321247",
+        "-877663",
+        "-2397827",
+        "-6550975"
+      ]
+    }
+  ],
+  "experiment_id": "swarm-seeds-05-exploration",
+  "schema_version": "5.2-exploration",
+  "selection_rule": "base eleven plurality support equals one"
+}

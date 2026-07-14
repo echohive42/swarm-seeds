@@ -1,0 +1,24 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-exploration-strategy-batch",
+  "batch_id": "exploration-depth-01",
+  "panel_id": "six-case-depth-panel-01",
+  "design_status": "frozen_before_subject_calls",
+  "description": "Fifteen selected and evolved prompts each solve four fresh six-case blocks. This holds total calls at 60 while halving the number of sequences per Luna call.",
+  "strategies": [{
+    "strategy_id": "ED01-A",
+    "name": "Six-Case Depth Swarm",
+    "category": "novel",
+    "description": "A balanced 15-prompt generation swarm with greater attention available per case.",
+    "stages": [{
+      "stage_id": "solve",
+      "role": "proposer",
+      "count": 15,
+      "scope": "all",
+      "reads": [],
+      "lens_ids": ["generalist", "mdl_suffix_holdout", "hypothesis_tournament", "wildcard_compression", "block_boundary_table", "modular_affine_slow", "modulus_equation", "phase_modular_table", "growing_block_slow", "interwoven_stream_slow", "lag_class_slow", "periodic_delta_slow", "recurrence_exhaustive", "full_difference_audit", "internal_panel"],
+      "instruction": "Work carefully on this smaller case set. For each sequence, compare global structures, verify a late suffix when possible, and return the exact continuation supported by the strongest compact rule."
+    }],
+    "selector": {"mode": "base_plurality", "base_roles": ["proposer"]}
+  }]
+}

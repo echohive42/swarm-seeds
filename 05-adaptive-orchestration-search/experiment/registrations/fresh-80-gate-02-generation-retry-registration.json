@@ -1,0 +1,26 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-fresh-benchmark-generation-retry-registration",
+  "gate_id": "fresh-80-gate-02-generation-retry-01",
+  "registered_at_utc": "2026-07-14T03:01:05Z",
+  "registered_before_retry": true,
+  "status": "exact_generation_retry_after_prewrite_failure",
+  "original_generation_registration": "fresh-80-gate-02-generation-registration.json",
+  "failure": "The overlap guard was passed Experiment 05 public/hidden subdirectories instead of benchmark roots and raised FileNotFoundError before creating the benchmark directory or writing any public or hidden artifact.",
+  "answer_file_created_by_failed_attempt": false,
+  "public_cases_created_by_failed_attempt": false,
+  "unchanged_fields": {
+    "root_seed": "swarm-seeds-05-fresh-80-gate-02-2026-07-14-a",
+    "root_seed_sha256": "a7728c384d134c9b17b3d9682d25961664ab05390225ef88aaea54d8dd7ff1e6",
+    "case_count": 24,
+    "family_tier_cells": 24,
+    "cases_per_cell": 1,
+    "block_count": 4,
+    "cases_per_block": 6
+  },
+  "only_change": "Replace two invalid Experiment 05 reference subdirectories with the two valid benchmark roots: experiment/benchmark and experiment/benchmark/exploration.",
+  "sha256": {
+    "original_generator_script": "0406893f411671e343abe3059cdf1069c6c67d09c9751cb921c97313f941a5f7",
+    "revised_generator_script": "e1b22a85303283f53f7325b89bb92e766b5e9f25215e01568fb3f428361f148e"
+  }
+}

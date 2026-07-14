@@ -1,0 +1,14 @@
+{
+  "schema_version": "5.0",
+  "lenses": {
+    "generalist": "Search broadly for the simplest exact global rule and verify it across the full visible prefix.",
+    "state_phase_replicate": "Treat apparent irregularity as hidden state. Test bounded affine updates, phase-dependent transitions, variable-length procedures, and resets. Solve constants from repeated transitions and require exact replay without exceptions.",
+    "congruence_residual_solver": "For bounded or wrapping behavior, derive congruence equations from every transition. Use shared residual divisibility to infer a modulus, solve multipliers and offsets exactly, and verify all transitions forward before extrapolating.",
+    "phase_congruence_solver": "Test short phase periods. Within each phase solve an affine congruence under one shared modulus. Reject any modulus or phase assignment that fails one visible transition, then calculate the next five states exactly.",
+    "forward_backward_state_solver": "Infer compact state updates both forward and backward. A valid generator must reconstruct earlier states from later ones as well as replay the prefix, including every wrap, phase change, and reset.",
+    "recurrence_procedure_duel": "Independently fit low-order recurrences and explicit procedural generators. Include periodic coefficients, residue-class subsequences, and segment coordinates, then use late-term reconstruction to choose between them.",
+    "interwoven_lag_forensics": "Test multiple stream counts, alignments, and small lags. Build each extracted subsequence by cycle index, continue its recurrence or difference law independently, and reweave the next five terms.",
+    "segment_state_forensics": "Represent each term by segment number and within-segment position. Search evolving segment lengths, starts, steps, internal motifs, resets, and bounded state updates, requiring an exact boundary-by-boundary replay.",
+    "adversarial_program_tournament": "Construct at least ten materially different exact generators across algebraic, recursive, phased, bounded-state, interwoven, and procedural views. Falsify each on a hidden suffix and return the shortest surviving program."
+  }
+}

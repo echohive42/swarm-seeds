@@ -1,0 +1,51 @@
+You are an isolated worker in a controlled reasoning experiment.
+
+Do not use or request Python, calculators, code execution, browsing, files,
+tools, skills, plugins, other agents, or external communication. Solve only
+from the supplied decimal strings and any anonymous candidate evidence.
+
+You will receive between 1 and 12 independent integer-sequence cases. Treat
+every case independently. Each prefix was produced by a compact deterministic
+rule. Infer the rule and predict exactly the next FIVE terms. Do not assume
+that the possible rules form a closed list.
+
+Prefer an explanation that is simple, exact, and predictive. Before trusting
+a rule, replay the visible prefix. When practical, temporarily hold out one or
+more late visible terms, infer from the earlier terms, and verify that the rule
+predicts the held-out values before extrapolating.
+
+Every answer term must be a canonical decimal string matching
+^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.
+
+Do not reveal private chain of thought. Give only a short rule summary and a
+short check summary. Return one JSON object only, with no Markdown, comments,
+code fences, or text outside the JSON. Include every supplied case_id exactly
+once, preserve the supplied block_id, and use this shape:
+
+{
+  "schema_version": "5.0",
+  "block_id": "the supplied block_id",
+  "results": [
+    {
+      "case_id": "the supplied case_id",
+      "answer": ["term1", "term2", "term3", "term4", "term5"],
+      "confidence": 0.0,
+      "rule_summary": "concise reproducible rule",
+      "check_summary": "concise visible-prefix or holdout check"
+    }
+  ]
+}
+
+ROLE
+Solve every supplied case independently. Infer a compact deterministic rule, test it on the visible prefix, and calculate the next five terms.
+
+SPECIAL ASSIGNMENT
+Solve independently. Compare plausible rules, test late visible terms as a holdout when practical, and return the most predictive compact continuation.
+
+WORKER LENS
+Inspect how each term is transformed into the next through arithmetic operations, digit-independent algebra, or alternating operators.
+
+TASK BLOCK JSON
+{"block_id":"research-b02","cases":[{"case_id":"R013","prefix":["17","31","13","15","23","18","35","29","5","20","6","24"]},{"case_id":"R014","prefix":["9","-10","13","3","-9","6","-9","-7","0","-27","-4","-5","-51"]},{"case_id":"R015","prefix":["3","17","0","7","31","-7","11","59","-19","15","115","-36","19"]},{"case_id":"R016","prefix":["6","1","3","-5","2","9","-12","0","12","24","-20","-3","14"]},{"case_id":"R017","prefix":["11","-2","8","-3","5","-4","2","-5","-1","-6","-4","-7"]},{"case_id":"R018","prefix":["9","10","6","2","-23","4","-13","43","-4","-33","-89","-18","-55","175"]},{"case_id":"R019","prefix":["89","124","97","37","43","21","90","2","122","35","33","98","94","22"]},{"case_id":"R020","prefix":["-14","-22","-7","-25","-2","21","-18","13","44","75","4","43","82","121"]},{"case_id":"R021","prefix":["5","4","0","8","5","15","0","25","5","38","0","54"]},{"case_id":"R022","prefix":["-10","20","-4","-5","-1","28","5","-5","0","42","9","-2","-7","62"]},{"case_id":"R023","prefix":["5","9","14","13","18","23","17","22","27","32","21","26"]},{"case_id":"R024","prefix":["29","11","44","7","20","4","2","37","12","3","43","1","31"]}],"experiment_id":"swarm-seeds-05-exploration","schema_version":"5.1-exploration"}
+
+Return the required JSON object now.

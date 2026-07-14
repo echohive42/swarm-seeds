@@ -1,0 +1,42 @@
+{
+  "schema_version": "5.1-exploration",
+  "artifact_type": "experiment-05-exploratory-prompt-race-registration",
+  "cycle_id": "exploration-wide-02",
+  "registered_at_utc": "2026-07-14T00:44:39Z",
+  "registered_before_subject_calls": true,
+  "status": "exploratory_not_confirmatory",
+  "objective": "Test a second 30-prompt Luna Light population on 24 fresh cases after Cycle 1 showed selection at the candidate oracle and generation failures on eight cases.",
+  "requested_model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "maximum_concurrency": 60,
+  "timeout_seconds": 900,
+  "prompt_arm_count": 30,
+  "population_composition": {
+    "retained_cycle_1_baselines": 6,
+    "improved_or_hybrid_prompts": 9,
+    "general_failure_targeted_prompts": 10,
+    "new_search_styles": 5
+  },
+  "blocks": ["research-b03", "research-b04"],
+  "case_count": 24,
+  "calls_per_prompt_arm": 2,
+  "maximum_logical_calls": 60,
+  "hidden_answers_sealed_before_calls": true,
+  "inference_guard": "Prompts may emphasize general mathematical structures learned from prior errors but do not name benchmark families, reveal a closed taxonomy, or access family, tier, program, or truth fields.",
+  "post_call_rule": "Score only after all 60 jobs close. Compare retained, evolved, targeted, and pooled prompt groups; bank all candidates; use offline subset search without more model calls; do not treat the result as final validation.",
+  "sha256": {
+    "codex_binary": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+    "common_prefix": "74e85596eca89ef84805a97c4ae3272934556583db65d39139993567513c3760",
+    "lens_catalog": "e46fa9278267ddc5d040c8c1d9d45483362e8b171ca49f49308a037866fa9979",
+    "strategy_batch": "ed7595e090307e44ae8298673bbcacbf342c8753918a58b1d2ed38820bcf072e",
+    "public_block_03": "5e76db9218cca833e1c4fdb979c814eb62d93a516cb4bdd886c25d723e108412",
+    "public_block_04": "2c1f9137bfcf242d5d154837bf320ad109a3161fd5070c4dfa1ae8800d341674",
+    "sealed_research_answers": "65d4f08d3d563da1e709c0be33c97a6f69f329ed9f8de0b65c43146789d2e71a",
+    "benchmark_manifest": "24145bc30417ce84a485ea9ce65c145cebbfd295a40d61939019a229f651dba9",
+    "exploration_orchestrator": "e68258a3a748fbd0ef250f0096b39ebe124be5ed562ed2c77bbb93d61e9ab834",
+    "base_orchestrator": "402d86e9278494b38bd5ab674d51b84f51e7f23eefc15e44a48ced9172f3aa4a",
+    "runner": "234dbd2830a3d0b3459360411d352f4f6b2c1348fb79b881a8684e666bb3e4e9"
+  }
+}

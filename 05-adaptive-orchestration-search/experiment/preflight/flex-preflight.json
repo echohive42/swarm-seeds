@@ -1,0 +1,17 @@
+{
+  "cli_version": "codex-cli 0.144.3",
+  "completed_at": "2026-07-13T21:56:36Z",
+  "fallback_service_tier": "standard",
+  "model_request": "gpt-5.6-luna",
+  "outcome": "requested_tier_omitted_as_unsupported",
+  "provider_reasoning_effort": "low",
+  "public_reasoning_label": "Light reasoning",
+  "requested_service_tier": "flex",
+  "sanitized_cli_message": "Configured service tier `flex` is not advertised as supported for model `gpt-5.6-luna` and will be omitted from requests.",
+  "schema_valid_response_completed": true,
+  "sources": [
+    "https://developers.openai.com/api/docs/guides/flex-processing",
+    "https://learn.chatgpt.com/docs/config-file/config-reference"
+  ]
+}
+

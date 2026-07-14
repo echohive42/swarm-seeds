@@ -1,0 +1,51 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-search-batch-result-registration",
+  "batch_id": "B03",
+  "case_count": 24,
+  "logical_calls": 574,
+  "valid_jobs": 574,
+  "failed_jobs": 0,
+  "attempts": 576,
+  "strongest_control": {
+    "strategy_id": "B03-C02",
+    "exact_cases": 10,
+    "exact_accuracy": 0.4166666666666667
+  },
+  "promoted_finalists": [
+    {
+      "strategy_id": "B03-H01",
+      "strategy_sha256": "7ccf3c3ac9dbd95b2d92ae1fd45f2fabfdce190e828efb81175c09fcf7118170",
+      "exact_cases": 13,
+      "exact_accuracy": 0.5416666666666666,
+      "weakest_block_exact": 5,
+      "harmful_overrides": 0,
+      "term_correct": 69,
+      "selection_reason": "highest registered search fitness"
+    },
+    {
+      "strategy_id": "B03-R03",
+      "strategy_sha256": "4e165ee03275377b5ed0a3064fd447ee0455ea797ff270840771964b9dfe33e8",
+      "exact_cases": 13,
+      "exact_accuracy": 0.5416666666666666,
+      "weakest_block_exact": 4,
+      "harmful_overrides": 0,
+      "term_correct": 76,
+      "selection_reason": "second-highest registered search fitness after tie-breaks"
+    }
+  ],
+  "observations_for_validation": [
+    "Judge-free weighted review beat every repeated control by three exact cases on this panel.",
+    "The nine-proposer, three-critic, three-verifier replication made two useful and zero harmful corrections.",
+    "Verifier-strengthened proof repair improved a seven-case proposer base to twelve with five useful and zero harmful changes, but ranked third.",
+    "Low-consensus specialist banks did not outperform the simpler distributed-review systems.",
+    "The six promoted finalists and diversified fifteen-solver control now advance without further design changes."
+  ],
+  "sha256": {
+    "answers": "0a0e776cfa70fff76604897fd3f3acd71abfdd64ce5ffd921482a7f53bacb830",
+    "predictions": "2c734a9f3305192a7097b8aed86854e4fd13a6fceb3bcc60bbc078ab6a28e9f3",
+    "run_summary": "6afd761d85576b3f84c4d78f037e8391eba8dc9d2c3f0fa2aaa28db1fc5d2d9c",
+    "score_summary": "81363978724f1d8ff9f8d708d5381d4a57f300012dc631238073dfb489b7cce4",
+    "strategy_batch": "bd162e8997399e273a9eec03c521745c4c9857065b47d6c5b1ded0b12f488d8c"
+  }
+}

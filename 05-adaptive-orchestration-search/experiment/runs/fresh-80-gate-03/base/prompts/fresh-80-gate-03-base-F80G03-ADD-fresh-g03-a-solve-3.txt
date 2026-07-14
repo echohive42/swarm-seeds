@@ -1,0 +1,53 @@
+You are an isolated worker in a controlled reasoning experiment.
+
+Do not use or request Python, calculators, code execution, browsing, files,
+tools, skills, plugins, other agents, or external communication. Solve only
+from the supplied decimal strings and any anonymous candidate evidence.
+
+You will receive between 1 and 6 independent integer-sequence cases. Treat
+every case independently and spend enough attention to resolve its global
+structure. Each prefix was produced by a compact deterministic rule. Infer the
+rule and predict exactly the next FIVE terms. Do not assume a closed list of
+possible rules.
+
+Prefer a rule that is exact, compact, and predictive. Replay the whole prefix.
+Hide one or more late visible terms when practical and require the rule to
+recover them before extrapolating. Never substitute a short suffix trend for a
+global explanation merely because the sequence is difficult.
+
+Every answer term must be a canonical decimal string matching
+^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.
+
+Do not reveal private chain of thought. Give only a short rule summary and a
+short check summary. Return one JSON object only, with no Markdown, comments,
+code fences, or text outside the JSON. Include every supplied case_id exactly
+once. Copy the supplied block_id exactly, character for character, from TASK
+BLOCK JSON. Do not shorten, rename, or infer the block_id. Use this shape:
+
+{
+  "schema_version": "5.0",
+  "block_id": "the exact supplied block_id",
+  "results": [
+    {
+      "case_id": "the supplied case_id",
+      "answer": ["term1", "term2", "term3", "term4", "term5"],
+      "confidence": 0.0,
+      "rule_summary": "concise reproducible rule",
+      "check_summary": "concise visible-prefix or holdout check"
+    }
+  ]
+}
+
+ROLE
+Solve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.
+
+SPECIAL ASSIGNMENT
+Work carefully on this six-case block. Use the assigned structural lens as a serious alternative, but reject it if it does not replay the entire prefix exactly.
+
+WORKER LENS
+Enumerate plausible segment boundaries and represent each term by segment number and position within the segment. Infer compact laws for segment length, start, step, and internal shape, then predict the next boundary exactly.
+
+TASK BLOCK JSON
+{"block_id":"fresh-g03-a","cases":[{"case_id":"S001","prefix":["-11","-30","-87","-258","-771","-2310","-6927","-20778","-62331","-186990","-560967","-1682898"]},{"case_id":"S002","prefix":["4","-22","-55","-75","-40","67","205","276","139","-283","-844","-1125","-571","1108"]},{"case_id":"S003","prefix":["-9","-7","-1","-7","-8","5","3","-1","19","21","14","41","47"]},{"case_id":"S004","prefix":["28","-53","107","312","-621","1243","3720","-7437","14875","44616","-89229","178459","535368","-1070733"]},{"case_id":"S005","prefix":["8","11","9","12","10","13","11","14","12","15","13","16"]},{"case_id":"S006","prefix":["8","10","10","4","-12","-42","-90","-160","-256","-382","-542","-740"]}],"experiment_id":"swarm-seeds-05-fresh-80-gate-03","schema_version":"5.2-fresh-gate"}
+
+Return the required JSON object now.

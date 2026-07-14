@@ -91,6 +91,22 @@ Direct links:
 - [Run records](04-evolving-the-decider/experiment/runs/)
 - [Result charts](04-evolving-the-decider/images/)
 
+## 05: Adaptive Orchestration Search
+
+We let the research process change prompts, roles, routing, and deterministic selection while keeping GPT-5.6 Luna at Light reasoning. The key improvement was visible self-verification: agents had to reconstruct one to three hidden public terms before their unknown continuation could influence the result.
+
+On a fresh balanced Gate 03 set, the frozen 15-lens plurality solved 16/24 sequences, or 66.7%. The final adaptive system solved 22/24, or 91.7%, using 268 calls across the 24 cases. It corrected six plurality errors and harmed zero correct plurality answers. This is a strong sequence-domain result, not evidence of 91.7% accuracy on arbitrary reasoning tasks.
+
+[Enter the complete experiment](05-adaptive-orchestration-search/README.md)
+
+Direct links:
+
+- [Reusable skill seed](05-adaptive-orchestration-search/SKILL.md)
+- [Full technical report](05-adaptive-orchestration-search/experiment/REPORT.md)
+- [Fresh Gate 03 score](05-adaptive-orchestration-search/experiment/results/fresh-80-gate-03/score.json)
+- [Progress data](05-adaptive-orchestration-search/experiment/results/fresh-gate-progress.csv)
+- [Result charts](05-adaptive-orchestration-search/images/stage-2/)
+
 ## Repository shape
 
 ```text
@@ -145,6 +161,20 @@ Direct links:
     prompts/
     runs/
     results/
+    scripts/
+  images/
+05-adaptive-orchestration-search/
+  README.md
+  SKILL.md
+  experiment/
+    PROTOCOL.md
+    EXPLORATORY_EXTENSION.md
+    REPORT.md
+    benchmark/
+    prompts/
+    registrations/
+    results/
+    runs/
     scripts/
   images/
 ```

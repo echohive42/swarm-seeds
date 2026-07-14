@@ -1,0 +1,52 @@
+You are an isolated worker in a controlled reasoning experiment.
+
+Do not use or request Python, calculators, code execution, browsing, files,
+tools, skills, plugins, other agents, or external communication. Solve only
+from the supplied decimal strings and any anonymous candidate evidence.
+
+You will receive between 1 and 12 independent integer-sequence cases. Treat
+every case independently. Each prefix was produced by a compact deterministic
+rule. Infer the rule and predict exactly the next FIVE terms. Do not assume
+that the possible rules form a closed list.
+
+Prefer an explanation that is simple, exact, and predictive. Replay the whole
+visible prefix. When practical, hide one or more late visible terms, infer from
+the earlier terms, and verify the hidden suffix before extrapolating. Do not
+fall back to extending a short local trend merely because the global structure
+is difficult. A continuation must be supported by the sequence as a whole.
+
+Every answer term must be a canonical decimal string matching
+^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.
+
+Do not reveal private chain of thought. Give only a short rule summary and a
+short check summary. Return one JSON object only, with no Markdown, comments,
+code fences, or text outside the JSON. Include every supplied case_id exactly
+once, preserve the supplied block_id, and use this shape:
+
+{
+  "schema_version": "5.0",
+  "block_id": "the supplied block_id",
+  "results": [
+    {
+      "case_id": "the supplied case_id",
+      "answer": ["term1", "term2", "term3", "term4", "term5"],
+      "confidence": 0.0,
+      "rule_summary": "concise reproducible rule",
+      "check_summary": "concise visible-prefix or holdout check"
+    }
+  ]
+}
+
+ROLE
+Solve every supplied case independently. Infer a compact deterministic rule, test it on the visible prefix, and calculate the next five terms.
+
+SPECIAL ASSIGNMENT
+Solve independently. Compare plausible global rules, test a late visible suffix when practical, and return the most predictive compact continuation.
+
+WORKER LENS
+Test bounded recurrences whose multiplier or offset alternates by a short phase. Compare transitions only within the same phase and require one common modulus.
+
+TASK BLOCK JSON
+{"block_id":"research-b03","cases":[{"case_id":"R025","prefix":["14","-16","-44","-79","77","235","479","-481","-1439","-2869","2867","8605","17219","-17221"]},{"case_id":"R026","prefix":["-6","-3","1","4","8","11","15","18","22","25","29","32"]},{"case_id":"R027","prefix":["9","-34","98","-301","899","-2704","8108","-24331","72989","-218974","656918","-1970761","5912279"]},{"case_id":"R028","prefix":["-19","-11","-10","-9","3","35","88","149","185","137","-86","-613","-1617","-3321"]},{"case_id":"R029","prefix":["10","-12","40","-108","292","-804","2188","-5988","16348","-44676","122044","-333444"]},{"case_id":"R030","prefix":["12","7","7","15","12","7","12","10","-7","-12","-14","-50","-72","-75"]},{"case_id":"R031","prefix":["-4","-2","-4","0","3","4","11","15","19","29","34","41","54"]},{"case_id":"R032","prefix":["6","-9","21","-39","81","-159","321","-639","1281","-2559","5121","-10239"]},{"case_id":"R033","prefix":["23","-12","-49","-77","-112","-149","-177","-212","-249","-277","-312","-349","-377","-412"]},{"case_id":"R034","prefix":["-20","0","-27","27","-61","88","-156","244","-407","651","-1065","1716","-2788"]},{"case_id":"R035","prefix":["-14","-12","-16","-29","-57","-109","-197","-336","-544","-842","-1254","-1807","-2531"]},{"case_id":"R036","prefix":["6","9","10","14","26","51","94","160","254","381","546","754"]}],"experiment_id":"swarm-seeds-05-exploration","schema_version":"5.1-exploration"}
+
+Return the required JSON object now.

@@ -1,0 +1,234 @@
+{
+  "artifact_type": "experiment-05-candidate-archive-summary",
+  "case_count": 144,
+  "family_tier": {
+    "AFFINE:hard": {
+      "cases": 6,
+      "lens": 6,
+      "oracle": 6,
+      "raw": 6,
+      "strategy": 6
+    },
+    "AFFINE:stress": {
+      "cases": 6,
+      "lens": 4,
+      "oracle": 6,
+      "raw": 4,
+      "strategy": 2
+    },
+    "AFFINE:very-hard": {
+      "cases": 6,
+      "lens": 5,
+      "oracle": 6,
+      "raw": 5,
+      "strategy": 5
+    },
+    "GROWBLOCK:hard": {
+      "cases": 6,
+      "lens": 0,
+      "oracle": 6,
+      "raw": 2,
+      "strategy": 1
+    },
+    "GROWBLOCK:stress": {
+      "cases": 6,
+      "lens": 1,
+      "oracle": 5,
+      "raw": 1,
+      "strategy": 1
+    },
+    "GROWBLOCK:very-hard": {
+      "cases": 6,
+      "lens": 0,
+      "oracle": 6,
+      "raw": 0,
+      "strategy": 0
+    },
+    "INTERLEAVE:hard": {
+      "cases": 6,
+      "lens": 4,
+      "oracle": 6,
+      "raw": 5,
+      "strategy": 4
+    },
+    "INTERLEAVE:stress": {
+      "cases": 6,
+      "lens": 5,
+      "oracle": 5,
+      "raw": 5,
+      "strategy": 2
+    },
+    "INTERLEAVE:very-hard": {
+      "cases": 6,
+      "lens": 4,
+      "oracle": 6,
+      "raw": 4,
+      "strategy": 4
+    },
+    "LAGPOLY:hard": {
+      "cases": 6,
+      "lens": 6,
+      "oracle": 6,
+      "raw": 6,
+      "strategy": 6
+    },
+    "LAGPOLY:stress": {
+      "cases": 6,
+      "lens": 0,
+      "oracle": 2,
+      "raw": 1,
+      "strategy": 1
+    },
+    "LAGPOLY:very-hard": {
+      "cases": 6,
+      "lens": 6,
+      "oracle": 6,
+      "raw": 6,
+      "strategy": 6
+    },
+    "LIN2:hard": {
+      "cases": 6,
+      "lens": 5,
+      "oracle": 6,
+      "raw": 5,
+      "strategy": 5
+    },
+    "LIN2:stress": {
+      "cases": 6,
+      "lens": 3,
+      "oracle": 3,
+      "raw": 2,
+      "strategy": 2
+    },
+    "LIN2:very-hard": {
+      "cases": 6,
+      "lens": 4,
+      "oracle": 5,
+      "raw": 4,
+      "strategy": 3
+    },
+    "MODAFFINE:hard": {
+      "cases": 6,
+      "lens": 2,
+      "oracle": 2,
+      "raw": 2,
+      "strategy": 1
+    },
+    "MODAFFINE:stress": {
+      "cases": 6,
+      "lens": 0,
+      "oracle": 0,
+      "raw": 0,
+      "strategy": 0
+    },
+    "MODAFFINE:very-hard": {
+      "cases": 6,
+      "lens": 0,
+      "oracle": 1,
+      "raw": 0,
+      "strategy": 0
+    },
+    "PDELTA:hard": {
+      "cases": 6,
+      "lens": 5,
+      "oracle": 6,
+      "raw": 5,
+      "strategy": 5
+    },
+    "PDELTA:stress": {
+      "cases": 6,
+      "lens": 0,
+      "oracle": 4,
+      "raw": 1,
+      "strategy": 2
+    },
+    "PDELTA:very-hard": {
+      "cases": 6,
+      "lens": 4,
+      "oracle": 6,
+      "raw": 5,
+      "strategy": 6
+    },
+    "POLY:hard": {
+      "cases": 6,
+      "lens": 5,
+      "oracle": 6,
+      "raw": 6,
+      "strategy": 4
+    },
+    "POLY:stress": {
+      "cases": 6,
+      "lens": 6,
+      "oracle": 6,
+      "raw": 6,
+      "strategy": 6
+    },
+    "POLY:very-hard": {
+      "cases": 6,
+      "lens": 6,
+      "oracle": 6,
+      "raw": 6,
+      "strategy": 5
+    }
+  },
+  "inputs": {
+    "answers": {
+      "benchmark/hidden/search_answers.jsonl": "5ecbee3dcbf38892b45ac721b2fe8560c43396121b2998e14a35c0b177c8cc6e",
+      "benchmark/hidden/validation_answers.jsonl": "4ed2442b2974b53aac13d9b031eb804df4b7486191954d0722883fa969296e15"
+    },
+    "predictions": {
+      "runs/search/batch-01/predictions.json": "c441d7ce9cab8241db58b41cf629d10d23c6199893697f93671445881d8d5f7a",
+      "runs/search/batch-02/predictions.json": "5a87c865425338058eb7636fc5751e689b10dc988d5ebd849cafbf9223c294d0",
+      "runs/search/batch-03/predictions.json": "2c734a9f3305192a7097b8aed86854e4fd13a6fceb3bcc60bbc078ab6a28e9f3",
+      "runs/validation/wave-01/predictions.json": "a997392fe813e564c7e84583978b382f57a885ac4f74dc9371da1837bbd96c79",
+      "runs/validation/wave-02/predictions.json": "7fd0ffe31558414812db663ac59bd4e5f52aa62e138a2eed7d41f03dec59b53e"
+    },
+    "source_record_counts": {
+      "runs/search/batch-01/predictions.json": 7342,
+      "runs/search/batch-02/predictions.json": 7308,
+      "runs/search/batch-03/predictions.json": 7188,
+      "runs/validation/wave-01/predictions.json": 8064,
+      "runs/validation/wave-02/predictions.json": 4608
+    }
+  },
+  "lens_plurality_exact_cases": 81,
+  "missing_correct_hypothesis_cases": [
+    "S013",
+    "S021",
+    "S023",
+    "S031",
+    "S042",
+    "S047",
+    "S048",
+    "S053",
+    "S055",
+    "S058",
+    "S061",
+    "S063",
+    "S068",
+    "S071",
+    "V014",
+    "V015",
+    "V016",
+    "V022",
+    "V031",
+    "V038",
+    "V039",
+    "V044",
+    "V055",
+    "V063",
+    "V065",
+    "V066",
+    "V067"
+  ],
+  "oracle_exact_accuracy": 0.8125,
+  "oracle_exact_cases": 117,
+  "proposer_oracle_exact_cases": 117,
+  "raw_plurality_exact_accuracy": 0.6041666666666666,
+  "raw_plurality_exact_cases": 87,
+  "schema_version": "5.0",
+  "scope": "completed search and two-wave validation only; partial hidden-final calls excluded",
+  "strategy_plurality_exact_cases": 77,
+  "unique_hypotheses": 12491,
+  "valid_case_prediction_records": 34510
+}

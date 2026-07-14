@@ -1,0 +1,1877 @@
+{
+  "archive_sha256": "91515aac698b9563a78916f18a2632c373eac34bc35a45a10ff637aa0259f2f5",
+  "artifact_type": "experiment-05-offline-selector-race",
+  "features": [
+    "job_share",
+    "strategy_share",
+    "lens_share",
+    "proposer_share",
+    "reviewer_share",
+    "mean_confidence",
+    "max_confidence",
+    "lens_per_job",
+    "cross_role",
+    "reviewer_ratio",
+    "consensus_diversity",
+    "inverse_job_support"
+  ],
+  "panels": {
+    "development96": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S017",
+      "S018",
+      "S019",
+      "S020",
+      "S021",
+      "S022",
+      "S023",
+      "S024",
+      "S025",
+      "S026",
+      "S027",
+      "S028",
+      "S029",
+      "S030",
+      "S031",
+      "S032",
+      "S033",
+      "S034",
+      "S035",
+      "S036",
+      "S037",
+      "S038",
+      "S039",
+      "S040",
+      "S041",
+      "S042",
+      "S043",
+      "S044",
+      "S045",
+      "S046",
+      "S047",
+      "S048",
+      "V001",
+      "V002",
+      "V003",
+      "V004",
+      "V005",
+      "V006",
+      "V007",
+      "V008",
+      "V009",
+      "V010",
+      "V011",
+      "V012",
+      "V013",
+      "V014",
+      "V015",
+      "V016",
+      "V017",
+      "V018",
+      "V019",
+      "V020",
+      "V021",
+      "V022",
+      "V023",
+      "V024",
+      "V025",
+      "V026",
+      "V027",
+      "V028",
+      "V029",
+      "V030",
+      "V031",
+      "V032",
+      "V033",
+      "V034",
+      "V035",
+      "V036",
+      "V037",
+      "V038",
+      "V039",
+      "V040",
+      "V041",
+      "V042",
+      "V043",
+      "V044",
+      "V045",
+      "V046",
+      "V047",
+      "V048"
+    ],
+    "holdout48": [
+      "S049",
+      "S050",
+      "S051",
+      "S052",
+      "S053",
+      "S054",
+      "S055",
+      "S056",
+      "S057",
+      "S058",
+      "S059",
+      "S060",
+      "S061",
+      "S062",
+      "S063",
+      "S064",
+      "S065",
+      "S066",
+      "S067",
+      "S068",
+      "S069",
+      "S070",
+      "S071",
+      "S072",
+      "V049",
+      "V050",
+      "V051",
+      "V052",
+      "V053",
+      "V054",
+      "V055",
+      "V056",
+      "V057",
+      "V058",
+      "V059",
+      "V060",
+      "V061",
+      "V062",
+      "V063",
+      "V064",
+      "V065",
+      "V066",
+      "V067",
+      "V068",
+      "V069",
+      "V070",
+      "V071",
+      "V072"
+    ],
+    "panel24": [
+      "S002",
+      "S003",
+      "S004",
+      "S010",
+      "S012",
+      "S014",
+      "S018",
+      "S019",
+      "S022",
+      "S023",
+      "V001",
+      "V002",
+      "V005",
+      "V007",
+      "V008",
+      "V011",
+      "V012",
+      "V013",
+      "V014",
+      "V015",
+      "V019",
+      "V020",
+      "V021",
+      "V024"
+    ],
+    "panel48": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S017",
+      "S018",
+      "S019",
+      "S020",
+      "S021",
+      "S022",
+      "S023",
+      "S024",
+      "V001",
+      "V002",
+      "V003",
+      "V004",
+      "V005",
+      "V006",
+      "V007",
+      "V008",
+      "V009",
+      "V010",
+      "V011",
+      "V012",
+      "V013",
+      "V014",
+      "V015",
+      "V016",
+      "V017",
+      "V018",
+      "V019",
+      "V020",
+      "V021",
+      "V022",
+      "V023",
+      "V024"
+    ]
+  },
+  "schema_version": "5.0",
+  "seed": 20260714,
+  "selection_note": "Holdout scores were computed only after the 25 development survivors were frozen and did not alter their order.",
+  "selector_inputs_exclude": [
+    "truth",
+    "family",
+    "tier",
+    "generator program"
+  ],
+  "stage_counts": [
+    {
+      "policies": 5000,
+      "stage": "initial"
+    },
+    {
+      "cases": 24,
+      "policies": 800,
+      "stage": "panel24"
+    },
+    {
+      "cases": 48,
+      "policies": 160,
+      "stage": "panel48"
+    },
+    {
+      "cases": 96,
+      "policies": 25,
+      "stage": "development96"
+    }
+  ],
+  "status": "exploratory_not_confirmatory",
+  "top_development_policies": [
+    {
+      "development": {
+        "accuracy": 0.6666666666666666,
+        "cases": 96,
+        "exact": 64,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.75,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "d2341c64db33850a0609a2fe9ee630e3e0c7010c9b7932bfd336b5726e1116cb",
+        "tier_accuracy": {
+          "hard": 0.78125,
+          "stress": 0.53125,
+          "very-hard": 0.6875
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.53125
+      },
+      "development_rank": 1,
+      "l1_complexity": 50,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5416666666666666,
+        "cases": 48,
+        "exact": 26,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.16666666666666666,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "74a1c800a248d5f3b8a4eccf0b5852b2391c066a6156c4ff2309b264e06142e2",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": 5,
+        "cross_role": 5,
+        "inverse_job_support": -7,
+        "job_share": -5,
+        "lens_per_job": -3,
+        "lens_share": -1,
+        "max_confidence": -1,
+        "mean_confidence": 7,
+        "proposer_share": -3,
+        "reviewer_ratio": -5,
+        "reviewer_share": 7,
+        "strategy_share": -1
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.65625,
+        "cases": 96,
+        "exact": 63,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.75,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.75,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "3a3514dfb5dc6eb6c33117c7c91ac6a43f653d38934c24a06b9a28567d858b30",
+        "tier_accuracy": {
+          "hard": 0.78125,
+          "stress": 0.5,
+          "very-hard": 0.6875
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.5
+      },
+      "development_rank": 2,
+      "l1_complexity": 47,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5416666666666666,
+        "cases": 48,
+        "exact": 26,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.16666666666666666,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "5b345631c42d29daa67c0c86b1daab50318f9762e73478da3591ea7d5bd969b7",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": 2,
+        "cross_role": 3,
+        "inverse_job_support": -1,
+        "job_share": -4,
+        "lens_per_job": -8,
+        "lens_share": 5,
+        "max_confidence": 6,
+        "mean_confidence": 4,
+        "proposer_share": -4,
+        "reviewer_ratio": -4,
+        "reviewer_share": 6,
+        "strategy_share": 0
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6458333333333334,
+        "cases": 96,
+        "exact": 62,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.75,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "750d9827fdba48c716ddc77d86b231c23bc92cd28612712439ba88d23fe0df2d",
+        "tier_accuracy": {
+          "hard": 0.78125,
+          "stress": 0.5,
+          "very-hard": 0.65625
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.5
+      },
+      "development_rank": 3,
+      "l1_complexity": 35,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5208333333333334,
+        "cases": 48,
+        "exact": 25,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.0,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "7399a77910f89f9e0a954d6ef152db04ef783957f695b405931b5c012adc1fc2",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.5625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": 3,
+        "cross_role": 7,
+        "inverse_job_support": 0,
+        "job_share": 6,
+        "lens_per_job": -1,
+        "lens_share": 5,
+        "max_confidence": 1,
+        "mean_confidence": 2,
+        "proposer_share": -1,
+        "reviewer_ratio": -2,
+        "reviewer_share": -1,
+        "strategy_share": 6
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6458333333333334,
+        "cases": 96,
+        "exact": 62,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "3f48b89ba803a4ada9cbaf16b983a0237f1cbbe1dd925bf1f26c2660f347a20d",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.5,
+          "very-hard": 0.6875
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.5
+      },
+      "development_rank": 4,
+      "l1_complexity": 42,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5,
+        "cases": 48,
+        "exact": 24,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.0,
+          "INTERLEAVE": 0.6666666666666666,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "5ed654b3505189256da3ca7437db3b0b6931c468a520ebe27a090da0ea1dda9e",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.1875,
+          "very-hard": 0.5625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.1875
+      },
+      "weights": {
+        "consensus_diversity": -8,
+        "cross_role": -1,
+        "inverse_job_support": -2,
+        "job_share": -1,
+        "lens_per_job": -7,
+        "lens_share": 4,
+        "max_confidence": 3,
+        "mean_confidence": 0,
+        "proposer_share": 5,
+        "reviewer_ratio": 2,
+        "reviewer_share": 1,
+        "strategy_share": -8
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6458333333333334,
+        "cases": 96,
+        "exact": 62,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.75,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "1e74c799e5fae3b8c9c84854b75935b9bada37e69c0bf9104d64f88be1dd26eb",
+        "tier_accuracy": {
+          "hard": 0.78125,
+          "stress": 0.5,
+          "very-hard": 0.65625
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.5
+      },
+      "development_rank": 5,
+      "l1_complexity": 46,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5208333333333334,
+        "cases": 48,
+        "exact": 25,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.0,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "d22ee7593734dc1f19f79be5086b9f632be521a8a42aa1110d73e45a2c52e2e5",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.5625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": -8,
+        "cross_role": 5,
+        "inverse_job_support": -3,
+        "job_share": -1,
+        "lens_per_job": -5,
+        "lens_share": 0,
+        "max_confidence": 3,
+        "mean_confidence": -2,
+        "proposer_share": 6,
+        "reviewer_ratio": -2,
+        "reviewer_share": 6,
+        "strategy_share": -5
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6458333333333334,
+        "cases": 96,
+        "exact": 62,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.16666666666666666,
+          "INTERLEAVE": 0.75,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.75,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "cd30e5a0928e7550fd470d9fbd747800cc1065059900e81fbcd078623fd6cea8",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.5,
+          "very-hard": 0.6875
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.5
+      },
+      "development_rank": 6,
+      "l1_complexity": 46,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5208333333333334,
+        "cases": 48,
+        "exact": 25,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.16666666666666666,
+          "INTERLEAVE": 0.6666666666666666,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "89e362f8483fdfac26fda9594ef632ac88d2ff82c3f23ca2633dd17540108b23",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.1875,
+          "very-hard": 0.625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.1875
+      },
+      "weights": {
+        "consensus_diversity": 6,
+        "cross_role": 8,
+        "inverse_job_support": 3,
+        "job_share": -4,
+        "lens_per_job": -6,
+        "lens_share": 4,
+        "max_confidence": 0,
+        "mean_confidence": 2,
+        "proposer_share": -3,
+        "reviewer_ratio": 3,
+        "reviewer_share": 4,
+        "strategy_share": 3
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6458333333333334,
+        "cases": 96,
+        "exact": 62,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.75,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "44a01ae750a7826b358d0bef49a6810d90f472e1be54667286d6a85e27a66aca",
+        "tier_accuracy": {
+          "hard": 0.78125,
+          "stress": 0.5,
+          "very-hard": 0.65625
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.5
+      },
+      "development_rank": 7,
+      "l1_complexity": 47,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5208333333333334,
+        "cases": 48,
+        "exact": 25,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.0,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "789cbdf5f18cca3a5ff30c9e4af4d182ff1c8182e9215de7da7fcf38980c89ac",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.5625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": 7,
+        "cross_role": 3,
+        "inverse_job_support": -7,
+        "job_share": 7,
+        "lens_per_job": -8,
+        "lens_share": -6,
+        "max_confidence": 3,
+        "mean_confidence": -1,
+        "proposer_share": 4,
+        "reviewer_ratio": 1,
+        "reviewer_share": 0,
+        "strategy_share": 0
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6458333333333334,
+        "cases": 96,
+        "exact": 62,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.75,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "704b127168fea65a5bceb50dc821cb1742cba016eaff245fafb0b3df5350c5fb",
+        "tier_accuracy": {
+          "hard": 0.78125,
+          "stress": 0.5,
+          "very-hard": 0.65625
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.5
+      },
+      "development_rank": 8,
+      "l1_complexity": 53,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5416666666666666,
+        "cases": 48,
+        "exact": 26,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.16666666666666666,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "3b55eaa1fe40aec22b96fe0e42a4be531653e9bf05733d654b5ddcbbe05eeefd",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": 2,
+        "cross_role": -1,
+        "inverse_job_support": -8,
+        "job_share": -1,
+        "lens_per_job": -7,
+        "lens_share": -2,
+        "max_confidence": 4,
+        "mean_confidence": -3,
+        "proposer_share": -4,
+        "reviewer_ratio": 8,
+        "reviewer_share": 7,
+        "strategy_share": 6
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6458333333333334,
+        "cases": 96,
+        "exact": 62,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.75,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.75,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 0.9166666666666666
+        },
+        "signature_sha256": "360d7b15e0ecb2c5c8d35195bcbf8e7c78243260b350d04803a118388ab0280a",
+        "tier_accuracy": {
+          "hard": 0.78125,
+          "stress": 0.46875,
+          "very-hard": 0.6875
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.46875
+      },
+      "development_rank": 9,
+      "l1_complexity": 32,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5208333333333334,
+        "cases": 48,
+        "exact": 25,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.16666666666666666,
+          "INTERLEAVE": 0.6666666666666666,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "5d3a53de0378b742f61fa08a7aeb1a91e90b839c0049b064df31933951f25a45",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.1875,
+          "very-hard": 0.625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.1875
+      },
+      "weights": {
+        "consensus_diversity": -1,
+        "cross_role": 2,
+        "inverse_job_support": -4,
+        "job_share": -1,
+        "lens_per_job": -4,
+        "lens_share": -2,
+        "max_confidence": 0,
+        "mean_confidence": 8,
+        "proposer_share": 0,
+        "reviewer_ratio": -1,
+        "reviewer_share": 2,
+        "strategy_share": 7
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6458333333333334,
+        "cases": 96,
+        "exact": 62,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.5833333333333334,
+          "POLY": 1.0
+        },
+        "signature_sha256": "788c0a0fea8770fa0fd15efcc5f13d117f5399ac713a3428877d8476cf330961",
+        "tier_accuracy": {
+          "hard": 0.78125,
+          "stress": 0.46875,
+          "very-hard": 0.6875
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.46875
+      },
+      "development_rank": 10,
+      "l1_complexity": 37,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5416666666666666,
+        "cases": 48,
+        "exact": 26,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.16666666666666666,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "c02679a6d8899c8fde8688f0499551f5e50bcc6059bcded6bb09387ddfcfff0b",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": 2,
+        "cross_role": 5,
+        "inverse_job_support": -2,
+        "job_share": -6,
+        "lens_per_job": -5,
+        "lens_share": 2,
+        "max_confidence": 1,
+        "mean_confidence": 3,
+        "proposer_share": 2,
+        "reviewer_ratio": 0,
+        "reviewer_share": 5,
+        "strategy_share": 4
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6458333333333334,
+        "cases": 96,
+        "exact": 62,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.75,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "a32d390ae2b8456a4db466e9ace36351bde888f17e31fe2339ff0aff70b0a320",
+        "tier_accuracy": {
+          "hard": 0.78125,
+          "stress": 0.46875,
+          "very-hard": 0.6875
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.46875
+      },
+      "development_rank": 11,
+      "l1_complexity": 41,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5208333333333334,
+        "cases": 48,
+        "exact": 25,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.0,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "0591a21c167016434c903b33563780d56ebc5bac4c6ff014e02bbc3c85f9d272",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.5625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": 0,
+        "cross_role": 1,
+        "inverse_job_support": -5,
+        "job_share": 7,
+        "lens_per_job": -5,
+        "lens_share": -8,
+        "max_confidence": -2,
+        "mean_confidence": 4,
+        "proposer_share": 0,
+        "reviewer_ratio": 3,
+        "reviewer_share": 3,
+        "strategy_share": 3
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6458333333333334,
+        "cases": 96,
+        "exact": 62,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "08712dc9db032c51aa40702c1c0a65c3b8bfe2153bb559f4882633cf8c9c9080",
+        "tier_accuracy": {
+          "hard": 0.78125,
+          "stress": 0.46875,
+          "very-hard": 0.6875
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.46875
+      },
+      "development_rank": 12,
+      "l1_complexity": 49,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5208333333333334,
+        "cases": 48,
+        "exact": 25,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.0,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "f4ac1b21b5d03e940c5cfcaa4bedc8c833c50e5d9866afd6349ea26988954314",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.5625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": 5,
+        "cross_role": 3,
+        "inverse_job_support": -1,
+        "job_share": 4,
+        "lens_per_job": -4,
+        "lens_share": 5,
+        "max_confidence": 5,
+        "mean_confidence": 3,
+        "proposer_share": -7,
+        "reviewer_ratio": -5,
+        "reviewer_share": 1,
+        "strategy_share": 6
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6458333333333334,
+        "cases": 96,
+        "exact": 62,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.75,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "7466be35cd8098c32d817a2b1dc0ba96e358bd3bbf538c88bd7496a1f9f0b392",
+        "tier_accuracy": {
+          "hard": 0.78125,
+          "stress": 0.46875,
+          "very-hard": 0.6875
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.46875
+      },
+      "development_rank": 13,
+      "l1_complexity": 49,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5208333333333334,
+        "cases": 48,
+        "exact": 25,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.0,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "197d42c6a8b9335a11d969f61611f5d4d33e5896d8afd7fa539752fdff78c7fe",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.5625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": -4,
+        "cross_role": 5,
+        "inverse_job_support": -3,
+        "job_share": -3,
+        "lens_per_job": -1,
+        "lens_share": 8,
+        "max_confidence": 4,
+        "mean_confidence": 3,
+        "proposer_share": 4,
+        "reviewer_ratio": -2,
+        "reviewer_share": 6,
+        "strategy_share": -6
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6458333333333334,
+        "cases": 96,
+        "exact": 62,
+        "family_accuracy": {
+          "AFFINE": 0.8333333333333334,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.75,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 0.9166666666666666
+        },
+        "signature_sha256": "35a5644d566d0d1b6d2345ef379a205a9346645740b6f7eee6ce5045959411f4",
+        "tier_accuracy": {
+          "hard": 0.78125,
+          "stress": 0.46875,
+          "very-hard": 0.6875
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.46875
+      },
+      "development_rank": 14,
+      "l1_complexity": 57,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5208333333333334,
+        "cases": 48,
+        "exact": 25,
+        "family_accuracy": {
+          "AFFINE": 0.5,
+          "GROWBLOCK": 0.16666666666666666,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "786d732cfb86d34c1405edf5d5869f3a05481ed149751f127173f3c376fd7e2c",
+        "tier_accuracy": {
+          "hard": 0.6875,
+          "stress": 0.25,
+          "very-hard": 0.625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": 4,
+        "cross_role": 6,
+        "inverse_job_support": -1,
+        "job_share": -4,
+        "lens_per_job": -8,
+        "lens_share": 6,
+        "max_confidence": 4,
+        "mean_confidence": 7,
+        "proposer_share": -8,
+        "reviewer_ratio": -4,
+        "reviewer_share": 4,
+        "strategy_share": -1
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6458333333333334,
+        "cases": 96,
+        "exact": 62,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.4166666666666667,
+          "INTERLEAVE": 0.75,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 0.9166666666666666
+        },
+        "signature_sha256": "36253a4f988d57af5c39fcc393cea7539a5da0a7200d8d5badbb127239dde1e0",
+        "tier_accuracy": {
+          "hard": 0.78125,
+          "stress": 0.4375,
+          "very-hard": 0.71875
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.4375
+      },
+      "development_rank": 15,
+      "l1_complexity": 41,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5208333333333334,
+        "cases": 48,
+        "exact": 25,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.16666666666666666,
+          "INTERLEAVE": 0.6666666666666666,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "52c85f6470b52980122e7f34370492b152edcf7a9d0bc4f43295202e9cd81078",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.1875,
+          "very-hard": 0.625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.1875
+      },
+      "weights": {
+        "consensus_diversity": -5,
+        "cross_role": 2,
+        "inverse_job_support": -2,
+        "job_share": 0,
+        "lens_per_job": 1,
+        "lens_share": 8,
+        "max_confidence": -3,
+        "mean_confidence": 7,
+        "proposer_share": -1,
+        "reviewer_ratio": -4,
+        "reviewer_share": 7,
+        "strategy_share": -1
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6458333333333334,
+        "cases": 96,
+        "exact": 62,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.75,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.08333333333333333,
+          "PDELTA": 0.75,
+          "POLY": 1.0
+        },
+        "signature_sha256": "51191b2b10706d413121cab59bec36c5364855a2049c923380bfa65dfe36b4a7",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.5,
+          "very-hard": 0.6875
+        },
+        "worst_family_accuracy": 0.08333333333333333,
+        "worst_tier_accuracy": 0.5
+      },
+      "development_rank": 16,
+      "l1_complexity": 41,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5208333333333334,
+        "cases": 48,
+        "exact": 25,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.0,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "618611c885d7e550c759248209fb643f2ea0701f5d329afae729f8cbed88ebcf",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.5625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": 5,
+        "cross_role": 4,
+        "inverse_job_support": 1,
+        "job_share": 4,
+        "lens_per_job": -8,
+        "lens_share": -2,
+        "max_confidence": -1,
+        "mean_confidence": 4,
+        "proposer_share": -4,
+        "reviewer_ratio": -3,
+        "reviewer_share": 4,
+        "strategy_share": -1
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6458333333333334,
+        "cases": 96,
+        "exact": 62,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.75,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.75,
+          "MODAFFINE": 0.08333333333333333,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "1a7b9e5321bcef7b795026c8a98ad1d5e33fea2205619dc4a58b6c55644a153c",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.5,
+          "very-hard": 0.6875
+        },
+        "worst_family_accuracy": 0.08333333333333333,
+        "worst_tier_accuracy": 0.5
+      },
+      "development_rank": 17,
+      "l1_complexity": 49,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5208333333333334,
+        "cases": 48,
+        "exact": 25,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.0,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "cb0b31f8eb4ad32a6543644f46d22a5bf4f9941d2231fd049e9c2a9dab8e0bc4",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.5625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": -4,
+        "cross_role": -4,
+        "inverse_job_support": -6,
+        "job_share": 0,
+        "lens_per_job": -6,
+        "lens_share": -3,
+        "max_confidence": 6,
+        "mean_confidence": -5,
+        "proposer_share": 2,
+        "reviewer_ratio": 3,
+        "reviewer_share": 5,
+        "strategy_share": 5
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6458333333333334,
+        "cases": 96,
+        "exact": 62,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.08333333333333333,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "690bae0834c3bdd7f0f852d89fda0d0318bfd9282ed007d885cef44ddd533c54",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.5,
+          "very-hard": 0.6875
+        },
+        "worst_family_accuracy": 0.08333333333333333,
+        "worst_tier_accuracy": 0.5
+      },
+      "development_rank": 18,
+      "l1_complexity": 61,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5208333333333334,
+        "cases": 48,
+        "exact": 25,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.0,
+          "INTERLEAVE": 0.6666666666666666,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "fb8e6d39762bd44a2452008079c559f160860e651de59d497eac3af155e10d02",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.1875,
+          "very-hard": 0.625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.1875
+      },
+      "weights": {
+        "consensus_diversity": 5,
+        "cross_role": 7,
+        "inverse_job_support": -2,
+        "job_share": -7,
+        "lens_per_job": -8,
+        "lens_share": -6,
+        "max_confidence": 6,
+        "mean_confidence": -6,
+        "proposer_share": 1,
+        "reviewer_ratio": 4,
+        "reviewer_share": 1,
+        "strategy_share": 8
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6354166666666666,
+        "cases": 96,
+        "exact": 61,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.75,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 0.9166666666666666
+        },
+        "signature_sha256": "2ac4af92f2d708af08024f4ad6c53093dbaa9da460a41241de865406bc4f2445",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.5,
+          "very-hard": 0.65625
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.5
+      },
+      "development_rank": 19,
+      "l1_complexity": 52,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5625,
+        "cases": 48,
+        "exact": 27,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.16666666666666666,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "c82f423a1d8b71fcd25c0f796a5ad663e13ffe1372b5dc332b93ad644f196e0d",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.6875
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": 4,
+        "cross_role": 6,
+        "inverse_job_support": -3,
+        "job_share": -6,
+        "lens_per_job": -3,
+        "lens_share": -4,
+        "max_confidence": -3,
+        "mean_confidence": 7,
+        "proposer_share": -2,
+        "reviewer_ratio": -5,
+        "reviewer_share": 6,
+        "strategy_share": 3
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6354166666666666,
+        "cases": 96,
+        "exact": 61,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.16666666666666666,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "246c8c2f00c01ebb6fdf731d7b0ba6a6586337d21020ed332913e48e7256a645",
+        "tier_accuracy": {
+          "hard": 0.71875,
+          "stress": 0.5,
+          "very-hard": 0.6875
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.5
+      },
+      "development_rank": 20,
+      "l1_complexity": 58,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5416666666666666,
+        "cases": 48,
+        "exact": 26,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.16666666666666666,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "d528a7d417053c26d85b51ad2a4059f2cc292ae2605327289917979fdfabec30",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": -4,
+        "cross_role": -2,
+        "inverse_job_support": -8,
+        "job_share": -7,
+        "lens_per_job": -6,
+        "lens_share": -4,
+        "max_confidence": 1,
+        "mean_confidence": 2,
+        "proposer_share": 5,
+        "reviewer_ratio": 3,
+        "reviewer_share": 8,
+        "strategy_share": -8
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6354166666666666,
+        "cases": 96,
+        "exact": 61,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.75,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.5833333333333334,
+          "POLY": 1.0
+        },
+        "signature_sha256": "3200d07d85d45a25b3e41acb95e481d8cf953d359abc38bdec33df6ae8792165",
+        "tier_accuracy": {
+          "hard": 0.78125,
+          "stress": 0.46875,
+          "very-hard": 0.65625
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.46875
+      },
+      "development_rank": 21,
+      "l1_complexity": 24,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5208333333333334,
+        "cases": 48,
+        "exact": 25,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.0,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "aae03b87ef479b52bd1c1e208670a622b1473622a6bbcf3419fb75927a750e74",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.5625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": -5,
+        "cross_role": 0,
+        "inverse_job_support": -5,
+        "job_share": 4,
+        "lens_per_job": -1,
+        "lens_share": 0,
+        "max_confidence": 3,
+        "mean_confidence": -2,
+        "proposer_share": 0,
+        "reviewer_ratio": 1,
+        "reviewer_share": 2,
+        "strategy_share": -1
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6354166666666666,
+        "cases": 96,
+        "exact": 61,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.16666666666666666,
+          "INTERLEAVE": 0.75,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.75,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.5833333333333334,
+          "POLY": 1.0
+        },
+        "signature_sha256": "e83ae5c3b1bf401bba44468c2c93c5fb5d5bd0b715bef384416458ec09785ffd",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.46875,
+          "very-hard": 0.6875
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.46875
+      },
+      "development_rank": 22,
+      "l1_complexity": 40,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5625,
+        "cases": 48,
+        "exact": 27,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.16666666666666666,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "86bfec14691baeb0cccd0a6b897903036a18f1a5bc3cbdc07b4bb1480f5e4d6b",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.6875
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": -6,
+        "cross_role": 1,
+        "inverse_job_support": -7,
+        "job_share": -1,
+        "lens_per_job": -1,
+        "lens_share": -3,
+        "max_confidence": 7,
+        "mean_confidence": 3,
+        "proposer_share": -2,
+        "reviewer_ratio": 0,
+        "reviewer_share": 5,
+        "strategy_share": 4
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6354166666666666,
+        "cases": 96,
+        "exact": 61,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.6666666666666666,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "1897d58922ce6bf616b2d5c241e2d8a32fb5bb74f472b9947ffc3bda4c128b60",
+        "tier_accuracy": {
+          "hard": 0.78125,
+          "stress": 0.46875,
+          "very-hard": 0.65625
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.46875
+      },
+      "development_rank": 23,
+      "l1_complexity": 41,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5208333333333334,
+        "cases": 48,
+        "exact": 25,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.0,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "050aaac2cc2f3657ed10afbc1a34c9ec1b571c5ccea03874e8252a8795e290c0",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.5625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": 0,
+        "cross_role": 8,
+        "inverse_job_support": 1,
+        "job_share": 6,
+        "lens_per_job": -7,
+        "lens_share": 1,
+        "max_confidence": 3,
+        "mean_confidence": 1,
+        "proposer_share": 8,
+        "reviewer_ratio": -2,
+        "reviewer_share": -2,
+        "strategy_share": -2
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6354166666666666,
+        "cases": 96,
+        "exact": 61,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.6666666666666666,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "10719f3f48b6d28bba2216c098734d828462a0c259e2a9a43239d4720dc8f226",
+        "tier_accuracy": {
+          "hard": 0.78125,
+          "stress": 0.46875,
+          "very-hard": 0.65625
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.46875
+      },
+      "development_rank": 24,
+      "l1_complexity": 53,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5208333333333334,
+        "cases": 48,
+        "exact": 25,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.0,
+          "INTERLEAVE": 0.8333333333333334,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "091f8a323f42052f787846f58bf99d800743f7521d529e6c59c2d7ceb804e7ac",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.25,
+          "very-hard": 0.5625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.25
+      },
+      "weights": {
+        "consensus_diversity": 7,
+        "cross_role": 7,
+        "inverse_job_support": -5,
+        "job_share": 2,
+        "lens_per_job": -7,
+        "lens_share": -1,
+        "max_confidence": 4,
+        "mean_confidence": 1,
+        "proposer_share": 6,
+        "reviewer_ratio": -7,
+        "reviewer_share": 3,
+        "strategy_share": 3
+      }
+    },
+    {
+      "development": {
+        "accuracy": 0.6354166666666666,
+        "cases": 96,
+        "exact": 61,
+        "family_accuracy": {
+          "AFFINE": 0.9166666666666666,
+          "GROWBLOCK": 0.25,
+          "INTERLEAVE": 0.6666666666666666,
+          "LAGPOLY": 0.75,
+          "LIN2": 0.6666666666666666,
+          "MODAFFINE": 0.16666666666666666,
+          "PDELTA": 0.6666666666666666,
+          "POLY": 1.0
+        },
+        "signature_sha256": "32f7d49f11250e5fbbbc1501f21a626d91edd5eb68df862b61b1cb8883819727",
+        "tier_accuracy": {
+          "hard": 0.78125,
+          "stress": 0.46875,
+          "very-hard": 0.65625
+        },
+        "worst_family_accuracy": 0.16666666666666666,
+        "worst_tier_accuracy": 0.46875
+      },
+      "development_rank": 25,
+      "l1_complexity": 57,
+      "untouched_internal_holdout": {
+        "accuracy": 0.5,
+        "cases": 48,
+        "exact": 24,
+        "family_accuracy": {
+          "AFFINE": 0.6666666666666666,
+          "GROWBLOCK": 0.0,
+          "INTERLEAVE": 0.6666666666666666,
+          "LAGPOLY": 0.6666666666666666,
+          "LIN2": 0.5,
+          "MODAFFINE": 0.0,
+          "PDELTA": 0.5,
+          "POLY": 1.0
+        },
+        "signature_sha256": "13d8999cb01f06d20de0c89600d086f606adee9e3a3e36aee021ac0da13dcacd",
+        "tier_accuracy": {
+          "hard": 0.75,
+          "stress": 0.1875,
+          "very-hard": 0.5625
+        },
+        "worst_family_accuracy": 0.0,
+        "worst_tier_accuracy": 0.1875
+      },
+      "weights": {
+        "consensus_diversity": -8,
+        "cross_role": 4,
+        "inverse_job_support": -8,
+        "job_share": 6,
+        "lens_per_job": -7,
+        "lens_share": 5,
+        "max_confidence": 3,
+        "mean_confidence": -2,
+        "proposer_share": -3,
+        "reviewer_ratio": -4,
+        "reviewer_share": 0,
+        "strategy_share": -7
+      }
+    }
+  ]
+}

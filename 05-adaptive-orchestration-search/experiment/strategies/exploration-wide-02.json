@@ -1,0 +1,42 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-exploration-strategy-batch",
+  "batch_id": "exploration-wide-02",
+  "panel_id": "evolved-general-prompt-panel-02",
+  "design_status": "frozen_before_subject_calls",
+  "description": "Six retained prompt baselines, nineteen evolved or failure-targeted general prompts, and five new search styles share two fresh 12-case blocks.",
+  "strategies": [
+    {
+      "strategy_id": "EW02-A",
+      "name": "Retained and Improved Prompt Lenses",
+      "category": "novel",
+      "description": "Six retained Cycle 1 lenses plus nine improved and hybrid prompt lenses.",
+      "stages": [{
+        "stage_id": "solve",
+        "role": "proposer",
+        "count": 15,
+        "scope": "all",
+        "reads": [],
+        "lens_ids": ["generalist", "replicate_minimum_description", "replicate_hypothesis_competition", "replicate_block_cartographer", "replicate_piecewise_blocks", "replicate_change_point", "mdl_suffix_holdout", "tournament_with_suffix", "block_boundary_table", "block_start_step_table", "periodic_delta_table", "lagged_difference_table", "stream_alignment", "recurrence_residual_hybrid", "local_global_decomposition"],
+        "instruction": "Solve independently. Compare plausible global rules, test a late visible suffix when practical, and return the most predictive compact continuation."
+      }],
+      "selector": {"mode": "base_plurality", "base_roles": ["proposer"]}
+    },
+    {
+      "strategy_id": "EW02-B",
+      "name": "Failure-Targeted and Novel Prompt Lenses",
+      "category": "novel",
+      "description": "Ten general structural prompts aimed at missing hypotheses plus five new internal search styles.",
+      "stages": [{
+        "stage_id": "solve",
+        "role": "proposer",
+        "count": 15,
+        "scope": "all",
+        "reads": [],
+        "lens_ids": ["structural_triage", "modular_affine_reconstruction", "modulus_from_residuals", "bounded_wrap_detector", "phase_dependent_modular", "growing_length_blocks", "boundary_or_interleave", "lag_class_polynomials", "interwoven_mixed_rules", "phase_polynomial_deltas", "exact_segmenter", "internal_three_experts", "counterfactual_suffix", "minimal_program_simulator", "wildcard_compression"],
+        "instruction": "Solve independently. Compare plausible global rules, test a late visible suffix when practical, and return the most predictive compact continuation."
+      }],
+      "selector": {"mode": "base_plurality", "base_roles": ["proposer"]}
+    }
+  ]
+}

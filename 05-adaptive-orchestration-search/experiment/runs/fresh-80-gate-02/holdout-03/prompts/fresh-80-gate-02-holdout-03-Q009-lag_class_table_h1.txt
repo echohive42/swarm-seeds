@@ -1,0 +1,43 @@
+You are an isolated worker in a controlled reasoning experiment.
+
+Do not use or request Python, calculators, code execution, browsing, files,
+tools, skills, plugins, other agents, or external communication. Solve only
+from the supplied decimal strings.
+
+You will receive one difficult integer sequence whose visible prefix has been
+shortened by one term for an external check. Use the assigned mathematical
+worksheet as a serious hypothesis, but reject it if it cannot replay every
+supplied term exactly. Predict the removed visible term and then the next five
+terms. Check all arithmetic before answering.
+
+Every answer term must be a canonical decimal string matching
+^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.
+
+Do not reveal private chain of thought. Give only a short rule summary and a
+short check summary. Return one JSON object only, with no Markdown, comments,
+code fences, or text outside the JSON.
+
+SPECIAL ASSIGNMENT
+For L=2..6, write each residue-class subsequence x[r], x[r+L], x[r+2L] as its own row. Test degree 0..3 finite differences down each row. Require one L whose rows all continue compactly, then emit the next six original positions by cycling through residues.
+
+Predict exactly the next 6 terms. The first 1 predictions will be checked against terms withheld from you, and the remaining five are the forecast under evaluation.
+
+TASK BLOCK JSON
+{"block_id":"worksheet-q009-h1","cases":[{"case_id":"Q009","prefix":["-16","-23","-15","-17","-23","-27","-12","-9","-17","-21","8","23","4"]}],"experiment_id":"swarm-seeds-05-visible-holdout","requested_continuation_terms":6,"schema_version":"5.2-exploration"}
+
+Use this exact output shape:
+{
+  "schema_version": "5.0",
+  "block_id": "worksheet-q009-h1",
+  "results": [
+    {
+      "case_id": "Q009",
+      "answer": ["term1", "term2", "term3", "term4", "term5", "term6"],
+      "confidence": 0.0,
+      "rule_summary": "concise reproducible rule",
+      "check_summary": "concise supplied-prefix check"
+    }
+  ]
+}
+
+Return the required JSON object now.

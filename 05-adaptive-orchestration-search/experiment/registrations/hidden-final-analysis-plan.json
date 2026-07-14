@@ -1,0 +1,26 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-hidden-final-analysis-plan",
+  "registered_before_hidden_answers_open": true,
+  "primary_champion": "B02-N03",
+  "secondary_finalist": "B02-H01",
+  "control": "VAL-CONTROL-C02",
+  "primary_estimand": "Mean paired exact-accuracy difference between B02-N03 and the control across 192 sequence cases, averaging the two execution outcomes within each case.",
+  "interval": {
+    "method": "paired nonparametric bootstrap",
+    "resampling_unit": "sequence case",
+    "strata": "the 24 frozen family-by-tier cells",
+    "replicates": 100000,
+    "seed": 20260713,
+    "confidence_level": 0.95
+  },
+  "material_collapse_rule": "A material collapse occurs if either B02-N03 replicate is below 45% exact accuracy or the two B02-N03 replicate accuracies differ by more than 10 percentage points.",
+  "success_checks": [
+    "B02-N03 average exact accuracy is above 50%.",
+    "B02-N03 average exact accuracy exceeds the control by at least 5 percentage points.",
+    "The paired stratified 95% interval lower bound is above zero.",
+    "No material replicate collapse occurs.",
+    "The protocol audit passes."
+  ],
+  "secondary_analysis": "Report B02-H01 descriptively, but do not replace the validation-selected champion after hidden outcomes are known."
+}

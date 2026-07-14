@@ -1,0 +1,52 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-search-batch-result-registration",
+  "batch_id": "B02",
+  "case_count": 24,
+  "logical_calls": 574,
+  "valid_jobs": 574,
+  "failed_jobs": 0,
+  "attempts": 577,
+  "strongest_control": {
+    "strategy_id": "B02-C02",
+    "exact_cases": 10,
+    "exact_accuracy": 0.4166666666666667
+  },
+  "promoted_finalists": [
+    {
+      "strategy_id": "B02-N03",
+      "strategy_sha256": "28be7e5aea76451d3d9ad8994fcd14f1b0007c845bf22bd100a6e93481835556",
+      "exact_cases": 11,
+      "exact_accuracy": 0.4583333333333333,
+      "weakest_block_exact": 4,
+      "harmful_overrides": 0,
+      "term_correct": 67,
+      "selection_reason": "highest registered search fitness"
+    },
+    {
+      "strategy_id": "B02-H01",
+      "strategy_sha256": "596f034989f06bb5ebf1eac9cd51b30246635be1c6d02f22afc978cab1536fad",
+      "exact_cases": 11,
+      "exact_accuracy": 0.4583333333333333,
+      "weakest_block_exact": 3,
+      "harmful_overrides": 0,
+      "term_correct": 66,
+      "selection_reason": "second-highest registered search fitness after tie-breaks"
+    }
+  ],
+  "observations_for_next_batch": [
+    "The replicated twelve-proposer winner fell to ten exact cases, matching the strongest control.",
+    "Sequential proof repair made two useful and zero harmful corrections.",
+    "Large-base judge-free weighted review made one useful and zero harmful corrections.",
+    "Expanded judge-free review made three useful and zero harmful corrections, but began from a weaker proposer base.",
+    "Four cases had no correct answer from any of the 574 calls; GROWBLOCK and MODAFFINE remained especially sparse.",
+    "The final search batch should concentrate later calls on low-consensus cases and preserve distributed authority."
+  ],
+  "sha256": {
+    "answers": "a37d5e3fb510b9afa0b13c0d3cf129f8d696f636c6f874d20d2f6b43a5af93c1",
+    "predictions": "5a87c865425338058eb7636fc5751e689b10dc988d5ebd849cafbf9223c294d0",
+    "run_summary": "c23e0b0cf1a16e7ab239639d974b8ba64ed6114977672d7738aab8ee691df0b2",
+    "score_summary": "e7ea497c489d86258819100f6db2ac90e2db4431e38e20227c0cc35a11d3ab0b",
+    "strategy_batch": "5d8aa5af992f91569d6f26a44a9758022fc958fb1e7ce5e1ec32b288d74a9e5a"
+  }
+}

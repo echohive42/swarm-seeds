@@ -1,0 +1,63 @@
+{
+  "schema_version": "5.1-exploration",
+  "artifact_type": "experiment-05-exploratory-depth-allocation-result",
+  "cycle_id": "exploration-depth-01",
+  "completed_at_utc": "2026-07-14T01:01:05Z",
+  "status": "complete_exploratory",
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "case_count": 24,
+  "prompt_arm_count": 15,
+  "logical_jobs": 60,
+  "first_run_attempts": 65,
+  "exact_retry_attempts": 4,
+  "total_model_attempts": 69,
+  "final_valid_jobs": 60,
+  "replacement_jobs": 4,
+  "valid_case_predictions": 360,
+  "scores": {
+    "best_single_prompt": {"lens_id": "modulus_equation", "exact": 9, "cases": 24, "exact_accuracy": 0.375},
+    "all_15_prompt_plurality": {"exact": 14, "cases": 24, "exact_accuracy": 0.5833333333333334},
+    "all_15_candidate_oracle": {"exact": 18, "cases": 24, "exact_accuracy": 0.75},
+    "stable_11_prompt_subset": {"exact": 16, "cases": 24, "exact_accuracy": 0.6666666666666666, "panel_exact": [9, 7]},
+    "best_balanced_in_sample_10_prompt_subset": {"exact": 17, "cases": 24, "exact_accuracy": 0.7083333333333334, "panel_exact": [10, 7]}
+  },
+  "stable_11_prompt_subset": [
+    "generalist",
+    "growing_block_slow",
+    "hypothesis_tournament",
+    "internal_panel",
+    "interwoven_stream_slow",
+    "lag_class_slow",
+    "mdl_suffix_holdout",
+    "modulus_equation",
+    "periodic_delta_slow",
+    "recurrence_exhaustive",
+    "wildcard_compression"
+  ],
+  "diagnosis": [
+    "Candidate coverage increased to 75.0%, including correct candidates for all three growing-block cases and one of three modular cases.",
+    "Plain plurality selected 14 of 18 solvable cases, so selection again became a material bottleneck.",
+    "The exact best 70.8% subset used all 24 answers and is not a validated performance estimate.",
+    "The stable 11-prompt subset was chosen from prompt frequency across the top 100 balanced ensembles and is promoted to a fresh 24-case research gate.",
+    "This cycle changed prompt population and panel as well as packet size. It does not causally prove that six-case packets outperform twelve-case packets."
+  ],
+  "sha256": {
+    "first_run_predictions": "b2965cac4cbdc46858e6fedb568eed5c68d9189e3b61dfd932643c1b19ee68fc",
+    "first_run_attempt_ledger": "b4c9b0527b1e2071cd0b94ec666ea87f8e7cf77907eb4c7858411e654c8d1619",
+    "retry_attempt_ledger": "fd985d5450bd5fc60076976cd6cd80405e4e64ac92201274d6dba5700c4ae1df",
+    "merged_predictions": "c128cbfde2e43506abbaf90a8b26909268c709eeb1fc623ffe1ad0d59bdf6a05",
+    "retry_merge": "89f84b672835e3f00c7ee986d65805909a27456022852fadd4b08ec3a1335a5b",
+    "analysis": "342acbf6bc1e043f7331a5f1bb47922ffb5fca05b3cf1307fc875e6c6c2d5d70",
+    "lens_scores_csv": "f29298b1ced525eaf0bcdd043c3aef06dccb8b89b3263e2751b5659be1284864",
+    "case_scores_csv": "b7e177e628b2228c7092fd448671b0e47271f43d232d1580cc577cd036a26664",
+    "top_subsets": "7ba52fe025e8ef5217da9ed38aa02a0300bfd677bfe0cdbeb73e97b51cf81740",
+    "parent_block_projection": "116fa6ed81c8364deb1058ef2b0b2e6bec2dc7f67d64638098c6d8e42fd43c08",
+    "archived_cycle_1_analyzer": "eb32ecd1947d72b7322856828510ac5633e318c89706614c3ebf5d2970d0808b",
+    "generic_analyzer": "491fb7a1201b0aff54044bec6b33a5f06b689c803742161eac817d02782e5cc6",
+    "retry_merge_script": "7f62d6ff998fcc4501aaa3aa7df57fedddc515f296673ec1eedbdeb6fff4d31f",
+    "derived_analysis_wrapper": "74deea139872cad6a1c31179c782623e111a4f1ec5498c79e9eb57e214fe33e6"
+  }
+}

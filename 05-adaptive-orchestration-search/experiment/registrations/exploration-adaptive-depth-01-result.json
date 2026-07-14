@@ -1,0 +1,68 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-adaptive-depth-development-result",
+  "cycle_id": "exploration-adaptive-depth-01",
+  "completed_at_utc": "2026-07-14T01:54:15Z",
+  "status": "complete_open_development",
+  "model": "gpt-5.6-luna",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "selected_case_count": 7,
+  "deep_prompt_count": 3,
+  "logical_calls": 21,
+  "model_attempts": 21,
+  "valid_jobs": 21,
+  "failed_jobs": 0,
+  "deep_prompt_exact": {
+    "deep_program_synthesis": 1,
+    "deep_state_phase_forensics": 3,
+    "deep_index_geometry": 0
+  },
+  "coverage": {
+    "base_eleven_oracle": {
+      "exact": 19,
+      "cases": 24,
+      "exact_accuracy": 0.7916666666666666
+    },
+    "base_plus_deep_oracle": {
+      "exact": 20,
+      "cases": 24,
+      "exact_accuracy": 0.8333333333333334
+    },
+    "newly_covered_case_count": 1
+  },
+  "development_policies": {
+    "extended_fifteen_without_depth": {
+      "exact": 16,
+      "cases": 24,
+      "exact_accuracy": 0.6666666666666666
+    },
+    "extended_fifteen_plus_unconditional_deep_state_override_on_routed_cases": {
+      "exact": 18,
+      "cases": 24,
+      "exact_accuracy": 0.75
+    },
+    "extended_fifteen_plus_two_deep_prompt_agreement_override": {
+      "exact": 17,
+      "cases": 24,
+      "exact_accuracy": 0.7083333333333334
+    }
+  },
+  "diagnosis": [
+    "Single-case depth added one exact candidate that none of the original fifteen prompts generated.",
+    "The state-and-phase forensic prompt was the strongest deep generator, solving three of seven maximally disputed development cases.",
+    "A single deep-state override raised open-development accuracy to 75.0%, while a conservative two-prompt agreement rule reached 70.8%.",
+    "The combined candidate oracle reached 83.3%, so the requested target became reachable in principle on this development panel.",
+    "The router and override policies were examined after development answers were available. These numbers are design evidence only and require a newly frozen fresh gate."
+  ],
+  "sha256": {
+    "registration": "456b058b6e398b92099565ce3e29d0c93bb5b0635755717c34966e8cdd8d193c",
+    "predictions": "0ae3fe2d73689c52934b2704d1ce8b293022d41eef007b20959940cb82b5430b",
+    "run_summary": "5043231f5055d29be9a99d9e760223329f5e7f695e40c2afb53d2b0bdc6e4517",
+    "attempt_ledger": "98ea58ae1131be0a04234b11e083335a430c5ae5d99223a3f641bf8b48dfdf18",
+    "operational_summary": "fa7357dd24985e4ebf7b7a08d9e15a0766d648e9adfe9a55f83570cabe0ed2d3",
+    "common_prefix": "39ee4def55399ea98a94be45d980f8ba9026170444ea149d32d762ee28b9e9db",
+    "lens_catalog": "9bc6b8fe565a9143af117fb10c45c9c950d579075b7d1917009fcf02f92d8a8e",
+    "strategy_batch": "683b6c8ceb97d101a79e47918211da23c2b67aa4f5da76752a82dc7305a16509"
+  }
+}

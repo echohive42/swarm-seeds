@@ -1,0 +1,27 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-exact-job-retry-registration",
+  "cycle_id": "exploration-generator-01-retry-01",
+  "registered_at_utc": "2026-07-14T01:39:33Z",
+  "registered_before_retry_calls": true,
+  "reason": "Two of the 60 frozen generator-exploration jobs exhausted schema-format retries. Rerun only those identical prompts and preserve all 58 valid first-run jobs.",
+  "job_ids": [
+    "exploration-generator-01-GX01-BASE-research-b12b-solve-1",
+    "exploration-generator-01-GX01-BASE-research-b12b-solve-6"
+  ],
+  "job_count": 2,
+  "maximum_concurrency": 2,
+  "timeout_seconds": 900,
+  "requested_model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "replacement_rule": "Use a valid retry only for its matching null job_id. Never rerun or replace a valid output. Preserve both source ledgers and merge before scoring.",
+  "sha256": {
+    "exploration_registration": "a98edd1d4af401710c30fcb34b41542a6a72228c7864a11ddf437471deeeb26e",
+    "frozen_stage_manifest": "1f59b2593b43f3d45ea17f0f666c20f0152ae0900acec97ca85204f85dab7b8e",
+    "first_run_predictions": "c49e955ed626edb33a5bf675adf502052630e02710930a1e9281abebe2345609",
+    "first_run_attempt_ledger": "91c32bffe87efadf26c9b031ed85d151bb7d47e9fb1172ea002d5a74699e97e2",
+    "filtered_retry_manifest": "b1bd1396a23af811e0aae3c5de6662c0cc37ab198e183d504f8b1d49874eea51"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "5.1-exploration",
+  "artifact_type": "experiment-05-exploratory-prompt-race-result",
+  "cycle_id": "exploration-wide-02",
+  "completed_at_utc": "2026-07-14T00:46:37Z",
+  "status": "complete_exploratory",
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "case_count": 24,
+  "prompt_arm_count": 30,
+  "logical_calls": 60,
+  "valid_jobs": 60,
+  "failed_jobs": 0,
+  "attempts": 60,
+  "maximum_observed_concurrency": 60,
+  "valid_case_predictions": 720,
+  "scores": {
+    "best_single_prompt": {
+      "lens_id": "wildcard_compression",
+      "exact": 9,
+      "cases": 24,
+      "exact_accuracy": 0.375
+    },
+    "all_30_prompt_plurality": {
+      "exact": 11,
+      "cases": 24,
+      "exact_accuracy": 0.4583333333333333
+    },
+    "all_30_candidate_oracle": {
+      "exact": 14,
+      "cases": 24,
+      "exact_accuracy": 0.5833333333333334
+    }
+  },
+  "diagnosis": [
+    "The second evolved prompt population did not improve on the first wide race: pooled plurality fell to 45.8% and the candidate oracle fell to 58.3%.",
+    "The candidate pool solved two of three growing-block cases but plurality selected none of them, showing a selection failure on that family.",
+    "No prompt produced the exact answer on any of the three modular-affine cases, showing a generation failure on that family.",
+    "The result is exploratory evidence and is not a validated performance estimate."
+  ],
+  "sha256": {
+    "predictions": "ce46b86a4d54889c47275938bdad1f2941a6aa41e8b6564e6447dab4c2eb4075",
+    "run_summary": "ea187d254ca9c6ad27e6efe093e7b2ffe8f5b6671e04de5fffa23f456ab14247",
+    "attempt_ledger": "410bcc1517c06ac7dda34c77b2e7cd135aaf56c335c4e5b73b11dcdaf57943ec",
+    "operational_summary": "0cdd72f2ed06d4f22c5fde7a2903cab58598235893d450efca493cdb127c994a",
+    "analysis": "070fb3cf05266e61c04034c28b852e1026a894a42afcf1307153c7f7553b254b",
+    "lens_scores_csv": "b1a3f45f9edd3d5cef2e6930f3e9b2fd8b031df9041c8a077893b100705f7eae",
+    "case_scores_csv": "84247e7d40488b6bb17f5eed359ca60c83dd8b48633b88575c94642e0e944539",
+    "top_subsets": "4c4a692926daf9acfe3944ea37ab1287480eae085ed0f3f58aee0f83543ca615",
+    "analysis_script": "7af07d68c822e3c1e3997b48df9648d8a100e2e3708b998735dd52e71dc379ad"
+  }
+}

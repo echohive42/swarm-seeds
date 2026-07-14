@@ -1,0 +1,47 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-validation-wave-result-registration",
+  "wave_id": "validation-wave-01",
+  "case_count": 72,
+  "logical_calls": 630,
+  "attempts": 632,
+  "valid_jobs": 630,
+  "failed_jobs": 0,
+  "control": {
+    "strategy_id": "VAL-CONTROL-C02",
+    "exact_cases": 35,
+    "exact_accuracy": 0.4861111111111111
+  },
+  "top_three_finalists": [
+    {
+      "strategy_id": "B02-H01",
+      "exact_cases": 40,
+      "exact_accuracy": 0.5555555555555556,
+      "weakest_block_exact": 3,
+      "harmful_overrides": 1
+    },
+    {
+      "strategy_id": "B02-N03",
+      "exact_cases": 35,
+      "exact_accuracy": 0.4861111111111111,
+      "weakest_block_exact": 3,
+      "harmful_overrides": 0
+    },
+    {
+      "strategy_id": "B03-R03",
+      "exact_cases": 35,
+      "exact_accuracy": 0.4861111111111111,
+      "weakest_block_exact": 3,
+      "harmful_overrides": 2
+    }
+  ],
+  "selection_note": "The top three were selected mechanically from the six finalists using the registered validation fitness order. The control was not eligible for a finalist slot and repeats separately.",
+  "sha256": {
+    "registration": "edc087934001c3dc2f1790e0bb3dcb80c01a3210ebf74a12fe0f8dc1bfc9fc83",
+    "run_summary": "005824478ca829d05ced7f611af9d465993b979b4fc90d144d2b48135bf3b1b2",
+    "predictions": "a997392fe813e564c7e84583978b382f57a885ac4f74dc9371da1837bbd96c79",
+    "score_summary": "62a46affd8fb4058f1a8e4ade7b86de1aab53c796d67768cf91a56227ead6441",
+    "case_matrix": "495188a1e7ebd48f0f4332b16e4898b0ce2015bd20df22119169a4734049fa38",
+    "comparisons": "9d58ba64189b8ef84a7b262b5e0a761f11088d34bbe2dcd6234d58171b45b87a"
+  }
+}

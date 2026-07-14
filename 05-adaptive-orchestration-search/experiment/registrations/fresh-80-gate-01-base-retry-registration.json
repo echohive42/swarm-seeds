@@ -1,0 +1,33 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-exact-job-retry-registration",
+  "gate_id": "fresh-80-gate-01-base-retry-01",
+  "registered_at_utc": "2026-07-14T02:07:57Z",
+  "registered_before_retry_calls": true,
+  "reason": "Nine of the 60 frozen base-stage jobs exhausted schema-format retries. Rerun only those identical prompts and preserve all 51 valid first-run jobs.",
+  "job_ids": [
+    "fresh-80-gate-01-base-F80G01-BASE-research-b13a-solve-6",
+    "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-1",
+    "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-3",
+    "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-4",
+    "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-6",
+    "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-7",
+    "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-8",
+    "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-9",
+    "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-10"
+  ],
+  "job_count": 9,
+  "maximum_concurrency": 9,
+  "timeout_seconds": 900,
+  "requested_model": "gpt-5.6-luna",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "replacement_rule": "Use a valid retry only for its matching null job_id. Never rerun or replace a valid output. Merge before routing and preserve both ledgers.",
+  "sha256": {
+    "gate_registration": "bdf141e4ef41df2b846c4aa29dc6ef01d613972c016e41489d44dc1297d35d79",
+    "frozen_stage_manifest": "5037b0296a517b500e290e47f136aadf696cd3fff03c46e6b67335ec843b6e12",
+    "first_run_predictions": "df3b70b9a1b1f80396885e6aae583ad832b948995f32ed9d0aee0aa13703e8b5",
+    "first_run_attempt_ledger": "3d8055848d31279a7421d56c31377cc56bd60ebb5f4697879df371858ea21aaf",
+    "filtered_retry_manifest": "bbe1ac7e7f7879f9ac3144f3128cfa1316b20a026a305c6ad469f830e1767a4e"
+  }
+}

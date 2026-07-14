@@ -1,0 +1,4292 @@
+{
+  "all_candidate_oracle_on_routed_cases": {
+    "cases": 16,
+    "exact": 10,
+    "exact_accuracy": 0.625
+  },
+  "artifact_type": "visible-holdout-open-development-score",
+  "base_fifteen": {
+    "cases": 24,
+    "exact": 14,
+    "exact_accuracy": 0.5833333333333334
+  },
+  "candidate_calls": 128,
+  "candidate_records": [
+    {
+      "case_id": "R161",
+      "check_summary": "All 12 supplied terms replay exactly under the selected 12-term cyclic generator.",
+      "confidence": 0.03,
+      "future_answer": [
+        "54",
+        "43",
+        "6",
+        "22",
+        "57"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R161-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "predicted_holdout": [
+        "26",
+        "49"
+      ],
+      "response_sha256": "41e3f3b582582f37668c8926b35c3dc3141e81c75f19fc965922a23b10523a52",
+      "rule_summary": "Repeat the supplied 12-term block periodically; after term 12, restart at term 1.",
+      "survived": false,
+      "visible_holdout": [
+        "63",
+        "15"
+      ]
+    },
+    {
+      "case_id": "R161",
+      "check_summary": "Replayed all 12 supplied terms using modular finite-difference extrapolation modulo 61; no mismatches.",
+      "confidence": 0.08,
+      "future_answer": [
+        "59",
+        "50",
+        "37",
+        "15",
+        "7"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R161-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "predicted_holdout": [
+        "17",
+        "23"
+      ],
+      "response_sha256": "60afc3e6c40b47e4a51526cc45cdba79dac0788ef328eb062a61eee383eb02fc",
+      "rule_summary": "Treat terms modulo 61 and extend the constant 11th forward difference determined by the supplied 12-term prefix.",
+      "survived": false,
+      "visible_holdout": [
+        "63",
+        "15"
+      ]
+    },
+    {
+      "case_id": "R161",
+      "check_summary": "The supplied prefix is reproduced exactly; the terminal increments 1, 2 continue as successive increments 3 through 9 modulo 60.",
+      "confidence": 0.08,
+      "future_answer": [
+        "53",
+        "59",
+        "6",
+        "14",
+        "23"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R161-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "predicted_holdout": [
+        "44",
+        "48"
+      ],
+      "response_sha256": "ab5bca5c5cab75f2f7d4f4a5e81b102c3334526e63cd3b410ca962c76d445a2a",
+      "rule_summary": "Continue the final evolving-step segment modulo 60: after increments 1 and 2, add 3, 4, 5, 6, 7, 8, and 9.",
+      "survived": false,
+      "visible_holdout": [
+        "63",
+        "15"
+      ]
+    },
+    {
+      "case_id": "R161",
+      "check_summary": "Tested modular affine and low-order recurrence hypotheses; selected a compact mod-59 linear recurrence, but supplied prefix validation is incomplete.",
+      "confidence": 0.08,
+      "future_answer": [
+        "8",
+        "37",
+        "25",
+        "23",
+        "35"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R161-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "predicted_holdout": [
+        "53",
+        "9"
+      ],
+      "response_sha256": "bac818ee7023612d91bf70437085afff2172c032934c801833119ee24f3447e0",
+      "rule_summary": "Continue modulo 59 using x_n = 10x_{n-1} + 11x_{n-2} + 24x_{n-3}.",
+      "survived": false,
+      "visible_holdout": [
+        "63",
+        "15"
+      ]
+    },
+    {
+      "case_id": "R161",
+      "check_summary": "All 11 supplied terms replay exactly under the selected degree-10 recurrence over integers modulo 61.",
+      "confidence": 0.08,
+      "future_answer": [
+        "19",
+        "3",
+        "60",
+        "59",
+        "17"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R161-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "predicted_holdout": [
+        "53",
+        "40",
+        "53"
+      ],
+      "response_sha256": "510c2dd10675c31c19c7b0035ff69383fa560fd5098fc6abcb7ce0ba2aba6d90",
+      "rule_summary": "Use the unique degree-10 polynomial over Z/61Z interpolating the 11 supplied terms, evaluated at successive indices.",
+      "survived": false,
+      "visible_holdout": [
+        "41",
+        "63",
+        "15"
+      ]
+    },
+    {
+      "case_id": "R161",
+      "check_summary": "All 11 supplied terms replay exactly under degree-10 finite-difference continuation modulo 61.",
+      "confidence": 0.08,
+      "future_answer": [
+        "18",
+        "42",
+        "9",
+        "39",
+        "56"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R161-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "predicted_holdout": [
+        "11",
+        "26",
+        "7"
+      ],
+      "response_sha256": "43e5e4c3ea7130bd18b24012c01b51adb0df35ef1c591fd95e9cfc1b8099f873",
+      "rule_summary": "Use ordinary index n and residue coordinates modulo 61; interpolate the supplied prefix with the unique degree-10 polynomial over Z/61Z, then continue its finite differences.",
+      "survived": false,
+      "visible_holdout": [
+        "41",
+        "63",
+        "15"
+      ]
+    },
+    {
+      "case_id": "R161",
+      "check_summary": "The supplied prefix was checked for canonical decimal formatting and indexed continuity; forecast confidence is low because multiple compact reversible hypotheses remain compatible",
+      "confidence": 0.03,
+      "future_answer": [
+        "43",
+        "44",
+        "45",
+        "46",
+        "47"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R161-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "predicted_holdout": [
+        "40",
+        "41",
+        "42"
+      ],
+      "response_sha256": "5615e7c682d05d4c42a20189a987d1c00177e4ed7a5a56c468f6afcc82620ec9",
+      "rule_summary": "Continuation under the simplest local modular state hypothesis: after the observed 38,39 transition, advance by one at each step",
+      "survived": false,
+      "visible_holdout": [
+        "41",
+        "63",
+        "15"
+      ]
+    },
+    {
+      "case_id": "R161",
+      "check_summary": "All 11 supplied terms replay exactly under the selected degree-10 forward-difference generator; no independent withheld-term validation was available.",
+      "confidence": 0.03,
+      "future_answer": [
+        "163316",
+        "465394",
+        "1178243",
+        "2734181",
+        "5834780"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R161-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "predicted_holdout": [
+        "1456",
+        "11203",
+        "49829"
+      ],
+      "response_sha256": "f7f9905a38592b67a44f78e663ddae7f4021542a995681e900f9e474542e9bfa",
+      "rule_summary": "Treat the supplied values as consecutive samples of the unique integer-valued Newton forward polynomial of degree 10, equivalently extend the forward-difference table with constant tenth difference -424.",
+      "survived": false,
+      "visible_holdout": [
+        "41",
+        "63",
+        "15"
+      ]
+    },
+    {
+      "case_id": "R167",
+      "check_summary": "All 12 supplied terms replay exactly under a 12-term periodic generator; continuation is highly uncertain.",
+      "confidence": 0.02,
+      "future_answer": [
+        "9",
+        "5",
+        "27",
+        "4",
+        "3"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R167-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "predicted_holdout": [
+        "19",
+        "3"
+      ],
+      "response_sha256": "580ba490a884e3ba3aeecd94d2d9a5e83ed1226b6ac75113bed0d649f9c3982d",
+      "rule_summary": "Repeat the supplied 12-term block indefinitely.",
+      "survived": false,
+      "visible_holdout": [
+        "34",
+        "30"
+      ]
+    },
+    {
+      "case_id": "R167",
+      "check_summary": "All 12 supplied terms replay exactly under separate degree-5 finite-difference recurrences on odd and even positions.",
+      "confidence": 0.18,
+      "future_answer": [
+        "-3908",
+        "570",
+        "-12367",
+        "1839",
+        "-30773"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R167-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "predicted_holdout": [
+        "-766",
+        "116"
+      ],
+      "response_sha256": "69a8a5eeca41865b8ab4c9c99432e0c305e9e00c654a44d3218b896f76ae9cdd",
+      "rule_summary": "Split terms by parity; for each subsequence, continue the unique degree-5 polynomial determined by its six supplied values (equivalently, maintain constant fifth finite differences).",
+      "survived": false,
+      "visible_holdout": [
+        "34",
+        "30"
+      ]
+    },
+    {
+      "case_id": "R167",
+      "check_summary": "The supplied 12-term prefix is reproduced exactly by the selected four-stream interleaving and segment-reset alignment.",
+      "confidence": 0.08,
+      "future_answer": [
+        "5",
+        "15",
+        "41",
+        "31",
+        "6"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R167-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "predicted_holdout": [
+        "37",
+        "22"
+      ],
+      "response_sha256": "661f017f26cb7831cc476418dbd4257999fa1dd248ff76e20909b0aa63771f65",
+      "rule_summary": "Interleave four evolving arithmetic streams, advancing each stream at its aligned positions and applying a reset after each variable-length segment.",
+      "survived": false,
+      "visible_holdout": [
+        "34",
+        "30"
+      ]
+    },
+    {
+      "case_id": "R167",
+      "check_summary": "All 12 supplied terms were treated as exact; no unique compact continuation could be verified from the visible prefix alone.",
+      "confidence": 0.01,
+      "future_answer": [
+        "18",
+        "8",
+        "22",
+        "10",
+        "26"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R167-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "predicted_holdout": [
+        "11",
+        "7"
+      ],
+      "response_sha256": "d952a954a3a7abd4c82201505c4d026347a24932db7605d0a72aaf8129f87d5d",
+      "rule_summary": "Low-confidence bounded phase-state extrapolation using alternating affine-style transitions.",
+      "survived": false,
+      "visible_holdout": [
+        "34",
+        "30"
+      ]
+    },
+    {
+      "case_id": "R167",
+      "check_summary": "The supplied prefix was replayed as given; continuation is uncertain from the short prefix.",
+      "confidence": 0.01,
+      "future_answer": [
+        "5",
+        "27",
+        "4",
+        "3",
+        "13"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R167-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "predicted_holdout": [
+        "19",
+        "3",
+        "9"
+      ],
+      "response_sha256": "8cdf40a389a0580b0034f3d3ecc96b7c6eae000a16907b22168ec9eae99b8a39",
+      "rule_summary": "No uniquely defensible compact deterministic generator can be identified from the supplied terms alone.",
+      "survived": false,
+      "visible_holdout": [
+        "14",
+        "34",
+        "30"
+      ]
+    },
+    {
+      "case_id": "R167",
+      "check_summary": "The supplied 11-term prefix is reproduced exactly as one period; continuation applies the same cycle.",
+      "confidence": 0.03,
+      "future_answer": [
+        "5",
+        "27",
+        "4",
+        "3",
+        "13"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R167-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "predicted_holdout": [
+        "19",
+        "3",
+        "9"
+      ],
+      "response_sha256": "72a281dd4440a2ca5f996ff97a509cca5add00326157bb59c6bbc37ad38892c8",
+      "rule_summary": "Use a deterministic period-11 cycle equal to the supplied prefix, indexed modulo 11.",
+      "survived": false,
+      "visible_holdout": [
+        "14",
+        "34",
+        "30"
+      ]
+    },
+    {
+      "case_id": "R167",
+      "check_summary": "The supplied prefix is reproduced exactly as an 11-state repeating cycle; continuation assumes the cycle wraps to its first state.",
+      "confidence": 0.04,
+      "future_answer": [
+        "5",
+        "27",
+        "4",
+        "3",
+        "13"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R167-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "predicted_holdout": [
+        "19",
+        "3",
+        "9"
+      ],
+      "response_sha256": "3e5b09bc34c5312726cfe5af29322883bcbb1f85d856f2365c393d7734f615eb",
+      "rule_summary": "Repeat the supplied 11-term state cycle indefinitely, using cyclic indexing so the update is reversible in both directions.",
+      "survived": false,
+      "visible_holdout": [
+        "14",
+        "34",
+        "30"
+      ]
+    },
+    {
+      "case_id": "R167",
+      "check_summary": "The degree-10 forward-difference table replays all 11 supplied terms exactly; continuation uses the constant tenth difference 4840.",
+      "confidence": 0.08,
+      "future_answer": [
+        "2018604",
+        "6828519",
+        "20114412",
+        "49581301",
+        "110010021"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R167-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "predicted_holdout": [
+        "8423",
+        "85682",
+        "486154"
+      ],
+      "response_sha256": "6945cc15840e3dabdfa9c703b862aeed5fbf9722e30f5a56def62e6ae8329273",
+      "rule_summary": "Use the unique degree-10 Newton forward polynomial through the supplied prefix, equivalently initialize its forward differences and repeatedly extend with constant tenth difference 4840.",
+      "survived": false,
+      "visible_holdout": [
+        "14",
+        "34",
+        "30"
+      ]
+    },
+    {
+      "case_id": "R158",
+      "check_summary": "All 10 supplied terms replay exactly under the selected modular interpolating generator.",
+      "confidence": 0.04,
+      "future_answer": [
+        "17",
+        "27",
+        "21",
+        "5",
+        "10"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R158-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "predicted_holdout": [
+        "5",
+        "4"
+      ],
+      "response_sha256": "0d23860b8eeacf436438285e3535c4bfd87bec6ef1af1386adec1e18511d3567",
+      "rule_summary": "Unique degree-9 polynomial interpolation over residues modulo 41, evaluated at successive indices and represented canonically in 0..40.",
+      "survived": false,
+      "visible_holdout": [
+        "0",
+        "31"
+      ]
+    },
+    {
+      "case_id": "R158",
+      "check_summary": "The supplied prefix is reproduced exactly by a 10-term periodic cycle; continuation repeats from the cycle start.",
+      "confidence": 0.03,
+      "future_answer": [
+        "16",
+        "25",
+        "27",
+        "37",
+        "1"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R158-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "predicted_holdout": [
+        "19",
+        "40"
+      ],
+      "response_sha256": "de383ea372f4c107c0d5c297b8d2d55a839437a32ca3d5a1cfa1a50f6316b2b2",
+      "rule_summary": "Repeat the supplied 10-term block periodically.",
+      "survived": false,
+      "visible_holdout": [
+        "0",
+        "31"
+      ]
+    },
+    {
+      "case_id": "R158",
+      "check_summary": "Supplied prefix is replayed exactly; continuation uses two aligned interwoven streams with modular finite-difference extrapolation modulo 41.",
+      "confidence": 0.03,
+      "future_answer": [
+        "18",
+        "31",
+        "1",
+        "35",
+        "9"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R158-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "predicted_holdout": [
+        "5",
+        "21"
+      ],
+      "response_sha256": "7487fe3e8cdbf1b8021f3daa0b9baf55dc87cbd8460d98f76969a43a57042608",
+      "rule_summary": "Split odd and even positions into two streams; for each stream, continue its constant fourth finite difference modulo 41, then reweave the streams.",
+      "survived": false,
+      "visible_holdout": [
+        "0",
+        "31"
+      ]
+    },
+    {
+      "case_id": "R158",
+      "check_summary": "All 10 supplied terms replay exactly modulo 41 under the stated interpolating recurrence.",
+      "confidence": 0.18,
+      "future_answer": [
+        "12",
+        "24",
+        "23",
+        "18",
+        "4"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R158-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "predicted_holdout": [
+        "6",
+        "12"
+      ],
+      "response_sha256": "b3fb7b6d292417137276b58615a6bdf0a4700d0de337b0b4903015d00ecaed57",
+      "rule_summary": "Use the unique degree-9 polynomial over Z/41Z interpolating the ten indexed prefix terms; evaluate successive indices modulo 41 and emit canonical residues.",
+      "survived": false,
+      "visible_holdout": [
+        "0",
+        "31"
+      ]
+    },
+    {
+      "case_id": "R158",
+      "check_summary": "All 9 supplied terms replay exactly under the stated modular interpolation rule.",
+      "confidence": 0.08,
+      "future_answer": [
+        "40",
+        "33",
+        "40",
+        "40",
+        "25"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R158-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "predicted_holdout": [
+        "32",
+        "11",
+        "19"
+      ],
+      "response_sha256": "089b2631867f65d17c80b0c35fca508782f663095f31eb561e1948382042a4f8",
+      "rule_summary": "Use the unique degree-8 Newton forward polynomial over integers modulo 41 fitted to the 9-term prefix; continue by holding the eighth forward difference constant modulo 41.",
+      "survived": false,
+      "visible_holdout": [
+        "11",
+        "0",
+        "31"
+      ]
+    },
+    {
+      "case_id": "R158",
+      "check_summary": "Replays all 9 supplied terms under a distinct-value modular coordinate-permutation hypothesis; continuation is uncertain.",
+      "confidence": 0.01,
+      "future_answer": [
+        "14",
+        "22",
+        "33",
+        "6",
+        "31"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R158-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "predicted_holdout": [
+        "12",
+        "8",
+        "30"
+      ],
+      "response_sha256": "a31672a5d4fb7c2bfe3d8ad7e0a8999f32b2d5a84037813d3798a2897be819e2",
+      "rule_summary": "Treat terms as row-major labels of successive points in a fixed cyclic coordinate traversal, with wraparound modulo 40.",
+      "survived": false,
+      "visible_holdout": [
+        "11",
+        "0",
+        "31"
+      ]
+    },
+    {
+      "case_id": "R158",
+      "check_summary": "All nine supplied terms were treated as states modulo 41; continuation follows a compact alternating reversible update with wraparound.",
+      "confidence": 0.08,
+      "future_answer": [
+        "12",
+        "30",
+        "20",
+        "38",
+        "28"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R158-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "predicted_holdout": [
+        "14",
+        "4",
+        "22"
+      ],
+      "response_sha256": "3aa6c7fe8e5150881ee41025cb33cd454a1fb76d4df5525a4cb62a66094a3e48",
+      "rule_summary": "Alternating affine state update modulo 41, using the three-step phase state and reversing the corresponding affine transform for backward reconstruction.",
+      "survived": false,
+      "visible_holdout": [
+        "11",
+        "0",
+        "31"
+      ]
+    },
+    {
+      "case_id": "R158",
+      "check_summary": "All 9 supplied terms replay exactly under the stated modular finite-difference rule; arithmetic and phase alignment checked.",
+      "confidence": 0.18,
+      "future_answer": [
+        "40",
+        "33",
+        "40",
+        "40",
+        "25"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R158-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "predicted_holdout": [
+        "32",
+        "11",
+        "19"
+      ],
+      "response_sha256": "218ccfbfa7e46bcfd4ebec7ce4ef6d81dbd6ad9391a367cc75e5ee56de59ad9a",
+      "rule_summary": "Let x_n be the unique degree-8 polynomial over integers modulo 41 matching the nine supplied values at n=1..9; output its evaluations at n=10..17, represented canonically in 0..40.",
+      "survived": false,
+      "visible_holdout": [
+        "11",
+        "0",
+        "31"
+      ]
+    },
+    {
+      "case_id": "R168",
+      "check_summary": "All 11 supplied terms replay exactly under the selected generator; extrapolation is uncertain.",
+      "confidence": 0.03,
+      "future_answer": [
+        "890691",
+        "3672807",
+        "12320854",
+        "35641764",
+        "92103668"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R168-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "predicted_holdout": [
+        "15206",
+        "157217"
+      ],
+      "response_sha256": "57e3cd3dc4ebd7bdda02fb28bf42f913d0f22d3bae8e635d6ee6d7f784b6ae6c",
+      "rule_summary": "Unique degree-10 forward-difference polynomial interpolating the 11 supplied terms, extended with constant tenth difference 7600.",
+      "survived": false,
+      "visible_holdout": [
+        "8",
+        "21"
+      ]
+    },
+    {
+      "case_id": "R168",
+      "check_summary": "Supplied prefix replayed exactly using a constant tenth finite difference of 5508; continuation reduced modulo 67.",
+      "confidence": 0.08,
+      "future_answer": [
+        "45",
+        "62",
+        "31",
+        "44",
+        "51"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R168-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "predicted_holdout": [
+        "4",
+        "1"
+      ],
+      "response_sha256": "d1b1178bcee0c07b22a9a5751a44c71f0e0675eb27620c21f7538ad9b9e30467",
+      "rule_summary": "Extend the unique degree-10 forward-difference table with constant tenth difference 5508, then take each forecast modulo 67.",
+      "survived": false,
+      "visible_holdout": [
+        "8",
+        "21"
+      ]
+    },
+    {
+      "case_id": "R168",
+      "check_summary": "All 11 supplied terms replay exactly under the recurrence.",
+      "confidence": 0.99,
+      "future_answer": [
+        "32",
+        "31",
+        "25",
+        "56",
+        "41"
+      ],
+      "future_exact": true,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R168-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "predicted_holdout": [
+        "8",
+        "21"
+      ],
+      "response_sha256": "d1e123ce1eb5798c9535e26bbf275aa398e58a5fe5892b142f52f3ac49538bd5",
+      "rule_summary": "Set x_1=48 and x_{n+1}=(6x_n+40) mod 67, using canonical residues 0 through 66.",
+      "survived": true,
+      "visible_holdout": [
+        "8",
+        "21"
+      ]
+    },
+    {
+      "case_id": "R168",
+      "check_summary": "All 11 supplied terms replay exactly under the recurrence.",
+      "confidence": 0.99,
+      "future_answer": [
+        "32",
+        "31",
+        "25",
+        "56",
+        "42"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R168-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "predicted_holdout": [
+        "8",
+        "21"
+      ],
+      "response_sha256": "89351b8fccf345039e0e192eaa4584bfa825acdf05e742792ac00c1ce5bbf2a3",
+      "rule_summary": "Starting from 48, iterate x_next = (6x + 40) mod 67, reporting residues as canonical decimals.",
+      "survived": true,
+      "visible_holdout": [
+        "8",
+        "21"
+      ]
+    },
+    {
+      "case_id": "R168",
+      "check_summary": "The rule reproduces all supplied terms: 48,60,65,28,7,15,63,16,2,52. Eight materially different generator families were considered; late-term exactness selects the affine modulo-67",
+      "confidence": 0.96,
+      "future_answer": [
+        "32",
+        "31",
+        "25",
+        "56",
+        "41"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R168-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "predicted_holdout": [
+        "17",
+        "8",
+        "21"
+      ],
+      "response_sha256": "01e5bdb6b609934cefbe11e1061e5d2a49904ffba8e22f3bdfa556a6f7b64072",
+      "rule_summary": "Starting from 48, generate x(n+1) = (6*x(n) + 40) mod 67, using canonical residues 0 through 66.",
+      "survived": true,
+      "visible_holdout": [
+        "17",
+        "8",
+        "21"
+      ]
+    },
+    {
+      "case_id": "R168",
+      "check_summary": "All supplied terms replay exactly under x(n+1) = (6x(n)+40) mod 67; successive differences are taken modulo 67.",
+      "confidence": 0.99,
+      "future_answer": [
+        "32",
+        "31",
+        "25",
+        "56",
+        "41"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R168-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "predicted_holdout": [
+        "17",
+        "8",
+        "21"
+      ],
+      "response_sha256": "f61168404d2d2419bb9261b8c5e5fece679e2f4495339f564eaa180bce4e5b1e",
+      "rule_summary": "Starting from x1=48, generate each next term by x(n+1) = (6x(n)+40) mod 67, using canonical residues 0 through 66.",
+      "survived": true,
+      "visible_holdout": [
+        "17",
+        "8",
+        "21"
+      ]
+    },
+    {
+      "case_id": "R168",
+      "check_summary": "The supplied prefix is replayed exactly through the tenth term; continuation uses the detected terminal two-state cycle.",
+      "confidence": 0.02,
+      "future_answer": [
+        "2",
+        "52",
+        "2",
+        "52",
+        "2"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R168-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "predicted_holdout": [
+        "52",
+        "2",
+        "52"
+      ],
+      "response_sha256": "2776dd42f0aea15044e8d8fb5e23f91b4f50c09ee7576f79731131ae0c24444a",
+      "rule_summary": "Replay the supplied initialization, then alternate the final two observed states 52 and 2 deterministically.",
+      "survived": false,
+      "visible_holdout": [
+        "17",
+        "8",
+        "21"
+      ]
+    },
+    {
+      "case_id": "R168",
+      "check_summary": "The rule exactly replays all 10 supplied terms using the unique degree-9 forward-difference polynomial.",
+      "confidence": 0.03,
+      "future_answer": [
+        "-1386074",
+        "-4536371",
+        "-13131551",
+        "-34442634",
+        "-82597884"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R168-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "predicted_holdout": [
+        "-7583",
+        "-68394",
+        "-359972"
+      ],
+      "response_sha256": "e83c4c5c4d056db0b275dde861508d67e705bf396289ce4d4e86dbead91005d3",
+      "rule_summary": "Treat the supplied terms as consecutive values of the unique integer-valued Newton forward-difference polynomial, with constant ninth forward difference -3170, and extrapolate eight terms.",
+      "survived": false,
+      "visible_holdout": [
+        "17",
+        "8",
+        "21"
+      ]
+    },
+    {
+      "case_id": "R164",
+      "check_summary": "The proposed generator is a 12-term cyclic sequence and reproduces all supplied terms exactly.",
+      "confidence": 0.08,
+      "future_answer": [
+        "-10",
+        "-10",
+        "-13",
+        "15",
+        "-5"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R164-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "predicted_holdout": [
+        "-18",
+        "-13"
+      ],
+      "response_sha256": "d56b81ca888a46157c1ddd9c6afabff31d18f940ba7954edc529e51f5c956b50",
+      "rule_summary": "Repeat the supplied 12-term block indefinitely.",
+      "survived": false,
+      "visible_holdout": [
+        "-4",
+        "-5"
+      ]
+    },
+    {
+      "case_id": "R164",
+      "check_summary": "Supplied 12-term prefix is reproduced by six residue classes, each extrapolated with constant block-to-block difference.",
+      "confidence": 0.08,
+      "future_answer": [
+        "-10",
+        "4",
+        "3",
+        "15",
+        "21"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R164-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "predicted_holdout": [
+        "8",
+        "-5"
+      ],
+      "response_sha256": "134c1e37b6603d7d83cb4422d4acdae4e34db03ead565929cc45da2109945055",
+      "rule_summary": "For each position modulo 6, continue the arithmetic progression across successive 6-term blocks; append the resulting next block.",
+      "survived": false,
+      "visible_holdout": [
+        "-4",
+        "-5"
+      ]
+    },
+    {
+      "case_id": "R164",
+      "check_summary": "Treated the prefix as two aligned six-term blocks and extrapolated the observed position-wise block delta [13,4,0,7,8,0].",
+      "confidence": 0.08,
+      "future_answer": [
+        "-10",
+        "4",
+        "3",
+        "15",
+        "21"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R164-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "predicted_holdout": [
+        "8",
+        "-5"
+      ],
+      "response_sha256": "f265bc2c4650ea3e2195f2e7cdf1283da00e6ad4a0e3f65a13c245137aee6912",
+      "rule_summary": "For each six-term block, add the fixed position-wise offset from block 1 to block 2, then continue the resulting block progression.",
+      "survived": false,
+      "visible_holdout": [
+        "-4",
+        "-5"
+      ]
+    },
+    {
+      "case_id": "R164",
+      "check_summary": "The supplied prefix was replayed as a six-step motif with the terminal 15 serving as the phase boundary; continuation remains uncertain.",
+      "confidence": 0.04,
+      "future_answer": [
+        "-3",
+        "-5",
+        "15",
+        "-9",
+        "-10"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R164-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "predicted_holdout": [
+        "-9",
+        "-10"
+      ],
+      "response_sha256": "eaf91125745c3f37efac5d92c38372466cff419f675957c742de769c71d434c7",
+      "rule_summary": "Deterministic phase-cycle hypothesis: repeat the observed terminal five-state motif after each 15 boundary.",
+      "survived": false,
+      "visible_holdout": [
+        "-4",
+        "-5"
+      ]
+    },
+    {
+      "case_id": "R164",
+      "check_summary": "Constructed and compared eight materially different deterministic hypotheses; the selected degree-10 finite-difference generator reproduces all 11 supplied terms exactly.",
+      "confidence": 0.02,
+      "future_answer": [
+        "-2742276",
+        "-9228878",
+        "-26604898",
+        "-68610361",
+        "-162129324"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R164-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "predicted_holdout": [
+        "-10875",
+        "-111751",
+        "-636173"
+      ],
+      "response_sha256": "286726271855f5a42730ef961bee2762bd693b0b5e9261ec7d2b28ed08027cc2",
+      "rule_summary": "Use the unique degree-10 interpolating polynomial through the 11 indexed terms, equivalently extend the finite-difference table with constant tenth difference -6043.",
+      "survived": false,
+      "visible_holdout": [
+        "15",
+        "-4",
+        "-5"
+      ]
+    },
+    {
+      "case_id": "R164",
+      "check_summary": "The supplied prefix was replayed exactly; continuation follows a compact piecewise coordinate-cycle extrapolation with signed successive differences.",
+      "confidence": 0.03,
+      "future_answer": [
+        "-1",
+        "-4",
+        "4",
+        "-1",
+        "7"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R164-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "predicted_holdout": [
+        "-6",
+        "-4",
+        "-5"
+      ],
+      "response_sha256": "0dde6a98d6dd85f33bc7f8a3ee2bbb096fa7fed745c560c6d15ab9da0d9195e6",
+      "rule_summary": "Index terms by a repeating segmented coordinate cycle; within each segment advance by the segment's linear difference rule, applying signed wraparound at cycle boundaries.",
+      "survived": false,
+      "visible_holdout": [
+        "15",
+        "-4",
+        "-5"
+      ]
+    },
+    {
+      "case_id": "R164",
+      "check_summary": "The supplied prefix was replayed as a bounded signed state sequence with a reset/wrap transition at 15; continuation confidence is low because multiple compact reversible rules fit",
+      "confidence": 0.08,
+      "future_answer": [
+        "-13",
+        "15",
+        "-5",
+        "-9",
+        "-10"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R164-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "predicted_holdout": [
+        "-4",
+        "-9",
+        "-10"
+      ],
+      "response_sha256": "ddf01d202398b5b58fdb4b6eb1fb69ee64fdad9f5fc79be41fe4ed087db2b8e3",
+      "rule_summary": "Use the observed reversible phase pattern: after the reset at 15, emit the recurring state cycle -5,-9,-10, then apply the preceding backward-compatible phase transition and repeat.",
+      "survived": false,
+      "visible_holdout": [
+        "15",
+        "-4",
+        "-5"
+      ]
+    },
+    {
+      "case_id": "R164",
+      "check_summary": "Replays all 11 supplied terms exactly using a constant tenth finite difference.",
+      "confidence": 0.02,
+      "future_answer": [
+        "-2632276",
+        "-8898878",
+        "-25944898",
+        "-67510361",
+        "-160479324"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R164-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "predicted_holdout": [
+        "-10875",
+        "-111751",
+        "-636173"
+      ],
+      "response_sha256": "6e8fffb1bf12baeef0158134ca34a4f5ec17716cf9f0e3c65a2a2ab8def3f865",
+      "rule_summary": "Use the unique degree-10 Newton forward polynomial through the supplied prefix; continue by holding the tenth finite difference constant at -6043.",
+      "survived": false,
+      "visible_holdout": [
+        "15",
+        "-4",
+        "-5"
+      ]
+    },
+    {
+      "case_id": "R165",
+      "check_summary": "All 11 supplied terms were treated as exact signed integers; no unique low-complexity generator is identifiable from this short prefix.",
+      "confidence": 0.02,
+      "future_answer": [
+        "21",
+        "69",
+        "-37",
+        "-101",
+        "-45"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R165-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "predicted_holdout": [
+        "-15",
+        "-5"
+      ],
+      "response_sha256": "bafe4774f0cc49f70d5110912ddfd7cf758d4881fd6ce8b93ffd795a2b8682fd",
+      "rule_summary": "Selected a bounded signed modular recurrence hypothesis with period-structured updates, yielding the stated continuation.",
+      "survived": false,
+      "visible_holdout": [
+        "14",
+        "-293"
+      ]
+    },
+    {
+      "case_id": "R165",
+      "check_summary": "The supplied prefix matches all three interleaved residue classes: n≡0 mod 3 is -7,0,7 (constant difference 7); n≡1 mod 3 is -18,37,-73,147 (x↦-2x+1); n≡2 mod 3 is -17,-13,-12,-14,",
+      "confidence": 0.87,
+      "future_answer": [
+        "-19",
+        "21",
+        "587",
+        "-27",
+        "28"
+      ],
+      "future_exact": true,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R165-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "predicted_holdout": [
+        "14",
+        "-293"
+      ],
+      "response_sha256": "e23fab65e03297f3ae1dc3ada32730d86a26391f26e4b09df57076e50b11a245",
+      "rule_summary": "Interleave three indexed subsequences by n mod 3. For residues 0,1,2 respectively use x_k=x_{k-1}+7; x_k=-2x_{k-1}+1; and constant second difference -3 (successive differences decrease by 3).",
+      "survived": true,
+      "visible_holdout": [
+        "14",
+        "-293"
+      ]
+    },
+    {
+      "case_id": "R165",
+      "check_summary": "Three aligned streams reproduce all 11 supplied terms exactly: positions 1,4,7,10 have differences 55,-110,220; positions 2,5,8,11 have differences 4,1,-2; positions 3,6,9 increase",
+      "confidence": 0.97,
+      "future_answer": [
+        "14",
+        "587",
+        "-27",
+        "21",
+        "2347"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R165-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "predicted_holdout": [
+        "-293",
+        "-19"
+      ],
+      "response_sha256": "4d1fef761b0e124db3c26d7901c573f2925400dbe70993d529a0bb30c8db7853",
+      "rule_summary": "Interleave three streams. Stream A starts -18 with successive differences multiplied by -2 (55,-110,220,...); Stream B starts -17 with differences decreasing by 3 (4,1,-2,...); Stream C starts -7 and increases by 7.",
+      "survived": false,
+      "visible_holdout": [
+        "14",
+        "-293"
+      ]
+    },
+    {
+      "case_id": "R165",
+      "check_summary": "All supplied terms were inspected for affine, modular, phase-dependent, and recurrence structure; no unique compact generator was identifiable from the visible prefix alone.",
+      "confidence": 0.01,
+      "future_answer": [
+        "-63",
+        "-127",
+        "-255",
+        "-511",
+        "-1023"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R165-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "predicted_holdout": [
+        "-15",
+        "-31"
+      ],
+      "response_sha256": "43df613ddcd82c865010e8a0556bc088767f682c8346751092b5ce1ce1e21da1",
+      "rule_summary": "Unresolved hidden-state sequence; forecast uses a deterministic doubling-minus-one continuation as a low-confidence placeholder.",
+      "survived": false,
+      "visible_holdout": [
+        "14",
+        "-293"
+      ]
+    },
+    {
+      "case_id": "R165",
+      "check_summary": "The supplied 10-term prefix is reproduced exactly by the interpolating degree-9 integer-valued sequence; its ninth forward difference is 10647.",
+      "confidence": 0.03,
+      "future_answer": [
+        "3810932",
+        "11817282",
+        "31843766",
+        "77103180",
+        "171516943"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R165-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "predicted_holdout": [
+        "22378",
+        "198851",
+        "1010938"
+      ],
+      "response_sha256": "9eef11b42623341a2f1332b4f104fe6406cadd0f7131f5df465e212099aa5ce0",
+      "rule_summary": "Use the unique degree-9 Newton forward-difference polynomial through the ten supplied terms, extending the forward-difference table with constant ninth difference 10647.",
+      "survived": false,
+      "visible_holdout": [
+        "-14",
+        "14",
+        "-293"
+      ]
+    },
+    {
+      "case_id": "R165",
+      "check_summary": "Grouping by n mod 3 exactly reproduces all supplied terms: residue 0 adds 7; residue 1 follows x↦−2x+1; residue 2 has successive differences 4,1 with constant second difference −3.",
+      "confidence": 0.56,
+      "future_answer": [
+        "-19",
+        "21",
+        "587",
+        "-27",
+        "28"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R165-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "predicted_holdout": [
+        "-14",
+        "14",
+        "-293"
+      ],
+      "response_sha256": "fbf10bee6fe62cf0dddb9e2796120c636f0c1e4c288f05c82caba5a9809595ac",
+      "rule_summary": "Use three interleaved coordinate sequences. For n≡0 mod 3, a increases by 7; for n≡1 mod 3, iterate a↦−2a+1 from −18; for n≡2 mod 3, successive differences decrease by 3, starting −17,−13,−12.",
+      "survived": true,
+      "visible_holdout": [
+        "-14",
+        "14",
+        "-293"
+      ]
+    },
+    {
+      "case_id": "R165",
+      "check_summary": "Exact replay of all 10 supplied terms using constant ninth forward difference 10647.",
+      "confidence": 0.08,
+      "future_answer": [
+        "3810932",
+        "11817282",
+        "31843766",
+        "77103180",
+        "171516943"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R165-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "predicted_holdout": [
+        "22378",
+        "198851",
+        "1010938"
+      ],
+      "response_sha256": "0c628141e6693e528ec74fdbec52cff7847fe5cb985bce976b9af586ba88e47f",
+      "rule_summary": "Use the unique degree-9 Newton forward polynomial through the supplied prefix; advance by preserving the constant ninth finite difference, with reversible finite-difference updates.",
+      "survived": false,
+      "visible_holdout": [
+        "-14",
+        "14",
+        "-293"
+      ]
+    },
+    {
+      "case_id": "R165",
+      "check_summary": "The degree-9 finite-difference continuation replays all 10 supplied terms exactly; algebraic interpolation and state-based difference replay agree.",
+      "confidence": 0.08,
+      "future_answer": [
+        "3810932",
+        "11817282",
+        "31843766",
+        "77103180",
+        "171516943"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R165-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "predicted_holdout": [
+        "22378",
+        "198851",
+        "1010938"
+      ],
+      "response_sha256": "dab26173a762be8fcca54ea577884ae39afbb9bdfd34b08fc9480f351a0a4ae3",
+      "rule_summary": "Use the unique degree-9 polynomial P(n) interpolating the supplied terms at n=0..9; continue with constant ninth finite difference 10647. Equivalently, replay the finite-difference table with ninth difference fixed at ล ",
+      "survived": false,
+      "visible_holdout": [
+        "-14",
+        "14",
+        "-293"
+      ]
+    },
+    {
+      "case_id": "R150",
+      "check_summary": "All supplied terms replay under a_n=-2a_{n-1}+c_n; residuals c_n are 9,3,7,11,5,9,13,7,11,15,9,13, continuing by increments -6,+4,+4.",
+      "confidence": 0.82,
+      "future_answer": [
+        "212389",
+        "-424763",
+        "849545",
+        "-1699087",
+        "3398195"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R150-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "predicted_holdout": [
+        "53103",
+        "-106189"
+      ],
+      "response_sha256": "506947a884a407dbf07c968f2c6d418db80fb606b9d46d20f970bcf2f111e6af",
+      "rule_summary": "Start a_1=17. Apply a_n=-2a_{n-1}+c_n, with c_1=9 and successive c increments repeating (-6,+4,+4).",
+      "survived": true,
+      "visible_holdout": [
+        "53103",
+        "-106189"
+      ]
+    },
+    {
+      "case_id": "R150",
+      "check_summary": "All supplied terms satisfy a_n=-2a_(n-1)+b_n; residuals b_n are 9,3,7,11,5,9,13,7,11,15,9, with successive increments repeating -6,4,4.",
+      "confidence": 0.97,
+      "future_answer": [
+        "212389",
+        "-424763",
+        "849545",
+        "-1699077",
+        "3398171"
+      ],
+      "future_exact": true,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R150-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "predicted_holdout": [
+        "53103",
+        "-106189"
+      ],
+      "response_sha256": "be28a8e7a7fb1ff5252f1274801aa5743bac7f713213a560f68ed32c28b04f35",
+      "rule_summary": "Set a_1=17 and a_n=-2a_(n-1)+b_n, where b_2=9 and b_n-b_(n-1) cycles -6,4,4 indefinitely.",
+      "survived": true,
+      "visible_holdout": [
+        "53103",
+        "-106189"
+      ]
+    },
+    {
+      "case_id": "R150",
+      "check_summary": "For every supplied transition, a_n + 2a_(n-1) yields three interwoven streams by n mod 3, each advancing by 2.",
+      "confidence": 0.98,
+      "future_answer": [
+        "212389",
+        "-424763",
+        "849545",
+        "-1699077",
+        "3398171"
+      ],
+      "future_exact": true,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R150-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "predicted_holdout": [
+        "53103",
+        "-106189"
+      ],
+      "response_sha256": "0263a859fe05d6bb44457b73d380f841627bfbfaecda244bf64244bb6fc5511a",
+      "rule_summary": "Set a_1=17 and a_n=-2a_(n-1)+c_n, where c_n is the mod-3 interwoven sequence: c_2=9, c_3=3, c_4=7, and each stream c_(n+3)=c_n+2.",
+      "survived": true,
+      "visible_holdout": [
+        "53103",
+        "-106189"
+      ]
+    },
+    {
+      "case_id": "R150",
+      "check_summary": "Using x(n+1)=-2x(n)+a(n), the supplied offsets a(n)=x(n+1)+2x(n) are 9,3,7,11,5,9,13,7,11,15,9; their differences repeat -6,4,4 exactly.",
+      "confidence": 0.98,
+      "future_answer": [
+        "212409",
+        "-424803",
+        "849615",
+        "-1699213",
+        "3398427"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R150-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "predicted_holdout": [
+        "53103",
+        "-106199"
+      ],
+      "response_sha256": "8bb8b3de85e4bdae1d8050a6c27674136f28aa5e4b14f7b891936181ba27f7c9",
+      "rule_summary": "Set a(1)=9 and repeat the offset update differences -6,4,4; generate each term by x(n+1)=-2x(n)+a(n).",
+      "survived": false,
+      "visible_holdout": [
+        "53103",
+        "-106189"
+      ]
+    },
+    {
+      "case_id": "R150",
+      "check_summary": "All 11 supplied terms replay exactly under the recurrence.",
+      "confidence": 0.78,
+      "future_answer": [
+        "212389",
+        "-424763",
+        "849545",
+        "-1699077",
+        "3398171"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R150-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "predicted_holdout": [
+        "-26545",
+        "53103",
+        "-106189"
+      ],
+      "response_sha256": "3e532930779aaa092b28f076000570db612af229c8884ff056cbe992e8c959ef",
+      "rule_summary": "With a1=17, use a_n=-2a_{n-1}+4n+1-10 floor(n/3) for n>=2.",
+      "survived": true,
+      "visible_holdout": [
+        "-26545",
+        "53103",
+        "-106189"
+      ]
+    },
+    {
+      "case_id": "R150",
+      "check_summary": "The supplied prefix is reproduced exactly by a[n+1] = -2a[n] + c[n], with c values 9,3,7,11,5,9,13,7,11,15; thereafter c[n+6] = c[n] + 4.",
+      "confidence": 0.97,
+      "future_answer": [
+        "212389",
+        "-424763",
+        "849545",
+        "-1699077",
+        "3398171"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R150-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "predicted_holdout": [
+        "-26545",
+        "53103",
+        "-106189"
+      ],
+      "response_sha256": "3876b79dea8779fe379aa921848dcdb08b8cf1c0a834c56e685e22dad64808be",
+      "rule_summary": "Start a1=17. Define c1..c6=(9,3,7,11,5,9), extend c[n+6]=c[n]+4, and recursively set a[n+1]=-2a[n]+c[n].",
+      "survived": true,
+      "visible_holdout": [
+        "-26545",
+        "53103",
+        "-106189"
+      ]
+    },
+    {
+      "case_id": "R150",
+      "check_summary": "All supplied terms satisfy a_n=-2a_{n-1}+d_n with d_n beginning 9,3,7,11,5,9,13,7,11,15; offsets repeat increments -6,+4,+4.",
+      "confidence": 0.93,
+      "future_answer": [
+        "212393",
+        "-424767",
+        "849547",
+        "-1699077",
+        "3398175"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R150-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "predicted_holdout": [
+        "-26545",
+        "53103",
+        "-106189"
+      ],
+      "response_sha256": "a55c6f0cc1f8029d313d98306077a8d9ac7a48da802ae3e2b3ac6d0e039af6ba",
+      "rule_summary": "Set a_1=17 and d_1=9. Generate a_n=-2a_{n-1}+d_n; cycle offset updates d_{n+1}=d_n-6,+4,+4 repeatedly, starting with -6 after d_1.",
+      "survived": true,
+      "visible_holdout": [
+        "-26545",
+        "53103",
+        "-106189"
+      ]
+    },
+    {
+      "case_id": "R150",
+      "check_summary": "Whole prefix replays exactly under a_n=-2a_{n-1}+d_n, with d_n cycling by position mod 3 and increasing by 2 each cycle: 9,3,7; 11,5,9; 13,7,11; 15,9,13.",
+      "confidence": 0.93,
+      "future_answer": [
+        "212389",
+        "-424763",
+        "849545",
+        "-1699077",
+        "3398171"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R150-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "predicted_holdout": [
+        "-26545",
+        "53103",
+        "-106189"
+      ],
+      "response_sha256": "f84fd571d9c4d378b8b8c8bed96741ea441acca695735befb9014185ef01d55d",
+      "rule_summary": "Let a_1=17. For transition n>=1, a_{n+1}=-2a_n+d_n, where d_n is the repeating three-phase state [9,3,7] plus 2*floor((n-1)/3).",
+      "survived": true,
+      "visible_holdout": [
+        "-26545",
+        "53103",
+        "-106189"
+      ]
+    },
+    {
+      "case_id": "R151",
+      "check_summary": "Interleaving three streams reproduces all 11 supplied terms exactly; each stream's successive increments increase by 1.",
+      "confidence": 0.74,
+      "future_answer": [
+        "-56",
+        "-33",
+        "-56",
+        "-72",
+        "-43"
+      ],
+      "future_exact": true,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R151-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "predicted_holdout": [
+        "-24",
+        "-43"
+      ],
+      "response_sha256": "7a9c3a524dd49526eb4418951b2e06ad1c9433478b96a5412a86cb3fb5894c87",
+      "rule_summary": "Let k=floor((n-1)/3). For residues n=1,2,3 mod 3, absolute values are respectively 1+9k+k(k-1)/2, 2+12k+k(k-1)/2, and 3+6k+k(k-1)/2; output their negatives.",
+      "survived": true,
+      "visible_holdout": [
+        "-24",
+        "-43"
+      ]
+    },
+    {
+      "case_id": "R151",
+      "check_summary": "Splitting terms by index modulo 3 gives consecutive differences decreasing by 1 in every residue class, reproducing all 11 supplied terms exactly.",
+      "confidence": 0.99,
+      "future_answer": [
+        "-56",
+        "-33",
+        "-56",
+        "-71",
+        "-43"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R151-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "predicted_holdout": [
+        "-24",
+        "-43"
+      ],
+      "response_sha256": "63c912389ecc847cf881a072aedd7dd170a3cc121958e5da9d17490f1d9a6aaa",
+      "rule_summary": "For each residue class modulo 3, advance with first differences that decrease by 1 each cycle (equivalently, constant second difference -1 within each class).",
+      "survived": true,
+      "visible_holdout": [
+        "-24",
+        "-43"
+      ]
+    },
+    {
+      "case_id": "R151",
+      "check_summary": "A 3-stream interleave exactly reproduces all 11 supplied terms; each stream has successive differences decreasing by 1.",
+      "confidence": 0.72,
+      "future_answer": [
+        "-56",
+        "-33",
+        "-56",
+        "-72",
+        "-43"
+      ],
+      "future_exact": true,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R151-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "predicted_holdout": [
+        "-24",
+        "-43"
+      ],
+      "response_sha256": "e84a29ae70bf0dc8d07b30b2ee31321697773c0befd9b72bbaa43a3b9cd23f71",
+      "rule_summary": "Interleave three streams by positions modulo 3. Their initial terms are -1,-2,-3, with successive decrements respectively 9,10,11...; 12,13,14...; and 6,7,8....",
+      "survived": true,
+      "visible_holdout": [
+        "-24",
+        "-43"
+      ]
+    },
+    {
+      "case_id": "R151",
+      "check_summary": "Using r_n by n mod 3: r_{3k}=k(k+1)/2+2k, r_{3k+1}=k(k+1)/2+5k, r_{3k+2}=k(k+1)/2+8k, with x_n=-(n+r_n), reproduces all 11 supplied terms exactly.",
+      "confidence": 0.97,
+      "future_answer": [
+        "-56",
+        "-33",
+        "-56",
+        "-72",
+        "-94"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R151-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "predicted_holdout": [
+        "-24",
+        "-43"
+      ],
+      "response_sha256": "6961d9e17adbe2fbc5d43d59af3320ed5010bcd15b82dfa58eca841521cc7954",
+      "rule_summary": "For n=3k+s, define r_n=k(k+1)/2+(s+2)k for s=0,1,2; output x_n=-(n+r_n).",
+      "survived": true,
+      "visible_holdout": [
+        "-24",
+        "-43"
+      ]
+    },
+    {
+      "case_id": "R151",
+      "check_summary": "All 10 supplied terms replay exactly under the selected degree-9 finite-difference continuation.",
+      "confidence": 0.08,
+      "future_answer": [
+        "222208",
+        "707367",
+        "1940650",
+        "4722163",
+        "10000000"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R151-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "predicted_holdout": [
+        "958",
+        "10317",
+        "56549"
+      ],
+      "response_sha256": "626d238a34c4d3cc18e9133699ebb9c575485f4deb4b9661834f8102de29a09c",
+      "rule_summary": "Unique degree-9 interpolation polynomial through the supplied indexed terms, continued deterministically by constant ninth finite difference 702.",
+      "survived": false,
+      "visible_holdout": [
+        "-41",
+        "-24",
+        "-43"
+      ]
+    },
+    {
+      "case_id": "R151",
+      "check_summary": "Negating the reconstructed values reproduces all 10 supplied terms; residue-class differences are arithmetic progressions.",
+      "confidence": 0.82,
+      "future_answer": [
+        "-56",
+        "-33",
+        "-56",
+        "-72",
+        "-43"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R151-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "predicted_holdout": [
+        "-41",
+        "-24",
+        "-43"
+      ],
+      "response_sha256": "be05cf94b3f825a013476304a24a3af6e5e428e8174082d292eedb7d54ccf580",
+      "rule_summary": "For n=3k+r, use negative values: r=1: -(k^2+17k+2)/2; r=2: -(k^2+23k+4)/2; r=0: -(k^2+11k+6)/2, with k=0,1,...",
+      "survived": true,
+      "visible_holdout": [
+        "-41",
+        "-24",
+        "-43"
+      ]
+    },
+    {
+      "case_id": "R151",
+      "check_summary": "The supplied ten terms are reproduced exactly by the unique degree-9 finite-difference interpolant; no independent withheld-term validation is available.",
+      "confidence": 0.03,
+      "future_answer": [
+        "222208",
+        "707367",
+        "1940650",
+        "4760109",
+        "10813280"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R151-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "predicted_holdout": [
+        "958",
+        "10317",
+        "56549"
+      ],
+      "response_sha256": "b1313d659670fd49c75bc4cb9a780b7de4185b5376a865b3bcbf73e59a1ec399",
+      "rule_summary": "Use the unique degree-9 polynomial in the 1-based index n passing through all ten supplied terms, equivalently continue the finite-difference table with constant ninth difference 702.",
+      "survived": false,
+      "visible_holdout": [
+        "-41",
+        "-24",
+        "-43"
+      ]
+    },
+    {
+      "case_id": "R151",
+      "check_summary": "Interleaving positions modulo 3 gives absolute subsequences 1,10,20,31; 2,14,27; and 3,9,16, each with successive differences increasing by 1.",
+      "confidence": 0.94,
+      "future_answer": [
+        "-56",
+        "-33",
+        "-56",
+        "-72",
+        "-43"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R151-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "predicted_holdout": [
+        "-41",
+        "-24",
+        "-43"
+      ],
+      "response_sha256": "602b48d1f4b05a364410d5994bab8313196e5b8e86fd568390edec737c12d9ce",
+      "rule_summary": "Keep all terms negative. For each of the three residue classes modulo 3, the absolute values follow a quadratic recurrence: successive differences increase by 1. Interleave the three subsequences.",
+      "survived": true,
+      "visible_holdout": [
+        "-41",
+        "-24",
+        "-43"
+      ]
+    },
+    {
+      "case_id": "R160",
+      "check_summary": "Exact degree-10 forward-difference interpolation reproduces all 11 supplied terms.",
+      "confidence": 0.08,
+      "future_answer": [
+        "-104051",
+        "-408386",
+        "-1319983",
+        "-3709901",
+        "-9369430"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R160-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "predicted_holdout": [
+        "-2078",
+        "-19650"
+      ],
+      "response_sha256": "b706c57a7a776790ce8bc7cc8b8dca634c12c5d2a1c8be9c1e29f707b372836e",
+      "rule_summary": "Use the unique degree-10 polynomial agreeing with the 11 supplied values, equivalently continue its finite-difference table with constant tenth difference -639.",
+      "survived": false,
+      "visible_holdout": [
+        "-26",
+        "-21"
+      ]
+    },
+    {
+      "case_id": "R160",
+      "check_summary": "Verified all 11 supplied terms using three residue-class quadratic recurrences modulo 3.",
+      "confidence": 0.86,
+      "future_answer": [
+        "34",
+        "-38",
+        "-34",
+        "61",
+        "-52"
+      ],
+      "future_exact": true,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R160-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "predicted_holdout": [
+        "-26",
+        "-21"
+      ],
+      "response_sha256": "c9b2731bb99e745c6a3d76f4b61234dfeae9281521210c226739dd5a82563918",
+      "rule_summary": "For n=3k+r: r=0 gives 1-k-3k(k-1)/2; r=1 gives -4-k+7k(k-1)/2; r=2 gives -2-6k-k(k-1).",
+      "survived": true,
+      "visible_holdout": [
+        "-26",
+        "-21"
+      ]
+    },
+    {
+      "case_id": "R160",
+      "check_summary": "Three-way interleaving reproduces all 11 supplied terms exactly; stream differences evolve linearly within the observed prefix.",
+      "confidence": 0.42,
+      "future_answer": [
+        "34",
+        "-38",
+        "-34",
+        "61",
+        "-52"
+      ],
+      "future_exact": true,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R160-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "predicted_holdout": [
+        "-26",
+        "-21"
+      ],
+      "response_sha256": "cc209ce65fca2e670456028019657f79d625a99ce02a6e8e0629debef9a21b4d",
+      "rule_summary": "Split terms by position modulo 3. Continue each stream with its observed arithmetic-step progression: stream 1 steps -1,-4,-7,...; stream 2 steps -1,6,13,...; stream 0 steps -6,-8,-10,...",
+      "survived": true,
+      "visible_holdout": [
+        "-26",
+        "-21"
+      ]
+    },
+    {
+      "case_id": "R160",
+      "check_summary": "The supplied 11-term prefix is reproduced exactly by the selected interpolating generator.",
+      "confidence": 0.03,
+      "future_answer": [
+        "-34959",
+        "-153516",
+        "-569117",
+        "-1800624",
+        "-4977855"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R160-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "predicted_holdout": [
+        "-513",
+        "-5738"
+      ],
+      "response_sha256": "551f972624cbc50d20fc4a93607ed9aa7720381c718512bf819c61935c33b3ea",
+      "rule_summary": "Use the unique degree-10 polynomial over the integers matching the supplied indexed prefix, evaluated at subsequent indices.",
+      "survived": false,
+      "visible_holdout": [
+        "-26",
+        "-21"
+      ]
+    },
+    {
+      "case_id": "R160",
+      "check_summary": "The degree-9 forward-difference polynomial reproduces all 10 supplied terms exactly; continuation is extrapolated with constant ninth difference 162.",
+      "confidence": 0.08,
+      "future_answer": [
+        "78703",
+        "231253",
+        "598934",
+        "1407211",
+        "3057842"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R160-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "predicted_holdout": [
+        "653",
+        "4951",
+        "22524"
+      ],
+      "response_sha256": "6c0f680a51f117f2c2e3bde01f760b33e8365f52980fc6fc110417d453aba4ac",
+      "rule_summary": "Use the unique degree-9 Newton forward polynomial through indices 0–9, with forward-difference coefficients [1,-5,7,-7,0,16,-36,49,-61,162].",
+      "survived": false,
+      "visible_holdout": [
+        "14",
+        "-26",
+        "-21"
+      ]
+    },
+    {
+      "case_id": "R160",
+      "check_summary": "Partitioning by n mod 3 gives exact supplied subsequences; each residue class is extrapolated by its observed constant second difference.",
+      "confidence": 0.18,
+      "future_answer": [
+        "36",
+        "-36",
+        "-36",
+        "64",
+        "-48"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R160-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "predicted_holdout": [
+        "15",
+        "-26",
+        "-21"
+      ],
+      "response_sha256": "8eb0eead1335e3f893499baa17fc16bb6895472dad9740bb1794d1e4ba8a3190",
+      "rule_summary": "Use ordinary index n=3q+r. For each residue class r, continue the quadratic sequence in cycle coordinate q using the constant second difference observed in that class: r=1 has -3, r=2 has 7, and r=0 has -2.",
+      "survived": false,
+      "visible_holdout": [
+        "14",
+        "-26",
+        "-21"
+      ]
+    },
+    {
+      "case_id": "R160",
+      "check_summary": "All 10 supplied terms were treated as an ordered integer state sequence; no wrap or sign normalization was applied.",
+      "confidence": 0.03,
+      "future_answer": [
+        "-25",
+        "-42",
+        "-67",
+        "-109",
+        "-176"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R160-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "predicted_holdout": [
+        "-9",
+        "-8",
+        "-17"
+      ],
+      "response_sha256": "245e1975064590c0e2b036863eedc9bb751fae54046149608393ff68430b7996",
+      "rule_summary": "Selected a compact reversible third-order linear state update, replaying the supplied prefix and continuing the same recurrence.",
+      "survived": false,
+      "visible_holdout": [
+        "14",
+        "-26",
+        "-21"
+      ]
+    },
+    {
+      "case_id": "R160",
+      "check_summary": "Exact replay of all 10 supplied terms via the selected interpolating recurrence; extrapolation is highly uncertain.",
+      "confidence": 0.01,
+      "future_answer": [
+        "78703",
+        "231253",
+        "598934",
+        "3057842",
+        "6230632"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R160-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "predicted_holdout": [
+        "653",
+        "4951",
+        "22524"
+      ],
+      "response_sha256": "0d582cd2a364b555ee2c895ef0ff5928ef47018cac6e6467dd8a5fbf8af34167",
+      "rule_summary": "Unique degree-9 integer-valued interpolation polynomial through the supplied indexed terms, evaluated at successive indices.",
+      "survived": false,
+      "visible_holdout": [
+        "14",
+        "-26",
+        "-21"
+      ]
+    },
+    {
+      "case_id": "R152",
+      "check_summary": "The recurrence reproduces every supplied term exactly from the initial pair -4, 2.",
+      "confidence": 0.98,
+      "future_answer": [
+        "11306",
+        "30890",
+        "84394",
+        "230570",
+        "629930"
+      ],
+      "future_exact": true,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R152-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "predicted_holdout": [
+        "1514",
+        "4138"
+      ],
+      "response_sha256": "6253eb7e4813dc7c515b1dfc9d9cafc94b196a47b0784ec48996ede6bcd61a4d",
+      "rule_summary": "Set a0=-4, a1=2, then a_n=2a_(n-1)+2a_(n-2)+2 for n>=2.",
+      "survived": true,
+      "visible_holdout": [
+        "1514",
+        "4138"
+      ]
+    },
+    {
+      "case_id": "R152",
+      "check_summary": "All supplied terms satisfy a_n = 2a_{n-1} + 2a_{n-2} + 2 from the third term onward.",
+      "confidence": 0.99,
+      "future_answer": [
+        "11306",
+        "30890",
+        "84394",
+        "230570",
+        "629930"
+      ],
+      "future_exact": true,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R152-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "predicted_holdout": [
+        "1514",
+        "4138"
+      ],
+      "response_sha256": "e9304aa639f0b4b85eca925f807e2a2d004d92f8841f8e9d7118504e033a796a",
+      "rule_summary": "Initialize -4, 2; recursively set each next term to 2 times the previous term plus 2 times the term before it plus 2.",
+      "survived": true,
+      "visible_holdout": [
+        "1514",
+        "4138"
+      ]
+    },
+    {
+      "case_id": "R152",
+      "check_summary": "The recurrence a(n)=2a(n-1)+2a(n-2)+2 exactly reproduces supplied terms from 2 onward, including 2, 10, 26, 74, 202, 554.",
+      "confidence": 0.98,
+      "future_answer": [
+        "11306",
+        "30890",
+        "84394",
+        "230570",
+        "629930"
+      ],
+      "future_exact": true,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R152-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "predicted_holdout": [
+        "1514",
+        "4138"
+      ],
+      "response_sha256": "5dcfca5da6fdce72ce9966f2e8ac9ac453e496e5719c3b61b5283e52a222714b",
+      "rule_summary": "Start with the supplied prefix and continue using a(n)=2a(n-1)+2a(n-2)+2.",
+      "survived": true,
+      "visible_holdout": [
+        "1514",
+        "4138"
+      ]
+    },
+    {
+      "case_id": "R152",
+      "check_summary": "All supplied terms from the fourth onward satisfy a[n]=3a[n-1]-2a[n-3], including the initial transition.",
+      "confidence": 0.98,
+      "future_answer": [
+        "11812",
+        "32408",
+        "88944",
+        "243208",
+        "664808"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R152-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "predicted_holdout": [
+        "1514",
+        "4140"
+      ],
+      "response_sha256": "d03e62812c9e279cc6cb8a895b302212b919434746eb8589a2ad1f9419ea176a",
+      "rule_summary": "Using 1-based indexing, generate a[n]=3a[n-1]-2a[n-3] for n>=4 from -4,2,-2.",
+      "survived": false,
+      "visible_holdout": [
+        "1514",
+        "4138"
+      ]
+    },
+    {
+      "case_id": "R152",
+      "check_summary": "The recurrence reproduces every supplied term exactly from the three initial values.",
+      "confidence": 0.98,
+      "future_answer": [
+        "11306",
+        "30890",
+        "84394",
+        "230570",
+        "629930"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R152-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "predicted_holdout": [
+        "554",
+        "1514",
+        "4138"
+      ],
+      "response_sha256": "5e009117c2af6dd1e156e29d4c05c8a7c428f3c94a2a66342e56f1c60392baaf",
+      "rule_summary": "Set a1=-4, a2=2, a3=-2; for n>=4, a_n=2a_{n-1}+2a_{n-2}+2.",
+      "survived": true,
+      "visible_holdout": [
+        "554",
+        "1514",
+        "4138"
+      ]
+    },
+    {
+      "case_id": "R152",
+      "check_summary": "The recurrence reproduces every supplied term exactly from the initial triple -4, 2, -2.",
+      "confidence": 0.94,
+      "future_answer": [
+        "4042",
+        "8138",
+        "16330",
+        "32714",
+        "65482"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R152-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "predicted_holdout": [
+        "458",
+        "970",
+        "1994"
+      ],
+      "response_sha256": "3bb9eaf0e82b0ee8c80f9ea592eaac1800aac93cd55e45cdcb2c2e7f5c546342",
+      "rule_summary": "Index terms from n=1 and use a_n = 3a_{n-1} - 2a_{n-3} for n>=4; equivalently, successive differences follow d_n=3d_{n-1}-2d_{n-3} after alignment.",
+      "survived": false,
+      "visible_holdout": [
+        "554",
+        "1514",
+        "4138"
+      ]
+    },
+    {
+      "case_id": "R152",
+      "check_summary": "All supplied terms satisfy a_n = 3a_{n-1} - 2a_{n-3}, including the initial transition; the rule reverses as a_{n-3}=(3a_{n-1}-a_n)/2.",
+      "confidence": 0.94,
+      "future_answer": [
+        "11306",
+        "30890",
+        "84394",
+        "230570",
+        "629930"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R152-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "predicted_holdout": [
+        "554",
+        "1514",
+        "4138"
+      ],
+      "response_sha256": "6d70622586d8b05aa743bffc7d7324598ae3eb1f4f6f5c77bd2d09cec5842387",
+      "rule_summary": "Index the prefix from a_0=-4 and use a_n=3a_{n-1}-2a_{n-3} for n>=3; invert algebraically for backward reconstruction.",
+      "survived": true,
+      "visible_holdout": [
+        "554",
+        "1514",
+        "4138"
+      ]
+    },
+    {
+      "case_id": "R152",
+      "check_summary": "The supplied prefix was replayed under the selected recurrence through 202; the final transition pattern was treated as a 3x-minus-4 affine continuation.",
+      "confidence": 0.08,
+      "future_answer": [
+        "16202",
+        "48602",
+        "145802",
+        "437402",
+        "1312202"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R152-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "predicted_holdout": [
+        "602",
+        "1802",
+        "5402"
+      ],
+      "response_sha256": "dec85f25c5791bea49ece5960d587a617db3e13aab3536c47714e02e91f27202",
+      "rule_summary": "For continuation, use a_n = 3a_(n-1) - 4, initialized at the supplied final term 202.",
+      "survived": false,
+      "visible_holdout": [
+        "554",
+        "1514",
+        "4138"
+      ]
+    },
+    {
+      "case_id": "R163",
+      "check_summary": "First differences replay the supplied prefix: 0, 2, then triangular-index resets at 3, 6, and 10 with values -8, -30, and -66.",
+      "confidence": 0.72,
+      "future_answer": [
+        "21",
+        "-95",
+        "-69",
+        "-43",
+        "-17"
+      ],
+      "future_exact": true,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R163-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "predicted_holdout": [
+        "-19",
+        "1"
+      ],
+      "response_sha256": "93d8b72d602ed4d6901dbcc70397f5d4b0a46d759e996617aff74b2eb41d8f96",
+      "rule_summary": "Set d1=0,d2=2. At triangular indices n=T_k (k>=2), use d_n=-(7k^2-13k+6); otherwise, on the interval T_k<n<T_{k+1}, use d_n=6k-4. Generate a_n=a_{n-1}+d_n from a_0=-15.",
+      "survived": true,
+      "visible_holdout": [
+        "-19",
+        "1"
+      ]
+    },
+    {
+      "case_id": "R163",
+      "check_summary": "Supplied prefix reproduced by first differences with repeated positive plateaus and triangular-index resets; continuation follows the inferred block pattern.",
+      "confidence": 0.18,
+      "future_answer": [
+        "-95",
+        "-69",
+        "-43",
+        "-17",
+        "9"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R163-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "predicted_holdout": [
+        "1",
+        "21"
+      ],
+      "response_sha256": "2cb21c22598ef3038fdceede3f033b1d154de7e9c463e5c350ebc6b1b97debc9",
+      "rule_summary": "Use first differences in triangular blocks: positive plateau 2, 8, 14, 20, 26 with lengths 1, 2, 3, 4, 5; at triangular indices 3, 6, 10, 15 use reset differences -8, -30, -66, -116.",
+      "survived": false,
+      "visible_holdout": [
+        "-19",
+        "1"
+      ]
+    },
+    {
+      "case_id": "R163",
+      "check_summary": "Exact reconstruction by segments of lengths 1, 2, 3, 4, 5: each segment is an arithmetic progression. Segment steps are 2, 8, 14, 20; starts are -15, -15, -21, -35, -59.",
+      "confidence": 0.86,
+      "future_answer": [
+        "-31",
+        "1",
+        "33",
+        "65",
+        "-145"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R163-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "predicted_holdout": [
+        "-95",
+        "-63"
+      ],
+      "response_sha256": "223c665adaa0e17cd31f18ff9996f14ce101219d5706268426bae2c78a9d6e71",
+      "rule_summary": "Concatenate segment k of length k, with step 6k-4. Segment starts obey s1=-15 and s(k+1)=s(k)-(k+4)(k-1). Thus segment 6 is -95,-63,-31,1,33,65, followed by segment 7 start -145.",
+      "survived": false,
+      "visible_holdout": [
+        "-19",
+        "1"
+      ]
+    },
+    {
+      "case_id": "R163",
+      "check_summary": "Prefix differences fit alternating triangular positive plateaus and single negative boundary jumps through the supplied terms.",
+      "confidence": 0.18,
+      "future_answer": [
+        "-19",
+        "-177",
+        "-125",
+        "-73",
+        "-21"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R163-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "predicted_holdout": [
+        "-19",
+        "-19"
+      ],
+      "response_sha256": "7cccef504a3d3fcac874c886d14a32be01accd00d6b460e8290001af7a656111",
+      "rule_summary": "Let d_n=(x_{n+1}-x_n)/2. For k>=1, d_n=3k-2 across the k positions n=T_k through T_k+k-1, followed at n=T_k+k by a negative boundary jump; the negative magnitudes continue 4,15,33,79,... by the inferred quadratic rule.",
+      "survived": false,
+      "visible_holdout": [
+        "-19",
+        "1"
+      ]
+    },
+    {
+      "case_id": "R163",
+      "check_summary": "The supplied prefix is replayed by transition blocks: triangular-index drops at n=3,6,10 and constant positive increments on intervening blocks; the observed increments are 2, 8, 8",
+      "confidence": 0.18,
+      "future_answer": [
+        "21",
+        "-95",
+        "-63",
+        "-31",
+        "1"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R163-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "predicted_holdout": [
+        "-39",
+        "-19",
+        "1"
+      ],
+      "response_sha256": "0aaab8dcba40192193d0c33f3946e4b8fc1bcc5878ab2b323acf2e53a24e61cf",
+      "rule_summary": "Let T_k=k(k+1)/2. For n=T_k, use drop -(7k^2-13k+6); for T_k<n<T_{k+1}, use increment 6k-4, starting from a_1=-15.",
+      "survived": true,
+      "visible_holdout": [
+        "-39",
+        "-19",
+        "1"
+      ]
+    },
+    {
+      "case_id": "R163",
+      "check_summary": "Supplied successive differences group into repeated positive runs of lengths 2, 3, then 4: +2, +8,+8, +14,+14,+14, with intervening negative jumps -8, -30, -66.",
+      "confidence": 0.72,
+      "future_answer": [
+        "21",
+        "-95",
+        "-69",
+        "-43",
+        "-17"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R163-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "predicted_holdout": [
+        "-39",
+        "-19",
+        "1"
+      ],
+      "response_sha256": "a0627cc2a06ea14e9bd0ade0bc9d73a219d7bc5f1021c0bb19ec097d206d34e4",
+      "rule_summary": "Use successive-difference segments: segment k has a negative boundary jump -(7k^2+7k-6), followed by k+1 repetitions of +(6k+2), for k>=1; continue from the observed -66 boundary with four +20 steps, then the next -116.",
+      "survived": true,
+      "visible_holdout": [
+        "-39",
+        "-19",
+        "1"
+      ]
+    },
+    {
+      "case_id": "R163",
+      "check_summary": "The supplied prefix matches the initial state -15 followed by positive phase increments 2×1, 8×2, and 14×3, with resets -8, -30, and -66.",
+      "confidence": 0.78,
+      "future_answer": [
+        "21",
+        "-95",
+        "-69",
+        "-43",
+        "-17"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R163-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "predicted_holdout": [
+        "-39",
+        "-19",
+        "1"
+      ],
+      "response_sha256": "3548294fc0571dbeba1a6881f01aa0e5d376d5dda1c81f9ce0b8426aabe1a9fa",
+      "rule_summary": "Start at -15. For phase k=0,1,2,..., add 6k+2 exactly k+1 times, then add -(7k^2+15k+8); repeat phases.",
+      "survived": true,
+      "visible_holdout": [
+        "-39",
+        "-19",
+        "1"
+      ]
+    },
+    {
+      "case_id": "R163",
+      "check_summary": "Using b=(a+15)/2, the supplied prefix replays as 0,0,1,-3,1,5,-10,-3,4,11,-22; this follows repeated additive blocks of 1, 4, and 7 followed by a negative reset.",
+      "confidence": 0.18,
+      "future_answer": [
+        "21",
+        "-87",
+        "-61",
+        "-35",
+        "-9"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R163-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "predicted_holdout": [
+        "-39",
+        "-19",
+        "1"
+      ],
+      "response_sha256": "25a6ff0f0cc6cd4446267c54dabd9d01430d59f807d87dd4d5281282a4809df4",
+      "rule_summary": "Let b=(a+15)/2. Continue the observed block process: add 10 four times, apply b→−2b, then add 13 five times; convert back with a=2b−15.",
+      "survived": true,
+      "visible_holdout": [
+        "-39",
+        "-19",
+        "1"
+      ]
+    },
+    {
+      "case_id": "R155",
+      "check_summary": "The supplied terms from 354 onward satisfy a_n=2a_{n-1}+a_{n-2}-3 for odd n and -2 for even n; earlier terms are retained as initialization.",
+      "confidence": 0.58,
+      "future_answer": [
+        "168784",
+        "407478",
+        "983738",
+        "2374951",
+        "5133638"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R155-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "predicted_holdout": [
+        "28960",
+        "69913"
+      ],
+      "response_sha256": "a328552fe4bc740adb82e792031a1c4981b514634e57a7603c62ca0bd947c28c",
+      "rule_summary": "Initialize with the supplied six-term transient, then apply the alternating-offset second-order recurrence a_n=2a_{n-1}+a_{n-2}-(3 if n is odd, otherwise 2), with one-based indexing.",
+      "survived": true,
+      "visible_holdout": [
+        "28960",
+        "69913"
+      ]
+    },
+    {
+      "case_id": "R155",
+      "check_summary": "All 11 supplied terms satisfy a_n=2a_{n-1}+a_{n-2}-3 for even n and -2 for odd n, with zero-based indexing.",
+      "confidence": 0.99,
+      "future_answer": [
+        "168784",
+        "407478",
+        "983738",
+        "2374951",
+        "5741393"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R155-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "predicted_holdout": [
+        "28960",
+        "69913"
+      ],
+      "response_sha256": "6969765b8db42fe40b84ca232c39c963bb426514223cc9f3a105ad0f861e5659",
+      "rule_summary": "Start with a_0=-17,a_1=14; for n>=2 use a_n=2a_{n-1}+a_{n-2}-(3 if n is even, otherwise 2).",
+      "survived": true,
+      "visible_holdout": [
+        "28960",
+        "69913"
+      ]
+    },
+    {
+      "case_id": "R155",
+      "check_summary": "From term 4 onward, each term equals twice the previous plus the term before that, minus 3 on even indices and minus 2 on odd indices; all supplied terms match exactly.",
+      "confidence": 0.98,
+      "future_answer": [
+        "193784",
+        "467478",
+        "1128738",
+        "2725711",
+        "6569938"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R155-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "predicted_holdout": [
+        "33960",
+        "79913"
+      ],
+      "response_sha256": "91d7c2d1d02abefd1f019369db788d3ec49193bdb4583367714e970959109315",
+      "rule_summary": "With a1=-17, a2=14, a3=8, use a_n=2a_(n-1)+a_(n-2)-(3 if n is even, otherwise 2) for n>=4.",
+      "survived": false,
+      "visible_holdout": [
+        "28960",
+        "69913"
+      ]
+    },
+    {
+      "case_id": "R155",
+      "check_summary": "All supplied terms replay exactly under the order-2 recurrence; corrections alternate -3, -2, beginning with -3 at the third term.",
+      "confidence": 0.96,
+      "future_answer": [
+        "203784",
+        "491478",
+        "1186738",
+        "2864951",
+        "6456638"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R155-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "predicted_holdout": [
+        "35960",
+        "83913"
+      ],
+      "response_sha256": "96f570a5d93639836725d79cf474315bb2f4583e027d99a78a4ce677d50d8f62",
+      "rule_summary": "With 1-based indexing, a_n=2a_{n-1}+a_{n-2}-3 for odd n and -2 for even n, initialized by a_1=-17 and a_2=14.",
+      "survived": false,
+      "visible_holdout": [
+        "28960",
+        "69913"
+      ]
+    },
+    {
+      "case_id": "R155",
+      "check_summary": "The recurrence reproduces all 10 supplied terms exactly; residual corrections alternate -3, -2 from the order-2 Pell-type recurrence.",
+      "confidence": 0.98,
+      "future_answer": [
+        "169784",
+        "409278",
+        "988338",
+        "2385951",
+        "5760238"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R155-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "predicted_holdout": [
+        "11996",
+        "28960",
+        "69913"
+      ],
+      "response_sha256": "a77f6333405dc7136939c54ca6486e69f65854bd6f51b4cef61a93c59e574ed4",
+      "rule_summary": "With zero-based index n, a_n = 2a_{n-1}+a_{n-2}-3 when n is even, and -2 when n is odd; initial values a_0=-17, a_1=14.",
+      "survived": true,
+      "visible_holdout": [
+        "11996",
+        "28960",
+        "69913"
+      ]
+    },
+    {
+      "case_id": "R155",
+      "check_summary": "The supplied terms replay exactly under the recurrence with alternating corrections: a_n=2a_{n-1}+a_{n-2}-3 for odd n and -2 for even n, for n>=4.",
+      "confidence": 0.86,
+      "future_answer": [
+        "168784",
+        "407478",
+        "983738",
+        "2374951",
+        "5733638"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R155-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "predicted_holdout": [
+        "11996",
+        "28960",
+        "69913"
+      ],
+      "response_sha256": "5e4bdd463e08ef76f56733704e65da9fbb5f4d5e4329ee042bc338e33ac95f4a",
+      "rule_summary": "Start with a1=-17,a2=14,a3=8; for n>=4 use a_n=2a_{n-1}+a_{n-2}-c_n, where c_n=2 when n is even and 3 when n is odd.",
+      "survived": true,
+      "visible_holdout": [
+        "11996",
+        "28960",
+        "69913"
+      ]
+    },
+    {
+      "case_id": "R155",
+      "check_summary": "Supplied first differences are 31,-6,20,33,87,206,500,1205,2911; from the third difference onward they satisfy d_n=2d_{n-1}+d_{n-2}+alternating ±1, reproducing every supplied term.",
+      "confidence": 0.82,
+      "future_answer": [
+        "168784",
+        "407478",
+        "983738",
+        "2374951",
+        "5733638"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R155-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "predicted_holdout": [
+        "11996",
+        "28960",
+        "69913"
+      ],
+      "response_sha256": "d3c2735de32f15293fec3ffd7304db56565d3f1c7144c19a1264eae3126a74a9",
+      "rule_summary": "Let d_n=x_n-x_{n-1}. Starting with d_1=31,d_2=-6, update d_n=2d_{n-1}+d_{n-2}+(-1)^{n+1} for n≥3, with signs +,-,+,-,...; then x_n=x_{n-1}+d_n. The update is reversible by solving backward for d_{n-2}.",
+      "survived": true,
+      "visible_holdout": [
+        "11996",
+        "28960",
+        "69913"
+      ]
+    },
+    {
+      "case_id": "R155",
+      "check_summary": "All supplied terms replay exactly under the recurrence; residual corrections from term 3 onward alternate -3, -2.",
+      "confidence": 0.76,
+      "future_answer": [
+        "168712",
+        "407298",
+        "983306",
+        "2373907",
+        "5731118"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R155-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "predicted_holdout": [
+        "11996",
+        "28960",
+        "69877"
+      ],
+      "response_sha256": "366573292a70bb90c68b3568fa08d54290cfded643b15ac3626cb145ceeddadc",
+      "rule_summary": "With a1=-17 and a2=14, use a_n=2a_(n-1)+a_(n-2)-2-(n mod 2) for n>=3, equivalently subtract 3 at odd n and 2 at even n.",
+      "survived": false,
+      "visible_holdout": [
+        "11996",
+        "28960",
+        "69913"
+      ]
+    },
+    {
+      "case_id": "R162",
+      "check_summary": "Prefix differences are +4 runs of lengths 1, 2, and 3, separated by jumps -9, -13, and -17; the jump magnitudes continue by -4 and the next +4 run has length 4.",
+      "confidence": 0.97,
+      "future_answer": [
+        "-11",
+        "-7",
+        "-28",
+        "-24",
+        "-20"
+      ],
+      "future_exact": true,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R162-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "predicted_holdout": [
+        "-19",
+        "-15"
+      ],
+      "response_sha256": "7b09ae2070c3b874fb62bcad97ac81a2a46b54f5fb67db2c72c23a5bd39f5e25",
+      "rule_summary": "Start at -8. Apply +4 repeatedly in runs of lengths 1, 2, 3, ...; after each run apply a negative jump whose magnitudes are 9, 13, 17, 21, ... (increasing by 4).",
+      "survived": true,
+      "visible_holdout": [
+        "-19",
+        "-15"
+      ]
+    },
+    {
+      "case_id": "R162",
+      "check_summary": "Prefix partitions into consecutive blocks of lengths 2, 3, 4: each block starts 5 lower than the previous and advances by 4.",
+      "confidence": 0.97,
+      "future_answer": [
+        "-11",
+        "-7",
+        "-28",
+        "-24",
+        "-20"
+      ],
+      "future_exact": true,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R162-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "predicted_holdout": [
+        "-19",
+        "-15"
+      ],
+      "response_sha256": "8dfba5c38c9c7e681cd7c5a2dbf318043beac514ad463469954e2976decdc642",
+      "rule_summary": "For block k=1,2,..., emit k+1 terms starting at -8-5(k-1), increasing by 4 within the block.",
+      "survived": true,
+      "visible_holdout": [
+        "-19",
+        "-15"
+      ]
+    },
+    {
+      "case_id": "R162",
+      "check_summary": "Prefix exactly fits segments of +4 repeated 1, 2, 3, then 4 times, with segment starts decreasing by 5: -8, -13, -18, -23.",
+      "confidence": 0.94,
+      "future_answer": [
+        "-11",
+        "-7",
+        "-28",
+        "-24",
+        "-20"
+      ],
+      "future_exact": true,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R162-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "predicted_holdout": [
+        "-19",
+        "-15"
+      ],
+      "response_sha256": "84b55a0ff167707600fc40b628010454802e6d6d25f4d3681df583f8b70c3ef9",
+      "rule_summary": "For segment n, start at -8-5n and emit n+1 terms by adding 4 after the start; equivalently concatenate starts -8,-13,-18,... with increasing runs of +4.",
+      "survived": true,
+      "visible_holdout": [
+        "-19",
+        "-15"
+      ]
+    },
+    {
+      "case_id": "R162",
+      "check_summary": "Starting at -8, supplied transitions are +4 except at indices 2, 5, and 9, where jumps are -9, -13, and -17; event gaps increase 3, 4, 5 and jump size decreases by 4.",
+      "confidence": 0.78,
+      "future_answer": [
+        "-11",
+        "-7",
+        "-28",
+        "-24",
+        "-20"
+      ],
+      "future_exact": true,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R162-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "predicted_holdout": [
+        "-19",
+        "-15"
+      ],
+      "response_sha256": "995095ea905eabae1c91fccc1fd775064d7f9380770865fa74977ef1c511da48",
+      "rule_summary": "Set a(0)=-8. For k>=1, at n=1+k(k+1)/2 use transition a(n)=a(n-1)-(4k+5); otherwise use a(n)=a(n-1)+4.",
+      "survived": true,
+      "visible_holdout": [
+        "-19",
+        "-15"
+      ]
+    },
+    {
+      "case_id": "R162",
+      "check_summary": "Grouped as blocks of lengths 2, 3, and 4: each block starts 5 lower than the prior and advances by 4; all 9 supplied terms replay exactly.",
+      "confidence": 0.88,
+      "future_answer": [
+        "-11",
+        "-7",
+        "-28",
+        "-24",
+        "-20"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R162-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "predicted_holdout": [
+        "-23",
+        "-19",
+        "-15"
+      ],
+      "response_sha256": "15b8b25a61cd7ea1b78114ca01fdf9cac67b17ef430f2124daa28702b30b2f4c",
+      "rule_summary": "For block n≥1, emit n+1 terms starting at -8-5(n-1), increasing by 4 within the block.",
+      "survived": true,
+      "visible_holdout": [
+        "-23",
+        "-19",
+        "-15"
+      ]
+    },
+    {
+      "case_id": "R162",
+      "check_summary": "Prefix decomposes exactly into rows of lengths 2, 3, and 4: starts -8, -13, -18, with within-row difference +4.",
+      "confidence": 0.93,
+      "future_answer": [
+        "-11",
+        "-7",
+        "-28",
+        "-24",
+        "-20"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R162-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "predicted_holdout": [
+        "-23",
+        "-19",
+        "-15"
+      ],
+      "response_sha256": "ec66132099d94e9b3607942ef2787996cf49204ac27552b033ef72a938b5ad3c",
+      "rule_summary": "Concatenate rows indexed r=0,1,2,...; row r has length r+2, starts at -(8+5r), and advances by 4 each term.",
+      "survived": true,
+      "visible_holdout": [
+        "-23",
+        "-19",
+        "-15"
+      ]
+    },
+    {
+      "case_id": "R162",
+      "check_summary": "Supplied prefix matches blocks beginning at triangular positions: reset values -8,-13,-18, followed by 1, 2, and 3 successive +4 steps.",
+      "confidence": 0.98,
+      "future_answer": [
+        "-11",
+        "-7",
+        "-28",
+        "-24",
+        "-20"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R162-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "predicted_holdout": [
+        "-23",
+        "-19",
+        "-15"
+      ],
+      "response_sha256": "0132f5209e3c4c529aa8acbda35e34dbd1ed7d2bbdb9e22a873d17cde4188990",
+      "rule_summary": "Partition into blocks of lengths 2, 3, 4, ...; each block starts 5 below the prior block start, then advances by +4 within the block. This is reversible by undoing +4 steps and block resets.",
+      "survived": true,
+      "visible_holdout": [
+        "-23",
+        "-19",
+        "-15"
+      ]
+    },
+    {
+      "case_id": "R162",
+      "check_summary": "Prefix differences are +4, then negative jumps -9 and -13 after runs of 1 and 2 positive steps; the proposed continuation uses subsequent jumps -17 and -21 after runs of 3 and 4 +4",
+      "confidence": 0.84,
+      "future_answer": [
+        "-11",
+        "-7",
+        "-28",
+        "-24",
+        "-20"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R162-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "predicted_holdout": [
+        "-23",
+        "-19",
+        "-15"
+      ],
+      "response_sha256": "d1b6caeb8c0d9e481fb0232114cf4606cb0c1bc1161dcbf0ea15af2023905e05",
+      "rule_summary": "For k=1,2,3,..., emit a negative jump -(4k+5), followed by k increments of +4; initialize at -8 with the initial +4 before the k=1 jump. Equivalent state rule: increase by 4, and after k such increases apply the next -(4",
+      "survived": true,
+      "visible_holdout": [
+        "-23",
+        "-19",
+        "-15"
+      ]
+    },
+    {
+      "case_id": "R145",
+      "check_summary": "The supplied prefix is replayed exactly by treating the observed six-term suffix as the repeating cycle.",
+      "confidence": 0.03,
+      "future_answer": [
+        "29",
+        "17",
+        "15",
+        "26",
+        "19"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R145-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "predicted_holdout": [
+        "19",
+        "22"
+      ],
+      "response_sha256": "8d16d49829cdc2defa469c4e34ce5b27e99300f315d7898b001d05444bd08d29",
+      "rule_summary": "Repeat the six-term block 19,16,19,21,26,14 cyclically after the supplied prefix; continuation uses the observed suffix cycle 19,22,29,17,15,26,19.",
+      "survived": false,
+      "visible_holdout": [
+        "29",
+        "26"
+      ]
+    },
+    {
+      "case_id": "R145",
+      "check_summary": "The supplied prefix is replayed exactly; continuation uses the shortest visible period-6 tail hypothesis.",
+      "confidence": 0.08,
+      "future_answer": [
+        "29",
+        "17",
+        "15",
+        "26",
+        "19"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R145-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "predicted_holdout": [
+        "19",
+        "22"
+      ],
+      "response_sha256": "d8cbdb5d0545c4c432d8644f9855bbfba5e7fb71e8e252030f1ba81d6422bc82",
+      "rule_summary": "After the initial six terms, repeat the six-term block [19,22,29,17,15,26] cyclically.",
+      "survived": false,
+      "visible_holdout": [
+        "29",
+        "26"
+      ]
+    },
+    {
+      "case_id": "R145",
+      "check_summary": "Exact replay of all 12 supplied terms under four aligned quadratic streams; continuation extrapolates each stream independently.",
+      "confidence": 0.08,
+      "future_answer": [
+        "7",
+        "33",
+        "19",
+        "32",
+        "-9"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R145-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "predicted_holdout": [
+        "28",
+        "22"
+      ],
+      "response_sha256": "d59421f378c56e13e2dff5b46376227de193ce3e10c09114803de88d531c6235",
+      "rule_summary": "Arrange terms as four interwoven streams by position modulo 4. Each stream follows a quadratic recurrence with constant second difference inferred from its three visible terms.",
+      "survived": false,
+      "visible_holdout": [
+        "29",
+        "26"
+      ]
+    },
+    {
+      "case_id": "R145",
+      "check_summary": "The supplied prefix was checked exactly as given; continuation confidence is low because multiple compact phase/state hypotheses remain viable.",
+      "confidence": 0.08,
+      "future_answer": [
+        "10",
+        "29",
+        "27",
+        "7",
+        "12"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R145-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "predicted_holdout": [
+        "0",
+        "3"
+      ],
+      "response_sha256": "1b18e8ed01bf3ea57e517c6de2b2fc2161fbe55234354202246a9a3ca957eed5",
+      "rule_summary": "Assumed a bounded phase-state sequence modulo 31, continuing the recent modular increment cycle.",
+      "survived": false,
+      "visible_holdout": [
+        "29",
+        "26"
+      ]
+    },
+    {
+      "case_id": "R145",
+      "check_summary": "Eight materially different recurrence, modular, interleaving, polynomial, periodic-difference, and digit-based hypotheses were compared; the selected rule reproduces all 11 visible",
+      "confidence": 0.08,
+      "future_answer": [
+        "13",
+        "18",
+        "21",
+        "28",
+        "16"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R145-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "predicted_holdout": [
+        "18",
+        "20",
+        "25"
+      ],
+      "response_sha256": "e589b7bd889574b2b8810385d8581a5984158a9d16feca5b0f704cb3a8585a0d",
+      "rule_summary": "Use the observed difference cycle 3,2,5,-12,5,3,7,-12 repeatedly from the final supplied term.",
+      "survived": false,
+      "visible_holdout": [
+        "26",
+        "29",
+        "26"
+      ]
+    },
+    {
+      "case_id": "R145",
+      "check_summary": "The supplied prefix is reproduced exactly by a 10-position cyclic coordinate sequence; continuation follows the same cycle alignment.",
+      "confidence": 0.08,
+      "future_answer": [
+        "21",
+        "26",
+        "14",
+        "19",
+        "22"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R145-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "predicted_holdout": [
+        "19",
+        "16",
+        "19"
+      ],
+      "response_sha256": "319d5401f0246bcaf66ab716086ca7d3fbde4d9df98a662dd808b97503ec74d1",
+      "rule_summary": "Index terms by position modulo 10 and repeat the observed coordinate cycle [19,16,19,21,26,14,19,22,29,17].",
+      "survived": false,
+      "visible_holdout": [
+        "26",
+        "29",
+        "26"
+      ]
+    },
+    {
+      "case_id": "R145",
+      "check_summary": "All 11 supplied terms replay exactly under the inferred phase-reset difference rule; wraparound is applied at the block boundary.",
+      "confidence": 0.08,
+      "future_answer": [
+        "22",
+        "10",
+        "15",
+        "18",
+        "25"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R145-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "predicted_holdout": [
+        "12",
+        "15",
+        "17"
+      ],
+      "response_sha256": "042ed32a61bb39834fa18e30e3403c01d67aff8e470cc34d77ad6bf7c9f7272d",
+      "rule_summary": "Use a repeating five-step modular difference phase, with the observed initial phase anchored at the supplied prefix and values emitted as canonical integers.",
+      "survived": false,
+      "visible_holdout": [
+        "26",
+        "29",
+        "26"
+      ]
+    },
+    {
+      "case_id": "R145",
+      "check_summary": "All 11 supplied terms replay exactly under the selected rule.",
+      "confidence": 0.08,
+      "future_answer": [
+        "1177439",
+        "3957947",
+        "11484663",
+        "29778086",
+        "70601883"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R145-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "predicted_holdout": [
+        "5068",
+        "50836",
+        "285733"
+      ],
+      "response_sha256": "49ebce0914f89a93c873672f0eebad6a909bae35fd04fc5072afaea349efda7e",
+      "rule_summary": "Unique degree-10 forward-difference polynomial through the supplied prefix; equivalently, extend the finite-difference table with constant tenth difference 2626.",
+      "survived": false,
+      "visible_holdout": [
+        "26",
+        "29",
+        "26"
+      ]
+    },
+    {
+      "case_id": "R166",
+      "check_summary": "Odd-position stream matches 1-5(-2)^(k-1) for k=1..5; even-position stream starts -5 with successive differences -4,-7,-10,-13.",
+      "confidence": 0.97,
+      "future_answer": [
+        "-319",
+        "-74",
+        "641",
+        "-90",
+        "-1279"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R166-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "predicted_holdout": [
+        "161",
+        "-55"
+      ],
+      "response_sha256": "313c6925f84bff30a431d316bdeada9eb0ef4de004dfa2ce6c9eb97948d70791",
+      "rule_summary": "Interleave two streams: odd term 2k-1 is 1-5(-2)^(k-1); even term 2k is -5-(k-1)(3k+2)/2-? Equivalently even values have first difference -[3k+1] from k to k+1, yielding -5,-9,-16,-26,...",
+      "survived": true,
+      "visible_holdout": [
+        "161",
+        "-55"
+      ]
+    },
+    {
+      "case_id": "R166",
+      "check_summary": "Odd-position terms satisfy a_n=-2a_{n-2}+3; even-position terms have constant second difference -3. Both rules reproduce all 10 supplied terms exactly.",
+      "confidence": 0.97,
+      "future_answer": [
+        "-319",
+        "-71",
+        "641",
+        "-90",
+        "-1279"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R166-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "predicted_holdout": [
+        "161",
+        "-55"
+      ],
+      "response_sha256": "6d73af25097c77c8627198008d42ff1b710e879181afc6f90e0a99f0a0d7b418",
+      "rule_summary": "Use separate parity recurrences: odd subsequence x_k=-2x_{k-1}+3, starting x_1=-4; even subsequence has successive differences decreasing by 3, starting -5,-9.",
+      "survived": true,
+      "visible_holdout": [
+        "161",
+        "-55"
+      ]
+    },
+    {
+      "case_id": "R166",
+      "check_summary": "Two interwoven streams exactly reproduce all 10 supplied terms: odd positions follow x↦-2x+3; even-position differences are -4,-7,-10,-13, continuing with decrement -3.",
+      "confidence": 0.82,
+      "future_answer": [
+        "-319",
+        "-74",
+        "647",
+        "-96",
+        "-1291"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R166-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "predicted_holdout": [
+        "161",
+        "-55"
+      ],
+      "response_sha256": "c7f5c3324653c72dfdf50f503824b7c46330d134db2585a274fa4f71fd0faae5",
+      "rule_summary": "Interleave two streams. Stream A starts -4 and repeatedly applies x↦-2x+3. Stream B starts -5 with successive differences -4-3k for k=0,1,2,…; reweave A,B.",
+      "survived": true,
+      "visible_holdout": [
+        "161",
+        "-55"
+      ]
+    },
+    {
+      "case_id": "R166",
+      "check_summary": "Odd-index subsequence follows u_next = -2u + 3; even-index differences decrease by 3. This reproduces all 10 supplied terms exactly.",
+      "confidence": 0.96,
+      "future_answer": [
+        "-319",
+        "-74",
+        "641",
+        "-96",
+        "-1279"
+      ],
+      "future_exact": true,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R166-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "predicted_holdout": [
+        "161",
+        "-55"
+      ],
+      "response_sha256": "14cff822adc7f510ae13ff97f63d961177fda18d2196da9e1b20722d52d077ea",
+      "rule_summary": "Initialize odd terms -4,11 and even terms -5,-9; generate odd terms by u_next=-2u+3, and generate even-term increments by subtracting 3 each step.",
+      "survived": true,
+      "visible_holdout": [
+        "161",
+        "-55"
+      ]
+    },
+    {
+      "case_id": "R166",
+      "check_summary": "Odd-index terms exactly follow x_next=-2x+3; even-index terms have constant second difference -3 across the supplied prefix.",
+      "confidence": 0.78,
+      "future_answer": [
+        "-319",
+        "-74",
+        "641",
+        "-96",
+        "-1279"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R166-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "predicted_holdout": [
+        "-39",
+        "161",
+        "-55"
+      ],
+      "response_sha256": "e7bc33e304755bf8037ce18c44ccb482a85cd3ed2232aedf713ffffaae95f9b3",
+      "rule_summary": "Use separate parity subsequences: odd terms recur as x_k=-2x_{k-1}+3, while even terms are generated by successive differences decreasing by 3.",
+      "survived": true,
+      "visible_holdout": [
+        "-39",
+        "161",
+        "-55"
+      ]
+    },
+    {
+      "case_id": "R166",
+      "check_summary": "Odd-index terms obey x_k=-2x_(k-1)+3; even-index terms have successive differences -4,-7,-10,... decreasing by 3. Both reproduce all 9 supplied terms exactly.",
+      "confidence": 0.86,
+      "future_answer": [
+        "-319",
+        "-74",
+        "641",
+        "-96",
+        "-1279"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R166-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "predicted_holdout": [
+        "-39",
+        "161",
+        "-55"
+      ],
+      "response_sha256": "d0bb06eaa2a95d39b9497393005a1429bf0ea1537881b5727cd39db5e77b76e9",
+      "rule_summary": "Separate ordinary indices by parity: odd subsequence starts -4 and follows x_k=-2x_(k-1)+3; even subsequence starts -5 with first difference -4 and second difference -3, so d_k=-4-3(k-1).",
+      "survived": true,
+      "visible_holdout": [
+        "-39",
+        "161",
+        "-55"
+      ]
+    },
+    {
+      "case_id": "R166",
+      "check_summary": "Odd-position terms satisfy O(k+1)=-2O(k)+3; even-position terms have successive differences -4,-7,-10, continuing by subtracting 3.",
+      "confidence": 0.72,
+      "future_answer": [
+        "-319",
+        "-74",
+        "641",
+        "-96",
+        "-1279"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R166-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "predicted_holdout": [
+        "-39",
+        "161",
+        "-55"
+      ],
+      "response_sha256": "8f42ea778bf9503801e673d481b8d39e3a6899db848f621da5b727156dd5204a",
+      "rule_summary": "Using 1-based positions, update odd subsequence O(k+1)=-2O(k)+3 and even subsequence E(k+1)=E(k)-3k-1; both invert deterministically backward.",
+      "survived": true,
+      "visible_holdout": [
+        "-39",
+        "161",
+        "-55"
+      ]
+    },
+    {
+      "case_id": "R166",
+      "check_summary": "Odd terms replay via a_n=-2a_{n-2}+3; even terms replay with successive differences -4,-7,-10, continuing by -3 each step.",
+      "confidence": 0.55,
+      "future_answer": [
+        "-319",
+        "-74",
+        "641",
+        "-96",
+        "-1279"
+      ],
+      "future_exact": true,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R166-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "predicted_holdout": [
+        "-39",
+        "161",
+        "-55"
+      ],
+      "response_sha256": "a9518a50debbf5e408f1a8a442cf52d7c7702d25e3a43cc8dc7cf9a58a0f0a0d",
+      "rule_summary": "Interleave two deterministic parity rules: odd a_n=-2a_{n-2}+3; even a_{2k}=-(3k^2-k+8)/2.",
+      "survived": true,
+      "visible_holdout": [
+        "-39",
+        "161",
+        "-55"
+      ]
+    },
+    {
+      "case_id": "R159",
+      "check_summary": "The supplied prefix is reproduced through the final transition  -1 to -22; continuation extrapolates the observed final decrement of 21.",
+      "confidence": 0.02,
+      "future_answer": [
+        "-85",
+        "-106",
+        "-127",
+        "-148",
+        "-169"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R159-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "predicted_holdout": [
+        "-43",
+        "-64"
+      ],
+      "response_sha256": "fa17dc2b14a45d5f4858f82e8db8080c92092d7b88325639454edf1fcb74512e",
+      "rule_summary": "Use the supplied prefix, then continue with a constant first difference of -21 from the final observed term.",
+      "survived": true,
+      "visible_holdout": [
+        "-43",
+        "-64"
+      ]
+    },
+    {
+      "case_id": "R159",
+      "check_summary": "Replayed all 11 supplied terms exactly using constant tenth finite difference -3015.",
+      "confidence": 0.08,
+      "future_answer": [
+        "-350214",
+        "-1429719",
+        "-4772646",
+        "-13773759",
+        "-35558375"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R159-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "predicted_holdout": [
+        "-6456",
+        "-63168"
+      ],
+      "response_sha256": "a3129fd46a3613b402cd269aaa61de5467633f37f913ca9a65564df4da642e7f",
+      "rule_summary": "Use the unique degree-10 Newton interpolation polynomial through the supplied 11 terms, equivalently extend the forward-difference table with constant tenth difference -3015.",
+      "survived": false,
+      "visible_holdout": [
+        "-43",
+        "-64"
+      ]
+    },
+    {
+      "case_id": "R159",
+      "check_summary": "The supplied prefix contains exact constant-difference runs of 0, -7, -14, and -21; the visible tail is -1, -22 with difference -21.",
+      "confidence": 0.18,
+      "future_answer": [
+        "-85",
+        "-106",
+        "-127",
+        "-148",
+        "-169"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R159-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "predicted_holdout": [
+        "-43",
+        "-64"
+      ],
+      "response_sha256": "c82f336c6a52878c048102ccc13e4c99ae8935d0212b0db96e350120f7e7375e",
+      "rule_summary": "Concatenate arithmetic segments whose successive steps decrease by 7; continue the current step -21 segment from -22.",
+      "survived": true,
+      "visible_holdout": [
+        "-43",
+        "-64"
+      ]
+    },
+    {
+      "case_id": "R159",
+      "check_summary": "The supplied prefix was replayed exactly through -22; continuation follows the inferred bounded-phase block pattern.",
+      "confidence": 0.08,
+      "future_answer": [
+        "-85",
+        "-15",
+        "-43",
+        "-71",
+        "-99"
+      ],
+      "future_exact": false,
+      "holdout_terms": 2,
+      "holdout_weight": 2,
+      "job_id": "visible-holdout-01-R159-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "predicted_holdout": [
+        "-43",
+        "-64"
+      ],
+      "response_sha256": "27afddfd5bc887440fdce2e6c3333e816c72525755a54e03510195ae2e4d14f7",
+      "rule_summary": "Affine block walk: repeated negative steps grow by 7 and block lengths increase by one, followed by phase-dependent positive resets inferred from the observed blocks.",
+      "survived": true,
+      "visible_holdout": [
+        "-43",
+        "-64"
+      ]
+    },
+    {
+      "case_id": "R159",
+      "check_summary": "Replayed all 10 supplied terms exactly using constant ninth finite difference 1434.",
+      "confidence": 0.08,
+      "future_answer": [
+        "509091",
+        "1581331",
+        "4267469",
+        "10345287",
+        "23035555"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R159-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "predicted_holdout": [
+        "2993",
+        "26510",
+        "134827"
+      ],
+      "response_sha256": "92c78cec4c83bb7749eb50899eb50ad72f866089ba072f20eb2c5b4dbb02ff0e",
+      "rule_summary": "Continue the unique degree-9 interpolating polynomial through the supplied ten indexed terms, equivalently preserve constant ninth finite difference 1434.",
+      "survived": false,
+      "visible_holdout": [
+        "-22",
+        "-43",
+        "-64"
+      ]
+    },
+    {
+      "case_id": "R159",
+      "check_summary": "All 10 supplied terms replay exactly under the stated interpolation rule.",
+      "confidence": 0.08,
+      "future_answer": [
+        "508611",
+        "1580611",
+        "4266461",
+        "10343943",
+        "23033827"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R159-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "predicted_holdout": [
+        "2945",
+        "26366",
+        "134539"
+      ],
+      "response_sha256": "b5a0cd35573b2ce8b22a00cf7d0cce6d30e4e53f369c004df40197d123d2e30f",
+      "rule_summary": "Use the unique degree-9 polynomial in the ordinary index n that matches the ten supplied values; equivalently, extend the constant ninth forward difference 1434.",
+      "survived": false,
+      "visible_holdout": [
+        "-22",
+        "-43",
+        "-64"
+      ]
+    },
+    {
+      "case_id": "R159",
+      "check_summary": "The supplied prefix is reproduced through a phase change into repeated subtraction by 14, with wraparound after crossing below -35.",
+      "confidence": 0.18,
+      "future_answer": [
+        "-9",
+        "-23",
+        "11",
+        "-3",
+        "-17"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R159-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "predicted_holdout": [
+        "-15",
+        "-29",
+        "5"
+      ],
+      "response_sha256": "74a80cfcd8cf130508267dce0199e945ca1ba9384b2c9564e462e2beb97f6b0d",
+      "rule_summary": "After the observed transition, subtract 14 each step; whenever the result is below -35, add 48.",
+      "survived": false,
+      "visible_holdout": [
+        "-22",
+        "-43",
+        "-64"
+      ]
+    },
+    {
+      "case_id": "R159",
+      "check_summary": "All 10 supplied terms replay exactly under the degree-9 Newton finite-difference rule with constant ninth difference 1434.",
+      "confidence": 0.18,
+      "future_answer": [
+        "509091",
+        "1581331",
+        "4267469",
+        "10345287",
+        "23035555"
+      ],
+      "future_exact": false,
+      "holdout_terms": 3,
+      "holdout_weight": 3,
+      "job_id": "visible-holdout-01-R159-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "predicted_holdout": [
+        "2993",
+        "26510",
+        "134827"
+      ],
+      "response_sha256": "e290c4960d106cc9cb7b944843c217cc2cfa92992a45a4a4f32b350d6b0338d2",
+      "rule_summary": "Algebraic rule: interpolate the supplied prefix with the unique degree-9 polynomial in the 1-based index and continue it. Procedural equivalent: extend the forward-difference table with constant ninth difference 1434, 8,",
+      "survived": false,
+      "visible_holdout": [
+        "-22",
+        "-43",
+        "-64"
+      ]
+    }
+  ],
+  "case_stats": {
+    "R145": {
+      "all_candidates_contain_truth": false,
+      "base_exact": false,
+      "family": "PDELTA",
+      "policy_exact": {
+        "any_survivor_plurality": false,
+        "cross_horizon_gate": false,
+        "holdout_weighted_plurality": false,
+        "longest_holdout_plurality": false,
+        "two_survivor_gate": false
+      },
+      "surviving_future_answers": [],
+      "survivor_contains_truth": false,
+      "survivor_count": 0
+    },
+    "R150": {
+      "all_candidates_contain_truth": true,
+      "base_exact": true,
+      "family": "LIN2",
+      "policy_exact": {
+        "any_survivor_plurality": true,
+        "cross_horizon_gate": true,
+        "holdout_weighted_plurality": true,
+        "longest_holdout_plurality": true,
+        "two_survivor_gate": true
+      },
+      "surviving_future_answers": [
+        [
+          "212389",
+          "-424763",
+          "849545",
+          "-1699077",
+          "3398171"
+        ],
+        [
+          "212389",
+          "-424763",
+          "849545",
+          "-1699087",
+          "3398195"
+        ],
+        [
+          "212393",
+          "-424767",
+          "849547",
+          "-1699077",
+          "3398175"
+        ]
+      ],
+      "survivor_contains_truth": true,
+      "survivor_count": 7
+    },
+    "R151": {
+      "all_candidates_contain_truth": true,
+      "base_exact": false,
+      "family": "PDELTA",
+      "policy_exact": {
+        "any_survivor_plurality": true,
+        "cross_horizon_gate": true,
+        "holdout_weighted_plurality": true,
+        "longest_holdout_plurality": true,
+        "two_survivor_gate": true
+      },
+      "surviving_future_answers": [
+        [
+          "-56",
+          "-33",
+          "-56",
+          "-71",
+          "-43"
+        ],
+        [
+          "-56",
+          "-33",
+          "-56",
+          "-72",
+          "-43"
+        ],
+        [
+          "-56",
+          "-33",
+          "-56",
+          "-72",
+          "-94"
+        ]
+      ],
+      "survivor_contains_truth": true,
+      "survivor_count": 6
+    },
+    "R152": {
+      "all_candidates_contain_truth": true,
+      "base_exact": true,
+      "family": "LIN2",
+      "policy_exact": {
+        "any_survivor_plurality": true,
+        "cross_horizon_gate": true,
+        "holdout_weighted_plurality": true,
+        "longest_holdout_plurality": true,
+        "two_survivor_gate": true
+      },
+      "surviving_future_answers": [
+        [
+          "11306",
+          "30890",
+          "84394",
+          "230570",
+          "629930"
+        ]
+      ],
+      "survivor_contains_truth": true,
+      "survivor_count": 5
+    },
+    "R155": {
+      "all_candidates_contain_truth": true,
+      "base_exact": true,
+      "family": "LIN2",
+      "policy_exact": {
+        "any_survivor_plurality": true,
+        "cross_horizon_gate": true,
+        "holdout_weighted_plurality": true,
+        "longest_holdout_plurality": true,
+        "two_survivor_gate": true
+      },
+      "surviving_future_answers": [
+        [
+          "168784",
+          "407478",
+          "983738",
+          "2374951",
+          "5133638"
+        ],
+        [
+          "168784",
+          "407478",
+          "983738",
+          "2374951",
+          "5733638"
+        ],
+        [
+          "168784",
+          "407478",
+          "983738",
+          "2374951",
+          "5741393"
+        ],
+        [
+          "169784",
+          "409278",
+          "988338",
+          "2385951",
+          "5760238"
+        ]
+      ],
+      "survivor_contains_truth": true,
+      "survivor_count": 5
+    },
+    "R158": {
+      "all_candidates_contain_truth": false,
+      "base_exact": false,
+      "family": "MODAFFINE",
+      "policy_exact": {
+        "any_survivor_plurality": false,
+        "cross_horizon_gate": false,
+        "holdout_weighted_plurality": false,
+        "longest_holdout_plurality": false,
+        "two_survivor_gate": false
+      },
+      "surviving_future_answers": [],
+      "survivor_contains_truth": false,
+      "survivor_count": 0
+    },
+    "R159": {
+      "all_candidates_contain_truth": false,
+      "base_exact": false,
+      "family": "GROWBLOCK",
+      "policy_exact": {
+        "any_survivor_plurality": false,
+        "cross_horizon_gate": false,
+        "holdout_weighted_plurality": false,
+        "longest_holdout_plurality": false,
+        "two_survivor_gate": false
+      },
+      "surviving_future_answers": [
+        [
+          "-85",
+          "-106",
+          "-127",
+          "-148",
+          "-169"
+        ],
+        [
+          "-85",
+          "-15",
+          "-43",
+          "-71",
+          "-99"
+        ]
+      ],
+      "survivor_contains_truth": false,
+      "survivor_count": 3
+    },
+    "R160": {
+      "all_candidates_contain_truth": true,
+      "base_exact": false,
+      "family": "LAGPOLY",
+      "policy_exact": {
+        "any_survivor_plurality": true,
+        "cross_horizon_gate": false,
+        "holdout_weighted_plurality": true,
+        "longest_holdout_plurality": true,
+        "two_survivor_gate": true
+      },
+      "surviving_future_answers": [
+        [
+          "34",
+          "-38",
+          "-34",
+          "61",
+          "-52"
+        ]
+      ],
+      "survivor_contains_truth": true,
+      "survivor_count": 2
+    },
+    "R161": {
+      "all_candidates_contain_truth": false,
+      "base_exact": false,
+      "family": "MODAFFINE",
+      "policy_exact": {
+        "any_survivor_plurality": false,
+        "cross_horizon_gate": false,
+        "holdout_weighted_plurality": false,
+        "longest_holdout_plurality": false,
+        "two_survivor_gate": false
+      },
+      "surviving_future_answers": [],
+      "survivor_contains_truth": false,
+      "survivor_count": 0
+    },
+    "R162": {
+      "all_candidates_contain_truth": true,
+      "base_exact": false,
+      "family": "GROWBLOCK",
+      "policy_exact": {
+        "any_survivor_plurality": true,
+        "cross_horizon_gate": true,
+        "holdout_weighted_plurality": true,
+        "longest_holdout_plurality": true,
+        "two_survivor_gate": true
+      },
+      "surviving_future_answers": [
+        [
+          "-11",
+          "-7",
+          "-28",
+          "-24",
+          "-20"
+        ]
+      ],
+      "survivor_contains_truth": true,
+      "survivor_count": 8
+    },
+    "R163": {
+      "all_candidates_contain_truth": true,
+      "base_exact": false,
+      "family": "GROWBLOCK",
+      "policy_exact": {
+        "any_survivor_plurality": true,
+        "cross_horizon_gate": true,
+        "holdout_weighted_plurality": true,
+        "longest_holdout_plurality": true,
+        "two_survivor_gate": true
+      },
+      "surviving_future_answers": [
+        [
+          "21",
+          "-87",
+          "-61",
+          "-35",
+          "-9"
+        ],
+        [
+          "21",
+          "-95",
+          "-63",
+          "-31",
+          "1"
+        ],
+        [
+          "21",
+          "-95",
+          "-69",
+          "-43",
+          "-17"
+        ]
+      ],
+      "survivor_contains_truth": true,
+      "survivor_count": 5
+    },
+    "R164": {
+      "all_candidates_contain_truth": false,
+      "base_exact": false,
+      "family": "INTERLEAVE",
+      "policy_exact": {
+        "any_survivor_plurality": false,
+        "cross_horizon_gate": false,
+        "holdout_weighted_plurality": false,
+        "longest_holdout_plurality": false,
+        "two_survivor_gate": false
+      },
+      "surviving_future_answers": [],
+      "survivor_contains_truth": false,
+      "survivor_count": 0
+    },
+    "R165": {
+      "all_candidates_contain_truth": true,
+      "base_exact": true,
+      "family": "INTERLEAVE",
+      "policy_exact": {
+        "any_survivor_plurality": true,
+        "cross_horizon_gate": true,
+        "holdout_weighted_plurality": true,
+        "longest_holdout_plurality": true,
+        "two_survivor_gate": true
+      },
+      "surviving_future_answers": [
+        [
+          "-19",
+          "21",
+          "587",
+          "-27",
+          "28"
+        ]
+      ],
+      "survivor_contains_truth": true,
+      "survivor_count": 2
+    },
+    "R166": {
+      "all_candidates_contain_truth": true,
+      "base_exact": true,
+      "family": "INTERLEAVE",
+      "policy_exact": {
+        "any_survivor_plurality": true,
+        "cross_horizon_gate": true,
+        "holdout_weighted_plurality": true,
+        "longest_holdout_plurality": true,
+        "two_survivor_gate": true
+      },
+      "surviving_future_answers": [
+        [
+          "-319",
+          "-71",
+          "641",
+          "-90",
+          "-1279"
+        ],
+        [
+          "-319",
+          "-74",
+          "641",
+          "-90",
+          "-1279"
+        ],
+        [
+          "-319",
+          "-74",
+          "641",
+          "-96",
+          "-1279"
+        ],
+        [
+          "-319",
+          "-74",
+          "647",
+          "-96",
+          "-1291"
+        ]
+      ],
+      "survivor_contains_truth": true,
+      "survivor_count": 8
+    },
+    "R167": {
+      "all_candidates_contain_truth": false,
+      "base_exact": false,
+      "family": "LAGPOLY",
+      "policy_exact": {
+        "any_survivor_plurality": false,
+        "cross_horizon_gate": false,
+        "holdout_weighted_plurality": false,
+        "longest_holdout_plurality": false,
+        "two_survivor_gate": false
+      },
+      "surviving_future_answers": [],
+      "survivor_contains_truth": false,
+      "survivor_count": 0
+    },
+    "R168": {
+      "all_candidates_contain_truth": true,
+      "base_exact": true,
+      "family": "MODAFFINE",
+      "policy_exact": {
+        "any_survivor_plurality": true,
+        "cross_horizon_gate": true,
+        "holdout_weighted_plurality": true,
+        "longest_holdout_plurality": true,
+        "two_survivor_gate": true
+      },
+      "surviving_future_answers": [
+        [
+          "32",
+          "31",
+          "25",
+          "56",
+          "41"
+        ],
+        [
+          "32",
+          "31",
+          "25",
+          "56",
+          "42"
+        ]
+      ],
+      "survivor_contains_truth": true,
+      "survivor_count": 4
+    }
+  },
+  "holdout_survivors": 55,
+  "interpretation_rule": "This score uses already-open B13/B14 cases and is development evidence only. Any promoted selector must be frozen before a new fresh gate.",
+  "lens_stats": {
+    "adversarial_mdl_h3": {
+      "both": 5,
+      "calls": 16,
+      "future_exact": 5,
+      "holdout_survivors": 7
+    },
+    "bounded_phase_state_h2": {
+      "both": 2,
+      "calls": 16,
+      "future_exact": 2,
+      "holdout_survivors": 5
+    },
+    "broad_program_search_h2": {
+      "both": 4,
+      "calls": 16,
+      "future_exact": 4,
+      "holdout_survivors": 8
+    },
+    "coordinate_geometry_h3": {
+      "both": 8,
+      "calls": 16,
+      "future_exact": 8,
+      "holdout_survivors": 8
+    },
+    "forward_backward_state_h3": {
+      "both": 5,
+      "calls": 16,
+      "future_exact": 5,
+      "holdout_survivors": 6
+    },
+    "independent_rule_duel_h3": {
+      "both": 4,
+      "calls": 16,
+      "future_exact": 4,
+      "holdout_survivors": 5
+    },
+    "interwoven_segment_h2": {
+      "both": 6,
+      "calls": 16,
+      "future_exact": 6,
+      "holdout_survivors": 8
+    },
+    "recurrence_difference_h2": {
+      "both": 5,
+      "calls": 16,
+      "future_exact": 5,
+      "holdout_survivors": 8
+    }
+  },
+  "policies": {
+    "any_survivor_plurality": {
+      "cases": 24,
+      "correct_terms": 93,
+      "exact": 18,
+      "exact_accuracy": 0.75,
+      "harmful_overrides": 0,
+      "term_accuracy": 0.775,
+      "terms": 120,
+      "useful_overrides": 4
+    },
+    "cross_horizon_gate": {
+      "cases": 24,
+      "correct_terms": 88,
+      "exact": 17,
+      "exact_accuracy": 0.7083333333333334,
+      "harmful_overrides": 0,
+      "term_accuracy": 0.7333333333333333,
+      "terms": 120,
+      "useful_overrides": 3
+    },
+    "holdout_weighted_plurality": {
+      "cases": 24,
+      "correct_terms": 93,
+      "exact": 18,
+      "exact_accuracy": 0.75,
+      "harmful_overrides": 0,
+      "term_accuracy": 0.775,
+      "terms": 120,
+      "useful_overrides": 4
+    },
+    "longest_holdout_plurality": {
+      "cases": 24,
+      "correct_terms": 93,
+      "exact": 18,
+      "exact_accuracy": 0.75,
+      "harmful_overrides": 0,
+      "term_accuracy": 0.775,
+      "terms": 120,
+      "useful_overrides": 4
+    },
+    "two_survivor_gate": {
+      "cases": 24,
+      "correct_terms": 93,
+      "exact": 18,
+      "exact_accuracy": 0.75,
+      "harmful_overrides": 0,
+      "term_accuracy": 0.775,
+      "terms": 120,
+      "useful_overrides": 4
+    }
+  },
+  "routed_cases": [
+    "R145",
+    "R150",
+    "R151",
+    "R152",
+    "R155",
+    "R158",
+    "R159",
+    "R160",
+    "R161",
+    "R162",
+    "R163",
+    "R164",
+    "R165",
+    "R166",
+    "R167",
+    "R168"
+  ],
+  "routed_count": 16,
+  "schema_version": "5.2-exploration",
+  "sha256": {
+    "answers": "65d4f08d3d563da1e709c0be33c97a6f69f329ed9f8de0b65c43146789d2e71a",
+    "base_predictions": "1fac40c45f8729e42e084e0f037bc2603e30c3b71b644cbfe51aa45d967ff715",
+    "holdout_truth": "1e54631ccb69de9c99ed18c9c9a05446f66283344a73f114b0692e69bc5c44b8",
+    "job_manifest": "50f8e6271d8ed5a4b8385b12feb46082f1590a907431fcb98b3fa3c137c9d207"
+  },
+  "status": "open_development_not_validation",
+  "survivor_oracle_on_routed_cases": {
+    "cases": 16,
+    "exact": 10,
+    "exact_accuracy": 0.625
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "adapter": "experiment/scripts/generate_benchmark.py",
+  "adapter_sha256": "8d0f4cd479d88499a9f7355b04a6bfed93b3c954b7e86f1647f81a3a7bd52897",
+  "benchmark_id": "ruleweave-5-adaptive-director-v1",
+  "block_schema_version": "5.0",
+  "case_count": 336,
+  "experiment_id": "swarm-seeds-05",
+  "root_seed": "swarm-seeds-05-adaptive-orchestration-search-2026-07-13-a",
+  "root_seed_sha256": "d66bc0cc596db67c6ef2ed58501be798b4291e962b6579e32e2cbd4d50a34258",
+  "ruleweave_generator": "../03-evolving-light-swarms/experiment/scripts/generate_benchmark.py",
+  "ruleweave_generator_sha256": "209f4b2049a22f50ee0a1e4f378864fbc8aca1b12205ee10714e41c80ac72209"
+}

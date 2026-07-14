@@ -1,0 +1,20 @@
+{
+  "schema_version": "5.0",
+  "lenses": {
+    "generalist": "Search broadly for the simplest exact global rule. Compare direct formulas, recurrences, phases, streams, bounded wraps, and block procedures without treating this as an exhaustive list.",
+    "mdl_suffix_holdout": "Generate several rules, test each on a hidden suffix, and rank survivors by shortest exact description. Refit only after a rule predicts the suffix.",
+    "hypothesis_tournament": "Construct at least four materially different hypotheses. Falsify each on the earliest possible visible transition and return only the strongest exact survivor.",
+    "wildcard_compression": "Seek a compact non-obvious generator as well as the conventional trend. Choose whichever compresses the whole prefix and predicts a suffix with fewer free choices.",
+    "block_boundary_table": "Mark possible boundaries and tabulate segment length, start, step, and internal shape. Predict the next boundary and the continuation within the new segment.",
+    "modular_affine_slow": "Carefully test whether a bounded irregular-looking sequence follows multiply-plus-offset updates with wraparound. Infer all constants from repeated transitions and verify every wrap before continuing.",
+    "modulus_equation": "For plausible affine updates, compare raw predictions with observations. Their nonzero residuals must share a modulus larger than observed residues; use that constraint to solve and replay the update exactly.",
+    "phase_modular_table": "Separate transitions by a few candidate phases, solve a bounded affine update within each phase, and require all phases to share one modulus and replay all observations.",
+    "growing_block_slow": "Try variable-length consecutive blocks explicitly. Test simple laws for block lengths, starting values, within-block steps, and how those quantities change from block to block.",
+    "interwoven_stream_slow": "Try several stream counts and alignments. Allow each extracted stream its own compact polynomial or recurrence, verify each separately, then weave the next five positions.",
+    "lag_class_slow": "For small lags, build each residue-position subsequence and its finite differences by cycle index. Continue every class independently and restore the original ordering.",
+    "periodic_delta_slow": "Arrange increments and higher differences by candidate phase. Fit a compact evolution down each phase column and verify the latest full cycle before extrapolation.",
+    "recurrence_exhaustive": "Systematically test low-order linear and affine recurrences, including small periodic coefficients or offsets. Replay all transitions and audit the five-step arithmetic.",
+    "full_difference_audit": "Construct complete finite-difference tables for the sequence and for plausible subsequences. Prefer the lowest stable order and reject patterns visible only at the end.",
+    "internal_panel": "Solve the case independently from algebraic, recursive, and procedural viewpoints. Cross-examine disagreements using suffix prediction and return the one rule that survives."
+  }
+}

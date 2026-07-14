@@ -1,0 +1,12 @@
+{
+  "artifact_type": "visible-holdout-recovery-preparation-summary",
+  "holdout_truth_sha256": "3ece0323447ebfa6bc0cc746ca980a82c3ee5033db31acb09a4c8a71a6b7b280",
+  "job_manifest_sha256": "be299755fcdfffeb7292b39abcb63c8987c0d0a11141fd78671532d0a30c9305",
+  "lenses_per_case": 8,
+  "logical_jobs": 64,
+  "phase": "fresh-80-gate-03-holdout-02",
+  "route_manifest_sha256": "e554480aa195a3818c3252466112045c2bf52d135a9b2fd6e1fcdf1d98834f12",
+  "schema_version": "5.2-exploration",
+  "selected_cases": 8,
+  "strategy_sha256": "b453b44bd70fed050f344b374457d7d86972e62e673e78a9d9bd1a1602ea0d61"
+}

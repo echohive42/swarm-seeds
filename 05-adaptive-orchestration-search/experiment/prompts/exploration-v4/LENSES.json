@@ -1,0 +1,20 @@
+{
+  "schema_version": "5.0",
+  "lenses": {
+    "generalist": "Search broadly for the simplest exact global rule. Compare direct formulas, recurrences, phases, streams, bounded wraps, and block procedures without treating this as an exhaustive list.",
+    "growing_block_slow": "Try variable-length consecutive blocks explicitly. Test simple laws for block lengths, starting values, within-block steps, and how those quantities change from block to block.",
+    "hypothesis_tournament": "Construct at least four materially different hypotheses. Falsify each on the earliest possible visible transition and return only the strongest exact survivor.",
+    "internal_panel": "Solve the case independently from algebraic, recursive, and procedural viewpoints. Cross-examine disagreements using suffix prediction and return the one rule that survives.",
+    "interwoven_stream_slow": "Try several stream counts and alignments. Allow each extracted stream its own compact polynomial or recurrence, verify each separately, then weave the next five positions.",
+    "lag_class_slow": "For small lags, build each residue-position subsequence and its finite differences by cycle index. Continue every class independently and restore the original ordering.",
+    "mdl_suffix_holdout": "Generate several rules, test each on a hidden suffix, and rank survivors by shortest exact description. Refit only after a rule predicts the suffix.",
+    "modulus_equation": "For plausible affine updates, compare raw predictions with observations. Their nonzero residuals must share a modulus larger than observed residues; use that constraint to solve and replay the update exactly.",
+    "periodic_delta_slow": "Arrange increments and higher differences by candidate phase. Fit a compact evolution down each phase column and verify the latest full cycle before extrapolation.",
+    "recurrence_exhaustive": "Systematically test low-order linear and affine recurrences, including small periodic coefficients or offsets. Replay all transitions and audit the five-step arithmetic.",
+    "wildcard_compression": "Seek a compact non-obvious generator as well as the conventional trend. Choose whichever compresses the whole prefix and predicts a suffix with fewer free choices.",
+    "bounded_state_reconstruction": "When values look irregular but remain bounded, solve exact congruence constraints for multiply-plus-offset state updates. Infer a modulus and constants from all transitions, verify every wrap, and reject any fit that needs exceptions.",
+    "phase_bounded_reconstruction": "Test a few phase periods for bounded state updates. Solve each phase transition algebraically under one shared modulus, replay the entire prefix, and continue only a fully consistent system.",
+    "variable_segment_reconstruction": "Enumerate plausible segment boundaries and represent each term by segment number and position within the segment. Infer compact laws for segment length, start, step, and internal shape, then predict the next boundary exactly.",
+    "coordinate_system_duel": "Re-express the prefix in several coordinate systems: ordinary index, residue classes, consecutive segments, and first or higher differences. Fully reconstruct a late suffix in each viable system and use the shortest exact generator."
+  }
+}

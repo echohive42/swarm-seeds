@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">A concrete visible-holdout correction</title>
+<desc id="desc">On sequence S016 the base plurality was wrong. Holdout agents first recovered the removed public terms 24 and 60, then correctly predicted 8, minus 2, 44, 79, and 28. The sequence splits into four residue streams whose step changes are linear.</desc>
+<rect width="1600" height="900" fill="#090b12"/>
+<text x="110.0" y="100.0" fill="#f4f3ee" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="52" font-weight="500" text-anchor="start">A REAL CORRECTION: S016</text>
+<text x="110.0" y="153.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="25" font-weight="400" text-anchor="start">Predict the hidden public suffix before the unknown future</text>
+<text x="110.0" y="235.0" fill="#a78bfa" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="19" font-weight="500" text-anchor="start">BASE PLURALITY</text>
+<text x="330.0" y="235.0" fill="#a78bfa" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="28" font-weight="500" text-anchor="start">44, -2, 8, 79, 71</text>
+<text x="700.0" y="235.0" fill="#ff7a90" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" text-anchor="start">wrong</text>
+<text x="110.0" y="310.0" fill="#ffd166" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="19" font-weight="500" text-anchor="start">VISIBLE HOLDOUT</text>
+<text x="330.0" y="310.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="23" font-weight="400" text-anchor="start">agent sees terms 1 to 12</text>
+<text x="760.0" y="310.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" text-anchor="start">must recover</text>
+<text x="915.0" y="310.0" fill="#ffd166" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="28" font-weight="500" text-anchor="start">24, 60</text>
+<text x="1070.0" y="310.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" text-anchor="start">before forecasting</text>
+<text x="110.0" y="385.0" fill="#63e6be" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="19" font-weight="500" text-anchor="start">VERIFIED OUTPUT</text>
+<text x="330.0" y="385.0" fill="#ffd166" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="28" font-weight="500" text-anchor="start">24, 60</text>
+<text x="470.0" y="385.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="28" font-weight="400" text-anchor="start">|</text>
+<text x="505.0" y="385.0" fill="#63e6be" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="28" font-weight="500" text-anchor="start">8, -2, 44, 79, 28</text>
+<text x="875.0" y="385.0" fill="#63e6be" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" text-anchor="start">exact</text>
+<line x1="110" y1="438" x2="1490" y2="438" stroke="#2b3040" stroke-width="2"/>
+<text x="110.0" y="492.0" fill="#4de2ff" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="19" font-weight="500" text-anchor="start">WHY IT WORKS</text>
+<text x="330.0" y="492.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="23" font-weight="400" text-anchor="start">Split every fourth term. Each row has a linear change in its step.</text>
+<text x="110.0" y="570.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" text-anchor="start">positions 1,5,9...</text>
+<text x="390.0" y="570.0" fill="#f4f3ee" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">6</text>
+<line x1="425" y1="562" x2="485" y2="562" stroke="#2b3040" stroke-width="3"/>
+<text x="520.0" y="570.0" fill="#f4f3ee" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">5</text>
+<line x1="555" y1="562" x2="615" y2="562" stroke="#2b3040" stroke-width="3"/>
+<text x="650.0" y="570.0" fill="#f4f3ee" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">11</text>
+<line x1="685" y1="562" x2="745" y2="562" stroke="#2b3040" stroke-width="3"/>
+<text x="780.0" y="570.0" fill="#ffd166" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">24</text>
+<line x1="815" y1="562" x2="875" y2="562" stroke="#2b3040" stroke-width="3"/>
+<text x="910.0" y="570.0" fill="#63e6be" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">44</text>
+<text x="1100.0" y="570.0" fill="#4de2ff" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" text-anchor="start">steps -1, 6, 13, 20  (+7)</text>
+<text x="110.0" y="640.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" text-anchor="start">positions 2,6,10...</text>
+<text x="390.0" y="640.0" fill="#f4f3ee" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">27</text>
+<line x1="425" y1="632" x2="485" y2="632" stroke="#2b3040" stroke-width="3"/>
+<text x="520.0" y="640.0" fill="#f4f3ee" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">34</text>
+<line x1="555" y1="632" x2="615" y2="632" stroke="#2b3040" stroke-width="3"/>
+<text x="650.0" y="640.0" fill="#f4f3ee" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">45</text>
+<line x1="685" y1="632" x2="745" y2="632" stroke="#2b3040" stroke-width="3"/>
+<text x="780.0" y="640.0" fill="#ffd166" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">60</text>
+<line x1="815" y1="632" x2="875" y2="632" stroke="#2b3040" stroke-width="3"/>
+<text x="910.0" y="640.0" fill="#63e6be" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">79</text>
+<text x="1100.0" y="640.0" fill="#4de2ff" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" text-anchor="start">steps 7, 11, 15, 19  (+4)</text>
+<text x="110.0" y="710.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" text-anchor="start">positions 3,7,11...</text>
+<text x="390.0" y="710.0" fill="#f4f3ee" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">-28</text>
+<line x1="425" y1="702" x2="485" y2="702" stroke="#2b3040" stroke-width="3"/>
+<text x="520.0" y="710.0" fill="#f4f3ee" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">-20</text>
+<line x1="555" y1="702" x2="615" y2="702" stroke="#2b3040" stroke-width="3"/>
+<text x="650.0" y="710.0" fill="#f4f3ee" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">-8</text>
+<line x1="685" y1="702" x2="745" y2="702" stroke="#2b3040" stroke-width="3"/>
+<text x="780.0" y="710.0" fill="#63e6be" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">8</text>
+<line x1="815" y1="702" x2="875" y2="702" stroke="#2b3040" stroke-width="3"/>
+<text x="910.0" y="710.0" fill="#63e6be" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">28</text>
+<text x="1100.0" y="710.0" fill="#4de2ff" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" text-anchor="start">steps 8, 12, 16, 20  (+4)</text>
+<text x="110.0" y="780.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" text-anchor="start">positions 4,8,12...</text>
+<text x="390.0" y="780.0" fill="#f4f3ee" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">-20</text>
+<line x1="425" y1="772" x2="485" y2="772" stroke="#2b3040" stroke-width="3"/>
+<text x="520.0" y="780.0" fill="#f4f3ee" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">-16</text>
+<line x1="555" y1="772" x2="615" y2="772" stroke="#2b3040" stroke-width="3"/>
+<text x="650.0" y="780.0" fill="#f4f3ee" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">-10</text>
+<line x1="685" y1="772" x2="745" y2="772" stroke="#2b3040" stroke-width="3"/>
+<text x="780.0" y="780.0" fill="#63e6be" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" text-anchor="middle">-2</text>
+<text x="1100.0" y="780.0" fill="#4de2ff" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" text-anchor="start">steps 4, 6, 8  (+2)</text>
+<text x="110.0" y="862.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="19" font-weight="400" text-anchor="start">Gold terms were already public but hidden from the verifier. Green terms are the continuation.</text>
+</svg>

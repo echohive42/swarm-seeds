@@ -1,0 +1,56 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-deep-prompt-evolution-result",
+  "cycle_id": "exploration-deep-evolution-01",
+  "completed_at_utc": "2026-07-14T02:00:13Z",
+  "status": "complete_open_development",
+  "model": "gpt-5.6-luna",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "selected_case_count": 7,
+  "deep_prompt_count": 8,
+  "logical_calls": 56,
+  "model_attempts": 56,
+  "valid_jobs": 56,
+  "failed_jobs": 0,
+  "best_individual_deep_prompt": {
+    "lens_id": "phase_congruence_solver",
+    "exact": 5,
+    "cases": 7,
+    "exact_accuracy": 0.7142857142857143
+  },
+  "deep_candidate_oracle": {
+    "exact": 5,
+    "cases": 7,
+    "exact_accuracy": 0.7142857142857143
+  },
+  "promoted_development_policy": {
+    "router": "Select cases where all eleven base prompts return distinct answers, capped at eight by lowest mean confidence then case_id.",
+    "deep_prompts": [
+      "interwoven_lag_forensics",
+      "phase_congruence_solver",
+      "recurrence_procedure_duel"
+    ],
+    "override": "Replace the extended fifteen-prompt plurality on routed cases with deterministic plurality across the three deep prompts.",
+    "development_exact": 20,
+    "development_cases": 24,
+    "development_exact_accuracy": 0.8333333333333334,
+    "development_overrides": 4
+  },
+  "diagnosis": [
+    "Single-case phase-congruence reasoning was the largest generation improvement, solving five of seven maximally disputed cases.",
+    "Several distinct three-prompt deep subsets raised the complete development system to 20/24, reducing dependence on a unique post-hoc combination.",
+    "The promoted trio includes one broad interwoven/lag solver, one phase-congruence solver, and one recurrence/procedure solver for better structural coverage.",
+    "The 83.3% score is open development only. The full router, trio, cap, and unconditional deep-plurality override must be frozen before fresh calls."
+  ],
+  "sha256": {
+    "registration": "2f5f3049ef0a1ae1d7dd36bda2e53b48d2e8126ece25cad371daaae706664c25",
+    "predictions": "6dc935a044592c5f2aa5302d299b09e3519b7a5e264c8d0bdc9637a91ad8e14e",
+    "run_summary": "5955d2a87d22f79d3904e6c0e6234fc0f76387e1e3f18415b254886fd0d778fe",
+    "attempt_ledger": "c1c8b8625987728544642cc206bd85d7b5cb0ffe9f670ed391438a5399f55586",
+    "operational_summary": "f3b2f334b354165d6e0ec9b6087004f77fe3d6e60c3e1011826bc3340c2010f2",
+    "common_prefix": "39ee4def55399ea98a94be45d980f8ba9026170444ea149d32d762ee28b9e9db",
+    "lens_catalog": "8a78dbc59b71af63105eef9f2b6ef05c82004a73e7132ab93f963fe4c34076cf",
+    "strategy_batch": "bd1e36e6c0d2d8a1562942dd1dd8abd082f812ff7d91c3d9fb0858e0a66bc5cf"
+  }
+}

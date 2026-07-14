@@ -1,0 +1,91 @@
+{
+  "actual_logical_calls": 60,
+  "artifact_type": "experiment-05-run-summary",
+  "blocks": [
+    "research-b05a",
+    "research-b05b",
+    "research-b06a",
+    "research-b06b"
+  ],
+  "common_prefix_sha256": "5699b95288c980f71bfebefe43d5e267ad8247d8772136def1b1ac69a21102dd",
+  "concurrency": 60,
+  "lens_catalog_sha256": "b772e2a944b4b076c7b18149ca3e5437ccb076eb1ffe1a5d62e635b314f0226d",
+  "model": "gpt-5.6-luna",
+  "per_strategy_calls": {
+    "ED01-A": 60
+  },
+  "phase": "exploration-depth-01",
+  "planned_max_calls": 60,
+  "prediction_records_sha256": "4b6e998415edb9ed0b5e63e3b1e20a25ce301b64ad1ef720ae0ebea59f72f420",
+  "public_condition_label": "Light reasoning",
+  "reasoning_effort": "low",
+  "routing_decisions": [
+    {
+      "block_id": "research-b05a",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "ED01-A",
+      "target_case_ids": [
+        "R049",
+        "R050",
+        "R051",
+        "R052",
+        "R053",
+        "R054"
+      ]
+    },
+    {
+      "block_id": "research-b05b",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "ED01-A",
+      "target_case_ids": [
+        "R055",
+        "R056",
+        "R057",
+        "R058",
+        "R059",
+        "R060"
+      ]
+    },
+    {
+      "block_id": "research-b06a",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "ED01-A",
+      "target_case_ids": [
+        "R061",
+        "R062",
+        "R063",
+        "R064",
+        "R065",
+        "R066"
+      ]
+    },
+    {
+      "block_id": "research-b06b",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "ED01-A",
+      "target_case_ids": [
+        "R067",
+        "R068",
+        "R069",
+        "R070",
+        "R071",
+        "R072"
+      ]
+    }
+  ],
+  "schema_version": "5.0",
+  "service_tier": "standard",
+  "strategies": [
+    "ED01-A"
+  ],
+  "strategy_batch_sha256": "ff2918898d8905079e8c9c95ddc03b0aa02ef1dd3ea179daaed0c6e1f4c21b8e",
+  "timeout_seconds": 900
+}

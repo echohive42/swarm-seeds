@@ -1,0 +1,414 @@
+[
+  {
+    "block_id": "search-b05",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "decide",
+    "strategy_id": "B03-C03",
+    "target_case_ids": [
+      "S049",
+      "S050",
+      "S051",
+      "S052",
+      "S053",
+      "S054",
+      "S055",
+      "S056",
+      "S057",
+      "S058",
+      "S059",
+      "S060"
+    ]
+  },
+  {
+    "block_id": "search-b06",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "decide",
+    "strategy_id": "B03-C03",
+    "target_case_ids": [
+      "S061",
+      "S062",
+      "S063",
+      "S064",
+      "S065",
+      "S066",
+      "S067",
+      "S068",
+      "S069",
+      "S070",
+      "S071",
+      "S072"
+    ]
+  },
+  {
+    "block_id": "search-b05",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "verify",
+    "strategy_id": "B03-R01",
+    "target_case_ids": [
+      "S049",
+      "S050",
+      "S051",
+      "S052",
+      "S053",
+      "S054",
+      "S055",
+      "S056",
+      "S057",
+      "S058",
+      "S059",
+      "S060"
+    ]
+  },
+  {
+    "block_id": "search-b06",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "verify",
+    "strategy_id": "B03-R01",
+    "target_case_ids": [
+      "S061",
+      "S062",
+      "S063",
+      "S064",
+      "S065",
+      "S066",
+      "S067",
+      "S068",
+      "S069",
+      "S070",
+      "S071",
+      "S072"
+    ]
+  },
+  {
+    "block_id": "search-b05",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "verify",
+    "strategy_id": "B03-R02",
+    "target_case_ids": [
+      "S049",
+      "S050",
+      "S051",
+      "S052",
+      "S053",
+      "S054",
+      "S055",
+      "S056",
+      "S057",
+      "S058",
+      "S059",
+      "S060"
+    ]
+  },
+  {
+    "block_id": "search-b06",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "verify",
+    "strategy_id": "B03-R02",
+    "target_case_ids": [
+      "S061",
+      "S062",
+      "S063",
+      "S064",
+      "S065",
+      "S066",
+      "S067",
+      "S068",
+      "S069",
+      "S070",
+      "S071",
+      "S072"
+    ]
+  },
+  {
+    "block_id": "search-b05",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "verify",
+    "strategy_id": "B03-R03",
+    "target_case_ids": [
+      "S049",
+      "S050",
+      "S051",
+      "S052",
+      "S053",
+      "S054",
+      "S055",
+      "S056",
+      "S057",
+      "S058",
+      "S059",
+      "S060"
+    ]
+  },
+  {
+    "block_id": "search-b06",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "verify",
+    "strategy_id": "B03-R03",
+    "target_case_ids": [
+      "S061",
+      "S062",
+      "S063",
+      "S064",
+      "S065",
+      "S066",
+      "S067",
+      "S068",
+      "S069",
+      "S070",
+      "S071",
+      "S072"
+    ]
+  },
+  {
+    "block_id": "search-b05",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "verify",
+    "strategy_id": "B03-R04",
+    "target_case_ids": [
+      "S049",
+      "S050",
+      "S051",
+      "S052",
+      "S053",
+      "S054",
+      "S055",
+      "S056",
+      "S057",
+      "S058",
+      "S059",
+      "S060"
+    ]
+  },
+  {
+    "block_id": "search-b06",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "verify",
+    "strategy_id": "B03-R04",
+    "target_case_ids": [
+      "S061",
+      "S062",
+      "S063",
+      "S064",
+      "S065",
+      "S066",
+      "S067",
+      "S068",
+      "S069",
+      "S070",
+      "S071",
+      "S072"
+    ]
+  },
+  {
+    "block_id": "search-b05",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "verify",
+    "strategy_id": "B03-H01",
+    "target_case_ids": [
+      "S049",
+      "S050",
+      "S051",
+      "S052",
+      "S053",
+      "S054",
+      "S055",
+      "S056",
+      "S057",
+      "S058",
+      "S059",
+      "S060"
+    ]
+  },
+  {
+    "block_id": "search-b06",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "verify",
+    "strategy_id": "B03-H01",
+    "target_case_ids": [
+      "S061",
+      "S062",
+      "S063",
+      "S064",
+      "S065",
+      "S066",
+      "S067",
+      "S068",
+      "S069",
+      "S070",
+      "S071",
+      "S072"
+    ]
+  },
+  {
+    "block_id": "search-b05",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "integrate",
+    "strategy_id": "B03-H02",
+    "target_case_ids": [
+      "S049",
+      "S050",
+      "S051",
+      "S052",
+      "S053",
+      "S054",
+      "S055",
+      "S056",
+      "S057",
+      "S058",
+      "S059",
+      "S060"
+    ]
+  },
+  {
+    "block_id": "search-b06",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "integrate",
+    "strategy_id": "B03-H02",
+    "target_case_ids": [
+      "S061",
+      "S062",
+      "S063",
+      "S064",
+      "S065",
+      "S066",
+      "S067",
+      "S068",
+      "S069",
+      "S070",
+      "S071",
+      "S072"
+    ]
+  },
+  {
+    "block_id": "search-b05",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "verify",
+    "strategy_id": "B03-H04",
+    "target_case_ids": [
+      "S049",
+      "S050",
+      "S051",
+      "S052",
+      "S053",
+      "S054",
+      "S055",
+      "S056",
+      "S057",
+      "S058",
+      "S059",
+      "S060"
+    ]
+  },
+  {
+    "block_id": "search-b06",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "verify",
+    "strategy_id": "B03-H04",
+    "target_case_ids": [
+      "S061",
+      "S062",
+      "S063",
+      "S064",
+      "S065",
+      "S066",
+      "S067",
+      "S068",
+      "S069",
+      "S070",
+      "S071",
+      "S072"
+    ]
+  },
+  {
+    "block_id": "search-b05",
+    "scope": "no_consensus",
+    "skipped": false,
+    "stage_id": "integrate",
+    "strategy_id": "B03-N02",
+    "target_case_ids": [
+      "S049",
+      "S050",
+      "S053",
+      "S055",
+      "S057",
+      "S058",
+      "S059"
+    ]
+  },
+  {
+    "block_id": "search-b06",
+    "scope": "no_consensus",
+    "skipped": false,
+    "stage_id": "integrate",
+    "strategy_id": "B03-N02",
+    "target_case_ids": [
+      "S061",
+      "S063",
+      "S064",
+      "S065",
+      "S066",
+      "S067",
+      "S068",
+      "S069",
+      "S070",
+      "S071",
+      "S072"
+    ]
+  },
+  {
+    "block_id": "search-b05",
+    "scope": "no_consensus",
+    "skipped": false,
+    "stage_id": "verify",
+    "strategy_id": "B03-N03",
+    "target_case_ids": [
+      "S049",
+      "S050",
+      "S052",
+      "S053",
+      "S054",
+      "S055",
+      "S056",
+      "S057",
+      "S058",
+      "S059",
+      "S060"
+    ]
+  },
+  {
+    "block_id": "search-b06",
+    "scope": "no_consensus",
+    "skipped": false,
+    "stage_id": "verify",
+    "strategy_id": "B03-N03",
+    "target_case_ids": [
+      "S061",
+      "S063",
+      "S064",
+      "S065",
+      "S066",
+      "S067",
+      "S068",
+      "S069",
+      "S070",
+      "S071",
+      "S072"
+    ]
+  }
+]

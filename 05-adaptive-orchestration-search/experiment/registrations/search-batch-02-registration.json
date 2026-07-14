@@ -1,0 +1,34 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-search-batch-registration",
+  "batch_id": "B02",
+  "panel_id": "search-panel-02",
+  "registered_before_subject_calls": true,
+  "requested_model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "maximum_concurrency": 60,
+  "timeout_seconds": 900,
+  "strategy_count": 20,
+  "maximum_logical_calls": 574,
+  "public_blocks": ["search-b03", "search-b04"],
+  "design_basis": [
+    "Preserve all four repeated controls.",
+    "Replicate the winning twelve-proposer challenge gate.",
+    "Expand judge-free weighted review and tighten the most useful gated correction systems.",
+    "Target MODAFFINE, GROWBLOCK, stress arithmetic, and low-consensus cases.",
+    "Retain four genuinely new structures, including specialist routing and margin-sensitive review."
+  ],
+  "sha256": {
+    "batch_01_result_registration": "2b87a4c5377293ae90b308c97b571d6fc09e8241c59f4de29cfbaae854861b44",
+    "codex_binary": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+    "common_prefix": "149f5f6f692e2145ca5d6c975bee772c4ff2b0c8aed8b4d32d9365675b1cb6dc",
+    "lens_catalog": "2c76a935de783a57bf40a039fe2f94eb02a36b4385273e3c1f8a7e8baa0cf970",
+    "orchestrator": "402d86e9278494b38bd5ab674d51b84f51e7f23eefc15e44a48ced9172f3aa4a",
+    "public_block_01": "070bafd267ed46743d15814c1d00ddc5ae081cb2415bdf2d8b5e6d8161b90c1f",
+    "public_block_02": "fb823e527ac6e3df527ca19812acaf948ca9f3b387974d6038274e7cfb5604a7",
+    "runner": "234dbd2830a3d0b3459360411d352f4f6b2c1348fb79b881a8684e666bb3e4e9",
+    "strategy_batch": "5d8aa5af992f91569d6f26a44a9758022fc958fb1e7ce5e1ec32b288d74a9e5a"
+  }
+}

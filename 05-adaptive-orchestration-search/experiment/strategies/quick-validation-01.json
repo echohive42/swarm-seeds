@@ -1,0 +1,24 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-validation-strategy-batch",
+  "batch_id": "quick-validation-01",
+  "panel_id": "stable-eleven-prompt-validation-01",
+  "design_status": "frozen_before_subject_calls",
+  "description": "The unchanged stable 11-prompt plurality is run once on 24 untouched cases in four six-case packets.",
+  "strategies": [{
+    "strategy_id": "QV01-A",
+    "name": "Frozen Stable Eleven-Prompt Swarm",
+    "category": "hybrid",
+    "description": "The same eleven complementary general prompts used in exploration gate 01, followed only by deterministic plurality.",
+    "stages": [{
+      "stage_id": "solve",
+      "role": "proposer",
+      "count": 11,
+      "scope": "all",
+      "reads": [],
+      "lens_ids": ["generalist", "growing_block_slow", "hypothesis_tournament", "internal_panel", "interwoven_stream_slow", "lag_class_slow", "mdl_suffix_holdout", "modulus_equation", "periodic_delta_slow", "recurrence_exhaustive", "wildcard_compression"],
+      "instruction": "Work carefully on this smaller case set. For each sequence, compare global structures, verify a late suffix when possible, and return the exact continuation supported by the strongest compact rule."
+    }],
+    "selector": {"mode": "base_plurality", "base_roles": ["proposer"]}
+  }]
+}

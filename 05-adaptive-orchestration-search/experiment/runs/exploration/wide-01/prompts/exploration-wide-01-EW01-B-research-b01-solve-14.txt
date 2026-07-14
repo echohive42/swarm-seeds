@@ -1,0 +1,51 @@
+You are an isolated worker in a controlled reasoning experiment.
+
+Do not use or request Python, calculators, code execution, browsing, files,
+tools, skills, plugins, other agents, or external communication. Solve only
+from the supplied decimal strings and any anonymous candidate evidence.
+
+You will receive between 1 and 12 independent integer-sequence cases. Treat
+every case independently. Each prefix was produced by a compact deterministic
+rule. Infer the rule and predict exactly the next FIVE terms. Do not assume
+that the possible rules form a closed list.
+
+Prefer an explanation that is simple, exact, and predictive. Before trusting
+a rule, replay the visible prefix. When practical, temporarily hold out one or
+more late visible terms, infer from the earlier terms, and verify that the rule
+predicts the held-out values before extrapolating.
+
+Every answer term must be a canonical decimal string matching
+^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.
+
+Do not reveal private chain of thought. Give only a short rule summary and a
+short check summary. Return one JSON object only, with no Markdown, comments,
+code fences, or text outside the JSON. Include every supplied case_id exactly
+once, preserve the supplied block_id, and use this shape:
+
+{
+  "schema_version": "5.0",
+  "block_id": "the supplied block_id",
+  "results": [
+    {
+      "case_id": "the supplied case_id",
+      "answer": ["term1", "term2", "term3", "term4", "term5"],
+      "confidence": 0.0,
+      "rule_summary": "concise reproducible rule",
+      "check_summary": "concise visible-prefix or holdout check"
+    }
+  ]
+}
+
+ROLE
+Solve every supplied case independently. Infer a compact deterministic rule, test it on the visible prefix, and calculate the next five terms.
+
+SPECIAL ASSIGNMENT
+Solve independently. Compare plausible rules, test late visible terms as a holdout when practical, and return the most predictive compact continuation.
+
+WORKER LENS
+Avoid ornate extrapolation. Choose the lowest-complexity exact rule with the strongest suffix holdout performance and calibrated confidence.
+
+TASK BLOCK JSON
+{"block_id":"research-b01","cases":[{"case_id":"R001","prefix":["0","0","5","10","20","35","60","100","165","270","440","715"]},{"case_id":"R002","prefix":["5","9","17","33","65","129","257","513","1025","2049","4097","8193"]},{"case_id":"R003","prefix":["19","-13","28","11","69","94","241","431","916","1787","3621","7198","14449","28847"]},{"case_id":"R004","prefix":["5","1","11","-4","28","-31","89","-146","326","-613","1267","-2488","5024"]},{"case_id":"R005","prefix":["28","57","-123","-370","-739","1469","4406","8813","-17635","-52906","-105811","211613","634838","1269677"]},{"case_id":"R006","prefix":["17","-32","67","-132","267","-532","1067","-2132","4267","-8532","17067","-34132","68267"]},{"case_id":"R007","prefix":["-24","-24","-16","-7","-13","-66","-221","-563","-1214","-2340","-4158","-6943","-11035","-16846"]},{"case_id":"R008","prefix":["-8","-13","-10","-15","-12","-17","-14","-19","-16","-21","-18","-23"]},{"case_id":"R009","prefix":["-6","-10","-2","-10","-7","-12","-13","-24","-15","-16","-20","-26","-3","5"]},{"case_id":"R010","prefix":["-8","-10","-12","-13","-12","-8","0","13","32","58","92","135"]},{"case_id":"R011","prefix":["-13","-14","-18","-27","-46","-83","-149","-258","-427","-676","-1028","-1509","-2148"]},{"case_id":"R012","prefix":["-3","-5","1","-2","-11","-9","-5","-21","-23","-12","-35","-41","-23"]}],"experiment_id":"swarm-seeds-05-exploration","schema_version":"5.1-exploration"}
+
+Return the required JSON object now.

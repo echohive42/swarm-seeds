@@ -1,0 +1,854 @@
+{
+  "artifact_type": "experiment-05-open-prompt-race-analysis",
+  "candidate_oracle": {
+    "cases": 24,
+    "exact": 19,
+    "exact_accuracy": 0.7916666666666666
+  },
+  "case_count": 24,
+  "case_diagnostics": [
+    {
+      "block_id": "research-b11",
+      "case_id": "R121",
+      "correct_support": 2,
+      "correct_support_rate": 0.13333333333333333,
+      "family": "LIN2",
+      "oracle_exact": true,
+      "plurality_support": 2,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "stress",
+      "unique_answers": 14
+    },
+    {
+      "block_id": "research-b11",
+      "case_id": "R122",
+      "correct_support": 10,
+      "correct_support_rate": 0.6666666666666666,
+      "family": "AFFINE",
+      "oracle_exact": true,
+      "plurality_support": 10,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "very-hard",
+      "unique_answers": 4
+    },
+    {
+      "block_id": "research-b11",
+      "case_id": "R123",
+      "correct_support": 2,
+      "correct_support_rate": 0.13333333333333333,
+      "family": "LIN2",
+      "oracle_exact": true,
+      "plurality_support": 2,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 14
+    },
+    {
+      "block_id": "research-b11",
+      "case_id": "R124",
+      "correct_support": 6,
+      "correct_support_rate": 0.4,
+      "family": "AFFINE",
+      "oracle_exact": true,
+      "plurality_support": 6,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "stress",
+      "unique_answers": 10
+    },
+    {
+      "block_id": "research-b11",
+      "case_id": "R125",
+      "correct_support": 2,
+      "correct_support_rate": 0.13333333333333333,
+      "family": "POLY",
+      "oracle_exact": true,
+      "plurality_support": 2,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "stress",
+      "unique_answers": 14
+    },
+    {
+      "block_id": "research-b11",
+      "case_id": "R126",
+      "correct_support": 5,
+      "correct_support_rate": 0.3333333333333333,
+      "family": "POLY",
+      "oracle_exact": true,
+      "plurality_support": 5,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "very-hard",
+      "unique_answers": 7
+    },
+    {
+      "block_id": "research-b11",
+      "case_id": "R127",
+      "correct_support": 15,
+      "correct_support_rate": 1.0,
+      "family": "PDELTA",
+      "oracle_exact": true,
+      "plurality_support": 15,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 1
+    },
+    {
+      "block_id": "research-b11",
+      "case_id": "R128",
+      "correct_support": 3,
+      "correct_support_rate": 0.2,
+      "family": "PDELTA",
+      "oracle_exact": true,
+      "plurality_support": 3,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "stress",
+      "unique_answers": 10
+    },
+    {
+      "block_id": "research-b11",
+      "case_id": "R129",
+      "correct_support": 14,
+      "correct_support_rate": 0.9333333333333333,
+      "family": "AFFINE",
+      "oracle_exact": true,
+      "plurality_support": 14,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 2
+    },
+    {
+      "block_id": "research-b11",
+      "case_id": "R130",
+      "correct_support": 1,
+      "correct_support_rate": 0.06666666666666667,
+      "family": "LIN2",
+      "oracle_exact": true,
+      "plurality_support": 1,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "very-hard",
+      "unique_answers": 15
+    },
+    {
+      "block_id": "research-b11",
+      "case_id": "R131",
+      "correct_support": 15,
+      "correct_support_rate": 1.0,
+      "family": "POLY",
+      "oracle_exact": true,
+      "plurality_support": 15,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 1
+    },
+    {
+      "block_id": "research-b11",
+      "case_id": "R132",
+      "correct_support": 10,
+      "correct_support_rate": 0.6666666666666666,
+      "family": "PDELTA",
+      "oracle_exact": true,
+      "plurality_support": 10,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "very-hard",
+      "unique_answers": 6
+    },
+    {
+      "block_id": "research-b12",
+      "case_id": "R133",
+      "correct_support": 4,
+      "correct_support_rate": 0.26666666666666666,
+      "family": "GROWBLOCK",
+      "oracle_exact": true,
+      "plurality_support": 4,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "stress",
+      "unique_answers": 9
+    },
+    {
+      "block_id": "research-b12",
+      "case_id": "R134",
+      "correct_support": 0,
+      "correct_support_rate": 0.0,
+      "family": "MODAFFINE",
+      "oracle_exact": false,
+      "plurality_support": 1,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "stress",
+      "unique_answers": 15
+    },
+    {
+      "block_id": "research-b12",
+      "case_id": "R135",
+      "correct_support": 2,
+      "correct_support_rate": 0.13333333333333333,
+      "family": "INTERLEAVE",
+      "oracle_exact": true,
+      "plurality_support": 2,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "very-hard",
+      "unique_answers": 13
+    },
+    {
+      "block_id": "research-b12",
+      "case_id": "R136",
+      "correct_support": 1,
+      "correct_support_rate": 0.06666666666666667,
+      "family": "GROWBLOCK",
+      "oracle_exact": true,
+      "plurality_support": 4,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "very-hard",
+      "unique_answers": 9
+    },
+    {
+      "block_id": "research-b12",
+      "case_id": "R137",
+      "correct_support": 3,
+      "correct_support_rate": 0.2,
+      "family": "GROWBLOCK",
+      "oracle_exact": true,
+      "plurality_support": 3,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 10
+    },
+    {
+      "block_id": "research-b12",
+      "case_id": "R138",
+      "correct_support": 0,
+      "correct_support_rate": 0.0,
+      "family": "MODAFFINE",
+      "oracle_exact": false,
+      "plurality_support": 1,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "very-hard",
+      "unique_answers": 15
+    },
+    {
+      "block_id": "research-b12",
+      "case_id": "R139",
+      "correct_support": 3,
+      "correct_support_rate": 0.2,
+      "family": "LAGPOLY",
+      "oracle_exact": true,
+      "plurality_support": 3,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "very-hard",
+      "unique_answers": 13
+    },
+    {
+      "block_id": "research-b12",
+      "case_id": "R140",
+      "correct_support": 0,
+      "correct_support_rate": 0.0,
+      "family": "LAGPOLY",
+      "oracle_exact": false,
+      "plurality_support": 1,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 3,
+      "tier": "stress",
+      "unique_answers": 15
+    },
+    {
+      "block_id": "research-b12",
+      "case_id": "R141",
+      "correct_support": 5,
+      "correct_support_rate": 0.3333333333333333,
+      "family": "INTERLEAVE",
+      "oracle_exact": true,
+      "plurality_support": 5,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 10
+    },
+    {
+      "block_id": "research-b12",
+      "case_id": "R142",
+      "correct_support": 0,
+      "correct_support_rate": 0.0,
+      "family": "INTERLEAVE",
+      "oracle_exact": false,
+      "plurality_support": 1,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "stress",
+      "unique_answers": 15
+    },
+    {
+      "block_id": "research-b12",
+      "case_id": "R143",
+      "correct_support": 12,
+      "correct_support_rate": 0.8,
+      "family": "LAGPOLY",
+      "oracle_exact": true,
+      "plurality_support": 12,
+      "pooled_plurality_exact": true,
+      "pooled_term_score": 5,
+      "tier": "hard",
+      "unique_answers": 3
+    },
+    {
+      "block_id": "research-b12",
+      "case_id": "R144",
+      "correct_support": 0,
+      "correct_support_rate": 0.0,
+      "family": "MODAFFINE",
+      "oracle_exact": false,
+      "plurality_support": 1,
+      "pooled_plurality_exact": false,
+      "pooled_term_score": 0,
+      "tier": "hard",
+      "unique_answers": 15
+    }
+  ],
+  "family_diagnostics": {
+    "AFFINE": {
+      "cases": 3,
+      "oracle_exact": 3,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 15,
+        "exact": 3,
+        "exact_accuracy": 1.0,
+        "term_accuracy": 1.0,
+        "terms": 15
+      }
+    },
+    "GROWBLOCK": {
+      "cases": 3,
+      "oracle_exact": 3,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 10,
+        "exact": 2,
+        "exact_accuracy": 0.6666666666666666,
+        "term_accuracy": 0.6666666666666666,
+        "terms": 15
+      }
+    },
+    "INTERLEAVE": {
+      "cases": 3,
+      "oracle_exact": 2,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 10,
+        "exact": 2,
+        "exact_accuracy": 0.6666666666666666,
+        "term_accuracy": 0.6666666666666666,
+        "terms": 15
+      }
+    },
+    "LAGPOLY": {
+      "cases": 3,
+      "oracle_exact": 2,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 13,
+        "exact": 2,
+        "exact_accuracy": 0.6666666666666666,
+        "term_accuracy": 0.8666666666666667,
+        "terms": 15
+      }
+    },
+    "LIN2": {
+      "cases": 3,
+      "oracle_exact": 3,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 10,
+        "exact": 2,
+        "exact_accuracy": 0.6666666666666666,
+        "term_accuracy": 0.6666666666666666,
+        "terms": 15
+      }
+    },
+    "MODAFFINE": {
+      "cases": 3,
+      "oracle_exact": 0,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 0,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "term_accuracy": 0.0,
+        "terms": 15
+      }
+    },
+    "PDELTA": {
+      "cases": 3,
+      "oracle_exact": 3,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 10,
+        "exact": 2,
+        "exact_accuracy": 0.6666666666666666,
+        "term_accuracy": 0.6666666666666666,
+        "terms": 15
+      }
+    },
+    "POLY": {
+      "cases": 3,
+      "oracle_exact": 3,
+      "pooled": {
+        "cases": 3,
+        "correct_terms": 15,
+        "exact": 3,
+        "exact_accuracy": 1.0,
+        "term_accuracy": 1.0,
+        "terms": 15
+      }
+    }
+  },
+  "lens_scores": [
+    {
+      "block_exact": {
+        "research-b11": 4,
+        "research-b12": 6
+      },
+      "cases": 24,
+      "correct_terms": 56,
+      "exact": 10,
+      "exact_accuracy": 0.4166666666666667,
+      "lens_id": "mdl_suffix_holdout",
+      "mean_confidence": 0.6608333333333334,
+      "mean_latency_ms": 0.0,
+      "term_accuracy": 0.4666666666666667,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b11": 6,
+        "research-b12": 3
+      },
+      "cases": 24,
+      "correct_terms": 57,
+      "exact": 9,
+      "exact_accuracy": 0.375,
+      "lens_id": "variable_segment_reconstruction",
+      "mean_confidence": 0.5775,
+      "mean_latency_ms": 0.0,
+      "term_accuracy": 0.475,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b11": 7,
+        "research-b12": 2
+      },
+      "cases": 24,
+      "correct_terms": 55,
+      "exact": 9,
+      "exact_accuracy": 0.375,
+      "lens_id": "interwoven_stream_slow",
+      "mean_confidence": 0.6808333333333333,
+      "mean_latency_ms": 0.0,
+      "term_accuracy": 0.4583333333333333,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b11": 7,
+        "research-b12": 1
+      },
+      "cases": 24,
+      "correct_terms": 58,
+      "exact": 8,
+      "exact_accuracy": 0.3333333333333333,
+      "lens_id": "periodic_delta_slow",
+      "mean_confidence": 0.7207916666666666,
+      "mean_latency_ms": 0.0,
+      "term_accuracy": 0.48333333333333334,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b11": 7,
+        "research-b12": 1
+      },
+      "cases": 24,
+      "correct_terms": 56,
+      "exact": 8,
+      "exact_accuracy": 0.3333333333333333,
+      "lens_id": "hypothesis_tournament",
+      "mean_confidence": 0.6404166666666666,
+      "mean_latency_ms": 0.0,
+      "term_accuracy": 0.4666666666666667,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b11": 5,
+        "research-b12": 3
+      },
+      "cases": 24,
+      "correct_terms": 55,
+      "exact": 8,
+      "exact_accuracy": 0.3333333333333333,
+      "lens_id": "internal_panel",
+      "mean_confidence": 0.53875,
+      "mean_latency_ms": 0.0,
+      "term_accuracy": 0.4583333333333333,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b11": 6,
+        "research-b12": 2
+      },
+      "cases": 24,
+      "correct_terms": 51,
+      "exact": 8,
+      "exact_accuracy": 0.3333333333333333,
+      "lens_id": "lag_class_slow",
+      "mean_confidence": 0.54,
+      "mean_latency_ms": 0.0,
+      "term_accuracy": 0.425,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b11": 6,
+        "research-b12": 2
+      },
+      "cases": 24,
+      "correct_terms": 48,
+      "exact": 8,
+      "exact_accuracy": 0.3333333333333333,
+      "lens_id": "phase_bounded_reconstruction",
+      "mean_confidence": 0.54,
+      "mean_latency_ms": 0.0,
+      "term_accuracy": 0.4,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b11": 6,
+        "research-b12": 2
+      },
+      "cases": 24,
+      "correct_terms": 47,
+      "exact": 8,
+      "exact_accuracy": 0.3333333333333333,
+      "lens_id": "wildcard_compression",
+      "mean_confidence": 0.7129166666666666,
+      "mean_latency_ms": 0.0,
+      "term_accuracy": 0.39166666666666666,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b11": 5,
+        "research-b12": 2
+      },
+      "cases": 24,
+      "correct_terms": 50,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "modulus_equation",
+      "mean_confidence": 0.5370833333333334,
+      "mean_latency_ms": 0.0,
+      "term_accuracy": 0.4166666666666667,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b11": 5,
+        "research-b12": 2
+      },
+      "cases": 24,
+      "correct_terms": 45,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "growing_block_slow",
+      "mean_confidence": 0.6,
+      "mean_latency_ms": 0.0,
+      "term_accuracy": 0.375,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b11": 6,
+        "research-b12": 1
+      },
+      "cases": 24,
+      "correct_terms": 42,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "recurrence_exhaustive",
+      "mean_confidence": 0.6133333333333333,
+      "mean_latency_ms": 0.0,
+      "term_accuracy": 0.35,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b11": 6,
+        "research-b12": 1
+      },
+      "cases": 24,
+      "correct_terms": 41,
+      "exact": 7,
+      "exact_accuracy": 0.2916666666666667,
+      "lens_id": "generalist",
+      "mean_confidence": 0.5333333333333333,
+      "mean_latency_ms": 0.0,
+      "term_accuracy": 0.3416666666666667,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b11": 5,
+        "research-b12": 1
+      },
+      "cases": 24,
+      "correct_terms": 55,
+      "exact": 6,
+      "exact_accuracy": 0.25,
+      "lens_id": "coordinate_system_duel",
+      "mean_confidence": 0.6625,
+      "mean_latency_ms": 0.0,
+      "term_accuracy": 0.4583333333333333,
+      "terms": 120
+    },
+    {
+      "block_exact": {
+        "research-b11": 4,
+        "research-b12": 1
+      },
+      "cases": 24,
+      "correct_terms": 29,
+      "exact": 5,
+      "exact_accuracy": 0.20833333333333334,
+      "lens_id": "bounded_state_reconstruction",
+      "mean_confidence": 0.5,
+      "mean_latency_ms": 0.0,
+      "term_accuracy": 0.24166666666666667,
+      "terms": 120
+    }
+  ],
+  "model_call_count": 60,
+  "prompt_arm_count": 15,
+  "schema_version": "5.1-exploration",
+  "source_predictions_sha256": "23de2a980af721c64ed610f43ef3bce54429dfbf15ee3549efe2f0a3107eb22e",
+  "subset_search": {
+    "balanced_in_sample_best": {
+      "block_1_exact": 9,
+      "block_1_terms": 48,
+      "block_2_exact": 7,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "bounded_state_reconstruction",
+        "generalist",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "variable_segment_reconstruction"
+      ],
+      "subset_id": "1112162b4b81c1b2",
+      "total_exact": 16,
+      "total_terms": 84,
+      "worst_block_exact": 7
+    },
+    "block_1_to_block_2": {
+      "canonical_selected": {
+        "block_1_exact": 11,
+        "block_1_terms": 58,
+        "block_2_exact": 3,
+        "block_2_terms": 19,
+        "lens_count": 3,
+        "lens_ids": [
+          "hypothesis_tournament",
+          "lag_class_slow",
+          "periodic_delta_slow"
+        ],
+        "subset_id": "8ce98fc15d650eaa",
+        "total_exact": 14,
+        "total_terms": 77,
+        "worst_block_exact": 3
+      },
+      "selection_uses_only": "block_1_exact",
+      "top_100_train_winners_test_exact_mean": 3.3,
+      "top_100_train_winners_test_exact_median": 3.0,
+      "top_100_train_winners_test_exact_range": [
+        2,
+        6
+      ]
+    },
+    "block_2_to_block_1": {
+      "canonical_selected": {
+        "block_1_exact": 5,
+        "block_1_terms": 36,
+        "block_2_exact": 7,
+        "block_2_terms": 39,
+        "lens_count": 4,
+        "lens_ids": [
+          "internal_panel",
+          "mdl_suffix_holdout",
+          "modulus_equation",
+          "variable_segment_reconstruction"
+        ],
+        "subset_id": "1b705967b111117d",
+        "total_exact": 12,
+        "total_terms": 75,
+        "worst_block_exact": 5
+      },
+      "selection_uses_only": "block_2_exact",
+      "top_100_train_winners_test_exact_mean": 7.49,
+      "top_100_train_winners_test_exact_median": 8.0,
+      "top_100_train_winners_test_exact_range": [
+        5,
+        10
+      ]
+    },
+    "random_seed": "swarm-seeds-05-wide-01-subsets-v1",
+    "subsets_evaluated": 25000,
+    "warning": "The balanced result uses all 24 exploratory answers and is not validation. Directional transfers are small 12-case internal checks only."
+  },
+  "system_scores": {
+    "ALL-15": {
+      "all": {
+        "cases": 24,
+        "correct_terms": 83,
+        "exact": 16,
+        "exact_accuracy": 0.6666666666666666,
+        "term_accuracy": 0.6916666666666667,
+        "terms": 120
+      },
+      "blocks": {
+        "research-b11": {
+          "cases": 12,
+          "correct_terms": 50,
+          "exact": 10,
+          "exact_accuracy": 0.8333333333333334,
+          "term_accuracy": 0.8333333333333334,
+          "terms": 60
+        },
+        "research-b12": {
+          "cases": 12,
+          "correct_terms": 33,
+          "exact": 6,
+          "exact_accuracy": 0.5,
+          "term_accuracy": 0.55,
+          "terms": 60
+        }
+      },
+      "lens_count": 15,
+      "lens_ids": [
+        "bounded_state_reconstruction",
+        "coordinate_system_duel",
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "phase_bounded_reconstruction",
+        "recurrence_exhaustive",
+        "variable_segment_reconstruction",
+        "wildcard_compression"
+      ]
+    },
+    "GX01-ADD": {
+      "all": {
+        "cases": 24,
+        "correct_terms": 60,
+        "exact": 9,
+        "exact_accuracy": 0.375,
+        "term_accuracy": 0.5,
+        "terms": 120
+      },
+      "blocks": {
+        "research-b11": {
+          "cases": 12,
+          "correct_terms": 35,
+          "exact": 6,
+          "exact_accuracy": 0.5,
+          "term_accuracy": 0.5833333333333334,
+          "terms": 60
+        },
+        "research-b12": {
+          "cases": 12,
+          "correct_terms": 25,
+          "exact": 3,
+          "exact_accuracy": 0.25,
+          "term_accuracy": 0.4166666666666667,
+          "terms": 60
+        }
+      },
+      "lens_count": 4,
+      "lens_ids": [
+        "bounded_state_reconstruction",
+        "coordinate_system_duel",
+        "phase_bounded_reconstruction",
+        "variable_segment_reconstruction"
+      ]
+    },
+    "GX01-BASE": {
+      "all": {
+        "cases": 24,
+        "correct_terms": 74,
+        "exact": 14,
+        "exact_accuracy": 0.5833333333333334,
+        "term_accuracy": 0.6166666666666667,
+        "terms": 120
+      },
+      "blocks": {
+        "research-b11": {
+          "cases": 12,
+          "correct_terms": 48,
+          "exact": 9,
+          "exact_accuracy": 0.75,
+          "term_accuracy": 0.8,
+          "terms": 60
+        },
+        "research-b12": {
+          "cases": 12,
+          "correct_terms": 26,
+          "exact": 5,
+          "exact_accuracy": 0.4166666666666667,
+          "term_accuracy": 0.43333333333333335,
+          "terms": 60
+        }
+      },
+      "lens_count": 11,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ]
+    }
+  },
+  "valid_prediction_count": 360
+}

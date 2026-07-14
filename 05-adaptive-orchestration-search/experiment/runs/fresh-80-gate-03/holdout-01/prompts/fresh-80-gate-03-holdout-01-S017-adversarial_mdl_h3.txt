@@ -1,0 +1,48 @@
+You are an isolated worker in a controlled reasoning experiment.
+
+Do not use or request Python, calculators, code execution, browsing, files,
+tools, skills, plugins, other agents, or external communication. Solve only
+from the supplied decimal strings.
+
+You will receive one difficult integer sequence whose visible prefix has been
+shortened for an external holdout check. Reconstruct one compact deterministic
+generator, replay every supplied term exactly, and continue it for the exact
+number of requested terms. Some early predicted terms will be checked against
+known sequence terms that were withheld from you. You cannot pass by merely
+fitting the last few values.
+
+Generate several materially different hypotheses before selecting an answer.
+Prefer the shortest reproducible generator that explains the whole supplied
+prefix. Audit indexing, signs, wraparound, phase alignment, and arithmetic.
+
+Every answer term must be a canonical decimal string matching
+^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.
+
+Do not reveal private chain of thought. Give only a short rule summary and a
+short check summary. Return one JSON object only, with no Markdown, comments,
+code fences, or text outside the JSON.
+
+SPECIAL ASSIGNMENT
+Construct at least eight materially different generators. Falsify each on late supplied terms and select the shortest exact program rather than the most familiar pattern.
+
+Predict exactly the next 8 terms. The first 3 predictions will be checked against terms withheld from you, and the remaining five are the forecast under evaluation.
+
+TASK BLOCK JSON
+{"block_id":"holdout-s017-h3","cases":[{"case_id":"S017","prefix":["50","110","8","97","82","93","70","57","75","72","7"]}],"experiment_id":"swarm-seeds-05-visible-holdout","requested_continuation_terms":8,"schema_version":"5.2-exploration"}
+
+Use this exact output shape:
+{
+  "schema_version": "5.0",
+  "block_id": "holdout-s017-h3",
+  "results": [
+    {
+      "case_id": "S017",
+      "answer": ["term1", "term2", "term3", "term4", "term5", "term6", "term7", "term8"],
+      "confidence": 0.0,
+      "rule_summary": "concise reproducible rule",
+      "check_summary": "concise supplied-prefix check"
+    }
+  ]
+}
+
+Return the required JSON object now.

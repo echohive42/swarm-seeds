@@ -1,0 +1,23 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-hidden-final-abort-record",
+  "aborted_at_utc": "2026-07-14T00:19:29Z",
+  "reason": "User redirected the experiment toward more discovery and minimal validation before the hidden answer key was opened.",
+  "replicate_id": "hidden-final-replicate-01",
+  "planned_logical_calls": 720,
+  "terminal_valid_jobs": 684,
+  "attempts": 687,
+  "failed_jobs": 0,
+  "replicate_02_started": false,
+  "hidden_answers_opened": false,
+  "scored": false,
+  "eligible_as_evidence": false,
+  "reuse_rule": "Do not aggregate, score, select from, or reuse the partial hidden-final outputs. Preserve them only as an execution record.",
+  "saved_calls_avoided": 756,
+  "sha256": {
+    "partial_attempt_ledger": "1aaa438fa1a36283d57f1593df950ae4e02ef26c84a3db6bf48bcbb899e73f75",
+    "still_sealed_final_answers": "c1a0ad71bcaef789ae1b20ff5b965af19bc839fc85b5a6bda73f1d82ebc2ab92",
+    "original_final_registration": "babd211dcf36a37b852a3904c84e2479f9aca9d00e0db0e658cb5a85b77369f7",
+    "unused_analysis_plan": "3a2bb7e5864fb34db36186b78f4fc6a9ae808d1ce52195035c8dc8191e420c82"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "artifact_type": "combined-verified-support-route",
+  "candidate_count": 9,
+  "phase": "fresh-80-gate-02-holdout-03",
+  "ranking_rule": "maximum support ascending, total survivors ascending, unique answers descending, case_id ascending",
+  "route_cap": 12,
+  "schema_version": "5.2-exploration",
+  "selected": [
+    {
+      "case_id": "Q009",
+      "maximum_verified_support": 0,
+      "unique_verified_answers": 0,
+      "verified_survivor_count": 0
+    },
+    {
+      "case_id": "Q010",
+      "maximum_verified_support": 0,
+      "unique_verified_answers": 0,
+      "verified_survivor_count": 0
+    },
+    {
+      "case_id": "Q021",
+      "maximum_verified_support": 1,
+      "unique_verified_answers": 1,
+      "verified_survivor_count": 1
+    },
+    {
+      "case_id": "Q022",
+      "maximum_verified_support": 1,
+      "unique_verified_answers": 2,
+      "verified_survivor_count": 2
+    },
+    {
+      "case_id": "Q017",
+      "maximum_verified_support": 2,
+      "unique_verified_answers": 1,
+      "verified_survivor_count": 2
+    },
+    {
+      "case_id": "Q014",
+      "maximum_verified_support": 2,
+      "unique_verified_answers": 3,
+      "verified_survivor_count": 4
+    },
+    {
+      "case_id": "Q019",
+      "maximum_verified_support": 2,
+      "unique_verified_answers": 2,
+      "verified_survivor_count": 4
+    },
+    {
+      "case_id": "Q015",
+      "maximum_verified_support": 3,
+      "unique_verified_answers": 3,
+      "verified_survivor_count": 5
+    },
+    {
+      "case_id": "Q020",
+      "maximum_verified_support": 3,
+      "unique_verified_answers": 5,
+      "verified_survivor_count": 7
+    }
+  ],
+  "selected_count": 9,
+  "selection_rule": "Route cases whose most-supported externally verified future tuple has support at most 3 across all source stages.",
+  "source_blocks": [
+    "fresh-g02-a",
+    "fresh-g02-b",
+    "fresh-g02-c",
+    "fresh-g02-d"
+  ],
+  "source_hashes": [
+    {
+      "attempt_ledger": "80b9bb1bac5d416d71605f9d4507982f8d405a2440a4037020911b32b93f2dc9",
+      "holdout": "1d7cdda56c23c83636b58303ce0629dd927482b3db0729c80f9e03eb10c9a42a",
+      "manifest": "1ec8668d4bb4e75fb130abb52546ad5857e9aa03d3ddb8513436611aedba05b5"
+    },
+    {
+      "attempt_ledger": "c78ffae7e5515b9ceb388913df82fbbc6d3d0672f7dc2204ede64f65474e1746",
+      "holdout": "4013ad965ec50e90f402cddae66daf29cfc0a7356ebd947d130692a0eee20d59",
+      "manifest": "399abe933c4067a970bd364c0d84df570b252a25760bd3c59f753e82d7e283e0"
+    }
+  ],
+  "uses_benchmark_answers": false
+}

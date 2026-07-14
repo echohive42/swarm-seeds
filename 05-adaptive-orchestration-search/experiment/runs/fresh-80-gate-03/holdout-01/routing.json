@@ -1,0 +1,162 @@
+{
+  "artifact_type": "visible-holdout-answer-independent-route",
+  "base_predictions_sha256": "f86fc041c68119d1878242a35992a1826f958bc13b9ab24bd8e70f7bda0e4a5b",
+  "candidate_count": 11,
+  "phase": "fresh-80-gate-03-holdout-01",
+  "route_cap": 16,
+  "schema_version": "5.2-exploration",
+  "selected": [
+    {
+      "base_answer": [
+        "50",
+        "110",
+        "8",
+        "97",
+        "82"
+      ],
+      "case_id": "S017",
+      "mean_confidence": 0.043333333333333335,
+      "plurality_support": 1,
+      "unique_answers": 15
+    },
+    {
+      "base_answer": [
+        "-68",
+        "34",
+        "162",
+        "-181",
+        "34"
+      ],
+      "case_id": "S014",
+      "mean_confidence": 0.06266666666666668,
+      "plurality_support": 1,
+      "unique_answers": 15
+    },
+    {
+      "base_answer": [
+        "-8",
+        "-15",
+        "191",
+        "16",
+        "-28"
+      ],
+      "case_id": "S015",
+      "mean_confidence": 0.09066666666666666,
+      "plurality_support": 1,
+      "unique_answers": 15
+    },
+    {
+      "base_answer": [
+        "-31",
+        "8",
+        "-25",
+        "-51",
+        "11"
+      ],
+      "case_id": "S024",
+      "mean_confidence": 0.19466666666666665,
+      "plurality_support": 1,
+      "unique_answers": 15
+    },
+    {
+      "base_answer": [
+        "44",
+        "-2",
+        "8",
+        "79",
+        "71"
+      ],
+      "case_id": "S016",
+      "mean_confidence": 0.2653333333333333,
+      "plurality_support": 1,
+      "unique_answers": 15
+    },
+    {
+      "base_answer": [
+        "2",
+        "-1",
+        "2",
+        "0",
+        "-3"
+      ],
+      "case_id": "S009",
+      "mean_confidence": 0.17733333333333334,
+      "plurality_support": 2,
+      "unique_answers": 14
+    },
+    {
+      "base_answer": [
+        "3355",
+        "4485",
+        "2260",
+        "-4453",
+        "-13435"
+      ],
+      "case_id": "S002",
+      "mean_confidence": 0.3406666666666667,
+      "plurality_support": 3,
+      "unique_answers": 13
+    },
+    {
+      "base_answer": [
+        "7",
+        "1",
+        "2",
+        "5",
+        "14"
+      ],
+      "case_id": "S023",
+      "mean_confidence": 0.3473333333333333,
+      "plurality_support": 3,
+      "unique_answers": 13
+    },
+    {
+      "base_answer": [
+        "-148",
+        "77",
+        "300",
+        "102",
+        "-596"
+      ],
+      "case_id": "S022",
+      "mean_confidence": 0.6353333333333333,
+      "plurality_support": 3,
+      "unique_answers": 13
+    },
+    {
+      "base_answer": [
+        "14",
+        "-59",
+        "-390",
+        "20",
+        "-94"
+      ],
+      "case_id": "S021",
+      "mean_confidence": 0.4446666666666667,
+      "plurality_support": 5,
+      "unique_answers": 11
+    },
+    {
+      "base_answer": [
+        "198",
+        "227",
+        "256",
+        "285",
+        "314"
+      ],
+      "case_id": "S013",
+      "mean_confidence": 0.46,
+      "plurality_support": 5,
+      "unique_answers": 8
+    }
+  ],
+  "selected_count": 11,
+  "selection_rule": "Route cases whose deterministic 15-prompt plurality support is at most 5; rank by support ascending, unique answers descending, mean confidence ascending, and case_id ascending.",
+  "source_blocks": [
+    "fresh-g03-a",
+    "fresh-g03-b",
+    "fresh-g03-c",
+    "fresh-g03-d"
+  ],
+  "uses_answers": false
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "5.1-exploration",
+  "artifact_type": "experiment-05-progressive-research-gate-result",
+  "gate_id": "exploration-gate-01",
+  "completed_at_utc": "2026-07-14T01:07:39Z",
+  "status": "target_reached_on_fresh_exploratory_gate",
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "case_count": 24,
+  "prompt_arm_count": 11,
+  "logical_jobs": 44,
+  "model_attempts": 45,
+  "schema_invalid_attempts": 1,
+  "valid_jobs": 44,
+  "failed_jobs": 0,
+  "valid_case_predictions": 264,
+  "registered_result": {
+    "selector": "frozen deterministic plurality across all 11 prompt arms",
+    "exact": 16,
+    "cases": 24,
+    "exact_accuracy": 0.6666666666666666,
+    "correct_terms": 85,
+    "terms": 120,
+    "term_accuracy": 0.7083333333333334,
+    "panel_exact": {"research-b07": 11, "research-b08": 5}
+  },
+  "diagnostics_not_used_for_registered_score": {
+    "best_single_prompt": {"lens_id": "hypothesis_tournament", "exact": 14, "cases": 24, "exact_accuracy": 0.5833333333333334},
+    "candidate_oracle": {"exact": 20, "cases": 24, "exact_accuracy": 0.8333333333333334},
+    "posthoc_best_subset": {"exact": 18, "cases": 24, "exact_accuracy": 0.75, "lens_count": 4}
+  },
+  "family_exact": {
+    "AFFINE": 3,
+    "GROWBLOCK": 0,
+    "INTERLEAVE": 3,
+    "LAGPOLY": 2,
+    "LIN2": 3,
+    "MODAFFINE": 0,
+    "PDELTA": 2,
+    "POLY": 3
+  },
+  "interpretation": [
+    "The frozen system entered the requested 60% to 70% range on 24 untouched exploratory cases.",
+    "This is a genuine fresh gate because the prompt set and selector were registered before calls and answers stayed sealed until all jobs were terminal.",
+    "It is not a final benchmark estimate. The sample is small and accuracy was heterogeneous across mechanism panels.",
+    "The system still failed all three modular cases and all three growing-block cases, despite the archive containing correct candidates for two growing-block cases.",
+    "No large final validation should run without explicit user approval."
+  ],
+  "sha256": {
+    "predictions": "d84b914ebb9f4071a45027023656089c5f4045679e07d7a1e050501d85795a6f",
+    "run_summary": "bae65ff32f480df2823eea7b17cb138cbbc9e40ddbd2cb99443b64edb5d0109d",
+    "attempt_ledger": "87ebc067372f1fbdaa935445722cda6bb2be8ad553104e602e22201c84dc82f0",
+    "analysis": "a8ed75e6c5bc4e462d90d6bfe62d0b8d5644cbc50c4dc98490b9207e428f0e55",
+    "lens_scores_csv": "3f579fa96fd54731354d7c53fffed3af42ec2269c4a6349428e2ba54128e7003",
+    "case_scores_csv": "def259c65f408f990dce9e6563ca86b658c4c5a2d704237ca54d22d9125d90ff",
+    "top_subsets": "0881c2146bbea75692e49d5550bb7e647016aae4a71e8af0fbeb199d8bb36da2",
+    "parent_block_projection": "7580edef9a774b93ce3d006c394bc493ef9695fdd17392a62a4961277ea208e8",
+    "generic_analyzer": "7af07d68c822e3c1e3997b48df9648d8a100e2e3708b998735dd52e71dc379ad",
+    "derived_analysis_wrapper": "e27b8bf5ffedf74a3e869b545e0e5ec3afda3186c65172bb9b4932d622afe9fb",
+    "archived_depth_analysis_wrapper": "74deea139872cad6a1c31179c782623e111a4f1ec5498c79e9eb57e214fe33e6"
+  }
+}

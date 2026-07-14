@@ -1,0 +1,5491 @@
+{
+  "balanced_top_100": [
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 7,
+      "block_2_terms": 35,
+      "lens_count": 4,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "f9261bbe20ccbda6",
+      "total_exact": 18,
+      "total_terms": 93,
+      "worst_block_exact": 7
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 7,
+      "block_2_terms": 35,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "internal_panel",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "e45b8b1bfb90412d",
+      "total_exact": 16,
+      "total_terms": 85,
+      "worst_block_exact": 7
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "1948c3f4370ec115",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "daaacc75fcbb8e91",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "1f758a8406910f4e",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "7efc0d6a5dccc477",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "ba19d80ca083acd1",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "d61ccea323c29f9e",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "f0ab1af065f533b7",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "0f66ce4f2f84b373",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "28c60a0670d08add",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "2fe8aa5f0416a010",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "a677162965093f73",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "f6d34e8a94895703",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "095e2cf3212ff78e",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "1bb15dda31f39f85",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "8644d266ef33311e",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "8c0404a91384d394",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "8c215ed7e7efeb66",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "94f66f0a612eb80b",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "991285d06d0a4db3",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "a4dd2902397e7c87",
+      "total_exact": 18,
+      "total_terms": 94,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "3013aa4a7d5838fc",
+      "total_exact": 18,
+      "total_terms": 94,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "93a6b4b0c4478272",
+      "total_exact": 18,
+      "total_terms": 94,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "98a7ecf78819bb20",
+      "total_exact": 18,
+      "total_terms": 94,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "ae245c960c497a0b",
+      "total_exact": 18,
+      "total_terms": 94,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "410c58df6249e53b",
+      "total_exact": 18,
+      "total_terms": 94,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 7,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "6baf53e519c2ca98",
+      "total_exact": 18,
+      "total_terms": 94,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 7,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "94ae00932b95d16e",
+      "total_exact": 18,
+      "total_terms": 94,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "c437ca591b1b19f7",
+      "total_exact": 18,
+      "total_terms": 94,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "e450c8af280d7536",
+      "total_exact": 18,
+      "total_terms": 94,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 7,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "ec974d3bbb4fa758",
+      "total_exact": 18,
+      "total_terms": 94,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 3,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "e889771fd60c1b9f",
+      "total_exact": 17,
+      "total_terms": 94,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "79f5cf36f226077b",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "83493a56ea77c7b4",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "bebcbf2377d8dbec",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "49ca65c5a48fb9d5",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "85b359fe5dcdcfb6",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "9b648c7dc4b142b9",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "c2a50c594d0726b3",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "e0b71b79fb9909a2",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "5000e393f9b28b3a",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "dbc9e400f6797396",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "ebb80858fb5bd0aa",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 8,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "1dd897c7d3b8cb61",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 8,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "26db1bd8cdf8bd31",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 8,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "9d5d174a3095a852",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 3,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "ceecba2df7108029",
+      "total_exact": 17,
+      "total_terms": 92,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 3,
+      "lens_ids": [
+        "growing_block_slow",
+        "internal_panel",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "d0a3130d287ff5e5",
+      "total_exact": 17,
+      "total_terms": 92,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 4,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "4b5f48a5098863f1",
+      "total_exact": 17,
+      "total_terms": 92,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "b4e1e50d75c25c6c",
+      "total_exact": 17,
+      "total_terms": 92,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "1587fa7f7f260e99",
+      "total_exact": 17,
+      "total_terms": 92,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "lag_class_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "37a27106aa8b8d5f",
+      "total_exact": 17,
+      "total_terms": 92,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "6692521ca3af68e6",
+      "total_exact": 17,
+      "total_terms": 92,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "666cbc10b5abf0d8",
+      "total_exact": 17,
+      "total_terms": 92,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "fba4f6dc32687a96",
+      "total_exact": 17,
+      "total_terms": 92,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 7,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "2abba05f5401661a",
+      "total_exact": 17,
+      "total_terms": 92,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 3,
+      "lens_ids": [
+        "growing_block_slow",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "0c9b6c7c1b203e47",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "62ccd7ffbe2af173",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "6353a263d4682f84",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "wildcard_compression"
+      ],
+      "subset_id": "7860607685f7dea8",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "b9481382b0b74e6e",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "bb7ec013ad608f10",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "wildcard_compression"
+      ],
+      "subset_id": "c512755106ad5174",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "39b6bd65fda9a13d",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "75cc5b2c338036a7",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "wildcard_compression"
+      ],
+      "subset_id": "7c82aadbbecb0940",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "8f7ac214274611f5",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "wildcard_compression"
+      ],
+      "subset_id": "ab8db1e86d34870b",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "add60f5ab28749be",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "ef022b30f33ad3a6",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "f9823e58a61ab657",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "0bcd481b89314b86",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "10fe84dbc50dde38",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "24a9395abe98bbd1",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "32d23acb749b3dc9",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "33e6193d9cdd0c3c",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "4eda4bb6e41e2e1e",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "90f3639f1912715b",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "wildcard_compression"
+      ],
+      "subset_id": "c2fef07caf84d6f0",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "wildcard_compression"
+      ],
+      "subset_id": "fadab35fb685ab18",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 8,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "312cb408cf43152f",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 8,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "c169a9814d268e4e",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 8,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "c99852946a1fb25b",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 31,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "6fb82e6e05739f1b",
+      "total_exact": 17,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 31,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "ad5784c274dc29c1",
+      "total_exact": 17,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 31,
+      "lens_count": 6,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "b69ebeb242c38fbb",
+      "total_exact": 17,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 31,
+      "lens_count": 7,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "f3f6c5fec931a8ea",
+      "total_exact": 17,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 30,
+      "lens_count": 6,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "329b1eae290495c5",
+      "total_exact": 17,
+      "total_terms": 88,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 30,
+      "lens_count": 6,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "f13a7872bce11537",
+      "total_exact": 17,
+      "total_terms": 88,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "14f6e2f19ef6af23",
+      "total_exact": 16,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "102d7e58bc09f714",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "9ea94a6e2e65f593",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "internal_panel",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "cfe8e0597347f28a",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "21bf5fda6cc66134",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "533dc89067e48a84",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "62980fd732cbc823",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "6c25a076b3513ad4",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "7d1e35696c4a004a",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "baa5f7ea4cc04ca1",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    }
+  ],
+  "block_1_train_top_100": [
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 30,
+      "lens_count": 3,
+      "lens_ids": [
+        "generalist",
+        "hypothesis_tournament",
+        "interwoven_stream_slow"
+      ],
+      "subset_id": "09e7cfe429416dcc",
+      "total_exact": 16,
+      "total_terms": 90,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 32,
+      "lens_count": 3,
+      "lens_ids": [
+        "growing_block_slow",
+        "interwoven_stream_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "6e9359d6ebfc618a",
+      "total_exact": 16,
+      "total_terms": 92,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 31,
+      "lens_count": 3,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "7b52c6614b191b55",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 26,
+      "lens_count": 3,
+      "lens_ids": [
+        "internal_panel",
+        "interwoven_stream_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "8b9fdacaf4a352e9",
+      "total_exact": 16,
+      "total_terms": 86,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 30,
+      "lens_count": 3,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "98079d696fa2b9bf",
+      "total_exact": 16,
+      "total_terms": 90,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 2,
+      "block_2_terms": 21,
+      "lens_count": 3,
+      "lens_ids": [
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "afd0bcc909df1060",
+      "total_exact": 14,
+      "total_terms": 81,
+      "worst_block_exact": 2
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 25,
+      "lens_count": 3,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow"
+      ],
+      "subset_id": "b0008880314f8619",
+      "total_exact": 15,
+      "total_terms": 85,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 35,
+      "lens_count": 3,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow"
+      ],
+      "subset_id": "d6027619552cbbd1",
+      "total_exact": 17,
+      "total_terms": 95,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 30,
+      "lens_count": 3,
+      "lens_ids": [
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "d8fb8681da406e5f",
+      "total_exact": 17,
+      "total_terms": 90,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 35,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "0603b44c0e55b686",
+      "total_exact": 17,
+      "total_terms": 95,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 29,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "171522cb559f1d58",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "1948c3f4370ec115",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 30,
+      "lens_count": 4,
+      "lens_ids": [
+        "internal_panel",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "1afa5ed3d32c4887",
+      "total_exact": 17,
+      "total_terms": 90,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 25,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "2518ffb4bfd6b3d4",
+      "total_exact": 15,
+      "total_terms": 85,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 26,
+      "lens_count": 4,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "34b70c60e9e11b1c",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 25,
+      "lens_count": 4,
+      "lens_ids": [
+        "generalist",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow"
+      ],
+      "subset_id": "446e27a614e719dc",
+      "total_exact": 15,
+      "total_terms": 85,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 30,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow"
+      ],
+      "subset_id": "45e99090e6ab9360",
+      "total_exact": 17,
+      "total_terms": 90,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 26,
+      "lens_count": 4,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "56d0fd224989abd5",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 26,
+      "lens_count": 4,
+      "lens_ids": [
+        "internal_panel",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "6413061f15411b87",
+      "total_exact": 16,
+      "total_terms": 86,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 26,
+      "lens_count": 4,
+      "lens_ids": [
+        "internal_panel",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "wildcard_compression"
+      ],
+      "subset_id": "7272a1fd174c02b6",
+      "total_exact": 16,
+      "total_terms": 86,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 30,
+      "lens_count": 4,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "wildcard_compression"
+      ],
+      "subset_id": "836ec6ae3f3a81d8",
+      "total_exact": 15,
+      "total_terms": 90,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 29,
+      "lens_count": 4,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "b622de99070de2be",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 26,
+      "lens_count": 4,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout"
+      ],
+      "subset_id": "bb840d43aa0c2b63",
+      "total_exact": 16,
+      "total_terms": 86,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 25,
+      "lens_count": 4,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "bf4eadf749816869",
+      "total_exact": 15,
+      "total_terms": 85,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 27,
+      "lens_count": 4,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "c011c772489c218d",
+      "total_exact": 16,
+      "total_terms": 87,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "daaacc75fcbb8e91",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 25,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "e21a1057d51f4902",
+      "total_exact": 15,
+      "total_terms": 85,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 25,
+      "lens_count": 4,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "fc194be6301e545f",
+      "total_exact": 15,
+      "total_terms": 85,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 29,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "0155ee9a9eb0017e",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 24,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "018b11efe3b70381",
+      "total_exact": 15,
+      "total_terms": 84,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 26,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "modulus_equation",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "0800f5842668d90a",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 30,
+      "lens_count": 5,
+      "lens_ids": [
+        "internal_panel",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "08081db944aa574e",
+      "total_exact": 17,
+      "total_terms": 90,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 26,
+      "lens_count": 5,
+      "lens_ids": [
+        "internal_panel",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "080c1b13599ebb2f",
+      "total_exact": 16,
+      "total_terms": 86,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 30,
+      "lens_count": 5,
+      "lens_ids": [
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "modulus_equation",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "1164e07dc9d2ac23",
+      "total_exact": 15,
+      "total_terms": 90,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 25,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "137d99a995f3c110",
+      "total_exact": 16,
+      "total_terms": 85,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 27,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "1426742b28b88e6a",
+      "total_exact": 16,
+      "total_terms": 87,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 24,
+      "lens_count": 5,
+      "lens_ids": [
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "1877f1a338c0aafa",
+      "total_exact": 15,
+      "total_terms": 84,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 30,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "1b468d4710216636",
+      "total_exact": 16,
+      "total_terms": 90,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "1f758a8406910f4e",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 35,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "25d4706a35418120",
+      "total_exact": 17,
+      "total_terms": 95,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 27,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "2e081e1a9d3260cb",
+      "total_exact": 16,
+      "total_terms": 87,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 25,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "30fa4f54ea8d7c9f",
+      "total_exact": 16,
+      "total_terms": 85,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 30,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "317db479a18ad738",
+      "total_exact": 17,
+      "total_terms": 90,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 25,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "3729ec50e515cce8",
+      "total_exact": 15,
+      "total_terms": 85,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 29,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "4e757d5d99273563",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 25,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "51e1bc2c59d0f888",
+      "total_exact": 15,
+      "total_terms": 85,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 30,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout"
+      ],
+      "subset_id": "52266469308e517a",
+      "total_exact": 17,
+      "total_terms": 90,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 32,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "5456ba1febae4742",
+      "total_exact": 17,
+      "total_terms": 92,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 25,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "5e9b5962868020b7",
+      "total_exact": 15,
+      "total_terms": 85,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 30,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "60871e64440ae620",
+      "total_exact": 15,
+      "total_terms": 90,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 26,
+      "lens_count": 5,
+      "lens_ids": [
+        "internal_panel",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "6661fd076212ea3b",
+      "total_exact": 16,
+      "total_terms": 86,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 26,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout"
+      ],
+      "subset_id": "674f6dfea0c96e8d",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 26,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation"
+      ],
+      "subset_id": "6af84be9420a473d",
+      "total_exact": 16,
+      "total_terms": 86,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 29,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "73abf6c798407904",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 32,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "7a585998a5a1cd2c",
+      "total_exact": 17,
+      "total_terms": 92,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 29,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "7c87c6217c013bf3",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 26,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout"
+      ],
+      "subset_id": "7dc490e6c8bd0c36",
+      "total_exact": 16,
+      "total_terms": 86,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 25,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "wildcard_compression"
+      ],
+      "subset_id": "7e77d6f5ed48b8c3",
+      "total_exact": 15,
+      "total_terms": 85,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "7efc0d6a5dccc477",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 29,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "824696146b481090",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 25,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "896eabac02270f7b",
+      "total_exact": 15,
+      "total_terms": 85,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 26,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout"
+      ],
+      "subset_id": "8d50445f79c39857",
+      "total_exact": 16,
+      "total_terms": 86,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 34,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "a4dd2902397e7c87",
+      "total_exact": 18,
+      "total_terms": 94,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 30,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "a5065ebee171f34d",
+      "total_exact": 17,
+      "total_terms": 90,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 26,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "ade511a57b087adb",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 35,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "aee63d72fa36d321",
+      "total_exact": 17,
+      "total_terms": 95,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 30,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "b46880016b492421",
+      "total_exact": 15,
+      "total_terms": 90,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 25,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "b7bf41ebbcd6ff81",
+      "total_exact": 15,
+      "total_terms": 85,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 25,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "b8ff99e7e91cee14",
+      "total_exact": 15,
+      "total_terms": 85,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "ba19d80ca083acd1",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 30,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "ba244c01212f0ba6",
+      "total_exact": 16,
+      "total_terms": 90,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 30,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "c06062aaa8681e27",
+      "total_exact": 17,
+      "total_terms": 90,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 26,
+      "lens_count": 5,
+      "lens_ids": [
+        "internal_panel",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "c309e65c2d3407fe",
+      "total_exact": 16,
+      "total_terms": 86,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 29,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "c6d0be6df5522b83",
+      "total_exact": 15,
+      "total_terms": 89,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 29,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "cc036bc8266fce59",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 29,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "cef8a21b3c4c9675",
+      "total_exact": 15,
+      "total_terms": 89,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "d61ccea323c29f9e",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 30,
+      "lens_count": 5,
+      "lens_ids": [
+        "internal_panel",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "d792cd477c6f5c72",
+      "total_exact": 17,
+      "total_terms": 90,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 24,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "d7abf6ccc4b0b134",
+      "total_exact": 15,
+      "total_terms": 84,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 27,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "d96735122c5bd160",
+      "total_exact": 16,
+      "total_terms": 87,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 25,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "wildcard_compression"
+      ],
+      "subset_id": "da6bd5113e2d53c9",
+      "total_exact": 16,
+      "total_terms": 85,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 29,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "e2d62d98ff093362",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 22,
+      "lens_count": 5,
+      "lens_ids": [
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "e66763102f69c10b",
+      "total_exact": 15,
+      "total_terms": 82,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 29,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "e86b54d1e5c151c2",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 26,
+      "lens_count": 5,
+      "lens_ids": [
+        "internal_panel",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "e9b738716284ecce",
+      "total_exact": 16,
+      "total_terms": 86,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 29,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "ef34aff523fc8f17",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "f0ab1af065f533b7",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 27,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "f5d3c1a01fb43644",
+      "total_exact": 16,
+      "total_terms": 87,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 30,
+      "lens_count": 5,
+      "lens_ids": [
+        "internal_panel",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "f7cc08dd63694f94",
+      "total_exact": 17,
+      "total_terms": 90,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 25,
+      "lens_count": 5,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "f8890c8a6c191f94",
+      "total_exact": 15,
+      "total_terms": 85,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 29,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "faac464638837046",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 35,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "02882a55082e0bd8",
+      "total_exact": 17,
+      "total_terms": 95,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 30,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "04aa49b8bdc5935d",
+      "total_exact": 17,
+      "total_terms": 90,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 3,
+      "block_2_terms": 25,
+      "lens_count": 6,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "070a08a8b3f8917c",
+      "total_exact": 15,
+      "total_terms": 85,
+      "worst_block_exact": 3
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "0f66ce4f2f84b373",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 30,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "wildcard_compression"
+      ],
+      "subset_id": "20f0b7a0e3581ba3",
+      "total_exact": 17,
+      "total_terms": 90,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "28c60a0670d08add",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 5,
+      "block_2_terms": 30,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "internal_panel",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "2c04fafe0331c7e1",
+      "total_exact": 17,
+      "total_terms": 90,
+      "worst_block_exact": 5
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 4,
+      "block_2_terms": 27,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "2c956e534c6c1dce",
+      "total_exact": 16,
+      "total_terms": 87,
+      "worst_block_exact": 4
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "2fe8aa5f0416a010",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    }
+  ],
+  "block_2_train_top_100": [
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 7,
+      "block_2_terms": 35,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "internal_panel",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "e45b8b1bfb90412d",
+      "total_exact": 16,
+      "total_terms": 85,
+      "worst_block_exact": 7
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 7,
+      "block_2_terms": 35,
+      "lens_count": 4,
+      "lens_ids": [
+        "hypothesis_tournament",
+        "internal_panel",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "f9261bbe20ccbda6",
+      "total_exact": 18,
+      "total_terms": 93,
+      "worst_block_exact": 7
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 3,
+      "lens_ids": [
+        "growing_block_slow",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "0c9b6c7c1b203e47",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 8,
+      "block_1_terms": 45,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 3,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "6399f473b22d1016",
+      "total_exact": 14,
+      "total_terms": 81,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 58,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 3,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "e889771fd60c1b9f",
+      "total_exact": 17,
+      "total_terms": 94,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "102d7e58bc09f714",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 52,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "12b3a0069b952edd",
+      "total_exact": 16,
+      "total_terms": 88,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "14f6e2f19ef6af23",
+      "total_exact": 16,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "1948c3f4370ec115",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "29264625c993c993",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "51c112b048bcdeb4",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "79f5cf36f226077b",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "83493a56ea77c7b4",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 7,
+      "block_1_terms": 40,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "91ba904a8f4a5251",
+      "total_exact": 13,
+      "total_terms": 76,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "9ea94a6e2e65f593",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 6,
+      "block_1_terms": 39,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "lag_class_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "abecc0c421e70c9a",
+      "total_exact": 12,
+      "total_terms": 75,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "b7da57dfe1f9f48e",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "c048329b949f7593",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "d875b3bc0ee115a8",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 4,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "daaacc75fcbb8e91",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "1f758a8406910f4e",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "215a010d03e847d2",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "21bf5fda6cc66134",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 48,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "3e3e69ee1d479539",
+      "total_exact": 15,
+      "total_terms": 84,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 8,
+      "block_1_terms": 45,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "42a4f75fc73e7103",
+      "total_exact": 14,
+      "total_terms": 81,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "4a4195aaae08efc2",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "533dc89067e48a84",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "62980fd732cbc823",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "62ccd7ffbe2af173",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "6353a263d4682f84",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "6c25a076b3513ad4",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "wildcard_compression"
+      ],
+      "subset_id": "7860607685f7dea8",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "7d1e35696c4a004a",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "7efc0d6a5dccc477",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "87d7ff13bb766d09",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "8abe57324c710bfb",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "8afcc67ca4b03e4d",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "936746c5b836578f",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 7,
+      "block_1_terms": 40,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "9d5f0a21c96ab967",
+      "total_exact": 13,
+      "total_terms": 76,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 52,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "b3fa4ea4f86a7189",
+      "total_exact": 16,
+      "total_terms": 88,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "b9481382b0b74e6e",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "ba19d80ca083acd1",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "baa5f7ea4cc04ca1",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "bb7ec013ad608f10",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "bebcbf2377d8dbec",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "wildcard_compression"
+      ],
+      "subset_id": "c512755106ad5174",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "periodic_delta_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "ccf4d84465cbb2e2",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "d61ccea323c29f9e",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "dcaa7188b3eb6c4c",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "f0ab1af065f533b7",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "f395d900bee28e9b",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 48,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 5,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "faa6e31c0b5a92aa",
+      "total_exact": 15,
+      "total_terms": 84,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "0f66ce4f2f84b373",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "10b32b3d656a5dab",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "24991de164200da7",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "wildcard_compression"
+      ],
+      "subset_id": "261c417bd3028872",
+      "total_exact": 16,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "28c60a0670d08add",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "2fe8aa5f0416a010",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "39b6bd65fda9a13d",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 52,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "wildcard_compression"
+      ],
+      "subset_id": "3a51ebf98fc60c38",
+      "total_exact": 16,
+      "total_terms": 88,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "3b0a09f4a9bbbd70",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "41b0b51ebda3e69f",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "periodic_delta_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "41b2821945453a4a",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "4697ec4356626acd",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "49ca65c5a48fb9d5",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "75cc5b2c338036a7",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "wildcard_compression"
+      ],
+      "subset_id": "7c82aadbbecb0940",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "85b359fe5dcdcfb6",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "8a03a0f8e7ea34c1",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "8f7ac214274611f5",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 8,
+      "block_1_terms": 45,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "962329d040580f1f",
+      "total_exact": 14,
+      "total_terms": 81,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "99568e2afb633af3",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "9b648c7dc4b142b9",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "9f5c6f07a133827e",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "a677162965093f73",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 52,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "a9bc19819b5c17b8",
+      "total_exact": 16,
+      "total_terms": 88,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "wildcard_compression"
+      ],
+      "subset_id": "ab8db1e86d34870b",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "add60f5ab28749be",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "b66d5a765575a706",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "c2a50c594d0726b3",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "c9ddf940bc1f5dfc",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 52,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "cb97642a4164966a",
+      "total_exact": 16,
+      "total_terms": 88,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 48,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "ce29ad44e1450492",
+      "total_exact": 15,
+      "total_terms": 84,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 57,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "e0b71b79fb9909a2",
+      "total_exact": 17,
+      "total_terms": 93,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "e63320f880f76547",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "ea2bf386577616c5",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "ef022b30f33ad3a6",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "f6d34e8a94895703",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "f9823e58a61ab657",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 10,
+      "block_1_terms": 53,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "fac9b80e85107af8",
+      "total_exact": 16,
+      "total_terms": 89,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 48,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "fae8c14b1546f51f",
+      "total_exact": 15,
+      "total_terms": 84,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "ff287a9e61f43b91",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 6,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "ff7b726de94afc5f",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive",
+        "wildcard_compression"
+      ],
+      "subset_id": "095e2cf3212ff78e",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "0a8a4716495c03b1",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "0bcd481b89314b86",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 11,
+      "block_1_terms": 55,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow"
+      ],
+      "subset_id": "10fe84dbc50dde38",
+      "total_exact": 17,
+      "total_terms": 91,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 50,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "1790da466d3a4a67",
+      "total_exact": 15,
+      "total_terms": 86,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 12,
+      "block_1_terms": 60,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "generalist",
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "interwoven_stream_slow",
+        "lag_class_slow",
+        "periodic_delta_slow",
+        "recurrence_exhaustive"
+      ],
+      "subset_id": "1bb15dda31f39f85",
+      "total_exact": 18,
+      "total_terms": 96,
+      "worst_block_exact": 6
+    },
+    {
+      "block_1_exact": 9,
+      "block_1_terms": 48,
+      "block_2_exact": 6,
+      "block_2_terms": 36,
+      "lens_count": 7,
+      "lens_ids": [
+        "growing_block_slow",
+        "hypothesis_tournament",
+        "lag_class_slow",
+        "mdl_suffix_holdout",
+        "modulus_equation",
+        "periodic_delta_slow",
+        "wildcard_compression"
+      ],
+      "subset_id": "1e366adac63c55fc",
+      "total_exact": 15,
+      "total_terms": 84,
+      "worst_block_exact": 6
+    }
+  ]
+}

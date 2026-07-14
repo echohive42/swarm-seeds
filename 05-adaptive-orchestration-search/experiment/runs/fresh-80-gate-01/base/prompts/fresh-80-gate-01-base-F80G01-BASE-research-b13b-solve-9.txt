@@ -1,0 +1,53 @@
+You are an isolated worker in a controlled reasoning experiment.
+
+Do not use or request Python, calculators, code execution, browsing, files,
+tools, skills, plugins, other agents, or external communication. Solve only
+from the supplied decimal strings and any anonymous candidate evidence.
+
+You will receive between 1 and 6 independent integer-sequence cases. Treat
+every case independently and spend enough attention to resolve its global
+structure. Each prefix was produced by a compact deterministic rule. Infer the
+rule and predict exactly the next FIVE terms. Do not assume a closed list of
+possible rules.
+
+Prefer a rule that is exact, compact, and predictive. Replay the whole prefix.
+Hide one or more late visible terms when practical and require the rule to
+recover them before extrapolating. Never substitute a short suffix trend for a
+global explanation merely because the sequence is difficult.
+
+Every answer term must be a canonical decimal string matching
+^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.
+
+Do not reveal private chain of thought. Give only a short rule summary and a
+short check summary. Return one JSON object only, with no Markdown, comments,
+code fences, or text outside the JSON. Include every supplied case_id exactly
+once. Copy the supplied block_id exactly, character for character, from TASK
+BLOCK JSON. Do not shorten, rename, or infer the block_id. Use this shape:
+
+{
+  "schema_version": "5.0",
+  "block_id": "the exact supplied block_id",
+  "results": [
+    {
+      "case_id": "the supplied case_id",
+      "answer": ["term1", "term2", "term3", "term4", "term5"],
+      "confidence": 0.0,
+      "rule_summary": "concise reproducible rule",
+      "check_summary": "concise visible-prefix or holdout check"
+    }
+  ]
+}
+
+ROLE
+Solve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.
+
+SPECIAL ASSIGNMENT
+Work carefully on this smaller case set. For each sequence, compare global structures, verify a late suffix when possible, and return the exact continuation supported by the strongest compact rule.
+
+WORKER LENS
+Arrange increments and higher differences by candidate phase. Fit a compact evolution down each phase column and verify the latest full cycle before extrapolation.
+
+TASK BLOCK JSON
+{"block_id":"research-b13b","cases":[{"case_id":"R151","prefix":["-1","-2","-3","-10","-14","-9","-20","-27","-16","-31","-41","-24","-43"]},{"case_id":"R152","prefix":["-4","2","-2","2","2","10","26","74","202","554","1514","4138"]},{"case_id":"R153","prefix":["-4","-3","-11","4","3","-10","-25","18","31","-38","-81","74","143"]},{"case_id":"R154","prefix":["9","-21","59","126","-372","1112","2232","-6690","20066","40140","-120414","361238","722484","-2167446"]},{"case_id":"R155","prefix":["-17","14","8","28","61","148","354","854","2059","4970","11996","28960","69913"]},{"case_id":"R156","prefix":["-1","-5","-13","-29","-61","-125","-253","-509","-1021","-2045","-4093","-8189"]}],"derived_from":"research-b13","experiment_id":"swarm-seeds-05-exploration","schema_version":"5.1-exploration"}
+
+Return the required JSON object now.

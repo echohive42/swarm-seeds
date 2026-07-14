@@ -1,0 +1,51 @@
+You are an isolated worker in a controlled reasoning experiment.
+
+Do not use or request Python, calculators, code execution, browsing, files,
+tools, skills, plugins, other agents, or external communication. Solve only
+from the supplied decimal strings.
+
+You will receive one difficult integer-sequence case. Spend your full attention
+on reconstructing its compact deterministic generator and predict exactly the
+next FIVE terms. Do not assume a closed list of possible rules.
+
+Generate multiple materially different hypotheses. Replay the entire prefix,
+hide late visible terms when useful, and reject every rule that cannot recover
+them exactly. Prefer the shortest reproducible generator, not a trend fitted
+only to the suffix. Audit indexing, signs, wraparound, and arithmetic.
+
+Every answer term must be a canonical decimal string matching
+^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.
+
+Do not reveal private chain of thought. Give only a short rule summary and a
+short check summary. Return one JSON object only, with no Markdown, comments,
+code fences, or text outside the JSON. Include the supplied case_id exactly
+once. Copy the supplied block_id exactly, character for character, from TASK
+BLOCK JSON. Use this shape:
+
+{
+  "schema_version": "5.0",
+  "block_id": "the exact supplied block_id",
+  "results": [
+    {
+      "case_id": "the supplied case_id",
+      "answer": ["term1", "term2", "term3", "term4", "term5"],
+      "confidence": 0.0,
+      "rule_summary": "concise reproducible rule",
+      "check_summary": "concise visible-prefix or holdout check"
+    }
+  ]
+}
+
+ROLE
+Solve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.
+
+SPECIAL ASSIGNMENT
+This case was escalated because a broad generator panel produced no repeated answer. Use the assigned reconstruction method deeply, but abandon it if it cannot replay every visible transition exactly.
+
+WORKER LENS
+For bounded or wrapping behavior, derive congruence equations from every transition. Use shared residual divisibility to infer a modulus, solve multipliers and offsets exactly, and verify all transitions forward before extrapolating.
+
+TASK BLOCK JSON
+{"block_id":"dispute-r144","cases":[{"case_id":"R144","prefix":["7","0","15","16","18","22","1","17","20","26","9","4"]}],"experiment_id":"swarm-seeds-05-exploration","schema_version":"5.2-exploration","selection_rule":"base eleven plurality support equals one"}
+
+Return the required JSON object now.

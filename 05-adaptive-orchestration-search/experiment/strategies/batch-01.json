@@ -1,0 +1,249 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-strategy-batch",
+  "batch_id": "B01",
+  "panel_id": "search-panel-01",
+  "design_status": "frozen_before_subject_calls",
+  "strategies": [
+    {
+      "strategy_id": "B01-C01",
+      "name": "Generalist Vote 15",
+      "category": "control",
+      "description": "Fifteen independent generalists followed by deterministic plurality.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 15, "scope": "all", "reads": [], "lens_ids": ["generalist", "generalist", "generalist", "generalist", "generalist", "generalist", "generalist", "generalist", "generalist", "generalist", "generalist", "generalist", "generalist", "generalist", "generalist"], "instruction": "Solve independently and return the single best complete answer for every case."}
+      ],
+      "selector": {"mode": "base_plurality", "base_roles": ["proposer"]}
+    },
+    {
+      "strategy_id": "B01-C02",
+      "name": "Diversified Vote 15",
+      "category": "control",
+      "description": "Fifteen independent solvers with varied mechanism lenses, then deterministic plurality.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 15, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "diversifier", "arithmetic", "full_replay", "classifier", "minority", "hypothesis", "proof", "independent", "generalist"], "instruction": "Solve independently through the assigned lens, but search other allowed families if that lens fails."}
+      ],
+      "selector": {"mode": "base_plurality", "base_roles": ["proposer"]}
+    },
+    {
+      "strategy_id": "B01-C03",
+      "name": "E04 Verified Gate",
+      "category": "control",
+      "description": "The Experiment 04 champion architecture: seven proposers, two verifiers, and one judge with a unanimity gate.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 7, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "arithmetic"], "instruction": "Solve independently and justify one complete allowed mechanism."},
+        {"stage_id": "verify", "role": "verifier", "count": 2, "scope": "all", "reads": ["solve"], "lens_ids": ["full_replay", "arithmetic"], "instruction": "Reconstruct the strongest candidates independently and report the answer that survives complete replay."},
+        {"stage_id": "decide", "role": "judge", "count": 1, "scope": "all", "reads": ["solve", "verify"], "lens_ids": ["proof"], "instruction": "Choose one exact candidate or a fully checked replacement. Do not average competing tuples."}
+      ],
+      "selector": {"mode": "agreement_gate", "base_roles": ["proposer"], "decision_roles": ["judge"], "min_agree": 1, "support_roles": ["verifier"], "min_support": 2}
+    },
+    {
+      "strategy_id": "B01-C04",
+      "name": "E04 Proposer Pool",
+      "category": "control",
+      "description": "The seven-proposer pool from the Experiment 04 champion with the decision layer removed.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 7, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "arithmetic"], "instruction": "Solve independently and justify one complete allowed mechanism."}
+      ],
+      "selector": {"mode": "base_plurality", "base_roles": ["proposer"]}
+    },
+
+    {
+      "strategy_id": "B01-R01",
+      "name": "Three-Judge Verified Gate",
+      "category": "refinement",
+      "description": "Nine proposers, three independent verifiers, and three judges with a two-judge, two-verifier override gate.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 9, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "arithmetic", "classifier", "independent"], "instruction": "Solve independently and return one complete full-prefix answer."},
+        {"stage_id": "verify", "role": "verifier", "count": 3, "scope": "all", "reads": ["solve"], "lens_ids": ["full_replay", "arithmetic", "adversarial"], "instruction": "Reconstruct and stress-test the leading and coherent minority candidates."},
+        {"stage_id": "decide", "role": "judge", "count": 3, "scope": "all", "reads": ["solve", "verify"], "lens_ids": ["proof", "minority", "independent"], "instruction": "Make an independent evidence-based decision without inventing a compromise tuple."}
+      ],
+      "selector": {"mode": "agreement_gate", "base_roles": ["proposer"], "decision_roles": ["judge"], "min_agree": 2, "support_roles": ["verifier"], "min_support": 2}
+    },
+    {
+      "strategy_id": "B01-R02",
+      "name": "Critic-Supported Dual Judge",
+      "category": "refinement",
+      "description": "Ten proposers, three falsifying critics, and two judges. Both judges and one critic must support an override.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 10, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "arithmetic", "classifier", "hypothesis", "independent"], "instruction": "Solve independently and give the simplest complete mechanism."},
+        {"stage_id": "criticize", "role": "critic", "count": 3, "scope": "all", "reads": ["solve"], "lens_ids": ["adversarial", "full_replay", "minority"], "instruction": "Try to falsify the proposals and repair them only with a complete allowed mechanism."},
+        {"stage_id": "decide", "role": "judge", "count": 2, "scope": "all", "reads": ["solve", "criticize"], "lens_ids": ["proof", "independent"], "instruction": "Choose the answer with the strongest complete-prefix support."}
+      ],
+      "selector": {"mode": "agreement_gate", "base_roles": ["proposer"], "decision_roles": ["judge"], "min_agree": 2, "support_roles": ["critic"], "min_support": 1}
+    },
+    {
+      "strategy_id": "B01-R03",
+      "name": "Verifier-Heavy Jury",
+      "category": "refinement",
+      "description": "Eight proposers, four verifiers, and three judges with a stringent verifier-backed override.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 8, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "arithmetic", "classifier"], "instruction": "Solve independently and report one exact answer."},
+        {"stage_id": "verify", "role": "verifier", "count": 4, "scope": "all", "reads": ["solve"], "lens_ids": ["full_replay", "arithmetic", "adversarial", "independent"], "instruction": "Independently reconstruct the best candidates and check every visible term."},
+        {"stage_id": "decide", "role": "judge", "count": 3, "scope": "all", "reads": ["solve", "verify"], "lens_ids": ["proof", "minority", "independent"], "instruction": "Choose one fully supported answer and reject persuasive partial fits."}
+      ],
+      "selector": {"mode": "agreement_gate", "base_roles": ["proposer"], "decision_roles": ["judge"], "min_agree": 2, "support_roles": ["verifier"], "min_support": 3}
+    },
+    {
+      "strategy_id": "B01-R04",
+      "name": "Large Pool Conservative Gate",
+      "category": "refinement",
+      "description": "Twelve proposers, two verifiers, and one judge. The judge may override only with unanimous verifier support.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 12, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "arithmetic", "classifier", "hypothesis", "proof", "independent", "generalist"], "instruction": "Solve independently and require a full-prefix fit."},
+        {"stage_id": "verify", "role": "verifier", "count": 2, "scope": "all", "reads": ["solve"], "lens_ids": ["full_replay", "arithmetic"], "instruction": "Reconstruct the leading candidates and report the one that survives exact replay."},
+        {"stage_id": "decide", "role": "judge", "count": 1, "scope": "all", "reads": ["solve", "verify"], "lens_ids": ["proof"], "instruction": "Select the best fully checked answer."}
+      ],
+      "selector": {"mode": "agreement_gate", "base_roles": ["proposer"], "decision_roles": ["judge"], "min_agree": 1, "support_roles": ["verifier"], "min_support": 2}
+    },
+
+    {
+      "strategy_id": "B01-H01",
+      "name": "Critic Verifier Hybrid",
+      "category": "hybrid",
+      "description": "Eight diverse proposers, three critics, two verifiers, and two judges with mixed independent support.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 8, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "arithmetic", "classifier"], "instruction": "Solve independently through the assigned lens."},
+        {"stage_id": "criticize", "role": "critic", "count": 3, "scope": "all", "reads": ["solve"], "lens_ids": ["adversarial", "minority", "full_replay"], "instruction": "Falsify weak candidates and identify the strongest complete alternative."},
+        {"stage_id": "verify", "role": "verifier", "count": 2, "scope": "all", "reads": ["solve", "criticize"], "lens_ids": ["arithmetic", "independent"], "instruction": "Reconstruct the strongest surviving mechanisms from scratch."},
+        {"stage_id": "decide", "role": "judge", "count": 2, "scope": "all", "reads": ["solve", "criticize", "verify"], "lens_ids": ["proof", "independent"], "instruction": "Select one exact answer using complete-prefix evidence."}
+      ],
+      "selector": {"mode": "agreement_gate", "base_roles": ["proposer"], "decision_roles": ["judge"], "min_agree": 2, "support_roles": ["critic", "verifier"], "min_support": 2}
+    },
+    {
+      "strategy_id": "B01-H02",
+      "name": "Alternative-Hypothesis Tribunal",
+      "category": "hybrid",
+      "description": "A small proposer pool is challenged by four alternate-hypothesis critics, then checked by verifiers and dual judges.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 6, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "classifier"], "instruction": "Solve independently and state one complete mechanism."},
+        {"stage_id": "challenge", "role": "challenger", "count": 4, "scope": "all", "reads": ["solve"], "lens_ids": ["diversifier", "minority", "adversarial", "hypothesis"], "instruction": "Construct and test a materially different allowed explanation, then report the best-supported answer."},
+        {"stage_id": "verify", "role": "verifier", "count": 3, "scope": "all", "reads": ["solve", "challenge"], "lens_ids": ["full_replay", "arithmetic", "independent"], "instruction": "Replay the strongest competing mechanisms exactly."},
+        {"stage_id": "decide", "role": "judge", "count": 2, "scope": "all", "reads": ["solve", "challenge", "verify"], "lens_ids": ["proof", "independent"], "instruction": "Choose the answer that survives the strongest competing explanation."}
+      ],
+      "selector": {"mode": "agreement_gate", "base_roles": ["proposer"], "decision_roles": ["judge"], "min_agree": 2, "support_roles": ["challenger", "verifier"], "min_support": 3}
+    },
+    {
+      "strategy_id": "B01-H03",
+      "name": "Audited Integrator",
+      "category": "hybrid",
+      "description": "Ten proposers, two critics, two judges, and one final integrator. The integrator needs two upstream supporters to override.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 10, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "arithmetic", "classifier", "hypothesis", "independent"], "instruction": "Solve independently and require a complete allowed mechanism."},
+        {"stage_id": "criticize", "role": "critic", "count": 2, "scope": "all", "reads": ["solve"], "lens_ids": ["adversarial", "minority"], "instruction": "Identify concrete failures and the best repaired answer."},
+        {"stage_id": "jury", "role": "judge", "count": 2, "scope": "all", "reads": ["solve", "criticize"], "lens_ids": ["proof", "independent"], "instruction": "Choose one exact answer independently."},
+        {"stage_id": "integrate", "role": "integrator", "count": 1, "scope": "all", "reads": ["solve", "criticize", "jury"], "lens_ids": ["full_replay"], "instruction": "Audit the full evidence and return the single answer that best survives complete replay."}
+      ],
+      "selector": {"mode": "agreement_gate", "base_roles": ["proposer"], "decision_roles": ["integrator"], "min_agree": 1, "support_roles": ["critic", "judge"], "min_support": 2}
+    },
+    {
+      "strategy_id": "B01-H04",
+      "name": "Judge-Free Weighted Review",
+      "category": "hybrid",
+      "description": "Seven proposers, four critics, and four verifiers. A weighted deterministic vote replaces the judge bottleneck.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 7, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "arithmetic"], "instruction": "Solve independently and return one exact answer."},
+        {"stage_id": "criticize", "role": "critic", "count": 4, "scope": "all", "reads": ["solve"], "lens_ids": ["adversarial", "minority", "hypothesis", "full_replay"], "instruction": "Falsify weak proposals and report the strongest complete answer."},
+        {"stage_id": "verify", "role": "verifier", "count": 4, "scope": "all", "reads": ["solve", "criticize"], "lens_ids": ["arithmetic", "full_replay", "proof", "independent"], "instruction": "Independently replay and verify the strongest candidates."}
+      ],
+      "selector": {"mode": "weighted_plurality", "base_roles": ["proposer"], "role_weights": {"proposer": 1.0, "critic": 1.35, "verifier": 1.75}}
+    },
+
+    {
+      "strategy_id": "B01-F01",
+      "name": "Arithmetic Error Firewall",
+      "category": "failure_targeted",
+      "description": "Eight proposers feed four arithmetic auditors and a three-member jury.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 8, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "classifier", "independent"], "instruction": "Infer a complete mechanism and calculate the next five terms."},
+        {"stage_id": "audit", "role": "auditor", "count": 4, "scope": "all", "reads": ["solve"], "lens_ids": ["arithmetic", "full_replay", "arithmetic", "adversarial"], "instruction": "Audit indexing, signs, recurrence arithmetic, and every visible transition. Report the corrected exact answer."},
+        {"stage_id": "jury", "role": "juror", "count": 3, "scope": "all", "reads": ["solve", "audit"], "lens_ids": ["proof", "independent", "minority"], "instruction": "Choose the answer with a reproducible mechanism and clean arithmetic."}
+      ],
+      "selector": {"mode": "agreement_gate", "base_roles": ["proposer"], "decision_roles": ["juror"], "min_agree": 2, "support_roles": ["auditor"], "min_support": 2}
+    },
+    {
+      "strategy_id": "B01-F02",
+      "name": "Ambiguity Breaker",
+      "category": "failure_targeted",
+      "description": "Eight proposers are opposed by four explicit alternative-mechanism challengers before a three-judge gate.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 8, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "classifier", "independent"], "instruction": "Solve independently and state the strongest complete mechanism."},
+        {"stage_id": "challenge", "role": "challenger", "count": 4, "scope": "all", "reads": ["solve"], "lens_ids": ["diversifier", "hypothesis", "minority", "adversarial"], "instruction": "Search for a different allowed family that fits the whole prefix, and compare its prediction exactly."},
+        {"stage_id": "decide", "role": "judge", "count": 3, "scope": "all", "reads": ["solve", "challenge"], "lens_ids": ["proof", "full_replay", "independent"], "instruction": "Resolve the competing mechanisms through full-prefix evidence."}
+      ],
+      "selector": {"mode": "agreement_gate", "base_roles": ["proposer"], "decision_roles": ["judge"], "min_agree": 2, "support_roles": ["challenger"], "min_support": 2}
+    },
+    {
+      "strategy_id": "B01-F03",
+      "name": "No-Judge Conservative Challenge",
+      "category": "failure_targeted",
+      "description": "Twelve proposers establish a strong baseline. Three challengers can override only when at least two independently agree.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 12, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "arithmetic", "classifier", "hypothesis", "proof", "independent", "generalist"], "instruction": "Solve independently and require a full-prefix mechanism."},
+        {"stage_id": "challenge", "role": "challenger", "count": 3, "scope": "all", "reads": ["solve"], "lens_ids": ["adversarial", "minority", "full_replay"], "instruction": "Try to disprove the plurality and report a replacement only when fully reconstructed."}
+      ],
+      "selector": {"mode": "agreement_gate", "base_roles": ["proposer"], "decision_roles": ["challenger"], "min_agree": 2, "support_roles": [], "min_support": 0}
+    },
+    {
+      "strategy_id": "B01-F04",
+      "name": "Dispute-Only Escalation",
+      "category": "failure_targeted",
+      "description": "Nine proposers solve every case. Critics and verifiers spend calls only on cases where the proposer pool disagrees.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 9, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "arithmetic", "classifier", "independent"], "instruction": "Solve independently and return one exact answer."},
+        {"stage_id": "criticize", "role": "critic", "count": 3, "scope": "disputed", "scope_roles": ["proposer"], "reads": ["solve"], "lens_ids": ["adversarial", "minority", "full_replay"], "instruction": "Focus only on disputed cases. Falsify candidates and report the strongest complete answer."},
+        {"stage_id": "verify", "role": "verifier", "count": 3, "scope": "disputed", "scope_roles": ["proposer", "critic"], "reads": ["solve", "criticize"], "lens_ids": ["arithmetic", "proof", "independent"], "instruction": "For the remaining disputed cases, reconstruct the strongest candidates exactly."}
+      ],
+      "selector": {"mode": "weighted_plurality", "base_roles": ["proposer"], "role_weights": {"proposer": 1.0, "critic": 1.4, "verifier": 1.8}}
+    },
+
+    {
+      "strategy_id": "B01-N01",
+      "name": "Two-Branch Cross Examination",
+      "category": "novel",
+      "description": "Two independent five-solver branches are cross-examined, then two integrators must agree with upstream support.",
+      "stages": [
+        {"stage_id": "branch_a", "role": "proposer", "count": 5, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular"], "instruction": "Solve independently from scratch."},
+        {"stage_id": "branch_b", "role": "proposer", "count": 5, "scope": "all", "reads": [], "lens_ids": ["simplicity", "arithmetic", "classifier", "hypothesis", "independent"], "instruction": "Solve independently from scratch without relying on another branch."},
+        {"stage_id": "cross_exam", "role": "challenger", "count": 3, "scope": "all", "reads": ["branch_a", "branch_b"], "lens_ids": ["adversarial", "minority", "full_replay"], "instruction": "Cross-examine the competing branches and identify concrete failures or a surviving answer."},
+        {"stage_id": "integrate", "role": "integrator", "count": 2, "scope": "all", "reads": ["branch_a", "branch_b", "cross_exam"], "lens_ids": ["proof", "independent"], "instruction": "Independently select the exact answer that survives cross-examination."}
+      ],
+      "selector": {"mode": "agreement_gate", "base_roles": ["proposer"], "decision_roles": ["integrator"], "min_agree": 2, "support_roles": ["challenger"], "min_support": 1}
+    },
+    {
+      "strategy_id": "B01-N02",
+      "name": "Hypothesis Tournament",
+      "category": "novel",
+      "description": "Six proposals enter a critic and verifier tournament before two independent judges decide.",
+      "stages": [
+        {"stage_id": "hypothesize", "role": "proposer", "count": 6, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "hypothesis"], "instruction": "Generate and test the best complete hypothesis."},
+        {"stage_id": "criticize", "role": "critic", "count": 4, "scope": "all", "reads": ["hypothesize"], "lens_ids": ["adversarial", "minority", "diversifier", "full_replay"], "instruction": "Eliminate hypotheses that fail any visible term and report the strongest survivor."},
+        {"stage_id": "verify", "role": "verifier", "count": 3, "scope": "all", "reads": ["hypothesize", "criticize"], "lens_ids": ["arithmetic", "proof", "independent"], "instruction": "Independently reproduce the strongest surviving mechanism."},
+        {"stage_id": "decide", "role": "judge", "count": 2, "scope": "all", "reads": ["hypothesize", "criticize", "verify"], "lens_ids": ["proof", "independent"], "instruction": "Choose the exact answer that survives the tournament."}
+      ],
+      "selector": {"mode": "agreement_gate", "base_roles": ["proposer"], "decision_roles": ["judge"], "min_agree": 2, "support_roles": ["critic", "verifier"], "min_support": 3}
+    },
+    {
+      "strategy_id": "B01-N03",
+      "name": "Adaptive Dispute Jury",
+      "category": "novel",
+      "description": "Eight solvers handle all cases. A seven-member jury is invoked only where those solvers disagree.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 8, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "arithmetic", "classifier"], "instruction": "Solve independently and report one exact answer."},
+        {"stage_id": "jury", "role": "juror", "count": 7, "scope": "disputed", "scope_roles": ["proposer"], "reads": ["solve"], "lens_ids": ["proof", "full_replay", "arithmetic", "minority", "adversarial", "hypothesis", "independent"], "instruction": "For disputed cases only, independently select or reconstruct the best-supported answer."}
+      ],
+      "selector": {"mode": "agreement_gate", "base_roles": ["proposer"], "decision_roles": ["juror"], "min_agree": 4, "support_roles": [], "min_support": 0}
+    },
+    {
+      "strategy_id": "B01-N04",
+      "name": "Proof-Carrying Consensus",
+      "category": "novel",
+      "description": "Ten independent proposals are followed by five proof auditors. Three auditors must agree to change the base plurality.",
+      "stages": [
+        {"stage_id": "solve", "role": "proposer", "count": 10, "scope": "all", "reads": [], "lens_ids": ["generalist", "differences", "recurrences", "streams", "modular", "simplicity", "arithmetic", "classifier", "hypothesis", "independent"], "instruction": "Solve independently and provide a concise reproducible rule."},
+        {"stage_id": "audit", "role": "auditor", "count": 5, "scope": "all", "reads": ["solve"], "lens_ids": ["proof", "full_replay", "arithmetic", "adversarial", "independent"], "instruction": "Accept an answer only if its mechanism can be reconstructed and replayed across the full prefix."}
+      ],
+      "selector": {"mode": "agreement_gate", "base_roles": ["proposer"], "decision_roles": ["auditor"], "min_agree": 3, "support_roles": [], "min_support": 0}
+    }
+  ]
+}

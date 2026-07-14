@@ -1,0 +1,25 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-fresh-benchmark-public-finalization-registration",
+  "gate_id": "fresh-80-gate-02-public-finalization",
+  "registered_at_utc": "2026-07-14T03:02:53Z",
+  "registered_before_finalization": true,
+  "status": "sealed_cases_created_public_blocks_pending",
+  "generation_state": {
+    "overlap_guard_completed": true,
+    "family_tier_design_validation_completed": true,
+    "public_case_file_created": true,
+    "sealed_answer_file_created": true,
+    "public_blocks_created": false,
+    "generation_stopped_reason": "The convenience block builder expected a prefix field, while generated public rows use terms."
+  },
+  "repair_scope": "Read only public/cases.jsonl, map each public terms array to prefix in four six-case blocks, and hash but never parse or rewrite hidden/answers.jsonl.",
+  "regeneration_forbidden": true,
+  "root_seed_unchanged": true,
+  "sha256": {
+    "generator_script": "e1b22a85303283f53f7325b89bb92e766b5e9f25215e01568fb3f428361f148e",
+    "public_finalizer_script": "68718ebe70a5435982d0dafe76306bb48bf8af87e2938e3cebf4a2da5c234ea8",
+    "public_cases": "431fda4b003dbe11cc6aa3475717926b2bb11f1a3aa36a6d88ae62e31c4224c6",
+    "sealed_answers": "3c3a1b44a92ac61fa55deb045c934cea93112df8e63326d002c05196b5107bc1"
+  }
+}

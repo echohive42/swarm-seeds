@@ -1,0 +1,29 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-fresh-gate-stage-registration",
+  "gate_id": "fresh-80-gate-03",
+  "stage_id": "holdout-02",
+  "registered_at_utc": "2026-07-14T03:47:40Z",
+  "registered_before_stage_calls": true,
+  "route": {
+    "selection_rule": "at most three stage-one candidates recovered their own public suffix",
+    "candidate_count": 8,
+    "route_cap": 12,
+    "selected_count": 8,
+    "selected_case_ids": ["S002", "S009", "S017", "S021", "S014", "S015", "S024", "S016"],
+    "uses_benchmark_answers": false
+  },
+  "calls": {"logical_calls": 64, "prompt_arms_per_case": 8, "holdout_terms": [1, 2], "maximum_concurrency": 60},
+  "requested_model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "service_tier": "standard",
+  "sealed_answers_opened": false,
+  "sha256": {
+    "stage_one_attempt_ledger": "a862581d6f9212f6b8a16bb9245ed98f5a0580c282dd377843271adfa3c992d8",
+    "route_manifest": "15218223e8c8091e40d77783b8ee87208961260562406c775287fcb1bbddb1a1",
+    "public_holdout_key": "27add2d28fcedc6d5cb669eec2635fcb4f2456711e74e3659370ffb5c0aabfd4",
+    "job_manifest": "ee481916da19019e6583dbe5b876cc69fd0733aa6ebd5189812987244eee30ed",
+    "preparation_summary": "65dd97018972c7f4173c95ae46fcf24506e971b28341c8f98ae1fd5ee877a931",
+    "sealed_answers": "fc404902cbb4400a191fbf532b0e222348ed436d915beda12f3bf207bbdfae86"
+  }
+}

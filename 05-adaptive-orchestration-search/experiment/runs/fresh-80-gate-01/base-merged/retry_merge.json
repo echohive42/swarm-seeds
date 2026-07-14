@@ -1,0 +1,383 @@
+{
+  "artifact_type": "exact-job-retry-wave-merge",
+  "job_count": 60,
+  "jobs": [
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13a-solve-1",
+      "merged_result_sha256": "bd80d9062f1e490965e99ab9a08ce553435ed43cbcb7b8eb286a67194d6d1fe4",
+      "source": "base",
+      "source_sha256": "bd80d9062f1e490965e99ab9a08ce553435ed43cbcb7b8eb286a67194d6d1fe4"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13a-solve-2",
+      "merged_result_sha256": "926c872eb0178092fb50cbadc6318280b01ae589b056bfa12fc43262db57b66b",
+      "source": "base",
+      "source_sha256": "926c872eb0178092fb50cbadc6318280b01ae589b056bfa12fc43262db57b66b"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13a-solve-3",
+      "merged_result_sha256": "325b2b10c34b0b97f7dbf2e983dc1c3f40cc250fa73b18b731c2aaba949f8f35",
+      "source": "base",
+      "source_sha256": "325b2b10c34b0b97f7dbf2e983dc1c3f40cc250fa73b18b731c2aaba949f8f35"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13a-solve-4",
+      "merged_result_sha256": "3500acfd1f7ec5016653d864bc3aef8e41bdc857bee0696ea311083c77637a31",
+      "source": "base",
+      "source_sha256": "3500acfd1f7ec5016653d864bc3aef8e41bdc857bee0696ea311083c77637a31"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13a-solve-5",
+      "merged_result_sha256": "898ac1b6e9139d3c76d39952c7e48d43857234f62b1e84a2389ff7bc624961b7",
+      "source": "base",
+      "source_sha256": "898ac1b6e9139d3c76d39952c7e48d43857234f62b1e84a2389ff7bc624961b7"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13a-solve-6",
+      "merged_result_sha256": "8cc914a3df39d33014077976ba0b792b831a01bd3d70338f4211d8f70a8d2d8b",
+      "source": "retry_1",
+      "source_sha256": "8cc914a3df39d33014077976ba0b792b831a01bd3d70338f4211d8f70a8d2d8b"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13a-solve-7",
+      "merged_result_sha256": "bdcdd31aa1b4637f096c018635a3ac7d86f0bf5273894b93f658cc78a00d9c9d",
+      "source": "base",
+      "source_sha256": "bdcdd31aa1b4637f096c018635a3ac7d86f0bf5273894b93f658cc78a00d9c9d"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13a-solve-8",
+      "merged_result_sha256": "515d9e9b9d12b0ec936dd46893e0dfe9f2c21074d733351b6f26e2df89cdb11a",
+      "source": "base",
+      "source_sha256": "515d9e9b9d12b0ec936dd46893e0dfe9f2c21074d733351b6f26e2df89cdb11a"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13a-solve-9",
+      "merged_result_sha256": "76bef0330e0d3f6c256f8c8f34452bcb6df6ddda96d78010b569b019a9135398",
+      "source": "base",
+      "source_sha256": "76bef0330e0d3f6c256f8c8f34452bcb6df6ddda96d78010b569b019a9135398"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13a-solve-10",
+      "merged_result_sha256": "a023e0031d5dfe39ee57cf04872e69001dcc655acb09333aed9dd3dbe201d9e3",
+      "source": "base",
+      "source_sha256": "a023e0031d5dfe39ee57cf04872e69001dcc655acb09333aed9dd3dbe201d9e3"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13a-solve-11",
+      "merged_result_sha256": "bff33ed839993f0ebdea923a32385821e61ca900cc9558dcfcde03921d96743a",
+      "source": "base",
+      "source_sha256": "bff33ed839993f0ebdea923a32385821e61ca900cc9558dcfcde03921d96743a"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13b-solve-1",
+      "merged_result_sha256": "9f72a703934b2b4533af6002f28dc028778e1d76c5b46846804aefa5fe7d0ef6",
+      "source": "base",
+      "source_sha256": "9f72a703934b2b4533af6002f28dc028778e1d76c5b46846804aefa5fe7d0ef6"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13b-solve-2",
+      "merged_result_sha256": "973a03c2416fe22825d8672f9c28aab4efb5f008beb478fda3fa2f3e91c3c78b",
+      "source": "base",
+      "source_sha256": "973a03c2416fe22825d8672f9c28aab4efb5f008beb478fda3fa2f3e91c3c78b"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13b-solve-3",
+      "merged_result_sha256": "752259aa671093de7c61a13b0c3880594f8db9100ef2ed2fd0b2def30bcddec5",
+      "source": "base",
+      "source_sha256": "752259aa671093de7c61a13b0c3880594f8db9100ef2ed2fd0b2def30bcddec5"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13b-solve-4",
+      "merged_result_sha256": "bba49fb2051edec9cc187891dc7e6ae11a26b796155055db0094698ce3868e05",
+      "source": "base",
+      "source_sha256": "bba49fb2051edec9cc187891dc7e6ae11a26b796155055db0094698ce3868e05"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13b-solve-5",
+      "merged_result_sha256": "f74008f8c88130da2f28cca3ad200fa6a146a02ec46ed8bce7939665f44afa6d",
+      "source": "base",
+      "source_sha256": "f74008f8c88130da2f28cca3ad200fa6a146a02ec46ed8bce7939665f44afa6d"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13b-solve-6",
+      "merged_result_sha256": "18cca647901f0e08f35de74a048dc11992929fc0680d1249d25a87a620cdaf3e",
+      "source": "base",
+      "source_sha256": "18cca647901f0e08f35de74a048dc11992929fc0680d1249d25a87a620cdaf3e"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13b-solve-7",
+      "merged_result_sha256": "deb14ad9f226bff3926616ec35b59a6337aa29962429f7f0bfb696e49823db73",
+      "source": "base",
+      "source_sha256": "deb14ad9f226bff3926616ec35b59a6337aa29962429f7f0bfb696e49823db73"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13b-solve-8",
+      "merged_result_sha256": "cd5bb8d5b3b259dbac6dd7a3be6dc3c7c4adc4ba2fc4916a8561d29a51d10c96",
+      "source": "base",
+      "source_sha256": "cd5bb8d5b3b259dbac6dd7a3be6dc3c7c4adc4ba2fc4916a8561d29a51d10c96"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13b-solve-9",
+      "merged_result_sha256": "82aa2c2a5fbf5e41530b7b51be14b36552ae7c01398613d50f2dccbf4aab88cc",
+      "source": "base",
+      "source_sha256": "82aa2c2a5fbf5e41530b7b51be14b36552ae7c01398613d50f2dccbf4aab88cc"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13b-solve-10",
+      "merged_result_sha256": "50818060863c867bf2d674f5a61cf4e47b22285c88681c8f6c628166013f09fe",
+      "source": "base",
+      "source_sha256": "50818060863c867bf2d674f5a61cf4e47b22285c88681c8f6c628166013f09fe"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b13b-solve-11",
+      "merged_result_sha256": "24043304d5e077a59c1c95da1e586696147d7fcc8e42292ad847fd5021af3be1",
+      "source": "base",
+      "source_sha256": "24043304d5e077a59c1c95da1e586696147d7fcc8e42292ad847fd5021af3be1"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-1",
+      "merged_result_sha256": "d39b66e7bc22a1c95fc9f70f44ecef8aaa4b12278ba1ef18604fa97352a09ce4",
+      "source": "retry_1",
+      "source_sha256": "d39b66e7bc22a1c95fc9f70f44ecef8aaa4b12278ba1ef18604fa97352a09ce4"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-2",
+      "merged_result_sha256": "858b39bcfe084da9e4ad1688d38650daffcefdd441233592d8113c425048cbea",
+      "source": "base",
+      "source_sha256": "858b39bcfe084da9e4ad1688d38650daffcefdd441233592d8113c425048cbea"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-3",
+      "merged_result_sha256": "3d00d6481d05f8ff8538462886df08d5852d782bfefccbbf56621bcabb20b3d5",
+      "source": "retry_1",
+      "source_sha256": "3d00d6481d05f8ff8538462886df08d5852d782bfefccbbf56621bcabb20b3d5"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-4",
+      "merged_result_sha256": "938374bf93b28fa66991a4b70bbc1fc91d3fa2a950ada8d04d4e2829f4fe221c",
+      "source": "retry_1",
+      "source_sha256": "938374bf93b28fa66991a4b70bbc1fc91d3fa2a950ada8d04d4e2829f4fe221c"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-5",
+      "merged_result_sha256": "c18a7870056114504ed83caa2345f9640ded22aa23de5884b0a397362ad7b4fb",
+      "source": "base",
+      "source_sha256": "c18a7870056114504ed83caa2345f9640ded22aa23de5884b0a397362ad7b4fb"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-6",
+      "merged_result_sha256": "2476d43821b7886504f4a19b3326d7a3fc5363ec2a70bf7050a069ec30e01d55",
+      "source": "retry_1",
+      "source_sha256": "2476d43821b7886504f4a19b3326d7a3fc5363ec2a70bf7050a069ec30e01d55"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-7",
+      "merged_result_sha256": "9429f92a6ddd4aca025f6d853103f2a3b63fb3fa857db9156cfa191410d46f34",
+      "source": "retry_1",
+      "source_sha256": "9429f92a6ddd4aca025f6d853103f2a3b63fb3fa857db9156cfa191410d46f34"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-8",
+      "merged_result_sha256": "2ce76a0299c0cd7869a82e7aee33747bb1c400bd22afad33ed3c92587f141cff",
+      "source": "retry_1",
+      "source_sha256": "2ce76a0299c0cd7869a82e7aee33747bb1c400bd22afad33ed3c92587f141cff"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-9",
+      "merged_result_sha256": "b3f34009da7172c0e76602d1419cc080cbb93dbdfbf1620b1a7246fc975fef2d",
+      "source": "retry_1",
+      "source_sha256": "b3f34009da7172c0e76602d1419cc080cbb93dbdfbf1620b1a7246fc975fef2d"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-10",
+      "merged_result_sha256": "dd449282e353fdb82cd09bdcb646468c65d92abef549924b6c102aee609cc91f",
+      "source": "retry_1",
+      "source_sha256": "dd449282e353fdb82cd09bdcb646468c65d92abef549924b6c102aee609cc91f"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-11",
+      "merged_result_sha256": "44abdce4b27c1d3f9fbea06c5ae5034d9677b1a1b71a3617515219c727f4dcaf",
+      "source": "base",
+      "source_sha256": "44abdce4b27c1d3f9fbea06c5ae5034d9677b1a1b71a3617515219c727f4dcaf"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14b-solve-1",
+      "merged_result_sha256": "7ac989c0865a72f7a9fffa17a7031198b2b93d444b6768ce260a9656d44e0fdf",
+      "source": "base",
+      "source_sha256": "7ac989c0865a72f7a9fffa17a7031198b2b93d444b6768ce260a9656d44e0fdf"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14b-solve-2",
+      "merged_result_sha256": "8eb1cc87e3e7fb02169c507d511d212eb907ea98a0bc5a3723183eef8fba2bad",
+      "source": "base",
+      "source_sha256": "8eb1cc87e3e7fb02169c507d511d212eb907ea98a0bc5a3723183eef8fba2bad"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14b-solve-3",
+      "merged_result_sha256": "1d444cda86c0618d8a7f10e479ef083e5b700b3d02eec8d6f711ad33fde24fbd",
+      "source": "base",
+      "source_sha256": "1d444cda86c0618d8a7f10e479ef083e5b700b3d02eec8d6f711ad33fde24fbd"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14b-solve-4",
+      "merged_result_sha256": "dcb2388265455d954e1b8fa0e8a62d1ca24c471d65b610f08ff264a5b5ad721a",
+      "source": "base",
+      "source_sha256": "dcb2388265455d954e1b8fa0e8a62d1ca24c471d65b610f08ff264a5b5ad721a"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14b-solve-5",
+      "merged_result_sha256": "06423c35090e3fd456cda724fa6317bb3c1c55baf73a2523d72dcef572da84d6",
+      "source": "base",
+      "source_sha256": "06423c35090e3fd456cda724fa6317bb3c1c55baf73a2523d72dcef572da84d6"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14b-solve-6",
+      "merged_result_sha256": "2ccf8c0d344009320b09cb34e995b8475961a1b789d5949dec0fdaf5101d5bb1",
+      "source": "base",
+      "source_sha256": "2ccf8c0d344009320b09cb34e995b8475961a1b789d5949dec0fdaf5101d5bb1"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14b-solve-7",
+      "merged_result_sha256": "d2ffde5b2a200e538bfe576be8d1c3bc355e356ef1bedf8edd4d8b02de62d7b2",
+      "source": "base",
+      "source_sha256": "d2ffde5b2a200e538bfe576be8d1c3bc355e356ef1bedf8edd4d8b02de62d7b2"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14b-solve-8",
+      "merged_result_sha256": "d67a80ba79ac54c68637259b9223f4db3c28d57ed597cf633ccfa1a0cda05776",
+      "source": "base",
+      "source_sha256": "d67a80ba79ac54c68637259b9223f4db3c28d57ed597cf633ccfa1a0cda05776"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14b-solve-9",
+      "merged_result_sha256": "3a7ff2e2db405e070b264f7c207fc886b1e8a154a8bb71d9cf8705acfcac078d",
+      "source": "base",
+      "source_sha256": "3a7ff2e2db405e070b264f7c207fc886b1e8a154a8bb71d9cf8705acfcac078d"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14b-solve-10",
+      "merged_result_sha256": "24fb59927107190662e4608215c47af065654870ea760224c1b905ef438e9af9",
+      "source": "base",
+      "source_sha256": "24fb59927107190662e4608215c47af065654870ea760224c1b905ef438e9af9"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-BASE-research-b14b-solve-11",
+      "merged_result_sha256": "716c0bcd2066e7b6b840d47d150dc7ee07e96d833af26288e2f0674d2d43b3a8",
+      "source": "base",
+      "source_sha256": "716c0bcd2066e7b6b840d47d150dc7ee07e96d833af26288e2f0674d2d43b3a8"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-ADD-research-b13a-solve-1",
+      "merged_result_sha256": "7eac7233a770bb38e1079157e008b2c513e3596062ac7b20d9b3883d7c19f3ce",
+      "source": "base",
+      "source_sha256": "7eac7233a770bb38e1079157e008b2c513e3596062ac7b20d9b3883d7c19f3ce"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-ADD-research-b13a-solve-2",
+      "merged_result_sha256": "a32645c142e764bf19cd0f9aa966aa43f69e230e22304319303521254c700644",
+      "source": "base",
+      "source_sha256": "a32645c142e764bf19cd0f9aa966aa43f69e230e22304319303521254c700644"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-ADD-research-b13a-solve-3",
+      "merged_result_sha256": "edec43aeaebe938b65e71dd91ea11d4717de749cf5b6fa5aa180c31d565b04a1",
+      "source": "base",
+      "source_sha256": "edec43aeaebe938b65e71dd91ea11d4717de749cf5b6fa5aa180c31d565b04a1"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-ADD-research-b13a-solve-4",
+      "merged_result_sha256": "74b529c4ba706d360ca56fc950da350dc2f338b49f0b49e0d74a086351066381",
+      "source": "base",
+      "source_sha256": "74b529c4ba706d360ca56fc950da350dc2f338b49f0b49e0d74a086351066381"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-ADD-research-b13b-solve-1",
+      "merged_result_sha256": "bdfedb5dbc1872471056321a8d5827c79045c4b9e6b7ba1cd91e0c024f259485",
+      "source": "base",
+      "source_sha256": "bdfedb5dbc1872471056321a8d5827c79045c4b9e6b7ba1cd91e0c024f259485"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-ADD-research-b13b-solve-2",
+      "merged_result_sha256": "dced2279b7d9348cc88a13b7921ea40a09fb2854edbc9c2e22d9d6af2ebf0632",
+      "source": "base",
+      "source_sha256": "dced2279b7d9348cc88a13b7921ea40a09fb2854edbc9c2e22d9d6af2ebf0632"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-ADD-research-b13b-solve-3",
+      "merged_result_sha256": "7ae91b056c9a9c8cd7dc8865aefd8d0c5e5cbe30055f543dbea9cbedc405ebe8",
+      "source": "base",
+      "source_sha256": "7ae91b056c9a9c8cd7dc8865aefd8d0c5e5cbe30055f543dbea9cbedc405ebe8"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-ADD-research-b13b-solve-4",
+      "merged_result_sha256": "b6fe3e6bb86a11e3449a1cdeb9e9895aa6885f3b8f33b290fa71f28633073fbd",
+      "source": "base",
+      "source_sha256": "b6fe3e6bb86a11e3449a1cdeb9e9895aa6885f3b8f33b290fa71f28633073fbd"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-ADD-research-b14a-solve-1",
+      "merged_result_sha256": "f4fe7666a8a87ecc1f0d1e89fe2fe2bacdb4376d25dd8e074be53b905d834338",
+      "source": "base",
+      "source_sha256": "f4fe7666a8a87ecc1f0d1e89fe2fe2bacdb4376d25dd8e074be53b905d834338"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-ADD-research-b14a-solve-2",
+      "merged_result_sha256": "0842bd3b13843a55e24bff2120a145b39cf07554d56a4312572162b5b46388b7",
+      "source": "base",
+      "source_sha256": "0842bd3b13843a55e24bff2120a145b39cf07554d56a4312572162b5b46388b7"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-ADD-research-b14a-solve-3",
+      "merged_result_sha256": "dd07c405b41cd46e33928d18f60783cb44fd43c5022fbe3b08535f796b0c38f6",
+      "source": "base",
+      "source_sha256": "dd07c405b41cd46e33928d18f60783cb44fd43c5022fbe3b08535f796b0c38f6"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-ADD-research-b14a-solve-4",
+      "merged_result_sha256": "3aeadbb45ea3766b1c80213200bac43a529994306ca2ca84f461db5f59661320",
+      "source": "base",
+      "source_sha256": "3aeadbb45ea3766b1c80213200bac43a529994306ca2ca84f461db5f59661320"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-ADD-research-b14b-solve-1",
+      "merged_result_sha256": "3b01805606087514eb2b11393952ab159ceedf5e40a83dfd33d4abb541977b18",
+      "source": "base",
+      "source_sha256": "3b01805606087514eb2b11393952ab159ceedf5e40a83dfd33d4abb541977b18"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-ADD-research-b14b-solve-2",
+      "merged_result_sha256": "1034a8d380b92ec6efa709807f89d22a273f506c4e935ae989c734a316478059",
+      "source": "base",
+      "source_sha256": "1034a8d380b92ec6efa709807f89d22a273f506c4e935ae989c734a316478059"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-ADD-research-b14b-solve-3",
+      "merged_result_sha256": "9827478241796083e9f7d1effe63de8fec675b65ecde833ef783e2cdb4e68fb0",
+      "source": "base",
+      "source_sha256": "9827478241796083e9f7d1effe63de8fec675b65ecde833ef783e2cdb4e68fb0"
+    },
+    {
+      "job_id": "fresh-80-gate-01-base-F80G01-ADD-research-b14b-solve-4",
+      "merged_result_sha256": "46c66f03fc9fbde8c5a0674621de136e80353390dc4f5c26f12915ca79769aaf",
+      "source": "base",
+      "source_sha256": "46c66f03fc9fbde8c5a0674621de136e80353390dc4f5c26f12915ca79769aaf"
+    }
+  ],
+  "manifest_sha256": "5037b0296a517b500e290e47f136aadf696cd3fff03c46e6b67335ec843b6e12",
+  "replacement_job_ids": [
+    "fresh-80-gate-01-base-F80G01-BASE-research-b13a-solve-6",
+    "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-1",
+    "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-3",
+    "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-4",
+    "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-6",
+    "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-7",
+    "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-8",
+    "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-9",
+    "fresh-80-gate-01-base-F80G01-BASE-research-b14a-solve-10"
+  ],
+  "schema_version": "5.1-validation",
+  "source_counts": {
+    "base": 51,
+    "retry_1": 9
+  }
+}

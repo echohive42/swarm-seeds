@@ -1,0 +1,34 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-fresh-gate-unseal-registration",
+  "gate_id": "fresh-80-gate-03",
+  "registered_at_utc": "2026-07-14T03:53:12Z",
+  "registered_before_answer_parse": true,
+  "all_subject_jobs_terminal": true,
+  "execution": {
+    "base": {"logical_jobs": 60, "valid_jobs": 60, "invalid_jobs": 0},
+    "holdout_01": {"logical_jobs": 88, "valid_jobs": 88, "invalid_jobs": 0},
+    "holdout_02": {"logical_jobs": 64, "valid_jobs": 64, "invalid_jobs": 0},
+    "holdout_03": {"logical_jobs": 56, "valid_jobs": 56, "invalid_jobs": 0},
+    "total_logical_jobs": 268,
+    "total_model_attempts": 268,
+    "retry_attempts": 0
+  },
+  "frozen_selector": "total recovered public suffix terms, deepest holdout, distinct holdout depths, distinct stages, raw support, canonical tuple",
+  "target": {"minimum_exact": 20, "cases": 24, "minimum_attainable_accuracy": 0.8333333333333334},
+  "sha256": {
+    "base_predictions": "f86fc041c68119d1878242a35992a1826f958bc13b9ab24bd8e70f7bda0e4a5b",
+    "base_attempt_ledger": "57e82d797bcc7a83ed7a3ddc3e42e81b4f3fe6596737db1801e5299afdf3347a",
+    "holdout_01_manifest": "e02ce61e5885bbd481a7fc40b42beb87819d8fa94475d57d8b2f7752ba7d2c1d",
+    "holdout_01_key": "3580456cda82f195001f9eb01550cea10f90f8dcbdaefe5759bf4f058a83771e",
+    "holdout_01_ledger": "a862581d6f9212f6b8a16bb9245ed98f5a0580c282dd377843271adfa3c992d8",
+    "holdout_02_manifest": "ee481916da19019e6583dbe5b876cc69fd0733aa6ebd5189812987244eee30ed",
+    "holdout_02_key": "27add2d28fcedc6d5cb669eec2635fcb4f2456711e74e3659370ffb5c0aabfd4",
+    "holdout_02_ledger": "956344aa70088a28e352526c8e70ead105ab161f049a3c0810d24f731b06119c",
+    "holdout_03_manifest": "53b38252f5f7463f2f22bd701d303c7d585b954040b03054ecd48ff8ba5f2b03",
+    "holdout_03_key": "31a2ecf7228adbed2fb25089dc0773be97939545f61a5e3a7261728272e9ab63",
+    "holdout_03_ledger": "79c2db1780a341953cb3b50426a6533c565e6606503ed3d5880068bbbd4326c6",
+    "sealed_answers": "fc404902cbb4400a191fbf532b0e222348ed436d915beda12f3bf207bbdfae86",
+    "weighted_scorer": "c94d158ec4352ea70ba21ddd578587d65cb74d9313e6f883c70eef559717e9f1"
+  }
+}

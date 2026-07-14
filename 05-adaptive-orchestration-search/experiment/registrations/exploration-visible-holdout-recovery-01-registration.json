@@ -1,0 +1,65 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-visible-holdout-recovery-registration",
+  "exploration_id": "visible-holdout-recovery-01",
+  "registered_at_utc": "2026-07-14T02:40:29Z",
+  "registered_before_subject_calls": true,
+  "status": "open_development_not_validation",
+  "objective": "Expand candidate coverage on cases where the first visible-holdout portfolio produced little externally verified evidence, using explicit but generally applicable structural reconstruction methods.",
+  "router": {
+    "input": "stage-one holdout predictions and their own removed public suffix terms only",
+    "selection_rule": "Route cases with at most three stage-one candidates that exactly recover their own visible holdout.",
+    "ranking_rule": "survivor count ascending, unique surviving answers descending, case_id ascending",
+    "cap": 8,
+    "selected_count": 8,
+    "selected_case_ids": [
+      "R145",
+      "R158",
+      "R161",
+      "R164",
+      "R167",
+      "R160",
+      "R165",
+      "R159"
+    ],
+    "uses_benchmark_answers": false,
+    "uses_family_or_generator_metadata": false
+  },
+  "subject_calls": {
+    "requested_model": "gpt-5.6-luna",
+    "reasoning_effort": "low",
+    "public_reasoning_label": "Light reasoning",
+    "service_tier": "standard",
+    "prompt_arms_per_case": 8,
+    "holdout_one_arms_per_case": 6,
+    "holdout_two_arms_per_case": 2,
+    "cases_per_call": 1,
+    "logical_calls": 64,
+    "maximum_concurrency": 60,
+    "prompt_methods": [
+      "modular affine reconstruction",
+      "periodic delta tables",
+      "lag-residue polynomial tables",
+      "heterogeneous interleavings",
+      "growing blocks",
+      "segment-boundary backtracking",
+      "structural-library comparison",
+      "forward-backward execution audit"
+    ]
+  },
+  "fairness": "Every selected case receives every specialist prompt. The subject sees only case_id, a shortened decimal prefix, and requested continuation length. It receives no family label, generator parameters, removed suffix terms, benchmark answers, prior predictions, or other agent output.",
+  "retry_rule": "Never rerun a valid output. Retry only the identical logical job after schema or infrastructure failure and preserve every attempt ledger.",
+  "interpretation_rule": "This is open development on B13/B14. Results may guide a future frozen architecture but cannot be reported as fresh or validated accuracy.",
+  "sha256": {
+    "preparation_script": "17deb875e9233f6d99d18f321770e3471d05105e1e8bc5cfb3daa59f4ad7b2a3",
+    "common_prefix": "c04aff3d1e50d24afe86913f2a793a95d065a122cff69ff0936fce4ff50c1de7",
+    "lens_catalog": "185aa49ca716134fddcf07fa51bc921c085b5781092080d9eb88c3edfba04aca",
+    "stage_one_manifest": "50f8e6271d8ed5a4b8385b12feb46082f1590a907431fcb98b3fa3c137c9d207",
+    "stage_one_holdout_key": "1e54631ccb69de9c99ed18c9c9a05446f66283344a73f114b0692e69bc5c44b8",
+    "stage_one_attempt_ledger": "97d88e2f0651d33e6269585b5184fea290d0f286874c25015fc61be3824bac4e",
+    "route_manifest": "6f40faf21bd5d4555d4086b4ac61ba1758e9f73b009f5d41735b20434b592f2e",
+    "holdout_key": "394c463784cf173dac8d68b0f0d30e4d0ef2b4e2059611b136f786f2ecbf4bf3",
+    "job_manifest": "b8ee4632c1c6f565eca319049f1c8ae0b25b3830dfedc4d4f02a9c4fc999c949",
+    "preparation_summary": "63f32f5bc7b283bd1cb28d6000508fb2aa1fa2461a74ab931ce6315668dad9dc"
+  }
+}

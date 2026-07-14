@@ -1,0 +1,153 @@
+{
+  "actual_logical_calls": 60,
+  "artifact_type": "experiment-05-run-summary",
+  "blocks": [
+    "research-b11a",
+    "research-b11b",
+    "research-b12a",
+    "research-b12b"
+  ],
+  "common_prefix_sha256": "0bb2a204af57b7aa5d48f408fd5352a5d0484e6d93e2365e3309d4722cd50276",
+  "concurrency": 60,
+  "lens_catalog_sha256": "bbb63042a2b3abace1d6cf843455889a96d315bec6ff9927285590e18b30f5cc",
+  "model": "gpt-5.6-luna",
+  "per_strategy_calls": {
+    "GX01-ADD": 16,
+    "GX01-BASE": 44
+  },
+  "phase": "exploration-generator-01",
+  "planned_max_calls": 60,
+  "prediction_records_sha256": "79abb068bacea41a86bf8a0f28df9040a81711234a2fdb4adc2fd5c965ec0719",
+  "public_condition_label": "Light reasoning",
+  "reasoning_effort": "low",
+  "routing_decisions": [
+    {
+      "block_id": "research-b11a",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "GX01-BASE",
+      "target_case_ids": [
+        "R121",
+        "R122",
+        "R123",
+        "R124",
+        "R125",
+        "R126"
+      ]
+    },
+    {
+      "block_id": "research-b11b",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "GX01-BASE",
+      "target_case_ids": [
+        "R127",
+        "R128",
+        "R129",
+        "R130",
+        "R131",
+        "R132"
+      ]
+    },
+    {
+      "block_id": "research-b12a",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "GX01-BASE",
+      "target_case_ids": [
+        "R133",
+        "R134",
+        "R135",
+        "R136",
+        "R137",
+        "R138"
+      ]
+    },
+    {
+      "block_id": "research-b12b",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "GX01-BASE",
+      "target_case_ids": [
+        "R139",
+        "R140",
+        "R141",
+        "R142",
+        "R143",
+        "R144"
+      ]
+    },
+    {
+      "block_id": "research-b11a",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "GX01-ADD",
+      "target_case_ids": [
+        "R121",
+        "R122",
+        "R123",
+        "R124",
+        "R125",
+        "R126"
+      ]
+    },
+    {
+      "block_id": "research-b11b",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "GX01-ADD",
+      "target_case_ids": [
+        "R127",
+        "R128",
+        "R129",
+        "R130",
+        "R131",
+        "R132"
+      ]
+    },
+    {
+      "block_id": "research-b12a",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "GX01-ADD",
+      "target_case_ids": [
+        "R133",
+        "R134",
+        "R135",
+        "R136",
+        "R137",
+        "R138"
+      ]
+    },
+    {
+      "block_id": "research-b12b",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "GX01-ADD",
+      "target_case_ids": [
+        "R139",
+        "R140",
+        "R141",
+        "R142",
+        "R143",
+        "R144"
+      ]
+    }
+  ],
+  "schema_version": "5.0",
+  "service_tier": "standard",
+  "strategies": [
+    "GX01-BASE",
+    "GX01-ADD"
+  ],
+  "strategy_batch_sha256": "d218aa48583ae2747b94d0f20e2bb85c4424f35515535d3eafc11ecb0b859c0f",
+  "timeout_seconds": 900
+}

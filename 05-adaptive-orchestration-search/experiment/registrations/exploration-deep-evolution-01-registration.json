@@ -1,0 +1,33 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-deep-prompt-evolution-registration",
+  "cycle_id": "exploration-deep-evolution-01",
+  "registered_at_utc": "2026-07-14T01:56:10Z",
+  "registered_before_subject_calls": true,
+  "status": "open_development_not_validation",
+  "objective": "Evolve a reliable deep generator or small deep ensemble for maximum-disagreement cases using eight diverse single-case prompts and no extra evaluation calls.",
+  "selected_case_ids": ["R121", "R130", "R134", "R138", "R140", "R142", "R144"],
+  "selected_case_count": 7,
+  "development_caveat": "These cases and the disagreement router are open development. Prompt and selector choices from this cycle must be frozen before any fresh accuracy claim.",
+  "requested_model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "maximum_concurrency": 56,
+  "timeout_seconds": 900,
+  "deep_prompt_count": 8,
+  "cases_per_call": 1,
+  "maximum_logical_calls": 56,
+  "hidden_answer_prompt_guard": "Each subject prompt contains only one public sequence prefix and identifiers. It contains no family, tier, program, answer, or prior model output.",
+  "post_call_rule": "Rerun exact malformed jobs only. Bank every valid candidate. Compare individual generators, deterministic deep plurality, prompt subsets, agreement rules, and candidate coverage offline. Do not report any developed policy as validated.",
+  "sha256": {
+    "codex_binary": "718724d7221cf1298071ca92411cb74caa8422809154150cedca7b569a4518e3",
+    "common_prefix": "39ee4def55399ea98a94be45d980f8ba9026170444ea149d32d762ee28b9e9db",
+    "lens_catalog": "8a78dbc59b71af63105eef9f2b6ef05c82004a73e7132ab93f963fe4c34076cf",
+    "strategy_batch": "bd1e36e6c0d2d8a1562942dd1dd8abd082f812ff7d91c3d9fb0858e0a66bc5cf",
+    "single_case_manifest": "be13695a081d662cb93d6e106b478d02af95ec8754ad7722c41b663d43ce832f",
+    "sealed_research_answers": "65d4f08d3d563da1e709c0be33c97a6f69f329ed9f8de0b65c43146789d2e71a",
+    "source_adaptive_depth_result": "9067df4eeb67fea17d3e9b1a9c82c6858b16e3624779b0656092aa0995030b42",
+    "exploration_orchestrator": "8caed79f18b1d55bcb92087497d5e25312afd41ef552d38a8ecdd343ba496ab0"
+  }
+}

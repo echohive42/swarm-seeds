@@ -1,0 +1,24 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-exploration-strategy-batch",
+  "batch_id": "exploration-deep-evolution-01",
+  "panel_id": "eight-evolved-single-case-generators",
+  "design_status": "frozen_before_subject_calls",
+  "description": "Eight evolved deep prompts attack the seven maximally disputed development cases independently, producing a reusable candidate bank and selector-development set.",
+  "strategies": [{
+    "strategy_id": "DE01-A",
+    "name": "Evolved Deep Generator Panel",
+    "category": "adaptive",
+    "description": "A diverse single-case panel spanning state, congruence, phase, recurrence, interweaving, segmentation, and adversarial program synthesis.",
+    "stages": [{
+      "stage_id": "solve",
+      "role": "proposer",
+      "count": 8,
+      "scope": "all",
+      "reads": [],
+      "lens_ids": ["state_phase_replicate", "congruence_residual_solver", "phase_congruence_solver", "forward_backward_state_solver", "recurrence_procedure_duel", "interwoven_lag_forensics", "segment_state_forensics", "adversarial_program_tournament"],
+      "instruction": "This case was escalated because a broad generator panel produced no repeated answer. Use the assigned reconstruction method deeply, but abandon it if it cannot replay every visible transition exactly."
+    }],
+    "selector": {"mode": "base_plurality", "base_roles": ["proposer"]}
+  }]
+}

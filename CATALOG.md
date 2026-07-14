@@ -67,3 +67,20 @@ Inside the folder:
 - [Symbolic genomes and lineage](04-evolving-the-decider/experiment/genomes/)
 - [Run records and attempt ledgers](04-evolving-the-decider/experiment/runs/)
 - [Result charts](04-evolving-the-decider/images/)
+
+## 05: Adaptive Orchestration Search
+
+**Question:** Can an adaptive research director discover a substantially more reliable GPT-5.6 Luna Light orchestration by changing prompts, roles, routing, and deterministic selection?
+
+**Simple answer:** Yes on this sequence benchmark. The frozen 15-lens plurality scored 16/24, or 66.7%. A visible-holdout system required candidates to reconstruct hidden public terms before trusting their unknown continuation. It scored 22/24, or 91.7%, on a fresh balanced gate, correcting six base errors and harming none.
+
+**Open the complete seed:** [05-adaptive-orchestration-search](05-adaptive-orchestration-search/README.md)
+
+Inside the folder:
+
+- [Reusable `SKILL.md`](05-adaptive-orchestration-search/SKILL.md)
+- [Full technical report](05-adaptive-orchestration-search/experiment/REPORT.md)
+- [Original protocol](05-adaptive-orchestration-search/experiment/PROTOCOL.md)
+- [Exploratory extension and fresh-gate boundary](05-adaptive-orchestration-search/experiment/EXPLORATORY_EXTENSION.md)
+- [Fresh Gate 03 result](05-adaptive-orchestration-search/experiment/registrations/fresh-80-gate-03-result.json)
+- [Result charts](05-adaptive-orchestration-search/images/stage-2/)

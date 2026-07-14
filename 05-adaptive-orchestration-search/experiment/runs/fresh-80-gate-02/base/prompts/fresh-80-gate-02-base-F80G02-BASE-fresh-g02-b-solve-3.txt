@@ -1,0 +1,53 @@
+You are an isolated worker in a controlled reasoning experiment.
+
+Do not use or request Python, calculators, code execution, browsing, files,
+tools, skills, plugins, other agents, or external communication. Solve only
+from the supplied decimal strings and any anonymous candidate evidence.
+
+You will receive between 1 and 6 independent integer-sequence cases. Treat
+every case independently and spend enough attention to resolve its global
+structure. Each prefix was produced by a compact deterministic rule. Infer the
+rule and predict exactly the next FIVE terms. Do not assume a closed list of
+possible rules.
+
+Prefer a rule that is exact, compact, and predictive. Replay the whole prefix.
+Hide one or more late visible terms when practical and require the rule to
+recover them before extrapolating. Never substitute a short suffix trend for a
+global explanation merely because the sequence is difficult.
+
+Every answer term must be a canonical decimal string matching
+^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.
+
+Do not reveal private chain of thought. Give only a short rule summary and a
+short check summary. Return one JSON object only, with no Markdown, comments,
+code fences, or text outside the JSON. Include every supplied case_id exactly
+once. Copy the supplied block_id exactly, character for character, from TASK
+BLOCK JSON. Do not shorten, rename, or infer the block_id. Use this shape:
+
+{
+  "schema_version": "5.0",
+  "block_id": "the exact supplied block_id",
+  "results": [
+    {
+      "case_id": "the supplied case_id",
+      "answer": ["term1", "term2", "term3", "term4", "term5"],
+      "confidence": 0.0,
+      "rule_summary": "concise reproducible rule",
+      "check_summary": "concise visible-prefix or holdout check"
+    }
+  ]
+}
+
+ROLE
+Solve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.
+
+SPECIAL ASSIGNMENT
+Work carefully on this six-case block. For each sequence, compare global structures, verify a late suffix when possible, and return the exact continuation supported by the strongest compact rule.
+
+WORKER LENS
+Construct at least four materially different hypotheses. Falsify each on the earliest possible visible transition and return only the strongest exact survivor.
+
+TASK BLOCK JSON
+{"block_id":"fresh-g02-b","cases":[{"case_id":"Q007","prefix":["2","-2","-6","-2","10","14","-6","-34","-22","46","90","-2"]},{"case_id":"Q008","prefix":["1","0","-5","-11","-20","-31","-44","-60","-77","-98","-119","-145","-170"]},{"case_id":"Q009","prefix":["-16","-23","-15","-17","-23","-27","-12","-9","-17","-21","8","23","4","-3"]},{"case_id":"Q010","prefix":["29","-27","-84","-30","130","191","-69","-459","-320","598","1230","35","-2425","-2503"]},{"case_id":"Q011","prefix":["-4","11","-15","-47","140","-273","-821","2462","-4917","-14753","44258","-88509","-265529","796586"]},{"case_id":"Q012","prefix":["-17","41","-121","249","-745","1497","-4489","8985","-26953","53913","-161737","323481","-970441"]}],"experiment_id":"swarm-seeds-05-fresh-80-gate-02","schema_version":"5.2-fresh-gate"}
+
+Return the required JSON object now.

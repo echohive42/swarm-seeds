@@ -1,0 +1,77 @@
+{
+  "artifact_type": "fresh-max-disagreement-route-manifest",
+  "base_lenses": [
+    "generalist",
+    "growing_block_slow",
+    "hypothesis_tournament",
+    "internal_panel",
+    "interwoven_stream_slow",
+    "lag_class_slow",
+    "mdl_suffix_holdout",
+    "modulus_equation",
+    "periodic_delta_slow",
+    "recurrence_exhaustive",
+    "wildcard_compression"
+  ],
+  "block_files": [
+    "fresh-dispute-r161.json",
+    "fresh-dispute-r167.json",
+    "fresh-dispute-r168.json",
+    "fresh-dispute-r158.json",
+    "fresh-dispute-r150.json",
+    "fresh-dispute-r151.json"
+  ],
+  "candidate_count_before_cap": 6,
+  "cap": 8,
+  "checksums": {
+    "fresh-dispute-r150.json": "5b876cadc9c01fa89fb9a09d34a293efe3e794020063af98d06ca86fd5049b23",
+    "fresh-dispute-r151.json": "19ceeda9c98fe59bf79f575338b62c7f8e261c38aaa7e99942fc2d2a3ba46fa2",
+    "fresh-dispute-r158.json": "35d62849cb864e5f4d2d3217fe1b1c5870042f56cc1c9f96593df8f78f2ed843",
+    "fresh-dispute-r161.json": "590c8d20246a30a1a246c429e7239f4f9fffdb7625589da3fe842a6d1ad0df24",
+    "fresh-dispute-r167.json": "41766d4737dc79f736461aebe1109f6eeb9e533e2d62a3ef30f1f2b4d9eb1648",
+    "fresh-dispute-r168.json": "a67d30b709a2d7d12c0a6bc86f81576cb1578fa75a9ce44447130bd60b07ee90"
+  },
+  "ranking_rule": "unique answers descending, mean confidence ascending, case_id ascending",
+  "schema_version": "5.2-exploration",
+  "selected": [
+    {
+      "case_id": "R161",
+      "maximum_support": 1,
+      "mean_confidence": 0.10636363636363637,
+      "unique_answers": 11
+    },
+    {
+      "case_id": "R167",
+      "maximum_support": 1,
+      "mean_confidence": 0.11363636363636363,
+      "unique_answers": 11
+    },
+    {
+      "case_id": "R168",
+      "maximum_support": 1,
+      "mean_confidence": 0.13090909090909092,
+      "unique_answers": 11
+    },
+    {
+      "case_id": "R158",
+      "maximum_support": 1,
+      "mean_confidence": 0.15545454545454546,
+      "unique_answers": 11
+    },
+    {
+      "case_id": "R150",
+      "maximum_support": 1,
+      "mean_confidence": 0.6018181818181818,
+      "unique_answers": 11
+    },
+    {
+      "case_id": "R151",
+      "maximum_support": 1,
+      "mean_confidence": 0.65,
+      "unique_answers": 11
+    }
+  ],
+  "selected_case_count": 6,
+  "selection_rule": "maximum base plurality support equals one",
+  "source_predictions_sha256": "1fac40c45f8729e42e084e0f037bc2603e30c3b71b644cbfe51aa45d967ff715"
+}

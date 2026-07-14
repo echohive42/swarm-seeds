@@ -1,0 +1,70 @@
+{
+  "artifact_type": "visible-holdout-survivor-count-route",
+  "candidate_count": 8,
+  "phase": "visible-holdout-recovery-01",
+  "ranking_rule": "survivor count ascending, unique surviving answers descending, case_id ascending",
+  "route_cap": 8,
+  "schema_version": "5.2-exploration",
+  "selected": [
+    {
+      "case_id": "R145",
+      "longest_surviving_holdout": 0,
+      "survivor_count": 0,
+      "unique_surviving_answers": 0
+    },
+    {
+      "case_id": "R158",
+      "longest_surviving_holdout": 0,
+      "survivor_count": 0,
+      "unique_surviving_answers": 0
+    },
+    {
+      "case_id": "R161",
+      "longest_surviving_holdout": 0,
+      "survivor_count": 0,
+      "unique_surviving_answers": 0
+    },
+    {
+      "case_id": "R164",
+      "longest_surviving_holdout": 0,
+      "survivor_count": 0,
+      "unique_surviving_answers": 0
+    },
+    {
+      "case_id": "R167",
+      "longest_surviving_holdout": 0,
+      "survivor_count": 0,
+      "unique_surviving_answers": 0
+    },
+    {
+      "case_id": "R160",
+      "longest_surviving_holdout": 2,
+      "survivor_count": 2,
+      "unique_surviving_answers": 1
+    },
+    {
+      "case_id": "R165",
+      "longest_surviving_holdout": 3,
+      "survivor_count": 2,
+      "unique_surviving_answers": 1
+    },
+    {
+      "case_id": "R159",
+      "longest_surviving_holdout": 2,
+      "survivor_count": 3,
+      "unique_surviving_answers": 2
+    }
+  ],
+  "selected_count": 8,
+  "selection_rule": "Route cases with at most 3 candidates that exactly recovered their own stage-one visible holdout.",
+  "source_blocks": [
+    "research-b13a",
+    "research-b13b",
+    "research-b14a",
+    "research-b14b"
+  ],
+  "stage_one_attempt_ledger_sha256": "97d88e2f0651d33e6269585b5184fea290d0f286874c25015fc61be3824bac4e",
+  "stage_one_holdout_sha256": "1e54631ccb69de9c99ed18c9c9a05446f66283344a73f114b0692e69bc5c44b8",
+  "stage_one_manifest_sha256": "50f8e6271d8ed5a4b8385b12feb46082f1590a907431fcb98b3fa3c137c9d207",
+  "uses_benchmark_answers": false
+}

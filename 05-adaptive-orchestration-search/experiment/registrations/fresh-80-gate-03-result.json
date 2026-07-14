@@ -1,0 +1,43 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-fresh-gate-result",
+  "gate_id": "fresh-80-gate-03",
+  "scored_at_utc": "2026-07-14T03:55:00Z",
+  "status": "target_reached",
+  "target": {"minimum_exact": 20, "cases": 24, "minimum_attainable_accuracy": 0.8333333333333334},
+  "registered_system": {
+    "exact": 22,
+    "cases": 24,
+    "exact_accuracy": 0.9166666666666666,
+    "correct_terms": 112,
+    "terms": 120,
+    "term_accuracy": 0.9333333333333333
+  },
+  "diagnostics": {
+    "base_exact": 16,
+    "base_accuracy": 0.6666666666666666,
+    "useful_overrides": 6,
+    "harmful_overrides": 0,
+    "candidate_oracle_exact": 22,
+    "candidate_oracle_accuracy": 0.9166666666666666,
+    "verified_candidates": 63,
+    "cases_with_verified_candidates": 11
+  },
+  "execution": {
+    "logical_calls": 268,
+    "model_attempts": 268,
+    "valid_outputs": 268,
+    "invalid_outputs": 0,
+    "retries": 0,
+    "maximum_concurrency": 60
+  },
+  "selector": "Each candidate receives one vote unit per public suffix term it predicted exactly. Rank by total recovered terms, deepest holdout, distinct holdout depths, distinct source stages, raw support, then canonical tuple. Self-reported confidence is excluded.",
+  "interpretation": "This gate genuinely exceeds the 80%-or-higher objective because 22/24 is 91.7%, above the preregistered 20/24 threshold. The architecture and selector were frozen before the gate cases were generated, and answers remained sealed until all jobs were terminal. It is still a small sequence benchmark reached through adaptive research, not a universal 91.7% claim.",
+  "sha256": {
+    "generation_and_architecture_freeze": "15cd04b15b4a55dee03dcf14ccb857b39fe4fa872688382853edc5edb026c829",
+    "subject_registration": "44f5ebb05376f641aee40c835b5db52ca4bdafb5edcd352a34b0056ca92a23a2",
+    "unseal_registration": "03e9d0d91548609c5d9eada6fb3217dad549ad338568b39ff8e8b7498e26f9f1",
+    "score": "040baf658b7c08df4eb6c41b23a851b3d1dfaaf74d01c153ee1f9b78ede27bdf",
+    "sealed_answers": "fc404902cbb4400a191fbf532b0e222348ed436d915beda12f3bf207bbdfae86"
+  }
+}

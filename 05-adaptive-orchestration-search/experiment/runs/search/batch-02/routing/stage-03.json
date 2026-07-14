@@ -1,0 +1,128 @@
+[
+  {
+    "block_id": "search-b03",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "decide",
+    "strategy_id": "B02-R03",
+    "target_case_ids": [
+      "S025",
+      "S026",
+      "S027",
+      "S028",
+      "S029",
+      "S030",
+      "S031",
+      "S032",
+      "S033",
+      "S034",
+      "S035",
+      "S036"
+    ]
+  },
+  {
+    "block_id": "search-b04",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "decide",
+    "strategy_id": "B02-R03",
+    "target_case_ids": [
+      "S037",
+      "S038",
+      "S039",
+      "S040",
+      "S041",
+      "S042",
+      "S043",
+      "S044",
+      "S045",
+      "S046",
+      "S047",
+      "S048"
+    ]
+  },
+  {
+    "block_id": "search-b03",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "jury",
+    "strategy_id": "B02-H03",
+    "target_case_ids": [
+      "S025",
+      "S026",
+      "S027",
+      "S028",
+      "S029",
+      "S030",
+      "S031",
+      "S032",
+      "S033",
+      "S034",
+      "S035",
+      "S036"
+    ]
+  },
+  {
+    "block_id": "search-b04",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "jury",
+    "strategy_id": "B02-H03",
+    "target_case_ids": [
+      "S037",
+      "S038",
+      "S039",
+      "S040",
+      "S041",
+      "S042",
+      "S043",
+      "S044",
+      "S045",
+      "S046",
+      "S047",
+      "S048"
+    ]
+  },
+  {
+    "block_id": "search-b03",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "integrate",
+    "strategy_id": "B02-N03",
+    "target_case_ids": [
+      "S025",
+      "S026",
+      "S027",
+      "S028",
+      "S029",
+      "S030",
+      "S031",
+      "S032",
+      "S033",
+      "S034",
+      "S035",
+      "S036"
+    ]
+  },
+  {
+    "block_id": "search-b04",
+    "scope": "all",
+    "skipped": false,
+    "stage_id": "integrate",
+    "strategy_id": "B02-N03",
+    "target_case_ids": [
+      "S037",
+      "S038",
+      "S039",
+      "S040",
+      "S041",
+      "S042",
+      "S043",
+      "S044",
+      "S045",
+      "S046",
+      "S047",
+      "S048"
+    ]
+  }
+]

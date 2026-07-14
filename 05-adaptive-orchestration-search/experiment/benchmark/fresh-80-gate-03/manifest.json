@@ -1,0 +1,68 @@
+{
+  "answer_file": "hidden/answers.jsonl",
+  "benchmark_id": "ruleweave-5-length-weighted-holdout-fresh-gate-03",
+  "block_count": 4,
+  "block_files": [
+    "fresh-g03-a.json",
+    "fresh-g03-b.json",
+    "fresh-g03-c.json",
+    "fresh-g03-d.json"
+  ],
+  "block_schema_version": "5.2-fresh-gate",
+  "case_count": 24,
+  "cases_per_block": 6,
+  "cases_per_family_tier_cell": 1,
+  "checksums": {
+    "hidden/answers.jsonl": "fc404902cbb4400a191fbf532b0e222348ed436d915beda12f3bf207bbdfae86",
+    "hidden/recognizer_audit.json": "60fcf4219c866ce536f1f71481127ae70f38aad4f2f8f565db50d786a0d90c91",
+    "public/cases.jsonl": "0763c6e502ae8e394783e5e20f53a0d604936c79c8c0f14d7d1375a548327fdf",
+    "public/fresh-g03-a.json": "9524184ec8b245e400d7237a1192c7fec1d90825b8a8d3245a92b7a8c0798178",
+    "public/fresh-g03-b.json": "741dadc1f12f4a94c8c0bb6b9baf3c2c2f76d9873c2b3b08bb704d9aeacafc69",
+    "public/fresh-g03-c.json": "ed3c94b38297a28a1a3a5fce836b3228d403f03e21733843c2689d4baad0045d",
+    "public/fresh-g03-d.json": "2206a970f3e91017b1bbf3511843a50538fa92815a77828f1ad884cfb613d25b"
+  },
+  "every_family_tier_cell_present_once": true,
+  "experiment_id": "swarm-seeds-05-fresh-80-gate-03",
+  "families": [
+    "POLY",
+    "PDELTA",
+    "AFFINE",
+    "LIN2",
+    "LAGPOLY",
+    "INTERLEAVE",
+    "GROWBLOCK",
+    "MODAFFINE"
+  ],
+  "overlap_guard_references": [
+    {
+      "benchmark_id": "ruleweave-5-v1",
+      "case_count": 72,
+      "manifest_sha256": "2277b7cce87eddac461283c3dfaf50c2dd3808f6c988f7712ca3be31475e4637"
+    },
+    {
+      "benchmark_id": "ruleweave-5-evolution-v1",
+      "case_count": 84,
+      "manifest_sha256": "695b6d0099e1b89f93c5071a2495b822292de94dd4ea81e0d78950cff0155029"
+    },
+    {
+      "benchmark_id": "ruleweave-5-decider-v1",
+      "case_count": 360,
+      "manifest_sha256": "20fa3633add9e79d07bfd6ca14c152ac6b3e1a120f0fe235d4b41aa62760c652"
+    },
+    {
+      "benchmark_id": "ruleweave-5-adaptive-director-v1",
+      "case_count": 336,
+      "manifest_sha256": "a86a37e8857895a9cb8c0d523ca835db12b8da9aa966b180f9ba7e9ee2e45737"
+    }
+  ],
+  "root_seed": "swarm-seeds-05-fresh-80-gate-03-2026-07-14-a",
+  "root_seed_sha256": "3549574746b741f9850efa3f66a575692d1260268c98bd66bc3697de1565cae7",
+  "schema_version": "1.0",
+  "status": "separately_sealed_fresh_progressive_gate",
+  "task": "continue each integer sequence with exactly five terms",
+  "tiers": [
+    "hard",
+    "very-hard",
+    "stress"
+  ]
+}

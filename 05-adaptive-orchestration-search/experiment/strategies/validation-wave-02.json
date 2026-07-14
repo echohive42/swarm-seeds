@@ -1,0 +1,295 @@
+{
+  "artifact_type": "experiment-05-validation-strategy-wave",
+  "control_id": "VAL-CONTROL-C02",
+  "design_status": "mechanically_selected_from_frozen_wave-01_results",
+  "schema_version": "5.0",
+  "selected_finalist_ids": [
+    "B02-H01",
+    "B02-N03",
+    "B03-R03"
+  ],
+  "selection_rule": "descending validation exact cases, weakest block, negative harmful overrides, correct terms, format validity, then canonical strategy hash",
+  "strategies": [
+    {
+      "category": "hybrid",
+      "description": "Ten proposers preserve a strong base while two critics and three verifiers contribute weighted evidence without a judge.",
+      "name": "Large-Base Judge-Free Review",
+      "selector": {
+        "base_roles": [
+          "proposer"
+        ],
+        "mode": "weighted_plurality",
+        "role_weights": {
+          "critic": 1.25,
+          "proposer": 1.0,
+          "verifier": 1.65
+        }
+      },
+      "stages": [
+        {
+          "count": 10,
+          "instruction": "Solve independently and require a complete mechanism.",
+          "lens_ids": [
+            "generalist",
+            "differences",
+            "recurrences",
+            "streams",
+            "modular",
+            "simplicity",
+            "arithmetic",
+            "classifier",
+            "hypothesis",
+            "independent"
+          ],
+          "reads": [],
+          "role": "proposer",
+          "scope": "all",
+          "stage_id": "solve"
+        },
+        {
+          "count": 2,
+          "instruction": "Identify concrete failures and the strongest repaired answer.",
+          "lens_ids": [
+            "adversarial",
+            "minority"
+          ],
+          "reads": [
+            "solve"
+          ],
+          "role": "critic",
+          "scope": "all",
+          "stage_id": "criticize"
+        },
+        {
+          "count": 3,
+          "instruction": "Reconstruct and replay the leading candidates exactly.",
+          "lens_ids": [
+            "full_replay",
+            "arithmetic",
+            "independent"
+          ],
+          "reads": [
+            "solve",
+            "criticize"
+          ],
+          "role": "verifier",
+          "scope": "all",
+          "stage_id": "verify"
+        }
+      ],
+      "strategy_id": "B02-H01"
+    },
+    {
+      "category": "novel",
+      "description": "Nine proposals pass through criticism, verification, and one final proof integrator with a three-reviewer support gate.",
+      "name": "Sequential Proof Repair",
+      "selector": {
+        "base_roles": [
+          "proposer"
+        ],
+        "decision_roles": [
+          "integrator"
+        ],
+        "min_agree": 1,
+        "min_support": 3,
+        "mode": "agreement_gate",
+        "support_roles": [
+          "critic",
+          "verifier"
+        ]
+      },
+      "stages": [
+        {
+          "count": 9,
+          "instruction": "Solve independently and return one complete answer.",
+          "lens_ids": [
+            "generalist",
+            "differences",
+            "recurrences",
+            "streams",
+            "modular",
+            "simplicity",
+            "arithmetic",
+            "classifier",
+            "independent"
+          ],
+          "reads": [],
+          "role": "proposer",
+          "scope": "all",
+          "stage_id": "solve"
+        },
+        {
+          "count": 3,
+          "instruction": "Identify concrete proposal failures and the strongest repaired answer.",
+          "lens_ids": [
+            "adversarial",
+            "minority",
+            "full_replay"
+          ],
+          "reads": [
+            "solve"
+          ],
+          "role": "critic",
+          "scope": "all",
+          "stage_id": "criticize"
+        },
+        {
+          "count": 2,
+          "instruction": "Reconstruct the strongest survivor exactly.",
+          "lens_ids": [
+            "arithmetic",
+            "independent"
+          ],
+          "reads": [
+            "solve",
+            "criticize"
+          ],
+          "role": "verifier",
+          "scope": "all",
+          "stage_id": "verify"
+        },
+        {
+          "count": 1,
+          "instruction": "Return the single answer that survives the complete proof audit.",
+          "lens_ids": [
+            "proof"
+          ],
+          "reads": [
+            "solve",
+            "criticize",
+            "verify"
+          ],
+          "role": "integrator",
+          "scope": "all",
+          "stage_id": "integrate"
+        }
+      ],
+      "strategy_id": "B02-N03"
+    },
+    {
+      "category": "refinement",
+      "description": "Replication of the Batch 02 system that made three useful and no harmful corrections from a weak base.",
+      "name": "Replicated Expanded Judge-Free Review",
+      "selector": {
+        "base_roles": [
+          "proposer"
+        ],
+        "mode": "weighted_plurality",
+        "role_weights": {
+          "critic": 1.3,
+          "proposer": 1.0,
+          "verifier": 1.7
+        }
+      },
+      "stages": [
+        {
+          "count": 9,
+          "instruction": "Solve independently and return one exact full-prefix answer.",
+          "lens_ids": [
+            "generalist",
+            "differences",
+            "recurrences",
+            "streams",
+            "modular",
+            "simplicity",
+            "arithmetic",
+            "classifier",
+            "independent"
+          ],
+          "reads": [],
+          "role": "proposer",
+          "scope": "all",
+          "stage_id": "solve"
+        },
+        {
+          "count": 3,
+          "instruction": "Falsify weak candidates and return the strongest complete answer.",
+          "lens_ids": [
+            "adversarial",
+            "minority",
+            "full_replay"
+          ],
+          "reads": [
+            "solve"
+          ],
+          "role": "critic",
+          "scope": "all",
+          "stage_id": "criticize"
+        },
+        {
+          "count": 3,
+          "instruction": "Independently reconstruct and replay the strongest surviving mechanisms.",
+          "lens_ids": [
+            "arithmetic",
+            "proof",
+            "independent"
+          ],
+          "reads": [
+            "solve",
+            "criticize"
+          ],
+          "role": "verifier",
+          "scope": "all",
+          "stage_id": "verify"
+        }
+      ],
+      "strategy_id": "B03-R03"
+    },
+    {
+      "category": "control",
+      "description": "Frozen strongest repeated search control: fifteen independently prompted diverse solvers followed by deterministic plurality.",
+      "name": "Diversified Vote 15 Control",
+      "selector": {
+        "base_roles": [
+          "proposer"
+        ],
+        "mode": "base_plurality"
+      },
+      "stages": [
+        {
+          "count": 15,
+          "instruction": "Solve independently through the assigned lens, but search other allowed families if that lens fails.",
+          "lens_ids": [
+            "generalist",
+            "differences",
+            "recurrences",
+            "streams",
+            "modular",
+            "simplicity",
+            "diversifier",
+            "arithmetic",
+            "full_replay",
+            "classifier",
+            "minority",
+            "hypothesis",
+            "proof",
+            "independent",
+            "generalist"
+          ],
+          "reads": [],
+          "role": "proposer",
+          "scope": "all",
+          "stage_id": "solve"
+        }
+      ],
+      "strategy_id": "VAL-CONTROL-C02"
+    }
+  ],
+  "strategy_provenance": {
+    "B02-H01": {
+      "strategy_sha256": "596f034989f06bb5ebf1eac9cd51b30246635be1c6d02f22afc978cab1536fad"
+    },
+    "B02-N03": {
+      "strategy_sha256": "28be7e5aea76451d3d9ad8994fcd14f1b0007c845bf22bd100a6e93481835556"
+    },
+    "B03-R03": {
+      "strategy_sha256": "4e165ee03275377b5ed0a3064fd447ee0455ea797ff270840771964b9dfe33e8"
+    },
+    "VAL-CONTROL-C02": {
+      "strategy_sha256": "6b40a8040c03cb53a5fc273f6247a80dacde73967350dffb0950234b454841ee"
+    }
+  },
+  "wave_id": "validation-wave-02",
+  "wave_one_sha256": "65342025dfa88bd1df686a122811501048826ee5febaa56434afc153a171da6f",
+  "wave_one_summary_sha256": "62a46affd8fb4058f1a8e4ade7b86de1aab53c796d67768cf91a56227ead6441"
+}

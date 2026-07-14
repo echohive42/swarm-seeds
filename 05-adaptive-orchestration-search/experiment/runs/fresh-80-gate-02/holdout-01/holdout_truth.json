@@ -1,0 +1,1608 @@
+{
+  "artifact_type": "visible-holdout-public-term-key",
+  "note": "These are terms removed from otherwise public prefixes. They are never included in subject prompts or the runner job manifest.",
+  "phase": "fresh-80-gate-02-holdout-01",
+  "rows": [
+    {
+      "case_id": "Q023",
+      "full_prefix_length": 12,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q023-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "33",
+        "11"
+      ]
+    },
+    {
+      "case_id": "Q023",
+      "full_prefix_length": 12,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q023-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "33",
+        "11"
+      ]
+    },
+    {
+      "case_id": "Q023",
+      "full_prefix_length": 12,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q023-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "33",
+        "11"
+      ]
+    },
+    {
+      "case_id": "Q023",
+      "full_prefix_length": 12,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q023-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "33",
+        "11"
+      ]
+    },
+    {
+      "case_id": "Q023",
+      "full_prefix_length": 12,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q023-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "shortened_prefix_length": 9,
+      "visible_holdout": [
+        "20",
+        "33",
+        "11"
+      ]
+    },
+    {
+      "case_id": "Q023",
+      "full_prefix_length": 12,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q023-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "shortened_prefix_length": 9,
+      "visible_holdout": [
+        "20",
+        "33",
+        "11"
+      ]
+    },
+    {
+      "case_id": "Q023",
+      "full_prefix_length": 12,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q023-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "shortened_prefix_length": 9,
+      "visible_holdout": [
+        "20",
+        "33",
+        "11"
+      ]
+    },
+    {
+      "case_id": "Q023",
+      "full_prefix_length": 12,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q023-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "shortened_prefix_length": 9,
+      "visible_holdout": [
+        "20",
+        "33",
+        "11"
+      ]
+    },
+    {
+      "case_id": "Q021",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q021-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "29",
+        "14"
+      ]
+    },
+    {
+      "case_id": "Q021",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q021-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "29",
+        "14"
+      ]
+    },
+    {
+      "case_id": "Q021",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q021-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "29",
+        "14"
+      ]
+    },
+    {
+      "case_id": "Q021",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q021-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "29",
+        "14"
+      ]
+    },
+    {
+      "case_id": "Q021",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q021-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "1",
+        "29",
+        "14"
+      ]
+    },
+    {
+      "case_id": "Q021",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q021-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "1",
+        "29",
+        "14"
+      ]
+    },
+    {
+      "case_id": "Q021",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q021-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "1",
+        "29",
+        "14"
+      ]
+    },
+    {
+      "case_id": "Q021",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q021-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "1",
+        "29",
+        "14"
+      ]
+    },
+    {
+      "case_id": "Q017",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q017-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-36",
+        "15"
+      ]
+    },
+    {
+      "case_id": "Q017",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q017-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-36",
+        "15"
+      ]
+    },
+    {
+      "case_id": "Q017",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q017-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-36",
+        "15"
+      ]
+    },
+    {
+      "case_id": "Q017",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q017-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-36",
+        "15"
+      ]
+    },
+    {
+      "case_id": "Q017",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q017-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-24",
+        "-36",
+        "15"
+      ]
+    },
+    {
+      "case_id": "Q017",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q017-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-24",
+        "-36",
+        "15"
+      ]
+    },
+    {
+      "case_id": "Q017",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q017-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-24",
+        "-36",
+        "15"
+      ]
+    },
+    {
+      "case_id": "Q017",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q017-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-24",
+        "-36",
+        "15"
+      ]
+    },
+    {
+      "case_id": "Q009",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q009-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "4",
+        "-3"
+      ]
+    },
+    {
+      "case_id": "Q009",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q009-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "4",
+        "-3"
+      ]
+    },
+    {
+      "case_id": "Q009",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q009-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "4",
+        "-3"
+      ]
+    },
+    {
+      "case_id": "Q009",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q009-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "4",
+        "-3"
+      ]
+    },
+    {
+      "case_id": "Q009",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q009-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "23",
+        "4",
+        "-3"
+      ]
+    },
+    {
+      "case_id": "Q009",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q009-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "23",
+        "4",
+        "-3"
+      ]
+    },
+    {
+      "case_id": "Q009",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q009-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "23",
+        "4",
+        "-3"
+      ]
+    },
+    {
+      "case_id": "Q009",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q009-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "23",
+        "4",
+        "-3"
+      ]
+    },
+    {
+      "case_id": "Q010",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q010-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-2425",
+        "-2503"
+      ]
+    },
+    {
+      "case_id": "Q010",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q010-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-2425",
+        "-2503"
+      ]
+    },
+    {
+      "case_id": "Q010",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q010-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-2425",
+        "-2503"
+      ]
+    },
+    {
+      "case_id": "Q010",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q010-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-2425",
+        "-2503"
+      ]
+    },
+    {
+      "case_id": "Q010",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q010-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "35",
+        "-2425",
+        "-2503"
+      ]
+    },
+    {
+      "case_id": "Q010",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q010-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "35",
+        "-2425",
+        "-2503"
+      ]
+    },
+    {
+      "case_id": "Q010",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q010-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "35",
+        "-2425",
+        "-2503"
+      ]
+    },
+    {
+      "case_id": "Q010",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q010-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "35",
+        "-2425",
+        "-2503"
+      ]
+    },
+    {
+      "case_id": "Q022",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q022-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "72",
+        "86"
+      ]
+    },
+    {
+      "case_id": "Q022",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q022-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "72",
+        "86"
+      ]
+    },
+    {
+      "case_id": "Q022",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q022-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "72",
+        "86"
+      ]
+    },
+    {
+      "case_id": "Q022",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q022-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "72",
+        "86"
+      ]
+    },
+    {
+      "case_id": "Q022",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q022-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "81",
+        "72",
+        "86"
+      ]
+    },
+    {
+      "case_id": "Q022",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q022-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "81",
+        "72",
+        "86"
+      ]
+    },
+    {
+      "case_id": "Q022",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q022-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "81",
+        "72",
+        "86"
+      ]
+    },
+    {
+      "case_id": "Q022",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q022-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "81",
+        "72",
+        "86"
+      ]
+    },
+    {
+      "case_id": "Q020",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q020-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-3",
+        "-41"
+      ]
+    },
+    {
+      "case_id": "Q020",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q020-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-3",
+        "-41"
+      ]
+    },
+    {
+      "case_id": "Q020",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q020-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-3",
+        "-41"
+      ]
+    },
+    {
+      "case_id": "Q020",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q020-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-3",
+        "-41"
+      ]
+    },
+    {
+      "case_id": "Q020",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q020-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "13",
+        "-3",
+        "-41"
+      ]
+    },
+    {
+      "case_id": "Q020",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q020-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "13",
+        "-3",
+        "-41"
+      ]
+    },
+    {
+      "case_id": "Q020",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q020-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "13",
+        "-3",
+        "-41"
+      ]
+    },
+    {
+      "case_id": "Q020",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q020-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "13",
+        "-3",
+        "-41"
+      ]
+    },
+    {
+      "case_id": "Q014",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q014-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-34",
+        "57"
+      ]
+    },
+    {
+      "case_id": "Q014",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q014-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-34",
+        "57"
+      ]
+    },
+    {
+      "case_id": "Q014",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q014-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-34",
+        "57"
+      ]
+    },
+    {
+      "case_id": "Q014",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q014-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-34",
+        "57"
+      ]
+    },
+    {
+      "case_id": "Q014",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q014-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "120",
+        "-34",
+        "57"
+      ]
+    },
+    {
+      "case_id": "Q014",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q014-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "120",
+        "-34",
+        "57"
+      ]
+    },
+    {
+      "case_id": "Q014",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q014-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "120",
+        "-34",
+        "57"
+      ]
+    },
+    {
+      "case_id": "Q014",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q014-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "120",
+        "-34",
+        "57"
+      ]
+    },
+    {
+      "case_id": "Q007",
+      "full_prefix_length": 12,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q007-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "90",
+        "-2"
+      ]
+    },
+    {
+      "case_id": "Q007",
+      "full_prefix_length": 12,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q007-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "90",
+        "-2"
+      ]
+    },
+    {
+      "case_id": "Q007",
+      "full_prefix_length": 12,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q007-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "90",
+        "-2"
+      ]
+    },
+    {
+      "case_id": "Q007",
+      "full_prefix_length": 12,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q007-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "90",
+        "-2"
+      ]
+    },
+    {
+      "case_id": "Q007",
+      "full_prefix_length": 12,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q007-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "shortened_prefix_length": 9,
+      "visible_holdout": [
+        "46",
+        "90",
+        "-2"
+      ]
+    },
+    {
+      "case_id": "Q007",
+      "full_prefix_length": 12,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q007-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "shortened_prefix_length": 9,
+      "visible_holdout": [
+        "46",
+        "90",
+        "-2"
+      ]
+    },
+    {
+      "case_id": "Q007",
+      "full_prefix_length": 12,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q007-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "shortened_prefix_length": 9,
+      "visible_holdout": [
+        "46",
+        "90",
+        "-2"
+      ]
+    },
+    {
+      "case_id": "Q007",
+      "full_prefix_length": 12,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q007-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "shortened_prefix_length": 9,
+      "visible_holdout": [
+        "46",
+        "90",
+        "-2"
+      ]
+    },
+    {
+      "case_id": "Q016",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q016-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-6",
+        "234"
+      ]
+    },
+    {
+      "case_id": "Q016",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q016-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-6",
+        "234"
+      ]
+    },
+    {
+      "case_id": "Q016",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q016-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-6",
+        "234"
+      ]
+    },
+    {
+      "case_id": "Q016",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q016-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-6",
+        "234"
+      ]
+    },
+    {
+      "case_id": "Q016",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q016-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "-6",
+        "-6",
+        "234"
+      ]
+    },
+    {
+      "case_id": "Q016",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q016-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "-6",
+        "-6",
+        "234"
+      ]
+    },
+    {
+      "case_id": "Q016",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q016-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "-6",
+        "-6",
+        "234"
+      ]
+    },
+    {
+      "case_id": "Q016",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q016-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "-6",
+        "-6",
+        "234"
+      ]
+    },
+    {
+      "case_id": "Q001",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q001-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "48355",
+        "-116742"
+      ]
+    },
+    {
+      "case_id": "Q001",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q001-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "48355",
+        "-116742"
+      ]
+    },
+    {
+      "case_id": "Q001",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q001-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "48355",
+        "-116742"
+      ]
+    },
+    {
+      "case_id": "Q001",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q001-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "48355",
+        "-116742"
+      ]
+    },
+    {
+      "case_id": "Q001",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q001-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "-20031",
+        "48355",
+        "-116742"
+      ]
+    },
+    {
+      "case_id": "Q001",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q001-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "-20031",
+        "48355",
+        "-116742"
+      ]
+    },
+    {
+      "case_id": "Q001",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q001-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "-20031",
+        "48355",
+        "-116742"
+      ]
+    },
+    {
+      "case_id": "Q001",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q001-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "-20031",
+        "48355",
+        "-116742"
+      ]
+    },
+    {
+      "case_id": "Q015",
+      "full_prefix_length": 12,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q015-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "-29",
+        "-32"
+      ]
+    },
+    {
+      "case_id": "Q015",
+      "full_prefix_length": 12,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q015-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "-29",
+        "-32"
+      ]
+    },
+    {
+      "case_id": "Q015",
+      "full_prefix_length": 12,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q015-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "-29",
+        "-32"
+      ]
+    },
+    {
+      "case_id": "Q015",
+      "full_prefix_length": 12,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q015-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "-29",
+        "-32"
+      ]
+    },
+    {
+      "case_id": "Q015",
+      "full_prefix_length": 12,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q015-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "shortened_prefix_length": 9,
+      "visible_holdout": [
+        "-33",
+        "-29",
+        "-32"
+      ]
+    },
+    {
+      "case_id": "Q015",
+      "full_prefix_length": 12,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q015-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "shortened_prefix_length": 9,
+      "visible_holdout": [
+        "-33",
+        "-29",
+        "-32"
+      ]
+    },
+    {
+      "case_id": "Q015",
+      "full_prefix_length": 12,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q015-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "shortened_prefix_length": 9,
+      "visible_holdout": [
+        "-33",
+        "-29",
+        "-32"
+      ]
+    },
+    {
+      "case_id": "Q015",
+      "full_prefix_length": 12,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q015-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "shortened_prefix_length": 9,
+      "visible_holdout": [
+        "-33",
+        "-29",
+        "-32"
+      ]
+    },
+    {
+      "case_id": "Q024",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q024-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-113",
+        "-141"
+      ]
+    },
+    {
+      "case_id": "Q024",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q024-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-113",
+        "-141"
+      ]
+    },
+    {
+      "case_id": "Q024",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q024-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-113",
+        "-141"
+      ]
+    },
+    {
+      "case_id": "Q024",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q024-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-113",
+        "-141"
+      ]
+    },
+    {
+      "case_id": "Q024",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q024-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-85",
+        "-113",
+        "-141"
+      ]
+    },
+    {
+      "case_id": "Q024",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q024-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-85",
+        "-113",
+        "-141"
+      ]
+    },
+    {
+      "case_id": "Q024",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q024-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-85",
+        "-113",
+        "-141"
+      ]
+    },
+    {
+      "case_id": "Q024",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q024-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-85",
+        "-113",
+        "-141"
+      ]
+    },
+    {
+      "case_id": "Q008",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q008-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-145",
+        "-170"
+      ]
+    },
+    {
+      "case_id": "Q008",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q008-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-145",
+        "-170"
+      ]
+    },
+    {
+      "case_id": "Q008",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q008-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-145",
+        "-170"
+      ]
+    },
+    {
+      "case_id": "Q008",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q008-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-145",
+        "-170"
+      ]
+    },
+    {
+      "case_id": "Q008",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q008-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "-119",
+        "-145",
+        "-170"
+      ]
+    },
+    {
+      "case_id": "Q008",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q008-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "-119",
+        "-145",
+        "-170"
+      ]
+    },
+    {
+      "case_id": "Q008",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q008-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "-119",
+        "-145",
+        "-170"
+      ]
+    },
+    {
+      "case_id": "Q008",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q008-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "-119",
+        "-145",
+        "-170"
+      ]
+    },
+    {
+      "case_id": "Q003",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q003-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "6374",
+        "10302"
+      ]
+    },
+    {
+      "case_id": "Q003",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q003-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "6374",
+        "10302"
+      ]
+    },
+    {
+      "case_id": "Q003",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q003-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "6374",
+        "10302"
+      ]
+    },
+    {
+      "case_id": "Q003",
+      "full_prefix_length": 14,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q003-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "6374",
+        "10302"
+      ]
+    },
+    {
+      "case_id": "Q003",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q003-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "3733",
+        "6374",
+        "10302"
+      ]
+    },
+    {
+      "case_id": "Q003",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q003-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "3733",
+        "6374",
+        "10302"
+      ]
+    },
+    {
+      "case_id": "Q003",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q003-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "3733",
+        "6374",
+        "10302"
+      ]
+    },
+    {
+      "case_id": "Q003",
+      "full_prefix_length": 14,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q003-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "3733",
+        "6374",
+        "10302"
+      ]
+    },
+    {
+      "case_id": "Q019",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q019-broad_program_search_h2",
+      "lens_id": "broad_program_search_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "34",
+        "61"
+      ]
+    },
+    {
+      "case_id": "Q019",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q019-recurrence_difference_h2",
+      "lens_id": "recurrence_difference_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "34",
+        "61"
+      ]
+    },
+    {
+      "case_id": "Q019",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q019-interwoven_segment_h2",
+      "lens_id": "interwoven_segment_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "34",
+        "61"
+      ]
+    },
+    {
+      "case_id": "Q019",
+      "full_prefix_length": 13,
+      "holdout_terms": 2,
+      "job_id": "fresh-80-gate-02-holdout-01-Q019-bounded_phase_state_h2",
+      "lens_id": "bounded_phase_state_h2",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "34",
+        "61"
+      ]
+    },
+    {
+      "case_id": "Q019",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q019-adversarial_mdl_h3",
+      "lens_id": "adversarial_mdl_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "7",
+        "34",
+        "61"
+      ]
+    },
+    {
+      "case_id": "Q019",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q019-coordinate_geometry_h3",
+      "lens_id": "coordinate_geometry_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "7",
+        "34",
+        "61"
+      ]
+    },
+    {
+      "case_id": "Q019",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q019-forward_backward_state_h3",
+      "lens_id": "forward_backward_state_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "7",
+        "34",
+        "61"
+      ]
+    },
+    {
+      "case_id": "Q019",
+      "full_prefix_length": 13,
+      "holdout_terms": 3,
+      "job_id": "fresh-80-gate-02-holdout-01-Q019-independent_rule_duel_h3",
+      "lens_id": "independent_rule_duel_h3",
+      "shortened_prefix_length": 10,
+      "visible_holdout": [
+        "7",
+        "34",
+        "61"
+      ]
+    }
+  ],
+  "schema_version": "5.2-exploration"
+}

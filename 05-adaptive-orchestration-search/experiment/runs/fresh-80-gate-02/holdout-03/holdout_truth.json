@@ -1,0 +1,800 @@
+{
+  "artifact_type": "visible-holdout-refinement-public-term-key",
+  "note": "Removed public terms. Never included in subject prompts or runner manifest.",
+  "phase": "fresh-80-gate-02-holdout-03",
+  "rows": [
+    {
+      "case_id": "Q009",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q009-periodic_delta_equation_h1",
+      "lens_id": "periodic_delta_equation_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "-3"
+      ]
+    },
+    {
+      "case_id": "Q009",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q009-periodic_delta_coordinate_h1",
+      "lens_id": "periodic_delta_coordinate_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "-3"
+      ]
+    },
+    {
+      "case_id": "Q009",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q009-phase_modular_equations_h1",
+      "lens_id": "phase_modular_equations_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "-3"
+      ]
+    },
+    {
+      "case_id": "Q009",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q009-phase_modular_reverse_h1",
+      "lens_id": "phase_modular_reverse_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "-3"
+      ]
+    },
+    {
+      "case_id": "Q009",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q009-lag_class_table_h1",
+      "lens_id": "lag_class_table_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "-3"
+      ]
+    },
+    {
+      "case_id": "Q009",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q009-heterogeneous_stream_table_h1",
+      "lens_id": "heterogeneous_stream_table_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "-3"
+      ]
+    },
+    {
+      "case_id": "Q009",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q009-growing_block_table_h1",
+      "lens_id": "growing_block_table_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "-3"
+      ]
+    },
+    {
+      "case_id": "Q009",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q009-structural_exhaustive_worksheet_h1",
+      "lens_id": "structural_exhaustive_worksheet_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "-3"
+      ]
+    },
+    {
+      "case_id": "Q010",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q010-periodic_delta_equation_h1",
+      "lens_id": "periodic_delta_equation_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "-2503"
+      ]
+    },
+    {
+      "case_id": "Q010",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q010-periodic_delta_coordinate_h1",
+      "lens_id": "periodic_delta_coordinate_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "-2503"
+      ]
+    },
+    {
+      "case_id": "Q010",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q010-phase_modular_equations_h1",
+      "lens_id": "phase_modular_equations_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "-2503"
+      ]
+    },
+    {
+      "case_id": "Q010",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q010-phase_modular_reverse_h1",
+      "lens_id": "phase_modular_reverse_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "-2503"
+      ]
+    },
+    {
+      "case_id": "Q010",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q010-lag_class_table_h1",
+      "lens_id": "lag_class_table_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "-2503"
+      ]
+    },
+    {
+      "case_id": "Q010",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q010-heterogeneous_stream_table_h1",
+      "lens_id": "heterogeneous_stream_table_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "-2503"
+      ]
+    },
+    {
+      "case_id": "Q010",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q010-growing_block_table_h1",
+      "lens_id": "growing_block_table_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "-2503"
+      ]
+    },
+    {
+      "case_id": "Q010",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q010-structural_exhaustive_worksheet_h1",
+      "lens_id": "structural_exhaustive_worksheet_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "-2503"
+      ]
+    },
+    {
+      "case_id": "Q021",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q021-periodic_delta_equation_h1",
+      "lens_id": "periodic_delta_equation_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "14"
+      ]
+    },
+    {
+      "case_id": "Q021",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q021-periodic_delta_coordinate_h1",
+      "lens_id": "periodic_delta_coordinate_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "14"
+      ]
+    },
+    {
+      "case_id": "Q021",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q021-phase_modular_equations_h1",
+      "lens_id": "phase_modular_equations_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "14"
+      ]
+    },
+    {
+      "case_id": "Q021",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q021-phase_modular_reverse_h1",
+      "lens_id": "phase_modular_reverse_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "14"
+      ]
+    },
+    {
+      "case_id": "Q021",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q021-lag_class_table_h1",
+      "lens_id": "lag_class_table_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "14"
+      ]
+    },
+    {
+      "case_id": "Q021",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q021-heterogeneous_stream_table_h1",
+      "lens_id": "heterogeneous_stream_table_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "14"
+      ]
+    },
+    {
+      "case_id": "Q021",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q021-growing_block_table_h1",
+      "lens_id": "growing_block_table_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "14"
+      ]
+    },
+    {
+      "case_id": "Q021",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q021-structural_exhaustive_worksheet_h1",
+      "lens_id": "structural_exhaustive_worksheet_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "14"
+      ]
+    },
+    {
+      "case_id": "Q022",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q022-periodic_delta_equation_h1",
+      "lens_id": "periodic_delta_equation_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "86"
+      ]
+    },
+    {
+      "case_id": "Q022",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q022-periodic_delta_coordinate_h1",
+      "lens_id": "periodic_delta_coordinate_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "86"
+      ]
+    },
+    {
+      "case_id": "Q022",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q022-phase_modular_equations_h1",
+      "lens_id": "phase_modular_equations_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "86"
+      ]
+    },
+    {
+      "case_id": "Q022",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q022-phase_modular_reverse_h1",
+      "lens_id": "phase_modular_reverse_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "86"
+      ]
+    },
+    {
+      "case_id": "Q022",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q022-lag_class_table_h1",
+      "lens_id": "lag_class_table_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "86"
+      ]
+    },
+    {
+      "case_id": "Q022",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q022-heterogeneous_stream_table_h1",
+      "lens_id": "heterogeneous_stream_table_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "86"
+      ]
+    },
+    {
+      "case_id": "Q022",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q022-growing_block_table_h1",
+      "lens_id": "growing_block_table_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "86"
+      ]
+    },
+    {
+      "case_id": "Q022",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q022-structural_exhaustive_worksheet_h1",
+      "lens_id": "structural_exhaustive_worksheet_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "86"
+      ]
+    },
+    {
+      "case_id": "Q017",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q017-periodic_delta_equation_h1",
+      "lens_id": "periodic_delta_equation_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "15"
+      ]
+    },
+    {
+      "case_id": "Q017",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q017-periodic_delta_coordinate_h1",
+      "lens_id": "periodic_delta_coordinate_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "15"
+      ]
+    },
+    {
+      "case_id": "Q017",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q017-phase_modular_equations_h1",
+      "lens_id": "phase_modular_equations_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "15"
+      ]
+    },
+    {
+      "case_id": "Q017",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q017-phase_modular_reverse_h1",
+      "lens_id": "phase_modular_reverse_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "15"
+      ]
+    },
+    {
+      "case_id": "Q017",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q017-lag_class_table_h1",
+      "lens_id": "lag_class_table_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "15"
+      ]
+    },
+    {
+      "case_id": "Q017",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q017-heterogeneous_stream_table_h1",
+      "lens_id": "heterogeneous_stream_table_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "15"
+      ]
+    },
+    {
+      "case_id": "Q017",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q017-growing_block_table_h1",
+      "lens_id": "growing_block_table_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "15"
+      ]
+    },
+    {
+      "case_id": "Q017",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q017-structural_exhaustive_worksheet_h1",
+      "lens_id": "structural_exhaustive_worksheet_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "15"
+      ]
+    },
+    {
+      "case_id": "Q014",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q014-periodic_delta_equation_h1",
+      "lens_id": "periodic_delta_equation_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "57"
+      ]
+    },
+    {
+      "case_id": "Q014",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q014-periodic_delta_coordinate_h1",
+      "lens_id": "periodic_delta_coordinate_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "57"
+      ]
+    },
+    {
+      "case_id": "Q014",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q014-phase_modular_equations_h1",
+      "lens_id": "phase_modular_equations_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "57"
+      ]
+    },
+    {
+      "case_id": "Q014",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q014-phase_modular_reverse_h1",
+      "lens_id": "phase_modular_reverse_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "57"
+      ]
+    },
+    {
+      "case_id": "Q014",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q014-lag_class_table_h1",
+      "lens_id": "lag_class_table_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "57"
+      ]
+    },
+    {
+      "case_id": "Q014",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q014-heterogeneous_stream_table_h1",
+      "lens_id": "heterogeneous_stream_table_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "57"
+      ]
+    },
+    {
+      "case_id": "Q014",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q014-growing_block_table_h1",
+      "lens_id": "growing_block_table_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "57"
+      ]
+    },
+    {
+      "case_id": "Q014",
+      "full_prefix_length": 14,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q014-structural_exhaustive_worksheet_h1",
+      "lens_id": "structural_exhaustive_worksheet_h1",
+      "shortened_prefix_length": 13,
+      "visible_holdout": [
+        "57"
+      ]
+    },
+    {
+      "case_id": "Q019",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q019-periodic_delta_equation_h1",
+      "lens_id": "periodic_delta_equation_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "61"
+      ]
+    },
+    {
+      "case_id": "Q019",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q019-periodic_delta_coordinate_h1",
+      "lens_id": "periodic_delta_coordinate_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "61"
+      ]
+    },
+    {
+      "case_id": "Q019",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q019-phase_modular_equations_h1",
+      "lens_id": "phase_modular_equations_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "61"
+      ]
+    },
+    {
+      "case_id": "Q019",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q019-phase_modular_reverse_h1",
+      "lens_id": "phase_modular_reverse_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "61"
+      ]
+    },
+    {
+      "case_id": "Q019",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q019-lag_class_table_h1",
+      "lens_id": "lag_class_table_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "61"
+      ]
+    },
+    {
+      "case_id": "Q019",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q019-heterogeneous_stream_table_h1",
+      "lens_id": "heterogeneous_stream_table_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "61"
+      ]
+    },
+    {
+      "case_id": "Q019",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q019-growing_block_table_h1",
+      "lens_id": "growing_block_table_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "61"
+      ]
+    },
+    {
+      "case_id": "Q019",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q019-structural_exhaustive_worksheet_h1",
+      "lens_id": "structural_exhaustive_worksheet_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "61"
+      ]
+    },
+    {
+      "case_id": "Q015",
+      "full_prefix_length": 12,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q015-periodic_delta_equation_h1",
+      "lens_id": "periodic_delta_equation_h1",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-32"
+      ]
+    },
+    {
+      "case_id": "Q015",
+      "full_prefix_length": 12,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q015-periodic_delta_coordinate_h1",
+      "lens_id": "periodic_delta_coordinate_h1",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-32"
+      ]
+    },
+    {
+      "case_id": "Q015",
+      "full_prefix_length": 12,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q015-phase_modular_equations_h1",
+      "lens_id": "phase_modular_equations_h1",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-32"
+      ]
+    },
+    {
+      "case_id": "Q015",
+      "full_prefix_length": 12,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q015-phase_modular_reverse_h1",
+      "lens_id": "phase_modular_reverse_h1",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-32"
+      ]
+    },
+    {
+      "case_id": "Q015",
+      "full_prefix_length": 12,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q015-lag_class_table_h1",
+      "lens_id": "lag_class_table_h1",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-32"
+      ]
+    },
+    {
+      "case_id": "Q015",
+      "full_prefix_length": 12,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q015-heterogeneous_stream_table_h1",
+      "lens_id": "heterogeneous_stream_table_h1",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-32"
+      ]
+    },
+    {
+      "case_id": "Q015",
+      "full_prefix_length": 12,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q015-growing_block_table_h1",
+      "lens_id": "growing_block_table_h1",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-32"
+      ]
+    },
+    {
+      "case_id": "Q015",
+      "full_prefix_length": 12,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q015-structural_exhaustive_worksheet_h1",
+      "lens_id": "structural_exhaustive_worksheet_h1",
+      "shortened_prefix_length": 11,
+      "visible_holdout": [
+        "-32"
+      ]
+    },
+    {
+      "case_id": "Q020",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q020-periodic_delta_equation_h1",
+      "lens_id": "periodic_delta_equation_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-41"
+      ]
+    },
+    {
+      "case_id": "Q020",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q020-periodic_delta_coordinate_h1",
+      "lens_id": "periodic_delta_coordinate_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-41"
+      ]
+    },
+    {
+      "case_id": "Q020",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q020-phase_modular_equations_h1",
+      "lens_id": "phase_modular_equations_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-41"
+      ]
+    },
+    {
+      "case_id": "Q020",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q020-phase_modular_reverse_h1",
+      "lens_id": "phase_modular_reverse_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-41"
+      ]
+    },
+    {
+      "case_id": "Q020",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q020-lag_class_table_h1",
+      "lens_id": "lag_class_table_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-41"
+      ]
+    },
+    {
+      "case_id": "Q020",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q020-heterogeneous_stream_table_h1",
+      "lens_id": "heterogeneous_stream_table_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-41"
+      ]
+    },
+    {
+      "case_id": "Q020",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q020-growing_block_table_h1",
+      "lens_id": "growing_block_table_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-41"
+      ]
+    },
+    {
+      "case_id": "Q020",
+      "full_prefix_length": 13,
+      "holdout_terms": 1,
+      "job_id": "fresh-80-gate-02-holdout-03-Q020-structural_exhaustive_worksheet_h1",
+      "lens_id": "structural_exhaustive_worksheet_h1",
+      "shortened_prefix_length": 12,
+      "visible_holdout": [
+        "-41"
+      ]
+    }
+  ],
+  "schema_version": "5.2-exploration"
+}

@@ -1,0 +1,27 @@
+{
+  "block_id": "fresh-dispute-r150",
+  "cases": [
+    {
+      "case_id": "R150",
+      "prefix": [
+        "17",
+        "-25",
+        "53",
+        "-99",
+        "209",
+        "-413",
+        "835",
+        "-1657",
+        "3321",
+        "-6631",
+        "13277",
+        "-26545",
+        "53103",
+        "-106189"
+      ]
+    }
+  ],
+  "experiment_id": "swarm-seeds-05-exploration",
+  "schema_version": "5.2-exploration",
+  "selection_rule": "all eleven base predictions are unique"
+}

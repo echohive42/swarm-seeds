@@ -1,0 +1,14 @@
+{
+  "artifact_type": "visible-holdout-preparation-summary",
+  "holdout_three_jobs": 64,
+  "holdout_truth_sha256": "fdb56d046a1abb6e6a7486a8d5bef3210214498e9f863fd58144cb2847f60ae8",
+  "holdout_two_jobs": 64,
+  "job_manifest_sha256": "5b796e4866310846e0a233f3b55ac3756a8ee005ddebbfc78976fa93fdd814b9",
+  "lenses_per_case": 8,
+  "logical_jobs": 128,
+  "phase": "visible-holdout-01",
+  "route_manifest_sha256": "e5efb3463a90e0bc1af85f4a1c2ef28e08ad5ee533deb9d5d9dd26b9dbd59197",
+  "schema_version": "5.2-exploration",
+  "selected_cases": 16,
+  "strategy_sha256": "0430b394bb29bd7f861f7e533e7c0d65aae6daccf2c3e87f3ab1860433572cb6"
+}

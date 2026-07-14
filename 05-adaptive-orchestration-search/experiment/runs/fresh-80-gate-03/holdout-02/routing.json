@@ -1,0 +1,70 @@
+{
+  "artifact_type": "visible-holdout-survivor-count-route",
+  "candidate_count": 8,
+  "phase": "fresh-80-gate-03-holdout-02",
+  "ranking_rule": "survivor count ascending, unique surviving answers descending, case_id ascending",
+  "route_cap": 12,
+  "schema_version": "5.2-exploration",
+  "selected": [
+    {
+      "case_id": "S002",
+      "longest_surviving_holdout": 0,
+      "survivor_count": 0,
+      "unique_surviving_answers": 0
+    },
+    {
+      "case_id": "S009",
+      "longest_surviving_holdout": 0,
+      "survivor_count": 0,
+      "unique_surviving_answers": 0
+    },
+    {
+      "case_id": "S017",
+      "longest_surviving_holdout": 0,
+      "survivor_count": 0,
+      "unique_surviving_answers": 0
+    },
+    {
+      "case_id": "S021",
+      "longest_surviving_holdout": 0,
+      "survivor_count": 0,
+      "unique_surviving_answers": 0
+    },
+    {
+      "case_id": "S014",
+      "longest_surviving_holdout": 3,
+      "survivor_count": 1,
+      "unique_surviving_answers": 1
+    },
+    {
+      "case_id": "S015",
+      "longest_surviving_holdout": 2,
+      "survivor_count": 1,
+      "unique_surviving_answers": 1
+    },
+    {
+      "case_id": "S024",
+      "longest_surviving_holdout": 2,
+      "survivor_count": 2,
+      "unique_surviving_answers": 1
+    },
+    {
+      "case_id": "S016",
+      "longest_surviving_holdout": 2,
+      "survivor_count": 3,
+      "unique_surviving_answers": 1
+    }
+  ],
+  "selected_count": 8,
+  "selection_rule": "Route cases with at most 3 candidates that exactly recovered their own stage-one visible holdout.",
+  "source_blocks": [
+    "fresh-g03-a",
+    "fresh-g03-b",
+    "fresh-g03-c",
+    "fresh-g03-d"
+  ],
+  "stage_one_attempt_ledger_sha256": "a862581d6f9212f6b8a16bb9245ed98f5a0580c282dd377843271adfa3c992d8",
+  "stage_one_holdout_sha256": "3580456cda82f195001f9eb01550cea10f90f8dcbdaefe5759bf4f058a83771e",
+  "stage_one_manifest_sha256": "e02ce61e5885bbd481a7fc40b42beb87819d8fa94475d57d8b2f7752ba7d2c1d",
+  "uses_benchmark_answers": false
+}

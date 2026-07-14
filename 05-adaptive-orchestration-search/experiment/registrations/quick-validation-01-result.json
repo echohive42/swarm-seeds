@@ -1,0 +1,95 @@
+{
+  "schema_version": "5.1-validation",
+  "artifact_type": "experiment-05-quick-progressive-validation-result",
+  "validation_id": "quick-validation-01",
+  "completed_at_utc": "2026-07-14T01:30:24Z",
+  "status": "target_range_replicated_on_second_fresh_gate",
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "case_count": 24,
+  "prompt_arm_count": 11,
+  "unique_logical_jobs": 44,
+  "model_attempts": 64,
+  "valid_output_attempts": 44,
+  "schema_invalid_attempts": 20,
+  "valid_jobs": 44,
+  "failed_jobs_after_exact_retries": 0,
+  "valid_case_predictions": 264,
+  "registered_result": {
+    "selector": "frozen deterministic plurality across all 11 prompt arms",
+    "exact": 15,
+    "cases": 24,
+    "exact_accuracy": 0.625,
+    "correct_terms": 82,
+    "terms": 120,
+    "term_accuracy": 0.6833333333333333,
+    "panel_exact": {
+      "research-b09": 10,
+      "research-b10": 5
+    }
+  },
+  "combined_fresh_gates": {
+    "gate_ids": ["exploration-gate-01", "quick-validation-01"],
+    "exact": 31,
+    "cases": 48,
+    "exact_accuracy": 0.6458333333333334
+  },
+  "diagnostics_not_used_for_registered_score": {
+    "best_single_prompt": {
+      "lens_id": "wildcard_compression",
+      "exact": 11,
+      "cases": 24,
+      "exact_accuracy": 0.4583333333333333
+    },
+    "candidate_oracle": {
+      "exact": 16,
+      "cases": 24,
+      "exact_accuracy": 0.6666666666666666
+    },
+    "posthoc_best_subset": {
+      "exact": 16,
+      "cases": 24,
+      "exact_accuracy": 0.6666666666666666,
+      "lens_count": 5
+    }
+  },
+  "family_exact": {
+    "AFFINE": 3,
+    "GROWBLOCK": 2,
+    "INTERLEAVE": 1,
+    "LAGPOLY": 1,
+    "LIN2": 3,
+    "MODAFFINE": 1,
+    "PDELTA": 1,
+    "POLY": 3
+  },
+  "interpretation": [
+    "The unchanged frozen system remained in the requested 60% to 70% range on a second set of 24 untouched cases.",
+    "Across both fresh gates the registered system scored 31/48, or 64.6% exact.",
+    "On this validation the final plurality selected 15 of the 16 cases for which any prompt generated the exact answer, so candidate generation was the dominant bottleneck.",
+    "Performance remained heterogeneous across the two 12-case panels, at 10/12 and 5/12.",
+    "The 20 schema-invalid attempts were operational block-label failures. Only exact invalid jobs were retried, and all source ledgers were preserved.",
+    "This is a quick independent progress check, not the large final confirmation."
+  ],
+  "sha256": {
+    "validation_registration": "dd1d53c6478d8bfd3002061917abb887fec74a5d106eb364cc4d91ce68d18ff3",
+    "retry_wave_01_registration": "01732b376c868e471c34967b4df319f623ded9220fafb32176bdf3d22b734f8d",
+    "retry_wave_02_registration": "ce38070b419daff9fe5c03e4351f56949dcf14f687ce18fe9e60eea4b20cd268",
+    "base_run_summary": "594786a639bb19ae1fb8e9a405e754df89ba2267870513f648603dc0dfda44d9",
+    "base_attempt_ledger": "52c554564c4d23b94d4f0dcc2658910b979748f281cbf2b40219368162e445da",
+    "retry_wave_01_attempt_ledger": "ddff11ffb217f3af3bacec277b6130fb0a1bd900e9c08b018228c25ecca0c60d",
+    "retry_wave_02_attempt_ledger": "59e681b6ce77bc178b8dd27c588ec41fd9536470ac97a3618bd00900b334b3f6",
+    "retry_merge": "74fec177200ec2f378a7102b39e05d39122931ccdf4898e5c818a444a284c7d2",
+    "merged_predictions": "b270f4ee1bf1b06c602a1ef79f1dc60f10c48177a28bc5e0231d0782ab01af81",
+    "analysis": "9dfe902f7c2d6cc7cb74c44a1852ce8983106a0b3ecc87eb8d9a62bd79bbbf8b",
+    "lens_scores_csv": "edd5333852197a3a9bf90395b115e6a646296d762a5bf975cc8799ea739a4d6e",
+    "case_scores_csv": "74911450d0f5c480081161a3ceb907a50dc54c8abf06575ee1bfcafc8709af17",
+    "top_subsets": "854a1ef7ccd8662f012864fcd836eda08cff8f06d1a75052a2b70fa7515b6f4a",
+    "parent_block_projection": "107c34e4bcb3fdbf5645204b121ad9f6acafa694985ee74b436edd5893687a03",
+    "retry_merge_script": "36bf7d286c7dc91eea855d72b964a2bc73334b38a57f68e9f9b6110ae9706337",
+    "derived_analysis_wrapper": "e27b8bf5ffedf74a3e869b545e0e5ec3afda3186c65172bb9b4932d622afe9fb",
+    "generic_analyzer": "7af07d68c822e3c1e3997b48df9648d8a100e2e3708b998735dd52e71dc379ad"
+  }
+}

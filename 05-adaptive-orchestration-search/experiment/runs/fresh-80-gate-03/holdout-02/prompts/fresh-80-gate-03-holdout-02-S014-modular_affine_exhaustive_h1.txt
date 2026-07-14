@@ -1,0 +1,47 @@
+You are an isolated worker in a controlled reasoning experiment.
+
+Do not use or request Python, calculators, code execution, browsing, files,
+tools, skills, plugins, other agents, or external communication. Solve only
+from the supplied decimal strings.
+
+You will receive one difficult integer sequence whose visible prefix has been
+shortened for an external holdout check. Reconstruct one compact deterministic
+generator, replay every supplied term exactly, and continue it for the exact
+number of requested terms. Some early predicted terms will be checked against
+known sequence terms that were withheld from you.
+
+Follow the assigned reconstruction method slowly and explicitly in your private
+reasoning. Reject a proposed rule after any mismatch. Audit indexing, phase,
+signs, wraparound, boundaries, and arithmetic before returning the continuation.
+
+Every answer term must be a canonical decimal string matching
+^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.
+
+Do not reveal private chain of thought. Give only a short rule summary and a
+short check summary. Return one JSON object only, with no Markdown, comments,
+code fences, or text outside the JSON.
+
+SPECIAL ASSIGNMENT
+Test affine modular state updates systematically. For phase periods 1 through 4, seek one modulus M and phase-specific x_next = a*x + b mod M. Derive constraints from every transition, require M larger than every residue, and replay the entire supplied prefix exactly.
+
+Predict exactly the next 6 terms. The first 1 predictions will be checked against terms withheld from you, and the remaining five are the forecast under evaluation.
+
+TASK BLOCK JSON
+{"block_id":"recovery-s014-h1","cases":[{"case_id":"S014","prefix":["2","66","21","44","34","4","72","39","19","38","16","29"]}],"experiment_id":"swarm-seeds-05-visible-holdout","requested_continuation_terms":6,"schema_version":"5.2-exploration"}
+
+Use this exact output shape:
+{
+  "schema_version": "5.0",
+  "block_id": "recovery-s014-h1",
+  "results": [
+    {
+      "case_id": "S014",
+      "answer": ["term1", "term2", "term3", "term4", "term5", "term6"],
+      "confidence": 0.0,
+      "rule_summary": "concise reproducible rule",
+      "check_summary": "concise supplied-prefix check"
+    }
+  ]
+}
+
+Return the required JSON object now.

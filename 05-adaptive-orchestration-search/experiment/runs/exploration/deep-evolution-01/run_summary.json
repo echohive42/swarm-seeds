@@ -1,0 +1,104 @@
+{
+  "actual_logical_calls": 56,
+  "artifact_type": "experiment-05-run-summary",
+  "blocks": [
+    "dispute-r121",
+    "dispute-r130",
+    "dispute-r134",
+    "dispute-r138",
+    "dispute-r140",
+    "dispute-r142",
+    "dispute-r144"
+  ],
+  "common_prefix_sha256": "39ee4def55399ea98a94be45d980f8ba9026170444ea149d32d762ee28b9e9db",
+  "concurrency": 56,
+  "lens_catalog_sha256": "8a78dbc59b71af63105eef9f2b6ef05c82004a73e7132ab93f963fe4c34076cf",
+  "model": "gpt-5.6-luna",
+  "per_strategy_calls": {
+    "DE01-A": 56
+  },
+  "phase": "exploration-deep-evolution-01",
+  "planned_max_calls": 56,
+  "prediction_records_sha256": "416f09a38e1f132ebc42bab803c46b2f545db03e6e8bfda5ad41acce5c9a8941",
+  "public_condition_label": "Light reasoning",
+  "reasoning_effort": "low",
+  "routing_decisions": [
+    {
+      "block_id": "dispute-r121",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "DE01-A",
+      "target_case_ids": [
+        "R121"
+      ]
+    },
+    {
+      "block_id": "dispute-r130",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "DE01-A",
+      "target_case_ids": [
+        "R130"
+      ]
+    },
+    {
+      "block_id": "dispute-r134",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "DE01-A",
+      "target_case_ids": [
+        "R134"
+      ]
+    },
+    {
+      "block_id": "dispute-r138",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "DE01-A",
+      "target_case_ids": [
+        "R138"
+      ]
+    },
+    {
+      "block_id": "dispute-r140",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "DE01-A",
+      "target_case_ids": [
+        "R140"
+      ]
+    },
+    {
+      "block_id": "dispute-r142",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "DE01-A",
+      "target_case_ids": [
+        "R142"
+      ]
+    },
+    {
+      "block_id": "dispute-r144",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "DE01-A",
+      "target_case_ids": [
+        "R144"
+      ]
+    }
+  ],
+  "schema_version": "5.0",
+  "service_tier": "standard",
+  "strategies": [
+    "DE01-A"
+  ],
+  "strategy_batch_sha256": "bd1e36e6c0d2d8a1562942dd1dd8abd082f812ff7d91c3d9fb0858e0a66bc5cf",
+  "timeout_seconds": 900
+}

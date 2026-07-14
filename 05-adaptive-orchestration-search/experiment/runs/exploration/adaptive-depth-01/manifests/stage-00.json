@@ -1,0 +1,1943 @@
+{
+  "artifact_type": "experiment-05-job-manifest",
+  "jobs": [
+    {
+      "block_id": "dispute-r121",
+      "call_index": 1,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r121",
+      "expected_case_ids": [
+        "R121"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r121-solve-1",
+      "lens_id": "deep_program_synthesis",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nConstruct at least eight distinct compact generators spanning algebraic, recursive, procedural, phased, bounded-state, and interwoven explanations. Falsify them transition by transition and return only an exact suffix-predictive survivor.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r121\",\"cases\":[{\"case_id\":\"R121\",\"prefix\":[\"-29\",\"-28\",\"-109\",\"-281\",\"-775\",\"-2107\",\"-5771\",\"-15751\",\"-43039\",\"-117587\",\"-321247\",\"-877663\",\"-2397827\",\"-6550975\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "1473b12cd2b5460aeb2f6d5272162b7f5899ca00ca0920be9aacaba42cfbbe31",
+      "role": "proposer",
+      "role_index": 1,
+      "scope": "all",
+      "slot": "P01",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r121",
+      "call_index": 2,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r121",
+      "expected_case_ids": [
+        "R121"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r121-solve-2",
+      "lens_id": "deep_state_phase_forensics",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nTreat apparent irregularity as possible hidden state. Test bounded affine updates, phase-dependent transitions, variable-length procedures, and resets. Solve constants from repeated transitions and require an exact replay without exceptions.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r121\",\"cases\":[{\"case_id\":\"R121\",\"prefix\":[\"-29\",\"-28\",\"-109\",\"-281\",\"-775\",\"-2107\",\"-5771\",\"-15751\",\"-43039\",\"-117587\",\"-321247\",\"-877663\",\"-2397827\",\"-6550975\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "72a7bdcdc0a1d594b356c6fc70bbcccc753d0ec112c9bbfbec41823b0f47666f",
+      "role": "proposer",
+      "role_index": 2,
+      "scope": "all",
+      "slot": "P02",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r121",
+      "call_index": 3,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r121",
+      "expected_case_ids": [
+        "R121"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r121-solve-3",
+      "lens_id": "deep_index_geometry",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nChange coordinates aggressively. Test residue-class streams, lag-indexed subsequences, segment number plus within-segment position, and finite-difference grids. Reweave the result and verify a late suffix before continuing.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r121\",\"cases\":[{\"case_id\":\"R121\",\"prefix\":[\"-29\",\"-28\",\"-109\",\"-281\",\"-775\",\"-2107\",\"-5771\",\"-15751\",\"-43039\",\"-117587\",\"-321247\",\"-877663\",\"-2397827\",\"-6550975\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "d8ea538468db36dbe8fab5c771a6aff0f3f9fbd68ed7ff5450cb264a02c7b9ee",
+      "role": "proposer",
+      "role_index": 3,
+      "scope": "all",
+      "slot": "P03",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r130",
+      "call_index": 1,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r130",
+      "expected_case_ids": [
+        "R130"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r130-solve-1",
+      "lens_id": "deep_program_synthesis",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nConstruct at least eight distinct compact generators spanning algebraic, recursive, procedural, phased, bounded-state, and interwoven explanations. Falsify them transition by transition and return only an exact suffix-predictive survivor.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r130\",\"cases\":[{\"case_id\":\"R130\",\"prefix\":[\"9\",\"2\",\"11\",\"-27\",\"71\",\"-176\",\"429\",\"-1041\",\"2517\",\"-6082\",\"14687\",\"-35463\",\"85619\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "3b37cb440ae0e1c875e2dbc60a80a1caa66002c4aa1f57189b543d123498d6da",
+      "role": "proposer",
+      "role_index": 1,
+      "scope": "all",
+      "slot": "P01",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r130",
+      "call_index": 2,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r130",
+      "expected_case_ids": [
+        "R130"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r130-solve-2",
+      "lens_id": "deep_state_phase_forensics",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nTreat apparent irregularity as possible hidden state. Test bounded affine updates, phase-dependent transitions, variable-length procedures, and resets. Solve constants from repeated transitions and require an exact replay without exceptions.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r130\",\"cases\":[{\"case_id\":\"R130\",\"prefix\":[\"9\",\"2\",\"11\",\"-27\",\"71\",\"-176\",\"429\",\"-1041\",\"2517\",\"-6082\",\"14687\",\"-35463\",\"85619\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "bfdb120458be8415d553b6c4acf618fa806ab4afd9507c6241c2e2b2c9dfd6a3",
+      "role": "proposer",
+      "role_index": 2,
+      "scope": "all",
+      "slot": "P02",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r130",
+      "call_index": 3,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r130",
+      "expected_case_ids": [
+        "R130"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r130-solve-3",
+      "lens_id": "deep_index_geometry",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nChange coordinates aggressively. Test residue-class streams, lag-indexed subsequences, segment number plus within-segment position, and finite-difference grids. Reweave the result and verify a late suffix before continuing.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r130\",\"cases\":[{\"case_id\":\"R130\",\"prefix\":[\"9\",\"2\",\"11\",\"-27\",\"71\",\"-176\",\"429\",\"-1041\",\"2517\",\"-6082\",\"14687\",\"-35463\",\"85619\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "f082e397e4238a14744ee69ac7488a6e651ce656afe85747fa19c6b5b2185ac1",
+      "role": "proposer",
+      "role_index": 3,
+      "scope": "all",
+      "slot": "P03",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r134",
+      "call_index": 1,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r134",
+      "expected_case_ids": [
+        "R134"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r134-solve-1",
+      "lens_id": "deep_program_synthesis",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nConstruct at least eight distinct compact generators spanning algebraic, recursive, procedural, phased, bounded-state, and interwoven explanations. Falsify them transition by transition and return only an exact suffix-predictive survivor.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r134\",\"cases\":[{\"case_id\":\"R134\",\"prefix\":[\"98\",\"59\",\"3\",\"4\",\"78\",\"42\",\"73\",\"12\",\"39\",\"14\",\"55\",\"7\",\"102\",\"83\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "09f4f9ea81bb8b8c37f96d1e441a265ef801108a8aad82dd67ae50eafdc93309",
+      "role": "proposer",
+      "role_index": 1,
+      "scope": "all",
+      "slot": "P01",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r134",
+      "call_index": 2,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r134",
+      "expected_case_ids": [
+        "R134"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r134-solve-2",
+      "lens_id": "deep_state_phase_forensics",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nTreat apparent irregularity as possible hidden state. Test bounded affine updates, phase-dependent transitions, variable-length procedures, and resets. Solve constants from repeated transitions and require an exact replay without exceptions.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r134\",\"cases\":[{\"case_id\":\"R134\",\"prefix\":[\"98\",\"59\",\"3\",\"4\",\"78\",\"42\",\"73\",\"12\",\"39\",\"14\",\"55\",\"7\",\"102\",\"83\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "62a0a43e058e33c953297c8f3db3d0da7a8f0430c0337bc62508e2a98b679169",
+      "role": "proposer",
+      "role_index": 2,
+      "scope": "all",
+      "slot": "P02",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r134",
+      "call_index": 3,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r134",
+      "expected_case_ids": [
+        "R134"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r134-solve-3",
+      "lens_id": "deep_index_geometry",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nChange coordinates aggressively. Test residue-class streams, lag-indexed subsequences, segment number plus within-segment position, and finite-difference grids. Reweave the result and verify a late suffix before continuing.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r134\",\"cases\":[{\"case_id\":\"R134\",\"prefix\":[\"98\",\"59\",\"3\",\"4\",\"78\",\"42\",\"73\",\"12\",\"39\",\"14\",\"55\",\"7\",\"102\",\"83\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "bef7606b04290b305ffec9c37ef6bf9cbb82af271d2c63057707a863f304fcc3",
+      "role": "proposer",
+      "role_index": 3,
+      "scope": "all",
+      "slot": "P03",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r138",
+      "call_index": 1,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r138",
+      "expected_case_ids": [
+        "R138"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r138-solve-1",
+      "lens_id": "deep_program_synthesis",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nConstruct at least eight distinct compact generators spanning algebraic, recursive, procedural, phased, bounded-state, and interwoven explanations. Falsify them transition by transition and return only an exact suffix-predictive survivor.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r138\",\"cases\":[{\"case_id\":\"R138\",\"prefix\":[\"40\",\"23\",\"14\",\"37\",\"11\",\"25\",\"22\",\"10\",\"21\",\"6\",\"5\",\"1\",\"44\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "72561c9bdf6e1385fba9c95aba0caa4d6db1abb0cb388c7ee7d0be82872c9952",
+      "role": "proposer",
+      "role_index": 1,
+      "scope": "all",
+      "slot": "P01",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r138",
+      "call_index": 2,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r138",
+      "expected_case_ids": [
+        "R138"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r138-solve-2",
+      "lens_id": "deep_state_phase_forensics",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nTreat apparent irregularity as possible hidden state. Test bounded affine updates, phase-dependent transitions, variable-length procedures, and resets. Solve constants from repeated transitions and require an exact replay without exceptions.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r138\",\"cases\":[{\"case_id\":\"R138\",\"prefix\":[\"40\",\"23\",\"14\",\"37\",\"11\",\"25\",\"22\",\"10\",\"21\",\"6\",\"5\",\"1\",\"44\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "a6c4e9f618b841e133885a72e180204e443756040b893c9b77a3ed96c1f30310",
+      "role": "proposer",
+      "role_index": 2,
+      "scope": "all",
+      "slot": "P02",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r138",
+      "call_index": 3,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r138",
+      "expected_case_ids": [
+        "R138"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r138-solve-3",
+      "lens_id": "deep_index_geometry",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nChange coordinates aggressively. Test residue-class streams, lag-indexed subsequences, segment number plus within-segment position, and finite-difference grids. Reweave the result and verify a late suffix before continuing.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r138\",\"cases\":[{\"case_id\":\"R138\",\"prefix\":[\"40\",\"23\",\"14\",\"37\",\"11\",\"25\",\"22\",\"10\",\"21\",\"6\",\"5\",\"1\",\"44\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "20871ebfab5e66609d303df2a9e4c5cfde82022a9dfb4cc9dc1cda623a61fb93",
+      "role": "proposer",
+      "role_index": 3,
+      "scope": "all",
+      "slot": "P03",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r140",
+      "call_index": 1,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r140",
+      "expected_case_ids": [
+        "R140"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r140-solve-1",
+      "lens_id": "deep_program_synthesis",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nConstruct at least eight distinct compact generators spanning algebraic, recursive, procedural, phased, bounded-state, and interwoven explanations. Falsify them transition by transition and return only an exact suffix-predictive survivor.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r140\",\"cases\":[{\"case_id\":\"R140\",\"prefix\":[\"-16\",\"7\",\"-10\",\"-8\",\"12\",\"-1\",\"-8\",\"8\",\"7\",\"-8\",\"-4\",\"5\",\"0\",\"-23\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "8c720bcb8bbecc15335e245bad55bba2e7f7ecf11398a98077e7922639619aab",
+      "role": "proposer",
+      "role_index": 1,
+      "scope": "all",
+      "slot": "P01",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r140",
+      "call_index": 2,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r140",
+      "expected_case_ids": [
+        "R140"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r140-solve-2",
+      "lens_id": "deep_state_phase_forensics",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nTreat apparent irregularity as possible hidden state. Test bounded affine updates, phase-dependent transitions, variable-length procedures, and resets. Solve constants from repeated transitions and require an exact replay without exceptions.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r140\",\"cases\":[{\"case_id\":\"R140\",\"prefix\":[\"-16\",\"7\",\"-10\",\"-8\",\"12\",\"-1\",\"-8\",\"8\",\"7\",\"-8\",\"-4\",\"5\",\"0\",\"-23\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "57dccbd83ab4e70c4c1caa13e00e0606dba9eb9ff9661bfc2229ebcd2fbb3446",
+      "role": "proposer",
+      "role_index": 2,
+      "scope": "all",
+      "slot": "P02",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r140",
+      "call_index": 3,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r140",
+      "expected_case_ids": [
+        "R140"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r140-solve-3",
+      "lens_id": "deep_index_geometry",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nChange coordinates aggressively. Test residue-class streams, lag-indexed subsequences, segment number plus within-segment position, and finite-difference grids. Reweave the result and verify a late suffix before continuing.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r140\",\"cases\":[{\"case_id\":\"R140\",\"prefix\":[\"-16\",\"7\",\"-10\",\"-8\",\"12\",\"-1\",\"-8\",\"8\",\"7\",\"-8\",\"-4\",\"5\",\"0\",\"-23\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "0535cbe0162ba95071a27a276f37857fd154c47d48a3cb10216f9bbb3994aa14",
+      "role": "proposer",
+      "role_index": 3,
+      "scope": "all",
+      "slot": "P03",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r142",
+      "call_index": 1,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r142",
+      "expected_case_ids": [
+        "R142"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r142-solve-1",
+      "lens_id": "deep_program_synthesis",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nConstruct at least eight distinct compact generators spanning algebraic, recursive, procedural, phased, bounded-state, and interwoven explanations. Falsify them transition by transition and return only an exact suffix-predictive survivor.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r142\",\"cases\":[{\"case_id\":\"R142\",\"prefix\":[\"-28\",\"22\",\"12\",\"-31\",\"24\",\"-30\",\"-26\",\"22\",\"54\",\"-20\",\"16\",\"-114\",\"-20\",\"6\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "8c308170bfe25f9d5ccd741379361d497e8c17d1694f555a4c195bbd35a1a959",
+      "role": "proposer",
+      "role_index": 1,
+      "scope": "all",
+      "slot": "P01",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r142",
+      "call_index": 2,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r142",
+      "expected_case_ids": [
+        "R142"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r142-solve-2",
+      "lens_id": "deep_state_phase_forensics",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nTreat apparent irregularity as possible hidden state. Test bounded affine updates, phase-dependent transitions, variable-length procedures, and resets. Solve constants from repeated transitions and require an exact replay without exceptions.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r142\",\"cases\":[{\"case_id\":\"R142\",\"prefix\":[\"-28\",\"22\",\"12\",\"-31\",\"24\",\"-30\",\"-26\",\"22\",\"54\",\"-20\",\"16\",\"-114\",\"-20\",\"6\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "30df6120317ee0c17f04457058ed3cc016bd2f67f305cc2aa134bb20fab3c478",
+      "role": "proposer",
+      "role_index": 2,
+      "scope": "all",
+      "slot": "P02",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r142",
+      "call_index": 3,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r142",
+      "expected_case_ids": [
+        "R142"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r142-solve-3",
+      "lens_id": "deep_index_geometry",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nChange coordinates aggressively. Test residue-class streams, lag-indexed subsequences, segment number plus within-segment position, and finite-difference grids. Reweave the result and verify a late suffix before continuing.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r142\",\"cases\":[{\"case_id\":\"R142\",\"prefix\":[\"-28\",\"22\",\"12\",\"-31\",\"24\",\"-30\",\"-26\",\"22\",\"54\",\"-20\",\"16\",\"-114\",\"-20\",\"6\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "677d7e76f964456d02e429ad92286dac589fb6376c4046073589c318320fd6de",
+      "role": "proposer",
+      "role_index": 3,
+      "scope": "all",
+      "slot": "P03",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r144",
+      "call_index": 1,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r144",
+      "expected_case_ids": [
+        "R144"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r144-solve-1",
+      "lens_id": "deep_program_synthesis",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nConstruct at least eight distinct compact generators spanning algebraic, recursive, procedural, phased, bounded-state, and interwoven explanations. Falsify them transition by transition and return only an exact suffix-predictive survivor.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r144\",\"cases\":[{\"case_id\":\"R144\",\"prefix\":[\"7\",\"0\",\"15\",\"16\",\"18\",\"22\",\"1\",\"17\",\"20\",\"26\",\"9\",\"4\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "ed2863080884f7782e129c90a390e043daf964af5dce8e596262a72d70eb73ab",
+      "role": "proposer",
+      "role_index": 1,
+      "scope": "all",
+      "slot": "P01",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r144",
+      "call_index": 2,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r144",
+      "expected_case_ids": [
+        "R144"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r144-solve-2",
+      "lens_id": "deep_state_phase_forensics",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nTreat apparent irregularity as possible hidden state. Test bounded affine updates, phase-dependent transitions, variable-length procedures, and resets. Solve constants from repeated transitions and require an exact replay without exceptions.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r144\",\"cases\":[{\"case_id\":\"R144\",\"prefix\":[\"7\",\"0\",\"15\",\"16\",\"18\",\"22\",\"1\",\"17\",\"20\",\"26\",\"9\",\"4\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "6bb1afe4830e55f9450cb18b93332549a4dfcb3d39e76cf44edb6345cb82b7a2",
+      "role": "proposer",
+      "role_index": 2,
+      "scope": "all",
+      "slot": "P02",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    },
+    {
+      "block_id": "dispute-r144",
+      "call_index": 3,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "dispute-r144",
+      "expected_case_ids": [
+        "R144"
+      ],
+      "job_id": "exploration-adaptive-depth-01-AD01-DEEP-dispute-r144-solve-3",
+      "lens_id": "deep_index_geometry",
+      "method": "Disagreement-Triggered Deep Reconstruction",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "exploration-adaptive-depth-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation.\n\nWORKER LENS\nChange coordinates aggressively. Test residue-class streams, lag-indexed subsequences, segment number plus within-segment position, and finite-difference grids. Reweave the result and verify a late suffix before continuing.\n\nTASK BLOCK JSON\n{\"block_id\":\"dispute-r144\",\"cases\":[{\"case_id\":\"R144\",\"prefix\":[\"7\",\"0\",\"15\",\"16\",\"18\",\"22\",\"1\",\"17\",\"20\",\"26\",\"9\",\"4\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"base eleven plurality support equals one\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "f5d07d5b386793553e48b404a96ddee7c14e4048411d5e5b194010b24765c94b",
+      "role": "proposer",
+      "role_index": 3,
+      "scope": "all",
+      "slot": "P03",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "AD01-DEEP",
+      "strategy_sha256": "51c74df1943fcb6c2ab1ab037cb34f803520c888b5da92f89e0319bef17b9448"
+    }
+  ],
+  "model": "gpt-5.6-luna",
+  "public_condition_label": "Light reasoning",
+  "reasoning_effort": "low",
+  "schema_version": "5.0",
+  "service_tier": "standard",
+  "stage_index": 0
+}

@@ -1,0 +1,53 @@
+You are an isolated worker in a controlled reasoning experiment.
+
+Do not use or request Python, calculators, code execution, browsing, files,
+tools, skills, plugins, other agents, or external communication. Solve only
+from the supplied decimal strings and any anonymous candidate evidence.
+
+You will receive between 1 and 6 independent integer-sequence cases. Treat
+every case independently and spend enough attention to resolve its global
+structure. Each prefix was produced by a compact deterministic rule. Infer the
+rule and predict exactly the next FIVE terms. Do not assume a closed list of
+possible rules.
+
+Prefer a rule that is exact, compact, and predictive. Replay the whole prefix.
+Hide one or more late visible terms when practical and require the rule to
+recover them before extrapolating. Never substitute a short suffix trend for a
+global explanation merely because the sequence is difficult.
+
+Every answer term must be a canonical decimal string matching
+^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.
+
+Do not reveal private chain of thought. Give only a short rule summary and a
+short check summary. Return one JSON object only, with no Markdown, comments,
+code fences, or text outside the JSON. Include every supplied case_id exactly
+once. Copy the supplied block_id exactly, character for character, from TASK
+BLOCK JSON. Do not shorten, rename, or infer the block_id. Use this shape:
+
+{
+  "schema_version": "5.0",
+  "block_id": "the exact supplied block_id",
+  "results": [
+    {
+      "case_id": "the supplied case_id",
+      "answer": ["term1", "term2", "term3", "term4", "term5"],
+      "confidence": 0.0,
+      "rule_summary": "concise reproducible rule",
+      "check_summary": "concise visible-prefix or holdout check"
+    }
+  ]
+}
+
+ROLE
+Solve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.
+
+SPECIAL ASSIGNMENT
+Work carefully on this smaller case set. For each sequence, compare global structures, verify a late suffix when possible, and return the exact continuation supported by the strongest compact rule.
+
+WORKER LENS
+Try variable-length consecutive blocks explicitly. Test simple laws for block lengths, starting values, within-block steps, and how those quantities change from block to block.
+
+TASK BLOCK JSON
+{"block_id":"research-b13a","cases":[{"case_id":"R145","prefix":["19","16","19","21","26","14","19","22","29","17","15","26","29","26"]},{"case_id":"R146","prefix":["5","0","-2","0","7","20","40","68","105","152","210","280"]},{"case_id":"R147","prefix":["5","4","-1","-2","-7","-8","-13","-14","-19","-20","-25","-26"]},{"case_id":"R148","prefix":["-13","-8","4","20","37","43","8","-125","-449","-1102","-2276","-4226","-7279","-11843"]},{"case_id":"R149","prefix":["-13","-12","-18","-27","-31","-18","28","127","303","584","1002","1593","2397"]},{"case_id":"R150","prefix":["17","-25","53","-99","209","-413","835","-1657","3321","-6631","13277","-26545","53103","-106189"]}],"derived_from":"research-b13","experiment_id":"swarm-seeds-05-exploration","schema_version":"5.1-exploration"}
+
+Return the required JSON object now.

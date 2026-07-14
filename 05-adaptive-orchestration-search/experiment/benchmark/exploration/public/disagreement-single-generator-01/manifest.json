@@ -1,0 +1,35 @@
+{
+  "answer_independent_at_runtime": true,
+  "artifact_type": "disagreement-selected-single-case-manifest",
+  "block_files": [
+    "dispute-r121.json",
+    "dispute-r130.json",
+    "dispute-r134.json",
+    "dispute-r138.json",
+    "dispute-r140.json",
+    "dispute-r142.json",
+    "dispute-r144.json"
+  ],
+  "case_count": 7,
+  "case_ids": [
+    "R121",
+    "R130",
+    "R134",
+    "R138",
+    "R140",
+    "R142",
+    "R144"
+  ],
+  "checksums": {
+    "dispute-r121.json": "e506ff40793cdbb29bdfcb77fa1ee09ab337cb01f2cdaf333d38fc773c7d5b70",
+    "dispute-r130.json": "4af5d53d3b724ed4aaf89dd8f41be7296911c79669badaa6fb7db8f6ef74d06d",
+    "dispute-r134.json": "e0422ec0d1739f05cea88de6445ab029e0419f86adc058683f98654fec3c2742",
+    "dispute-r138.json": "fe3f86048cb587a4c4020b9d3c379996498e9c3755aeba47123852e2e406ee9e",
+    "dispute-r140.json": "32129edfb65f226f38fd20be09c0385198a5beb7ce07c6a69eb72c26235f8a7c",
+    "dispute-r142.json": "1d87a2217fa22e8a6496f86b0cbff4fa816619fc135d1c878e026f3e87139844",
+    "dispute-r144.json": "30d6eb67877cae1dd929228695b300592a46183673c8debbcec03c62a6c727ec"
+  },
+  "schema_version": "5.2-exploration",
+  "selection_rule": "select every case where all eleven base generators returned distinct answers",
+  "selection_source": "exploration-generator-01 base eleven predictions"
+}

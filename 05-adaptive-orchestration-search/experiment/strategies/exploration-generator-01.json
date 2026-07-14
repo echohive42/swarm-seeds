@@ -1,0 +1,42 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-exploration-strategy-batch",
+  "batch_id": "exploration-generator-01",
+  "panel_id": "base-eleven-plus-four-specialists",
+  "design_status": "frozen_before_subject_calls",
+  "description": "On the same 24 fresh cases, compare the current 11-prompt generator panel with four added specialists. All 60 calls are banked once for call-free combination analysis.",
+  "strategies": [
+    {
+      "strategy_id": "GX01-BASE",
+      "name": "Format-Hardened Stable Eleven",
+      "category": "control",
+      "description": "The current eleven generation lenses with only a stricter instruction to copy the block identifier exactly.",
+      "stages": [{
+        "stage_id": "solve",
+        "role": "proposer",
+        "count": 11,
+        "scope": "all",
+        "reads": [],
+        "lens_ids": ["generalist", "growing_block_slow", "hypothesis_tournament", "internal_panel", "interwoven_stream_slow", "lag_class_slow", "mdl_suffix_holdout", "modulus_equation", "periodic_delta_slow", "recurrence_exhaustive", "wildcard_compression"],
+        "instruction": "Work carefully on this smaller case set. For each sequence, compare global structures, verify a late suffix when possible, and return the exact continuation supported by the strongest compact rule."
+      }],
+      "selector": {"mode": "base_plurality", "base_roles": ["proposer"]}
+    },
+    {
+      "strategy_id": "GX01-ADD",
+      "name": "Four Structural Specialists",
+      "category": "specialist",
+      "description": "Four additional generators target bounded state, phase-dependent state, variable segments, and alternate coordinate systems without assuming a closed benchmark taxonomy.",
+      "stages": [{
+        "stage_id": "solve",
+        "role": "proposer",
+        "count": 4,
+        "scope": "all",
+        "reads": [],
+        "lens_ids": ["bounded_state_reconstruction", "phase_bounded_reconstruction", "variable_segment_reconstruction", "coordinate_system_duel"],
+        "instruction": "Work carefully on this smaller case set. Use the assigned structural lens as a serious alternative, but reject it if it does not replay the entire prefix exactly."
+      }],
+      "selector": {"mode": "base_plurality", "base_roles": ["proposer"]}
+    }
+  ]
+}

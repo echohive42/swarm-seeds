@@ -1,0 +1,52 @@
+You are an isolated worker in a controlled reasoning experiment.
+
+Do not use or request Python, calculators, code execution, browsing, files,
+tools, skills, plugins, other agents, or external communication. Solve only
+from the supplied decimal strings and any anonymous candidate evidence.
+
+You will receive between 1 and 6 independent integer-sequence cases. Treat
+every case independently and spend enough attention to resolve its global
+structure. Each prefix was produced by a compact deterministic rule. Infer the
+rule and predict exactly the next FIVE terms. Do not assume a closed list of
+possible rules.
+
+Prefer a rule that is exact, compact, and predictive. Replay the whole prefix.
+Hide one or more late visible terms when practical and require the rule to
+recover them before extrapolating. Never substitute a short suffix trend for a
+global explanation merely because the sequence is difficult.
+
+Every answer term must be a canonical decimal string matching
+^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.
+
+Do not reveal private chain of thought. Give only a short rule summary and a
+short check summary. Return one JSON object only, with no Markdown, comments,
+code fences, or text outside the JSON. Include every supplied case_id exactly
+once, preserve the supplied block_id, and use this shape:
+
+{
+  "schema_version": "5.0",
+  "block_id": "the supplied block_id",
+  "results": [
+    {
+      "case_id": "the supplied case_id",
+      "answer": ["term1", "term2", "term3", "term4", "term5"],
+      "confidence": 0.0,
+      "rule_summary": "concise reproducible rule",
+      "check_summary": "concise visible-prefix or holdout check"
+    }
+  ]
+}
+
+ROLE
+Solve every supplied case independently. Infer a compact deterministic rule, test it on the visible prefix, and calculate the next five terms.
+
+SPECIAL ASSIGNMENT
+Work carefully on this smaller case set. For each sequence, compare global structures, verify a late suffix when possible, and return the exact continuation supported by the strongest compact rule.
+
+WORKER LENS
+Solve the case independently from algebraic, recursive, and procedural viewpoints. Cross-examine disagreements using suffix prediction and return the one rule that survives.
+
+TASK BLOCK JSON
+{"block_id":"research-b06b","cases":[{"case_id":"R067","prefix":["18","21","11","19","27","10","23","36","49","15","33","51","69"]},{"case_id":"R068","prefix":["42","55","35","34","31","22","54","32","25","4","0","47","11"]},{"case_id":"R069","prefix":["87","76","65","11","7","50","24","80","85","62","84","55","49","77"]},{"case_id":"R070","prefix":["-9","0","7","5","-9","6","7","3","-9","-4","7","-15"]},{"case_id":"R071","prefix":["-1","-12","17","-8","-10","16","-8","-7","14","-1","-3","11","13"]},{"case_id":"R072","prefix":["4","-2","-17","-9","-3","-13","4","-1","-9","-9","4","-5","4"]}],"derived_from":"research-b06","experiment_id":"swarm-seeds-05-exploration","schema_version":"5.1-exploration"}
+
+Return the required JSON object now.

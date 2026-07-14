@@ -1,0 +1,24 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-exploration-strategy-batch",
+  "batch_id": "exploration-adaptive-depth-01",
+  "panel_id": "three-single-case-deep-generators",
+  "design_status": "frozen_before_subject_calls",
+  "description": "Three independent deep generators solve only the seven development cases selected by maximum disagreement among the existing base eleven prompts.",
+  "strategies": [{
+    "strategy_id": "AD01-DEEP",
+    "name": "Disagreement-Triggered Deep Reconstruction",
+    "category": "adaptive",
+    "description": "Single-case depth is allocated only after the existing generators fail to agree at all.",
+    "stages": [{
+      "stage_id": "solve",
+      "role": "proposer",
+      "count": 3,
+      "scope": "all",
+      "reads": [],
+      "lens_ids": ["deep_program_synthesis", "deep_state_phase_forensics", "deep_index_geometry"],
+      "instruction": "This case was escalated because a broad generator panel produced no repeated answer. Reconstruct it independently from first principles and return only an exactly replayable continuation."
+    }],
+    "selector": {"mode": "base_plurality", "base_roles": ["proposer"]}
+  }]
+}

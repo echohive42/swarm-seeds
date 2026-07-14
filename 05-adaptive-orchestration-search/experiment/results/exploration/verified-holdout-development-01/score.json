@@ -1,0 +1,811 @@
+{
+  "artifact_type": "verified-holdout-frozen-system-score",
+  "base_fifteen": {
+    "cases": 24,
+    "exact": 14,
+    "exact_accuracy": 0.5833333333333334
+  },
+  "candidate_oracle_including_base": {
+    "cases": 24,
+    "exact": 22,
+    "exact_accuracy": 0.9166666666666666
+  },
+  "case_decisions": {
+    "R145": {
+      "base_answer": [
+        "19",
+        "16",
+        "19",
+        "21",
+        "26"
+      ],
+      "base_exact": false,
+      "family": "PDELTA",
+      "final_answer": [
+        "-23",
+        "79",
+        "86",
+        "-136",
+        "201"
+      ],
+      "final_exact": false,
+      "override": true,
+      "truth": [
+        "8",
+        "34",
+        "27",
+        "42",
+        "-1"
+      ],
+      "unique_verified_candidates": 2,
+      "verified_candidate_count": 2,
+      "winning_verified_support": 1
+    },
+    "R146": {
+      "base_answer": [
+        "363",
+        "460",
+        "572",
+        "700",
+        "845"
+      ],
+      "base_exact": true,
+      "family": "POLY",
+      "final_answer": [
+        "363",
+        "460",
+        "572",
+        "700",
+        "845"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "363",
+        "460",
+        "572",
+        "700",
+        "845"
+      ],
+      "unique_verified_candidates": 0,
+      "verified_candidate_count": 0,
+      "winning_verified_support": 0
+    },
+    "R147": {
+      "base_answer": [
+        "-31",
+        "-32",
+        "-37",
+        "-38",
+        "-43"
+      ],
+      "base_exact": true,
+      "family": "PDELTA",
+      "final_answer": [
+        "-31",
+        "-32",
+        "-37",
+        "-38",
+        "-43"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "-31",
+        "-32",
+        "-37",
+        "-38",
+        "-43"
+      ],
+      "unique_verified_candidates": 0,
+      "verified_candidate_count": 0,
+      "winning_verified_support": 0
+    },
+    "R148": {
+      "base_answer": [
+        "-18416",
+        "-27595",
+        "-40085",
+        "-56708",
+        "-78412"
+      ],
+      "base_exact": true,
+      "family": "POLY",
+      "final_answer": [
+        "-18416",
+        "-27595",
+        "-40085",
+        "-56708",
+        "-78412"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "-18416",
+        "-27595",
+        "-40085",
+        "-56708",
+        "-78412"
+      ],
+      "unique_verified_candidates": 0,
+      "verified_candidate_count": 0,
+      "winning_verified_support": 0
+    },
+    "R149": {
+      "base_answer": [
+        "3458",
+        "4824",
+        "6547",
+        "8683",
+        "11292"
+      ],
+      "base_exact": true,
+      "family": "POLY",
+      "final_answer": [
+        "3458",
+        "4824",
+        "6547",
+        "8683",
+        "11292"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "3458",
+        "4824",
+        "6547",
+        "8683",
+        "11292"
+      ],
+      "unique_verified_candidates": 0,
+      "verified_candidate_count": 0,
+      "winning_verified_support": 0
+    },
+    "R150": {
+      "base_answer": [
+        "212389",
+        "-424763",
+        "849545",
+        "-1699077",
+        "3398171"
+      ],
+      "base_exact": true,
+      "family": "LIN2",
+      "final_answer": [
+        "212389",
+        "-424763",
+        "849545",
+        "-1699077",
+        "3398171"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "212389",
+        "-424763",
+        "849545",
+        "-1699077",
+        "3398171"
+      ],
+      "unique_verified_candidates": 3,
+      "verified_candidate_count": 7,
+      "winning_verified_support": 5
+    },
+    "R151": {
+      "base_answer": [
+        "-56",
+        "-33",
+        "-56",
+        "-71",
+        "-43"
+      ],
+      "base_exact": false,
+      "family": "PDELTA",
+      "final_answer": [
+        "-56",
+        "-33",
+        "-56",
+        "-72",
+        "-43"
+      ],
+      "final_exact": true,
+      "override": true,
+      "truth": [
+        "-56",
+        "-33",
+        "-56",
+        "-72",
+        "-43"
+      ],
+      "unique_verified_candidates": 3,
+      "verified_candidate_count": 6,
+      "winning_verified_support": 4
+    },
+    "R152": {
+      "base_answer": [
+        "11306",
+        "30890",
+        "84394",
+        "230570",
+        "629930"
+      ],
+      "base_exact": true,
+      "family": "LIN2",
+      "final_answer": [
+        "11306",
+        "30890",
+        "84394",
+        "230570",
+        "629930"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "11306",
+        "30890",
+        "84394",
+        "230570",
+        "629930"
+      ],
+      "unique_verified_candidates": 1,
+      "verified_candidate_count": 5,
+      "winning_verified_support": 5
+    },
+    "R153": {
+      "base_answer": [
+        "-150",
+        "-305",
+        "298",
+        "591",
+        "-598"
+      ],
+      "base_exact": true,
+      "family": "AFFINE",
+      "final_answer": [
+        "-150",
+        "-305",
+        "298",
+        "591",
+        "-598"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "-150",
+        "-305",
+        "298",
+        "591",
+        "-598"
+      ],
+      "unique_verified_candidates": 0,
+      "verified_candidate_count": 0,
+      "winning_verified_support": 0
+    },
+    "R154": {
+      "base_answer": [
+        "6502334",
+        "13004676",
+        "-39014022",
+        "117042062",
+        "234084132"
+      ],
+      "base_exact": true,
+      "family": "AFFINE",
+      "final_answer": [
+        "6502334",
+        "13004676",
+        "-39014022",
+        "117042062",
+        "234084132"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "6502334",
+        "13004676",
+        "-39014022",
+        "117042062",
+        "234084132"
+      ],
+      "unique_verified_candidates": 0,
+      "verified_candidate_count": 0,
+      "winning_verified_support": 0
+    },
+    "R155": {
+      "base_answer": [
+        "168784",
+        "407478",
+        "983738",
+        "2374951",
+        "5733638"
+      ],
+      "base_exact": true,
+      "family": "LIN2",
+      "final_answer": [
+        "168784",
+        "407478",
+        "983738",
+        "2374951",
+        "5733638"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "168784",
+        "407478",
+        "983738",
+        "2374951",
+        "5733638"
+      ],
+      "unique_verified_candidates": 5,
+      "verified_candidate_count": 9,
+      "winning_verified_support": 5
+    },
+    "R156": {
+      "base_answer": [
+        "-16381",
+        "-32765",
+        "-65533",
+        "-131069",
+        "-262141"
+      ],
+      "base_exact": true,
+      "family": "AFFINE",
+      "final_answer": [
+        "-16381",
+        "-32765",
+        "-65533",
+        "-131069",
+        "-262141"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "-16381",
+        "-32765",
+        "-65533",
+        "-131069",
+        "-262141"
+      ],
+      "unique_verified_candidates": 0,
+      "verified_candidate_count": 0,
+      "winning_verified_support": 0
+    },
+    "R157": {
+      "base_answer": [
+        "-19",
+        "28",
+        "-22",
+        "33",
+        "-25"
+      ],
+      "base_exact": true,
+      "family": "LAGPOLY",
+      "final_answer": [
+        "-19",
+        "28",
+        "-22",
+        "33",
+        "-25"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "-19",
+        "28",
+        "-22",
+        "33",
+        "-25"
+      ],
+      "unique_verified_candidates": 0,
+      "verified_candidate_count": 0,
+      "winning_verified_support": 0
+    },
+    "R158": {
+      "base_answer": [
+        "55",
+        "-23",
+        "13",
+        "9",
+        "75"
+      ],
+      "base_exact": false,
+      "family": "MODAFFINE",
+      "final_answer": [
+        "14",
+        "15",
+        "20",
+        "2",
+        "41"
+      ],
+      "final_exact": true,
+      "override": true,
+      "truth": [
+        "14",
+        "15",
+        "20",
+        "2",
+        "41"
+      ],
+      "unique_verified_candidates": 1,
+      "verified_candidate_count": 3,
+      "winning_verified_support": 3
+    },
+    "R159": {
+      "base_answer": [
+        "-85",
+        "-106",
+        "-127",
+        "-148",
+        "-169"
+      ],
+      "base_exact": false,
+      "family": "GROWBLOCK",
+      "final_answer": [
+        "-85",
+        "-106",
+        "-127",
+        "-148",
+        "-169"
+      ],
+      "final_exact": false,
+      "override": false,
+      "truth": [
+        "-85",
+        "-13",
+        "-41",
+        "-69",
+        "-97"
+      ],
+      "unique_verified_candidates": 5,
+      "verified_candidate_count": 11,
+      "winning_verified_support": 6
+    },
+    "R160": {
+      "base_answer": [
+        "-42",
+        "-37",
+        "-32",
+        "-27",
+        "-22"
+      ],
+      "base_exact": false,
+      "family": "LAGPOLY",
+      "final_answer": [
+        "34",
+        "-38",
+        "-34",
+        "61",
+        "-52"
+      ],
+      "final_exact": true,
+      "override": true,
+      "truth": [
+        "34",
+        "-38",
+        "-34",
+        "61",
+        "-52"
+      ],
+      "unique_verified_candidates": 3,
+      "verified_candidate_count": 7,
+      "winning_verified_support": 5
+    },
+    "R161": {
+      "base_answer": [
+        "6",
+        "121",
+        "3",
+        "5",
+        "6"
+      ],
+      "base_exact": false,
+      "family": "MODAFFINE",
+      "final_answer": [
+        "1",
+        "70",
+        "3",
+        "7",
+        "10"
+      ],
+      "final_exact": true,
+      "override": true,
+      "truth": [
+        "1",
+        "70",
+        "3",
+        "7",
+        "10"
+      ],
+      "unique_verified_candidates": 3,
+      "verified_candidate_count": 3,
+      "winning_verified_support": 1
+    },
+    "R162": {
+      "base_answer": [
+        "-28",
+        "-24",
+        "-20",
+        "-16",
+        "-12"
+      ],
+      "base_exact": false,
+      "family": "GROWBLOCK",
+      "final_answer": [
+        "-11",
+        "-7",
+        "-28",
+        "-24",
+        "-20"
+      ],
+      "final_exact": true,
+      "override": true,
+      "truth": [
+        "-11",
+        "-7",
+        "-28",
+        "-24",
+        "-20"
+      ],
+      "unique_verified_candidates": 1,
+      "verified_candidate_count": 8,
+      "winning_verified_support": 8
+    },
+    "R163": {
+      "base_answer": [
+        "-115",
+        "-89",
+        "-63",
+        "-37",
+        "-11"
+      ],
+      "base_exact": false,
+      "family": "GROWBLOCK",
+      "final_answer": [
+        "21",
+        "-95",
+        "-69",
+        "-43",
+        "-17"
+      ],
+      "final_exact": true,
+      "override": true,
+      "truth": [
+        "21",
+        "-95",
+        "-69",
+        "-43",
+        "-17"
+      ],
+      "unique_verified_candidates": 7,
+      "verified_candidate_count": 10,
+      "winning_verified_support": 3
+    },
+    "R164": {
+      "base_answer": [
+        "15",
+        "-6",
+        "-5",
+        "15",
+        "-4"
+      ],
+      "base_exact": false,
+      "family": "INTERLEAVE",
+      "final_answer": [
+        "-10",
+        "4",
+        "3",
+        "15",
+        "-15"
+      ],
+      "final_exact": false,
+      "override": true,
+      "truth": [
+        "-10",
+        "-8",
+        "-13",
+        "15",
+        "-15"
+      ],
+      "unique_verified_candidates": 6,
+      "verified_candidate_count": 7,
+      "winning_verified_support": 2
+    },
+    "R165": {
+      "base_answer": [
+        "-19",
+        "21",
+        "587",
+        "-27",
+        "28"
+      ],
+      "base_exact": true,
+      "family": "INTERLEAVE",
+      "final_answer": [
+        "-19",
+        "21",
+        "587",
+        "-27",
+        "28"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "-19",
+        "21",
+        "587",
+        "-27",
+        "28"
+      ],
+      "unique_verified_candidates": 2,
+      "verified_candidate_count": 5,
+      "winning_verified_support": 4
+    },
+    "R166": {
+      "base_answer": [
+        "-319",
+        "-74",
+        "641",
+        "-96",
+        "-1279"
+      ],
+      "base_exact": true,
+      "family": "INTERLEAVE",
+      "final_answer": [
+        "-319",
+        "-74",
+        "641",
+        "-96",
+        "-1279"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "-319",
+        "-74",
+        "641",
+        "-96",
+        "-1279"
+      ],
+      "unique_verified_candidates": 4,
+      "verified_candidate_count": 8,
+      "winning_verified_support": 5
+    },
+    "R167": {
+      "base_answer": [
+        "-87",
+        "-9",
+        "-53",
+        "89",
+        "-241"
+      ],
+      "base_exact": false,
+      "family": "LAGPOLY",
+      "final_answer": [
+        "12",
+        "8",
+        "33",
+        "55",
+        "27"
+      ],
+      "final_exact": true,
+      "override": true,
+      "truth": [
+        "12",
+        "8",
+        "33",
+        "55",
+        "27"
+      ],
+      "unique_verified_candidates": 1,
+      "verified_candidate_count": 2,
+      "winning_verified_support": 2
+    },
+    "R168": {
+      "base_answer": [
+        "32",
+        "31",
+        "25",
+        "56",
+        "41"
+      ],
+      "base_exact": true,
+      "family": "MODAFFINE",
+      "final_answer": [
+        "32",
+        "31",
+        "25",
+        "56",
+        "41"
+      ],
+      "final_exact": true,
+      "override": false,
+      "truth": [
+        "32",
+        "31",
+        "25",
+        "56",
+        "41"
+      ],
+      "unique_verified_candidates": 2,
+      "verified_candidate_count": 7,
+      "winning_verified_support": 6
+    }
+  },
+  "family_exact": {
+    "AFFINE": {
+      "cases": 3,
+      "exact": 3
+    },
+    "GROWBLOCK": {
+      "cases": 3,
+      "exact": 2
+    },
+    "INTERLEAVE": {
+      "cases": 3,
+      "exact": 2
+    },
+    "LAGPOLY": {
+      "cases": 3,
+      "exact": 3
+    },
+    "LIN2": {
+      "cases": 3,
+      "exact": 3
+    },
+    "MODAFFINE": {
+      "cases": 3,
+      "exact": 3
+    },
+    "PDELTA": {
+      "cases": 3,
+      "exact": 2
+    },
+    "POLY": {
+      "cases": 3,
+      "exact": 3
+    }
+  },
+  "panel_exact": {
+    "research-b13": 11,
+    "research-b14": 10
+  },
+  "registered_system": {
+    "cases": 24,
+    "correct_terms": 109,
+    "exact": 21,
+    "exact_accuracy": 0.875,
+    "term_accuracy": 0.9083333333333333,
+    "terms": 120
+  },
+  "schema_version": "5.2-exploration",
+  "sha256": {
+    "answers": "65d4f08d3d563da1e709c0be33c97a6f69f329ed9f8de0b65c43146789d2e71a",
+    "base_predictions": "1fac40c45f8729e42e084e0f037bc2603e30c3b71b644cbfe51aa45d967ff715",
+    "sources": [
+      {
+        "attempt_ledger": "97d88e2f0651d33e6269585b5184fea290d0f286874c25015fc61be3824bac4e",
+        "holdout": "1e54631ccb69de9c99ed18c9c9a05446f66283344a73f114b0692e69bc5c44b8",
+        "manifest": "50f8e6271d8ed5a4b8385b12feb46082f1590a907431fcb98b3fa3c137c9d207"
+      },
+      {
+        "attempt_ledger": "6eef28dd896a964058d912352c0069ca10599258d414fa3a90fa14b8f05ba38f",
+        "holdout": "394c463784cf173dac8d68b0f0d30e4d0ef2b4e2059611b136f786f2ecbf4bf3",
+        "manifest": "b8ee4632c1c6f565eca319049f1c8ae0b25b3830dfedc4d4f02a9c4fc999c949"
+      },
+      {
+        "attempt_ledger": "e88ada8ace9230339b6955ce391effed1dcb71312ff47bf21ac8c3b5595de9c4",
+        "holdout": "bb06e6e77c6afe845412f979480c8b1703fef30c97ad9bab4b379fa759537c99",
+        "manifest": "ee7237db9bdc233f992ea1053c9b74481dbd7169f86732ab8ef9edf5ced5a289"
+      }
+    ]
+  },
+  "status": "target_reached",
+  "verified_selection": {
+    "candidate_count": 100,
+    "cases_with_verified_candidates": 16,
+    "harmful_overrides": 0,
+    "selector": "support descending, mean reported confidence descending, canonical tuple ascending",
+    "useful_overrides": 7
+  }
+}

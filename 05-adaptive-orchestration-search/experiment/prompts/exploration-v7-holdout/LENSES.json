@@ -1,0 +1,45 @@
+{
+  "schema_version": "5.0",
+  "lenses": [
+    {
+      "lens_id": "broad_program_search_h2",
+      "holdout_terms": 2,
+      "instruction": "Search broadly across formulas, recurrences, phases, interwoven streams, bounded state, and procedures. Compare several exact generators and choose the shortest one that replays every supplied term."
+    },
+    {
+      "lens_id": "recurrence_difference_h2",
+      "holdout_terms": 2,
+      "instruction": "Systematically test finite differences, low-order recurrences, periodic coefficients, and residue-class recurrences. Verify the full supplied prefix and calculate every requested continuation term exactly."
+    },
+    {
+      "lens_id": "interwoven_segment_h2",
+      "holdout_terms": 2,
+      "instruction": "Test multiple stream counts and alignments, then test variable-length segments with evolving starts, steps, and resets. Reweave or cross a segment boundary only after exact reconstruction."
+    },
+    {
+      "lens_id": "bounded_phase_state_h2",
+      "holdout_terms": 2,
+      "instruction": "Treat apparent irregularity as possible hidden state. Solve exact affine congruences, phase-dependent transitions, and compact state updates, rejecting any model that needs an exception."
+    },
+    {
+      "lens_id": "adversarial_mdl_h3",
+      "holdout_terms": 3,
+      "instruction": "Construct at least eight materially different generators. Falsify each on late supplied terms and select the shortest exact program rather than the most familiar pattern."
+    },
+    {
+      "lens_id": "coordinate_geometry_h3",
+      "holdout_terms": 3,
+      "instruction": "Re-express the sequence by ordinary index, cycle position, residue class, segment coordinates, and successive differences. Continue the coordinate system that gives the simplest exact reconstruction."
+    },
+    {
+      "lens_id": "forward_backward_state_h3",
+      "holdout_terms": 3,
+      "instruction": "Infer compact updates that work both forward and backward. A viable rule must reconstruct earlier supplied states from later ones and preserve every wrap, phase transition, and reset."
+    },
+    {
+      "lens_id": "independent_rule_duel_h3",
+      "holdout_terms": 3,
+      "instruction": "Independently derive an algebraic or recursive rule and a procedural or state-based rule. Use exact whole-prefix replay and minimum description length to decide between them."
+    }
+  ]
+}

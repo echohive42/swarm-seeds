@@ -1,0 +1,68 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-adaptive-fresh-80-gate-result",
+  "gate_id": "fresh-80-gate-01",
+  "recorded_at_utc": "2026-07-14T02:20:07Z",
+  "status": "target_not_reached",
+  "registered_target": {
+    "minimum_exact": 20,
+    "cases": 24,
+    "minimum_attainable_accuracy": 0.8333333333333334
+  },
+  "registered_system": {
+    "exact": 13,
+    "cases": 24,
+    "exact_accuracy": 0.5416666666666666,
+    "correct_terms": 75,
+    "terms": 120,
+    "term_accuracy": 0.625
+  },
+  "diagnostics": {
+    "base_fifteen_exact": 14,
+    "base_fifteen_accuracy": 0.5833333333333334,
+    "candidate_oracle_exact": 17,
+    "candidate_oracle_accuracy": 0.7083333333333334,
+    "routed_cases": 6,
+    "useful_overrides": 0,
+    "harmful_overrides": 1,
+    "panel_exact": {
+      "research-b13": 9,
+      "research-b14": 4
+    }
+  },
+  "execution": {
+    "base_logical_jobs": 60,
+    "deep_logical_jobs": 18,
+    "total_logical_jobs": 78,
+    "base_initial_attempts": 71,
+    "base_retry_attempts": 12,
+    "deep_attempts": 18,
+    "total_model_attempts": 101,
+    "schema_or_transport_invalid_attempts": 23,
+    "valid_outputs_selectively_rerun": false,
+    "retry_scope": "Only the nine exact base-stage logical jobs that were terminally invalid in the first wave were retried. All valid outputs were preserved. The deep stage required no retries."
+  },
+  "integrity": {
+    "registered_before_subject_calls": true,
+    "deep_stage_registered_before_deep_calls": true,
+    "prior_prediction_overlap": 0,
+    "answers_opened_only_after_all_registered_jobs_terminal": true,
+    "hidden_answer_leak_found": false,
+    "post_hoc_promotion": false
+  },
+  "interpretation": "The development-selected deep override failed to generalize. It reduced the fresh base plurality from 14/24 to 13/24, made no useful correction, and introduced one harmful correction. This is a valid negative result and the system is not promoted.",
+  "sha256": {
+    "gate_registration": "bdf141e4ef41df2b846c4aa29dc6ef01d613972c016e41489d44dc1297d35d79",
+    "base_retry_registration": "218061396a7722d310ecf92ea68cc1664f5f1d13a55a620444e7bae6afbfb6b3",
+    "deep_stage_registration": "fffa3b54b5e792e66b6d3d5ac65172e2da0a9859ed247a83edd45cf8fe213070",
+    "base_attempt_ledger": "3d8055848d31279a7421d56c31377cc56bd60ebb5f4697879df371858ea21aaf",
+    "base_retry_attempt_ledger": "9416c2d78af159ac4c8d41801001a17fb4451ab89396a529a13366999d293548",
+    "base_merged_predictions": "1fac40c45f8729e42e084e0f037bc2603e30c3b71b644cbfe51aa45d967ff715",
+    "base_retry_merge": "218391e25310f9b848770e06882174bee0ddc5d662546d52d955745edf310f96",
+    "deep_attempt_ledger": "929a0474bb4030ba0f944671a6fc2d9d7f3e5a9a2b569b65a67b1525e6f1c965",
+    "deep_predictions": "2e67614b83b501be0f93e4316ff9509dcb7541203ed9f1e42710c2d1638dc9f9",
+    "route_manifest": "6c491b14555564b583fc1f3fdf7220e75db6c06bd1971e4d9f5f372df192a945",
+    "score": "f5f38adf825c891e54c55629528fe6dbe4e961257a2a7a2617b4c699eae6157e",
+    "answers": "65d4f08d3d563da1e709c0be33c97a6f69f329ed9f8de0b65c43146789d2e71a"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-fresh-gate-strategy-batch",
+  "batch_id": "fresh-80-gate-01-deep",
+  "panel_id": "frozen-three-prompt-deep-override",
+  "design_status": "frozen_before_base_subject_calls",
+  "description": "Three broad deep prompts solve only cases selected by the pre-registered maximum-disagreement router.",
+  "strategies": [{
+    "strategy_id": "F80G01-DEEP",
+    "name": "Frozen Deep Reconstruction Trio",
+    "category": "adaptive",
+    "description": "Interwoven/lag, phase-congruence, and recurrence/procedure reconstruction are combined by deterministic plurality.",
+    "stages": [{
+      "stage_id": "solve",
+      "role": "proposer",
+      "count": 3,
+      "scope": "all",
+      "reads": [],
+      "lens_ids": ["interwoven_lag_forensics", "phase_congruence_solver", "recurrence_procedure_duel"],
+      "instruction": "This case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation."
+    }],
+    "selector": {"mode": "base_plurality", "base_roles": ["proposer"]}
+  }]
+}

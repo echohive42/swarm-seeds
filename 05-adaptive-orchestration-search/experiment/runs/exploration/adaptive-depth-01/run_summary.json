@@ -1,0 +1,104 @@
+{
+  "actual_logical_calls": 21,
+  "artifact_type": "experiment-05-run-summary",
+  "blocks": [
+    "dispute-r121",
+    "dispute-r130",
+    "dispute-r134",
+    "dispute-r138",
+    "dispute-r140",
+    "dispute-r142",
+    "dispute-r144"
+  ],
+  "common_prefix_sha256": "39ee4def55399ea98a94be45d980f8ba9026170444ea149d32d762ee28b9e9db",
+  "concurrency": 21,
+  "lens_catalog_sha256": "9bc6b8fe565a9143af117fb10c45c9c950d579075b7d1917009fcf02f92d8a8e",
+  "model": "gpt-5.6-luna",
+  "per_strategy_calls": {
+    "AD01-DEEP": 21
+  },
+  "phase": "exploration-adaptive-depth-01",
+  "planned_max_calls": 21,
+  "prediction_records_sha256": "aef9fcc7c1fc13d9c777ade79723db8962c3a3496c5a4cf02023a4baeb3ad43f",
+  "public_condition_label": "Light reasoning",
+  "reasoning_effort": "low",
+  "routing_decisions": [
+    {
+      "block_id": "dispute-r121",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "AD01-DEEP",
+      "target_case_ids": [
+        "R121"
+      ]
+    },
+    {
+      "block_id": "dispute-r130",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "AD01-DEEP",
+      "target_case_ids": [
+        "R130"
+      ]
+    },
+    {
+      "block_id": "dispute-r134",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "AD01-DEEP",
+      "target_case_ids": [
+        "R134"
+      ]
+    },
+    {
+      "block_id": "dispute-r138",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "AD01-DEEP",
+      "target_case_ids": [
+        "R138"
+      ]
+    },
+    {
+      "block_id": "dispute-r140",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "AD01-DEEP",
+      "target_case_ids": [
+        "R140"
+      ]
+    },
+    {
+      "block_id": "dispute-r142",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "AD01-DEEP",
+      "target_case_ids": [
+        "R142"
+      ]
+    },
+    {
+      "block_id": "dispute-r144",
+      "scope": "all",
+      "skipped": false,
+      "stage_id": "solve",
+      "strategy_id": "AD01-DEEP",
+      "target_case_ids": [
+        "R144"
+      ]
+    }
+  ],
+  "schema_version": "5.0",
+  "service_tier": "standard",
+  "strategies": [
+    "AD01-DEEP"
+  ],
+  "strategy_batch_sha256": "683b6c8ceb97d101a79e47918211da23c2b67aa4f5da76752a82dc7305a16509",
+  "timeout_seconds": 900
+}

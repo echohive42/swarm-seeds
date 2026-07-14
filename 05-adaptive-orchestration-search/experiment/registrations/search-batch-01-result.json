@@ -1,0 +1,51 @@
+{
+  "schema_version": "5.0",
+  "artifact_type": "experiment-05-search-batch-result-registration",
+  "batch_id": "B01",
+  "case_count": 24,
+  "logical_calls": 574,
+  "valid_jobs": 574,
+  "failed_jobs": 0,
+  "attempts": 576,
+  "strongest_control": {
+    "strategy_id": "B01-C02",
+    "exact_cases": 12,
+    "exact_accuracy": 0.5
+  },
+  "promoted_finalists": [
+    {
+      "strategy_id": "B01-F03",
+      "strategy_sha256": "9c98f813e2ade5bf610b86ca505da881dddaa3445e76a805bfa44caa3563c644",
+      "exact_cases": 14,
+      "exact_accuracy": 0.5833333333333334,
+      "weakest_block_exact": 3,
+      "harmful_overrides": 0,
+      "term_correct": 83,
+      "selection_reason": "highest registered search fitness"
+    },
+    {
+      "strategy_id": "B01-H04",
+      "strategy_sha256": "fb4f3d7016374a52be021505adef3b9d7a5e09c4774b923aed928ee18b7c2b25",
+      "exact_cases": 13,
+      "exact_accuracy": 0.5416666666666666,
+      "weakest_block_exact": 4,
+      "harmful_overrides": 0,
+      "term_correct": 81,
+      "selection_reason": "second-highest registered search fitness after tie-breaks"
+    }
+  ],
+  "observations_for_next_batch": [
+    "The strongest result was the unmodified plurality from a 12-proposer pool.",
+    "Judge-free weighted critic and verifier review made one useful and no harmful corrections.",
+    "The strongest correction architecture improved its own base from 10 to 13 exact cases but also made one harmful change.",
+    "The Experiment 04 single-judge verified gate made two harmful and zero useful changes.",
+    "MODAFFINE and GROWBLOCK were the weakest families across the leading systems."
+  ],
+  "sha256": {
+    "answers": "78974ffa7f454713b423b8de509539854b59a0f61f2a60dfc132a12f8875a445",
+    "predictions": "c441d7ce9cab8241db58b41cf629d10d23c6199893697f93671445881d8d5f7a",
+    "run_summary": "20e3f71dbe464529e1929c04c5def43beccfde23cd5701ff246803ae70f66027",
+    "score_summary": "143ebfbde956abcbdd8b32cc10861610037ebe46e2951875eeb424b21f326966",
+    "strategy_batch": "8ff77f66eff18cdc6b9edb01390e5e9b7148492b824a0c85dc216a9b46627778"
+  }
+}

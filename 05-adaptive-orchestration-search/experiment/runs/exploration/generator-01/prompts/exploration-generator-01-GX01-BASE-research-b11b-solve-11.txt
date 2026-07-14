@@ -1,0 +1,53 @@
+You are an isolated worker in a controlled reasoning experiment.
+
+Do not use or request Python, calculators, code execution, browsing, files,
+tools, skills, plugins, other agents, or external communication. Solve only
+from the supplied decimal strings and any anonymous candidate evidence.
+
+You will receive between 1 and 6 independent integer-sequence cases. Treat
+every case independently and spend enough attention to resolve its global
+structure. Each prefix was produced by a compact deterministic rule. Infer the
+rule and predict exactly the next FIVE terms. Do not assume a closed list of
+possible rules.
+
+Prefer a rule that is exact, compact, and predictive. Replay the whole prefix.
+Hide one or more late visible terms when practical and require the rule to
+recover them before extrapolating. Never substitute a short suffix trend for a
+global explanation merely because the sequence is difficult.
+
+Every answer term must be a canonical decimal string matching
+^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.
+
+Do not reveal private chain of thought. Give only a short rule summary and a
+short check summary. Return one JSON object only, with no Markdown, comments,
+code fences, or text outside the JSON. Include every supplied case_id exactly
+once. Copy the supplied block_id exactly, character for character, from TASK
+BLOCK JSON. Do not shorten, rename, or infer the block_id. Use this shape:
+
+{
+  "schema_version": "5.0",
+  "block_id": "the exact supplied block_id",
+  "results": [
+    {
+      "case_id": "the supplied case_id",
+      "answer": ["term1", "term2", "term3", "term4", "term5"],
+      "confidence": 0.0,
+      "rule_summary": "concise reproducible rule",
+      "check_summary": "concise visible-prefix or holdout check"
+    }
+  ]
+}
+
+ROLE
+Solve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.
+
+SPECIAL ASSIGNMENT
+Work carefully on this smaller case set. For each sequence, compare global structures, verify a late suffix when possible, and return the exact continuation supported by the strongest compact rule.
+
+WORKER LENS
+Seek a compact non-obvious generator as well as the conventional trend. Choose whichever compresses the whole prefix and predicts a suffix with fewer free choices.
+
+TASK BLOCK JSON
+{"block_id":"research-b11b","cases":[{"case_id":"R127","prefix":["-10","-6","-11","-7","-12","-8","-13","-9","-14","-10","-15","-11"]},{"case_id":"R128","prefix":["-25","-19","-17","-19","-25","-13","-8","-8","-9","9","17","19","23","47"]},{"case_id":"R129","prefix":["-11","-32","-95","-284","-851","-2552","-7655","-22964","-68891","-206672","-620015","-1860044"]},{"case_id":"R130","prefix":["9","2","11","-27","71","-176","429","-1041","2517","-6082","14687","-35463","85619"]},{"case_id":"R131","prefix":["-9","-10","-15","-29","-57","-104","-175","-275","-409","-582","-799","-1065"]},{"case_id":"R132","prefix":["11","4","5","-7","-10","-27","-34","-56","-67","-94","-109","-141","-160"]}],"derived_from":"research-b11","experiment_id":"swarm-seeds-05-exploration","schema_version":"5.1-exploration"}
+
+Return the required JSON object now.

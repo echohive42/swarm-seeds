@@ -1,0 +1,496 @@
+{
+  "artifact_type": "experiment-05-job-manifest",
+  "jobs": [
+    {
+      "block_id": "research-b09a",
+      "call_index": 3,
+      "category": "hybrid",
+      "dependency_ids": [],
+      "expected_block_id": "research-b09a",
+      "expected_case_ids": [
+        "R097",
+        "R098",
+        "R099",
+        "R100",
+        "R101",
+        "R102"
+      ],
+      "job_id": "quick-validation-01-QV01-A-research-b09a-solve-3",
+      "lens_id": "hypothesis_tournament",
+      "method": "Frozen Stable Eleven-Prompt Swarm",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 6,
+            "minItems": 6,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "quick-validation-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings and any anonymous candidate evidence.\n\nYou will receive between 1 and 6 independent integer-sequence cases. Treat\nevery case independently and spend enough attention to resolve its global\nstructure. Each prefix was produced by a compact deterministic rule. Infer the\nrule and predict exactly the next FIVE terms. Do not assume a closed list of\npossible rules.\n\nPrefer a rule that is exact, compact, and predictive. Replay the whole prefix.\nHide one or more late visible terms when practical and require the rule to\nrecover them before extrapolating. Never substitute a short suffix trend for a\nglobal explanation merely because the sequence is difficult.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include every supplied case_id exactly\nonce, preserve the supplied block_id, and use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer a compact deterministic rule, test it on the visible prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nWork carefully on this smaller case set. For each sequence, compare global structures, verify a late suffix when possible, and return the exact continuation supported by the strongest compact rule.\n\nWORKER LENS\nConstruct at least four materially different hypotheses. Falsify each on the earliest possible visible transition and return only the strongest exact survivor.\n\nTASK BLOCK JSON\n{\"block_id\":\"research-b09a\",\"cases\":[{\"case_id\":\"R097\",\"prefix\":[\"6\",\"4\",\"3\",\"-1\",\"-12\",\"-34\",\"-71\",\"-127\",\"-206\",\"-312\",\"-449\",\"-621\"]},{\"case_id\":\"R098\",\"prefix\":[\"9\",\"-14\",\"32\",\"-60\",\"124\",\"-244\",\"492\",\"-980\",\"1964\",\"-3924\",\"7852\",\"-15700\"]},{\"case_id\":\"R099\",\"prefix\":[\"-15\",\"-1\",\"-20\",\"-38\",\"-99\",\"-233\",\"-568\",\"-1366\",\"-3303\",\"-7969\",\"-19244\",\"-46454\",\"-112155\"]},{\"case_id\":\"R100\",\"prefix\":[\"6\",\"-10\",\"15\",\"-29\",\"42\",\"-72\",\"110\",\"-184\",\"293\",\"-481\",\"772\",\"-1254\",\"2022\",\"-3278\"]},{\"case_id\":\"R101\",\"prefix\":[\"21\",\"24\",\"34\",\"49\",\"75\",\"123\",\"206\",\"336\",\"521\",\"762\",\"1050\",\"1363\",\"1663\",\"1893\"]},{\"case_id\":\"R102\",\"prefix\":[\"-5\",\"2\",\"8\",\"19\",\"26\",\"41\",\"49\",\"68\",\"77\",\"100\",\"110\",\"137\",\"148\"]}],\"derived_from\":\"research-b09\",\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.1-exploration\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "2d0842ee371d6c97ccc6efcc01451e0e25ba391d00c77fdee6c95faafefa8928",
+      "role": "proposer",
+      "role_index": 3,
+      "scope": "all",
+      "slot": "P03",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "QV01-A",
+      "strategy_sha256": "c7e208d526caf72bc855fbe4494c1c9948f6a6e90449d2c426c01264b6cf291c"
+    },
+    {
+      "block_id": "research-b09a",
+      "call_index": 8,
+      "category": "hybrid",
+      "dependency_ids": [],
+      "expected_block_id": "research-b09a",
+      "expected_case_ids": [
+        "R097",
+        "R098",
+        "R099",
+        "R100",
+        "R101",
+        "R102"
+      ],
+      "job_id": "quick-validation-01-QV01-A-research-b09a-solve-8",
+      "lens_id": "modulus_equation",
+      "method": "Frozen Stable Eleven-Prompt Swarm",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 6,
+            "minItems": 6,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "quick-validation-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings and any anonymous candidate evidence.\n\nYou will receive between 1 and 6 independent integer-sequence cases. Treat\nevery case independently and spend enough attention to resolve its global\nstructure. Each prefix was produced by a compact deterministic rule. Infer the\nrule and predict exactly the next FIVE terms. Do not assume a closed list of\npossible rules.\n\nPrefer a rule that is exact, compact, and predictive. Replay the whole prefix.\nHide one or more late visible terms when practical and require the rule to\nrecover them before extrapolating. Never substitute a short suffix trend for a\nglobal explanation merely because the sequence is difficult.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include every supplied case_id exactly\nonce, preserve the supplied block_id, and use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer a compact deterministic rule, test it on the visible prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nWork carefully on this smaller case set. For each sequence, compare global structures, verify a late suffix when possible, and return the exact continuation supported by the strongest compact rule.\n\nWORKER LENS\nFor plausible affine updates, compare raw predictions with observations. Their nonzero residuals must share a modulus larger than observed residues; use that constraint to solve and replay the update exactly.\n\nTASK BLOCK JSON\n{\"block_id\":\"research-b09a\",\"cases\":[{\"case_id\":\"R097\",\"prefix\":[\"6\",\"4\",\"3\",\"-1\",\"-12\",\"-34\",\"-71\",\"-127\",\"-206\",\"-312\",\"-449\",\"-621\"]},{\"case_id\":\"R098\",\"prefix\":[\"9\",\"-14\",\"32\",\"-60\",\"124\",\"-244\",\"492\",\"-980\",\"1964\",\"-3924\",\"7852\",\"-15700\"]},{\"case_id\":\"R099\",\"prefix\":[\"-15\",\"-1\",\"-20\",\"-38\",\"-99\",\"-233\",\"-568\",\"-1366\",\"-3303\",\"-7969\",\"-19244\",\"-46454\",\"-112155\"]},{\"case_id\":\"R100\",\"prefix\":[\"6\",\"-10\",\"15\",\"-29\",\"42\",\"-72\",\"110\",\"-184\",\"293\",\"-481\",\"772\",\"-1254\",\"2022\",\"-3278\"]},{\"case_id\":\"R101\",\"prefix\":[\"21\",\"24\",\"34\",\"49\",\"75\",\"123\",\"206\",\"336\",\"521\",\"762\",\"1050\",\"1363\",\"1663\",\"1893\"]},{\"case_id\":\"R102\",\"prefix\":[\"-5\",\"2\",\"8\",\"19\",\"26\",\"41\",\"49\",\"68\",\"77\",\"100\",\"110\",\"137\",\"148\"]}],\"derived_from\":\"research-b09\",\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.1-exploration\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "65a8585a2e52122bd017b2a4e03dab185ffcece6e2301adc38bad56d005199c0",
+      "role": "proposer",
+      "role_index": 8,
+      "scope": "all",
+      "slot": "P08",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "QV01-A",
+      "strategy_sha256": "c7e208d526caf72bc855fbe4494c1c9948f6a6e90449d2c426c01264b6cf291c"
+    },
+    {
+      "block_id": "research-b09a",
+      "call_index": 9,
+      "category": "hybrid",
+      "dependency_ids": [],
+      "expected_block_id": "research-b09a",
+      "expected_case_ids": [
+        "R097",
+        "R098",
+        "R099",
+        "R100",
+        "R101",
+        "R102"
+      ],
+      "job_id": "quick-validation-01-QV01-A-research-b09a-solve-9",
+      "lens_id": "periodic_delta_slow",
+      "method": "Frozen Stable Eleven-Prompt Swarm",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 6,
+            "minItems": 6,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "quick-validation-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings and any anonymous candidate evidence.\n\nYou will receive between 1 and 6 independent integer-sequence cases. Treat\nevery case independently and spend enough attention to resolve its global\nstructure. Each prefix was produced by a compact deterministic rule. Infer the\nrule and predict exactly the next FIVE terms. Do not assume a closed list of\npossible rules.\n\nPrefer a rule that is exact, compact, and predictive. Replay the whole prefix.\nHide one or more late visible terms when practical and require the rule to\nrecover them before extrapolating. Never substitute a short suffix trend for a\nglobal explanation merely because the sequence is difficult.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include every supplied case_id exactly\nonce, preserve the supplied block_id, and use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer a compact deterministic rule, test it on the visible prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nWork carefully on this smaller case set. For each sequence, compare global structures, verify a late suffix when possible, and return the exact continuation supported by the strongest compact rule.\n\nWORKER LENS\nArrange increments and higher differences by candidate phase. Fit a compact evolution down each phase column and verify the latest full cycle before extrapolation.\n\nTASK BLOCK JSON\n{\"block_id\":\"research-b09a\",\"cases\":[{\"case_id\":\"R097\",\"prefix\":[\"6\",\"4\",\"3\",\"-1\",\"-12\",\"-34\",\"-71\",\"-127\",\"-206\",\"-312\",\"-449\",\"-621\"]},{\"case_id\":\"R098\",\"prefix\":[\"9\",\"-14\",\"32\",\"-60\",\"124\",\"-244\",\"492\",\"-980\",\"1964\",\"-3924\",\"7852\",\"-15700\"]},{\"case_id\":\"R099\",\"prefix\":[\"-15\",\"-1\",\"-20\",\"-38\",\"-99\",\"-233\",\"-568\",\"-1366\",\"-3303\",\"-7969\",\"-19244\",\"-46454\",\"-112155\"]},{\"case_id\":\"R100\",\"prefix\":[\"6\",\"-10\",\"15\",\"-29\",\"42\",\"-72\",\"110\",\"-184\",\"293\",\"-481\",\"772\",\"-1254\",\"2022\",\"-3278\"]},{\"case_id\":\"R101\",\"prefix\":[\"21\",\"24\",\"34\",\"49\",\"75\",\"123\",\"206\",\"336\",\"521\",\"762\",\"1050\",\"1363\",\"1663\",\"1893\"]},{\"case_id\":\"R102\",\"prefix\":[\"-5\",\"2\",\"8\",\"19\",\"26\",\"41\",\"49\",\"68\",\"77\",\"100\",\"110\",\"137\",\"148\"]}],\"derived_from\":\"research-b09\",\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.1-exploration\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "86822cde793533f8156f2918ec80f0abe74047bafc53e51a000d28a20fb24ee1",
+      "role": "proposer",
+      "role_index": 9,
+      "scope": "all",
+      "slot": "P09",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "QV01-A",
+      "strategy_sha256": "c7e208d526caf72bc855fbe4494c1c9948f6a6e90449d2c426c01264b6cf291c"
+    },
+    {
+      "block_id": "research-b09a",
+      "call_index": 11,
+      "category": "hybrid",
+      "dependency_ids": [],
+      "expected_block_id": "research-b09a",
+      "expected_case_ids": [
+        "R097",
+        "R098",
+        "R099",
+        "R100",
+        "R101",
+        "R102"
+      ],
+      "job_id": "quick-validation-01-QV01-A-research-b09a-solve-11",
+      "lens_id": "wildcard_compression",
+      "method": "Frozen Stable Eleven-Prompt Swarm",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 6,
+            "minItems": 6,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "quick-validation-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings and any anonymous candidate evidence.\n\nYou will receive between 1 and 6 independent integer-sequence cases. Treat\nevery case independently and spend enough attention to resolve its global\nstructure. Each prefix was produced by a compact deterministic rule. Infer the\nrule and predict exactly the next FIVE terms. Do not assume a closed list of\npossible rules.\n\nPrefer a rule that is exact, compact, and predictive. Replay the whole prefix.\nHide one or more late visible terms when practical and require the rule to\nrecover them before extrapolating. Never substitute a short suffix trend for a\nglobal explanation merely because the sequence is difficult.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include every supplied case_id exactly\nonce, preserve the supplied block_id, and use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer a compact deterministic rule, test it on the visible prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nWork carefully on this smaller case set. For each sequence, compare global structures, verify a late suffix when possible, and return the exact continuation supported by the strongest compact rule.\n\nWORKER LENS\nSeek a compact non-obvious generator as well as the conventional trend. Choose whichever compresses the whole prefix and predicts a suffix with fewer free choices.\n\nTASK BLOCK JSON\n{\"block_id\":\"research-b09a\",\"cases\":[{\"case_id\":\"R097\",\"prefix\":[\"6\",\"4\",\"3\",\"-1\",\"-12\",\"-34\",\"-71\",\"-127\",\"-206\",\"-312\",\"-449\",\"-621\"]},{\"case_id\":\"R098\",\"prefix\":[\"9\",\"-14\",\"32\",\"-60\",\"124\",\"-244\",\"492\",\"-980\",\"1964\",\"-3924\",\"7852\",\"-15700\"]},{\"case_id\":\"R099\",\"prefix\":[\"-15\",\"-1\",\"-20\",\"-38\",\"-99\",\"-233\",\"-568\",\"-1366\",\"-3303\",\"-7969\",\"-19244\",\"-46454\",\"-112155\"]},{\"case_id\":\"R100\",\"prefix\":[\"6\",\"-10\",\"15\",\"-29\",\"42\",\"-72\",\"110\",\"-184\",\"293\",\"-481\",\"772\",\"-1254\",\"2022\",\"-3278\"]},{\"case_id\":\"R101\",\"prefix\":[\"21\",\"24\",\"34\",\"49\",\"75\",\"123\",\"206\",\"336\",\"521\",\"762\",\"1050\",\"1363\",\"1663\",\"1893\"]},{\"case_id\":\"R102\",\"prefix\":[\"-5\",\"2\",\"8\",\"19\",\"26\",\"41\",\"49\",\"68\",\"77\",\"100\",\"110\",\"137\",\"148\"]}],\"derived_from\":\"research-b09\",\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.1-exploration\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "bbcb8908f2f5ff9bfd3a14aa77f8797513b9aa4c9c38ac36c4f7fa8d84ee8cd8",
+      "role": "proposer",
+      "role_index": 11,
+      "scope": "all",
+      "slot": "P11",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "QV01-A",
+      "strategy_sha256": "c7e208d526caf72bc855fbe4494c1c9948f6a6e90449d2c426c01264b6cf291c"
+    },
+    {
+      "block_id": "research-b09b",
+      "call_index": 6,
+      "category": "hybrid",
+      "dependency_ids": [],
+      "expected_block_id": "research-b09b",
+      "expected_case_ids": [
+        "R103",
+        "R104",
+        "R105",
+        "R106",
+        "R107",
+        "R108"
+      ],
+      "job_id": "quick-validation-01-QV01-A-research-b09b-solve-6",
+      "lens_id": "lag_class_slow",
+      "method": "Frozen Stable Eleven-Prompt Swarm",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 6,
+            "minItems": 6,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "quick-validation-01",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings and any anonymous candidate evidence.\n\nYou will receive between 1 and 6 independent integer-sequence cases. Treat\nevery case independently and spend enough attention to resolve its global\nstructure. Each prefix was produced by a compact deterministic rule. Infer the\nrule and predict exactly the next FIVE terms. Do not assume a closed list of\npossible rules.\n\nPrefer a rule that is exact, compact, and predictive. Replay the whole prefix.\nHide one or more late visible terms when practical and require the rule to\nrecover them before extrapolating. Never substitute a short suffix trend for a\nglobal explanation merely because the sequence is difficult.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include every supplied case_id exactly\nonce, preserve the supplied block_id, and use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer a compact deterministic rule, test it on the visible prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nWork carefully on this smaller case set. For each sequence, compare global structures, verify a late suffix when possible, and return the exact continuation supported by the strongest compact rule.\n\nWORKER LENS\nFor small lags, build each residue-position subsequence and its finite differences by cycle index. Continue every class independently and restore the original ordering.\n\nTASK BLOCK JSON\n{\"block_id\":\"research-b09b\",\"cases\":[{\"case_id\":\"R103\",\"prefix\":[\"-8\",\"-12\",\"-17\",\"-21\",\"-26\",\"-30\",\"-35\",\"-39\",\"-44\",\"-48\",\"-53\",\"-57\"]},{\"case_id\":\"R104\",\"prefix\":[\"0\",\"9\",\"21\",\"-57\",\"-162\",\"-321\",\"969\",\"2916\",\"5835\",\"-17499\",\"-52488\",\"-104973\",\"314925\",\"944784\"]},{\"case_id\":\"R105\",\"prefix\":[\"-18\",\"15\",\"50\",\"-53\",\"-154\",\"151\",\"458\",\"-461\",\"-1378\",\"1375\",\"4130\",\"-4133\",\"-12394\"]},{\"case_id\":\"R106\",\"prefix\":[\"4\",\"5\",\"3\",\"7\",\"-1\",\"15\",\"-17\",\"47\",\"-81\",\"175\",\"-337\",\"687\"]},{\"case_id\":\"R107\",\"prefix\":[\"9\",\"4\",\"11\",\"20\",\"8\",\"20\",\"34\",\"11\",\"30\",\"43\",\"5\",\"33\",\"39\",\"-18\"]},{\"case_id\":\"R108\",\"prefix\":[\"5\",\"3\",\"2\",\"0\",\"-9\",\"-35\",\"-92\",\"-198\",\"-375\",\"-649\",\"-1050\",\"-1612\",\"-2373\"]}],\"derived_from\":\"research-b09\",\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.1-exploration\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "d6ea9f1295ebc89b0b5a7f2d1e3052b726136412451ac060a17322ad0c32cfad",
+      "role": "proposer",
+      "role_index": 6,
+      "scope": "all",
+      "slot": "P06",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "QV01-A",
+      "strategy_sha256": "c7e208d526caf72bc855fbe4494c1c9948f6a6e90449d2c426c01264b6cf291c"
+    }
+  ],
+  "model": "gpt-5.6-luna",
+  "public_condition_label": "Light reasoning",
+  "reasoning_effort": "low",
+  "schema_version": "5.0",
+  "service_tier": "standard",
+  "stage_index": 0
+}

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Adaptive sequence accuracy across three fresh gates</title>
+<desc id="desc">The base plurality rises from 58.3 to 66.7 percent. The adaptive system rises from 54.2 to 91.7 percent. A Gate 02 post-hoc replay at 87.5 percent is labeled development only.</desc>
+<rect width="1600" height="900" fill="#090b12"/>
+<text x="110.0" y="105.0" fill="#f4f3ee" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="52" font-weight="500" text-anchor="start">THE SEARCH LEARNED TO VERIFY</text>
+<text x="110.0" y="158.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="25" font-weight="400" text-anchor="start">Fresh 24-sequence gates, exact next-five accuracy</text>
+<line x1="180" y1="735.0" x2="1460" y2="735.0" stroke="#2b3040" stroke-width="1"/>
+<text x="156.0" y="743.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" text-anchor="end">40%</text>
+<line x1="180" y1="654.2" x2="1460" y2="654.2" stroke="#2b3040" stroke-width="1"/>
+<text x="156.0" y="662.2" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" text-anchor="end">50%</text>
+<line x1="180" y1="573.3" x2="1460" y2="573.3" stroke="#2b3040" stroke-width="1"/>
+<text x="156.0" y="581.3" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" text-anchor="end">60%</text>
+<line x1="180" y1="492.5" x2="1460" y2="492.5" stroke="#2b3040" stroke-width="1"/>
+<text x="156.0" y="500.5" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" text-anchor="end">70%</text>
+<line x1="180" y1="411.7" x2="1460" y2="411.7" stroke="#2b3040" stroke-width="1"/>
+<text x="156.0" y="419.7" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" text-anchor="end">80%</text>
+<line x1="180" y1="330.8" x2="1460" y2="330.8" stroke="#2b3040" stroke-width="1"/>
+<text x="156.0" y="338.8" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" text-anchor="end">90%</text>
+<line x1="180" y1="250.0" x2="1460" y2="250.0" stroke="#2b3040" stroke-width="1"/>
+<text x="156.0" y="258.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" text-anchor="end">100%</text>
+<text x="330.0" y="792.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="23" font-weight="400" text-anchor="middle">Gate 01</text>
+<text x="820.0" y="792.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="23" font-weight="400" text-anchor="middle">Gate 02</text>
+<text x="1310.0" y="792.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="23" font-weight="400" text-anchor="middle">Gate 03</text>
+<polyline points="330,586.8 820,553.1 1310,519.4" fill="none" stroke="#a78bfa" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="330" cy="586.8" r="13" fill="#090b12" stroke="#a78bfa" stroke-width="7"/>
+<text x="330.0" y="558.8" fill="#a78bfa" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="25" font-weight="500" text-anchor="middle">58.3%</text>
+<circle cx="820" cy="553.1" r="13" fill="#090b12" stroke="#a78bfa" stroke-width="7"/>
+<text x="820.0" y="525.1" fill="#a78bfa" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="25" font-weight="500" text-anchor="middle">62.5%</text>
+<circle cx="1310" cy="519.4" r="13" fill="#090b12" stroke="#a78bfa" stroke-width="7"/>
+<text x="1310.0" y="491.4" fill="#a78bfa" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="25" font-weight="500" text-anchor="middle">66.7%</text>
+<text x="1460.0" y="563.4" fill="#a78bfa" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="22" font-weight="400" text-anchor="end">15-lens plurality</text>
+<polyline points="330,620.5 820,418.4 1310,317.4" fill="none" stroke="#4de2ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="330" cy="620.5" r="13" fill="#090b12" stroke="#4de2ff" stroke-width="7"/>
+<text x="330.0" y="668.5" fill="#4de2ff" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="25" font-weight="500" text-anchor="middle">54.2%</text>
+<circle cx="820" cy="418.4" r="13" fill="#090b12" stroke="#4de2ff" stroke-width="7"/>
+<text x="820.0" y="390.4" fill="#4de2ff" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="25" font-weight="500" text-anchor="middle">79.2%</text>
+<circle cx="1310" cy="317.4" r="13" fill="#090b12" stroke="#4de2ff" stroke-width="7"/>
+<text x="1310.0" y="289.4" fill="#4de2ff" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="25" font-weight="500" text-anchor="middle">91.7%</text>
+<text x="1460.0" y="364.4" fill="#4de2ff" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="22" font-weight="400" text-anchor="end">adaptive system</text>
+<circle cx="820" cy="351.0" r="12" fill="#090b12" stroke="#ffd166" stroke-width="5" stroke-dasharray="5 4"/>
+<text x="845.0" y="339.0" fill="#ffd166" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" text-anchor="start">87.5% development replay</text>
+<text x="845.0" y="369.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" text-anchor="start">not a validation result</text>
+<text x="110.0" y="858.0" fill="#aeb4c2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="21" font-weight="400" text-anchor="start">Gate 03 froze the rule before generating the cases.</text>
+</svg>

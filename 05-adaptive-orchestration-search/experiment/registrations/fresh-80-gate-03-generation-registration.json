@@ -1,0 +1,56 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-fresh-gate-generation-and-architecture-freeze",
+  "gate_id": "fresh-80-gate-03",
+  "registered_at_utc": "2026-07-14T03:39:28Z",
+  "registered_before_benchmark_generation": true,
+  "objective": "Test whether public-suffix-length-weighted visible-holdout selection reaches at least 80% exact on a newly generated 24-case gate.",
+  "target": {
+    "minimum_exact": 20,
+    "cases": 24,
+    "minimum_attainable_accuracy": 0.8333333333333334
+  },
+  "root_seed": "swarm-seeds-05-fresh-80-gate-03-2026-07-14-a",
+  "root_seed_sha256": "3549574746b741f9850efa3f66a575692d1260268c98bd66bc3697de1565cae7",
+  "architecture_status": "frozen_before_new_cases_exist",
+  "architecture": {
+    "base": "unchanged fifteen-prompt Luna Light panel over four six-case blocks",
+    "stage_one": "base support at most five, cap sixteen, eight visible-holdout prompts using two- and three-term public suffixes",
+    "stage_two": "at most three stage-one survivors, cap twelve, eight recovery prompts using one- and two-term public suffixes",
+    "stage_three": "maximum verified support at most three across stages one and two, cap twelve, eight worksheet prompts using one public suffix term",
+    "final_selector": "For every future tuple, sum the number of public suffix terms recovered by each supporting candidate. Rank by total recovered terms, deepest holdout, distinct holdout depths, distinct source stages, raw support, then canonical tuple. Do not use self-reported confidence.",
+    "maximum_logical_calls": 380,
+    "maximum_concurrency": 60
+  },
+  "requested_model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "public_reasoning_label": "Light reasoning",
+  "service_tier": "standard",
+  "retry_rule": "Never rerun a valid output. Retry only an identical failed logical job and preserve every attempt ledger.",
+  "scoring_rule": "Do not parse the newly generated answer file until all mechanically routed jobs are terminal. Score the frozen selector once.",
+  "development_evidence": {
+    "earlier_panel": {"exact": 21, "cases": 24, "accuracy": 0.875},
+    "gate_02_posthoc": {"exact": 21, "cases": 24, "accuracy": 0.875},
+    "pooled": {"exact": 42, "cases": 48, "accuracy": 0.875},
+    "harmful_overrides": 0,
+    "status": "open_development_only"
+  },
+  "sha256": {
+    "generator": "a717ed47306329c635de03814620e4f6df72f2d3d6c92449fa84177ff51dc461",
+    "weighted_scorer": "c94d158ec4352ea70ba21ddd578587d65cb74d9313e6f883c70eef559717e9f1",
+    "gate_02_posthoc_score": "d212bb16e66466618b4c8c3efe4b39e80332f47cbc9322ff48b74900b56feae4",
+    "earlier_development_score": "ad89a9361dc64b5e5c2469020c81c8c3996081233ca83eb20de0763e9f1d11c4",
+    "base_strategy": "0d8f259ac3da41bfb39cbf7803a7d8e8a814a50fdc99188fdf8b52935e154696",
+    "base_common_prefix": "0bb2a204af57b7aa5d48f408fd5352a5d0484e6d93e2365e3309d4722cd50276",
+    "base_lens_catalog": "bbb63042a2b3abace1d6cf843455889a96d315bec6ff9927285590e18b30f5cc",
+    "stage_one_preparation": "ecc053c8bb9215e89e9354efd064b9a3885d30c22d72484bdeed2300052cdfa2",
+    "stage_one_common_prefix": "82acf58e3579da04471aa38a6bb1318c27db54cc8a3df7fe89697c09fbcf85a6",
+    "stage_one_lens_catalog": "ce8e82797eb260ca67c212a74a2beab3f648712a3e51dce6083be0084bf584fd",
+    "stage_two_preparation": "17deb875e9233f6d99d18f321770e3471d05105e1e8bc5cfb3daa59f4ad7b2a3",
+    "stage_two_common_prefix": "c04aff3d1e50d24afe86913f2a793a95d065a122cff69ff0936fce4ff50c1de7",
+    "stage_two_lens_catalog": "185aa49ca716134fddcf07fa51bc921c085b5781092080d9eb88c3edfba04aca",
+    "stage_three_preparation": "484f14720caae7f23a4d50554554fa23ada2c5fa4688df393e851ed113033a3e",
+    "stage_three_common_prefix": "421f430d9aee711f80163d68b0f37b3d1823dbbab0c4e3a0d416842b48534fa7",
+    "stage_three_lens_catalog": "e2c347fc4b3ca75140ff4eec5320991ce1b1b36ca1602ea319eec73e60d501f5"
+  }
+}

@@ -1,0 +1,1667 @@
+{
+  "artifact_type": "experiment-05-job-manifest",
+  "jobs": [
+    {
+      "block_id": "fresh-dispute-r161",
+      "call_index": 1,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r161",
+      "expected_case_ids": [
+        "R161"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r161-solve-1",
+      "lens_id": "interwoven_lag_forensics",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nTest multiple stream counts, alignments, and small lags. Build each extracted subsequence by cycle index, continue its recurrence or difference law independently, and reweave the next five terms.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r161\",\"cases\":[{\"case_id\":\"R161\",\"prefix\":[\"26\",\"49\",\"54\",\"43\",\"6\",\"22\",\"57\",\"58\",\"53\",\"38\",\"39\",\"41\",\"63\",\"15\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "1c52f6082480f91b10a9c3261ea3cf30a9f61bb383aa019316b84b1fba00b1f9",
+      "role": "proposer",
+      "role_index": 1,
+      "scope": "all",
+      "slot": "P01",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    },
+    {
+      "block_id": "fresh-dispute-r161",
+      "call_index": 2,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r161",
+      "expected_case_ids": [
+        "R161"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r161-solve-2",
+      "lens_id": "phase_congruence_solver",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nTest short phase periods. Within each phase solve an affine congruence under one shared modulus. Reject any modulus or phase assignment that fails one visible transition, then calculate the next five states exactly.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r161\",\"cases\":[{\"case_id\":\"R161\",\"prefix\":[\"26\",\"49\",\"54\",\"43\",\"6\",\"22\",\"57\",\"58\",\"53\",\"38\",\"39\",\"41\",\"63\",\"15\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "4201683d38b9ba9b876b3443e38d52b42f9a385869a96471ade6e90a13b9f92f",
+      "role": "proposer",
+      "role_index": 2,
+      "scope": "all",
+      "slot": "P02",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    },
+    {
+      "block_id": "fresh-dispute-r161",
+      "call_index": 3,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r161",
+      "expected_case_ids": [
+        "R161"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r161-solve-3",
+      "lens_id": "recurrence_procedure_duel",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nIndependently fit low-order recurrences and explicit procedural generators. Include periodic coefficients, residue-class subsequences, and segment coordinates, then use late-term reconstruction to choose between them.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r161\",\"cases\":[{\"case_id\":\"R161\",\"prefix\":[\"26\",\"49\",\"54\",\"43\",\"6\",\"22\",\"57\",\"58\",\"53\",\"38\",\"39\",\"41\",\"63\",\"15\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "54640163d64e473adcddd534c526685bd9745e8ac071ae3e64a8273c1809ec06",
+      "role": "proposer",
+      "role_index": 3,
+      "scope": "all",
+      "slot": "P03",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    },
+    {
+      "block_id": "fresh-dispute-r167",
+      "call_index": 1,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r167",
+      "expected_case_ids": [
+        "R167"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r167-solve-1",
+      "lens_id": "interwoven_lag_forensics",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nTest multiple stream counts, alignments, and small lags. Build each extracted subsequence by cycle index, continue its recurrence or difference law independently, and reweave the next five terms.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r167\",\"cases\":[{\"case_id\":\"R167\",\"prefix\":[\"19\",\"3\",\"9\",\"5\",\"27\",\"4\",\"3\",\"13\",\"32\",\"13\",\"4\",\"14\",\"34\",\"30\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "e093c53b361eb04ecc79d28e98c36ed771f6ef55ee0bc68e3e0c354500e9597a",
+      "role": "proposer",
+      "role_index": 1,
+      "scope": "all",
+      "slot": "P01",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    },
+    {
+      "block_id": "fresh-dispute-r167",
+      "call_index": 2,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r167",
+      "expected_case_ids": [
+        "R167"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r167-solve-2",
+      "lens_id": "phase_congruence_solver",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nTest short phase periods. Within each phase solve an affine congruence under one shared modulus. Reject any modulus or phase assignment that fails one visible transition, then calculate the next five states exactly.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r167\",\"cases\":[{\"case_id\":\"R167\",\"prefix\":[\"19\",\"3\",\"9\",\"5\",\"27\",\"4\",\"3\",\"13\",\"32\",\"13\",\"4\",\"14\",\"34\",\"30\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "14d30ac7a98af64aa22d0d73f142aeeee60f7f381b02d3a13d3a025818f3843c",
+      "role": "proposer",
+      "role_index": 2,
+      "scope": "all",
+      "slot": "P02",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    },
+    {
+      "block_id": "fresh-dispute-r167",
+      "call_index": 3,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r167",
+      "expected_case_ids": [
+        "R167"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r167-solve-3",
+      "lens_id": "recurrence_procedure_duel",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nIndependently fit low-order recurrences and explicit procedural generators. Include periodic coefficients, residue-class subsequences, and segment coordinates, then use late-term reconstruction to choose between them.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r167\",\"cases\":[{\"case_id\":\"R167\",\"prefix\":[\"19\",\"3\",\"9\",\"5\",\"27\",\"4\",\"3\",\"13\",\"32\",\"13\",\"4\",\"14\",\"34\",\"30\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "ee945a88c31831d5643cf4f46954faea18f6796b9202e8837d89c3b78951e01c",
+      "role": "proposer",
+      "role_index": 3,
+      "scope": "all",
+      "slot": "P03",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    },
+    {
+      "block_id": "fresh-dispute-r168",
+      "call_index": 1,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r168",
+      "expected_case_ids": [
+        "R168"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r168-solve-1",
+      "lens_id": "interwoven_lag_forensics",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nTest multiple stream counts, alignments, and small lags. Build each extracted subsequence by cycle index, continue its recurrence or difference law independently, and reweave the next five terms.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r168\",\"cases\":[{\"case_id\":\"R168\",\"prefix\":[\"48\",\"60\",\"65\",\"28\",\"7\",\"15\",\"63\",\"16\",\"2\",\"52\",\"17\",\"8\",\"21\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "4741b9de074cb43424d094777e73f7bec5c4b368879048c3d1d74bc55c12a13e",
+      "role": "proposer",
+      "role_index": 1,
+      "scope": "all",
+      "slot": "P01",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    },
+    {
+      "block_id": "fresh-dispute-r168",
+      "call_index": 2,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r168",
+      "expected_case_ids": [
+        "R168"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r168-solve-2",
+      "lens_id": "phase_congruence_solver",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nTest short phase periods. Within each phase solve an affine congruence under one shared modulus. Reject any modulus or phase assignment that fails one visible transition, then calculate the next five states exactly.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r168\",\"cases\":[{\"case_id\":\"R168\",\"prefix\":[\"48\",\"60\",\"65\",\"28\",\"7\",\"15\",\"63\",\"16\",\"2\",\"52\",\"17\",\"8\",\"21\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "73f58c1651d5c2ae95854e120316b21773d2af5566d4b83dee48a4ff748e5e35",
+      "role": "proposer",
+      "role_index": 2,
+      "scope": "all",
+      "slot": "P02",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    },
+    {
+      "block_id": "fresh-dispute-r168",
+      "call_index": 3,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r168",
+      "expected_case_ids": [
+        "R168"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r168-solve-3",
+      "lens_id": "recurrence_procedure_duel",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nIndependently fit low-order recurrences and explicit procedural generators. Include periodic coefficients, residue-class subsequences, and segment coordinates, then use late-term reconstruction to choose between them.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r168\",\"cases\":[{\"case_id\":\"R168\",\"prefix\":[\"48\",\"60\",\"65\",\"28\",\"7\",\"15\",\"63\",\"16\",\"2\",\"52\",\"17\",\"8\",\"21\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "646cfc1bd1a26887138adef568ce1093c3512a86036e6b9ebf056d7cbd52be20",
+      "role": "proposer",
+      "role_index": 3,
+      "scope": "all",
+      "slot": "P03",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    },
+    {
+      "block_id": "fresh-dispute-r158",
+      "call_index": 1,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r158",
+      "expected_case_ids": [
+        "R158"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r158-solve-1",
+      "lens_id": "interwoven_lag_forensics",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nTest multiple stream counts, alignments, and small lags. Build each extracted subsequence by cycle index, continue its recurrence or difference law independently, and reweave the next five terms.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r158\",\"cases\":[{\"case_id\":\"R158\",\"prefix\":[\"19\",\"40\",\"16\",\"25\",\"27\",\"37\",\"1\",\"36\",\"39\",\"11\",\"0\",\"31\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "635b18aea6562afee009e112687870e52b60851faa0f3b0d8debe6ee3421b242",
+      "role": "proposer",
+      "role_index": 1,
+      "scope": "all",
+      "slot": "P01",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    },
+    {
+      "block_id": "fresh-dispute-r158",
+      "call_index": 2,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r158",
+      "expected_case_ids": [
+        "R158"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r158-solve-2",
+      "lens_id": "phase_congruence_solver",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nTest short phase periods. Within each phase solve an affine congruence under one shared modulus. Reject any modulus or phase assignment that fails one visible transition, then calculate the next five states exactly.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r158\",\"cases\":[{\"case_id\":\"R158\",\"prefix\":[\"19\",\"40\",\"16\",\"25\",\"27\",\"37\",\"1\",\"36\",\"39\",\"11\",\"0\",\"31\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "91ce741bb7a5494b0fdee8922e44f44d606dbf2dec8ce9fd211c1cedb125c8c6",
+      "role": "proposer",
+      "role_index": 2,
+      "scope": "all",
+      "slot": "P02",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    },
+    {
+      "block_id": "fresh-dispute-r158",
+      "call_index": 3,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r158",
+      "expected_case_ids": [
+        "R158"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r158-solve-3",
+      "lens_id": "recurrence_procedure_duel",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nIndependently fit low-order recurrences and explicit procedural generators. Include periodic coefficients, residue-class subsequences, and segment coordinates, then use late-term reconstruction to choose between them.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r158\",\"cases\":[{\"case_id\":\"R158\",\"prefix\":[\"19\",\"40\",\"16\",\"25\",\"27\",\"37\",\"1\",\"36\",\"39\",\"11\",\"0\",\"31\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "742eb51eb94354fecf71923c32a4bd9c23e811e1bd595e0baf7b48753ec7af9b",
+      "role": "proposer",
+      "role_index": 3,
+      "scope": "all",
+      "slot": "P03",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    },
+    {
+      "block_id": "fresh-dispute-r150",
+      "call_index": 1,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r150",
+      "expected_case_ids": [
+        "R150"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r150-solve-1",
+      "lens_id": "interwoven_lag_forensics",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nTest multiple stream counts, alignments, and small lags. Build each extracted subsequence by cycle index, continue its recurrence or difference law independently, and reweave the next five terms.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r150\",\"cases\":[{\"case_id\":\"R150\",\"prefix\":[\"17\",\"-25\",\"53\",\"-99\",\"209\",\"-413\",\"835\",\"-1657\",\"3321\",\"-6631\",\"13277\",\"-26545\",\"53103\",\"-106189\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "3f45292aaadf15963fda7cedcb90ce8b20a4d20faaa5d17b2251f46aeb72c957",
+      "role": "proposer",
+      "role_index": 1,
+      "scope": "all",
+      "slot": "P01",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    },
+    {
+      "block_id": "fresh-dispute-r150",
+      "call_index": 2,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r150",
+      "expected_case_ids": [
+        "R150"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r150-solve-2",
+      "lens_id": "phase_congruence_solver",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nTest short phase periods. Within each phase solve an affine congruence under one shared modulus. Reject any modulus or phase assignment that fails one visible transition, then calculate the next five states exactly.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r150\",\"cases\":[{\"case_id\":\"R150\",\"prefix\":[\"17\",\"-25\",\"53\",\"-99\",\"209\",\"-413\",\"835\",\"-1657\",\"3321\",\"-6631\",\"13277\",\"-26545\",\"53103\",\"-106189\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "035e488e91210570a91fa06f239613238228e91d8be3430929625fe6777af221",
+      "role": "proposer",
+      "role_index": 2,
+      "scope": "all",
+      "slot": "P02",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    },
+    {
+      "block_id": "fresh-dispute-r150",
+      "call_index": 3,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r150",
+      "expected_case_ids": [
+        "R150"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r150-solve-3",
+      "lens_id": "recurrence_procedure_duel",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nIndependently fit low-order recurrences and explicit procedural generators. Include periodic coefficients, residue-class subsequences, and segment coordinates, then use late-term reconstruction to choose between them.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r150\",\"cases\":[{\"case_id\":\"R150\",\"prefix\":[\"17\",\"-25\",\"53\",\"-99\",\"209\",\"-413\",\"835\",\"-1657\",\"3321\",\"-6631\",\"13277\",\"-26545\",\"53103\",\"-106189\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "eee6c226929773a5152517079f96594639b15d69b77abf3dfffbcd42f2e3aaa0",
+      "role": "proposer",
+      "role_index": 3,
+      "scope": "all",
+      "slot": "P03",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    },
+    {
+      "block_id": "fresh-dispute-r151",
+      "call_index": 1,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r151",
+      "expected_case_ids": [
+        "R151"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r151-solve-1",
+      "lens_id": "interwoven_lag_forensics",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nTest multiple stream counts, alignments, and small lags. Build each extracted subsequence by cycle index, continue its recurrence or difference law independently, and reweave the next five terms.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r151\",\"cases\":[{\"case_id\":\"R151\",\"prefix\":[\"-1\",\"-2\",\"-3\",\"-10\",\"-14\",\"-9\",\"-20\",\"-27\",\"-16\",\"-31\",\"-41\",\"-24\",\"-43\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "a9613c1efffc19ddc748a0b9d244b383d3c4f8ab1440433f3c8a3934b2d3ad0b",
+      "role": "proposer",
+      "role_index": 1,
+      "scope": "all",
+      "slot": "P01",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    },
+    {
+      "block_id": "fresh-dispute-r151",
+      "call_index": 2,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r151",
+      "expected_case_ids": [
+        "R151"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r151-solve-2",
+      "lens_id": "phase_congruence_solver",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nTest short phase periods. Within each phase solve an affine congruence under one shared modulus. Reject any modulus or phase assignment that fails one visible transition, then calculate the next five states exactly.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r151\",\"cases\":[{\"case_id\":\"R151\",\"prefix\":[\"-1\",\"-2\",\"-3\",\"-10\",\"-14\",\"-9\",\"-20\",\"-27\",\"-16\",\"-31\",\"-41\",\"-24\",\"-43\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "441316fad9a53142709d76aa18221213518a10078a1823fd0bb84041fef4f111",
+      "role": "proposer",
+      "role_index": 2,
+      "scope": "all",
+      "slot": "P02",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    },
+    {
+      "block_id": "fresh-dispute-r151",
+      "call_index": 3,
+      "category": "adaptive",
+      "dependency_ids": [],
+      "expected_block_id": "fresh-dispute-r151",
+      "expected_case_ids": [
+        "R151"
+      ],
+      "job_id": "fresh-80-gate-01-deep-F80G01-DEEP-fresh-dispute-r151-solve-3",
+      "lens_id": "recurrence_procedure_duel",
+      "method": "Frozen Deep Reconstruction Trio",
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "block_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer": {
+                  "items": {
+                    "pattern": "^(0|-?[1-9][0-9]*)$",
+                    "type": "string"
+                  },
+                  "maxItems": 5,
+                  "minItems": 5,
+                  "type": "array"
+                },
+                "case_id": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "check_summary": {
+                  "maxLength": 140,
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "rule_summary": {
+                  "maxLength": 180,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "case_id",
+                "answer",
+                "confidence",
+                "rule_summary",
+                "check_summary"
+              ],
+              "type": "object"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "5.0",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "block_id",
+          "results"
+        ],
+        "title": "Swarm Seeds 05 answer block",
+        "type": "object"
+      },
+      "phase": "fresh-80-gate-01-deep",
+      "prompt": "You are an isolated worker in a controlled reasoning experiment.\n\nDo not use or request Python, calculators, code execution, browsing, files,\ntools, skills, plugins, other agents, or external communication. Solve only\nfrom the supplied decimal strings.\n\nYou will receive one difficult integer-sequence case. Spend your full attention\non reconstructing its compact deterministic generator and predict exactly the\nnext FIVE terms. Do not assume a closed list of possible rules.\n\nGenerate multiple materially different hypotheses. Replay the entire prefix,\nhide late visible terms when useful, and reject every rule that cannot recover\nthem exactly. Prefer the shortest reproducible generator, not a trend fitted\nonly to the suffix. Audit indexing, signs, wraparound, and arithmetic.\n\nEvery answer term must be a canonical decimal string matching\n^(0|-?[1-9][0-9]*)$. Keep answer values as JSON strings.\n\nDo not reveal private chain of thought. Give only a short rule summary and a\nshort check summary. Return one JSON object only, with no Markdown, comments,\ncode fences, or text outside the JSON. Include the supplied case_id exactly\nonce. Copy the supplied block_id exactly, character for character, from TASK\nBLOCK JSON. Use this shape:\n\n{\n  \"schema_version\": \"5.0\",\n  \"block_id\": \"the exact supplied block_id\",\n  \"results\": [\n    {\n      \"case_id\": \"the supplied case_id\",\n      \"answer\": [\"term1\", \"term2\", \"term3\", \"term4\", \"term5\"],\n      \"confidence\": 0.0,\n      \"rule_summary\": \"concise reproducible rule\",\n      \"check_summary\": \"concise visible-prefix or holdout check\"\n    }\n  ]\n}\n\nROLE\nSolve every supplied case independently. Infer one complete allowed mechanism, replay the full prefix, and calculate the next five terms.\n\nSPECIAL ASSIGNMENT\nThis case was selected because eleven broad generators returned eleven distinct answers. Reconstruct it independently with the assigned method and return only an exactly replayable continuation.\n\nWORKER LENS\nIndependently fit low-order recurrences and explicit procedural generators. Include periodic coefficients, residue-class subsequences, and segment coordinates, then use late-term reconstruction to choose between them.\n\nTASK BLOCK JSON\n{\"block_id\":\"fresh-dispute-r151\",\"cases\":[{\"case_id\":\"R151\",\"prefix\":[\"-1\",\"-2\",\"-3\",\"-10\",\"-14\",\"-9\",\"-20\",\"-27\",\"-16\",\"-31\",\"-41\",\"-24\",\"-43\"]}],\"experiment_id\":\"swarm-seeds-05-exploration\",\"schema_version\":\"5.2-exploration\",\"selection_rule\":\"all eleven base predictions are unique\"}\n\nReturn the required JSON object now.\n",
+      "prompt_sha256": "a8aaddd669ffab4b71d75d19b8859db0351cd5e23ac590ae14cb4f91ef1d956a",
+      "role": "proposer",
+      "role_index": 3,
+      "scope": "all",
+      "slot": "P03",
+      "stage": "solve",
+      "stage_id": "solve",
+      "stage_index": 0,
+      "strategy_id": "F80G01-DEEP",
+      "strategy_sha256": "03600edf51c2e966646445bd2c1b536a159693155d6a632153b1bb0a131e3d64"
+    }
+  ],
+  "model": "gpt-5.6-luna",
+  "public_condition_label": "Light reasoning",
+  "reasoning_effort": "low",
+  "schema_version": "5.0",
+  "service_tier": "standard",
+  "stage_index": 0
+}

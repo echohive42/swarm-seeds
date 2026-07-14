@@ -1,0 +1,7 @@
+**/__pycache__/
+**/*.pyc
+
+# Machine-local Codex transport traces. Public evidence remains in prompts,
+# manifests, aggregate predictions, registrations, results, and run summaries.
+experiment/runs/**/runner*/
+experiment/runs/**/.run.lock

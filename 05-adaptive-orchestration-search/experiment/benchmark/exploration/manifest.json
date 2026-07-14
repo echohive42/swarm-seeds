@@ -1,0 +1,180 @@
+{
+  "benchmark_id": "ruleweave-5-general-prompt-research-v1",
+  "block_count": 20,
+  "block_schema_version": "5.1-exploration",
+  "block_tier_counts": [
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    },
+    {
+      "hard": 4,
+      "stress": 4,
+      "very-hard": 4
+    }
+  ],
+  "case_count": 240,
+  "cases_per_block": 12,
+  "cases_per_family_tier_cell": 10,
+  "checksums": {
+    "hidden/recognizer_audit.json": "928369c91baa44dd6eda3792d06949b9f84b23ab29c3aa7bc89f85fc10bbcaad",
+    "hidden/research_answers.jsonl": "65d4f08d3d563da1e709c0be33c97a6f69f329ed9f8de0b65c43146789d2e71a",
+    "public/research_B01.json": "dec32e0533e3293780b5f1ee264d8fa606bd2f1ddeb7064efbb68d28da8d2d49",
+    "public/research_B02.json": "bc92f1f67b7c623a088dd7c8512fbc3d029ae2ef5901475f3370d1a6f8c92117",
+    "public/research_B03.json": "5e76db9218cca833e1c4fdb979c814eb62d93a516cb4bdd886c25d723e108412",
+    "public/research_B04.json": "2c1f9137bfcf242d5d154837bf320ad109a3161fd5070c4dfa1ae8800d341674",
+    "public/research_B05.json": "aacff959be2c657974c3d4ad6ae204f46e5a6802656907358f5f4d80bda00f41",
+    "public/research_B06.json": "d15efd507efd1da8ab5005eed208b25c8cc4d504214e073a1f395593d2c182c2",
+    "public/research_B07.json": "4da2f24a13dffa4d647ce0481ad9faf3a59751187a205dbc01e61fbc536097f0",
+    "public/research_B08.json": "b8a27ac4704185919463e59a7e7f377eec87841724ffe41feca695a0d8266aba",
+    "public/research_B09.json": "1157c16ce0fa5b9285f6cfcbd1393cb0bbf6ddb22c43faffa9e56c4c31f1dd34",
+    "public/research_B10.json": "5d1f3f9412fb767d8163e540cb5f63f95a47ffe051cf0fe834e17f8f21ca5eb2",
+    "public/research_B11.json": "b473648f99313e227e5a41cfbebebe8b9124fc066974db8b57cdd7ca73510c91",
+    "public/research_B12.json": "0243a47332f7b17fb9aadb7b1b2a27a037e5839533928b8b7957c87201328699",
+    "public/research_B13.json": "030a2be6a29335363445a71a9adfc0494d1f3b69f2921eb4583decad6e2108a4",
+    "public/research_B14.json": "daeb197dcc8d80306127ebc2066ec05fdb7d1f8377857f7d9f3eb94f2e5bf706",
+    "public/research_B15.json": "935b0aba24a7f0db0252ed5f99fa25062123552e7b5c1d14c5c167c673b91a87",
+    "public/research_B16.json": "bc9f58394a0b2344e26ad0b596861bd6e1e6160c651e0c8c576c7c220635e694",
+    "public/research_B17.json": "89671640b047206b1fe06c4e7807e534cc98836472d07c1aeeb551000a51068a",
+    "public/research_B18.json": "06cc050e261730d5b3d35b4325772ad021b2d9a31f9a6279b3a0e7d909a16596",
+    "public/research_B19.json": "aee924a7d8367910c96d8b7db2de494c1da1108f8e4cdf387af0a6d37c354969",
+    "public/research_B20.json": "8c00aeee71393f506725cc730f889be27e5e4f36e62fde1b4badba6dee35346f",
+    "public/research_blocks.json": "12d4682a49ff2c25eb47dabe37f930356051fe1d07726782adb4c89b4b3a7add",
+    "public/research_cases.jsonl": "33664e6433bd7b0b5b6c9d711e8e9cdbfb91a072a1256470c38288448727a1aa"
+  },
+  "every_adjacent_block_pair_covers_all_24_family_tier_cells_once": true,
+  "experiment_id": "swarm-seeds-05-exploration",
+  "families": [
+    "POLY",
+    "PDELTA",
+    "AFFINE",
+    "LIN2",
+    "LAGPOLY",
+    "INTERLEAVE",
+    "GROWBLOCK",
+    "MODAFFINE"
+  ],
+  "overlap_guard_references": [
+    {
+      "benchmark_id": "ruleweave-5-v1",
+      "case_count": 72,
+      "manifest_sha256": "2277b7cce87eddac461283c3dfaf50c2dd3808f6c988f7712ca3be31475e4637"
+    },
+    {
+      "benchmark_id": "ruleweave-5-evolution-v1",
+      "case_count": 84,
+      "manifest_sha256": "695b6d0099e1b89f93c5071a2495b822292de94dd4ea81e0d78950cff0155029"
+    },
+    {
+      "benchmark_id": "ruleweave-5-decider-v1",
+      "case_count": 360,
+      "manifest_sha256": "20fa3633add9e79d07bfd6ca14c152ac6b3e1a120f0fe235d4b41aa62760c652"
+    },
+    {
+      "benchmark_id": "ruleweave-5-adaptive-director-v1",
+      "case_count": 336,
+      "manifest_sha256": "a86a37e8857895a9cb8c0d523ca835db12b8da9aa966b180f9ba7e9ee2e45737"
+    }
+  ],
+  "root_seed": "swarm-seeds-05-generalizable-exploration-2026-07-14-d",
+  "root_seed_sha256": "3a5426fe38e9e40715a5d71c57bb53f74d9aa21781f88de95befe504b2b8314e",
+  "schema_version": "1.0",
+  "status": "exploratory_not_confirmatory",
+  "task": "continue each integer sequence with exactly five terms",
+  "tiers": [
+    "hard",
+    "very-hard",
+    "stress"
+  ]
+}

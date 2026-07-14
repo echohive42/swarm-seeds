@@ -1,0 +1,43 @@
+{
+  "schema_version": "5.2-exploration",
+  "artifact_type": "experiment-05-fresh-gate-result",
+  "gate_id": "fresh-80-gate-02",
+  "scored_at_utc": "2026-07-14T03:28:47Z",
+  "status": "target_not_reached",
+  "target": {
+    "minimum_exact": 20,
+    "cases": 24,
+    "minimum_attainable_accuracy": 0.8333333333333334
+  },
+  "registered_system": {
+    "exact": 19,
+    "cases": 24,
+    "exact_accuracy": 0.7916666666666666,
+    "correct_terms": 103,
+    "terms": 120,
+    "term_accuracy": 0.8583333333333333
+  },
+  "diagnostics": {
+    "base_exact": 15,
+    "base_accuracy": 0.625,
+    "useful_overrides": 4,
+    "harmful_overrides": 0,
+    "candidate_oracle_exact": 21,
+    "candidate_oracle_accuracy": 0.875
+  },
+  "execution": {
+    "logical_calls": 340,
+    "model_attempts": 340,
+    "valid_outputs": 340,
+    "invalid_outputs": 0,
+    "retries": 0,
+    "maximum_concurrency": 60
+  },
+  "interpretation": "The gate is a valid near miss. Nineteen of 24 is 79.2%, which is below the preregistered 20-of-24 threshold and must not be rounded into success. The answer file is now open development evidence. Any revised selector or orchestration must be frozen before evaluation on another newly generated gate.",
+  "sha256": {
+    "master_registration": "ebb05202ad34cde86af8aecf31a3325a37cb266309b1badbd5e019b4a62b5a06",
+    "unseal_registration": "c28a5de2c2221f468fee2b0066116f0646d1b4e71678c9bf61dbf9fbdab760e2",
+    "score": "8892a5c634d201154311e0afb678f0c1cdfc542f25c38a4ff4c6c43863ec09e1",
+    "sealed_answers": "3c3a1b44a92ac61fa55deb045c934cea93112df8e63326d002c05196b5107bc1"
+  }
+}
