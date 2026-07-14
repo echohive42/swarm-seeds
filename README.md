@@ -4,6 +4,15 @@ Open experiments for learning how AI agents should reason, vote, review, and coo
 
 This repository preserves the actual experiment, not a simplified demo. Each numbered folder contains one reusable `SKILL.md` seed beside the complete run that produced it: protocol, prompts, benchmark, raw agent outputs, failed attempts, scoring, audits, charts, and limitations.
 
+> [!IMPORTANT]
+> ### Latest breakthrough: make agents prove their answers
+>
+> On a fresh, balanced 24-sequence gate, a Luna Light plurality solved **16/24 cases, or 66.7%**. An adaptive system using **visible self-verification** solved **22/24, or 91.7%**. It repaired six plurality errors and harmed none of the correct answers.
+>
+> The key idea was to hide known public terms and require agents to reconstruct them before trusting their unknown prediction. This is a strong sequence-domain result, not a universal accuracy claim.
+>
+> **[Read Experiment 05: Adaptive Orchestration Search →](05-adaptive-orchestration-search/README.md)**
+
 ## From Echohive
 
 Swarm Seeds is part of [Echohive](https://www.echohive.ai/), a living laboratory for testing what one person can build with better AI systems and better judgment.
